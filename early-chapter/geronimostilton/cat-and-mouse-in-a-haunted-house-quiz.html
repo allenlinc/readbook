@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cat and Mouse in a Haunted House — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#3 · Cat and Mouse in a Haunted House</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: Cat and Mouse in a Haunted House</em> (Scholastic, 2000) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who is Geronimo Stilton?", "zh": "杰罗尼摩·斯蒂顿是谁？"}, "options": [{"en": "A doctor who treats scared mice", "zh": "治疗胆小老鼠的医生"}, {"en": "A newspaper mouse who runs The Rodent's Gazette", "zh": "一只经营《啮齿动物公报》的老鼠记者"}, {"en": "A chef at the French restaurant Le Squeakery", "zh": "在吱吱法餐厅当厨师的鼠"}, {"en": "A cat who haunts Cannycat Castle", "zh": "一只出没于卡尼猫城堡的猫"}], "answer": 1, "explain": {"en": "Geronimo says he lives in New Mouse City and runs The Rodent's Gazette, the most popular paper on Mouse Island.", "zh": "杰罗尼摩说自己住在老鼠岛首府新鼠城，经营着岛上最受欢迎的报纸《啮齿动物公报》。"}}, {"q": {"en": "Why was Geronimo driving through the Dark Forest?", "zh": "杰罗尼摩为什么会开车穿过幽暗森林？"}, "options": [{"en": "To deliver cheese to Cannycat Castle", "zh": "要给卡尼猫城堡送奶酪"}, {"en": "To visit his aunt Sweetfur in the Pleasant Paw Hills", "zh": "要去欢乐爪丘陵探望他的甜毛姑妈"}, {"en": "To escape from a scary cat", "zh": "为了躲避一只可怕的猫"}, {"en": "To go bowling at Lucky Paw Lanes", "zh": "去幸运爪球馆打保龄球"}], "answer": 1, "explain": {"en": "He left New Mouse City to visit his aunt Sweetfur, who was on vacation in the Pleasant Paw Hills, and had to drive through the Dark Forest.", "zh": "他离开新鼠城，是去探望在欢乐爪丘陵度假的甜毛姑妈，途中必须开车穿过幽暗森林。"}}, {"q": {"en": "On what special night does the story begin?", "zh": "这个故事开始于哪一个特别的夜晚？"}, "options": [{"en": "Christmas Eve", "zh": "平安夜"}, {"en": "New Year's Eve", "zh": "除夕夜"}, {"en": "Geronimo's birthday", "zh": "杰罗尼摩的生日"}, {"en": "Halloween, on October thirty-first", "zh": "十月三十一日的万圣节前夜"}], "answer": 3, "explain": {"en": "Geronimo realizes it is a foggy October night and then remembers 'Today is October thirty-first. It's Halloween!'", "zh": "杰罗尼摩发现那是个雾蒙蒙的十月夜晚，随后想起『今天是十月三十一日，万圣节前夜！』"}}, {"q": {"en": "What is the name of the castle Geronimo finds?", "zh": "杰罗尼摩发现的城堡叫什么名字？"}, "options": [{"en": "Cannycat Castle", "zh": "卡尼猫城堡"}, {"en": "Raterloo Castle", "zh": "拉特卢城堡"}, {"en": "Sweetfur Castle", "zh": "甜毛城堡"}, {"en": "Rodent Castle", "zh": "啮齿动物城堡"}], "answer": 0, "explain": {"en": "A sign in the fog reads 'To Cannycat Castle,' and a wall hanging says the castle belongs to Duke Bigpaw Cannycat.", "zh": "雾中出现一块路牌写着『通往卡尼猫城堡』，墙上的挂毯也说明城堡属于大爪卡尼猫公爵。"}}, {"q": {"en": "What sound does the castle doorbell make?", "zh": "城堡的门铃发出的是什么声音？"}, "options": [{"en": "A cheerful mouse song", "zh": "欢快的老鼠歌谣"}, {"en": "A loud thunder clap", "zh": "响亮的雷声"}, {"en": "A recorded, terrifying meow", "zh": "一段录音里可怕的猫叫声"}, {"en": "Classical music", "zh": "古典音乐"}], "answer": 2, "explain": {"en": "When Geronimo presses the blood-red doorbell, a horrifying 'MEEEEOOOOWWW!!!' plays — he later learns it was a taped meow.", "zh": "杰罗尼摩按下血红的门铃后，响起一声可怕的『喵呜——！』，后来他发现那是录音里的猫叫。"}}, {"q": {"en": "In what year was the battle of Raterloo, and who won?", "zh": "拉特卢战役发生在哪一年，又是谁获胜了？"}, "options": [{"en": "In 1754, the cats won", "zh": "一七五四年，猫获胜"}, {"en": "In 1754, the rodents won", "zh": "一七五四年，啮齿动物获胜"}, {"en": "In 1700, the cats won", "zh": "一七〇〇年，猫获胜"}, {"en": "In 1815, the rodents won", "zh": "一八一五年，啮齿动物获胜"}], "answer": 1, "explain": {"en": "Geronimo recalls from his Encyclopaedia Ratannica that the battle of Raterloo took place in 1754 and the rodents won.", "zh": "杰罗尼摩从《鼠类百科全书》中记起，拉特卢战役发生在1754年，最终是啮齿动物取得了胜利。"}}, {"q": {"en": "What does Geronimo find in the kitchen cellar?", "zh": "杰罗尼摩在厨房的地窖里发现了什么？"}, "options": [{"en": "A mouse bone and a big block of Swiss cheese", "zh": "一根老鼠骨头和一大块瑞士奶酪"}, {"en": "A hidden treasure of gold", "zh": "一堆隐藏的黄金宝藏"}, {"en": "A sleeping cat", "zh": "一只正在睡觉的猫"}, {"en": "A fancy birthday cake", "zh": "一个精美的生日蛋糕"}], "answer": 0, "explain": {"en": "In the cellar he spots cans of tuna, dried meat, and a big block of Swiss cheese, and finds a mouse bone inside the copper pot.", "zh": "在地窖里，他看到金枪鱼罐头、肉干和一大块瑞士奶酪，还在铜锅里发现了一根老鼠骨头。"}}, {"q": {"en": "Which family members come to the castle to help Geronimo?", "zh": "哪些家人赶来城堡帮忙杰罗尼摩？"}, "options": [{"en": "His aunt Sweetfur and uncle Flickrat", "zh": "他的甜毛姑妈和弗利克拉特叔叔"}, {"en": "His boss and the newspaper editor", "zh": "他的老板和报纸主编"}, {"en": "His sister Thea, cousin Trap, and nephew Benjamin", "zh": "他的妹妹蒂奥、表哥特拉普和侄子本杰明"}, {"en": "Two friendly cats from the castle", "zh": "城堡里两只友好的猫"}], "answer": 2, "explain": {"en": "After Geronimo calls her, his sister Thea arrives with cousin Trap and nephew Benjamin to see the 'ghost.'", "zh": "杰罗尼摩打电话后，妹妹蒂奥带着表哥特拉普和侄子本杰明赶来，想亲眼看看那只『幽灵』。"}}, {"q": {"en": "Who believes Geronimo and solves the mystery like a detective?", "zh": "谁相信杰罗尼摩，并像小侦探一样解开了谜团？"}, "options": [{"en": "His sister Thea", "zh": "他的妹妹蒂奥"}, {"en": "His nephew Benjamin", "zh": "他的侄子本杰明"}, {"en": "His cousin Trap", "zh": "他的表哥特拉普"}, {"en": "The castle ghost", "zh": "城堡里的幽灵"}], "answer": 1, "explain": {"en": "Benjamin always believes his uncle, finds clues like a gray painted feather and an extension cord, and helps him solve the trick.", "zh": "本杰明始终相信叔叔，还像侦探一样找到涂成灰色的鸡毛、电线等线索，帮他识破了恶作剧。"}}, {"q": {"en": "What was the real cause of all the spooky ghosts and monsters?", "zh": "所有可怕的幽灵和怪物其实是怎么回事？"}, "options": [{"en": "A box of Halloween magic tricks and practical jokes called Pranky Paws", "zh": "一盒名叫『捣蛋爪』的万圣节魔术道具和恶作剧玩具"}, {"en": "A real ghost named Slicedpaw", "zh": "一只名叫斯莱德波的真正幽灵"}, {"en": "Geronimo's bad dream after eating cheese", "zh": "杰罗尼摩吃奶酪后做的噩梦"}, {"en": "A curse on the Cannycat family", "zh": "卡尼猫家族受到的诅咒"}], "answer": 0, "explain": {"en": "On the stairs they find a tag for 'Pranky Paws: Super Scary Halloween Magic Tricks and Practical Jokes,' proving someone was playing tricks.", "zh": "他们在楼梯上发现一张写着『捣蛋爪：超可怕万圣节魔术与恶作剧』的标签，证明一切都是有人在搞恶作剧。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

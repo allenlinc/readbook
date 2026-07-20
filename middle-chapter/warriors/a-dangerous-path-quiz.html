@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Dangerous Path · 猫武士 Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>A Dangerous Path</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">险路惊魂</p>
+    <div class="mark">⚠️</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: The Prophecy Begins — A Dangerous Path</em> (HarperCollins, 2003)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What does Tigerstar use to try to destroy ThunderClan?", "zh": "虎星利用什么来试图摧毁雷族？"}, "options": [{"en": "A pack of dogs", "zh": "一群狗"}, {"en": "A flood", "zh": "一场洪水"}, {"en": "A fire", "zh": "一场火"}, {"en": "BloodClan", "zh": "BloodClan（血族）"}], "answer": 0, "explain": {"en": "Tigerstar lures a pack of dogs into ThunderClan's territory with a trail of prey, planning to wipe out the Clan.", "zh": "虎星用一串猎物把狗群引向雷族领地，企图灭掉整个族群。"}}, {"q": {"en": "How does Bluestar save her Clan from the dogs?", "zh": "蓝星是如何从狗群手中拯救族群的？"}, "options": [{"en": "She leads the dogs over the cliff into the gorge, sacrificing herself", "zh": "她把狗群引下悬崖坠入峡谷，牺牲了自己"}, {"en": "She fights them all alone and wins", "zh": "她独自战胜了所有狗"}, {"en": "She asks RiverClan for help", "zh": "她向河族求援"}, {"en": "She traps them in a cave", "zh": "她把它们困进洞穴"}], "answer": 0, "explain": {"en": "Bluestar leads the dog pack over the edge of the gorge, dying to save ThunderClan.", "zh": "蓝星把狗群引下峡谷悬崖，为拯救雷族而牺牲。"}}, {"q": {"en": "What new rank does Fireheart receive after Bluestar's death?", "zh": "蓝星死后，火星获得了什么新职位？"}, "options": [{"en": "Leader (Firestar)", "zh": "Leader（Firestar 火星）"}, {"en": "Deputy", "zh": "Deputy（副族长）"}, {"en": "Warrior", "zh": "Warrior（武士）"}, {"en": "Elder", "zh": "Elder（长老）"}], "answer": 0, "explain": {"en": "Fireheart becomes Firestar, the new leader of ThunderClan.", "zh": "Fireheart 成为雷族新任族长——火星（Firestar）。"}}, {"q": {"en": "Who becomes Firestar's mate / close partner?", "zh": "谁成了 Firestar 的伴侣／亲密伙伴？"}, "options": [{"en": "Sandstorm", "zh": "Sandstorm（沙暴）"}, {"en": "Cinderpelt", "zh": "Cinderpelt（炭毛）"}, {"en": "Spottedleaf", "zh": "Spottedleaf（斑叶）"}, {"en": "Mistyfoot", "zh": "Mistyfoot（雾脚）"}], "answer": 0, "explain": {"en": "Sandstorm stands beside Firestar and becomes his mate after he takes leadership.", "zh": "在火星成为族长后，沙暴一直陪伴在他身边，成为他的伴侣。"}}, {"q": {"en": "What does Firestar receive as the new leader of ThunderClan?", "zh": "作为雷族新族长，Firestar 获得了什么？"}, "options": [{"en": "Nine lives and a new name from StarClan", "zh": "来自星族的九条命和新名字"}, {"en": "A magic stone", "zh": "一块魔法石"}, {"en": "A tail of nine tails", "zh": "九条尾巴"}, {"en": "A crown", "zh": "一顶王冠"}], "answer": 0, "explain": {"en": "Like all leaders, Firestar receives nine lives and his leader name from StarClan.", "zh": "和所有族长一样，火星从星族那里获得了九条命和族长之名。"}}, {"q": {"en": "Where does Tigerstar set his deadly trap for the Clan and the dogs?", "zh": "虎星把致命陷阱设在了哪里（对付族群和狗）？"}, "options": [{"en": "At the gorge (a dead-end cliff)", "zh": "在峡谷（一条死路悬崖）"}, {"en": "In the river", "zh": "在河里"}, {"en": "In the camp", "zh": "在营地里"}, {"en": "In Twolegplace", "zh": "在两脚兽地盘"}], "answer": 0, "explain": {"en": "Tigerstar leads the dogs to a gorge that ends in a cliff, intending to wipe out ThunderClan — but Bluestar turns the trap on the dogs.", "zh": "虎星把狗群引到尽头是悬崖的峡谷，想灭掉雷族——但蓝星将这陷阱反作用于狗群。"}}, {"q": {"en": "Who leads RiverClan at this time?", "zh": "此时的河族族长是谁？"}, "options": [{"en": "Leopardstar", "zh": "Leopardstar（豹星）"}, {"en": "Crookedstar", "zh": "Crookedstar（曲星）"}, {"en": "Mistyfoot", "zh": "Mistyfoot（雾脚）"}, {"en": "Tigerstar", "zh": "Tigerstar（虎星）"}], "answer": 0, "explain": {"en": "Crookedstar has died (in the flood of the previous book), so Leopardstar now leads RiverClan.", "zh": "曲星已死（死于上一本的洪水），此时由豹星统领河族。"}}, {"q": {"en": "How does Tigerstar escape after the dog plan fails?", "zh": "狗群计划失败后，虎星如何脱身？"}, "options": [{"en": "He flees to gather more cats (BloodClan) for a bigger war", "zh": "他逃走，去纠集更多猫（血族）准备更大的战争"}, {"en": "He becomes a kittypet", "zh": "他成了宠物猫"}, {"en": "He dies", "zh": "他死了"}, {"en": "He joins WindClan", "zh": "他加入了风族"}], "answer": 0, "explain": {"en": "Tigerstar survives and later forms 'TigerClan' with BloodClan, setting up the final battle in book 6.", "zh": "虎星活了下来，后来联合血族组成“虎族”，为第六本的决战埋下伏笔。"}}, {"q": {"en": "What emotion drives Bluestar's dangerous choices in this book?", "zh": "是什么情绪驱使蓝星在本书中做出危险的抉择？"}, "options": [{"en": "Paranoia that StarClan and her Clan betrayed her", "zh": "她认定星族和族群背叛了自己的偏执"}, {"en": "Greed for power", "zh": "对权力的贪婪"}, {"en": "Love for Tigerstar", "zh": "对虎星的爱"}, {"en": "Fear of water", "zh": "对水的恐惧"}], "answer": 0, "explain": {"en": "Bluestar's growing belief that everyone has betrayed her leads her to make reckless, dangerous decisions.", "zh": "蓝星越来越坚信所有人都背叛了她，这让她做出了鲁莽而危险的决断。"}}, {"q": {"en": "What title does Fireheart take when he becomes leader?", "zh": "火星成为族长时，采用了什么名号？"}, "options": [{"en": "Firestar", "zh": "Firestar（火星）"}, {"en": "Fireheart (unchanged)", "zh": "仍是 Fireheart（火星）"}, {"en": "Flameleader", "zh": "Flameleader（焰领导）"}, {"en": "Emberstar", "zh": "Emberstar（余烬星）"}], "answer": 0, "explain": {"en": "As leader he takes the name Firestar, keeping the 'fire' of the prophecy that began his journey.", "zh": "成为族长后他取名 Firestar，延续了开启他旅程的那道“火”的预言。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

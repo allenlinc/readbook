@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warriors · 猫武士 — The Prophecy Begins</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);min-height:100vh;padding:0 0 40px;
+  }
+  header{
+    background:var(--ember);color:#fff;text-align:center;
+    padding:26px 18px 20px;position:relative;
+  }
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .topbar h1{margin:0;font-size:1.5rem;flex:1;text-align:center;}
+  .homeBtn{
+    font-size:1.35rem;text-decoration:none;background:#fff;border-radius:50%;
+    width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{margin:10px 0 0;font-size:.92rem;opacity:.94;}
+  header .arc{font-weight:bold;letter-spacing:1px;}
+  .wrap{max-width:1000px;margin:26px auto 0;padding:0 18px;}
+  .intro{
+    background:var(--cream);border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.3);
+    padding:18px 22px;font-size:.95rem;line-height:1.6;color:#444;
+  }
+  .intro b{color:var(--forest-dark);}
+  .grid{
+    margin-top:22px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;
+  }
+  .book{
+    background:var(--cream);border-radius:16px;overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.28);
+    display:flex;flex-direction:column;border-top:6px solid var(--accent,var(--forest));
+    transition:transform .15s,box-shadow .15s;
+  }
+  .book:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(0,0,0,.34);}
+  .book .top{padding:16px;text-align:center;background:linear-gradient(180deg,var(--accent,#2f5d3a),transparent);}
+  .letter{
+    width:54px;height:54px;line-height:54px;border-radius:50%;background:#fff;
+    color:var(--accent,#2f5d3a);font-size:1.5rem;font-weight:bold;margin:0 auto 8px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+  }
+  .book .emoji{font-size:1.7rem;}
+  .book .title{margin:4px 0;font-size:1.05rem;font-weight:bold;line-height:1.3;padding:0 12px;}
+  .book .titleZh{margin:0 0 6px;font-size:.85rem;color:#a06a1f;text-align:center;font-weight:bold;}
+  .book .body{padding:6px 14px 16px;flex:1;display:flex;flex-direction:column;}
+  .book .desc{font-size:.82rem;color:#555;line-height:1.45;margin:0 0 12px;flex:1;padding:0 6px;}
+  .start{
+    display:block;text-align:center;text-decoration:none;font-family:inherit;
+    font-size:.95rem;font-weight:bold;color:#fff;background:var(--accent,#2f5d3a);
+    padding:10px;border-radius:30px;box-shadow:0 4px 12px rgba(0,0,0,.2);transition:filter .15s;
+  }
+  .start:hover{filter:brightness(1.08);}
+  footer{text-align:center;color:rgba(255,255,255,.85);font-size:.8rem;margin-top:32px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    <h1>Warriors · 猫武士</h1>
+    <span style="width:40px"></span>
+  </div>
+  <p class="arc">The Prophecy Begins · 预言开始</p>
+  <p>中章书 · Middle Chapter Books — by Erin Hunter</p>
+</header>
+
+<div class="wrap">
+  <div class="intro">
+    🐾 <b>6 本《猫武士·预言开始》中英双语阅读理解测验。</b><br>
+    6 bilingual (English / 中文) comprehension quizzes for the first arc of Warriors. Pick a book, answer 10 questions, then check your answers!
+  </div>
+
+  <div class="grid">
+    <article class="book" style="--accent:#e67e22">
+      <div class="top"><div class="letter">1</div><div class="emoji">🔥</div></div>
+      <div class="body">
+        <h3 class="title">Into the Wild</h3>
+        <p class="titleZh">呼唤野性</p>
+        <p class="desc">A housecat named Rusty joins ThunderClan as Firepaw — and a prophecy says fire will save the Clan. 🔥</p>
+        <a class="start" href="into-the-wild-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#c0392b">
+      <div class="top"><div class="letter">2</div><div class="emoji">❄️</div></div>
+      <div class="body">
+        <h3 class="title">Fire and Ice</h3>
+        <p class="titleZh">寒冰烈火</p>
+        <p class="desc">Fireheart is a warrior now — but his best friend Graystripe loves a RiverClan cat, and Tigerclaw's treachery grows. ❄️</p>
+        <a class="start" href="fire-and-ice-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#8e44ad">
+      <div class="top"><div class="letter">3</div><div class="emoji">🌲</div></div>
+      <div class="body">
+        <h3 class="title">Forest of Secrets</h3>
+        <p class="titleZh">秘密森林</p>
+        <p class="desc">Long-held secrets burst into the open — Bluestar's hidden kits, Yellowfang's past, and Tigerclaw's betrayal. 🌲</p>
+        <a class="start" href="forest-of-secrets-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2980b9">
+      <div class="top"><div class="letter">4</div><div class="emoji">🌩️</div></div>
+      <div class="body">
+        <h3 class="title">Rising Storm</h3>
+        <p class="titleZh">风暴将临</p>
+        <p class="desc">A lightning fire sweeps the forest, and Bluestar's trust in her Clan begins to crack. 🌩️</p>
+        <a class="start" href="rising-storm-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#5e35b1">
+      <div class="top"><div class="letter">5</div><div class="emoji">⚠️</div></div>
+      <div class="body">
+        <h3 class="title">A Dangerous Path</h3>
+        <p class="titleZh">险路惊魂</p>
+        <p class="desc">Tigerstar unleashes a dog pack on ThunderClan — and Bluestar makes the ultimate sacrifice. ⚠️</p>
+        <a class="start" href="a-dangerous-path-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#1f6b41">
+      <div class="top"><div class="letter">6</div><div class="emoji">🌑</div></div>
+      <div class="body">
+        <h3 class="title">The Darkest Hour</h3>
+        <p class="titleZh">黑暗时刻</p>
+        <p class="desc">Tigerstar unites the Clans under 'TigerClan' with BloodClan's Scourge — and Firestar faces his darkest hour. 🌑</p>
+        <a class="start" href="the-darkest-hour-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+  </div>
+</div>
+
+<footer>Part of 分级阅读乐园 · Reading by Level</footer>
+</body>
+</html>

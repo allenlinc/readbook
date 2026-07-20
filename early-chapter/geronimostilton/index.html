@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geronimo Stilton — Books</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);min-height:100vh;padding:0 0 40px;
+  }
+  header{
+    background:var(--red);color:#fff;text-align:center;
+    padding:26px 18px 20px;position:relative;
+  }
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .topbar h1{margin:0;font-size:1.5rem;flex:1;text-align:center;}
+  .homeBtn{
+    font-size:1.35rem;text-decoration:none;background:#fff;border-radius:50%;
+    width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{margin:10px 0 0;font-size:.92rem;opacity:.92;}
+  .mouse{
+    width:54px;height:46px;border-radius:50% 50% 45% 45%;background:#fff;
+    margin:14px auto 4px;position:relative;box-shadow:0 0 0 3px rgba(0,0,0,.06) inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-13px;width:15px;height:24px;background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:9px;transform:rotate(-12deg);}
+  .mouse::after{right:9px;transform:rotate(12deg);}
+  .wrap{max-width:1000px;margin:26px auto 0;padding:0 18px;}
+  .intro{
+    background:var(--cream);border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.3);
+    padding:18px 22px;font-size:.95rem;line-height:1.6;color:#444;
+  }
+  .intro b{color:var(--grass-dark);}
+  .grid{
+    margin-top:22px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;
+  }
+  .book{
+    background:var(--cream);border-radius:16px;overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.28);
+    display:flex;flex-direction:column;border-top:6px solid var(--accent,var(--grass));
+    transition:transform .15s,box-shadow .15s;
+  }
+  .book:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(0,0,0,.34);}
+  .book .top{padding:16px;text-align:center;background:linear-gradient(180deg,var(--accent,#2e8b57),transparent);}
+  .num{
+    width:54px;height:54px;line-height:54px;border-radius:50%;background:#fff;
+    color:var(--accent,#2e8b57);font-size:1.5rem;font-weight:bold;margin:0 auto 8px;
+    border:3px solid #fff;box-shadow:0 4px 10px rgba(0,0,0,.2);
+  }
+  .book .emoji{font-size:1.7rem;}
+  .book .title{margin:4px 0;font-size:1.02rem;font-weight:bold;line-height:1.3;padding:0 12px;}
+  .book .titleZh{margin:0 0 6px;font-size:.82rem;color:#888;padding:0 12px;}
+  .book .body{padding:6px 14px 16px;flex:1;display:flex;flex-direction:column;}
+  .book .desc{font-size:.82rem;color:#555;line-height:1.45;margin:0 0 12px;flex:1;padding:0 6px;}
+  .start{
+    display:block;text-align:center;text-decoration:none;font-family:inherit;
+    font-size:.95rem;font-weight:bold;color:#fff;background:var(--accent,#2e8b57);
+    padding:10px;border-radius:30px;box-shadow:0 4px 12px rgba(0,0,0,.2);transition:filter .15s;
+  }
+  .start:hover{filter:brightness(1.08);}
+  footer{text-align:center;color:rgba(255,255,255,.85);font-size:.8rem;margin-top:32px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    <h1>Geronimo Stilton</h1>
+    <span style="width:40px"></span>
+  </div>
+  <div class="mouse"></div>
+  <p>初章书 · Early Chapter Books — by Elisabetta Dami (as Geronimo Stilton)</p>
+</header>
+
+<div class="wrap">
+  <div class="intro">
+    🐭 <b>10 本杰罗尼摩·斯蒂顿冒险故事（#1–#10），每本都有中英双语阅读理解测验。</b><br>
+    10 Geronimo Stilton adventures, each with a bilingual (English / 中文) comprehension quiz. Tap a book, read the questions, then check your answers!
+  </div>
+
+  <div class="grid">
+    <article class="book" style="--accent:#c0392b">
+      <div class="top"><div class="num">1</div><div class="emoji">💎</div></div>
+      <div class="body">
+        <h3 class="title">Lost Treasure of the Emerald Eye</h3>
+        <p class="titleZh">绿宝石之眼的失落宝藏</p>
+        <p class="desc">Geronimo's sister Thea drags him on a treasure hunt for the Emerald Eye — with cousin Trap and nephew Benjamin along for chaos! 💎</p>
+        <a class="start" href="lost-treasure-of-the-emerald-eye-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#8e44ad">
+      <div class="top"><div class="num">2</div><div class="emoji">🐫</div></div>
+      <div class="body">
+        <h3 class="title">The Curse of the Cheese Pyramid</h3>
+        <p class="titleZh">奶酪金字塔的诅咒</p>
+        <p class="desc">Geronimo is sent to Egypt to report on the pyramids and meets a wacky professor with a smelly secret invention! 🐫</p>
+        <a class="start" href="curse-of-the-cheese-pyramid-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2980b9">
+      <div class="top"><div class="num">3</div><div class="emoji">👻</div></div>
+      <div class="body">
+        <h3 class="title">Cat and Mouse in a Haunted House</h3>
+        <p class="titleZh">鬼屋里的猫和老鼠</p>
+        <p class="desc">Geronimo gets lost in the foggy Dark Forest and spends a spooky Halloween night in a creepy castle full of cats and 'ghosts'! 👻</p>
+        <a class="start" href="cat-and-mouse-in-a-haunted-house-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#16a085">
+      <div class="top"><div class="num">4</div><div class="emoji">🐱</div></div>
+      <div class="body">
+        <h3 class="title">I'm Too Fond of My Fur!</h3>
+        <p class="titleZh">我太喜欢我的毛了！</p>
+        <p class="desc">Geronimo braves the freezing Himalayas to help his friend Professor von Volt and meets a hidden family of gentle yetis! 🐱</p>
+        <a class="start" href="i-m-too-fond-of-my-fur-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#e67e22">
+      <div class="top"><div class="num">5</div><div class="emoji">🌴</div></div>
+      <div class="body">
+        <h3 class="title">Four Mice Deep in the Jungle</h3>
+        <p class="titleZh">丛林深处的四只老鼠</p>
+        <p class="desc">Geronimo is tricked by his family into a jungle survival school where he faces his fears and becomes a brave little mouse! 🌴</p>
+        <a class="start" href="four-mice-deep-in-the-jungle-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#27ae60">
+      <div class="top"><div class="num">6</div><div class="emoji">🧀</div></div>
+      <div class="body">
+        <h3 class="title">Paws Off, Cheddarface!</h3>
+        <p class="titleZh">别动，切达脸！</p>
+        <p class="desc">Geronimo's sneaky rival hires a look-alike to steal his newspaper and his good name, but with his family's help he gets everything back! 🧀</p>
+        <a class="start" href="paws-off-cheddarface-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#d4ac0d">
+      <div class="top"><div class="num">7</div><div class="emoji">🍕</div></div>
+      <div class="body">
+        <h3 class="title">Red Pizzas for a Blue Count</h3>
+        <p class="titleZh">给蓝伯爵的红披萨</p>
+        <p class="desc">Geronimo and his family rush to a spooky castle to rescue cousin Trap, only to find he's fine — and that the creepy count and countess are really bats who love bug pizzas! 🍕</p>
+        <a class="start" href="red-pizzas-for-a-blue-count-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#c2185b">
+      <div class="top"><div class="num">8</div><div class="emoji">🏴‍☠️</div></div>
+      <div class="body">
+        <h3 class="title">Attack of the Bandit Cats</h3>
+        <p class="titleZh">强盗猫来袭</p>
+        <p class="desc">Geronimo and his family are captured by pirate cats but outsmart them with a clever trick and sail home with stolen treasure! 🏴‍☠️</p>
+        <a class="start" href="attack-of-the-bandit-cats-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#0097a7">
+      <div class="top"><div class="num">9</div><div class="emoji">🏖️</div></div>
+      <div class="body">
+        <h3 class="title">A Fabumouse Vacation for Geronimo</h3>
+        <p class="titleZh">杰罗尼摩的奇妙假期</p>
+        <p class="desc">Geronimo just wants a cool, quiet vacation, but one disaster after another keeps him stuck at work — until he finally ends up at the silly Ratty Tatty Hotel with his noisy assistant Pinky! 🏖️</p>
+        <a class="start" href="a-fabumouse-vacation-for-geronimo-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#7e57c2">
+      <div class="top"><div class="num">10</div><div class="emoji">☕</div></div>
+      <div class="body">
+        <h3 class="title">All Because of a Cup of Coffee</h3>
+        <p class="titleZh">都怪那杯咖啡</p>
+        <p class="desc">When a spilled cup of coffee makes Geronimo fall for a countess, a wild family trip to find a legendary cheese valley teaches him what really matters! ☕</p>
+        <a class="start" href="all-because-of-a-cup-of-coffee-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+  </div>
+</div>
+
+<footer>Part of 英语分级阅读乐园 · Reading by Level</footer>
+</body>
+</html>

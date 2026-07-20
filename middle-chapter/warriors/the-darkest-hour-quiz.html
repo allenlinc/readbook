@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Darkest Hour · 猫武士 Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Darkest Hour</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">黑暗时刻</p>
+    <div class="mark">🌑</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: The Prophecy Begins — The Darkest Hour</em> (HarperCollins, 2003)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What ruthless cat from the city (Twolegplace) leads BloodClan?", "zh": "来自城市（两脚兽地盘）、统领血族的冷酷猫是谁？"}, "options": [{"en": "Scourge", "zh": "Scourge（长鞭）"}, {"en": "Bone", "zh": "Bone（骨头）"}, {"en": "Sasha", "zh": "Sasha（萨莎）"}, {"en": "Barley", "zh": "Barley（大麦）"}], "answer": 0, "explain": {"en": "Scourge is the small but deadly leader of BloodClan, a gang of city cats.", "zh": "长鞭是血族（一群城市猫）的领袖，个头虽小却极其致命。"}}, {"q": {"en": "How does Tigerstar die in this book?", "zh": "本书中虎星是怎么死的？"}, "options": [{"en": "Scourge kills him with one blow, taking all nine lives", "zh": "长鞭一击杀了他，夺走全部九条命"}, {"en": "Firestar kills him", "zh": "火星杀了他"}, {"en": "He falls in the gorge", "zh": "他坠入峡谷"}, {"en": "A dog kills him", "zh": "一只狗杀了他"}], "answer": 0, "explain": {"en": "Scourge, betrayed by Tigerstar, slits his throat and ends all nine of his lives at once.", "zh": "被虎星背叛的长鞭割开他的喉咙，一次性夺走了他的九条命。"}}, {"q": {"en": "What false sign does Tigerstar use to unite ShadowClan and RiverClan under him?", "zh": "虎星用什么样的假象把影族和河族统一到自己麾下？"}, "options": [{"en": "A fake omen / 'TigerClan' prophecy", "zh": "一个伪造的预兆／“虎族”预言"}, {"en": "A gift of prey", "zh": "一份猎物礼物"}, {"en": "A threat of fire", "zh": "火灾威胁"}, {"en": "A magic stone", "zh": "一块魔法石"}], "answer": 0, "explain": {"en": "Tigerstar forges a sign to convince the other Clans to merge into 'TigerClan' under his rule.", "zh": "虎星伪造了一个预兆，诱使其他族群合并到他统治的“虎族”之下。"}}, {"q": {"en": "Which Clans stand against Tigerstar's TigerClan?", "zh": "哪两个族群站在虎星的“虎族”对立面？"}, "options": [{"en": "ThunderClan and WindClan", "zh": "雷族与风族"}, {"en": "RiverClan and ShadowClan", "zh": "河族与影族"}, {"en": "BloodClan and SkyClan", "zh": "血族与天族"}, {"en": "All four against him", "zh": "四大族群都反对他"}], "answer": 0, "explain": {"en": "Firestar's ThunderClan and Tallstar's WindClan refuse to join TigerClan.", "zh": "火星的雷族和高星的风族拒绝加入虎族。"}}, {"q": {"en": "What does Scourge do to the Clans after killing Tigerstar?", "zh": "长鞭杀死虎星后，对各族做了什么？"}, "options": [{"en": "Demands the forest and attacks ThunderClan", "zh": "要求占领森林并进攻雷族"}, {"en": "Makes peace", "zh": "讲和"}, {"en": "Leaves the forest", "zh": "离开森林"}, {"en": "Joins StarClan", "zh": "加入星族"}], "answer": 0, "explain": {"en": "Scourge turns on all the Clans, demanding the forest for BloodClan and triggering the final battle.", "zh": "长鞭转而对付所有族群，要求把森林交给血族，由此引发了最终决战。"}}, {"q": {"en": "In the final battle, what happens to Firestar?", "zh": "在最终决战中，火星遭遇了什么？"}, "options": [{"en": "He is badly wounded and loses one of his nine lives", "zh": "他身受重伤，失去九条命中的一条"}, {"en": "He dies forever", "zh": "他永远死了"}, {"en": "He runs away", "zh": "他逃跑了"}, {"en": "He is unharmed", "zh": "他毫发无伤"}], "answer": 0, "explain": {"en": "Scourge's dog-tooth claws take one of Firestar's nine lives; he fights on.", "zh": "长鞭用狗牙加固的爪子夺走了火星九条命中的一条；但他继续战斗。"}}, {"q": {"en": "How does Firestar defeat Scourge?", "zh": "火星是如何击败长鞭的？"}, "options": [{"en": "He kills Scourge in the final duel", "zh": "他在最终对决中杀死了长鞭"}, {"en": "Scourge slips and falls", "zh": "长鞭滑倒坠崖"}, {"en": "StarClan saves him", "zh": "星族救了他"}, {"en": "Graystripe kills Scourge", "zh": "灰条杀了长鞭"}], "answer": 0, "explain": {"en": "Firestar strikes the killing blow against Scourge in the heart of the battle.", "zh": "火星在战斗最激烈时给了长鞭致命一击。"}}, {"q": {"en": "What is special about Scourge's claws?", "zh": "长鞭的爪子有什么特别之处？"}, "options": [{"en": "They are reinforced with dog teeth", "zh": "用狗牙加固过"}, {"en": "They are made of stone", "zh": "由石头做成"}, {"en": "They glow", "zh": "会发光"}, {"en": "They are poisonous", "zh": "有毒"}], "answer": 0, "explain": {"en": "Scourge fits his claws with sharpened dog teeth, making every scratch lethal.", "zh": "长鞭把磨利的狗牙嵌在爪上，使每一爪都致命。"}}, {"q": {"en": "Which friend fights loyally beside Firestar in the battle?", "zh": "哪一位朋友在战斗中忠心地在火星身边并肩作战？"}, "options": [{"en": "Graystripe", "zh": "Graystripe（灰条）"}, {"en": "Tigerstar", "zh": "Tigerstar（虎星）"}, {"en": "Scourge", "zh": "Scourge（长鞭）"}, {"en": "Brokenstar", "zh": "Brokenstar（碎星）"}], "answer": 0, "explain": {"en": "Graystripe stands by Firestar through the war, as he has since they were apprentices.", "zh": "灰条从学徒时代起就与火星并肩，这场大战中也不例外。"}}, {"q": {"en": "What is the outcome for the four Clans after the Darkest Hour?", "zh": "黑暗时刻之后，四大猫族的结局是什么？"}, "options": [{"en": "They survive and remain in the forest under Firestar's leadership", "zh": "它们幸存下来，在火星的领导下继续留在森林"}, {"en": "They scatter and leave", "zh": "它们四散离去"}, {"en": "BloodClan rules", "zh": "血族统治森林"}, {"en": "The forest is destroyed", "zh": "森林被毁"}], "answer": 0, "explain": {"en": "ThunderClan, led by Firestar, survives; the Clans keep their forest home and peace returns.", "zh": "在火星的带领下，雷族得以幸存；各族保住了森林家园，和平重现。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
