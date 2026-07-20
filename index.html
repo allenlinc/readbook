@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>A to Z Mysteries · 绘本阅读理解</title>
+<title>英语分级阅读 · Reading by Level</title>
 <style>
   :root{
     --grass:#2e8b57;
@@ -31,9 +31,8 @@
   /* ---------- HEADER ---------- */
   header{
     text-align:center;
-    padding:46px 18px 30px;
+    padding:46px 18px 26px;
     color:#fff;
-    position:relative;
   }
   .badge{
     display:inline-block;
@@ -53,9 +52,9 @@
     letter-spacing:.5px;
     text-shadow:0 3px 0 rgba(0,0,0,.18);
   }
-  header .zh-title{font-size:clamp(1rem,3vw,1.4rem);opacity:.95;margin:0;}
+  header .en-title{font-size:clamp(1rem,3vw,1.4rem);opacity:.95;margin:0;}
   header p.tag{
-    max-width:620px;
+    max-width:640px;
     margin:16px auto 0;
     font-size:1rem;
     line-height:1.6;
@@ -64,137 +63,91 @@
     padding:12px 18px;
     border-radius:14px;
   }
-  .magnifier{font-size:2.2rem;}
 
   /* ---------- HOW TO USE ---------- */
-  .how{
-    max-width:860px;
-    margin:26px auto 8px;
-    padding:0 18px;
-  }
+  .how{max-width:900px;margin:26px auto 8px;padding:0 18px;}
   .how-card{
-    background:var(--cream);
-    border-radius:18px;
-    box-shadow:0 10px 30px rgba(0,0,0,.3);
-    padding:20px 24px;
+    background:var(--cream);border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);padding:20px 24px;
   }
-  .how h2{
-    margin:0 0 12px;
-    color:var(--grass-dark);
-    font-size:1.15rem;
-    display:flex;align-items:center;gap:8px;
-  }
-  .steps{
-    list-style:none;
-    margin:0;padding:0;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-    gap:12px;
-  }
-  .steps li{
-    background:#f7f5ec;
-    border:1px solid #e3ddc8;
-    border-radius:12px;
-    padding:12px 14px;
-    font-size:.92rem;
-    line-height:1.5;
-  }
+  .how h2{margin:0 0 12px;color:var(--grass-dark);font-size:1.15rem;display:flex;align-items:center;gap:8px;}
+  .steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;}
+  .steps li{background:#f7f5ec;border:1px solid #e3ddc8;border-radius:12px;padding:12px 14px;font-size:.92rem;line-height:1.5;}
   .steps b{color:var(--red);}
-  .steps .num{
-    display:inline-flex;align-items:center;justify-content:center;
-    width:26px;height:26px;border-radius:50%;
-    background:var(--red);color:#fff;font-weight:bold;
-    margin-right:8px;font-size:.85rem;
-  }
+  .steps .num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--red);color:#fff;font-weight:bold;margin-right:8px;font-size:.85rem;}
 
-  /* ---------- BOOK GRID ---------- */
+  /* ---------- CATEGORY ---------- */
+  .category{max-width:980px;margin:34px auto 0;padding:0 18px;}
+  .cat-head{
+    display:flex;align-items:center;gap:14px;
+    background:var(--cream);border-radius:16px 16px 0 0;
+    padding:16px 22px;box-shadow:0 8px 22px rgba(0,0,0,.28);
+    border-left:8px solid var(--accent,var(--grass));
+    border-bottom:1px solid #eee;
+  }
+  .cat-emoji{font-size:2rem;}
+  .cat-head .titles{flex:1;}
+  .cat-head h2{margin:0;font-size:1.35rem;color:var(--ink);}
+  .cat-head .en{font-size:.85rem;color:#888;letter-spacing:1px;text-transform:uppercase;}
+  .cat-head .lvl{font-size:.78rem;background:#eee;color:#666;padding:4px 10px;border-radius:20px;white-space:nowrap;}
+
   .grid{
-    max-width:980px;
-    margin:30px auto 0;
-    padding:0 18px;
-    display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
-    gap:22px;
+    background:var(--cream);
+    border-radius:0 0 16px 16px;
+    box-shadow:0 8px 22px rgba(0,0,0,.28);
+    padding:22px;
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px;
   }
   .book{
-    background:var(--cream);
-    border-radius:18px;
-    overflow:hidden;
-    box-shadow:0 10px 26px rgba(0,0,0,.3);
-    display:flex;
-    flex-direction:column;
+    background:#fff;border-radius:16px;overflow:hidden;
+    box-shadow:0 6px 16px rgba(0,0,0,.16);
+    display:flex;flex-direction:column;
     transition:transform .15s, box-shadow .15s;
     border-top:6px solid var(--accent,var(--grass));
   }
-  .book:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(0,0,0,.38);}
-  .book .top{
-    padding:20px 18px 14px;
-    text-align:center;
-    background:linear-gradient(180deg, var(--accent,#2e8b57), transparent);
-    position:relative;
-  }
+  .book:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(0,0,0,.24);}
+  .book .top{padding:18px 16px 12px;text-align:center;background:linear-gradient(180deg,var(--accent,#2e8b57),transparent);}
   .letter{
-    width:64px;height:64px;line-height:64px;
-    border-radius:50%;
-    background:#fff;
-    color:var(--accent,var(--grass));
-    font-size:2.1rem;font-weight:bold;
-    margin:0 auto 10px;
-    box-shadow:0 4px 12px rgba(0,0,0,.25);
-    border:3px solid #fff;
+    width:60px;height:60px;line-height:60px;border-radius:50%;
+    background:#fff;color:var(--accent,var(--grass));
+    font-size:1.5rem;font-weight:bold;margin:0 auto 8px;
+    box-shadow:0 4px 12px rgba(0,0,0,.22);border:3px solid #fff;
   }
-  .book .emoji{font-size:2rem;}
-  .book .title{
-    margin:6px 0 2px;
-    font-size:1.18rem;
-    font-weight:bold;
-    color:var(--ink);
-    line-height:1.3;
-  }
-  .book .author{font-size:.82rem;color:#888;margin:0 0 4px;}
-  .book .body{padding:6px 18px 18px;flex:1;display:flex;flex-direction:column;}
-  .book .desc{
-    font-size:.86rem;color:#555;line-height:1.5;margin:4px 0 14px;flex:1;
-  }
+  .book .emoji{font-size:1.8rem;}
+  .book .title{margin:6px 0 2px;font-size:1.1rem;font-weight:bold;color:var(--ink);line-height:1.3;}
+  .book .author{font-size:.8rem;color:#888;margin:0 0 4px;}
+  .book .body{padding:4px 16px 16px;flex:1;display:flex;flex-direction:column;}
+  .book .desc{font-size:.85rem;color:#555;line-height:1.5;margin:4px 0 14px;flex:1;}
   .start{
-    display:block;
-    text-align:center;
-    text-decoration:none;
-    font-family:inherit;
-    font-size:1rem;
-    font-weight:bold;
-    color:#fff;
-    background:var(--accent,var(--grass));
-    padding:12px;
-    border-radius:30px;
-    box-shadow:0 4px 12px rgba(0,0,0,.2);
-    transition:filter .15s;
+    display:block;text-align:center;text-decoration:none;font-family:inherit;
+    font-size:.98rem;font-weight:bold;color:#fff;background:var(--accent,var(--grass));
+    padding:11px;border-radius:30px;box-shadow:0 4px 12px rgba(0,0,0,.2);transition:filter .15s;
   }
   .start:hover{filter:brightness(1.08);}
-  .start small{display:block;font-weight:normal;font-size:.78rem;opacity:.92;margin-top:2px;}
+  .start small{display:block;font-weight:normal;font-size:.76rem;opacity:.92;margin-top:2px;}
 
-  /* ---------- FOOTER ---------- */
-  footer{
-    text-align:center;
-    color:rgba(255,255,255,.85);
-    font-size:.82rem;
-    margin-top:36px;
-    line-height:1.6;
-    padding:0 18px;
+  .placeholder{
+    grid-column:1/-1;
+    text-align:center;color:#9a9486;
+    background:#faf8f0;border:2px dashed #ddd6c2;border-radius:14px;
+    padding:26px;font-size:.95rem;line-height:1.6;
   }
+  .placeholder .big{font-size:1.6rem;display:block;margin-bottom:6px;}
+
+  footer{text-align:center;color:rgba(255,255,255,.85);font-size:.82rem;margin-top:36px;line-height:1.6;padding:0 18px;}
   footer a{color:#fff;}
 </style>
 </head>
 <body>
 
 <header>
-  <span class="badge">READING CLUB · 阅读俱乐部</span>
-  <div class="magnifier">🔍📚</div>
-  <h1>A to Z Mysteries</h1>
-  <p class="zh-title">绘本阅读理解 · 侦探小测验</p>
+  <span class="badge">分 级 阅 读 · READING BY LEVEL</span>
+  <div style="font-size:2.2rem">📚🔍</div>
+  <h1>英语分级阅读乐园</h1>
+  <p class="en-title">Reading by Level</p>
   <p class="tag">
-    Read the story, then test yourself! 🕵️<br>
-    读读故事，做做测验，英语越来越棒！
+    Pick your level, read a book, then test yourself! 🕵️<br>
+    选一个级别，读读故事，做做测验，英语越来越棒！
   </p>
 </header>
 
@@ -202,87 +155,85 @@
   <div class="how-card">
     <h2>🧭 How to use · 怎么玩</h2>
     <ul class="steps">
-      <li><span class="num">1</span><b>读故事</b> Read the book with a grown-up.</li>
-      <li><span class="num">2</span><b>做测验</b> Tap a book below and answer 10 questions.</li>
-      <li><span class="num">3</span><b>看讲解</b> Tap <b>Check</b> to see answers in English + 中文.</li>
-      <li><span class="num">4</span><b>再挑战</b> Try Again and beat your score!</li>
+      <li><span class="num">1</span><b>选级别</b> Choose your reading level below.</li>
+      <li><span class="num">2</span><b>选书</b> Tap a book and read it with a grown-up.</li>
+      <li><span class="num">3</span><b>做测验</b> Answer the 10 bilingual questions.</li>
+      <li><span class="num">4</span><b>看讲解</b> Tap <b>Check</b> for answers in English + 中文, then Try Again!</li>
     </ul>
   </div>
 </section>
 
-<main class="grid">
+<!-- ===== 绘本 / Picture Books ===== -->
+<section class="category" style="--accent:#5dade2">
+  <div class="cat-head">
+    <span class="cat-emoji">📖</span>
+    <div class="titles"><h2>绘本</h2><div class="en">Picture Books</div></div>
+    <span class="lvl">Level 1</span>
+  </div>
+  <div class="grid">
+    <div class="placeholder"><span class="big">🚧 敬请期待</span>这个分类正在准备中，更多好看的绘本马上就来！<br>Coming soon — more picture books are on the way!</div>
+  </div>
+</section>
 
-  <!-- U -->
-  <article class="book" style="--accent:#c0392b">
-    <div class="top"><div class="letter">U</div><div class="emoji">⚾</div></div>
-    <div class="body">
-      <h3 class="title">The Unwilling Umpire</h3>
-      <p class="author">by Ron Roy</p>
-      <p class="desc">A baseball game for charity — and a mystery about six stolen signed baseballs. Who took them? ⚾</p>
-      <a class="start" href="atozmysteries/unwilling-umpire-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
-    </div>
-  </article>
+<!-- ===== 桥梁书 / Bridge Books ===== -->
+<section class="category" style="--accent:#8e44ad">
+  <div class="cat-head">
+    <span class="cat-emoji">🌉</span>
+    <div class="titles"><h2>桥梁书</h2><div class="en">Bridge Books</div></div>
+    <span class="lvl">Level 2</span>
+  </div>
+  <div class="grid">
+    <div class="placeholder"><span class="big">🚧 敬请期待</span>从绘本过渡到章节书的桥梁书，即将上线！<br>Coming soon — bridge books between pictures and chapters!</div>
+  </div>
+</section>
 
-  <!-- V -->
-  <article class="book" style="--accent:#8e44ad">
-    <div class="top"><div class="letter">V</div><div class="emoji">🧛</div></div>
-    <div class="body">
-      <h3 class="title">The Vampire's Vacation</h3>
-      <p class="author">by Ron Roy</p>
-      <p class="desc">A guest at a hotel says he's a vampire. Is it true, or is something spooky going on? 🧛</p>
-      <a class="start" href="atozmysteries/vampire-vacation-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
-    </div>
-  </article>
+<!-- ===== 初章书 / Early Chapter ===== -->
+<section class="category" style="--accent:#2e8b57">
+  <div class="cat-head">
+    <span class="cat-emoji">📚</span>
+    <div class="titles"><h2>初章书</h2><div class="en">Early Chapter Books</div></div>
+    <span class="lvl">Level 3</span>
+  </div>
+  <div class="grid">
+    <article class="book">
+      <div class="top"><div class="letter">A–Z</div><div class="emoji">🔍</div></div>
+      <div class="body">
+        <h3 class="title">A to Z Mysteries</h3>
+        <p class="author">by Ron Roy</p>
+        <p class="desc">六本有趣的侦探故事（U–Z），每本都有中英双语阅读理解测验。Who took the stolen baseballs? 🕵️</p>
+        <a class="start" href="atozmysteries/index.html">开始阅读 Start Reading<small>6 books · 10 Q each · EN / 中文</small></a>
+      </div>
+    </article>
+  </div>
+</section>
 
-  <!-- W -->
-  <article class="book" style="--accent:#2980b9">
-    <div class="top"><div class="letter">W</div><div class="emoji">🐺</div></div>
-    <div class="body">
-      <h3 class="title">The White Wolf</h3>
-      <p class="author">by Ron Roy</p>
-      <p class="desc">A howling white wolf appears in the snowy woods. Real, or a clever trick? 🐺</p>
-      <a class="start" href="atozmysteries/white-wolf-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
-    </div>
-  </article>
+<!-- ===== 中章书 / Middle Chapter ===== -->
+<section class="category" style="--accent:#e67e22">
+  <div class="cat-head">
+    <span class="cat-emoji">📕</span>
+    <div class="titles"><h2>中章书</h2><div class="en">Middle Chapter Books</div></div>
+    <span class="lvl">Level 4</span>
+  </div>
+  <div class="grid">
+    <div class="placeholder"><span class="big">🚧 敬请期待</span>情节更丰富的章节书，正在挑选中！<br>Coming soon — richer chapter books are being picked!</div>
+  </div>
+</section>
 
-  <!-- X -->
-  <article class="book" style="--accent:#16a085">
-    <div class="top"><div class="letter">X</div><div class="emoji">🩻</div></div>
-    <div class="body">
-      <h3 class="title">The X'ed-Out X-Ray</h3>
-      <p class="author">by Ron Roy</p>
-      <p class="desc">A hospital x-ray has been crossed out. Why is someone hiding the truth? 🩻</p>
-      <a class="start" href="atozmysteries/xed-out-x-ray-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
-    </div>
-  </article>
-
-  <!-- Y -->
-  <article class="book" style="--accent:#e67e22">
-    <div class="top"><div class="letter">Y</div><div class="emoji">⛵</div></div>
-    <div class="body">
-      <h3 class="title">The Yellow Yacht</h3>
-      <p class="author">by Ron Roy</p>
-      <p class="desc">A shiny yellow yacht, a missing person, and a clue that floats away. ⛵</p>
-      <a class="start" href="atozmysteries/yellow-yacht-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
-    </div>
-  </article>
-
-  <!-- Z -->
-  <article class="book" style="--accent:#27ae60">
-    <div class="top"><div class="letter">Z</div><div class="emoji">🧟</div></div>
-    <div class="body">
-      <h3 class="title">The Zombie Zone</h3>
-      <p class="author">by Ron Roy</p>
-      <p class="desc">Strange footsteps in the fog... is the swamp haunted by zombies? 🧟</p>
-      <a class="start" href="atozmysteries/zombie-zone-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
-    </div>
-  </article>
-
-</main>
+<!-- ===== 高章书 / Higher Chapter ===== -->
+<section class="category" style="--accent:#c0392b">
+  <div class="cat-head">
+    <span class="cat-emoji">🏆</span>
+    <div class="titles"><h2>高章书</h2><div class="en">Higher Chapter Books</div></div>
+    <span class="lvl">Level 5</span>
+  </div>
+  <div class="grid">
+    <div class="placeholder"><span class="big">🚧 敬请期待</span>更具挑战的长篇 chapter book，适合大孩子！<br>Coming soon — longer chapter books for confident readers!</div>
+  </div>
+</section>
 
 <footer>
-  A to Z Mysteries Reading Club · 绘本阅读理解<br>
-  Quizzes are for learning English. Books written by Ron Roy (Random House).
+  英语分级阅读乐园 · Reading by Level<br>
+  Quizzes are for learning English. Books © their authors / publishers.
 </footer>
 
 </body>
