@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Yellow Yacht — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.6rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .baseball{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;
+    border:2px solid #e7e7e7;
+    position:relative;
+  }
+  .baseball::before,.baseball::after{
+    content:"";position:absolute;top:50%;width:2px;height:38px;
+    background:#c0392b;transform:translateY(-50%) rotate(18deg);
+    border-radius:2px;
+  }
+  .baseball::before{left:16px;}
+  .baseball::after{right:16px;transform:translateY(-50%) rotate(-18deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Yellow Yacht</h1>
+      <a class="homeBtn" href="../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
+    <div class="baseball"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>A to Z Mysteries: The Yellow Yacht</em> (Random House, 2005)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Ron Roy",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the mystery well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The mystery is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Ron Roy",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个谜案。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！谜底藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [
+  {
+    q:{en:"What is Sammi's place in Costra's royal family?",
+       zh:"萨米在科斯特拉王室中是什么身份？"},
+    options:[
+      {en:"He is King Farhad and Queen Grace's trusted servant", zh:"他是国王法哈德与王后格蕾丝信赖的仆人"},
+      {en:"He is the prince of Costra; his father is King Farhad and his mother is Queen Grace", zh:"他是科斯特拉的王子，父亲是法哈德国王，母亲是格蕾丝王后"},
+      {en:"He is the captain of the royal fishing boat", zh:"他是皇家渔船的船长"},
+      {en:"He is the magician hired for the birthday party", zh:"他是生日宴会上受雇的魔术师"}
+    ],
+    answer:1,
+    explain:{
+      en:"Sammi is the prince of Costra. His parents, King Farhad and Queen Grace, rule the small island country, and the kids visit him for his birthday.",
+      zh:"萨米是科斯特拉的王子。他的父母法哈德国王与格蕾丝王后统治着这座小岛国，孩子们正是来为他过生日的。"
+    }
+  },
+  {
+    q:{en:"What was King Farhad using the stolen gold to pay for?",
+       zh:"法哈德国王原本打算用被盗的黄金来支付什么？"},
+    options:[
+      {en:"A brand-new royal helicopter", zh:"一架全新的皇家直升机"},
+      {en:"An aquarium and a school where kids could learn about the ocean", zh:"一座水族馆，以及一所让孩子们学习海洋知识的学校"},
+      {en:"Sammi's birthday presents", zh:"萨米的生日礼物"},
+      {en:"A bigger fishing boat for the castle", zh:"城堡用的一艘更大的渔船"}
+    ],
+    answer:1,
+    explain:{
+      en:"Sammi's grandfather left King Farhad many gold bars, kept in the Nere Bank, and the king was using them to build a public aquarium and an ocean school.",
+      zh:"萨米的祖父给法哈德国王留下许多金条，存放在内雷银行里；国王要用它们建造一座公共水族馆和一所海洋学校。"
+    }
+  },
+  {
+    q:{en:"Where did the thieves dig the tunnel that led into the bank vault?",
+       zh:"窃贼是从哪里挖隧道打进银行金库的？"},
+    options:[
+      {en:"From a secret passage inside the castle walls", zh:"从城堡墙壁里的一条密道"},
+      {en:"From the aquarium construction pit next to the bank", zh:"从银行旁边的水族馆施工现场的大坑"},
+      {en:"From underneath Dr. Skor's yellow yacht", zh:"从斯科尔博士的黄色游艇下方"},
+      {en:"From the royal dining room floor", zh:"从皇家餐厅的地板下"}
+    ],
+    answer:1,
+    explain:{
+      en:"When the king examined the hole in the vault, he said the tunnel had been dug from the aquarium pit. The fake boulders there were hiding the tunnel entrance.",
+      zh:"国王查看金库里的洞后说，隧道是从水族馆的大坑挖过来的。坑边那些假巨石正好遮住了隧道入口。"
+    }
+  },
+  {
+    q:{en:"What clue in the tunnel note pointed to a bank insider?",
+       zh:"隧道里那张纸条上的什么线索指向了银行内部的人？"},
+    options:[
+      {en:"A fingerprint left by the king", zh:"国王留下的一枚指纹"},
+      {en:"A map of the aquarium drawn in pencil", zh:"一张用铅笔画的水族馆地图"},
+      {en:"An email address, LB@nerebank.net, whose initials 'LB' stood for Lees Baz", zh:"一个邮箱地址 LB@nerebank.net，其中的缩写「LB」代表利兹·巴兹"},
+      {en:"A phone number for the royal castle", zh:"皇家城堡的电话号码"}
+    ],
+    answer:2,
+    explain:{
+      en:"The note had an email address, LB@nerebank.net, at the bottom. Dink realized the initials 'LB' belonged to Lees Baz, the bank manager — though that was a fake clue planted by Dr. Skor.",
+      zh:"纸条底部有一个邮箱地址 LB@nerebank.net。丁克意识到缩写「LB」属于银行经理利兹·巴兹——不过这是斯科尔博士故意布置的假线索。"
+    }
+  },
+  {
+    q:{en:"Who was the real thief who stole the king's gold?",
+       zh:"真正偷走国王黄金的小偷是谁？"},
+    options:[
+      {en:"Lees Baz, the bank manager", zh:"银行经理利兹·巴兹"},
+      {en:"Riko, the job foreman", zh:"工头里科"},
+      {en:"Dr. Leopold Skor, the marine biologist", zh:"海洋生物学家利奥波德·斯科尔博士"},
+      {en:"Yondo, the magician", zh:"魔术师永多"}
+    ],
+    answer:2,
+    explain:{
+      en:"Dr. Skor was the real thief. He had his crew dig the tunnel and planted the note to frame Riko and Mr. Baz, then hid the gold on his own yacht.",
+      zh:"斯科尔博士才是真正的小偷。他让手下挖了隧道，并布置纸条嫁祸里科和巴兹先生，再把黄金藏在自己的游艇上。"
+    }
+  },
+  {
+    q:{en:"How did Dink figure out that the gold was hidden on Dr. Skor's yacht?",
+       zh:"丁克是怎么推断出黄金藏在斯科尔博士的游艇上的？"},
+    options:[
+      {en:"He saw the gold bars through a porthole", zh:"他透过舷窗看到了金条"},
+      {en:"The green stripe had vanished because the heavy gold weighed the yacht down, sinking the stripe underwater", zh:"绿色条纹消失了，因为沉重的黄金把游艇压低，使条纹沉到了水下"},
+      {en:"Dr. Skor confessed the secret to him", zh:"斯科尔博士亲口向他坦白了秘密"},
+      {en:"Ruth Rose found a gold coin in a desk drawer", zh:"露丝·罗丝在书桌抽屉里发现了一枚金币"}
+    ],
+    answer:1,
+    explain:{
+      en:"When Dink saw Sundown from the water, its green stripe was gone. Remembering that rocks weighed down the sunken boat, he realized the gold was making the yacht sit lower, hiding the stripe underwater.",
+      zh:"丁克从水里看「夕阳号」时，发现它的绿色条纹不见了。他想起沉船是被石头压低的，于是意识到是黄金让游艇下沉，把条纹藏到了水下。"
+    }
+  },
+  {
+    q:{en:"How exactly was the gold hidden on the yacht?",
+       zh:"黄金在游艇上究竟是怎么藏起来的？"},
+    options:[
+      {en:"Locked inside the captain's wall safe", zh:"锁在船长的壁式保险箱里"},
+      {en:"Stacked in a steel cage built between the keel and the propeller, underneath the boat", zh:"堆在船底龙骨与螺旋桨之间焊的一个钢笼里"},
+      {en:"Hidden inside the galley refrigerator", zh:"藏在厨房的冰箱里"},
+      {en:"Buried in the sand on the harbor floor", zh:"埋在港湾底部的沙里"}
+    ],
+    answer:1,
+    explain:{
+      en:"Hugo swam under Sundown and saw a steel cage between the keel and the propeller with all the gold bars stacked inside — a spot the police would never think to search.",
+      zh:"雨果潜到「夕阳号」船底，看见龙骨和螺旋桨之间有一个钢笼，里面堆满了金条——这是警察绝不会想到的搜查位置。"
+    }
+  },
+  {
+    q:{en:"How did Hugo stop Dr. Skor's escaping rubber dinghy?",
+       zh:"雨果是怎样拦下斯科尔博士逃跑的橡皮艇的？"},
+    options:[
+      {en:"He rammed it with his own boat", zh:"他用自己的船去撞它"},
+      {en:"He threw his anchor into the dinghy, ripping a hole so it quickly lost air", zh:"他把船锚抛进橡皮艇，划破了一个洞，使它迅速漏气"},
+      {en:"He called the police on his radio", zh:"他用无线电呼叫了警察"},
+      {en:"He swam after it and grabbed the motor", zh:"他游过去抓住了马达"}
+    ],
+    answer:1,
+    explain:{
+      en:"Hugo whipped the anchor on its rope into Dr. Skor's dinghy. The prongs tore a hole, the dinghy deflated, and the police arrived to make the arrest.",
+      zh:"雨果用绳子把船锚甩进斯科尔博士的橡皮艇，锚爪划破了艇身，橡皮艇迅速漏气，随后警察赶到将他逮捕。"
+    }
+  },
+  {
+    q:{en:"What small object on Dr. Skor's desk first hinted to Dink that the boat was involved?",
+       zh:"斯科尔博士书桌上哪件小东西最先让丁克想到游艇有嫌疑？"},
+    options:[
+      {en:"A photograph of dying coral", zh:"一张珊瑚枯死的照片"},
+      {en:"A paperweight shaped like a small boat — a tiny replica of Sundown with a green stripe", zh:"一个船形的镇纸——带绿色条纹的「夕阳号」微缩模型"},
+      {en:"A gold coin from the king's hair", zh:"一枚从国王头发里变出的金币"},
+      {en:"A letter signed by the king", zh:"一封有国王签名的信"}
+    ],
+    answer:1,
+    explain:{
+      en:"On Dr. Skor's desk Dink noticed a paperweight that was a miniature replica of Sundown, complete with a green stripe. That image later helped him realize the yacht was the hiding place.",
+      zh:"丁克在斯科尔博士的书桌上看到一个船形镇纸，是带绿色条纹的「夕阳号」微缩模型。这个画面后来帮他确认游艇就是藏金处。"
+    }
+  },
+  {
+    q:{en:"How did Dr. Skor's men move the heavy gold bars to his boat without being seen?",
+       zh:"斯科尔博士的手下是怎样神不知鬼不觉地把沉重的金条运到他船上的？"},
+    options:[
+      {en:"They drove a truck through the gate at night", zh:"他们夜里开着卡车穿过城门"},
+      {en:"They slid the bars through the aquarium pipe into the water and carried them underwater with scuba gear", zh:"他们把金条从水族馆的管道滑入水中，再戴潜水装备在水下搬运"},
+      {en:"They used the backhoe to haul them over the wall", zh:"他们用挖掘机把金条翻过墙运走"},
+      {en:"They flew them out by helicopter", zh:"他们用直升机把金条吊走"}
+    ],
+    answer:1,
+    explain:{
+      en:"The king explained that Skor's men slid the gold bars out through the aquarium pipe, probably at night, then moved them underwater to the cage on Sundown. In water, heavy things weigh far less.",
+      zh:"国王解释说，斯科尔的手下把金条从水族馆的管道滑出去，多半在夜间进行，再在水下搬到「夕阳号」的钢笼里。物体在水中会轻得多，搬运不难。"
+    }
+  }
+];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  // re-bind radio events
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

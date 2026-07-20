@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The White Wolf — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.6rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .baseball{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;
+    border:2px solid #e7e7e7;
+    position:relative;
+  }
+  .baseball::before,.baseball::after{
+    content:"";position:absolute;top:50%;width:2px;height:38px;
+    background:#c0392b;transform:translateY(-50%) rotate(18deg);
+    border-radius:2px;
+  }
+  .baseball::before{left:16px;}
+  .baseball::after{right:16px;transform:translateY(-50%) rotate(-18deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The White Wolf</h1>
+      <a class="homeBtn" href="../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
+    <div class="baseball"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>A to Z Mysteries: The White Wolf</em> (Random House, 2004)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Ron Roy",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the mystery well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The mystery is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Ron Roy",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个谜案。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！谜底藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [
+  {
+    q:{en:"Where does most of the story take place?",
+       zh:"这个故事主要发生在什么地方？"},
+    options:[
+      {en:"Mount Desert Island, Maine", zh:"缅因州的沙漠山岛（Mount Desert Island）"},
+      {en:"Green Lawn, Connecticut", zh:"康涅狄格州的格林朗镇"},
+      {en:"A small town in Wyoming", zh:"怀俄明州的一个小镇"},
+      {en:"An island off the coast of Florida", zh:"佛罗里达州沿海的一个小岛"}
+    ],
+    answer:0,
+    explain:{
+      en:"Walker flies the kids to Seal Harbor on Mount Desert Island, Maine, which is part of Acadia National Park, where Wallis's cabin and the wolf's lair are.",
+      zh:"沃克开水上飞机把孩子们送到缅因州沙漠山岛的海豹港，那里属于阿卡迪亚国家公园，沃利斯的木屋和狼窝都在岛上。"
+    }
+  },
+  {
+    q:{en:"Who is Abbi, and why does she use a wheelchair?",
+       zh:"阿比是谁？她为什么要用轮椅？"},
+    options:[
+      {en:"Wallis's adopted daughter, who has spina bifida", zh:"沃利斯的养女，她患有脊柱裂"},
+      {en:"Walker's younger sister who broke her leg", zh:"沃克摔断腿的妹妹"},
+      {en:"The local game warden on the island", zh:"岛上的狩猎监督官"},
+      {en:"Dink's cousin visiting from Connecticut", zh:"从康涅狄格来作客的丁克表妹"}
+    ],
+    answer:0,
+    explain:{
+      en:"Abbi is Wallis's adopted daughter. She was born with spina bifida, a condition where her spine did not develop properly, so her legs don't work and she uses a wheelchair.",
+      zh:"阿比是沃利斯的养女。她天生患有脊柱裂——出生前脊椎没有正常发育，所以双腿无法活动，需要坐轮椅。"
+    }
+  },
+  {
+    q:{en:"How many baby wolves did the mother white wolf have?",
+       zh:"那只白色母狼一共有几只狼宝宝？"},
+    options:[
+      {en:"One", zh:"一只"},
+      {en:"Two", zh:"两只"},
+      {en:"Three", zh:"三只"},
+      {en:"Five", zh:"五只"}
+    ],
+    answer:2,
+    explain:{
+      en:"Abbi tells the kids the wolf is a girl because she has three babies. The three cubs are later rescued and returned to their mother.",
+      zh:"阿比告诉孩子们那只狼是母的，因为她有三只宝宝。后来这三只小狼被救出并送回母亲身边。"
+    }
+  },
+  {
+    q:{en:"How did Abbi witness the baby wolves being stolen?",
+       zh:"阿比是怎样亲眼看到狼宝宝被偷走的？"},
+    options:[
+      {en:"Through her telescope from the cabin deck", zh:"通过木屋甲板上的望远镜"},
+      {en:"With a pair of binoculars in the woods", zh:"在树林里用双筒望远镜"},
+      {en:"By following the thieves into the forest", zh:"跟着小偷走进了森林"},
+      {en:"From the mail boat out on the water", zh:"在海上的一艘邮船上"}
+    ],
+    answer:0,
+    explain:{
+      en:"Abbi had set her telescope right on the wolf's lair. She saw a man and a woman grab the puppies and stick them in a cage, and called the police to report it.",
+      zh:"阿比把望远镜对准了狼窝。她看到一个男人和一个女人抓起小狼、塞进笼子里，随后报警报告了这件事。"
+    }
+  },
+  {
+    q:{en:"Who are Greg and Lynda Dack?",
+       zh:"格雷格和琳达·达克（Greg and Lynda Dack）是什么人？"},
+    options:[
+      {en:"The game wardens who investigated the theft", zh:"调查这起偷窃案的狩猎监督官"},
+      {en:"The brother-and-sister caretakers of the island's owner", zh:"岛主人的兄妹管家"},
+      {en:"Abbi's birth parents", zh:"阿比的亲生父母"},
+      {en:"The captains of two fishing boats", zh:"两艘渔船的船长"}
+    ],
+    answer:1,
+    explain:{
+      en:"Captain Morris says Greg Dack and his sister Lynda take care of the wealthy owner's estate on the small island. They are the ones who actually stole the pups.",
+      zh:"莫里斯船长说，格雷格·达克和他的妹妹琳达负责照看小岛上那位富人的庄园。正是他们偷走了小狼。"
+    }
+  },
+  {
+    q:{en:"What clue on the dock helped connect the thieves to the island?",
+       zh:"码头上的什么线索把小偷与那座小岛联系了起来？"},
+    options:[
+      {en:"A torn map of the harbor", zh:"一张撕破的港湾地图"},
+      {en:"Blueberry stains that matched the crushed berries on the trail", zh:"与山路上的蓝莓汁印吻合的蓝莓污渍"},
+      {en:"A lost baseball cap", zh:"一顶遗失的棒球帽"},
+      {en:"A wolf's pawprint", zh:"一枚狼的脚印"}
+    ],
+    answer:1,
+    explain:{
+      en:"On the trail the kids found blueberries crushed by someone's feet, and on the island's dock they found a blueberry stain shaped like a heel print — the same person had walked there.",
+      zh:"孩子们在山路上发现了被人踩烂的蓝莓，而在小岛码头上又发现了一块鞋跟形状的蓝莓污渍——是同一个人走过那里留下的。"
+    }
+  },
+  {
+    q:{en:"What did Josh find inside the blue motorboat that became an important clue?",
+       zh:"乔什在那艘蓝色摩托艇里发现了什么，后来成了重要线索？"},
+    options:[
+      {en:"A dead mouse", zh:"一只死老鼠"},
+      {en:"A wolf's pawprint", zh:"一枚狼的脚印"},
+      {en:"Abbi's tape recorder", zh:"阿比的录音机"},
+      {en:"A blueberry pie", zh:"一个蓝莓派"}
+    ],
+    answer:0,
+    explain:{
+      en:"Josh found a wet, dead mouse under the seat. Wolves eat mice, so the mouse was a clue that the mother wolf had caught it for her babies, proving the pups had been in that boat.",
+      zh:"乔什在座位底下发现了一只湿漉漉的死老鼠。狼吃老鼠，这说明母狼曾为宝宝抓了这只老鼠，从而证明小狼确实待过那艘船。"
+    }
+  },
+  {
+    q:{en:"How did the kids prove the wolf pups were on the island?",
+       zh:"孩子们是怎样证明狼宝宝就在那座岛上的？"},
+    options:[
+      {en:"They played the taped whimpering near the den and the mother wolf reacted", zh:"他们在狼窝旁播放录音里的呜咽声，母狼做出了反应"},
+      {en:"They showed a photo of the stolen cage", zh:"他们出示了被盗笼子的照片"},
+      {en:"They found a cage abandoned on the beach", zh:"他们在海滩上发现了一只被丢弃的笼子"},
+      {en:"They asked the Dacks directly and they confessed", zh:"他们直接质问达克兄妹，两人当场认罪"}
+    ],
+    answer:0,
+    explain:{
+      en:"Ruth Rose played the tape of the pups' whimpering near the lair. The mother wolf lunged at the recorder and made her own whimpering sounds, proving the cries on the tape were her babies.",
+      zh:"露丝·罗丝在狼窝旁播放了小狼呜咽声的录音。母狼扑向录音机并发出自己的呜咽声，证明录音里的哭声正是她的孩子。"
+    }
+  },
+  {
+    q:{en:"Why were the baby wolves stolen?",
+       zh:"那些小狼到底为什么会被偷走？"},
+    options:[
+      {en:"A man wanted to buy wolves to use as watchdogs, and the Dacks would be paid thousands", zh:"有人想买狼当看门狗，达克兄妹能赚到几千美元"},
+      {en:"To keep as pets for the owner's children", zh:"当做岛主孩子的宠物"},
+      {en:"To study them for a science project", zh:"为了某个科学项目而研究它们"},
+      {en:"Because they were attacking local livestock", zh:"因为它们在袭击当地的牲畜"}
+    ],
+    answer:0,
+    explain:{
+      en:"Greg Dack read a magazine ad from a man who wanted to buy wolves to use as watchdogs. The Dacks stood to make several thousand dollars, so they stole the pups.",
+      zh:"格雷格·达克在一本杂志上看到一个男人的广告，想买狼当看门狗。达克兄妹能从中赚到几千美元，于是偷走了小狼。"
+    }
+  },
+  {
+    q:{en:"How did the three kids get out to the small island to investigate?",
+       zh:"三个孩子是怎么去那座小岛调查的？"},
+    options:[
+      {en:"They swam across the water", zh:"他们游过海面过去"},
+      {en:"They rode with Morris, the mail-boat captain", zh:"他们搭了邮船船长莫里斯的船"},
+      {en:"They flew in Walker's seaplane", zh:"他们坐了沃克的水上飞机"},
+      {en:"They walked across a bridge", zh:"他们走过一座桥"}
+    ],
+    answer:1,
+    explain:{
+      en:"Abbi told them Morris the mail-boat captain usually stops by around nine-thirty and takes hikers and bird-watchers to the islands. The kids hitched a ride with him.",
+      zh:"阿比告诉他们，邮船船长莫里斯通常九点半左右经过，会带徒步者和观鸟人去那些小岛。孩子们便搭了他的船过去。"
+    }
+  }
+];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  // re-bind radio events
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

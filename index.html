@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A to Z Mysteries · 绘本阅读理解</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --sky:#5dade2;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:
+      radial-gradient(circle at 12% 18%, rgba(255,255,255,.18) 0 6px, transparent 7px),
+      radial-gradient(circle at 80% 30%, rgba(255,255,255,.14) 0 9px, transparent 10px),
+      radial-gradient(circle at 40% 75%, rgba(255,255,255,.12) 0 7px, transparent 8px),
+      linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:0 0 40px;
+  }
+  /* ---------- HEADER ---------- */
+  header{
+    text-align:center;
+    padding:46px 18px 30px;
+    color:#fff;
+    position:relative;
+  }
+  .badge{
+    display:inline-block;
+    background:var(--gold);
+    color:#5b4700;
+    font-weight:bold;
+    letter-spacing:2px;
+    padding:6px 16px;
+    border-radius:30px;
+    font-size:.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+    margin-bottom:14px;
+  }
+  header h1{
+    margin:6px 0 4px;
+    font-size:clamp(1.8rem,5vw,2.9rem);
+    letter-spacing:.5px;
+    text-shadow:0 3px 0 rgba(0,0,0,.18);
+  }
+  header .zh-title{font-size:clamp(1rem,3vw,1.4rem);opacity:.95;margin:0;}
+  header p.tag{
+    max-width:620px;
+    margin:16px auto 0;
+    font-size:1rem;
+    line-height:1.6;
+    background:rgba(255,255,255,.14);
+    border:1px solid rgba(255,255,255,.25);
+    padding:12px 18px;
+    border-radius:14px;
+  }
+  .magnifier{font-size:2.2rem;}
+
+  /* ---------- HOW TO USE ---------- */
+  .how{
+    max-width:860px;
+    margin:26px auto 8px;
+    padding:0 18px;
+  }
+  .how-card{
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+    padding:20px 24px;
+  }
+  .how h2{
+    margin:0 0 12px;
+    color:var(--grass-dark);
+    font-size:1.15rem;
+    display:flex;align-items:center;gap:8px;
+  }
+  .steps{
+    list-style:none;
+    margin:0;padding:0;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:12px;
+  }
+  .steps li{
+    background:#f7f5ec;
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:12px 14px;
+    font-size:.92rem;
+    line-height:1.5;
+  }
+  .steps b{color:var(--red);}
+  .steps .num{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:26px;height:26px;border-radius:50%;
+    background:var(--red);color:#fff;font-weight:bold;
+    margin-right:8px;font-size:.85rem;
+  }
+
+  /* ---------- BOOK GRID ---------- */
+  .grid{
+    max-width:980px;
+    margin:30px auto 0;
+    padding:0 18px;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+    gap:22px;
+  }
+  .book{
+    background:var(--cream);
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 26px rgba(0,0,0,.3);
+    display:flex;
+    flex-direction:column;
+    transition:transform .15s, box-shadow .15s;
+    border-top:6px solid var(--accent,var(--grass));
+  }
+  .book:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(0,0,0,.38);}
+  .book .top{
+    padding:20px 18px 14px;
+    text-align:center;
+    background:linear-gradient(180deg, var(--accent,#2e8b57), transparent);
+    position:relative;
+  }
+  .letter{
+    width:64px;height:64px;line-height:64px;
+    border-radius:50%;
+    background:#fff;
+    color:var(--accent,var(--grass));
+    font-size:2.1rem;font-weight:bold;
+    margin:0 auto 10px;
+    box-shadow:0 4px 12px rgba(0,0,0,.25);
+    border:3px solid #fff;
+  }
+  .book .emoji{font-size:2rem;}
+  .book .title{
+    margin:6px 0 2px;
+    font-size:1.18rem;
+    font-weight:bold;
+    color:var(--ink);
+    line-height:1.3;
+  }
+  .book .author{font-size:.82rem;color:#888;margin:0 0 4px;}
+  .book .body{padding:6px 18px 18px;flex:1;display:flex;flex-direction:column;}
+  .book .desc{
+    font-size:.86rem;color:#555;line-height:1.5;margin:4px 0 14px;flex:1;
+  }
+  .start{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    font-family:inherit;
+    font-size:1rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--accent,var(--grass));
+    padding:12px;
+    border-radius:30px;
+    box-shadow:0 4px 12px rgba(0,0,0,.2);
+    transition:filter .15s;
+  }
+  .start:hover{filter:brightness(1.08);}
+  .start small{display:block;font-weight:normal;font-size:.78rem;opacity:.92;margin-top:2px;}
+
+  /* ---------- FOOTER ---------- */
+  footer{
+    text-align:center;
+    color:rgba(255,255,255,.85);
+    font-size:.82rem;
+    margin-top:36px;
+    line-height:1.6;
+    padding:0 18px;
+  }
+  footer a{color:#fff;}
+</style>
+</head>
+<body>
+
+<header>
+  <span class="badge">READING CLUB · 阅读俱乐部</span>
+  <div class="magnifier">🔍📚</div>
+  <h1>A to Z Mysteries</h1>
+  <p class="zh-title">绘本阅读理解 · 侦探小测验</p>
+  <p class="tag">
+    Read the story, then test yourself! 🕵️<br>
+    读读故事，做做测验，英语越来越棒！
+  </p>
+</header>
+
+<section class="how">
+  <div class="how-card">
+    <h2>🧭 How to use · 怎么玩</h2>
+    <ul class="steps">
+      <li><span class="num">1</span><b>读故事</b> Read the book with a grown-up.</li>
+      <li><span class="num">2</span><b>做测验</b> Tap a book below and answer 10 questions.</li>
+      <li><span class="num">3</span><b>看讲解</b> Tap <b>Check</b> to see answers in English + 中文.</li>
+      <li><span class="num">4</span><b>再挑战</b> Try Again and beat your score!</li>
+    </ul>
+  </div>
+</section>
+
+<main class="grid">
+
+  <!-- U -->
+  <article class="book" style="--accent:#c0392b">
+    <div class="top"><div class="letter">U</div><div class="emoji">⚾</div></div>
+    <div class="body">
+      <h3 class="title">The Unwilling Umpire</h3>
+      <p class="author">by Ron Roy</p>
+      <p class="desc">A baseball game for charity — and a mystery about six stolen signed baseballs. Who took them? ⚾</p>
+      <a class="start" href="atozmysteries/unwilling-umpire-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
+    </div>
+  </article>
+
+  <!-- V -->
+  <article class="book" style="--accent:#8e44ad">
+    <div class="top"><div class="letter">V</div><div class="emoji">🧛</div></div>
+    <div class="body">
+      <h3 class="title">The Vampire's Vacation</h3>
+      <p class="author">by Ron Roy</p>
+      <p class="desc">A guest at a hotel says he's a vampire. Is it true, or is something spooky going on? 🧛</p>
+      <a class="start" href="atozmysteries/vampire-vacation-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
+    </div>
+  </article>
+
+  <!-- W -->
+  <article class="book" style="--accent:#2980b9">
+    <div class="top"><div class="letter">W</div><div class="emoji">🐺</div></div>
+    <div class="body">
+      <h3 class="title">The White Wolf</h3>
+      <p class="author">by Ron Roy</p>
+      <p class="desc">A howling white wolf appears in the snowy woods. Real, or a clever trick? 🐺</p>
+      <a class="start" href="atozmysteries/white-wolf-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
+    </div>
+  </article>
+
+  <!-- X -->
+  <article class="book" style="--accent:#16a085">
+    <div class="top"><div class="letter">X</div><div class="emoji">🩻</div></div>
+    <div class="body">
+      <h3 class="title">The X'ed-Out X-Ray</h3>
+      <p class="author">by Ron Roy</p>
+      <p class="desc">A hospital x-ray has been crossed out. Why is someone hiding the truth? 🩻</p>
+      <a class="start" href="atozmysteries/xed-out-x-ray-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
+    </div>
+  </article>
+
+  <!-- Y -->
+  <article class="book" style="--accent:#e67e22">
+    <div class="top"><div class="letter">Y</div><div class="emoji">⛵</div></div>
+    <div class="body">
+      <h3 class="title">The Yellow Yacht</h3>
+      <p class="author">by Ron Roy</p>
+      <p class="desc">A shiny yellow yacht, a missing person, and a clue that floats away. ⛵</p>
+      <a class="start" href="atozmysteries/yellow-yacht-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
+    </div>
+  </article>
+
+  <!-- Z -->
+  <article class="book" style="--accent:#27ae60">
+    <div class="top"><div class="letter">Z</div><div class="emoji">🧟</div></div>
+    <div class="body">
+      <h3 class="title">The Zombie Zone</h3>
+      <p class="author">by Ron Roy</p>
+      <p class="desc">Strange footsteps in the fog... is the swamp haunted by zombies? 🧟</p>
+      <a class="start" href="atozmysteries/zombie-zone-quiz.html">开始测验 Start Quiz<small>10 questions · EN / 中文</small></a>
+    </div>
+  </article>
+
+</main>
+
+<footer>
+  A to Z Mysteries Reading Club · 绘本阅读理解<br>
+  Quizzes are for learning English. Books written by Ron Roy (Random House).
+</footer>
+
+</body>
+</html>

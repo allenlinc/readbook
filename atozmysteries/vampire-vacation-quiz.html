@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Vampire's Vacation — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.6rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .baseball{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;
+    border:2px solid #e7e7e7;
+    position:relative;
+  }
+  .baseball::before,.baseball::after{
+    content:"";position:absolute;top:50%;width:2px;height:38px;
+    background:#c0392b;transform:translateY(-50%) rotate(18deg);
+    border-radius:2px;
+  }
+  .baseball::before{left:16px;}
+  .baseball::after{right:16px;transform:translateY(-50%) rotate(-18deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Vampire's Vacation</h1>
+      <a class="homeBtn" href="../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
+    <div class="baseball"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>A to Z Mysteries: The Vampire's Vacation</em> (Random House, 2004)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Ron Roy",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the mystery well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The mystery is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Ron Roy",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个谜案。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！谜底藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [
+  {
+    q:{en:"Who did Josh think the strange man in black really was?",
+       zh:"乔什认为那个穿黑衣的陌生人到底是什么人？"},
+    options:[
+      {en:"A bank robber", zh:"一名银行劫匪"},
+      {en:"A vampire", zh:"一个吸血鬼"},
+      {en:"A police officer", zh:"一名警察"},
+      {en:"A movie star", zh:"一位电影明星"}
+    ],
+    answer:1,
+    explain:{
+      en:"At first Josh was sure the pale man in black was a real vampire, not a famous actor.",
+      zh:"起初乔什坚信那个面色苍白、一身黑衣的人是真正的吸血鬼，而不是什么著名演员。"
+    }
+  },
+  {
+    q:{en:"Which clues made Josh believe the man might be a vampire?",
+       zh:"哪些线索让乔什相信那人可能是吸血鬼？"},
+    options:[
+      {en:"He had pale skin, skinny lips, black clothes, and dark sunglasses", zh:"他皮肤苍白、嘴唇薄、一身黑衣，还戴着墨镜"},
+      {en:"He wore a black cape and showed his fangs", zh:"他披着黑色斗篷，还露出了尖牙"},
+      {en:"He slept hanging upside down like a bat", zh:"他像蝙蝠一样倒挂着睡觉"},
+      {en:"He drank blood right in the supermarket", zh:"他在超市里直接喝血"}
+    ],
+    answer:0,
+    explain:{
+      en:"Josh pointed out the man's pale skin and skinny lips, plus his all-black outfit and dark sunglasses, as vampire signs.",
+      zh:"乔什指出那人皮肤苍白、嘴唇薄，再加上一身黑衣和墨镜，觉得这些都像吸血鬼的特征。"
+    }
+  },
+  {
+    q:{en:"How did the man in black seem to vanish from Ellie's Diner and the Book Nook?",
+       zh:"穿黑衣的人是怎么从艾丽的餐车和小说书店『消失』的？"},
+    options:[
+      {en:"He walked through the wall", zh:"他穿墙而过了"},
+      {en:"He turned into a bat and flew away", zh:"他变成蝙蝠飞走了"},
+      {en:"He left through the back door while the kids entered the front", zh:"趁孩子们从正门进来时，他从后门溜走了"},
+      {en:"He used a magic trick", zh:"他用了魔术"}
+    ],
+    answer:2,
+    explain:{
+      en:"Jimmy left through each shop's back door just as the kids came in the front, so it looked like he had disappeared.",
+      zh:"吉米趁孩子们从正门进店时从后门离开，所以看起来就像凭空消失了。"
+    }
+  },
+  {
+    q:{en:"What name did the man sign in with at the Shangri-la Hotel?",
+       zh:"那人在香格里拉酒店登记时用的名字是什么？"},
+    options:[
+      {en:"Count Dracula", zh:"德古拉伯爵"},
+      {en:"Dr. A. Cula", zh:"A. 库拉医生"},
+      {en:"Jimmy Jett", zh:"吉米·杰特"},
+      {en:"Lionel Linkletter", zh:"莱昂内尔·林克莱特"}
+    ],
+    answer:1,
+    explain:{
+      en:"He signed the hotel register as Dr. A. Cula, the name his Dracula character uses.",
+      zh:"他在酒店登记簿上签的是A. 库拉医生，那是他出演的德古拉角色所用的名字。"
+    }
+  },
+  {
+    q:{en:"Ruth Rose first spelled the name with blocks as 'Dr. Cula.' What did Dink add to turn it into DRACULA?",
+       zh:"露丝·罗丝最初用积木拼出『Dr. Cula』。丁克加了什么让它变成了 DRACULA？"},
+    options:[
+      {en:"He added an A block between the R and C", zh:"他在 R 和 C 之间加了一块 A 积木"},
+      {en:"He added an E block at the end", zh:"他在末尾加了一块 E 积木"},
+      {en:"He added a D block at the start", zh:"他在开头加了一块 D 积木"},
+      {en:"He added an O block after the L", zh:"他在 L 后面加了一块 O 积木"}
+    ],
+    answer:0,
+    explain:{
+      en:"Dink slid an A block between the R and C, turning DR CULA into DRACULA.",
+      zh:"丁克把一块 A 积木插在 R 和 C 之间，于是 DR CULA 就变成了 DRACULA。"
+    }
+  },
+  {
+    q:{en:"What did the kids find in Dr. Cula's hotel room that revealed the trick?",
+       zh:"孩子们在库拉医生的酒店房间里发现了什么，从而揭穿了把戏？"},
+    options:[
+      {en:"A coffin and a set of fake fangs", zh:"一口棺材和一副假尖牙"},
+      {en:"A purple list of names and a box of Band-Aids, written with Nate's Party Purple crayon", zh:"一张紫色名单和一盒创可贴，是用内特那支派对紫蜡笔画的"},
+      {en:"A map of Green Lawn", zh:"一张格林朗镇地图"},
+      {en:"A letter from a movie studio", zh:"一封电影制片厂的信"}
+    ],
+    answer:1,
+    explain:{
+      en:"The list was written in purple that smelled like jellybeans — Nate's Party Purple crayon — proving Ruth Rose had written it.",
+      zh:"名单是用紫色的笔写的，还带着果冻豆的味道——那是内特的派对紫蜡笔，证明是露丝·罗丝写的。"
+    }
+  },
+  {
+    q:{en:"Who was the 'vampire' in black actually?",
+       zh:"那个穿黑衣的『吸血鬼』其实是谁？"},
+    options:[
+      {en:"Mr. Linkletter, the hotel clerk", zh:"酒店职员林克莱特先生"},
+      {en:"Officer Fallon, the police chief", zh:"警察局长法伦警官"},
+      {en:"Jimmy Jett, an actor playing Dracula", zh:"吉米·杰特，一位扮演德古拉的演员"},
+      {en:"Mr. Paskey, the bookstore owner", zh:"书店老板帕斯基先生"}
+    ],
+    answer:2,
+    explain:{
+      en:"The man was Jimmy Jett, an actor on his way to film a Dracula movie. He was only joking around.",
+      zh:"那人其实是吉米·杰特，一位正要去拍德古拉电影的演员。他只是在开玩笑。"
+    }
+  },
+  {
+    q:{en:"Why had Jimmy Jett stopped in Green Lawn?",
+       zh:"吉米·杰特为什么会停在格林朗镇？"},
+    options:[
+      {en:"To film a horror movie there", zh:"去那里拍恐怖片"},
+      {en:"He was on vacation heading to Vermont and the town looked like a nice place to stop", zh:"他去佛蒙特州度假途中，觉得这个镇子看起来不错就停了下来"},
+      {en:"To visit his relatives", zh:"去探望亲戚"},
+      {en:"To meet Dink, Josh, and Ruth Rose", zh:"去见丁克、乔什和露丝·罗丝"}
+    ],
+    answer:1,
+    explain:{
+      en:"Jimmy said he was on his way to Vermont for a vacation and stopped in Green Lawn because it looked like a nice place.",
+      zh:"吉米说他正要去佛蒙特州度假，因为格林朗看起来是个不错的地方，就停了下来。"
+    }
+  },
+  {
+    q:{en:"Who was really behind the prank that fooled the kids?",
+       zh:"真正策划这场捉弄孩子们的恶作剧的是谁？"},
+    options:[
+      {en:"Only Josh, as a joke on his friends", zh:"只有乔什，为了捉弄朋友"},
+      {en:"Ruth Rose, to teach them a lesson", zh:"露丝·罗丝，为了给他们一个教训"},
+      {en:"Jimmy Jett, helped by Ellie, Mr. Paskey, Mr. Linkletter, Officer Fallon, and Ruth Rose", zh:"吉米·杰特，在艾丽、帕斯基先生、林克莱特先生、法伦警官和露丝·罗丝的帮助下"},
+      {en:"A real vampire who lived in town", zh:"一个住在镇上的真吸血鬼"}
+    ],
+    answer:2,
+    explain:{
+      en:"Jimmy started the prank and the others joined in, even Officer Fallon at the end, to scare the kids for fun.",
+      zh:"吉米发起了这场恶作剧，其他人也跟着参与，连法伦警官最后也加入，只为吓唬孩子们玩。"
+    }
+  },
+  {
+    q:{en:"How does the story end, at the New York movie theater?",
+       zh:"故事在纽约的电影院里是如何收尾的？"},
+    options:[
+      {en:"The kids catch the real vampire", zh:"孩子们抓住了真正的吸血鬼"},
+      {en:"Jimmy gives them vampire fangs to watch the movie DRACULA'S DAUGHTER", zh:"吉米给了他们吸血鬼尖牙，一起看电影《德古拉之女》"},
+      {en:"The kids go straight home", zh:"孩子们直接回家了"},
+      {en:"The vampire bites them all", zh:"吸血鬼把他们全咬了"}
+    ],
+    answer:1,
+    explain:{
+      en:"Jimmy sat next to Josh wearing a cape and gave the three kids fake fangs as they watched his new movie, DRACULA'S DAUGHTER.",
+      zh:"吉米披着斗篷坐在乔什旁边，在孩子们观看他的新片《德古拉之女》时，发给他们每人一副假尖牙。"
+    }
+  }
+];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  // re-bind radio events
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

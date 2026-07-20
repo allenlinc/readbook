@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Zombie Zone — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.6rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .baseball{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;
+    border:2px solid #e7e7e7;
+    position:relative;
+  }
+  .baseball::before,.baseball::after{
+    content:"";position:absolute;top:50%;width:2px;height:38px;
+    background:#c0392b;transform:translateY(-50%) rotate(18deg);
+    border-radius:2px;
+  }
+  .baseball::before{left:16px;}
+  .baseball::after{right:16px;transform:translateY(-50%) rotate(-18deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Zombie Zone</h1>
+      <a class="homeBtn" href="../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
+    <div class="baseball"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>A to Z Mysteries: The Zombie Zone</em> (Random House, 2005)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Ron Roy",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the mystery well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The mystery is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Ron Roy",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个谜案。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！谜底藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [
+  {
+    q:{en:"Where do Dink, Josh, and Ruth Rose begin their adventure in this story?",
+       zh:"丁克、乔什和露丝·罗丝在这一册里是从哪里开始他们的冒险的？"},
+    options:[
+      {en:"New Orleans, Louisiana", zh:"路易斯安那州的新奥尔良"},
+      {en:"Baton Rouge, Louisiana", zh:"路易斯安那州的巴吞鲁日"},
+      {en:"A small town in Texas", zh:"得克萨斯州的一个小镇"},
+      {en:"The Florida Keys", zh:"佛罗里达群岛"}
+    ],
+    answer:0,
+    explain:{
+      en:"The book opens in New Orleans, Louisiana, where Ruth Rose's grandmother is taking a painting course and has brought the kids along.",
+      zh:"故事开头在新奥尔良，露丝·罗丝的奶奶去那里上绘画课，并把孩子们一起带了去。"
+    }
+  },
+  {
+    q:{en:"What three words are painted in red on the sign nailed to a tree trunk?",
+       zh:"钉在树干上的那块牌子是用红漆写的哪三个词？"},
+    options:[
+      {en:"ZOMBIE ZONE", zh:"僵尸区 (ZOMBIE ZONE)"},
+      {en:"DANGER: SNAKES", zh:"危险：有蛇"},
+      {en:"KEEP OUT", zh:"禁止入内"},
+      {en:"VOODOO TERRITORY", zh:"巫毒教领地"}
+    ],
+    answer:0,
+    explain:{
+      en:"After Dink trips, he sees a small sign nailed to a tree with three words painted in dripping red paint: ZOMBIE ZONE.",
+      zh:"丁克摔倒后，看到一块钉在树上的小牌子，上面用滴落的红漆写着三个词：僵尸区 (ZOMBIE ZONE)。"
+    }
+  },
+  {
+    q:{en:"In the village cemetery, how many graves had been robbed that week?",
+       zh:"在村子的墓地里，那一周有几座坟墓被盗挖？"},
+    options:[
+      {en:"Two", zh:"两座"},
+      {en:"One", zh:"一座"},
+      {en:"Three", zh:"三座"},
+      {en:"Five", zh:"五座"}
+    ],
+    answer:0,
+    explain:{
+      en:"An old man tells Jack that two graves have been robbed that week, and people are afraid the zombies did it.",
+      zh:"一位老人告诉杰克，那一周有两座坟墓被盗挖，大家都害怕是僵尸干的。"
+    }
+  },
+  {
+    q:{en:"Who is the guide who drives the kids into the bayou in his painted van?",
+       zh:"开着画满图案的面包车、带孩子们走进湿地的向导是谁？"},
+    options:[
+      {en:"Jack, who runs GATOR GUIDES", zh:"杰克，经营“鳄鱼向导”的那个人"},
+      {en:"Byron, the man in the woods", zh:"拜伦，住在树林里的那个人"},
+      {en:"Myrna, the village woman", zh:"米尔娜，村子里的那位老太太"},
+      {en:"Jay Frisk, the land developer", zh:"杰伊·弗里斯克，那位地产开发商"}
+    ],
+    answer:0,
+    explain:{
+      en:"Jack drives a van painted with trees and an alligator with the words GATOR GUIDES spilling from its mouth, and he leads the kids into the bayou.",
+      zh:"杰克开的面包车上画着树木和一只鳄鱼，鳄鱼嘴里吐出“鳄鱼向导”几个字，是他带着孩子们走进湿地的。"
+    }
+  },
+  {
+    q:{en:"Who lives alone in a junk-built cabin in the woods with an owl named Bill?",
+       zh:"谁独自住在树林里用废料搭成的小屋里，还养了一只名叫比尔的猫头鹰？"},
+    options:[
+      {en:"Byron", zh:"拜伦"},
+      {en:"Jack", zh:"杰克"},
+      {en:"The old man Bo", zh:"老人博"},
+      {en:"Lucy, Jack's friend", zh:"露西，杰克的朋友"}
+    ],
+    answer:0,
+    explain:{
+      en:"The kids follow giant footprints to a clearing and meet Byron, a big gentle man whose pet owl is named Bill.",
+      zh:"孩子们顺着巨大的脚印走到一片空地，遇见了拜伦——一个高大温和的男人，他的宠物猫头鹰叫比尔。"
+    }
+  },
+  {
+    q:{en:"At night, what did the kids witness a dark figure doing at the cemetery?",
+       zh:"夜里，孩子们亲眼看到那个黑影在墓地里做了什么？"},
+    options:[
+      {en:"Crawling out of a grave while searching for his lost wallet", zh:"从坟墓里爬出来，寻找自己丢失的钱包"},
+      {en:"Digging a brand-new grave", zh:"挖一座全新的坟墓"},
+      {en:"Painting the ZOMBIE ZONE sign", zh:"涂写“僵尸区”的牌子"},
+      {en:"Carrying a coffin away", zh:"扛走一口棺材"}
+    ],
+    answer:0,
+    explain:{
+      en:"They watch a tall figure pull himself out of an empty grave with a flashlight in his mouth; they later learn he was hunting for his lost wallet.",
+      zh:"他们看到一个高个子从空坟墓里爬出来，嘴里还叼着手电筒；后来才知道他是在找自己丢失的钱包。"
+    }
+  },
+  {
+    q:{en:"What did Ruth Rose notice on Byron's shovel that made the kids suspicious?",
+       zh:"露丝·罗丝在拜伦的铲子上发现了什么，让孩子们起了疑心？"},
+    options:[
+      {en:"Red clay matching the dirt at the cemetery", zh:"和墓地里的泥土一样的红黏土"},
+      {en:"A torn piece of a wallet", zh:"一块撕破的钱包皮"},
+      {en:"Owl feathers", zh:"猫头鹰的羽毛"},
+      {en:"Paint from the sign", zh:"牌子上的油漆"}
+    ],
+    answer:0,
+    explain:{
+      en:"Ruth Rose spotted red clay caked on the shovel blade — the same red clay found at the graveyard, unlike the black soil of Byron's garden.",
+      zh:"露丝·罗丝发现铲子刃上沾着干硬的红黏土——和墓地里的红黏土一样，而不是拜伦菜园里那种黑色的土。"
+    }
+  },
+  {
+    q:{en:"Whose leather wallet did Byron find in the dirt after the graves were dug up?",
+       zh:"坟墓被挖开后，拜伦在泥土里捡到的皮钱包是谁的？"},
+    options:[
+      {en:"Land developer Jay Frisk", zh:"地产开发商杰伊·弗里斯克"},
+      {en:"Jack the guide", zh:"向导杰克"},
+      {en:"Byron himself", zh:"拜伦自己"},
+      {en:"The old man Bo", zh:"老人博"}
+    ],
+    answer:0,
+    explain:{
+      en:"Byron saved the wallet for its owners; inside was a business card showing Jay Frisk, a land developer, with his photo on it.",
+      zh:"拜伦把钱包留着想还给失主；里面有一张名片，上面是地产开发商杰伊·弗里斯克，还印着他的照片。"
+    }
+  },
+  {
+    q:{en:"Why did Jay Frisk and his partner dig up the graves?",
+       zh:"杰伊·弗里斯克和他的同伙为什么要挖开那些坟墓？"},
+    options:[
+      {en:"To scare the villagers into selling their land", zh:"为了吓唬村民，逼他们把土地卖出去"},
+      {en:"To steal gold buried with the dead", zh:"为了偷埋在死者身边的金子"},
+      {en:"To build a zoo", zh:"为了建一座动物园"},
+      {en:"To find a lost pet", zh:"为了找一只走失的宠物"}
+    ],
+    answer:0,
+    explain:{
+      en:"Dink realizes Frisk dug up the graves to make villagers afraid of zombies so they would sell their land to developers who wanted to build apartments.",
+      zh:"丁克明白了，弗里斯克挖坟是想让村民害怕僵尸，从而把土地卖给想盖公寓的开发商。"
+    }
+  },
+  {
+    q:{en:"What surprising thing did the mother alligator do with her newborn babies?",
+       zh:"母短吻鳄对自己刚出生的小宝宝做了一件什么出人意料的事？"},
+    options:[
+      {en:"Opened her mouth so the babies crawled inside to be protected", zh:"张开嘴，让小鳄鱼爬进嘴里受到保护"},
+      {en:"Ate them", zh:"把它们吃掉了"},
+      {en:"Pushed them into the water to swim", zh:"把它们推到水里让它们游"},
+      {en:"Left them on a log and walked away", zh:"把它们留在原木上然后走开"}
+    ],
+    answer:0,
+    explain:{
+      en:"Mama alligator flattened down and opened her jaws; the babies scrambled into her mouth, which is how alligators protect their young from predators.",
+      zh:"母鳄鱼趴平身子张开大嘴，小鳄鱼纷纷爬进她嘴里——鳄鱼就是这样保护幼崽不被天敌吃掉的。"
+    }
+  }
+];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  // re-bind radio events
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

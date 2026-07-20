@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Unwilling Umpire — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.6rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .baseball{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;
+    border:2px solid #e7e7e7;
+    position:relative;
+  }
+  .baseball::before,.baseball::after{
+    content:"";position:absolute;top:50%;width:2px;height:38px;
+    background:#c0392b;transform:translateY(-50%) rotate(18deg);
+    border-radius:2px;
+  }
+  .baseball::before{left:16px;}
+  .baseball::after{right:16px;transform:translateY(-50%) rotate(-18deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Unwilling Umpire</h1>
+      <a class="homeBtn" href="../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
+    <div class="baseball"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>A to Z Mysteries: The Unwilling Umpire</em> (Random House, 2004)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Ron Roy",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the mystery well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The mystery is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Ron Roy",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个谜案。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！谜底藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [
+  {
+    q:{en:"What cause was the town baseball game raising money for?",
+       zh:"镇上的棒球比赛是为了给什么事业筹款？"},
+    options:[
+      {en:"A new library for Green Lawn", zh:"给格林朗镇新建一座图书馆"},
+      {en:"Camp Challenge, a summer camp for kids with special needs", zh:"挑战营——一个为有特殊需要的孩子办的夏令营"},
+      {en:"New baseball equipment for the school", zh:"给学校买新的棒球装备"},
+      {en:"A playground in the town park", zh:"镇公园里的一个游乐场"}
+    ],
+    answer:1,
+    explain:{
+      en:"The kids sold tickets to fill the bleachers, and the money would go to Camp Challenge, a summer camp for children with special needs.",
+      zh:"孩子们卖票把看台坐满，筹到的钱会捐给“挑战营”——一个为有特殊需要的儿童设立的夏令营。"
+    }
+  },
+  {
+    q:{en:"Who volunteered to be the umpire at the game?",
+       zh:"谁自愿担任比赛的裁判（umpire）？"},
+    options:[
+      {en:"Mr. Dillon, the school principal", zh:"校长狄龙先生"},
+      {en:"Mr. Thaddeus Pocket, the coach", zh:"教练撒迪厄斯·波克特先生"},
+      {en:"Pete Unkenholz, a friendly newcomer", zh:"皮特·昂肯霍尔茨，一个友善的新来者"},
+      {en:"Officer Fallon, the police chief", zh:"法伦警官，警察局长"}
+    ],
+    answer:2,
+    explain:{
+      en:"Pete Unkenholz was a tall, friendly guy with spiky blond hair who volunteered to umpire. He had even helped set up the bleachers.",
+      zh:"皮特·昂肯霍尔茨是个高个子、友善、留着金色尖发的小伙子，自愿当裁判。他甚至还帮忙搭了看台。"
+    }
+  },
+  {
+    q:{en:"Why did Pete leave the game and go into the clubhouse?",
+       zh:"皮特为什么离开比赛，走进球员休息室？"},
+    options:[
+      {en:"To steal Mr. Pocket's autographed baseballs", zh:"去偷波克特先生签了名的棒球"},
+      {en:"To get his allergy medicine (Aller-Green)", zh:"去拿他的过敏药（Aller-Green）"},
+      {en:"To hide from the crowd", zh:"躲开人群"},
+      {en:"To talk to Mr. Pocket about the score", zh:"去和波克特先生商量比分"}
+    ],
+    answer:1,
+    explain:{
+      en:"Pete started sneezing from his allergies and went to the clubhouse for his allergy medicine. The empty Aller-Green box later found in his trash proved his allergies were real.",
+      zh:"皮特因为过敏开始打喷嚏，便去休息室拿过敏药。后来在他垃圾桶里发现的空Aller-Green药盒证明他的过敏是真的。"
+    }
+  },
+  {
+    q:{en:"What clue at Pete's trailer made the kids think someone else might be involved?",
+       zh:"在皮特的拖车房里，什么线索让孩子们怀疑还有别人牵扯其中？"},
+    options:[
+      {en:"A torn ticket to the game", zh:"一张撕破的比赛门票"},
+      {en:"A red-and-blue flannel shirt far too small for Pete", zh:"一件红蓝相间的法兰绒衬衫，对皮特来说太小了"},
+      {en:"A glove belonging to Mr. Pocket", zh:"波克特先生的一只手套"},
+      {en:"A map of the baseball field", zh:"一张棒球场地图"}
+    ],
+    answer:1,
+    explain:{
+      en:"Josh noticed a flannel shirt draped on the lawn chair that was much too small to fit big Pete — a hint that someone smaller (his brother Buddy) also stayed there.",
+      zh:"乔什注意到躺椅上搭着一件法兰绒衬衫，对高大的皮特来说太小了——这暗示有个更小的人（他弟弟巴迪）也住那里。"
+    }
+  },
+  {
+    q:{en:"What did the kids discover about Pete through the Internet and a phone call?",
+       zh:"通过上网和打电话，孩子们发现了皮特的什么？"},
+    options:[
+      {en:"He was a famous retired baseball player", zh:"他是个有名的退役棒球手"},
+      {en:"His real first name was Marion and a Maine paper reported 'Marion Unkenholz' stole a bakery van", zh:"他的真名是马里恩，缅因州报纸报道“马里恩·昂肯霍尔茨”偷过一辆面包车"},
+      {en:"He used to live in Green Lawn", zh:"他以前住在格林朗"},
+      {en:"He had once been a police officer", zh:"他曾经当过警察"}
+    ],
+    answer:1,
+    explain:{
+      en:"Searching 'Unkenholz' led them to a Coast Press article about Marion Unkenholz taking a bakery van in Penobscot, Maine. His full name turned out to be Marion Peter Unkenholz.",
+      zh:"搜索“Unkenholz”让他们找到《海岸新闻》一篇关于马里恩·昂肯霍尔茨在缅因州佩诺布斯科特偷面包车的报道。他的全名其实是马里恩·彼得·昂肯霍尔茨。"
+    }
+  },
+  {
+    q:{en:"Who is Buddy, and why did Pete confess to the theft?",
+       zh:"巴迪是谁？皮特为什么承认偷了球？"},
+    options:[
+      {en:"Buddy is Pete's son; Pete confessed to set a good example", zh:"巴迪是皮特的儿子；皮特认错是为了做个好榜样"},
+      {en:"Buddy is Pete's 14-year-old brother; Pete lied to protect him from blame", zh:"巴迪是皮特14岁的弟弟；皮特说谎是为了替他顶罪"},
+      {en:"Buddy is a friend of Dink; Pete confessed by mistake", zh:"巴迪是丁克的朋友；皮特认错是弄错了"},
+      {en:"Buddy is the police chief's nephew; Pete was forced to confess", zh:"巴迪是警察局长的侄子；皮特是被逼认罪的"}
+    ],
+    answer:1,
+    explain:{
+      en:"Buddy is Pete's younger brother. Pete confessed to stealing the baseballs so that Buddy — whom he wrongly believed had taken them — would not get in trouble. He had done the same thing over the van in Maine.",
+      zh:"巴迪是皮特的弟弟。皮特承认偷球，是为了不让巴迪（他误以为球是被巴迪拿走的）惹上麻烦。在缅因州的面包车事件上他也这样替弟弟顶过罪。"
+    }
+  },
+  {
+    q:{en:"How did the kids finally track down the real thief?",
+       zh:"孩子们最后是怎么找到真正的小偷的？"},
+    options:[
+      {en:"They searched Pete's trailer again", zh:"他们又搜了皮特的拖车房"},
+      {en:"They found the Babe Ruth ball for sale online (YuBuy) and emailed the seller for an address", zh:"他们在网上(YuBuy)发现那颗有贝比·鲁斯签名的球在卖，于是发邮件向卖家要地址"},
+      {en:"Pete finally told them the truth", zh:"皮特终于说了实话"},
+      {en:"Buddy confessed to the crime", zh:"巴迪认罪了"}
+    ],
+    answer:1,
+    explain:{
+      en:"Mrs. Mackleroy searched YuBuy for 'baseballs signed by Babe Ruth.' They found Mr. Pocket's ball listed for $1,000, emailed the seller, and got back a Green Lawn address.",
+      zh:"麦克勒罗伊太太在YuBuy上搜“有贝比·鲁斯签名的棒球”。他们发现波克特先生的球标价1000美元在卖，于是发邮件给卖家，得到了格林朗的一个地址。"
+    }
+  },
+  {
+    q:{en:"Who actually stole Mr. Pocket's six autographed baseballs?",
+       zh:"究竟是谁偷了波克特先生的六颗签名棒球？"},
+    options:[
+      {en:"Pete Unkenholz", zh:"皮特·昂肯霍尔茨"},
+      {en:"Buddy Unkenholz", zh:"巴迪·昂肯霍尔茨"},
+      {en:"Ted Gundy", zh:"泰德·甘迪"},
+      {en:"Fizzo Martin", zh:"菲佐·马丁"}
+    ],
+    answer:2,
+    explain:{
+      en:"Officer Fallon arrested Ted Gundy after the email reply gave his address (13 Boxwood Lane). The six stolen baseballs were found in his closet.",
+      zh:"邮件回信给出了泰德·甘迪的地址（黄杨巷13号），法伦警官据此逮捕了他。那六颗被盗的棒球在他衣柜里被找到。"
+    }
+  },
+  {
+    q:{en:"What lesson did Officer Fallon teach Pete about lying?",
+       zh:"法伦警官给皮特上了什么关于说谎的课？"},
+    options:[
+      {en:"Lying is smart if it protects your family", zh:"只要保护家人，说谎是聪明的"},
+      {en:"Lying is always wrong, even to protect someone else", zh:"说谎永远是错的，哪怕是为了保护别人"},
+      {en:"Lying is fine as long as no one is hurt", zh:"只要没人受伤，说谎没关系"},
+      {en:"Only children should tell the truth", zh:"只有孩子才该说真话"}
+    ],
+    answer:1,
+    explain:{
+      en:"Officer Fallon told Pete that lying is wrong, even when done to protect someone else. Pete learned his lesson, and Fallon even began encouraging him to become a policeman.",
+      zh:"法伦警官告诉皮特，说谎是错的，哪怕是为了保护别人。皮特吸取了教训，法伦甚至开始鼓励他将来当警察。"
+    }
+  },
+  {
+    q:{en:"What was the final score when the game was replayed the next Saturday?",
+       zh:"下周六大比赛重打时，最终比分是多少？"},
+    options:[
+      {en:"Men 6, Women 3", zh:"男人队6，女人队3"},
+      {en:"Men 7, Women 6", zh:"男人队7，女人队6"},
+      {en:"Women 7, Men 6", zh:"女人队7，男人队6"},
+      {en:"Tie, 6–6", zh:"平局，6比6"}
+    ],
+    answer:2,
+    explain:{
+      en:"With the bases loaded, Livvy Nugent hit a grand slam in the bottom of the ninth. The women won 7–6, so Josh owed Ruth Rose that ice-cream cone after all.",
+      zh:"满垒时，丽芙·纽金特在第九局下半击出一记满贯全垒打。女人队以7比6获胜，所以乔什到底还是欠了露丝·罗丝那个冰淇淋甜筒。"
+    }
+  }
+];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  // re-bind radio events
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
