@@ -91,8 +91,8 @@ for b in books:
     ms = b.get("mainSkill", "")
     cards.append(
         '<article class="book">'
-        '<div class="tt">%s</div>' % html.escape(b["title"]) +
-        ('<div class="zz">%s</div>' % html.escape(b.get("titleZh", "")) if b.get("titleZh") else "") +
+        '<div class="tt en">%s</div>' % html.escape(b["title"]) +
+        ('<div class="zz zh">%s</div>' % html.escape(b.get("titleZh", "")) if b.get("titleZh") else "") +
         '<div class="meta">' +
         ('<span class="chip">%s</span>' % html.escape(ms) if ms else "") +
         ('<span class="chip gen">%s</span>' % html.escape(genre) if genre else "") +
@@ -110,15 +110,15 @@ HUB = """<!DOCTYPE html>
 <title>RAZ-O 阅读理解 · Reading by Level</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
+<body class="lang-en">
 <div class="wrap">
   <div class="topbar">
-    <button class="langBtn" id="langBtn">🌐 中文: 开</button>
-    <a class="homeBtn" href="../index.html">🏠 首页 Home</a>
+    <button class="langBtn" id="langBtn">🌐 EN</button>
+    <a class="homeBtn" href="../index.html"><span class="en">🏠 Home</span><span class="zh">🏠 首页</span></a>
   </div>
   <div class="hub-hero">
-    <h1>RAZ Level O · 阅读理解练习</h1>
-    <p>__COUNT__ 本分级读物，每本 10 道中英双语理解题 + 1 道思考题。Choose a book to start!</p>
+    <h1><span class="en">RAZ Level O · Reading Comprehension</span><span class="zh">RAZ Level O · 阅读理解练习</span></h1>
+    <p><span class="en">__COUNT__ leveled readers — 10 bilingual questions + 1 open-ended question each. Choose a book to start!</span><span class="zh">__COUNT__ 本分级读物，每本 10 道理解题 + 1 道思考题。选一本开始吧！</span></p>
   </div>
   <div class="controls">
     <input id="q" type="search" placeholder="🔍 搜索书名 Search title…" autocomplete="off">
@@ -127,15 +127,15 @@ HUB = """<!DOCTYPE html>
   <div class="grid" id="grid">
 __CARDS__
   </div>
-  <footer>RAZ-O Quick Check · 题目依据原书内容编写 · EN / 中文</footer>
+  <footer><span class="en">RAZ-O Quick Check · questions written from the original books</span><span class="zh">RAZ-O 阅读理解 · 题目依据原书内容编写</span></footer>
 </div>
 <script>
 var BOOKS = __BOOKS__;
 var grid = document.getElementById('grid');
 var q = document.getElementById('q'), sk = document.getElementById('sk');
 function card(b){
-  return '<article class="book"><div class="tt">'+esc(b.title)+'</div>'+
-    (b.titleZh?'<div class="zz">'+esc(b.titleZh)+'</div>':'')+
+  return '<article class="book"><div class="tt en">'+esc(b.title)+'</div>'+
+    (b.titleZh?'<div class="zz zh">'+esc(b.titleZh)+'</div>':'')+
     '<div class="meta">'+
       (b.mainSkill?'<span class="chip">'+esc(b.mainSkill)+'</span>':'')+
       (b.genre?'<span class="chip gen">'+esc(b.genre)+'</span>':'')+
@@ -154,7 +154,7 @@ function render(){
 }
 q.addEventListener('input', render); sk.addEventListener('change', render);
 var lb=document.getElementById('langBtn');
-lb.addEventListener('click',function(){document.body.classList.toggle('zh-hide');var on=!document.body.classList.contains('zh-hide');lb.textContent=on?'🌐 中文: 开':'🌐 中文: 关';});
+lb.addEventListener('click',function(){var zh=document.body.classList.toggle('lang-zh');document.body.classList.toggle('lang-en',!zh);lb.textContent=zh?'🌐 中文':'🌐 EN';});
 render();
 </script>
 </body>
@@ -183,14 +183,14 @@ BOOK_TPL = """<!DOCTYPE html>
 <title>__TITLE__ · RAZ-O</title>
 <link rel="stylesheet" href="../assets/style.css">
 </head>
-<body>
+<body class="lang-en">
 <div class="wrap">
   <div class="topbar">
-    <button class="langBtn" id="langBtn">🌐 中文: 开</button>
-    <a class="homeBtn" href="../../index.html">🏠 首页 Home</a>
+    <button class="langBtn" id="langBtn">🌐 EN</button>
+    <a class="homeBtn" href="../../index.html"><span class="en">🏠 Home</span><span class="zh">🏠 首页</span></a>
   </div>
   <div id="app"></div>
-  <footer><a href="../index.html">← 返回 RAZ-O 书单 Back to RAZ-O</a></footer>
+  <footer><a href="../index.html"><span class="en">← Back to RAZ-O</span><span class="zh">← 返回 RAZ-O 书单</span></a></footer>
 </div>
 <script>window.BOOK = __BOOK__;</script>
 <script src="../assets/quiz.js"></script>

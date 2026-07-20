@@ -12,11 +12,16 @@
     return String(s == null ? "" : s)
       .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
-  // Render one language line with optional secondary (zh) hint.
+  // Render one bilingual line: English in .en, Chinese in .zh (one shown per mode).
   function line(en, zh, cls) {
-    var h = '<div class="' + (cls || "txt") + '">' + esc(en);
+    var h = '<div class="' + (cls || "txt") + '">';
+    h += '<span class="en">' + esc(en) + "</span>";
     if (zh) h += '<span class="zh">' + esc(zh) + "</span>";
     return h + "</div>";
+  }
+  // Inline bilingual snippet (for headings / buttons).
+  function bi(en, zh) {
+    return '<span class="en">' + esc(en) + '</span><span class="zh">' + esc(zh) + "</span>";
   }
 
   function render() {
@@ -27,8 +32,8 @@
     // ---- hero ----
     html += '<div class="hero">' +
       '<div class="lvl"><b>' + esc(B.level || "O") + '</b><span>LEVEL</span></div>' +
-      '<div><h1>' + esc(B.title) + '</h1>' +
-      (B.titleZh ? '<div class="zh">' + esc(B.titleZh) + "</div>" : "") +
+      '<div><h1><span class="en">' + esc(B.title) + "</span>" +
+      (B.titleZh ? '<span class="zh">' + esc(B.titleZh) + "</span>" : "") + "</h1>" +
       '<div class="tags">' +
         (B.genre ? '<span class="tag">' + esc(B.genre) + "</span>" : "") +
         (B.mainSkill ? '<span class="tag">' + esc(B.mainSkill) + "</span>" : "") +
@@ -72,11 +77,11 @@
     // ---- extended response ----
     if (B.extended && B.extended.prompt) {
       var ep = B.extended.prompt, gd = B.extended.guidance || {};
-      html += '<div class="ext"><h3>💡 Extended Response · 思考题</h3>' +
+      html += '<div class="ext"><h3>💡 ' + bi("Extended Response", "思考题") + "</h3>" +
         line(ep.en, ep.zh, "ep");
-      if (ep.en) html += '<textarea placeholder="Write your answer here / 在这里写下你的回答…"></textarea>';
+      if (ep.en) html += '<textarea placeholder="✍️"></textarea>';
       if (gd.en || gd.zh) {
-        html += "<details><summary>参考要点 Reference points</summary>" +
+        html += "<details><summary>" + bi("Reference points", "参考要点") + "</summary>" +
           line(gd.en || "", gd.zh || "", "gd") + "</details>";
       }
       html += "</div>";
@@ -140,13 +145,13 @@
     });
     br += "</div>";
 
-    var msg = correct === total ? "Perfect! 太棒了！" :
-              correct >= total * 0.6 ? "Good job! 做得不错！" : "Keep practicing! 再练练！";
-    sum.innerHTML = "<h2>" + esc(msg) + "</h2>" +
+    var msgEn = correct === total ? "Perfect!" : correct >= total * 0.6 ? "Good job!" : "Keep practicing!";
+    var msgZh = correct === total ? "太棒了！" : correct >= total * 0.6 ? "做得不错！" : "再练练！";
+    sum.innerHTML = "<h2>" + bi(msgEn, msgZh) + "</h2>" +
       '<div class="score">' + correct + "<small> / " + total + "</small></div>" +
-      "<p style='color:var(--muted);margin:6px 0 0'>你的得分 Your score</p>" +
+      "<p style='color:var(--muted);margin:6px 0 0'>" + bi("Your score", "你的得分") + "</p>" +
       br +
-      '<button class="restart" id="restart">🔄 重新开始 Restart</button>';
+      '<button class="restart" id="restart">🔄 ' + bi("Restart", "重新开始") + "</button>";
     sum.classList.add("show");
     document.getElementById("restart").addEventListener("click", function () {
       state = []; answered = 0; sum.classList.remove("show"); render();
@@ -155,12 +160,12 @@
     sum.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
-  // language toggle (show/hide Chinese support text)
+  // language toggle: EN only  <->  中文 only  (default EN, set on <body> by build.py)
   var lb = document.getElementById("langBtn");
   if (lb) lb.addEventListener("click", function () {
-    document.body.classList.toggle("zh-hide");
-    var on = !document.body.classList.contains("zh-hide");
-    lb.textContent = on ? "🌐 中文: 开" : "🌐 中文: 关";
+    var zh = document.body.classList.toggle("lang-zh");
+    document.body.classList.toggle("lang-en", !zh);
+    lb.textContent = zh ? "🌐 中文" : "🌐 EN";
   });
 
   render();
