@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Haunted Hotel — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.6rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .baseball{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;
+    border:2px solid #e7e7e7;
+    position:relative;
+  }
+  .baseball::before,.baseball::after{
+    content:"";position:absolute;top:50%;width:2px;height:38px;
+    background:#c0392b;transform:translateY(-50%) rotate(18deg);
+    border-radius:2px;
+  }
+  .baseball::before{left:16px;}
+  .baseball::after{right:16px;transform:translateY(-50%) rotate(-18deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Haunted Hotel</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
+    <div class="baseball"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>A to Z Mysteries: The Haunted Hotel</em> (Random House, 1999)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Ron Roy",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the mystery well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The mystery is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Ron Roy",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个谜案。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！谜底藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What is the name of the hotel where the ghost appears?", "zh": "闹鬼的旅馆叫什么名字？"}, "options": [{"en": "The Shangri-la Hotel", "zh": "香格里拉旅馆（The Shangri-la Hotel）"}, {"en": "The Green Lawn Inn", "zh": "格林劳恩客栈"}, {"en": "The Haunted House", "zh": "鬼屋"}, {"en": "The Royal Palace", "zh": "皇家宫殿"}], "answer": 0, "explain": {"en": "The newspaper reports a ghost haunting the Shangri-la Hotel in Green Lawn.", "zh": "报纸报道格林劳恩的香格里拉旅馆里有鬼。"}}, {"q": {"en": "Who manages the Shangri-la Hotel?", "zh": "谁负责管理香格里拉旅馆？"}, "options": [{"en": "Mr. Linkletter, the owners' nephew", "zh": "林肯莱特先生，也就是旅馆老板的侄子"}, {"en": "Dink's father", "zh": "丁克的爸爸"}, {"en": "Officer Fallon", "zh": "法伦警官"}, {"en": "Livvy the maid", "zh": "女佣丽薇"}], "answer": 0, "explain": {"en": "Mr. Linkletter is the hotel manager and nephew of the owners, Mr. and Mrs. Spivets.", "zh": "林肯莱特先生是旅馆经理，也是老板斯皮维特夫妇的侄子。"}}, {"q": {"en": "At what time of night does the ghost appear?", "zh": "鬼是在深夜几点出现的？"}, "options": [{"en": "Midnight", "zh": "午夜"}, {"en": "Six o'clock", "zh": "六点"}, {"en": "Dawn", "zh": "黎明"}, {"en": "Three in the afternoon", "zh": "下午三点"}], "answer": 0, "explain": {"en": "Guests report seeing the ghost float down the hall at midnight, carrying a silver sword.", "zh": "客人们说在午夜看到鬼拿着一把银剑在走廊里飘过。"}}, {"q": {"en": "What does Ruth Rose find on the fire-exit doorframe that proves the ghost is fake?", "zh": "露丝·罗丝在消防门框上发现了什么，证明鬼是假的？"}, "options": [{"en": "A white hair from a wig", "zh": "一根假发上的白头发"}, {"en": "A silver sword", "zh": "一把银剑"}, {"en": "A footprint", "zh": "一个脚印"}, {"en": "A written note", "zh": "一张字条"}], "answer": 0, "explain": {"en": "Ruth Rose plucks a white hair from the doorframe; later they match it to a wig in Room 301.", "zh": "露丝·罗丝从门框上揪下一根白头发，后来证明它和301房间的假发一致。"}}, {"q": {"en": "Who was really pretending to be the ghost?", "zh": "到底是谁在假扮鬼？"}, "options": [{"en": "Mr. and Mrs. Jeffers, two actors", "zh": "杰弗斯夫妇，两位演员"}, {"en": "Mr. Linkletter", "zh": "林肯莱特先生"}, {"en": "Livvy the maid", "zh": "女佣丽薇"}, {"en": "Mr. Spivets", "zh": "斯皮维特先生"}], "answer": 0, "explain": {"en": "The Jefferses confess they are actors hired to scare guests away from the hotel.", "zh": "杰弗斯夫妇承认他们是受雇来把客人吓跑的演员。"}}, {"q": {"en": "Who hired the 'ghost' to scare the guests away?", "zh": "是谁雇了‘鬼’来把客人吓走？"}, "options": [{"en": "Eatch, Rail, and Roock, a real estate company", "zh": "一家叫伊奇、雷尔和鲁克（Eatch, Rail, and Roock）的房地产公司"}, {"en": "Mr. Spivets", "zh": "斯皮维特先生"}, {"en": "The newspaper", "zh": "报社"}, {"en": "Dink's mother", "zh": "丁克的妈妈"}], "answer": 0, "explain": {"en": "The real estate men wanted the hotel cheap, so they paid the Jefferses to drive guests away and force a sale.", "zh": "那家房地产公司想低价买下旅馆，所以雇杰弗斯夫妇把客人吓走，逼老板卖房。"}}, {"q": {"en": "What gives away the crooks' real plan?", "zh": "是什么暴露了骗子们的真实图谋？"}, "options": [{"en": "Their names rearrange to 'Cheat, Liar, and Crook'", "zh": "他们的名字重新排列就是‘骗子、说谎者、无赖’"}, {"en": "They left gold coins", "zh": "他们留下了金币"}, {"en": "They wore uniforms", "zh": "他们穿着制服"}, {"en": "They drove a red car", "zh": "他们开一辆红色的车"}], "answer": 0, "explain": {"en": "Mrs. Spivets points out that Eatch, Rail, and Roock can be rearranged into Cheat, Liar, and Crook.", "zh": "斯皮维特太太指出，Eatch、Rail、Roock 这几个名字重新组合就是 Cheat、Liar、Crook（骗子、说谎者、无赖）。"}}, {"q": {"en": "What fake props did the ghost use?", "zh": "‘鬼’用了哪些假道具？"}, "options": [{"en": "A white wig, clown makeup, a painted-wood sword, and a tape recorder", "zh": "白色假发、小丑化妆品、涂了颜色的木剑，还有一台录音机"}, {"en": "A real sword and a mask", "zh": "一把真剑和一个面具"}, {"en": "A robot costume", "zh": "一套机器人服装"}, {"en": "A magic wand", "zh": "一根魔杖"}], "answer": 0, "explain": {"en": "In Room 301 the kids find the wig, makeup, a wooden sword, and a tape recorder playing spooky noises.", "zh": "在301房间，孩子们找到假发、化妆品、木剑和播放诡异声音的录音机。"}}, {"q": {"en": "How do the kids help save the hotel at the signing?", "zh": "在签约现场，孩子们是怎么帮忙保住旅馆的？"}, "options": [{"en": "Josh dresses as the ghost and the Jefferses expose the real estate men to a reporter", "zh": "乔什扮成鬼，杰弗斯夫妇当着记者的面揭穿了房地产骗子"}, {"en": "They call the fire department", "zh": "他们叫了消防队"}, {"en": "They hide the papers", "zh": "他们把文件藏起来"}, {"en": "They pay the money", "zh": "他们付了钱"}], "answer": 0, "explain": {"en": "Josh pops up in the ghost costume while the Jefferses reveal the crooks; reporter Linda Gomez prints the story.", "zh": "乔什穿着鬼装突然出现，杰弗斯夫妇揭穿骗子，记者琳达·戈麦斯把事情登了报。"}}, {"q": {"en": "What reward do Mr. and Mrs. Spivets give the three kid detectives?", "zh": "斯皮维特夫妇给了三位小侦探什么奖励？"}, "options": [{"en": "Plane tickets to Florida, Disney World passes, and money", "zh": "去佛罗里达的机票、迪士尼世界的门票，还有一笔钱"}, {"en": "The hotel", "zh": "整间旅馆"}, {"en": "A gold sword", "zh": "一把金剑"}, {"en": "A pet ghost", "zh": "一只宠物鬼"}], "answer": 0, "explain": {"en": "The Spivetses thank the kids with plane tickets, Disney passes, and cash in envelopes.", "zh": "斯皮维特夫妇用信封装着机票、迪士尼门票和现金感谢孩子们。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  // re-bind radio events
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

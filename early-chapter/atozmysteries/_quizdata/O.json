@@ -1,0 +1,181 @@
+{
+  "letter": "O",
+  "title": "The Orange Outlaw",
+  "titleZh": "橘子皮大盗",
+  "year": 2001,
+  "emoji": "🦧",
+  "desc": "A priceless Monet vanishes during a NYC block party — and the thief leaves a trail of orange peels. 🦧",
+  "source": "ima-pdf",
+  "questions": [
+    {
+      "q": {
+        "en": "What is the valuable painting that gets stolen?",
+        "zh": "被盗的那幅名画是什么？"
+      },
+      "options": [
+        { "en": "A Monet painting of a rowboat on a pond with lily pads", "zh": "一幅莫奈画的、池塘里有小舟和睡莲的画" },
+        { "en": "A portrait of Uncle Warren", "zh": "Uncle Warren 的肖像画" },
+        { "en": "A map of New York City", "zh": "一张纽约市地图" },
+        { "en": "A picture of a panda", "zh": "一幅熊猫的画" }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Uncle Warren is safekeeping a valuable Monet showing a rowboat floating on a pond for his friend Forest Evans.",
+        "zh": "Uncle Warren 替朋友 Forest Evans 保管一幅珍贵的莫奈画作，画的是池塘里的一叶小舟。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is the painting being kept safe for?",
+        "zh": "这幅画是替谁保管的？"
+      },
+      "options": [
+        { "en": "Uncle Warren himself", "zh": "Uncle Warren 自己" },
+        { "en": "Forest Evans, a friend vacationing in France", "zh": "正在法国度假的朋友 Forest Evans" },
+        { "en": "The doorman Roger", "zh": "门房 Roger" },
+        { "en": "Mrs. Cornelius", "zh": "Cornelius 太太" }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Forest Evans bought the painting in France and shipped it to Uncle Warren for safekeeping until he returns to New York.",
+        "zh": "Forest Evans 在法国买了这幅画，寄给 Uncle Warren 保管，等他回纽约时再取。"
+      }
+    },
+    {
+      "q": {
+        "en": "What clue does the thief leave all over the kitchen and balcony?",
+        "zh": "小偷在厨房和阳台上留下了什么线索？"
+      },
+      "options": [
+        { "en": "Apple cores", "zh": "苹果核" },
+        { "en": "Orange peels and juice", "zh": "橘子皮和橘子汁" },
+        { "en": "Cookie crumbs", "zh": "饼干屑" },
+        { "en": "Footprints", "zh": "脚印" }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The fruit bowl is overturned and the kitchen and balcony are covered with orange peels and sticky juice.",
+        "zh": "果盘被打翻，厨房和阳台上到处都是橘子皮和黏糊糊的橘子汁。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who lives in the apartment below Uncle Warren and saw the prowler?",
+        "zh": "谁住在 Uncle Warren 楼下，并看到了那个鬼鬼祟祟的人？"
+      },
+      "options": [
+        { "en": "Miss Booker, the building manager", "zh": "楼管 Booker 小姐" },
+        { "en": "Roger the doorman", "zh": "门房 Roger" },
+        { "en": "Mrs. Cornelius, a former Broadway actress", "zh": "前百老汇女演员 Cornelius 太太" },
+        { "en": "Detective Costello", "zh": "Costello 警探" }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Mrs. Cornelius lives right below Uncle Warren; she called the doorman after seeing someone on her balcony.",
+        "zh": "Cornelius 太太就住在 Uncle Warren 楼下；她看到阳台上有人后给门房打了电话。"
+      }
+    },
+    {
+      "q": {
+        "en": "What did the eyewitness say the prowler looked like?",
+        "zh": "目击者说那个鬼祟的人长什么样？"
+      },
+      "options": [
+        { "en": "Tall with black hair", "zh": "高个子，黑头发" },
+        { "en": "A baggy coat, poor posture, wrinkled face, and orange hair", "zh": "宽松外套、姿势佝偻、满脸皱纹、橙色头发" },
+        { "en": "A clown costume", "zh": "小丑装" },
+        { "en": "A police uniform", "zh": "警服" }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Through her magnifying glass, Mrs. Cornelius described a baggy coat, poor posture, wrinkled face, and orange hair.",
+        "zh": "Cornelius 太太通过放大镜看到：宽松外套、姿势佝偻、满脸皱纹，还有一头橙色的头发。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the street sweeper say ate a lot of oranges at the block party?",
+        "zh": "扫街工人说街区派对上什么东西吃了很多橘子？"
+      },
+      "options": [
+        { "en": "The pony", "zh": "小马" },
+        { "en": "The orangutan (Ollie)", "zh": "猩猩（Ollie）" },
+        { "en": "A monkey", "zh": "猴子" },
+        { "en": "Josh", "zh": "Josh" }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The sweeper says the man's trailer had an orangutan and a pony; the orangutan ate lots of oranges at the party.",
+        "zh": "扫街工人说那个人的拖车里有一只猩猩和一头小马；猩猩在派对上吃了好多橘子。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who actually steals the painting?",
+        "zh": "到底是谁偷走了这幅画？"
+      },
+      "options": [
+        { "en": "Miss Booker", "zh": "Booker 小姐" },
+        { "en": "Ollie the orangutan, trained by the Fowlers", "zh": "Fowler 家训练过的猩猩 Ollie" },
+        { "en": "Roger the doorman", "zh": "门房 Roger" },
+        { "en": "Mrs. Cornelius", "zh": "Cornelius 太太" }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The Fowlers trained Ollie to climb the balconies and grab the painting; they were the real thieves.",
+        "zh": "Fowler 夫妇训练 Ollie 爬阳台去偷画；他们才是真正的小偷。"
+      }
+    },
+    {
+      "q": {
+        "en": "How do the kids get the Fowlers to come to Forest Evans's house?",
+        "zh": "孩子们是怎么把 Fowler 夫妇引到 Forest Evans 家的？"
+      },
+      "options": [
+        { "en": "They arrest them", "zh": "他们逮捕了 Fowler 夫妇" },
+        { "en": "Ruth Rose pretends to be a rich kid hiring Ollie for a birthday party", "zh": "Ruth Rose 假扮富家女孩，要雇 Ollie 办生日派对" },
+        { "en": "They send a letter", "zh": "他们寄了一封信" },
+        { "en": "Uncle Warren invites them", "zh": "Uncle Warren 邀请他们" }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Ruth Rose calls posing as Forest Evans's daughter to book Ollie and Polly for a birthday, luring the Fowlers into the trap.",
+        "zh": "Ruth Rose 打电话假扮 Forest Evans 的女儿，预订 Ollie 和 Polly 办生日会，把 Fowler 夫妇引进了圈套。"
+      }
+    },
+    {
+      "q": {
+        "en": "What proves the Fowlers are guilty?",
+        "zh": "是什么证明了 Fowler 夫妇有罪？"
+      },
+      "options": [
+        { "en": "A video tape", "zh": "录像带" },
+        { "en": "Ollie's hair matches the hair found in the kitchen", "zh": "Ollie 的毛和厨房里发现的毛一致" },
+        { "en": "A confession on the phone", "zh": "电话里的供认" },
+        { "en": "A footprint", "zh": "一个脚印" }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Dr. Parker snips hairs from Ollie and confirms they match the orange hair found in Uncle Warren's kitchen.",
+        "zh": "Parker 博士剪下 Ollie 的毛，确认和 Uncle Warren 厨房里发现的橙色毛一致。"
+      }
+    },
+    {
+      "q": {
+        "en": "Where was the stolen painting hidden?",
+        "zh": "被盗的画藏在哪里？"
+      },
+      "options": [
+        { "en": "In Miss Booker's basement apartment", "zh": "在 Booker 小姐的地下室公寓里" },
+        { "en": "In a safe", "zh": "在保险箱里" },
+        { "en": "In a false bottom of Ollie's cage in the trailer", "zh": "在拖车里 Ollie 笼子的假底板下" },
+        { "en": "At the police station", "zh": "在警察局" }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Ginny Fowler reveals the painting is hidden under a false bottom in Ollie's cage; Josh lifts the handle to find it.",
+        "zh": "Ginny Fowler 交代画藏在 Ollie 笼子的假底板下；Josh 拉起把手找到了它。"
+      }
+    }
+  ]
+}

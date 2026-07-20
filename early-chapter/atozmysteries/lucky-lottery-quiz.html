@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Lucky Lottery — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.6rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .baseball{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;
+    border:2px solid #e7e7e7;
+    position:relative;
+  }
+  .baseball::before,.baseball::after{
+    content:"";position:absolute;top:50%;width:2px;height:38px;
+    background:#c0392b;transform:translateY(-50%) rotate(18deg);
+    border-radius:2px;
+  }
+  .baseball::before{left:16px;}
+  .baseball::after{right:16px;transform:translateY(-50%) rotate(-18deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Lucky Lottery</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
+    <div class="baseball"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>A to Z Mysteries: The Lucky Lottery</em> (Random House, 2000)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Ron Roy",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the mystery well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The mystery is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Ron Roy",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个谜案。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！谜底藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What is stolen from Lucky O'Leary's house?", "zh": "从勒基·奥利里家里被盗的是什么？"}, "options": [{"en": "A television", "zh": "一台电视机"}, {"en": "A bicycle", "zh": "一辆自行车"}, {"en": "A Christmas card with a winning lottery ticket", "zh": "一张装着中奖彩票的圣诞贺卡"}, {"en": "A Christmas tree", "zh": "一棵圣诞树"}], "answer": 2, "explain": {"en": "A burglar stole the Christmas card from Lucky's grandfather that held the winning lottery ticket.", "zh": "一个小偷从勒基家偷走了爷爷寄来的圣诞贺卡，里面装着中奖的彩票。"}}, {"q": {"en": "How much is the stolen lottery ticket worth?", "zh": "被盗的这张彩票价值多少？"}, "options": [{"en": "Seven hundred dollars", "zh": "七百美元"}, {"en": "Seven million dollars", "zh": "七百万美元"}, {"en": "Seven thousand dollars", "zh": "七千美元"}, {"en": "Seventy dollars", "zh": "七十美元"}], "answer": 1, "explain": {"en": "Lucky's grandfather's ticket was the big winner — worth seven million dollars.", "zh": "勒基爷爷的那张彩票中大奖，价值七百万美元。"}}, {"q": {"en": "Who sends lottery tickets to Lucky's family every Christmas?", "zh": "每年圣诞节是谁给勒基一家寄彩票？"}, "options": [{"en": "His teacher", "zh": "他的老师"}, {"en": "Officer Fallon", "zh": "法伦警官"}, {"en": "A neighbor", "zh": "一位邻居"}, {"en": "His grandfather Hector O'Leary", "zh": "他的爷爷赫克托·奥利里"}], "answer": 3, "explain": {"en": "Every year, Grandfather Hector mails the kids a card with seven lottery tickets using their birthdays.", "zh": "每年爷爷赫克托都会用孙辈们的生日买七张彩票，装进贺卡寄给他们。"}}, {"q": {"en": "What small clue does the thief keep dropping?", "zh": "小偷一路上不断掉落的小线索是什么？"}, "options": [{"en": "A tinfoil bow tie", "zh": "一个锡纸打的蝴蝶结"}, {"en": "A gold coin", "zh": "一枚金币"}, {"en": "A red feather", "zh": "一根红色羽毛"}, {"en": "A silver ring", "zh": "一枚银戒指"}], "answer": 0, "explain": {"en": "Dot Calm drops little tinfoil bow ties at Lucky's house, the Atrium, and the supermarket.", "zh": "多特·卡姆在勒基家、老年公寓和超市都掉下了锡纸做的蝴蝶结。"}}, {"q": {"en": "Who is the real thief?", "zh": "真正的窃贼是谁？"}, "options": [{"en": "Zelda Zoot", "zh": "泽尔达·祖特"}, {"en": "Hector O'Leary", "zh": "赫克托·奥利里"}, {"en": "Dot Calm, the lottery clerk", "zh": "彩票售货员多特·卡姆"}, {"en": "The bowling man", "zh": "那个打保龄球的人"}], "answer": 2, "explain": {"en": "Dot Calm sold the tickets, kept the birthday slip, then stole and tried to cash the winning ticket herself.", "zh": "多特·卡姆卖出彩票后保留了写着生日的纸条，随后偷走并想自己兑现中奖彩票。"}}, {"q": {"en": "Dot Calm tells the kids a man named 'Joe' stole the ticket. Whose face does her description actually match?", "zh": "多特·卡姆告诉孩子们是一个叫“乔”的男人偷的。她描述的脸其实像谁？"}, "options": [{"en": "Lucky", "zh": "勒基"}, {"en": "Josh", "zh": "乔什"}, {"en": "Officer Fallon", "zh": "法伦警官"}, {"en": "Ben", "zh": "本"}], "answer": 1, "explain": {"en": "She described the face she saw while Josh was drawing — it looked just like Josh himself.", "zh": "她描述的正是在乔什画素描时看到的脸——其实和乔什本人一模一样。"}}, {"q": {"en": "How do the kids prove the ticket really belonged to Lucky's grandfather?", "zh": "孩子们怎么证明这张彩票确实属于勒基的爷爷？"}, "options": [{"en": "A video", "zh": "一段录像"}, {"en": "A witness", "zh": "一位目击者"}, {"en": "A signed note", "zh": "一张签名的纸条"}, {"en": "Hector's fingerprints on the ticket", "zh": "彩票上赫克托的指纹"}], "answer": 3, "explain": {"en": "The grandfather's oily fingerprints are on the lottery ticket, proving he bought it.", "zh": "爷爷手指上的油脂在彩票上留下了指纹，证明是他买的。"}}, {"q": {"en": "Where do the kids catch Dot Calm trying to cash the ticket?", "zh": "孩子们在哪里抓到多特·卡姆想兑现彩票？"}, "options": [{"en": "At the bait shop", "zh": "在饵料店"}, {"en": "At the school", "zh": "在学校"}, {"en": "At the lottery headquarters in Blue Hills", "zh": "在蓝山区的彩票总部"}, {"en": "At Ellie's Diner", "zh": "在埃莉餐厅"}], "answer": 2, "explain": {"en": "They skied to Blue Hills and found Dot in a wig and fake mustache at the lottery office.", "zh": "他们滑雪到蓝山区，发现多特戴着假发和假胡子在彩票办公室里。"}}, {"q": {"en": "How do the kids travel to Blue Hills in the snow?", "zh": "在雪天里，孩子们是怎么去蓝山区的？"}, "options": [{"en": "On cross-country skis", "zh": "穿着越野滑雪板"}, {"en": "By car", "zh": "开车"}, {"en": "By boat", "zh": "坐船"}, {"en": "By train", "zh": "坐火车"}], "answer": 0, "explain": {"en": "They cross-country ski along the river to reach the lottery headquarters quickly.", "zh": "他们沿着河穿上越野滑雪板，飞快赶到彩票总部。"}}, {"q": {"en": "How is Dot Calm finally stopped from escaping?", "zh": "多特·卡姆最后是怎么被拦住、没能逃跑的？"}, "options": [{"en": "Dink tackles her", "zh": "丁克把她扑倒"}, {"en": "Pal sits on her back and barks until police arrive", "zh": "帕尔压在她背上大叫，直到警察赶到"}, {"en": "She slips on ice alone", "zh": "她自己滑倒在水里"}, {"en": "Josh locks the door", "zh": "乔什把门锁上"}], "answer": 1, "explain": {"en": "Pal jumps on Dot's back in the snow and holds her until Officer Fallon and Officer Keene arrive.", "zh": "帕尔扑到多特背上，把她压在雪地里，直到法伦警官和基恩警官赶到。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  // re-bind radio events
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

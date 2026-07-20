@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Missing Mummy — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.6rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .baseball{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;
+    border:2px solid #e7e7e7;
+    position:relative;
+  }
+  .baseball::before,.baseball::after{
+    content:"";position:absolute;top:50%;width:2px;height:38px;
+    background:#c0392b;transform:translateY(-50%) rotate(18deg);
+    border-radius:2px;
+  }
+  .baseball::before{left:16px;}
+  .baseball::after{right:16px;transform:translateY(-50%) rotate(-18deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Missing Mummy</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
+    <div class="baseball"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>A to Z Mysteries: The Missing Mummy</em> (Random House, 2001)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Ron Roy",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the mystery well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The mystery is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Ron Roy",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个谜案。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！谜底藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who steals the child mummy during Mummy Monday at the museum?", "zh": "在博物馆的「木乃伊星期一」活动中，是谁偷走了小孩木乃伊？"}, "options": [{"en": "A woman with long blond hair wearing a baggy dress", "zh": "一个留着金色长发、穿着宽松连衣裙的女人"}, {"en": "Dr. Harris Tweed", "zh": "Harris Tweed 博士"}, {"en": "Officer Washington", "zh": "Washington 警官"}, {"en": "Aunt Freda", "zh": "Freda 阿姨"}], "answer": 0, "explain": {"en": "A woman with long blond hair and a baggy dress snatched the child mummy and raced out of the tomb.", "zh": "一个留着金色长发、穿着宽松连衣裙的女人抢走小孩木乃伊，冲出了墓室。"}}, {"q": {"en": "Where does Ruth Rose find the missing mummy?", "zh": "Ruth Rose 在哪里找到了失踪的木乃伊？"}, "options": [{"en": "On a bench in the museum lobby", "zh": "在博物馆大厅的长椅上"}, {"en": "On the baby-changing table in the ladies' room", "zh": "在女士洗手间里的婴儿换尿布台上"}, {"en": "Inside the treasure chamber", "zh": "在宝藏室里"}, {"en": "In Dr. Tweed's office", "zh": "在 Tweed 博士的办公室里"}], "answer": 1, "explain": {"en": "Ruth Rose went into the rest room and found the child mummy lying on the baby-changing table.", "zh": "Ruth Rose 走进洗手间，发现小孩木乃伊就躺在婴儿换尿布台上。"}}, {"q": {"en": "How do Dink, Josh, and Ruth Rose get locked inside the tomb?", "zh": "Dink、Josh 和 Ruth Rose 是怎么被锁在墓室里的？"}, "options": [{"en": "The thief locks them in from outside", "zh": "小偷从外面把他们锁了进去"}, {"en": "They fall asleep and the door closes by itself", "zh": "他们睡着了，门自己关上了"}, {"en": "Josh touches a glass case, setting off an alarm and the door slides shut", "zh": "Josh 碰了玻璃柜，触发警报，石门随之关闭"}, {"en": "Dr. Tweed locks them in on purpose", "zh": "Tweed 博士故意把他们锁在里面"}], "answer": 2, "explain": {"en": "After the mummy was found, the door closed on its own; Josh had touched a glass display case, which may have triggered it.", "zh": "木乃伊被找到后，墓门自动关上了；Josh 之前碰过玻璃展示柜，可能触发了机关。"}}, {"q": {"en": "What happens after the loud bomb blast in the tomb?", "zh": "墓室里一声巨响的炸弹爆炸后，发生了什么？"}, "options": [{"en": "Two thieves in dark clothes steal the gold from the treasure chamber", "zh": "两个穿黑衣的小偷从宝藏室偷走了黄金"}, {"en": "The mummies come to life", "zh": "木乃伊复活了"}, {"en": "The police rescue the kids", "zh": "警察救出了孩子们"}, {"en": "Dr. Tweed returns the mummy", "zh": "Tweed 博士归还了木乃伊"}], "answer": 0, "explain": {"en": "Two dark-clothed figures broke the glass cases and filled their bags with the Egyptian gold before escaping through the wall.", "zh": "两个黑衣人砸碎玻璃柜，把埃及黄金装进袋子，然后从墙洞逃走。"}}, {"q": {"en": "What smell does Josh notice that helps solve the mystery?", "zh": "Josh 闻到的哪种气味帮助破解了谜案？"}, "options": [{"en": "Pizza", "zh": "披萨"}, {"en": "French fries", "zh": "炸薯条"}, {"en": "Popcorn", "zh": "爆米花"}, {"en": "Chocolate", "zh": "巧克力"}], "answer": 1, "explain": {"en": "Josh remembered smelling French fries in the closet, which led the kids to Aunt Freda's Fabulous Fries across the street.", "zh": "Josh 想起在储物间里闻到炸薯条的味道，这把孩子们引到了街对面 Freda 阿姨的炸薯条店。"}}, {"q": {"en": "What small clue does Josh find on the floor of Aunt Freda's kitchen?", "zh": "Josh 在 Freda 阿姨的厨房地板上发现了什么小线索？"}, "options": [{"en": "A gold coin", "zh": "一枚金币"}, {"en": "A pebble that matches the tomb's gravel", "zh": "一颗与墓室砂砾相同的鹅卵石"}, {"en": "A child's toy", "zh": "一个孩子的玩具"}, {"en": "A blond wig", "zh": "一顶金色假发"}], "answer": 1, "explain": {"en": "Josh found a pebble in the restaurant that matched the gravel on the tomb floor, showing a thief had walked there.", "zh": "Josh 在餐厅发现一颗鹅卵石，与墓室地上的砂砾一样，说明小偷曾从墓室走到那里。"}}, {"q": {"en": "Where did the thieves hide the stolen gold?", "zh": "小偷把偷来的黄金藏在了哪里？"}, "options": [{"en": "In the goldfish pond", "zh": "在金鱼池里"}, {"en": "In Aunt Freda's freezer", "zh": "在 Freda 阿姨的冰箱里"}, {"en": "Inside the child's empty sarcophagus (the small coffin)", "zh": "在小孩的空石棺（小棺材）里"}, {"en": "In the bank vault", "zh": "在银行的金库里"}], "answer": 2, "explain": {"en": "The robbers had no car and the gold was too heavy to carry far, so they hid it inside the child's empty sarcophagus.", "zh": "小偷没有车，黄金又太重搬不远，于是把它藏进了小孩的空石棺里。"}}, {"q": {"en": "How does Dink realize the gold was hidden in the small coffin?", "zh": "Dink 是怎么推断出黄金藏在小棺材里的？"}, "options": [{"en": "He saw the thieves carry it there", "zh": "他看见小偷把它搬到了那里"}, {"en": "He noticed the little coffin's lid was closed after the blast but open before", "zh": "他注意到爆炸后小棺材盖是关着的，而之前是开着的"}, {"en": "Ruth Rose told him", "zh": "是 Ruth Rose 告诉他的"}, {"en": "Dr. Tweed confessed", "zh": "是 Tweed 博士供认的"}], "answer": 1, "explain": {"en": "Dink dreamt of the tomb and recalled the child's coffin lid was open before the blast but closed afterwards — someone had closed it to hide the gold.", "zh": "Dink 梦见墓室，想起小棺材盖在爆炸前是开着的、爆炸后却关上了——有人把它关上是为了藏黄金。"}}, {"q": {"en": "Who planned the museum robbery together?", "zh": "是谁一起策划了博物馆抢劫案？"}, "options": [{"en": "Dr. Tweed and the short-haired woman at Aunt Freda's restaurant", "zh": "Tweed 博士和 Freda 阿姨餐厅里那个短发女人"}, {"en": "The two police officers", "zh": "两名警察"}, {"en": "Aunt Freda and Josh's dad", "zh": "Freda 阿姨和 Josh 的爸爸"}, {"en": "Ruth Rose's parents", "zh": "Ruth Rose 的父母"}], "answer": 0, "explain": {"en": "Dr. Tweed and the short-haired woman who worked at Aunt Freda's planned the theft together; she had the gym bag and smelled of fries.", "zh": "Tweed 博士和 Freda 阿姨店里那个短发女人合谋；她拿着运动包，身上有炸薯条味。"}}, {"q": {"en": "How is Dr. Tweed finally caught?", "zh": "Tweed 博士最终是怎么被抓住的？"}, "options": [{"en": "He is arrested at the airport", "zh": "他在机场被捕"}, {"en": "He jumps through the wall hole and falls into the goldfish pond", "zh": "他跳墙洞逃跑，掉进了金鱼池"}, {"en": "He gives up and turns himself in", "zh": "他自首了"}, {"en": "The kids tackle him", "zh": "孩子们扑倒了他"}], "answer": 1, "explain": {"en": "Cornered in the tomb, Dr. Tweed leaped through the blasted wall hole but tripped and plunged into the goldfish pond, where police caught him.", "zh": "Tweed 博士在墓室里被堵住，跳墙洞逃跑却绊倒掉进金鱼池，被警察抓获。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  // re-bind radio events
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

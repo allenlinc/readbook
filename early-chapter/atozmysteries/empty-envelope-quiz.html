@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Empty Envelope — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.6rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .baseball{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;
+    border:2px solid #e7e7e7;
+    position:relative;
+  }
+  .baseball::before,.baseball::after{
+    content:"";position:absolute;top:50%;width:2px;height:38px;
+    background:#c0392b;transform:translateY(-50%) rotate(18deg);
+    border-radius:2px;
+  }
+  .baseball::before{left:16px;}
+  .baseball::after{right:16px;transform:translateY(-50%) rotate(-18deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Empty Envelope</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
+    <div class="baseball"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>A to Z Mysteries: The Empty Envelope</em> (Random House, 1998)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Ron Roy",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the mystery well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The mystery is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Ron Roy",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个谜案。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！谜底藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who receives the mysterious blue envelopes at the beginning of the story?", "zh": "故事一开始，是谁收到了那些神秘的深蓝色信封？"}, "options": [{"en": "Dink (Donald Duncan)", "zh": "丁克（唐纳德·邓肯）"}, {"en": "Josh", "zh": "乔什"}, {"en": "Ruth Rose", "zh": "露丝·罗丝"}, {"en": "Nate", "zh": "奈特"}], "answer": 0, "explain": {"en": "Dink finds five blue envelopes in his mailbox, addressed to D. Duncan.", "zh": "丁克在自家信箱里发现了五个深蓝色信封，收件人写的是 D. 邓肯。"}}, {"q": {"en": "What clue showed that Nate had taken the envelopes from Dink's kitchen?", "zh": "什么线索表明是奈特从丁克家的厨房拿走了信封？"}, "options": [{"en": "Purple grape jam fingerprints", "zh": "紫色的葡萄果酱指纹"}, {"en": "A dinosaur toy left behind", "zh": "留下的一只恐龙玩具"}, {"en": "A note in Nate's handwriting", "zh": "一张奈特手写的纸条"}, {"en": "Muddy shoe prints", "zh": "泥泞的鞋印"}], "answer": 0, "explain": {"en": "Ruth Rose noticed a small purple hand print made of grape jam on the kitchen table.", "zh": "露丝·罗丝在厨房桌上发现了一个用葡萄果酱留下的紫色小手印。"}}, {"q": {"en": "Where did Nate hide the blue envelopes?", "zh": "奈特把那些深蓝色信封藏在哪里了？"}, "options": [{"en": "In the refrigerator with his stuffed dinosaur Steggy", "zh": "藏在冰箱里，和他那只名叫斯特吉的毛绒恐龙在一起"}, {"en": "Under his bed", "zh": "藏在床底下"}, {"en": "In the mailbox", "zh": "藏在信箱里"}, {"en": "Behind the TV", "zh": "藏在电视机后面"}], "answer": 0, "explain": {"en": "Nate's stuffed stegosaurus 'Steggy' was holding the five envelopes inside the fridge.", "zh": "奈特的毛绒剑龙‘斯特吉’在冰箱里叼着那五个信封。"}}, {"q": {"en": "What secret message did the tiny pinholes in the letters spell?", "zh": "信纸上那些小小的针孔拼出了什么秘密信息？"}, "options": [{"en": "Jenny hidden on fifth envelope", "zh": "Jenny hidden on fifth envelope（珍妮藏在第五个信封上）"}, {"en": "Mother loves Doris always", "zh": "Mother loves Doris always（妈妈永远爱多丽丝）"}, {"en": "Follow the green car", "zh": "Follow the green car（跟着绿色的车）"}, {"en": "Money is in the bank", "zh": "Money is in the bank（钱在银行里）"}], "answer": 0, "explain": {"en": "The holes went through the letters J, H, D, O, F, E and the word 'envelope,' reading 'Jenny hidden on fifth envelope.'", "zh": "针孔穿过 J、H、D、O、F、E 以及‘envelope’（信封）这个词，连起来就是‘珍妮藏在第五个信封上’。"}}, {"q": {"en": "What valuable thing was hidden under the sunflower stamps on the fifth (empty) envelope?", "zh": "在第五个（空的）信封上，向日葵邮票下面藏着什么值钱的东西？"}, "options": [{"en": "A rare upside-down airplane stamp worth $50,000", "zh": "一张印反了的稀有飞机邮票，价值五万美元"}, {"en": "A gold coin", "zh": "一枚金币"}, {"en": "A diamond ring", "zh": "一枚钻戒"}, {"en": "A winning lottery ticket", "zh": "一张中奖的彩票"}], "answer": 0, "explain": {"en": "It was a Curtis Jenny 'invert' stamp showing an airplane printed upside down, worth $50,000.", "zh": "那是一张‘柯蒂斯·珍妮’错体邮票，飞机图案印反了，价值五万美元。"}}, {"q": {"en": "How did the kids get the sunflower stamps off the envelope to see what was underneath?", "zh": "孩子们是怎么把向日葵邮票从信封上取下来，看清下面的东西的？"}, "options": [{"en": "They steamed them off with a kettle", "zh": "他们用烧水壶的蒸汽把邮票熏下来"}, {"en": "They peeled them off with glue", "zh": "他们用胶水把邮票揭下来"}, {"en": "They washed them off in the sink", "zh": "他们在水槽里把它们洗下来"}, {"en": "They cut the envelope open", "zh": "他们把信封剪开"}], "answer": 0, "explain": {"en": "Ruth Rose held the envelope over the steaming kettle spout until the stamps peeled away.", "zh": "露丝·罗丝把信封放在冒蒸汽的水壶嘴上方，邮票就慢慢脱落了。"}}, {"q": {"en": "According to the newspaper, whose rare stamp had been stolen?", "zh": "根据报纸上的报道，那张稀有邮票是谁失窃的？"}, "options": [{"en": "Clementine Painter, who found it in her vacuum cleaner", "zh": "克莱门汀·佩因特，她在吸尘器里发现了这张邮票"}, {"en": "Dink's mother", "zh": "丁克的妈妈"}, {"en": "The library", "zh": "图书馆"}, {"en": "Officer Fallon", "zh": "法伦警官"}], "answer": 0, "explain": {"en": "Miss Clementine Painter, 73, found the stamp in her vacuum cleaner dust, then it was stolen.", "zh": "73岁的克莱门汀·佩因特女士在吸尘器的灰尘里发现了这张邮票，后来它被偷走了。"}}, {"q": {"en": "Why did the letters end up in Connecticut instead of Colorado?", "zh": "为什么这些信最后送到了康涅狄格州，而不是科罗拉多州？"}, "options": [{"en": "Otto Bird wrote the wrong zip code because he had broken his glasses", "zh": "奥托·伯德眼镜摔坏了，写错了邮编"}, {"en": "Dink gave the wrong address", "zh": "丁克给了错误的地址"}, {"en": "The post office made a mistake", "zh": "邮局弄错了"}, {"en": "Ruth Rose changed the address", "zh": "露丝·罗丝改了地址"}], "answer": 0, "explain": {"en": "Otto Bird broke his glasses and copied the zip code for Green Lawn, Connecticut instead of Colorado.", "zh": "奥托·伯德眼镜摔坏了，把科罗拉多州格林劳恩的邮编写成了康涅狄格州格林劳恩的邮编。"}}, {"q": {"en": "How did Ruth Rose help catch the thieves?", "zh": "露丝·罗丝是怎么帮助抓住小偷的？"}, "options": [{"en": "She pretended to be a crook and set up a meeting at the library", "zh": "她假装成小偷，约对方在图书馆见面"}, {"en": "She called the newspaper", "zh": "她打电话给报社"}, {"en": "She hid in the barn", "zh": "她藏在谷仓里"}, {"en": "She ran to the hotel", "zh": "她跑到酒店去"}], "answer": 0, "explain": {"en": "Ruth Rose phoned Doris pretending to sell the stamp, luring Doris and Otto to the library where Officer Fallon waited.", "zh": "露丝·罗丝打电话给多丽丝，假装要卖邮票，把多丽丝和奥托引到图书馆，法伦警官在那里守候。"}}, {"q": {"en": "Who was the short man in the green suit and purple tie who followed the kids?", "zh": "那个穿着绿色西装、打着紫色领带、跟踪孩子们的矮个子男人是谁？"}, "options": [{"en": "Otto Bird, Doris's partner in the theft", "zh": "奥托·伯德，多丽丝偷邮票的同伙"}, {"en": "Officer Fallon", "zh": "法伦警官"}, {"en": "Dink's father", "zh": "丁克的爸爸"}, {"en": "The mail carrier Ruby", "zh": "邮差鲁比"}], "answer": 0, "explain": {"en": "It was Otto Bird, the 'associate' of Doris Duncan and the one who originally stole the stamp.", "zh": "那是奥托·伯德，他是多丽丝·邓肯的同伙，也是最初偷走邮票的人。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  // re-bind radio events
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

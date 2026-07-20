@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Quicksand Question — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.6rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .baseball{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;
+    border:2px solid #e7e7e7;
+    position:relative;
+  }
+  .baseball::before,.baseball::after{
+    content:"";position:absolute;top:50%;width:2px;height:38px;
+    background:#c0392b;transform:translateY(-50%) rotate(18deg);
+    border-radius:2px;
+  }
+  .baseball::before{left:16px;}
+  .baseball::after{right:16px;transform:translateY(-50%) rotate(-18deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Quicksand Question</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
+    <div class="baseball"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>A to Z Mysteries: The Quicksand Question</em> (Random House, 2002)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Ron Roy",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the mystery well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The mystery is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Ron Roy",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个谜案。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！谜底藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What were the kids collecting money for in the big duck-shaped bank?", "zh": "孩子们把零钱存进那只大鸭子形状的储蓄罐，是为了什么？"}, "options": [{"en": "To build a bridge so ducks could cross the road safely", "zh": "修一座桥，让鸭子能安全过马路"}, {"en": "To buy cookies for Josh", "zh": "给乔希买饼干"}, {"en": "To feed Polly the pony", "zh": "喂pony波莉"}, {"en": "To pay for a new fire truck", "zh": "买一辆新消防车"}], "answer": 0, "explain": {"en": "The town saved for a year to build a special bridge so mother ducks and ducklings could cross River Road without being hit by cars.", "zh": "全镇存了一年钱，想修一座专门的桥，让鸭妈妈和小鸭子能安全穿过河路，避免被车撞到。"}}, {"q": {"en": "Who took Dink, Josh, and Ruth Rose's saved money from the barn?", "zh": "是谁把丁克、乔希和露丝·罗丝存在谷仓里的钱拿走了？"}, "options": [{"en": "Raccoons in the barn", "zh": "谷仓里的浣熊"}, {"en": "Josh's little twin brothers, Bradley and Brian", "zh": "乔希的双胞胎小弟弟布拉德利和布莱恩"}, {"en": "Crows that steal shiny coins", "zh": "偷亮闪闪硬币的乌鸦"}, {"en": "The thief in the jeep", "zh": "吉普车里的贼"}], "answer": 1, "explain": {"en": "The twins found the money in the barn and called it 'pirate treasure,' but they gave it back after the kids explained it was for the ducks.", "zh": "双胞胎弟弟在谷仓里发现了钱，喊它“海盗宝藏”，但孩子们解释那是给鸭子用的之后，他们就把钱还了回来。"}}, {"q": {"en": "What did Ruth Rose find in the ashes of the meadow fire?", "zh": "露丝·罗丝在草地上那场火灾的灰烬里，发现了什么？"}, "options": [{"en": "A cookie tin", "zh": "一个饼干盒"}, {"en": "A duck feather", "zh": "一根鸭毛"}, {"en": "A partly burned piece of wood stamped 'ET CO'", "zh": "一块烧焦的木头，上面印着“ET CO”"}, {"en": "A gold coin", "zh": "一枚金币"}], "answer": 2, "explain": {"en": "She found a charred board with black ink letters 'ET CO' stamped on it — an important clue about where the wood came from.", "zh": "她发现一块烧黑的木板，上面用黑墨水印着“ET CO”——这是关于木头来源的重要线索。"}}, {"q": {"en": "What did the letters 'ET CO' on the burned wood actually stand for?", "zh": "烧焦木头上的“ET CO”其实代表什么？"}, "options": [{"en": "EASTERN PALLET COMPANY", "zh": "东方托盘公司"}, {"en": "East Connecticut", "zh": "东康涅狄格"}, {"en": "Emergency Team Colorado", "zh": "科罗拉多急救队"}, {"en": "Elephant Training Center", "zh": "大象训练中心"}], "answer": 0, "explain": {"en": "Ellie the diner owner showed them a pallet stamped EASTERN PALLET COMPANY, and the printing matched the burned piece exactly.", "zh": "餐厅老板埃莉给他们看了一个印着“东方托盘公司”的托盘，字迹和那块烧焦的木头一模一样。"}}, {"q": {"en": "Who saw a jeep speeding up Main Street after the fire, nearly running over his dog?", "zh": "是谁在火灾后看到一辆吉普车在主干道上飞驰，差点撞到他的狗？"}, "options": [{"en": "Mr. Robb the supermarket manager", "zh": "超市经理罗布先生"}, {"en": "Officer Fallon", "zh": "法伦警官"}, {"en": "Jake the firefighter", "zh": "消防员杰克"}, {"en": "Mr. Thaddeus Pocket", "zh": "萨迪厄斯·波基特先生"}], "answer": 3, "explain": {"en": "Elderly Mr. Pocket was walking his dog Randolph when a jeep tore past and nearly hit them; he later told the kids which way it went.", "zh": "年长的波基特先生正遛他的狗兰道夫，一辆吉普车飞驰而过差点撞到他们；后来他告诉孩子们车往哪个方向去了。"}}, {"q": {"en": "What did Mr. Pocket think was a 'giant duck' sitting beside the driver?", "zh": "波基特先生以为坐在司机旁边的“巨型大鸭子”其实是什么？"}, "options": [{"en": "A real live duck", "zh": "一只真鸭子"}, {"en": "The stolen duck bank", "zh": "被偷走的鸭子储蓄罐"}, {"en": "A passenger in a costume", "zh": "一个穿戏服的乘客"}, {"en": "Josh's pony", "zh": "乔希的小马"}], "answer": 1, "explain": {"en": "The moon reflected off the clear plastic duck bank, making its shiny head and beak look like a bald man with a big nose.", "zh": "月光照在透明的鸭子储蓄罐上反光，让它亮亮的脑袋和“嘴”看起来像个光头大鼻子的人。"}}, {"q": {"en": "How did the kids know the jeep was heading NORTH on River Road?", "zh": "孩子们怎么判断出吉普车在河路上往北开？"}, "options": [{"en": "Mr. Pocket saw it near Indian Way Road coming from the fire station, so it had to go north", "zh": "波基特先生在印第安路附近看到它从消防站方向来，所以只能往北"}, {"en": "They followed tire tracks going south", "zh": "他们顺着往南的车辙追踪"}, {"en": "Officer Fallon told them the direction", "zh": "法伦警官告诉了他们方向"}, {"en": "The jeep had a big sign on it", "zh": "吉普车上挂着大字招牌"}], "answer": 0, "explain": {"en": "Since the jeep came from the fire station and passed Mr. Pocket at Indian Way Road, Ruth Rose reasoned it could only be traveling north.", "zh": "既然吉普车从消防站来，又在印第安路附近被波基特先生看到，露丝·罗丝推断它只能是往北开。"}}, {"q": {"en": "What happened to Josh when he waded into the river?", "zh": "乔希蹚进河里时发生了什么？"}, "options": [{"en": "He caught a big fish", "zh": "他抓到了一条大鱼"}, {"en": "He found the duck bank right away", "zh": "他立刻找到了鸭子储蓄罐"}, {"en": "He got stuck in quicksand and had to be rescued", "zh": "他陷进流沙，必须被人救出来"}, {"en": "He swam across to the other side", "zh": "他游到了对岸"}], "answer": 2, "explain": {"en": "Josh stepped into a pocket of quicksand; firefighters Jake and Lenny pulled him and Dink out with a ladder.", "zh": "乔希踩进了一处流沙；消防员杰克和伦尼用梯子把他和丁克拉了出来。"}}, {"q": {"en": "How did the firefighters get the jeep — and the duck bank — out of the quicksand?", "zh": "消防员是怎么把吉普车（和鸭子储蓄罐）从流沙里弄出来的？"}, "options": [{"en": "They dove in and lifted it by hand", "zh": "他们潜下去用手抬"}, {"en": "They used a rescue truck's cable and hook to pull it out", "zh": "他们用救援卡车的钢缆和钩子把它拉出来"}, {"en": "They used a forklift from the supermarket", "zh": "他们用了超市的叉车"}, {"en": "They just waited for it to float up", "zh": "他们只是等它自己浮上来"}], "answer": 1, "explain": {"en": "Lenny swam out, hooked the jeep's bumper, and Jake used the rescue truck's winch to haul it onto the riverbank.", "zh": "伦尼游过去钩住吉普车的保险杠，杰克用救援卡车的绞盘把它拖上了河岸。"}}, {"q": {"en": "Who was the thief, and how was he caught?", "zh": "贼是谁，又是怎么被抓住的？"}, "options": [{"en": "Martin Fleece, a supermarket worker; the apron name tag and jeep papers led Officer Fallon to him", "zh": "超市员工马丁·弗利斯；围裙上的名牌和吉普车证件让法伦警官找到了他"}, {"en": "Mr. Robb the store manager", "zh": "店长罗布先生"}, {"en": "Mr. Pocket the dog walker", "zh": "遛狗的波基特先生"}, {"en": "Jake the firefighter", "zh": "消防员杰克"}], "answer": 0, "explain": {"en": "A wet apron labeled 'HI! I'M MARTIN' and the jeep's registration revealed Martin Fleece, a supermarket worker, who was arrested as he tried to quit and leave town.", "zh": "一条湿围裙上写着“你好！我是马丁”，加上吉普车的登记信息，指认出超市员工马丁·弗利斯；他正想辞职离镇时被逮捕。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  // re-bind radio events
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

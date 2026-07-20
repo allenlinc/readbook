@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Panda Puzzle — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.6rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .baseball{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;
+    border:2px solid #e7e7e7;
+    position:relative;
+  }
+  .baseball::before,.baseball::after{
+    content:"";position:absolute;top:50%;width:2px;height:38px;
+    background:#c0392b;transform:translateY(-50%) rotate(18deg);
+    border-radius:2px;
+  }
+  .baseball::before{left:16px;}
+  .baseball::after{right:16px;transform:translateY(-50%) rotate(-18deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Panda Puzzle</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
+    <div class="baseball"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>A to Z Mysteries: The Panda Puzzle</em> (Random House, 2002)</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Ron Roy",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the mystery well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The mystery is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Ron Roy",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个谜案。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！谜底藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Where does The Panda Puzzle take place?", "zh": "《熊猫谜案》的故事发生在哪里？"}, "options": [{"en": "Green Lawn, at a new Panda Park", "zh": "Green Lawn 镇新建的熊猫公园"}, {"en": "New York City", "zh": "纽约市"}, {"en": "A dude ranch in Montana", "zh": "蒙大拿州的度假牧场"}, {"en": "A museum in Hartford", "zh": "哈特福德的博物馆"}], "answer": 0, "explain": {"en": "Green Lawn builds a new Panda Park at the petting zoo, and the baby panda is stolen there.", "zh": "Green Lawn 在宠物动物园新建了熊猫公园，小熊猫就是在那里被偷走的。"}}, {"q": {"en": "What are the names of the mother panda and her baby?", "zh": "熊猫妈妈和她的宝宝分别叫什么名字？"}, "options": [{"en": "Ping and Winnie", "zh": "Ping 和 Winnie"}, {"en": "Ollie and Polly", "zh": "Ollie 和 Polly"}, {"en": "Lulu and Thumbs", "zh": "Lulu 和 Thumbs"}, {"en": "Ma and Pa", "zh": "Ma 和 Pa"}], "answer": 0, "explain": {"en": "The mother panda is Ping and her baby cub is Winnie, who arrives from China with her.", "zh": "熊猫妈妈叫 Ping，她的宝宝叫 Winnie，是和妈妈一起从中国来的。"}}, {"q": {"en": "How is the ransom note delivered?", "zh": "勒索信是怎么送出来的？"}, "options": [{"en": "By email", "zh": "通过电子邮件"}, {"en": "Tied to a round alarm clock left in Ping's cave", "zh": "绑在一个放在 Ping 洞穴里的圆形闹钟上"}, {"en": "On the front page of a newspaper", "zh": "在报纸的头版上"}, {"en": "Sent by regular mail", "zh": "通过普通邮件寄出"}], "answer": 1, "explain": {"en": "A zoo employee finds a round alarm clock with a note tied to it inside Ping's cave; it is the ransom note.", "zh": "一名动物园员工在 Ping 的洞穴里发现一个圆形闹钟，上面绑着一张纸条，那正是勒索信。"}}, {"q": {"en": "How much ransom money do the panda-nappers demand?", "zh": "偷熊猫的人索要多少赎金？"}, "options": [{"en": "One hundred dollars", "zh": "一百美元"}, {"en": "One million dollars", "zh": "一百万美元"}, {"en": "Ten dollars", "zh": "十美元"}, {"en": "A new car", "zh": "一辆新车"}], "answer": 1, "explain": {"en": "The note demands a one-million-dollar ransom for the return of the baby panda Winnie.", "zh": "纸条上要求一百万美元赎金，才会归还小熊猫 Winnie。"}}, {"q": {"en": "Who finds and reveals the ransom note to the crowd?", "zh": "是谁找到并向大家公布勒索信的？"}, "options": [{"en": "Irene Napper, the zoo worker", "zh": "动物园员工 Irene Napper"}, {"en": "The mayor", "zh": "市长"}, {"en": "Officer Fallon", "zh": "Fallon 警官"}, {"en": "Josh", "zh": "Josh"}], "answer": 0, "explain": {"en": "Zoo worker Irene Napper is shaken as she tells the crowd the clock holds a ransom note about Winnie.", "zh": "动物园员工 Irene Napper 颤抖着告诉大家，那个闹钟上绑着关于 Winnie 的勒索信。"}}, {"q": {"en": "What is the name of the local newspaper in the story?", "zh": "故事里当地的报纸叫什么名字？"}, "options": [{"en": "The Panda Paper", "zh": "《熊猫报》"}, {"en": "The Daily News", "zh": "《每日新闻》"}, {"en": "The Green Lawn Gazette", "zh": "《Green Lawn 公报》"}, {"en": "The Connecticut Times", "zh": "《康涅狄格时报》"}], "answer": 0, "explain": {"en": "The Panda Paper is the local paper covering the pandas' arrival; its editor is Tom Steele.", "zh": "《熊猫报》是报道熊猫到来的当地报纸，它的编辑是 Tom Steele。"}}, {"q": {"en": "Who are the three main suspects in the kidnapping?", "zh": "绑架案的三个主要嫌疑人是谁？"}, "options": [{"en": "Irene Napper, Tom Steele, and Flip Frances", "zh": "Irene Napper、Tom Steele 和 Flip Frances"}, {"en": "Dink, Josh, and Ruth Rose", "zh": "Dink、Josh 和 Ruth Rose"}, {"en": "Ma, Pa, and Jud", "zh": "Ma、Pa 和 Jud"}, {"en": "Dr. Tweed, Aunt Freda, and Officer Washington", "zh": "Tweed 博士、Freda 阿姨和 Washington 警官"}], "answer": 0, "explain": {"en": "The kids suspect zoo worker Irene Napper, newspaper editor Tom Steele, and park funder Flip Frances.", "zh": "孩子们怀疑动物园员工 Irene Napper、报纸编辑 Tom Steele，以及公园出资人 Flip Frances。"}}, {"q": {"en": "Who turns out to be the real kidnapper?", "zh": "真正的绑架者是谁？"}, "options": [{"en": "Irene Napper", "zh": "Irene Napper"}, {"en": "Tom Steele", "zh": "Tom Steele"}, {"en": "Flip Frances", "zh": "Flip Frances"}, {"en": "Officer Fallon", "zh": "Fallon 警官"}], "answer": 2, "explain": {"en": "Flip Frances, who funded the Panda Park with his grandmother's fortune, is behind the kidnapping.", "zh": "用祖母的财富出资建造熊猫公园的 Flip Frances 才是绑架案的幕后主使。"}}, {"q": {"en": "Where is the baby panda Winnie actually hidden?", "zh": "小熊猫 Winnie 其实是被藏在哪里？"}, "options": [{"en": "In a hollow tree on Goose Island", "zh": "在 Goose Island 的空心树里"}, {"en": "In a coal chute under a mat at the park", "zh": "在公园地毯下的运煤槽里"}, {"en": "In the museum", "zh": "在博物馆里"}, {"en": "On a plane to China", "zh": "在飞往中国的飞机上"}], "answer": 1, "explain": {"en": "The kids feel something under a mat and discover a coal chute, where Winnie is hidden.", "zh": "孩子们在地毯下摸到异样，发现了运煤槽，Winnie 就藏在里面。"}}, {"q": {"en": "What does the ransom note say to do with the money?", "zh": "勒索信要求怎样处置赎金？"}, "options": [{"en": "Leave it in a hollow tree on Goose Island by midnight", "zh": "午夜前把它放在 Goose Island 的空心树里"}, {"en": "Mail it to China", "zh": "邮寄到中国"}, {"en": "Give it to the zoo", "zh": "交给动物园"}, {"en": "Hide it under a mat", "zh": "藏在地毯下面"}], "answer": 0, "explain": {"en": "The note orders the million dollars to be left in a hollow tree on Goose Island by midnight, with no tricks.", "zh": "纸条命令午夜前把一百万美元放在 Goose Island 的空心树里，并警告不许耍花招。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  // re-bind radio events
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
