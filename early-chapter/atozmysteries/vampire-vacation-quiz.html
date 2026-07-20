@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Unwilling Umpire — Quiz</title>
+<title>The Vampire's Vacation — Quiz</title>
 <style>
   :root{
     --grass:#2e8b57;
@@ -182,8 +182,8 @@
   <header>
     <div class="topbar">
       <button class="langBtn" id="langBtn">🌐 中文</button>
-      <h1>The Unwilling Umpire</h1>
-      <a class="homeBtn" href="../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+      <h1>The Vampire's Vacation</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
     </div>
     <p id="subtitle">Comprehension Quiz • 10 Questions • by Ron Roy</p>
     <div class="baseball"></div>
@@ -197,7 +197,7 @@
       <button class="go" id="resetBtn">Try Again</button>
     </div>
   </main>
-  <footer>Based on <em>A to Z Mysteries: The Unwilling Umpire</em> (Random House, 2004)</footer>
+  <footer>Based on <em>A to Z Mysteries: The Vampire's Vacation</em> (Random House, 2004)</footer>
 </div>
 
 <script>
@@ -235,153 +235,153 @@ const L = {
 
 const quiz = [
   {
-    q:{en:"What cause was the town baseball game raising money for?",
-       zh:"镇上的棒球比赛是为了给什么事业筹款？"},
+    q:{en:"Who did Josh think the strange man in black really was?",
+       zh:"乔什认为那个穿黑衣的陌生人到底是什么人？"},
     options:[
-      {en:"A new library for Green Lawn", zh:"给格林朗镇新建一座图书馆"},
-      {en:"Camp Challenge, a summer camp for kids with special needs", zh:"挑战营——一个为有特殊需要的孩子办的夏令营"},
-      {en:"New baseball equipment for the school", zh:"给学校买新的棒球装备"},
-      {en:"A playground in the town park", zh:"镇公园里的一个游乐场"}
+      {en:"A bank robber", zh:"一名银行劫匪"},
+      {en:"A vampire", zh:"一个吸血鬼"},
+      {en:"A police officer", zh:"一名警察"},
+      {en:"A movie star", zh:"一位电影明星"}
     ],
     answer:1,
     explain:{
-      en:"The kids sold tickets to fill the bleachers, and the money would go to Camp Challenge, a summer camp for children with special needs.",
-      zh:"孩子们卖票把看台坐满，筹到的钱会捐给“挑战营”——一个为有特殊需要的儿童设立的夏令营。"
+      en:"At first Josh was sure the pale man in black was a real vampire, not a famous actor.",
+      zh:"起初乔什坚信那个面色苍白、一身黑衣的人是真正的吸血鬼，而不是什么著名演员。"
     }
   },
   {
-    q:{en:"Who volunteered to be the umpire at the game?",
-       zh:"谁自愿担任比赛的裁判（umpire）？"},
+    q:{en:"Which clues made Josh believe the man might be a vampire?",
+       zh:"哪些线索让乔什相信那人可能是吸血鬼？"},
     options:[
-      {en:"Mr. Dillon, the school principal", zh:"校长狄龙先生"},
-      {en:"Mr. Thaddeus Pocket, the coach", zh:"教练撒迪厄斯·波克特先生"},
-      {en:"Pete Unkenholz, a friendly newcomer", zh:"皮特·昂肯霍尔茨，一个友善的新来者"},
-      {en:"Officer Fallon, the police chief", zh:"法伦警官，警察局长"}
+      {en:"He had pale skin, skinny lips, black clothes, and dark sunglasses", zh:"他皮肤苍白、嘴唇薄、一身黑衣，还戴着墨镜"},
+      {en:"He wore a black cape and showed his fangs", zh:"他披着黑色斗篷，还露出了尖牙"},
+      {en:"He slept hanging upside down like a bat", zh:"他像蝙蝠一样倒挂着睡觉"},
+      {en:"He drank blood right in the supermarket", zh:"他在超市里直接喝血"}
+    ],
+    answer:0,
+    explain:{
+      en:"Josh pointed out the man's pale skin and skinny lips, plus his all-black outfit and dark sunglasses, as vampire signs.",
+      zh:"乔什指出那人皮肤苍白、嘴唇薄，再加上一身黑衣和墨镜，觉得这些都像吸血鬼的特征。"
+    }
+  },
+  {
+    q:{en:"How did the man in black seem to vanish from Ellie's Diner and the Book Nook?",
+       zh:"穿黑衣的人是怎么从艾丽的餐车和小说书店『消失』的？"},
+    options:[
+      {en:"He walked through the wall", zh:"他穿墙而过了"},
+      {en:"He turned into a bat and flew away", zh:"他变成蝙蝠飞走了"},
+      {en:"He left through the back door while the kids entered the front", zh:"趁孩子们从正门进来时，他从后门溜走了"},
+      {en:"He used a magic trick", zh:"他用了魔术"}
     ],
     answer:2,
     explain:{
-      en:"Pete Unkenholz was a tall, friendly guy with spiky blond hair who volunteered to umpire. He had even helped set up the bleachers.",
-      zh:"皮特·昂肯霍尔茨是个高个子、友善、留着金色尖发的小伙子，自愿当裁判。他甚至还帮忙搭了看台。"
+      en:"Jimmy left through each shop's back door just as the kids came in the front, so it looked like he had disappeared.",
+      zh:"吉米趁孩子们从正门进店时从后门离开，所以看起来就像凭空消失了。"
     }
   },
   {
-    q:{en:"Why did Pete leave the game and go into the clubhouse?",
-       zh:"皮特为什么离开比赛，走进球员休息室？"},
+    q:{en:"What name did the man sign in with at the Shangri-la Hotel?",
+       zh:"那人在香格里拉酒店登记时用的名字是什么？"},
     options:[
-      {en:"To steal Mr. Pocket's autographed baseballs", zh:"去偷波克特先生签了名的棒球"},
-      {en:"To get his allergy medicine (Aller-Green)", zh:"去拿他的过敏药（Aller-Green）"},
-      {en:"To hide from the crowd", zh:"躲开人群"},
-      {en:"To talk to Mr. Pocket about the score", zh:"去和波克特先生商量比分"}
+      {en:"Count Dracula", zh:"德古拉伯爵"},
+      {en:"Dr. A. Cula", zh:"A. 库拉医生"},
+      {en:"Jimmy Jett", zh:"吉米·杰特"},
+      {en:"Lionel Linkletter", zh:"莱昂内尔·林克莱特"}
     ],
     answer:1,
     explain:{
-      en:"Pete started sneezing from his allergies and went to the clubhouse for his allergy medicine. The empty Aller-Green box later found in his trash proved his allergies were real.",
-      zh:"皮特因为过敏开始打喷嚏，便去休息室拿过敏药。后来在他垃圾桶里发现的空Aller-Green药盒证明他的过敏是真的。"
+      en:"He signed the hotel register as Dr. A. Cula, the name his Dracula character uses.",
+      zh:"他在酒店登记簿上签的是A. 库拉医生，那是他出演的德古拉角色所用的名字。"
     }
   },
   {
-    q:{en:"What clue at Pete's trailer made the kids think someone else might be involved?",
-       zh:"在皮特的拖车房里，什么线索让孩子们怀疑还有别人牵扯其中？"},
+    q:{en:"Ruth Rose first spelled the name with blocks as 'Dr. Cula.' What did Dink add to turn it into DRACULA?",
+       zh:"露丝·罗丝最初用积木拼出『Dr. Cula』。丁克加了什么让它变成了 DRACULA？"},
     options:[
-      {en:"A torn ticket to the game", zh:"一张撕破的比赛门票"},
-      {en:"A red-and-blue flannel shirt far too small for Pete", zh:"一件红蓝相间的法兰绒衬衫，对皮特来说太小了"},
-      {en:"A glove belonging to Mr. Pocket", zh:"波克特先生的一只手套"},
-      {en:"A map of the baseball field", zh:"一张棒球场地图"}
+      {en:"He added an A block between the R and C", zh:"他在 R 和 C 之间加了一块 A 积木"},
+      {en:"He added an E block at the end", zh:"他在末尾加了一块 E 积木"},
+      {en:"He added a D block at the start", zh:"他在开头加了一块 D 积木"},
+      {en:"He added an O block after the L", zh:"他在 L 后面加了一块 O 积木"}
+    ],
+    answer:0,
+    explain:{
+      en:"Dink slid an A block between the R and C, turning DR CULA into DRACULA.",
+      zh:"丁克把一块 A 积木插在 R 和 C 之间，于是 DR CULA 就变成了 DRACULA。"
+    }
+  },
+  {
+    q:{en:"What did the kids find in Dr. Cula's hotel room that revealed the trick?",
+       zh:"孩子们在库拉医生的酒店房间里发现了什么，从而揭穿了把戏？"},
+    options:[
+      {en:"A coffin and a set of fake fangs", zh:"一口棺材和一副假尖牙"},
+      {en:"A purple list of names and a box of Band-Aids, written with Nate's Party Purple crayon", zh:"一张紫色名单和一盒创可贴，是用内特那支派对紫蜡笔画的"},
+      {en:"A map of Green Lawn", zh:"一张格林朗镇地图"},
+      {en:"A letter from a movie studio", zh:"一封电影制片厂的信"}
     ],
     answer:1,
     explain:{
-      en:"Josh noticed a flannel shirt draped on the lawn chair that was much too small to fit big Pete — a hint that someone smaller (his brother Buddy) also stayed there.",
-      zh:"乔什注意到躺椅上搭着一件法兰绒衬衫，对高大的皮特来说太小了——这暗示有个更小的人（他弟弟巴迪）也住那里。"
+      en:"The list was written in purple that smelled like jellybeans — Nate's Party Purple crayon — proving Ruth Rose had written it.",
+      zh:"名单是用紫色的笔写的，还带着果冻豆的味道——那是内特的派对紫蜡笔，证明是露丝·罗丝写的。"
     }
   },
   {
-    q:{en:"What did the kids discover about Pete through the Internet and a phone call?",
-       zh:"通过上网和打电话，孩子们发现了皮特的什么？"},
+    q:{en:"Who was the 'vampire' in black actually?",
+       zh:"那个穿黑衣的『吸血鬼』其实是谁？"},
     options:[
-      {en:"He was a famous retired baseball player", zh:"他是个有名的退役棒球手"},
-      {en:"His real first name was Marion and a Maine paper reported 'Marion Unkenholz' stole a bakery van", zh:"他的真名是马里恩，缅因州报纸报道“马里恩·昂肯霍尔茨”偷过一辆面包车"},
-      {en:"He used to live in Green Lawn", zh:"他以前住在格林朗"},
-      {en:"He had once been a police officer", zh:"他曾经当过警察"}
-    ],
-    answer:1,
-    explain:{
-      en:"Searching 'Unkenholz' led them to a Coast Press article about Marion Unkenholz taking a bakery van in Penobscot, Maine. His full name turned out to be Marion Peter Unkenholz.",
-      zh:"搜索“Unkenholz”让他们找到《海岸新闻》一篇关于马里恩·昂肯霍尔茨在缅因州佩诺布斯科特偷面包车的报道。他的全名其实是马里恩·彼得·昂肯霍尔茨。"
-    }
-  },
-  {
-    q:{en:"Who is Buddy, and why did Pete confess to the theft?",
-       zh:"巴迪是谁？皮特为什么承认偷了球？"},
-    options:[
-      {en:"Buddy is Pete's son; Pete confessed to set a good example", zh:"巴迪是皮特的儿子；皮特认错是为了做个好榜样"},
-      {en:"Buddy is Pete's 14-year-old brother; Pete lied to protect him from blame", zh:"巴迪是皮特14岁的弟弟；皮特说谎是为了替他顶罪"},
-      {en:"Buddy is a friend of Dink; Pete confessed by mistake", zh:"巴迪是丁克的朋友；皮特认错是弄错了"},
-      {en:"Buddy is the police chief's nephew; Pete was forced to confess", zh:"巴迪是警察局长的侄子；皮特是被逼认罪的"}
-    ],
-    answer:1,
-    explain:{
-      en:"Buddy is Pete's younger brother. Pete confessed to stealing the baseballs so that Buddy — whom he wrongly believed had taken them — would not get in trouble. He had done the same thing over the van in Maine.",
-      zh:"巴迪是皮特的弟弟。皮特承认偷球，是为了不让巴迪（他误以为球是被巴迪拿走的）惹上麻烦。在缅因州的面包车事件上他也这样替弟弟顶过罪。"
-    }
-  },
-  {
-    q:{en:"How did the kids finally track down the real thief?",
-       zh:"孩子们最后是怎么找到真正的小偷的？"},
-    options:[
-      {en:"They searched Pete's trailer again", zh:"他们又搜了皮特的拖车房"},
-      {en:"They found the Babe Ruth ball for sale online (YuBuy) and emailed the seller for an address", zh:"他们在网上(YuBuy)发现那颗有贝比·鲁斯签名的球在卖，于是发邮件向卖家要地址"},
-      {en:"Pete finally told them the truth", zh:"皮特终于说了实话"},
-      {en:"Buddy confessed to the crime", zh:"巴迪认罪了"}
-    ],
-    answer:1,
-    explain:{
-      en:"Mrs. Mackleroy searched YuBuy for 'baseballs signed by Babe Ruth.' They found Mr. Pocket's ball listed for $1,000, emailed the seller, and got back a Green Lawn address.",
-      zh:"麦克勒罗伊太太在YuBuy上搜“有贝比·鲁斯签名的棒球”。他们发现波克特先生的球标价1000美元在卖，于是发邮件给卖家，得到了格林朗的一个地址。"
-    }
-  },
-  {
-    q:{en:"Who actually stole Mr. Pocket's six autographed baseballs?",
-       zh:"究竟是谁偷了波克特先生的六颗签名棒球？"},
-    options:[
-      {en:"Pete Unkenholz", zh:"皮特·昂肯霍尔茨"},
-      {en:"Buddy Unkenholz", zh:"巴迪·昂肯霍尔茨"},
-      {en:"Ted Gundy", zh:"泰德·甘迪"},
-      {en:"Fizzo Martin", zh:"菲佐·马丁"}
+      {en:"Mr. Linkletter, the hotel clerk", zh:"酒店职员林克莱特先生"},
+      {en:"Officer Fallon, the police chief", zh:"警察局长法伦警官"},
+      {en:"Jimmy Jett, an actor playing Dracula", zh:"吉米·杰特，一位扮演德古拉的演员"},
+      {en:"Mr. Paskey, the bookstore owner", zh:"书店老板帕斯基先生"}
     ],
     answer:2,
     explain:{
-      en:"Officer Fallon arrested Ted Gundy after the email reply gave his address (13 Boxwood Lane). The six stolen baseballs were found in his closet.",
-      zh:"邮件回信给出了泰德·甘迪的地址（黄杨巷13号），法伦警官据此逮捕了他。那六颗被盗的棒球在他衣柜里被找到。"
+      en:"The man was Jimmy Jett, an actor on his way to film a Dracula movie. He was only joking around.",
+      zh:"那人其实是吉米·杰特，一位正要去拍德古拉电影的演员。他只是在开玩笑。"
     }
   },
   {
-    q:{en:"What lesson did Officer Fallon teach Pete about lying?",
-       zh:"法伦警官给皮特上了什么关于说谎的课？"},
+    q:{en:"Why had Jimmy Jett stopped in Green Lawn?",
+       zh:"吉米·杰特为什么会停在格林朗镇？"},
     options:[
-      {en:"Lying is smart if it protects your family", zh:"只要保护家人，说谎是聪明的"},
-      {en:"Lying is always wrong, even to protect someone else", zh:"说谎永远是错的，哪怕是为了保护别人"},
-      {en:"Lying is fine as long as no one is hurt", zh:"只要没人受伤，说谎没关系"},
-      {en:"Only children should tell the truth", zh:"只有孩子才该说真话"}
+      {en:"To film a horror movie there", zh:"去那里拍恐怖片"},
+      {en:"He was on vacation heading to Vermont and the town looked like a nice place to stop", zh:"他去佛蒙特州度假途中，觉得这个镇子看起来不错就停了下来"},
+      {en:"To visit his relatives", zh:"去探望亲戚"},
+      {en:"To meet Dink, Josh, and Ruth Rose", zh:"去见丁克、乔什和露丝·罗丝"}
     ],
     answer:1,
     explain:{
-      en:"Officer Fallon told Pete that lying is wrong, even when done to protect someone else. Pete learned his lesson, and Fallon even began encouraging him to become a policeman.",
-      zh:"法伦警官告诉皮特，说谎是错的，哪怕是为了保护别人。皮特吸取了教训，法伦甚至开始鼓励他将来当警察。"
+      en:"Jimmy said he was on his way to Vermont for a vacation and stopped in Green Lawn because it looked like a nice place.",
+      zh:"吉米说他正要去佛蒙特州度假，因为格林朗看起来是个不错的地方，就停了下来。"
     }
   },
   {
-    q:{en:"What was the final score when the game was replayed the next Saturday?",
-       zh:"下周六大比赛重打时，最终比分是多少？"},
+    q:{en:"Who was really behind the prank that fooled the kids?",
+       zh:"真正策划这场捉弄孩子们的恶作剧的是谁？"},
     options:[
-      {en:"Men 6, Women 3", zh:"男人队6，女人队3"},
-      {en:"Men 7, Women 6", zh:"男人队7，女人队6"},
-      {en:"Women 7, Men 6", zh:"女人队7，男人队6"},
-      {en:"Tie, 6–6", zh:"平局，6比6"}
+      {en:"Only Josh, as a joke on his friends", zh:"只有乔什，为了捉弄朋友"},
+      {en:"Ruth Rose, to teach them a lesson", zh:"露丝·罗丝，为了给他们一个教训"},
+      {en:"Jimmy Jett, helped by Ellie, Mr. Paskey, Mr. Linkletter, Officer Fallon, and Ruth Rose", zh:"吉米·杰特，在艾丽、帕斯基先生、林克莱特先生、法伦警官和露丝·罗丝的帮助下"},
+      {en:"A real vampire who lived in town", zh:"一个住在镇上的真吸血鬼"}
     ],
     answer:2,
     explain:{
-      en:"With the bases loaded, Livvy Nugent hit a grand slam in the bottom of the ninth. The women won 7–6, so Josh owed Ruth Rose that ice-cream cone after all.",
-      zh:"满垒时，丽芙·纽金特在第九局下半击出一记满贯全垒打。女人队以7比6获胜，所以乔什到底还是欠了露丝·罗丝那个冰淇淋甜筒。"
+      en:"Jimmy started the prank and the others joined in, even Officer Fallon at the end, to scare the kids for fun.",
+      zh:"吉米发起了这场恶作剧，其他人也跟着参与，连法伦警官最后也加入，只为吓唬孩子们玩。"
+    }
+  },
+  {
+    q:{en:"How does the story end, at the New York movie theater?",
+       zh:"故事在纽约的电影院里是如何收尾的？"},
+    options:[
+      {en:"The kids catch the real vampire", zh:"孩子们抓住了真正的吸血鬼"},
+      {en:"Jimmy gives them vampire fangs to watch the movie DRACULA'S DAUGHTER", zh:"吉米给了他们吸血鬼尖牙，一起看电影《德古拉之女》"},
+      {en:"The kids go straight home", zh:"孩子们直接回家了"},
+      {en:"The vampire bites them all", zh:"吸血鬼把他们全咬了"}
+    ],
+    answer:1,
+    explain:{
+      en:"Jimmy sat next to Josh wearing a cape and gave the three kids fake fangs as they watched his new movie, DRACULA'S DAUGHTER.",
+      zh:"吉米披着斗篷坐在乔什旁边，在孩子们观看他的新片《德古拉之女》时，发给他们每人一副假尖牙。"
     }
   }
 ];
