@@ -108,7 +108,7 @@ HUB = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>RAZ-O 阅读理解 · Reading by Level</title>
-<link rel="stylesheet" href="assets/style.css?v=4">
+<link rel="stylesheet" href="assets/style.css?v=5">
 </head>
 <body class="lang-en">
 <div class="wrap">
@@ -184,7 +184,7 @@ BOOK_TPL = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>__TITLE__ · RAZ-O</title>
-<link rel="stylesheet" href="../assets/style.css?v=4">
+<link rel="stylesheet" href="../assets/style.css?v=5">
 </head>
 <body class="lang-en">
 <div class="wrap">
@@ -196,7 +196,7 @@ BOOK_TPL = """<!DOCTYPE html>
   <footer><a href="../index.html"><span class="en">← Back to RAZ-O</span><span class="zh">← 返回 RAZ-O 书单</span></a></footer>
 </div>
 <script>window.BOOK = __BOOK__;</script>
-<script src="../assets/quiz.js?v=4"></script>
+<script src="../assets/quiz.js?v=5"></script>
 </body>
 </html>
 """

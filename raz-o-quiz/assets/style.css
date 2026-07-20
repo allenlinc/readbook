@@ -90,8 +90,9 @@ a{color:var(--primary);text-decoration:none}
   display:inline-block;background:#eef2ff;color:var(--blue);border-radius:999px;
   padding:2px 10px;font-size:12px;font-weight:700;margin-bottom:8px;
 }
-.feedback .exp{font-size:14.5px}
-.feedback .exp .zh{display:block;color:var(--muted);margin-top:3px;font-size:13.5px}
+.feedback .exp{font-size:14.5px;color:var(--red)}
+.feedback .exp .en{color:var(--red)}
+.feedback .exp .zh{display:block;color:var(--red);margin-top:3px;font-size:13.5px}
 
 /* ---------- Summary ---------- */
 .summary{
@@ -159,8 +160,6 @@ a{color:var(--primary);text-decoration:none}
 .empty{text-align:center;color:var(--muted);padding:40px;grid-column:1/-1}
 
 /* ---------- Language modes: EN only (default) or 中文 only ---------- */
-.en{color:var(--red)}
-.zh{color:var(--red)}
 body.lang-en .zh{display:none!important}
 body.lang-zh .en{display:none!important}
 
