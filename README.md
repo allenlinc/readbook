@@ -3,7 +3,7 @@
 A free, kid-friendly static website to help children learn English by reading the
 **A to Z Mysteries** books (by Ron Roy) and taking bilingual (English / 中文) comprehension quizzes.
 
-🌐 Live site: _set after enabling GitHub Pages_ · `https://<user>.github.io/<repo>/`
+🌐 Live site: **https://allenlinc.github.io/a-to-z-mysteries/**
 
 ## What's inside
 - `index.html` — a colorful landing page that lists every book as a card.
