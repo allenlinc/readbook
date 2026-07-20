@@ -97,7 +97,7 @@ for b in books:
         ('<span class="chip">%s</span>' % html.escape(ms) if ms else "") +
         ('<span class="chip gen">%s</span>' % html.escape(genre) if genre else "") +
         "</div>" +
-        '<a class="go" href="books/%s.html">开始 ▶</a>' % slug +
+        '<a class="go" href="books/%s.html"><span class="en">Start ▶</span><span class="zh">开始 ▶</span></a>' % slug +
         "</article>"
     )
 cards_html = "\n".join(cards)
@@ -108,7 +108,7 @@ HUB = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>RAZ-O 阅读理解 · Reading by Level</title>
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=2">
 </head>
 <body class="lang-en">
 <div class="wrap">
@@ -121,7 +121,7 @@ HUB = """<!DOCTYPE html>
     <p><span class="en">__COUNT__ leveled readers — 10 bilingual questions + 1 open-ended question each. Choose a book to start!</span><span class="zh">__COUNT__ 本分级读物，每本 10 道理解题 + 1 道思考题。选一本开始吧！</span></p>
   </div>
   <div class="controls">
-    <input id="q" type="search" placeholder="🔍 搜索书名 Search title…" autocomplete="off">
+    <input id="q" type="search" placeholder="🔍 Search title…" autocomplete="off">
     <select id="sk"><option value="">全部技能 All skills</option>__SKILLS__</select>
   </div>
   <div class="grid" id="grid">
@@ -139,7 +139,7 @@ function card(b){
     '<div class="meta">'+
       (b.mainSkill?'<span class="chip">'+esc(b.mainSkill)+'</span>':'')+
       (b.genre?'<span class="chip gen">'+esc(b.genre)+'</span>':'')+
-    '</div><a class="go" href="books/'+b.slug+'.html">开始 ▶</a></article>';
+    '</div><a class="go" href="books/'+b.slug+'.html"><span class="en">Start ▶</span><span class="zh">开始 ▶</span></a></article>';
 }
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function render(){
@@ -150,11 +150,14 @@ function render(){
     var okS = !s || (b.mainSkill===s) || b.questions.some(function(x){return x.skill===s;});
     if(okT&&okS) out.push(b);
   });
-  grid.innerHTML = out.length? out.map(card).join('') : '<div class="empty">没有找到匹配的书籍 No matches.</div>';
+  grid.innerHTML = out.length? out.map(card).join('') : '<div class="empty">'+bi('No matches.','没有找到匹配的书籍')+'</div>';
 }
+function bi(s1,s2){return '<span class="en">'+s1+'</span><span class="zh">'+s2+'</span>';}
+function setPH(){q.placeholder=document.body.classList.contains('lang-zh')?'🔍 搜索书名…':'🔍 Search title…';}
 q.addEventListener('input', render); sk.addEventListener('change', render);
 var lb=document.getElementById('langBtn');
-lb.addEventListener('click',function(){var zh=document.body.classList.toggle('lang-zh');document.body.classList.toggle('lang-en',!zh);lb.textContent=zh?'🌐 中文':'🌐 EN';});
+lb.addEventListener('click',function(){var zh=document.body.classList.toggle('lang-zh');document.body.classList.toggle('lang-en',!zh);lb.textContent=zh?'🌐 中文':'🌐 EN';setPH();});
+setPH();
 render();
 </script>
 </body>
@@ -181,7 +184,7 @@ BOOK_TPL = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>__TITLE__ · RAZ-O</title>
-<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/style.css?v=2">
 </head>
 <body class="lang-en">
 <div class="wrap">
@@ -193,7 +196,7 @@ BOOK_TPL = """<!DOCTYPE html>
   <footer><a href="../index.html"><span class="en">← Back to RAZ-O</span><span class="zh">← 返回 RAZ-O 书单</span></a></footer>
 </div>
 <script>window.BOOK = __BOOK__;</script>
-<script src="../assets/quiz.js"></script>
+<script src="../assets/quiz.js?v=2"></script>
 </body>
 </html>
 """

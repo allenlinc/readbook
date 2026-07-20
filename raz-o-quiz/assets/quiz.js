@@ -8,6 +8,12 @@
   var state = [];           // selected index per question, or null
   var answered = 0;
 
+  // Ensure a language mode is active (guard against any stale cached HTML).
+  if (!document.body.classList.contains("lang-en") &&
+      !document.body.classList.contains("lang-zh")) {
+    document.body.classList.add("lang-en");
+  }
+
   function esc(s) {
     return String(s == null ? "" : s)
       .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -37,7 +43,7 @@
       '<div class="tags">' +
         (B.genre ? '<span class="tag">' + esc(B.genre) + "</span>" : "") +
         (B.mainSkill ? '<span class="tag">' + esc(B.mainSkill) + "</span>" : "") +
-        '<span class="tag">10 Q · EN / 中文</span>' +
+        '<span class="tag">' + bi("10 Q", "10 题") + "</span>" +
       "</div></div>";
 
     // ---- questions ----
