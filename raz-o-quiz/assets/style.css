@@ -159,6 +159,8 @@ a{color:var(--primary);text-decoration:none}
 .empty{text-align:center;color:var(--muted);padding:40px;grid-column:1/-1}
 
 /* ---------- Language modes: EN only (default) or 中文 only ---------- */
+.en{color:var(--red)}
+.zh{color:var(--red)}
 body.lang-en .zh{display:none!important}
 body.lang-zh .en{display:none!important}
 
