@@ -108,7 +108,7 @@ HUB = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>RAZ-O 阅读理解 · Reading by Level</title>
-<link rel="stylesheet" href="assets/style.css?v=5">
+<link rel="stylesheet" href="assets/style.css?v=11">
 </head>
 <body class="lang-en">
 <div class="wrap">
@@ -184,7 +184,7 @@ BOOK_TPL = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>__TITLE__ · RAZ-O</title>
-<link rel="stylesheet" href="../assets/style.css?v=5">
+<link rel="stylesheet" href="../assets/style.css?v=11">
 </head>
 <body class="lang-en">
 <div class="wrap">
