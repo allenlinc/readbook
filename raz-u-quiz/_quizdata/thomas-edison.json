@@ -1,0 +1,206 @@
+{
+  "slug": "thomas-edison",
+  "title": "Thomas Edison",
+  "titleZh": "托马斯·爱迪生",
+  "level": "U",
+  "genre": "Biography",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {
+        "en": "When was Thomas Alva Edison born?",
+        "zh": "托马斯·阿尔瓦·爱迪生生于何时？"
+      },
+      "options": [
+        {"en": "February 11, 1847", "zh": "1847年2月11日"},
+        {"en": "October 18, 1931", "zh": "1931年10月18日"},
+        {"en": "July 4, 1776", "zh": "1776年7月4日"},
+        {"en": "March 3, 1869", "zh": "1869年3月3日"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book states Thomas Alva Edison was born on February 11, 1847.",
+        "zh": "书中写明托马斯·阿尔瓦·爱迪生出生于1847年2月11日。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why did young Edison leave school?",
+        "zh": "小时候的爱迪生为什么离开了学校？"
+      },
+      "options": [
+        {"en": "He had finished all the grades", "zh": "他已经读完了所有年级"},
+        {"en": "School didn't let him explore and ask questions, so his mother taught him at home", "zh": "学校不允许他探索和提问，于是母亲在家教他"},
+        {"en": "He had to work full time immediately", "zh": "他必须立刻全职工作"},
+        {"en": "His family moved to another country", "zh": "他家搬到了另一个国家"}
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says Al did not do well in school because students only memorized facts, so his mother removed him and taught him at home.",
+        "zh": "书中说阿尔在学校表现不好，因为学生只背事实，于是母亲让他退学并在家教导他。"
+      }
+    },
+    {
+      "q": {
+        "en": "What was Thomas Edison's first patent for?",
+        "zh": "托马斯·爱迪生的第一项专利是关于什么的？"
+      },
+      "options": [
+        {"en": "The light bulb", "zh": "电灯泡"},
+        {"en": "An electric vote counter", "zh": "电子投票计数器"},
+        {"en": "The phonograph", "zh": "留声机"},
+        {"en": "The telephone", "zh": "电话"}
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says Edison received his first patent, for an electric vote counter, in 1869, and that it did not do well.",
+        "zh": "书中说爱迪生1869年获得了第一项专利——电子投票计数器，不过它卖得并不好。"
+      }
+    },
+    {
+      "q": {
+        "en": "Where did Edison build the first for-profit research lab, called the 'invention factory'?",
+        "zh": "爱迪生在哪里建立了第一家营利性研究实验室，即“发明工厂”？"
+      },
+      "options": [
+        {"en": "Menlo Park, New Jersey, in 1876", "zh": "1876年，新泽西州门洛帕克"},
+        {"en": "West Orange, New Jersey", "zh": "新泽西州西奥兰治"},
+        {"en": "New York City", "zh": "纽约市"},
+        {"en": "Michigan", "zh": "密歇根州"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "In 1876 Edison built a lab in Menlo Park, New Jersey, described as the first for-profit research lab, the 'invention factory.'",
+        "zh": "1876年，爱迪生在新泽西州门洛帕克建立了实验室，被描述为第一家营利性研究实验室，即“发明工厂”。"
+      }
+    },
+    {
+      "q": {
+        "en": "What was the first thing Edison recorded on the phonograph?",
+        "zh": "爱迪生在留声机上录下的第一句话是什么？"
+      },
+      "options": [
+        {"en": "\"Mary Had a Little Lamb\"", "zh": "《玛丽有只小羊羔》"},
+        {"en": "The national anthem", "zh": "国歌"},
+        {"en": "A telegraph code", "zh": "一份电报电码"},
+        {"en": "A political speech", "zh": "一篇政治演讲"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says the first thing Edison recorded was the nursery rhyme 'Mary Had a Little Lamb.'",
+        "zh": "书中说爱迪生录下的第一句话是儿歌《玛丽有只小羊羔》。"
+      }
+    },
+    {
+      "q": {
+        "en": "According to the book, what did Edison's workers try thousands of materials to find?",
+        "zh": "根据书中内容，爱迪生的团队试了上千种材料是为了找到什么？"
+      },
+      "options": [
+        {"en": "The filament for the light bulb", "zh": "电灯泡的灯丝"},
+        {"en": "The telephone wire", "zh": "电话线"},
+        {"en": "The battery case", "zh": "电池外壳"},
+        {"en": "The movie film", "zh": "电影胶片"}
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The book says the first challenge was finding a material for the filament, and workers tried thousands of materials until one worked.",
+        "zh": "书中说第一个难题是寻找灯丝材料，工人们试了上千种材料，直到找到一种可用的。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the 'War of the Currents,' which method eventually became dominant?",
+        "zh": "在“电流之战”中，哪种供电方式最终占据了主导？"
+      },
+      "options": [
+        {"en": "Edison's direct current (DC)", "zh": "爱迪生的直流电（DC）"},
+        {"en": "Westinghouse and Tesla's alternating current (AC)", "zh": "西屋与特斯拉的交流电（AC）"},
+        {"en": "Steam power", "zh": "蒸汽动力"},
+        {"en": "Gas lamps", "zh": "煤气灯"}
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The book explains Edison used DC, while Westinghouse used AC (invented by Tesla), and AC eventually became dominant.",
+        "zh": "书中解释爱迪生采用直流电，而西屋公司采用特斯拉发明的交流电，最终交流电占据了主导。"
+      }
+    },
+    {
+      "q": {
+        "en": "How many patents did Edison obtain in his lifetime?",
+        "zh": "爱迪生一生共获得了多少项专利？"
+      },
+      "options": [
+        {"en": "1,093", "zh": "1,093项"},
+        {"en": "3,500", "zh": "3,500项"},
+        {"en": "25", "zh": "25项"},
+        {"en": "1869", "zh": "1,869项"}
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The book says throughout his life Edison obtained 1,093 patents, a record at the time.",
+        "zh": "书中说爱迪生一生共获得1,093项专利，在当时是一项纪录。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the book suggest about Edison's attitude toward failure?",
+        "zh": "书中体现了爱迪生对失败持怎样的态度？"
+      },
+      "options": [
+        {"en": "He avoided taking any risks", "zh": "他避免冒任何风险"},
+        {"en": "He said negative results were as valuable as positive ones because they showed what did not work", "zh": "他说负面结果和正面结果一样有价值，因为它们表明哪些方法行不通"},
+        {"en": "He gave up easily", "zh": "他很容易就放弃"},
+        {"en": "He only succeeded on the first try", "zh": "他每次都一次成功"}
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "Edison said 'Negative results are just as valuable to me as positive results,' because he learned what did not work.",
+        "zh": "爱迪生说“负面结果对我而言与正面结果同样有价值”，因为他能从中得知哪些方法行不通。"
+      }
+    },
+    {
+      "q": {
+        "en": "How did the nation honor Edison when he died in 1931?",
+        "zh": "1931年爱迪生逝世时，全国是如何纪念他的？"
+      },
+      "options": [
+        {"en": "By declaring a national holiday", "zh": "设立一个全国假日"},
+        {"en": "President Hoover asked everyone to briefly turn out the lights", "zh": "胡佛总统请所有人短暂熄灯以致哀"},
+        {"en": "By building a statue in every city", "zh": "在每个城市立一座雕像"},
+        {"en": "With a moment of silence only in New Jersey", "zh": "仅在新泽西州默哀片刻"}
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book says President Herbert Hoover asked everyone in the country to turn out the lights for a short time to honor Edison.",
+        "zh": "书中说赫伯特·胡佛总统请全国民众短暂熄灯，以纪念爱迪生。"
+      }
+    }
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Edison valued persistence and learning from failure. Describe a problem you have faced and explain how Edison's approach — trying many versions and refusing to give up — could help you solve it.",
+      "zh": "爱迪生重视坚持与从失败中学习。请描述你曾面临的一个难题，并说明爱迪生的方法——尝试多种方案、绝不放弃——能如何帮你解决它。"
+    },
+    "guidance": {
+      "en": [
+        "Remember the book says Edison's workers tried thousands of materials for the filament before one worked.",
+        "Think about his quote that negative results are as valuable as positive ones."
+      ],
+      "zh": [
+        "回想书中提到，爱迪生的团队为灯丝试了上千种材料才找到一种可行的。",
+        "想想他的那句话：负面结果与正面结果同样有价值。"
+      ]
+    }
+  }
+}
