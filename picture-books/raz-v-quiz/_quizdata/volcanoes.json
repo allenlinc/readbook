@@ -1,0 +1,206 @@
+{
+  "slug": "volcanoes",
+  "title": "Volcanoes",
+  "titleZh": "火山",
+  "level": "V",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {
+        "en": "In AD 79, which Roman city was buried by the eruption of Mount Vesuvius?",
+        "zh": "公元79年，哪座罗马城市被维苏威火山的喷发掩埋？"
+      },
+      "options": [
+        {"en": "Rome", "zh": "罗马"},
+        {"en": "Pompeii", "zh": "庞贝"},
+        {"en": "Athens", "zh": "雅典"},
+        {"en": "Cairo", "zh": "开罗"}
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The eruption of Mount Vesuvius buried the Roman city of Pompeii in AD 79.",
+        "zh": "公元79年维苏威火山喷发掩埋了罗马城市庞贝。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is magma?",
+        "zh": "什么是岩浆？"
+      },
+      "options": [
+        {"en": "Melted liquid rock beneath Earth's surface", "zh": "地球表面之下的熔融液态岩石"},
+        {"en": "A type of volcano", "zh": "一种火山"},
+        {"en": "A cloud of ash", "zh": "一团灰烬"},
+        {"en": "A tectonic plate", "zh": "一块构造板块"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The glossary defines magma as melted liquid rock beneath Earth's surface.",
+        "zh": "词汇表将岩浆定义为地球表面之下的熔融液态岩石。"
+      }
+    },
+    {
+      "q": {
+        "en": "Where do most of the world's active volcanoes occur?",
+        "zh": "世界上大多数活火山出现在哪里？"
+      },
+      "options": [
+        {"en": "In the middle of continents", "zh": "大陆中央"},
+        {"en": "Along the edges of tectonic plates, especially the Ring of Fire", "zh": "在构造板块边缘，尤其是环太平洋火山带"},
+        {"en": "Only in Antarctica", "zh": "仅在南极洲"},
+        {"en": "On the Moon", "zh": "在月球上"}
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Most active volcanoes lie near tectonic plate edges, especially the Pacific Ring of Fire.",
+        "zh": "多数活火山位于构造板块边缘，尤其是太平洋火山带。"
+      }
+    },
+    {
+      "q": {
+        "en": "What type of volcano is Mount Vesuvius?",
+        "zh": "维苏威火山是哪一类火山？"
+      },
+      "options": [
+        {"en": "Shield volcano", "zh": "盾形火山"},
+        {"en": "Cinder cone", "zh": "火山渣锥"},
+        {"en": "Composite volcano, also called a stratovolcano", "zh": "复合火山（又称成层火山）"},
+        {"en": "Lava dome", "zh": "熔岩穹丘"}
+      ],
+      "answer": 2,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Mount Vesuvius is a composite volcano, also called a stratovolcano, and is explosive.",
+        "zh": "维苏威是复合火山，又称成层火山，喷发具有爆炸性。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why are shield volcanoes usually less explosive than composite volcanoes?",
+        "zh": "为什么盾形火山通常比复合火山喷发得温和？"
+      },
+      "options": [
+        {"en": "Their lava is very runny and flows out gently", "zh": "它们的熔岩很稀，会平缓地流出"},
+        {"en": "They have no magma", "zh": "它们没有岩浆"},
+        {"en": "They are made of ice", "zh": "它们由冰构成"},
+        {"en": "They never erupt", "zh": "它们从不喷发"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Shield volcano lava is very runny and flows smoothly, so eruptions are usually gentle.",
+        "zh": "盾形火山的熔岩很稀，流动平缓，因此喷发通常较温和。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a caldera?",
+        "zh": "什么是破火山口（caldera）？"
+      },
+      "options": [
+        {"en": "A type of lava", "zh": "一种熔岩"},
+        {"en": "A large bowl-shaped basin formed when a volcano collapses", "zh": "火山塌陷后形成的巨大碗状盆地"},
+        {"en": "A tectonic plate", "zh": "一块构造板块"},
+        {"en": "A kind of crater lake fish", "zh": "一种火山口湖鱼"}
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "When an empty magma chamber collapses, it leaves a large bowl-shaped basin called a caldera.",
+        "zh": "当空的岩浆房塌陷，会留下巨大的碗状盆地，称为破火山口。"
+      }
+    },
+    {
+      "q": {
+        "en": "The word 'dormant' (as used for volcanoes) means —",
+        "zh": "“dormant”（用于火山时）的意思是——"
+      },
+      "options": [
+        {"en": "erupting now", "zh": "正在喷发"},
+        {"en": "quiet for many hundreds of years", "zh": "沉寂数百年"},
+        {"en": "made of ice", "zh": "由冰构成"},
+        {"en": "underwater", "zh": "在水下"}
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The glossary defines dormant as quiet for many hundreds of years.",
+        "zh": "词汇表将 dormant 定义为沉寂数百年。"
+      }
+    },
+    {
+      "q": {
+        "en": "Where is the largest known volcano in the solar system, Olympus Mons?",
+        "zh": "太阳系已知最大的火山奥林匹斯山在哪里？"
+      },
+      "options": [
+        {"en": "On Earth, at Mauna Loa", "zh": "在地球的冒纳罗亚"},
+        {"en": "On Mars", "zh": "在火星上"},
+        {"en": "On Venus", "zh": "在金星上"},
+        {"en": "On the Moon", "zh": "在月球上"}
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Olympus Mons on Mars is the largest known volcano in the solar system.",
+        "zh": "火星上的奥林匹斯山是太阳系已知最大的火山。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book explains that volcanoes can be useful to people because —",
+        "zh": "书中解释说火山对人类可能有益，是因为——"
+      },
+      "options": [
+        {"en": "they provide fertile soil and geothermal energy", "zh": "它们提供肥沃土壤和地热能"},
+        {"en": "they stop all earthquakes", "zh": "它们能阻止所有地震"},
+        {"en": "they cool the planet", "zh": "它们给地球降温"},
+        {"en": "they are easy to live near", "zh": "它们附近容易居住"}
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "Volcanic ash makes fertile soil and geothermal energy can produce electricity.",
+        "zh": "火山灰造就肥沃土壤，地热能可用于发电。"
+      }
+    },
+    {
+      "q": {
+        "en": "What balanced view does the author give of volcanoes?",
+        "zh": "作者对火山持怎样的辩证看法？"
+      },
+      "options": [
+        {"en": "They are only dangerous", "zh": "它们只有危险"},
+        {"en": "They are both powerful and dangerous, yet also useful and beautiful", "zh": "它们既强大危险，又有用且美丽"},
+        {"en": "They are only helpful", "zh": "它们只有益处"},
+        {"en": "They do not change Earth", "zh": "它们不改变地球"}
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The conclusion notes people live near volcanoes but must remember their violent power.",
+        "zh": "结尾指出人们居住在火山附近，但必须牢记其狂暴的力量。"
+      }
+    }
+  ],
+  "extended": {
+    "prompt": {
+      "en": "If you were a scientist studying a dormant volcano near a city, what would you tell the people living there?",
+      "zh": "假如你是一位研究某座靠近城市的休眠火山的科学家，你会对当地居民说些什么？"
+    },
+    "guidance": {
+      "en": [
+        "Think about why people live near volcanoes and what dangers a sudden eruption brings.",
+        "Consider how scientists monitor volcanoes to give warnings."
+      ],
+      "zh": [
+        "想想人们为何住在火山附近，以及突然喷发会带来什么危险。",
+        "考虑科学家如何监测火山以发出预警。"
+      ]
+    }
+  }
+}

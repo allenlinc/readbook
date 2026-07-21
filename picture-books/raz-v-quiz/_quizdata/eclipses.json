@@ -1,0 +1,326 @@
+{
+  "slug": "eclipses",
+  "title": "Eclipses",
+  "titleZh": "日食与月食",
+  "level": "V",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {
+        "en": "What happens during a solar eclipse?",
+        "zh": "日食发生时会出现什么现象？"
+      },
+      "options": [
+        {
+          "en": "The Moon blocks the Sun.",
+          "zh": "月球挡住了太阳。"
+        },
+        {
+          "en": "The Earth blocks the Moon.",
+          "zh": "地球挡住了月球。"
+        },
+        {
+          "en": "The Sun blocks the Moon.",
+          "zh": "太阳挡住了月球。"
+        },
+        {
+          "en": "The stars block the Sun.",
+          "zh": "星星挡住了太阳。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says that during a solar eclipse, the Moon blocks out the Sun.",
+        "zh": "书中说，日食发生时月球把太阳遮挡住了。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why does the Moon turn red during a total lunar eclipse?",
+        "zh": "为什么在月全食时月亮会泛红？"
+      },
+      "options": [
+        {
+          "en": "Red light from the Sun bends through Earth's atmosphere and reaches the Moon.",
+          "zh": "太阳的红光穿过地球大气层发生偏折，照到月球上。"
+        },
+        {
+          "en": "The Moon is painted red by dust storms.",
+          "zh": "月亮被沙尘暴染成了红色。"
+        },
+        {
+          "en": "The Sun turns the Moon red directly.",
+          "zh": "太阳直接把月亮染红。"
+        },
+        {
+          "en": "Volcanoes erupt on the Moon.",
+          "zh": "月球上的火山喷发了。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Earth's atmosphere scatters red light, which then falls on the Moon during a lunar eclipse.",
+        "zh": "地球大气散射红光，在月食时这些红光落到月球上。"
+      }
+    },
+    {
+      "q": {
+        "en": "What did ancient Chinese people believe caused a solar eclipse?",
+        "zh": "古代中国人认为日食是由什么引起的？"
+      },
+      "options": [
+        {
+          "en": "A dragon was eating the Sun.",
+          "zh": "一条龙正在吞食太阳。"
+        },
+        {
+          "en": "The Moon exploded.",
+          "zh": "月亮爆炸了。"
+        },
+        {
+          "en": "A comet hit Earth.",
+          "zh": "一颗彗星撞上了地球。"
+        },
+        {
+          "en": "The stars moved.",
+          "zh": "星星移动了。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says ancient Chinese thought a dragon was eating the Sun and banged drums to scare it away.",
+        "zh": "书中说，古代中国人认为龙在吞食太阳，于是敲鼓把它吓走。"
+      }
+    },
+    {
+      "q": {
+        "en": "In 585 BC, what battle was stopped by a sudden eclipse?",
+        "zh": "公元前585年，哪场战争因突如其来的日食而停止？"
+      },
+      "options": [
+        {
+          "en": "The battle between the Lydians and the Medes.",
+          "zh": "吕底亚人与米底人之间的战斗。"
+        },
+        {
+          "en": "The Battle of Gettysburg.",
+          "zh": "葛底斯堡战役。"
+        },
+        {
+          "en": "A war in China.",
+          "zh": "中国的一场战争。"
+        },
+        {
+          "en": "The Trojan War.",
+          "zh": "特洛伊战争。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "A total eclipse in 585 BC frightened the Lydians and Medes into making peace.",
+        "zh": "公元前585年的日全食吓坏了吕底亚人和米底人，使他们讲和。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is an annular eclipse?",
+        "zh": "什么是环食（annular eclipse）？"
+      },
+      "options": [
+        {
+          "en": "The Moon is farther away, leaving a bright ring of Sun around it.",
+          "zh": "月球距离较远，在它周围留下一圈明亮的太阳光环。"
+        },
+        {
+          "en": "The Sun disappears completely for an hour.",
+          "zh": "太阳完全消失长达一小时。"
+        },
+        {
+          "en": "The Earth blocks the Moon.",
+          "zh": "地球挡住了月球。"
+        },
+        {
+          "en": "The Moon turns blue.",
+          "zh": "月亮变成了蓝色。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "When the Moon is farther away it looks smaller, leaving a ring of Sun—an annular eclipse.",
+        "zh": "当月球较远时显得较小，留下一圈太阳，这就是环食。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was the first scientist to accurately predict solar eclipses?",
+        "zh": "谁是首位能准确预测日食的科学家？"
+      },
+      "options": [
+        {
+          "en": "Edmond Halley.",
+          "zh": "埃德蒙·哈雷。"
+        },
+        {
+          "en": "Isaac Newton.",
+          "zh": "艾萨克·牛顿。"
+        },
+        {
+          "en": "Albert Einstein.",
+          "zh": "阿尔伯特·爱因斯坦。"
+        },
+        {
+          "en": "Ptolemy.",
+          "zh": "托勒密。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says Edmond Halley was the first scientist to accurately predict solar eclipses.",
+        "zh": "书中说埃德蒙·哈雷是首位能准确预测日食的科学家。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why is it dangerous to look directly at a solar eclipse?",
+        "zh": "为什么直接用眼睛看日食很危险？"
+      },
+      "options": [
+        {
+          "en": "It can damage your eyes even when there is no pain.",
+          "zh": "即使没有痛感，也会损伤眼睛。"
+        },
+        {
+          "en": "The Moon is too close.",
+          "zh": "月球离得太近。"
+        },
+        {
+          "en": "It makes you fall asleep.",
+          "zh": "它会让人睡着。"
+        },
+        {
+          "en": "The stars are too bright.",
+          "zh": "星星太亮了。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Looking at the Sun can severely damage eyes, and during an eclipse pain does not warn you.",
+        "zh": "直视太阳会严重损伤眼睛，而日食时疼痛并不能及时提醒你。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the safest way to view a solar eclipse?",
+        "zh": "观看日食最安全的方式是什么？"
+      },
+      "options": [
+        {
+          "en": "Indirectly, using a pinhole projector.",
+          "zh": "用针孔投影仪间接观看。"
+        },
+        {
+          "en": "With regular sunglasses.",
+          "zh": "戴普通太阳镜。"
+        },
+        {
+          "en": "Through a telescope.",
+          "zh": "通过望远镜。"
+        },
+        {
+          "en": "By staring at the Sun.",
+          "zh": "直接盯着太阳看。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The book recommends a pinhole projector that focuses sunlight onto a flat surface safely.",
+        "zh": "书中推荐使用针孔投影仪，把阳光安全地投射到平面上观看。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the book, what is the 'corona'?",
+        "zh": "在书中，'corona'（日冕）指的是什么？"
+      },
+      "options": [
+        {
+          "en": "The Sun's outer hot gases seen when the Moon blocks the Sun.",
+          "zh": "当月球挡住太阳时可见的太阳外层炽热气体。"
+        },
+        {
+          "en": "A type of eclipse.",
+          "zh": "一种食的类型。"
+        },
+        {
+          "en": "The Moon's shadow.",
+          "zh": "月球的影子。"
+        },
+        {
+          "en": "A kind of telescope.",
+          "zh": "一种望远镜。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The corona is the Sun's outer gases that glow when the Moon blocks the main disk.",
+        "zh": "日冕是月球遮住太阳主体时显现的太阳外层气体。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in this book?",
+        "zh": "作者写这本书的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To explain what causes eclipses and how to view and predict them safely.",
+          "zh": "解释日食与月食的成因，以及如何安全观看和预测。"
+        },
+        {
+          "en": "To teach how to build telescopes.",
+          "zh": "教人如何制造望远镜。"
+        },
+        {
+          "en": "To tell a myth about dragons.",
+          "zh": "讲述关于龙的神话。"
+        },
+        {
+          "en": "To describe the planets.",
+          "zh": "描述各个行星。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book informs readers about eclipse causes, history, prediction, and safe viewing.",
+        "zh": "本书向读者介绍食的成因、历史、预测方法以及安全观看方式。"
+      }
+    }
+  ],
+  "extended": {
+    "prompt": {
+      "en": "The book explains that ancient people feared eclipses and made up stories about them. If you lived long ago and saw a sudden solar eclipse, what story might you have told to explain it? How is your story different from the scientific explanation?",
+      "zh": "书中说古人害怕日食，并为它编出各种故事。如果你生活在很久以前，看到突如其来的日食，你会编一个怎样的故事来解释它？你的故事与科学解释有什么不同？"
+    },
+    "guidance": {
+      "en": [
+        "Use the dragon story or invent your own.",
+        "Then compare your story with the real cause from the book."
+      ],
+      "zh": [
+        "可以借用书中'龙吞日'的故事，也可以自己编。",
+        "然后把你编的故事与书中真实的成因作对比。"
+      ]
+    }
+  }
+}
