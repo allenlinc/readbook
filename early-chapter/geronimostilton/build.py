@@ -462,8 +462,10 @@ def gen_hub(manifest):
     </article>""")
 
     count = len(cards)
-    lo = nums[0]
-    hi = nums[-1]
+    lo = int(nums[0])
+    hi = int(nums[-1])
+    missing = [n for n in range(lo, hi + 1) if str(n) not in books]
+    miss_txt = ("（缺 #" + "、#".join(str(m) for m in missing) + "）") if missing else ""
 
     hub = f"""<!DOCTYPE html>
 <html lang="en">
@@ -558,7 +560,7 @@ def gen_hub(manifest):
 
 <div class="wrap">
   <div class="intro">
-    🐭 <b>{count} 本杰罗尼摩·斯蒂顿冒险故事（#{lo}–#{hi}），每本都有中英双语阅读理解测验。</b><br>
+    🐭 <b>{count} 本杰罗尼摩·斯蒂顿冒险故事（#{lo}–#{hi}）{miss_txt}，每本都有中英双语阅读理解测验。</b><br>
     {count} Geronimo Stilton adventures, each with a bilingual (English / 中文) comprehension quiz. Tap a book, read the questions, then check your answers!
   </div>
 
