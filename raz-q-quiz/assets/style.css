@@ -50,7 +50,7 @@ a{color:var(--primary);text-decoration:none}
 .hero .lvl b{display:block;font-size:30px;line-height:1}
 .hero .lvl span{font-size:11px;opacity:.9}
 .hero h1{margin:0;font-size:24px;line-height:1.25}
-.hero h1 .zh{display:block;opacity:.92;font-size:15px;font-weight:400;margin-top:2px}
+.hero h1 .zh{display:block;opacity:1;font-size:inherit;font-weight:inherit;margin-top:2px}
 .tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
 .tag{background:rgba(255,255,255,.92);border:1px solid rgba(255,255,255,.7);color:var(--primary-d);border-radius:999px;padding:3px 11px;font-size:12.5px;font-weight:700}
 
@@ -65,7 +65,7 @@ a{color:var(--primary);text-decoration:none}
   font-weight:700;font-size:15px;margin-right:10px;flex:none;
 }
 .q .stem{display:flex;align-items:flex-start;font-size:17px;font-weight:600;margin-bottom:12px}
-.q .stem .txt .zh{display:block;font-weight:400;color:var(--muted);font-size:14.5px;margin-top:3px}
+.q .stem .txt .zh{display:block;font-weight:inherit;color:var(--ink);font-size:inherit;margin-top:3px}
 /* content text must always be dark/black (override any banner-color inheritance) */
 .txt,.txt .en,.opt .txt,.opt .txt .en,.ext .ep,.ext .ep .en{color:var(--ink)}
 /* EN/ZH text blocks must be identical width so toggling language never reflows.
@@ -86,7 +86,7 @@ a{color:var(--primary);text-decoration:none}
   flex:none;width:24px;height:24px;border-radius:50%;border:1.5px solid var(--line);
   display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:var(--muted);
 }
-.opt .txt .zh{display:block;color:var(--muted);font-size:13.5px;margin-top:2px}
+.opt .txt .zh{display:block;color:var(--ink);font-size:inherit;font-weight:inherit;margin-top:2px}
 .opt.correct{border-color:var(--green);background:var(--green-bg)}
 .opt.correct .mk{background:var(--green);border-color:var(--green);color:#fff}
 .opt.wrong{border-color:var(--red);background:var(--red-bg)}
@@ -102,7 +102,7 @@ a{color:var(--primary);text-decoration:none}
 }
 .feedback .exp{font-size:14.5px;color:var(--red)}
 .feedback .exp .en{color:var(--red)}
-.feedback .exp .zh{display:block;color:var(--red);margin-top:3px;font-size:13.5px}
+.feedback .exp .zh{display:block;color:var(--red);margin-top:3px;font-size:inherit}
 
 /* ---------- Summary ---------- */
 .summary{
@@ -132,7 +132,7 @@ a{color:var(--primary);text-decoration:none}
 }
 .ext h3{margin:0 0 8px;font-size:17px;color:#92660a;display:flex;align-items:center;gap:8px}
 .ext .ep{font-size:15.5px;font-weight:600}
-.ext .ep .zh{display:block;font-weight:400;color:#7a5a14;font-size:14px;margin-top:3px}
+.ext .ep .zh{display:block;font-weight:inherit;color:var(--ink);font-size:inherit;margin-top:3px}
 .ext textarea{
   width:100%;min-height:80px;margin-top:10px;border:1px solid #f0d27a;border-radius:10px;
   padding:10px;font:inherit;resize:vertical;background:#fffdf3;
@@ -140,7 +140,7 @@ a{color:var(--primary);text-decoration:none}
 .ext details{margin-top:10px}
 .ext summary{cursor:pointer;font-weight:700;color:#92660a;font-size:14px}
 .ext .gd{margin-top:8px;font-size:14px;color:#5b4710;background:#fff7d6;border-radius:10px;padding:10px 12px}
-.ext .gd .zh{display:block;margin-top:3px;color:#7a5a14}
+.ext .gd .zh{display:block;margin-top:3px;color:inherit}
 
 /* ---------- Hub ---------- */
 .hub-hero{
