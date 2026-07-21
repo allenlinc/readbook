@@ -68,6 +68,13 @@ a{color:var(--primary);text-decoration:none}
 .q .stem .txt .zh{display:block;font-weight:400;color:var(--muted);font-size:14.5px;margin-top:3px}
 /* content text must always be dark/black (override any banner-color inheritance) */
 .txt,.txt .en,.opt .txt,.opt .txt .en,.ext .ep,.ext .ep .en{color:var(--ink)}
+/* EN/ZH text blocks must be identical width so toggling language never reflows.
+   Fix: .en was default inline (shrink-to-content) while .zh is block (full width),
+   causing .q width to change on language switch. Now both are full-width blocks. */
+.q{width:100%;box-sizing:border-box}
+.q .stem .txt{display:block;flex:1;min-width:0}
+.opt .txt{display:block;flex:1;min-width:0}
+.txt .en,.opt .txt .en{display:block;width:100%}
 .opts{display:flex;flex-direction:column;gap:9px}
 .opt{
   display:flex;align-items:flex-start;gap:10px;width:100%;text-align:left;
