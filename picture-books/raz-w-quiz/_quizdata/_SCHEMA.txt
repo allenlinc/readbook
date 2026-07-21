@@ -1,0 +1,93 @@
+RAZ-W QUIZ JSON — SCHEMA & RULES (READ FULLY BEFORE WRITING ANY FILE)
+
+You are generating bilingual (English / 中文) reading-comprehension quizzes for RAZ Level W books.
+Each book becomes ONE JSON file at:  raz-w-quiz/_quizdata/<slug>.json
+The `slug` is given to you per book (use it exactly as the filename and as the "slug" field).
+
+====================================================================
+1) HOW TO GET THE BOOK TEXT (IMPORTANT — resolve media_id yourself)
+====================================================================
+Do NOT trust any pre-existing file for the media_id. Get it authoritatively:
+  a) Call IMA MCP `mcp__ima-mcp__get_knowledge_list` with
+       knowledge_base_id="7485016699319055", limit=50, cursor=""
+     then again with cursor="CDI="
+  b) From the returned 65 entries, find the one whose `title` (case-insensitive,
+     ignoring the trailing ".pdf") equals the book title you were assigned.
+  c) Use that entry's FULL `media_id` (it already ends with the KB id
+     `7485016699319055` — pass it exactly as-is, do NOT modify).
+  d) Call IMA MCP `mcp__ima-mcp__fetch_media_content` with that `media_id` to get the book text.
+  e) SANITY CHECK: the first ~200 characters of the returned text should clearly be
+     the expected book (e.g. for "Albert Einstein" the text should mention Einstein;
+     for "Taj Mahal" it should mention Taj Mahal). If it looks like a DIFFERENT
+     book, re-check your title match and refetch. In your report, note the first
+     ~120 chars of each fetched text so the result can be verified.
+
+====================================================================
+2) JSON SCHEMA (exactly this shape)
+====================================================================
+{
+  "slug": "the-nobel-prize",             // MUST equal the filename (without .json)
+  "title": "The Nobel Prize",            // exact book title (no ".pdf")
+  "titleZh": "诺贝尔奖",                   // natural Chinese translation of the title
+  "level": "W",
+  "genre": "Informational",             // one of: Informational | Narrative | Folktale | Biography | Play | Poetry
+  "mainSkill": "Key Ideas and Details", // one of the 4 RAZ skills below
+  "questions": [                        // EXACTLY 10 objects
+    {
+      "q": {
+        "en": "What is the main idea of the book?",
+        "zh": "这本书的主要内容是什么？"
+      },
+      "options": [                      // EXACTLY 4 objects, in order A/B/C/D
+        {"en": "...", "zh": "..."},
+        {"en": "...", "zh": "..."},
+        {"en": "...", "zh": "..."},
+        {"en": "...", "zh": "..."}
+      ],
+      "answer": 0,                      // integer 0..3 (index of correct option)
+      "skill": "Key Ideas and Details", // one of the 4 RAZ skills
+      "explain": {
+        "en": "Brief English explanation of why this answer is correct.",
+        "zh": "简要中文解释为什么该选项正确。"
+      }
+    }
+    // ... 9 more questions
+  ],
+  "extended": {                         // the open-ended "思考题"
+    "prompt": {
+      "en": "An open-ended question inviting the reader to connect, infer, or reflect (no single right answer).",
+      "zh": "一道开放性思考题，鼓励联系、推断或反思（无唯一标准答案）。"
+    },
+    "guidance": {
+      "en": ["Tip 1 in English.", "Tip 2 in English."],
+      "zh": ["中文提示 1。", "中文提示 2。"]
+    }
+  }
+}
+
+====================================================================
+3) THE 4 RAZ SKILLS (use exactly these English strings)
+====================================================================
+- "Key Ideas and Details"
+- "Craft and Structure"
+- "Integration of Knowledge and Ideas"
+- "Author's Purpose and Perspective"
+Distribute the 10 questions across these skills (mix them; do not put all 10 on one skill).
+`genre` and `mainSkill` must be from the allowed enums above.
+
+====================================================================
+4) QUESTION QUALITY RULES
+====================================================================
+- Questions must be answerable from the BOOK TEXT you fetched (faithful, not invented).
+- Both `en` and `zh` must be present and non-empty for: every q, every option, explain,
+  extended.prompt, and BOTH guidance arrays (en + zh, each >=1 item).
+- Options en/zh parallel; the correct option's en/zh must agree.
+- Distractors should be plausible but clearly wrong per the text.
+- Keep English natural for a ~4th-grade reader; Chinese should read naturally (not machine-stiff).
+- Write the file with json.dump (never hand-concatenate strings) so escaping is safe.
+
+====================================================================
+5) OUTPUT LOCATION
+====================================================================
+  raz-w-quiz/_quizdata/<slug>.json   (one file per assigned book)
+Do NOT edit build.py, assets/, index.html, or run git. Just write the JSON files.

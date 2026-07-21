@@ -1,0 +1,328 @@
+{
+  "slug": "mummies",
+  "title": "Mummies",
+  "titleZh": "木乃伊",
+  "level": "W",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {
+        "en": "What is a mummy?",
+        "zh": "什么是木乃伊？"
+      },
+      "options": [
+        {
+          "en": "A type of pyramid.",
+          "zh": "一种金字塔。"
+        },
+        {
+          "en": "A preserved corpse.",
+          "zh": "一具被保存下来的尸体。"
+        },
+        {
+          "en": "A living person.",
+          "zh": "一个活着的人。"
+        },
+        {
+          "en": "A kind of boat.",
+          "zh": "一种船。"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book defines a mummy as 'a preserved corpse' whose decay process is arrested.",
+        "zh": "书中把木乃伊定义为“一具被保存下来的尸体”，其腐烂过程被中止。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which organ did the Egyptians consider the most important and keep inside the body?",
+        "zh": "古埃及人认为哪个器官最重要，并把它留在体内？"
+      },
+      "options": [
+        {
+          "en": "The brain",
+          "zh": "大脑"
+        },
+        {
+          "en": "The heart",
+          "zh": "心脏"
+        },
+        {
+          "en": "The liver",
+          "zh": "肝脏"
+        },
+        {
+          "en": "The stomach",
+          "zh": "胃"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says they believed the heart 'was the most important organ' and preserved it inside the body.",
+        "zh": "书中说他们认为心脏“是最重要的器官”，并把它留在体内保存。"
+      }
+    },
+    {
+      "q": {
+        "en": "What special salt was used to dry the body during mummification?",
+        "zh": "制作木乃伊时，用哪种特殊的盐来使尸体干燥？"
+      },
+      "options": [
+        {
+          "en": "Table salt",
+          "zh": "食用盐"
+        },
+        {
+          "en": "Natron, a special salt like baking soda.",
+          "zh": "泡碱（natron），一种类似小苏打的特殊盐。"
+        },
+        {
+          "en": "Sugar",
+          "zh": "糖"
+        },
+        {
+          "en": "Sand",
+          "zh": "沙子"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The body was covered with natron, 'a special salt' used to dry mummies.",
+        "zh": "尸体被泡碱覆盖，泡碱是“一种特殊盐”，用来使木乃伊干燥。"
+      }
+    },
+    {
+      "q": {
+        "en": "How long did the whole mummification process take?",
+        "zh": "整个制作木乃伊的过程需要多长时间？"
+      },
+      "options": [
+        {
+          "en": "Seven days.",
+          "zh": "七天。"
+        },
+        {
+          "en": "Seventy days.",
+          "zh": "七十天。"
+        },
+        {
+          "en": "One year.",
+          "zh": "一年。"
+        },
+        {
+          "en": "One day.",
+          "zh": "一天。"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book states 'The whole mummification process took seventy days.'",
+        "zh": "书中说“整个制作木乃伊的过程耗时七十天”。"
+      }
+    },
+    {
+      "q": {
+        "en": "Through which body part was the brain removed?",
+        "zh": "大脑是从身体的哪个部位被取出的？"
+      },
+      "options": [
+        {
+          "en": "The ear",
+          "zh": "耳朵"
+        },
+        {
+          "en": "The nose, using an embalming hook.",
+          "zh": "鼻子，用防腐钩取出。"
+        },
+        {
+          "en": "The mouth",
+          "zh": "嘴巴"
+        },
+        {
+          "en": "The foot",
+          "zh": "脚"
+        }
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Embalmers pulled the brain out through the nose with an embalming hook.",
+        "zh": "防腐师用防腐钩从鼻孔把大脑钩出来。"
+      }
+    },
+    {
+      "q": {
+        "en": "What were canopic jars used for?",
+        "zh": "卡诺皮克罐（canopic jars）是用来做什么的？"
+      },
+      "options": [
+        {
+          "en": "To hold the preserved internal organs.",
+          "zh": "用来盛放被保存的内脏器官。"
+        },
+        {
+          "en": "To store water.",
+          "zh": "用来装水。"
+        },
+        {
+          "en": "To cook food.",
+          "zh": "用来煮食物。"
+        },
+        {
+          "en": "To plant flowers.",
+          "zh": "用来种花。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The stomach, liver, lungs, and intestines were preserved in canopic jars.",
+        "zh": "胃、肝、肺和肠被分别保存在卡诺皮克罐中。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why did the ancient Egyptians mummify their dead?",
+        "zh": "古埃及人为什么要制作木乃伊？"
+      },
+      "options": [
+        {
+          "en": "To display them in museums.",
+          "zh": "为了放在博物馆展览。"
+        },
+        {
+          "en": "Because they believed in an afterlife needing a preserved body.",
+          "zh": "因为他们相信来世需要一具被保存的身体。"
+        },
+        {
+          "en": "Because it was a sport.",
+          "zh": "因为这是一种运动。"
+        },
+        {
+          "en": "To keep them warm.",
+          "zh": "为了保暖。"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "They believed immortality depended on having a well-preserved body for the afterlife.",
+        "zh": "他们相信永生取决于是否拥有一具保存完好的身体，以进入来世。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which mummy is called the most famous in the world?",
+        "zh": "哪具木乃伊被称为世界上最著名的？"
+      },
+      "options": [
+        {
+          "en": "The mummy of Hatshepsut.",
+          "zh": "Hatshepsut 的木乃伊。"
+        },
+        {
+          "en": "Tutankhamun, the Boy King.",
+          "zh": "“少年法老”图坦卡蒙。"
+        },
+        {
+          "en": "A Roman soldier.",
+          "zh": "一名罗马士兵。"
+        },
+        {
+          "en": "A modern scientist.",
+          "zh": "一位现代科学家。"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says Tutankhamun 'is the most famous mummy in the world.'",
+        "zh": "书中说图坦卡蒙“是世界上最著名的木乃伊”。"
+      }
+    },
+    {
+      "q": {
+        "en": "What were animal mummies, such as cats, meant to be?",
+        "zh": "猫等动物木乃伊被视为什么？"
+      },
+      "options": [
+        {
+          "en": "Toys for children.",
+          "zh": "孩子的玩具。"
+        },
+        {
+          "en": "Offerings to the gods.",
+          "zh": "献给神灵的祭品。"
+        },
+        {
+          "en": "Food for the journey.",
+          "zh": "旅途的粮食。"
+        },
+        {
+          "en": "Building materials.",
+          "zh": "建筑材料。"
+        }
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Cats, crocodiles, ibises, and falcons were 'sent to the afterlife as offerings to the gods.'",
+        "zh": "猫、鳄鱼、朱鹭和猎鹰被“作为献给神灵的祭品送往来世”。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in this book?",
+        "zh": "作者写这本书的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To scare readers.",
+          "zh": "为了吓唬读者。"
+        },
+        {
+          "en": "To explain how and why Egyptians made mummies and what we learn from them.",
+          "zh": "解释古埃及人如何及为何制作木乃伊，以及我们能从中了解什么。"
+        },
+        {
+          "en": "To teach how to cook.",
+          "zh": "教人做饭。"
+        },
+        {
+          "en": "To describe modern medicine.",
+          "zh": "描写现代医学。"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book describes mummification steps, beliefs, and what mummies teach us about the past.",
+        "zh": "这本书描写了制作步骤、信仰，以及木乃伊让我们对古代有何认识。"
+      }
+    }
+  ],
+  "extended": {
+    "prompt": {
+      "en": "A mummy is like a time capsule. What are three things a mummy's tomb can teach us about how ancient Egyptians lived and what they believed?",
+      "zh": "木乃伊就像一个时间胶囊。从木乃伊的墓中，我们能了解到关于古埃及人生活和信仰的三件事是什么？"
+    },
+    "guidance": {
+      "en": [
+        "Think about objects buried with mummies, like food, toys, or gold.",
+        "Consider their belief in the afterlife and the weighing of the heart.",
+        "Recall that tombs show daily life, social rank, and religious ideas."
+      ],
+      "zh": [
+        "想想随木乃伊下葬的物品，如食物、玩具或黄金。",
+        "思考他们对来世的信仰，以及“称心”的仪式。",
+        "回想墓葬展现了日常生活、社会等级和宗教观念。"
+      ]
+    }
+  }
+}

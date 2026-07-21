@@ -1,0 +1,326 @@
+{
+  "slug": "hurricanes",
+  "title": "Hurricanes",
+  "titleZh": "飓风",
+  "level": "W",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {
+        "en": "What is the calm center of a hurricane called?",
+        "zh": "飓风平静的中心叫什么？"
+      },
+      "options": [
+        {
+          "en": "The eye",
+          "zh": "风眼"
+        },
+        {
+          "en": "The wall",
+          "zh": "墙壁"
+        },
+        {
+          "en": "The funnel",
+          "zh": "漏斗"
+        },
+        {
+          "en": "The tail",
+          "zh": "尾部"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The center of a hurricane is called the eye, where it is often calm and sunny.",
+        "zh": "飓风的中心称为“风眼”，那里通常平静而晴朗。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the Pacific Ocean, what are hurricanes called?",
+        "zh": "在太平洋，飓风被称为什么？"
+      },
+      "options": [
+        {
+          "en": "Typhoons",
+          "zh": "台风"
+        },
+        {
+          "en": "Cyclones only in India",
+          "zh": "仅在印度的气旋"
+        },
+        {
+          "en": "Tornadoes",
+          "zh": "龙卷风"
+        },
+        {
+          "en": "Blizzards",
+          "zh": "暴风雪"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "In the Pacific they are called typhoons; in the Indian Ocean, severe tropical cyclones.",
+        "zh": "在太平洋叫台风，在印度洋叫强热带气旋。"
+      }
+    },
+    {
+      "q": {
+        "en": "At what wind speed does a storm officially become a hurricane?",
+        "zh": "风速达到多少时，风暴被正式认定为飓风？"
+      },
+      "options": [
+        {
+          "en": "Greater than 119 km/h (74 mph)",
+          "zh": "大于119公里/小时（74英里/小时）"
+        },
+        {
+          "en": "Greater than 200 km/h",
+          "zh": "大于200公里/小时"
+        },
+        {
+          "en": "Less than 50 km/h",
+          "zh": "小于50公里/小时"
+        },
+        {
+          "en": "Exactly 62 km/h",
+          "zh": "恰好62公里/小时"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "When sustained winds exceed 119 km/h (74 mph), a tropical storm becomes a hurricane.",
+        "zh": "当持续风速超过119公里/小时（74英里/小时），热带风暴就升级为飓风。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a 'storm surge'?",
+        "zh": "什么是“风暴潮”（storm surge）？"
+      },
+      "options": [
+        {
+          "en": "A rise in sea level caused by winds and low pressure",
+          "zh": "由强风和低气压引起的海平面上升"
+        },
+        {
+          "en": "A type of cloud",
+          "zh": "一种云"
+        },
+        {
+          "en": "A kind of lightning",
+          "zh": "一种闪电"
+        },
+        {
+          "en": "A rescue boat",
+          "zh": "救生艇"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Storm surge is the sea level rising higher than normal near a hurricane, causing flooding.",
+        "zh": "风暴潮是飓风附近海平面异常升高，造成沿海洪水。"
+      }
+    },
+    {
+      "q": {
+        "en": "What scale is used to classify hurricanes from 1 to 5?",
+        "zh": "用哪种等级把飓风分为1到5级？"
+      },
+      "options": [
+        {
+          "en": "The Saffir-Simpson Hurricane Scale",
+          "zh": "萨菲尔-辛普森飓风等级"
+        },
+        {
+          "en": "The Richter Scale",
+          "zh": "里氏震级"
+        },
+        {
+          "en": "The Fahrenheit Scale",
+          "zh": "华氏温标"
+        },
+        {
+          "en": "The Metric Scale",
+          "zh": "公制"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Meteorologists use the Saffir-Simpson Hurricane Scale (Category 1–5) to describe damage potential.",
+        "zh": "气象学家用萨菲尔-辛普森飓风等级（1–5级）描述破坏力。"
+      }
+    },
+    {
+      "q": {
+        "en": "In which hemisphere do hurricanes rotate counterclockwise?",
+        "zh": "哪个半球的飓风呈逆时针旋转？"
+      },
+      "options": [
+        {
+          "en": "The Northern Hemisphere",
+          "zh": "北半球"
+        },
+        {
+          "en": "The Southern Hemisphere",
+          "zh": "南半球"
+        },
+        {
+          "en": "Both hemispheres",
+          "zh": "两个半球都如此"
+        },
+        {
+          "en": "Neither hemisphere",
+          "zh": "两个半球都不"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "In the Northern Hemisphere hurricane winds rotate counterclockwise; in the Southern, clockwise.",
+        "zh": "北半球飓风逆时针旋转，南半球顺时针旋转。"
+      }
+    },
+    {
+      "q": {
+        "en": "What special aircraft flies into the eye of a hurricane to measure it?",
+        "zh": "哪种特殊飞机飞进飓风风眼进行测量？"
+      },
+      "options": [
+        {
+          "en": "The Hurricane Hunter",
+          "zh": "“飓风猎手”"
+        },
+        {
+          "en": "A helicopter taxi",
+          "zh": "出租直升机"
+        },
+        {
+          "en": "A hot-air balloon",
+          "zh": "热气球"
+        },
+        {
+          "en": "A submarine",
+          "zh": "潜艇"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The 'Hurricane Hunter' is a specially designed aircraft that flies into the eye to take measurements.",
+        "zh": "“飓风猎手”是专门设计的飞机，飞进风眼测量温度、湿度和风速。"
+      }
+    },
+    {
+      "q": {
+        "en": "What tool tracks storms by sending out energy waves that bounce back?",
+        "zh": "哪种工具通过发射并接收反射回来的能量波来追踪风暴？"
+      },
+      "options": [
+        {
+          "en": "Doppler radar",
+          "zh": "多普勒雷达"
+        },
+        {
+          "en": "A telescope",
+          "zh": "望远镜"
+        },
+        {
+          "en": "A microscope",
+          "zh": "显微镜"
+        },
+        {
+          "en": "A barometer",
+          "zh": "气压计"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Doppler radar sends bursts of energy; rain and clouds reflect them back to show a storm's speed and direction.",
+        "zh": "多普勒雷达发射能量波，雨云将其反射回来，从而显示风暴的速度和方向。"
+      }
+    },
+    {
+      "q": {
+        "en": "Where does the word 'hurricane' come from?",
+        "zh": "“hurricane”一词来源于什么？"
+      },
+      "options": [
+        {
+          "en": "Hurican, the Caribbean god of evil",
+          "zh": "加勒比恶神“胡里干”（Hurican）"
+        },
+        {
+          "en": "A Spanish explorer's name",
+          "zh": "一位西班牙探险家的名字"
+        },
+        {
+          "en": "The Greek word for wind",
+          "zh": "希腊语中的“风”"
+        },
+        {
+          "en": "A type of bird",
+          "zh": "一种鸟"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The National Hurricane Center says 'hurricane' comes from Hurican, the Caribbean god of evil.",
+        "zh": "美国国家飓风中心称，“hurricane”源自加勒比恶神“胡里干”。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the eyewall of a hurricane?",
+        "zh": "飓风的“眼壁”（eyewall）是什么？"
+      },
+      "options": [
+        {
+          "en": "The wall of clouds and rain around the eye with the strongest winds",
+          "zh": "环绕风眼、风雨最强的一圈云墙"
+        },
+        {
+          "en": "The calm center",
+          "zh": "平静的中心"
+        },
+        {
+          "en": "The outer ocean",
+          "zh": "外围海洋"
+        },
+        {
+          "en": "The forecast office",
+          "zh": "预报办公室"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The eyewall surrounds the eye and has the most intense winds and heaviest rainfall.",
+        "zh": "眼壁环绕风眼，拥有最猛烈的风和最强的降雨。"
+      }
+    }
+  ],
+  "extended": {
+    "prompt": {
+      "en": "The book describes how people prepare for hurricanes with evacuation plans and emergency supplies. If a hurricane watch were announced for your area tomorrow, what three steps would you take to get ready, and why would each one matter?",
+      "zh": "书中描述了人们如何用撤离方案和应急物资来防范飓风。如果明天你所在地区发布飓风警报，你会做哪三件事来准备？每一件事为何重要？"
+    },
+    "guidance": {
+      "en": [
+        "List three concrete preparation steps (e.g., emergency kit, full gas tank, evacuation plan).",
+        "Explain the reason behind each step using ideas from the book."
+      ],
+      "zh": [
+        "列出三项具体的准备措施（如应急包、加满油箱、撤离方案）。",
+        "结合书中内容，说明每项措施的理由。"
+      ]
+    }
+  }
+}

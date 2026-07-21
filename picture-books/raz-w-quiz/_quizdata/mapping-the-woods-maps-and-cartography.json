@@ -1,0 +1,326 @@
+{
+  "slug": "mapping-the-woods-maps-and-cartography",
+  "title": "Mapping the Woods Maps and Cartography",
+  "titleZh": "绘制树林地图：地图与制图",
+  "level": "W",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {
+        "en": "What is a cartographer?",
+        "zh": "什么是制图师（cartographer）？"
+      },
+      "options": [
+        {
+          "en": "A person who makes maps",
+          "zh": "绘制地图的人"
+        },
+        {
+          "en": "A person who flies airplanes",
+          "zh": "开飞机的人"
+        },
+        {
+          "en": "A type of tree",
+          "zh": "一种树"
+        },
+        {
+          "en": "A kind of bird",
+          "zh": "一种鸟"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "A cartographer is a mapmaker who draws maps from photos or surveys.",
+        "zh": "制图师就是绘制地图的人，根据照片或测量来画图。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the 'key' on a map tell you?",
+        "zh": "地图上的“图例”（key）告诉你什么？"
+      },
+      "options": [
+        {
+          "en": "What each symbol and color means",
+          "zh": "每种符号和颜色的含义"
+        },
+        {
+          "en": "The population of a city",
+          "zh": "城市的人口"
+        },
+        {
+          "en": "The weather forecast",
+          "zh": "天气预报"
+        },
+        {
+          "en": "The name of the author",
+          "zh": "作者的名字"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The key is a box that explains what each symbol on the map represents.",
+        "zh": "图例是一个方框，解释地图上每种符号代表什么。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the compass rose on a map show?",
+        "zh": "地图上的“指北玫瑰”（compass rose）表示什么？"
+      },
+      "options": [
+        {
+          "en": "The directions (north, south, east, west)",
+          "zh": "方向（北、南、东、西）"
+        },
+        {
+          "en": "The scale of the map",
+          "zh": "地图的比例尺"
+        },
+        {
+          "en": "The age of the map",
+          "zh": "地图的年份"
+        },
+        {
+          "en": "The types of trees",
+          "zh": "树木的种类"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "A compass rose is a symbol that shows where the directions are on a map.",
+        "zh": "指北玫瑰是一个显示地图方位的符号。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does a map's scale tell you?",
+        "zh": "地图的“比例尺”（scale）告诉你什么？"
+      },
+      "options": [
+        {
+          "en": "How big the map is compared to the real area",
+          "zh": "地图与实际区域的大小关系"
+        },
+        {
+          "en": "How many cities are shown",
+          "zh": "显示了几个城市"
+        },
+        {
+          "en": "The temperature outside",
+          "zh": "室外温度"
+        },
+        {
+          "en": "The name of the mapmaker",
+          "zh": "制图师的名字"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Scale compares the size of the map to the actual distance on the ground.",
+        "zh": "比例尺把地图大小与地面实际距离进行比较。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does a topographic map show using lines?",
+        "zh": "地形图用线条表示什么？"
+      },
+      "options": [
+        {
+          "en": "Elevation, or how high/low the land is",
+          "zh": "海拔高度，即地势高低"
+        },
+        {
+          "en": "The names of streets",
+          "zh": "街道名称"
+        },
+        {
+          "en": "The population",
+          "zh": "人口数量"
+        },
+        {
+          "en": "The weather",
+          "zh": "天气情况"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "A topographic map uses lines to show elevation; close lines mean steep land.",
+        "zh": "地形图用线条表示海拔，线条密表示地势陡峭。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which kind of map uses colors to show high and low areas?",
+        "zh": "哪种地图用颜色表示高低区域？"
+      },
+      "options": [
+        {
+          "en": "A relief map",
+          "zh": "地势图（relief map）"
+        },
+        {
+          "en": "A road map",
+          "zh": "道路图"
+        },
+        {
+          "en": "A boundary map",
+          "zh": "边界图"
+        },
+        {
+          "en": "A data map",
+          "zh": "数据图"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Relief maps use light and dark colors to show how high or low the land is.",
+        "zh": "地势图用深浅颜色显示地势高低。"
+      }
+    },
+    {
+      "q": {
+        "en": "What kind of map shows roads and where they go?",
+        "zh": "哪种地图显示道路及其走向？"
+      },
+      "options": [
+        {
+          "en": "A road map",
+          "zh": "道路图"
+        },
+        {
+          "en": "A vegetation map",
+          "zh": "植被图"
+        },
+        {
+          "en": "A topographic map",
+          "zh": "地形图"
+        },
+        {
+          "en": "A weather map",
+          "zh": "天气图"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "A road map is best for finding your way from one place to another by road.",
+        "zh": "道路图最适合用来沿公路找路。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which type of map shows information in the form of numbers?",
+        "zh": "哪种类型的地图以数字形式展示信息？"
+      },
+      "options": [
+        {
+          "en": "A data map",
+          "zh": "数据图"
+        },
+        {
+          "en": "A pictorial map",
+          "zh": "象形图"
+        },
+        {
+          "en": "A boundary map",
+          "zh": "边界图"
+        },
+        {
+          "en": "A relief map",
+          "zh": "地势图"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "A data map shows statistics, such as how many people use each trail per week.",
+        "zh": "数据图展示统计信息，例如每条小径每周有多少人使用。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a landmark on a map?",
+        "zh": "地图上的“地标”（landmark）是什么？"
+      },
+      "options": [
+        {
+          "en": "An object that helps people find their way",
+          "zh": "帮助人们辨明方向的物体"
+        },
+        {
+          "en": "A type of scale",
+          "zh": "一种比例尺"
+        },
+        {
+          "en": "A compass direction",
+          "zh": "一个罗盘方向"
+        },
+        {
+          "en": "A kind of weather",
+          "zh": "一种天气"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "A landmark is a special or important object, like a water tower, that helps with navigation.",
+        "zh": "地标是特别或重要的物体，如水泵塔，能帮助辨别方位。"
+      }
+    },
+    {
+      "q": {
+        "en": "Before planes and satellites, how were maps made?",
+        "zh": "在飞机和卫星出现之前，人们如何绘制地图？"
+      },
+      "options": [
+        {
+          "en": "By remembering positions and surveying",
+          "zh": "靠记忆位置和测量"
+        },
+        {
+          "en": "By taking photos from space",
+          "zh": "从太空拍照"
+        },
+        {
+          "en": "By using GPS devices",
+          "zh": "用GPS设备"
+        },
+        {
+          "en": "By watching television",
+          "zh": "看电视"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "People drew maps by remembering distances/directions or by surveying with math measurements.",
+        "zh": "人们靠记住距离与方向，或通过数学测量（surveying）来绘制地图。"
+      }
+    }
+  ],
+  "extended": {
+    "prompt": {
+      "en": "The author drew a map of the woods near her house using symbols and a key. Imagine you are drawing a map of the route from your home to an important place (like school). What symbols would you use, and what would your key say?",
+      "zh": "作者用符号和图例画了一张家附近树林的地图。想象你正在画一张从家到某个重要地点（比如学校）的路线图。你会用哪些符号？你的图例会怎么写？"
+    },
+    "guidance": {
+      "en": [
+        "List 3–4 symbols you would use (e.g., a square for home, a line for the road) and what each means.",
+        "Explain how a key and a compass rose would help someone follow your map."
+      ],
+      "zh": [
+        "列出你会用的3–4个符号（如用方块代表家、线条代表路）及其含义。",
+        "说明图例和指北玫瑰如何帮助别人看懂并按图找路。"
+      ]
+    }
+  }
+}
