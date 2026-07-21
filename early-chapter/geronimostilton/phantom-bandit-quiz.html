@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Phantom Bandit — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#70 · The Phantom Bandit</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: The Phantom Bandit</em> (Scholastic, 2014) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What season is it when the story opens in New Mouse City?", "zh": "故事在新老鼠城开场时，是什么季节？"}, "options": [{"en": "Fall (autumn)", "zh": "秋天"}, {"en": "Spring", "zh": "春天"}, {"en": "Winter", "zh": "冬天"}, {"en": "Summer", "zh": "夏天"}], "answer": 0, "explain": {"en": "Geronimo loves fall and enjoys a beautiful autumn morning with the smell of damp leaves and cheese pastries.", "zh": "杰罗尼摩很喜欢秋天，故事开头他正享受一个美丽的秋日早晨，空气里有湿叶子和奶酪酥饼的香味。"}}, {"q": {"en": "Which three rodents does Geronimo first overhear whispering mysteriously at the office?", "zh": "杰罗尼摩最初在报社里撞见哪三只老鼠在神秘地窃窃私语？"}, "options": [{"en": "Vanessa Vogue, Thea, and Cara DeColores", "zh": "瓦妮莎·沃格、西娅和卡拉·德科洛雷斯"}, {"en": "Creepella, Boneham, and Boris", "zh": "克里佩拉、 Boneham 和鲍里斯"}, {"en": "Alvin, Gaspar, and Felix", "zh": "阿尔文、加斯帕和费利克斯"}, {"en": "Benjamin, Trap, and Mousella", "zh": "本杰明、特拉普和穆塞拉"}], "answer": 0, "explain": {"en": "He finds Vanessa Vogue (fashion journalist), his sister Thea, and Cara DeColores (graphic designer) whispering about something 'scary and scream-worthy'.", "zh": "他撞见时尚记者瓦妮莎·沃格、妹妹西娅和平面设计师卡拉·德科洛雷斯在嘀咕一件「吓人、值得尖叫」的事。"}}, {"q": {"en": "What strange vehicle does Geronimo see parked outside The Rodent's Gazette?", "zh": "杰罗尼摩在《鼠民公报》社外看到了什么奇怪的车？"}, "options": [{"en": "A red fire truck", "zh": "一辆红色消防车"}, {"en": "A long black car from 'Funeral Movers' unloading coffin-shaped boxes", "zh": "一辆来自「殡葬搬运公司」的黑色长车，正在卸棺材形状的箱子"}, {"en": "A police patrol car", "zh": "一辆警车"}, {"en": "A cheese delivery van", "zh": "一辆送奶酪的货车"}], "answer": 1, "explain": {"en": "He sees a long black car marked 'Funeral Movers' with rodents in black unloading coffin-shaped boxes, the strangest encounter of all.", "zh": "他看到一辆标着「殡葬搬运公司」的黑色长车，几个穿黑衣的老鼠正在卸棺材形状的箱子，这是最诡异的一幕。"}}, {"q": {"en": "Where do Thea, Mousita, and Creepella send Geronimo for a 'stress-free vacation'?", "zh": "西娅、穆西塔和克里佩拉把杰罗尼摩送去哪里「放松心情」？"}, "options": [{"en": "The Rodent's Gazette office", "zh": "《鼠民公报》报社"}, {"en": "His childhood farm", "zh": "他童年的农场"}, {"en": "Cacklefur Castle", "zh": "咔嗒咔嚓城堡"}, {"en": "A beach resort", "zh": "海滨度假村"}], "answer": 2, "explain": {"en": "Creepella whisks him away to spooky Cacklefur Castle, arriving at the stroke of midnight — the witching hour.", "zh": "克里佩拉把他带到了阴森的咔嗒咔嚓城堡，到达时正好是午夜——女巫时分。"}}, {"q": {"en": "What is the name of the scary room Geronimo stays in at the castle?", "zh": "杰罗尼摩在城堡里住的那间恐怖房间叫什么？"}, "options": [{"en": "The Tower of the Werewolf", "zh": "狼人之塔"}, {"en": "The Kitchen of Chef Stewrat", "zh": "炖菜厨师的大厨房"}, {"en": "The Secret Diary Room", "zh": "秘密日记室"}, {"en": "The Room of the Headless Ghost", "zh": "无头幽灵之屋"}], "answer": 3, "explain": {"en": "Boneham shows him to 'The Room of the Headless Ghost', the scariest room in the whole castle.", "zh": "管家 Boneham 把他领到「无头幽灵之屋」——整座城堡里最吓人的房间。"}}, {"q": {"en": "Who is the new gardener at Cacklefur Castle who blushes around Creepella?", "zh": "咔嗒咔嚓城堡新来的园丁是谁，他在克里佩拉面前会脸红？"}, "options": [{"en": "Felix Bloomfur", "zh": "费利克斯·布鲁姆弗"}, {"en": "Professor Alvin Testerly", "zh": "阿尔文·泰斯特利教授"}, {"en": "Gaspar Ghostine", "zh": "加斯帕·古斯汀"}, {"en": "Boneham the butler", "zh": "管家 Boneham"}], "answer": 0, "explain": {"en": "Felix Bloomfur, a muscular rodent in a flower-patterned green shirt and round sunglasses, stares at Creepella and turns red as a tomato.", "zh": "费利克斯·布鲁姆弗穿着花朵图案的绿衬衫、戴着圆框墨镜，盯着克里佩拉看，脸红得像番茄。"}}, {"q": {"en": "What unusual plants guard Cacklefur Castle?", "zh": "什么奇特的植物守护着咔嗒咔嚓城堡？"}, "options": [{"en": "Giant sunflowers", "zh": "巨型向日葵"}, {"en": "Carnivorous roses", "zh": "食肉玫瑰"}, {"en": "Singing tulips", "zh": "会唱歌的郁金香"}, {"en": "Werewolf pumpkins (Pumpkinus voracious chomperitus)", "zh": "狼人南瓜（贪吃啃咬南瓜）"}], "answer": 3, "explain": {"en": "The werewolf pumpkins are enormous, can bite with thirty-three teeth, pull themselves up by their roots, and chase intruders.", "zh": "狼人南瓜巨大无比，能用三十三颗利齿啃咬，还能靠根须立起来追咬入侵者。"}}, {"q": {"en": "What clue proves the 'Cat Phantom' is NOT a real cat or ghost?", "zh": "什么线索证明「猫幽灵」既不是真猫也不是真鬼？"}, "options": [{"en": "It writes a note in the diary", "zh": "它在日记里写了张纸条"}, {"en": "It says 'SQUEAK' and 'OUCH', and a fake furry tail is found", "zh": "它发出「吱吱」声、喊「哎哟」，还找到了一条假毛尾巴"}, {"en": "It flies away on a broom", "zh": "它骑着扫帚飞走了"}, {"en": "It leaves footprints in the snow", "zh": "它在雪地上留下了脚印"}], "answer": 1, "explain": {"en": "Cats don't squeak and ghosts don't yell 'ouch' — plus Geronimo finds a bitten, furry fake cat tail, proving it was a costume.", "zh": "猫不会「吱吱」叫，鬼也不会喊「哎哟」——而且杰罗尼摩找到一条被咬过的毛茸茸假猫尾，证明那只是伪装。"}}, {"q": {"en": "How do Geronimo and Creepella catch the real fake phantom?", "zh": "杰罗尼摩和克里佩拉是怎样抓住那个冒牌「幽灵」的？"}, "options": [{"en": "They call the police", "zh": "他们报了警"}, {"en": "They ask the Headless Ghost for help", "zh": "他们请无头幽灵帮忙"}, {"en": "Creepella invites each guest for a moonlight walk; Felix jumps over the tent cord, showing he knew it was there", "zh": "克里佩拉约每位爱慕者月下散步；费利克斯跳过了帐篷绳，说明他早就知道绳子在那"}, {"en": "They lock all the doors", "zh": "他们锁上了所有的门"}], "answer": 2, "explain": {"en": "Alvin and Gaspar both trip on the cord, but Felix jumps over it — proving he was the one who had tripped on it as the 'Cat Phantom'.", "zh": "阿尔文和加斯帕都绊在了绳子上，只有费利克斯跳了过去——证明他才是那个扮成「猫幽灵」的人。"}}, {"q": {"en": "Who is Felix Bloomfur really working for?", "zh": "费利克斯·布鲁姆弗到底在为谁卖命？"}, "options": [{"en": "Cacklefur Castle itself", "zh": "咔嗒咔嚓城堡本身"}, {"en": "Professor Alvin Testerly", "zh": "阿尔文·泰斯特利教授"}, {"en": "The Rodent's Gazette", "zh": "《鼠民公报》社"}, {"en": "Madame No, the Mega Director of EGO Corp", "zh": "诺夫人，巨型企业 EGO 的总裁"}], "answer": 3, "explain": {"en": "He removes his blond wig and mirrored sunglasses to reveal he is one of Madame No's bodyguards, sent to steal the werewolf pumpkins.", "zh": "他摘下金色假发和镜面墨镜，暴露出自己是诺夫人手下的保镖，奉命来偷狼人南瓜。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

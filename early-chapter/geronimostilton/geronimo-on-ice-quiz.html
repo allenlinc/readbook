@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geronimo On Ice! — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#71 · Geronimo On Ice!</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: Geronimo On Ice!</em> (Scholastic, 2015) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What season is it in New Mouse City when the story begins?", "zh": "故事开始时，新老鼠城是什么季节？"}, "options": [{"en": "Winter", "zh": "冬天"}, {"en": "Spring", "zh": "春天"}, {"en": "Autumn", "zh": "秋天"}, {"en": "Summer", "zh": "夏天"}], "answer": 0, "explain": {"en": "It is a brisk winter afternoon with freshly fallen snow and holiday lights twinkling in the streets.", "zh": "那是一个清冷的冬日下午，刚下过雪，街上的节日彩灯闪闪发亮。"}}, {"q": {"en": "What prize will the winners of the couples skating category receive?", "zh": "双人滑冰组的获胜者会得到什么奖品？"}, "options": [{"en": "A cheese crown", "zh": "一顶奶酪王冠"}, {"en": "A medal of honor", "zh": "一枚荣誉勋章"}, {"en": "The Silver Skates", "zh": "银冰鞋"}, {"en": "A gold trophy", "zh": "一座金杯"}], "answer": 2, "explain": {"en": "The legendary Silver Skates are the unique prize, said to hold clues to a hidden royal treasure.", "zh": "奖品是传奇的银冰鞋，传说里面藏着一座皇家宝藏的线索。"}}, {"q": {"en": "According to legend, who originally owned the Silver Skates?", "zh": "根据传说，银冰鞋最早属于谁？"}, "options": [{"en": "Creepella von Cacklefur", "zh": "克里佩拉·冯·咔嗒咔嚓"}, {"en": "Olga Goudanov, given to her by Czar Mousoloff", "zh": "奥尔加·古丹诺夫，由穆索洛夫沙皇所赠"}, {"en": "Geronimo's grandfather", "zh": "杰罗尼摩的爷爷"}, {"en": "Madame No", "zh": "诺夫人"}], "answer": 1, "explain": {"en": "The antique skates belonged to famous skater Olga Goudanov and were given to her by Czar Mousoloff after she invented the 'Flight of the Gouda'.", "zh": "这双古董冰鞋属于著名滑冰手奥尔加·古丹诺夫，她在发明「高达飞旋」后被穆索洛夫沙皇赠予。"}}, {"q": {"en": "Why are Hercule and Brutella Poirat disguised as the Masked Skaters?", "zh": "赫丘利和布鲁特拉·波瓦为何要扮成「蒙面滑冰手」？"}, "options": [{"en": "They are undercover to protect the Silver Skates from a thief", "zh": "他们在暗中行动，保护银冰鞋不被偷走"}, {"en": "They want to win the competition", "zh": "他们想赢得比赛"}, {"en": "They are filming a movie", "zh": "他们在拍电影"}, {"en": "They love banana costumes", "zh": "他们喜欢香蕉装"}], "answer": 0, "explain": {"en": "Someone tried to break into the arena director's office to steal the skates, so the director asked them to go undercover and watch the skaters.", "zh": "有人企图闯入冰场经理办公室偷鞋，经理请他们伪装成选手暗中盯紧滑冰手。"}}, {"q": {"en": "What does Geronimo call himself because he cannot skate?", "zh": "因为不会滑冰，杰罗尼摩把自己叫做什么？"}, "options": [{"en": "A champion skater", "zh": "「冠军滑冰手」"}, {"en": "A banana spy", "zh": "「香蕉间谍」"}, {"en": "A silver skater", "zh": "「银鞋选手」"}, {"en": "A 'level five mozzarella'", "zh": "「五段马苏里拉奶酪」"}], "answer": 3, "explain": {"en": "On Lobelia's poster he is a level five mozzarella — as soon as he puts on skates he slips across the ice on his belly like a penguin.", "zh": "在洛贝莉亚的等级表上，他是「五段马苏里拉」——一上冰就肚皮贴地、像企鹅一样滑出去。"}}, {"q": {"en": "Who trains Geronimo to skate in the 'de-mozzarella course'?", "zh": "是谁通过「去奶酪化特训」教杰罗尼摩滑冰的？"}, "options": [{"en": "Madame No", "zh": "诺夫人"}, {"en": "Lobelia Tutu, the world champion skater", "zh": "世界冠军滑冰手洛贝莉亚·图图"}, {"en": "Creepella von Cacklefur", "zh": "克里佩拉·冯·咔嗒咔嚓"}, {"en": "Benjamin and Trappy", "zh": "本杰明和特拉皮"}], "answer": 1, "explain": {"en": "Lobelia Tutu, a famous skater who wears her Mouslympic gold medal, runs the intensive de-mozzarella course with Shane Shivers.", "zh": "著名滑冰手洛贝莉亚·图图戴着鼠奥会金牌，和肖恩·希弗斯一起给他做强化「去奶酪化」训练。"}}, {"q": {"en": "What color are Geronimo and Creepella's skating costumes?", "zh": "杰罗尼摩和克里佩拉的滑冰服是什么颜色？"}, "options": [{"en": "Purple ('Bats of the Night')", "zh": "紫色（「暗夜蝙蝠」）"}, {"en": "Leopard print", "zh": "豹纹"}, {"en": "Red and gold", "zh": "红配金"}, {"en": "Blue and white", "zh": "蓝配白"}], "answer": 0, "explain": {"en": "Creepella insists on purple, her favorite color, and they get wonderful purple 'Bats of the Night' outfits with purple satin masks.", "zh": "克里佩拉坚持要她最爱的紫色，于是两人穿上紫色的「暗夜蝙蝠」战袍，还配了紫色缎面面具。"}}, {"q": {"en": "During their performance, what does Geronimo notice above the glass roof?", "zh": "表演途中，杰罗尼摩在玻璃穹顶上方发现了什么？"}, "options": [{"en": "A helicopter hovering above the arena", "zh": "一架在冰场上空盘旋的直升机"}, {"en": "A full moon", "zh": "一轮满月"}, {"en": "A flock of birds", "zh": "一群鸟"}, {"en": "A falling star", "zh": "一颗流星"}], "answer": 0, "explain": {"en": "He sees the shadow of a huge helicopter hovering over the glass roof and realizes someone may be trying to steal the Silver Skates.", "zh": "他看到一架巨大直升机的影子悬在玻璃穹顶上，立刻意识到有人可能要来偷银冰鞋。"}}, {"q": {"en": "Who is really behind the plot to steal the Silver Skates?", "zh": "偷银冰鞋的阴谋幕后主使究竟是谁？"}, "options": [{"en": "Hercule Poirat", "zh": "赫丘利·波瓦"}, {"en": "Lobelia Tutu", "zh": "洛贝莉亚·图图"}, {"en": "Madame No", "zh": "诺夫人"}, {"en": "Benjamin", "zh": "本杰明"}], "answer": 2, "explain": {"en": "Inside the helicopter, the rodent in leopard print grinning at them is revealed to be Madame No, who wants the treasure clues.", "zh": "直升机里那个穿豹纹、冲他们坏笑的老鼠，正是想要宝藏线索的诺夫人。"}}, {"q": {"en": "What do Anastasia Goudanov and Paolo Pivot turn out to be?", "zh": "阿娜斯塔西娅·古丹诺夫和保罗·皮沃特的真实身份是什么？"}, "options": [{"en": "Shadow the super spy and one of Madame No's bodyguards", "zh": "超级间谍「暗影」和诺夫人手下的一个保镖"}, {"en": "Geronimo's cousins", "zh": "杰罗尼摩的表兄弟"}, {"en": "Two friendly gardeners", "zh": "两位友好的园丁"}, {"en": "The ice arena cleaners", "zh": "冰场的清洁工"}], "answer": 0, "explain": {"en": "Anastasia removes her red wig to reveal Shadow the super spy, and Paolo puts on black glasses to show he is one of Madame No's bodyguards.", "zh": "阿娜斯塔西娅摘下红假发，露出超级间谍「暗影」；保罗戴上黑墨镜，表明自己是诺夫人手下的保镖。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
