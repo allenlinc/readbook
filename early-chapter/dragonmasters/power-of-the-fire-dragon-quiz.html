@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Power of the Fire Dragon — Quiz</title>
+<style>
+  :root{
+    --grass:#27ae60;
+    --grass-dark:#1e8449;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --dragon:#6c5ce7;
+    --dragon-dark:#4834a0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--dragon);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--dragon);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .dragon{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--dragon-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(108,92,231,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(108,92,231,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#04 · Power of the Fire Dragon</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Tracey West</p>
+    <div class="dragon">🐉</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Dragon Masters: Power of the Fire Dragon</em> (Scholastic Branches, 2015) — by Tracey West</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Tracey West",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Tracey West",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Why are only Kepri and Shu invited to Queen Rose's festival?", "zh": "为什么只有凯普里和舒被邀请去玫瑰皇后的庆典？"}, "options": [{"en": "They are the prettiest dragons", "zh": "它们是最漂亮的龙"}, {"en": "Vulcan misbehaved and the king doesn't believe Worm has powers", "zh": "瓦尔坎闯了祸，而国王不相信沃姆有力量"}, {"en": "The other dragons are sick", "zh": "其他的龙生病了"}, {"en": "Only girls are allowed to go", "zh": "只有女孩能去"}], "answer": 1, "explain": {"en": "Vulcan's fire nearly hit the king, and King Roland refuses to believe Worm moved him with mind power, so only Kepri and Shu go.", "zh": "瓦尔坎的火差点烧到国王，而罗兰国王不肯相信沃姆用意念救了他，所以只有凯普里和舒前往。"}}, {"q": {"en": "What kind of dragon does Maldred ride when he attacks the castle?", "zh": "马尔德雷攻打城堡时骑的是什么龙？"}, "options": [{"en": "A Sun Dragon", "zh": "太阳龙"}, {"en": "A two-headed snake", "zh": "双头蛇"}, {"en": "A four-headed hydra", "zh": "四头海德拉龙"}, {"en": "A Moon Dragon", "zh": "月亮龙"}], "answer": 2, "explain": {"en": "Maldred rides a giant green hydra with four heads, the same dragon Diego saw in his dream.", "zh": "马尔德雷骑着一条绿色的四头海德拉龙，正是迪亚哥梦中见过的那条。"}}, {"q": {"en": "What does Maldred use to take control of Worm?", "zh": "马尔德雷用什么来控制沃姆？"}, "options": [{"en": "A red Dragon Stone made with dark magic", "zh": "用黑魔法造出的红色龙石块"}, {"en": "A magic wand", "zh": "魔杖"}, {"en": "A golden crown", "zh": "黄金王冠"}, {"en": "A spell book", "zh": "咒语书"}], "answer": 0, "explain": {"en": "Maldred holds up a red Dragon Stone created by dark magic, which lets him command any dragon, including Worm.", "zh": "马尔德雷举起用黑魔法造出的红色龙石块，能命令任何龙，包括沃姆。"}}, {"q": {"en": "How do Drake and Rori escape Maldred at the castle?", "zh": "德雷克和罗瑞在城堡里是怎样逃离马尔德雷的？"}, "options": [{"en": "Worm teleports them away", "zh": "沃姆把他们传送走"}, {"en": "They fly away on Vulcan", "zh": "他们骑着瓦尔坎飞走"}, {"en": "They hide in a closet", "zh": "他们躲在壁橱里"}, {"en": "Diego carries them", "zh": "迪亚哥背着他们"}], "answer": 1, "explain": {"en": "After Vulcan circles back, Rori pulls Drake onto Vulcan's saddle and they fly off to get help.", "zh": "瓦尔坎绕回来后，罗瑞把德雷克拉上 saddle，他们骑着龙飞走去搬救兵。"}}, {"q": {"en": "How is Vulcan healed after Maldred's dark magic freezes him in the air?", "zh": "马尔德雷的黑魔法把瓦尔坎定在半空后，它是怎么被治好的？"}, "options": [{"en": "With a potion", "zh": "用药水"}, {"en": "With Shu's blue mist", "zh": "用舒的蓝色薄雾"}, {"en": "With Kepri's sunbeam", "zh": "用凯普里的阳光"}, {"en": "With Griffith's lightning", "zh": "用格里菲斯的闪电"}], "answer": 1, "explain": {"en": "Bo steers Shu close and her misty blue cloud rains down on Vulcan, washing the dark spell away.", "zh": "博把舒引过去，舒吐出的蓝色薄雾落在瓦尔坎身上，洗去了黑咒。"}}, {"q": {"en": "What does Drake do to free Worm from Maldred's control?", "zh": "德雷克做了什么才让沃姆摆脱马尔德雷的控制？"}, "options": [{"en": "Says a magic spell", "zh": "念了咒语"}, {"en": "Knocks the red Dragon Stone out of Maldred's hand", "zh": "把红色龙石块从马尔德雷手里打落"}, {"en": "Asks the king for help", "zh": "向国王求助"}, {"en": "Throws water on it", "zh": "泼了水"}], "answer": 1, "explain": {"en": "As they speed past, Drake smacks the red Dragon Stone from Maldred's hand; it shatters on a tower and Worm returns to normal.", "zh": "他们飞过时，德雷克把红色龙石块从马尔德雷手中打落，石头撞塔碎裂，沃姆恢复了正常。"}}, {"q": {"en": "Where do the wizards send Maldred at the end?", "zh": "最后巫师们把马尔德雷送去了哪里？"}, "options": [{"en": "Back to his own castle", "zh": "回他自己的城堡"}, {"en": "To the castle dungeon", "zh": "关进城堡地牢"}, {"en": "To the Wizard's Council prison", "zh": "送进巫师议会监狱"}, {"en": "Back to his home", "zh": "送回家"}], "answer": 2, "explain": {"en": "Griffith and Diego blast Maldred with a ball of blue energy that sends him to the magic-proof Wizard's Council prison.", "zh": "格里菲斯和迪亚哥用蓝色能量球把马尔德雷送进了防魔法的巫师议会监狱。"}}, {"q": {"en": "What happens when Rori finally connects with Vulcan?", "zh": "当罗瑞终于和瓦尔坎建立连接时发生了什么？"}, "options": [{"en": "Vulcan flies away", "zh": "瓦尔坎飞走了"}, {"en": "Her Dragon Stone glows and she hears his voice", "zh": "她的龙石块发光，她听见了瓦尔坎的声音"}, {"en": "Vulcan shrinks", "zh": "瓦尔坎缩小了"}, {"en": "She gets scared", "zh": "她吓坏了"}], "answer": 1, "explain": {"en": "At Queen Rose's castle, Rori's Dragon Stone glows green and she hears Vulcan speaking inside her head for the first time.", "zh": "在玫瑰皇后的城堡里，罗瑞的龙石块发出绿光，她第一次在脑海中听见瓦尔坎说话。"}}, {"q": {"en": "What does Vulcan do at Queen Rose's castle to show off safely?", "zh": "在玫瑰皇后的城堡里，瓦尔坎怎样安全地展示自己？"}, "options": [{"en": "Breathes fire at the crowd", "zh": "朝人群喷火"}, {"en": "Lights the candlesticks with flames from his nostrils", "zh": "用鼻孔喷出的小火苗点燃烛台"}, {"en": "Sings a song", "zh": "唱了一首歌"}, {"en": "Flies upside down", "zh": "倒着飞"}], "answer": 1, "explain": {"en": "Vulcan steps forward and streams a thin flame from his nostrils to light each table's candlesticks.", "zh": "瓦尔坎走上前，用鼻孔喷出细小火苗，把每张桌上的烛台一一点燃。"}}, {"q": {"en": "What happens to the four-headed hydra at the end of the book?", "zh": "四头海德拉龙在故事结尾怎样了？"}, "options": [{"en": "It goes home with Maldred", "zh": "它跟着马尔德雷回家了"}, {"en": "It is sent far away", "zh": "它被送去了远方"}, {"en": "It stays and a new Dragon Master will be chosen", "zh": "它留了下来，会有一位新驯龙师被选出来"}, {"en": "It becomes King Roland's pet", "zh": "成了罗兰国王的宠物"}], "answer": 2, "explain": {"en": "The hydra returns sad and friendless; Griffith says she may stay in her own cave and the Dragon Stone will soon choose her a new Dragon Master.", "zh": "海德拉龙伤心地回来，格里菲斯说它可以留在自己的洞穴里，龙石块很快就会为它选一位新驯龙师。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

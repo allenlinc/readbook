@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Night of the Dream Dragon — Quiz</title>
+<style>
+  :root{
+    --grass:#27ae60;
+    --grass-dark:#1e8449;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --dragon:#6c5ce7;
+    --dragon-dark:#4834a0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--dragon);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--dragon);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .dragon{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--dragon-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(108,92,231,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(108,92,231,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#28 · Night of the Dream Dragon</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Tracey West</p>
+    <div class="dragon">🐉</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Dragon Masters: Night of the Dream Dragon</em> (Scholastic Branches, 2025) — by Tracey West</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Tracey West",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Tracey West",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "How does Drake end up inside the Dream World in physical form?", "zh": "Drake 是如何以实体的形式进入梦境世界的？"}, "options": [{"en": "He walks through a magic door", "zh": "他走过一扇魔法门"}, {"en": "He is pulled there in his real body while he is asleep", "zh": "他在睡梦中被以真实的身体拉了进去"}, {"en": "He flies there on Worm's back", "zh": "他骑着 Worm 飞了进去"}, {"en": "Zoltan kidnaps him", "zh": "Zoltan 把他绑架了"}], "answer": 1, "explain": {"en": "After falling asleep, Drake and Worm are drawn toward the Dream Gate and arrive in the Dream World as their real selves, not just as dreamers.", "zh": "Drake 睡着后被拉向梦境之门，他和 Worm 以真实的自我（而非单纯的做梦者）进入了梦境世界。"}}, {"q": {"en": "Who are Kishar and Mamu?", "zh": "Kishar 和 Mamu 是谁？"}, "options": [{"en": "The guardians of the Dream Gate", "zh": "梦境之门的守护者"}, {"en": "Zoltan's helpers", "zh": "Zoltan 的帮手"}, {"en": "Villagers from Greenshire", "zh": "格林希尔村的村民"}, {"en": "Ghosts haunting the castle", "zh": "缠绕城堡的幽灵"}], "answer": 0, "explain": {"en": "Kishar is a Dragon Master and Mamu is the Dream Dragon; they were both born in the Dream World long ago and guard the gate.", "zh": "Kishar 是训龙师，Mamu 是梦境龙；她们很久以前都诞生于梦境世界，负责守护那道门。"}}, {"q": {"en": "What can a person do after drinking from the Dream Fountain?", "zh": "一个人喝下梦境之泉的水后，能够做到什么？"}, "options": [{"en": "Become invisible to everyone", "zh": "对所有人隐形"}, {"en": "Learn to fly without wings", "zh": "不用翅膀也能飞翔"}, {"en": "Make their dreams become real", "zh": "让自己的梦境变成现实"}, {"en": "Talk to any dragon", "zh": "与任何龙交谈"}], "answer": 2, "explain": {"en": "The Dream Fountain holds all the power of the Dream World; anyone who drinks from it can make their wildest dreams come true.", "zh": "梦境之泉蕴含着梦境世界的全部力量；任何人喝下泉水，都能让自己最狂野的梦想成真。"}}, {"q": {"en": "What special gift does Mamu give Worm so he can keep up with the flying dragons?", "zh": "为了让 Worm 能跟上会飞的龙，Mamu 送了他什么特别的礼物？"}, "options": [{"en": "A magic sword", "zh": "一把魔法剑"}, {"en": "A red Dragon Stone", "zh": "一块红色龙石"}, {"en": "A map of the Dream World", "zh": "一张梦境世界地图"}, {"en": "Dream wings with soft brown feathers", "zh": "长着柔软棕色羽毛的梦境之翼"}], "answer": 3, "explain": {"en": "Mamu glows and grows Worm's tiny wings into large feathered dream wings so the Earth Dragon can fly through the Dream World.", "zh": "Mamu 发光，让 Worm 的小翅膀长成羽翼丰满的梦境之翼，使地龙能在梦境世界中飞翔。"}}, {"q": {"en": "Which land of the Dream World is dangerous for Kishar and Mamu?", "zh": "梦境世界的哪一片领地，对 Kishar 和 Mamu 来说很危险？"}, "options": [{"en": "The Land of Endless Treats", "zh": "无尽美食之地"}, {"en": "The Land of the Lost", "zh": "迷失之地"}, {"en": "The Land of Beasts", "zh": "野兽之地"}, {"en": "The Land of Forests", "zh": "森林之地"}], "answer": 1, "explain": {"en": "The Land of the Lost is built from dreams of being unable to find home; its energy latches onto visitors, and Kishar and Mamu can get lost there for days.", "zh": "迷失之地源于'找不到回家路'的梦境，它的能量会缠住访客，Kishar 和 Mamu 曾在那里迷失好几天。"}}, {"q": {"en": "How does Llew help the group while they are in the Dream World?", "zh": "在梦境世界中，Llew 是怎样帮助大家的？"}, "options": [{"en": "He fights Zoltan directly", "zh": "他直接与 Zoltan 交战"}, {"en": "He opens the Dream Gate for them", "zh": "他为大家打开了梦境之门"}, {"en": "He tricks Zoltan into going to the Land of the Lost", "zh": "他把 Zoltan 骗去了迷失之地"}, {"en": "He drinks from the Dream Fountain", "zh": "他喝下了梦境之泉的水"}], "answer": 2, "explain": {"en": "Llew, visiting in a dream, tells Zoltan to go to the Land of the Lost so the wizard will get stuck there until the Dragon Masters can find him.", "zh": "Llew 以梦中之身出现，故意告诉 Zoltan 去迷失之地，好让巫师被困在那里，等训龙师们赶来。"}}, {"q": {"en": "What is Zoltan's plan after he drinks from the Dream Fountain?", "zh": "Zoltan 喝下梦境之泉后，他的计划是什么？"}, "options": [{"en": "To transform into Maldred and free him from the Naga", "zh": "变成 Maldred，把他从那迦（Naga）手中救出"}, {"en": "To become a Dream Dragon", "zh": "变成一条梦境龙"}, {"en": "To return safely home", "zh": "平安地回到家乡"}, {"en": "To steal the Dream Orb", "zh": "去偷走梦境宝珠"}], "answer": 0, "explain": {"en": "Zoltan says he will use the fountain to transform into Maldred, gaining his strength so he can rescue the evil wizard from the Earthquake Dragon.", "zh": "Zoltan 说他要借泉水变成 Maldred，获得其力量，从而把那位邪恶巫师从地震龙（Naga）手中救出。"}}, {"q": {"en": "What does Zoltan actually turn into when he drinks the fountain water?", "zh": "Zoltan 喝下泉水后，实际上变成了什么？"}, "options": [{"en": "A tiny bee", "zh": "一只小蜜蜂"}, {"en": "A harmless ghost", "zh": "一个无害的幽灵"}, {"en": "Maldred himself", "zh": "Maldred 本人"}, {"en": "A Wizard Dragon with pink-and-orange scales", "zh": "一条粉橙相间鳞片的巫师龙"}], "answer": 3, "explain": {"en": "Instead of becoming Maldred, Zoltan's body grows into a dragon — a Wizard Dragon that can talk and mix wizard magic with dragon power.", "zh": "Zoltan 没有变成 Maldred，而是长成了龙身——一条能说话、能将巫师魔法与龙之力结合的巫师龙。"}}, {"q": {"en": "How does Zoltan manage to escape the Dream World and return to the real world?", "zh": "Zoltan 是怎样逃出梦境世界、回到现实世界的？"}, "options": [{"en": "He flies straight through the open gate", "zh": "他直接从敞开的大门飞了出去"}, {"en": "He attaches himself to Worm's energy using the spell 'Ibimys Simul'", "zh": "他用咒语'Ibimys Simul'附在 Worm 的能量上一起离开"}, {"en": "Kishar lets him go on purpose", "zh": "Kishar 故意放他走"}, {"en": "He drinks more fountain water", "zh": "他又喝了更多泉水"}], "answer": 1, "explain": {"en": "Zoltan shouts 'Ibimys Simul' and clings to Worm's freezing energy, letting the Earth Dragon's escape pull him out of the Dream World too.", "zh": "Zoltan 喊出'Ibimys Simul'，附在 Worm 的冰冻能量上，借地龙逃离梦境世界之力，一同回到了现实。"}}, {"q": {"en": "What does Kishar give Drake to undo the Dream Fountain's magic on Zoltan?", "zh": "为了解除梦境之泉对 Zoltan 的魔法，Kishar 给了 Drake 什么？"}, "options": [{"en": "A red Dragon Stone", "zh": "一块红色龙石"}, {"en": "The stolen Dream Orb", "zh": "被偷走的梦境宝珠"}, {"en": "A blue quarter-moon amulet", "zh": "一枚蓝色的弦月护符"}, {"en": "A green crystal", "zh": "一块绿色晶体"}], "answer": 2, "explain": {"en": "Kishar presses a blue quarter-moon amulet into Drake's hand; it will undo the fountain's magic and turn the Wizard Dragon back into a human.", "zh": "Kishar 把一枚蓝色弦月护符塞进 Drake 手心；它能解除泉水魔法，把巫师龙变回人形。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

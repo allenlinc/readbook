@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bloom of the Flower Dragon — Quiz</title>
+<style>
+  :root{
+    --grass:#27ae60;
+    --grass-dark:#1e8449;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --dragon:#6c5ce7;
+    --dragon-dark:#4834a0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--dragon);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--dragon);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .dragon{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--dragon-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(108,92,231,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(108,92,231,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#21 · Bloom of the Flower Dragon</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Tracey West</p>
+    <div class="dragon">🐉</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Dragon Masters: Bloom of the Flower Dragon</em> (Scholastic Branches, 2022) — by Tracey West</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Tracey West",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Tracey West",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "How does the Flower Dragon Wildroot first arrive at Bracken?", "zh": "花龙 Wildroot 最初是怎么来到布拉肯的？"}, "options": [{"en": "Drake finds him in the Dragon Caves", "zh": "Drake 在龙穴里发现了他"}, {"en": "He climbs onto Drake's arm after Drake returns", "zh": "Drake 一回来他就爬到了 Drake 的手臂上"}, {"en": "Griffith sends him as a gift", "zh": "Griffith 把他当作礼物送来"}, {"en": "Oskar brings him from Stellburg", "zh": "Oskar 从 Stellburg 把他带来"}], "answer": 1, "explain": {"en": "When Drake returns from stopping Astrid, the little Flower Dragon simply climbs onto his arm and will not leave — that is how he arrives.", "zh": "Drake 击败 Astrid 回来时，这只小花龙自己爬到了他的手臂上，一直跟着他——他就是这么来到布拉肯的。"}}, {"q": {"en": "Who is Brighteye, and what special gift does she have?", "zh": "Brighteye 是谁？她有什么特殊能力？"}, "options": [{"en": "A wizard who trains Dragon Masters", "zh": "一位训练龙主的巫师"}, {"en": "A forest sprite who can see the future", "zh": "一位能看见未来的森林精灵"}, {"en": "The king of Stellburg", "zh": "Stellburg 的国王"}, {"en": "A Flower Dragon from the tribe", "zh": "花龙部落里的一只花龙"}], "answer": 1, "explain": {"en": "Brighteye is a forest sprite (a fairy) and a friend to the Flower Dragons. She can see into the future, which is how she learned a red-eyed monster was coming.", "zh": "Brighteye 是一位森林精灵（小仙女），也是花龙们的朋友。她能看见未来，所以提前知道一只红眼怪物即将来袭。"}}, {"q": {"en": "What does the Dragon Stone show the Dragon Masters about Wildroot's master?", "zh": "龙石向龙主们展示了关于 Wildroot 主人的什么？"}, "options": [{"en": "A girl living in Bracken Castle", "zh": "一位住在布拉肯城堡的女孩"}, {"en": "A boy named Oskar with blond, wavy hair in Stellburg", "zh": "Stellburg 一位金发卷发、名叫 Oskar 的男孩"}, {"en": "King Roland himself", "zh": "Roland 国王本人"}, {"en": "The wizard Griffith", "zh": "巫师 Griffith"}], "answer": 1, "explain": {"en": "The Dragon Stone lights up and shows a blond, wavy-haired boy walking in Stellburg — that boy is Oskar, Wildroot's chosen Dragon Master.", "zh": "龙石亮起光芒，显示出一位金发卷发、在 Stellburg 行走的男孩——那就是 Oskar，Wildroot 选中的龙主。"}}, {"q": {"en": "Why does Oskar hesitate to help the Flower Dragons at first?", "zh": "Oskar 一开始为什么犹豫要不要帮花龙？"}, "options": [{"en": "He is afraid of dragons", "zh": "他害怕龙"}, {"en": "He is on his way to find his missing father", "zh": "他正要去找失踪的父亲"}, {"en": "He does not like flowers", "zh": "他不喜欢花"}, {"en": "He wants to be king", "zh": "他想当国王"}], "answer": 1, "explain": {"en": "Oskar's father left for Graystone Castle a month earlier and never came back, so Oskar is hurrying there to search for him when Drake and Ana ask for help.", "zh": "Oskar 的父亲一个月前去 Graystone 城堡办事就再没回来，所以当 Drake 和 Ana 求助时，他正急着去那里找父亲。"}}, {"q": {"en": "How do the Flower Dragons normally stay hidden from humans?", "zh": "花龙平时是怎么避开人类视线的？"}, "options": [{"en": "They fly very high in the clouds", "zh": "他们飞到很高的云端"}, {"en": "They release a special mist that hides them", "zh": "他们释放一种特殊的雾来隐藏自己"}, {"en": "They turn invisible at will", "zh": "他们能随时隐身"}, {"en": "They sleep all day", "zh": "他们整天睡觉"}], "answer": 1, "explain": {"en": "Wildroot tells the Dragon Masters that Flower Dragons release a special mist that keeps humans from seeing them. When Wildroot sings, the dragons stop the illusion and become visible.", "zh": "Wildroot 告诉龙主们，花龙会释放一种特殊雾气，让人类看不见他们。当 Wildroot 唱歌时，龙群停下幻象，才显露出来。"}}, {"q": {"en": "What kind of monster is threatening Stellburg, and how is it made?", "zh": "威胁 Stellburg 的是什么怪物？它是怎么来的？"}, "options": [{"en": "A werewolf, created by eating moonberries", "zh": "一只狼人，因吃下月光莓而变成"}, {"en": "A giant Finsterbun", "zh": "一只巨大的 Finsterbun"}, {"en": "A stone statue come to life", "zh": "一座活过来的石头雕像"}, {"en": "A fire-breathing dragon", "zh": "一条喷火的龙"}], "answer": 0, "explain": {"en": "The monster is a werewolf. Brighteye explains that anyone who eats the white moonberries deep in the Dark Forest turns into a werewolf — and Oskar's father ate them.", "zh": "怪物是一只狼人。Brighteye 解释说，任何在黑暗森林深处吃下白色月光莓的生物都会变成狼人——而 Oskar 的父亲正是吃了它。"}}, {"q": {"en": "What does the Stellburg rhyme say will stop the werewolf?", "zh": "Stellburg 的童谣说，什么能阻止狼人？"}, "options": [{"en": "A pitchfork and a brave villager", "zh": "一把草叉和勇敢的村民"}, {"en": "The dragon's bloom", "zh": "龙的绽放（the dragon's bloom）"}, {"en": "A wall of stone", "zh": "一堵石墙"}, {"en": "The king's army", "zh": "国王的军队"}], "answer": 1, "explain": {"en": "The rhyme goes: 'The werewolf will bring only danger and doom, unless it is stopped by the dragon's bloom.' The 'bloom' is the Flower Dragons' special power.", "zh": "童谣是：「狼人只会带来危险与毁灭，除非被龙的绽放所阻止。」这里的「绽放」指的就是花龙的特殊力量。"}}, {"q": {"en": "Why do the Dragon Masters lead the Finsterbuns to a chamomile field?", "zh": "龙主们为什么把 Finsterbuns 引到一片洋甘菊田？"}, "options": [{"en": "To feed them so they stop eating the starflowers", "zh": "喂饱它们，让它们不再啃食星花"}, {"en": "To teach them to dance", "zh": "教它们跳舞"}, {"en": "To hide them from the werewolf", "zh": "把它们藏起来躲避狼人"}, {"en": "To make them into pets", "zh": "把它们变成宠物"}], "answer": 0, "explain": {"en": "The Finsterbuns flee the werewolf and start eating the starflowers, which the Flower Dragons need for their power. The gang leads them to a chamomile field so the dragons can keep their starflowers.", "zh": "Finsterbuns 为了躲避狼人跑来啃食星花，而花龙正需要星花来积蓄力量。于是大家把它们引到洋甘菊田，保住了花龙的星花。"}}, {"q": {"en": "How does Ana's Sun Dragon Kepri help the Flower Dragons prepare?", "zh": "Ana 的太阳龙 Kepri 是怎么帮助花龙准备的？"}, "options": [{"en": "She freezes the werewolf", "zh": "她冻住了狼人"}, {"en": "She beams warm sunlight so they can power up even at night", "zh": "她射出温暖的阳光，让花龙即使夜晚也能充能"}, {"en": "She carries them to safety", "zh": "她把花龙载到安全的地方"}, {"en": "She sings a lullaby", "zh": "她唱摇篮曲"}], "answer": 1, "explain": {"en": "Flower Dragons eat sunlight to power up. Kepri beams soft sunlight so the dragons can perform Bloom even if the werewolf attacks after dark.", "zh": "花龙靠阳光获得力量。Kepri 射出柔和的阳光，让花龙即使狼人在夜间来袭也能施展「绽放」。"}}, {"q": {"en": "Who is the werewolf revealed to be at the end of the story?", "zh": "故事最后，狼人其实是谁？"}, "options": [{"en": "Griffith in disguise", "zh": "伪装起来的 Griffith"}, {"en": "Oskar's missing father", "zh": "Oskar 失踪的父亲"}, {"en": "The king of Stellburg", "zh": "Stellburg 的国王"}, {"en": "A stranger from the Dark Forest", "zh": "黑暗森林里的一个陌生人"}], "answer": 1, "explain": {"en": "When the Flower Dragons perform Bloom, the werewolf changes back into a man — Oskar's father, who had eaten moonberries a month earlier and been lost in the Dark Forest.", "zh": "当花龙施展「绽放」后，狼人变回了一个人——正是 Oskar 的父亲，他一个月前吃了月光莓，在黑暗森林里迷失了。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

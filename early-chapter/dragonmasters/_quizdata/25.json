@@ -1,0 +1,122 @@
+{
+  "number": "25",
+  "title": "Legend of the Star Dragon",
+  "titleZh": "星龙传说",
+  "year": 2023,
+  "author": "Tracey West",
+  "emoji": "⭐",
+  "desc": "It's time to play the Star Flute and summon a legendary dragon to banish the sky-shadow! ⭐",
+  "source": "ima-pdf",
+  "questions": [
+    {
+      "q": {"en": "Where is the Star Temple where a Star Dragon's egg is laid?", "zh": "星龙产卵的星之神庙在哪里？"},
+      "options": [
+        {"en": "Mount Sky in Helas", "zh": "赫拉斯的星空山"},
+        {"en": "Dove Island", "zh": "多夫岛"},
+        {"en": "Belerion", "zh": "贝勒里昂"},
+        {"en": "The Pyramid of the Seven Dragons", "zh": "七龙金字塔"}
+      ],
+      "answer": 0,
+      "explain": {"en": "The legend says a Star Dragon lays her egg at the Star Temple on the highest peak of Mount Sky in Helas.", "zh": "传说里说，星龙会在赫拉斯星空山最高峰的星之神庙产卵。"}
+    },
+    {
+      "q": {"en": "Who is the Star Dragon that is summoned, and who is her Dragon Master?", "zh": "被召唤的星龙是谁，它的驯龙师又是谁？"},
+      "options": [
+        {"en": "Nova and Stella", "zh": "诺娃和斯特拉"},
+        {"en": "Chaya and Aruna", "zh": "查亚和阿鲁娜"},
+        {"en": "Lysa and Rune", "zh": "莱莎和鲁恩"},
+        {"en": "Zera and Petra", "zh": "泽拉和佩特拉"}
+      ],
+      "answer": 0,
+      "explain": {"en": "Stella, a girl with long pale blue hair, is the Dragon Master of Nova the Star Dragon.", "zh": "留着淡蓝色长发的女孩斯特拉是星龙诺娃的驯龙师。"}
+    },
+    {
+      "q": {"en": "Who created the Star Flute?", "zh": "星笛是谁创造的？"},
+      "options": [
+        {"en": "Griffith", "zh": "格里菲斯"},
+        {"en": "Harmonia, the Goddess of Music", "zh": "音乐女神哈莫妮亚"},
+        {"en": "Vanad", "zh": "瓦纳德"},
+        {"en": "Petra", "zh": "佩特拉"}
+      ],
+      "answer": 1,
+      "explain": {"en": "When Stella missed Nova, she asked Harmonia the Goddess of Music for help, and Harmonia created the Star Flute.", "zh": "斯特拉想念诺娃，于是向音乐女神哈莫妮亚求助，哈莫妮亚便创造了星笛。"}
+    },
+    {
+      "q": {"en": "What creature guards the Star Temple, and how is it dealt with?", "zh": "星之神庙由什么生物守卫，又是如何被对付的？"},
+      "options": [
+        {"en": "A dragon fought with swords", "zh": "一条用剑战斗的龙"},
+        {"en": "A griffin put to sleep by Zera's lullaby", "zh": "一只被泽拉用摇篮曲催眠的狮鹫"},
+        {"en": "A ghost", "zh": "一个幽灵"},
+        {"en": "A troll blocked by Worm", "zh": "一只被沃姆挡住的巨魔"}
+      ],
+      "answer": 1,
+      "explain": {"en": "A griffin guards the temple; Zera the Poison Dragon sings a calming lullaby that puts it to sleep for a day and a night.", "zh": "神庙由狮鹫守卫，毒龙泽拉唱起安神的摇篮曲，让它沉睡了一天一夜。"}
+    },
+    {
+      "q": {"en": "Who can read the music notes to play the Star Flute?", "zh": "谁能读谱来吹奏星笛？"},
+      "options": [
+        {"en": "Drake", "zh": "德雷克"},
+        {"en": "Petra", "zh": "佩特拉"},
+        {"en": "Darpan", "zh": "达尔潘"},
+        {"en": "Aruna", "zh": "阿鲁娜"}
+      ],
+      "answer": 1,
+      "explain": {"en": "Petra learned to read music so she could play the flute when Zera sings, so she plays the summoning song.", "zh": "佩特拉学过读谱，以便泽拉唱歌时能为它伴奏，于是由她来吹奏召唤之曲。"}
+    },
+    {
+      "q": {"en": "How do Chaya and Aruna reach Mount Sky so much faster than expected?", "zh": "查亚和阿鲁娜为什么比预计的快那么多到达星空山？"},
+      "options": [
+        {"en": "They fly there normally", "zh": "它们正常飞过去"},
+        {"en": "Chaya makes a portal through the sky-shadow", "zh": "查亚在阴影中制造了传送门"},
+        {"en": "Worm transports them", "zh": "沃姆把它们传送过去"},
+        {"en": "They walk up the mountain", "zh": "它们走上山"}
+      ],
+      "answer": 1,
+      "explain": {"en": "Darpan explains he did not know Chaya could create portals to travel through the sky-shadow, so they arrive early.", "zh": "达尔潘说，他不知道查亚能在阴影中制造传送门，所以它们提前到了。"}
+    },
+    {
+      "q": {"en": "How does Worm help Aruna break free from the Balam seed's evil?", "zh": "沃姆如何帮助阿鲁娜摆脱巴拉姆种子的邪恶影响？"},
+      "options": [
+        {"en": "He gives her the Star Stone", "zh": "它把星石给了她"},
+        {"en": "He shines green light to break her connection to the seed", "zh": "它发出绿光，切断她与种子的联系"},
+        {"en": "He feeds her fruit", "zh": "它喂她吃果实"},
+        {"en": "He freezes her", "zh": "它把她冻住"}
+      ],
+      "answer": 1,
+      "explain": {"en": "With Chaya frozen, Worm shines green light to break Aruna's connection to the seed for a few moments, letting Darpan reach her.", "zh": "趁查亚被冻住，沃姆发出绿光，暂时切断阿鲁娜与种子的联系，让达尔潘能打动她。"}
+    },
+    {
+      "q": {"en": "What is Nova's strongest power that removes the Balam seed from Chaya?", "zh": "诺娃用什么最强招式把巴拉姆种子从查亚体内逼出？"},
+      "options": [
+        {"en": "Star Beams", "zh": "星之光束"},
+        {"en": "Star Dust", "zh": "星之尘埃"},
+        {"en": "Super Shine", "zh": "超级闪耀"},
+        {"en": "Star Whip", "zh": "星之鞭"}
+      ],
+      "answer": 2,
+      "explain": {"en": "Nova charges up and performs Super Shine, a blinding burst of light that lifts Chaya and forces the seed out.", "zh": "诺娃蓄力使出“超级闪耀”，一阵刺眼的光芒托起查亚，把种子逼了出来。"}
+    },
+    {
+      "q": {"en": "What happens to the Balam seed and the sky-shadow at the end?", "zh": "结尾时巴拉姆种子和天幕阴影分别怎样了？"},
+      "options": [
+        {"en": "The seed grows bigger", "zh": "种子变得更大"},
+        {"en": "The seed explodes and its light dissolves the sky-shadow", "zh": "种子爆炸，光芒驱散了天幕阴影"},
+        {"en": "Chaya eats it again", "zh": "查亚又把它吃下去"},
+        {"en": "It turns into a star", "zh": "它变成了一颗星星"}
+      ],
+      "answer": 1,
+      "explain": {"en": "The seed floats out, becomes a glowing ball of energy, and explodes; its sparkling light spreads and dissolves the sky-shadow worldwide.", "zh": "种子飘出，化作发光的能量球后爆炸，闪烁的光芒扩散开来，把全世界范围内的天幕阴影都溶解了。"}
+    },
+    {
+      "q": {"en": "What does Stella give Aruna to help people harmed by the shadow?", "zh": "斯特拉给了阿鲁娜什么，用来帮助被阴影所伤的人？"},
+      "options": [
+        {"en": "A Star Stone", "zh": "一颗星石"},
+        {"en": "The Star Flute", "zh": "星笛"},
+        {"en": "A Dragon Stone", "zh": "一颗龙石"},
+        {"en": "The Balam seed", "zh": "巴拉姆种子"}
+      ],
+      "answer": 0,
+      "explain": {"en": "Stella hands Aruna a Star Stone that can help anyone harmed by Chaya's shadow powers.", "zh": "斯特拉把一颗星石交给阿鲁娜，它能帮助任何被查亚阴影力量所伤的人。"}
+    }
+  ]
+}

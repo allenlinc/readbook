@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Land of the Spring Dragon — Quiz</title>
+<style>
+  :root{
+    --grass:#27ae60;
+    --grass-dark:#1e8449;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --dragon:#6c5ce7;
+    --dragon-dark:#4834a0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--dragon);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--dragon);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .dragon{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--dragon-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(108,92,231,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(108,92,231,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#14 · The Land of the Spring Dragon</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Tracey West</p>
+    <div class="dragon">🐉</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Dragon Masters: The Land of the Spring Dragon</em> (Scholastic Branches, 2019) — by Tracey West</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Tracey West",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Tracey West",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What destroyed the crops in the Kingdom of Bracken?", "zh": "是什么摧毁了布拉克恩王国的庄稼？"}, "options": [{"en": "A flood from the river", "zh": "河流引发的洪水"}, {"en": "An earthquake caused by Maldred and the Naga", "zh": "马尔德雷德与地震龙纳迦引发的地震"}, {"en": "A long, cold winter", "zh": "漫长而寒冷的冬天"}, {"en": "A fire in the fields", "zh": "田地里的大火"}], "answer": 1, "explain": {"en": "Maldred controlled the earthquake dragon Naga, and the attack shattered Bracken's crops and land.", "zh": "马尔德雷德控制了地震龙纳迦，这次袭击摧毁了布拉克恩的庄稼和土地。"}}, {"q": {"en": "What is the name of the Spring Dragon in this book?", "zh": "这本书里春龙的名字是什么？"}, "options": [{"en": "Fallyn", "zh": "法琳（Fallyn）"}, {"en": "Worm", "zh": "沃姆（Worm）"}, {"en": "Naga", "zh": "纳迦（Naga）"}, {"en": "Hinky Pink", "zh": "辛奇·平克（Hinky Pink）"}], "answer": 0, "explain": {"en": "Fallyn is the green Spring Dragon who is connected to nature and can make plants grow.", "zh": "法琳是一条绿色的春龙，她与自然相连，能让植物生长。"}}, {"q": {"en": "Who is Breen?", "zh": "布琳（Breen）是谁？"}, "options": [{"en": "The king's royal wizard", "zh": "国王的宫廷巫师"}, {"en": "A redcap fairy who loves marching", "zh": "一个喜欢行军的红帽小妖精"}, {"en": "Fallyn's Dragon Master", "zh": "法琳的驯龙师"}, {"en": "The ruler of Inis Banba", "zh": "伊尼斯·班巴的统治者"}], "answer": 2, "explain": {"en": "Breen is the red-haired, freckled Dragon Master of Fallyn, who lives in Inis Banba.", "zh": "布琳是法琳的驯龙师，红头发、有雀斑，住在伊尼斯·班巴。"}}, {"q": {"en": "Why must Drake leave his dragon Worm behind in the fairy world?", "zh": "为什么德雷克必须把自己的龙沃姆留在精灵世界之外？"}, "options": [{"en": "Worm was too big to fit through the door", "zh": "沃姆太大，进不了门"}, {"en": "Breen did not like Worm", "zh": "布琳不喜欢沃姆"}, {"en": "Worm was too scared to go", "zh": "沃姆太害怕了不敢去"}, {"en": "There is only room for one dragon in the fairy world", "zh": "精灵世界里只能容纳一条龙"}], "answer": 3, "explain": {"en": "Breen explains that Drake must find Fallyn using his own courage and wits, and only one dragon may enter.", "zh": "布琳说德雷克必须靠自己的勇气和智慧去寻找法琳，而且精灵世界里只能有一条龙进入。"}}, {"q": {"en": "What color is the sky in the hidden fairy world?", "zh": "隐藏的精灵世界里天空是什么颜色的？"}, "options": [{"en": "Blue", "zh": "蓝色"}, {"en": "Pink", "zh": "粉色"}, {"en": "Green", "zh": "绿色"}, {"en": "Purple", "zh": "紫色"}], "answer": 1, "explain": {"en": "Inside the fairy world the sky is a strange shade of pink instead of bright blue.", "zh": "精灵世界里的天空是一种奇特的粉色，而不是明亮的蓝色。"}}, {"q": {"en": "How does Drake escape the redcaps who force him to march forever?", "zh": "德雷克是如何从逼他永远行军的红帽小妖精手里逃脱的？"}, "options": [{"en": "He fights them with his sword", "zh": "他用剑和它们战斗"}, {"en": "He runs away faster than them", "zh": "他比它们跑得更快"}, {"en": "He tricks them into hide-and-seek and has them count to ten thousand six hundred twenty-three", "zh": "他骗它们玩捉迷藏，让它们数到一万零六百二十三"}, {"en": "He asks Breen to carry him away", "zh": "他请布琳把他带走"}], "answer": 2, "explain": {"en": "Drake promises a 'more fun' game, gets them to release their magic hold, then tells them to count to 10,623 while he escapes.", "zh": "德雷克说有个更好玩的游戏，让它们解开魔法控制，然后让它们数到10623，趁机溜走。"}}, {"q": {"en": "How does Drake get rid of Hinky Pink's thick fog?", "zh": "德雷克是如何驱散辛奇·平克制造的浓雾的？"}, "options": [{"en": "He asks Worm to make his Dragon Stone glow brightly", "zh": "他让沃姆把自己的龙石变得明亮发光"}, {"en": "He waits for night to fall", "zh": "他等到夜晚降临"}, {"en": "He blows it away with his breath", "zh": "他用自己的呼吸把它吹散"}, {"en": "He uses a lantern he found", "zh": "他用找到的灯笼"}], "answer": 0, "explain": {"en": "Drake contacts Worm through his Dragon Stone, and Worm makes the stone shine so brightly that the fog vanishes.", "zh": "德雷克通过龙石联系沃姆，沃姆让龙石发出耀眼的光，浓雾随即消散。"}}, {"q": {"en": "How does Drake realize the 'Bo' he meets in the fairy world is not real?", "zh": "德雷克是怎么发现精灵世界里遇到的“博”不是真人的？"}, "options": [{"en": "The boy had the wrong name", "zh": "那个男孩说错了名字"}, {"en": "Breen told him the truth", "zh": "布琳告诉了他真相"}, {"en": "Bo was wearing different clothes", "zh": "博穿了不一样的衣服"}, {"en": "Drake tests him by mentioning Darma and the Gold Dragon, but Rori went, not Bo", "zh": "德雷克用达尔玛和黄金龙的事试探，其实是罗瑞去的，不是博"}], "answer": 3, "explain": {"en": "The fake 'Bo' agrees they went to Maldred's workshop with Darma and the Gold Dragon, but Drake knows Rori went, not Bo — exposing the pooka.", "zh": "假“博”承认和达尔玛、黄金龙去过马尔德里德的工坊，但德雷克知道去的是罗瑞，于是识破了这只变形精灵（pooka）。"}}, {"q": {"en": "In the wood sprites' riddle, the right flower matches the pink sky and a cherry-red center. How many petals did it have?", "zh": "在树精灵的谜语里，符合“粉色天空色、樱桃红中心”的花有多少片花瓣？"}, "options": [{"en": "Four", "zh": "4片"}, {"en": "Nine", "zh": "9片"}, {"en": "Five", "zh": "5片"}, {"en": "Six", "zh": "6片"}], "answer": 2, "explain": {"en": "It had to be more than a horse's four legs and fewer than a spider's eight legs; Drake found a five-petal pink flower.", "zh": "谜语说花瓣要多于马的4条腿、少于蜘蛛的8条腿，德雷克找到了一朵5片花瓣的粉色花。"}}, {"q": {"en": "After Fallyn restores Bracken's farms, what special new flower appears?", "zh": "法琳让布拉克恩的农田恢复生机后，出现了什么特别的新花？"}, "options": [{"en": "A plain rose", "zh": "一朵普通的玫瑰"}, {"en": "The Dragon Flower, shaped like a dragon's head", "zh": "龙花，形状像龙头喷火"}, {"en": "A sunflower", "zh": "一朵向日葵"}, {"en": "A redcap blossom", "zh": "红帽小妖精的花"}], "answer": 1, "explain": {"en": "The yellow-and-red flowers look like dragon heads with fire, so the Dragon Masters name them Dragon Flowers.", "zh": "那些黄红相间的花看起来像喷火的龙头，于是驯龙师们把它们命名为“龙花”。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

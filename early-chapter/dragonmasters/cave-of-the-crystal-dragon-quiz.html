@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cave of the Crystal Dragon — Quiz</title>
+<style>
+  :root{
+    --grass:#27ae60;
+    --grass-dark:#1e8449;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --dragon:#6c5ce7;
+    --dragon-dark:#4834a0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--dragon);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--dragon);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .dragon{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--dragon-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(108,92,231,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(108,92,231,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#26 · Cave of the Crystal Dragon</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Tracey West</p>
+    <div class="dragon">🐉</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Dragon Masters: Cave of the Crystal Dragon</em> (Scholastic Branches, 2024) — by Tracey West</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Tracey West",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Tracey West",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Why do Drake and Rori travel to the village of Greenshire?", "zh": "Drake 和 Rori 为什么要前往格林希尔村？"}, "options": [{"en": "To visit the Crystal Cave for fun", "zh": "去水晶洞游玩"}, {"en": "To meet the Dragon Mage Eko", "zh": "去见龙法师 Eko"}, {"en": "To find their missing wizard friend Griffith", "zh": "去寻找失踪的巫师朋友 Griffith"}, {"en": "To rescue a trapped Fire Dragon", "zh": "去救一只被困的火龙"}], "answer": 2, "explain": {"en": "Griffith has disappeared, and Worm senses he is in Greenshire, the village where Griffith was born.", "zh": "Griffith 失踪了，Worm 感应到他在格林希尔——也就是 Griffith 出生的村庄。"}}, {"q": {"en": "Who is Llew?", "zh": "Llew 是谁？"}, "options": [{"en": "The wizard who guards the Crystal Cave", "zh": "看守水晶洞的巫师"}, {"en": "Griffith's cousin from Belerion", "zh": "来自 Belerion 的 Griffith 的表亲"}, {"en": "A storykeeper-in-training who uses a wheelchair", "zh": "一位使用轮椅的实习说书人"}, {"en": "The village leader of Greenshire", "zh": "格林希尔村的村长"}], "answer": 2, "explain": {"en": "Llew is the son of Alan the Storykeeper and is training to be a storykeeper; he uses a wheelchair because his legs do not work.", "zh": "Llew 是说书人 Alan 的儿子，正在学习成为说书人；因为腿部无法活动，他使用轮椅。"}}, {"q": {"en": "What is special about the crystals growing inside the Crystal Cave?", "zh": "水晶洞里生长的晶体有什么特别之处？"}, "options": [{"en": "They only glow during a full moon", "zh": "它们只在满月时发光"}, {"en": "They are ordinary rocks with no power", "zh": "它们是没有魔力的普通石头"}, {"en": "They can only be broken by wizards", "zh": "它们只能被巫师打碎"}, {"en": "They have magical powers, like giving energy or calming", "zh": "它们拥有魔力，比如提供能量或让人平静"}], "answer": 3, "explain": {"en": "Different crystals have different powers — red ones give energy, light blue ones are calming, and dark purple ones protect secrets.", "zh": "不同晶体有不同魔力——红色提供能量，浅蓝色令人平静，深紫色守护秘密。"}}, {"q": {"en": "What happens when Llew touches the dark purple 'secret-protecting' crystal?", "zh": "当 Llew 触摸那块深紫色'守护秘密'的晶体时，发生了什么？"}, "options": [{"en": "A hidden door outline appears on the wall", "zh": "墙上出现了一扇暗门的轮廓"}, {"en": "The crystal shatters into dust", "zh": "晶体碎成了粉末"}, {"en": "It turns bright red", "zh": "它变成了鲜红色"}, {"en": "Llew becomes invisible", "zh": "Llew 变得隐形了"}], "answer": 0, "explain": {"en": "When Llew's fingers touch the purple crystal, it glows and reveals a hidden door on the wall, leading to a secret chamber.", "zh": "当 Llew 的手指碰到紫色晶体，它发出光芒，墙上显现出一扇暗门，通向秘密房间。"}}, {"q": {"en": "Which description best fits the Crystal Dragon, Belydor?", "zh": "以下哪项最准确地描述了水晶龙 Belydor？"}, "options": [{"en": "A small blue Water Dragon", "zh": "一只小小的蓝色水龙"}, {"en": "A four-legged dragon with no wings and yellow and purple scales", "zh": "一只没有翅膀、四足、长着黄紫鳞片的龙"}, {"en": "A winged red Fire Dragon", "zh": "一只长着翅膀的红色火龙"}, {"en": "A green Earth Dragon like Worm", "zh": "像 Worm 一样的绿色地龙"}], "answer": 1, "explain": {"en": "Belydor has four legs and no wings, with shiny yellow and purple scales and golden crystal points on his head and back.", "zh": "Belydor 有四只脚、没有翅膀，身上是闪亮的黄紫鳞片，头和背上还有金色晶体尖角。"}}, {"q": {"en": "Who was secretly pretending to be the wizard Morgan?", "zh": "谁偷偷假扮成了巫师 Morgan？"}, "options": [{"en": "Griffith", "zh": "Griffith"}, {"en": "The Dragon Mage Eko", "zh": "龙法师 Eko"}, {"en": "Gerik, an evil wizard", "zh": "邪恶巫师 Gerik"}, {"en": "Alan the Storykeeper", "zh": "说书人 Alan"}], "answer": 2, "explain": {"en": "Gerik used a disguise spell to look like Morgan so he could search the cave, but Griffith's spell revealed his true identity.", "zh": "Gerik 用变形咒伪装成 Morgan 以便搜查洞穴，但 Griffith 的咒语揭穿了他的真面目。"}}, {"q": {"en": "How do the friends get rid of the red Dragon Stone that was controlling Belydor?", "zh": "伙伴们是如何处理那块控制着 Belydor 的红色龙石的？"}, "options": [{"en": "Worm freezes it into a block of ice", "zh": "Worm 把它冻成了一块冰"}, {"en": "They throw it into the moat", "zh": "他们把它扔进了护城河"}, {"en": "Vulcan melts it with dragon fire", "zh": "Vulcan 用龙焰把它熔化"}, {"en": "Llew crushes it under the wheels of his wheelchair", "zh": "Llew 用轮椅的轮子把它压碎"}], "answer": 3, "explain": {"en": "After Drake passes the stone to Llew, Llew runs over it with his wheelchair, crushing the red stone and freeing Belydor's eyes from its control.", "zh": "Drake 把龙石传给 Llew 后，Llew 驾驶轮椅从上面碾过，压碎了红石，解除了它对 Belydor 的控制。"}}, {"q": {"en": "What does Belydor do at the end that shows he has chosen Llew as his Dragon Master?", "zh": "结尾时 Belydor 做了什么，表明他选择了 Llew 作为自己的训龙师？"}, "options": [{"en": "He flies Llew back to Bracken Castle", "zh": "他载着 Llew 飞回 Bracken 城堡"}, {"en": "He grows a green Dragon Stone from the cave wall for Llew", "zh": "他从洞壁的晶体中长出一块绿色龙石送给 Llew"}, {"en": "He gives Llew a red crystal", "zh": "他送给 Llew 一块红色晶体"}, {"en": "He speaks aloud in human words", "zh": "他用人类语言大声说话"}], "answer": 1, "explain": {"en": "Belydor shines light from his eyes onto the wall and grows a green Dragon Stone, which Llew breaks off — signalling Belydor has chosen him.", "zh": "Belydor 用眼睛发出的光照在墙上，长出了绿色龙石，Llew 把它掰下——这意味着 Belydor 选他做训龙师。"}}, {"q": {"en": "Why did the evil wizard Gerik come to the Crystal Cave?", "zh": "邪恶巫师 Gerik 为什么要来水晶洞？"}, "options": [{"en": "He was obsessed with crystal magic and wanted to control the Crystal Dragon", "zh": "他痴迷于晶体魔法，想控制水晶龙"}, {"en": "Griffith invited him to guard the cave", "zh": "Griffith 邀请他来看守洞穴"}, {"en": "He came to train Llew", "zh": "他是来训练 Llew 的"}, {"en": "He was looking for the Dream Orb", "zh": "他在寻找梦境宝珠"}], "answer": 0, "explain": {"en": "Gerik had studied the cave for years and read a legend about a secret Crystal Dragon, so he made a plan to take Morgan's place and claim its magic.", "zh": "Gerik 研究这个洞穴多年，还读到关于隐秘水晶龙的传说，于是他计划顶替 Morgan，夺取晶体魔力。"}}, {"q": {"en": "How does Worm help Llew ride on Vulcan to go deeper into the cave?", "zh": "Worm 如何帮助 Llew 骑上 Vulcan，以便深入洞穴？"}, "options": [{"en": "He digs a smooth path for the wheelchair", "zh": "他为轮椅挖出一条平坦的路"}, {"en": "He shrinks the wheelchair", "zh": "他把轮椅缩小了"}, {"en": "He uses his mind powers to lift Llew from his wheelchair onto the dragon", "zh": "他用意念把 Llew 从轮椅上托起，放到龙背上"}, {"en": "He carries Llew in his mouth", "zh": "他用嘴叼着 Llew"}], "answer": 2, "explain": {"en": "Worm's body glows and, using the power of his mind, he lifts Llew out of his wheelchair and onto Vulcan's back.", "zh": "Worm 身体发光，用意念将 Llew 从轮椅上托起，安稳地放在 Vulcan 背上。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fortress of the Stone Dragon — Quiz</title>
+<style>
+  :root{
+    --grass:#27ae60;
+    --grass-dark:#1e8449;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --dragon:#6c5ce7;
+    --dragon-dark:#4834a0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--dragon);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--dragon);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .dragon{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--dragon-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(108,92,231,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(108,92,231,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#17 · Fortress of the Stone Dragon</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Tracey West</p>
+    <div class="dragon">🐉</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Dragon Masters: Fortress of the Stone Dragon</em> (Scholastic Branches, 2020) — by Tracey West</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Tracey West",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Tracey West",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who is Astrid?", "zh": "阿斯特丽德（Astrid）是谁？"}, "options": [{"en": "Hulda's dangerous sister and a dark wizard", "zh": "赫尔达危险的妹妹，也是一名黑巫师"}, {"en": "The Dragon Master of the Stone Dragon", "zh": "石龙的驯龙师"}, {"en": "The king of the Far North", "zh": "北境之王"}, {"en": "A friendly Head Wizard", "zh": "一位和善的巫师首领"}], "answer": 0, "explain": {"en": "Astrid is Hulda's red-haired sister who learned terrible dark magic and is the most dangerous wizard Griffith knows.", "zh": "阿斯特丽德是赫尔达的红发妹妹，她学会了可怕的黑魔法，是格里菲斯所知最危险的巫师。"}}, {"q": {"en": "What spell is Astrid preparing with her five rare ingredients?", "zh": "阿斯特丽德用那五种稀有材料准备施展什么咒语？"}, "options": [{"en": "A sleeping spell", "zh": "沉睡咒"}, {"en": "A flying spell", "zh": "飞行咒"}, {"en": "The False Life spell, which brings non-living things to life", "zh": "“虚假生命咒”，能让没有生命的东西活过来"}, {"en": "A weather spell", "zh": "天气咒"}], "answer": 2, "explain": {"en": "Jayana recognizes the ingredients as those used only for a False Life spell that can animate rocks, wood, or bones.", "zh": "贾亚娜认出这些材料只用于“虚假生命咒”，能让石头、木头或骨头获得生命。"}}, {"q": {"en": "What is the name of the Stone Dragon at the fortress?", "zh": "堡垒里的石龙叫什么名字？"}, "options": [{"en": "Frost", "zh": "霜（Frost）"}, {"en": "Shaka", "zh": "沙卡（Shaka）"}, {"en": "Worm", "zh": "沃姆（Worm）"}, {"en": "Sono", "zh": "索诺（Sono）"}], "answer": 1, "explain": {"en": "Shaka is the sturdy gray Stone Dragon whose Dragon Master is a boy named Caspar.", "zh": "沙卡是一条结实、灰色的石龙，它的驯龙师是个叫卡斯帕的男孩。"}}, {"q": {"en": "What is Shaka's secret power?", "zh": "沙卡的秘密能力是什么？"}, "options": [{"en": "Breathing fire", "zh": "喷火"}, {"en": "Flying at great speed", "zh": "极速飞行"}, {"en": "Making it rain", "zh": "呼风唤雨"}, {"en": "Turning people into stone", "zh": "把人变成石头"}], "answer": 3, "explain": {"en": "Caspar reveals that Shaka can fire gray beams that turn people into stone, a dangerous power used only in emergencies.", "zh": "卡斯帕透露，沙卡能射出灰色光束把人变成石头，这是只在紧急时刻才用的危险能力。"}}, {"q": {"en": "What lies in the fortress's Garden of the Beasts?", "zh": "堡垒里“群兽花园”中躺着什么？"}, "options": [{"en": "Giant bones of ancient beasts", "zh": "远古巨兽的巨大骸骨"}, {"en": "Piles of gold", "zh": "一堆堆黄金"}, {"en": "Sleeping dragons", "zh": "沉睡的龙"}, {"en": "Fields of crops", "zh": "成片的庄稼"}], "answer": 0, "explain": {"en": "Scattered across the ground are hundreds of huge bones from giant beasts that lived long before dragons.", "zh": "地上散落着数百根巨大的骸骨，属于比龙还古老的巨型野兽。"}}, {"q": {"en": "How does Astrid control the soldiers in her army?", "zh": "阿斯特丽德是如何控制她军队里的士兵的？"}, "options": [{"en": "She pays them gold", "zh": "她付给他们黄金"}, {"en": "She threatens their families", "zh": "她威胁他们的家人"}, {"en": "With a red crystal that makes their eyes glow red", "zh": "用一块让他们眼睛发红光的红水晶"}, {"en": "She uses a loud whistle", "zh": "她用响亮的哨声"}], "answer": 2, "explain": {"en": "The soldiers' eyes are glazed red because Astrid controls them through a glowing red crystal around her neck.", "zh": "士兵们的眼睛泛着红光，是因为阿斯特丽德用脖子上那块发光的红水晶控制了他们。"}}, {"q": {"en": "How do Drake and the dragons stop Astrid's first big attack?", "zh": "德雷克和龙们是如何挡下阿斯特丽德的第一次大举进攻的？"}, "options": [{"en": "They freeze the soldiers", "zh": "他们把士兵冻住"}, {"en": "Worm breaks Astrid's red crystal with his mind powers", "zh": "沃姆用意念力击碎了阿斯特丽德的红水晶"}, {"en": "They run away", "zh": "他们逃跑了"}, {"en": "The Head Wizard arrives", "zh": "巫师首领赶到了"}], "answer": 1, "explain": {"en": "Drake asks Worm to use his mind powers on the crystal, and it shakes and explodes into dust, freeing the soldiers.", "zh": "德雷克让沃姆用意念力攻击水晶，水晶震动并化为灰尘，士兵们得以解脱。"}}, {"q": {"en": "How does Astrid gain the power to breathe fire?", "zh": "阿斯特丽德是如何获得喷火能力的？"}, "options": [{"en": "She drinks the orange liquid from her belt bottles", "zh": "她喝下腰间瓶子里橙色的液体"}, {"en": "She finds a Fire Dragon", "zh": "她找到了一条火龙"}, {"en": "She casts a long spell", "zh": "她念了一段很长的咒语"}, {"en": "Shaka gives it to her", "zh": "沙卡把它给了她"}], "answer": 3, "explain": {"en": "Astrid carries bottled dragon powers on her belt; swallowing the orange liquid gives her the Fire Dragon's flame breath.", "zh": "阿斯特丽德腰带上挂着装满龙之力量的瓶子，喝下橙色液体就获得了火龙的喷火能力。"}}, {"q": {"en": "How does Astrid get the stone-turning power for herself?", "zh": "阿斯特丽德是如何把“石化”能力弄到手的？"}, "options": [{"en": "She steals Shaka's Dragon Stone", "zh": "她偷走了沙卡的龙石"}, {"en": "She captures Shaka's gray beams in a bottle and drinks it", "zh": "她把沙卡的灰色光束收进瓶子喝下"}, {"en": "Griffith gives it to her", "zh": "格里菲斯给了她"}, {"en": "She finds it in the garden", "zh": "她在花园里找到了"}], "answer": 1, "explain": {"en": "When Caspar commands Shaka's secret power, Astrid traps the gray beams in an empty bottle with 'Captivatis' and drinks it.", "zh": "卡斯帕命令沙卡发动秘密能力时，阿斯特丽德用“Captivatis”把灰色光束收进空瓶喝下，夺走了石化之力。"}}, {"q": {"en": "What does Ana discover that can reverse the False Life spell?", "zh": "安娜发现了什么能解除“虚假生命咒”？"}, "options": [{"en": "A stronger wizard", "zh": "一个更强大的巫师"}, {"en": "A magic sword", "zh": "一把魔法剑"}, {"en": "Three special dragons are the key", "zh": "关键在于三条特殊的龙"}, {"en": "More Power Crystals", "zh": "更多能量水晶"}], "answer": 2, "explain": {"en": "After flying to the Dragon Temple, Ana learns dragons are the key and that they must find three special dragons to break the spell.", "zh": "安娜飞到龙神殿后得知，龙才是破咒的关键，必须找齐三条特殊的龙才能解除咒语。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

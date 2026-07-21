@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dragon Masters — Books</title>
+<style>
+  :root{
+    --grass:#27ae60;
+    --grass-dark:#1e8449;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --dragon:#6c5ce7;
+    --dragon-dark:#4834a0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);min-height:100vh;padding:0 0 40px;
+  }
+  header{
+    background:var(--dragon);color:#fff;text-align:center;
+    padding:26px 18px 20px;position:relative;
+  }
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .topbar h1{margin:0;font-size:1.5rem;flex:1;text-align:center;}
+  .homeBtn{
+    font-size:1.35rem;text-decoration:none;background:#fff;border-radius:50%;
+    width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{margin:10px 0 0;font-size:.92rem;opacity:.92;}
+  .dragon{
+    width:62px;height:62px;border-radius:50%;background:#fff;
+    margin:14px auto 4px;position:relative;display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.22);
+  }
+  .wrap{max-width:1000px;margin:26px auto 0;padding:0 18px;}
+  .intro{
+    background:var(--cream);border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.3);
+    padding:18px 22px;font-size:.95rem;line-height:1.6;color:#444;
+  }
+  .intro b{color:var(--grass-dark);}
+  .grid{
+    margin-top:22px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;
+  }
+  .book{
+    background:var(--cream);border-radius:16px;overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.28);
+    display:flex;flex-direction:column;border-top:6px solid var(--accent,var(--grass));
+    transition:transform .15s,box-shadow .15s;
+  }
+  .book:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(0,0,0,.34);}
+  .book .top{padding:16px;text-align:center;background:linear-gradient(180deg,var(--accent,#2e8b57),transparent);}
+  .num{
+    width:54px;height:54px;line-height:54px;border-radius:50%;background:#fff;
+    color:var(--accent,#2e8b57);font-size:1.5rem;font-weight:bold;margin:0 auto 8px;
+    border:3px solid #fff;box-shadow:0 4px 10px rgba(0,0,0,.2);
+  }
+  .book .emoji{font-size:1.7rem;}
+  .book .title{margin:4px 0;font-size:1.02rem;font-weight:bold;line-height:1.3;padding:0 12px;}
+  .book .titleZh{margin:0 0 6px;font-size:.82rem;color:#888;padding:0 12px;}
+  .book .body{padding:6px 14px 16px;flex:1;display:flex;flex-direction:column;}
+  .book .desc{font-size:.82rem;color:#555;line-height:1.45;margin:0 0 12px;flex:1;padding:0 6px;}
+  .start{
+    display:block;text-align:center;text-decoration:none;font-family:inherit;
+    font-size:.95rem;font-weight:bold;color:#fff;background:var(--accent,#2e8b57);
+    padding:10px;border-radius:30px;box-shadow:0 4px 12px rgba(0,0,0,.2);transition:filter .15s;
+  }
+  .start:hover{filter:brightness(1.08);}
+  footer{text-align:center;color:rgba(255,255,255,.85);font-size:.8rem;margin-top:32px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    <h1>Dragon Masters</h1>
+    <span style="width:40px"></span>
+  </div>
+  <div class="dragon">🐉</div>
+  <p>初章书 · Early Chapter Books — by Tracey West</p>
+</header>
+
+<div class="wrap">
+  <div class="intro">
+    🐉 <b>28 本《驯龙大师》冒险故事（#1–#28），每本都有中英双语阅读理解测验。</b><br>
+    28 Dragon Masters adventures, each with a bilingual (English / 中文) comprehension quiz. Tap a book, read the questions, then check your answers!
+  </div>
+
+  <div class="grid">
+    <article class="book" style="--accent:#c0392b">
+      <div class="top"><div class="num">1</div><div class="emoji">🌍</div></div>
+      <div class="body">
+        <h3 class="title">Rise of the Earth Dragon</h3>
+        <p class="titleZh">土之龙的崛起</p>
+        <p class="desc">A boy named Drake is pulled from the castle kitchen to become a Dragon Master — and meets a rumbling earth dragon! 🌍</p>
+        <a class="start" href="rise-of-the-earth-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#8e44ad">
+      <div class="top"><div class="num">02</div><div class="emoji">☀️</div></div>
+      <div class="body">
+        <h3 class="title">Saving the Sun Dragon</h3>
+        <p class="titleZh">拯救太阳龙</p>
+        <p class="desc">Drake races to save a sick Sun Dragon before the kingdom loses its light! ☀️</p>
+        <a class="start" href="saving-the-sun-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2c3e50">
+      <div class="top"><div class="num">03</div><div class="emoji">💧</div></div>
+      <div class="body">
+        <h3 class="title">Secret of the Water Dragon</h3>
+        <p class="titleZh">水之龙的秘密</p>
+        <p class="desc">Bo's family is in danger—can the Dragon Masters protect the Dragon Stone? 💧</p>
+        <a class="start" href="secret-of-the-water-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#d35400">
+      <div class="top"><div class="num">04</div><div class="emoji">🔥</div></div>
+      <div class="body">
+        <h3 class="title">Power of the Fire Dragon</h3>
+        <p class="titleZh">火龙的力量</p>
+        <p class="desc">Left behind to guard the castle, Drake and Rori face Maldred's four-headed dragon! 🔥</p>
+        <a class="start" href="power-of-the-fire-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#0984e3">
+      <div class="top"><div class="num">05</div><div class="emoji">🐍</div></div>
+      <div class="body">
+        <h3 class="title">Song of the Poison Dragon</h3>
+        <p class="titleZh">毒龙之歌</p>
+        <p class="desc">Petra must bond with a poison-breathing hydra to save the king! 🐍</p>
+        <a class="start" href="song-of-the-poison-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#6c5ce7">
+      <div class="top"><div class="num">06</div><div class="emoji">🌙</div></div>
+      <div class="body">
+        <h3 class="title">Flight of the Moon Dragon</h3>
+        <p class="titleZh">月之龙的飞翔</p>
+        <p class="desc">The Dragon Masters race to save the dying prime Dragon Stone — and a surprise hatches! 🌙</p>
+        <a class="start" href="flight-of-the-moon-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#00b894">
+      <div class="top"><div class="num">07</div><div class="emoji">⚡</div></div>
+      <div class="body">
+        <h3 class="title">Search for the Lightning Dragon</h3>
+        <p class="titleZh">寻找闪电龙</p>
+        <p class="desc">A wild baby Lightning Dragon is on the loose, and a new Dragon Master must step up! ⚡</p>
+        <a class="start" href="search-for-the-lightning-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#e84393">
+      <div class="top"><div class="num">08</div><div class="emoji">🌩️</div></div>
+      <div class="body">
+        <h3 class="title">Roar of the Thunder Dragon</h3>
+        <p class="titleZh">雷龙之吼</p>
+        <p class="desc">A runaway Dragon Master and a roaring Thunder Dragon shake up the kingdom! 🌩️</p>
+        <a class="start" href="roar-of-the-thunder-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#f39c12">
+      <div class="top"><div class="num">09</div><div class="emoji">❄️</div></div>
+      <div class="body">
+        <h3 class="title">Chill of the Ice Dragon</h3>
+        <p class="titleZh">冰龙之寒</p>
+        <p class="desc">An Ice Giant freezes a faraway kingdom — only a Fire Dragon can save the day! ❄️</p>
+        <a class="start" href="chill-of-the-ice-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#7e57c2">
+      <div class="top"><div class="num">10</div><div class="emoji">🌈</div></div>
+      <div class="body">
+        <h3 class="title">Waking the Rainbow Dragon</h3>
+        <p class="titleZh">唤醒彩虹龙</p>
+        <p class="desc">A rainbow dragon's colors hold the key to a surprising mystery! 🌈</p>
+        <a class="start" href="waking-the-rainbow-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#10ac84">
+      <div class="top"><div class="num">11</div><div class="emoji">🥈</div></div>
+      <div class="body">
+        <h3 class="title">Shine of the Silver Dragon</h3>
+        <p class="titleZh">银龙之光</p>
+        <p class="desc">A silver dragon's shine hides a secret that could save the world! 🥈</p>
+        <a class="start" href="shine-of-the-silver-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#ee5253">
+      <div class="top"><div class="num">12</div><div class="emoji">💰</div></div>
+      <div class="body">
+        <h3 class="title">Treasure of the Gold Dragon</h3>
+        <p class="titleZh">黄金龙之宝藏</p>
+        <p class="desc">A shape-shifting gold dragon guards a treasure no thief can keep! 💰</p>
+        <a class="start" href="treasure-of-the-gold-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#5f27cd">
+      <div class="top"><div class="num">13</div><div class="emoji">🌋</div></div>
+      <div class="body">
+        <h3 class="title">Eye of the Earthquake Dragon</h3>
+        <p class="titleZh">地震龙之眼</p>
+        <p class="desc">An earthquake dragon awakens — can the Dragon Masters keep the world from shaking apart? 🌋</p>
+        <a class="start" href="eye-of-the-earthquake-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#ff9f43">
+      <div class="top"><div class="num">14</div><div class="emoji">🌸</div></div>
+      <div class="body">
+        <h3 class="title">The Land of the Spring Dragon</h3>
+        <p class="titleZh">春龙之境</p>
+        <p class="desc">A hidden land of seasons needs the Dragon Masters' help! 🌸</p>
+        <a class="start" href="land-of-the-spring-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#48dbfb">
+      <div class="top"><div class="num">15</div><div class="emoji">⏳</div></div>
+      <div class="body">
+        <h3 class="title">Future of the Time Dragon</h3>
+        <p class="titleZh">时光龙之未来</p>
+        <p class="desc">Drake races through time to save a friend before it's too late! ⏳</p>
+        <a class="start" href="future-of-the-time-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#e74c3c">
+      <div class="top"><div class="num">16</div><div class="emoji">🔔</div></div>
+      <div class="body">
+        <h3 class="title">Call of the Sound Dragon</h3>
+        <p class="titleZh">音龙之召唤</p>
+        <p class="desc">A sound no one can ignore calls the Dragon Masters to Remus! 🔔</p>
+        <a class="start" href="call-of-the-sound-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#16a085">
+      <div class="top"><div class="num">17</div><div class="emoji">🪨</div></div>
+      <div class="body">
+        <h3 class="title">Fortress of the Stone Dragon</h3>
+        <p class="titleZh">石龙堡垒</p>
+        <p class="desc">An evil wizard's army of bones threatens the stone fortress! 🪨</p>
+        <a class="start" href="fortress-of-the-stone-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#8e44ad">
+      <div class="top"><div class="num">18</div><div class="emoji">🌋</div></div>
+      <div class="body">
+        <h3 class="title">Heat of the Lava Dragon</h3>
+        <p class="titleZh">熔岩龙之炽</p>
+        <p class="desc">A bubbling lava dragon leads the Dragon Masters underground! 🌋</p>
+        <a class="start" href="heat-of-the-lava-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2c3e50">
+      <div class="top"><div class="num">19</div><div class="emoji">🌊</div></div>
+      <div class="body">
+        <h3 class="title">Wave of the Sea Dragon</h3>
+        <p class="titleZh">海龙之浪</p>
+        <p class="desc">A roaring sea dragon raises a giant wave to save the day! 🌊</p>
+        <a class="start" href="wave-of-the-sea-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#d35400">
+      <div class="top"><div class="num">20</div><div class="emoji">💨</div></div>
+      <div class="body">
+        <h3 class="title">Howl of the Wind Dragon</h3>
+        <p class="titleZh">风龙之啸</p>
+        <p class="desc">A howling wind dragon breaks free to finish the quest! 💨</p>
+        <a class="start" href="howl-of-the-wind-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#0984e3">
+      <div class="top"><div class="num">21</div><div class="emoji">🌼</div></div>
+      <div class="body">
+        <h3 class="title">Bloom of the Flower Dragon</h3>
+        <p class="titleZh">花龙绽放</p>
+        <p class="desc">A tiny Flower Dragon needs help to save his tribe from a terrible werewolf! 🌼</p>
+        <a class="start" href="bloom-of-the-flower-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#6c5ce7">
+      <div class="top"><div class="num">22</div><div class="emoji">👻</div></div>
+      <div class="body">
+        <h3 class="title">Guarding the Invisible Dragons</h3>
+        <p class="titleZh">守护隐身龙</p>
+        <p class="desc">A nest of invisible baby dragons needs magical fruit from a dangerous island before their powers fade! 👻</p>
+        <a class="start" href="guarding-the-invisible-dragons-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#00b894">
+      <div class="top"><div class="num">23</div><div class="emoji">🌑</div></div>
+      <div class="body">
+        <h3 class="title">Curse of the Shadow Dragon</h3>
+        <p class="titleZh">暗影龙之咒</p>
+        <p class="desc">A cursed Shadow Dragon is blanketing the sky — can the Dragon Masters find a way to stop him? 🌑</p>
+        <a class="start" href="curse-of-the-shadow-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#e84393">
+      <div class="top"><div class="num">24</div><div class="emoji">💡</div></div>
+      <div class="body">
+        <h3 class="title">Dawn of the Light Dragon</h3>
+        <p class="titleZh">光龙之黎明</p>
+        <p class="desc">The Dragon Masters need a shining Light Dragon to help summon a star and save the world! 💡</p>
+        <a class="start" href="dawn-of-the-light-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#f39c12">
+      <div class="top"><div class="num">25</div><div class="emoji">⭐</div></div>
+      <div class="body">
+        <h3 class="title">Legend of the Star Dragon</h3>
+        <p class="titleZh">星龙传说</p>
+        <p class="desc">It's time to play the Star Flute and summon a legendary dragon to banish the sky-shadow! ⭐</p>
+        <a class="start" href="legend-of-the-star-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#0abde3">
+      <div class="top"><div class="num">26</div><div class="emoji">💎</div></div>
+      <div class="body">
+        <h3 class="title">Cave of the Crystal Dragon</h3>
+        <p class="titleZh">水晶龙之洞</p>
+        <p class="desc">A sparkling crystal dragon hides a secret in its cave! 💎</p>
+        <a class="start" href="cave-of-the-crystal-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#10ac84">
+      <div class="top"><div class="num">27</div><div class="emoji">👻</div></div>
+      <div class="body">
+        <h3 class="title">Haunting of the Ghost Dragon</h3>
+        <p class="titleZh">幽灵龙惊魂</p>
+        <p class="desc">Drake and Bo face a haunted castle and a ghostly dragon! 👻</p>
+        <a class="start" href="haunting-of-the-ghost-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#ee5253">
+      <div class="top"><div class="num">28</div><div class="emoji">💤</div></div>
+      <div class="body">
+        <h3 class="title">Night of the Dream Dragon</h3>
+        <p class="titleZh">梦境龙之夜</p>
+        <p class="desc">Drake chases Zoltan through a world of dreams! 💤</p>
+        <a class="start" href="night-of-the-dream-dragon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+  </div>
+</div>
+
+<footer>Part of 英语分级阅读乐园 · Reading by Level</footer>
+</body>
+</html>

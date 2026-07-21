@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guarding the Invisible Dragons — Quiz</title>
+<style>
+  :root{
+    --grass:#27ae60;
+    --grass-dark:#1e8449;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --dragon:#6c5ce7;
+    --dragon-dark:#4834a0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--dragon);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--dragon);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .dragon{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--dragon-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(108,92,231,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(108,92,231,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#22 · Guarding the Invisible Dragons</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Tracey West</p>
+    <div class="dragon">🐉</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Dragon Masters: Guarding the Invisible Dragons</em> (Scholastic Branches, 2022) — by Tracey West</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Tracey West",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Tracey West",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Where is the nest of baby Invisible Dragons found at the start of the story?", "zh": "故事开头，隐身龙宝宝的巢穴是在哪里被发现的？"}, "options": [{"en": "In a cave on Dove Island", "zh": "在多夫岛的一个山洞里"}, {"en": "In one of Queen Sofia's castle towers", "zh": "在索菲亚女王的城堡塔楼里"}, {"en": "In Diego's seaside cottage", "zh": "在迭戈的海边小屋"}, {"en": "In the Valley of Clouds", "zh": "在云之谷"}], "answer": 1, "explain": {"en": "Queen Sofia explains that one of her guards discovered the dragons' nest about a week earlier inside a castle tower.", "zh": "索菲亚女王说，大约一周前她的一名卫兵在城堡塔楼里发现了龙宝宝的巢穴。"}}, {"q": {"en": "Why must the baby Invisible Dragons eat fruit from the Dragon Tree?", "zh": "隐身龙宝宝为什么必须吃龙树上的果实？"}, "options": [{"en": "It makes them grow much bigger", "zh": "能让它们长得更大"}, {"en": "It keeps their invisibility power before their third horn sprouts", "zh": "能在第三只角长出前保住它们隐身的能力"}, {"en": "It teaches them how to fly", "zh": "教它们如何飞行"}, {"en": "It makes them friendly to humans", "zh": "让它们对人类友好"}], "answer": 1, "explain": {"en": "Diego reads that Invisible Dragons must eat the Dragon Tree fruit before their third horn sprouts, or they lose the ability to become visible at will.", "zh": "迭戈读到，隐身龙必须在第三只角长出前吃下龙树果实，否则就会失去随心隐身的能力。"}}, {"q": {"en": "Who travels with Drake and Worm to Dove Island?", "zh": "谁和德雷克、沃姆一起前往多夫岛？"}, "options": [{"en": "Carlos", "zh": "卡洛斯"}, {"en": "Val", "zh": "瓦尔"}, {"en": "Queen Sofia", "zh": "索菲亚女王"}, {"en": "Diego", "zh": "迭戈"}], "answer": 1, "explain": {"en": "Drake and Worm go, and Val insists on coming to help. Carlos and Diego stay at the castle to look after the other babies.", "zh": "德雷克和沃姆出发，瓦尔坚持要一起去帮忙。卡洛斯和迭戈留在城堡照顾其他龙宝宝。"}}, {"q": {"en": "How does the baby dragon Fig end up on Dove Island?", "zh": "龙宝宝菲格是怎么到了多夫岛的？"}, "options": [{"en": "The queen sends her there", "zh": "女王派它去的"}, {"en": "She secretly hitchhikes with Worm during transport", "zh": "它在传送时偷偷搭了沃姆的顺风车"}, {"en": "She flies there all by herself", "zh": "它自己飞过去的"}, {"en": "Carlos carries her in a bag", "zh": "卡洛斯把它装在袋子里带去"}], "answer": 1, "explain": {"en": "Fig sneaks onto Worm during the magical transport and is discovered on the island, just like she later hitches a ride back.", "zh": "菲格在魔法传送时偷偷溜到沃姆身上，到了岛上才被发现，后来它又用同样的方式搭了回程的顺风车。"}}, {"q": {"en": "Why did Fig's parents, Tana and Yeray, leave the babies behind?", "zh": "菲格的父母塔娜和耶拉伊为什么把宝宝们留下了？"}, "options": [{"en": "They were afraid of the castle", "zh": "它们害怕城堡"}, {"en": "They went to Dove Island to get the fruit that keeps their powers", "zh": "它们去多夫岛取能保住能力的果实"}, {"en": "They were captured by the queen", "zh": "它们被女王抓走了"}, {"en": "They went to find Carlos", "zh": "它们去找卡洛斯了"}], "answer": 1, "explain": {"en": "Getting the fruit is a task that requires two Invisible Dragons, so both parents went to Dove Island together.", "zh": "取果实需要两只隐身龙一起完成，所以父母俩一同去了多夫岛。"}}, {"q": {"en": "What traps Fig's father, Yeray, on the island?", "zh": "菲格的父亲耶拉伊在岛上被什么困住了？"}, "options": [{"en": "A waterfall", "zh": "一道瀑布"}, {"en": "Rocks from an avalanche", "zh": "雪崩滚落下来的岩石"}, {"en": "A toothy purple fish", "zh": "一条长牙的紫鱼"}, {"en": "A dense jungle", "zh": "茂密丛林"}], "answer": 1, "explain": {"en": "While following the stream, an avalanche of rocks tumbled down the mountain and trapped Yeray underneath.", "zh": "顺着溪流行走时，山上的岩石雪崩般滚落，把耶拉伊压在了下面。"}}, {"q": {"en": "How does Val recognize Fig among the baby dragons?", "zh": "瓦尔如何在龙宝宝中认出菲格？"}, "options": [{"en": "Fig is the biggest one", "zh": "菲格是最大的一只"}, {"en": "Fig's face fins are solid blue-green while the others have purple in theirs", "zh": "菲格脸边的鳍是纯蓝绿色，而其他几只有紫色"}, {"en": "Fig already has three horns", "zh": "菲格已经有三只角了"}, {"en": "Fig is bright pink", "zh": "菲格是亮粉色的"}], "answer": 1, "explain": {"en": "Val notices that all of Fig's face fins are solid blue-green, while the other babies have some purple in their fins.", "zh": "瓦尔注意到菲格脸边的鳍全是蓝绿色，而其他宝宝鳍里带些紫色。"}}, {"q": {"en": "What danger guards the Dragon Tree's fruit?", "zh": "守护龙树果实的危险是什么？"}, "options": [{"en": "Shadow phantoms", "zh": "暗影幽灵"}, {"en": "Toothy purple fish in the moat", "zh": "护城河里长着尖牙的紫鱼"}, {"en": "A griffin", "zh": "狮鹫"}, {"en": "A sleeping dragon", "zh": "一只沉睡的龙"}], "answer": 1, "explain": {"en": "A moat surrounds the Dragon Tree, and large purple fish with sharp teeth leap out to snap at anyone who tries to cross.", "zh": "龙树四周有一条护城河，里面游着长着尖牙的大紫鱼，会扑出来咬试图过河的人。"}}, {"q": {"en": "How does Fig get across the moat to reach the fruit?", "zh": "菲格是怎么越过护城河去够果实的？"}, "options": [{"en": "She swims while Tana distracts the fish with a branch", "zh": "塔娜用树枝引开鱼，它趁机游过去"}, {"en": "Worm carries her across", "zh": "沃姆把它驮过去"}, {"en": "She flies high over the moat", "zh": "它高高地飞过护城河"}, {"en": "The fish carry her", "zh": "鱼把它驮过去"}], "answer": 0, "explain": {"en": "Tana becomes invisible and waves a branch over the water to distract the fish while Fig turns invisible and jumps across.", "zh": "塔娜隐身用树枝在水面引开鱼，菲格同时隐身跳过了护城河。"}}, {"q": {"en": "What surprising thing happens at the very end of the book?", "zh": "故事最后发生了什么出人意料的事？"}, "options": [{"en": "Drake becomes king", "zh": "德雷克成了国王"}, {"en": "Val is chosen by the Dragon Stone to be Fig's Dragon Master", "zh": "龙石选择瓦尔成为菲格的驯龙师"}, {"en": "The dragons leave forever", "zh": "龙们永远离开了"}, {"en": "Carlos moves into the castle", "zh": "卡洛斯搬进了城堡"}], "answer": 1, "explain": {"en": "Griffith's Dragon Stone glows and reveals Val as Fig's Dragon Master because of the strong bond they formed.", "zh": "格里菲斯的龙石发光，认定瓦尔是菲格的驯龙师，因为她们之间已经建立了深厚的羁绊。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

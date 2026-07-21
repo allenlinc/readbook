@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legend of the Star Dragon — Quiz</title>
+<style>
+  :root{
+    --grass:#27ae60;
+    --grass-dark:#1e8449;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --dragon:#6c5ce7;
+    --dragon-dark:#4834a0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--dragon);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--dragon);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .dragon{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--dragon-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(108,92,231,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(108,92,231,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#25 · Legend of the Star Dragon</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Tracey West</p>
+    <div class="dragon">🐉</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Dragon Masters: Legend of the Star Dragon</em> (Scholastic Branches, 2023) — by Tracey West</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Tracey West",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Tracey West",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Where is the Star Temple where a Star Dragon's egg is laid?", "zh": "星龙产卵的星之神庙在哪里？"}, "options": [{"en": "Mount Sky in Helas", "zh": "赫拉斯的星空山"}, {"en": "Dove Island", "zh": "多夫岛"}, {"en": "Belerion", "zh": "贝勒里昂"}, {"en": "The Pyramid of the Seven Dragons", "zh": "七龙金字塔"}], "answer": 0, "explain": {"en": "The legend says a Star Dragon lays her egg at the Star Temple on the highest peak of Mount Sky in Helas.", "zh": "传说里说，星龙会在赫拉斯星空山最高峰的星之神庙产卵。"}}, {"q": {"en": "Who is the Star Dragon that is summoned, and who is her Dragon Master?", "zh": "被召唤的星龙是谁，它的驯龙师又是谁？"}, "options": [{"en": "Nova and Stella", "zh": "诺娃和斯特拉"}, {"en": "Chaya and Aruna", "zh": "查亚和阿鲁娜"}, {"en": "Lysa and Rune", "zh": "莱莎和鲁恩"}, {"en": "Zera and Petra", "zh": "泽拉和佩特拉"}], "answer": 0, "explain": {"en": "Stella, a girl with long pale blue hair, is the Dragon Master of Nova the Star Dragon.", "zh": "留着淡蓝色长发的女孩斯特拉是星龙诺娃的驯龙师。"}}, {"q": {"en": "Who created the Star Flute?", "zh": "星笛是谁创造的？"}, "options": [{"en": "Griffith", "zh": "格里菲斯"}, {"en": "Harmonia, the Goddess of Music", "zh": "音乐女神哈莫妮亚"}, {"en": "Vanad", "zh": "瓦纳德"}, {"en": "Petra", "zh": "佩特拉"}], "answer": 1, "explain": {"en": "When Stella missed Nova, she asked Harmonia the Goddess of Music for help, and Harmonia created the Star Flute.", "zh": "斯特拉想念诺娃，于是向音乐女神哈莫妮亚求助，哈莫妮亚便创造了星笛。"}}, {"q": {"en": "What creature guards the Star Temple, and how is it dealt with?", "zh": "星之神庙由什么生物守卫，又是如何被对付的？"}, "options": [{"en": "A dragon fought with swords", "zh": "一条用剑战斗的龙"}, {"en": "A griffin put to sleep by Zera's lullaby", "zh": "一只被泽拉用摇篮曲催眠的狮鹫"}, {"en": "A ghost", "zh": "一个幽灵"}, {"en": "A troll blocked by Worm", "zh": "一只被沃姆挡住的巨魔"}], "answer": 1, "explain": {"en": "A griffin guards the temple; Zera the Poison Dragon sings a calming lullaby that puts it to sleep for a day and a night.", "zh": "神庙由狮鹫守卫，毒龙泽拉唱起安神的摇篮曲，让它沉睡了一天一夜。"}}, {"q": {"en": "Who can read the music notes to play the Star Flute?", "zh": "谁能读谱来吹奏星笛？"}, "options": [{"en": "Drake", "zh": "德雷克"}, {"en": "Petra", "zh": "佩特拉"}, {"en": "Darpan", "zh": "达尔潘"}, {"en": "Aruna", "zh": "阿鲁娜"}], "answer": 1, "explain": {"en": "Petra learned to read music so she could play the flute when Zera sings, so she plays the summoning song.", "zh": "佩特拉学过读谱，以便泽拉唱歌时能为它伴奏，于是由她来吹奏召唤之曲。"}}, {"q": {"en": "How do Chaya and Aruna reach Mount Sky so much faster than expected?", "zh": "查亚和阿鲁娜为什么比预计的快那么多到达星空山？"}, "options": [{"en": "They fly there normally", "zh": "它们正常飞过去"}, {"en": "Chaya makes a portal through the sky-shadow", "zh": "查亚在阴影中制造了传送门"}, {"en": "Worm transports them", "zh": "沃姆把它们传送过去"}, {"en": "They walk up the mountain", "zh": "它们走上山"}], "answer": 1, "explain": {"en": "Darpan explains he did not know Chaya could create portals to travel through the sky-shadow, so they arrive early.", "zh": "达尔潘说，他不知道查亚能在阴影中制造传送门，所以它们提前到了。"}}, {"q": {"en": "How does Worm help Aruna break free from the Balam seed's evil?", "zh": "沃姆如何帮助阿鲁娜摆脱巴拉姆种子的邪恶影响？"}, "options": [{"en": "He gives her the Star Stone", "zh": "它把星石给了她"}, {"en": "He shines green light to break her connection to the seed", "zh": "它发出绿光，切断她与种子的联系"}, {"en": "He feeds her fruit", "zh": "它喂她吃果实"}, {"en": "He freezes her", "zh": "它把她冻住"}], "answer": 1, "explain": {"en": "With Chaya frozen, Worm shines green light to break Aruna's connection to the seed for a few moments, letting Darpan reach her.", "zh": "趁查亚被冻住，沃姆发出绿光，暂时切断阿鲁娜与种子的联系，让达尔潘能打动她。"}}, {"q": {"en": "What is Nova's strongest power that removes the Balam seed from Chaya?", "zh": "诺娃用什么最强招式把巴拉姆种子从查亚体内逼出？"}, "options": [{"en": "Star Beams", "zh": "星之光束"}, {"en": "Star Dust", "zh": "星之尘埃"}, {"en": "Super Shine", "zh": "超级闪耀"}, {"en": "Star Whip", "zh": "星之鞭"}], "answer": 2, "explain": {"en": "Nova charges up and performs Super Shine, a blinding burst of light that lifts Chaya and forces the seed out.", "zh": "诺娃蓄力使出“超级闪耀”，一阵刺眼的光芒托起查亚，把种子逼了出来。"}}, {"q": {"en": "What happens to the Balam seed and the sky-shadow at the end?", "zh": "结尾时巴拉姆种子和天幕阴影分别怎样了？"}, "options": [{"en": "The seed grows bigger", "zh": "种子变得更大"}, {"en": "The seed explodes and its light dissolves the sky-shadow", "zh": "种子爆炸，光芒驱散了天幕阴影"}, {"en": "Chaya eats it again", "zh": "查亚又把它吃下去"}, {"en": "It turns into a star", "zh": "它变成了一颗星星"}], "answer": 1, "explain": {"en": "The seed floats out, becomes a glowing ball of energy, and explodes; its sparkling light spreads and dissolves the sky-shadow worldwide.", "zh": "种子飘出，化作发光的能量球后爆炸，闪烁的光芒扩散开来，把全世界范围内的天幕阴影都溶解了。"}}, {"q": {"en": "What does Stella give Aruna to help people harmed by the shadow?", "zh": "斯特拉给了阿鲁娜什么，用来帮助被阴影所伤的人？"}, "options": [{"en": "A Star Stone", "zh": "一颗星石"}, {"en": "The Star Flute", "zh": "星笛"}, {"en": "A Dragon Stone", "zh": "一颗龙石"}, {"en": "The Balam seed", "zh": "巴拉姆种子"}], "answer": 0, "explain": {"en": "Stella hands Aruna a Star Stone that can help anyone harmed by Chaya's shadow powers.", "zh": "斯特拉把一颗星石交给阿鲁娜，它能帮助任何被查亚阴影力量所伤的人。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
