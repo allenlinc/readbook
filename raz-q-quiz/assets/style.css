@@ -66,6 +66,8 @@ a{color:var(--primary);text-decoration:none}
 }
 .q .stem{display:flex;align-items:flex-start;font-size:17px;font-weight:600;margin-bottom:12px}
 .q .stem .txt .zh{display:block;font-weight:400;color:var(--muted);font-size:14.5px;margin-top:3px}
+/* content text must always be dark/black (override any banner-color inheritance) */
+.txt,.txt .en,.opt .txt,.opt .txt .en{color:var(--ink)}
 .opts{display:flex;flex-direction:column;gap:9px}
 .opt{
   display:flex;align-items:flex-start;gap:10px;width:100%;text-align:left;
