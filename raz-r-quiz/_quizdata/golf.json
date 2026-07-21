@@ -1,0 +1,326 @@
+{
+  "slug": "golf",
+  "title": "Golf",
+  "titleZh": "高尔夫",
+  "level": "R",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {
+        "en": "Where is the birthplace of modern golf?",
+        "zh": "现代高尔夫运动的发源地是哪里？"
+      },
+      "options": [
+        {
+          "en": "Scotland",
+          "zh": "苏格兰"
+        },
+        {
+          "en": "The United States",
+          "zh": "美国"
+        },
+        {
+          "en": "Japan",
+          "zh": "日本"
+        },
+        {
+          "en": "The Moon",
+          "zh": "月球"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "'Scotland is the birthplace of modern golf.'",
+        "zh": "“苏格兰是现代高尔夫运动的发源地。”"
+      }
+    },
+    {
+      "q": {
+        "en": "In the glossary, what does 'par' mean in golf?",
+        "zh": "在词汇表中，高尔夫里的“par（标准杆）”是什么意思？"
+      },
+      "options": [
+        {
+          "en": "The number of golf strokes a player should use for a hole or course",
+          "zh": "球员完成一个洞或整场球赛应当使用的击球杆数"
+        },
+        {
+          "en": "A type of golf club",
+          "zh": "一种高尔夫球杆"
+        },
+        {
+          "en": "The person who carries clubs",
+          "zh": "负责拿球杆的人"
+        },
+        {
+          "en": "A water hazard",
+          "zh": "水障"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The glossary defines par as 'the number of golf strokes a player should use for a hole or course.'",
+        "zh": "词汇表将 par 定义为“球员完成一个洞或整场球赛应当使用的击球杆数”。"
+      }
+    },
+    {
+      "q": {
+        "en": "In golf, what is a 'bunker'?",
+        "zh": "在高尔夫中，“bunker（沙坑）”是什么？"
+      },
+      "options": [
+        {
+          "en": "A sand-filled hazard",
+          "zh": "填满沙子的障碍区"
+        },
+        {
+          "en": "The hole itself",
+          "zh": "球洞本身"
+        },
+        {
+          "en": "A type of putter",
+          "zh": "一种推杆"
+        },
+        {
+          "en": "The green",
+          "zh": "果岭"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "'One type of hazard is a sand-filled area called a bunker.'",
+        "zh": "“有一种障碍区是填满沙子的区域，叫做沙坑（bunker）。”"
+      }
+    },
+    {
+      "q": {
+        "en": "How do professional golfers get around the course differently from casual players?",
+        "zh": "职业高尔夫球员和休闲玩家在球场上移动的方式有何不同？"
+      },
+      "options": [
+        {
+          "en": "Pros ride golf carts while casual players walk",
+          "zh": "职业选手坐球车，休闲玩家步行"
+        },
+        {
+          "en": "Pros walk and have caddies carry their clubs, while casual players often ride carts",
+          "zh": "职业选手步行并有球童背包，休闲玩家常坐球车"
+        },
+        {
+          "en": "They both always fly",
+          "zh": "他们都用飞的"
+        },
+        {
+          "en": "Casual players use helicopters",
+          "zh": "休闲玩家用直升机"
+        }
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "'People who golf just for fun often ride the course in golf carts. Professional golfers walk... Helpers called caddies carry their clubs.'",
+        "zh": "“只为乐趣打球的人常坐球车游览球场。职业选手步行……叫做球童的助手替他们背包。”"
+      }
+    },
+    {
+      "q": {
+        "en": "According to the book, which golfer won the most major championships?",
+        "zh": "根据书中内容，哪位高尔夫球员赢得的大满贯冠军最多？"
+      },
+      "options": [
+        {
+          "en": "Jack Nicklaus (eighteen majors)",
+          "zh": "杰克·尼克劳斯（18个大满贯）"
+        },
+        {
+          "en": "Tiger Woods",
+          "zh": "老虎伍兹"
+        },
+        {
+          "en": "Patty Berg",
+          "zh": "帕蒂·伯格"
+        },
+        {
+          "en": "Alan Shepard",
+          "zh": "艾伦·谢泼德"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "'Jack Nicklaus is the top golfer in the history of the sport... He won eighteen majors.'",
+        "zh": "“杰克·尼克劳斯是这项运动历史上最顶尖的球员……他赢得过18个大满贯。”"
+      }
+    },
+    {
+      "q": {
+        "en": "According to the book, why do millions of people love to play golf?",
+        "zh": "根据书中内容，为什么数百万人喜欢打高尔夫？"
+      },
+      "options": [
+        {
+          "en": "Because it is always easy to win",
+          "zh": "因为总是很容易赢"
+        },
+        {
+          "en": "It offers fun, relaxation, beautiful places, and a chance to improve",
+          "zh": "它带来乐趣、放松、优美的环境以及提升自我的机会"
+        },
+        {
+          "en": "Because it requires no practice",
+          "zh": "因为它无需练习"
+        },
+        {
+          "en": "Because it is played indoors",
+          "zh": "因为它在室内进行"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "'Most of all, golf offers hours of fun and relaxation.' It is also played in 'beautiful places' with a chance 'to learn, practice, and improve.'",
+        "zh": "“最重要的是，高尔夫带来数小时的乐趣与放松。”它还在“优美的地方”进行，并让人有机会“学习、练习、进步”。"
+      }
+    },
+    {
+      "q": {
+        "en": "When did modern golf balls with rubber cores first appear?",
+        "zh": "带橡胶芯的现代高尔夫球最早出现在哪一年？"
+      },
+      "options": [
+        {
+          "en": "1898",
+          "zh": "1898年"
+        },
+        {
+          "en": "1848",
+          "zh": "1848年"
+        },
+        {
+          "en": "The 1400s",
+          "zh": "15世纪"
+        },
+        {
+          "en": "2001",
+          "zh": "2001年"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "'Modern golf balls with rubber cores first appeared in 1898.'",
+        "zh": "“带橡胶芯的现代高尔夫球最早出现于1898年。”"
+      }
+    },
+    {
+      "q": {
+        "en": "In golf, what are 'irons' used for?",
+        "zh": "在高尔夫中，“irons（铁杆）”是用来做什么的？"
+      },
+      "options": [
+        {
+          "en": "Shorter shots",
+          "zh": "较短距离的击球"
+        },
+        {
+          "en": "Long-distance hits",
+          "zh": "远距离击球"
+        },
+        {
+          "en": "Rolling the ball on the green",
+          "zh": "在果岭上滚动球"
+        },
+        {
+          "en": "Getting the ball out of water",
+          "zh": "把球从水里弄出来"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "'Irons are used for shorter shots.' Woods/fairway metals are for long distances, putters roll the ball.",
+        "zh": "“铁杆用于较短距离的击球。”木杆用于远距离，推杆用于在果岭上滚球。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book ends by saying golf is 'out of this world.' Where besides Earth was golf once played?",
+        "zh": "本书结尾说高尔夫“超越世界（out of this world）”。除了地球，高尔夫还曾在何处被打过？"
+      },
+      "options": [
+        {
+          "en": "The Moon",
+          "zh": "月球"
+        },
+        {
+          "en": "Mars",
+          "zh": "火星"
+        },
+        {
+          "en": "The bottom of the ocean",
+          "zh": "海底"
+        },
+        {
+          "en": "A spaceship",
+          "zh": "宇宙飞船里"
+        }
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "'The most unusual place golf has been played is ... the Moon! Astronaut Alan Shepard... hit a few golf balls while he was there' in 1971.",
+        "zh": "“高尔夫最不寻常的打球地点是……月球！宇航员艾伦·谢泼德1971年在那里时打了几杆球。”"
+      }
+    },
+    {
+      "q": {
+        "en": "According to the book's list, which country has the most golf courses?",
+        "zh": "根据书中的列表，哪个国家拥有最多的高尔夫球场？"
+      },
+      "options": [
+        {
+          "en": "United States (17,672)",
+          "zh": "美国（17,672个）"
+        },
+        {
+          "en": "Japan (2,442)",
+          "zh": "日本（2,442个）"
+        },
+        {
+          "en": "Scotland",
+          "zh": "苏格兰"
+        },
+        {
+          "en": "China (500)",
+          "zh": "中国（500个）"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The Top Ten list ranks '1. United States (17,672)' as having the most golf courses.",
+        "zh": "前十名列表中“1. 美国（17,672）”拥有最多的高尔夫球场。"
+      }
+    }
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Write a letter to a friend persuading him or her to start playing golf, using facts from the book.",
+      "zh": "用书中事实，写一封信说服朋友开始打高尔夫。"
+    },
+    "guidance": {
+      "en": [
+        "Mention that golf builds patience, focus, and offers relaxation.",
+        "Note its history in Scotland and that anyone can play with just a club and ball."
+      ],
+      "zh": [
+        "提到高尔夫能培养耐心、专注并带来放松。",
+        "指出它起源于苏格兰，而且只要有球杆和球，任何人都能玩。"
+      ]
+    }
+  }
+}

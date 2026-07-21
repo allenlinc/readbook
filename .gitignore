@@ -1,3 +1,7 @@
 .DS_Store
 *.local
 .workbuddy/
+
+# OCR scratch (huge rendered page images + extracted text) — not part of the published site
+_ocr/
+raz-q-quiz/_ocr/

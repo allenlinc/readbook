@@ -1,0 +1,137 @@
+{
+  "slug": "explorer-s-guide-to-world-weather",
+  "title": "Explorer's Guide to World Weather",
+  "titleZh": "世界天气探索指南",
+  "level": "R",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {"en": "According to the book, what two things do weather words like hot, cold, rainy, and snowy describe?", "zh": "根据本书，像热、冷、下雨、下雪这样的天气词汇描述的是哪两样东西？"},
+      "options": [
+        {"en": "Temperature and precipitation", "zh": "温度和降水"},
+        {"en": "Wind and clouds", "zh": "风和云"},
+        {"en": "Latitude and elevation", "zh": "纬度和海拔"},
+        {"en": "Plants and animals", "zh": "植物和动物"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {"en": "The book says these words 'describe two things: temperature and precipitation.'", "zh": "书中说，这些词汇'描述的是两样东西：温度和降水'。"}
+    },
+    {
+      "q": {"en": "What is climate, as defined in this book?", "zh": "本书中如何定义“气候”？"},
+      "options": [
+        {"en": "The average weather in a place over a long period of time", "zh": "一个地方在很长一段时间里的平均天气"},
+        {"en": "The weather on a single day", "zh": "某一天的天气"},
+        {"en": "The temperature of the ocean", "zh": "海洋的温度"},
+        {"en": "A type of cloud", "zh": "一种云"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {"en": "The book states, 'Climate is simply the average weather in a place over long periods of time.'", "zh": "书中写道：'气候就是一个地方在很长一段时间里的平均天气。'"}
+    },
+    {
+      "q": {"en": "In this book, what does 'latitude' measure?", "zh": "在本书中，'纬度'衡量的是什么？"},
+      "options": [
+        {"en": "Distance north or south of the equator", "zh": "赤道以北或以南的距离"},
+        {"en": "Distance east or west of Greenwich, England", "zh": "英国格林尼治以东或以西的距离"},
+        {"en": "The height of land above sea level", "zh": "陆地高出海平面的高度"},
+        {"en": "The amount of rainfall in a year", "zh": "一年的降雨量"}
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {"en": "The book says, 'Degrees of latitude measure distance north or south of the equator.'", "zh": "书中说：'纬度度数衡量的是赤道以北或以南的距离。'"}
+    },
+    {
+      "q": {"en": "What causes a 'rain shadow' on the leeward side of a mountain?", "zh": "是什么在山脉的背风坡造成了“雨影”？"},
+      "options": [
+        {"en": "Mountains force air up, dropping moisture on the windward side and leaving the other side dry", "zh": "山脉迫使空气上升，在水汽在迎风坡降落，使另一侧变得干燥"},
+        {"en": "The sun shines brighter on that side", "zh": "那一侧阳光更强烈"},
+        {"en": "Ocean currents flow backward there", "zh": "那里的洋流倒流"},
+        {"en": "The equator passes through it", "zh": "赤道穿过那里"}
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {"en": "The book explains wind 'rams into a chain of mountains... drops its moisture... on the windward side... leaving the other side, the leeward side, very dry. Dry regions... are called rain shadows.'", "zh": "书中解释：风'撞上一列山脉……把水汽降在迎风坡……使另一侧（背风坡）非常干燥。这种干燥区域被称为雨影。'"}
+    },
+    {
+      "q": {"en": "Why does Western Europe have a milder climate than its high latitude would suggest?", "zh": "为什么西欧的气候比其高纬度所预示的要温和？"},
+      "options": [
+        {"en": "A warm ocean current, the North Atlantic Drift, warms the air there", "zh": "一股温暖的洋流——北大西洋暖流——使那里的空气变暖"},
+        {"en": "It is very close to the equator", "zh": "它非常靠近赤道"},
+        {"en": "It has no mountains", "zh": "那里没有山脉"},
+        {"en": "The sun is directly overhead all year", "zh": "太阳全年都在头顶正上方"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {"en": "The book says Western Europe 'should have a fairly cold climate. However, a warm water current, the North Atlantic Drift, warms the air above it, giving Western Europe a milder climate.'", "zh": "书中说西欧'本应有相当寒冷的气候。然而，一股名为北大西洋暖流的温暖洋流使上方的空气变暖，从而让西欧气候更温和。'"}
+    },
+    {
+      "q": {"en": "What does 'elevation' mean in this book?", "zh": "在本书中，'海拔'是什么意思？"},
+      "options": [
+        {"en": "The height of land above or below sea level", "zh": "陆地高于或低于海平面的高度"},
+        {"en": "The distance from the equator", "zh": "距离赤道的距离"},
+        {"en": "The direction the wind blows", "zh": "风吹的方向"},
+        {"en": "The amount of sunlight in a day", "zh": "一天中的日照量"}
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {"en": "The glossary defines elevation as 'the height of land above sea level.'", "zh": "词汇表将 elevation 定义为'陆地高出海平面的高度'。"}
+    },
+    {
+      "q": {"en": "Why might a place right at the equator still have a cold climate?", "zh": "为什么一个正好在赤道上的地方仍然可能气候寒冷？"},
+      "options": [
+        {"en": "If it is at a high elevation, like the top of a mountain", "zh": "如果它处于高海拔，比如山顶"},
+        {"en": "If it is very close to the ocean", "zh": "如果它非常靠近海洋"},
+        {"en": "If it has many clouds", "zh": "如果它有很多云"},
+        {"en": "If it is near the North Pole", "zh": "如果它靠近北极"}
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {"en": "The book says, 'Imagine you were at the equator standing on a high mountaintop. You would be in a cold climate!' because temperature drops about 3 degrees Fahrenheit per 1,000 feet of elevation.", "zh": "书中说：'想象你站在赤道上的一座高山顶。你所处的会是一个寒冷的气候！'因为海拔每升高 1000 英尺，气温约下降 3 华氏度。"}
+    },
+    {
+      "q": {"en": "According to the book, what causes the seasons in places away from the equator?", "zh": "根据本书，是什么造成了赤道以外地区的季节变化？"},
+      "options": [
+        {"en": "Earth's tilt on its axis as it orbits the Sun", "zh": "地球绕太阳公转时地轴的倾斜"},
+        {"en": "The moon changing shape", "zh": "月亮形状的变化"},
+        {"en": "The ocean currents speeding up", "zh": "洋流加速"},
+        {"en": "The number of clouds increasing", "zh": "云的数量增加"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {"en": "The book states, 'Climates in other places on Earth change with the seasons because of Earth's tilt.'", "zh": "书中写道：'地球上其他地方气候随季节变化，是因为地球的地轴倾斜。'"}
+    },
+    {
+      "q": {"en": "What is the author's main purpose in writing this book?", "zh": "作者写这本书的主要目的是什么？"},
+      "options": [
+        {"en": "To explain the forces that create Earth's different climate patterns", "zh": "解释造成地球不同气候模式的各种因素"},
+        {"en": "To tell a story about a weather storm", "zh": "讲述一个关于暴风雨的故事"},
+        {"en": "To teach how to fly a plane", "zh": "教人们如何驾驶飞机"},
+        {"en": "To describe one single city's history", "zh": "描述一座城市的历史"}
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {"en": "The book is an informational text that tours 'the forces that affect Earth's climates' such as the Sun, latitude, elevation, water, and seasons.", "zh": "本书是一本说明性读物，带读者了解'影响地球气候的因素'，如太阳、纬度、海拔、水体和季节。"}
+    },
+    {
+      "q": {"en": "After learning about climate factors, what does the author say you can do?", "zh": "了解了影响气候的因素后，作者说你能做什么？"},
+      "options": [
+        {"en": "Guess a place's weather by its latitude, elevation, nearby water, and season", "zh": "根据某地的纬度、海拔、附近的水体和季节来推测那里的天气"},
+        {"en": "Change the weather by moving mountains", "zh": "通过移动山脉来改变天气"},
+        {"en": "Only visit places at the equator", "zh": "只去赤道附近的地方"},
+        {"en": "Ignore the climate and pack anything", "zh": "忽略气候，随便带行李"}
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {"en": "The author says, 'If you can answer these questions [distance from equator, elevation, mountains or water, season], you can probably guess what the weather is like there, even without leaving your home!'", "zh": "作者说：'如果你能回答这些问题（离赤道多远、海拔高低、附近有无山脉或水体、当前是什么季节），你大概就能猜出那里的天气，即使足不出户！'"}
+    }
+  ],
+  "extended": {
+    "prompt": {"en": "Choose a real city or place you know. Using what you learned about latitude, elevation, water, and seasons, predict what its weather is probably like.", "zh": "选一个你知道的真实城市或地方。运用你学到的纬度、海拔、水体和季节知识，预测一下那里大概的天气。"},
+    "guidance": {
+      "en": ["State the place and its latitude or distance from the equator.", "Describe how nearby water or mountains and the current season affect its weather."],
+      "zh": ["说出这个地点以及它的纬度或离赤道的距离。", "描述附近的水体或山脉以及当前季节如何影响它的天气。"]
+    }
+  }
+}
