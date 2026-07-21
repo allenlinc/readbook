@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Search for Sunken Treasure — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#25 · The Search for Sunken Treasure</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: The Search for Sunken Treasure</em> (Scholastic, 2006) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What begins Geronimo's adventure in this book?", "zh": "在书中，是什么开启了杰罗尼摩的冒险？"}, "options": [{"en": "A lavender-scented letter from Aunt Sweetfur", "zh": "一封甜毛阿姨寄来的薰衣草香味信"}, {"en": "A phone call from Sally Ratmousen", "zh": "莎莉·鼠莫森打来的电话"}, {"en": "A note from Creepella", "zh": "克里普拉留下的字条"}, {"en": "A dream about cheese", "zh": "一个关于奶酪的梦"}], "answer": 0, "explain": {"en": "Geronimo finds a lavender letter on his desk from Aunt Sweetfur saying they must talk; she arrives that very day.", "zh": "杰罗尼摩在桌上发现一封甜毛阿姨的薰衣草香味信，说有要事相谈；阿姨当天就到了。"}}, {"q": {"en": "What happened to Aunt Sweetfur's husband, Uncle Grayfur?", "zh": "甜毛阿姨的丈夫灰毛叔叔遭遇了什么？"}, "options": [{"en": "He became a famous chef", "zh": "他成了有名的厨师"}, {"en": "He was a seamouse who vanished at sea", "zh": "他是一名水手鼠，在海上失踪了"}, {"en": "He became a schoolteacher", "zh": "他当了一名老师"}, {"en": "He turned into a pirate", "zh": "他变成了海盗"}], "answer": 1, "explain": {"en": "Uncle Grayfur was a seamouse who sailed to the Ratlápagos Islands about twenty years earlier searching for a treasure and never returned.", "zh": "灰毛叔叔是一名水手鼠，大约二十年前乘船前往鼠加拉帕戈斯群岛寻找宝藏，此后再也没有回来。"}}, {"q": {"en": "What was the name of the sunken ship they were searching for?", "zh": "他们寻找的沉船叫什么名字？"}, "options": [{"en": "The Pink Princess", "zh": "粉红公主号"}, {"en": "The Dirty Rotten Rodent", "zh": "肮脏坏老鼠号"}, {"en": "The Golden Rind", "zh": "金橘号"}, {"en": "The Queen Ratsy", "zh": "鼠西女王号"}], "answer": 2, "explain": {"en": "Admiral Sea Snout's logbook names the lost ship as The Golden Rind, which sank in 1713 near Cream Cheese Island.", "zh": "海鼻海军上将的航海日志写明沉船叫“金橘号”，它于1713年沉没在奶油奶酪岛附近。"}}, {"q": {"en": "How many giant diamonds were in the ship's treasure chest?", "zh": "沉船的宝藏箱里有多少颗巨大的钻石？"}, "options": [{"en": "Thirteen", "zh": "十三颗"}, {"en": "Three", "zh": "三颗"}, {"en": "Thirty", "zh": "三十颗"}, {"en": "Ten", "zh": "十颗"}], "answer": 0, "explain": {"en": "The logbook says the cargo was a chest containing thirteen diamonds as big as a mouse's fist.", "zh": "航海日志记载，船上的货物是一只装着十三颗大如老鼠拳头钻石的箱子。"}}, {"q": {"en": "Who is the captain of the boat the family rents, the Queen Ratsy?", "zh": "这家人租来的“鼠西女王号”船长是谁？"}, "options": [{"en": "Milton Musclemouse", "zh": "米尔顿·肌肉鼠"}, {"en": "Tiny Tunes", "zh": "小调"}, {"en": "Greedy Whiskers", "zh": "贪婪胡须"}, {"en": "Scamper Skipper Paws", "zh": "跳跃·船长·爪"}], "answer": 3, "explain": {"en": "A suntanned rodent introduces himself as Scamper Skipper Paws, captain of the Queen Ratsy, ready to cast off.", "zh": "一位晒黑的老鼠自我介绍说是跳跃·船长·爪，也就是“鼠西女王号”的船长，准备起航。"}}, {"q": {"en": "What dish of Trap's burned Geronimo's mouth and killed his taste buds?", "zh": "特拉普做的哪道菜烧坏了杰罗尼摩的嘴、让他尝不出味道？"}, "options": [{"en": "Fish fondue", "zh": "鱼肉火锅"}, {"en": "Trap's Spicy Bean Bonanza", "zh": "特拉普的辣味豆大餐"}, {"en": "Grilled cheese sandwiches", "zh": "烤奶酪三明治"}, {"en": "A cheddar log", "zh": "一根切达奶酪卷"}], "answer": 1, "explain": {"en": "Trap serves his Spicy Bean Bonanza made with three tons of red-hot chili peppers, and Geronimo's taste buds go numb.", "zh": "特拉普端出用三吨红辣椒做的“辣味豆大餐”，杰罗尼摩的味蕾直接麻得没知觉了。"}}, {"q": {"en": "What does Benjamin spot through his binoculars near Cream Cheese Island?", "zh": "本杰明在奶油奶酪岛附近透过望远镜发现了什么？"}, "options": [{"en": "A gold doubloon", "zh": "一枚金币"}, {"en": "A shark", "zh": "一条鲨鱼"}, {"en": "The claw-shaped rock", "zh": "那只爪形的岩石"}, {"en": "A palm tree", "zh": "一棵棕榈树"}], "answer": 2, "explain": {"en": "Benjamin cries out that he sees the claw-shaped rock, the exact spot where Admiral Sea Snout's ship hit and sank.", "zh": "本杰明大喊自己看到了那只爪形岩石，正是海鼻海军上将的船撞沉的地点。"}}, {"q": {"en": "Who are the two greedy rodents that try to steal the treasure?", "zh": "企图抢走宝藏的两个贪婪老鼠是谁？"}, "options": [{"en": "Sally and Boris", "zh": "莎莉和鲍里斯"}, {"en": "Greedy Whiskers and Heartless Hairball", "zh": "贪婪胡须和无情毛球"}, {"en": "Thea and Trap", "zh": "蒂奥和特拉普"}, {"en": "Benjamin and Skipper", "zh": "本杰明和船长"}], "answer": 1, "explain": {"en": "The villains are Greedy Whiskers (called 'The Whisk') and his associate Heartless Hairball ('Hairy'), who arrive on The Dirty Rotten Rodent.", "zh": "反派是贪婪胡须（外号“胡须”）和他的同伙无情毛球（外号“毛球”），他们乘着“肮脏坏老鼠号”出现。"}}, {"q": {"en": "What is really inside the mysterious cheese-colored amphora?", "zh": "那个神秘的奶酪色双耳陶罐里究竟装着什么？"}, "options": [{"en": "Aged Parmesan cheese", "zh": "陈年帕尔马干酪"}, {"en": "Seawater", "zh": "海水"}, {"en": "Gold coins", "zh": "金币"}, {"en": "Sour pickles", "zh": "酸泡菜"}], "answer": 0, "explain": {"en": "Trap opens the amphora and finds first-rate Parmesan cheese matured for more than two centuries — the real treasure.", "zh": "特拉普打开陶罐，发现是窖藏了两百多年的顶级帕尔马干酪——这才是真正的宝藏。"}}, {"q": {"en": "On the way home, what does the family discover that is not on any map?", "zh": "在回家的路上，这家人发现了什么地图上没有的东西？"}, "options": [{"en": "A sunken city", "zh": "一座沉没的城市"}, {"en": "A giant whale", "zh": "一头巨大的鲸鱼"}, {"en": "A pirate ship", "zh": "一艘海盗船"}, {"en": "A tiny island not on the map", "zh": "一座地图上没有的小岛"}], "answer": 3, "explain": {"en": "Far in the distance they spot a teeny-tiny island with palm trees and a waterfall that is not on their map, so they name themselves its discoverers.", "zh": "他们在远处发现一座长着棕榈树和瀑布、地图上没有的小岛，于是自认是它的发现者。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

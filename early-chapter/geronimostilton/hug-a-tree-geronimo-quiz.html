@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hug a Tree, Geronimo — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#69 · Hug a Tree, Geronimo</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: Hug a Tree, Geronimo</em> (Scholastic, 2013) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who calls Geronimo on the first day of spring to stop him from daydreaming?", "zh": "在春天第一天，是谁打电话给杰罗尼摩，不让他做白日梦？"}, "options": [{"en": "His grandfather William", "zh": "他的爷爷威廉"}, {"en": "His sister Thea", "zh": "他的妹妹西娅"}, {"en": "His friend Hercule", "zh": "他的朋友赫丘利"}, {"en": "The cook Tina", "zh": "厨师蒂娜"}], "answer": 0, "explain": {"en": "Grandfather William calls and uses a countdown to force Geronimo to get to the office quickly.", "zh": "爷爷威廉打来电话，还用倒数计时的方式逼着杰罗尼摩赶紧去办公室上班。"}}, {"q": {"en": "What tool did Grandfather William invent to watch for slackers?", "zh": "威廉爷爷发明了什么工具来监视偷懒的人？"}, "options": [{"en": "The slacker alarm", "zh": "偷懒警报器"}, {"en": "A tea cart", "zh": "一辆茶车"}, {"en": "A cheese camera", "zh": "奶酪相机"}, {"en": "A bicycle bell", "zh": "自行车铃"}], "answer": 0, "explain": {"en": "The slacker alarm is a complicated tool that monitors Geronimo's daydreaming and work performance.", "zh": "偷懒警报器是一个复杂的工具，用来监视杰罗尼摩做白日梦和工作的表现。"}}, {"q": {"en": "Where does Geronimo land after flying over a tree trunk on his bike?", "zh": "杰罗尼摩骑着自行车飞过一段树干后，落在了哪里？"}, "options": [{"en": "In a stinky compost heap", "zh": "在一个发臭的堆肥堆里"}, {"en": "In a soft meadow", "zh": "在一片柔软的草地上"}, {"en": "In a pond", "zh": "在一个池塘里"}, {"en": "In his bed", "zh": "在他的床上"}], "answer": 0, "explain": {"en": "He slams on the brakes, flips over the trunk, and slides snout-down into a smelly compost heap.", "zh": "他猛踩刹车，从树干上翻了出去，脸朝下一路滑进了一个臭烘烘的堆肥堆。"}}, {"q": {"en": "What legendary tree stands on the hilltop near the Stilton family farm?", "zh": "在斯蒂尔顿家农场附近的山顶上，矗立着一棵什么传奇大树？"}, "options": [{"en": "The Great Oak", "zh": "大橡树"}, {"en": "The Tall Pine", "zh": "高高的松树"}, {"en": "The Big Birch", "zh": "大桦树"}, {"en": "The Old Willow", "zh": "老柳树"}], "answer": 0, "explain": {"en": "Geronimo recognizes it as the legendary Great Oak from his childhood summers at the farm.", "zh": "杰罗尼摩认出那是他小时候在农场度夏时见过的大橡树。"}}, {"q": {"en": "What is Dr. Otto Cheesecake's job at The Rodent's Gazette?", "zh": "奥托·芝士蛋糕博士在《 rodent  Gazette 报》担任什么工作？"}, "options": [{"en": "The official dietician", "zh": "官方营养顾问"}, {"en": "The sports reporter", "zh": "体育记者"}, {"en": "The chief editor", "zh": "主编"}, {"en": "The gardener", "zh": "园丁"}], "answer": 0, "explain": {"en": "He is Geronimo's personal dietician who writes the 'You Are What You Eat' column.", "zh": "他是杰罗尼摩的私人营养顾问，还写一个名为「你吃什么就像什么」的专栏。"}}, {"q": {"en": "Where is the farm that Geronimo buys located?", "zh": "杰罗尼摩买下的农场位于什么地方？"}, "options": [{"en": "In the Happy Hills countryside", "zh": "在快乐山丘的乡间"}, {"en": "In New Mouse City", "zh": "在新老鼠城"}, {"en": "On a faraway island", "zh": "在一个遥远的岛上"}, {"en": "In Mysterious Valley", "zh": "在神秘山谷"}], "answer": 0, "explain": {"en": "The farm is in the Happy Hills, the same place where Geronimo spent his childhood summers.", "zh": "农场位于快乐山丘，正是杰罗尼摩小时候每年夏天待过的地方。"}}, {"q": {"en": "Why does Madame No want to buy the Great Oak property?", "zh": "诺夫人想买下大橡树所在的地皮是为了什么？"}, "options": [{"en": "To cut it down and build a mall", "zh": "砍掉树并建一座购物中心"}, {"en": "To plant a garden", "zh": "开辟一座花园"}, {"en": "To open a school", "zh": "开办一所学校"}, {"en": "To build a zoo", "zh": "建造一座动物园"}], "answer": 0, "explain": {"en": "EGO Corp, led by Madame No, plans to cut down the tree to make room for a huge shopping mall.", "zh": "诺夫人掌管的巨型企业计划砍掉大树，腾出地方建一座巨大的购物中心。"}}, {"q": {"en": "Who placed the secret stone at the foot of the Great Oak?", "zh": "是谁在大橡树脚下放下了那块秘密石碑？"}, "options": [{"en": "Grant Gentlemouse", "zh": "格兰特·绅士鼠"}, {"en": "Grandfather William", "zh": "威廉爷爷"}, {"en": "Madame No", "zh": "诺夫人"}, {"en": "Tina Spicytail", "zh": "蒂娜·辣尾"}], "answer": 0, "explain": {"en": "Grant Gentlemouse, founder of New Mouse City, placed the wishing stone beneath the Great Oak.", "zh": "新老鼠城的创立者格兰特·绅士鼠在大橡树下放下了这块许愿石碑。"}}, {"q": {"en": "How do Geronimo and his friends raise money for the auction?", "zh": "杰罗尼摩和朋友们是怎么为拍卖会筹钱的？"}, "options": [{"en": "By printing a special edition newspaper", "zh": "通过印刷一期特刊报纸"}, {"en": "By selling the farm", "zh": "通过卖掉农场"}, {"en": "By baking pies", "zh": "通过烤派"}, {"en": "By riding bikes", "zh": "通过骑自行车"}], "answer": 0, "explain": {"en": "Grandfather runs a special edition of The Rodent's Gazette and all proceeds go to the auction.", "zh": "爷爷发行了一期《鼠民公报》特刊，所有收入都用来参加拍卖会。"}}, {"q": {"en": "What do Geronimo and his friends decide to do to save the Great Oak?", "zh": "为了拯救大橡树，杰罗尼摩和朋友们决定怎么做？"}, "options": [{"en": "Go to the auction and win it", "zh": "去拍卖会并拍下它"}, {"en": "Move to another city", "zh": "搬到另一座城市"}, {"en": "Hide the tree", "zh": "把树藏起来"}, {"en": "Sell the newspaper", "zh": "卖掉报纸"}], "answer": 0, "explain": {"en": "Flora suggests they attend the auction and win, and the group shouts 'We will protect the Great Oak!'", "zh": "弗洛拉提议他们去参加拍卖会并拍下地皮，大家一起喊「我们要保护大橡树」。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

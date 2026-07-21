@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Haunted Castle — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#46 · The Haunted Castle</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: The Haunted Castle</em> (Scholastic, 2005) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who calls Geronimo collect to invite him to a ceremony at Penny Pincher Castle?", "zh": "是谁打来由接听方付费的电话，邀请杰罗尼摩去小气城堡参加典礼？"}, "options": [{"en": "Uncle Samuel S. Stingysnout", "zh": "塞缪尔·S·吝啬鼻叔叔"}, {"en": "Sally Ratmousen", "zh": "莎莉·鼠莫森"}, {"en": "Creepella", "zh": "克里普拉"}, {"en": "Benjamin", "zh": "本杰明"}], "answer": 0, "explain": {"en": "A collect-call operator connects Geronimo to his uncle Samuel, who invites Geronimo, Thea, Trap, and Benjamin to Penny Pincher Castle for a ceremony.", "zh": "接线员转接了一通由接听方付费的电话，打电话的是塞缪尔叔叔，他邀请杰罗尼摩、蒂奥、特拉普和本杰明去小气城堡参加典礼。"}}, {"q": {"en": "Where is Penny Pincher Castle located?", "zh": "小气城堡座落在什么地方？"}, "options": [{"en": "Cheap Change Hill in the Valley of Lack", "zh": "匮乏山谷里的廉价零钱山"}, {"en": "New Mouse City", "zh": "新老鼠城"}, {"en": "Mousefort Beach", "zh": "鼠堡海滩"}, {"en": "San Mouscisco", "zh": "鼠弗朗西斯科"}], "answer": 0, "explain": {"en": "The Stingysnout ancestral home, Penny Pincher Castle, sits on top of Cheap Change Hill in the Valley of Lack, reached by crossing Loneliness Passage.", "zh": "吝啬鼻家族的祖宅小气城堡，就建在匮乏山谷里的廉价零钱山顶，要穿过孤独峡谷才能到达。"}}, {"q": {"en": "On what date did Uncle Samuel say the ceremony would take place?", "zh": "塞缪尔叔叔说典礼将在哪一天举行？"}, "options": [{"en": "October thirty-first", "zh": "十月三十一日"}, {"en": "October thirteenth", "zh": "十月十三日"}, {"en": "November first", "zh": "十一月一日"}, {"en": "December thirty-first", "zh": "十二月三十一日"}], "answer": 0, "explain": {"en": "Samuel invites Geronimo 'to Penny Pincher Castle for the ceremony that will take place on October thirty-first.'", "zh": "塞缪尔邀请杰罗尼摩去小气城堡，参加“将在十月三十一日举行的典礼”。"}}, {"q": {"en": "According to the fake will read by Larry Legalmouse, who inherited Penny Pincher Castle?", "zh": "根据拉里·法律鼠律师宣读的假遗嘱，谁继承了小气城堡？"}, "options": [{"en": "Uncle Samuel and Uncle Samuel alone", "zh": "只有塞缪尔叔叔一个人"}, {"en": "All the Stilton family", "zh": "全体斯蒂顿家族"}, {"en": "All the Stingysnout family", "zh": "全体吝啬鼻家族"}, {"en": "Benjamin", "zh": "本杰明"}], "answer": 0, "explain": {"en": "The will reads: 'I, Bigwig Stingysnout, leave all that I own, by which I mean Penny Pincher Castle, to Uncle Samuel and Uncle Samuel alone!'", "zh": "遗嘱写道：“我，大佬·吝啬鼻，把我所有的一切，也就是小气城堡，只留给塞缪尔叔叔一个人！”"}}, {"q": {"en": "What strange thing did Geronimo discover about the coffin?", "zh": "杰罗尼摩发现棺材有什么奇怪的地方？"}, "options": [{"en": "It was empty and very light", "zh": "它是空的，而且非常轻"}, {"en": "It was full of cheese", "zh": "里面装满了奶酪"}, {"en": "It was made of solid gold", "zh": "它是纯金打造的"}, {"en": "It was locked with a chain", "zh": "它被铁链锁着"}], "answer": 0, "explain": {"en": "Geronimo tripped and bumped the coffin, finding it so light it seemed empty; Thea later lifted the lid and cried 'IT'S EMPTY!'", "zh": "杰罗尼摩绊了一跤撞到棺材，发现它轻得好像是空的；后来蒂奥掀开盖子大喊“它是空的！”"}}, {"q": {"en": "Who was really the shadow sneaking around the castle at night?", "zh": "夜里在城堡里四处溜达的影子，其实是谁？"}, "options": [{"en": "Uncle Samuel", "zh": "塞缪尔叔叔"}, {"en": "A real ghost", "zh": "一个真正的幽灵"}, {"en": "The zombie of Uncle Bigwig", "zh": "大佬叔叔变成的僵尸"}, {"en": "Hercule Poirat", "zh": "赫丘勒·波拉特"}], "answer": 0, "explain": {"en": "Trap grabbed the shadow by the tail, and a candle revealed hazel fur and bushy white eyebrows — it was Uncle Samuel himself.", "zh": "特拉普一把抓住了影子的尾巴，点上蜡烛后露出榛色皮毛和浓密的白眉毛——原来就是塞缪尔叔叔本人。"}}, {"q": {"en": "Why did Uncle Samuel make up the story of Uncle Bigwig?", "zh": "塞缪尔叔叔为什么要编造大佬叔叔的故事？"}, "options": [{"en": "He found a scroll saying the castle belonged to ALL descendants and wanted to keep it for himself", "zh": "他发现一卷古卷写明城堡属于全体后裔，于是想独自霸占它"}, {"en": "He wanted to throw a big birthday party", "zh": "他想办一场盛大的生日派对"}, {"en": "He wanted to sell the castle for money", "zh": "他想把城堡卖钱"}, {"en": "He was angry at Geronimo", "zh": "他在生杰罗尼摩的气"}], "answer": 0, "explain": {"en": "Samuel found an ancient scroll in the Great Hall showing the castle belonged to all Stingysnout and Stilton descendants, so he invented a sole heir to keep it alone.", "zh": "塞缪尔在大厅的抽屉里发现一卷古卷，上面写城堡属于吝啬鼻和斯蒂顿两族的全部后裔，于是他虚构了一个唯一继承人好独自占有城堡。"}}, {"q": {"en": "Who is Chintzina?", "zh": "钦齐娜是谁？"}, "options": [{"en": "Uncle Samuel's younger sister who never laughs", "zh": "塞缪尔叔叔的妹妹，她从不笑"}, {"en": "Geronimo's aunt who loves to dance", "zh": "杰罗尼摩爱跳舞的阿姨"}, {"en": "A famous chef at the castle", "zh": "城堡里一位有名的厨师"}, {"en": "The ghost of the castle", "zh": "城堡里的幽灵"}], "answer": 0, "explain": {"en": "Chintzina is Uncle Samuel's younger sister; as a mouseling she never laughed because she didn't want to waste energy.", "zh": "钦齐娜是塞缪尔叔叔的妹妹；她小时候从不笑，因为不想浪费力气。"}}, {"q": {"en": "What does Chintzina make that becomes a New Mouse City fashion trend?", "zh": "钦齐娜做的什么东西，成了新老鼠城的时尚潮流？"}, "options": [{"en": "Multicolored socks", "zh": "五颜六色的袜子"}, {"en": "Cheddar pops", "zh": "切达奶酪棒"}, {"en": "Artichoke bouquets", "zh": "洋蓟花束"}, {"en": "Cheese face masks", "zh": "奶酪面膜"}], "answer": 0, "explain": {"en": "Chintzina knits multicolored socks; a TV report says they are the hottest trend in New Mouse City and every boutique wants to buy them.", "zh": "钦齐娜会织五颜六色的袜子；电视新闻说这成了新老鼠城最火的潮流，每家精品店都想收购她的袜子。"}}, {"q": {"en": "Who asks Geronimo to dance and says she practices martial arts?", "zh": "是谁邀请杰罗尼摩跳舞，并说自己练习武术？"}, "options": [{"en": "Zelda, Stevie's journalist cousin", "zh": "泽尔达，斯蒂夫的表姐、记者"}, {"en": "Thea", "zh": "蒂奥"}, {"en": "Aunt Sweetfur", "zh": "甜毛阿姨"}, {"en": "Chintzina", "zh": "钦齐娜"}], "answer": 0, "explain": {"en": "Zelda, Stevie's journalist cousin who writes the 'Romantic Rodent' column and wears steel heels, drags Geronimo to dance and reveals she practices martial arts.", "zh": "泽尔达是斯蒂夫的表姐、记者，写“浪漫老鼠”专栏、穿钢跟鞋，她把杰罗尼摩拽去跳舞，并说自己练习武术。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

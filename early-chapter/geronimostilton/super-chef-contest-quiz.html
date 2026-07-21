@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Super Chef Contest — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#58 · The Super Chef Contest</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: The Super Chef Contest</em> (Scholastic, 2008) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who asks Geronimo to be his assistant in the Super Chef Contest?", "zh": "谁请杰罗尼摩做自己的助手参加超级大厨争霸赛？"}, "options": [{"en": "His cousin Trap", "zh": "他的表哥特拉普"}, {"en": "His sister Thea", "zh": "他的妹妹茜拉"}, {"en": "His nephew Benjamin", "zh": "他的侄子本杰明"}, {"en": "Hercule Poirat", "zh": "赫拉克·波利拉特"}], "answer": 0, "explain": {"en": "Trap begs Geronimo to be his taster and assistant so he can enter the Super Chef Contest in Gourmetville.", "zh": "特拉普求杰罗尼摩当自己的试吃员兼助手，好让他去美食村参加超级大厨争霸赛。"}}, {"q": {"en": "Where is the Super Chef Contest held?", "zh": "超级大厨争霸赛在哪里举行？"}, "options": [{"en": "Count Ludwig von Cheddar's castle in Gourmetville", "zh": "美食村里路德维希·冯·切达伯爵的城堡"}, {"en": "The Rodent's Gazette office", "zh": "《鼠民公报》办公室"}, {"en": "New Mouse City's town square", "zh": "新老鼠城的市中心广场"}, {"en": "Cat Island", "zh": "猫岛"}], "answer": 0, "explain": {"en": "The contest takes place every year in Count Ludwig von Cheddar's ancient castle in Gourmetville, in the Cheese and Honey region.", "zh": "比赛每年在美食村、奶酪与蜂蜜地区的路德维希·冯·切达伯爵古城堡里举行。"}}, {"q": {"en": "What prize does the winner of the contest receive?", "zh": "比赛的获胜者能得到什么奖品？"}, "options": [{"en": "The Great Golden Fork", "zh": "伟大的黄金叉子"}, {"en": "A silver whisk", "zh": "一把银打蛋器"}, {"en": "A lifetime supply of cheese", "zh": "终身免费奶酪"}, {"en": "A golden chef's hat", "zh": "一顶黄金厨师帽"}], "answer": 0, "explain": {"en": "The winner receives the Great Golden Fork Trophy and is named Mouse Island's Super Chef of the Year.", "zh": "获胜者会得到伟大的黄金叉子奖杯，并被封为老鼠岛年度超级大厨。"}}, {"q": {"en": "How long does the Super Chef Contest last?", "zh": "超级大厨争霸赛持续多久？"}, "options": [{"en": "Seven days", "zh": "七天"}, {"en": "One day", "zh": "一天"}, {"en": "Two weeks", "zh": "两周"}, {"en": "One month", "zh": "一个月"}], "answer": 0, "explain": {"en": "The contest lasts seven days: the first six are elimination rounds, and the seventh is the final with the top seven chefs.", "zh": "比赛持续七天，前六天是淘汰赛，第七天是七强决赛。"}}, {"q": {"en": "Which judge is the famous celebrity chef known for being very hard to please?", "zh": "哪位评委是出了名难伺候的明星大厨？"}, "options": [{"en": "Gordon Ratsey", "zh": "戈登·拉特西"}, {"en": "Saucy Le Paws", "zh": "酱汁·勒波"}, {"en": "Julia Mouselet", "zh": "茱莉亚·莫斯利特"}, {"en": "Rodento McEgo", "zh": "罗登托·麦克艾戈"}], "answer": 0, "explain": {"en": "Gordon Ratsey is the most famous celebrity chef on Mouse Island and is known for being very, very hard to please.", "zh": "戈登·拉特西是老鼠岛最有名的明星大厨，以极其挑剔、难以取悦而闻名。"}}, {"q": {"en": "What was really inside Trap's mysterious red metal trunk?", "zh": "特拉普那个神秘的红色金属箱里到底装了什么？"}, "options": [{"en": "A portable freezer with Aunt Sweetfur's dishes", "zh": "一台便携冰箱，里面是甜芙阿姨做的菜"}, {"en": "His cooking trophies", "zh": "他的烹饪奖杯"}, {"en": "A library of recipes", "zh": "一箱菜谱书"}, {"en": "Rare spices from abroad", "zh": "从国外带回的稀有香料"}], "answer": 0, "explain": {"en": "The trunk was a portable freezer. Aunt Sweetfur had cooked the dishes, and Trap kept them frozen until each contest round.", "zh": "那个箱子其实是一台便携冰箱。甜芙阿姨把菜做好，特拉普把它们冷冻起来，等到每轮比赛再拿出来。"}}, {"q": {"en": "What caused Trap's frozen food to spoil before the final?", "zh": "决赛前，特拉普冷冻的食物为什么会坏掉？"}, "options": [{"en": "A thunderstorm cut the castle's power, so the freezer shut off", "zh": "一场雷暴切断了城堡的电力，冰箱停了"}, {"en": "Geronimo opened it by mistake", "zh": "杰罗尼摩不小心打开了它"}, {"en": "A mouse stole the key", "zh": "有老鼠偷走了钥匙"}, {"en": "The trunk was too small", "zh": "箱子太小了"}], "answer": 0, "explain": {"en": "The storm the night before caused a power outage, the freezer turned off, and all the food went bad and attracted flies.", "zh": "前一晚的暴风雨导致停电，冰箱停止运转，所有食物都坏了，还招来了苍蝇。"}}, {"q": {"en": "What injury did Trap get when he slipped in the spoiled food?", "zh": "特拉普滑倒在坏掉的食物上时，受了什么伤？"}, "options": [{"en": "He dislocated a kneecap, broke his other knee, and sprained a paw", "zh": "他膝盖骨脱臼、另一条腿膝盖骨折，还扭了爪子"}, {"en": "He only got a small cut on his ear", "zh": "他只是耳朵上划了个小口子"}, {"en": "He burned his tail", "zh": "他烫到了尾巴"}, {"en": "He lost a tooth", "zh": "他掉了一颗牙"}], "answer": 0, "explain": {"en": "The doctor confirmed Trap dislocated his kneecap, broke his other knee, and sprained a paw, so he left on a stretcher.", "zh": "医生确认特拉普膝盖骨脱臼、另一条腿膝盖骨折，还扭了爪子，只好被担架抬走。"}}, {"q": {"en": "Where did Geronimo get the fresh ingredients for his dishes?", "zh": "杰罗尼摩的新鲜食材是从哪里弄来的？"}, "options": [{"en": "Aunt Mousie's Farm", "zh": "老鼠阿姨的农场"}, {"en": "The castle kitchen", "zh": "城堡的厨房"}, {"en": "A closed grocery store", "zh": "一家关门的杂货店"}, {"en": "Trap's supercamper", "zh": "特拉普的超级房车"}], "answer": 0, "explain": {"en": "When the town stores were closed, Aunt Mousie let Geronimo gather vegetables, fruit, milk, eggs, and fresh mozzarella from her farm.", "zh": "镇上商店都关门了，老鼠阿姨让杰罗尼摩从她的农场采集蔬菜、水果、牛奶、鸡蛋和新鲜马苏里拉奶酪。"}}, {"q": {"en": "What two dishes did Geronimo cook for the final round?", "zh": "杰罗尼摩在决赛中做了哪两道菜？"}, "options": [{"en": "Mousetastic Zucchini Pizza and Fabumouse Fruit Salad with Cream", "zh": "超棒西葫芦披萨和绝妙奶油水果沙拉"}, {"en": "Fried snail pie and oyster sauce", "zh": "炸蜗牛派和蚝油汁"}, {"en": "Liver meatballs and wild onion cake", "zh": "猪肝丸子和野葱蛋糕"}, {"en": "Chocolate dumplings and goat cheese tart", "zh": "巧克力饺子和山羊奶酪挞"}], "answer": 0, "explain": {"en": "Geronimo decided to cook his favorite dishes: Mousetastic Zucchini Pizza and Fabumouse Fruit Salad with Cream.", "zh": "杰罗尼摩决定做自己最拿手的两道菜：超棒西葫芦披萨和绝妙奶油水果沙拉。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

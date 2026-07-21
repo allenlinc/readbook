@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Giant Diamond Robbery — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#44 · The Giant Diamond Robbery</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: The Giant Diamond Robbery</em> (Scholastic, 2005) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who is the narrator of the story and the publisher of The Rodent's Gazette?", "zh": "谁是这本书的讲述者，也是《 鼠民公报》的出版人？"}, "options": [{"en": "Geronimo Stilton", "zh": "杰罗尼摩·斯蒂顿"}, {"en": "Sally Ratmousen", "zh": "萨莉·鼠莫森"}, {"en": "The Shadow", "zh": "影子大盗"}, {"en": "Hercule Poirat", "zh": "赫拉克·波拉特"}], "answer": 0, "explain": {"en": "Geronimo Stilton introduces himself as the publisher of The Rodent's Gazette, the most popular newspaper on Mouse Island.", "zh": "杰罗尼摩·斯蒂顿在故事开头自我介绍，说是老鼠岛最受欢迎的报纸《 鼠民公报》的出版人。"}}, {"q": {"en": "What precious trophy is being guarded at the Mouseport golf tournament?", "zh": "在老鼠港高尔夫锦标赛上，大家守护的珍贵奖杯是什么？"}, "options": [{"en": "A solid gold cup with a giant diamond on top", "zh": "一座纯金打造、顶部镶着巨型钻石的奖杯"}, {"en": "A silver Cheese Champion trophy", "zh": "一座银制的奶酪冠军奖杯"}, {"en": "The Rodent's Gazette Cup", "zh": "《 鼠民公报》杯"}, {"en": "A giant squeaky soccer ball", "zh": "一个巨大的吱吱叫的足球"}], "answer": 0, "explain": {"en": "The Super Mouse Cup is made of solid gold with a giant diamond on top, and the winner keeps it for one year.", "zh": "超级老鼠杯是纯金打造的，顶部镶着一颗巨型钻石，获胜者可以保管它一年。"}}, {"q": {"en": "Who is the secret agent with the code name OOK?", "zh": "代号 OOK 的特工是谁？"}, "options": [{"en": "Kornelius von Kickpaw", "zh": "科尼利厄斯·冯·基克帕"}, {"en": "William Shortpaws", "zh": "威廉·肖特波"}, {"en": "Trap Stilton", "zh": "特拉普·斯蒂顿"}, {"en": "Benjamin Stilton", "zh": "本杰明·斯蒂顿"}], "answer": 0, "explain": {"en": "Kornelius von Kickpaw is Geronimo's friend from elementary school and a secret agent whose code name is OOK.", "zh": "科尼利厄斯·冯·基克帕是杰罗尼摩小学时的朋友，也是一名代号为 OOK 的特工。"}}, {"q": {"en": "In which Mouse Island city does the golf tournament take place?", "zh": "高尔夫锦标赛在老鼠岛的哪座城市举行？"}, "options": [{"en": "Mouseport", "zh": "老鼠港"}, {"en": "New Mouse City", "zh": "新老鼠城"}, {"en": "Cheddar Bay", "zh": "切达湾"}, {"en": "Rat Island", "zh": "老鼠岛外岛"}], "answer": 0, "explain": {"en": "Geronimo and his grandfather fly to Mouseport, where the Super Mouse Cup tournament is held.", "zh": "杰罗尼摩和爷爷乘飞机去了老鼠港，超级老鼠杯锦标赛就在那里举行。"}}, {"q": {"en": "Who was really pretending to be 'Molly Ratmousen, Lady Legend of Golf'?", "zh": "真正假扮成“高尔夫女传奇莫莉·鼠莫森”的人是谁？"}, "options": [{"en": "The Shadow", "zh": "影子大盗"}, {"en": "Sally Ratmousen", "zh": "萨莉·鼠莫森"}, {"en": "Veronica von Kickpaw", "zh": "维罗妮卡·冯·基克帕"}, {"en": "Thea Stilton", "zh": "茜薇娅·斯蒂顿"}], "answer": 0, "explain": {"en": "The fake Molly pulled off a rubber mask, wig, and false teeth to reveal she was The Shadow, the notorious thief.", "zh": "假莫莉摘下橡胶面具、假发和假牙，露出了她其实是臭名昭著的盗贼影子大盗。"}}, {"q": {"en": "How did the cheater make Geronimo's golf ball land in bad spots?", "zh": "作弊者是用什么办法让杰罗尼摩的高尔夫球落到糟糕地方的？"}, "options": [{"en": "By controlling it with a remote-control ball", "zh": "用遥控高尔夫球远程控制它"}, {"en": "By gluing his shoes to the ground", "zh": "把他的鞋子粘在地上"}, {"en": "By feeding him a poisoned sandwich", "zh": "给他吃下毒的三明治"}, {"en": "By putting a rubber snake in the hole", "zh": "在球洞里放了一条橡胶蛇"}], "answer": 0, "explain": {"en": "The Shadow used remote-control balls; one gadget had a red button marked GS (Geronimo Stilton) to steer his ball.", "zh": "影子大盗用了遥控球，其中一个遥控器上有标着 GS（杰罗尼摩·斯蒂顿）的红色按钮来操控他的球。"}}, {"q": {"en": "Where was the real Molly Ratmousen found at the end?", "zh": "真正的莫莉·鼠莫森最后是在哪里被发现的？"}, "options": [{"en": "Tied up in a broom closet", "zh": "被绑在了一间扫帚储藏室里"}, {"en": "Flying away in a mini-helicopter", "zh": "乘坐迷你直升机飞走了"}, {"en": "Hidden under a pine tree", "zh": "藏在一棵松树下"}, {"en": "Locked inside the bathroom", "zh": "被锁在卫生间里"}], "answer": 0, "explain": {"en": "Geronimo heard a muffled noise, opened a broom closet door, and found the real Molly tied up and gagged.", "zh": "杰罗尼摩听到闷闷的声音，推开扫帚储藏室的门，发现真正的莫莉被绑着并塞住了嘴。"}}, {"q": {"en": "What did The Shadow plan to do with the giant diamond?", "zh": "影子大盗打算怎么处理那颗巨型钻石？"}, "options": [{"en": "Sell it to cat pirates", "zh": "把它卖给猫海盗"}, {"en": "Donate it to a cheese museum", "zh": "把它捐给奶酪博物馆"}, {"en": "Keep it on her own trophy shelf", "zh": "自己摆在奖杯架上收藏"}, {"en": "Give it to The Daily Rat", "zh": "把它送给《 鼠报》"}], "answer": 0, "explain": {"en": "OOK warns Geronimo that the thief plans to steal the cup and sell the diamond to cat pirates.", "zh": "OOK 提醒杰罗尼摩，盗贼打算偷走奖杯，并把钻石卖给猫海盗。"}}, {"q": {"en": "What is the nickname of Geronimo's grandfather, the golf legend?", "zh": "杰罗尼摩那位高尔夫传奇爷爷的外号是什么？"}, "options": [{"en": "\"Surestroke\" Shortpaws", "zh": "“稳杆”肖特波"}, {"en": "\"Golf Tiger\" Ratmousen", "zh": "“高尔夫虎”鼠莫森"}, {"en": "\"Cheese Boss\" Stilton", "zh": "“奶酪老板”斯蒂顿"}, {"en": "\"Lady Legend\" Molly", "zh": "“女传奇”莫莉"}], "answer": 0, "explain": {"en": "William Shortpaws's membership card shows his nickname 'Surestroke' Shortpaws, president of the New Mouse City Golf Club.", "zh": "威廉·肖特波的会员卡上写着他的外号是“稳杆”肖特波，还是新老鼠城高尔夫俱乐部的会长。"}}, {"q": {"en": "Who cheers Geronimo on to make the winning shot at the final hole?", "zh": "在最后一洞，是谁为杰罗尼摩加油，让他打出制胜一球？"}, "options": [{"en": "His family and friends including Thea, Trap, Benjamin, and Hercule Poirat", "zh": "他的家人和朋友，包括茜薇娅、特拉普、本杰明和赫拉克·波拉特"}, {"en": "The Shadow and Sally Ratmousen", "zh": "影子大盗和萨莉·鼠莫森"}, {"en": "The cat pirates", "zh": "猫海盗们"}, {"en": "The golf instructor Pendleton", "zh": "高尔夫教练彭德尔顿"}], "answer": 0, "explain": {"en": "At hole 18 Geronimo sees his sister Thea, cousin Trap, nephew Benjamin, detective Hercule Poirat, and others cheering him on.", "zh": "在第 18 洞，杰罗尼摩看到妹妹茜薇娅、表哥特拉普、侄子本杰明、侦探赫拉克·波拉特等人为他加油。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

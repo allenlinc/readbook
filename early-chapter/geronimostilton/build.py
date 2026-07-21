@@ -22,6 +22,16 @@ ACCENT = {
     "5":  "#e67e22", "6":  "#27ae60", "7":  "#d4ac0d", "8":  "#c2185b",
     "9":  "#0097a7", "10": "#7e57c2",
 }
+# Cyclic palette for books beyond #10 so the grid stays colorful.
+PALETTE = ["#e74c3c", "#16a085", "#8e44ad", "#2c3e50", "#d35400", "#0984e3",
+           "#6c5ce7", "#00b894", "#e84393", "#f39c12", "#0abde3", "#10ac84",
+           "#ee5253", "#5f27cd", "#ff9f43", "#48dbfb"]
+
+def accent_for(num):
+    s = str(num)
+    if s in ACCENT:
+        return ACCENT[s]
+    return PALETTE[int(num) % len(PALETTE)]
 
 AUTHOR = "Elisabetta Dami"
 
@@ -440,7 +450,7 @@ def gen_hub(manifest):
     cards = []
     for n in nums:
         b = books[n]
-        accent = ACCENT.get(n, "#2e8b57")
+        accent = accent_for(n)
         cards.append(f"""    <article class="book" style="--accent:{accent}">
       <div class="top"><div class="num">{b['number']}</div><div class="emoji">{b['emoji']}</div></div>
       <div class="body">
@@ -452,6 +462,8 @@ def gen_hub(manifest):
     </article>""")
 
     count = len(cards)
+    lo = nums[0]
+    hi = nums[-1]
 
     hub = f"""<!DOCTYPE html>
 <html lang="en">
@@ -546,7 +558,7 @@ def gen_hub(manifest):
 
 <div class="wrap">
   <div class="intro">
-    🐭 <b>{count} 本杰罗尼摩·斯蒂顿冒险故事（#1–#10），每本都有中英双语阅读理解测验。</b><br>
+    🐭 <b>{count} 本杰罗尼摩·斯蒂顿冒险故事（#{lo}–#{hi}），每本都有中英双语阅读理解测验。</b><br>
     {count} Geronimo Stilton adventures, each with a bilingual (English / 中文) comprehension quiz. Tap a book, read the questions, then check your answers!
   </div>
 

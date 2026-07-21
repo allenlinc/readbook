@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber-Thief Showdown — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#68 · Cyber-Thief Showdown</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: Cyber-Thief Showdown</em> (Scholastic, 2012) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Why was everyone in New Mouse City suddenly rude to Geronimo?", "zh": "为什么老鼠岛新城的居民突然都对杰罗尼摩不客气了？"}, "options": [{"en": "Fake, edited photos in the newspapers made him look rude", "zh": "报纸上经过篡改的假照片让他看起来很无礼"}, {"en": "He forgot everyone's birthday", "zh": "他忘了所有人的生日"}, {"en": "He moved to another city", "zh": "他搬去了别的城市"}, {"en": "He won a big contest", "zh": "他赢了一场大赛"}], "answer": 0, "explain": {"en": "Hacked and edited photos showed Geronimo stepping on the mayor's paw and tripping others, so rodents turned against him.", "zh": "被盗并篡改过的照片显示杰罗尼摩踩市长的脚、绊倒别人，于是大家都不理他了。"}}, {"q": {"en": "What mistake on his computer let the hacker break in?", "zh": "他电脑上什么疏失让黑客钻了空子？"}, "options": [{"en": "He had no password on his computer or email", "zh": "他的电脑和邮箱都没有设密码"}, {"en": "He left it out in the rain", "zh": "他把电脑放在雨里淋湿了"}, {"en": "He shared it with a stranger", "zh": "他把电脑借给了一个陌生人"}, {"en": "It was too old to work", "zh": "电脑太旧用不了了"}], "answer": 0, "explain": {"en": "Doc discovered Geronimo had created no password, so the hacker easily accessed his laptop, email, and credit card.", "zh": "博士发现杰罗尼摩根本没设密码，于是黑客轻松进入他的笔记本、邮箱和信用卡。"}}, {"q": {"en": "Who is Professor Margo Bitmouse, also called 'Doc'?", "zh": "玛戈·比特鼠教授，也就是“博士”，是谁？"}, "options": [{"en": "A computer scientist who teaches Internet safety", "zh": "一位教网络安全的计算机科学家"}, {"en": "The mayor of New Mouse City", "zh": "老鼠岛新城的市长"}, {"en": "Geronimo's tailor", "zh": "杰罗尼摩的裁缝"}, {"en": "A pirate captain", "zh": "一位海盗船长"}], "answer": 0, "explain": {"en": "Doc is a computer scientist and the foremost Internet-safety expert on Mouse Island who taught Geronimo a safety class.", "zh": "博士是一位计算机科学家，也是老鼠岛首屈一指的网络安全专家，曾给杰罗尼摩上过安全课。"}}, {"q": {"en": "What do Doc's Ten Golden Rules teach?", "zh": "博士的“十大黄金法则”教的是什么？"}, "options": [{"en": "How to stay safe on the Internet", "zh": "如何在网络上保护自己安全"}, {"en": "How to bake a chocolate cake", "zh": "如何烤巧克力蛋糕"}, {"en": "How to sail a ship", "zh": "如何驾驶轮船"}, {"en": "How to write a newspaper", "zh": "如何办一份报纸"}], "answer": 0, "explain": {"en": "The Ten Golden Rules cover Internet safety, like using strong passwords and never clicking suspicious links.", "zh": "十大黄金法则讲的是网络安全，比如使用强密码、绝不点击可疑链接等。"}}, {"q": {"en": "Who is the notorious hacker behind the attack?", "zh": "这场袭击背后那个臭名昭著的黑客是谁？"}, "options": [{"en": "Nick Nobody, the most notorious hacker on Mouse Island", "zh": "影子侠尼克，老鼠岛最臭名昭著的黑客"}, {"en": "Geronimo's grandfather", "zh": "杰罗尼摩的爷爷"}, {"en": "A pirate cat", "zh": "一只海盗猫"}, {"en": "The bank manager", "zh": "银行经理"}], "answer": 0, "explain": {"en": "Doc identified the hacker as Nick Nobody, the most notorious hacker on Mouse Island, who loves virtual-reality games.", "zh": "博士指认黑客是影子侠尼克——老鼠岛最臭名昭著的黑客，他酷爱虚拟现实游戏。"}}, {"q": {"en": "What online game did Geronimo use to challenge Nick Nobody?", "zh": "杰罗尼摩用哪款在线游戏向尼克发起挑战？"}, "options": [{"en": "Pirates of the Squeaky Seas", "zh": "吱吱海域大海盗"}, {"en": "Cheese Chef Challenge", "zh": "奶酪大厨挑战赛"}, {"en": "Spring Festival Egg Hunt", "zh": "春节彩蛋大搜寻"}, {"en": "Mouse Island Race", "zh": "老鼠岛大赛跑"}], "answer": 0, "explain": {"en": "Doc had Geronimo challenge Nick Nobody at Pirates of the Squeaky Seas, his favorite virtual-reality game.", "zh": "博士让杰罗尼摩在尼克最爱的虚拟现实游戏“吱吱海域大海盗”里向他下战书。"}}, {"q": {"en": "What names did the three Stiltons use in the game?", "zh": "斯蒂顿一家三口在游戏里用了什么名字？"}, "options": [{"en": "Gerry Shivertail, Terry the Terrible, and Benny the Buccaneer", "zh": "发抖尾巴杰瑞、可怕的泰瑞和海盗本尼"}, {"en": "Captain Hook, Peter Pan, and Tinker Bell", "zh": "胡克船长、彼得潘和叮当铃"}, {"en": "Red Riding Hood, the Wolf, and the Hunter", "zh": "小红帽、大灰狼和猎人"}, {"en": "Tom, Jerry, and Spike", "zh": "汤姆、杰瑞和斯派克"}], "answer": 0, "explain": {"en": "Geronimo was Gerry Shivertail, Thea was Terry the Terrible, and Benjamin was Benny the Buccaneer.", "zh": "杰罗尼摩叫发抖尾巴杰瑞，蒂娅叫可怕的泰瑞，本杰明叫海盗本尼。"}}, {"q": {"en": "How did the team find Nick Nobody's secret hideout?", "zh": "大家是如何找到尼克秘密老巢的？"}, "options": [{"en": "Doc traced his signal to a red X on a map, then they swam through an underwater tunnel", "zh": "博士把他的信号定位到地图上的红叉，然后他们游过一条水下隧道"}, {"en": "They asked the mayor", "zh": "他们去问了市长"}, {"en": "They followed a treasure map in a book", "zh": "他们照着书里的藏宝图找"}, {"en": "They flew a purple helicopter", "zh": "他们开了一架紫色直升机"}], "answer": 0, "explain": {"en": "Doc tracked Nick's Internet location to an uncharted island; they swam through an underwater tunnel like in the game.", "zh": "博士把尼克的联网位置锁定在一座无名小岛，他们便像游戏里那样游过水下隧道。"}}, {"q": {"en": "What was Nick Nobody really, once captured?", "zh": "被抓住后，尼克·诺巴迪到底是什么人？"}, "options": [{"en": "A young mouselet wearing a pirate costume and wig", "zh": "一只穿着海盗装、戴着假发的小老鼠"}, {"en": "A giant robot", "zh": "一个巨型机器人"}, {"en": "An old sea captain", "zh": "一位年老的船长"}, {"en": "A talking parrot", "zh": "一只会说话的鹦鹉"}], "answer": 0, "explain": {"en": "When Thea swiveled his chair, Nick's hat slipped off and revealed he was just a young mouselet in costume and a wig.", "zh": "蒂娅转动他的椅子时，尼克的帽子掉了，露出他不过是一只穿着戏服、戴着假发的小老鼠。"}}, {"q": {"en": "Why did Nick Nobody feel sorry at the end?", "zh": "最后尼克·诺巴迪为什么感到愧疚？"}, "options": [{"en": "He used to love reading pirate books and felt bad kids might lose Geronimo's books", "zh": "他以前爱读海盗冒险书，觉得孩子们可能因此读不到杰罗尼摩的书而难过"}, {"en": "He lost the video game", "zh": "他输掉了电子游戏"}, {"en": "He was seasick", "zh": "他晕船了"}, {"en": "He wanted a new wig", "zh": "他想要一顶新假发"}], "answer": 0, "explain": {"en": "Nick said he used to love adventure and pirate books, stopped reading, and cried that other mouselets might lose Geronimo's books.", "zh": "尼克说自己以前爱读冒险和海盗书，后来不再读书，想到别的小老鼠可能读不到杰罗尼摩的书而哭了。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

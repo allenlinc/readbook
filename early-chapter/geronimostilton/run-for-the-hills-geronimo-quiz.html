@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Run for the Hills, Geronimo! — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#47 · Run for the Hills, Geronimo!</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: Run for the Hills, Geronimo!</em> (Scholastic, 2006) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Which travel agency books Geronimo's relaxing vacation?", "zh": "是哪家旅行社为杰罗尼摩安排了这次轻松的假期？"}, "options": [{"en": "The Wander Rat", "zh": "漫游鼠旅行社"}, {"en": "The Rodent's Gazette", "zh": "《老鼠公报》报社"}, {"en": "MouseAir", "zh": "老鼠航空公司"}, {"en": "Dirt Cheap Airlines", "zh": "廉价土航空公司"}], "answer": 0, "explain": {"en": "Geronimo heads to his trusted travel agency, The Wander Rat, and talks to Ms. Samantha Sweetpaws, who books his trip.", "zh": "杰罗尼摩去了他信任的旅行社“漫游鼠”，和萨曼莎·甜爪女士商量，由她安排了行程。"}}, {"q": {"en": "At the airport, what happened to Geronimo's first-class ticket?", "zh": "在机场，杰罗尼摩的头等舱机票发生了什么？"}, "options": [{"en": "It was canceled and replaced with a Dirt Cheap Airlines ticket", "zh": "它被取消了，换成了一张廉价土航空的机票"}, {"en": "He lost it on the taxi ride", "zh": "他在坐出租车时弄丢了"}, {"en": "It was upgraded to an even better seat", "zh": "它被升级成了更好的座位"}, {"en": "He never actually booked one", "zh": "他其实根本没订过机票"}], "answer": 0, "explain": {"en": "The counter mouse says nothing is booked in his name; his first-class MouseAir ticket was canceled and someone booked him a Dirt Cheap Airlines ticket made of tattered tissue.", "zh": "柜台的老鼠说找不到他的订票记录；他原本的老鼠航空头等舱票被取消了，有人给他换了一张用破纸巾做的廉价土航空机票。"}}, {"q": {"en": "Who surprises Geronimo on the plane?", "zh": "在飞机上，是谁给杰罗尼摩来了个惊喜？"}, "options": [{"en": "His cousin Trap and six family friends", "zh": "他的表哥特拉普和六位亲友"}, {"en": "Sally Ratmousen", "zh": "莎莉·鼠莫森"}, {"en": "Hercule Poirat", "zh": "赫丘勒·波拉特"}, {"en": "A pilot named Wild Willie", "zh": "一位叫野威利的飞行员"}], "answer": 0, "explain": {"en": "Trap, Thea, Petunia Pretty Paws, Bugsy Wugsy, Benjamin, Bruce Hyena, and Grandfather William Shortpaws all remove cowboy hats and shout 'Surprise!'", "zh": "特拉普、蒂奥、佩图尼亚·美爪、巴格西·武格西、本杰明、布鲁斯·鬣狗和威廉·肖特波爷爷都摘下牛仔帽，齐声大喊“惊喜！”"}}, {"q": {"en": "What does the treasure map smell like, and where was it found?", "zh": "那张藏宝图闻起来是什么味道，又是在哪里找到的？"}, "options": [{"en": "Rotten fish; found in a garbage can with fish guts at New Mouse City's docks", "zh": "腐烂的鱼腥味；在新老鼠城码头一个装满鱼内脏的垃圾桶里找到"}, {"en": "Fresh cheese; found in a library", "zh": "新鲜的奶酪味；在图书馆里找到"}, {"en": "Roses; found in a flower shop", "zh": "玫瑰花香；在花店里找到"}, {"en": "Smoke; found in a chimney", "zh": "烟味；在烟囱里找到"}], "answer": 0, "explain": {"en": "Trap found the map at New Mouse City's docks, thrown into a garbage can filled with fish guts, so it stinks of rotten fish.", "zh": "特拉普是在新老鼠城码头找到这张图的，它被扔进一个装满鱼内脏的垃圾桶，所以散发着腐烂的鱼腥味。"}}, {"q": {"en": "On Mount Rushmore, which president's eye hides the next clue?", "zh": "在拉什莫尔山上，下一条线索藏在哪位总统的眼睛里？"}, "options": [{"en": "Theodore Roosevelt (the only one wearing glasses)", "zh": "西奥多·罗斯福（只有他戴着眼镜）"}, {"en": "George Washington", "zh": "乔治·华盛顿"}, {"en": "Abraham Lincoln", "zh": "亚伯拉罕·林肯"}, {"en": "Thomas Jefferson", "zh": "托马斯·杰斐逊"}], "answer": 0, "explain": {"en": "The map says 'peek,' meaning glasses; Theodore Roosevelt is the only president on Mount Rushmore wearing glasses, so Geronimo is lowered into his eye.", "zh": "藏宝图说“别忘了偷看（peek）”，意指眼镜；拉什莫尔山上只有西奥多·罗斯福戴着眼镜，于是杰罗尼摩被吊进他的眼睛里。"}}, {"q": {"en": "What message is written inside Theodore Roosevelt's eye?", "zh": "西奥多·罗斯福眼睛里写着什么信息？"}, "options": [{"en": "There are jewels that no mouse can part, These should be left within Earth's heart.", "zh": "有些珠宝任何老鼠都不能分开，它们应当留在大地的心脏之中。"}, {"en": "Seek the gold at Bear's Lodge.", "zh": "去熊之屋寻找黄金。"}, {"en": "Climb Harney Peak at dawn.", "zh": "黎明时去爬哈尼峰。"}, {"en": "Beware the mountain lion.", "zh": "当心山狮。"}], "answer": 0, "explain": {"en": "Hidden in a corner of Roosevelt's eye, Geronimo finds a scroll reading 'There are jewels that no mouse can part, These should be left within Earth's heart.'", "zh": "在罗斯福眼睛的一个角落里，杰罗尼摩找到一卷羊皮纸，上面写着：“有些珠宝任何老鼠都不能分开，它们应当留在大地的心脏之中。”"}}, {"q": {"en": "Which cave does the clue 'within Earth's heart' lead them to?", "zh": "“留在大地的心脏之中”这条线索把他们引到了哪个洞穴？"}, "options": [{"en": "Jewel Cave", "zh": "宝石洞"}, {"en": "Devils Tower", "zh": "恶魔塔"}, {"en": "Harney Peak", "zh": "哈尼峰"}, {"en": "Mount Rushmore", "zh": "拉什莫尔山"}], "answer": 0, "explain": {"en": "Wild Willie pages through the guidebook and realizes 'Earth's heart' means Jewel Cave, which sparkles like semiprecious stones.", "zh": "野威利翻看旅游指南，推断出“大地的心脏”指的是宝石洞，因为洞里的方解石像半宝石一样闪闪发光。"}}, {"q": {"en": "What shape is the pool where Geronimo finds the next clue, and what is the highest point of the Black Hills?", "zh": "杰罗尼摩找到下一条线索的水池是什么形状？黑山的最高点又叫什么？"}, "options": [{"en": "A heart-shaped pool; the highest point is Harney Peak (7,242 feet)", "zh": "心形的水池；最高点是哈尼峰（海拔7242英尺）"}, {"en": "A square pool; the highest point is Devils Tower", "zh": "方形的水池；最高点是恶魔塔"}, {"en": "A round pool; the highest point is Mount Rushmore", "zh": "圆形的水池；最高点是拉什莫尔山"}, {"en": "A star pool; the highest point is the Golden Dreams Hotel", "zh": "星形的水池；最高点是黄金梦酒店"}], "answer": 0, "explain": {"en": "Geronimo splashes into a heart-shaped pool; the pebbles spell a clue pointing to 'the Black Hills' highest crest,' which Wild Willie names as Harney Peak at 7,242 feet.", "zh": "杰罗尼摩一头栽进一个心形的水池；池底的小石子拼出一条指向“黑山最高峰”的线索，野威利指出那就是海拔7242英尺的哈尼峰。"}}, {"q": {"en": "How does Geronimo save Bugsy Wugsy from the mountain lion?", "zh": "杰罗尼摩是如何从山狮口中救下巴格西·武格西的？"}, "options": [{"en": "His hysterical screaming frightens the lion away", "zh": "他歇斯力里的尖叫把狮子吓跑了"}, {"en": "He fights it with karate", "zh": "他用空手道和狮子搏斗"}, {"en": "He throws cheese at it", "zh": "他朝狮子扔奶酪"}, {"en": "Wild Willie shoots it", "zh": "野威利开枪打跑了它"}], "answer": 0, "explain": {"en": "Geronimo slips and falls into the gorge; the last thing he sees is the mountain lion running away, because his hysterics frightened it off.", "zh": "杰罗尼摩脚下一滑掉进峡谷，他最后看到的是山狮转身跑掉——原来他歇斯底里的尖叫把狮子吓走了。"}}, {"q": {"en": "What is 'Bear's Lodge' also known as, where the final clue points?", "zh": "最后一条线索所指的“熊之屋”，又叫什么？"}, "options": [{"en": "Devils Tower, in northeastern Wyoming", "zh": "恶魔塔，位于怀俄明州东北部"}, {"en": "Harney Peak", "zh": "哈尼峰"}, {"en": "Jewel Cave", "zh": "宝石洞"}, {"en": "The Golden Dreams Hotel", "zh": "黄金梦酒店"}], "answer": 0, "explain": {"en": "The parchment says to seek gold 'At the foot of Bear's Lodge'; Geronimo's guidebook shows Bear's Lodge is also called Devils Tower, a tall rock in northeastern Wyoming.", "zh": "羊皮纸说要去“熊之屋脚下”寻找黄金；杰罗尼摩的旅游指南显示，熊之屋又叫恶魔塔，是怀俄明州东北部一座高耸的岩石。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

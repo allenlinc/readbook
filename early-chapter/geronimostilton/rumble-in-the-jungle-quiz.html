@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rumble in the Jungle — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#53 · Rumble in the Jungle</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: Rumble in the Jungle</em> (Scholastic, 2008) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who sent Geronimo the email that began 'Hello from Brazil!'?", "zh": "是谁给杰罗尼摩发了那封以“来自巴西的问候！”开头的电子邮件？"}, "options": [{"en": "Bruce Hyena", "zh": "布鲁斯·鬣狗"}, {"en": "Wild Willie", "zh": "野威利"}, {"en": "Jake Darkmouse", "zh": "杰克·暗鼠"}, {"en": "Hercule Poirat", "zh": "赫拉克勒·波瓦"}], "answer": 0, "explain": {"en": "The email was signed, 'Adventurously yours, Bruce Hyena.'", "zh": "那封邮件的署名是：“爱冒险的你，布鲁斯·鬣狗。”"}}, {"q": {"en": "What was Geronimo's secret computer password that Bruce Hyena discovered?", "zh": "布鲁斯·鬣狗偷看到的杰罗尼摩的电脑密码是什么？"}, "options": [{"en": "\"cheese\"", "zh": "“奶酪”"}, {"en": "\"mouse\"", "zh": "“老鼠”"}, {"en": "\"brazil\"", "zh": "“巴西”"}, {"en": "\"geronimo\"", "zh": "“杰罗尼摩”"}], "answer": 0, "explain": {"en": "Bruce says, 'Your password is cheese. Sorry to say it, Cheesehead, but that's an EXTREMELY EASY one.'", "zh": "布鲁斯说：“你的密码是奶酪。奶酪脑袋，这密码太简单了。”"}}, {"q": {"en": "Who came down the rope into Geronimo's attic to take him to Brazil?", "zh": "是谁顺着绳子从阁楼下来，把杰罗尼摩带去巴西的？"}, "options": [{"en": "Wild Willie and his cousin Maya", "zh": "野威利和他的表妹玛雅"}, {"en": "Thea and Trap", "zh": "蒂拉和特拉普"}, {"en": "Bruce Hyena alone", "zh": "只有布鲁斯·鬣狗"}, {"en": "Jake Darkmouse", "zh": "杰克·暗鼠"}], "answer": 0, "explain": {"en": "A rodent 'landed in front of me... It was Wild Willie... It was his cousin Maya!'", "zh": "“一只老鼠落在我面前……是野威利……那是他的表妹玛雅！”"}}, {"q": {"en": "What is the capital of Brazil, built in the shape of an airplane?", "zh": "巴西的首都是哪座城市，它的形状像一架飞机？"}, "options": [{"en": "Brasília", "zh": "巴西利亚"}, {"en": "Rio de Janeiro", "zh": "里约热内卢"}, {"en": "São Paulo", "zh": "圣保罗"}, {"en": "Cuiabá", "zh": "库亚巴"}], "answer": 0, "explain": {"en": "Wild Willie reads that Brasília 'officially became the capital of Brazil in 1960' and 'is shaped like an AIRPLANE!'", "zh": "野威利读到：巴西利亚“于1960年正式成为巴西首都”，而且“形状像一架飞机！”"}}, {"q": {"en": "What is the largest tropical wetland in the world that Geronimo visits?", "zh": "杰罗尼摩游览的世界上最大的热带湿地是哪里？"}, "options": [{"en": "The Pantanal", "zh": "潘塔纳尔湿地"}, {"en": "The Amazon rain forest", "zh": "亚马逊雨林"}, {"en": "Iguazu Falls", "zh": "伊瓜苏瀑布"}, {"en": "Brasília", "zh": "巴西利亚"}], "answer": 0, "explain": {"en": "The book states, 'THE PANTANAL is the largest tropical wetland in the world.'", "zh": "书中写道：“潘塔纳尔是世界上最大的热带湿地。”"}}, {"q": {"en": "What precious treasure did the Bororo people guard for generations?", "zh": "博罗罗人世代守护的珍贵宝物是什么？"}, "options": [{"en": "The Heart of Light, a glowing crystal", "zh": "发光的水晶“光明之心”"}, {"en": "A golden statue", "zh": "一座黄金雕像"}, {"en": "A map of Brazil", "zh": "一张巴西地图"}, {"en": "A giant snake", "zh": "一条巨蛇"}], "answer": 0, "explain": {"en": "The elder says, 'our most precious treasure: The Heart of Light. It is a crystal shaped like a heart that emits the purest and most marvelous light.'", "zh": "长者说：“我们最珍贵的宝物是光明之心，它是一颗心形水晶，散发出最纯净奇妙的光芒。”"}}, {"q": {"en": "Who is the dishonest rodent that stole the Heart of Light?", "zh": "是哪个不诚实的老鼠偷走了光明之心？"}, "options": [{"en": "Jake Darkmouse", "zh": "杰克·暗鼠"}, {"en": "Thiago", "zh": "蒂亚戈"}, {"en": "Bruce Hyena", "zh": "布鲁斯·鬣狗"}, {"en": "Antón Chefrat", "zh": "安东大厨鼠"}], "answer": 0, "explain": {"en": "The elder explains, 'news of this wonderful crystal reached the ears of Jake Darkmouse... One night he and his thugs arrived with an ENORMOUSE helicopter, and they stole the crystal!'", "zh": "长者说：“水晶的消息传到了杰克·暗鼠耳中……一天夜里，他带着手下乘着大直升机来偷走了水晶！”"}}, {"q": {"en": "Who is the tiny mouselet wearing a necklace of red-and-black berries that helps Geronimo?", "zh": "那位戴着红黑浆果项链、帮助杰罗尼摩的小老鼠女孩是谁？"}, "options": [{"en": "Colibrì", "zh": "蜂鸟（科利布里）"}, {"en": "Maya", "zh": "玛雅"}, {"en": "Ana", "zh": "安娜"}, {"en": "Thea", "zh": "蒂拉"}], "answer": 0, "explain": {"en": "The text says she 'wore a necklace of shiny red-and-black berries' and introduces herself: 'My name is Colibrì.'", "zh": "文中说她“戴着一串闪亮的红黑浆果项链”，并自我介绍：“我叫蜂鸟（科利布里）。”"}}, {"q": {"en": "Which animal gave Geronimo a huge slap with its paw to put him back on the right track?", "zh": "是哪只动物用爪子狠狠拍了杰罗尼摩一下，让他回到正确的路上？"}, "options": [{"en": "A jaguar", "zh": "一只美洲豹"}, {"en": "A monkey", "zh": "一只猴子"}, {"en": "A tapir", "zh": "一只貘"}, {"en": "A yellow armadillo", "zh": "一只黄色犰狳"}], "answer": 0, "explain": {"en": "The book says, 'a jaguar appeared before me and gave me a huge slap with its paw, putting me back on the right track!'", "zh": "书中写道：“一只美洲豹出现在我面前，用爪子狠狠拍了我一下，让我回到正确的路上！”"}}, {"q": {"en": "Which of Geronimo's family members greeted him at the airport in New Mouse City?", "zh": "杰罗尼摩回到老鼠岛的机场时，他的哪些家人来迎接他？"}, "options": [{"en": "His sister Thea, cousin Trap, and nephew Benjamin", "zh": "妹妹蒂拉、表哥特拉普和侄子本杰明"}, {"en": "Only his grandfather William", "zh": "只有他的爷爷威廉"}, {"en": "Only Jake Darkmouse", "zh": "只有杰克·暗鼠"}, {"en": "The Bororo people", "zh": "博罗罗人"}], "answer": 0, "explain": {"en": "The book says, 'my sister Thea, my cousin Trap, and my dear little nephew Benjamin' were there to greet him.", "zh": "书中说：“我的妹妹蒂拉、表哥特拉普，还有亲爱的小侄子本杰明”都来迎接他。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

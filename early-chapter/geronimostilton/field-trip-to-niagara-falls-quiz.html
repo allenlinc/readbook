@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Field Trip to Niagara Falls — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#24 · Field Trip to Niagara Falls</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: Field Trip to Niagara Falls</em> (Scholastic, 2005) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Where does Benjamin's class go on their field trip?", "zh": "本杰明的班级去哪里进行实地考察？"}, "options": [{"en": "Niagara Falls", "zh": "尼亚加拉大瀑布"}, {"en": "The Rodent's Gazette office", "zh": "《啮齿动物公报》报社"}, {"en": "Cacklefur Castle", "zh": "卡克福尔城堡"}, {"en": "A chocolate factory", "zh": "一家巧克力工厂"}], "answer": 0, "explain": {"en": "Geronimo misreads the blackboard, but it actually says CLASS TRIP TO NIAGARA FALLS, and he ends up taking the whole class there.", "zh": "杰罗尼摩看错了黑板，其实上面写的是“班级去尼亚加拉大瀑布考察”，结果他带着全班去了那里。"}}, {"q": {"en": "Who is Benjamin's teacher on the trip?", "zh": "这次旅行中本杰明的老师是谁？"}, "options": [{"en": "Thea, Geronimo's sister", "zh": "杰罗尼摩的妹妹蒂奥"}, {"en": "Miss Angel Paws", "zh": "安琪儿·爪老师"}, {"en": "Sally Ratmousen", "zh": "莎莉·鼠莫森"}, {"en": "Aunt Sweetfur", "zh": "甜毛阿姨"}], "answer": 1, "explain": {"en": "Miss Angel Paws is Benjamin's teacher; she has blonde fur, blue eyes, and organizes the Niagara Falls field trip.", "zh": "安琪儿·爪老师是本杰明的老师；她有着金色毛发、蓝眼睛，正是她组织了尼亚加拉大瀑布的考察之旅。"}}, {"q": {"en": "How many round-trip tickets did Miss Angel Paws book?", "zh": "安琪儿·爪老师订了多少张往返票？"}, "options": [{"en": "Twenty-two", "zh": "二十二张"}, {"en": "Twenty-three", "zh": "二十三张"}, {"en": "Twenty-four", "zh": "二十四张"}, {"en": "Twenty-five", "zh": "二十五张"}], "answer": 2, "explain": {"en": "She booked 'twenty-two students, a teacher, and Geronimo Stilton' — that makes twenty-four round-trip tickets.", "zh": "她订的是“二十二名学生、一位老师和杰罗尼摩·斯蒂顿”，加起来正好是二十四张往返票。"}}, {"q": {"en": "When Geronimo could not set up the tents, who did he call for help?", "zh": "当杰罗尼摩搭不起帐篷时，他打电话向谁求助？"}, "options": [{"en": "Benjamin", "zh": "本杰明"}, {"en": "Miss Angel Paws", "zh": "安琪儿·爪老师"}, {"en": "Gentle Mouse", "zh": "温柔鼠"}, {"en": "His sister Thea", "zh": "他的妹妹蒂奥"}], "answer": 3, "explain": {"en": "Benjamin whispers to call Aunt Thea; after a phone call, all the tents are ready in half an hour because Thea loves a challenge.", "zh": "本杰明悄悄建议打电话给蒂奥阿姨；通完电话半小时后所有帐篷就搭好了，因为蒂奥最喜欢挑战。"}}, {"q": {"en": "What black-and-white animal crept into camp and made everything stink?", "zh": "哪种黑白相间的小动物溜进营地，把四周弄得臭烘烘？"}, "options": [{"en": "A skunk", "zh": "一只臭鼬"}, {"en": "A fox", "zh": "一只狐狸"}, {"en": "A beaver", "zh": "一只河狸"}, {"en": "A raccoon", "zh": "一只浣熊"}], "answer": 0, "explain": {"en": "Benjamin checks the tourist guide and shows the picture: the smelly black-and-white creature is a skunk.", "zh": "本杰明翻旅游指南，指着图片说那只又臭又黑的黑白小动物就是臭鼬。"}}, {"q": {"en": "What boat took the class close to the rushing falls?", "zh": "是哪艘船载着全班靠近奔腾的瀑布？"}, "options": [{"en": "The Titanic", "zh": "泰坦尼克号"}, {"en": "The Maid of the Mist", "zh": "雾中少女号"}, {"en": "The Squeakini", "zh": "吱吱尼号"}, {"en": "The Cheese Express", "zh": "奶酪特快号"}], "answer": 1, "explain": {"en": "Miss Angel Paws boards the class on a boat called the Maid of the Mist that sails right up to the base of the falls.", "zh": "安琪儿·爪老师带全班登上了一艘叫“雾中少女号”的船，它一直开到瀑布脚下。"}}, {"q": {"en": "Who fell into the icy water and was rescued by Geronimo?", "zh": "是谁掉进冰冷的水里，被杰罗尼摩救了上来？"}, "options": [{"en": "Benjamin", "zh": "本杰明"}, {"en": "Tim", "zh": "蒂姆"}, {"en": "Punk Rat", "zh": "朋克鼠"}, {"en": "Gentle Mouse", "zh": "温柔鼠"}], "answer": 2, "explain": {"en": "Punk Rat was left on shore, slipped on a wet rock, and tumbled into the whirlpool; Geronimo dove in and pulled him up by the tail.", "zh": "朋克鼠被落在岸上，踩到湿石头滑进漩涡；杰罗尼摩跳下水，抓住他的尾巴把他拉了上来。"}}, {"q": {"en": "What does Miss Angel Paws keep inside the locket around her neck?", "zh": "安琪儿·爪老师挂在脖子上的小盒里装着什么？"}, "options": [{"en": "A photograph", "zh": "一张照片"}, {"en": "A whisker from her lost love", "zh": "她失去的恋人的一根胡须"}, {"en": "A gold ring", "zh": "一枚金戒指"}, {"en": "A love letter", "zh": "一封情书"}], "answer": 1, "explain": {"en": "She opens her locket to show a whisker — all she has left of a mouse she loved and lost long ago.", "zh": "她打开小盒，里面是一根胡须——那是她很久以前失去的恋人留给她的全部纪念。"}}, {"q": {"en": "During the woods hike, what disaster broke out after a little bird started smoking?", "zh": "在树林里徒步时，一只小鸟开始冒烟后，发生了什么灾难？"}, "options": [{"en": "A flood", "zh": "一场洪水"}, {"en": "An earthquake", "zh": "一场地震"}, {"en": "A tornado", "zh": "一场龙卷风"}, {"en": "A forest fire", "zh": "一场森林大火"}], "answer": 3, "explain": {"en": "Someone had left a campfire burning; the smoke filled the air and Gentle Mouse cried 'THE FOREST IS ON FIRE!'", "zh": "有人忘了熄灭火堆；浓烟弥漫开来，温柔鼠大喊“森林着火了！”"}}, {"q": {"en": "How did Geronimo's sister Thea deliver the wedding dress and tuxedo?", "zh": "杰罗尼摩的妹妹蒂奥是用什么方式送来婚纱和礼服的？"}, "options": [{"en": "In a pink helicopter", "zh": "用一架粉色直升机"}, {"en": "On a train", "zh": "用火车"}, {"en": "On a boat", "zh": "用船"}, {"en": "In a pink car", "zh": "用一辆粉色汽车"}], "answer": 0, "explain": {"en": "Thea, who loves pink, flies a pink helicopter dropping almonds, invitations, roses, and a huge pink package with the wedding clothes.", "zh": "最爱粉色的蒂奥驾驶一架粉色直升机，投下杏仁、请柬、玫瑰，还有装着结婚礼服的巨大粉色包裹。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

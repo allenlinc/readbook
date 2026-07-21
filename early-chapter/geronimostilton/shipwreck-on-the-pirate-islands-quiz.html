@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shipwreck on the Pirate Islands — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#18 · Shipwreck on the Pirate Islands</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: Shipwreck on the Pirate Islands</em> (Scholastic, 2003) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Where does Thea insist the family vacation instead of the relaxing Soft Squeak Resort?", "zh": "蒂奥坚持全家去哪里度假，而不去轻松惬意的软吱吱度假村？"}, "options": [{"en": "The Pirate Islands", "zh": "海盗群岛"}, {"en": "Soft Squeak Resort", "zh": "软吱吱度假村"}, {"en": "Cheese Log Beach", "zh": "奶酪卷海滩"}, {"en": "Mouse Island", "zh": "老鼠岛"}], "answer": 0, "explain": {"en": "Thea scoffs at Soft Squeak as 'for senior citizens' and drags everyone to the wild Pirate Islands with tigers, pythons, and tarantulas.", "zh": "蒂奥嘲笑软吱吱度假村是“给老年人去的”，硬把大家带到了有老虎、巨蟒和狼蛛的野外海盗群岛。"}}, {"q": {"en": "Who is the bizarre pilot nicknamed 'Bouncer'?", "zh": "那个外号叫“保恩瑟”的古怪飞行员真名是什么？"}, "options": [{"en": "Rough Rat Ricky", "zh": "粗野鼠里基"}, {"en": "Cap E. Tan", "zh": "船长E·坦"}, {"en": "Chatterbox Charlie", "zh": "唠叨鬼查理"}, {"en": "Shif T. Paws", "zh": "希夫特·波"}], "answer": 0, "explain": {"en": "The pilot introduces himself as Rough Rat Ricky, but everyone calls him Bouncer; he wears purple shorts, a neon shirt with red hearts, and a 'SCRAM!' medal.", "zh": "飞行员自称“粗野鼠里基”，但大家都叫他保恩瑟；他穿着紫色短裤、带红心的荧光黄衬衫，还挂着一块写有“滚开”的金牌。"}}, {"q": {"en": "What causes the hydroplane to crash into the sea?", "zh": "是什么导致水上飞机坠入大海的？"}, "options": [{"en": "A tornado", "zh": "一场龙卷风"}, {"en": "A shark", "zh": "一条鲨鱼"}, {"en": "Running out of gas", "zh": "飞机没油了"}, {"en": "A pirate attack", "zh": "海盗袭击"}], "answer": 0, "explain": {"en": "The control tower radios that a tornado is headed right for them, and the plane is blown into the deep blue waves.", "zh": "控制塔通过无线电警告说一场龙卷风正朝他们扑来，飞机被狂风掀翻，栽进了深蓝色的大海。"}}, {"q": {"en": "On which island do the mice end up after the crash?", "zh": "老鼠们坠机后最终流落到了哪座岛上？"}, "options": [{"en": "Thump Flop Island", "zh": "砰啪岛"}, {"en": "Loot Island", "zh": "战利品岛"}, {"en": "Littlecocoa", "zh": "小可可岛"}, {"en": "Fin's Revenge", "zh": "芬恩的复仇岛"}], "answer": 0, "explain": {"en": "Geronimo recognizes the island from his guidebook: Thump Flop, home of the 'plop birds' (Plob birds).", "zh": "杰罗尼摩从旅行指南里认出了这座岛：砰啪岛，正是那种会“啪嗒”掉鸟粪的鸟儿（普鲁伯鸟）的家园。"}}, {"q": {"en": "What does Geronimo find when he bites an oyster and chips his tooth?", "zh": "杰罗尼摩咬开一只牡蛎、把牙硌掉一块时，发现了什么？"}, "options": [{"en": "A pearl", "zh": "一颗珍珠"}, {"en": "A gold coin", "zh": "一枚金币"}, {"en": "A ruby", "zh": "一颗红宝石"}, {"en": "A button", "zh": "一颗纽扣"}], "answer": 0, "explain": {"en": "He spits out a horrifying crunch and finds a glittering white pearl in his paw — making the family 'rich!'", "zh": "他吐出一声吓人的“嘎嘣”，却在手心里发现了一颗闪闪发光的白色珍珠——一家人顿时“发财啦！”"}}, {"q": {"en": "Who saves Geronimo from the giant shark by cannonballing onto its back?", "zh": "是谁用“炸弹式”跳水的姿势砸到鲨鱼背上，把杰罗尼摩从大鲨鱼口中救下的？"}, "options": [{"en": "Bouncer", "zh": "保恩瑟"}, {"en": "Trap", "zh": "特拉普"}, {"en": "Thea", "zh": "蒂奥"}, {"en": "Benjamin", "zh": "本杰明"}], "answer": 0, "explain": {"en": "Bouncer does a cannonball off a high cliff onto the shark's back; the shark closes its eyes and starts snoring.", "zh": "保恩瑟从高处来了一个“炸弹式”跳水，正好砸在鲨鱼背上；鲨鱼闭上眼睛，居然打起了呼噜。"}}, {"q": {"en": "What are the names of the two crooked treasure hunters?", "zh": "那两个狡猾的寻宝贼分别叫什么名字？"}, "options": [{"en": "Cap E. Tan and Chatterbox Charlie", "zh": "船长E·坦和唠叨鬼查理"}, {"en": "Blackbeard and Calico Jack", "zh": "黑胡子和花布杰克"}, {"en": "Silverpaw and Bouncer", "zh": "银爪和保恩瑟"}, {"en": "Long Ben and Black Bart", "zh": "长本和黑巴特"}], "answer": 0, "explain": {"en": "The thin captain is Cap E. Tan and the round, chatty one is Chatterbox Charlie; they sneak ashore with a treasure map.", "zh": "瘦瘦的船长叫船长E·坦，圆滚滚又爱说话的那个叫唠叨鬼查理；他们拿着藏宝图偷偷上了岸。"}}, {"q": {"en": "How does Bouncer scare the treasure hunters off the island?", "zh": "保恩瑟是用什么办法把寻宝贼吓跑的？"}, "options": [{"en": "Rolling in quartz sand to look like a glittering white ghost", "zh": "在石英沙里打了滚，扮成一个闪闪发光的白色幽灵"}, {"en": "Throwing crabs at them", "zh": "朝他们扔螃蟹"}, {"en": "Calling the police", "zh": "报警叫来了警察"}, {"en": "Spraying perfume", "zh": "喷香水"}], "answer": 0, "explain": {"en": "Bouncer rolls in the quartz crystal sand, then howls 'SCRAM! MOVE IT! GET LOST!' like a ghost, and the crooks flee.", "zh": "保恩瑟在石英沙里滚了一身，然后像幽灵一样嚎叫“滚开！快走！消失！”，两个坏蛋吓得划船逃走了。"}}, {"q": {"en": "What is the name of the golden pirate ship they find in the underground cavern?", "zh": "他们在地下洞穴里发现的那艘黄金海盗船叫什么名字？"}, "options": [{"en": "TREASURE", "zh": "“宝藏号”"}, {"en": "The Rodent's Gazette", "zh": "《啮齿动物公报》"}, {"en": "The Roaring Rat", "zh": "《咆哮鼠报》"}, {"en": "Silverpaw", "zh": "“银爪号”"}], "answer": 0, "explain": {"en": "At the center of the crystal cavern sits an enormous galleon named TREASURE — and everything on it is made of gold.", "zh": "在晶莹的洞穴正中央停着一艘巨大的帆船，名字叫“宝藏号”——而且船上的一切都是用黄金打造的。"}}, {"q": {"en": "What does Geronimo discover about his family by reading Silverpaw's ship's log?", "zh": "杰罗尼摩读了银爪的航海日志后，发现自己家族有什么秘密？"}, "options": [{"en": "He has pirate blood — he is related to Silverpaw", "zh": "他流着海盗的血——和银爪是亲戚"}, {"en": "He is a king", "zh": "他是一位国王"}, {"en": "He owns the island", "zh": "他是那座岛的主人"}, {"en": "He was born at sea", "zh": "他出生在海上"}], "answer": 0, "explain": {"en": "The log shows his great-great-great-great-grandfather's cousin was the pirate Silverpaw, so Geronimo has pirate blood.", "zh": "日志显示，他高祖父的高祖父的堂兄弟正是海盗银爪，所以杰罗尼摩体内流着海盗的血。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

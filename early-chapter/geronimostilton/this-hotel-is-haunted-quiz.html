@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>This Hotel Is Haunted — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#50 · This Hotel Is Haunted</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: This Hotel Is Haunted</em> (Scholastic, 2006) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "At which building does the mysterious ghost appear?", "zh": "那只神秘的鬼出现在哪栋建筑里？"}, "options": [{"en": "New Mouse City's Grand Hotel", "zh": "新老鼠城的大酒店"}, {"en": "The Rodent's Gazette office", "zh": "《鼠民公报》报社"}, {"en": "Geronimo's mouse hole", "zh": "杰罗尼摩的老鼠洞"}, {"en": "A school elemousery", "zh": "一所老鼠学校"}], "answer": 0, "explain": {"en": "Newsmouse Pippi Skinnyfur reports live from New Mouse City's Grand Hotel, where guests are fleeing because of a ghost.", "zh": "新闻鼠皮皮在直播中报道，新老鼠城的大酒店里因为闹鬼，客人们正纷纷逃离。"}}, {"q": {"en": "Who is the owner of the Grand Hotel?", "zh": "大酒店的主人是谁？"}, "options": [{"en": "Horatzio Hoteltail, an old friend of Geronimo", "zh": "杰罗尼摩的老朋友霍拉蒂奥·霍特尔泰尔"}, {"en": "Bradley Bigbottom", "zh": "布拉德利·比格巴顿"}, {"en": "Sleezer the sewer rat", "zh": "下水道鼠斯利泽"}, {"en": "Hercule Poirat", "zh": "赫拉克勒·波瓦"}], "answer": 0, "explain": {"en": "The newsmouse interviews Horatzio Hoteltail, the owner of the Grand Hotel, who cries and offers to refund all the guests.", "zh": "新闻鼠采访了大酒店的主人霍拉蒂奥·霍特尔泰尔，他哭着表示愿意退还所有客人的钱。"}}, {"q": {"en": "Which room number has been secretly reserved for Geronimo?", "zh": "有人偷偷为杰罗尼摩预订了哪个房间？"}, "options": [{"en": "Room 313", "zh": "313号房间"}, {"en": "Room 101", "zh": "101号房间"}, {"en": "Room 666", "zh": "666号房间"}, {"en": "The basement", "zh": "地下室"}], "answer": 0, "explain": {"en": "The mysterious letter says, 'Go immediately to THE GRAND HOTEL. Room number 313 has been reserved for you.'", "zh": "那封神秘的信里写道：“立刻去大酒店。313号房间已经为你预订好了。”"}}, {"q": {"en": "Who is hiding behind the banana-patterned shower curtain in room 313?", "zh": "藏在313号房间香蕉图案浴帘后面的是谁？"}, "options": [{"en": "Hercule Poirat, the detective", "zh": "侦探赫拉克勒·波瓦"}, {"en": "The ghost", "zh": "那只鬼"}, {"en": "Benjamin Stilton", "zh": "本杰明·斯蒂顿"}, {"en": "Trap Stilton", "zh": "特拉普·斯蒂顿"}], "answer": 0, "explain": {"en": "A tail, paw, and snout pop out and say 'Peekaboo!' — it is Geronimo's detective friend Hercule Poirat playing a joke.", "zh": "窗帘后探出尾巴、爪子和鼻子，喊着“躲猫猫！”，原来是杰罗尼摩的侦探朋友赫拉克勒·波瓦在开玩笑。"}}, {"q": {"en": "What does the businessman Bradley Bigbottom want to turn the hotel into?", "zh": "商人布拉德利·比格巴顿想把酒店变成什么？"}, "options": [{"en": "A toilet factory", "zh": "一家马桶工厂"}, {"en": "A cheese shop", "zh": "一家奶酪店"}, {"en": "A school", "zh": "一所学校"}, {"en": "A Pizza place", "zh": "一家披萨店"}], "answer": 0, "explain": {"en": "Horatzio fears he must sell the hotel to Bradley Bigbottom, who wants to turn it into 'A TOILET FACTORY!'", "zh": "霍拉蒂奥担心自己被迫把酒店卖给布拉德利·比格巴顿，而对方想把酒店变成“一家马桶工厂！”"}}, {"q": {"en": "What strange thing does the cook Sergio keep finding in the guests' soup?", "zh": "厨师塞尔吉奥一直在美国客人的汤里发现什么奇怪的东西？"}, "options": [{"en": "White fur", "zh": "白色的毛"}, {"en": "Banana peels", "zh": "香蕉皮"}, {"en": "Gold coins", "zh": "金币"}, {"en": "Tiny clocks", "zh": "小钟表"}], "answer": 0, "explain": {"en": "Sergio says that for a month guests have complained about finding white fur in their soup, though no one in the kitchen has white fur.", "zh": "塞尔吉奥说，一个月来客人们一直抱怨在汤里发现白毛，可厨房里没人长着白毛。"}}, {"q": {"en": "What odd sound does the electrician Jack Joltson keep hearing?", "zh": "电工杰克·乔尔森一直听到什么奇怪的声音？"}, "options": [{"en": "Eerie violin music", "zh": "诡异的小提琴声"}, {"en": "Loud chewing", "zh": "大声咀嚼声"}, {"en": "A ringing bell", "zh": "叮当的铃声"}, {"en": "A cat meowing", "zh": "猫的叫声"}], "answer": 0, "explain": {"en": "Jack tells Geronimo that ever since the haunting began, he keeps hearing eerie violin music, though the hotel has no stereo system.", "zh": "杰克告诉杰罗尼摩，自从闹鬼开始，他总听到诡异的小提琴声，可酒店并没有音响系统。"}}, {"q": {"en": "When the ghost is unmasked, who is really underneath the armor and wig?", "zh": "当鬼被揭穿时，盔甲和假发下面真正的老鼠是谁？"}, "options": [{"en": "Ms. Bertha, the hotel director", "zh": "酒店经理伯莎女士"}, {"en": "Horatzio Hoteltail", "zh": "霍拉蒂奥·霍特尔泰尔"}, {"en": "Oswald the receptionist", "zh": "前台 Oswald"}, {"en": "Paws Prankster", "zh": "恶作剧鼠波兹"}], "answer": 0, "explain": {"en": "Hercule and Geronimo rip off the helmet and wig and discover the 'ghost' is Ms. Bertha, the hotel's director.", "zh": "赫拉克勒和杰罗尼摩扯下头盔和假发，发现“鬼”竟是酒店经理伯莎女士。"}}, {"q": {"en": "What do the initials B.B. on the trickster's tie stand for?", "zh": "那个捣蛋鬼领带上“B.B.”两个字母代表什么？"}, "options": [{"en": "Bradley Bigbottom", "zh": "布拉德利·比格巴顿"}, {"en": "Benjamin Briskwhiskers", "zh": "本杰明·灵活须"}, {"en": "Blue Banana", "zh": "蓝香蕉"}, {"en": "Brave Bot", "zh": "勇敢机器人"}], "answer": 0, "explain": {"en": "The short, thin rodent at the joke shop wears a tie embroidered with B.B., and later declares, 'my name isn't Bradley Bigbottom!'", "zh": "玩具店里那个又矮又瘦的老鼠打着绣有B.B.的领带，后来还叫嚷：“要不然我就不叫布拉德利·比格巴顿！”"}}, {"q": {"en": "Which wicked rodent are Bradley and Bertha working with to take over Mouse Island?", "zh": "布拉德利和伯莎在帮哪只坏老鼠夺取老鼠岛？"}, "options": [{"en": "Sleezer, the sewer rat", "zh": "下水道鼠斯利泽"}, {"en": "Wild Willie", "zh": "野威利"}, {"en": "Shrewdpaws", "zh": "精明爪"}, {"en": "Noblemouse", "zh": "高贵鼠"}], "answer": 0, "explain": {"en": "The book reveals Bertha and Bradley are in cahoots with Sleezer, a wicked rodent who wants to take over Mouse Island.", "zh": "书中揭示，伯莎和布拉德利与想夺取老鼠岛的坏老鼠斯利泽是一伙的。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Name Is Stilton, Geronimo Stilton — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#19 · My Name Is Stilton, Geronimo Stilton</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: My Name Is Stilton, Geronimo Stilton</em> (Scholastic, 2004) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Why does Geronimo hire Pinky Pick as his assistant without interviewing her?", "zh": "杰罗尼摩为什么没有面试就直接雇了平基·皮克当助手？"}, "options": [{"en": "He trusted his whiskers and her perfect-looking resume", "zh": "他相信自己的胡须直觉，也看中她那份出众的简历"}, {"en": "She was his niece", "zh": "她是他侄女"}, {"en": "Thea recommended her", "zh": "蒂奥推荐了她"}, {"en": "Mousella forced him to", "zh": "秘书莫塞拉逼他雇的"}], "answer": 0, "explain": {"en": "Geronimo read hundreds of resumes, thought Pinky's stood out, and insisted 'my whiskers never lie' — so he signed the contract without meeting her.", "zh": "杰罗尼摩读了上百份简历，觉得平基的最出色，还坚持“我的胡须从不说谎”，于是没见面就签了合同。"}}, {"q": {"en": "What is unusual about Pinky Pick's shoes?", "zh": "平基·皮克的鞋子有什么特别之处？"}, "options": [{"en": "Shocking pink platform sneakers with pink plastic fish swimming in the soles", "zh": "荧光粉的高帮松糕鞋，鞋底里还有粉色塑料小鱼在游动"}, {"en": "Red high heels", "zh": "红色高跟鞋"}, {"en": "Blue rubber boots", "zh": "蓝色雨靴"}, {"en": "Wooden clogs", "zh": "木头木鞋"}], "answer": 0, "explain": {"en": "Her enormous high-top sneakers are shocking pink with see-through platform soles; pink plastic fish swim in water inside them, lit by a flashing light.", "zh": "她那双巨大的高帮松糕鞋是荧光粉色的，透明厚鞋底里装着会发光、有粉色塑料小鱼游动的水。"}}, {"q": {"en": "What extremely rare cheese does Pinky research on the computer?", "zh": "平基用电脑查到的那种极为罕见的奶酪叫什么？"}, "options": [{"en": "Megacheese", "zh": "巨型奶酪"}, {"en": "Cheddarella", "zh": "切达瑞拉奶酪"}, {"en": "Blue cheese", "zh": "蓝纹奶酪"}, {"en": "Mozzarella", "zh": "马苏里拉奶酪"}], "answer": 0, "explain": {"en": "Pinky finds Megacheese, made in the village of Little Cheeseville — only seven whole cheeses a year, since it takes 3,000 gallons of milk for one pound.", "zh": "平基查到的是“巨型奶酪”，产自小奶酪村——一年只做七整块，因为做一磅就要用三千加仑牛奶。"}}, {"q": {"en": "How does Pinky get the interview with rock star Fuzzy Fuzzborn, who never gives interviews?", "zh": "从不接受采访的摇滚明星法齐·法兹伯恩，平基是用什么办法拿到采访的？"}, "options": [{"en": "She wrote a fake fan letter saying her mean boss forced her to work", "zh": "她写了封假粉丝信，说自己有个坏老板逼她拼命干活"}, {"en": "She is his real biggest fan", "zh": "她是他真正的头号粉丝"}, {"en": "She bribed him with cheese", "zh": "她用奶酪贿赂了他"}, {"en": "She sneaked backstage", "zh": "她偷偷溜到了后台"}], "answer": 0, "explain": {"en": "Pinky wrote Fuzzy a letter claiming she was his biggest fan with a mean boss (Geronimo) making her work day and night — so he agreed out of pity.", "zh": "平基给法齐写了封信，谎称自己是他的头号粉丝，还被坏老板（杰罗尼摩）逼着日夜干活——法齐出于同情才答应了采访。"}}, {"q": {"en": "What magazine for young mice does Pinky suggest the newspaper publish?", "zh": "平基建议报社办一本面向小老鼠的杂志，叫什么名字？"}, "options": [{"en": "Fully Kids Only", "zh": "《少儿专属》"}, {"en": "Mini Mouse", "zh": "《迷你鼠》"}, {"en": "The Rodent's Gazette", "zh": "《啮齿动物公报》"}, {"en": "The Daily Rat", "zh": "《每日鼠报》"}], "answer": 0, "explain": {"en": "Among her product ideas, Pinky proposes a magazine for young mice called Fully Kids Only, and says she is the right rodent to run it.", "zh": "在她的点子里，平基提议办一本给小老鼠看的杂志，名叫《少儿专属》，并说自己最适合来负责。"}}, {"q": {"en": "Whom does Pinky hire as her own personal assistant?", "zh": "平基又雇了谁当她自己的私人助理？"}, "options": [{"en": "Merry Melody", "zh": "梅丽·梅洛迪"}, {"en": "Mousella", "zh": "莫塞拉"}, {"en": "Thea", "zh": "蒂奥"}, {"en": "Trap", "zh": "特拉普"}], "answer": 0, "explain": {"en": "During Christmas vacation, Pinky introduces Merry Melody, another fourteen-year-old, as 'my new assistant' to speed up the biography.", "zh": "圣诞节假期里，平基带来了同样是十四岁的梅丽·梅洛迪，介绍说她是“我的新助理”，好加快写传记的速度。"}}, {"q": {"en": "What surprise waits for Geronimo when he gets home on his birthday?", "zh": "杰罗尼摩生日那天回到家，等着他的是什么惊喜？"}, "options": [{"en": "A big surprise party thrown by Pinky and his family", "zh": "平基和家人为他举办的热闹生日派对"}, {"en": "A quiet dinner for one", "zh": "一个人安静的晚餐"}, {"en": "A brand-new car", "zh": "一辆崭新的汽车"}, {"en": "Nothing — nobody remembered", "zh": "什么都没有——没人记得"}], "answer": 0, "explain": {"en": "Thinking no one remembered, Geronimo is greeted by about a hundred mice, Thea, Trap, and Benjamin, with a band, a poet, and fireworks.", "zh": "杰罗尼摩以为没人记得，结果家里挤满了约一百只老鼠，还有蒂奥、特拉普和本杰明，现场有乐队、诗人和烟花。"}}, {"q": {"en": "Who pilots the helicopter that flies the family to the North Pole?", "zh": "驾驶直升机把一家人送到北极的是谁？"}, "options": [{"en": "Thea", "zh": "蒂奥"}, {"en": "Geronimo", "zh": "杰罗尼摩"}, {"en": "Pinky", "zh": "平基"}, {"en": "Captain Nelson", "zh": "纳尔逊船长"}], "answer": 0, "explain": {"en": "Thea is a licensed pilot with her own plane; she flies the helicopter like a pro and lands them on Captain Nelson's icebreaker.", "zh": "蒂奥是持证飞行员，还有自己的飞机；她像老手一样驾驶直升机，把他们降落在纳尔逊船长的破冰船上。"}}, {"q": {"en": "After the ship crashes into an iceberg, where do Geronimo and his family end up?", "zh": "船撞上冰山后，杰罗尼摩和家人们流落到了哪里？"}, "options": [{"en": "Stranded on the iceberg itself", "zh": "被困在了那座冰山上面"}, {"en": "Safe on a lifeboat", "zh": "安全地待在救生艇上"}, {"en": "Back on Captain Nelson's ship", "zh": "回到了纳尔逊船长的船上"}, {"en": "On a warm beach", "zh": "在一片温暖的海滩上"}], "answer": 0, "explain": {"en": "A wave sweeps Geronimo overboard, but Trap pulls him onto the very iceberg that hit the ship; the whole family shelters there overnight.", "zh": "一阵浪把杰罗尼摩拍下船，特拉普把他拉上了那座撞船的冰山；全家人就在冰山上过了一夜。"}}, {"q": {"en": "At the North Pole New Year's party, what do Geronimo and Merry win together?", "zh": "在北极的新年派对上，杰罗尼摩和梅丽一起赢得了什么？"}, "options": [{"en": "The tango dance competition, with a cheddar trophy", "zh": "探戈舞比赛，赢得一座切达奶酪奖杯"}, {"en": "A singing contest", "zh": "一场歌唱比赛"}, {"en": "A cooking contest", "zh": "一场烹饪比赛"}, {"en": "A spelling bee", "zh": "一场拼写比赛"}], "answer": 0, "explain": {"en": "When no one asked Merry to dance, Geronimo did; they entered the tango contest and danced eight hours straight to win a cheddar-carved trophy.", "zh": "没人请梅丽跳舞，杰罗尼摩便邀了她；他们参加探戈比赛，连续跳了八个小时，赢了一座切达奶酪雕成的奖杯。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

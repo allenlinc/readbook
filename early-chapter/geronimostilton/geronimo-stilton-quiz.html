@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geronimo Stilton — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#63 · Geronimo Stilton</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: Geronimo Stilton</em> (Scholastic, 2010) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What strange disease suddenly breaks out across New Mouse City?", "zh": "新鼠城里突然爆发了什么奇怪的疾病？"}, "options": [{"en": "Red Spot Fever", "zh": "红斑热"}, {"en": "Blue Spot Disease (rodentia spotilitis)", "zh": "蓝斑病（鼠类斑疹）"}, {"en": "Green Fur Flu", "zh": "绿毛流感"}, {"en": "Yellow Tail Itch", "zh": "黄尾痒"}], "answer": 1, "explain": {"en": "The TV news reports rodents struck by a contagious disease that produces strange blue spots; Professor Brainymouse later names it rodentia spotilitis.", "zh": "电视新闻说老鼠们染上了一种会冒出奇怪蓝斑的传染病；后来布莱鼠教授把它命名为“鼠类斑疹”。"}}, {"q": {"en": "Who is Hercule Poirat in the story?", "zh": "故事里的赫库勒·波瓦是谁？"}, "options": [{"en": "Geronimo's cousin who loves jokes", "zh": "杰罗尼摩爱开玩笑的表哥"}, {"en": "A private investigator and Geronimo's old friend", "zh": "一名私家侦探，也是杰罗尼摩的老朋友"}, {"en": "The mayor of New Mouse City", "zh": "新鼠城市的市长"}, {"en": "A scientist at the Academy", "zh": "科学院的科学家"}], "answer": 1, "explain": {"en": "Hercule Poirat is a famous private detective and Geronimo's friend since preschool; his battle cry is 'Have no fear, Hercule Poirat is here!' and he loves bananas.", "zh": "赫库勒·波瓦是个有名的私家侦探，从幼儿园起就是杰罗尼摩的朋友；他的口号是“别害怕，赫库勒·波瓦来啦！”，而且他很爱吃香蕉。"}}, {"q": {"en": "What is Professor Brainymouse's personal motto?", "zh": "布莱鼠教授的座右铭是什么？"}, "options": [{"en": "Better to prevent than to cure!", "zh": "预防胜于治疗！"}, {"en": "Never trust a cat!", "zh": "永远别相信猫！"}, {"en": "Cheese solves everything!", "zh": "奶酪能解决一切！"}, {"en": "Run first, think later!", "zh": "先跑再想！"}], "answer": 0, "explain": {"en": "The book gives his motto as 'Better to prevent than to cure!' He is a vegetarian doctor who holds thirteen doctorate degrees.", "zh": "书里写的他的座右铭是“预防胜于治疗！”。他是一位素食医生，拥有十三个博士学位。"}}, {"q": {"en": "Who is secretly disguised as the biotechnologist Wanda McSlice?", "zh": "伪装成生物技术员旺达·麦克丝莱斯的其实是谁？"}, "options": [{"en": "Sally Ratmousen's cousin, the notorious thief called the Shadow", "zh": "莎莉·鼠托森的表妹，绰号“影子”的著名女飞贼"}, {"en": "Professor Brainymouse's assistant Rick", "zh": "布莱鼠教授的助手里克"}, {"en": "Geronimo's sister Thea", "zh": "杰罗尼摩的妹妹蒂奥"}, {"en": "The mayor's secretary", "zh": "市长的秘书"}], "answer": 0, "explain": {"en": "Wanda pulls off her wig to reveal she is the Shadow, Sally Ratmousen's cousin and the most notorious thief in New Mouse City.", "zh": "旺达扯下假发，露出真面目——她就是“影子”，莎莉·鼠托森的表妹，也是新鼠城最臭名昭著的飞贼。"}}, {"q": {"en": "How do the mice finally find the cure for Blue Spot Disease?", "zh": "老鼠们最终是如何找到蓝斑病的解药的？"}, "options": [{"en": "By buying it from a foreign lab", "zh": "从国外实验室购买"}, {"en": "From two missing pages torn from the old book, dropped by the Shadow", "zh": "靠影子掉落的那本旧书里被撕走的两页"}, {"en": "By asking the mayor", "zh": "去问市长"}, {"en": "From a dream Geronimo had", "zh": "从杰罗尼摩做的一个梦里"}], "answer": 1, "explain": {"en": "The Shadow drops two sheets torn from the old rodentia spotilitis book; Benjamin and Bugsy bring them to Professor Brainymouse, who uses them to make the cure.", "zh": "“影子”掉落了那本旧《鼠类斑疹》书里被撕走的两页；本杰明和巴格西把它交给布莱鼠教授，教授据此制出了解药。"}}, {"q": {"en": "How is the cure spread across the whole city?", "zh": "解药是如何喷洒到整个新鼠城的？"}, "options": [{"en": "Geronimo posts it in his newspaper", "zh": "杰罗尼摩登在报纸上"}, {"en": "Thea flies her plane and sprays it from above", "zh": "蒂奥驾驶飞机从空中喷洒"}, {"en": "Trap hands it out at a party", "zh": "特拉普在派对上发放"}, {"en": "Sally sells it in her factory", "zh": "莎莉在工厂里出售"}], "answer": 1, "explain": {"en": "Sally produces the cure in huge amounts at her factory, and Thea uses her plane to spray it over the city.", "zh": "莎莉在自己的工厂里大量生产解药，蒂奥则驾驶飞机从空中把解药喷洒全城。"}}, {"q": {"en": "What unusual vehicle does Hercule Poirat drive?", "zh": "赫库勒·波瓦驾驶的是什么特别的交通工具？"}, "options": [{"en": "A red race car", "zh": "一辆红色赛车"}, {"en": "The Bananamobile", "zh": "“香蕉车”"}, {"en": "A submarine", "zh": "一艘潜水艇"}, {"en": "A bicycle with a bell", "zh": "一辆带铃铛的自行车"}], "answer": 1, "explain": {"en": "Hercule and the others jump into his Bananamobile and zoom to the school laboratories to deliver the missing pages.", "zh": "赫库勒和大家跳上他的“香蕉车”，飞驰到学校实验室去送那两页缺失的书页。"}}, {"q": {"en": "What does the villain Sleezer always wear to hide his snout?", "zh": "坏蛋斯利泽为了遮住自己的脸，总是穿戴着什么？"}, "options": [{"en": "A clown nose and wig", "zh": "小丑红鼻子和假发"}, {"en": "A dark trench coat and a large-brimmed hat", "zh": "一件深色风衣和一顶宽边帽"}, {"en": "A bright yellow raincoat", "zh": "一件亮黄色雨衣"}, {"en": "A pirate eyepatch", "zh": "海盗眼罩"}], "answer": 1, "explain": {"en": "The book says Sleezer always wears a dark trench coat and a large-brimmed hat to hide his snout; no one even knows his last name.", "zh": "书里说斯利泽总是穿着深色风衣、戴着宽边帽来遮住脸；甚至没人知道他的姓氏。"}}, {"q": {"en": "Where does Professor Brainymouse's team set up their secret research labs?", "zh": "布莱鼠教授的团队把秘密实验室设在了哪里？"}, "options": [{"en": "In the basement of The Rodent's Gazette", "zh": "《啮齿动物公报》的地下室"}, {"en": "At the Academy of Science in the new Science Quarter", "zh": "新建科学街区的科学院"}, {"en": "On a ship at sea", "zh": "海上的一艘船上"}, {"en": "Inside Sally's cheese factory", "zh": "莎莉的奶酪工厂里"}], "answer": 1, "explain": {"en": "They work at the Academy of Science, New Mouse City's top university, in a brand-new neighborhood called the Science Quarter on the city's outskirts.", "zh": "他们在科学院工作，那是新鼠城最好的大学，位于城郊一个叫“科学街区”的全新社区。"}}, {"q": {"en": "How does the Cheese Experiment adventure finally end?", "zh": "《奶酪实验》这场冒险最终是如何收尾的？"}, "options": [{"en": "With Trap's fake blue-spot joke and a big party", "zh": "以特拉普装蓝斑的恶作剧和一场盛大派对收场"}, {"en": "With the city being evacuated", "zh": "全城被疏散"}, {"en": "With Geronimo moving away", "zh": "杰罗尼摩搬离了城市"}, {"en": "With the Shadow winning", "zh": "“影子”取得了胜利"}], "answer": 0, "explain": {"en": "Trap paints a fake blue spot on Geronimo as a joke, the disease is cured, and they celebrate with 'Thundering cat tails — let's party!'", "zh": "特拉普在杰罗尼摩鼻子上画了个假蓝斑开玩笑，疾病被治愈，大家高喊“雷霆猫尾——开派对吧！”来庆祝。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

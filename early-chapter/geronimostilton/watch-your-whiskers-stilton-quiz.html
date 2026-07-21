@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Your Whiskers, Stilton! — Quiz</title>
+<style>
+  :root{
+    --grass:#2e8b57;
+    --grass-dark:#1f6b41;
+    --red:#c0392b;
+    --cream:#fffdf5;
+    --ink:#222;
+    --gold:#f1c40f;
+    --mouse:#9b6a4f;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--grass),var(--grass-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--red);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--red);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .mouse{
+    width:52px;height:44px;border-radius:50% 50% 45% 45%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    box-shadow:0 0 0 3px #e7e7e7 inset;
+  }
+  .mouse::before,.mouse::after{
+    content:"";position:absolute;top:-12px;width:14px;height:22px;
+    background:#fff;border-radius:50% 50% 0 0;
+  }
+  .mouse::before{left:8px;transform:rotate(-12deg);}
+  .mouse::after{right:8px;transform:rotate(12deg);}
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--grass);background:#f3fbf6;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--grass);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--grass-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(192,57,43,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(192,57,43,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--grass-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#17 · Watch Your Whiskers, Stilton!</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Elisabetta Dami</p>
+    <div class="mouse"></div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Geronimo Stilton: Watch Your Whiskers, Stilton!</em> (Scholastic, 2004) — by Elisabetta Dami</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Elisabetta Dami",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The treasure is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Elisabetta Dami",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！宝藏藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What is the name of the rival newspaper that takes over every newsstand and bookstore?", "zh": "那家挤占了所有报摊和书店的报纸叫什么名字？"}, "options": [{"en": "The Roaring Rat", "zh": "《咆哮鼠报》"}, {"en": "The Daily Whisker", "zh": "《每日胡须报》"}, {"en": "The Cheese Chronicle", "zh": "《奶酪纪事报》"}, {"en": "The Mouse Monitor", "zh": "《老鼠观察报》"}], "answer": 0, "explain": {"en": "A one-eyed rat pays newsdealers and bookstores to sell only The Roaring Rat and sends Geronimo's papers to the recycling center.", "zh": "一只独眼老鼠花钱让报摊和书店只卖《咆哮鼠报》，还把杰罗尼摩的报纸送去回收站。"}}, {"q": {"en": "The mysterious one-eyed rat who tries to ruin Geronimo is really who?", "zh": "那个想要搞垮杰罗尼摩的神秘独眼老鼠，真实身份是谁？"}, "options": [{"en": "Flusher Pottypaws", "zh": "弗拉舍·波蒂波"}, {"en": "Hercule Poirat", "zh": "赫拉克·波瓦"}, {"en": "Shif T. Paws", "zh": "希夫特·波"}, {"en": "William Shortpaws", "zh": "威廉·肖特波"}], "answer": 0, "explain": {"en": "Thea uncovers that the mystery rat is Flusher Pottypaws, a very rich mouse who used to make toilets.", "zh": "蒂奥查出那个神秘老鼠就是弗拉舍·波蒂波，一只曾经制造马桶的超级富豪老鼠。"}}, {"q": {"en": "What business did Flusher Pottypaws run before he tried publishing?", "zh": "弗拉舍·波蒂波在尝试出版业之前，做的是什么生意？"}, "options": [{"en": "Making toilets and sanitary fittings", "zh": "制造马桶和卫生洁具"}, {"en": "Selling ice to Eskimice", "zh": "给爱斯基摩老鼠卖冰"}, {"en": "Baking bread", "zh": "烤面包"}, {"en": "Running a bank", "zh": "经营银行"}], "answer": 0, "explain": {"en": "Until three days earlier he owned a company that made sanitary fittings — 'toilets to you and me,' as Thea says.", "zh": "直到三天前，他还拥有一家生产卫生洁具的公司——用蒂奥的话说就是“马桶”。"}}, {"q": {"en": "Which super-salesmouse does Geronimo call to help sell the papers?", "zh": "杰罗尼摩请来帮忙卖报纸的“超级销售鼠”是谁？"}, "options": [{"en": "Shif T. Paws", "zh": "希夫特·波"}, {"en": "Dusty Dustwell", "zh": "达斯蒂·达斯特威尔"}, {"en": "Kreamy O'Cheddar", "zh": "克里米·奥切达"}, {"en": "Bagel Buckwheat", "zh": "贝格尔·巴克韦特"}], "answer": 0, "explain": {"en": "Geronimo answers an ad for Shif T. Paws, his old business manager, who bursts in shouting 'Watch your whiskers, here comes Shif T. Paws!'", "zh": "杰罗尼摩回应了希夫特·波的招聘广告，这位昔日经理冲进来大喊“当心你的胡须，希夫特·波来啦！”"}}, {"q": {"en": "Where do Geronimo and his staff set up their temporary office?", "zh": "杰罗尼摩和员工们把临时办公室设在了哪里？"}, "options": [{"en": "Bagel Buckwheat's bakery basement at 85 Curds Court", "zh": "贝格尔·巴克韦特位于奶酪凝块巷85号的面包房地窖"}, {"en": "A beach hut", "zh": "一座海滩小屋"}, {"en": "The television studio", "zh": "电视台演播室"}, {"en": "A bank vault", "zh": "银行金库"}], "answer": 0, "explain": {"en": "Mousella's cousin Bagel Buckwheat lets them use his large bakery basement at 85 Curds Court as their new base.", "zh": "秘书莫塞拉的表兄贝格尔·巴克韦特让他们使用自己位于奶酪凝块巷85号的面包房地窖作为新据点。"}}, {"q": {"en": "On what dangerous live TV game show does Geronimo agree to appear?", "zh": "杰罗尼摩答应参加的是哪个危险的电视直播游戏节目？"}, "options": [{"en": "The Mousetrap", "zh": "《捕鼠夹》"}, {"en": "The Cheese Wheel", "zh": "《奶酪转轮》"}, {"en": "Rat Race", "zh": "《老鼠赛跑》"}, {"en": "Whisker Quiz", "zh": "《胡须问答》"}], "answer": 0, "explain": {"en": "Shif T. Paws enters Geronimo as the next contestant on The Mousetrap, a spooky midnight game show held at the Top TV studios.", "zh": "希夫特·波把杰罗尼摩报成了《捕鼠夹》的下一位选手，那是一档在顶级电视台午夜播出的恐怖游戏节目。"}}, {"q": {"en": "Who hosts The Mousetrap and looks like a vampire rat?", "zh": "《捕鼠夹》的主持人像吸血鬼老鼠一样，他是谁？"}, "options": [{"en": "Vlad Torturetail", "zh": "弗拉德·托彻泰尔"}, {"en": "Ledger Moneymouse", "zh": "莱杰·莫尼鼠"}, {"en": "Inkpaws", "zh": "因克波"}, {"en": "Batsabout Books", "zh": "巴特萨包特"}], "answer": 0, "explain": {"en": "Host Vlad Torturetail is pale with pointed teeth, wears a black suit, white shirt, and red cape — he looks just like a vampire rat.", "zh": "主持人弗拉德·托彻泰尔脸色苍白、长着尖牙，身穿黑西装、白衬衫，披着红斗篷——活像一只吸血鬼老鼠。"}}, {"q": {"en": "On The Mousetrap, what happens if Geronimo gives a wrong answer?", "zh": "在《捕鼠夹》里，如果杰罗尼摩答错了会发生什么？"}, "options": [{"en": "The trap pinches or chops off his tail", "zh": "捕鼠夹会夹住或夹断他的尾巴"}, {"en": "He gets dumped with water", "zh": "他会被人泼一身水"}, {"en": "He gets electrocuted", "zh": "他会触电"}, {"en": "He is covered in cheese", "zh": "他会被淋满奶酪"}], "answer": 0, "explain": {"en": "The player sits in a mousetrap; a wrong answer releases the spring, which pinches — or even chops off — the contestant's tail on live TV.", "zh": "选手坐在捕鼠夹里，答错就会触发弹簧，在直播中夹住甚至夹断参赛者的尾巴。"}}, {"q": {"en": "According to Geronimo, what is the original meaning of the word 'Halloween'?", "zh": "按照杰罗尼摩的说法，“万圣节”这个词最初的意思是什么？"}, "options": [{"en": "All Hallows' Eve", "zh": "诸圣节前夕"}, {"en": "Hall of Mice", "zh": "老鼠大厅"}, {"en": "Hollow Evening", "zh": "空洞之夜"}, {"en": "Harvest Night", "zh": "丰收之夜"}], "answer": 0, "explain": {"en": "Geronimo explains the Celts were first to celebrate it, and the word comes from All Hallows' Eve.", "zh": "杰罗尼摩解释说凯尔特人最早庆祝这个节日，而这个词的来源是“诸圣节前夕”。"}}, {"q": {"en": "What publishing house do Geronimo and Pottypaws plan to start together?", "zh": "杰罗尼摩和波蒂波打算一起创办的出版社叫什么？"}, "options": [{"en": "First-rat Art", "zh": "一流艺术出版社"}, {"en": "Toilet Art", "zh": "马桶艺术出版社"}, {"en": "The Roaring Rat", "zh": "《咆哮鼠报》"}, {"en": "Curds Court Press", "zh": "奶酪凝块出版社"}], "answer": 0, "explain": {"en": "Shif T. Paws suggests they team up; Geronimo names it First-rat Art (Pottypaws had wanted 'Toilet Art').", "zh": "希夫特·波建议两人合作，杰罗尼摩把它命名为“一流艺术出版社”（波蒂波原本想叫“马桶艺术”）。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
