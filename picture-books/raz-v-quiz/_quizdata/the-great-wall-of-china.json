@@ -8,318 +8,198 @@
   "questions": [
     {
       "q": {
-        "en": "In what year was the Great Wall named a World Heritage Site by the United Nations?",
-        "zh": "联合国是在哪一年把长城列为世界遗产的？"
+        "en": "In 1987, what honor did the United Nations give the Great Wall?",
+        "zh": "1987年，联合国授予长城什么称号？"
       },
       "options": [
-        {
-          "en": "1987",
-          "zh": "1987年"
-        },
-        {
-          "en": "2007",
-          "zh": "2007年"
-        },
-        {
-          "en": "1368",
-          "zh": "1368年"
-        },
-        {
-          "en": "221 BC",
-          "zh": "公元前221年"
-        }
+        {"en": "A World Heritage Site", "zh": "世界遗产"},
+        {"en": "The tallest building award", "zh": "最高建筑奖"},
+        {"en": "A national park", "zh": "一个国家公园"},
+        {"en": "A modern wonder of Europe", "zh": "欧洲的现代奇迹"}
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "The book states that in 1987 the Great Wall was chosen as a World Heritage Site by the United Nations.",
-        "zh": "书中写道，1987年联合国将长城选为世界遗产。"
+        "en": "In 1987 the Great Wall was chosen as a World Heritage Site by the United Nations.",
+        "zh": "1987年，联合国将长城选为世界遗产。"
       }
     },
     {
       "q": {
-        "en": "About how long is the Great Wall when all its sections are added together?",
-        "zh": "如果把长城所有段落加起来，总长大约是多少？"
+        "en": "What ancient idea guided the curved design of the wall?",
+        "zh": "什么古老的观念指导了长城弯曲的设计？"
       },
       "options": [
-        {
-          "en": "About 21,196 kilometers",
-          "zh": "约21,196公里"
-        },
-        {
-          "en": "About 5,000 kilometers",
-          "zh": "约5,000公里"
-        },
-        {
-          "en": "About 700 kilometers",
-          "zh": "约700公里"
-        },
-        {
-          "en": "About 43 kilometers",
-          "zh": "约43公里"
-        }
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "Between 2007 and 2012, scientists measured the wall and found it is about 21,196 km long in total.",
-        "zh": "2007至2012年间，科学家测量发现长城总长约为21,196公里。"
-      }
-    },
-    {
-      "q": {
-        "en": "Why was the wall built curved instead of straight?",
-        "zh": "长城为什么建成弯曲的而不是笔直的？"
-      },
-      "options": [
-        {
-          "en": "Feng shui principles said it should flow over the land in a harmonious way.",
-          "zh": "因为风水讲究让墙顺着地势和谐地延伸。"
-        },
-        {
-          "en": "Straight walls cost too much money.",
-          "zh": "因为笔直的墙太花钱。"
-        },
-        {
-          "en": "The builders did not know how to build straight lines.",
-          "zh": "因为建造者不会建直线。"
-        },
-        {
-          "en": "Curves keep enemies from seeing the end.",
-          "zh": "因为弯道能让敌人看不到尽头。"
-        }
+        {"en": "Feng shui", "zh": "风水"},
+        {"en": "Mathematics", "zh": "数学"},
+        {"en": "Astronomy", "zh": "天文学"},
+        {"en": "Commerce", "zh": "商业"}
       ],
       "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
-        "en": "The ancient art and science of feng shui governed the design so the wall would flow harmoniously over the land.",
-        "zh": "古代的风水学问指导了设计，让长城顺着大地和谐地蜿蜒。"
+        "en": "The art and science of feng shui governed the design; the wall was curved to flow over the land in a harmonious way.",
+        "zh": "风水这门古老的艺术与科学指导了设计；长城被建成弯曲的，以和谐的方式顺应地势。"
       }
     },
     {
       "q": {
-        "en": "What does the book compare the shape of the Great Wall to?",
-        "zh": "书里把长城的整体形状比作了什么？"
+        "en": "Many Chinese think of the Great Wall as what kind of animal?",
+        "zh": "许多中国人把长城想象成什么动物？"
       },
       "options": [
-        {
-          "en": "A sleeping dragon",
-          "zh": "一条沉睡的龙"
-        },
-        {
-          "en": "A long snake in a zoo",
-          "zh": "动物园里的一条长蛇"
-        },
-        {
-          "en": "A tall ladder",
-          "zh": "一把高高的梯子"
-        },
-        {
-          "en": "A giant noodle",
-          "zh": "一根巨大的面条"
-        }
-      ],
-      "answer": 0,
-      "skill": "Author's Purpose and Perspective",
-      "explain": {
-        "en": "Many people in China think of the wall as a sleeping dragon, with its tail in the west and head in the east.",
-        "zh": "很多中国人把长城看作一条沉睡的龙，尾在西、头在东。"
-      }
-    },
-    {
-      "q": {
-        "en": "Who ordered the first large wall built along China's borders?",
-        "zh": "是谁下令沿中国边境修建最早的大段长城？"
-      },
-      "options": [
-        {
-          "en": "Emperor Zheng of the Qin state, around 221 BC",
-          "zh": "秦国的秦始皇（约公元前221年）"
-        },
-        {
-          "en": "Genghis Khan",
-          "zh": "成吉思汗"
-        },
-        {
-          "en": "A group of farmers",
-          "zh": "一群农民"
-        },
-        {
-          "en": "The United Nations",
-          "zh": "联合国"
-        }
+        {"en": "A sleeping dragon", "zh": "一条沉睡的龙"},
+        {"en": "A running horse", "zh": "一匹奔跑的马"},
+        {"en": "A flying eagle", "zh": "一只飞翔的鹰"},
+        {"en": "A swimming fish", "zh": "一条游动的鱼"}
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "After Qin took control of all of China, Zheng became the first emperor and ordered almost 4,828 km of wall.",
-        "zh": "秦统一中国后，嬴政成为第一位皇帝，下令修建近4,828公里的长城。"
+        "en": "The book says many people in China think of the wall as a sleeping dragon, with its tail in the west and head in the east.",
+        "zh": "书中说许多中国人把长城看作一条沉睡的龙，尾在西、头在东。"
       }
     },
     {
       "q": {
-        "en": "What secret ingredient did historians discover was really used in the wall's mortar?",
-        "zh": "历史学家发现长城灰浆里真正用的是什么神秘原料？"
+        "en": "According to modern measurement, about how long is the whole wall?",
+        "zh": "根据现代测量，整座长城大约有多长？"
       },
       "options": [
-        {
-          "en": "Sticky rice",
-          "zh": "糯米"
-        },
-        {
-          "en": "Ground-up bones of dead workers",
-          "zh": "死去的工人的骨粉"
-        },
-        {
-          "en": "Honey",
-          "zh": "蜂蜜"
-        },
-        {
-          "en": "Crushed seashells",
-          "zh": "碾碎的贝壳"
-        }
+        {"en": "About 21,196 kilometers", "zh": "约21,196公里"},
+        {"en": "About 5,000 kilometers", "zh": "约5,000公里"},
+        {"en": "About 1,000 kilometers", "zh": "约1,000公里"},
+        {"en": "About 100,000 kilometers", "zh": "约100,000公里"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Between 2007 and 2012 scientists measured all sections; the total is about 21,196 kilometers (13,171 mi.).",
+        "zh": "2007至2012年间科学家测量了所有段落，总长约为21,196公里（13,171英里）。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was the wall mainly built to keep out?",
+        "zh": "长城主要是为了阻挡谁而修建的？"
+      },
+      "options": [
+        {"en": "The Mongol people and other non-Chinese groups", "zh": "蒙古人及其他非汉族群体"},
+        {"en": "Flood waters", "zh": "洪水"},
+        {"en": "Wild animals from the south", "zh": "来自南方的野兽"},
+        {"en": "Traders from Europe", "zh": "来自欧洲的商人"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The wall followed the edge of Inner Mongolia and was built to keep out the Mongol people and protect Chinese culture.",
+        "zh": "长城沿着内蒙古边缘修建，用来阻挡蒙古人并保护中国文化。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which emperor ordered a long wall built after uniting China around 221 BC?",
+        "zh": "约公元前221年统一中国后，是哪位皇帝下令修建长墙？"
+      },
+      "options": [
+        {"en": "Zheng, the first emperor of Qin", "zh": "秦朝第一位皇帝——嬴政"},
+        {"en": "Genghis Khan", "zh": "成吉思汗"},
+        {"en": "A Ming dynasty emperor", "zh": "明朝的一位皇帝"},
+        {"en": "A Tang dynasty emperor", "zh": "唐朝的一位皇帝"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "After Qin took control of all of China, Zheng became the first emperor and ordered workers to build almost 4,828 km of wall.",
+        "zh": "秦统一中国后，嬴政成为第一位皇帝，下令修筑近4,828公里的长墙。"
+      }
+    },
+    {
+      "q": {
+        "en": "During the Ming dynasty, what secret ingredient made the mortar strong?",
+        "zh": "明朝时期，是什么秘密成分让灰浆变得坚固？"
+      },
+      "options": [
+        {"en": "Sticky rice", "zh": "糯米"},
+        {"en": "Ground-up bones", "zh": "磨碎的骨头"},
+        {"en": "Crushed seashells", "zh": "压碎的贝壳"},
+        {"en": "Volcanic ash", "zh": "火山灰"}
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "A myth said bones were used, but historians found the secret ingredient was sticky rice.",
+        "zh": "有传言说用了骨头，但历史学家发现秘密成分其实是糯米。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which section is the most famous and best-preserved, near Beijing?",
+        "zh": "哪个段落最著名、保存最完好，且靠近北京？"
+      },
+      "options": [
+        {"en": "Badaling", "zh": "八达岭"},
+        {"en": "Mutianyu", "zh": "慕田峪"},
+        {"en": "Simatai", "zh": "司马台"},
+        {"en": "Jinshanling", "zh": "金山岭"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Badaling is the most famous and best-preserved section, northwest of Beijing, with forty-three watchtowers.",
+        "zh": "八达岭是最著名、保存最完好的段落，位于北京西北，有43座敌楼。"
+      }
+    },
+    {
+      "q": {
+        "en": "About how many watchtowers and outposts are along the wall?",
+        "zh": "长城沿线上大约有多少座敌楼和哨所？"
+      },
+      "options": [
+        {"en": "25,000 watchtowers and 15,000 outposts", "zh": "25,000座敌楼和15,000个哨所"},
+        {"en": "100 watchtowers and 50 outposts", "zh": "100座敌楼和50个哨所"},
+        {"en": "1,000 watchtowers and 1,000 outposts", "zh": "1,000座敌楼和1,000个哨所"},
+        {"en": "500,000 watchtowers and 500,000 outposts", "zh": "500,000座敌楼和500,000个哨所"}
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
-        "en": "A myth said the mortar held ground-up bones, but historians found the real secret ingredient was sticky rice.",
-        "zh": "有传说称灰浆里掺了骨粉，但历史学家发现真正的秘密原料是糯米。"
+        "en": "There are about 25,000 watchtowers and 15,000 outposts along the sections of the Great Wall.",
+        "zh": "长城各段落沿线约有25,000座敌楼和15,000个哨所。"
       }
     },
     {
       "q": {
-        "en": "What building method was used to construct the early walls?",
-        "zh": "早期的长城是用什么方法建造的？"
+        "en": "How did the 2008 Beijing Olympics show the wall's importance?",
+        "zh": "2008年北京奥运会如何体现了长城的重要性？"
       },
       "options": [
-        {
-          "en": "Hang-tu, or rammed earth, packed inside a wooden or bamboo frame",
-          "zh": "夯土法：把泥土填进木框或竹框里夯实"
-        },
-        {
-          "en": "Stacking ice blocks",
-          "zh": "堆冰块"
-        },
-        {
-          "en": "Carving the wall out of one giant rock",
-          "zh": "从一整块巨石上雕刻出来"
-        },
-        {
-          "en": "Printing it with a 3D printer",
-          "zh": "用3D打印机打印"
-        }
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "All the walls were built with the hang-tu method: pounding packed earth inside a frame.",
-        "zh": "所有城墙都用夯土法建造：把土填进框里夯实。"
-      }
-    },
-    {
-      "q": {
-        "en": "Why was the Great Wall originally built?",
-        "zh": "长城最初修建的目的是什么？"
-      },
-      "options": [
-        {
-          "en": "To keep out nomadic enemies like the Mongols and protect Chinese culture",
-          "zh": "为了阻挡像蒙古人这样的游牧民族敌人，保护中华文化"
-        },
-        {
-          "en": "To give tourists something to climb",
-          "zh": "为了给游客提供攀爬的地方"
-        },
-        {
-          "en": "To mark the route of the Olympics",
-          "zh": "为了标出奥运会的路线"
-        },
-        {
-          "en": "To store grain for the winter",
-          "zh": "为了储存过冬的粮食"
-        }
+        {"en": "The wall appeared in the Opening Ceremony and a cycling course", "zh": "长城出现在开幕式和一条自行车赛道上"},
+        {"en": "The wall was torn down for the Games", "zh": "长城为奥运会被拆除"},
+        {"en": "A wall was built inside the stadium", "zh": "在体育场里另建了一道墙"},
+        {"en": "The Games ignored Chinese history", "zh": "奥运会忽略了中国历史"}
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
-        "en": "The wall followed Inner Mongolia's edge to keep out invaders and protect Chinese culture from outside influence.",
-        "zh": "长城沿着内蒙古边缘修建，用来阻挡入侵者，保护中华文化免受外来影响。"
-      }
-    },
-    {
-      "q": {
-        "en": "How does the book present its information?",
-        "zh": "这本书是如何组织信息的？"
-      },
-      "options": [
-        {
-          "en": "With clear sections and headings like 'Why a Wall' and 'Building the Wall'",
-          "zh": "用清晰的章节和小标题，如“为何建墙”“建造城墙”"
-        },
-        {
-          "en": "As one long poem",
-          "zh": "写成一首长诗"
-        },
-        {
-          "en": "As a list of only dates",
-          "zh": "只列了一堆日期"
-        },
-        {
-          "en": "As a play with actors",
-          "zh": "写成有演员的剧本"
-        }
-      ],
-      "answer": 0,
-      "skill": "Craft and Structure",
-      "explain": {
-        "en": "The book uses a table of contents and topic headings to organize facts about the wall.",
-        "zh": "书里用了目录和主题小标题来组织关于长城的事实。"
-      }
-    },
-    {
-      "q": {
-        "en": "Which section of the wall is the most famous and best preserved?",
-        "zh": "长城哪一段最有名、保存得最好？"
-      },
-      "options": [
-        {
-          "en": "Badaling",
-          "zh": "八达岭"
-        },
-        {
-          "en": "Mutianyu",
-          "zh": "慕田峪"
-        },
-        {
-          "en": "Simatai",
-          "zh": "司马台"
-        },
-        {
-          "en": "Jinshanling",
-          "zh": "金山岭"
-        }
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "Badaling is described as the most famous and best-preserved section, near Beijing with 43 watchtowers.",
-        "zh": "八达岭被描述为最有名、保存最好的一段，靠近北京，有43座烽火台。"
+        "en": "The Games honored host-country history: a representation of the wall highlighted the Opening Ceremony and a cycling course ran between two passes.",
+        "zh": "奥运会致敬东道主国家的历史：长城的形象成为开幕式的亮点，一条自行车赛道在两个关隘间穿行。"
       }
     }
   ],
   "extended": {
     "prompt": {
-      "en": "The Great Wall was built over thousands of years by many different people. Why do you think it still matters to people today?",
-      "zh": "长城经历了数千年、由许多不同的人修建而成。你认为今天它为什么对人们仍然重要？"
+      "en": "If you could visit one section of the Great Wall, which would you choose and why?",
+      "zh": "如果你能游览长城的某一段，你会选哪一段，为什么？"
     },
     "guidance": {
       "en": [
-        "Think about what the wall represents to China's history and culture.",
-        "Consider how it is used and remembered in modern times."
+        "Think about what each section offers, like Badaling's museum or Simatai's steep views.",
+        "Consider whether you prefer easy access or a challenging climb."
       ],
       "zh": [
-        "想一想长城代表了中国的哪些历史与文化。",
-        "想想现代社会如何运用和纪念它。"
+        "想一想每一段的特点，比如八达岭的博物馆或司马台的险峻景观。",
+        "考虑你是喜欢方便到达，还是喜欢有挑战性的攀登。"
       ]
     }
   }

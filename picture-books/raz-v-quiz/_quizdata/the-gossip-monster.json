@@ -1,205 +1,325 @@
 {
   "slug": "the-gossip-monster",
   "title": "The Gossip Monster",
-  "titleZh": "八卦怪兽",
+  "titleZh": "八卦怪物",
   "level": "V",
   "genre": "Narrative",
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
       "q": {
-        "en": "Who is the main character who starts the rumor about Del?",
-        "zh": "谁是对德尔散布谣言的主角？"
+        "en": "What rumor about Del spread through the school?",
+        "zh": "学校里流传着关于戴尔的什么谣言？"
       },
       "options": [
-        {"en": "Jamie", "zh": "杰米"},
-        {"en": "Del", "zh": "德尔"},
-        {"en": "Mr. Sanchez", "zh": "桑切斯老师"},
-        {"en": "Mrs. Cosgrove", "zh": "科斯格罗夫校长"}
+        {
+          "en": "He beat up a kindergartner and was expelled.",
+          "zh": "他打了一个幼儿园小朋友，还被开除了。"
+        },
+        {
+          "en": "He won a school reading award.",
+          "zh": "他赢得了一个校内阅读奖项。"
+        },
+        {
+          "en": "He moved to a new school far away.",
+          "zh": "他转去了很远的另一所学校。"
+        },
+        {
+          "en": "He saved a younger student from danger.",
+          "zh": "他救了一个低年级的同学。"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "Jamie is the narrator who saw Del in the office and told friends he had beaten up a kindergartner, starting the rumor.",
-        "zh": "杰米是叙述者，她看到德尔在办公室，便告诉朋友说德尔打了一个幼儿园孩子，从而引发了谣言。"
+        "en": "Matt told Jamie the rumor said Principal Cosgrove expelled Del for beating up a kindergartner.",
+        "zh": "马特告诉杰米，谣言说科斯格罗夫校长因为戴尔打了幼儿园小朋友而把他开除了。"
       }
     },
     {
       "q": {
-        "en": "Why was Del actually in Principal Cosgrove's office?",
-        "zh": "德尔到底为什么会在科斯格罗夫校长的办公室里？"
+        "en": "Why was Del really in Principal Cosgrove's office?",
+        "zh": "戴尔到底为什么会在科斯格罗夫校长的办公室里？"
       },
       "options": [
-        {"en": "He had beaten up a kindergartner", "zh": "他打了一个幼儿园孩子"},
-        {"en": "His mom was telling him his dad, a soldier overseas, was coming home", "zh": "他的妈妈告诉他，在海外当兵的爸爸要回家了"},
-        {"en": "He was being expelled", "zh": "他要被开除"},
-        {"en": "He was in trouble for teasing Jamie", "zh": "他因为捉弄杰米惹了麻烦"}
-      ],
-      "answer": 1,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "Del explains that the woman and crying boy were his mom and little brother; his dad, deployed overseas in the Army, was coming home.",
-        "zh": "德尔解释说那个女人和哭泣的男孩是他的妈妈和弟弟；他在海外当兵的爸爸要回家了。"
-      }
-    },
-    {
-      "q": {
-        "en": "What game does Mr. Sanchez have the class play to teach a lesson about rumors?",
-        "zh": "桑切斯老师让全班玩了什么游戏来给大家上一堂关于谣言的课？"
-      },
-      "options": [
-        {"en": "Kickball", "zh": "踢球"},
-        {"en": "Telephone", "zh": "传话游戏"},
-        {"en": "Hide and seek", "zh": "捉迷藏"},
-        {"en": "Hangman", "zh": "绞刑架猜词"}
-      ],
-      "answer": 1,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "Mr. Sanchez plays Telephone; the whispered sentence changes completely, showing how rumors grow and mutate.",
-        "zh": "桑切斯老师玩了传话游戏；悄悄传的句子完全变了样，说明谣言如何传播和变形。"
-      }
-    },
-    {
-      "q": {
-        "en": "What was the original sentence Mr. Sanchez wrote on the card?",
-        "zh": "桑切斯老师写在卡片上的原话是什么？"
-      },
-      "options": [
-        {"en": "Don't believe everything that you hear", "zh": "不要相信你听到的每一句话"},
-        {"en": "Double leaves everything in your ear", "zh": "双层叶子在你耳边"},
-        {"en": "Dope leaning ringing in your ear", "zh": "傻瓜靠在你耳边响"},
-        {"en": "Del beat up a kindergartner", "zh": "德尔打了幼儿园孩子"}
+        {
+          "en": "His mom was telling him and his little brother their dad, hurt overseas in the Army, was coming home.",
+          "zh": "他妈妈正告诉他和小弟弟，他们在海外服役受伤的爸爸要回家了。"
+        },
+        {
+          "en": "He was in trouble for bullying a classmate.",
+          "zh": "他因为欺负同学惹了麻烦。"
+        },
+        {
+          "en": "He was receiving a special Student of the Month award.",
+          "zh": "他要去领一个“本月之星”特别奖。"
+        },
+        {
+          "en": "He was registering for a brand-new school.",
+          "zh": "他正在办理转学手续。"
+        }
       ],
       "answer": 0,
-      "skill": "Craft and Structure",
-      "explain": {
-        "en": "The card read \"Don't believe everything that you hear,\" but by the time it returned it had become nonsense.",
-        "zh": "卡片上写的是"不要相信你听到的每一句话"，但传回来时已经变成了一堆胡言乱语。"
-      }
-    },
-    {
-      "q": {
-        "en": "According to Mr. Sanchez, what is like feeding a monster?",
-        "zh": "按照桑切斯老师的说法，什么行为就像在喂养一只怪兽？"
-      },
-      "options": [
-        {"en": "Starting or passing on a rumor", "zh": "发起或传播一个谣言"},
-        {"en": "Playing kickball", "zh": "踢球"},
-        {"en": "Reading a book", "zh": "读书"},
-        {"en": "Eating lunch alone", "zh": "独自吃午餐"}
-      ],
-      "answer": 0,
-      "skill": "Craft and Structure",
-      "explain": {
-        "en": "Mr. Sanchez compares starting or passing on a rumor to feeding a monster that mutates and grows.",
-        "zh": "桑切斯老师把发起或传播谣言比作喂养一只会变异、会长大的怪兽。"
-      }
-    },
-    {
-      "q": {
-        "en": "What does Jamie decide she must do after realizing the rumor is false?",
-        "zh": "当杰米发现谣言是假的之后，她决定必须做什么？"
-      },
-      "options": [
-        {"en": "Ignore it and hope it disappears", "zh": "忽略它，希望它自己消失"},
-        {"en": "Apologize to Del and tell the truth", "zh": "向德尔道歉并说出真相"},
-        {"en": "Tell more people the story", "zh": "把故事告诉更多人"},
-        {"en": "Blame May and Cassie", "zh": "责怪梅和卡西"}
-      ],
-      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "Jamie talks to Mr. Sanchez and then apologizes to Del, admitting she started the rumor without knowing the truth.",
-        "zh": "杰米先找桑切斯老师谈，然后向德尔道歉，承认自己在不知真相的情况下散布了谣言。"
+        "en": "Del explained his mom and little brother were there; his dad had been hurt while deployed overseas and was being sent home.",
+        "zh": "戴尔解释说当时是他妈妈和小弟弟在场，爸爸在海外服役时受伤，即将被送回家。"
       }
     },
     {
       "q": {
-        "en": "What does the word \"expelled\" mean in the story?",
-        "zh": "在故事中，单词 \"expelled\" 是什么意思？"
+        "en": "What does the 'gossip monster' in the story represent?",
+        "zh": "故事里的“八卦怪物”象征什么？"
       },
       "options": [
-        {"en": "Forced to leave school", "zh": "被强制离开学校"},
-        {"en": "Given a prize", "zh": "被授予奖品"},
-        {"en": "Promoted", "zh": "被提升"},
-        {"en": "Invited to a party", "zh": "被邀请参加派对"}
+        {
+          "en": "A rumor that grows and changes as it is passed from person to person.",
+          "zh": "一个在人们口中不断传播、变形并越来越大的谣言。"
+        },
+        {
+          "en": "A real creature that lives in the school basement.",
+          "zh": "一只住在学校地下室里的真实怪物。"
+        },
+        {
+          "en": "A pet that Del keeps at home.",
+          "zh": "戴尔在家养的一只宠物。"
+        },
+        {
+          "en": "A noisy machine in the cafeteria.",
+          "zh": "食堂里一台很吵的机器。"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
-        "en": "The glossary defines expelled as being forced to leave a school because of bad behavior; the rumor wrongly said Del was expelled.",
-        "zh": "词汇表把 expelled 定义为因不良行为被强制离开学校；谣言错误地声称德尔被开除了。"
+        "en": "Mr. Sanchez compares starting or passing a rumor to feeding a monster that mutates and grows.",
+        "zh": "桑切斯老师把散布谣言比作喂养一只会变异、会不断长大的怪物。"
       }
     },
     {
       "q": {
-        "en": "What lesson does Mr. Sanchez give about gossiping when the person is not around?",
-        "zh": "关于在别人不在场时散布闲言碎语，桑切斯老师给出了什么建议？"
+        "en": "In Mr. Sanchez's Telephone game, what did the message become by the time it reached him?",
+        "zh": "在桑切斯老师的“传话游戏”里，这句话传到他耳朵里时变成了什么？"
       },
       "options": [
-        {"en": "It's fine as long as it's true", "zh": "只要属实就没关系"},
-        {"en": "It's usually best not to gossip unless saying something nice", "zh": "通常最好不要说闲话，除非说的是好话"},
-        {"en": "You should always tell everyone", "zh": "你应该告诉所有人"},
-        {"en": "Only teachers may do it", "zh": "只有老师可以这么做"}
+        {
+          "en": "\"Dope leaning ringing in your ear.\"",
+          "zh": "“Dope leaning ringing in your ear（耳边叮当作响）”。"
+        },
+        {
+          "en": "\"Double leaves everything in your ear.\"",
+          "zh": "“Double leaves everything in your ear（叶子落进你耳朵）”。"
+        },
+        {
+          "en": "\"Del beat up a kindergartner.\"",
+          "zh": "“戴尔打了幼儿园小朋友”。"
+        },
+        {
+          "en": "\"Don't tell anyone the secret.\"",
+          "zh": "“别把秘密告诉任何人”。"
+        }
       ],
-      "answer": 1,
-      "skill": "Author's Purpose and Perspective",
+      "answer": 0,
+      "skill": "Craft and Structure",
       "explain": {
-        "en": "Mr. Sanchez says it's usually best not to gossip about people who aren't present unless you're saying nice things.",
-        "zh": "桑切斯老师说，通常最好不要在别人不在场时说闲话，除非你说的是好话。"
+        "en": "The original sentence 'Don't believe everything that you hear' mutated into 'Dope leaning ringing in your ear.'",
+        "zh": "原句“不要相信你听到的一切”在传递中变成了“Dope leaning ringing in your ear”。"
       }
     },
     {
       "q": {
-        "en": "How do the other students treat Del after the rumor spreads?",
-        "zh": "谣言传开后，其他同学是怎么对待德尔的？"
+        "en": "What lesson does Mr. Sanchez want students to learn from the Telephone game?",
+        "zh": "桑切斯老师想让学生从传话游戏中明白什么道理？"
       },
       "options": [
-        {"en": "They welcome him to their games", "zh": "他们欢迎他一起玩"},
-        {"en": "They avoid him, mock him, and leave him out", "zh": "他们回避他、嘲笑他、把他排除在外"},
-        {"en": "They apologize to him", "zh": "他们向他道歉"},
-        {"en": "They invite him to lunch", "zh": "他们邀请他一起吃午餐"}
+        {
+          "en": "Rumors change and grow as they spread, so you shouldn't believe every story you hear.",
+          "zh": "谣言在传播中会变形变大，所以不该轻信听到的每个说法。"
+        },
+        {
+          "en": "Whispering is a good way to keep secrets safe.",
+          "zh": "小声耳语是保守秘密的好办法。"
+        },
+        {
+          "en": "Science class is more fun than recess.",
+          "zh": "科学课比课间休息更有趣。"
+        },
+        {
+          "en": "Only teachers should talk during class.",
+          "zh": "课堂上只有老师能说话。"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
-        "en": "No one wants to work with Del, kickball teams reject him, and he eats lunch alone—showing the rumor's hurtful effect.",
-        "zh": "没人愿意和德尔一组，踢球队拒绝他，他独自吃午餐——这体现出谣言造成的伤害。"
+        "en": "He says passing on a rumor is like feeding a monster and that words have consequences.",
+        "zh": "他说散播谣言像喂养怪物，并且言语是有后果的。"
       }
     },
     {
       "q": {
-        "en": "What does Jamie realize about herself by the end of the story?",
-        "zh": "故事结尾，杰米对自己有了什么认识？"
+        "en": "Why did the author most likely write The Gossip Monster?",
+        "zh": "作者写《八卦怪物》最可能的目的是什么？"
       },
       "options": [
-        {"en": "She was the real bully by gossiping", "zh": "通过散布谣言，她才是真正的霸凌者"},
-        {"en": "Del was the bully all along", "zh": "德尔从头到尾都是霸凌者"},
-        {"en": "She should never talk to teachers", "zh": "她永远不该和老师说话"},
-        {"en": "Rumors are always true", "zh": "谣言总是真的"}
+        {
+          "en": "To show how gossip can hurt people and encourage readers to think before spreading rumors.",
+          "zh": "为了说明八卦会伤害他人，并鼓励读者在传播谣言前三思。"
+        },
+        {
+          "en": "To teach readers how to play kickball.",
+          "zh": "为了教读者怎么玩踢球游戏。"
+        },
+        {
+          "en": "To describe an exciting school field trip.",
+          "zh": "为了描写一次刺激的校外郊游。"
+        },
+        {
+          "en": "To explain how to win a science fair.",
+          "zh": "为了讲解怎样在科学展上获奖。"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
-        "en": "Jamie realizes she had been the bully—not by hitting anyone, but by gossiping and hurting Del for selfish reasons.",
-        "zh": "杰米意识到自己才是霸凌者——不是靠动手，而是靠散布谣言，出于自私伤害了德尔。"
+        "en": "The story follows Jamie learning that her gossip hurt Del, highlighting the harm of rumors.",
+        "zh": "故事通过杰米意识到自己的八卦伤害了戴尔，凸显了谣言的危害。"
+      }
+    },
+    {
+      "q": {
+        "en": "How did Jamie feel after she apologized to Del?",
+        "zh": "杰米向戴尔道歉后感觉如何？"
+      },
+      "options": [
+        {
+          "en": "Better and almost smiling, since Del used her real name for the first time in months.",
+          "zh": "轻松了一些，几乎露出微笑，因为戴尔几个月来第一次叫了她的真名。"
+        },
+        {
+          "en": "Angry that Del ignored her apology.",
+          "zh": "因为戴尔不理她的道歉而很生气。"
+        },
+        {
+          "en": "Proud that she had started the rumor.",
+          "zh": "为自己发起谣言感到骄傲。"
+        },
+        {
+          "en": "Sad that she had to leave school.",
+          "zh": "因为要离校而感到难过。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Del called her 'Jamie' for the first time in months, and she 'almost smiled.'",
+        "zh": "戴尔几个月来第一次叫她“杰米”，她“几乎笑了起来”。"
+      }
+    },
+    {
+      "q": {
+        "en": "What made Jamie realize that the rumor about Del was wrong?",
+        "zh": "是什么让杰米意识到关于戴尔的谣言是错的？"
+      },
+      "options": [
+        {
+          "en": "Mr. Sanchez's Telephone game showed how rumors mutate and grow, plus her own guilt.",
+          "zh": "桑切斯老师的传话游戏展示了谣言如何变异变大，加上她自己的愧疚。"
+        },
+        {
+          "en": "A television news report about the school.",
+          "zh": "电视上对这所学校的报道。"
+        },
+        {
+          "en": "A note delivered by Del's mother.",
+          "zh": "戴尔妈妈送来的一张纸条。"
+        },
+        {
+          "en": "Winning a prize in science class.",
+          "zh": "在科学课上得了一个奖。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The game sparked the idea in her head, leading her to confess and seek the truth.",
+        "zh": "传话游戏启发了她，促使她坦白并去寻求真相。"
+      }
+    },
+    {
+      "q": {
+        "en": "What advice does Mr. Sanchez give about gossiping?",
+        "zh": "桑切斯老师关于八卦给出了什么建议？"
+      },
+      "options": [
+        {
+          "en": "Don't gossip about people when they're not around unless you're saying something nice.",
+          "zh": "别人不在场时不要说闲话，除非你说的是好话。"
+        },
+        {
+          "en": "Always repeat rumors so everyone stays informed.",
+          "zh": "一定要把谣言传开，这样大家都能知情。"
+        },
+        {
+          "en": "Only talk about teachers, never about students.",
+          "zh": "只议论老师，别议论同学。"
+        },
+        {
+          "en": "Rumors are harmless fun and should be ignored.",
+          "zh": "谣言只是无害的玩笑，不必理会。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "He says let people speak for themselves and don't gossip unless it is kind.",
+        "zh": "他说要让当事人自己说话，除非说好话，否则不要背后议论。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why did Del call Jamie 'Germy' instead of her real name?",
+        "zh": "戴尔为什么叫杰米“Germy”而不是她的真名？"
+      },
+      "options": [
+        {
+          "en": "A rumor said Jamie got sick from crawling through garbage, and the nickname stuck.",
+          "zh": "有谣言说杰米因为钻垃圾桶才生病，这个外号就一直留了下来。"
+        },
+        {
+          "en": "Jamie loved collecting germs for a science project.",
+          "zh": "杰米喜欢为科学课收集细菌。"
+        },
+        {
+          "en": "Her middle name was actually Germaine.",
+          "zh": "她的中间名其实是Germaine。"
+        },
+        {
+          "en": "Del simply could not pronounce 'Jamie.'",
+          "zh": "戴尔就是不会发“Jamie”这个音。"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "A summer rumor claimed Jamie got sick by crawling through garbage, leading to the nickname.",
+        "zh": "去年夏天有谣言说杰米钻垃圾桶才生病，于是有了这个绰号。"
       }
     }
   ],
   "extended": {
     "prompt": {
-      "en": "Have you ever believed or passed on a story that turned out not to be true? What would you do differently now?",
-      "zh": "你曾经相信或传播过一个后来发现不真实的说法吗？现在你会采取什么不同的做法？"
+      "en": "Have you ever heard a rumor that turned out to be untrue? What could you do to stop a gossip monster from growing?",
+      "zh": "你有没有听过后来发现并不真实的谣言？你可以做些什么来阻止“八卦怪物”越变越大？"
     },
     "guidance": {
       "en": [
-        "Think about a real moment when you assumed something without checking the facts.",
-        "Consider how words can spread and hurt someone even if you didn't mean to."
+        "Think about a time you heard or passed along a story that changed as it traveled.",
+        "Consider one kind action, like asking the source or speaking up, that could help."
       ],
       "zh": [
-        "回想一下你曾在没核实事实的情况下就下结论的真实时刻。",
-        "想一想话语是如何传播并伤害他人的，即使你并非有意。"
+        "回想一下你曾听到或转述过、后来却变样的故事。",
+        "想想一个善意的做法，比如去问当事人或站出来说明，会有什么帮助。"
       ]
     }
   }
