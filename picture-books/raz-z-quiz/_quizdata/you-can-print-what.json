@@ -1,0 +1,134 @@
+{
+  "slug": "you-can-print-what",
+  "title": "You Can Print What?",
+  "titleZh": "你能打印什么？",
+  "level": "Z",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {"en": "Who invented 3D printing, also called stereolithography, in 1984?", "zh": "谁在1984年发明了也称为立体光刻的3D打印？"},
+      "options": [
+        {"en": "Charles Hull", "zh": "查尔斯·赫尔（Charles Hull）"},
+        {"en": "Johannes Gutenberg", "zh": "约翰内斯·古腾堡"},
+        {"en": "Bi Sheng", "zh": "毕昇"},
+        {"en": "Gary Starkweather", "zh": "加里·斯塔克韦瑟"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {"en": "The book states that in 1984 Charles Hull, an American design engineer, developed and patented stereolithography, the process known as 3D printing.", "zh": "书中说，1984年美国设计工程师查尔斯·赫尔开发并 patented 了立体光刻，即3D打印工艺。"}
+    },
+    {
+      "q": {"en": "What key concept do both a 3D printer and a regular computer printer share, according to the book?", "zh": "根据本书，3D打印机与普通电脑打印机共用的关键概念是什么？"},
+      "options": [
+        {"en": "Layering", "zh": "分层（layering）"},
+        {"en": "Using ink", "zh": "使用墨水"},
+        {"en": "Using paper", "zh": "使用纸张"},
+        {"en": "Using lasers only", "zh": "仅使用激光"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {"en": "The book says both types of printers use the same concept—layering—to make their final product, though 3D printers build solid objects.", "zh": "书中说两类打印机都使用相同的概念——分层——来制造最终产品，只是3D打印机构建的是实体物件。"}
+    },
+    {
+      "q": {"en": "Who invented the printing press in 1450?", "zh": "谁在1450年发明了印刷机？"},
+      "options": [
+        {"en": "Johannes Gutenberg, a German blacksmith", "zh": "德国铁匠约翰内斯·古腾堡"},
+        {"en": "Charles Hull", "zh": "查尔斯·赫尔"},
+        {"en": "Bi Sheng", "zh": "毕昇"},
+        {"en": "Alois Senefelder", "zh": "阿洛伊斯·泽内费尔德"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {"en": "The book says Johannes Gutenberg, a German blacksmith, invented the printing press in 1450, allowing the first mass production of printed books.", "zh": "书中说德国铁匠约翰内斯·古腾堡于1450年发明了印刷机，实现了印刷书籍的首次大规模生产。"}
+    },
+    {
+      "q": {"en": "What real animal in the book received a 3D-printed body part?", "zh": "书中哪只真实的动物接受了3D打印的身体部件？"},
+      "options": [
+        {"en": "A bald eagle named Beauty, who received a new beak", "zh": "一只名为Beauty的秃鹰，获得了一个新的喙"},
+        {"en": "A lion", "zh": "一头狮子"},
+        {"en": "A penguin", "zh": "一只企鹅"},
+        {"en": "A dog", "zh": "一只狗"}
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {"en": "The book describes Beauty, a bald eagle whose top beak was shot off, receiving a 3D-printed plastic replica beak so she could eat and clean herself again.", "zh": "书中描述秃鹰Beauty上喙被射掉，装上3D打印的塑料仿制喙后重新能够进食和清洁自己。"}
+    },
+    {
+      "q": {"en": "The book explains lithography uses water and oil because they do not mix. What does this achieve?", "zh": "本书解释石版印刷利用水油不相溶。这实现了什么？"},
+      "options": [
+        {"en": "Non-printed areas repel the oil-based ink while the image attracts it", "zh": "非印刷区域排斥油性墨水，而图像区域吸附墨水"},
+        {"en": "It makes the paper wet", "zh": "它把纸弄湿"},
+        {"en": "It dries the ink", "zh": "它使墨水变干"},
+        {"en": "It colors the background", "zh": "它为背景上色"}
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {"en": "The book says the printing area attracts oil-based inks, and since oil and water don't mix, the non-printed areas repel the inks.", "zh": "书中说印刷区域吸附油性墨水，而由于油水不相溶，非印刷区域会排斥墨水。"}
+    },
+    {
+      "q": {"en": "What does the word \"prototype\" mean in this book?", "zh": "在本书中，“prototype（原型）”是什么意思？"},
+      "options": [
+        {"en": "An original form used as the model for later production", "zh": "作为后续生产模型的原始形态"},
+        {"en": "A final product", "zh": "最终产品"},
+        {"en": "A type of ink", "zh": "一种墨水"},
+        {"en": "A computer file", "zh": "一个电脑文件"}
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {"en": "The glossary defines prototypes as an original form used as the model for later production, which is what 3D printing was first used to make quickly.", "zh": "词汇表将prototype定义为作为后续生产模型的原始形态，而这正是3D打印最初用于快速制造的东西。"}
+    },
+    {
+      "q": {"en": "Why might 3D-printed organs cause less rejection in transplant patients?", "zh": "为什么3D打印的器官可能让移植病人产生较少的排异反应？"},
+      "options": [
+        {"en": "They can be made from the patient's own cells", "zh": "它们可以用病人自身的细胞制造"},
+        {"en": "They are made of plastic", "zh": "它们由塑料制成"},
+        {"en": "They use lasers", "zh": "它们使用激光"},
+        {"en": "They are printed abroad", "zh": "它们在国外打印"}
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {"en": "The book explains that if the organ is made from the patient's own cells, the immune system is less likely to reject it, so patients heal more quickly.", "zh": "书中解释，若器官由病人自身细胞制成，免疫系统较少排异，病人康复更快。"}
+    },
+    {
+      "q": {"en": "The 3D Canal House in Amsterdam is being built from what material?", "zh": "阿姆斯特丹的3D运河住宅是用什么材料建造的？"},
+      "options": [
+        {"en": "Layers of melted plastic", "zh": "层层熔化的塑料"},
+        {"en": "Concrete", "zh": "混凝土"},
+        {"en": "Wood", "zh": "木材"},
+        {"en": "Glass", "zh": "玻璃"}
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {"en": "The book says a team of architects in Amsterdam is using a giant portable 3D printer to build a three-story house out of plastic, creating interlocking bricks from melted plastic.", "zh": "书中说阿姆斯特丹的建筑师团队正用巨型便携式3D打印机制造塑料房屋，以熔化塑料层层构建互锁砖块。"}
+    },
+    {
+      "q": {"en": "What is the author's main purpose in writing this book?", "zh": "作者写本书的主要目的是什么？"},
+      "options": [
+        {"en": "To inform readers about how 3D printing works and its many applications", "zh": "向读者介绍3D打印的工作原理及其众多应用"},
+        {"en": "To sell printers", "zh": "推销打印机"},
+        {"en": "To criticize technology", "zh": "批评技术"},
+        {"en": "To teach only history", "zh": "只讲授历史"}
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {"en": "The book traces printing history from woodblocks to 3D printing and shows real applications like custom shoes, eagle beaks, and organs, aiming to inform.", "zh": "本书从木版印刷追溯到3D打印，并展示定制鞋、鹰喙、器官等真实应用，旨在向读者科普。"}
+    },
+    {
+      "q": {"en": "How does the book view the future of 3D printing?", "zh": "本书如何看待3D打印的未来？"},
+      "options": [
+        {"en": "As holding endless possibilities, including space missions and custom products", "zh": "认为其拥有无限可能，包括太空任务与定制产品"},
+        {"en": "As a failed experiment", "zh": "视为一次失败的实验"},
+        {"en": "As dangerous", "zh": "视为危险的"},
+        {"en": "As limited to paper", "zh": "仅限于纸张"}
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {"en": "The book's final section says the future holds endless possibilities, such as astronauts using 3D printers on spacecraft to make replacement parts.", "zh": "本书最后一节说未来拥有无限可能，例如宇航员在航天器上用3D打印机制造替换零件。"}
+    }
+  ],
+  "extended": {
+    "prompt": {"en": "The book shows 3D printing can make shoes, eagle beaks, organs, and even houses. If you had a 3D printer, what one useful or fun object would you design and print first, and why?", "zh": "本书展示了3D打印可制造鞋子、鹰喙、器官甚至房屋。如果你有一台3D打印机，你会最先设计并打印哪件有用或有趣的东西，为什么？"},
+    "guidance": {"en": ["Describe the object you would print.", "Explain why it would be useful or meaningful to you."], "zh": ["描述你想打印的物品。", "解释它对你为何有用或有意义。"]}
+  }
+}
