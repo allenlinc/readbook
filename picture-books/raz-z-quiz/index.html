@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RAZ-Z 阅读理解 · Reading by Level</title>
+<link rel="stylesheet" href="assets/style.css?v=11">
+</head>
+<body class="lang-en">
+<div class="wrap">
+  <div class="topbar">
+    <button class="langBtn" id="langBtn">🌐 EN</button>
+    <a class="homeBtn" href="../../index.html"><span class="en">🏠 Home</span><span class="zh">🏠 首页</span></a>
+  </div>
+  <div class="hub-hero">
+    <h1><span class="en">RAZ Level Z · Reading Comprehension</span><span class="zh">RAZ Level Z · 阅读理解练习</span></h1>
+    <p><span class="en">1 leveled readers — 10 bilingual questions + 1 open-ended question each. Choose a book to start!</span><span class="zh">1 本分级读物，每本 10 道理解题 + 1 道思考题。选一本开始吧！</span></p>
+  </div>
+  <div class="controls">
+    <input id="q" type="search" placeholder="🔍 Search title…" autocomplete="off">
+    <select id="sk"><option value="">全部技能 All skills</option><option value="Author's Purpose and Perspective">Author's Purpose</option><option value="Craft and Structure">Craft & Structure</option><option value="Integration of Knowledge and Ideas">Integration of Knowledge</option><option value="Key Ideas and Details">Key Ideas & Details</option></select>
+  </div>
+  <div class="grid" id="grid">
+<article class="book"><div class="tt en">So You Want to Go to Mars?</div><div class="zz zh">你想去火星吗？</div><div class="meta"><span class="chip">Key Ideas and Details</span><span class="chip gen">Informational</span></div><a class="go" href="books/so-you-want-to-go-to-mars.html"><span class="en">Start ▶</span><span class="zh">开始 ▶</span></a></article>
+  </div>
+  <footer><span class="en">RAZ-Z Quick Check · questions written from the original books</span><span class="zh">RAZ-Z 阅读理解 · 题目依据原书内容编写</span></footer>
+</div>
+<script>
+var BOOKS = [{"slug": "so-you-want-to-go-to-mars", "title": "So You Want to Go to Mars?", "titleZh": "你想去火星吗？", "mainSkill": "Key Ideas and Details", "genre": "Informational", "questions": [{"q": {"en": "At its closest, about how far away is Mars from Earth?", "zh": "在最近的时候，火星离地球大约有多远？"}, "options": [{"en": "About 55 million km (34 million mi.)", "zh": "约 5,500 万公里（3,400 万英里）"}, {"en": "About 240 million km on average", "zh": "平均约 2.4 亿公里"}, {"en": "About the same distance as the Moon", "zh": "和月球差不多远"}, {"en": "Over 500 million km", "zh": "超过 5 亿公里"}], "answer": 0, "skill": "Key Ideas and Details", "explain": {"en": "The book says Mars is 'never closer than about 55 million kilometers (34 million mi.) from Earth.'", "zh": "书中写道，火星“离地球最近时也约有 5,500 万公里（3,400 万英里）”。"}}, {"q": {"en": "According to the book, about how long would the trip to Mars take each way?", "zh": "根据书中内容，单程去火星大约需要多久？"}, "options": [{"en": "A few days", "zh": "几天"}, {"en": "Seven to nine months", "zh": "七到九个月"}, {"en": "One to two years each way", "zh": "单程一到两年"}, {"en": "About two weeks", "zh": "约两周"}], "answer": 1, "skill": "Key Ideas and Details", "explain": {"en": "The book states a Mars mission would take 'seven to nine months each way.'", "zh": "书中说，一次火星任务“单程就要七到九个月”。"}}, {"q": {"en": "Which two rockets does the book name as being built to help lift Mars-ship parts into Earth orbit?", "zh": "书中提到哪两款正在建造的火箭，可用来把火星飞船部件送入地球轨道？"}, "options": [{"en": "NASA's SLS and SpaceX's Falcon Heavy", "zh": "NASA 的 SLS 和 SpaceX 的猎鹰重型"}, {"en": "The Saturn V and the ISS", "zh": "土星五号和国际空间站"}, {"en": "Falcon Heavy and the Hubble telescope", "zh": "猎鹰重型和哈勃望远镜"}, {"en": "SLS and the Apollo capsule", "zh": "SLS 和阿波罗指令舱"}], "answer": 0, "skill": "Key Ideas and Details", "explain": {"en": "The book names NASA's Space Launch System (SLS) and SpaceX's Falcon Heavy as rockets for lifting parts to orbit.", "zh": "书中点名 NASA 的太空发射系统（SLS）和 SpaceX 的猎鹰重型，可用于将部件送入轨道。"}}, {"q": {"en": "How does the author help readers understand the problem of zero gravity?", "zh": "作者用了什么方式，帮助读者理解“零重力”带来的问题？"}, "options": [{"en": "By comparing it to everyday activities like pouring milk and shooting baskets", "zh": "把它和倒牛奶、投篮等日常活动作比较"}, {"en": "By saying gravity is not important", "zh": "说重力并不重要"}, {"en": "By using only mathematical formulas", "zh": "只用数学公式"}, {"en": "By telling a fictional story unrelated to science", "zh": "讲一个和科学无关的小说故事"}], "answer": 0, "skill": "Craft and Structure", "explain": {"en": "The author uses familiar examples—walking, pouring milk, shooting baskets—to show what we lose without gravity.", "zh": "作者用走路、倒牛奶、投篮等熟悉的例子，说明失去重力我们会失去什么。"}}, {"q": {"en": "According to the book, how could a spaceship create artificial gravity?", "zh": "根据书中内容，宇宙飞船可以怎样制造“人造重力”？"}, "options": [{"en": "By spinning a circular section so centrifugal force pushes astronauts outward", "zh": "让一个圆形舱段旋转，用离心力把宇航员向外推"}, {"en": "By adding more rocket fuel", "zh": "加更多火箭燃料"}, {"en": "By turning off the engines completely", "zh": "完全关闭引擎"}, {"en": "By using Earth's magnetic field", "zh": "利用地球的磁场"}], "answer": 0, "skill": "Integration of Knowledge and Ideas", "explain": {"en": "The book explains a circular, rotating section would simulate gravity through centrifugal force.", "zh": "书中解释，一个旋转的圆形舱段能通过离心力模拟出重力。"}}, {"q": {"en": "What protects people on Earth from dangerous cosmic radiation?", "zh": "是什么保护地球上的人类免受危险的宇宙辐射？"}, "options": [{"en": "Earth's magnetic field", "zh": "地球的磁场"}, {"en": "The Moon's gravity", "zh": "月球的引力"}, {"en": "Thick clouds in the sky", "zh": "天空中的厚云层"}, {"en": "The ocean's depth", "zh": "海洋的深度"}], "answer": 0, "skill": "Key Ideas and Details", "explain": {"en": "The book says Earth is 'surrounded by a magnetic field that pushes the particles away.'", "zh": "书中说地球“被磁场包围，能把那些粒子推开”。"}}, {"q": {"en": "If people settle on Mars permanently, what does the book say they should do for food?", "zh": "如果有人在火星永久定居，书中说他们应该如何解决食物问题？"}, "options": [{"en": "Import all food from Earth forever", "zh": "永远从地球进口所有食物"}, {"en": "Grow crops hydroponically in a water-and-nutrient solution", "zh": "用水培（营养液）种植作物"}, {"en": "Hunt native animals on Mars", "zh": "在火星上捕猎本地动物"}, {"en": "Eat only the planet's dust", "zh": "只吃火星的尘土"}], "answer": 1, "skill": "Key Ideas and Details", "explain": {"en": "The book says the best bet for a colony would be to 'grow crop plants in a hydroponic solution.'", "zh": "书中说，对定居者而言最好的办法是“在水培溶液里种植作物”。"}}, {"q": {"en": "What is the author's overall attitude toward a human mission to Mars?", "zh": "作者对“人类登陆火星”这件事，整体持什么态度？"}, "options": [{"en": "Completely opposed and fearful", "zh": "完全反对且害怕"}, {"en": "Enthusiastic and hopeful, while honestly noting the real dangers and costs", "zh": "热情而充满希望，同时也如实指出真正的危险和成本"}, {"en": "Bored and uninterested", "zh": "感到无聊、没兴趣"}, {"en": "Convinced it is impossible", "zh": "认定这根本不可能"}], "answer": 1, "skill": "Author's Purpose and Perspective", "explain": {"en": "The author calls it the 'greatest technological feat' yet stays hopeful ('the talk is finally getting serious') while being honest about risks.", "zh": "作者称其为“人类最伟大的科技壮举”，既满怀希望（“讨论终于认真起来”），也如实说明风险。"}}, {"q": {"en": "What cautionary lesson does the Biosphere 2 experiment offer future Mars colonists?", "zh": "“生物圈二号”实验给未来的火星定居者带来了什么警示？"}, "options": [{"en": "That living closely with others can cause conflict, and failures could be deadly with no escape", "zh": "长期群居会引发冲突，而一旦出事、无法逃离可能是致命的"}, {"en": "That hydroponic farming always works perfectly", "zh": "水培种植总是完美成功"}, {"en": "That Mars has plenty of breathable oxygen", "zh": "火星有充足的、可呼吸的氧气"}, {"en": "That the trip is short and easy", "zh": "旅程又短又轻松"}], "answer": 0, "skill": "Integration of Knowledge and Ideas", "explain": {"en": "Biosphere 2 volunteers ended 'barely on speaking terms,' with crop failures and oxygen shortage—and on Mars there would be no escape.", "zh": "生物圈二号的志愿者最后“几乎互不说话”，还出现了作物歉收和氧气短缺；而在火星上，将无路可逃。"}}, {"q": {"en": "Why does the author mention that over 200,000 people had applied to Mars One by 2014?", "zh": "作者为什么提到：到 2014 年已有超过 20 万人申请加入 Mars One？"}, "options": [{"en": "To show many people are eager to go to Mars despite the one-way, risky trip", "zh": "为了说明：尽管是单程、危险之旅，仍有很多人渴望去火星"}, {"en": "To prove the mission is cancelled", "zh": "为了证明任务已经取消"}, {"en": "To explain Mars One's budget", "zh": "为了解释 Mars One 的预算"}, {"en": "To describe the rocket design", "zh": "为了描述火箭的设计"}], "answer": 0, "skill": "Author's Purpose and Perspective", "explain": {"en": "The author uses the 200,000+ applicants to show strong public enthusiasm for a one-way Mars journey.", "zh": "作者用“20 多万申请人”来表现公众对这趟单程火星之旅的强烈热情。"}}]}];
+var grid = document.getElementById('grid');
+var q = document.getElementById('q'), sk = document.getElementById('sk');
+function card(b){
+  return '<article class="book"><div class="tt en">'+esc(b.title)+'</div>'+
+    (b.titleZh?'<div class="zz zh">'+esc(b.titleZh)+'</div>':'')+
+    '<div class="meta">'+
+      (b.mainSkill?'<span class="chip">'+esc(b.mainSkill)+'</span>':'')+
+      (b.genre?'<span class="chip gen">'+esc(b.genre)+'</span>':'')+
+    '</div><a class="go" href="books/'+b.slug+'.html"><span class="en">Start ▶</span><span class="zh">开始 ▶</span></a></article>';
+}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function render(){
+  var t=q.value.trim().toLowerCase(), s=sk.value, out=[];
+  BOOKS.forEach(function(b){
+    var hay=(b.title+' '+(b.titleZh||'')+' '+(b.mainSkill||'')).toLowerCase();
+    var okT = !t || hay.indexOf(t)>=0;
+    var okS = !s || (b.mainSkill===s) || b.questions.some(function(x){return x.skill===s;});
+    if(okT&&okS) out.push(b);
+  });
+  grid.innerHTML = out.length? out.map(card).join('') : '<div class="empty">'+bi('No matches.','没有找到匹配的书籍')+'</div>';
+}
+function bi(s1,s2){return '<span class="en">'+s1+'</span><span class="zh">'+s2+'</span>';}
+function setPH(){q.placeholder=document.body.classList.contains('lang-zh')?'🔍 搜索书名…':'🔍 Search title…';}
+q.addEventListener('input', render); sk.addEventListener('change', render);
+var lb=document.getElementById('langBtn');
+lb.addEventListener('click',function(){var zh=document.body.classList.toggle('lang-zh');document.body.classList.toggle('lang-en',!zh);lb.textContent=zh?'🌐 中文':'🌐 EN';setPH();});
+setPH();
+render();
+</script>
+</body>
+</html>
