@@ -1,0 +1,210 @@
+{
+  "slug": "galileo",
+  "title": "Galileo",
+  "titleZh": "伽利略",
+  "level": "P",
+  "genre": "Biography",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {
+        "en": "Where and when was Galileo born, and what was he good at from a young age?",
+        "zh": "伽利略出生在何处、何时？他从小就擅长什么？"
+      },
+      "options": [
+        { "en": "In Italy in 1564; asking questions", "zh": "1564年生于意大利；善于提问" },
+        { "en": "In Spain in 1500; painting", "zh": "1500年生于西班牙；绘画" },
+        { "en": "In France in 1600; sailing", "zh": "1600年生于法国；航海" },
+        { "en": "In England in 1564; writing", "zh": "1564年生于英格兰；写作" }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says, \"Galileo was born in Italy in 1564. From a young age, he was good at asking questions.\"",
+        "zh": "书中说：“伽利略1564年出生于意大利。他从小就善于提问。”"
+      }
+    },
+    {
+      "q": {
+        "en": "In 1582, Galileo watched a chandelier swing in a church. What did he discover?",
+        "zh": "1582年，伽利略在教堂里观察一盏吊灯摆动。他发现了什么？"
+      },
+      "options": [
+        { "en": "Every swing took the same amount of time, which led to the pendulum clock", "zh": "每次摆动用时相同，由此发明了摆钟" },
+        { "en": "The chandelier was made of gold", "zh": "那盏吊灯是金子做的" },
+        { "en": "The wind made it sing", "zh": "风让它发出了歌声" },
+        { "en": "The church was on fire", "zh": "教堂着火了" }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says, \"Although some swings were wider than others, every swing took exactly the same amount of time... Later, he figured out how to build a clock using this idea.\"",
+        "zh": "书中说：“虽然有的摆动幅度大、有的小，但每次摆动用时完全一样……后来，他据此想出了造钟的方法。”"
+      }
+    },
+    {
+      "q": {
+        "en": "In 1609, after hearing about a Dutch 'spyglass,' what did Galileo build?",
+        "zh": "1609年，听说荷兰的“窥管”后，伽利略造出了什么？"
+      },
+      "options": [
+        { "en": "A telescope that made far objects look thirty times bigger", "zh": "让远处物体放大三十倍的望远镜" },
+        { "en": "A steam engine", "zh": "蒸汽机" },
+        { "en": "A printing press", "zh": "印刷机" },
+        { "en": "A submarine", "zh": "潜水艇" }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says, \"In 1609, Galileo heard about a 'spyglass' invented in the Netherlands... Soon he was able to make objects far away look thirty times bigger. In other words, Galileo built a telescope.\"",
+        "zh": "书中说：“1609年，伽利略听说了荷兰发明的‘窥管’……很快他让远处物体看起来放大了三十倍。也就是说，伽利略造出了一架望远镜。”"
+      }
+    },
+    {
+      "q": {
+        "en": "Using his telescope, what did Galileo discover about the planet Venus?",
+        "zh": "用望远镜，伽利略发现了金星怎样的秘密？"
+      },
+      "options": [
+        { "en": "It appeared to change shape, like the Moon", "zh": "它像月亮一样会改变形状" },
+        { "en": "It was made of cheese", "zh": "它由奶酪构成" },
+        { "en": "It had rings like Saturn", "zh": "它像土星一样有环" },
+        { "en": "It was the hottest planet", "zh": "它是最热的行星" }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says, \"He was the first person to see that the planet Venus appeared to change shape, just as the Moon does. Sometimes Venus looked like a full circle, and sometimes it was just a thin slice of light.\"",
+        "zh": "书中说：“他是第一个发现金星像月亮一样会改变形状的人。有时金星像一轮满月，有时只是夜空中一弯细长的光。”"
+      }
+    },
+    {
+      "q": {
+        "en": "Because his ideas went against Church teachings, what happened to Galileo in 1633?",
+        "zh": "由于他的观点与教会教义相悖，1633年伽利略遭遇了什么？"
+      },
+      "options": [
+        { "en": "The Church put him on trial, found him guilty, and ordered him to stay home for life", "zh": "教会对他审判、判他有罪，并令他终身软禁在家" },
+        { "en": "He was made a king", "zh": "他被立为王" },
+        { "en": "He won a prize", "zh": "他赢得了一个奖项" },
+        { "en": "He moved to the Moon", "zh": "他搬到了月球上" }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says, \"In 1633, the Church put Galileo on trial and found him guilty... The Church ordered Galileo to stay in his home for the rest of his life.\"",
+        "zh": "书中说：“1633年，教会对伽利略进行审判并判他有罪……教会命令伽利略余生都待在家里。”"
+      }
+    },
+    {
+      "q": {
+        "en": "Many people believed Earth was the center of the solar system. How did Galileo's observations of Venus's changing shapes change that picture?",
+        "zh": "许多人相信地球是太阳系的中心。伽利略对金星形状变化的观测如何改变了这一认知？"
+      },
+      "options": [
+        { "en": "The changing shapes suggested Venus and Earth both move around the Sun, not Earth at the center", "zh": "形状变化说明金星和地球都绕太阳转，而非地球居中" },
+        { "en": "They proved Venus is made of cheese", "zh": "它们证明金星是奶酪做的" },
+        { "en": "They showed Earth is the biggest planet", "zh": "它们表明地球是最大的行星" },
+        { "en": "They proved the Moon does not move", "zh": "它们证明月亮不动" }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The book says, \"These changing shapes suggested that Venus and Earth were both moving around the Sun,\" which did not fit the Church's Earth-centered picture.",
+        "zh": "书中说：“这些形状的变化表明金星和地球都在绕太阳运行”，这与教会“地球居中”的观点不符。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book calls Galileo the 'father of modern science.' According to the book, why?",
+        "zh": "本书称伽利略为“现代科学之父”。根据本书，为什么？"
+      },
+      "options": [
+        { "en": "He used math to describe nature's laws, used measurements, and became a model for Newton and Einstein", "zh": "他用数学描述自然规律、使用测量，并成为牛顿和爱因斯坦的榜样" },
+        { "en": "He discovered America", "zh": "他发现了美洲" },
+        { "en": "He built the first computer", "zh": "他造出了第一台计算机" },
+        { "en": "He was the richest person in Italy", "zh": "他是意大利最有钱的人" }
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book says, \"Galileo was the first scientist to say that the laws of nature could be written down using math... a model for many scientists who followed him, including Isaac Newton and Albert Einstein. Today, we call him the father of modern science.\"",
+        "zh": "书中说：“伽利略是第一位提出用数字写出自然规律的科学家……他成为后来许多科学家的榜样，包括牛顿和爱因斯坦。今天，我们称他为现代科学之父。”"
+      }
+    },
+    {
+      "q": {
+        "en": "The book tells the famous story that Galileo whispered 'And yet it moves' at his trial. What does the book say about this story?",
+        "zh": "本书讲到伽利略在审判时低声说“可是它仍在转动”的著名故事。书中对此怎么说？"
+      },
+      "options": [
+        { "en": "It is a popular but unproven story that is probably not true", "zh": "这是个流传甚广但未经证实、可能并不真实的故事" },
+        { "en": "It is written in the official trial records", "zh": "它写在了审判的正式记录里" },
+        { "en": "Galileo shouted it loudly in court", "zh": "伽利略在法庭上大声喊了出来" },
+        { "en": "The Church confirmed it happened", "zh": "教会确认它真的发生过" }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The book says, \"This story is not included in the records of the trial and is probably not true. However, the words 'and yet it moves' have become very famous.\"",
+        "zh": "书中说：“这个故事并未出现在审判记录中，很可能并非事实。不过，‘可是它仍在转动’这句话已经非常有名。”"
+      }
+    },
+    {
+      "q": {
+        "en": "What did the Catholic Church do about Galileo in 1992, according to the book?",
+        "zh": "根据本书，天主教会在1992年对伽利略做了什么？"
+      },
+      "options": [
+        { "en": "It cleared Galileo of any wrongdoing", "zh": "它宣布伽利略无罪" },
+        { "en": "It put him on trial again", "zh": "它再次审判了他" },
+        { "en": "It banned his books again", "zh": "它再次禁了他的书" },
+        { "en": "It named a planet after him", "zh": "它用他的名字命名了一颗行星" }
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book says, \"In 1992, the Church cleared Galileo of any wrongdoing. The modern Church accepts proven scientific facts.\"",
+        "zh": "书中说：“1992年，教会宣布伽利略没有任何过错。现代教会接受已被证实的科学事实。”"
+      }
+    },
+    {
+      "q": {
+        "en": "The book mentions a famous story of Galileo dropping two cannonballs from the Leaning Tower of Pisa. What does the book say about it?",
+        "zh": "本书提到伽利略从比萨斜塔扔下两颗炮弹的著名故事。书中对此怎么说？"
+      },
+      "options": [
+        { "en": "It is a famous story, but it is not certain whether it really happened", "zh": "这是个著名故事，但不确定是否真的发生过" },
+        { "en": "It was filmed by a camera in 1589", "zh": "它在1589年被相机拍了下来" },
+        { "en": "It proved the heavier ball fell faster", "zh": "它证明较重的球落得更快" },
+        { "en": "Galileo's father told him to do it", "zh": "伽利略的父亲让他这么做的" }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The book says, \"Today, it's not certain whether Galileo really tossed cannonballs from the Leaning Tower of Pisa.\"",
+        "zh": "书中说：“今天，我们无法确定伽利略是否真的从比萨斜塔扔下过炮弹。”"
+      }
+    }
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Galileo was curious and kept asking questions, even when it got him in trouble. What is a question you have about the world, and how might you try to find the answer?",
+      "zh": "伽利略充满好奇、不断提问，哪怕因此惹上麻烦。你对世界有什么疑问，又会怎样去寻找答案？"
+    },
+    "guidance": {
+      "en": [
+        "Galileo watched carefully and did experiments to test ideas.",
+        "He used a telescope to see things no one had seen before.",
+        "He wrote down his ideas so others could test them.",
+        "Curiosity and questions can lead to great discoveries."
+      ],
+      "zh": [
+        "伽利略仔细观察，并做实验来验证想法。",
+        "他用望远镜看到了前人从未见过的东西。",
+        "他把想法写下来，让别人也能检验。",
+        "好奇心和提问能带来伟大的发现。"
+      ]
+    }
+  }
+}
