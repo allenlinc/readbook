@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Darkness Within · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Darkness Within</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">内心黑暗</p>
+    <div class="mark">🌑</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">The impostor is unmasked as Ashfur's vengeful spirit, and the Clans learn how to free Bramblestar from within.<br><span style="color:#a06a1f">冒名顶替者被揭穿为灰条（Ashfur）复仇的灵魂，各族也弄清了如何从内部解救棘星。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: The Broken Code — Darkness Within</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "In Darkness Within, whose spirit is revealed to be controlling Bramblestar's body?", "zh": "在《内心黑暗》中，操控棘星身体的灵魂被揭晓是谁？"}, "options": [{"en": "Tigerstar", "zh": "虎星（Tigerstar）"}, {"en": "Ashfur", "zh": "灰条（Ashfur）"}, {"en": "Mapleshade", "zh": "枫荫（Mapleshade）"}, {"en": "Brokenstar", "zh": "碎星（Brokenstar）"}], "answer": 1, "explain": {"en": "The impostor is revealed to be Ashfur, a dead ThunderClan cat whose spirit took over Bramblestar's body.", "zh": "冒名顶替者被揭穿为灰条——一只已死雷族猫的灵魂，占据了棘星的身体。"}}, {"q": {"en": "How did Ashfur originally die?", "zh": "灰条（Ashfur）最初是怎样死去的？"}, "options": [{"en": "He was killed by Hollyleaf.", "zh": "他被松鸦叶（Hollyleaf）杀死。"}, {"en": "He died of old age.", "zh": "他寿终正寝。"}, {"en": "He was struck by lightning.", "zh": "他被闪电击中。"}, {"en": "He drowned in the river.", "zh": "他溺死在河里。"}], "answer": 0, "explain": {"en": "Ashfur was killed by Hollyleaf long before, after he threatened to reveal a dangerous secret about the Clans.", "zh": "灰条早年被松鸦叶所杀——当时他威胁要揭露族群的一个危险秘密。"}}, {"q": {"en": "Where did Ashfur's spirit go after he died?", "zh": "灰条死后，他的灵魂去了哪里？"}, "options": [{"en": "To StarClan.", "zh": "去了星族。"}, {"en": "To the Dark Forest (Place of No Stars).", "zh": "去了黑森林（无星之地）。"}, {"en": "He vanished completely.", "zh": "彻底消失了。"}, {"en": "To the old forest.", "zh": "去了旧森林。"}], "answer": 1, "explain": {"en": "Because of his anger and evil, Ashfur's spirit went to the Dark Forest after his death rather than to StarClan.", "zh": "由于满腔愤恨与恶念，灰条死后灵魂坠入黑森林，而非升往星族。"}}, {"q": {"en": "What was Ashfur's main motive for taking over Bramblestar's body?", "zh": "灰条占据棘星身体的主要动机是什么？"}, "options": [{"en": "He wanted to rule all four Clans fairly.", "zh": "他想公平地统治四个族群。"}, {"en": "He loved Squirrelflight and was jealous of Bramblestar, wanting revenge.", "zh": "他爱着松鼠飞，又嫉妒棘星，想报复。"}, {"en": "He wanted to become a medicine cat.", "zh": "他想成为巫医。"}, {"en": "He wanted to find a new home.", "zh": "他想找个新家。"}], "answer": 1, "explain": {"en": "Ashfur loved Squirrelflight and hated Bramblestar, so he stole Bramblestar's body to punish him and be close to her.", "zh": "灰条爱着松鼠飞、又恨棘星，于是窃取棘星的身体，既为报复，也想靠近她。"}}, {"q": {"en": "How was Ashfur able to take over Bramblestar's body?", "zh": "灰条是如何得以占据棘星的身体？"}, "options": [{"en": "He asked StarClan for permission.", "zh": "他征得星族同意。"}, {"en": "When Bramblestar died, Ashfur's waiting spirit slipped into the empty body.", "zh": "棘星死去时，早已守候的灰条之魂钻进了空躯。"}, {"en": "He fought Bramblestar and won.", "zh": "他与棘星搏斗并获胜。"}, {"en": "A Twoleg put him there.", "zh": "两脚兽把他放进去的。"}], "answer": 1, "explain": {"en": "When Bramblestar died, Ashfur's waiting spirit seized the empty body and returned it to the Clans as an impostor.", "zh": "棘星死去时，守候多时的灰条之魂趁机占据这具空躯，以冒名顶替者的身份回到族中。"}}, {"q": {"en": "Where does Ashfur keep the real Bramblestar's spirit prisoner?", "zh": "灰条把真正的棘星的灵魂囚禁在哪里？"}, "options": [{"en": "In StarClan.", "zh": "在星族。"}, {"en": "In the Dark Forest, unable to return to his body.", "zh": "在黑森林，无法回到自己的身体。"}, {"en": "In RiverClan.", "zh": "在河族。"}, {"en": "In a Twoleg cage.", "zh": "在两脚兽的笼子里。"}], "answer": 1, "explain": {"en": "Ashfur holds the real Bramblestar's spirit captive in the Dark Forest so it cannot reclaim its own body.", "zh": "灰条把真正的棘星之魂囚在黑森林，使祂无法夺回自己的身体。"}}, {"q": {"en": "Whose StarClan message guides the cats' plan to save Bramblestar?", "zh": "谁的星族讯息为拯救棘星的计划提供了指引？"}, "options": [{"en": "Shadowsight's", "zh": "影兆的"}, {"en": "Leafpool's", "zh": "叶池（Leafpool）的"}, {"en": "Mothwing's", "zh": "蛾翅（Mothwing）的"}, {"en": "Spottedleaf's", "zh": "斑叶（Spottedleaf）的"}], "answer": 0, "explain": {"en": "The message Shadowsight received from StarClan tells the Clans how the impostor can be rooted out and Bramblestar freed.", "zh": "影兆从星族收到的讯息，告诉各族如何铲除冒名顶替者、解救棘星。"}}, {"q": {"en": "What did Ashfur do to the Warrior Code to make himself all-powerful?", "zh": "为了让自身权力至上，灰条对《战士守则》做了什么？"}, "options": [{"en": "He kept it exactly as it was.", "zh": "他原封不动地保留。"}, {"en": "He rewrote it so the leader's word overrides the Code.", "zh": "他重写守则，使族长的话凌驾于守则之上。"}, {"en": "He let each cat write their own rules.", "zh": "他让每只猫自定规矩。"}, {"en": "He asked StarClan to erase it.", "zh": "他请星族将其抹去。"}], "answer": 1, "explain": {"en": "Ashfur rewrote the Code so that a leader's commands came first, making himself above all the old rules.", "zh": "灰条重写守则，让族长的命令优先于一切旧规矩，从而使自己凌驾于所有规则之上。"}}, {"q": {"en": "What must the cats do to free Bramblestar from Ashfur's control?", "zh": "猫们必须怎么做才能把棘星从灰条的控制中解救出来？"}, "options": [{"en": "Crown a new leader.", "zh": "拥立新族长。"}, {"en": "Drive Ashfur's spirit out of Bramblestar's body and back to the Dark Forest.", "zh": "将灰条之魂赶出棘星身体，送回黑森林。"}, {"en": "Move away from the lake.", "zh": "迁离湖畔。"}, {"en": "Ask the Twolegs to help.", "zh": "请两脚兽帮忙。"}], "answer": 1, "explain": {"en": "To save Bramblestar, the cats must force Ashfur's spirit out of the body and send it back to the Dark Forest.", "zh": "要救棘星，猫们必须把灰条之魂赶出这具身体，并送回黑森林。"}}, {"q": {"en": "How do the Clans prepare to confront Ashfur?", "zh": "各族如何准备对抗灰条？"}, "options": [{"en": "They each hide in their own camps.", "zh": "各自躲进本族营地。"}, {"en": "They unite and plan a battle in the Dark Forest.", "zh": "联合起来，策划在黑森林开战。"}, {"en": "They make peace with the rogues.", "zh": "与泼皮猫讲和。"}, {"en": "They abandon the lake.", "zh": "他们抛弃湖畔。"}], "answer": 1, "explain": {"en": "The four Clans join forces and prepare to enter the Dark Forest to battle Ashfur and free Bramblestar.", "zh": "四个族群联手，准备进入黑森林与灰条决战，以解救棘星。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

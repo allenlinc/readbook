@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Path of a Warrior · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Path of a Warrior</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">武士之路</p>
+    <div class="mark">🛤️</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">Three novellas of loyalty and leadership: Redtail's Debt, Tawnypelt's Clan, and Shadowstar's Life.<br><span style="color:#a06a1f">三个关于忠诚与领导力的短篇：红尾的恩债、褐皮的族群、影星的生命。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Novellas — Path of a Warrior</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "In Redtail's Debt, as an apprentice whose life did Tigerclaw save, creating a lifelong debt?", "zh": "在《红尾的恩债》中，作为学徒时，虎掌（Tigerclaw）救了谁，从而让对方记了一辈子恩情？"}, "options": [{"en": "Redtail (Redpaw)", "zh": "红尾（红爪 Redpaw）"}, {"en": "Lionheart", "zh": "狮心（Lionheart）"}, {"en": "Whitestorm", "zh": "白风暴（Whitestorm）"}, {"en": "Darkstripe", "zh": "暗条（Darkstripe）"}], "answer": 0, "explain": {"en": "Tigerclaw saves Redpaw's life when they are young apprentices, and Redtail feels he owes Tigerclaw a debt forever after.", "zh": "虎掌在它们还是小学徒时救了红爪一命，红尾从此觉得自己永远欠虎掌一个人情。"}}, {"q": {"en": "What position does Redtail later hold in ThunderClan?", "zh": "红尾后来在雷族担任什么职务？"}, "options": [{"en": "Leader", "zh": "族长"}, {"en": "Medicine cat", "zh": "巫医"}, {"en": "Deputy", "zh": "副族长"}, {"en": "Elder", "zh": "长老"}], "answer": 2, "explain": {"en": "Redtail becomes ThunderClan's deputy, even though Tigerclaw also wanted the role.", "zh": "红尾成了雷族的副族长，尽管虎掌也想要这个位置。"}}, {"q": {"en": "In Redtail's Debt, the 'debt' Redtail feels makes him...", "zh": "在《红尾的恩债》中，红尾心里的“恩债”让他……"}, "options": [{"en": "Hate Tigerclaw", "zh": "痛恨虎掌"}, {"en": "Reluctant to oppose Tigerclaw even when he suspects danger", "zh": "即便察觉虎掌的危险，也不愿反对他"}, {"en": "Leave the Clan", "zh": "离开族群"}, {"en": "Become a medicine cat", "zh": "成为巫医"}], "answer": 1, "explain": {"en": "Because he feels indebted, Redtail struggles to stand against Tigerclaw even after he senses Tigerclaw is dangerous.", "zh": "因为觉得欠了人情，红尾即便察觉虎掌危险，也很难站出来反对他。"}}, {"q": {"en": "In Tawnypelt's Clan, which Clan does Tawnypelt belong to?", "zh": "在《褐皮的族群》中，褐皮（Tawnypelt）属于哪个族群？"}, "options": [{"en": "ThunderClan", "zh": "雷族（ThunderClan）"}, {"en": "ShadowClan", "zh": "影族（ShadowClan）"}, {"en": "RiverClan", "zh": "河族（RiverClan）"}, {"en": "WindClan", "zh": "风族（WindClan）"}], "answer": 1, "explain": {"en": "Tawnypelt is a loyal ShadowClan warrior who raised her kits there.", "zh": "褐皮是影族忠心耿耿的武士，她的孩子们也是在影族长大的。"}}, {"q": {"en": "In Tawnypelt's Clan, what difficult position did Tawnypelt give up for the good of her Clan?", "zh": "在《褐皮的族群》中，为了族群好，褐皮放弃了什么艰难的职位？"}, "options": [{"en": "Warrior", "zh": "武士"}, {"en": "Queen", "zh": "猫后"}, {"en": "Deputy", "zh": "副族长"}, {"en": "Medicine cat", "zh": "巫医"}], "answer": 2, "explain": {"en": "The novella explains why Tawnypelt stepped down as ShadowClan's deputy, a hard choice made for her Clan's sake.", "zh": "这个短篇讲述了褐皮为何辞去影族副族长——那是她为族群着想而做出的艰难决定。"}}, {"q": {"en": "Tawnypelt is the sister of which famous ThunderClan leader?", "zh": "褐皮是哪一位著名雷族族长的姐妹？"}, "options": [{"en": "Firestar", "zh": "火星（Firestar）"}, {"en": "Bramblestar (Brambleclaw)", "zh": "黑莓星（ Brambleclaw）"}, {"en": "Graystripe", "zh": "灰条（Graystripe）"}, {"en": "Cloudtail", "zh": "云尾（Cloudtail）"}], "answer": 1, "explain": {"en": "Tawnypelt and Bramblestar (Brambleclaw) are littermates, both children of Goldenflower.", "zh": "褐皮和黑莓星（黑莓爪）是同窝手足，都是金花（Goldenflower）的孩子。"}}, {"q": {"en": "In Shadowstar's Life, who was Shadowstar?", "zh": "在《影星的生命》中，影星（Shadowstar）是谁？"}, "options": [{"en": "The first leader of ShadowClan", "zh": "影族的第一任族长"}, {"en": "The first leader of ThunderClan", "zh": "雷族的第一任族长"}, {"en": "A RiverClan medicine cat", "zh": "河族的巫医"}, {"en": "A kittypet", "zh": "一只宠物猫"}], "answer": 0, "explain": {"en": "Shadowstar was the founder and first leader of ShadowClan in the earliest days of the Clans.", "zh": "影星是族群黎明时期影族的创立者，也是第一任族长。"}}, {"q": {"en": "What sad record does Shadowstar hold among Clan leaders?", "zh": "在历任族长中，影星背负着怎样一项令人唏嘘的纪录？"}, "options": [{"en": "She was the first leader to lose her ninth life", "zh": "她是第一位失去第九条命的族长"}, {"en": "She was the youngest leader", "zh": "她是最年轻的族长"}, {"en": "She led the longest", "zh": "她统治时间最长"}, {"en": "She never received nine lives", "zh": "她从未获得九条命"}], "answer": 0, "explain": {"en": "Shadowstar became the first Clan leader to lose her ninth and final life.", "zh": "影星成为第一位失去第九条、也是最后一条命的族长。"}}, {"q": {"en": "In Shadowstar's Life, in what kind of conflict did Shadowstar lose her last life?", "zh": "在《影星的生命》中，影星是在怎样的一场冲突里失去最后一条命的？"}, "options": [{"en": "A battle that she herself started", "zh": "一场由她自己挑起的战斗"}, {"en": "A flood", "zh": "一场洪水"}, {"en": "A sickness", "zh": "一场疾病"}, {"en": "A fire", "zh": "一场火灾"}], "answer": 0, "explain": {"en": "Shadowstar fell in a battle of her own making, losing her final life.", "zh": "影星在自己挑起的战斗中倒下，失去了最后一条命。"}}, {"q": {"en": "Shadowstar's story takes place in which time period of Clan history?", "zh": "影星的故事发生在族群历史的哪个时期？"}, "options": [{"en": "The modern lake territories", "zh": "现代的湖区领地"}, {"en": "The early days of the Clans (Dawn of the Clans)", "zh": "族群的远古黎明时期"}, {"en": "During the original series", "zh": "正传故事发生的年代"}, {"en": "After the Great Journey", "zh": "大旅程之后"}], "answer": 1, "explain": {"en": "Shadowstar's Life is set in the Dawn of the Clans era, when the first Clans were formed.", "zh": "《影星的生命》发生在“族群黎明”时代，也就是最初几个族群刚刚成形的时候。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

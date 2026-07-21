@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sky · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Sky</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">天空</p>
+    <div class="mark">☁️</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">The second book of A Starless Clan: a greencough outbreak, a desperate catmint quest, and RiverClan's secret that StarClan has gone silent.<br><span style="color:#a06a1f">《无星之族》系列第二部：一场绿咳症（greencough）爆发、一次寻找猫薄荷的远征，以及河族隐瞒「星族已沉默」的秘密。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: A Starless Clan — Sky</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Which cats are the main point-of-view characters in Sky?", "zh": "《天空》的主要视角角色是哪几只猫？"}, "options": [{"en": "Nightheart, Sunbeam, and Frostpaw", "zh": "夜心（Nightheart）、桑比姆（Sunbeam）和霜爪（Frostpaw）"}, {"en": "Bramblestar, Leafstar, and Mistystar", "zh": "黑莓星（Bramblestar）、叶星（Leafstar）和雾星（Mistystar）"}, {"en": "Rootspring, Lightleap, and Alderheart", "zh": "根泉（Rootspring）、光跃（Lightleap）和赤杨心（Alderheart）"}, {"en": "Curlfeather, Owlnose, and Splashtail", "zh": "卷羽（Curlfeather）、枭鼻（Owlnose）和溅尾（Splashtail）"}], "answer": 0, "explain": {"en": "Sky is told through Nightheart (formerly Flamepaw), Sunbeam of ShadowClan, and Frostpaw of RiverClan.", "zh": "《天空》以夜心（即原来的焰爪）、影族的桑比姆和河族的霜爪为视角展开。"}}, {"q": {"en": "Where does the prologue of Sky take place?", "zh": "《天空》的序章发生在什么地方？"}, "options": [{"en": "In the Dark Forest", "zh": "在黑森林（Dark Forest）"}, {"en": "In StarClan, where Mistystar and Reedwhisker argue", "zh": "在星族（StarClan），雾星和苇须在此争执"}, {"en": "In the ThunderClan camp", "zh": "在雷族营地"}, {"en": "At the Moonpool", "zh": "在月池（Moonpool）"}], "answer": 1, "explain": {"en": "The prologue is set in StarClan, where Reedwhisker begs Mistystar to warn the living Clans that RiverClan has lost its leaders.", "zh": "序章设在星族，苇须恳求雾星向活着的后辈发出警告：河族已经失去了领袖。"}}, {"q": {"en": "What sickness spreads through the Clans in Sky, causing a catmint shortage?", "zh": "《天空》中，什么疾病在族群间蔓延，导致猫薄荷（catmint）短缺？"}, "options": [{"en": "Greencough, a deadly respiratory illness", "zh": "绿咳症（greencough），一种致命的呼吸道疾病"}, {"en": "Redcough", "zh": "红咳症（Redcough）"}, {"en": "A broken-leg epidemic", "zh": "一场骨折传染病"}, {"en": "A drought-driven hunger", "zh": "干旱引发的饥饿"}], "answer": 0, "explain": {"en": "Greencough rages through the camps; Tigerstar's kit Rowankit sickens and later dies of it.", "zh": "绿咳症在各营地肆虐；虎星（Tigerstar）的幼崽小知更（Rowankit）染病，后来不治身亡。"}}, {"q": {"en": "Which Clans send cats on the joint patrol to find catmint in the Twolegplace?", "zh": "哪些族群派猫参加了寻找猫薄荷的联合巡逻队？"}, "options": [{"en": "RiverClan, WindClan, and ShadowClan", "zh": "河族、风族（WindClan）和影族"}, {"en": "ShadowClan, ThunderClan, and SkyClan", "zh": "影族、雷族和天族（SkyClan）"}, {"en": "ThunderClan, WindClan, and SkyClan", "zh": "雷族、风族和天族"}, {"en": "All five Clans together", "zh": "五大族一起出动"}], "answer": 1, "explain": {"en": "The medicine cats send a patrol of Sunbeam and Lightleap (ShadowClan), Nightheart and Alderheart (ThunderClan), and Rootspring and Fidgetflake (SkyClan).", "zh": "巫医们派出一支巡逻队，成员有桑比姆与光跃（影族）、夜心与赤杨心（雷族）、根泉与颤瓣（Fidgetflake，天族）。"}}, {"q": {"en": "How does Frostpaw's mother Curlfeather die in Sky?", "zh": "霜爪的母亲卷羽（Curlfeather）在《天空》中是如何死去的？"}, "options": [{"en": "She dies of greencough", "zh": "她死于绿咳症"}, {"en": "She is killed by dogs on the way to the Moonpool", "zh": "她在前往月池途中被狗咬死"}, {"en": "She is exiled by Mistystar", "zh": "她被雾星流放"}, {"en": "She becomes a kittypet", "zh": "她成了一只宠物猫"}], "answer": 1, "explain": {"en": "Curlfeather is killed by dogs while traveling to the Moonpool to receive her nine lives as RiverClan's new leader.", "zh": "卷羽在前往月池、准备接受九条命成为河族新族长的途中，被狗杀死。"}}, {"q": {"en": "What are Curlfeather's dying words that haunt Frostpaw?", "zh": "卷羽（Curlfeather）的遗言是什么，这句话一直萦绕在霜爪心头？"}, "options": [{"en": "\"Trust no cat.\"", "zh": "「不要相信任何猫。」"}, {"en": "\"Follow the code.\"", "zh": "「遵守守则。」"}, {"en": "\"Save RiverClan.\"", "zh": "「拯救河族。」"}, {"en": "\"Find StarClan.\"", "zh": "「去寻找星族。」"}], "answer": 0, "explain": {"en": "Curlfeather's last words are 'Trust no cat,' a warning that makes Frostpaw suspicious of those around her.", "zh": "卷羽的遗言是「不要相信任何猫」，这句警告让霜爪开始怀疑身边的人。"}}, {"q": {"en": "Whom does Frostpaw choose as RiverClan's next leader?", "zh": "霜爪选择谁做河族的下一任族长？"}, "options": [{"en": "Splashtail", "zh": "溅尾（Splashtail）"}, {"en": "Owlnose", "zh": "枭鼻（Owlnose）"}, {"en": "Reedwhisker", "zh": "苇须（Reedwhisker）"}, {"en": "Nightheart", "zh": "夜心（Nightheart）"}], "answer": 1, "explain": {"en": "Following Curlfeather's advice to look 'beyond the obvious choices,' Frostpaw names the loyal but untested Owlnose as leader.", "zh": "遵循卷羽「越过显而易见的人选」的忠告，霜爪提名忠诚却未经考验的枭鼻为族长。"}}, {"q": {"en": "What happens when Owlnose goes to the Moonpool for his nine lives?", "zh": "当枭鼻（Owlnose）前往月池接受九条命时，发生了什么？"}, "options": [{"en": "He receives all nine lives", "zh": "他如愿获得了九条命"}, {"en": "StarClan does not appear", "zh": "星族没有出现"}, {"en": "He is rejected and sent home", "zh": "他被拒绝并遣返营地"}, {"en": "He meets Firestar there", "zh": "他在那里见到了火星（Firestar）"}], "answer": 1, "explain": {"en": "At the Moonpool, StarClan stays silent and gives Owlnose no lives, deepening the Clans' fear of being starless.", "zh": "在月池边，星族保持沉默，没有授予枭鼻任何性命，各族群「无星」的恐惧更深了。"}}, {"q": {"en": "How do the cats know where to find catmint in the Twolegplace?", "zh": "猫儿们是怎么知道两脚兽地盘里哪里有猫薄荷的？"}, "options": [{"en": "Jayfeather had a prophecy about it", "zh": "松鸦羽（Jayfeather）得到了相关预言"}, {"en": "Fidgetflake recalls SkyClan passed catmint there on their way to the lake", "zh": "颤瓣（Fidgetflake）记得天族迁往湖区途中曾路过生长猫薄荷的地方"}, {"en": "A kittypet gave them a map", "zh": "一只宠物猫给了他们一张地图"}, {"en": "Bramblestar told them directly", "zh": "黑莓星直接告诉了他们"}], "answer": 1, "explain": {"en": "Fidgetflake remembers that SkyClan saw catmint growing in Twolegplaces during their long journey to the lake.", "zh": "颤瓣（Fidgetflake）记得，天族在长途迁往湖区的路上，曾见过两脚兽地盘里生长着猫薄荷。"}}, {"q": {"en": "What chilling pattern does Frostpaw notice about the recent RiverClan deaths?", "zh": "霜爪注意到河族近来的死亡事件有一个什么令人心寒的规律？"}, "options": [{"en": "All of them were medicine cats", "zh": "死者全都是巫医"}, {"en": "All of them were young kits", "zh": "死者全都是幼崽"}, {"en": "Each was a leader or the next in line", "zh": "每一个都是族长，或即将成为族长的人"}, {"en": "All died in open battle", "zh": "全都在正面战斗中阵亡"}], "answer": 2, "explain": {"en": "Frostpaw realizes Mistystar, Reedwhisker, and Curlfeather were all leaders or about to become one—someone is killing the leadership.", "zh": "霜爪意识到，雾星、苇须和卷羽都是族长或即将继任者——似乎有人专门针对领导层下手。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goosefeather's Curse · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Goosefeather's Curse</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">鹅羽的诅咒</p>
+    <div class="mark">🌀</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">A ThunderClan medicine cat's gift of seeing StarClan's dead becomes a burden he calls a curse.<br><span style="color:#a06a1f">雷族巫医能看见星族亡魂的天赋，最终成了他口中挥之不去的诅咒。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Novellas — Goosefeather's Curse</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What special gift does Goosekit have as a very young kit?", "zh": "鹅仔（Goosekit）在很小的时候拥有什么特殊天赋？"}, "options": [{"en": "He can run faster than any other cat.", "zh": "他跑得比任何猫都快。"}, {"en": "He can see the spirits of dead StarClan cats walking among the living.", "zh": "他能看见星族（StarClan）亡魂在活猫之间走动。"}, {"en": "He can understand the language of Twolegs.", "zh": "他能听懂两脚兽的语言。"}, {"en": "He can predict the weather perfectly.", "zh": "他能完美预测天气。"}], "answer": 1, "explain": {"en": "Goosekit is born able to see StarClan cats (the spirits of dead Clan cats) moving through the camp, a gift that later feels like a curse.", "zh": "鹅仔天生就能看见星族的猫（族群亡魂）在营地中走动，这份天赋后来却像诅咒一样压在他身上。"}}, {"q": {"en": "At what age is Goosekit made a medicine cat apprentice?", "zh": "鹅仔几个月大时被收为巫医学徒？"}, "options": [{"en": "Six moons, the usual age", "zh": "六个月，通常的年龄"}, {"en": "Twelve moons", "zh": "十二个月"}, {"en": "Four moons", "zh": "四个月"}, {"en": "One moon", "zh": "一个月"}], "answer": 2, "explain": {"en": "Because of his powers, Goosekit is apprenticed as a medicine cat at only four moons old, far younger than normal.", "zh": "因为拥有这种能力，鹅仔在仅仅四个月大时就被收为巫医学徒，远早于正常年龄。"}}, {"q": {"en": "Who is Goosefeather's medicine cat mentor?", "zh": "鹅羽的巫医导师是谁？"}, "options": [{"en": "Cloudberry", "zh": "云莓（Cloudberry）"}, {"en": "Featherwhisker", "zh": "羽须（Featherwhisker）"}, {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"}, {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"}], "answer": 0, "explain": {"en": "Cloudberry is the ThunderClan medicine cat who discovers Goosekit's gift and trains him as her apprentice.", "zh": "云莓是雷族的巫医，她发现了鹅仔的天赋并收他为徒。"}}, {"q": {"en": "Which Clan does Goosefeather belong to?", "zh": "鹅羽属于哪个族群？"}, "options": [{"en": "RiverClan", "zh": "河族（RiverClan）"}, {"en": "ThunderClan", "zh": "雷族（ThunderClan）"}, {"en": "ShadowClan", "zh": "影族（ShadowClan）"}, {"en": "WindClan", "zh": "风族（WindClan）"}], "answer": 1, "explain": {"en": "Goosefeather is a ThunderClan medicine cat, living long before the events of the original series.", "zh": "鹅羽是雷族的巫医，生活在正传故事发生之前的年代。"}}, {"q": {"en": "After a vision of kittypets attacking a patrol, whose patrol does Goosefeather help rescue?", "zh": "鹅羽预见宠物猫袭击巡逻队后，他帮忙救下了谁的巡逻队？"}, "options": [{"en": "Squirrelwhisker's patrol", "zh": "松鼠须（Squirrelwhisker）的巡逻队"}, {"en": "Bluestar's patrol", "zh": "蓝星（Bluestar）的巡逻队"}, {"en": "Firestar's patrol", "zh": "火星（Firestar）的巡逻队"}, {"en": "Tallstar's patrol", "zh": "高星（Tallstar）的巡逻队"}], "answer": 0, "explain": {"en": "Goosefeather sees a vision of kittypets attacking Squirrelwhisker's patrol and warns the Clan, who rescues them in time.", "zh": "鹅羽预见宠物猫袭击松鼠须的巡逻队，他向族群发出警告，及时救下了他们。"}}, {"q": {"en": "What does Goosefeather fear his Clanmate Stormtail will do to him?", "zh": "鹅羽害怕同族猫风暴尾（Stormtail）会对他做什么？"}, "options": [{"en": "Steal his prey", "zh": "偷走他的猎物"}, {"en": "Lead a badger to attack him", "zh": "引一只獾来攻击他"}, {"en": "Tell the leader to exile him", "zh": "告诉族长把他赶走"}, {"en": "Become mates with his sister", "zh": "和他的姐姐成为伴侣"}], "answer": 1, "explain": {"en": "Goosefeather is haunted by the fear that Stormtail will one day lead a badger to him, and a badger does later attack him.", "zh": "鹅羽一直害怕风暴尾有朝一日会引来獾对付他，后来确实有一只獾袭击了他。"}}, {"q": {"en": "Who saves Goosefeather when a badger attacks him?", "zh": "当獾袭击鹅羽时，是谁救了他？"}, "options": [{"en": "His sister Moonpaw (later Moonflower)", "zh": "他的姐姐月爪（Moonpaw，后来的月花 Moonflower）"}, {"en": "Cloudberry", "zh": "云莓（Cloudberry）"}, {"en": "Doestar", "zh": "道星（Doestar）"}, {"en": "Pinestar", "zh": "松星（Pinestar）"}], "answer": 0, "explain": {"en": "Goosefeather's sister Moonpaw arrives just in time and drives the badger away, saving his life.", "zh": "鹅羽的姐姐月爪及时赶到，赶走獾救了他一命。"}}, {"q": {"en": "Which dark forest cat appears to Goosefeather and secretly teaches him battle moves?", "zh": "哪只黑森林（Dark Forest）的猫出现在鹅羽面前，偷偷教他战斗技巧？"}, "options": [{"en": "Mapleshade", "zh": "枫荫（Mapleshade）"}, {"en": "Tigerstar", "zh": "虎星（Tigerstar）"}, {"en": "Brokenstar", "zh": "碎星（Brokenstar）"}, {"en": "Hawkfrost", "zh": "鹰霜（Hawkfrost）"}], "answer": 0, "explain": {"en": "The spirit Mapleshade visits Goosefeather and trains him in fighting moves he is unsure he should use.", "zh": "枫荫的魂魄来找鹅羽，偷偷训练他战斗技巧，而鹅羽并不确定自己该不该用。"}}, {"q": {"en": "When Larksong's two kits are born, what does Goosefeather's vision say about their futures?", "zh": "当莺歌（Larksong）生下两只小猫时，鹅羽的预见说他们将来会怎样？"}, "options": [{"en": "Both will become warriors", "zh": "两只都会成为武士"}, {"en": "One will become leader and one will become medicine cat", "zh": "一只会成为族长，一只会成为巫医"}, {"en": "Both will leave the Clan", "zh": "两只都会离开族群"}, {"en": "Both will become elders", "zh": "两只都会成为长老"}], "answer": 1, "explain": {"en": "Goosefeather foresees that one of Larksong's kits will become the next Clan leader and the other the medicine cat.", "zh": "鹅羽预见莺歌的一只小猫将成为下一任族长，另一只会成为巫医。"}}, {"q": {"en": "What goes wrong during a harsh leaf-bare after Cloudberry's plan to bury prey in frozen ground?", "zh": "云莓提出把猎物埋进冻土过冬，可严酷的落叶季里出了什么岔子？"}, "options": [{"en": "The prey freezes solid and cannot be eaten", "zh": "猎物冻得硬邦邦没法吃"}, {"en": "The buried prey rots because rain floods the hole", "zh": "雨水灌进坑里，埋着的猎物腐烂了"}, {"en": "Twolegs steal the buried prey", "zh": "两脚兽偷走了埋着的猎物"}, {"en": "Foxes dig up the prey", "zh": "狐狸把猎物挖了出来"}], "answer": 1, "explain": {"en": "Rain floods the hole where the prey was buried, the prey rots, and ThunderClan nearly starves during leaf-bare.", "zh": "雨水灌进埋猎物的坑，猎物腐烂，雷族在落叶季里几乎饿死。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

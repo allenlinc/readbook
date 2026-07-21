@@ -1,0 +1,117 @@
+{
+  "slug": "the-ultimate-guide",
+  "desc": "The complete encyclopedia of the Warriors world, with profiles of cats, Clans, and key events.",
+  "descZh": "猫武士世界的完整百科，收录了猫角色、族群与关键事件的档案。",
+  "questions": [
+    {
+      "q": {"en": "What kind of book is The Ultimate Guide?", "zh": "《终极指南》是一本什么样的书？"},
+      "options": [
+        {"en": "A complete encyclopedia of the Warriors world", "zh": "猫武士世界的完整百科"},
+        {"en": "A single Clan's diary", "zh": "某一个族群的日记"},
+        {"en": "A book of poems", "zh": "一本诗集"},
+        {"en": "A cookbook for cats", "zh": "一本给猫的食谱"}
+      ],
+      "answer": 0,
+      "explain": {"en": "The Ultimate Guide is a comprehensive reference covering cats, Clans, and history.", "zh": "《终极指南》是一本综合性参考书，涵盖猫角色、族群与历史。"}
+    },
+    {
+      "q": {"en": "In the forest, which Clan's camp is hidden inside a sandy ravine?", "zh": "在森林中，哪个族群的营地隐藏在沙质峡谷（ravine）之中？"},
+      "options": [
+        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
+        {"en": "RiverClan", "zh": "河族（RiverClan）"},
+        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
+        {"en": "WindClan", "zh": "风族（WindClan）"}
+      ],
+      "answer": 0,
+      "explain": {"en": "ThunderClan's camp is tucked into a ravine sheltered by a bramble wall.", "zh": "雷族的营地藏在峡谷里，被荆棘墙所遮蔽。"}
+    },
+    {
+      "q": {"en": "Which Clan's camp is built among reeds beside a river?", "zh": "哪个族群的营地建在河边的芦苇丛中？"},
+      "options": [
+        {"en": "RiverClan", "zh": "河族（RiverClan）"},
+        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
+        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
+        {"en": "WindClan", "zh": "风族（WindClan）"}
+      ],
+      "answer": 0,
+      "explain": {"en": "RiverClan makes its camp in the reeds along the riverbank.", "zh": "河族的营地建在河岸边的芦苇丛中。"}
+    },
+    {
+      "q": {"en": "Which Clan's camp lies in a hollow among the pine trees of the conifer forest?", "zh": "哪个族群的营地坐落在针叶林中松树间的洼地里？"},
+      "options": [
+        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
+        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
+        {"en": "RiverClan", "zh": "河族（RiverClan）"},
+        {"en": "WindClan", "zh": "风族（WindClan）"}
+      ],
+      "answer": 0,
+      "explain": {"en": "ShadowClan's damp, shadowy camp is set among the pines.", "zh": "影族潮湿而阴暗的营地坐落在松树之间。"}
+    },
+    {
+      "q": {"en": "Which Clan's camp is hidden in a ditch on the open moor?", "zh": "哪个族群的营地隐藏在开阔荒原上的一条沟壑（ditch）里？"},
+      "options": [
+        {"en": "WindClan", "zh": "风族（WindClan）"},
+        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
+        {"en": "RiverClan", "zh": "河族（RiverClan）"},
+        {"en": "ShadowClan", "zh": "影族（ShadowClan）"}
+      ],
+      "answer": 0,
+      "explain": {"en": "WindClan's camp is a shallow ditch dug into the open moorland.", "zh": "风族的营地是荒原上挖出的一条浅沟。"}
+    },
+    {
+      "q": {"en": "In Clan belief, what is Silverpelt?", "zh": "在族群的信仰中，银毛带（Silverpelt）是什么？"},
+      "options": [
+        {"en": "The trail of stars where StarClan walks", "zh": "星族漫步其上的星河（银河）"},
+        {"en": "A type of prey", "zh": "一种猎物"},
+        {"en": "A Clan's territory", "zh": "某个族群的领地"},
+        {"en": "A medicine cat's herb", "zh": "巫医使用的一种草药"}
+      ],
+      "answer": 0,
+      "explain": {"en": "Silverpelt is the band of stars (the Milky Way) where StarClan cats walk at night.", "zh": "银毛带是星河中星族猫夜间漫步的星带（即银河）。"}
+    },
+    {
+      "q": {"en": "Which ThunderClan medicine cat received the first prophecy, 'Fire alone can save our Clan'?", "zh": "哪位雷族巫医接收到了第一条预言「唯有火（Fire）能拯救我们的族群」？"},
+      "options": [
+        {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"},
+        {"en": "Leafpool", "zh": "叶池（Leafpool）"},
+        {"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"},
+        {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"}
+      ],
+      "answer": 0,
+      "explain": {"en": "Spottedleaf, as ThunderClan's medicine cat, received the prophecy about Firestar.", "zh": "斑叶（Spottedleaf）作为雷族巫医，接收到了关于火心的预言。"}
+    },
+    {
+      "q": {"en": "Which cat is Firestar's daughter and the mate of Bramblestar?", "zh": "哪只猫是火心的女儿，也是棘星（Bramblestar）的伴侣？"},
+      "options": [
+        {"en": "Squirrelflight", "zh": "松鼠飞（Squirrelflight）"},
+        {"en": "Leafpool", "zh": "叶池（Leafpool）"},
+        {"en": "Sandstorm", "zh": "沙暴（Sandstorm）"},
+        {"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"}
+      ],
+      "answer": 0,
+      "explain": {"en": "Squirrelflight is Firestar's daughter and Bramblestar's loyal mate.", "zh": "松鼠飞（Squirrelflight）是火心的女儿，也是棘星忠实的伴侣。"}
+    },
+    {
+      "q": {"en": "How many Clans originally shared the forest before SkyClan's return?", "zh": "在天族回归之前，最初共有多少个族群共享这片森林？"},
+      "options": [
+        {"en": "Three", "zh": "三个"},
+        {"en": "Four", "zh": "四个"},
+        {"en": "Five", "zh": "五个"},
+        {"en": "Two", "zh": "两个"}
+      ],
+      "answer": 1,
+      "explain": {"en": "Four Clans—ThunderClan, RiverClan, ShadowClan, and WindClan—shared the forest.", "zh": "雷族、河族、影族和风族这四个族群共享森林。"}
+    },
+    {
+      "q": {"en": "Which son of Tigerstar became a ThunderClan leader after Firestar?", "zh": "虎星的哪个儿子在火心之后成为了雷族族长？"},
+      "options": [
+        {"en": "Bramblestar", "zh": "棘星（Bramblestar）"},
+        {"en": "Hawkfrost", "zh": "鹰霜（Hawkfrost）"},
+        {"en": "Tawnypelt", "zh": "苍毛（Tawnypelt）"},
+        {"en": "Mothwing", "zh": "蛾翅（Mothwing）"}
+      ],
+      "answer": 0,
+      "explain": {"en": "Brambleclaw, later Bramblestar, son of Tigerstar, became ThunderClan's leader.", "zh": "虎星之子荆棘爪（后称棘星 Bramblestar）成为了雷族族长。"}
+    }
+  ]
+}

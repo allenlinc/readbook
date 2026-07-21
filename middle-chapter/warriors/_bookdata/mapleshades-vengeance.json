@@ -1,0 +1,177 @@
+{
+  "slug": "mapleshades-vengeance",
+  "desc": "Betrayed by her Clan and robbed of her kits, the warrior Mapleshade swears a deadly vengeance.",
+  "descZh": "被族群背叛、失去幼崽的武士枫荫（Mapleshade）立下了致命的复仇誓言。",
+  "questions": [
+    {
+      "q": {
+        "en": "What Clan did Mapleshade belong to?",
+        "zh": "枫荫原本属于哪个族群？"
+      },
+      "options": [
+        {"en": "RiverClan", "zh": "河族（RiverClan）"},
+        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
+        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
+        {"en": "WindClan", "zh": "风族（WindClan）"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Mapleshade was a ThunderClan warrior who secretly loved a RiverClan tom.",
+        "zh": "枫荫是雷族的武士，私下里爱上了河族的一只公猫。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is the father of Mapleshade's kits?",
+        "zh": "枫荫孩子的父亲是谁？"
+      },
+      "options": [
+        {"en": "Oakstar", "zh": "橡星（Oakstar）"},
+        {"en": "Ravenwing", "zh": "鸦翅（Ravenwing）"},
+        {"en": "Appledusk, a RiverClan warrior", "zh": "苹果暮（Appledusk），一名河族武士"},
+        {"en": "Darkstar", "zh": "暗星（Darkstar）"}
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Her secret mate is Appledusk of RiverClan, making the kits half-Clan.",
+        "zh": "她秘密的伴侣是河族的苹果暮，因此孩子们有一半河族血统。"
+      }
+    },
+    {
+      "q": {
+        "en": "What are the names of Mapleshade's three kits?",
+        "zh": "枫荫的三只孩子叫什么名字？"
+      },
+      "options": [
+        {"en": "Hollykit, Lionkit, and Jaykit", "zh": "冬青崽、狮崽和松鸦崽"},
+        {"en": "Larchkit, Patchkit, and Petalkit", "zh": "落叶崽、补丁崽和花瓣崽"},
+        {"en": "Ivykit, Dovekit, and Foxkit", "zh": "常春藤崽、鸽崽和狐崽"},
+        {"en": "Birchkit, Flowerkit, and Reedkit", "zh": "白桦崽、花崽和芦苇崽"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "She names them Larchkit, Patchkit, and Petalkit, and loves them with all her heart.",
+        "zh": "她给孩子们取名落叶崽、补丁崽和花瓣崽，全心全意爱着他们。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which ThunderClan medicine cat discovers the kits are half-Clan and tells the leader?",
+        "zh": "是哪只雷族巫医发现孩子们有一半外族血统，并报告了族长？"
+      },
+      "options": [
+        {"en": "Ravenwing", "zh": "鸦翅（Ravenwing）"},
+        {"en": "Cinderpelt", "zh": "炭皮（Cinderpelt）"},
+        {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"},
+        {"en": "Mudfur", "zh": "泥毛（Mudfur）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Ravenwing sees an omen of three water reeds and realizes Appledusk, not Birchface, is the father.",
+        "zh": "鸦翅看到「三根芦苇」的征兆，明白父亲是苹果暮而非白桦面（Birchface）。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is the ThunderClan leader that exiles Mapleshade and her kits?",
+        "zh": "是哪一位雷族族长将枫荫和孩子们驱逐？"
+      },
+      "options": [
+        {"en": "Bluestar", "zh": "蓝星（Bluestar）"},
+        {"en": "Oakstar", "zh": "橡星（Oakstar）"},
+        {"en": "Firestar", "zh": "火星（Firestar）"},
+        {"en": "Pinestar", "zh": "松星（Pinestar）"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Oakstar, whose son Birchface was killed by Appledusk, banishes Mapleshade for breaking the code.",
+        "zh": "橡星的儿子白桦面死于苹果暮之手，于是他以破戒为由将枫荫逐出。"
+      }
+    },
+    {
+      "q": {
+        "en": "What happens to Mapleshade's kits as they try to cross the river to RiverClan?",
+        "zh": "枫荫带着孩子渡河去河族时，孩子们遭遇了什么？"
+      },
+      "options": [
+        {"en": "They reach RiverClan safely", "zh": "他们安全抵达河族"},
+        {"en": "They are swept away and drown in the flooded river", "zh": "他们被洪水冲走、淹死在河里"},
+        {"en": "They are taken by Twolegs", "zh": "他们被两脚兽抓走"},
+        {"en": "They are saved by Oakstar", "zh": "他们被橡星救起"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "In a storm, the swollen river sweeps the three kits away, and Mapleshade is left heartbroken.",
+        "zh": "暴风雨中河水暴涨，三只孩子被冲走，枫荫痛不欲生。"
+      }
+    },
+    {
+      "q": {
+        "en": "After losing her kits, which cat does Mapleshade kill FIRST?",
+        "zh": "失去孩子后，枫荫最先杀死了谁？"
+      },
+      "options": [
+        {"en": "Appledusk", "zh": "苹果暮（Appledusk）"},
+        {"en": "Ravenwing", "zh": "鸦翅（Ravenwing）"},
+        {"en": "Oakstar", "zh": "橡星（Oakstar）"},
+        {"en": "Frecklewish", "zh": "斑点愿（Frecklewish）"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "She kills Ravenwing at the Moonstone, one death for one lost kit, then seeks more revenge.",
+        "zh": "她在月石杀害鸦翅——以一命抵一命，随后继续复仇。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does Mapleshade cause Frecklewish's death?",
+        "zh": "枫荫是如何害死斑点愿（Frecklewish）的？"
+      },
+      "options": [
+        {"en": "By pushing her into the river", "zh": "把她推进河里"},
+        {"en": "By letting an adder bite her", "zh": "让一条蝰蛇咬了她"},
+        {"en": "By a fight at Snakerocks", "zh": "在蛇岩与她搏斗"},
+        {"en": "By poisoning her food", "zh": "在食物里下毒"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "At Snakerocks she uncovers a rock, letting an adder bite Frecklewish, who dies from the venom.",
+        "zh": "在蛇岩，她掀开石头放出蝰蛇咬伤斑点愿，后者毒发身亡。"
+      }
+    },
+    {
+      "q": {
+        "en": "While trying to attack Reedshine, which RiverClan cat does Mapleshade accidentally kill?",
+        "zh": "枫荫企图伤害芦苇光（Reedshine）时，阴差阳错杀死了哪只河族猫？"
+      },
+      "options": [
+        {"en": "Darkstar", "zh": "暗星（Darkstar）"},
+        {"en": "Perchpaw", "zh": "鲈鱼爪（Perchpaw）"},
+        {"en": "Appledusk", "zh": "苹果暮（Appledusk）"},
+        {"en": "Reedshine", "zh": "芦苇光（Reedshine）"}
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Appledusk leaps in front of Reedshine and is killed; Mapleshade's blow lands on him instead.",
+        "zh": "苹果暮跳到芦苇光身前，结果替她挨了枫荫那一击而丧命。"
+      }
+    },
+    {
+      "q": {
+        "en": "After Perchpaw wounds her, where does Mapleshade end up?",
+        "zh": "被鲈鱼爪（Perchpaw）重伤后，枫荫最终去了哪里？"
+      },
+      "options": [
+        {"en": "In StarClan as an honored warrior", "zh": "作为受敬重的武士进入星族"},
+        {"en": "In the Dark Forest, filled with vengeance", "zh": "怀着满腔仇恨进入黑森林（Dark Forest）"},
+        {"en": "As a kittypet", "zh": "变成宠物猫"},
+        {"en": "As RiverClan's medicine cat", "zh": "成为河族巫医"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Mapleshade dies of her wounds and wakes in the Place of No Stars, where her thirst for revenge lives on.",
+        "zh": "枫荫伤重而死，在无星之地（黑森林）醒来，复仇之心永不熄灭。"
+      }
+    }
+  ]
+}

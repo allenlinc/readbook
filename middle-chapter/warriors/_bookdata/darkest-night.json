@@ -1,0 +1,177 @@
+{
+  "slug": "darkest-night",
+  "desc": "With the Kin gone, a new darkness rises as the Dark Forest stirs — and SkyClan must find its place at the lake.",
+  "descZh": "亲族覆灭后，新的黑暗悄然升起——黑森林开始蠢蠢欲动，而天族必须在湖畔找到自己的位置。",
+  "questions": [
+    {
+      "q": {
+        "en": "After Darktail's defeat, a new danger rises: the return of the ___ .",
+        "zh": "暗尾被击败后，新的危险出现了：___的回归。"
+      },
+      "options": [
+        {"en": "Dark Forest", "zh": "黑森林（the Dark Forest）"},
+        {"en": "Kin", "zh": "亲族（the Kin）"},
+        {"en": "BloodClan", "zh": "血族（BloodClan）"},
+        {"en": "Twolegs", "zh": "两脚兽（the Twolegs）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The spirits of evil dead cats in the Dark Forest begin to grow strong again and threaten the living.",
+        "zh": "黑森林里那些邪恶死猫的魂魄再次壮大，威胁着活着的猫。"
+      }
+    },
+    {
+      "q": {
+        "en": "The Dark Forest is also known as the ___ .",
+        "zh": "黑森林又被称为___。"
+      },
+      "options": [
+        {"en": "Place of No Stars", "zh": "无星之地（the Place of No Stars）"},
+        {"en": "Place of Stars", "zh": "群星之地"},
+        {"en": "Silverpelt", "zh": "银毛（Silverpelt）"},
+        {"en": "the Moonpool", "zh": "月池（the Moonpool）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Cats call the Dark Forest the Place of No Stars, where wicked cats go after death.",
+        "zh": "猫们把黑森林叫作「无星之地」，邪恶的猫死后会去那里。"
+      }
+    },
+    {
+      "q": {
+        "en": "A cat named Tree, who can speak with the dead, joins which Clan?",
+        "zh": "一只叫树（Tree）、能与死者对话的猫，加入了哪一支族群？"
+      },
+      "options": [
+        {"en": "SkyClan", "zh": "天族（SkyClan）"},
+        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
+        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
+        {"en": "RiverClan", "zh": "河族（RiverClan）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Tree and his son Rootpaw come to live with SkyClan, and Tree's gift helps the Clans understand the dead.",
+        "zh": "树（Tree）和儿子根爪（Rootpaw）来到天族生活；树的特殊能力帮助各族理解亡者。"
+      }
+    },
+    {
+      "q": {
+        "en": "Tree's son, who also joins SkyClan, is named ___ .",
+        "zh": "树的儿子也加入了天族，他名叫___。"
+      },
+      "options": [
+        {"en": "Rootpaw", "zh": "根爪（Rootpaw）"},
+        {"en": "Hawkwing", "zh": "鹰翅（Hawkwing）"},
+        {"en": "Leafpool", "zh": "叶池（Leafpool）"},
+        {"en": "Bristlepaw", "zh": "刺爪（Bristlepaw）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Rootpaw is Tree's son and a SkyClan apprentice who shares his father's strange connection to spirits.",
+        "zh": "根爪（Rootpaw）是树的儿子，也是天族的学徒，和父亲一样能与魂魄产生奇妙的联系。"
+      }
+    },
+    {
+      "q": {
+        "en": "Violetpaw earns her warrior name, which is ___ .",
+        "zh": "小紫爪获得了武士名号，即___。"
+      },
+      "options": [
+        {"en": "Violetshine", "zh": "紫霜（Violetshine）"},
+        {"en": "Violetstorm", "zh": "紫暴（Violetstorm）"},
+        {"en": "Violetleaf", "zh": "紫叶（Violetleaf）"},
+        {"en": "Violettail", "zh": "紫尾（Violettail）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "After proving herself, Violetpaw becomes the warrior Violetshine of ShadowClan.",
+        "zh": "在证明自己之后，小紫爪成为影族的武士紫霜（Violetshine）。"
+      }
+    },
+    {
+      "q": {
+        "en": "Twigpaw earns her warrior name, which is ___ .",
+        "zh": "小枝爪获得了武士名号，即___。"
+      },
+      "options": [
+        {"en": "Twigbranch", "zh": "枝梢（Twigbranch）"},
+        {"en": "Twigleaf", "zh": "枝叶（Twigleaf）"},
+        {"en": "Twigpelt", "zh": "枝皮（Twigpelt）"},
+        {"en": "Twigfur", "zh": "枝毛（Twigfur）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Twigpaw is made a warrior of ThunderClan and takes the name Twigbranch.",
+        "zh": "小枝爪成为雷族的武士，取名枝梢（Twigbranch）。"
+      }
+    },
+    {
+      "q": {
+        "en": "SkyClan, the ___ Clan, must now find its place among the others at the lake.",
+        "zh": "天族作为第___支族群，如今必须在湖畔的其他族群中找到自己的位置。"
+      },
+      "options": [
+        {"en": "fifth", "zh": "五（fifth）"},
+        {"en": "fourth", "zh": "四（fourth）"},
+        {"en": "first", "zh": "一（first）"},
+        {"en": "sixth", "zh": "六（sixth）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "SkyClan is the fifth Clan; now that it has returned, it must be given land at the lake.",
+        "zh": "天族是第五支族群；它归来后，必须在湖畔分得属于自己的领地。"
+      }
+    },
+    {
+      "q": {
+        "en": "The Clans learn they must work together to stop the Dark Forest from harming ___ .",
+        "zh": "各族明白，必须团结一致，才能阻止黑森林伤害___。"
+      },
+      "options": [
+        {"en": "the living cats", "zh": "活着的猫（the living cats）"},
+        {"en": "the Twolegs", "zh": "两脚兽"},
+        {"en": "the prey", "zh": "猎物"},
+        {"en": "the fish", "zh": "鱼"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The Dark Forest threatens every living cat, so the Clans must stand united against it.",
+        "zh": "黑森林威胁着每一只活着的猫，因此各族必须团结起来对抗它。"
+      }
+    },
+    {
+      "q": {
+        "en": "Alderheart, ThunderClan's medicine cat, receives warnings from ___ .",
+        "zh": "雷族巫医赤杨心从___那里接收到警告。"
+      },
+      "options": [
+        {"en": "StarClan", "zh": "星族（StarClan）"},
+        {"en": "the Dark Forest", "zh": "黑森林（the Dark Forest）"},
+        {"en": "the Twolegs", "zh": "两脚兽（the Twolegs）"},
+        {"en": "the wind", "zh": "风"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Through dreams and signs, StarClan warns Alderheart about the growing darkness.",
+        "zh": "通过梦境与征兆，星族向赤杨心发出警告，提醒他黑暗正在蔓延。"
+      }
+    },
+    {
+      "q": {
+        "en": "The growing 'darkness' first appears as troubling ___ that the cats have.",
+        "zh": "不断蔓延的「黑暗」最初表现为猫们所做的令人不安的___。"
+      },
+      "options": [
+        {"en": "dreams", "zh": "梦境（dreams）"},
+        {"en": "storms", "zh": "风暴"},
+        {"en": "sickness", "zh": "疾病"},
+        {"en": "floods", "zh": "洪水"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Cats begin having frightening dreams, the first sign that the Dark Forest is stirring.",
+        "zh": "猫们开始做可怕的梦，这正是黑森林开始蠢蠢欲动的最初征兆。"
+      }
+    }
+  ]
+}

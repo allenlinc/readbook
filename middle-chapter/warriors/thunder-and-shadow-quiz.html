@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thunder and Shadow · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Thunder and Shadow</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">雷影交加</p>
+    <div class="mark">⚡</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">A charming rogue named Darktail arrives with his followers, the Kin, and seizes control of ShadowClan.<br><span style="color:#a06a1f">一只名叫暗尾（Darktail）的狡猾泼皮猫带着追随者「亲族（the Kin）」到来，夺取了影族的控制权。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: A Vision of Shadows — Thunder and Shadow</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "A charming but dangerous rogue named ___ arrives with a group of followers.", "zh": "一只狡猾又危险的泼皮猫___带着一群追随者出现了。"}, "options": [{"en": "Darktail", "zh": "暗尾（Darktail）"}, {"en": "Scourge", "zh": "长鞭（Scourge）"}, {"en": "Sol", "zh": "索尔（Sol）"}, {"en": "One Eye", "zh": "独眼（One Eye）"}], "answer": 0, "explain": {"en": "Darktail is a clever, smooth-talking rogue who tricks his way into ShadowClan.", "zh": "暗尾（Darktail）是一只聪明、能说会道的泼皮猫，用花言巧语混进了影族。"}}, {"q": {"en": "What does Darktail call his group of rogue followers?", "zh": "暗尾把自己的泼皮猫追随者称作什么？"}, "options": [{"en": "The Kin", "zh": "亲族（the Kin）"}, {"en": "BloodClan", "zh": "血族（BloodClan）"}, {"en": "The Rogues", "zh": "泼皮猫（the Rogues）"}, {"en": "The Exiles", "zh": "流放者（the Exiles）"}], "answer": 0, "explain": {"en": "Darktail names his followers 'the Kin' to make them sound like one big family.", "zh": "暗尾把追随者称为「亲族（the Kin）」，让人误以为他们是一家人。"}}, {"q": {"en": "Which Clan does Darktail trick and eventually take over?", "zh": "暗尾欺骗并最终控制了哪一支族群？"}, "options": [{"en": "ShadowClan", "zh": "影族（ShadowClan）"}, {"en": "ThunderClan", "zh": "雷族（ThunderClan）"}, {"en": "WindClan", "zh": "风族（WindClan）"}, {"en": "RiverClan", "zh": "河族（RiverClan）"}], "answer": 0, "explain": {"en": "Darktail targets ShadowClan, wins cats over, and then seizes the Clan for himself and the Kin.", "zh": "暗尾盯上影族，先笼络猫心，随后把整个族群据为己有，交给亲族掌控。"}}, {"q": {"en": "Who is the leader of ShadowClan when Darktail first arrives?", "zh": "暗尾刚到来时，影族的族长是谁？"}, "options": [{"en": "Rowanstar", "zh": "罗星（Rowanstar）"}, {"en": "Blackstar", "zh": "黑星（Blackstar）"}, {"en": "Onestar", "zh": "一星（Onestar）"}, {"en": "Harestar", "zh": "兔星（Harestar）"}], "answer": 0, "explain": {"en": "Rowanstar is the ShadowClan leader at the start of the book, before Darktail overthrows him.", "zh": "本书开头影族的族长是罗星（Rowanstar），后来被暗尾推翻。"}}, {"q": {"en": "A ShadowClan cat named ___ is at first drawn to Darktail's promises.", "zh": "一只名叫___的影族猫，最初被暗尾的承诺所吸引。"}, "options": [{"en": "Needletail", "zh": "针尾（Needletail）"}, {"en": "Puddleshine", "zh": "潭光（Puddleshine）"}, {"en": "Tawnypelt", "zh": "玳星（Tawnypelt）"}, {"en": "Sleekwhisker", "zh": "滑须（Sleekwhisker）"}], "answer": 0, "explain": {"en": "Needletail is tempted by Darktail's talk of freedom and power before she sees his true nature.", "zh": "针尾（Needletail）起初被暗尾描绘的自由与力量所诱惑，后来才看清他的真面目。"}}, {"q": {"en": "After Darktail takes control, the loyal ShadowClan cats led by Rowanstar become ___ .", "zh": "暗尾掌权后，由罗星带领的忠实影族猫变成了___。"}, "options": [{"en": "exiles", "zh": "流亡者（exiles）"}, {"en": "Kin members", "zh": "亲族成员"}, {"en": "prisoners", "zh": "囚犯"}, {"en": "Twolegs' pets", "zh": "两脚兽的宠物"}], "answer": 0, "explain": {"en": "The cats who refuse to follow Darktail are driven out and become homeless exiles.", "zh": "拒绝追随暗尾的猫被赶走，成了无家可归的流亡者。"}}, {"q": {"en": "Twigpaw worries about her sister, who is living in which Clan?", "zh": "小枝爪（Twigpaw）很担心她的妹妹，妹妹正生活在哪一支族群？"}, "options": [{"en": "ShadowClan", "zh": "影族（ShadowClan）"}, {"en": "ThunderClan", "zh": "雷族（ThunderClan）"}, {"en": "RiverClan", "zh": "河族（RiverClan）"}, {"en": "WindClan", "zh": "风族（WindClan）"}], "answer": 0, "explain": {"en": "Twigpaw's sister Violetpaw lives in ShadowClan, which is now controlled by Darktail and the Kin.", "zh": "小枝爪的妹妹小紫爪（Violetpaw）生活在影族，而此时的影族已被暗尾和亲族控制。"}}, {"q": {"en": "Violetpaw, living under Darktail's rule, slowly realizes his leadership is ___ .", "zh": "身处暗尾统治下的小紫爪，逐渐意识到他的统治是___。"}, "options": [{"en": "cruel and unfair", "zh": "残酷而不公（cruel and unfair）"}, {"en": "kind and gentle", "zh": "善良而温和"}, {"en": "wise and fair", "zh": "睿智而公正"}, {"en": "peaceful", "zh": "和平的"}], "answer": 0, "explain": {"en": "Violetpaw sees that Darktail harms cats who disagree with him and rules through fear.", "zh": "小紫爪看出暗尾会伤害与他意见不同的猫，靠恐惧来维持统治。"}}, {"q": {"en": "Darktail gains power mainly through ___ .", "zh": "暗尾主要靠___来获取权力。"}, "options": [{"en": "lies and charm", "zh": "谎言与魅力（lies and charm）"}, {"en": "StarClan's blessing", "zh": "星族的庇佑"}, {"en": "great size and strength", "zh": "巨大的体型和蛮力"}, {"en": "winning a fair battle", "zh": "赢下一场公平的战斗"}], "answer": 0, "explain": {"en": "Darktail uses sweet words and trickery, not honest strength, to take over ShadowClan.", "zh": "暗尾靠甜言蜜语和欺骗手段夺权，而非光明正大的实力。"}}, {"q": {"en": "The Kin force the ShadowClan cats out and claim the ___ as their own.", "zh": "亲族把影族猫赶走，把___据为己有。"}, "options": [{"en": "ShadowClan territory", "zh": "影族领地（ShadowClan territory）"}, {"en": "lake shore", "zh": "湖岸"}, {"en": "ThunderClan camp", "zh": "雷族营地"}, {"en": "the gorge", "zh": "峡谷"}], "answer": 0, "explain": {"en": "Once the loyal ShadowClan cats are gone, the Kin settle into ShadowClan's territory.", "zh": "忠实的影族猫一被赶走，亲族便占据了影族的领地。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

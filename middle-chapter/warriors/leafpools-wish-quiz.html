@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leafpool's Wish · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Leafpool's Wish</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">叶池的愿望</p>
+    <div class="mark">🌿</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">ThunderClan medicine cat Leafpool wishes she could be a warrior so she could be with the cat she loves.<br><span style="color:#a06a1f">雷族巫医叶池（Leafpool）许愿自己能成为武士，这样就能和她所爱的猫在一起。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Novellas — Leafpool's Wish</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What is Leafpool's role in ThunderClan?", "zh": "叶池在雷族担任什么职务？"}, "options": [{"en": "The Clan leader", "zh": "族长"}, {"en": "The medicine cat", "zh": "巫医"}, {"en": "A normal warrior", "zh": "一名普通武士"}, {"en": "The deputy", "zh": "副族长"}], "answer": 1, "explain": {"en": "Leafpool is ThunderClan's medicine cat, trained by Cinderpelt and devoted to serving StarClan.", "zh": "叶池是雷族的巫医，由炭皮（Cinderpelt）训练，一心侍奉星族。"}}, {"q": {"en": "With which WindClan warrior does Leafpool fall in love?", "zh": "叶池爱上了风族的哪位武士？"}, "options": [{"en": "Crowfeather", "zh": "鸦羽（Crowfeather）"}, {"en": "Breezepelt", "zh": "微风皮（Breezepelt）"}, {"en": "Onestar", "zh": "一星（Onestar）"}, {"en": "Heathclaw", "zh": "石楠爪（Heathclaw）"}], "answer": 0, "explain": {"en": "Leafpool and Crowfeather of WindClan fall in love, breaking the warrior code against cross-Clan love.", "zh": "叶池与风族的鸦羽相恋，违背了禁止跨族相恋的武士守则。"}}, {"q": {"en": "Where did Leafpool and Crowfeather meet and grow close?", "zh": "叶池和鸦羽是在哪里相识并亲近起来的？"}, "options": [{"en": "On the journey to meet Midnight the badger", "zh": "在前往会见獾午夜（Midnight）的旅途中"}, {"en": "At a Gathering by the lake", "zh": "在湖畔的族聚上"}, {"en": "Inside the ThunderClan camp", "zh": "在雷族营地内"}, {"en": "In the tunnels", "zh": "在地道里"}], "answer": 0, "explain": {"en": "The two traveled together on the Great Journey to find Midnight, and their bond grew there.", "zh": "两只猫一同踏上寻找午夜的大旅程，感情在那里逐渐深厚。"}}, {"q": {"en": "What does Leafpool wish she could be, so she could be with Crowfeather?", "zh": "叶池许愿自己能成为什么，这样就能和鸦羽在一起？"}, "options": [{"en": "A medicine cat forever", "zh": "永远做巫医"}, {"en": "A normal warrior instead of a medicine cat", "zh": "一名普通武士，而非巫医"}, {"en": "A Clan leader", "zh": "一名族长"}, {"en": "A kittypet", "zh": "一只宠物猫"}], "answer": 1, "explain": {"en": "She loves Crowfeather but is bound by her medicine-cat vows, so she wishes she were free to be a warrior.", "zh": "她爱鸦羽，却被巫医的誓言束缚，于是渴望能自由地做个武士。"}}, {"q": {"en": "How many kits does Leafpool have with Crowfeather?", "zh": "叶池和鸦羽一共有几只幼崽？"}, "options": [{"en": "Two", "zh": "两只"}, {"en": "Three: Hollykit, Lionkit, and Jaykit", "zh": "三只：冬青崽、狮崽和松鸦崽"}, {"en": "Four", "zh": "四只"}, {"en": "One", "zh": "一只"}], "answer": 1, "explain": {"en": "Their three kits are Hollykit, Lionkit, and Jaykit—later known as Hollyleaf, Lionblaze, and Jayfeather.", "zh": "他们的三只孩子是冬青崽、狮崽和松鸦崽——即后来的冬青叶、狮焰与松鸦羽。"}}, {"q": {"en": "Who agrees to raise Leafpool's kits as her own?", "zh": "谁同意把叶池的孩子当作自己的孩子抚养？"}, "options": [{"en": "Squirrelflight", "zh": "松鼠飞（Squirrelflight）"}, {"en": "Sandstorm", "zh": "沙暴（Sandstorm）"}, {"en": "Cinderpelt", "zh": "炭皮（Cinderpelt）"}, {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"}], "answer": 0, "explain": {"en": "Squirrelflight agrees to raise the kits with Brambleclaw so the secret of their true parents stays hidden.", "zh": "松鼠飞同意和黑莓掌一起抚养这些孩子，以隐瞒他们真正的身世。"}}, {"q": {"en": "Where does Leafpool give birth to her kits?", "zh": "叶池是在哪里生下孩子的？"}, "options": [{"en": "In the ThunderClan nursery", "zh": "在雷族的育婴室"}, {"en": "In a hollow tree far from the Clans", "zh": "在远离族群的一棵空心树里"}, {"en": "At the Moonpool", "zh": "在月池"}, {"en": "In RiverClan", "zh": "在河族"}], "answer": 1, "explain": {"en": "To keep the birth secret, Leafpool and Squirrelflight hide in a hollow tree away from the Clans.", "zh": "为了保密，叶池和松鼠飞躲到族群外的一棵空心树里生产。"}}, {"q": {"en": "What is unusual about the kit Jaykit?", "zh": "松鸦崽（Jaykit）有什么特别之处？"}, "options": [{"en": "He is the biggest of the litter", "zh": "他是同窝里最大的"}, {"en": "He is blind", "zh": "他是失明（看不见）的"}, {"en": "He cannot hear", "zh": "他听不见"}, {"en": "He has no tail", "zh": "他没有尾巴"}], "answer": 1, "explain": {"en": "Leafpool notices Jaykit's blue eyes never focus; he is blind, and later becomes the medicine cat Jayfeather.", "zh": "叶池发现松鸦崽的蓝眼睛从不聚焦——他失明了，后来成为巫医松鸦羽。"}}, {"q": {"en": "Which cat's spirit helps Leafpool during the birth of her kits?", "zh": "在叶池生产时，哪只猫的魂魄前来相助？"}, "options": [{"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"}, {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"}, {"en": "Bluestar", "zh": "蓝星（Bluestar）"}, {"en": "Cinderpelt", "zh": "炭皮（Cinderpelt）"}], "answer": 1, "explain": {"en": "The spirit of Yellowfang, a former medicine cat, helps deliver the stubborn second kit.", "zh": "前任巫医黄牙的魂魄帮忙接生了那只迟迟生不出来的第二个孩子。"}}, {"q": {"en": "After giving the kits to Squirrelflight, what does Leafpool do?", "zh": "把孩子交给松鼠飞后，叶池做了什么？"}, "options": [{"en": "She leaves the forest forever", "zh": "她永远离开了森林"}, {"en": "She returns to ThunderClan as the medicine cat and vows to love her kits always", "zh": "她以巫医身份回到雷族，并发誓永远爱自己的孩子"}, {"en": "She becomes a warrior", "zh": "她转当武士"}, {"en": "She joins WindClan", "zh": "她加入了风族"}], "answer": 1, "explain": {"en": "Leafpool eats parsley to dry up her milk and goes back to her duties, promising to love Hollyleaf, Lionblaze, and Jayfeather forever.", "zh": "叶池吃下欧芹退奶，回去履行职责，并发誓永远爱冬青叶、狮焰和松鸦羽。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

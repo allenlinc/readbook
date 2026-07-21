@@ -1,0 +1,117 @@
+{
+  "slug": "code-of-the-clans",
+  "desc": "An official guide that explains each rule of the Warrior Code with stories from Clan history.",
+  "descZh": "一本官方指南，通过族群历史上的故事逐条讲解武士守则。",
+  "questions": [
+    {
+      "q": {"en": "According to the Warrior Code, how old must a kit be before becoming an apprentice?", "zh": "根据武士守则，幼猫必须满多大才能成为学徒？"},
+      "options": [
+        {"en": "Six moons", "zh": "六个月（six moons）"},
+        {"en": "Three moons", "zh": "三个月"},
+        {"en": "Twelve moons", "zh": "十二个月"},
+        {"en": "One moon", "zh": "一个月"}
+      ],
+      "answer": 0,
+      "explain": {"en": "The code states a kit must be at least six moons old to begin training as an apprentice.", "zh": "守则规定，幼猫必须至少满六个月才能开始作为学徒受训。"}
+    },
+    {
+      "q": {"en": "The Warrior Code says that before warriors and apprentices eat, who must be fed first?", "zh": "武士守则规定，在武士和学徒进食前，必须先让谁吃饱？"},
+      "options": [
+        {"en": "Elders, queens, and kits", "zh": "长老、母猫和幼猫"},
+        {"en": "Only the Clan leader", "zh": "只有族长"},
+        {"en": "The strongest warriors", "zh": "最强壮的武士"},
+        {"en": "Only the medicine cats", "zh": "只有巫医"}
+      ],
+      "answer": 0,
+      "explain": {"en": "The code honors the young and old by feeding elders, queens, and kits before others.", "zh": "守则通过先让长老、母猫和幼猫进食，来敬重族群中的老幼。"}
+    },
+    {
+      "q": {"en": "According to the code, a newly chosen Clan leader receives how many lives from StarClan?", "zh": "根据守则，新任族群族长会从星族获得多少条命？"},
+      "options": [
+        {"en": "Three lives", "zh": "三条命"},
+        {"en": "Nine lives", "zh": "九条命"},
+        {"en": "One life", "zh": "一条命"},
+        {"en": "Seven lives", "zh": "七条命"}
+      ],
+      "answer": 1,
+      "explain": {"en": "StarClan grants a leader nine lives during the ceremony beneath the night sky.", "zh": "在夜空下的仪式中，星族会赐予族长九条命。"}
+    },
+    {
+      "q": {"en": "The Warrior Code states: 'The word of the Clan leader is ____.'", "zh": "武士守则写道：「族长之言即是____。」"},
+      "options": [
+        {"en": "the warrior code", "zh": "武士守则"},
+        {"en": "only a suggestion", "zh": "只是一条建议"},
+        {"en": "always wrong", "zh": "永远都是错的"},
+        {"en": "the deputy's choice", "zh": "副族长的选择"}
+      ],
+      "answer": 0,
+      "explain": {"en": "A leader's word is law, equal to the warrior code itself.", "zh": "族长之言即是律法，与武士守则本身同等重要。"}
+    },
+    {
+      "q": {"en": "The code says a warrior must never neglect a kit in pain or danger, even if the kit belongs to ____.", "zh": "守则规定，武士绝不可漠视受伤或遇险的幼猫，即使这只幼猫属于____。"},
+      "options": [
+        {"en": "another Clan", "zh": "另一个族群"},
+        {"en": "their own Clan only", "zh": "只属于自己的族群"},
+        {"en": "the kittypets", "zh": "宠物猫"},
+        {"en": "no one at all", "zh": "任何族群都不行"}
+      ],
+      "answer": 0,
+      "explain": {"en": "The code teaches compassion: every kit, even from a rival Clan, must be helped.", "zh": "守则教导同情之心：每一只幼猫，即便来自敌对族群，也必须得到帮助。"}
+    },
+    {
+      "q": {"en": "Before a warrior can be made deputy, what must they have done?", "zh": "在一名武士被任命为副族长之前，他必须先做到什么？"},
+      "options": [
+        {"en": "Mentored at least one apprentice", "zh": "至少指导过一名学徒"},
+        {"en": "Won a battle", "zh": "赢下一场战斗"},
+        {"en": "Caught the most prey", "zh": "捕到最多的猎物"},
+        {"en": "Been a medicine cat", "zh": "当过巫医"}
+      ],
+      "answer": 0,
+      "explain": {"en": "The code requires a deputy to have trained at least one apprentice first.", "zh": "守则要求副族长必须先至少指导过一名学徒。"}
+    },
+    {
+      "q": {"en": "Gatherings of all the Clans are held at the full moon under what condition?", "zh": "所有族群的集会（Gathering）在满月时举行，前提条件是什么？"},
+      "options": [
+        {"en": "During a truce when fighting is forbidden", "zh": "处于休战期，禁止争斗"},
+        {"en": "Only in leaf-bare", "zh": "只在落叶季（冬天）"},
+        {"en": "When just two Clans agree", "zh": "只要两个族群同意"},
+        {"en": "At the new moon", "zh": "在新月时"}
+      ],
+      "answer": 0,
+      "explain": {"en": "A sacred truce protects all cats at the full-moon Gathering so they may meet in peace.", "zh": "神圣的休战保护着满月集会上的所有猫，使它们能和平相会。"}
+    },
+    {
+      "q": {"en": "The Warrior Code forbids a warrior from hunting or trespassing on another Clan's ____.", "zh": "武士守则禁止武士在另一个族群的____上捕猎或擅闯。"},
+      "options": [
+        {"en": "territory", "zh": "领地（territory）"},
+        {"en": "river", "zh": "河流"},
+        {"en": "camp", "zh": "营地"},
+        {"en": "moon", "zh": "月亮"}
+      ],
+      "answer": 0,
+      "explain": {"en": "The code says: 'Do not hunt or trespass on another Clan's territory.'", "zh": "守则写道：「不可在另一个族群的领地上捕猎或擅闯。」"}
+    },
+    {
+      "q": {"en": "The Warrior Code teaches that a warrior rejects the soft life of a ____.", "zh": "武士守则教导，武士应当摒弃____那种柔软安逸的生活。"},
+      "options": [
+        {"en": "kittypet", "zh": "宠物猫（kittypet）"},
+        {"en": "loner", "zh": "独行猫（loner）"},
+        {"en": "elder", "zh": "长老（elder）"},
+        {"en": "leader", "zh": "族长（leader）"}
+      ],
+      "answer": 0,
+      "explain": {"en": "A warrior rejects the soft, comfortable life of a kittypet who lives with Twolegs.", "zh": "武士摒弃与两脚兽同住、安逸舒适的宠物猫生活。"}
+    },
+    {
+      "q": {"en": "When the Clan leader dies or retires, who becomes the new leader?", "zh": "当族长死亡或退位时，谁会成为新的族长？"},
+      "options": [
+        {"en": "The deputy", "zh": "副族长（the deputy）"},
+        {"en": "The oldest warrior", "zh": "最年长的武士"},
+        {"en": "The medicine cat", "zh": "巫医"},
+        {"en": "A kit chosen by StarClan", "zh": "由星族挑选的幼猫"}
+      ],
+      "answer": 0,
+      "explain": {"en": "The code states the deputy becomes the new leader when the old leader dies or retires.", "zh": "守则规定，当旧族长死亡或退位时，副族长即成为新族长。"}
+    }
+  ]
+}

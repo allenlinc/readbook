@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dawn · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Dawn</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">黎明曙光</p>
+    <div class="mark">🌅</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">The Clans leave the ruined forest for the lake, but a WindClan rebellion and Graystripe's capture test them on the way.<br><span style="color:#a06a1f">猫族离开被毁的森林前往湖区，但风族叛乱与灰条被抓，让旅途倍加艰险。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: The New Prophecy — Dawn</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What happens to Graystripe, the ThunderClan deputy, near the end of the journey?", "zh": "在旅程接近尾声时，雷族副族长灰条遭遇了什么？"}, "options": [{"en": "He is chosen as the new leader", "zh": "他被选为新族长"}, {"en": "He defeats a badger in battle", "zh": "他在战斗里打败了一只獾"}, {"en": "He is captured by Twolegs (humans) in a trap", "zh": "他被两脚兽（人类）用陷阱抓走"}, {"en": "He decides to stay with the Tribe", "zh": "他决定留在部落"}], "answer": 2, "explain": {"en": "Twolegs trap Graystripe and carry him away in a monster, leaving his fate unknown for a long time.", "zh": "两脚兽用陷阱抓走灰条，用怪兽（车）把他带走，他的下落很长时间成谜。"}}, {"q": {"en": "Who leads the WindClan rebellion against the newly named leader Onewhisker?", "zh": "谁带领风族发动叛乱，反对新任族长一根须？"}, "options": [{"en": "Onestar", "zh": "一星（Onestar）"}, {"en": "Mudclaw", "zh": "泥掌（Mudclaw）"}, {"en": "Crowfeather", "zh": "乌掌（Crowfeather）"}, {"en": "Blackstar", "zh": "黑星（Blackstar）"}], "answer": 0, "explain": {"en": "Mudclaw, the WindClan deputy, refuses to accept Onewhisker as leader and rises against him.", "zh": "风族副族长泥掌拒绝承认一根须为族长，起兵反叛。"}}, {"q": {"en": "Who becomes the leader of WindClan after the rebellion is put down?", "zh": "叛乱平定后，谁成为了风族的族长？"}, "options": [{"en": "Mudclaw", "zh": "泥掌（Mudclaw）"}, {"en": "Tallstar", "zh": "高星（Tallstar）"}, {"en": "Onestar (formerly Onewhisker)", "zh": "一星（原一根须 Onestar）"}, {"en": "Ashfoot", "zh": "灰脚（Ashfoot）"}], "answer": 3, "explain": {"en": "Onewhisker, renamed Onestar, leads WindClan to the lake as its rightful leader.", "zh": "一根须改名一星，作为名正言顺的族长带领风族来到湖边。"}}, {"q": {"en": "How is the rebel Mudclaw defeated?", "zh": "叛将泥掌是怎样被打败的？"}, "options": [{"en": "He is driven into the river", "zh": "他被赶进了河里"}, {"en": "He is killed by a falling tree during the fight", "zh": "他在战斗中被一棵倒下的树压死"}, {"en": "He runs away and is never seen", "zh": "他逃跑后再也没出现"}, {"en": "He is exiled by Firestar", "zh": "他被火星流放"}], "answer": 1, "explain": {"en": "A tree crashes down on Mudclaw in the middle of the battle, which the cats see as the will of their ancestors.", "zh": "战斗中一棵树轰然倒下压在泥掌身上，猫们认为这是祖先的意志。"}}, {"q": {"en": "Where do the four Clans finally settle after leaving the forest?", "zh": "离开森林后，四大猫族最终在哪里安家？"}, "options": [{"en": "On a cold moor far away", "zh": "在远方寒冷的高原"}, {"en": "Back inside the old forest", "zh": "回到旧森林里"}, {"en": "By the lake Midnight described", "zh": "在午夜所说的湖泊边"}, {"en": "On the ocean shore", "zh": "在海滨"}], "answer": 0, "explain": {"en": "They follow Midnight's directions and make their new homes around the shores of a large lake.", "zh": "它们循着午夜的指引，在偌大湖泊的岸边建立了新家园。"}}, {"q": {"en": "Which RiverClan cat secretly supports Mudclaw's rebellion?", "zh": "哪只河族猫暗中支持泥掌的叛乱？"}, "options": [{"en": "Leopardstar", "zh": "豹星（Leopardstar）"}, {"en": "Hawkfrost", "zh": "鹰霜（Hawkfrost）"}, {"en": "Stormfur", "zh": "暴毛（Stormfur）"}, {"en": "Feathertail", "zh": "羽尾（Feathertail）"}], "answer": 2, "explain": {"en": "Hawkfrost, son of Tigerstar, backs Mudclaw hoping to gain power for himself.", "zh": "虎星之子鹰霜支持泥掌，想借机为自己攫取权力。"}}, {"q": {"en": "Which WindClan apprentice earns his warrior name Crowfeather during the journey?", "zh": "哪只风族学徒在旅途中获得了武士名「乌掌」？"}, "options": [{"en": "Brambleclaw", "zh": "荆棘爪（Brambleclaw）"}, {"en": "Crowpaw", "zh": "乌爪（Crowpaw）"}, {"en": "Tawnypelt", "zh": "豹斑（Tawnypelt）"}, {"en": "Mudclaw", "zh": "泥掌（Mudclaw）"}], "answer": 1, "explain": {"en": "Crowpaw proves his courage on the long journey and is named the warrior Crowfeather.", "zh": "乌爪在漫长旅途中证明了自己的勇气，获授武士名乌掌。"}}, {"q": {"en": "What has become of the forest the Clans left behind?", "zh": "猫族离开后的那片森林变成了什么样子？"}, "options": [{"en": "It grows greener than before", "zh": "它变得比以前更绿"}, {"en": "It is destroyed by the Twolegs", "zh": "它被两脚兽毁掉了"}, {"en": "It is flooded by rain", "zh": "它被雨水淹没"}, {"en": "It is taken over by foxes", "zh": "它被狐狸占据"}], "answer": 1, "explain": {"en": "The Twolegs cut down the trees and tear up the forest, just as Midnight warned.", "zh": "正如午夜所警告，两脚兽砍光树木、彻底毁掉了那片森林。"}}, {"q": {"en": "Which ThunderClan cat returns from the journey and renews her bond with Brambleclaw?", "zh": "哪只雷族猫从旅程归来，并与荆棘爪重修旧好？"}, "options": [{"en": "Leafpool", "zh": "叶池（Leafpool）"}, {"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"}, {"en": "Sorreltail", "zh": "莎草尾（Sorreltail）"}, {"en": "Squirrelflight", "zh": "松鼠飞（Squirrelflight）"}], "answer": 3, "explain": {"en": "Squirrelflight comes home from the quest and her friendship with Brambleclaw grows warm again.", "zh": "松鼠飞从旅程归来，与荆棘爪的友谊重新升温。"}}, {"q": {"en": "What feeling begins to grow between Leafpool and the WindClan cat Crowfeather?", "zh": "叶池和风族的乌掌之间，开始萌生的是怎样的情感？"}, "options": [{"en": "A friendly rivalry", "zh": "友好的竞争"}, {"en": "A shared fear of Twolegs", "zh": "对两脚兽共同的恐惧"}, {"en": "A forbidden love", "zh": "一段不被允许的禁恋"}, {"en": "A dislike of each other", "zh": "彼此的厌恶"}], "answer": 2, "explain": {"en": "The ThunderClan medicine cat and the WindClan warrior fall in love, though their Clans forbid it.", "zh": "雷族巫医与风族武士相爱了，尽管两族严禁这种跨族之情。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

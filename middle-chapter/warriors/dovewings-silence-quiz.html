@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dovewing's Silence · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Dovewing's Silence</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">鸽翅的沉默</p>
+    <div class="mark">🔇</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">After the Great Battle, Dovewing has lost her powers and must find out who she is without them.<br><span style="color:#a06a1f">大战之后，鸽翅（Dovewing）失去了特殊力量，必须重新认识没有力量的自己。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Novellas — Dovewing's Silence</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "When does Dovewing's Silence take place?", "zh": "《鸽翅的沉默》（Dovewing's Silence）发生在什么时候？"}, "options": [{"en": "Before the Dark Forest battle", "zh": "黑森林之战前"}, {"en": "Right after the Great Battle (The Last Hope)", "zh": "大战（《最终希望》）刚刚结束之后"}, {"en": "During the Great Journey", "zh": "大旅程期间"}, {"en": "When she is still a kit", "zh": "她还是幼崽的时候"}], "answer": 1, "explain": {"en": "The novella is the epilogue of the Omen of the Stars arc, set in the immediate aftermath of The Last Hope.", "zh": "这部外传是「星预兆」系列的尾声，紧接《最终希望》之后。"}}, {"q": {"en": "What has Dovewing lost after the Great Battle?", "zh": "大战之后，鸽翅失去了什么？"}, "options": [{"en": "Her tail", "zh": "她的尾巴"}, {"en": "Her special powers of hearing and seeing far away", "zh": "她能远距离听和看的特殊力量"}, {"en": "Her sister", "zh": "她的姐妹"}, {"en": "Her home", "zh": "她的家园"}], "answer": 1, "explain": {"en": "The prophecy is fulfilled, and Dovewing's gift of distant senses is gone.", "zh": "预言已经实现，鸽翅远距离感知的天赋消失了。"}}, {"q": {"en": "How does losing her powers make Dovewing feel?", "zh": "失去力量让鸽翅有什么感受？"}, "options": [{"en": "Proud and strong", "zh": "骄傲又强大"}, {"en": "Lost and unsure of who she is", "zh": "迷失，不知自己是谁"}, {"en": "Happy to be free", "zh": "为获得自由而高兴"}, {"en": "Angry at StarClan", "zh": "对星族感到愤怒"}], "answer": 1, "explain": {"en": "Without her gift, Dovewing feels ordinary and silent, and worries she has no special place in the Clan.", "zh": "没有了天赋，鸽翅觉得自己平凡又「沉默」，担心自己在族群中不再特别。"}}, {"q": {"en": "Which sister of Dovewing worries about her and tries to help?", "zh": "鸽翅的哪位姐妹为她担忧并试图帮助她？"}, "options": [{"en": "Ivypool", "zh": "常春藤池（Ivypool）"}, {"en": "Squirrelflight", "zh": "松鼠飞（Squirrelflight）"}, {"en": "Leafpool", "zh": "叶池（Leafpool）"}, {"en": "Whitewing", "zh": "白翼（Whitewing）"}], "answer": 0, "explain": {"en": "Ivypool, Dovewing's littermate, stays close and tries to comfort her sister through her silence.", "zh": "鸽翅的同窝姐妹常春藤池守在身边，试图安慰沉默中的妹妹。"}}, {"q": {"en": "Which cat died saving Ivypool during the Great Battle?", "zh": "在大战中，是哪只猫为救常春藤池而牺牲？"}, "options": [{"en": "Hollyleaf", "zh": "冬青叶（Hollyleaf）"}, {"en": "Dovewing", "zh": "鸽翅（Dovewing）"}, {"en": "Briarlight", "zh": "荆棘光（Briarlight）"}, {"en": "Ferncloud", "zh": "蕨云（Ferncloud）"}], "answer": 0, "explain": {"en": "Hollyleaf gives her life to save Ivypool in the battle, and Dovewing reminds her sister of that sacrifice.", "zh": "冬青叶在战斗中为救常春藤池献出生命，鸽翅提醒姐妹别忘了这份牺牲。"}}, {"q": {"en": "Which ShadowClan tom does Dovewing care for?", "zh": "鸽翅在意的是影族的哪只公猫？"}, "options": [{"en": "Tigerheart", "zh": "虎心（Tigerheart）"}, {"en": "Blackstar", "zh": "黑星（Blackstar）"}, {"en": "Rowanclaw", "zh": "花楸爪（Rowanclaw）"}, {"en": "Flametail", "zh": "焰尾（Flametail）"}], "answer": 0, "explain": {"en": "Dovewing's feelings for Tigerheart, a ShadowClan warrior, remain important to her even in her silence.", "zh": "鸽翅对影族武士虎心的感情，即使在沉默中也依然重要。"}}, {"q": {"en": "Who tells Dovewing that her powers are no longer needed?", "zh": "是谁告诉鸽翅，她的力量已不再被需要？"}, "options": [{"en": "Midnight the badger and the cat Rock", "zh": "獾午夜（Midnight）和猫洛克（Rock）"}, {"en": "Firestar", "zh": "火星（Firestar）"}, {"en": "Bluestar", "zh": "蓝星（Bluestar）"}, {"en": "Jayfeather", "zh": "松鸦羽（Jayfeather）"}], "answer": 0, "explain": {"en": "Midnight and Rock explain to Dovewing, Lionblaze, and Jayfeather that the Three's powers have served their purpose.", "zh": "午夜和洛克向鸽翅、狮焰、松鸦羽解释说，「三力量」的使命已经完成。"}}, {"q": {"en": "What divides ThunderClan after the battle, upsetting Dovewing?", "zh": "战后雷族内部因什么产生分裂，让鸽翅心烦？"}, "options": [{"en": "A fight over who gets the best prey", "zh": "争抢最好的猎物"}, {"en": "Clanmates distrust the cats who trained with the Dark Forest", "zh": "族员不信任那些曾受训于黑森林的猫"}, {"en": "A flood in the camp", "zh": "营地发大水"}, {"en": "A change of leader", "zh": "换了族长"}], "answer": 1, "explain": {"en": "Many cats distrust former Dark Forest trainees like Ivypool, and Dovewing hates the unfair divide.", "zh": "许多猫不信任像常春藤池这样曾受训于黑森林的猫，鸽翅厌恶这种不公的裂痕。"}}, {"q": {"en": "What does Dovewing slowly learn to accept?", "zh": "鸽翅渐渐学会了接受什么？"}, "options": [{"en": "That she must leave the Clans", "zh": "她必须离开族群"}, {"en": "That she can be a valued warrior without her powers", "zh": "即使没有力量，她也能成为有价值的武士"}, {"en": "That she will never be a warrior", "zh": "她永远当不成武士"}, {"en": "That she must become a medicine cat", "zh": "她必须成为巫医"}], "answer": 1, "explain": {"en": "Dovewing realizes her worth is not her gift, and she can serve her Clan as an ordinary warrior.", "zh": "鸽翅意识到自身价值不在天赋，作为普通武士也能为族群效力。"}}, {"q": {"en": "By the end of the story, how does Dovewing feel about Tigerheart?", "zh": "故事结尾时，鸽翅对虎心是什么态度？"}, "options": [{"en": "She forgets about him", "zh": "她把他忘了"}, {"en": "She makes peace with him and her feelings for him remain", "zh": "她与他和解，对他的感情依旧"}, {"en": "She becomes his enemy", "zh": "她成了他的敌人"}, {"en": "She joins RiverClan with him", "zh": "她随他去河族"}], "answer": 1, "explain": {"en": "Dovewing understands that her love for Tigerheart can survive any challenge, and they make amends.", "zh": "鸽翅明白自己对虎心的爱能经受任何考验，两人和解如初。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

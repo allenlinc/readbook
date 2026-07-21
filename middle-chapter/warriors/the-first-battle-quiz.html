@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The First Battle · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The First Battle</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">第一场战斗</p>
+    <div class="mark">⚔️</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">The third book, where a ruthless rogue named One Eye forces the cat groups to fight together for the first time.<br><span style="color:#a06a1f">系列第三部，凶残的泼皮猫「独眼」迫使各猫群第一次并肩作战。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Dawn of the Clans — The First Battle</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who is the main enemy that threatens all the cat groups?", "zh": "在《第一场战斗》中，威胁所有猫群的主要敌人是谁？"}, "options": [{"en": "River Ripple", "zh": "河波（River Ripple）"}, {"en": "One Eye", "zh": "独眼（One Eye）"}, {"en": "Gray Wing", "zh": "灰翅（Gray Wing）"}, {"en": "Shaded Moss", "zh": "荫苔（Shaded Moss）"}], "answer": 1, "explain": {"en": "One Eye is a cruel rogue tom who attacks the cats with a group of followers, spreading fear.", "zh": "独眼（One Eye）是一只残忍的泼皮公猫，带着一群追随者袭击猫群，散布恐惧。"}}, {"q": {"en": "How do the founders respond when One Eye attacks them?", "zh": "当独眼发动攻击时，各位创始猫是如何应对的？"}, "options": [{"en": "They hide in the mountains", "zh": "它们躲进山地"}, {"en": "They unite and fight together", "zh": "它们联合起来并肩作战"}, {"en": "They become kittypets", "zh": "它们成了宠物猫"}, {"en": "They flee the forest", "zh": "它们逃离森林"}], "answer": 1, "explain": {"en": "Clear Sky, Gray Wing, Tall Shadow, Wind Runner, and River Ripple realize they must join forces against the rogues.", "zh": "晴天、灰翅、高影、风奔和河波意识到必须联手对抗泼皮猫。"}}, {"q": {"en": "What is the great fight against One Eye and his rogues called?", "zh": "对抗独眼及其泼皮猫的那场大战被称为什么？"}, "options": [{"en": "The Blazing Star", "zh": "炽烈之星"}, {"en": "The First Battle", "zh": "第一场战斗"}, {"en": "The Sun Trail", "zh": "太阳踪迹"}, {"en": "The Great Flood", "zh": "大洪水"}], "answer": 1, "explain": {"en": "This book's great conflict is known as the First Battle, the first time the cat groups fight as one.", "zh": "本书的大冲突被称为「第一场战斗」，是猫群各群体第一次作为一个整体作战。"}}, {"q": {"en": "Who is the first medicine cat who receives messages from the spirits?", "zh": "谁是第一位能与祖灵沟通、接收信息的巫医？"}, "options": [{"en": "Half Moon", "zh": "半月（Half Moon）"}, {"en": "Turtle Tail", "zh": "龟尾（Turtle Tail）"}, {"en": "Storm", "zh": "风暴（Storm）"}, {"en": "Star Flower", "zh": "星花（Star Flower）"}], "answer": 0, "explain": {"en": "Half Moon is the first medicine cat; she hears the spirits of the dead in the sky and guides the living.", "zh": "半月（Half Moon）是第一位巫医，她能听见天空中逝去祖灵的声音，并指引生者。"}}, {"q": {"en": "What role does Half Moon play during the crisis with One Eye?", "zh": "在与独眼危机期间，半月扮演了什么角色？"}, "options": [{"en": "She leads the battle charge", "zh": "她带头冲锋"}, {"en": "She guides the cats with spirit prophecies", "zh": "她用祖灵的预言指引猫群"}, {"en": "She becomes a kittypet", "zh": "她成了宠物猫"}, {"en": "She leaves the forest", "zh": "她离开了森林"}], "answer": 1, "explain": {"en": "Half Moon receives prophecies from the spirits that help the cats understand what they must do.", "zh": "半月从祖灵那里接收到预言，帮助猫群明白该怎么做。"}}, {"q": {"en": "What is the result of the First Battle against One Eye?", "zh": "对抗独眼的第一场战斗结果如何？"}, "options": [{"en": "One Eye is defeated", "zh": "独眼被击败"}, {"en": "The cats all become rogues", "zh": "猫群全都成了泼皮猫"}, {"en": "The mountains are destroyed", "zh": "山地被毁"}, {"en": "The river dries up", "zh": "河流干涸"}], "answer": 0, "explain": {"en": "The united cats defeat One Eye and his rogues, ending the threat to their new home.", "zh": "团结一致的猫群击败了独眼及其泼皮猫，消除了对新家园的威胁。"}}, {"q": {"en": "Which cat is revealed to be connected to the rogue One Eye?", "zh": "哪只猫被揭示与泼皮猫独眼有牵连？"}, "options": [{"en": "Star Flower", "zh": "星花（Star Flower）"}, {"en": "Gray Wing", "zh": "灰翅（Gray Wing）"}, {"en": "River Ripple", "zh": "河波（River Ripple）"}, {"en": "Jagged Peak", "zh": "锯齿峰（Jagged Peak）"}], "answer": 0, "explain": {"en": "Star Flower, Clear Sky's mate, is revealed to be One Eye's daughter, though she later proves her loyalty.", "zh": "晴天的伴侣星花被揭示是独眼的女儿，不过她后来证明了自己的忠诚。"}}, {"q": {"en": "What big decision do the cats make after defeating One Eye?", "zh": "击败独眼后，猫群做出了什么重大决定？"}, "options": [{"en": "To return to the mountains", "zh": "返回山地"}, {"en": "To form organized groups called Clans", "zh": "组建称为「族群」的有组织群体"}, {"en": "To live with Twolegs", "zh": "和两脚兽一起生活"}, {"en": "To separate forever", "zh": "永远分开"}], "answer": 1, "explain": {"en": "After the battle, the cats decide to organize themselves into lasting groups — the beginning of the Clans.", "zh": "战后，猫群决定组建持久的有组织群体——这正是族群的雏形。"}}, {"q": {"en": "Why is the First Battle important in the history of the Clans?", "zh": "为什么第一场战斗在族群历史上很重要？"}, "options": [{"en": "It is the first time the groups fought as one", "zh": "这是各群体第一次团结作战"}, {"en": "It ends the sun trail", "zh": "它终结了太阳踪迹"}, {"en": "It creates the Thunderpath", "zh": "它创造了雷道"}, {"en": "It names the river", "zh": "它命名了河流"}], "answer": 0, "explain": {"en": "The First Battle is the moment the separate cat groups come together, planting the seed of the Clan system.", "zh": "第一场战斗是各分散猫群首次团结的时刻，播下了族群制度的种子。"}}, {"q": {"en": "Which founders fight side by side in the First Battle?", "zh": "在第一场战斗中，哪些创始猫并肩作战？"}, "options": [{"en": "Only Clear Sky and Gray Wing", "zh": "只有晴天和灰翅"}, {"en": "Clear Sky, Gray Wing, Tall Shadow, Wind Runner, and River Ripple", "zh": "晴天、灰翅、高影、风奔和河波"}, {"en": "Only the river cats", "zh": "只有河边的猫"}, {"en": "Only the mountain cats", "zh": "只有山地的猫"}], "answer": 1, "explain": {"en": "All five founders — Clear Sky, Gray Wing, Tall Shadow, Wind Runner, and River Ripple — join together to fight One Eye.", "zh": "五位创始猫——晴天、灰翅、高影、风奔和河波——齐聚一堂，共同对抗独眼。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

@@ -3,69 +3,46 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Warriors · 猫武士 — The Prophecy Begins</title>
+<title>Warriors · 猫武士 — All Series</title>
 <style>
   :root{
-    --forest:#2f5d3a;
-    --forest-dark:#1e3f27;
-    --ember:#d35400;
-    --cream:#fbf7ee;
-    --ink:#2a2118;
-    --gold:#e0a82e;
+    --forest:#2f5d3a; --forest-dark:#1e3f27; --ember:#d35400;
+    --cream:#fbf7ee; --ink:#2a2118; --gold:#e0a82e;
   }
   *{box-sizing:border-box;}
   body{
-    margin:0;
-    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    margin:0; font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
     background:linear-gradient(160deg,var(--forest),var(--forest-dark));
-    color:var(--ink);min-height:100vh;padding:0 0 40px;
+    color:var(--ink); min-height:100vh; padding:0 0 40px;
   }
-  header{
-    background:var(--ember);color:#fff;text-align:center;
-    padding:26px 18px 20px;position:relative;
-  }
+  header{ background:var(--ember); color:#fff; text-align:center; padding:26px 18px 20px; position:relative; }
   .topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;}
   .topbar h1{margin:0;font-size:1.5rem;flex:1;text-align:center;}
-  .homeBtn{
-    font-size:1.35rem;text-decoration:none;background:#fff;border-radius:50%;
-    width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
-    box-shadow:0 2px 8px rgba(0,0,0,.2);transition:transform .12s;
-  }
+  .homeBtn{font-size:1.35rem;text-decoration:none;background:#fff;border-radius:50%;width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.2);transition:transform .12s;}
   .homeBtn:hover{transform:translateY(-1px);}
   header p{margin:10px 0 0;font-size:.92rem;opacity:.94;}
   header .arc{font-weight:bold;letter-spacing:1px;}
-  .wrap{max-width:1000px;margin:26px auto 0;padding:0 18px;}
-  .intro{
-    background:var(--cream);border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.3);
-    padding:18px 22px;font-size:.95rem;line-height:1.6;color:#444;
-  }
+  .wrap{max-width:1040px;margin:26px auto 0;padding:0 18px;}
+  .intro{background:var(--cream);border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.3);
+    padding:18px 22px;font-size:.95rem;line-height:1.6;color:#444;}
   .intro b{color:var(--forest-dark);}
-  .grid{
-    margin-top:22px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;
-  }
-  .book{
-    background:var(--cream);border-radius:16px;overflow:hidden;
-    box-shadow:0 8px 20px rgba(0,0,0,.28);
-    display:flex;flex-direction:column;border-top:6px solid var(--accent,var(--forest));
-    transition:transform .15s,box-shadow .15s;
-  }
+  .series{margin-top:30px;}
+  .series h2{color:#fff;font-size:1.2rem;letter-spacing:.5px;border-left:6px solid var(--gold);
+    padding-left:12px;margin:0 0 4px;}
+  .series .sub{color:rgba(255,255,255,.85);font-size:.86rem;margin:0 0 14px;padding-left:18px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;}
+  .book{background:var(--cream);border-radius:16px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.28);
+    display:flex;flex-direction:column;border-top:6px solid var(--accent,var(--forest));transition:transform .15s,box-shadow .15s;}
   .book:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(0,0,0,.34);}
-  .book .top{padding:16px;text-align:center;background:linear-gradient(180deg,var(--accent,#2f5d3a),transparent);}
-  .letter{
-    width:54px;height:54px;line-height:54px;border-radius:50%;background:#fff;
-    color:var(--accent,#2f5d3a);font-size:1.5rem;font-weight:bold;margin:0 auto 8px;
-    box-shadow:0 4px 10px rgba(0,0,0,.2);
-  }
-  .book .emoji{font-size:1.7rem;}
-  .book .title{margin:4px 0;font-size:1.05rem;font-weight:bold;line-height:1.3;padding:0 12px;}
-  .book .titleZh{margin:0 0 6px;font-size:.85rem;color:#a06a1f;text-align:center;font-weight:bold;}
-  .book .body{padding:6px 14px 16px;flex:1;display:flex;flex-direction:column;}
-  .book .desc{font-size:.82rem;color:#555;line-height:1.45;margin:0 0 12px;flex:1;padding:0 6px;}
-  .start{
-    display:block;text-align:center;text-decoration:none;font-family:inherit;
-    font-size:.95rem;font-weight:bold;color:#fff;background:var(--accent,#2f5d3a);
-    padding:10px;border-radius:30px;box-shadow:0 4px 12px rgba(0,0,0,.2);transition:filter .15s;
-  }
+  .book .top{padding:14px;text-align:center;background:linear-gradient(180deg,var(--accent,#2f5d3a),transparent);}
+  .book .emoji{font-size:2rem;}
+  .book .title{margin:6px 0 2px;font-size:1.02rem;font-weight:bold;line-height:1.3;padding:0 12px;text-align:center;}
+  .book .titleZh{margin:0 0 6px;font-size:.82rem;color:#a06a1f;text-align:center;font-weight:bold;}
+  .book .body{padding:4px 14px 14px;flex:1;display:flex;flex-direction:column;}
+  .book .desc{font-size:.8rem;color:#555;line-height:1.42;margin:0 0 12px;flex:1;padding:0 4px;}
+  .start{display:block;text-align:center;text-decoration:none;font-family:inherit;font-size:.92rem;font-weight:bold;
+    color:#fff;background:var(--accent,#2f5d3a);padding:9px;border-radius:30px;box-shadow:0 4px 12px rgba(0,0,0,.2);transition:filter .15s;}
   .start:hover{filter:brightness(1.08);}
   footer{text-align:center;color:rgba(255,255,255,.85);font-size:.8rem;margin-top:32px;}
 </style>
@@ -77,19 +54,20 @@
     <h1>Warriors · 猫武士</h1>
     <span style="width:40px"></span>
   </div>
-  <p class="arc">The Prophecy Begins · 预言开始</p>
-  <p>中章书 · Middle Chapter Books — by Erin Hunter</p>
+  <p class="arc">全系列中英双语阅读理解测验</p>
+  <p>中章书 · Middle Chapter — by Erin Hunter · 共 77 本</p>
 </header>
-
 <div class="wrap">
   <div class="intro">
-    🐾 <b>6 本《猫武士·预言开始》中英双语阅读理解测验。</b><br>
-    6 bilingual (English / 中文) comprehension quizzes for the first arc of Warriors. Pick a book, answer 10 questions, then check your answers!
+    🐾 <b>77 本《猫武士》中英双语阅读理解测验，分 11 个系列。</b><br>
+    77 bilingual (English / 中文) comprehension quizzes across every Warriors series. Pick a book, answer 10 questions, then check your answers!
   </div>
-
-  <div class="grid">
+  <section class="series">
+    <h2>The Prophecy Begins · 预言开始</h2>
+    <p class="sub">6 本 · 6 books</p>
+    <div class="grid">
     <article class="book" style="--accent:#e67e22">
-      <div class="top"><div class="letter">1</div><div class="emoji">🔥</div></div>
+      <div class="top"><div class="emoji">🔥</div></div>
       <div class="body">
         <h3 class="title">Into the Wild</h3>
         <p class="titleZh">呼唤野性</p>
@@ -98,7 +76,7 @@
       </div>
     </article>
     <article class="book" style="--accent:#c0392b">
-      <div class="top"><div class="letter">2</div><div class="emoji">❄️</div></div>
+      <div class="top"><div class="emoji">❄️</div></div>
       <div class="body">
         <h3 class="title">Fire and Ice</h3>
         <p class="titleZh">寒冰烈火</p>
@@ -107,7 +85,7 @@
       </div>
     </article>
     <article class="book" style="--accent:#8e44ad">
-      <div class="top"><div class="letter">3</div><div class="emoji">🌲</div></div>
+      <div class="top"><div class="emoji">🌲</div></div>
       <div class="body">
         <h3 class="title">Forest of Secrets</h3>
         <p class="titleZh">秘密森林</p>
@@ -116,7 +94,7 @@
       </div>
     </article>
     <article class="book" style="--accent:#2980b9">
-      <div class="top"><div class="letter">4</div><div class="emoji">🌩️</div></div>
+      <div class="top"><div class="emoji">🌩️</div></div>
       <div class="body">
         <h3 class="title">Rising Storm</h3>
         <p class="titleZh">风暴将临</p>
@@ -125,7 +103,7 @@
       </div>
     </article>
     <article class="book" style="--accent:#5e35b1">
-      <div class="top"><div class="letter">5</div><div class="emoji">⚠️</div></div>
+      <div class="top"><div class="emoji">⚠️</div></div>
       <div class="body">
         <h3 class="title">A Dangerous Path</h3>
         <p class="titleZh">险路惊魂</p>
@@ -134,7 +112,7 @@
       </div>
     </article>
     <article class="book" style="--accent:#1f6b41">
-      <div class="top"><div class="letter">6</div><div class="emoji">🌑</div></div>
+      <div class="top"><div class="emoji">🌑</div></div>
       <div class="body">
         <h3 class="title">The Darkest Hour</h3>
         <p class="titleZh">黑暗时刻</p>
@@ -142,9 +120,708 @@
         <a class="start" href="the-darkest-hour-quiz.html">做测验 Take Quiz →</a>
       </div>
     </article>
-  </div>
+    </div>
+  </section>
+  <section class="series">
+    <h2>The New Prophecy · 新预言</h2>
+    <p class="sub">6 本 · 6 books</p>
+    <div class="grid">
+    <article class="book" style="--accent:#16a085">
+      <div class="top"><div class="emoji">🌊</div></div>
+      <div class="body">
+        <h3 class="title">Midnight</h3>
+        <p class="titleZh">午夜追踪</p>
+        <p class="desc">Six cats cross the forest to the ocean to meet Midnight the badger, who warns them the Twolegs will destroy their home.</p>
+        <a class="start" href="midnight-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#1abc9c">
+      <div class="top"><div class="emoji">🌙</div></div>
+      <div class="body">
+        <h3 class="title">Moonrise</h3>
+        <p class="titleZh">月升之处</p>
+        <p class="desc">The travelers reach the mountain Tribe of Rushing Water, where Feathertail gives her life to save them from the beast Sharptooth.</p>
+        <a class="start" href="moonrise-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#27ae60">
+      <div class="top"><div class="emoji">🌅</div></div>
+      <div class="body">
+        <h3 class="title">Dawn</h3>
+        <p class="titleZh">黎明曙光</p>
+        <p class="desc">The Clans leave the ruined forest for the lake, but a WindClan rebellion and Graystripe's capture test them on the way.</p>
+        <a class="start" href="dawn-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2ecc71">
+      <div class="top"><div class="emoji">⭐</div></div>
+      <div class="body">
+        <h3 class="title">Starlight</h3>
+        <p class="titleZh">星光闪烁</p>
+        <p class="desc">At the lake the four Clans claim their territories, find the Island for Gatherings, and face a blaze together.</p>
+        <a class="start" href="starlight-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2980b9">
+      <div class="top"><div class="emoji">🌆</div></div>
+      <div class="body">
+        <h3 class="title">Twilight</h3>
+        <p class="titleZh">暮色降临</p>
+        <p class="desc">A badger raid hits ThunderClan, and Brambleclaw must kill his half-brother Hawkfrost to save Firestar.</p>
+        <a class="start" href="twilight-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#3498db">
+      <div class="top"><div class="emoji">🌇</div></div>
+      <div class="body">
+        <h3 class="title">Sunset</h3>
+        <p class="titleZh">日落和平</p>
+        <p class="desc">Leafpool bears three forbidden kits, Squirrelflight raises them in secret, and a new prophecy of 'three' is revealed.</p>
+        <a class="start" href="sunset-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    </div>
+  </section>
+  <section class="series">
+    <h2>Power of Three · 三力量</h2>
+    <p class="sub">6 本 · 6 books</p>
+    <div class="grid">
+    <article class="book" style="--accent:#8e44ad">
+      <div class="top"><div class="emoji">👁️</div></div>
+      <div class="body">
+        <h3 class="title">The Sight</h3>
+        <p class="titleZh">预视力量</p>
+        <p class="desc">Three kits are born in ThunderClan, and one of them discovers he can walk in dreams—the beginning of the prophecy of the Three.</p>
+        <a class="start" href="the-sight-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#9b59b6">
+      <div class="top"><div class="emoji">🌊</div></div>
+      <div class="body">
+        <h3 class="title">Dark River</h3>
+        <p class="titleZh">暗河汹涌</p>
+        <p class="desc">Lionpaw's secret friendship, the tunnels, and the first signs of the Three's star-given powers come to light.</p>
+        <a class="start" href="dark-river-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#c0392b">
+      <div class="top"><div class="emoji">🚫</div></div>
+      <div class="body">
+        <h3 class="title">Outcast</h3>
+        <p class="titleZh">放逐之星</p>
+        <p class="desc">The Three journey to the mountains to save the Tribe of Rushing Water from a band of outcast rogues.</p>
+        <a class="start" href="outcast-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#d35400">
+      <div class="top"><div class="emoji">🌘</div></div>
+      <div class="body">
+        <h3 class="title">Eclipse</h3>
+        <p class="titleZh">日蚀遮蔽</p>
+        <p class="desc">A strange loner named Sol predicts the sun will vanish, shaking the Clans' faith in StarClan as the eclipse arrives.</p>
+        <a class="start" href="eclipse-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#e67e22">
+      <div class="top"><div class="emoji">🌑</div></div>
+      <div class="body">
+        <h3 class="title">Long Shadows</h3>
+        <p class="titleZh">长影静默</p>
+        <p class="desc">Hollyleaf uncovers the truth of her birth, Ashfur is murdered to keep the secret, and the Dark Forest's shadow grows longer.</p>
+        <a class="start" href="long-shadows-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#e74c3c">
+      <div class="top"><div class="emoji">🌅</div></div>
+      <div class="body">
+        <h3 class="title">Sunrise</h3>
+        <p class="titleZh">日出风暴</p>
+        <p class="desc">At the Gathering Hollyleaf reveals the Three's true parentage; Leafpool falls, Jayfeather rises, and Hollyleaf vanishes into the tunnels.</p>
+        <a class="start" href="sunrise-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    </div>
+  </section>
+  <section class="series">
+    <h2>Omen of the Stars · 星预言</h2>
+    <p class="sub">6 本 · 6 books</p>
+    <div class="grid">
+    <article class="book" style="--accent:#2c3e50">
+      <div class="top"><div class="emoji">🐾</div></div>
+      <div class="body">
+        <h3 class="title">The Fourth Apprentice</h3>
+        <p class="titleZh">第四学徒</p>
+        <p class="desc">As a terrible drought grips the lake, a young apprentice named Dovepaw discovers a power that may be the key to saving the Clans—and the prophecy's missing third cat.</p>
+        <a class="start" href="the-fourth-apprentice-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#34495e">
+      <div class="top"><div class="emoji">🌫️</div></div>
+      <div class="body">
+        <h3 class="title">Fading Echoes</h3>
+        <p class="titleZh">消逝回音</p>
+        <p class="desc">While Dovepaw struggles with her powers, Ivypaw is lured into secret training by a cat pretending to be from StarClan, and a falling tree brings tragedy to the camp.</p>
+        <a class="start" href="fading-echoes-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#16a085">
+      <div class="top"><div class="emoji">🌙</div></div>
+      <div class="body">
+        <h3 class="title">Night Whispers</h3>
+        <p class="titleZh">夜语私语</p>
+        <p class="desc">Jayfeather uncovers Ivypaw's dangerous secret, Ivypaw agrees to spy for the Clans, and a young medicine cat loses his life beneath the ice of the frozen lake.</p>
+        <a class="start" href="night-whispers-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2980b9">
+      <div class="top"><div class="emoji">🗡️</div></div>
+      <div class="body">
+        <h3 class="title">Sign of the Moon</h3>
+        <p class="titleZh">月亮征兆</p>
+        <p class="desc">Jayfeather journeys to the mountains to meet the Tribe of Rushing Water, walks in the dreams of the ancient cats, and learns that a fourth cat must join the Three.</p>
+        <a class="start" href="sign-of-the-moon-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#8e44ad">
+      <div class="top"><div class="emoji">⚔️</div></div>
+      <div class="body">
+        <h3 class="title">The Forgotten Warrior</h3>
+        <p class="titleZh">被遗忘的武士</p>
+        <p class="desc">A mysterious loner named Sol returns to stir up trouble between ThunderClan and WindClan, while a cat thought long dead steps out of the tunnels to save her Clan.</p>
+        <a class="start" href="the-forgotten-warrior-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#c0392b">
+      <div class="top"><div class="emoji">🌟</div></div>
+      <div class="body">
+        <h3 class="title">The Last Hope</h3>
+        <p class="titleZh">最后的希望</p>
+        <p class="desc">The Great Battle against the Dark Forest begins. The fourth cat of the prophecy is revealed, Firestar faces Tigerstar one last time, and the Clans are changed forever.</p>
+        <a class="start" href="the-last-hope-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    </div>
+  </section>
+  <section class="series">
+    <h2>Dawn of the Clans · 族群黎明</h2>
+    <p class="sub">6 本 · 6 books</p>
+    <div class="grid">
+    <article class="book" style="--accent:#d35400">
+      <div class="top"><div class="emoji">☀️</div></div>
+      <div class="body">
+        <h3 class="title">The Sun Trail</h3>
+        <p class="titleZh">太阳踪迹</p>
+        <p class="desc">The first book of Dawn of the Clans, telling how the mountain cats followed a vision to a new forest home.</p>
+        <a class="start" href="the-sun-trail-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#e67e22">
+      <div class="top"><div class="emoji">⚡</div></div>
+      <div class="body">
+        <h3 class="title">Thunder Rising</h3>
+        <p class="titleZh">雷鸣崛起</p>
+        <p class="desc">The second book, in which young Thunder learns what it means to belong as Clear Sky's strict rules divide the cats.</p>
+        <a class="start" href="thunder-rising-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#f39c12">
+      <div class="top"><div class="emoji">⚔️</div></div>
+      <div class="body">
+        <h3 class="title">The First Battle</h3>
+        <p class="titleZh">第一场战斗</p>
+        <p class="desc">The third book, where a ruthless rogue named One Eye forces the cat groups to fight together for the first time.</p>
+        <a class="start" href="the-first-battle-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#f1c40f">
+      <div class="top"><div class="emoji">✦</div></div>
+      <div class="body">
+        <h3 class="title">The Blazing Star</h3>
+        <p class="titleZh">炽烈之星</p>
+        <p class="desc">The fourth book, in which a deadly sickness drives the cats to seek a glowing 'blazing star' that can heal them.</p>
+        <a class="start" href="the-blazing-star-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#27ae60">
+      <div class="top"><div class="emoji">🌳</div></div>
+      <div class="body">
+        <h3 class="title">A Forest Divided</h3>
+        <p class="titleZh">分裂森林</p>
+        <p class="desc">The fifth book, in which old arguments divide the cat groups just as they should be coming together.</p>
+        <a class="start" href="a-forest-divided-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#16a085">
+      <div class="top"><div class="emoji">✨</div></div>
+      <div class="body">
+        <h3 class="title">Path of Stars</h3>
+        <p class="titleZh">群星之路</p>
+        <p class="desc">The final book, in which the five Clans are named and the spirits in the sky become known as StarClan.</p>
+        <a class="start" href="path-of-stars-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    </div>
+  </section>
+  <section class="series">
+    <h2>A Vision of Shadows · 暗影幻象</h2>
+    <p class="sub">6 本 · 6 books</p>
+    <div class="grid">
+    <article class="book" style="--accent:#6c3483">
+      <div class="top"><div class="emoji">🔍</div></div>
+      <div class="body">
+        <h3 class="title">The Apprentice's Quest</h3>
+        <p class="titleZh">学徒的追寻</p>
+        <p class="desc">Alderpaw, a ThunderClan medicine cat apprentice, sets out to find the lost SkyClan — and two abandoned kits change everything.</p>
+        <a class="start" href="the-apprentices-quest-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#8e44ad">
+      <div class="top"><div class="emoji">⚡</div></div>
+      <div class="body">
+        <h3 class="title">Thunder and Shadow</h3>
+        <p class="titleZh">雷影交加</p>
+        <p class="desc">A charming rogue named Darktail arrives with his followers, the Kin, and seizes control of ShadowClan.</p>
+        <a class="start" href="thunder-and-shadow-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#a569bd">
+      <div class="top"><div class="emoji">💥</div></div>
+      <div class="body">
+        <h3 class="title">Shattered Sky</h3>
+        <p class="titleZh">破碎天空</p>
+        <p class="desc">The Clans unite to free ShadowClan, the lost SkyClan returns, and Darktail meets his end in the river.</p>
+        <a class="start" href="shattered-sky-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#c39bd3">
+      <div class="top"><div class="emoji">🌑</div></div>
+      <div class="body">
+        <h3 class="title">Darkest Night</h3>
+        <p class="titleZh">最黑暗的夜晚</p>
+        <p class="desc">With the Kin gone, a new darkness rises as the Dark Forest stirs — and SkyClan must find its place at the lake.</p>
+        <a class="start" href="darkest-night-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#1f6b41">
+      <div class="top"><div class="emoji">🔥</div></div>
+      <div class="body">
+        <h3 class="title">River of Fire</h3>
+        <p class="titleZh">火焰之河</p>
+        <p class="desc">A raging wall of flame sweeps the lake territories, and Tigerheart returns from the Dark Forest as Tigerstar.</p>
+        <a class="start" href="river-of-fire-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2ecc71">
+      <div class="top"><div class="emoji">🌪️</div></div>
+      <div class="body">
+        <h3 class="title">The Raging Storm</h3>
+        <p class="titleZh">狂暴风暴</p>
+        <p class="desc">In a final battle against the Dark Forest, the living Clans and StarClan fight side by side — and peace returns to the lake.</p>
+        <a class="start" href="the-raging-storm-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    </div>
+  </section>
+  <section class="series">
+    <h2>The Broken Code · 破灭守则</h2>
+    <p class="sub">6 本 · 6 books</p>
+    <div class="grid">
+    <article class="book" style="--accent:#154360">
+      <div class="top"><div class="emoji">⭐</div></div>
+      <div class="body">
+        <h3 class="title">Lost Stars</h3>
+        <p class="titleZh">失落群星</p>
+        <p class="desc">When Bramblestar returns from the dead, ThunderClan soon senses that the cat wearing his pelt is not who he seems.</p>
+        <a class="start" href="lost-stars-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#1a5276">
+      <div class="top"><div class="emoji">❄️</div></div>
+      <div class="body">
+        <h3 class="title">The Silent Thaw</h3>
+        <p class="titleZh">寂静融雪</p>
+        <p class="desc">As the impostor tightens his grip, a secret message from StarClan reveals that the real Bramblestar must be rooted out.</p>
+        <a class="start" href="the-silent-thaw-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2471a3">
+      <div class="top"><div class="emoji">🌫️</div></div>
+      <div class="body">
+        <h3 class="title">Veil of Shadows</h3>
+        <p class="titleZh">暗影之纱</p>
+        <p class="desc">The exiled cats learn the truth about the impostor and search the shadowy border between the living and the dead for Bramblestar.</p>
+        <a class="start" href="veil-of-shadows-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2e86c1">
+      <div class="top"><div class="emoji">🌑</div></div>
+      <div class="body">
+        <h3 class="title">Darkness Within</h3>
+        <p class="titleZh">内心黑暗</p>
+        <p class="desc">The impostor is unmasked as Ashfur's vengeful spirit, and the Clans learn how to free Bramblestar from within.</p>
+        <a class="start" href="darkness-within-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#5dade2">
+      <div class="top"><div class="emoji">🕳️</div></div>
+      <div class="body">
+        <h3 class="title">The Place of No Stars</h3>
+        <p class="titleZh">无星之地</p>
+        <p class="desc">The four Clans march into the Dark Forest to battle Ashfur and win back Bramblestar's stolen body and spirit.</p>
+        <a class="start" href="the-place-of-no-stars-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#aed6f1">
+      <div class="top"><div class="emoji">💡</div></div>
+      <div class="body">
+        <h3 class="title">A Light in the Mist</h3>
+        <p class="titleZh">迷雾微光</p>
+        <p class="desc">With Ashfur gone and Bramblestar restored, the Clans heal, mend the Warrior Code, and honor those they lost.</p>
+        <a class="start" href="a-light-in-the-mist-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    </div>
+  </section>
+  <section class="series">
+    <h2>A Starless Clan · 无星之族</h2>
+    <p class="sub">2 本 · 2 books</p>
+    <div class="grid">
+    <article class="book" style="--accent:#1a5276">
+      <div class="top"><div class="emoji">🌊</div></div>
+      <div class="body">
+        <h3 class="title">River</h3>
+        <p class="titleZh">河浪</p>
+        <p class="desc">The first book of A Starless Clan: RiverClan's medicine-cat apprentice Frostpaw faces a crisis as her Clan loses its connection to StarClan.</p>
+        <a class="start" href="river-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#5dade2">
+      <div class="top"><div class="emoji">☁️</div></div>
+      <div class="body">
+        <h3 class="title">Sky</h3>
+        <p class="titleZh">天空</p>
+        <p class="desc">The second book of A Starless Clan: a greencough outbreak, a desperate catmint quest, and RiverClan's secret that StarClan has gone silent.</p>
+        <a class="start" href="sky-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    </div>
+  </section>
+  <section class="series">
+    <h2>Super Editions · 超级外传</h2>
+    <p class="sub">15 本 · 15 books</p>
+    <div class="grid">
+    <article class="book" style="--accent:#922b21">
+      <div class="top"><div class="emoji">🦁</div></div>
+      <div class="body">
+        <h3 class="title">Firestar's Quest</h3>
+        <p class="titleZh">火星的使命</p>
+        <p class="desc">After becoming ThunderClan's leader, Firestar sets out on a journey to find the lost fifth Clan, SkyClan.</p>
+        <a class="start" href="firestars-quest-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#b03a2e">
+      <div class="top"><div class="emoji">⭐</div></div>
+      <div class="body">
+        <h3 class="title">Bluestar's Prophecy</h3>
+        <p class="titleZh">蓝星的预言</p>
+        <p class="desc">From kit to leader, Bluestar's life is shaped by a secret: the kits she gave up to become deputy.</p>
+        <a class="start" href="bluestars-prophecy-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#ca6f1e">
+      <div class="top"><div class="emoji">🐟</div></div>
+      <div class="body">
+        <h3 class="title">Crookedstar's Promise</h3>
+        <p class="titleZh">钩星的承诺</p>
+        <p class="desc">Crookedstar,leader of RiverClan,makes a fateful promise to Riverstar that costs him everything he loves.</p>
+        <a class="start" href="crookedstars-promise-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#d68910">
+      <div class="top"><div class="emoji">🌳</div></div>
+      <div class="body">
+        <h3 class="title">SkyClan's Destiny</h3>
+        <p class="titleZh">天族的命运</p>
+        <p class="desc">When Twolegs destroy their gorge, Leafstar leads SkyClan on a journey to find the other four Clans at the lake.</p>
+        <a class="start" href="skyclans-destiny-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#7d6608">
+      <div class="top"><div class="emoji">🦷</div></div>
+      <div class="body">
+        <h3 class="title">Yellowfang's Secret</h3>
+        <p class="titleZh">黄牙的秘密</p>
+        <p class="desc">Yellowfang, the ShadowClan medicine cat, hides a terrible secret: her son becomes the cruel leader Brokenstar.</p>
+        <a class="start" href="yellowfangs-secret-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#9c640c">
+      <div class="top"><div class="emoji">🐭</div></div>
+      <div class="body">
+        <h3 class="title">Tallstar's Revenge</h3>
+        <p class="titleZh">高星的复仇</p>
+        <p class="desc">Tallstar of WindClan leaves home to take revenge for his father's death, but learns that revenge is not the answer.</p>
+        <a class="start" href="tallstars-revenge-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#616a6b">
+      <div class="top"><div class="emoji">🔥</div></div>
+      <div class="body">
+        <h3 class="title">Bramblestar's Storm</h3>
+        <p class="titleZh">棘星的暴风雨</p>
+        <p class="desc">A great storm and flood tests ThunderClan's new leader Bramblestar, and reunites him with Squirrelflight.</p>
+        <a class="start" href="bramblestars-storm-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#7d6e4e">
+      <div class="top"><div class="emoji">🦋</div></div>
+      <div class="body">
+        <h3 class="title">Moth Flight's Vision</h3>
+        <p class="titleZh">蛾飞的幻象</p>
+        <p class="desc">In the early days of the Clans, Moth Flight becomes the very first medicine cat and hears the ancestors' call.</p>
+        <a class="start" href="moth-flights-vision-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#4a235a">
+      <div class="top"><div class="emoji">🦅</div></div>
+      <div class="body">
+        <h3 class="title">Hawkwing's Journey</h3>
+        <p class="titleZh">鹰翅的旅程</p>
+        <p class="desc">SkyClan's deputy Hawkwing leads his Clan from the gorge to the lake, guided by StarClan to rejoin the other Clans.</p>
+        <a class="start" href="hawkwings-journey-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#633974">
+      <div class="top"><div class="emoji">🐯</div></div>
+      <div class="body">
+        <h3 class="title">Tigerheart's Shadow</h3>
+        <p class="titleZh">虎心的影子</p>
+        <p class="desc">ShadowClan's deputy Tigerheart and ThunderClan's Dovewing leave the lake to find a new home, and Tigerheart returns reborn as Tigerstar.</p>
+        <a class="start" href="tigerhearts-shadow-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#7e5109">
+      <div class="top"><div class="emoji">🐦</div></div>
+      <div class="body">
+        <h3 class="title">Crowfeather's Trial</h3>
+        <p class="titleZh">鸦羽的考验</p>
+        <p class="desc">WindClan warrior Crowfeather must face his divided Clan and his son Breezepelt after the Great Battle with the Dark Forest.</p>
+        <a class="start" href="crowfeathers-trial-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#b9770e">
+      <div class="top"><div class="emoji">🐆</div></div>
+      <div class="body">
+        <h3 class="title">Leopardstar's Honor</h3>
+        <p class="titleZh">豹星的荣耀</p>
+        <p class="desc">RiverClan's Leopardfur rises from kit to leader, only to make a fateful alliance with the ruthless Tigerstar.</p>
+        <a class="start" href="leopardstars-honor-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#117864">
+      <div class="top"><div class="emoji">🐿️</div></div>
+      <div class="body">
+        <h3 class="title">Squirrelflight's Hope</h3>
+        <p class="titleZh">松鼠飞的希望</p>
+        <p class="desc">ThunderClan deputy Squirrelflight faces a border crisis, the mysterious Sisters, and a trial in StarClan over a secret she kept for moons.</p>
+        <a class="start" href="squirrelflights-hope-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#0e6655">
+      <div class="top"><div class="emoji">🐺</div></div>
+      <div class="body">
+        <h3 class="title">Graystripe's Vow</h3>
+        <p class="titleZh">灰条的誓言</p>
+        <p class="desc">Elder Graystripe leaves a troubled ThunderClan to journey back to the old forest and the Moonstone, confronting his past and a new group called WarriorClan.</p>
+        <a class="start" href="graystripes-vow-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#1e8449">
+      <div class="top"><div class="emoji">📜</div></div>
+      <div class="body">
+        <h3 class="title">Onestar's Confession</h3>
+        <p class="titleZh">一根须的忏悔</p>
+        <p class="desc">WindClan's Onestar recounts his life—from Onewhisker to leader—and the secret son, Darktail, whose vengeance he must finally face.</p>
+        <a class="start" href="onestars-confession-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    </div>
+  </section>
+  <section class="series">
+    <h2>Novellas · 外传短篇</h2>
+    <p class="sub">13 本 · 13 books</p>
+    <div class="grid">
+    <article class="book" style="--accent:#117a65">
+      <div class="top"><div class="emoji">🍃</div></div>
+      <div class="body">
+        <h3 class="title">Hollyleaf's Story</h3>
+        <p class="titleZh">冬青叶的故事</p>
+        <p class="desc">Trapped alive in the tunnels after the rockfall, Hollyleaf must find a way to survive—and decide if she can ever go home.</p>
+        <a class="start" href="hollyleafs-story-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#148f77">
+      <div class="top"><div class="emoji">🌊</div></div>
+      <div class="body">
+        <h3 class="title">Mistystar's Omen</h3>
+        <p class="titleZh">雾星的预兆</p>
+        <p class="desc">Newly named leader Mistystar must guide RiverClan through a crisis of faith and empty waters.</p>
+        <a class="start" href="mistystars-omen-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#c39bd3">
+      <div class="top"><div class="emoji">🚀</div></div>
+      <div class="body">
+        <h3 class="title">Cloudstar's Journey</h3>
+        <p class="titleZh">云星的旅程</p>
+        <p class="desc">When Twolegs destroy SkyClan's home, leader Cloudstar fights to save his Clan from being driven out of the forest.</p>
+        <a class="start" href="cloudstars-journey-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#af7ac5">
+      <div class="top"><div class="emoji">😡</div></div>
+      <div class="body">
+        <h3 class="title">Tigerclaw's Fury</h3>
+        <p class="titleZh">虎掌的愤怒</p>
+        <p class="desc">Exiled from ThunderClan, the furious Tigerclaw gathers followers and plots his rise to power in ShadowClan.</p>
+        <a class="start" href="tigerclaws-fury-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#7e5109">
+      <div class="top"><div class="emoji">🌿</div></div>
+      <div class="body">
+        <h3 class="title">Leafpool's Wish</h3>
+        <p class="titleZh">叶池的愿望</p>
+        <p class="desc">ThunderClan medicine cat Leafpool wishes she could be a warrior so she could be with the cat she loves.</p>
+        <a class="start" href="leafpools-wish-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#b9770e">
+      <div class="top"><div class="emoji">🔇</div></div>
+      <div class="body">
+        <h3 class="title">Dovewing's Silence</h3>
+        <p class="titleZh">鸽翅的沉默</p>
+        <p class="desc">After the Great Battle, Dovewing has lost her powers and must find out who she is without them.</p>
+        <a class="start" href="dovewings-silence-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#cb4335">
+      <div class="top"><div class="emoji">⚔️</div></div>
+      <div class="body">
+        <h3 class="title">Mapleshade's Vengeance</h3>
+        <p class="titleZh">枫荫的复仇</p>
+        <p class="desc">Betrayed by her Clan and robbed of her kits, the warrior Mapleshade swears a deadly vengeance.</p>
+        <a class="start" href="mapleshades-vengeance-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#e74c3c">
+      <div class="top"><div class="emoji">🌀</div></div>
+      <div class="body">
+        <h3 class="title">Goosefeather's Curse</h3>
+        <p class="titleZh">鹅羽的诅咒</p>
+        <p class="desc">A ThunderClan medicine cat's gift of seeing StarClan's dead becomes a burden he calls a curse.</p>
+        <a class="start" href="goosefeathers-curse-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#7d3c98">
+      <div class="top"><div class="emoji">👋</div></div>
+      <div class="body">
+        <h3 class="title">Ravenpaw's Farewell</h3>
+        <p class="titleZh">鸦爪的告别</p>
+        <p class="desc">In his final days, Ravenpaw makes one last journey to help two young cats find SkyClan.</p>
+        <a class="start" href="ravenpaws-farewell-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#8e44ad">
+      <div class="top"><div class="emoji">🛤️</div></div>
+      <div class="body">
+        <h3 class="title">Path of a Warrior</h3>
+        <p class="titleZh">武士之路</p>
+        <p class="desc">Three novellas of loyalty and leadership: Redtail's Debt, Tawnypelt's Clan, and Shadowstar's Life.</p>
+        <a class="start" href="path-of-a-warrior-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#1f618d">
+      <div class="top"><div class="emoji">📜</div></div>
+      <div class="body">
+        <h3 class="title">Legends of the Clans</h3>
+        <p class="titleZh">族群的传说</p>
+        <p class="desc">Three stand-alone adventures: Spottedleaf's Heart, Pinestar's Choice, and Thunderstar's Echo.</p>
+        <a class="start" href="legends-of-the-clans-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2e86c1">
+      <div class="top"><div class="emoji">✨</div></div>
+      <div class="body">
+        <h3 class="title">A Warrior's Spirit</h3>
+        <p class="titleZh">武士之魂</p>
+        <p class="desc">Three devoted cats' stories: Pebbleshine's Kits, Tree's Roots, and Mothwing's Secret.</p>
+        <a class="start" href="a-warriors-spirit-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#a04000">
+      <div class="top"><div class="emoji">⚖️</div></div>
+      <div class="body">
+        <h3 class="title">A Warrior's Choice</h3>
+        <p class="titleZh">武士的抉择</p>
+        <p class="desc">Three untold stories: Daisy's Kin, Blackfoot's Reckoning, and Spotfur's Rebellion.</p>
+        <a class="start" href="a-warriors-choice-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    </div>
+  </section>
+  <section class="series">
+    <h2>Field Guides · 设定指南</h2>
+    <p class="sub">5 本 · 5 books</p>
+    <div class="grid">
+    <article class="book" style="--accent:#7d6608">
+      <div class="top"><div class="emoji">📖</div></div>
+      <div class="body">
+        <h3 class="title">Secrets of the Clans</h3>
+        <p class="titleZh">族群的秘密</p>
+        <p class="desc">An official companion guide revealing the hidden histories, territories, and ancestral spirits of the four Warrior Clans.</p>
+        <a class="start" href="secrets-of-the-clans-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#b7950b">
+      <div class="top"><div class="emoji">🐱</div></div>
+      <div class="body">
+        <h3 class="title">Cats of the Clans</h3>
+        <p class="titleZh">族群猫</p>
+        <p class="desc">A field guide in which a wise elder introduces the most important cats of each of the four Clans.</p>
+        <a class="start" href="cats-of-the-clans-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#9c640c">
+      <div class="top"><div class="emoji">📜</div></div>
+      <div class="body">
+        <h3 class="title">Code of the Clans</h3>
+        <p class="titleZh">族群守则</p>
+        <p class="desc">An official guide that explains each rule of the Warrior Code with stories from Clan history.</p>
+        <a class="start" href="code-of-the-clans-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#784212">
+      <div class="top"><div class="emoji">⚔️</div></div>
+      <div class="body">
+        <h3 class="title">Battles of the Clans</h3>
+        <p class="titleZh">族群之战</p>
+        <p class="desc">A field guide recounting the most famous battles in Clan history, told from many points of view.</p>
+        <a class="start" href="battles-of-the-clans-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#1b4f72">
+      <div class="top"><div class="emoji">📚</div></div>
+      <div class="body">
+        <h3 class="title">The Ultimate Guide</h3>
+        <p class="titleZh">终极指南</p>
+        <p class="desc">The complete encyclopedia of the Warriors world, with profiles of cats, Clans, and key events.</p>
+        <a class="start" href="the-ultimate-guide-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    </div>
+  </section>
 </div>
-
 <footer>Part of 分级阅读乐园 · Reading by Level</footer>
 </body>
 </html>

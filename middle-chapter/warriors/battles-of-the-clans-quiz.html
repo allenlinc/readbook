@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Battles of the Clans · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Battles of the Clans</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">族群之战</p>
+    <div class="mark">⚔️</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">A field guide recounting the most famous battles in Clan history, told from many points of view.<br><span style="color:#a06a1f">一本设定指南，从多个视角讲述族群历史上最著名的几场战役。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Field Guides — Battles of the Clans</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Which two Clans have fought many battles over a sunny, rocky stretch of land called Sunningrocks?", "zh": "哪两个族群为了一片名为日光岩（Sunningrocks）的向阳多石之地爆发过多次战斗？"}, "options": [{"en": "ThunderClan and RiverClan", "zh": "雷族（ThunderClan）与河族（RiverClan）"}, {"en": "ShadowClan and WindClan", "zh": "影族（ShadowClan）与风族（WindClan）"}, {"en": "SkyClan and BloodClan", "zh": "天族（SkyClan）与血族（BloodClan）"}, {"en": "WindClan and RiverClan", "zh": "风族（WindClan）与河族（RiverClan）"}], "answer": 0, "explain": {"en": "ThunderClan and RiverClan have long disputed the sunny Sunningrocks along their border.", "zh": "雷族与河族长期争夺边界上阳光充足的日光岩。"}}, {"q": {"en": "In the great battle at the end of The Darkest Hour, which group of rogues attacked the forest Clans?", "zh": "在《最黑暗的时刻》结尾的大战中，哪一群泼皮猫（rogue）袭击了森林族群？"}, "options": [{"en": "BloodClan", "zh": "血族（BloodClan）"}, {"en": "SkyClan", "zh": "天族（SkyClan）"}, {"en": "The Tribe of Rushing Water", "zh": "奔水部落（Tribe of Rushing Water）"}, {"en": "The loners", "zh": "独行猫（loners）"}], "answer": 0, "explain": {"en": "BloodClan, led by Scourge, invaded the forest and fought the four Clans in the final battle.", "zh": "由血族族长（Scourge）率领的血族入侵森林，并在最后一战中对抗四大族群。"}}, {"q": {"en": "Who was the leader of BloodClan that killed Tigerstar?", "zh": "谁是血族（BloodClan）的族长，并且杀死了虎星？"}, "options": [{"en": "Scourge", "zh": "血族族长（Scourge）"}, {"en": "Bone", "zh": "骨（Bone）"}, {"en": "Tigerstar", "zh": "虎星（Tigerstar）"}, {"en": "Firestar", "zh": "火心（Firestar）"}], "answer": 0, "explain": {"en": "Scourge slew Tigerstar at a Gathering before leading BloodClan into the great battle.", "zh": "血族族长（Scourge）在一次集会上杀死了虎星，随后率领血族投入大战。"}}, {"q": {"en": "Which Clan did Firestar help rebuild after it had been driven out and lived in a gorge?", "zh": "哪个族群被驱逐、在峡谷中生活后，由火心帮助重建？"}, "options": [{"en": "SkyClan", "zh": "天族（SkyClan）"}, {"en": "ThunderClan", "zh": "雷族（ThunderClan）"}, {"en": "ShadowClan", "zh": "影族（ShadowClan）"}, {"en": "WindClan", "zh": "风族（WindClan）"}], "answer": 0, "explain": {"en": "Firestar journeyed to the gorge and helped the lost SkyClan cats rebuild their Clan.", "zh": "火心前往峡谷，帮助失散的天族猫重建了族群。"}}, {"q": {"en": "The Great Battle against the Dark Forest took place in which story arc?", "zh": "对抗黑森林（Dark Forest）的大决战发生在哪个故事线中？"}, "options": [{"en": "Omen of the Stars", "zh": "星预兆（Omen of the Stars）"}, {"en": "The Prophecies Begin", "zh": "预言开始（The Prophecies Begin）"}, {"en": "The New Prophecy", "zh": "新预言（The New Prophecy）"}, {"en": "Power of Three", "zh": "三力量（Power of Three）"}], "answer": 0, "explain": {"en": "The Great Battle, where the Clans defeated the Dark Forest, concludes the Omen of the Stars arc.", "zh": "大决战中族群击败了黑森林，是「星预兆（Omen of the Stars）」的结局。"}}, {"q": {"en": "In the gorge, what creatures did SkyClan fight to defend their new home?", "zh": "在峡谷中，天族为了保卫新家而与什么生物战斗？"}, "options": [{"en": "Rats", "zh": "老鼠（rats）"}, {"en": "Dogs", "zh": "狗（dogs）"}, {"en": "Foxes", "zh": "狐狸（foxes）"}, {"en": "Twolegs", "zh": "两脚兽（Twolegs）"}], "answer": 0, "explain": {"en": "SkyClan battled a huge rat named the Rat King and his pack to protect the gorge.", "zh": "天族与名为鼠王（Rat King）的大老鼠及其族群作战，以保卫峡谷。"}}, {"q": {"en": "Which Clan is known for its speed and was once driven from its moor by enemies and dogs?", "zh": "哪个族群以速度著称，并曾一度被敌人和狗赶出自己的荒原？"}, "options": [{"en": "WindClan", "zh": "风族（WindClan）"}, {"en": "RiverClan", "zh": "河族（RiverClan）"}, {"en": "ShadowClan", "zh": "影族（ShadowClan）"}, {"en": "ThunderClan", "zh": "雷族（ThunderClan）"}], "answer": 0, "explain": {"en": "WindClan, the fastest runners, were forced off the moor but later returned to their home.", "zh": "风族是最快的奔跑者，曾被赶出荒原，但后来重返家园。"}}, {"q": {"en": "During the sacred truce, where did the Clans meet for Gatherings in the old forest?", "zh": "在神圣的休战期间，森林中的族群曾在何处举行集会（Gathering）？"}, "options": [{"en": "Four Trees", "zh": "四棵树（Four Trees）"}, {"en": "The gorge", "zh": "峡谷（the gorge）"}, {"en": "The Moonstone", "zh": "月石（Moonstone）"}, {"en": "Twolegplace", "zh": "两脚兽地盘（Twolegplace）"}], "answer": 0, "explain": {"en": "The four great trees in the forest were the traditional, neutral meeting place for Gatherings.", "zh": "森林中的四棵大树是集会传统的、中立的相会地点。"}}, {"q": {"en": "Which evil leader wanted to rule all the Clans and was killed by Scourge at a Gathering?", "zh": "哪位邪恶的族长妄图统治所有族群，并在集会上被血族族长（Scourge）杀死？"}, "options": [{"en": "Tigerstar", "zh": "虎星（Tigerstar）"}, {"en": "Brokenstar", "zh": "断星（Brokenstar）"}, {"en": "Hawkfrost", "zh": "鹰霜（Hawkfrost）"}, {"en": "Scourge", "zh": "血族族长（Scourge）"}], "answer": 0, "explain": {"en": "Tigerstar plotted to control every Clan, but Scourge killed him before that plan succeeded.", "zh": "虎星图谋控制每一个族群，但血族族长（Scourge）在那计划得逞前就杀了他。"}}, {"q": {"en": "In the battle against BloodClan, which ThunderClan leader led the Clans to victory?", "zh": "在与血族（BloodClan）的战斗中，哪位雷族族长带领族群取得了胜利？"}, "options": [{"en": "Firestar", "zh": "火心（Firestar）"}, {"en": "Bluestar", "zh": "蓝星（Bluestar）"}, {"en": "Graystripe", "zh": "灰条（Graystripe）"}, {"en": "Tallstar", "zh": "高星（Tallstar）"}], "answer": 0, "explain": {"en": "Firestar united the Clans and faced Scourge, leading them through the battle against BloodClan.", "zh": "火心联合各族群并直面血族族长（Scourge），带领大家打赢了与血族的战斗。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

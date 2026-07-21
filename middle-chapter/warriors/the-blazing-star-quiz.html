@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Blazing Star · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Blazing Star</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">炽烈之星</p>
+    <div class="mark">✦</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">The fourth book, in which a deadly sickness drives the cats to seek a glowing 'blazing star' that can heal them.<br><span style="color:#a06a1f">系列第四部，致命的疾病迫使猫群去寻找一颗能治病的、发光「炽烈之星」。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Dawn of the Clans — The Blazing Star</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What terrible problem strikes the cats in The Blazing Star?", "zh": "在《炽烈之星》中，猫群遭遇了什么可怕的问题？"}, "options": [{"en": "A great flood", "zh": "大洪水"}, {"en": "A deadly sickness", "zh": "致命的疾病"}, {"en": "A forest fire", "zh": "森林大火"}, {"en": "A long drought", "zh": "长期干旱"}], "answer": 1, "explain": {"en": "A deadly sickness spreads through the cat groups, killing many of them.", "zh": "一种致命的疾病在猫群中蔓延，夺走了许多猫的生命。"}}, {"q": {"en": "Who receives the message that a 'blazing star' will save the cats?", "zh": "是谁接收到「炽烈之星将拯救猫群」的信息？"}, "options": [{"en": "Clear Sky", "zh": "晴天（Clear Sky）"}, {"en": "Half Moon", "zh": "半月（Half Moon）"}, {"en": "Thunder", "zh": "雷电（Thunder）"}, {"en": "River Ripple", "zh": "河波（River Ripple）"}], "answer": 1, "explain": {"en": "Half Moon, the medicine cat, receives a prophecy from the spirits about the blazing star.", "zh": "巫医半月从祖灵那里接收到关于炽烈之星的预言。"}}, {"q": {"en": "What is the 'blazing star' that heals the sick cats?", "zh": "治愈病猫的「炽烈之星」到底是什么？"}, "options": [{"en": "A falling star from the sky", "zh": "天上掉落的星星"}, {"en": "A special glowing flower or plant", "zh": "一种会发光的特殊花草"}, {"en": "A kind of stone", "zh": "一种石头"}, {"en": "A new river", "zh": "一条新河"}], "answer": 1, "explain": {"en": "The blazing star is a special glowing plant (a flower) whose leaves can cure the sickness.", "zh": "炽烈之星是一种会发光的特殊植物（花朵），它的叶子能治愈疾病。"}}, {"q": {"en": "Which cats go on the journey to find the blazing star?", "zh": "哪些猫踏上了寻找炽烈之星的旅程？"}, "options": [{"en": "Only Clear Sky", "zh": "只有晴天"}, {"en": "Thunder and Gray Wing with others", "zh": "雷电、灰翅等同伴"}, {"en": "Only the river cats", "zh": "只有河边的猫"}, {"en": "The kittypets", "zh": "宠物猫"}], "answer": 1, "explain": {"en": "Thunder, Gray Wing, and other brave cats travel far to find the healing plant and bring it home.", "zh": "雷电、灰翅和其他勇敢的猫长途跋涉，找到治病植物并带回家。"}}, {"q": {"en": "What danger must the traveling cats face to reach the blazing star?", "zh": "寻找炽烈之星的旅途中，猫群必须面对什么危险？"}, "options": [{"en": "A Thunderpath and unknown lands", "zh": "雷道与陌生的土地"}, {"en": "A mountain of snow", "zh": "雪山"}, {"en": "A pack of dogs", "zh": "一群狗"}, {"en": "A great flood", "zh": "大洪水"}], "answer": 0, "explain": {"en": "The journey takes them across dangerous, unknown territory, including a Thunderpath, to find the plant.", "zh": "旅程带它们穿越危险而陌生的领地，包括雷道，才找到那种植物。"}}, {"q": {"en": "How does the blazing star help the sick cats?", "zh": "炽烈之星是如何帮助病猫的？"}, "options": [{"en": "It lights the camp at night", "zh": "它在夜里照亮营地"}, {"en": "Its leaves cure the sickness", "zh": "它的叶子治愈了疾病"}, {"en": "It scares away predators", "zh": "它吓跑了捕食者"}, {"en": "It fills the river", "zh": "它灌满了河流"}], "answer": 1, "explain": {"en": "When the cats bring the plant back, its leaves are used to cure those who are ill.", "zh": "猫群把植物带回来后，用它的叶子治好了生病的同伴。"}}, {"q": {"en": "What does Half Moon's prophecy show about the spirits in the sky?", "zh": "半月的预言说明了天上的祖灵怎样？"}, "options": [{"en": "They have abandoned the cats", "zh": "它们抛弃了猫群"}, {"en": "They watch over and guide the living", "zh": "它们守护并指引着生者"}, {"en": "They live in the river", "zh": "它们住在河里"}, {"en": "They are afraid of One Eye", "zh": "它们害怕独眼"}], "answer": 1, "explain": {"en": "The spirits send the prophecy to save the cats, showing they watch over and guide the living.", "zh": "祖灵送出预言来拯救猫群，说明它们守护并指引着生者。"}}, {"q": {"en": "What feeling spreads among the cats after the cure is found?", "zh": "找到解药后，猫群中弥漫着怎样的情绪？"}, "options": [{"en": "Fear and anger", "zh": "恐惧与愤怒"}, {"en": "Relief and hope", "zh": "如释重负与希望"}, {"en": "A wish to leave", "zh": "想要离开的愿望"}, {"en": "Jealousy", "zh": "嫉妒"}], "answer": 1, "explain": {"en": "With the sickness cured, the cats feel relief and renewed hope for their future.", "zh": "疾病被治愈后，猫群如释重负，对未来重燃希望。"}}, {"q": {"en": "How does The Blazing Star show the growing bond between the cat groups?", "zh": "《炽烈之星》如何展现了各猫群之间日益紧密的联系？"}, "options": [{"en": "They fight each other", "zh": "它们互相争斗"}, {"en": "They share the cure and help one another", "zh": "它们分享解药、互相帮助"}, {"en": "They split apart", "zh": "它们分崩离析"}, {"en": "They ignore the sick", "zh": "它们无视病者"}], "answer": 1, "explain": {"en": "The groups work together, share the healing plant, and care for each other through the crisis.", "zh": "各群体通力合作，分享治病植物，并在危机中彼此照料。"}}, {"q": {"en": "What major step toward forming the Clans comes from this crisis?", "zh": "这场危机推动了族群形成的哪一步重大进展？"}, "options": [{"en": "The cats decide to form Clans and share a code", "zh": "猫群决定组建族群并共守法则"}, {"en": "They return to the mountains", "zh": "它们返回山地"}, {"en": "They become kittypets", "zh": "它们成了宠物猫"}, {"en": "They forget the spirits", "zh": "它们遗忘了祖灵"}], "answer": 0, "explain": {"en": "Surviving the sickness together pushes the cats closer to organizing as the future Clans.", "zh": "共同熬过疾病，使猫群更接近于组建未来的族群。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

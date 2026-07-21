@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hawkwing's Journey · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Hawkwing's Journey</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">鹰翅的旅程</p>
+    <div class="mark">🦅</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">SkyClan's deputy Hawkwing leads his Clan from the gorge to the lake, guided by StarClan to rejoin the other Clans.<br><span style="color:#a06a1f">天族副族长鹰翅带领族猫离开峡谷，在星族的指引下去湖畔与其他猫族重新会合。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Super Editions — Hawkwing's Journey</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Which Clan does Hawkwing belong to?", "zh": "鹰翅（Hawkwing）属于哪个猫族？"}, "options": [{"en": "SkyClan", "zh": "天族（SkyClan）"}, {"en": "ThunderClan", "zh": "雷族（ThunderClan）"}, {"en": "RiverClan", "zh": "河族（RiverClan）"}, {"en": "ShadowClan", "zh": "影族（ShadowClan）"}], "answer": 0, "explain": {"en": "Hawkwing is a warrior of SkyClan, the Clan that lives apart in the gorge, far from the other four Clans.", "zh": "鹰翅是天族（SkyClan）的武士。天族独自住在峡谷里，远离其他四个族。"}}, {"q": {"en": "Who leads SkyClan at the beginning of Hawkwing's Journey?", "zh": "在《鹰翅的旅程》开头，天族的族长是谁？"}, "options": [{"en": "Leafstar", "zh": "叶星（Leafstar）"}, {"en": "Firestar", "zh": "火星（Firestar）"}, {"en": "Sharpclaw", "zh": "利爪（Sharpclaw）"}, {"en": "Echosong", "zh": "回声歌（Echosong）"}], "answer": 0, "explain": {"en": "Leafstar is the leader of SkyClan in the gorge, guiding her Clan through the events of the book.", "zh": "叶星（Leafstar）是峡谷中天族的族长，在故事中带领她的族度过重重难关。"}}, {"q": {"en": "Who is SkyClan's medicine cat who receives guiding signs from StarClan?", "zh": "天族的巫医是谁？她从星族（StarClan）那里接收到指引的征兆。"}, "options": [{"en": "Echosong", "zh": "回声歌（Echosong）"}, {"en": "Leafpool", "zh": "叶池（Leafpool）"}, {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"}, {"en": "Cinderpelt", "zh": "炭心（Cinderpelt）"}], "answer": 0, "explain": {"en": "Echosong is SkyClan's medicine cat; her visions from StarClan point the way to the lost Clans by the lake.", "zh": "回声歌（Echosong）是天族的巫医，她从星族得来的预言为天族指明了通往湖畔同伴的方向。"}}, {"q": {"en": "Who is Hawkwing's father and the deputy of SkyClan, killed by the rogue Darktail?", "zh": "谁是鹰翅的父亲，也是天族的副族长，最终被流浪猫暗尾（Darktail）杀死？"}, "options": [{"en": "Sharpclaw", "zh": "利爪（Sharpclaw）"}, {"en": "Firestar", "zh": "火星（Firestar）"}, {"en": "Billystorm", "zh": "暴风雨（Billystorm）"}, {"en": "Sandynose", "zh": "沙鼻（Sandynose）"}], "answer": 0, "explain": {"en": "Sharpclaw is Hawkwing's father and SkyClan's deputy; Darktail murders him when the rogues attack the gorge.", "zh": "利爪（Sharpclaw）是鹰翅的父亲，也是天族的副族长。当流浪猫袭击峡谷时，暗尾亲手杀死了他。"}}, {"q": {"en": "Which rogue cat tricks SkyClan with false directions and then attacks them?", "zh": "哪个流浪猫（rogue）用假情报欺骗天族，随后带手下袭击了他们？"}, "options": [{"en": "Darktail", "zh": "暗尾（Darktail）"}, {"en": "Barley", "zh": "大麦（Barley）"}, {"en": "Stick", "zh": "棍子（Stick）"}, {"en": "Dodge", "zh": "躲闪（Dodge）"}], "answer": 0, "explain": {"en": "Darktail pretends to help SkyClan find the other Clans, but his directions lead them into danger before he attacks.", "zh": "暗尾（Darktail）假装帮天族寻找其他猫族，却用假情报把天族引入险境，之后亲自带手下发动袭击。"}}, {"q": {"en": "Who is Hawkwing's mate, who becomes pregnant during the long journey?", "zh": "谁是鹰翅的伴侣，在漫长的旅途中怀上了他的孩子？"}, "options": [{"en": "Pebbleshine", "zh": "卵石光（Pebbleshine）"}, {"en": "Leafstar", "zh": "叶星（Leafstar）"}, {"en": "Blossomheart", "zh": "花心（Blossomheart）"}, {"en": "Plumwillow", "zh": "梅柳（Plumwillow）"}], "answer": 0, "explain": {"en": "Pebbleshine is Hawkwing's mate; she tells him she is expecting his kits while SkyClan is traveling.", "zh": "卵石光（Pebbleshine）是鹰翅的伴侣。天族迁徙途中，她告诉鹰翅自己怀上了他的孩子。"}}, {"q": {"en": "How does Pebbleshine become separated from SkyClan?", "zh": "卵石光（Pebbleshine）是怎样和天族走散的？"}, "options": [{"en": "She is trapped in a Twoleg monster while hunting birds and carried away", "zh": "她捕鸟时被两脚兽的怪物（卡车）困住并被带走"}, {"en": "She chooses to stay behind as a kittypet", "zh": "她选择留下来当宠物猫"}, {"en": "She is carried off by a badger", "zh": "她被獾抓走了"}, {"en": "She gets lost inside a tunnel", "zh": "她在地道里迷了路"}], "answer": 0, "explain": {"en": "While hunting birds from a monster, Pebbleshine is trapped inside it and the Twoleg drives it away, separating her from the Clan.", "zh": "卵石光在从一辆怪物（卡车）里抓鸟时，被关了进去，两脚兽开车把它带走，她就此与族离散。"}}, {"q": {"en": "What are the names of Hawkwing and Pebbleshine's two kits?", "zh": "鹰翅和卵石光的两个孩子叫什么名字？"}, "options": [{"en": "Twigkit and Violetkit", "zh": "枝崽（Twigkit）和紫罗兰崽（Violetkit）"}, {"en": "Dawnkit and Firekit", "zh": "黎明崽（Dawnkit）和火崽（Firekit）"}, {"en": "Leafkit and Stormkit", "zh": "叶崽（Leafkit）和暴风崽（Stormkit）"}, {"en": "Sandkit and Cloudkit", "zh": "沙崽（Sandkit）和云崽（Cloudkit）"}], "answer": 0, "explain": {"en": "Pebbleshine gives birth to two she-kits, Twigkit and Violetkit, who are later known as Twigpaw and Violetpaw.", "zh": "卵石光生下两只母猫幼崽——枝崽（Twigkit）和紫罗兰崽（Violetkit），后来分别叫枝爪和紫罗兰爪。"}}, {"q": {"en": "Where are the two kits, Twigpaw and Violetpaw, raised after being found?", "zh": "两只幼崽枝爪（Twigpaw）和紫罗兰爪（Violetpaw）被找到后，分别在哪个族长大？"}, "options": [{"en": "Twigpaw in ThunderClan and Violetpaw in ShadowClan", "zh": "枝爪在雷族（ThunderClan）、紫罗兰爪在影族（ShadowClan）"}, {"en": "Both in SkyClan", "zh": "都在天族（SkyClan）"}, {"en": "Both in RiverClan", "zh": "都在河族（RiverClan）"}, {"en": "Both as kittypets", "zh": "都成了宠物猫"}], "answer": 0, "explain": {"en": "Alderpaw and Needlepaw bring the kits to the Clans; Twigpaw joins ThunderClan and Violetpaw joins ShadowClan.", "zh": "桦爪（Alderpaw）和针爪（Needlepaw）把两只幼崽带回族里：枝爪加入了雷族，紫罗兰爪加入了影族。"}}, {"q": {"en": "By the end of the book, what role does Hawkwing hold, and where does SkyClan settle?", "zh": "到本书结尾，鹰翅在天族担任什么职务？天族最终在哪里安家？"}, "options": [{"en": "He is deputy, and SkyClan joins the other Clans at the lake as the fifth Clan", "zh": "他成为副族长，天族作为第五个族在湖畔与其他族会合"}, {"en": "He is leader, ruling the gorge", "zh": "他成为峡谷里的族长"}, {"en": "He becomes SkyClan's medicine cat", "zh": "他当了天族的巫医"}, {"en": "He leaves to become a kittypet", "zh": "他离开去当了宠物猫"}], "answer": 0, "explain": {"en": "Hawkwing becomes SkyClan's deputy, and the wandering Clan finally reaches the lake to take its place as the fifth Clan.", "zh": "鹰翅成为天族的副族长，而四处漂泊的天族终于抵达湖畔，作为第五个族在各族中获得了自己的位置。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

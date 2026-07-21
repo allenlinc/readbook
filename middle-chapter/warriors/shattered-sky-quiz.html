@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shattered Sky · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Shattered Sky</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">破碎天空</p>
+    <div class="mark">💥</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">The Clans unite to free ShadowClan, the lost SkyClan returns, and Darktail meets his end in the river.<br><span style="color:#a06a1f">各族联合起来解放影族，失落的天族归来，暗尾也在河水中迎来了终结。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: A Vision of Shadows — Shattered Sky</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "To free ShadowClan, the other Clans unite to fight ___ .", "zh": "为了解放影族，其他族群联合起来对抗___。"}, "options": [{"en": "Darktail and the Kin", "zh": "暗尾与亲族（Darktail and the Kin）"}, {"en": "the Dark Forest", "zh": "黑森林（the Dark Forest）"}, {"en": "BloodClan", "zh": "血族（BloodClan）"}, {"en": "the Twolegs", "zh": "两脚兽（the Twolegs）"}], "answer": 0, "explain": {"en": "The four Clans join forces to drive Darktail and his Kin out of ShadowClan.", "zh": "四大族群联手，要把暗尾和他的亲族赶出影族。"}}, {"q": {"en": "Which long-lost Clan returns to the lake to help in the battle?", "zh": "哪一支失落已久的族群回到湖畔，前来助战？"}, "options": [{"en": "SkyClan", "zh": "天族（SkyClan）"}, {"en": "BloodClan", "zh": "血族（BloodClan）"}, {"en": "The Tribe of Rushing Water", "zh": "奔流部落（The Tribe of Rushing Water）"}, {"en": "The Ancients", "zh": "远古猫（The Ancients）"}], "answer": 0, "explain": {"en": "SkyClan, led by Leafstar and warriors like Hawkwing, arrives at the lake just in time to help.", "zh": "由叶星（Leafstar）和鹰翅（Hawkwing）等武士带领的天族，恰好在此时抵达湖畔相助。"}}, {"q": {"en": "SkyClan is led by its leader, whose name is ___ .", "zh": "天族由其族长带领，这位族长名叫___。"}, "options": [{"en": "Leafstar", "zh": "叶星（Leafstar）"}, {"en": "Hawkwing", "zh": "鹰翅（Hawkwing）"}, {"en": "Echosong", "zh": "回歌（Echosong）"}, {"en": "Bilberry", "zh": "越橘（Bilberry）"}], "answer": 0, "explain": {"en": "Leafstar is the leader of SkyClan, the cat who guides her Clan back to the lake territories.", "zh": "叶星（Leafstar）是天族的族长，正是她带领族群回到湖畔领地。"}}, {"q": {"en": "Needletail, who once followed Darktail, dies by ___ to help the Clans.", "zh": "曾经追随暗尾的针尾，为了帮助各族，___而死。"}, "options": [{"en": "drowning in the river (sacrificing herself)", "zh": "在河中溺亡（牺牲自己）"}, {"en": "a battle wound", "zh": "战伤"}, {"en": "old age", "zh": "年老"}, {"en": "sickness", "zh": "病逝"}], "answer": 0, "explain": {"en": "Needletail drowns in the river while trying to escape Darktail and protect the Clans she betrayed.", "zh": "针尾为了逃离暗尾、保护她曾经背叛的族群，在河中溺亡，牺牲了自己。"}}, {"q": {"en": "Darktail is finally defeated when he ___ .", "zh": "暗尾最终被击败，是因为他___。"}, "options": [{"en": "drowns in the river", "zh": "在河中溺亡（drowns in the river）"}, {"en": "is made a Clan leader", "zh": "当上了族长"}, {"en": "joins StarClan", "zh": "加入了星族"}, {"en": "is exiled to the mountains", "zh": "被流放到山区"}], "answer": 0, "explain": {"en": "During the battle, Darktail is swept into the river and drowns, ending his cruel rule.", "zh": "战斗中，暗尾被冲进河里溺亡，他残酷的统治就此终结。"}}, {"q": {"en": "After the Kin is driven out, who leads ShadowClan again?", "zh": "亲族被赶走后，谁重新领导影族？"}, "options": [{"en": "Rowanstar", "zh": "罗星（Rowanstar）"}, {"en": "Tigerheart", "zh": "虎心（Tigerheart）"}, {"en": "Blackstar", "zh": "黑星（Blackstar）"}, {"en": "Bramblestar", "zh": "棘星（Bramblestar）"}], "answer": 0, "explain": {"en": "Rowanstar and the exiled ShadowClan cats return home and take back their Clan.", "zh": "罗星（Rowanstar）和流亡的影族猫回到家园，重新接管了自己的族群。"}}, {"q": {"en": "Twigpaw and Violetpaw discover they are ___ .", "zh": "小枝爪和小紫爪发现她们其实是___。"}, "options": [{"en": "sisters", "zh": "亲姐妹（sisters）"}, {"en": "enemies", "zh": "敌人"}, {"en": "cousins", "zh": "表姐妹"}, {"en": "strangers", "zh": "陌生人"}], "answer": 0, "explain": {"en": "Though raised apart in different Clans, Twigpaw and Violetpaw are littermate sisters.", "zh": "虽然在不同族群长大，小枝爪和小紫爪其实是同一窝的亲姐妹。"}}, {"q": {"en": "The Clans needed SkyClan so that all ___ Clans would stand at the lake.", "zh": "各族需要天族，这样湖畔才会有完整的___个族群。"}, "options": [{"en": "five", "zh": "五（five）"}, {"en": "four", "zh": "四（four）"}, {"en": "six", "zh": "六（six）"}, {"en": "three", "zh": "三（three）"}], "answer": 0, "explain": {"en": "Long ago SkyClan was the fifth Clan at the lake; bringing them back makes the five Clans whole.", "zh": "很久以前天族是湖畔的第五支族群；让它归来，五族才得以完整。"}}, {"q": {"en": "Alderheart uses his skills as a ___ to help the wounded after the battle.", "zh": "战后，赤杨心以___的身份救治伤者。"}, "options": [{"en": "medicine cat", "zh": "巫医（medicine cat）"}, {"en": "warrior", "zh": "武士（warrior）"}, {"en": "leader", "zh": "族长（leader）"}, {"en": "elder", "zh": "长老（elder）"}], "answer": 0, "explain": {"en": "As ThunderClan's medicine cat, Alderheart heals the cats hurt in the fight against the Kin.", "zh": "作为雷族的巫医，赤杨心救治了在与亲族之战中受伤的猫。"}}, {"q": {"en": "SkyClan is brought to the lake largely thanks to the brave warrior ___ .", "zh": "天族能回到湖畔，很大程度上要归功于勇敢的武士___。"}, "options": [{"en": "Hawkwing", "zh": "鹰翅（Hawkwing）"}, {"en": "Leafstar", "zh": "叶星（Leafstar）"}, {"en": "Alderheart", "zh": "赤杨心（Alderheart）"}, {"en": "Bramblestar", "zh": "棘星（Bramblestar）"}], "answer": 0, "explain": {"en": "Hawkwing leads SkyClan on the long journey back to the lake and fights beside the other Clans.", "zh": "鹰翅（Hawkwing）带领天族踏上返回湖畔的漫长旅程，并与其他族群并肩作战。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

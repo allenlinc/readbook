@@ -1,0 +1,177 @@
+{
+  "slug": "sign-of-the-moon",
+  "desc": "Jayfeather journeys to the mountains to meet the Tribe of Rushing Water, walks in the dreams of the ancient cats, and learns that a fourth cat must join the Three.",
+  "descZh": "松鸦羽前往山区拜访奔流部落，在远古猫的梦境中穿行，并得知必须再有第四只猫加入三力量。",
+  "questions": [
+    {
+      "q": {
+        "en": "Which cats travel to the mountains with Jayfeather?",
+        "zh": "哪几只猫与松鸦羽一同前往山区？"
+      },
+      "options": [
+        {"en": "Firestar, Graystripe, and Sandstorm", "zh": "火星、灰条、沙暴"},
+        {"en": "Foxleap, Squirrelflight, and Dovewing", "zh": "狐跃、松鼠飞、鸽翅"},
+        {"en": "Lionblaze, Cinderheart, and Ivypool", "zh": "狮焰、灰心、藤池"},
+        {"en": "Brambleclaw, Leafpool, and Hollyleaf", "zh": "莓棘、叶池、冬青叶"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Firestar sends Jayfeather to the mountains with Foxleap, Squirrelflight, and the newly made warrior Dovewing.",
+        "zh": "火星派松鸦羽与狐跃、松鼠飞以及刚成为武士的鸽翅一同前往山区。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the mountains, Jayfeather travels back in time as which ancient cat?",
+        "zh": "在山区，松鸦羽以哪只远古猫的身份回到过去？"
+      },
+      "options": [
+        {"en": "Jay's Wing", "zh": "杰之翼（Jay's Wing）"},
+        {"en": "Rock", "zh": "石头（Rock）"},
+        {"en": "Fallen Leaves", "zh": "落叶（Fallen Leaves）"},
+        {"en": "Half Moon", "zh": "半月（Half Moon）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Jayfeather's spirit becomes Jay's Wing, a sharpclaw of the Ancients who lived at the lake long before the Clans.",
+        "zh": "松鸦羽的魂魄化身为远古猫杰之翼——早在族群出现之前就住在湖边的「利爪」。"
+      }
+    },
+    {
+      "q": {
+        "en": "As Jay's Wing, Jayfeather falls in love with which she-cat among the Ancients?",
+        "zh": "作为杰之翼，松鸦羽与远古猫中的哪只母猫相恋？"
+      },
+      "options": [
+        {"en": "Dove's Wing", "zh": "鸽之翼（Dove's Wing）"},
+        {"en": "Half Moon", "zh": "半月（Half Moon）"},
+        {"en": "Shy Fawn", "zh": "羞鹿（Shy Fawn）"},
+        {"en": "Cloud", "zh": "云（Cloud）"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Jay's Wing grows close to Half Moon, and the two care deeply for each other across the ages.",
+        "zh": "杰之翼与半月渐生情愫，跨越时空彼此倾心。"
+      }
+    },
+    {
+      "q": {
+        "en": "Jayfeather names Half Moon as the first what in the Tribe?",
+        "zh": "松鸦羽册封半月为部落中的第一位什么？"
+      },
+      "options": [
+        {"en": "Stoneteller, the Tribe's combined leader and medicine cat", "zh": "石语者（Stoneteller，兼首领与巫医于一身）"},
+        {"en": "Cave Guard", "zh": "洞穴守卫（Cave Guard）"},
+        {"en": "Sharpclaw", "zh": "利爪（Sharpclaw）"},
+        {"en": "Healer of the Clans", "zh": "族群的治愈者"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Jayfeather makes Half Moon the first Teller of the Pointed Stones, also called the Stoneteller, the Tribe's leader and healer.",
+        "zh": "松鸦羽册封半月为第一位「尖石低语者」（即石语者），也就是部落的首领兼医者。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the ancient dreams, which cat is revealed to be Lionblaze's ancient form?",
+        "zh": "在远古的梦境中，哪只猫被揭示为狮焰的前世？"
+      },
+      "options": [
+        {"en": "Lion's Roar", "zh": "狮吼（Lion's Roar）"},
+        {"en": "Jay's Wing", "zh": "杰之翼（Jay's Wing）"},
+        {"en": "Stone Song", "zh": "石歌（Stone Song）"},
+        {"en": "Furled Bracken", "zh": "卷蕨（Furled Bracken）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "When Shy Fawn's kit is born with a mighty yowl, Jayfeather realizes the kit Lion's Roar is really his brother Lionblaze reborn.",
+        "zh": "羞鹿生下的幼猫发出嘹亮吼声，松鸦羽恍然醒悟——那只叫「狮吼」的幼猫正是他弟弟狮焰的转世。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the ancient dreams, Dovewing appears as which cat?",
+        "zh": "在远古的梦境中，鸽翅以哪只猫的形象出现？"
+      },
+      "options": [
+        {"en": "Dove's Wing", "zh": "鸽之翼（Dove's Wing）"},
+        {"en": "Half Moon", "zh": "半月（Half Moon）"},
+        {"en": "Swoop", "zh": "俯冲（Swoop）"},
+        {"en": "Cloud", "zh": "云（Cloud）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Dovewing's ancient self is Dove's Wing, sister of Jay's Wing, showing the Three lived before as the Ancients.",
+        "zh": "鸽翅的远古化身是鸽之翼——杰之翼的妹妹，证明三力量也曾以远古猫的身份存在。"
+      }
+    },
+    {
+      "q": {
+        "en": "Back in the present, Jayfeather chooses who as the new Stoneteller of the modern Tribe?",
+        "zh": "回到现世后，松鸦羽挑选谁担任现代部落的新任石语者？"
+      },
+      "options": [
+        {"en": "Cloud", "zh": "云（Cloud）"},
+        {"en": "Crag Where Eagles Nest", "zh": "鹰巢岩（Crag Where Eagles Nest）"},
+        {"en": "Stone Song", "zh": "石歌（Stone Song）"},
+        {"en": "Half Moon", "zh": "半月（Half Moon）"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The old Stoneteller died without naming a successor, so Jayfeather chooses Crag Where Eagles Nest to lead the Tribe.",
+        "zh": "老石语者逝去时未指定继任者，于是松鸦羽挑选鹰巢岩来领导部落。"
+      }
+    },
+    {
+      "q": {
+        "en": "Jayfeather, Lionblaze, and Dovewing discover that which cat they thought was dead is actually still alive?",
+        "zh": "松鸦羽、狮焰和鸽翅发现，哪只他们认为已死的猫其实还活着？"
+      },
+      "options": [
+        {"en": "Hollyleaf", "zh": "冬青叶（Hollyleaf）"},
+        {"en": "Russetfur", "zh": "赤杨毛（Russetfur）"},
+        {"en": "Flametail", "zh": "焰尾（Flametail）"},
+        {"en": "Briarpaw", "zh": "苔爪（Briarpaw）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The three realize Hollyleaf survived the tunnel collapse long ago and is still living secretly in the forest.",
+        "zh": "三人意识到冬青叶当年在地道塌陷中幸存，一直隐秘地生活在森林里。"
+      }
+    },
+    {
+      "q": {
+        "en": "During the journey, an eagle attacks the ancient cats. Which cat dies trying to save Flora from the eagle?",
+        "zh": "旅途中一只鹰袭击了远古猫。哪只猫为救 Flora 而死？"
+      },
+      "options": [
+        {"en": "Swoop", "zh": "俯冲（Swoop）"},
+        {"en": "Half Moon", "zh": "半月（Half Moon）"},
+        {"en": "Cloud", "zh": "云（Cloud）"},
+        {"en": "Stone Song", "zh": "石歌（Stone Song）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Swoop is carried off by the eagle's talons while trying to save Flora, giving her life to protect the kit.",
+        "zh": "俯冲为救 Flora 被鹰爪抓走而丧命，用自己的生命护住了幼猫。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the 'sign of the moon' that gives the book its name?",
+        "zh": "赋予本书书名的「月亮征兆」是什么？"
+      },
+      "options": [
+        {"en": "A star falling into the lake", "zh": "一颗星落入湖中"},
+        {"en": "The moon's reflection in a cave, read by Half Moon", "zh": "洞穴中月亮的倒影，由半月解读"},
+        {"en": "A full moon over the Clan camp", "zh": "族群营地上的满月"},
+        {"en": "A comet in the sky", "zh": "天空中的彗星"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Half Moon interprets the moon's reflection on the cave wall as a sign that their group will endure like the moon itself.",
+        "zh": "半月将洞穴壁上月亮的倒影解读为征兆：他们的群体将如月亮一般恒久存续。"
+      }
+    }
+  ]
+}

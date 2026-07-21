@@ -1,0 +1,177 @@
+{
+  "slug": "twilight",
+  "desc": "A badger raid hits ThunderClan, and Brambleclaw must kill his half-brother Hawkfrost to save Firestar.",
+  "descZh": "一场獾群的袭击重创雷族，荆棘爪为救火星，不得不杀死同父异母的弟弟鹰霜。",
+  "questions": [
+    {
+      "q": {
+        "en": "Which wise badger sends the Clans a warning that danger is coming?",
+        "zh": "哪只聪明的獾向猫族发出危险即将来临的警告？"
+      },
+      "options": [
+        {"en": "Midnight", "zh": "午夜（Midnight）"},
+        {"en": "Sharpclaw", "zh": "尖爪（Sharpclaw）"},
+        {"en": "Brokenstar", "zh": "碎星（Brokenstar）"},
+        {"en": "Barley", "zh": "大麦（Barley）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Midnight the badger warns the cats that trouble is on its way to the lake territories.",
+        "zh": "獾午夜警告猫们，麻烦正在逼近湖区的领地。"
+      }
+    },
+    {
+      "q": {
+        "en": "What attacks the ThunderClan camp during the troubles in Twilight?",
+        "zh": "在《暮色降临》的动乱中，是什么袭击了雷族的营地？"
+      },
+      "options": [
+        {"en": "A pack of dogs", "zh": "一群狗"},
+        {"en": "A band of badgers", "zh": "一队獾"},
+        {"en": "A flood of Twolegs", "zh": "一群两脚兽"},
+        {"en": "A troop of foxes", "zh": "一伙狐狸"}
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "A large group of badgers storms the ThunderClan camp, wounding many cats in a fierce fight.",
+        "zh": "一大群獾冲进雷族营地，在一场恶斗中咬伤了许多猫。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is Brambleclaw's half-brother in RiverClan who plots against Firestar?",
+        "zh": "谁是荆棘爪在河族的同父异母弟弟，并阴谋反对火星？"
+      },
+      "options": [
+        {"en": "Stormfur", "zh": "暴毛（Stormfur）"},
+        {"en": "Crowfeather", "zh": "乌掌（Crowfeather）"},
+        {"en": "Hawkfrost", "zh": "鹰霜（Hawkfrost）"},
+        {"en": "Blackstar", "zh": "黑星（Blackstar）"}
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Hawkfrost is another son of Tigerstar; like Brambleclaw, he is Tigerstar's kit, but he is cunning and cruel.",
+        "zh": "鹰霜也是虎星的儿子，和荆棘爪一样是虎星之子，但他狡诈而残忍。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does Hawkfrost try to kill Firestar?",
+        "zh": "鹰霜试图怎样杀死火星？"
+      },
+      "options": [
+        {"en": "He pushes him off a cliff", "zh": "他把火星推下悬崖"},
+        {"en": "He traps him and moves in for the kill", "zh": "他设陷阱困住火星再下杀手"},
+        {"en": "He poisons his fresh-kill", "zh": "他给火星的猎物下毒"},
+        {"en": "He drowns him in the lake", "zh": "他把火星淹进湖里"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Hawkfrost lures Firestar into a trap (a fox trap) and then attacks him while he is caught.",
+        "zh": "鹰霜把火星诱入陷阱（捕狐夹），趁他被困住时下手。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who kills Hawkfrost to save Firestar's life?",
+        "zh": "谁为了救火星，杀死了鹰霜？"
+      },
+      "options": [
+        {"en": "Graystripe", "zh": "灰条（Graystripe）"},
+        {"en": "Crowfeather", "zh": "乌掌（Crowfeather）"},
+        {"en": "Onestar", "zh": "一星（Onestar）"},
+        {"en": "Brambleclaw", "zh": "荆棘爪（Brambleclaw）"}
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Brambleclaw frees Firestar and is forced to kill Hawkfrost with a thorn to protect his leader.",
+        "zh": "荆棘爪救出火星，为了保卫族长，不得不用一根荆棘刺死鹰霜。"
+      }
+    },
+    {
+      "q": {
+        "en": "Where do Leafpool and Crowfeather run away to together?",
+        "zh": "叶池和乌掌一起私奔去了哪里？"
+      },
+      "options": [
+        {"en": "To the ocean shore", "zh": "去海滨"},
+        {"en": "To the mountains and the Tribe", "zh": "去山中投奔部落"},
+        {"en": "To live with Twolegs", "zh": "去和两脚兽同住"},
+        {"en": "To the old forest", "zh": "回旧森林"}
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The two lovers flee toward the mountains to be with each other, far from their Clans.",
+        "zh": "这对恋人逃向群山，想远离族群、相守在一起。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why do Leafpool and Crowfeather return instead of staying together?",
+        "zh": "叶池和乌掌为什么没有长相厮守，而是回来了？"
+      },
+      "options": [
+        {"en": "They are driven out by the Tribe", "zh": "他们被部落赶了出来"},
+        {"en": "They cannot abandon their Clans and duties", "zh": "他们无法抛弃自己的族群和职责"},
+        {"en": "They quarrel and part", "zh": "他们吵了一架便分开了"},
+        {"en": "They are caught by Twolegs", "zh": "他们被两脚兽抓住了"}
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Though they love each other, both feel they must go back to serve their Clans as medicine cat and warrior.",
+        "zh": "尽管相爱，两人都觉得自己必须回去，继续履行巫医与武士的职责。"
+      }
+    },
+    {
+      "q": {
+        "en": "What causes a rift between Brambleclaw and Squirrelflight in this book?",
+        "zh": "在这一册里，是什么让荆棘爪和松鼠飞之间出现了裂痕？"
+      },
+      "options": [
+        {"en": "He kept secrets from her", "zh": "他瞒着她一些事"},
+        {"en": "She loses a battle", "zh": "她在一场战斗中失利"},
+        {"en": "They disagree about the lake", "zh": "他们在湖泊一事上意见不合"},
+        {"en": "He leaves the Clan", "zh": "他离开了族群"}
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Squirrelflight is hurt that Brambleclaw hides his visions and choices from her, straining their bond.",
+        "zh": "松鼠飞因荆棘爪对她隐瞒自己的异象与抉择而伤心，两人的关系因此紧张。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is the father of both Brambleclaw and Hawkfrost?",
+        "zh": "荆棘爪和鹰霜的父亲都是谁？"
+      },
+      "options": [
+        {"en": "Firestar", "zh": "火星（Firestar）"},
+        {"en": "Graystripe", "zh": "灰条（Graystripe）"},
+        {"en": "Tigerstar", "zh": "虎星（Tigerstar）"},
+        {"en": "Crookedstar", "zh": "曲星（Crookedstar）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Both are sons of Tigerstar, which is why some cats fear Brambleclaw may share his father's evil.",
+        "zh": "二者都是虎星之子，所以一些猫担心荆棘爪会继承父亲的邪恶。"
+      }
+    },
+    {
+      "q": {
+        "en": "After Hawkfrost's death, what does Brambleclaw prove to the Clans?",
+        "zh": "鹰霜死后，荆棘爪向各族证明了什么？"
+      },
+      "options": [
+        {"en": "That he is as cruel as Tigerstar", "zh": "他像虎星一样残忍"},
+        {"en": "That he wants to rule all Clans", "zh": "他想统治所有族群"},
+        {"en": "That he is loyal to ThunderClan", "zh": "他对雷族忠心耿耿"},
+        {"en": "That he fears badgers", "zh": "他害怕獾"}
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "By saving Firestar and killing his own treacherous half-brother, Brambleclaw shows his true loyalty.",
+        "zh": "荆棘爪救下火星、亲手除掉背信弃义的同父异母弟弟，证明了自己的忠诚。"
+      }
+    }
+  ]
+}

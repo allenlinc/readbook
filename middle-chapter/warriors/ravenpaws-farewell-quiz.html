@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ravenpaw's Farewell · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Ravenpaw's Farewell</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">鸦爪的告别</p>
+    <div class="mark">👋</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">In his final days, Ravenpaw makes one last journey to help two young cats find SkyClan.<br><span style="color:#a06a1f">在生命最后的日子里，乌爪踏上最后一次旅程，帮助两只小猫找到天族。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Novellas — Ravenpaw's Farewell</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Where does Ravenpaw live at the start of the story?", "zh": "故事开始时，乌爪住在哪里？"}, "options": [{"en": "In ThunderClan's camp", "zh": "在雷族的营地"}, {"en": "On a farm with his friend Barley", "zh": "在农场，和好友谷粒（Barley）一起"}, {"en": "In ShadowClan", "zh": "在影族"}, {"en": "Alone in the loner woods", "zh": "独自在泼皮猫的树林里"}], "answer": 1, "explain": {"en": "After leaving ThunderClan long ago, Ravenpaw lives happily on a farm with his friend and companion Barley.", "zh": "乌爪多年前离开雷族后，一直和好友兼伴侣谷粒在农场里平静生活。"}}, {"q": {"en": "What is wrong with Ravenpaw's health in this story?", "zh": "这个故事里，乌爪的身体出了什么问题？"}, "options": [{"en": "He has a painful lump in his belly and is dying", "zh": "他肚子里有疼痛的肿块，生命垂危"}, {"en": "He has a broken leg", "zh": "他的腿断了"}, {"en": "He is blind", "zh": "他失明了"}, {"en": "He has lost his hearing", "zh": "他听不见了"}], "answer": 0, "explain": {"en": "Ravenpaw has a painful lump in his belly that will not go away; he knows his life is coming to an end.", "zh": "乌爪肚子里长了一个一直疼的肿块，他知道自己时日无多。"}}, {"q": {"en": "Who is Barley's sister that Ravenpaw and Barley meet near the old forest?", "zh": "乌爪和谷粒在旧森林附近遇到的、谷粒的姐姐是谁？"}, "options": [{"en": "Princess", "zh": "公主（Princess）"}, {"en": "Violet", "zh": "紫罗兰（Violet）"}, {"en": "Smoky", "zh": "烟霾（Smoky）"}, {"en": "Millie", "zh": "米莉（Millie）"}], "answer": 1, "explain": {"en": "Barley's sister Violet is a kittypet who lives in a Twoleg house near the old forest with her kits.", "zh": "谷粒的姐姐紫罗兰是一只宠物猫，住在旧森林附近的两脚兽家里，还带着几只小猫。"}}, {"q": {"en": "Which two of Violet's kits dream of becoming warriors and travel with Ravenpaw?", "zh": "紫罗兰的哪两只小猫梦想成为武士，并和乌爪一起踏上旅程？"}, "options": [{"en": "Lulu and Patch", "zh": "露露（Lulu）和patch（Patch）"}, {"en": "Riley and Bella", "zh": "赖利（Riley）和贝拉（Bella）"}, {"en": "Cloud and Storm", "zh": "云（Cloud）和风暴（Storm）"}, {"en": "Fern and Daisy", "zh": "蕨（Fern）和黛西（Daisy）"}], "answer": 1, "explain": {"en": "Riley and Bella, Violet's adventurous kits, beg Ravenpaw to let them become warriors and journey with him.", "zh": "紫罗兰家两只爱冒险的小猫赖利和贝拉，恳求乌爪让他们成为武士并随他同行。"}}, {"q": {"en": "In a dream, which StarClan cat tells Ravenpaw to take the two kits to SkyClan?", "zh": "在梦中，是哪只星族的猫嘱咐乌爪把两只小猫带去天族？"}, "options": [{"en": "Silverstream", "zh": "银溪（Silverstream）"}, {"en": "Firestar", "zh": "火星（Firestar）"}, {"en": "Bluestar", "zh": "蓝星（Bluestar）"}, {"en": "Cinderpelt", "zh": "炭皮（Cinderpelt）"}], "answer": 0, "explain": {"en": "Silverstream visits Ravenpaw in a dream and tells him to take Riley and Bella to SkyClan so they can train as warriors.", "zh": "银溪在梦中拜访乌爪，让他把赖利和贝拉带去天族，让他们接受武士训练。"}}, {"q": {"en": "Which Clan do Ravenpaw and the kits finally find at the gorge?", "zh": "乌爪和小猫最终在峡谷里找到的是哪个族群？"}, "options": [{"en": "RiverClan", "zh": "河族（RiverClan）"}, {"en": "SkyClan", "zh": "天族（SkyClan）"}, {"en": "WindClan", "zh": "风族（WindClan）"}, {"en": "ShadowClan", "zh": "影族（ShadowClan）"}], "answer": 1, "explain": {"en": "Ravenpaw leads Riley and Bella to SkyClan's home in the gorge, where the Clan has settled.", "zh": "乌爪把赖利和贝拉带到了天族在峡谷里的家园。"}}, {"q": {"en": "Who is the leader of SkyClan that Ravenpaw meets?", "zh": "乌爪见到的天族族长是谁？"}, "options": [{"en": "Leafstar", "zh": "叶星（Leafstar）"}, {"en": "Hawkwing", "zh": "鹰翅（Hawkwing）"}, {"en": "Firestar", "zh": "火星（Firestar）"}, {"en": "Tallstar", "zh": "高星（Tallstar）"}], "answer": 0, "explain": {"en": "Ravenpaw speaks with Leafstar, the leader of SkyClan, about how to protect the Clan.", "zh": "乌爪和天族族长叶星商量如何保护族群。"}}, {"q": {"en": "What problem does SkyClan face that Ravenpaw helps them solve?", "zh": "天族正面临什么麻烦，乌爪出手帮忙解决了？"}, "options": [{"en": "A flood in their camp", "zh": "营地被洪水淹没"}, {"en": "Aggressive kittypets invading their territory", "zh": "凶恶的宠物猫入侵他们的领地"}, {"en": "A lack of a medicine cat", "zh": "缺少巫医"}, {"en": "A fire in the gorge", "zh": "峡谷里起了大火"}], "answer": 1, "explain": {"en": "SkyClan is troubled by hostile kittypets; Ravenpaw helps them drive the invaders away in a battle.", "zh": "天族被敌对的宠物猫骚扰，乌爪帮他们在战斗中赶走了入侵者。"}}, {"q": {"en": "Where does Ravenpaw die?", "zh": "乌爪是在哪里死去的？"}, "options": [{"en": "In the barn at the farm", "zh": "农场里的谷仓中"}, {"en": "Beneath a tree, with Barley beside him", "zh": "在一棵树下，谷粒陪在他身边"}, {"en": "In the ThunderClan camp", "zh": "在雷族营地"}, {"en": "At the Moonstone", "zh": "在月石旁"}], "answer": 1, "explain": {"en": "After the battle, Ravenpaw dies peacefully beneath the trees with his beloved friend Barley at his side.", "zh": "战斗结束后，乌爪在树下安详离世，挚友谷粒陪在他身旁。"}}, {"q": {"en": "In a StarClan dream, why does Ravenpaw refuse a warrior name and a place in StarClan?", "zh": "在星族的梦境里，乌爪为什么拒绝授予武士名号、也拒绝进入星族？"}, "options": [{"en": "He wants to be with Barley wherever Barley may be", "zh": "他想要和谷粒在一起，无论谷粒身在何处"}, {"en": "He is angry at StarClan", "zh": "他对星族感到愤怒"}, {"en": "He wants to be a loner forever", "zh": "他想永远当一只泼皮猫"}, {"en": "He does not believe in StarClan", "zh": "他不相信星族"}], "answer": 0, "explain": {"en": "Bluestar, Lionheart, and Whitestorm offer Ravenpaw a place in StarClan, but he declines so he can be with Barley in the afterlife.", "zh": "蓝星、狮心和白风暴邀请乌爪进入星族，但他拒绝了，只愿在死后与谷粒相伴。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

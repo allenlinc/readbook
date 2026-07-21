@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Fourth Apprentice · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Fourth Apprentice</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">第四学徒</p>
+    <div class="mark">🐾</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">As a terrible drought grips the lake, a young apprentice named Dovepaw discovers a power that may be the key to saving the Clans—and the prophecy's missing third cat.<br><span style="color:#a06a1f">湖泊遭遇严重干旱，年轻学徒鸽爪（Dovepaw）发现自己拥有特殊能力，这或许正是拯救族群、补全预言中缺失的第三只猫的关键。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Omen of the Stars — The Fourth Apprentice</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "In the prophecy 'After the sharp-eyed jay and the roaring lion, peace will come on dove's gentle wing,' who is the third cat?", "zh": "在预言「目光锐利之鹪，怒吼之狮之后，和平将随鸽翼轻柔而来」中，第三只猫是谁？"}, "options": [{"en": "Hollyleaf", "zh": "冬青叶（Hollyleaf）"}, {"en": "Dovepaw", "zh": "鸽爪（Dovepaw）"}, {"en": "Ivypaw", "zh": "藤爪（Ivypaw）"}, {"en": "Cinderheart", "zh": "灰心（Cinderheart）"}], "answer": 1, "explain": {"en": "Dovepaw is the third cat of the prophecy. Hollyleaf was once suspected, but the power truly belongs to Dovepaw.", "zh": "鸽爪是预言中的第三只猫。冬青叶曾被人怀疑，但拥有这股力量的其实是鸽爪。"}}, {"q": {"en": "What special power does Dovepaw possess?", "zh": "鸽爪拥有什么特殊能力？"}, "options": [{"en": "She can become invisible", "zh": "她能隐身"}, {"en": "She can hear and see things from very far away", "zh": "她能听见并看见很远以外的东西"}, {"en": "She can never be wounded in battle", "zh": "她战斗时永远不会受伤"}, {"en": "She can speak with StarClan at will", "zh": "她能随时与星族对话"}], "answer": 1, "explain": {"en": "Dovepaw can see, hear, and sense events and cats from great distances—a power that helps her learn why the lake is drying up.", "zh": "鸽爪能看见、听见并感知很远之外的事件和猫——这项能力帮她查明湖水干涸的原因。狮焰才不会受伤，那是狮焰的能力。"}}, {"q": {"en": "What is causing the lake to dry up and the terrible drought?", "zh": "是什么导致湖水干涸、旱灾降临？"}, "options": [{"en": "A long, cold winter", "zh": "漫长寒冷的冬天"}, {"en": "Beavers building a dam that blocks the stream", "zh": "河狸筑坝挡住了溪流"}, {"en": "A spell cast by the Dark Forest", "zh": "黑森林施下的咒语"}, {"en": "Too many cats drinking the water", "zh": "太多猫喝水"}], "answer": 1, "explain": {"en": "Beavers have built a dam far up the river, blocking the stream that feeds the lake and causing the drought.", "zh": "河狸在河流上游筑起水坝，挡住了注入湖泊的溪流，从而引发了旱灾。"}}, {"q": {"en": "Who is Dovepaw's mentor (the warrior training her)?", "zh": "谁是鸽爪的导师（负责训练她的武士）？"}, "options": [{"en": "Jayfeather", "zh": "松鸦羽（Jayfeather）"}, {"en": "Firestar", "zh": "火星（Firestar）"}, {"en": "Lionblaze", "zh": "狮焰（Lionblaze）"}, {"en": "Brackenfur", "zh": "蕨毛（Brackenfur）"}], "answer": 2, "explain": {"en": "Lionblaze is Dovepaw's mentor. Her sister Ivypaw is trained by Cinderheart.", "zh": "狮焰是鸽爪的导师。她的妹妹藤爪则由灰心训练。"}}, {"q": {"en": "On the journey to destroy the beaver dam, which RiverClan warrior is killed by a beaver?", "zh": "在摧毁河狸水坝的旅途中，哪名河族武士被河狸杀死？"}, "options": [{"en": "Rippletail", "zh": "涟尾（Rippletail）"}, {"en": "Mistyfoot", "zh": "雾脚（Mistyfoot）"}, {"en": "Reedwhisker", "zh": "苇须（Reedwhisker）"}, {"en": "Crookedstar", "zh": "断星（Crookedstar）"}], "answer": 0, "explain": {"en": "Rippletail of RiverClan is killed by a beaver during the patrol to break the dam.", "zh": "河族的涟尾在巡逻摧毁水坝时被河狸杀死。"}}, {"q": {"en": "At the Moonpool, Jayfeather is attacked by Breezepelt. Whose spirit comes to help Jayfeather?", "zh": "在月池边，松鸦羽遭到风皮（Breezepelt）袭击。是哪只猫的魂魄赶来相助？"}, "options": [{"en": "Yellowfang", "zh": "黄牙（Yellowfang）"}, {"en": "Honeyfern", "zh": "蜜蕨（Honeyfern）"}, {"en": "Bluestar", "zh": "蓝星（Bluestar）"}, {"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"}], "answer": 1, "explain": {"en": "The spirit of Honeyfern, Poppyfrost's dead sister, protects Jayfeather and chases Breezepelt and Brokenstar away.", "zh": "蜜蕨——波菊霜（Poppyfrost）死去的姐姐——的魂魄保护了松鸦羽，把风皮和碎星赶走。"}}, {"q": {"en": "Jayfeather and Lionblaze realize that which old enemy is gathering cats in the Dark Forest to fight StarClan?", "zh": "松鸦羽和狮焰意识到，是哪名宿敌正在黑森林召集猫群、准备对抗星族？"}, "options": [{"en": "Scourge", "zh": "长鞭（Scourge）"}, {"en": "Tigerstar", "zh": "虎星（Tigerstar）"}, {"en": "Brokenstar", "zh": "碎星（Brokenstar）"}, {"en": "Mapleshade", "zh": "枫荫（Mapleshade）"}], "answer": 1, "explain": {"en": "Tigerstar is recruiting dead warriors and living Clan cats in the Dark Forest to rise against StarClan and the living Clans.", "zh": "虎星正在黑森林招募死去的武士和活着的族群猫，准备起兵对抗星族与现世族群。"}}, {"q": {"en": "In the prophecy, the 'sharp-eyed jay' refers to which cat?", "zh": "预言中的「目光锐利之鹪」指的是哪只猫？"}, "options": [{"en": "Jayfeather", "zh": "松鸦羽（Jayfeather）"}, {"en": "Lionblaze", "zh": "狮焰（Lionblaze）"}, {"en": "Dovepaw", "zh": "鸽爪（Dovepaw）"}, {"en": "Firestar", "zh": "火星（Firestar）"}], "answer": 0, "explain": {"en": "The 'sharp-eyed jay' is Jayfeather, the blind medicine cat who can see through others' eyes and walk in dreams.", "zh": "「目光锐利之鹪」是松鸦羽——这位失明的巫医能通过别人的眼睛看东西，也能进入梦境。"}}, {"q": {"en": "The patrol to break the dam includes cats from several Clans. Which ShadowClan cat joins it?", "zh": "摧毁水坝的巡逻队由多个族群的猫组成。其中哪名影族猫参与其中？"}, "options": [{"en": "Blackstar", "zh": "黑星（Blackstar）"}, {"en": "Tigerheart", "zh": "虎心（Tigerheart）"}, {"en": "Russetfur", "zh": "赤杨毛（Russetfur）"}, {"en": "Flametail", "zh": "焰尾（Flametail）"}], "answer": 1, "explain": {"en": "Tigerheart of ShadowClan joins the patrol along with Toadfoot, while Rippletail and Petalfur represent RiverClan.", "zh": "影族的虎心与蟾足一同加入了巡逻队，而涟尾和瓣毛则代表河族。"}}, {"q": {"en": "After the beaver dam is destroyed, what happens to the lake's water?", "zh": "河狸水坝被摧毁后，湖水怎样了？"}, "options": [{"en": "It stays gone forever", "zh": "水永远消失了"}, {"en": "It returns to the lake", "zh": "水重新回到了湖里"}, {"en": "It turns salty", "zh": "水变咸了"}, {"en": "It freezes into ice", "zh": "水结成了冰"}], "answer": 1, "explain": {"en": "With help from some kittypets, the patrol breaks the dam and the stream flows again, bringing water back to the lake.", "zh": "在一些宠物猫的帮助下，巡逻队摧毁了水坝，溪流重新流淌，湖水再度充盈。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

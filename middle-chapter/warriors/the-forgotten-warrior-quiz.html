@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forgotten Warrior · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Forgotten Warrior</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">被遗忘的武士</p>
+    <div class="mark">⚔️</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">A mysterious loner named Sol returns to stir up trouble between ThunderClan and WindClan, while a cat thought long dead steps out of the tunnels to save her Clan.<br><span style="color:#a06a1f">神秘的独行猫索尔（Sol）归来，在雷族与风族之间挑起纷争，而一只被认为早已死去的猫从地道中走出，拯救了自己的族群。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Omen of the Stars — The Forgotten Warrior</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who actually saves the apprentices Cherrypaw and Molepaw from a fox—a cat believed to be dead?", "zh": "究竟是谁从狐狸口中救下了学徒樱爪（Cherrypaw）和鼹爪（Molepaw）？而它正是一只被认为已死的猫。"}, "options": [{"en": "Sol", "zh": "索尔（Sol）"}, {"en": "Hollyleaf", "zh": "冬青叶（Hollyleaf）"}, {"en": "Leafpool", "zh": "叶池（Leafpool）"}, {"en": "Cinderheart", "zh": "灰心（Cinderheart）"}], "answer": 1, "explain": {"en": "Hollyleaf, thought dead in a tunnel collapse, is the true rescuer. Sol only takes credit for the deed.", "zh": "被认为死于地道塌陷的冬青叶才是真正的救命恩猫，索尔只是冒领了功劳。"}}, {"q": {"en": "Which loner returns in this book, pretending to have saved the apprentices and plotting against the Clans?", "zh": "本书中归来的独行猫是谁？他假装救了学徒，又暗中策划反对族群。"}, "options": [{"en": "Sol", "zh": "索尔（Sol）"}, {"en": "Midnight", "zh": "午夜（Midnight）"}, {"en": "Ravenpaw", "zh": "鸦爪（Ravenpaw）"}, {"en": "Barley", "zh": "大麦（Barley）"}], "answer": 0, "explain": {"en": "Sol returns seeking vengeance and uses lies to turn the Clans against one another.", "zh": "索尔归来寻求报复，用谎言挑动各族相互对立。"}}, {"q": {"en": "Sol convinces which WindClan leader to attack ThunderClan through the tunnels?", "zh": "索尔说服了风族的哪位族长，经由地道攻打雷族？"}, "options": [{"en": "Onestar", "zh": "独星（Onestar）"}, {"en": "Blackstar", "zh": "黑星（Blackstar）"}, {"en": "Mistystar", "zh": "雾星（Mistystar）"}, {"en": "Firestar", "zh": "火星（Firestar）"}], "answer": 0, "explain": {"en": "Sol manipulates Onestar into leading WindClan through the old tunnels to surprise ThunderClan.", "zh": "索尔煽动独星，带领风族经由旧地道突袭雷族。"}}, {"q": {"en": "Who discovers Sol's plot by following him into the tunnels?", "zh": "是谁尾随索尔进入地道，从而发现了他的阴谋？"}, "options": [{"en": "Dovewing and Ivypool", "zh": "鸽翅和藤池（Dovewing and Ivypool）"}, {"en": "Jayfeather and Lionblaze", "zh": "松鸦羽和狮焰"}, {"en": "Firestar and Brambleclaw", "zh": "火星和莓棘"}, {"en": "Hollyleaf alone", "zh": "只有冬青叶"}], "answer": 0, "explain": {"en": "Sisters Dovewing and Ivypool slip into the tunnels and overhear Sol urging WindClan to attack.", "zh": "姐妹俩鸽翅与藤池潜入地道，亲耳听见索尔怂恿风族发动进攻。"}}, {"q": {"en": "In the tunnels, Hollyleaf reveals her true identity. What had everyone believed about her?", "zh": "在地道中，冬青叶表明身份。此前大家都以为她怎么了？"}, "options": [{"en": "That she had become a medicine cat", "zh": "她成了巫医"}, {"en": "That she died in a tunnel collapse", "zh": "她在地道塌陷中死了"}, {"en": "That she joined the Dark Forest", "zh": "她加入了黑森林"}, {"en": "That she lived with SkyClan", "zh": "她住在天族"}], "answer": 1, "explain": {"en": "All the Clans believed Hollyleaf perished when the tunnels caved in, so her return shocks everyone.", "zh": "各族都以为冬青叶在地道塌陷中丧生，因此她的归来令所有猫震惊。"}}, {"q": {"en": "After WindClan attacks through the tunnels, who trains ThunderClan in underground battle skills?", "zh": "风族经地道来袭后，是谁训练雷族在地下的战斗技巧？"}, "options": [{"en": "Hollyleaf", "zh": "冬青叶（Hollyleaf）"}, {"en": "Sol", "zh": "索尔（Sol）"}, {"en": "Lionblaze", "zh": "狮焰（Lionblaze）"}, {"en": "Ivypool", "zh": "藤池（Ivypool）"}], "answer": 0, "explain": {"en": "Hollyleaf, who survived alone in the tunnels for so long, teaches ThunderClan how to fight underground.", "zh": "长期独自在地道中求生的冬青叶，把地下作战的本事教给了雷族。"}}, {"q": {"en": "Hollyleaf defeats Sol but lets him go. Why?", "zh": "冬青叶击败了索尔却放他走。这是为什么？"}, "options": [{"en": "She is afraid of him", "zh": "她害怕他"}, {"en": "She follows the warrior code and sees no honor in killing him", "zh": "她遵守武士守则，认为杀他没有荣耀"}, {"en": "She wants him to join ThunderClan", "zh": "她想让他加入雷族"}, {"en": "Firestar ordered her to", "zh": "火星命令她这么做"}], "answer": 1, "explain": {"en": "Hollyleaf spares Sol because the warrior code teaches mercy, and she will not kill a defeated, unarmed enemy.", "zh": "冬青叶放过索尔，因为武士守则讲究怜悯，她不愿对落败且无还手之力的敌人下杀手。"}}, {"q": {"en": "Jayfeather works to awaken Cinderheart's memory of her past life as which cat?", "zh": "松鸦羽努力唤醒灰心前世的记忆——她前世是哪只猫？"}, "options": [{"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"}, {"en": "Leafpool", "zh": "叶池（Leafpool）"}, {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"}, {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"}], "answer": 0, "explain": {"en": "Cinderheart is the reincarnation of Cinderpelt, ThunderClan's former medicine cat who became a warrior.", "zh": "灰心是炭毛的转世——炭毛曾是雷族巫医，后转做武士。"}}, {"q": {"en": "Which cat begins to grow close to Dovewing in this book?", "zh": "本书中，哪只猫开始与鸽翅渐渐亲近？"}, "options": [{"en": "Bumblestripe", "zh": "花翅（Bumblestripe）"}, {"en": "Tigerheart", "zh": "虎心（Tigerheart）"}, {"en": "Foxleap", "zh": "狐跃（Foxleap）"}, {"en": "Toadfoot", "zh": "蟾足（Toadfoot）"}], "answer": 0, "explain": {"en": "While Dovewing's powers fade and return, Bumblestripe shows his affection and the two grow closer.", "zh": "在鸽翅能力时隐时现之际，花翅向她表达爱意，两只猫愈发亲近。"}}, {"q": {"en": "What is the meaning of the title 'The Forgotten Warrior'?", "zh": "书名「被遗忘的武士」指的是什么？"}, "options": [{"en": "It refers to Sol, the forgotten loner", "zh": "指被遗忘的独行猫索尔"}, {"en": "It refers to Hollyleaf, long thought dead and forgotten", "zh": "指被认为已死、遭人遗忘的冬青叶"}, {"en": "It refers to Firestar", "zh": "指火星"}, {"en": "It refers to the Dark Forest", "zh": "指黑森林"}], "answer": 1, "explain": {"en": "The 'forgotten warrior' is Hollyleaf, who vanished and was mourned as dead, then returned to save her Clan.", "zh": "「被遗忘的武士」就是冬青叶——她一度消失、被当作死者哀悼，却又归来拯救族群。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

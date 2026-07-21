@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunrise · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Sunrise</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">日出风暴</p>
+    <div class="mark">🌅</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">At the Gathering Hollyleaf reveals the Three's true parentage; Leafpool falls, Jayfeather rises, and Hollyleaf vanishes into the tunnels.<br><span style="color:#a06a1f">集会上冬青叶揭穿三力量的真实身世；叶池倒下，松鸦羽崛起，冬青叶则消失在地道之中。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Power of Three — Sunrise</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "At the Gathering in Sunrise, who reveals the Three's true parentage?", "zh": "在《日出风暴》的集会上，是谁揭穿了三力量真实的身世？"}, "options": [{"en": "Hollyleaf", "zh": "冬青叶（Hollyleaf）"}, {"en": "Jayfeather", "zh": "松鸦羽（Jayfeather）"}, {"en": "Lionblaze", "zh": "狮焰（Lionblaze）"}, {"en": "Leafpool", "zh": "叶池（Leafpool）"}], "answer": 0, "explain": {"en": "Hollyleaf shocks every Clan by announcing that Leafpool and Crowfeather are the Three's parents.", "zh": "冬青叶当众宣布叶池和乌掌才是三力量之父，震惊了所有猫族。"}}, {"q": {"en": "What is Squirrelflight's true relationship to the Three?", "zh": "松鼠飞（Squirrelflight）与三力量真正的亲属关系是什么？"}, "options": [{"en": "She is their adoptive mother who raised them", "zh": "她是抚养他们长大的养母"}, {"en": "She is their birth mother", "zh": "她是他们的亲生母亲"}, {"en": "She is their aunt", "zh": "她是他们的姨妈"}, {"en": "She is unrelated to them", "zh": "她和他们毫无关系"}], "answer": 0, "explain": {"en": "Squirrelflight agreed to raise Leafpool's kits as her own to hide the forbidden love.", "zh": "松鼠飞答应把叶池的孩子当作自己的来抚养，以掩藏那段不被允许的恋情。"}}, {"q": {"en": "After the truth comes out, what happens to Leafpool?", "zh": "真相大白后，叶池（Leafpool）遭遇了什么？"}, "options": [{"en": "She steps down as medicine cat", "zh": "她辞去了巫医之职"}, {"en": "She becomes a Clan leader", "zh": "她成了族长"}, {"en": "She leaves the forest forever", "zh": "她永远离开了森林"}, {"en": "She becomes a warrior", "zh": "她成了一名武士"}], "answer": 0, "explain": {"en": "Leafpool's forbidden relationship is exposed; she gives up her role as ThunderClan medicine cat.", "zh": "叶池不被允许的恋情曝光，她卸下了雷族巫医的职务。"}}, {"q": {"en": "Who becomes ThunderClan's medicine cat after Leafpool steps down?", "zh": "叶池卸任后，谁成了雷族（ThunderClan）的巫医？"}, "options": [{"en": "Jayfeather", "zh": "松鸦羽（Jayfeather）"}, {"en": "Hollyleaf", "zh": "冬青叶（Hollyleaf）"}, {"en": "Lionblaze", "zh": "狮焰（Lionblaze）"}, {"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"}], "answer": 0, "explain": {"en": "Jayfeather takes up the full duties of medicine cat for ThunderClan.", "zh": "松鸦羽担起了雷族巫医的全部职责。"}}, {"q": {"en": "How does Crowfeather react when Hollyleaf names him as the father?", "zh": "当冬青叶指认乌掌（Crowfeather）为生父时，他作何反应？"}, "options": [{"en": "He denies it to protect himself", "zh": "他为了自保而加以否认"}, {"en": "He proudly claims them", "zh": "他骄傲地认下他们"}, {"en": "He leaves the Clans", "zh": "他离开了猫族"}, {"en": "He becomes a medicine cat", "zh": "他成了一名巫医"}], "answer": 0, "explain": {"en": "Crowfeather publicly denies fathering the Three to keep his standing in WindClan.", "zh": "乌掌当众否认自己是三力量之父，以保住自己在风族的地位。"}}, {"q": {"en": "Where does Hollyleaf go at the end of Sunrise?", "zh": "《日出风暴》结尾，冬青叶去了哪里？"}, "options": [{"en": "Into the tunnels, sealing herself in", "zh": "她进入地道，并封住了入口"}, {"en": "To the mountains", "zh": "她去了山里"}, {"en": "To become a kittypet", "zh": "她成了宠物猫"}, {"en": "To RiverClan", "zh": "她去了河族（RiverClan）"}], "answer": 0, "explain": {"en": "Believing the prophecy is a lie, Hollyleaf flees into the tunnels and collapses the entrance, seeming to die.", "zh": "冬青叶认定预言是谎言，逃进地道并塌垮入口，看似葬身其中。"}}, {"q": {"en": "Why does the prophecy 'kin of your kin' still fit the Three?", "zh": "为什么「族亲之族亲」（kin of your kin）的预言仍然适用于三力量？"}, "options": [{"en": "Because Leafpool is Firestar's daughter, making them his kin", "zh": "因为叶池是火星（Firestar）之女，使他们仍是火星的亲族"}, {"en": "Because Brambleclaw is Firestar's son", "zh": "因为荆棘爪是火星之子"}, {"en": "Because Sol said so", "zh": "因为索尔（Sol）说过"}, {"en": "Because they are kittypets", "zh": "因为他们是宠物猫"}], "answer": 0, "explain": {"en": "The Three are Firestar's grandchildren through Leafpool, so they remain 'kin of his kin.'", "zh": "三力量通过叶池成为火星的外孙，因此仍是「他的族亲之族亲」。"}}, {"q": {"en": "What happens to Brambleclaw and Squirrelflight by the book's end?", "zh": "到本书结尾，荆棘爪（Brambleclaw）和松鼠飞（Squirrelflight）怎样了？"}, "options": [{"en": "They stay together despite the secret", "zh": "尽管有秘密，他们仍相守在一起"}, {"en": "They separate forever", "zh": "他们永远分开了"}, {"en": "They join WindClan", "zh": "他们加入了风族"}, {"en": "They become leaders", "zh": "他们成了族长"}], "answer": 0, "explain": {"en": "Though hurt, Brambleclaw and Squirrelflight rebuild their bond and remain mates.", "zh": "虽受伤害，荆棘爪与松鼠飞仍重建羁绊，继续做伴侣。"}}, {"q": {"en": "After Hollyleaf vanishes, which two of the Three carry on?", "zh": "冬青叶消失后，是哪两只「三力量」继续前行？"}, "options": [{"en": "Lionblaze and Jayfeather", "zh": "狮焰（Lionblaze）与松鸦羽（Jayfeather）"}, {"en": "Hollyleaf and Jayfeather", "zh": "冬青叶（Hollyleaf）与松鸦羽"}, {"en": "Lionblaze and Hollyleaf", "zh": "狮焰与冬青叶"}, {"en": "All three together", "zh": "三力量依旧同在"}], "answer": 0, "explain": {"en": "With Hollyleaf gone, Lionblaze and Jayfeather must face the future as the remaining Two.", "zh": "冬青叶离去后，狮焰与松鸦羽作为剩下的两只，必须共同面对未来。"}}, {"q": {"en": "What major question is left hanging at the end of Sunrise?", "zh": "《日出风暴》结尾，留下了哪个悬而未决的重大疑问？"}, "options": [{"en": "Whether Hollyleaf truly died and what the Dark Forest plans", "zh": "冬青叶是否真的死去、黑森林又有何图谋"}, {"en": "Whether the sun will return", "zh": "太阳是否会回来"}, {"en": "Whether the lake will dry up", "zh": "湖泊是否会干涸"}, {"en": "Whether Sol becomes a leader", "zh": "索尔是否会当上族长"}], "answer": 0, "explain": {"en": "The arc ends with Hollyleaf's fate unknown and the Dark Forest's plot still unfolding.", "zh": "这一部以冬青叶生死未卜、黑森林的阴谋仍在发酵而收尾。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

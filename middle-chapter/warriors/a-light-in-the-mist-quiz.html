@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Light in the Mist · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>A Light in the Mist</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">迷雾微光</p>
+    <div class="mark">💡</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">With Ashfur gone and Bramblestar restored, the Clans heal, mend the Warrior Code, and honor those they lost.<br><span style="color:#a06a1f">灰条离去、棘星归位之后，各族抚平创伤、修补《战士守则》，并缅怀逝去的英雄。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: The Broken Code — A Light in the Mist</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "After the great battle, who returns to lead ThunderClan?", "zh": "大战之后，谁重返雷族担任族长？"}, "options": [{"en": "Ashfur", "zh": "灰条（Ashfur）"}, {"en": "The real Bramblestar, freed from Ashfur.", "zh": "被灰条释放的真正的棘星。"}, {"en": "Squirrelflight", "zh": "松鼠飞（Squirrelflight）"}, {"en": "Tigerheartstar", "zh": "虎心星（Tigerheartstar）"}], "answer": 1, "explain": {"en": "After Ashfur is defeated, the real Bramblestar returns to his body and resumes leadership of ThunderClan.", "zh": "灰条被击败后，真正的棘星回到自己的身体，重新执掌雷族。"}}, {"q": {"en": "What change comes to the Warrior Code after the crisis?", "zh": "危机过后，《战士守则》发生了什么变化？"}, "options": [{"en": "It is thrown away completely.", "zh": "它被彻底废除。"}, {"en": "It is kept exactly the same as before.", "zh": "它与从前一模一样，毫无改动。"}, {"en": "It is amended with new lessons learned from the impostor's rule.", "zh": "它根据冒名顶替者统治的教训，增补了新的内容。"}, {"en": "It is rewritten by the Twolegs.", "zh": "它由两脚兽重写。"}], "answer": 2, "explain": {"en": "The Clans amend the Warrior Code, adding new rules shaped by what they suffered under the impostor.", "zh": "各族修订了《战士守则》，根据在冒名顶替者统治下的遭遇增补了新规。"}}, {"q": {"en": "Which brave cat is mourned as a hero who gave her life in the battle?", "zh": "哪只勇敢的猫作为在战斗中牺牲的英雄而被哀悼？"}, "options": [{"en": "Squirrelflight", "zh": "松鼠飞（Squirrelflight）"}, {"en": "Bristlefrost", "zh": "棘霜（Bristlefrost）"}, {"en": "Leafpool", "zh": "叶池（Leafpool）"}, {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"}], "answer": 1, "explain": {"en": "Bristlefrost is honored and mourned as a hero who died fighting Ashfur to save Bramblestar.", "zh": "棘霜被尊为英雄并受人哀悼——她为救棘星、对抗灰条而战死。"}}, {"q": {"en": "What new understanding about the Warrior Code do the Clans accept?", "zh": "各族接受了关于《战士守则》的什么新认识？"}, "options": [{"en": "That the Code can be changed and is not perfect or absolute.", "zh": "守则可以被修改，并非完美或绝对。"}, {"en": "That the Code must never change.", "zh": "守则永远不可更改。"}, {"en": "That only leaders may read the Code.", "zh": "只有族长能读守则。"}, {"en": "That the Code comes from the Twolegs.", "zh": "守则来自两脚兽。"}], "answer": 0, "explain": {"en": "The Clans learn that the Code is not perfect or unchangeable, and can be mended when needed.", "zh": "各族认识到守则并非完美无缺、也非一成不变，必要时可以修补。"}}, {"q": {"en": "How are Squirrelflight and Bramblestar reunited after the crisis?", "zh": "危机过后，松鼠飞与棘星如何重聚？"}, "options": [{"en": "They remain separated forever.", "zh": "他们永远分离。"}, {"en": "With the impostor gone, the real Bramblestar returns and they are together again.", "zh": "冒名顶替者离去，真正的棘星归来，两人再度相聚。"}, {"en": "Squirrelflight joins StarClan.", "zh": "松鼠飞加入了星族。"}, {"en": "Bramblestar becomes a rogue.", "zh": "棘星成了泼皮猫。"}], "answer": 1, "explain": {"en": "Once the impostor is gone, the true Bramblestar returns and is reunited with his mate Squirrelflight.", "zh": "冒名顶替者离去后，真正的棘星归来，与伴侣松鼠飞再度相聚。"}}, {"q": {"en": "What happens to Ashfur in the end?", "zh": "最终灰条（Ashfur）的下场如何？"}, "options": [{"en": "He becomes a hero of ThunderClan.", "zh": "他成了雷族的英雄。"}, {"en": "He is gone for good, defeated and unable to return.", "zh": "他被彻底击败，无法再回来。"}, {"en": "He rules ShadowClan.", "zh": "他统治了影族。"}, {"en": "He becomes a medicine cat.", "zh": "他成了巫医。"}], "answer": 1, "explain": {"en": "Ashfur is defeated and trapped in the Dark Forest, gone from the lives of the living Clans for good.", "zh": "灰条被击败并困于黑森林，永远退出了活着的各族的生活。"}}, {"q": {"en": "What does the 'light in the mist' in the title symbolize?", "zh": "书名中的「迷雾微光」象征着什么？"}, "options": [{"en": "A new hunting trick.", "zh": "一种新的捕猎技巧。"}, {"en": "Hope and clarity returning to the Clans after darkness.", "zh": "黑暗过后，希望与明朗重回各族。"}, {"en": "A Twoleg's lamp.", "zh": "两脚兽的灯。"}, {"en": "A coming storm.", "zh": "即将来临的风暴。"}], "answer": 1, "explain": {"en": "The 'light in the mist' stands for the hope and clear truth that return to the Clans after the long darkness.", "zh": "「迷雾微光」象征着历经漫长黑暗后，希望与真相重新照耀各族。"}}, {"q": {"en": "Where does Bristlefrost's spirit go after her death?", "zh": "棘霜（Bristlefrost）死后，她的灵魂去了哪里？"}, "options": [{"en": "The Dark Forest.", "zh": "黑森林。"}, {"en": "StarClan, as a honored warrior.", "zh": "星族，作为受敬重的战士。"}, {"en": "She vanishes.", "zh": "她消散无踪。"}, {"en": "The old forest.", "zh": "旧森林。"}], "answer": 1, "explain": {"en": "Because of her bravery, Bristlefrost's spirit joins StarClan and is honored among the warrior ancestors.", "zh": "凭借其勇敢，棘霜的灵魂升入星族，在战士祖先中备受敬重。"}}, {"q": {"en": "What returns to the lake territories after the crisis ends?", "zh": "危机结束后，湖畔领地重归何种状态？"}, "options": [{"en": "Constant war.", "zh": "无休止的战争。"}, {"en": "Peace and the normal life of the Clans.", "zh": "和平与各族的寻常生活。"}, {"en": "A great flood.", "zh": "一场大洪水。"}, {"en": "Rule by rogues.", "zh": "泼皮猫的统治。"}], "answer": 1, "explain": {"en": "With Ashfur gone, peace returns to the lake and the Clans resume their normal lives.", "zh": "灰条离去后，和平重回湖畔，各族恢复了往日的寻常生活。"}}, {"q": {"en": "What lesson about exiles and forgiveness do the Clans learn?", "zh": "关于流放者与宽恕，各族学到了什么？"}, "options": [{"en": "Exiles should never be allowed back.", "zh": "流放者永远不可回归。"}, {"en": "That loyalty and truth matter more than blind obedience, and exiles may be welcomed back.", "zh": "忠诚与真相比盲目服从更重要，流放者也可被重新接纳。"}, {"en": "That the Code forbids forgiveness.", "zh": "守则禁止宽恕。"}, {"en": "That only leaders can forgive.", "zh": "只有族长才能宽恕。"}], "answer": 1, "explain": {"en": "The Clans learn that truth and loyalty matter more than blind obedience, and that exiles can be welcomed home.", "zh": "各族认识到：真相与忠诚比盲目服从更重要，而曾被流放者也可以重新被接纳回家。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

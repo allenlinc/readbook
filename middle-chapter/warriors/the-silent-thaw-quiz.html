@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Silent Thaw · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Silent Thaw</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">寂静融雪</p>
+    <div class="mark">❄️</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">As the impostor tightens his grip, a secret message from StarClan reveals that the real Bramblestar must be rooted out.<br><span style="color:#a06a1f">冒名顶替者加紧掌控之际，星族传来一则隐秘讯息，揭露必须铲除真正的棘星身上的冒牌货。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: The Broken Code — The Silent Thaw</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "In The Silent Thaw, what major change does the impostor make to the Warrior Code?", "zh": "在《寂静融雪》中，冒名顶替者对《战士守则》做了什么重大改动？"}, "options": [{"en": "He removes rules that limit a leader's power and adds that his word is law.", "zh": "他删去限制族长权力的条文，并加入「他的话就是律法」。"}, {"en": "He adds ten new hunting rules.", "zh": "他新增了十条捕猎规矩。"}, {"en": "He leaves the Code completely unchanged.", "zh": "他完全未改动守则。"}, {"en": "He replaces it with a code written by StarClan.", "zh": "他用星族写下的守则取而代之。"}], "answer": 0, "explain": {"en": "The impostor rewrites the Code so a leader's word overrides it, making himself absolute ruler of the Clans.", "zh": "冒名顶替者改写守则，使族长的话凌驾其上，从而成为各族绝对的统治者。"}}, {"q": {"en": "Which ShadowClan medicine cat receives a mysterious message from StarClan?", "zh": "哪位影族（ShadowClan）巫医收到了来自星族的神秘讯息？"}, "options": [{"en": "Puddleshine", "zh": "水迹（Puddleshine）"}, {"en": "Shadowsight", "zh": "影兆（Shadowsight）"}, {"en": "Alderheart", "zh": "赤杨心（Alderheart）"}, {"en": "Jayfeather", "zh": "松鸦羽（Jayfeather）"}], "answer": 1, "explain": {"en": "Shadowsight, the ShadowClan medicine cat, is the one who receives the cryptic message from StarClan.", "zh": "影族巫医影兆（Shadowsight）正是那位收到星族隐秘讯息的猫。"}}, {"q": {"en": "What important clue does Shadowsight's StarClan message give the Clans?", "zh": "影兆从星族收到的讯息，给各族提供了什么重要线索？"}, "options": [{"en": "That the impostor is not the real Bramblestar and must be rooted out.", "zh": "冒名顶替者并非真正的棘星，必须被铲除。"}, {"en": "That they should move to a new territory.", "zh": "他们应该迁往新领地。"}, {"en": "That the lake will soon dry up.", "zh": "湖泊即将干涸。"}, {"en": "That StarClan has chosen a new code.", "zh": "星族已选定新守则。"}], "answer": 0, "explain": {"en": "The message warns that the leader is an impostor and must be 'rooted out' so the real Bramblestar can return.", "zh": "讯息警告各族长是个冒名顶替者，必须被「铲除」，真正的棘星才能归来。"}}, {"q": {"en": "Which ThunderClan cats are among the first to be exiled by the impostor?", "zh": "哪些雷族猫属于最先被冒名顶替者流放的一批？"}, "options": [{"en": "Squirrelflight and Lionblaze, along with other loyal cats.", "zh": "松鼠飞与狮焰（Lionblaze），以及其它忠诚的猫。"}, {"en": "Firestar and Sandstorm.", "zh": "火星（Firestar）与沙暴（Sandstorm）。"}, {"en": "Rootpaw and Bristlefrost.", "zh": "根爪与棘霜（Bristlefrost）。"}, {"en": "Cloudtail and Brightheart.", "zh": "云尾（Cloudtail）与亮心（Brightheart）。"}], "answer": 0, "explain": {"en": "The impostor exiles Squirrelflight, Lionblaze, and other loyal ThunderClan cats who question him.", "zh": "冒名顶替者把敢于质疑他的松鼠飞、狮焰等忠诚雷族猫逐出了族群。"}}, {"q": {"en": "Which Clan does the medicine cat Shadowsight belong to?", "zh": "巫医影兆（Shadowsight）属于哪个族群？"}, "options": [{"en": "ThunderClan", "zh": "雷族"}, {"en": "ShadowClan", "zh": "影族"}, {"en": "WindClan", "zh": "风族"}, {"en": "RiverClan", "zh": "河族"}], "answer": 1, "explain": {"en": "Shadowsight is the medicine cat of ShadowClan and the son of its leader, Tigerheartstar.", "zh": "影兆是影族的巫医，也是该族族长虎心星（Tigerheartstar）的儿子。"}}, {"q": {"en": "Who is Bristlefrost, the young cat who secretly helps the exiles?", "zh": "暗中帮助流放者的年轻猫棘霜（Bristlefrost）是什么身份？"}, "options": [{"en": "The daughter of Lionblaze.", "zh": "狮焰（Lionblaze）的女儿。"}, {"en": "The sister of Ashfur.", "zh": "灰条（Ashfur）的姐妹。"}, {"en": "The leader of ShadowClan.", "zh": "影族的族长。"}, {"en": "A RiverClan medicine cat.", "zh": "河族（RiverClan）的巫医。"}], "answer": 0, "explain": {"en": "Bristlefrost is the daughter of Lionblaze and Cinderheart, and she secretly aids the exiled cats.", "zh": "棘霜是狮焰与余烬心（Cinderheart）的女儿，她暗中帮助被流放的猫。"}}, {"q": {"en": "What does the impostor forbid the Clans from doing?", "zh": "冒名顶替者禁止各族猫做什么？"}, "options": [{"en": "He forbids them from hunting at night.", "zh": "禁止它们在夜间捕猎。"}, {"en": "He forbids them from trusting or speaking of StarClan.", "zh": "禁止它们信任或提及星族。"}, {"en": "He forbids them from drinking lake water.", "zh": "禁止它们饮用湖水。"}, {"en": "He forbids them from training apprentices.", "zh": "禁止它们训练学徒。"}], "answer": 1, "explain": {"en": "The impostor cuts the Clans off from StarClan, forbidding them to trust or even speak of their warrior ancestors.", "zh": "冒名顶替者切断各族与星族的联系，禁止它们信任甚至提及自己的祖先。"}}, {"q": {"en": "How do the exiled ThunderClan cats manage to survive away from their Clan?", "zh": "被流放的雷族猫离开族群后如何生存？"}, "options": [{"en": "They return to the old forest.", "zh": "它们回到旧森林。"}, {"en": "They live by the lake and rely on one another.", "zh": "它们生活在湖畔，互相依靠。"}, {"en": "They join RiverClan.", "zh": "它们加入了河族。"}, {"en": "They are taken in by Twolegs.", "zh": "它们被两脚兽收留。"}], "answer": 1, "explain": {"en": "The exiles camp near the lake and depend on each other to survive while plotting how to save Bramblestar.", "zh": "流放者在湖畔安营，彼此依靠生存，同时谋划如何拯救棘星。"}}, {"q": {"en": "What gift helps Shadowsight receive the message that reveals the truth?", "zh": "是什么天赋让影兆得以收到揭露真相的讯息？"}, "options": [{"en": "His skill as a hunter.", "zh": "他作为猎手的技术。"}, {"en": "His power as a medicine cat to receive signs in dreams.", "zh": "他作为巫医能在梦中接收征兆的能力。"}, {"en": "His ability to fly.", "zh": "他会飞的能力。"}, {"en": "His friendship with Twolegs.", "zh": "他与两脚兽的友谊。"}], "answer": 1, "explain": {"en": "As a medicine cat, Shadowsight receives visions and messages from StarClan in his dreams.", "zh": "作为巫医，影兆能在梦中接收来自星族的异象与讯息。"}}, {"q": {"en": "By the end of The Silent Thaw, what do the loyal cats realize they must do?", "zh": "到《寂静融雪》结尾，忠诚的猫意识到自己必须做什么？"}, "options": [{"en": "Accept the impostor as their true leader.", "zh": "接受冒名顶替者为真正的族长。"}, {"en": "Expose and remove the impostor to save Bramblestar and the Code.", "zh": "揭穿并除去冒名顶替者，以拯救棘星和守则。"}, {"en": "Leave the lake forever.", "zh": "永远离开湖畔。"}, {"en": "Crown a new leader from StarClan.", "zh": "从星族中拥立新族长。"}], "answer": 1, "explain": {"en": "The loyal cats understand that the impostor must be exposed and removed to restore Bramblestar and the Code.", "zh": "忠诚的猫明白，必须揭穿并除去冒名顶替者，才能让棘星与守则重归正位。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

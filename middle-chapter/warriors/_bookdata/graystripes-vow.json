@@ -1,0 +1,177 @@
+{
+  "slug": "graystripes-vow",
+  "desc": "Elder Graystripe leaves a troubled ThunderClan to journey back to the old forest and the Moonstone, confronting his past and a new group called WarriorClan.",
+  "descZh": "长老灰条离开陷入动荡的雷族，回到旧森林与月亮石，直面过往，并邂逅了一个自称「武士族」的群体。",
+  "questions": [
+    {
+      "q": {
+        "en": "Which Clan is Graystripe a loyal member of?",
+        "zh": "灰条（Graystripe）是哪个族忠心耿耿的成员？"
+      },
+      "options": [
+        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
+        {"en": "RiverClan", "zh": "河族（RiverClan）"},
+        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
+        {"en": "SkyClan", "zh": "天族（SkyClan）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Graystripe is a longtime ThunderClan warrior and one of Firestar's most trusted friends.",
+        "zh": "灰条是雷族的老牌武士，也是火星最信任的朋友之一。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was Graystripe's best friend and the leader he served as deputy under?",
+        "zh": "谁是灰条最好的朋友，也是他担任副族长时辅佐的族长？"
+      },
+      "options": [
+        {"en": "Firestar", "zh": "火星（Firestar）"},
+        {"en": "Bramblestar", "zh": "荆棘星（Bramblestar）"},
+        {"en": "Bluestar", "zh": "蓝星（Bluestar）"},
+        {"en": "Crookedstar", "zh": "曲星（Crookedstar）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Graystripe and Firestar trained as apprentices together and remained inseparable their whole lives.",
+        "zh": "灰条与火星一同作为学徒受训，此后一生形影不离。"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Now' part of the book is set during which arc, when StarClan has gone silent?",
+        "zh": "本书的「现在（Now）」部分发生在哪一段剧情中，当时星族已陷入沉默？"
+      },
+      "options": [
+        {"en": "The Broken Code", "zh": "The Broken Code（《破戒》）"},
+        {"en": "A Vision of Shadows", "zh": "A Vision of Shadows（《群星预言》）"},
+        {"en": "The New Prophecy", "zh": "The New Prophecy（《新预言》）"},
+        {"en": "Omen of the Stars", "zh": "Omen of the Stars（《星预兆》）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Graystripe's journey in the present is set during The Broken Code, a time when StarClan no longer speaks.",
+        "zh": "灰条在「现在」的旅程发生在《破戒》期间，那时星族已不再发声。"
+      }
+    },
+    {
+      "q": {
+        "en": "What happened to Graystripe's mate Millie before this book?",
+        "zh": "在本书之前，灰条的伴侣米莉（Millie）遭遇了什么？"
+      },
+      "options": [
+        {"en": "She died", "zh": "她去世了"},
+        {"en": "She became a kittypet", "zh": "她成了宠物猫"},
+        {"en": "She left the Clans", "zh": "她离开了猫族"},
+        {"en": "She became leader", "zh": "她当上了族长"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Graystripe is mourning Millie, his longtime mate, who passed away before the story begins.",
+        "zh": "灰条正在为伴侣米莉哀悼——在故事开始前，这位相伴多年的伴侣已经离世。"
+      }
+    },
+    {
+      "q": {
+        "en": "On his journey, Graystripe visits his son Stormfur, who lives with which group?",
+        "zh": "旅途中，灰条去探望儿子暴毛（Stormfur），暴毛和哪群猫生活在一起？"
+      },
+      "options": [
+        {"en": "The Tribe of Rushing Water", "zh": "激流部落（Tribe of Rushing Water）"},
+        {"en": "SkyClan", "zh": "天族（SkyClan）"},
+        {"en": "BloodClan", "zh": "血族（BloodClan）"},
+        {"en": "RiverClan", "zh": "河族（RiverClan）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Stormfur, Graystripe's son with Silverstream, made his home among the Tribe of Rushing Water.",
+        "zh": "暴毛是灰条与银溪（Silverstream）的儿子，在激流部落安了家。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the old forest, Graystripe meets a group of kittypets pretending to be a Clan. What do they call themselves?",
+        "zh": "在旧森林里，灰条遇到一群假装成猫族的宠物猫。他们自称什么？"
+      },
+      "options": [
+        {"en": "WarriorClan", "zh": "武士族（WarriorClan）"},
+        {"en": "BloodClan", "zh": "血族（BloodClan）"},
+        {"en": "The Sisters", "zh": "姐妹会（the Sisters）"},
+        {"en": "The Kin", "zh": "亲族（the Kin）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "A band of kittypets, inspired by old stories, formed their own make-believe Clan called WarriorClan.",
+        "zh": "一群受古老传说启发、自娱自乐的宠物猫，组建了一个假想的「武士族」。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who leads this group of kittypet 'warriors'?",
+        "zh": "这群宠物猫「武士」的首领是谁？"
+      },
+      "options": [
+        {"en": "Monkeystar", "zh": "猴星（Monkeystar）"},
+        {"en": "Graystripe", "zh": "灰条（Graystripe）"},
+        {"en": "Firestar", "zh": "火星（Firestar）"},
+        {"en": "Scourge", "zh": "天煞（Scourge）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The kittypets chose a leader they named Monkeystar to head their pretend WarriorClan.",
+        "zh": "这些宠物猫选了一只叫「猴星」（Monkeystar）的猫来统领他们假想的武士族。"
+      }
+    },
+    {
+      "q": {
+        "en": "When Graystripe reaches the Moonstone at Highstones, what happens to it?",
+        "zh": "当灰条抵达高石（Highstones）的月亮石时，它发生了什么？"
+      },
+      "options": [
+        {"en": "Lightning strikes and shatters it", "zh": "被闪电击中，碎裂成砾"},
+        {"en": "It glows brightly", "zh": "它发出明亮的光"},
+        {"en": "It is stolen", "zh": "它被偷走了"},
+        {"en": "It is flooded", "zh": "它被水淹没了"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "A bolt of lightning strikes the Moonstone and breaks it apart, leaving Graystripe without a sign.",
+        "zh": "一道闪电击中月亮石，把它击得粉碎，灰条没能等到任何征兆。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the 'Then' flashbacks, Graystripe acts as ThunderClan's temporary leader while Firestar is away doing what?",
+        "zh": "在「那时（Then）」的回忆里，火星离家去完成什么任务时，灰条暂代雷族族长？"
+      },
+      "options": [
+        {"en": "Reforming SkyClan (Firestar's Quest)", "zh": "重建天族（Firestar's Quest《火星的任务》）"},
+        {"en": "Fighting BloodClan", "zh": "与血族战斗"},
+        {"en": "Exploring the lake", "zh": "探索湖畔"},
+        {"en": "Training apprentices", "zh": "训练学徒"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "While Firestar and Sandstorm are away rebuilding SkyClan, Graystripe holds ThunderClan together as acting leader.",
+        "zh": "当火星和沙暴（Sandstorm）离家去重建天族时，灰条以代族长的身份撑起了雷族。"
+      }
+    },
+    {
+      "q": {
+        "en": "By the end of his journey, what does Graystripe decide about where he belongs?",
+        "zh": "到旅程结束时，灰条对自己属于何处做出了什么决定？"
+      },
+      "options": [
+        {"en": "ThunderClan is his home and where he belongs", "zh": "雷族是他的家，也是他归属的地方"},
+        {"en": "He will stay with WarriorClan", "zh": "他会留在武士族"},
+        {"en": "He will live with the Tribe", "zh": "他会和部落一起生活"},
+        {"en": "He will become a kittypet", "zh": "他会去当宠物猫"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Though the Clan has changed, Graystripe returns to ThunderClan, certain that it is where he belongs.",
+        "zh": "尽管雷族已不同往日，灰条仍回到雷族，因为他确信那里才是自己的归宿。"
+      }
+    }
+  ]
+}

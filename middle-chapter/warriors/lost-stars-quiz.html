@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lost Stars · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Lost Stars</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">失落群星</p>
+    <div class="mark">⭐</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">When Bramblestar returns from the dead, ThunderClan soon senses that the cat wearing his pelt is not who he seems.<br><span style="color:#a06a1f">当棘星（Bramblestar）死而复生回到雷族时，族猫很快察觉到披着他皮毛的猫并非原来的他。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: The Broken Code — Lost Stars</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "When Bramblestar returns to ThunderClan after being believed dead, what is the first clear sign that something is wrong?", "zh": "当棘星（Bramblestar）在被认为死后回到雷族时，最明显的异常迹象是什么？"}, "options": [{"en": "He is kinder and more gentle than ever.", "zh": "他比以往更温柔善良。"}, {"en": "He is cold, distant, and no longer shows love for Squirrelflight.", "zh": "他冷漠疏远，不再对松鼠飞（Squirrelflight）流露爱意。"}, {"en": "He has lost all his hunting skills.", "zh": "他完全失去了捕猎本领。"}, {"en": "He cannot remember his own name.", "zh": "他不记得自己的名字。"}], "answer": 1, "explain": {"en": "The returned Bramblestar is strangely cold and no longer cares for Squirrelflight, a stark change from the cat they knew.", "zh": "归来的棘星异常冷漠，不再在乎松鼠飞，这与大家熟知的他截然不同——这是冒名顶替者的破绽。"}}, {"q": {"en": "When Bramblestar first returns to life, how do the Clans first react?", "zh": "当棘星初次「死而复生」回到族中时，各族最初是什么反应？"}, "options": [{"en": "They are overjoyed, then slowly notice he has changed.", "zh": "他们先是狂喜，随后才渐渐察觉他变了。"}, {"en": "They are terrified and attack him at once.", "zh": "他们吓得立刻攻击他。"}, {"en": "They do not recognize him at all.", "zh": "他们完全认不出他。"}, {"en": "They ignore him completely.", "zh": "他们完全不理睬他。"}], "answer": 0, "explain": {"en": "The Clans rejoice that their leader has come back, unaware at first that a different spirit now wears his body.", "zh": "各族为族长归来而欢欣，起初并未察觉占据这具身体的已是另一个灵魂。"}}, {"q": {"en": "What unusual ability does the ThunderClan apprentice Rootpaw have?", "zh": "雷族学徒根爪（Rootpaw）拥有什么特殊能力？"}, "options": [{"en": "He can run faster than any other cat.", "zh": "他能比任何猫都跑得快。"}, {"en": "He can see and speak with the spirits of the dead.", "zh": "他能看见并与死去的灵魂交谈。"}, {"en": "He can breathe underwater.", "zh": "他能在水下呼吸。"}, {"en": "He can read other cats' thoughts from far away.", "zh": "他能远距离读取其他猫的思想。"}], "answer": 1, "explain": {"en": "Rootpaw can see and speak with the spirits of the dead, a gift that becomes vital to uncovering the truth.", "zh": "根爪能看见并与亡魂交谈，这一天赋对揭开真相至关重要。"}}, {"q": {"en": "Using his gift, which spirit does Rootpaw meet and speak with?", "zh": "借助这种天赋，根爪在灵魂世界中遇见并与谁交谈？"}, "options": [{"en": "The spirit of the real Bramblestar, who warns him of the impostor.", "zh": "真正的棘星的灵魂，他警告根爪有冒名顶替者。"}, {"en": "The spirit of Firestar.", "zh": "火星（Firestar）的灵魂。"}, {"en": "The spirit of Scourge.", "zh": "碎星（Scourge）的灵魂。"}, {"en": "A spirit who claims to be StarClan's leader.", "zh": "一个自称是星族首领的灵魂。"}], "answer": 0, "explain": {"en": "Rootpaw meets the real Bramblestar's spirit, who is trapped and warns that the cat in his body is an impostor.", "zh": "根爪遇见了真正的棘星的灵魂——他被囚禁着，并警告说占据自己身体的猫是冒名顶替者。"}}, {"q": {"en": "What does the returned 'Bramblestar' begin to do with the Warrior Code?", "zh": "归来的「棘星」开始如何对待《战士守则》（Warrior Code）？"}, "options": [{"en": "He respects it exactly as before.", "zh": "他像从前一样严格遵守。"}, {"en": "He ignores it completely and makes no rules.", "zh": "他完全无视它，也不立规矩。"}, {"en": "He begins to change and rewrite it to suit his own wishes.", "zh": "他开始按自己的意愿改动并重写它。"}, {"en": "He asks StarClan to rewrite it.", "zh": "他请星族来重写它。"}], "answer": 2, "explain": {"en": "The impostor starts bending and rewriting the Warrior Code to serve his own growing control over the Clans.", "zh": "冒名顶替者开始按自己的统治需要改动并重写《战士守则》。"}}, {"q": {"en": "Which cat does the impostor Bramblestar especially mistreat and push away?", "zh": "冒名顶替的「棘星」特别针对并冷落、苛待哪只猫？"}, "options": [{"en": "Squirrelflight, the mate he once loved.", "zh": "他曾深爱的伴侣松鼠飞（Squirrelflight）。"}, {"en": "Alderheart, the medicine cat.", "zh": "巫医赤杨心（Alderheart）。"}, {"en": "Rootpaw, a young apprentice.", "zh": "年幼的学徒根爪（Rootpaw）。"}, {"en": "Tigerheartstar, another Clan leader.", "zh": "另一位族长虎心星（Tigerheartstar）。"}], "answer": 0, "explain": {"en": "The impostor cruelly distances himself from Squirrelflight, who was the real Bramblestar's beloved mate.", "zh": "冒名顶替者残酷地疏远松鼠飞——她本是真正的棘星深爱的伴侣。"}}, {"q": {"en": "What do the living cats notice about StarClan's presence during this time?", "zh": "这一时期，活着的猫注意到星族（StarClan）处于什么状态？"}, "options": [{"en": "StarClan sends clearer signs than ever.", "zh": "星族发出的征兆比以往更清晰。"}, {"en": "StarClan seems distant and cannot guide or warn them.", "zh": "星族似乎遥不可及，无法指引或警告他们。"}, {"en": "StarClan chooses a new ThunderClan leader.", "zh": "星族为雷族选出了新族长。"}, {"en": "StarClan appears in the daytime sky.", "zh": "星族出现在白天的天空中。"}], "answer": 1, "explain": {"en": "StarClan grows silent and unreachable, leaving the living Clans without their usual guidance and warnings.", "zh": "星族变得沉默而遥不可及，活着的各族失去了往日的指引与警示。"}}, {"q": {"en": "What does the impostor do to cats he believes are disloyal to him?", "zh": "冒名顶替者对那些他认为不忠的猫做了什么？"}, "options": [{"en": "He praises them in front of the Clan.", "zh": "他在族众面前表扬它们。"}, {"en": "He exiles them from the Clan.", "zh": "他把它们逐出族群。"}, {"en": "He makes them into elders.", "zh": "他让它们成为长老。"}, {"en": "He sends them to StarClan as honors.", "zh": "他把它们当作荣誉送往星族。"}], "answer": 1, "explain": {"en": "The impostor casts out any cat he sees as disloyal, beginning the wave of exiles that splits ThunderClan.", "zh": "冒名顶替者把任何他认为不忠的猫逐出族群，由此掀起了撕裂雷族的流放浪潮。"}}, {"q": {"en": "Where is the real Bramblestar's spirit actually held during the impostor's rule?", "zh": "在冒名顶替者掌权期间，真正的棘星的灵魂实际上被困在哪里？"}, "options": [{"en": "Safe in StarClan.", "zh": "安然身处星族。"}, {"en": "In the living world, watching quietly.", "zh": "在活人世界静静旁观。"}, {"en": "Trapped in the Dark Forest by the impostor.", "zh": "被冒名顶替者困在黑森林（Dark Forest）。"}, {"en": "Lost forever in the lonely lake.", "zh": "永远迷失在孤寂的湖中。"}], "answer": 2, "explain": {"en": "The real Bramblestar's spirit is held prisoner in the Dark Forest, unable to return to his own body.", "zh": "真正的棘星的灵魂被囚禁在黑森林，无法回到自己的身体。"}}, {"q": {"en": "What is the loyal cats' greatest growing fear about the returned Bramblestar?", "zh": "忠诚的猫对归来的棘星，日益加深的最大恐惧是什么？"}, "options": [{"en": "That he is actually a different cat pretending to be him.", "zh": "他其实是另一只猫假扮的。"}, {"en": "That he will become too old to lead.", "zh": "他年纪太大无法领导。"}, {"en": "That he wants to leave the lake territory.", "zh": "他想离开湖畔领地。"}, {"en": "That he has forgotten how to fight.", "zh": "他已忘记如何战斗。"}], "answer": 0, "explain": {"en": "As his behavior grows stranger, loyal cats begin to fear the returned leader is not the real Bramblestar at all.", "zh": "随着行为愈发诡异，忠诚的猫开始怀疑归来的族长根本不是真正的棘星。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

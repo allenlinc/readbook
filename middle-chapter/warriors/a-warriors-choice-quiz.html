@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Warrior's Choice · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>A Warrior's Choice</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">武士的抉择</p>
+    <div class="mark">⚖️</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">Three untold stories: Daisy's Kin, Blackfoot's Reckoning, and Spotfur's Rebellion.<br><span style="color:#a06a1f">三个不为人知的故事：黛西的至亲、黑脚的审判、斑毛的反抗。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Novellas — A Warrior's Choice</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "In Daisy's Kin, where did Daisy originally come from before joining ThunderClan?", "zh": "在《黛西的至亲》中，黛西（Daisy）加入雷族前原本来自哪里？"}, "options": [{"en": "The horseplace (a farm)", "zh": "马场（一座农场）"}, {"en": "RiverClan", "zh": "河族（RiverClan）"}, {"en": "The forest as a loner", "zh": "树林里，一只泼皮猫"}, {"en": "ShadowClan", "zh": "影族（ShadowClan）"}], "answer": 0, "explain": {"en": "Daisy came to ThunderClan from the horseplace, where she had lived as a barn cat.", "zh": "黛西原先是马场里的谷仓猫，后来才来到雷族。"}}, {"q": {"en": "In Daisy's Kin, what sad event makes Daisy feel lost in ThunderClan?", "zh": "在《黛西的至亲》中，是什么伤心事让黛西在雷族里感到迷失？"}, "options": [{"en": "She loses her rank as deputy", "zh": "她失去了副族长之位"}, {"en": "Her kits die in battle", "zh": "她的孩子们在战斗中死去"}, {"en": "She is exiled", "zh": "她被赶出了族群"}, {"en": "Her mate leaves", "zh": "她的伴侣离开了"}], "answer": 1, "explain": {"en": "Daisy grieves deeply after her kits are lost in battle during the troubled times of the Clans.", "zh": "在族群动荡的日子里，黛西的孩子们战死，她陷入了深深的悲痛。"}}, {"q": {"en": "In Daisy's Kin, Daisy must choose between her Clan and helping which cat?", "zh": "在《黛西的至亲》中，黛西必须在族群和帮忙拯救哪只猫之间做选择？"}, "options": [{"en": "Her former mate from the horseplace", "zh": "她在马场时的旧伴侣"}, {"en": "A RiverClan leader", "zh": "一位河族族长"}, {"en": "A ShadowClan warrior", "zh": "一位影族武士"}, {"en": "A kittypet she has never met", "zh": "一只素未谋面的宠物猫"}], "answer": 0, "explain": {"en": "When her former mate from the horseplace needs help, Daisy must decide where her heart and loyalty truly belong.", "zh": "当马场时的旧伴侣需要帮助时，黛西必须想清楚自己的心与忠诚究竟属于哪里。"}}, {"q": {"en": "In Blackfoot's Reckoning, Blackfoot served as deputy to two treacherous leaders. Who were they?", "zh": "在《黑脚的审判》中，黑脚（Blackfoot）曾给两位背信弃义的族长当副手，他们是谁？"}, "options": [{"en": "Brokenstar and Tigerstar", "zh": "碎星（Brokenstar）和虎星（Tigerstar）"}, {"en": "Firestar and Graystripe", "zh": "火星（Firestar）和灰条（Graystripe）"}, {"en": "Bluestar and Crookedstar", "zh": "蓝星（Bluestar）和曲星（Crookedstar）"}, {"en": "Tallstar and Leopardstar", "zh": "高星（Tallstar）和豹星（Leopardstar）"}], "answer": 0, "explain": {"en": "Blackfoot was deputy under Brokenstar and then Tigerstar, two of the forest's most ruthless leaders.", "zh": "黑脚先后给碎星和虎星当副手——那两位都是森林里最残忍的族长。"}}, {"q": {"en": "In Blackfoot's Reckoning, what name does Blackfoot take when he becomes leader of ShadowClan?", "zh": "在《黑脚的审判》中，黑脚成为影族族长后改用了什么名字？"}, "options": [{"en": "Blackstar", "zh": "黑星（Blackstar）"}, {"en": "Blackfoot (stays deputy)", "zh": "仍叫黑脚（Blackfoot），留在副族长位"}, {"en": "Blacktail", "zh": "黑尾（Blacktail）"}, {"en": "Blackclaw", "zh": "黑爪（Blackclaw）"}], "answer": 0, "explain": {"en": "Once he earns the right to lead, Blackfoot receives his leader name: Blackstar.", "zh": "当他赢得领导族群的权利后，黑脚获得了族长名号：黑星。"}}, {"q": {"en": "In Blackfoot's Reckoning, to receive his nine lives, Blackfoot journeys to which sacred place?", "zh": "在《黑脚的审判》中，为了接受九条命，黑脚前往了哪处圣地？"}, "options": [{"en": "The Moonstone", "zh": "月石（the Moonstone）"}, {"en": "The lake", "zh": "湖区"}, {"en": "Fourtrees", "zh": "四棵树（Fourtrees）"}, {"en": "The gorge", "zh": "峡谷"}], "answer": 0, "explain": {"en": "Like other leaders, Blackfoot travels to the Moonstone to be granted his nine lives by StarClan.", "zh": "和其他族长一样，黑脚前往月石，由星族授予他九条命。"}}, {"q": {"en": "In Blackfoot's Reckoning, how does StarClan treat Blackfoot when he seeks his nine lives?", "zh": "在《黑脚的审判》中，当黑脚来求取九条命时，星族如何对待他？"}, "options": [{"en": "They refuse him", "zh": "他们拒绝了他"}, {"en": "They forgive him and grant his lives", "zh": "他们原谅了他，并授予他九条命"}, {"en": "They make him an elder", "zh": "他们让他当长老"}, {"en": "They ignore him", "zh": "他们不理他"}], "answer": 1, "explain": {"en": "Though his past is stained, StarClan forgives Blackfoot and grants him the nine lives of a leader.", "zh": "尽管过往沾满污点，星族还是原谅了黑脚，授予他作为族长的九条命。"}}, {"q": {"en": "In Spotfur's Rebellion, Spotfur is a warrior of which Clan?", "zh": "在《斑毛的反抗》中，斑毛（Spotfur）是哪个族群的武士？"}, "options": [{"en": "ShadowClan", "zh": "影族（ShadowClan）"}, {"en": "ThunderClan", "zh": "雷族（ThunderClan）"}, {"en": "RiverClan", "zh": "河族（RiverClan）"}, {"en": "WindClan", "zh": "风族（WindClan）"}], "answer": 1, "explain": {"en": "Spotfur is a young ThunderClan warrior who must decide whether to defy her own leader.", "zh": "斑毛是雷族年轻的武士，必须决定是否违抗自己的族长。"}}, {"q": {"en": "In Spotfur's Rebellion, what is wrong with Spotfur's Clan leader that makes her rebel?", "zh": "在《斑毛的反抗》中，斑毛的族长出了什么问题，才让她奋起反抗？"}, "options": [{"en": "The leader is sick", "zh": "族长生重病了"}, {"en": "The leader has become a tyrant punishing cats without mercy", "zh": "族长变成了暴君，毫不留情地惩罚猫"}, {"en": "The leader has left the Clan", "zh": "族长离开了族群"}, {"en": "The leader is too young", "zh": "族长太年轻了"}], "answer": 1, "explain": {"en": "Spotfur's leader rules as a tyrant, punishing cats cruelly, and she knows something is deeply wrong.", "zh": "斑毛的族长像个暴君一样残酷惩罚猫，她意识到事情出了大问题。"}}, {"q": {"en": "In Spotfur's Rebellion, Spotfur defies her leader for the good of whom?", "zh": "在《斑毛的反抗》中，斑毛违抗族长，是为了谁的利益？"}, "options": [{"en": "Only ThunderClan", "zh": "只为了雷族"}, {"en": "All five Clans", "zh": "为了全部五个族群"}, {"en": "Only herself", "zh": "只为了她自己"}, {"en": "The kittypets", "zh": "为了宠物猫"}], "answer": 1, "explain": {"en": "Spotfur chooses to stand against her leader because it is the right thing for all five Clans.", "zh": "斑毛选择站出来反对族长，因为这对五个族群来说都是正确的事。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bluestar's Prophecy · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Bluestar's Prophecy</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">蓝星的预言</p>
+    <div class="mark">⭐</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">From kit to leader, Bluestar's life is shaped by a secret: the kits she gave up to become deputy.<br><span style="color:#a06a1f">从幼猫到族长，蓝星的一生被一个秘密所塑造：她为了成为副族长而放弃的孩子们。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Super Editions — Bluestar's Prophecy</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What is Bluestar's name when she is a kit?", "zh": "蓝星还是幼猫时叫什么名字？"}, "options": [{"en": "Bluekit", "zh": "蓝崽（Bluekit）"}, {"en": "Snowkit", "zh": "雪崽（Snowkit）"}, {"en": "Moonkit", "zh": "月崽（Moonkit）"}, {"en": "Frostkit", "zh": "霜崽（Frostkit）"}], "answer": 0, "explain": {"en": "She is born Bluekit to Moonflower and Stormtail of ThunderClan.", "zh": "她出生时是蓝崽，父母是雷族的月花和暴尾。"}}, {"q": {"en": "Who is Bluestar's sister, who dies on the Thunderpath?", "zh": "蓝星的姐姐是谁？她死在了雷道上。"}, "options": [{"en": "Snowfur", "zh": "雪毛（Snowfur）"}, {"en": "Moonflower", "zh": "月花（Moonflower）"}, {"en": "Frostfur", "zh": "霜毛（Frostfur）"}, {"en": "Mistyfoot", "zh": "雾脚（Mistyfoot）"}], "answer": 0, "explain": {"en": "Snowfur, Bluefur's sister and the mother of Whitestorm, is killed by a monster on the Thunderpath.", "zh": "雪毛是蓝毛的姐姐、白风的母亲，被雷道上的怪兽撞死。"}}, {"q": {"en": "Who kills Bluestar's mother, Moonflower, in a battle with WindClan?", "zh": "在与风族的战斗里，是谁杀死了蓝星的母亲月花？"}, "options": [{"en": "Hawkheart", "zh": "鹰心（Hawkheart）"}, {"en": "Thistleclaw", "zh": "蓟爪（Thistleclaw）"}, {"en": "Pinestar", "zh": "松星（Pinestar）"}, {"en": "Oakheart", "zh": "橡心（Oakheart）"}], "answer": 0, "explain": {"en": "Hawkheart, the WindClan medicine cat at the time, kills Moonflower during a raid on the WindClan camp.", "zh": "当时的风族巫医鹰心，在突袭风族营地的战斗中杀死了月花。"}}, {"q": {"en": "With which RiverClan warrior does Bluefur secretly have kits?", "zh": "蓝毛悄悄地和哪位河族武士生了孩子？"}, "options": [{"en": "Oakheart", "zh": "橡心（Oakheart）"}, {"en": "Crookedstar", "zh": "钩星（Crookedstar）"}, {"en": "Reedshine", "zh": "芦苇星（Reedshine）"}, {"en": "Blackclaw", "zh": "黑爪（Blackclaw）"}], "answer": 0, "explain": {"en": "Bluefur loves Oakheart of RiverClan in secret, and together they have three kits.", "zh": "蓝毛暗中爱着河族的橡心，两人共同生下了三只幼猫。"}}, {"q": {"en": "What must Bluefur give up in order to be made deputy?", "zh": "蓝毛为了能当上副族长，必须放弃什么？"}, "options": [{"en": "Her kits, given to RiverClan", "zh": "她的孩子们，把他们送进河族"}, {"en": "Her position", "zh": "她的职位"}, {"en": "Her sister", "zh": "她的姐姐"}, {"en": "Her name", "zh": "她的名字"}], "answer": 0, "explain": {"en": "As part of the deal to become deputy, Bluefur gives her newborn kits to RiverClan to raise.", "zh": "作为当上副族长条件的一部分，蓝毛把刚出生的孩子们交给河族抚养。"}}, {"q": {"en": "Which of Bluefur's kits dies of cold when she tries to hide them?", "zh": "蓝毛试图藏起孩子时，哪一只幼猫冻死了？"}, "options": [{"en": "Mosskit", "zh": "苔崽（Mosskit）"}, {"en": "Stonefur", "zh": "石毛（Stonefur）"}, {"en": "Mistyfoot", "zh": "雾脚（Mistyfoot）"}, {"en": "Snowfur", "zh": "雪毛（Snowfur）"}], "answer": 0, "explain": {"en": "Little Mosskit cannot survive the cold and dies, a loss that haunts Bluefur forever.", "zh": "小小的苔崽没能熬过严寒而死，这个损失永远萦绕在蓝毛心头。"}}, {"q": {"en": "What does Pinestar do, leaving ThunderClan without a leader?", "zh": "松星做了什么，使雷族没有了族长？"}, "options": [{"en": "Leaves to become a kittypet", "zh": "离开，去做了宠物猫"}, {"en": "Dies in battle", "zh": "战死"}, {"en": "Joins ShadowClan", "zh": "加入了影族"}, {"en": "Is driven into exile", "zh": "被流放"}], "answer": 0, "explain": {"en": "Pinestar gives up his lives and leaves the forest to live as a kittypet with Twolegs.", "zh": "松星放弃了他的九条命，离开森林，去和两脚兽一起做宠物猫。"}}, {"q": {"en": "Who is the fierce ThunderClan warrior who trains Snowfur's son and wants to be deputy?", "zh": "那位凶猛的雷族武士是谁？他训练雪毛的儿子，并想当副族长。"}, "options": [{"en": "Thistleclaw", "zh": "蓟爪（Thistleclaw）"}, {"en": "Tigerclaw", "zh": "虎掌（Tigerclaw）"}, {"en": "Oakheart", "zh": "橡心（Oakheart）"}, {"en": "Goosefeather", "zh": "鹅羽（Goosefeather）"}], "answer": 0, "explain": {"en": "Thistleclaw is an aggressive warrior who mentors Whitepaw and strongly wants to be deputy.", "zh": "蓟爪是个好斗的武士，他训练白爪，并且非常想当副族长。"}}, {"q": {"en": "Who is the odd ThunderClan medicine cat known for strange prophecies?", "zh": "那位性格古怪、以古怪预言闻名的雷族巫医是谁？"}, "options": [{"en": "Goosefeather", "zh": "鹅羽（Goosefeather）"}, {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"}, {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"}, {"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"}], "answer": 0, "explain": {"en": "Goosefeather is a strange medicine cat who speaks of fearful prophecies about Bluestar's fate.", "zh": "鹅羽是个古怪的巫医，常说关于蓝星命运的恐怖预言。"}}, {"q": {"en": "How does Bluestar die?", "zh": "蓝星是怎么死的？"}, "options": [{"en": "Saving the Clan from a pack of dogs", "zh": "为从一群狗手中拯救族群而牺牲"}, {"en": "Killed by Tigerclaw", "zh": "被虎掌杀死"}, {"en": "Of old age", "zh": "老死"}, {"en": "Hit by a monster", "zh": "被怪兽撞死"}], "answer": 0, "explain": {"en": "Bluestar sacrifices her last life leading the Clan against the dog pack that threatened the gorge.", "zh": "蓝星献出最后一条命，带领族群对抗威胁峡谷的狗群。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

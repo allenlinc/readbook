@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moth Flight's Vision · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>Moth Flight's Vision</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">蛾飞的幻象</p>
+    <div class="mark">🦋</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">In the early days of the Clans, Moth Flight becomes the very first medicine cat and hears the ancestors' call.<br><span style="color:#a06a1f">在族群初创的远古时代，蛾飞成为了第一位巫医，并听见了祖先的召唤。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Super Editions — Moth Flight's Vision</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who is Moth Flight?", "zh": "蛾飞是谁？"}, "options": [{"en": "The first medicine cat", "zh": "第一位巫医"}, {"en": "The first Clan leader", "zh": "第一位族群族长"}, {"en": "A warrior", "zh": "一名武士"}, {"en": "A kittypet", "zh": "一只宠物猫"}], "answer": 0, "explain": {"en": "Moth Flight is the cat who becomes the very first medicine cat of the Clans.", "zh": "蛾飞是成为各族第一位巫医的那只猫。"}}, {"q": {"en": "Which Clan is Moth Flight from?", "zh": "蛾飞来自哪个族群？"}, "options": [{"en": "WindClan", "zh": "风族（WindClan）"}, {"en": "ThunderClan", "zh": "雷族（ThunderClan）"}, {"en": "RiverClan", "zh": "河族（RiverClan）"}, {"en": "ShadowClan", "zh": "影族（ShadowClan）"}], "answer": 0, "explain": {"en": "Moth Flight is a WindClan cat and the daughter of Windstar, the first WindClan leader.", "zh": "蛾飞是风族的一只猫，也是风族第一位族长风星（Windstar）的女儿。"}}, {"q": {"en": "Who is Moth Flight's father, the first leader of her Clan?", "zh": "蛾飞的父亲是谁？他也是她族群的族长。"}, "options": [{"en": "Windstar", "zh": "风星（Windstar）"}, {"en": "Moth", "zh": "蛾（Moth）"}, {"en": "Thunderstar", "zh": "雷星（Thunderstar）"}, {"en": "Riverstar", "zh": "河星（Riverstar）"}], "answer": 0, "explain": {"en": "Windstar, the founder and first leader of WindClan, is Moth Flight's father.", "zh": "风星是风族的缔造者与第一任族长，也是蛾飞的父亲。"}}, {"q": {"en": "From whom does Moth Flight receive her mysterious visions?", "zh": "蛾飞的神秘幻象来自谁？"}, "options": [{"en": "The ancestor spirits (StarClan)", "zh": "祖先的灵魂（星族）"}, {"en": "A Twoleg", "zh": "一只两脚兽"}, {"en": "A monster", "zh": "一只怪兽"}, {"en": "No one", "zh": "没有人"}], "answer": 0, "explain": {"en": "Moth Flight is visited by the spirits of the dead, the ancestors who will become StarClan.", "zh": "蛾飞受到亡者灵魂的探访，那些祖先正是后来星族的成员。"}}, {"q": {"en": "What special place does Moth Flight find to speak with the spirits?", "zh": "蛾飞找到了什么特别的地方，用来与祖先对话？"}, "options": [{"en": "The Moonstone / Moonpool", "zh": "月石 / 月池（Moonstone / Moonpool）"}, {"en": "A tall tree", "zh": "一棵高树"}, {"en": "The lake", "zh": "湖边"}, {"en": "A cave of rats", "zh": "一个老鼠洞"}], "answer": 0, "explain": {"en": "Moth Flight discovers the Moonstone, a sacred place where medicine cats meet the ancestors.", "zh": "蛾飞发现了月石，那是巫医与祖先相会的一处圣地。"}}, {"q": {"en": "What tradition does Moth Flight start for medicine cats?", "zh": "蛾飞为巫医开创了什么传统？"}, "options": [{"en": "The half-moon gatherings", "zh": "半月集会（half-moon gatherings）"}, {"en": "The Clan meetings", "zh": "族群大会"}, {"en": "The warrior code", "zh": "武士守则"}, {"en": "The Gathering", "zh": "大集会（Gathering）"}], "answer": 0, "explain": {"en": "She sets the custom that medicine cats meet at the half-moon to share dreams with their ancestors.", "zh": "她定下规矩：巫医在每月半月相聚，与祖先分享梦境。"}}, {"q": {"en": "Who is the solitary cat that Moth Flight loves?", "zh": "蛾飞所爱的那只独行猫是谁？"}, "options": [{"en": "Micah", "zh": "米卡（Micah）"}, {"en": "Windstar", "zh": "风星（Windstar）"}, {"en": "Thunderstar", "zh": "雷星（Thunderstar）"}, {"en": "Clear Sky", "zh": "晴空（Clear Sky）"}], "answer": 0, "explain": {"en": "Moth Flight loves a gentle solitary cat named Micah, who understands herbs and healing.", "zh": "蛾飞爱着一只温柔的独行猫米卡，他懂得药草与治疗。"}}, {"q": {"en": "How does Micah die?", "zh": "米卡是怎么死的？"}, "options": [{"en": "Killed by a monster (a Twoleg car)", "zh": "被一只怪兽（两脚兽的车）撞死"}, {"en": "Of old age", "zh": "老死"}, {"en": "In battle", "zh": "战死"}, {"en": "Of sickness", "zh": "病死"}], "answer": 0, "explain": {"en": "Micah is struck and killed by a monster on the Thunderpath, leaving Moth Flight heartbroken.", "zh": "米卡在雷道上被一只怪兽撞死，让蛾飞心碎不已。"}}, {"q": {"en": "What does Moth Flight do with the kits she has with Micah?", "zh": "蛾飞把和米卡生下的孩子们怎么安排了？"}, "options": [{"en": "Gives them to different Clans as medicine cats", "zh": "把他们送给不同族群，去当巫医"}, {"en": "Keeps them all in WindClan", "zh": "把他们全留在风族"}, {"en": "Abandons them", "zh": "抛弃了他们"}, {"en": "Gives them to Twolegs", "zh": "把他们送给了两脚兽"}], "answer": 0, "explain": {"en": "Her kits are spread among the Clans, where many become the first medicine cats of each.", "zh": "她的孩子们被分散到各个族群，其中许多成为了各族的第一位巫医。"}}, {"q": {"en": "In what era does Moth Flight's Vision take place?", "zh": "《蛾飞的幻象》发生在哪个时代？"}, "options": [{"en": "The early days, after the Clans are formed", "zh": "远古时代，族群刚刚成形之后"}, {"en": "The modern lake era", "zh": "现代湖畔时代"}, {"en": "The old forest era", "zh": "古老的森林时代"}, {"en": "The far future", "zh": "遥远的未来"}], "answer": 0, "explain": {"en": "The story is set in the Dawn of the Clans era, soon after the five Clans first take shape.", "zh": "这个故事发生在“族群黎明”时代，也就是五个族群刚刚成形不久的时候。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

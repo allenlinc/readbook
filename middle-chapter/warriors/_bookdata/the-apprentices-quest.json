@@ -1,0 +1,177 @@
+{
+  "slug": "the-apprentices-quest",
+  "desc": "Alderpaw, a ThunderClan medicine cat apprentice, sets out to find the lost SkyClan — and two abandoned kits change everything.",
+  "descZh": "雷族巫医学徒赤杨爪踏上寻找失落天族的旅程——而两只被遗弃的小猫，改变了一切。",
+  "questions": [
+    {
+      "q": {
+        "en": "Who is Alderpaw's father, the leader of ThunderClan?",
+        "zh": "赤杨爪的父亲是谁？他是雷族（ThunderClan）的族长。"
+      },
+      "options": [
+        {"en": "Bramblestar", "zh": "棘星（Bramblestar）"},
+        {"en": "Firestar", "zh": "火星（Firestar）"},
+        {"en": "Rowanstar", "zh": "罗星（Rowanstar）"},
+        {"en": "Onestar", "zh": "一星（Onestar）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Alderpaw is the son of Bramblestar and Squirrelflight, and the brother of Sparkpelt.",
+        "zh": "赤杨爪是棘星（Bramblestar）和松鼠飞（Squirrelflight）的儿子，也是星花（Sparkpelt）的弟弟。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who becomes Alderpaw's mentor as a medicine cat apprentice?",
+        "zh": "谁成为了赤杨爪的巫医导师？"
+      },
+      "options": [
+        {"en": "Leafpool", "zh": "叶池（Leafpool）"},
+        {"en": "Jayfeather", "zh": "松鸦羽（Jayfeather）"},
+        {"en": "Cinderheart", "zh": "余烬心（Cinderheart）"},
+        {"en": "Mothwing", "zh": "蛾翅（Mothwing）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Leafpool, the ThunderClan medicine cat, trains Alderpaw after StarClan chooses him for the role.",
+        "zh": "雷族巫医叶池（Leafpool）在星族选定赤杨爪后，负责训练他成为巫医。"
+      }
+    },
+    {
+      "q": {
+        "en": "Alderpaw receives special messages and signs from which group of ancestors?",
+        "zh": "赤杨爪从哪一群祖先那里接收到特别的讯息与征兆？"
+      },
+      "options": [
+        {"en": "StarClan", "zh": "星族（StarClan）"},
+        {"en": "The Dark Forest", "zh": "黑森林（The Dark Forest）"},
+        {"en": "The Twolegs", "zh": "两脚兽（The Twolegs）"},
+        {"en": "The Ancients", "zh": "远古猫（The Ancients）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Like other medicine cats, Alderpaw learns of StarClan's warnings through dreams and visions.",
+        "zh": "和其他巫医一样，赤杨爪通过梦境与异象，接收到星族（StarClan）的警告。"
+      }
+    },
+    {
+      "q": {
+        "en": "Bramblestar sends Alderpaw on a quest to find which lost Clan?",
+        "zh": "棘星派赤杨爪去寻回哪一支失落的族群？"
+      },
+      "options": [
+        {"en": "SkyClan", "zh": "天族（SkyClan）"},
+        {"en": "BloodClan", "zh": "血族（BloodClan）"},
+        {"en": "The Tribe of Rushing Water", "zh": "奔流部落（The Tribe of Rushing Water）"},
+        {"en": "WindClan", "zh": "风族（WindClan）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "StarClan's sign tells the Clans that SkyClan must be found and brought back to the lake.",
+        "zh": "星族的征兆告诉各族，必须找到天族（SkyClan）并让它回到湖畔。"
+      }
+    },
+    {
+      "q": {
+        "en": "Where did SkyClan live long ago, which the questing cats travel to?",
+        "zh": "天族很久以前居住在何处？出任务的猫正前往那里。"
+      },
+      "options": [
+        {"en": "The gorge", "zh": "峡谷（the gorge）"},
+        {"en": "The lake", "zh": "湖畔（the lake）"},
+        {"en": "The old forest", "zh": "旧森林（the old forest）"},
+        {"en": "The mountains", "zh": "山区（the mountains）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "SkyClan once made its home in a gorge far from the lake, so the quest travels there to find them.",
+        "zh": "天族曾经在远离湖畔的一处峡谷居住，因此出任务的猫长途跋涉前往那里寻找它们。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is Alderpaw's sister that joins him on the quest?",
+        "zh": "谁是和赤杨爪一同出任务的姐姐？"
+      },
+      "options": [
+        {"en": "Sparkpelt", "zh": "星花（Sparkpelt）"},
+        {"en": "Dovewing", "zh": "鸽翅（Dovewing）"},
+        {"en": "Ivypool", "zh": "藤池（Ivypool）"},
+        {"en": "Hollyleaf", "zh": "冬青叶（Hollyleaf）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Sparkpelt, Alderpaw's littermate sister, is chosen to go with him on the journey to find SkyClan.",
+        "zh": "星花（Sparkpelt）是赤杨爪的同窝姐姐，被选中与他一同踏上寻找天族的旅程。"
+      }
+    },
+    {
+      "q": {
+        "en": "Besides Alderpaw, Sparkpelt and Molewhisker, which ShadowClan cat joins the quest?",
+        "zh": "除了赤杨爪、星花和鼹须（Molewhisker），还有哪只影族猫加入了任务？"
+      },
+      "options": [
+        {"en": "Needletail", "zh": "针尾（Needletail）"},
+        {"en": "Puddleshine", "zh": "潭光（Puddleshine）"},
+        {"en": "Sleekwhisker", "zh": "滑须（Sleekwhisker）"},
+        {"en": "Stonewing", "zh": "石翼（Stonewing）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Needletail, a young ShadowClan warrior, volunteers to join the quest to find SkyClan.",
+        "zh": "年轻的影族武士针尾（Needletail）自愿加入寻找天族的任务。"
+      }
+    },
+    {
+      "q": {
+        "en": "During the journey, the cats find two abandoned kits named what?",
+        "zh": "旅途中，猫们发现了两只被遗弃的小猫，它们叫什么名字？"
+      },
+      "options": [
+        {"en": "Twigkit and Violetkit", "zh": "小枝（Twigkit）和小紫（Violetkit）"},
+        {"en": "Leafkit and Honeykit", "zh": "小叶（Leafkit）和小蜜（Honeykit）"},
+        {"en": "Fernkit and Stormkit", "zh": "小蕨（Fernkit）和小暴（Stormkit）"},
+        {"en": "Cloudkit and Snowkit", "zh": "小云（Cloudkit）和小雪（Snowkit）"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The questing cats discover two lost kits, Twigkit and Violetkit, near a Twolegplace.",
+        "zh": "出任务的猫在两脚兽地附近发现了两只走失的小猫——小枝（Twigkit）和小紫（Violetkit）。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the two kits is taken to live in ShadowClan?",
+        "zh": "两只小猫中，哪一只被带去影族（ShadowClan）生活？"
+      },
+      "options": [
+        {"en": "Violetkit (later Violetpaw)", "zh": "小紫（后来是小紫爪 Violetpaw）"},
+        {"en": "Twigkit (later Twigpaw)", "zh": "小枝（后来是小枝爪 Twigpaw）"},
+        {"en": "Both go to ThunderClan", "zh": "两只都去了雷族"},
+        {"en": "Neither is taken in", "zh": "两只都没被收留"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Needletail takes Violetkit back to ShadowClan, where she grows up as Violetpaw.",
+        "zh": "针尾把小紫带回影族，她在那里作为小紫爪（Violetpaw）长大。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which kit is raised in ThunderClan as Twigpaw?",
+        "zh": "哪只小猫在雷族被抚养，成为小枝爪（Twigpaw）？"
+      },
+      "options": [
+        {"en": "Twigkit", "zh": "小枝（Twigkit）"},
+        {"en": "Violetkit", "zh": "小紫（Violetkit）"},
+        {"en": "Both in ShadowClan", "zh": "两只都在影族"},
+        {"en": "Neither", "zh": "两只都不是"}
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Twigkit is brought to ThunderClan and raised as Twigpaw, while her sister Violetpaw stays in ShadowClan.",
+        "zh": "小枝被带到雷族，作为小枝爪（Twigpaw）长大，而她的妹妹小紫爪则留在影族。"
+      }
+    }
+  ]
+}

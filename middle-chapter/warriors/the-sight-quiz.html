@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sight · 猫武士 Warriors Quiz</title>
+<style>
+  :root{
+    --forest:#2f5d3a;
+    --forest-dark:#1e3f27;
+    --ember:#d35400;
+    --cream:#fbf7ee;
+    --ink:#2a2118;
+    --gold:#e0a82e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--ember);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.55rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--ember);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.94;
+  }
+  .bookzh{margin:2px 0 0 !important;font-weight:bold;letter-spacing:1px;}
+  .mark{
+    width:54px;height:54px;border-radius:50%;
+    background:#fff;margin:12px auto 0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.8rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #e3ddc8;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#f3fbf6;}
+  .q.wrong{border-color:var(--ember);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--ember);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#f7f5ec;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#efe9d4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--ember);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f4ff;
+    border-left:4px solid #4a6fc9;
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--ember);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(211,84,0,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(211,84,0,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9a9486;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>The Sight</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Erin Hunter</p>
+    <p class="bookzh">预视力量</p>
+    <div class="mark">👁️</div>
+  </header>
+  <main>
+    <p style="text-align:center;color:#555;font-size:.9rem;margin:-2px 0 16px;line-height:1.5">Three kits are born in ThunderClan, and one of them discovers he can walk in dreams—the beginning of the prophecy of the Three.<br><span style="color:#a06a1f">雷族诞生了三只幼崽，其中一只发现自己能在梦中行走——「三力量」预言就此开启。</span></p>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Warriors: Power of Three — The Sight</em> (HarperCollins)</footer>
+</div>
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Erin Hunter",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really read every page.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The prophecy is in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Erin Hunter",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你每一页都读得很仔细。",
+    great: "很棒——你已经读懂了这本书。",
+    ok: "不错——不过有几处细节被你漏掉了。",
+    low: "该重读一遍啦！真相藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What is unusual about Jaykit from the moment he is born?", "zh": "松鸦崽（Jaykit）一出生有什么与众不同之处？"}, "options": [{"en": "He has an extra tail", "zh": "他有一条额外的尾巴"}, {"en": "He is born blind", "zh": "他天生失明"}, {"en": "He can already speak", "zh": "他一生下来就会说话"}, {"en": "He is much bigger than his siblings", "zh": "他比手足们都大得多"}], "answer": 1, "explain": {"en": "Jaykit is blind from birth, a fact that later shapes his path as a medicine cat.", "zh": "松鸦崽天生失明，这个事实后来决定了他成为巫医的道路。"}}, {"q": {"en": "What are the names of Squirrelflight's three kits?", "zh": "松鼠飞（Squirrelflight）生下的三只幼崽叫什么名字？"}, "options": [{"en": "Lionkit, Hollykit, and Jaykit", "zh": "狮崽（Lionkit）、冬青崽（Hollykit）和松鸦崽（Jaykit）"}, {"en": "Bramblekit, Leafkit, and Stormkit", "zh": "荆棘崽、叶崽和暴崽"}, {"en": "Firekit, Sandkit, and Cloudkit", "zh": "火崽、沙崽和云崽"}, {"en": "Tigerkit, Mothkit, and Icekit", "zh": "虎崽、蛾崽和冰崽"}], "answer": 0, "explain": {"en": "The three siblings are Lionkit, Hollykit, and Jaykit, later named Lionblaze, Hollyleaf, and Jayfeather.", "zh": "三兄妹是狮崽、冬青崽和松鸦崽，后来分别成为狮焰、冬青叶和松鸦羽。"}}, {"q": {"en": "When the three become apprentices, which one trains as a medicine cat?", "zh": "三只幼崽成为学徒后，哪一只受训成为巫医？"}, "options": [{"en": "Lionpaw", "zh": "狮爪（Lionpaw）"}, {"en": "Hollypaw", "zh": "冬青爪（Hollypaw）"}, {"en": "Jaypaw", "zh": "松鸦爪（Jaypaw）"}, {"en": "All three of them", "zh": "三只都成为巫医"}], "answer": 2, "explain": {"en": "Because Jaykit is blind, Leafpool takes Jaypaw as her medicine cat apprentice.", "zh": "因为松鸦崽失明，叶池（Leafpool）收松鸦爪为巫医学徒。"}}, {"q": {"en": "What strange power does Jaypaw discover he has?", "zh": "松鸦爪（Jaypaw）发现自己拥有什么奇特力量？"}, "options": [{"en": "He can become invisible", "zh": "他能隐身"}, {"en": "He can walk in other cats' dreams and read their minds", "zh": "他能在别的猫的梦里行走、读懂它们的心思"}, {"en": "He can fly", "zh": "他会飞"}, {"en": "He can breathe underwater", "zh": "他能在水下呼吸"}], "answer": 1, "explain": {"en": "Jaypaw learns he can enter other cats' dreams and sense their thoughts, even though he cannot see.", "zh": "松鸦爪发现自己能进入别的猫的梦境、感知它们的想法，尽管他看不见。"}}, {"q": {"en": "Whose spirit guides Jaypaw in the dark tunnels beneath the lake?", "zh": "在湖底漆黑的地道里，是谁的灵魂指引着松鸦爪？"}, "options": [{"en": "A former leader named Bluestar", "zh": "前任族长蓝星（Bluestar）"}, {"en": "An ancient cat named Fallen Leaves", "zh": "一只名叫枯叶（Fallen Leaves）的远古猫"}, {"en": "A hungry fox", "zh": "一只饥饿的狐狸"}, {"en": "Firestar's father", "zh": "火星（Firestar）的父亲"}], "answer": 1, "explain": {"en": "In the tunnels Jaypaw meets Fallen Leaves, the spirit of an ancient cat who was lost there long ago.", "zh": "在地道里，松鸦爪遇见了枯叶——一只远古猫的灵魂，很久以前就迷失在那里。"}}, {"q": {"en": "What does the prophecy about 'the Three' say they will have?", "zh": "关于「三力量」的预言说，他们将拥有什么？"}, "options": [{"en": "The power of the stars in their paws", "zh": "星族的力量在爪中"}, {"en": "Wings to fly to the moon", "zh": "飞向月亮的翅膀"}, {"en": "The ability to live forever", "zh": "永生的能力"}, {"en": "A map to a hidden river", "zh": "一张通往暗河的地图"}], "answer": 0, "explain": {"en": "The prophecy states: 'There will be three, kin of your kin, with the power of the stars in their paws.'", "zh": "预言写道：「将有三只，族亲之族亲，星族的力量在爪中。」"}}, {"q": {"en": "Which ThunderClan leader learns of the prophecy about the Three?", "zh": "哪位雷族（ThunderClan）族长得知了关于三力量的预言？"}, "options": [{"en": "Firestar", "zh": "火星（Firestar）"}, {"en": "Brambleclaw", "zh": "荆棘爪（Brambleclaw）"}, {"en": "Blackstar", "zh": "黑星（Blackstar）"}, {"en": "Onestar", "zh": "一星（Onestar）"}], "answer": 0, "explain": {"en": "Firestar, the ThunderClan leader, receives the warning from StarClan about the coming Three.", "zh": "雷族族长火星从星族那里得到了关于即将到来的三力量的警示。"}}, {"q": {"en": "Which ThunderClan tom still longs for Squirrelflight's love?", "zh": "哪位雷族公猫仍渴望着松鼠飞（Squirrelflight）的爱？"}, "options": [{"en": "Ashfur", "zh": "灰毛（Ashfur）"}, {"en": "Brackenfur", "zh": "蕨毛（Brackenfur）"}, {"en": "Cloudtail", "zh": "云尾（Cloudtail）"}, {"en": "Thornclaw", "zh": "刺爪（Thornclaw）"}], "answer": 0, "explain": {"en": "Ashfur has never gotten over his love for Squirrelflight, which causes trouble later in the series.", "zh": "灰毛始终放不下对松鼠飞的爱，这在后续剧情中酿成了麻烦。"}}, {"q": {"en": "At the start of the series, who do the Clans believe are the parents of the three kits?", "zh": "在系列开始时，猫族以为这三只幼崽的父母是谁？"}, "options": [{"en": "Leafpool and Crowfeather", "zh": "叶池（Leafpool）与乌掌（Crowfeather）"}, {"en": "Brambleclaw and Squirrelflight", "zh": "荆棘爪（Brambleclaw）与松鼠飞（Squirrelflight）"}, {"en": "Firestar and Sandstorm", "zh": "火星（Firestar）与沙暴（Sandstorm）"}, {"en": "Two unknown loners", "zh": "两只不知名的独行猫"}], "answer": 1, "explain": {"en": "Everyone believes Brambleclaw and Squirrelflight are the parents; the real truth is hidden.", "zh": "大家都以为父母是荆棘爪和松鼠飞，真正的身世被隐瞒了起来。"}}, {"q": {"en": "Where do the four Clans live during the Power of Three series?", "zh": "在「三力量」系列中，四大猫族住在哪里？"}, "options": [{"en": "In the old forest", "zh": "在旧森林里"}, {"en": "By the lake", "zh": "在湖边"}, {"en": "In the mountains", "zh": "在山里"}, {"en": "Only on the open moor", "zh": "只在开阔的荒原上"}], "answer": 1, "explain": {"en": "After the Great Journey, the four Clans live around the lake in their new territories.", "zh": "大旅程之后，四大猫族在湖边的新领地安了家。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
