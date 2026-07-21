@@ -38,7 +38,8 @@ a{color:var(--primary);text-decoration:none}
 
 /* ---------- Hero ---------- */
 .hero{
-  background:linear-gradient(135deg,var(--primary),#0891b2);
+  background:linear-gradient(135deg,#075985,var(--primary));
+  background-color:var(--primary-d);
   color:#fff;border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow);
   display:flex;align-items:center;gap:16px;flex-wrap:wrap;
 }
@@ -134,7 +135,9 @@ a{color:var(--primary);text-decoration:none}
 
 /* ---------- Hub ---------- */
 .hub-hero{
-  background:linear-gradient(135deg,var(--primary),#0891b2);color:#fff;border-radius:var(--radius);
+  background:linear-gradient(135deg,#075985,var(--primary));
+  background-color:var(--primary-d);
+  color:#fff;border-radius:var(--radius);
   padding:26px 24px;box-shadow:var(--shadow);margin-bottom:18px;
 }
 .hub-hero h1{margin:0;font-size:26px}
