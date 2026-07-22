@@ -17,16 +17,16 @@
           "zh": "众神之王宙斯和凡间女子阿尔克墨涅。"
         },
         {
-          "en": "Hera and Zeus.",
-          "zh": "赫拉和宙斯。"
-        },
-        {
           "en": "Apollo and Alcmene.",
           "zh": "阿波罗和阿尔克墨涅。"
         },
         {
-          "en": "King Eurystheus and Alcmene.",
-          "zh": "欧律斯透斯王和阿尔克墨涅。"
+          "en": "Hera and Zeus.",
+          "zh": "赫拉和宙斯。"
+        },
+        {
+          "en": "King Eurystheus and Alcmene. according to some versions of the story",
+          "zh": "欧律斯透斯王和阿尔克墨涅。（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -47,19 +47,19 @@
           "zh": "她想让他成为伟大的英雄。"
         },
         {
-          "en": "She was angry that Zeus had a child with Alcmene and swore revenge.",
-          "zh": "她因宙斯与阿尔克墨涅生下孩子而愤怒，发誓报复。"
-        },
-        {
-          "en": "She needed him to clean the Augean stables.",
-          "zh": "她需要他去清扫奥吉亚斯牛圈。"
+          "en": "She needed him to clean the Augean stables. according to some versions of the story",
+          "zh": "她需要他去清扫奥吉亚斯牛圈。（按书中另一种说法）"
         },
         {
           "en": "She loved him as her own son.",
           "zh": "她像亲生儿子一样爱他。"
+        },
+        {
+          "en": "She was angry that Zeus had a child with Alcmene and swore revenge.",
+          "zh": "她因宙斯与阿尔克墨涅生下孩子而愤怒，发誓报复。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Hera, Zeus's wife, was angry that Zeus had a child with Alcmene and swore revenge on both mother and child.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "Always twelve. according to some versions of the story",
+          "zh": "一直是十二项。（按书中另一种说法）"
+        },
+        {
           "en": "Ten at first, then twelve after Hera insisted.",
           "zh": "起初十项，在赫拉坚持后变成十二项。"
         },
         {
-          "en": "Always ten.",
-          "zh": "一直是十项。"
-        },
-        {
-          "en": "Always twelve.",
-          "zh": "一直是十二项。"
-        },
-        {
           "en": "Seven.",
           "zh": "七项。"
+        },
+        {
+          "en": "Always ten.",
+          "zh": "一直是十项。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Apollo sentenced Hercules to ten labors, but when Eurystheus learned he had been paid for two, he increased the number from ten to twelve at Hera's insistence.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "He shot it with arrows that pierced its heart.",
-          "zh": "他用箭射穿了它的心脏。"
-        },
-        {
-          "en": "He built a trap and let it starve.",
-          "zh": "他设下陷阱让它饿死。"
-        },
-        {
           "en": "He choked it with his arms after his arrows and spear bounced off its hide.",
           "zh": "在箭和矛都被狮皮弹开后，他用双臂将其掐死。"
         },
         {
           "en": "He poisoned it with a special herb.",
           "zh": "他用一种特殊的草药毒死了它。"
+        },
+        {
+          "en": "He built a trap and let it starve.",
+          "zh": "他设下陷阱让它饿死。"
+        },
+        {
+          "en": "He shot it with arrows that pierced its heart. according to some versions of the story",
+          "zh": "他用箭射穿了它的心脏。（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Arrows and a spear could not pierce the lion's hide, so Hercules jumped on its back and choked it with his powerful arms.",
@@ -133,8 +133,12 @@
       },
       "options": [
         {
-          "en": "He swept it by hand with thousands of helpers.",
-          "zh": "他带着数千名帮手亲手清扫。"
+          "en": "He swept it by hand with thousands of helpers. according to some versions of the story",
+          "zh": "他带着数千名帮手亲手清扫。（按书中另一种说法）"
+        },
+        {
+          "en": "He smashed holes in the walls and let a river flow through to carry the filth away.",
+          "zh": "他在墙上砸出洞，引河水穿过牛圈把污物冲走。"
         },
         {
           "en": "He used fire to burn the filth away.",
@@ -143,13 +147,9 @@
         {
           "en": "He hired the Amazons to do it.",
           "zh": "他雇了亚马逊女战士来做。"
-        },
-        {
-          "en": "He smashed holes in the walls and let a river flow through to carry the filth away.",
-          "zh": "他在墙上砸出洞，引河水穿过牛圈把污物冲走。"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Hercules smashed two large holes in the stable walls and dug a canal from a nearby river so the water flowed through and carried away years of filth.",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "He left it alone because it was too fast. according to some versions of the story in an early draft of the book",
+          "zh": "他任由它离开，因为它跑得太快。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "He killed it and ate it.",
           "zh": "他把它杀了吃掉。"
         },
@@ -173,13 +177,9 @@
         {
           "en": "He gave it to Hera as a gift.",
           "zh": "他把它作为礼物送给了赫拉。"
-        },
-        {
-          "en": "He left it alone because it was too fast.",
-          "zh": "他任由它离开，因为它跑得太快。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Hercules patiently tracked the hind for a full year, threw a net over it, and later kept his word to Artemis by returning it after the labor.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "He offered to hold the world for Atlas, then tricked Atlas into taking it back so he could escape with the apple.",
-          "zh": "他提出替阿特拉斯扛住世界，然后设计让阿特拉斯重新扛回，自己带着苹果逃走。"
+          "en": "He asked Zeus to give it to him.",
+          "zh": "他请求宙斯把苹果给他。"
         },
         {
-          "en": "He fought the nymphs and stole it.",
-          "zh": "他与仙女们战斗并把苹果偷走。"
+          "en": "He offered to hold the world for Atlas, then tricked Atlas into taking it back so he could escape with the apple.",
+          "zh": "他提出替阿特拉斯扛住世界，然后设计让阿特拉斯重新扛回，自己带着苹果逃走。"
         },
         {
           "en": "He climbed the tree himself.",
           "zh": "他自己爬上树去摘。"
         },
         {
-          "en": "He asked Zeus to give it to him.",
-          "zh": "他请求宙斯把苹果给他。"
+          "en": "He fought the nymphs and stole it. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他与仙女们战斗并把苹果偷走。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Hercules agreed to hold the world for Atlas, then asked Atlas to hold it briefly so he could get comfortable; once Atlas lifted it again, Hercules escaped with the apple.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "A type of weapon used in battle.",
-          "zh": "战斗中使用的武器。"
-        },
-        {
-          "en": "A celebration held after a victory.",
-          "zh": "胜利后举行的庆祝活动。"
-        },
-        {
           "en": "Something a person does to show regret or atone for bad behavior.",
           "zh": "一个人为了表达悔意或弥补过错而做的事。"
         },
         {
           "en": "A gift given to a king.",
           "zh": "献给国王的礼物。"
+        },
+        {
+          "en": "A type of weapon used in battle.",
+          "zh": "战斗中使用的武器。"
+        },
+        {
+          "en": "A celebration held after a victory. according to some versions of the story",
+          "zh": "胜利后举行的庆祝活动。（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'penance' as something a person does to show regret or atone for bad behavior, as when Hercules took on his labors.",
@@ -261,15 +261,15 @@
           "zh": "讲解如何训练狮子。"
         },
         {
-          "en": "To argue that Hera was right to be angry.",
-          "zh": "论证赫拉生气是有道理的。"
-        },
-        {
           "en": "To retell the Greek myth of Hercules's labors and his rise to immortality.",
           "zh": "重述赫拉克勒斯完成任务的希腊神话，以及他如何成为不朽英雄。"
+        },
+        {
+          "en": "To argue that Hera was right to be angry. according to some versions of the story in an early draft of the book",
+          "zh": "论证赫拉生气是有道理的。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book retells the beloved myth of Hercules's labors, his struggles, and how Zeus raised him to Olympus as an immortal hero.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "He used only brute strength and never any cleverness.",
-          "zh": "他只靠蛮力，从不耍聪明。"
+          "en": "He used only brute strength and never any cleverness. according to some versions of the story in an early draft of the book",
+          "zh": "他只靠蛮力，从不耍聪明。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "He used both great strength and clever tricks, such as the lion's claw and tricking Atlas.",
-          "zh": "他既用强大的力量，也用巧妙的计谋，比如用狮爪和戏弄阿特拉斯。"
+          "en": "He paid other people to complete every labor.",
+          "zh": "他付钱让别人完成每一项任务。"
         },
         {
           "en": "He always asked the gods to do the work for him.",
           "zh": "他总是请众神替他完成工作。"
         },
         {
-          "en": "He paid other people to complete every labor.",
-          "zh": "他付钱让别人完成每一项任务。"
+          "en": "He used both great strength and clever tricks, such as the lion's claw and tricking Atlas.",
+          "zh": "他既用强大的力量，也用巧妙的计谋，比如用狮爪和戏弄阿特拉斯。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book shows Hercules combining strength and ingenuity, such as skinning the lion with its own claw and tricking Atlas to keep the golden apple.",

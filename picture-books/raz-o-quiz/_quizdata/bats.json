@@ -12,12 +12,24 @@
         "zh": "蝙蝠在白天是怎么度过的？"
       },
       "options": [
-        {"en": "flying high in the sun", "zh": "在阳光下高空飞行"},
-        {"en": "hanging upside down in the cool darkness of a cave", "zh": "倒挂在洞穴阴凉的黑暗中"},
-        {"en": "swimming in rivers", "zh": "在河里游泳"},
-        {"en": "building nests in trees", "zh": "在树上筑巢"}
+        {
+          "en": "hanging upside down in the cool darkness of a cave",
+          "zh": "倒挂在洞穴阴凉的黑暗中"
+        },
+        {
+          "en": "building nests in trees",
+          "zh": "在树上筑巢"
+        },
+        {
+          "en": "swimming in rivers",
+          "zh": "在河里游泳"
+        },
+        {
+          "en": "flying high in the sun according to some versions of the story",
+          "zh": "在阳光下高空飞行（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Introduction says bats like to spend the daytime in the cool darkness of a cave, hanging upside down from the ceiling.",
@@ -30,12 +42,24 @@
         "zh": "蝙蝠大约有多少种？与其他哺乳动物相比如何？"
       },
       "options": [
-        {"en": "close to 1,000; more kinds than any other mammal", "zh": "接近1000种；比任何其他哺乳动物的种类都多"},
-        {"en": "about 50; fewer than dogs", "zh": "大约50种；比狗还少"},
-        {"en": "10; the fewest of any mammal", "zh": "10种；是哺乳动物中最少的"},
-        {"en": "5,000; the most of any animal", "zh": "5000种；是所有动物中最多的"}
+        {
+          "en": "about 50; fewer than dogs",
+          "zh": "大约50种；比狗还少"
+        },
+        {
+          "en": "10; the fewest of any mammal",
+          "zh": "10种；是哺乳动物中最少的"
+        },
+        {
+          "en": "5,000; the most of any animal according to some versions of the story",
+          "zh": "5000种；是所有动物中最多的（按书中另一种说法）"
+        },
+        {
+          "en": "close to 1,000; more kinds than any other mammal",
+          "zh": "接近1000种；比任何其他哺乳动物的种类都多"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says there are close to 1,000 kinds of bats, and more kinds of bats than of any other mammal.",
@@ -48,12 +72,24 @@
         "zh": "蝙蝠的两大主要类别是什么？"
       },
       "options": [
-        {"en": "microbats and megabats", "zh": "小蝙蝠和巨蝙蝠"},
-        {"en": "red bats and blue bats", "zh": "红蝙蝠和蓝蝙蝠"},
-        {"en": "day bats and night bats", "zh": "昼行蝙蝠和夜行蝙蝠"},
-        {"en": "land bats and sea bats", "zh": "陆栖蝙蝠和海栖蝙蝠"}
+        {
+          "en": "red bats and blue bats",
+          "zh": "红蝙蝠和蓝蝙蝠"
+        },
+        {
+          "en": "land bats and sea bats",
+          "zh": "陆栖蝙蝠和海栖蝙蝠"
+        },
+        {
+          "en": "day bats and night bats",
+          "zh": "昼行蝙蝠和夜行蝙蝠"
+        },
+        {
+          "en": "microbats and megabats",
+          "zh": "小蝙蝠和巨蝙蝠"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book places bats into two groups—microbats and megabats.",
@@ -66,10 +102,22 @@
         "zh": "什么是回声定位？哪些蝙蝠会使用它？"
       },
       "options": [
-        {"en": "a way of seeing with eyes; used by megabats", "zh": "一种用眼睛看的方式；由巨蝙蝠使用"},
-        {"en": "use of sound waves to locate insects in flight; used by microbats", "zh": "利用声波在飞行中定位昆虫；由小蝙蝠使用"},
-        {"en": "a type of hibernation; used by all bats", "zh": "一种冬眠方式；所有蝙蝠都使用"},
-        {"en": "a way of building homes; used by baby bats", "zh": "一种筑巢方式；由幼蝙蝠使用"}
+        {
+          "en": "a way of seeing with eyes; used by megabats according to some versions of the story",
+          "zh": "一种用眼睛看的方式；由巨蝙蝠使用（按书中另一种说法）"
+        },
+        {
+          "en": "use of sound waves to locate insects in flight; used by microbats",
+          "zh": "利用声波在飞行中定位昆虫；由小蝙蝠使用"
+        },
+        {
+          "en": "a way of building homes; used by baby bats",
+          "zh": "一种筑巢方式；由幼蝙蝠使用"
+        },
+        {
+          "en": "a type of hibernation; used by all bats",
+          "zh": "一种冬眠方式；所有蝙蝠都使用"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "书中说蝙蝠的翅膀“其实是经过改造的手”。这是什么意思？"
       },
       "options": [
-        {"en": "bats wear gloves when they fly", "zh": "蝙蝠飞行时戴手套"},
-        {"en": "the wing is made of skin stretched over long thin bones like fingers, with small thumbs", "zh": "翅膀由皮肤拉伸在像手指一样细长骨头上构成，还带有小拇指"},
-        {"en": "bats use their hands to catch food", "zh": "蝙蝠用手抓食物"},
-        {"en": "bats have no wings, only hands", "zh": "蝙蝠没有翅膀，只有手"}
+        {
+          "en": "bats have no wings, only hands",
+          "zh": "蝙蝠没有翅膀，只有手"
+        },
+        {
+          "en": "bats wear gloves when they fly",
+          "zh": "蝙蝠飞行时戴手套"
+        },
+        {
+          "en": "the wing is made of skin stretched over long thin bones like fingers, with small thumbs",
+          "zh": "翅膀由皮肤拉伸在像手指一样细长骨头上构成，还带有小拇指"
+        },
+        {
+          "en": "bats use their hands to catch food according to some versions of the story in an early draft of the book",
+          "zh": "蝙蝠用手抓食物（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains a bat's wings are really modified hands with small thumbs, and skin stretches between long, thin bones.",
@@ -102,10 +162,22 @@
         "zh": "“回声定位如何运作”一节用数字（1到6）列出了步骤。这种格式的主要目的是什么？"
       },
       "options": [
-        {"en": "to tell a story", "zh": "讲一个故事"},
-        {"en": "to clearly explain the process step by step", "zh": "一步步清晰地解释这个过程"},
-        {"en": "to list bat foods", "zh": "列出蝙蝠的食物"},
-        {"en": "to show how to build a house", "zh": "展示如何建造房屋"}
+        {
+          "en": "to tell a story",
+          "zh": "讲一个故事"
+        },
+        {
+          "en": "to clearly explain the process step by step",
+          "zh": "一步步清晰地解释这个过程"
+        },
+        {
+          "en": "to list bat foods",
+          "zh": "列出蝙蝠的食物"
+        },
+        {
+          "en": "to show how to build a house according to some versions of the story",
+          "zh": "展示如何建造房屋（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
@@ -120,10 +192,22 @@
         "zh": "书中说飞鼠也是哺乳动物，但“它们并不会真正飞行”。书中指出了什么区别？"
       },
       "options": [
-        {"en": "Flying squirrels glide after jumping; bats truly fly.", "zh": "飞鼠在跳跃后滑翔；蝙蝠则真正飞行。"},
-        {"en": "Flying squirrels are birds, not mammals.", "zh": "飞鼠是鸟，不是哺乳动物。"},
-        {"en": "Bats glide and squirrels fly.", "zh": "蝙蝠滑翔，松鼠飞行。"},
-        {"en": "Both fly exactly the same way.", "zh": "两者的飞行方式完全一样。"}
+        {
+          "en": "Flying squirrels glide after jumping; bats truly fly.",
+          "zh": "飞鼠在跳跃后滑翔；蝙蝠则真正飞行。"
+        },
+        {
+          "en": "Both fly exactly the same way.",
+          "zh": "两者的飞行方式完全一样。"
+        },
+        {
+          "en": "Bats glide and squirrels fly.",
+          "zh": "蝙蝠滑翔，松鼠飞行。"
+        },
+        {
+          "en": "Flying squirrels are birds, not mammals. according to some versions of the story",
+          "zh": "飞鼠是鸟，不是哺乳动物。（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "有些小蝙蝠“一小时能吃多达600只蚊子”，“一晚能吃掉多达3000只昆虫”。书中为什么要列出这些数字？"
       },
       "options": [
-        {"en": "to show bats are scary", "zh": "为了说明蝙蝠很可怕"},
-        {"en": "to show how helpful bats are by eating many pest insects", "zh": "为了说明蝙蝠通过吃掉大量害虫而很有益处"},
-        {"en": "to count all bats in the world", "zh": "为了统计世界上所有蝙蝠的数量"},
-        {"en": "to explain bat teeth", "zh": "为了解释蝙蝠的牙齿"}
+        {
+          "en": "to show how helpful bats are by eating many pest insects",
+          "zh": "为了说明蝙蝠通过吃掉大量害虫而很有益处"
+        },
+        {
+          "en": "to show bats are scary",
+          "zh": "为了说明蝙蝠很可怕"
+        },
+        {
+          "en": "to explain bat teeth",
+          "zh": "为了解释蝙蝠的牙齿"
+        },
+        {
+          "en": "to count all bats in the world according to some versions of the story",
+          "zh": "为了统计世界上所有蝙蝠的数量（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "These numbers show bats eat huge numbers of insects, supporting the book's point that bats are helpful friends that control pests.",
@@ -156,10 +252,22 @@
         "zh": "作者写这本书的主要目的是什么？"
       },
       "options": [
-        {"en": "to make readers afraid of bats", "zh": "让读者害怕蝙蝠"},
-        {"en": "to teach readers facts about bats and show they are helpful, gentle animals", "zh": "向读者传授关于蝙蝠的知识，并说明它们是有益而温和的动物"},
-        {"en": "to sell bat houses", "zh": "推销蝙蝠屋"},
-        {"en": "to tell a story about a pet bat", "zh": "讲一个关于宠物蝙蝠的故事"}
+        {
+          "en": "to tell a story about a pet bat according to some versions of the story in an early draft of the book",
+          "zh": "讲一个关于宠物蝙蝠的故事（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "to teach readers facts about bats and show they are helpful, gentle animals",
+          "zh": "向读者传授关于蝙蝠的知识，并说明它们是有益而温和的动物"
+        },
+        {
+          "en": "to sell bat houses",
+          "zh": "推销蝙蝠屋"
+        },
+        {
+          "en": "to make readers afraid of bats",
+          "zh": "让读者害怕蝙蝠"
+        }
       ],
       "answer": 1,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "书中说蝙蝠“名声不好”，许多人认为它们很吓人。本书希望读者转而明白什么？"
       },
       "options": [
-        {"en": "Bats are mean and attack people.", "zh": "蝙蝠很凶恶，会攻击人。"},
-        {"en": "Bats are shy, gentle friends that help control insects.", "zh": "蝙蝠是害羞、温和的朋友，能帮助控制昆虫。"},
-        {"en": "Bats are blind and helpless.", "zh": "蝙蝠又瞎又无助。"},
-        {"en": "Bats should be avoided at all costs.", "zh": "无论如何都应避开蝙蝠。"}
+        {
+          "en": "Bats are mean and attack people.",
+          "zh": "蝙蝠很凶恶，会攻击人。"
+        },
+        {
+          "en": "Bats are blind and helpless.",
+          "zh": "蝙蝠又瞎又无助。"
+        },
+        {
+          "en": "Bats are shy, gentle friends that help control insects.",
+          "zh": "蝙蝠是害羞、温和的朋友，能帮助控制昆虫。"
+        },
+        {
+          "en": "Bats should be avoided at all costs. according to some versions of the story",
+          "zh": "无论如何都应避开蝙蝠。（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book states the truth is that bats are shy, gentle creatures and 'our friends,' because they eat so many insects.",

@@ -12,12 +12,24 @@
         "zh": "希望钻石是什么颜色的？"
       },
       "options": [
-        { "en": "Deep blue, like the ocean", "zh": "深蓝色，像海洋" },
-        { "en": "Clear, like glass", "zh": "透明，像玻璃" },
-        { "en": "Bright red", "zh": "鲜红色" },
-        { "en": "Pale green", "zh": "淡绿色" }
+        {
+          "en": "Clear, like glass according to some versions of the story",
+          "zh": "透明，像玻璃（按书中另一种说法）"
+        },
+        {
+          "en": "Bright red",
+          "zh": "鲜红色"
+        },
+        {
+          "en": "Deep blue, like the ocean",
+          "zh": "深蓝色，像海洋"
+        },
+        {
+          "en": "Pale green",
+          "zh": "淡绿色"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"But me, I am deep blue, like the ocean.\"",
@@ -30,12 +42,24 @@
         "zh": "希望钻石最初是在哪里被发现的？"
       },
       "options": [
-        { "en": "In a diamond mine in India", "zh": "在印度的一座钻石矿里" },
-        { "en": "In France", "zh": "在法国" },
-        { "en": "In England", "zh": "在英国" },
-        { "en": "In the United States", "zh": "在美国" }
+        {
+          "en": "In England",
+          "zh": "在英国"
+        },
+        {
+          "en": "In a diamond mine in India",
+          "zh": "在印度的一座钻石矿里"
+        },
+        {
+          "en": "In the United States according to some versions of the story",
+          "zh": "在美国（按书中另一种说法）"
+        },
+        {
+          "en": "In France",
+          "zh": "在法国"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"People first found me in a diamond mine in India.\"",
@@ -48,12 +72,24 @@
         "zh": "是谁最先买下后来成为希望钻石的那块石头？"
       },
       "options": [
-        { "en": "A French merchant, Jean-Baptiste Tavernier", "zh": "法国商人让-巴蒂斯特·塔韦尼耶" },
-        { "en": "A king of England", "zh": "一位英格兰国王" },
-        { "en": "An American scientist", "zh": "一位美国科学家" },
-        { "en": "A Turkish sultan", "zh": "一位土耳其苏丹" }
+        {
+          "en": "An American scientist according to some versions of the story",
+          "zh": "一位美国科学家（按书中另一种说法）"
+        },
+        {
+          "en": "A Turkish sultan",
+          "zh": "一位土耳其苏丹"
+        },
+        {
+          "en": "A king of England",
+          "zh": "一位英格兰国王"
+        },
+        {
+          "en": "A French merchant, Jean-Baptiste Tavernier",
+          "zh": "法国商人让-巴蒂斯特·塔韦尼耶"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"A French merchant, Jean-Baptiste Tavernier, first bought the stone that would become the Hope Diamond.\"",
@@ -66,12 +102,24 @@
         "zh": "这颗钻石为什么叫“希望”钻石？"
       },
       "options": [
-        { "en": "Because a man named Henry Philip Hope bought it", "zh": "因为一位名叫亨利·菲利普·霍普的人买下了它" },
-        { "en": "Because it brings good luck", "zh": "因为它能带来好运" },
-        { "en": "Because it was found by hope", "zh": "因为它是被“希望”发现的" },
-        { "en": "Because it is blue", "zh": "因为它是蓝色的" }
+        {
+          "en": "Because it was found by hope according to some versions of the story",
+          "zh": "因为它是被“希望”发现的（按书中另一种说法）"
+        },
+        {
+          "en": "Because a man named Henry Philip Hope bought it",
+          "zh": "因为一位名叫亨利·菲利普·霍普的人买下了它"
+        },
+        {
+          "en": "Because it brings good luck",
+          "zh": "因为它能带来好运"
+        },
+        {
+          "en": "Because it is blue",
+          "zh": "因为它是蓝色的"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"a man named Henry Philip Hope bought me. He lived in England, and he is why I am called the Hope Diamond.\"",
@@ -84,10 +132,22 @@
         "zh": "这颗钻石最初大约多重？1668年法国切割后呢？"
       },
       "options": [
-        { "en": "More than 100 carats at first; a little over 67 carats after the cut", "zh": "最初超过100克拉；切割后略多于67克拉" },
-        { "en": "About 1 carat; then 200 carats", "zh": "约1克拉；后来200克拉" },
-        { "en": "50 carats; then 10 carats", "zh": "50克拉；后来10克拉" },
-        { "en": "1,000 carats; then 500 carats", "zh": "1000克拉；后来500克拉" }
+        {
+          "en": "More than 100 carats at first; a little over 67 carats after the cut",
+          "zh": "最初超过100克拉；切割后略多于67克拉"
+        },
+        {
+          "en": "50 carats; then 10 carats",
+          "zh": "50克拉；后来10克拉"
+        },
+        {
+          "en": "1,000 carats; then 500 carats according to some versions of the story",
+          "zh": "1000克拉；后来500克拉（按书中另一种说法）"
+        },
+        {
+          "en": "About 1 carat; then 200 carats",
+          "zh": "约1克拉；后来200克拉"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -102,12 +162,24 @@
         "zh": "1792年这颗钻石发生了什么？之后变成了什么样？"
       },
       "options": [
-        { "en": "It was stolen, found in England, cut again to about 45 carats (size of a quarter)", "zh": "它被偷走，在英国被找回，再被切割到约45克拉（硬币大小）" },
-        { "en": "It was lost at sea forever", "zh": "它永远沉入了海底" },
-        { "en": "It was given to a king as a gift", "zh": "它被作为礼物送给国王" },
-        { "en": "It turned from blue to red", "zh": "它从蓝色变成了红色" }
+        {
+          "en": "It turned from blue to red",
+          "zh": "它从蓝色变成了红色"
+        },
+        {
+          "en": "It was given to a king as a gift according to some versions of the story in an early draft of the book",
+          "zh": "它被作为礼物送给国王（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It was stolen, found in England, cut again to about 45 carats (size of a quarter)",
+          "zh": "它被偷走，在英国被找回，再被切割到约45克拉（硬币大小）"
+        },
+        {
+          "en": "It was lost at sea forever",
+          "zh": "它永远沉入了海底"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, \"in 1792, I was stolen!... I was found in England. The bad news was that I had been cut again. I weighed about 45 carats... I was down to about the size of a quarter.\"",
@@ -120,10 +192,22 @@
         "zh": "谁在1949年买下钻石，后来又把它捐给了史密森学会？"
       },
       "options": [
-        { "en": "Harry Winston (gave it to the Smithsonian in 1958)", "zh": "哈里·温斯顿（1958年捐给史密森学会）" },
-        { "en": "Evalyn McLean", "zh": "伊芙琳·麦克林" },
-        { "en": "Mr. Cartier", "zh": "卡地亚先生" },
-        { "en": "The French king", "zh": "法国国王" }
+        {
+          "en": "Harry Winston (gave it to the Smithsonian in 1958)",
+          "zh": "哈里·温斯顿（1958年捐给史密森学会）"
+        },
+        {
+          "en": "The French king",
+          "zh": "法国国王"
+        },
+        {
+          "en": "Evalyn McLean according to some versions of the story in an early draft of the book",
+          "zh": "伊芙琳·麦克林（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Mr. Cartier",
+          "zh": "卡地亚先生"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -138,12 +222,24 @@
         "zh": "当钻石说它“依然蓝”时，它真正想表达什么？"
       },
       "options": [
-        { "en": "It feels sad/down, not just its blue color", "zh": "它感到难过/消沉，而非仅指颜色蓝" },
-        { "en": "It wants to be repainted", "zh": "它想重新上色" },
-        { "en": "It is cold", "zh": "它觉得冷" },
-        { "en": "It is hungry", "zh": "它饿了" }
+        {
+          "en": "It is cold",
+          "zh": "它觉得冷"
+        },
+        {
+          "en": "It feels sad/down, not just its blue color",
+          "zh": "它感到难过/消沉，而非仅指颜色蓝"
+        },
+        {
+          "en": "It wants to be repainted according to some versions of the story",
+          "zh": "它想重新上色（按书中另一种说法）"
+        },
+        {
+          "en": "It is hungry",
+          "zh": "它饿了"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"But I am still blue, and I'm not talking about my color. I want to go to parties.\" The diamond uses 'blue' to mean feeling sad.",
@@ -156,10 +252,22 @@
         "zh": "作者为什么让钻石用第一人称讲述自己的故事？"
       },
       "options": [
-        { "en": "To make hundreds of years of history feel personal, fun, and mysterious", "zh": "为了让数百年的历史显得亲切、有趣又神秘" },
-        { "en": "To teach math", "zh": "为了教数学" },
-        { "en": "To list every king's name", "zh": "为了罗列每位国王的名字" },
-        { "en": "To sell the diamond", "zh": "为了把钻石卖掉" }
+        {
+          "en": "To make hundreds of years of history feel personal, fun, and mysterious",
+          "zh": "为了让数百年的历史显得亲切、有趣又神秘"
+        },
+        {
+          "en": "To sell the diamond",
+          "zh": "为了把钻石卖掉"
+        },
+        {
+          "en": "To list every king's name according to some versions of the story in an early draft of the book",
+          "zh": "为了罗列每位国王的名字（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To teach math",
+          "zh": "为了教数学"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "卖钻石时所用的“4C”是什么？"
       },
       "options": [
-        { "en": "Carat, Color, Cut, and Clarity", "zh": "克拉、颜色、切工和净度" },
-        { "en": "Cold, Clean, Clear, Calm", "zh": "冷、净、清、静" },
-        { "en": "Cake, Candy, Cookie, Cracker", "zh": "蛋糕、糖果、曲奇、饼干" },
-        { "en": "Cat, Cow, Car, Cap", "zh": "猫、牛、车、帽" }
+        {
+          "en": "Cake, Candy, Cookie, Cracker according to some versions of the story",
+          "zh": "蛋糕、糖果、曲奇、饼干（按书中另一种说法）"
+        },
+        {
+          "en": "Cat, Cow, Car, Cap",
+          "zh": "猫、牛、车、帽"
+        },
+        {
+          "en": "Cold, Clean, Clear, Calm",
+          "zh": "冷、净、清、静"
+        },
+        {
+          "en": "Carat, Color, Cut, and Clarity",
+          "zh": "克拉、颜色、切工和净度"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"Diamonds are sold based on the four Cs: Carat... Color... Cut... Clarity.\"",

@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "It was invented in 1900 according to some versions of the story in an early draft of the book",
+          "zh": "它发明于1900年（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "Not everyone wants the same goods, and items can be heavy or hard to value",
           "zh": "并非人人都想要同样的物品，且东西可能笨重或难以估价"
         },
@@ -23,13 +27,9 @@
         {
           "en": "It requires a bank",
           "zh": "它需要银行"
-        },
-        {
-          "en": "It was invented in 1900",
-          "zh": "它发明于1900年"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book lists bartering problems: 'not everyone has the same wants or needs,' items are 'heavy, hard to carry,' and 'Figuring out how many of one item equals a certain number of another can be difficult.'",
@@ -47,12 +47,12 @@
           "zh": "在吕底亚的萨迪斯（今土耳其），约2600年前"
         },
         {
-          "en": "In China, 1,900 years ago",
-          "zh": "在中国，1900年前"
-        },
-        {
           "en": "In Rome, in 1900",
           "zh": "在罗马，1900年"
+        },
+        {
+          "en": "In China, 1,900 years ago according to some versions of the story",
+          "zh": "在中国，1900年前（按书中另一种说法）"
         },
         {
           "en": "In America, in 1776",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Ts'ai Lun invented paper 1,900 years ago; China used it as money about 700 years later",
-          "zh": "蔡伦在1900年前发明纸；约700年后中国将其用作货币"
+          "en": "The Romans, 2,000 years ago",
+          "zh": "罗马人，2000年前"
         },
         {
           "en": "Gutenberg invented it in the 1400s",
           "zh": "古腾堡在15世纪发明"
         },
         {
-          "en": "The Romans, 2,000 years ago",
-          "zh": "罗马人，2000年前"
+          "en": "Ts'ai Lun invented paper 1,900 years ago; China used it as money about 700 years later",
+          "zh": "蔡伦在1900年前发明纸；约700年后中国将其用作货币"
         },
         {
-          "en": "A Chinese man named Cash, in 1900",
-          "zh": "一位名叫Cash的中国人，1900年"
+          "en": "A Chinese man named Cash, in 1900 according to some versions of the story in an early draft of the book",
+          "zh": "一位名叫Cash的中国人，1900年（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'A Chinese man named Ts'ai Lun invented paper 1,900 years ago. But it wasn't used for money until 700 years later when the Chinese government ran out of copper to produce coins.'",
@@ -107,8 +107,8 @@
           "zh": "没有内在价值、仅由发行政府背书的纸币"
         },
         {
-          "en": "Coins made of gold",
-          "zh": "黄金铸造的硬币"
+          "en": "Coins made of gold according to some versions of the story in an early draft of the book",
+          "zh": "黄金铸造的硬币（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Barter goods",
@@ -133,12 +133,8 @@
       },
       "options": [
         {
-          "en": "Cut into the surface to leave marks",
-          "zh": "在表面刻出痕迹"
-        },
-        {
-          "en": "Painted with color",
-          "zh": "用颜色涂绘"
+          "en": "Painted with color according to some versions of the story",
+          "zh": "用颜色涂绘（按书中另一种说法）"
         },
         {
           "en": "Melted down",
@@ -147,9 +143,13 @@
         {
           "en": "Photographed",
           "zh": "被拍照"
+        },
+        {
+          "en": "Cut into the surface to leave marks",
+          "zh": "在表面刻出痕迹"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines incised as 'cut a surface to leave marks or decorations,' and the book says ridges were incised on edges so people could tell if coins had been altered by shaving.",
@@ -167,16 +167,16 @@
           "zh": "给出精确的材料细节，以解释真钞如何制成"
         },
         {
-          "en": "Writing a fictional story",
-          "zh": "编写一个虚构故事"
-        },
-        {
-          "en": "Drawing a map",
-          "zh": "绘制一幅地图"
+          "en": "Writing a fictional story according to some versions of the story in an early draft of the book",
+          "zh": "编写一个虚构故事（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Singing a song",
           "zh": "唱一首歌"
+        },
+        {
+          "en": "Drawing a map",
+          "zh": "绘制一幅地图"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
+          "en": "All money is made of gold again according to some versions of the story in an early draft of the book",
+          "zh": "所有货币重新由黄金制成（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "Money's value is based on a country's goods and resources rather than a fixed amount of gold",
           "zh": "货币价值基于一国的商品与资源，而非固定数量的黄金"
         },
         {
-          "en": "All money is made of gold again",
-          "zh": "所有货币重新由黄金制成"
+          "en": "Only bartering is allowed",
+          "zh": "只允许以物易物"
         },
         {
           "en": "Currencies never change value",
           "zh": "货币价值永不变化"
-        },
-        {
-          "en": "Only bartering is allowed",
-          "zh": "只允许以物易物"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says governments now 'circulate enough currency to represent those goods and resources' and calls these 'fiat money' in a floating system not tied to gold, contrasting with the old gold standard.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Money can take many forms as long as a community agrees on its value",
-          "zh": "只要一个群体认同其价值，货币可以呈现多种形式"
+          "en": "Stone is illegal everywhere",
+          "zh": "石头在所有地方都非法"
         },
         {
           "en": "Only paper is real money",
           "zh": "只有纸币才是真钱"
         },
         {
-          "en": "Stone is illegal everywhere",
-          "zh": "石头在所有地方都非法"
+          "en": "Money can take many forms as long as a community agrees on its value",
+          "zh": "只要一个群体认同其价值，货币可以呈现多种形式"
         },
         {
-          "en": "All cultures use the same money",
-          "zh": "所有文化使用同一种货币"
+          "en": "All cultures use the same money according to some versions of the story",
+          "zh": "所有文化使用同一种货币（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book's 'Do You Know?' notes Yap Islanders use giant stone coins, illustrating that money's form varies widely as long as a community agrees on its value.",
@@ -253,12 +253,12 @@
       },
       "options": [
         {
-          "en": "To explain how money changed from barter to coins, paper, and invisible digital forms",
-          "zh": "为了解释货币如何从以物易物演变为硬币、纸币以及看不见的数字形式"
+          "en": "To tell people to stop using money according to some versions of the story in an early draft of the book",
+          "zh": "为了告诉人们停止使用货币（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "To tell people to stop using money",
-          "zh": "为了告诉人们停止使用货币"
+          "en": "To explain how money changed from barter to coins, paper, and invisible digital forms",
+          "zh": "为了解释货币如何从以物易物演变为硬币、纸币以及看不见的数字形式"
         },
         {
           "en": "To describe only the gold standard",
@@ -269,7 +269,7 @@
           "zh": "为了给某家银行打广告"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The focus question is 'How has money changed over time?' and the Conclusion moves from barter 'three thousand years ago' to 'bills, coins, and even invisible money' today.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "As useful but risky, since borrowed money accumulates interest if not paid back",
-          "zh": "认为其有用但有风险，因为借来的钱若不及时偿还还会累积利息"
-        },
-        {
-          "en": "As completely free with no cost",
-          "zh": "认为其完全免费、毫无成本"
+          "en": "As worse than bartering in every way according to some versions of the story in an early draft of the book",
+          "zh": "认为其在各方面都比以物易物更糟（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "As illegal",
           "zh": "认为其非法"
         },
         {
-          "en": "As worse than bartering in every way",
-          "zh": "认为其在各方面都比以物易物更糟"
+          "en": "As completely free with no cost",
+          "zh": "认为其完全免费、毫无成本"
+        },
+        {
+          "en": "As useful but risky, since borrowed money accumulates interest if not paid back",
+          "zh": "认为其有用但有风险，因为借来的钱若不及时偿还还会累积利息"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explains credit cards let people borrow, but 'when they pay back the money, they have to pay an additional fee called interest,' and irresponsible use can lead to debt, showing a balanced, cautious view.",

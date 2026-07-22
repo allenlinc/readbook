@@ -12,12 +12,24 @@
         "zh": "什么是适应性运动员？"
       },
       "options": [
-        { "en": "Athletes with disabilities who train and compete at a high level", "zh": "有残障、经过训练并高水平参赛的运动员" },
-        { "en": "Athletes who only play for fun", "zh": "只为了好玩而运动的运动员" },
-        { "en": "Animals that perform tricks", "zh": "表演把戏的动物" },
-        { "en": "Coaches who teach children", "zh": "教孩子的教练" }
+        {
+          "en": "Coaches who teach children",
+          "zh": "教孩子的教练"
+        },
+        {
+          "en": "Athletes with disabilities who train and compete at a high level",
+          "zh": "有残障、经过训练并高水平参赛的运动员"
+        },
+        {
+          "en": "Athletes who only play for fun according to some versions of the story",
+          "zh": "只为了好玩而运动的运动员（按书中另一种说法）"
+        },
+        {
+          "en": "Animals that perform tricks",
+          "zh": "表演把戏的动物"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Adaptive athletes are athletes with physical or mental disabilities who compete at a high level, such as in the Paralympics.",
@@ -30,12 +42,24 @@
         "zh": "首届正式的残奥会是在何时何地举行的？"
       },
       "options": [
-        { "en": "In 1989 in Germany", "zh": "1989年，德国" },
-        { "en": "In a great stadium built in a faraway land where kings once held grand festivals for the people", "zh": "在一座建于远方的巨大体育场，那里国王曾为人民举办盛大节庆" },
-        { "en": "In 1960 in Rome, Italy", "zh": "1960年，意大利罗马" },
-        { "en": "In 2000 in Sydney", "zh": "2000年，悉尼" }
+        {
+          "en": "In 2000 in Sydney",
+          "zh": "2000年，悉尼"
+        },
+        {
+          "en": "In 1989 in Germany",
+          "zh": "1989年，德国"
+        },
+        {
+          "en": "In a great stadium built in a faraway land where kings once held grand festivals for the people",
+          "zh": "在一座建于远方的巨大体育场，那里国王曾为人民举办盛大节庆"
+        },
+        {
+          "en": "In 1960 in Rome, Italy",
+          "zh": "1960年，意大利罗马"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The first official Paralympic Games were held in 1960 in Rome, Italy, right after the Summer Olympics.",
@@ -48,10 +72,22 @@
         "zh": "是谁创办了促成残奥会的项目？"
       },
       "options": [
-        { "en": "A famous king who loved sports and built the first great arena for runners from every nation", "zh": "一位热爱运动、为各国跑者修建第一座大竞技场的著名国王" },
-        { "en": "Dr. Ludwig Guttmann, a British neurologist", "zh": "英国神经科医生路德维希·古特曼博士" },
-        { "en": "A group of teachers", "zh": "一群老师" },
-        { "en": "A television reporter", "zh": "一位电视记者" }
+        {
+          "en": "A group of teachers",
+          "zh": "一群老师"
+        },
+        {
+          "en": "Dr. Ludwig Guttmann, a British neurologist",
+          "zh": "英国神经科医生路德维希·古特曼博士"
+        },
+        {
+          "en": "A famous king who loved sports and built the first great arena for runners from every nation",
+          "zh": "一位热爱运动、为各国跑者修建第一座大竞技场的著名国王"
+        },
+        {
+          "en": "A television reporter",
+          "zh": "一位电视记者"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "在词汇表中，哪个词的意思是‘能够改变自己以适应新的或特殊的情况’？"
       },
       "options": [
-        { "en": "ability", "zh": "ability（能力）" },
-        { "en": "striving", "zh": "striving（努力）" },
-        { "en": "competitive, which means relating to a rivalry between people or teams", "zh": "competitive（指人与人之间的竞争）" },
-        { "en": "adaptive", "zh": "adaptive（适应性的）" }
+        {
+          "en": "adaptive",
+          "zh": "adaptive（适应性的）"
+        },
+        {
+          "en": "competitive, which means relating to a rivalry between people or teams",
+          "zh": "competitive（指人与人之间的竞争）"
+        },
+        {
+          "en": "striving",
+          "zh": "striving（努力）"
+        },
+        {
+          "en": "ability",
+          "zh": "ability（能力）"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines adaptive as able to change to fit a new or special situation.",
@@ -84,12 +132,24 @@
         "zh": "2012年伦敦残奥会大约有多少名运动员参加？"
       },
       "options": [
-        { "en": "A small group of fewer than one hundred athletes who came from just three nearby countries", "zh": "不到一百名运动员，仅来自邻近的三个国家" },
-        { "en": "More than 4,000 athletes from over 150 countries", "zh": "来自150多个国家的4000多名运动员" },
-        { "en": "About 500 athletes", "zh": "约500名运动员" },
-        { "en": "Only 50 athletes", "zh": "仅50名运动员" }
+        {
+          "en": "A small group of fewer than one hundred athletes who came from just three nearby countries",
+          "zh": "不到一百名运动员，仅来自邻近的三个国家"
+        },
+        {
+          "en": "Only 50 athletes",
+          "zh": "仅50名运动员"
+        },
+        {
+          "en": "More than 4,000 athletes from over 150 countries",
+          "zh": "来自150多个国家的4000多名运动员"
+        },
+        {
+          "en": "About 500 athletes",
+          "zh": "约500名运动员"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The 2012 London Paralympics included more than 4,000 athletes from over 150 countries.",
@@ -102,12 +162,24 @@
         "zh": "残奥会中哪项运动只由视力受限的运动员参加？"
       },
       "options": [
-        { "en": "Swimming", "zh": "游泳" },
-        { "en": "Cycling", "zh": "自行车" },
-        { "en": "A fast team game played on ice with sticks and a puck that slides across the frozen ground", "zh": "一种在冰上用球杆和冰球快速进行的团队运动" },
-        { "en": "Goalball", "zh": "盲人门球（goalball）" }
+        {
+          "en": "Goalball",
+          "zh": "盲人门球（goalball）"
+        },
+        {
+          "en": "Cycling",
+          "zh": "自行车"
+        },
+        {
+          "en": "Swimming",
+          "zh": "游泳"
+        },
+        {
+          "en": "A fast team game played on ice with sticks and a puck that slides across the frozen ground",
+          "zh": "一种在冰上用球杆和冰球快速进行的团队运动"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Goalball is the only Paralympic sport reserved just for athletes with limited eyesight.",
@@ -120,12 +192,24 @@
         "zh": "盲人或半盲的跑步者在比赛中如何获得帮助？"
       },
       "options": [
-        { "en": "They ride horses", "zh": "他们骑马" },
-        { "en": "They use maps", "zh": "他们用地图" },
-        { "en": "They run with a guide runner who gives cues", "zh": "他们由一位引导员陪同并给出提示" },
-        { "en": "They close their eyes", "zh": "他们闭上眼睛" }
+        {
+          "en": "They close their eyes according to some versions of the story",
+          "zh": "他们闭上眼睛（按书中另一种说法）"
+        },
+        {
+          "en": "They run with a guide runner who gives cues",
+          "zh": "他们由一位引导员陪同并给出提示"
+        },
+        {
+          "en": "They use maps",
+          "zh": "他们用地图"
+        },
+        {
+          "en": "They ride horses",
+          "zh": "他们骑马"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Blind runners race with a guide runner beside them who gives cues through a tether and voice.",
@@ -138,12 +222,24 @@
         "zh": "作者为什么要讲述艾米·珀迪和埃斯特·弗赫尔等运动员的故事？"
       },
       "options": [
-        { "en": "To show how determination helps athletes reach excellence", "zh": "为了展现决心如何帮助运动员达到卓越" },
-        { "en": "To teach geography", "zh": "为了教地理" },
-        { "en": "To list food recipes", "zh": "为了列出菜谱" },
-        { "en": "To describe a long history of ancient games played by warriors in distant mountains many centuries ago", "zh": "为了描写许多世纪前远方山里武士进行的古老运动历史" }
+        {
+          "en": "To list food recipes",
+          "zh": "为了列出菜谱"
+        },
+        {
+          "en": "To describe a long history of ancient games played by warriors in distant mountains many centuries ago",
+          "zh": "为了描写许多世纪前远方山里武士进行的古老运动历史"
+        },
+        {
+          "en": "To show how determination helps athletes reach excellence",
+          "zh": "为了展现决心如何帮助运动员达到卓越"
+        },
+        {
+          "en": "To teach geography",
+          "zh": "为了教地理"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author shares these stories to show how hard work and determination help athletes achieve excellence.",
@@ -156,12 +252,24 @@
         "zh": "艾米·珀迪是谁？"
       },
       "options": [
-        { "en": "A swimmer who won many gold medals", "zh": "一位赢得许多金牌的游泳运动员" },
-        { "en": "A wheelchair racer who won four gold medals at the London Games", "zh": "一位在伦敦奥运会上赢得四枚金牌的轮椅赛跑运动员" },
-        { "en": "A snowboarder and double amputee who won a bronze medal", "zh": "一位滑雪板运动员兼双腿截肢者，赢得了一枚铜牌" },
-        { "en": "A runner who uses a guide", "zh": "一位使用引导员的跑步者" }
+        {
+          "en": "A snowboarder and double amputee who won a bronze medal",
+          "zh": "一位滑雪板运动员兼双腿截肢者，赢得了一枚铜牌"
+        },
+        {
+          "en": "A wheelchair racer who won four gold medals at the London Games",
+          "zh": "一位在伦敦奥运会上赢得四枚金牌的轮椅赛跑运动员"
+        },
+        {
+          "en": "A runner who uses a guide",
+          "zh": "一位使用引导员的跑步者"
+        },
+        {
+          "en": "A swimmer who won many gold medals",
+          "zh": "一位赢得许多金牌的游泳运动员"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Amy Purdy is a snowboarder and double amputee who won a bronze medal at the 2014 Winter Paralympics.",
@@ -174,12 +282,24 @@
         "zh": "书中提到的哪种装置可以帮助截瘫患者行走？"
       },
       "options": [
-        { "en": "A large flying machine with wings that lifts people high above the clouds and carries them to far cities", "zh": "一种带翅膀的大型飞行机器，把人高高升到云端并送往远方的城市" },
-        { "en": "A powered exoskeleton, or robotic legs", "zh": "由动力驱动的外部骨架，即机器腿" },
-        { "en": "A bicycle", "zh": "一辆自行车" },
-        { "en": "A boat", "zh": "一条船" }
+        {
+          "en": "A large flying machine with wings that lifts people high above the clouds and carries them to far cities",
+          "zh": "一种带翅膀的大型飞行机器，把人高高升到云端并送往远方的城市"
+        },
+        {
+          "en": "A boat",
+          "zh": "一条船"
+        },
+        {
+          "en": "A bicycle",
+          "zh": "一辆自行车"
+        },
+        {
+          "en": "A powered exoskeleton, or robotic legs",
+          "zh": "由动力驱动的外部骨架，即机器腿"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "An exoskeleton, sometimes called robotic legs, is a powered frame that can help people with paraplegia stand and walk.",

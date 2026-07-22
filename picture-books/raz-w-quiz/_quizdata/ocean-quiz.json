@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "A spelling bee.",
-          "zh": "一场拼写比赛。"
-        },
-        {
-          "en": "The Kid Quiz Bowl about oceans.",
-          "zh": "关于海洋的“儿童知识碗”竞赛。"
+          "en": "A spelling bee. according to some versions of the story",
+          "zh": "一场拼写比赛。（按书中另一种说法）"
         },
         {
           "en": "A math olympiad.",
           "zh": "数学竞赛。"
         },
         {
+          "en": "The Kid Quiz Bowl about oceans.",
+          "zh": "关于海洋的“儿童知识碗”竞赛。"
+        },
+        {
           "en": "A sports day.",
           "zh": "运动会。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Maggie says they will 'represent the school at the Kid Quiz Bowl' and the topic is oceans.",
@@ -51,12 +51,12 @@
           "zh": "深海平原"
         },
         {
-          "en": "The ocean trenches",
-          "zh": "海沟"
+          "en": "The continental slope according to some versions of the story",
+          "zh": "大陆坡（按书中另一种说法）"
         },
         {
-          "en": "The continental slope",
-          "zh": "大陆坡"
+          "en": "The ocean trenches",
+          "zh": "海沟"
         }
       ],
       "answer": 0,
@@ -73,12 +73,12 @@
       },
       "options": [
         {
-          "en": "Panthalassa",
-          "zh": "Panthalassa"
+          "en": "Atlantis according to some versions of the story",
+          "zh": "Atlantis（按书中另一种说法）"
         },
         {
-          "en": "Atlantis",
-          "zh": "Atlantis"
+          "en": "Panthalassa",
+          "zh": "Panthalassa"
         },
         {
           "en": "Pacifica",
@@ -89,7 +89,7 @@
           "zh": "Neptune"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Tad nominates 'Panthalassa, which was the first giant ocean' before continents divided.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "The Puerto Rico Trench, in the Atlantic. according to some versions of the story",
+          "zh": "波多黎各海沟，位于大西洋。（按书中另一种说法）"
+        },
+        {
           "en": "The Mariana Trench, in the Pacific Ocean.",
           "zh": "马里亚纳海沟，位于太平洋。"
         },
         {
-          "en": "The Puerto Rico Trench, in the Atlantic.",
-          "zh": "波多黎各海沟，位于大西洋。"
+          "en": "The Tonga Trench, in the Arctic.",
+          "zh": "汤加海沟，位于北冰洋。"
         },
         {
           "en": "The Java Trench, in the Indian Ocean.",
           "zh": "爪哇海沟，位于印度洋。"
-        },
-        {
-          "en": "The Tonga Trench, in the Arctic.",
-          "zh": "汤加海沟，位于北冰洋。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Bert finds the Mariana Trench is the deepest point, and Shelbyville answers it is 'in the Pacific Ocean.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "The Atlantic Ocean",
-          "zh": "大西洋"
-        },
-        {
           "en": "The Pacific Ocean",
           "zh": "太平洋"
+        },
+        {
+          "en": "The Arctic Ocean",
+          "zh": "北冰洋"
         },
         {
           "en": "The Indian Ocean",
           "zh": "印度洋"
         },
         {
-          "en": "The Arctic Ocean",
-          "zh": "北冰洋"
+          "en": "The Atlantic Ocean",
+          "zh": "大西洋"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In the Quiz Bowl, Caroline answers 'The Pacific' for the largest ocean and is correct.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "About 10 percent.",
-          "zh": "约10%。"
-        },
-        {
-          "en": "About 75 percent.",
-          "zh": "约75%。"
-        },
-        {
           "en": "About 25 percent.",
           "zh": "约25%。"
         },
         {
           "en": "About 100 percent.",
           "zh": "约100%。"
+        },
+        {
+          "en": "About 10 percent.",
+          "zh": "约10%。"
+        },
+        {
+          "en": "About 75 percent.",
+          "zh": "约75%。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Tad knows the abyssal plain 'covered almost 75 percent of the ocean floor.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Temperature",
-          "zh": "温度"
-        },
-        {
-          "en": "Saltiness",
-          "zh": "咸度／含盐量"
+          "en": "Temperature according to some versions of the story",
+          "zh": "温度（按书中另一种说法）"
         },
         {
           "en": "Depth",
           "zh": "深度"
         },
         {
+          "en": "Saltiness",
+          "zh": "咸度／含盐量"
+        },
+        {
           "en": "Pressure",
           "zh": "压力"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Shelbyville answers 'Saltiness' for the meaning of salinity and is correct.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Deerfield (Maggie's team)",
-          "zh": "Deerfield（玛吉的队）"
-        },
-        {
-          "en": "Shelbyville",
-          "zh": "Shelbyville"
+          "en": "A third school.",
+          "zh": "第三所学校。"
         },
         {
           "en": "Both teams tie and share the prize.",
           "zh": "两队平局共享奖品。"
         },
         {
-          "en": "A third school.",
-          "zh": "第三所学校。"
+          "en": "Deerfield (Maggie's team)",
+          "zh": "Deerfield（玛吉的队）"
+        },
+        {
+          "en": "Shelbyville",
+          "zh": "Shelbyville"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Shelbyville answers the tiebreaker correctly and wins the field day at Shamu Ocean World.",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "He did not know the answer at all.",
-          "zh": "他完全不知道答案。"
-        },
-        {
           "en": "He felt guilty about how he treated Bert, since the answer came from Bert's research.",
           "zh": "他为自己对 Bert 的态度感到内疚，而答案恰恰来自 Bert 的研究。"
         },
@@ -265,11 +261,15 @@
           "zh": "他睡着了。"
         },
         {
+          "en": "He did not know the answer at all. according to some versions of the story in an early draft of the book",
+          "zh": "他完全不知道答案。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "The microphone broke.",
           "zh": "麦克风坏了。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Tad says he kept remembering 'how I treated Bert' and that Bert's info was what they needed.",
@@ -283,20 +283,20 @@
       },
       "options": [
         {
-          "en": "To give a science textbook.",
-          "zh": "为了提供一本科普教科书。"
+          "en": "To describe a real competition. according to some versions of the story",
+          "zh": "为了描写一场真实比赛。（按书中另一种说法）"
         },
         {
           "en": "To entertain readers with a story while teaching ocean facts.",
           "zh": "用一个故事娱乐读者，同时讲授海洋知识。"
         },
         {
-          "en": "To describe a real competition.",
-          "zh": "为了描写一场真实比赛。"
-        },
-        {
           "en": "To teach how to sail.",
           "zh": "为了教人航海。"
+        },
+        {
+          "en": "To give a science textbook.",
+          "zh": "为了提供一本科普教科书。"
         }
       ],
       "answer": 1,

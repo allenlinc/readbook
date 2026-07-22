@@ -13,20 +13,20 @@
       },
       "options": [
         {
-          "en": "About half",
-          "zh": "约一半"
+          "en": "None of it",
+          "zh": "完全没有"
         },
         {
           "en": "About 99 percent",
           "zh": "约99%"
         },
         {
-          "en": "About 10 percent",
-          "zh": "约10%"
+          "en": "About half",
+          "zh": "约一半"
         },
         {
-          "en": "None of it",
-          "zh": "完全没有"
+          "en": "About 10 percent according to some versions of the story",
+          "zh": "约10%（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "A flowing river according to some versions of the story in an early draft of the book",
+          "zh": "流动的河流（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "A type of cloud",
           "zh": "一种云"
         },
@@ -51,15 +55,11 @@
           "zh": "地下储存地下水的岩石、砂砾层"
         },
         {
-          "en": "A flowing river",
-          "zh": "流动的河流"
-        },
-        {
           "en": "A hand-dug well",
           "zh": "人工挖的井"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Aquifers are underground layers of rock, gravel, and sand that hold groundwater like huge sponges.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Severe floods",
-          "zh": "严重洪水"
-        },
-        {
           "en": "A drought dried up about 2,000 wells",
           "zh": "干旱使约2000口井干涸"
         },
         {
-          "en": "A large earthquake",
-          "zh": "一场大地震"
+          "en": "Severe floods",
+          "zh": "严重洪水"
         },
         {
           "en": "A snowstorm",
           "zh": "一场暴风雪"
+        },
+        {
+          "en": "A large earthquake according to some versions of the story",
+          "zh": "一场大地震（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Years of drought meant little rainfall, so farmers pumped groundwater until about 2,000 wells went dry.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "It is growing larger",
-          "zh": "它正在变大"
+          "en": "It is located in Europe according to some versions of the story",
+          "zh": "位于欧洲（按书中另一种说法）"
         },
         {
-          "en": "It could be 70 percent depleted by 2060",
-          "zh": "到2060年可能枯竭70%"
+          "en": "It is growing larger",
+          "zh": "它正在变大"
         },
         {
           "en": "It is already empty",
           "zh": "已经空了"
         },
         {
-          "en": "It is located in Europe",
-          "zh": "位于欧洲"
+          "en": "It could be 70 percent depleted by 2060",
+          "zh": "到2060年可能枯竭70%"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Experts predict the Ogallala Aquifer below the Great Plains could be 70 percent depleted by the year 2060.",
@@ -133,12 +133,12 @@
       },
       "options": [
         {
-          "en": "To describe a vacation spot",
-          "zh": "为了介绍旅游胜地"
-        },
-        {
           "en": "To show water shortages can lead to conflict and suffering",
           "zh": "为了说明缺水会导致冲突与苦难"
+        },
+        {
+          "en": "To describe a vacation spot according to some versions of the story",
+          "zh": "为了介绍旅游胜地（按书中另一种说法）"
         },
         {
           "en": "To teach a cooking recipe",
@@ -149,7 +149,7 @@
           "zh": "为了推广大型农场"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says drought drove rural Syrians to cities and helped start a 2011 civil war, showing water's importance.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "65 percent",
-          "zh": "65%"
-        },
-        {
-          "en": "5 percent",
-          "zh": "5%"
-        },
-        {
           "en": "100 percent",
           "zh": "100%"
         },
         {
+          "en": "65 percent",
+          "zh": "65%"
+        },
+        {
           "en": "20 percent",
           "zh": "20%"
+        },
+        {
+          "en": "5 percent",
+          "zh": "5%"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Experts estimate about 65 percent of the fresh groundwater Americans pump is used to irrigate crops.",
@@ -201,12 +201,12 @@
           "zh": "用土壤湿度计和埋地管道"
         },
         {
-          "en": "By flooding the whole field",
-          "zh": "把整块田淹没"
-        },
-        {
           "en": "By drilling deeper wells",
           "zh": "打更深的井"
+        },
+        {
+          "en": "By flooding the whole field according to some versions of the story",
+          "zh": "把整块田淹没（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Took photos of clouds",
-          "zh": "拍摄云朵照片"
-        },
-        {
-          "en": "Monitored changes in groundwater from space",
-          "zh": "从太空监测地下水变化"
-        },
-        {
           "en": "Counted ocean fish",
           "zh": "数海洋里的鱼"
         },
         {
           "en": "Measured wind speed",
           "zh": "测量风速"
+        },
+        {
+          "en": "Monitored changes in groundwater from space",
+          "zh": "从太空监测地下水变化"
+        },
+        {
+          "en": "Took photos of clouds according to some versions of the story",
+          "zh": "拍摄云朵照片（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Since 2002, GRACE's two satellites have measured shifts in water volume on and under Earth's surface.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "'Water Every Day' according to some versions of the story",
+          "zh": "“每天浇水”（按书中另一种说法）"
+        },
+        {
+          "en": "'Save the Grass'",
+          "zh": "“拯救草坪”"
+        },
+        {
           "en": "'Green is Great'",
           "zh": "“绿色真棒”"
         },
         {
           "en": "'Brown is the New Green'",
           "zh": "“枯黄即新绿”"
-        },
-        {
-          "en": "'Water Every Day'",
-          "zh": "“每天浇水”"
-        },
-        {
-          "en": "'Save the Grass'",
-          "zh": "“拯救草坪”"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "During the drought California urged people to let lawns die with the catchy motto 'Brown is the New Green.'",
@@ -283,10 +283,6 @@
       },
       "options": [
         {
-          "en": "Groundwater is endless",
-          "zh": "地下水取之不尽"
-        },
-        {
           "en": "We must conserve groundwater now",
           "zh": "我们必须现在就节约地下水"
         },
@@ -295,11 +291,15 @@
           "zh": "别再喝水"
         },
         {
+          "en": "Groundwater is endless according to some versions of the story",
+          "zh": "地下水取之不尽（按书中另一种说法）"
+        },
+        {
           "en": "Build only dams",
           "zh": "只建水坝"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book argues we must manage and conserve groundwater now before aquifers run dry.",

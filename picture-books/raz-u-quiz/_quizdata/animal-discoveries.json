@@ -12,12 +12,24 @@
         "zh": "科学家每年大约发现多少种新的动物物种？"
       },
       "options": [
-        {"en": "More than 15,000", "zh": "超过15,000种"},
-        {"en": "Fewer than 10", "zh": "不到10种"},
-        {"en": "About 1 million", "zh": "约100万种"},
-        {"en": "Exactly 100", "zh": "正好100种"}
+        {
+          "en": "Exactly 100",
+          "zh": "正好100种"
+        },
+        {
+          "en": "Fewer than 10",
+          "zh": "不到10种"
+        },
+        {
+          "en": "More than 15,000",
+          "zh": "超过15,000种"
+        },
+        {
+          "en": "About 1 million according to some versions of the story",
+          "zh": "约100万种（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says scientists discover more than 15,000 animal species each year, about 1 percent of the more than 1.5 million species already known.",
@@ -30,12 +42,24 @@
         "zh": "“勒苏拉猴”是在哪里发现的？它为何引人注目？"
       },
       "options": [
-        {"en": "In Madagascar, the largest primate", "zh": "在马达加斯加，是最大的灵长类"},
-        {"en": "In Brazil, a bright blue monkey", "zh": "在巴西，是一种亮蓝色的猴子"},
-        {"en": "In the Democratic Republic of Congo; it was the first new monkey species found in twenty-eight years", "zh": "在刚果民主共和国；它是28年来发现的第一种新猴类"},
-        {"en": "In Australia, a tree-climbing monkey", "zh": "在澳大利亚，是一种会爬树的猴子"}
+        {
+          "en": "In Australia, a tree-climbing monkey according to some versions of the story in an early draft of the book",
+          "zh": "在澳大利亚，是一种会爬树的猴子（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "In the Democratic Republic of Congo; it was the first new monkey species found in twenty-eight years",
+          "zh": "在刚果民主共和国；它是28年来发现的第一种新猴类"
+        },
+        {
+          "en": "In Brazil, a bright blue monkey",
+          "zh": "在巴西，是一种亮蓝色的猴子"
+        },
+        {
+          "en": "In Madagascar, the largest primate",
+          "zh": "在马达加斯加，是最大的灵长类"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the lesula was identified in 2007 in the remote forests of the Democratic Republic of Congo and was the first new monkey species found in twenty-eight years; the first one scientists found was a girl's pet.",
@@ -48,12 +72,24 @@
         "zh": "科学家是怎么意识到“马当小口蛙”已经成年、而非幼体的？"
       },
       "options": [
-        {"en": "They measured its bones", "zh": "他们测量了它的骨头"},
-        {"en": "They heard only adult frogs calling at dusk from pitcher plants, so the tiny frogs must be adults", "zh": "他们在黄昏听到只有成年蛙会在猪笼草中鸣叫，所以这些小蛙必是成年个体"},
-        {"en": "A girl kept one as a pet", "zh": "一个女孩把它当宠物养"},
-        {"en": "They found it in a museum jar", "zh": "他们在博物馆的罐子里发现了它"}
+        {
+          "en": "They found it in a museum jar according to some versions of the story in an early draft of the book",
+          "zh": "他们在博物馆的罐子里发现了它（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They measured its bones",
+          "zh": "他们测量了它的骨头"
+        },
+        {
+          "en": "A girl kept one as a pet",
+          "zh": "一个女孩把它当宠物养"
+        },
+        {
+          "en": "They heard only adult frogs calling at dusk from pitcher plants, so the tiny frogs must be adults",
+          "zh": "他们在黄昏听到只有成年蛙会在猪笼草中鸣叫，所以这些小蛙必是成年个体"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says examples sat in museum collections for a century, thought to be juveniles of another species, until scientists heard them calling at dusk; since only adult frogs call, the tiny frogs must be full-grown.",
@@ -66,12 +102,24 @@
         "zh": "长鼻（皮诺曹）树蛙的鼻子有什么奇特之处？"
       },
       "options": [
-        {"en": "It glows in the dark", "zh": "它在黑暗中发光"},
-        {"en": "It changes color with mood", "zh": "它随情绪变色"},
-        {"en": "It is used to catch fish", "zh": "它用来抓鱼"},
-        {"en": "It points upward like a spike when the male calls, then falls when he stops", "zh": "雄性鸣叫时鼻子像尖刺一样向上翘，停下后便垂下"}
+        {
+          "en": "It changes color with mood according to some versions of the story in an early draft of the book",
+          "zh": "它随情绪变色（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It points upward like a spike when the male calls, then falls when he stops",
+          "zh": "雄性鸣叫时鼻子像尖刺一样向上翘，停下后便垂下"
+        },
+        {
+          "en": "It glows in the dark",
+          "zh": "它在黑暗中发光"
+        },
+        {
+          "en": "It is used to catch fish",
+          "zh": "它用来抓鱼"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book describes the long-nosed tree frog (nicknamed the Pinocchio frog): when the male calls, its nose points upward like a spike, and when it is done calling, its nose falls. No one knows why.",
@@ -84,10 +132,22 @@
         "zh": "为什么“花蝠”被称为“蝙蝠界的蜂鸟”？"
       },
       "options": [
-        {"en": "It flies south for winter", "zh": "它冬天飞往南方"},
-        {"en": "It builds nests like a bird", "zh": "它像鸟一样筑巢"},
-        {"en": "It has colorful feathers", "zh": "它有彩色的羽毛"},
-        {"en": "It uses its long tongue to drink nectar from flowers, like a hummingbird", "zh": "它用长舌头吸食花蜜，就像蜂鸟一样"}
+        {
+          "en": "It flies south for winter",
+          "zh": "它冬天飞往南方"
+        },
+        {
+          "en": "It builds nests like a bird",
+          "zh": "它像鸟一样筑巢"
+        },
+        {
+          "en": "It uses its long tongue to drink nectar from flowers, like a hummingbird",
+          "zh": "它用长舌头吸食花蜜，就像蜂鸟一样"
+        },
+        {
+          "en": "It has colorful feathers",
+          "zh": "它有彩色的羽毛"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -102,10 +162,22 @@
         "zh": "在已知的动物物种中，无脊椎动物（没有脊柱的动物）大约占多大比例？"
       },
       "options": [
-        {"en": "About 50 percent", "zh": "约50%"},
-        {"en": "About 97 percent", "zh": "约97%"},
-        {"en": "Less than 1 percent", "zh": "不到1%"},
-        {"en": "Exactly 10 percent", "zh": "正好10%"}
+        {
+          "en": "Exactly 10 percent",
+          "zh": "正好10%"
+        },
+        {
+          "en": "About 97 percent",
+          "zh": "约97%"
+        },
+        {
+          "en": "Less than 1 percent",
+          "zh": "不到1%"
+        },
+        {
+          "en": "About 50 percent",
+          "zh": "约50%"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "“蛇发女妖头海星”是什么？在哪里发现的？"
       },
       "options": [
-        {"en": "A fish in the Pacific", "zh": "太平洋里的一种鱼"},
-        {"en": "A coral in Australia", "zh": "澳大利亚的一种珊瑚"},
-        {"en": "A basket star found about 800 meters beneath the North Atlantic in 2010", "zh": "一种筐蛇尾，2010年在北大西洋约800米深处被发现"},
-        {"en": "A shark in Indonesia", "zh": "印度尼西亚的一种鲨鱼"}
+        {
+          "en": "A coral in Australia",
+          "zh": "澳大利亚的一种珊瑚"
+        },
+        {
+          "en": "A fish in the Pacific",
+          "zh": "太平洋里的一种鱼"
+        },
+        {
+          "en": "A shark in Indonesia according to some versions of the story in an early draft of the book",
+          "zh": "印度尼西亚的一种鲨鱼（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A basket star found about 800 meters beneath the North Atlantic in 2010",
+          "zh": "一种筐蛇尾，2010年在北大西洋约800米深处被发现"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Gorgon's head, a species of basket star, was discovered in 2010 about half a mile (800 m) beneath the North Atlantic; it has five curly arms with as many as five thousand tips.",
@@ -138,12 +222,24 @@
         "zh": "“olinguito”（小犬浣熊）是什么？生活在哪里？"
       },
       "options": [
-        {"en": "A type of frog in Borneo", "zh": "婆罗洲的一种蛙"},
-        {"en": "A bird in Cambodia", "zh": "柬埔寨的一种鸟"},
-        {"en": "A shark in the Atlantic", "zh": "大西洋的一种鲨鱼"},
-        {"en": "A teddy-bear-like mammal of the raccoon family, found in Ecuador and Colombia", "zh": "一种像泰迪熊的浣熊科哺乳动物，生活在厄瓜多尔和哥伦比亚"}
+        {
+          "en": "A teddy-bear-like mammal of the raccoon family, found in Ecuador and Colombia",
+          "zh": "一种像泰迪熊的浣熊科哺乳动物，生活在厄瓜多尔和哥伦比亚"
+        },
+        {
+          "en": "A shark in the Atlantic according to some versions of the story in an early draft of the book",
+          "zh": "大西洋的一种鲨鱼（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A type of frog in Borneo",
+          "zh": "婆罗洲的一种蛙"
+        },
+        {
+          "en": "A bird in Cambodia",
+          "zh": "柬埔寨的一种鸟"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the olinguito, a teddy-bear-like mammal and the smallest member of the raccoon family, was discovered in 2013 in Ecuador and Colombia after being mistaken for an olingo for over a hundred years.",
@@ -156,12 +252,24 @@
         "zh": "什么是“隐存种”（cryptic species）？"
       },
       "options": [
-        {"en": "Animals that live only in caves", "zh": "只生活在洞穴里的动物"},
-        {"en": "Species that are extinct", "zh": "已经灭绝的物种"},
-        {"en": "Animals that glow in the dark", "zh": "在黑暗中发光的动物"},
-        {"en": "Species that look the same on the outside but are shown to be distinct by their DNA", "zh": "外表看起来一样、但经DNA证明是不同物种的类群"}
+        {
+          "en": "Species that are extinct",
+          "zh": "已经灭绝的物种"
+        },
+        {
+          "en": "Animals that glow in the dark",
+          "zh": "在黑暗中发光的动物"
+        },
+        {
+          "en": "Animals that live only in caves",
+          "zh": "只生活在洞穴里的动物"
+        },
+        {
+          "en": "Species that look the same on the outside but are shown to be distinct by their DNA",
+          "zh": "外表看起来一样、但经DNA证明是不同物种的类群"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains that cryptic species are often mistaken for a familiar species because they look alike on the outside; they are found to be distinct only when scientists study their genetic code.",
@@ -174,12 +282,24 @@
         "zh": "为什么书中说每一次新发现都让人看到希望？"
       },
       "options": [
-        {"en": "Because it proves no animals are endangered", "zh": "因为它证明没有动物濒临灭绝"},
-        {"en": "Because it can spark renewed effort to save and restore habitats and the rare animals in them", "zh": "因为它能激发人们去保护和恢复栖息地，以及其中的珍稀动物"},
-        {"en": "Because new species make old ones disappear", "zh": "因为新物种会让旧物种消失"},
-        {"en": "Because it means humans can stop protecting nature", "zh": "因为它意味着人类可以停止保护自然"}
+        {
+          "en": "Because it can spark renewed effort to save and restore habitats and the rare animals in them",
+          "zh": "因为它能激发人们去保护和恢复栖息地，以及其中的珍稀动物"
+        },
+        {
+          "en": "Because it means humans can stop protecting nature according to some versions of the story in an early draft of the book",
+          "zh": "因为它意味着人类可以停止保护自然（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Because it proves no animals are endangered",
+          "zh": "因为它证明没有动物濒临灭绝"
+        },
+        {
+          "en": "Because new species make old ones disappear",
+          "zh": "因为新物种会让旧物种消失"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says each new discovery can spark a renewed effort to save and even restore a habitat, which in turn can save the rare animals that live there.",

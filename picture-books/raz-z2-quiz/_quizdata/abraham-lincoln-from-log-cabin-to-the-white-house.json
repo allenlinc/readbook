@@ -12,10 +12,22 @@
         "zh": "亚伯拉罕·林肯出生在哪里？"
       },
       "options": [
-        { "en": "In a grand white house built on a hill where many famous leaders had once gathered for meetings", "zh": "在一座建在山上的大白房子里，许多著名领袖曾在那里聚会" },
-        { "en": "In a log cabin in Kentucky", "zh": "在肯塔基州的一间原木小屋中" },
-        { "en": "In a large city in New York", "zh": "在纽约的一座大城市里" },
-        { "en": "On a farm in Texas", "zh": "在得克萨斯州的一个农场" }
+        {
+          "en": "In a grand white house built on a hill where many famous leaders had once gathered for meetings",
+          "zh": "在一座建在山上的大白房子里，许多著名领袖曾在那里聚会"
+        },
+        {
+          "en": "In a log cabin in Kentucky",
+          "zh": "在肯塔基州的一间原木小屋中"
+        },
+        {
+          "en": "In a large city in New York",
+          "zh": "在纽约的一座大城市里"
+        },
+        {
+          "en": "On a farm in Texas",
+          "zh": "在得克萨斯州的一个农场"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "小时候，林肯主要靠什么自学？"
       },
       "options": [
-        { "en": "By borrowing books and newspapers from neighbors and travelers", "zh": "向邻居和旅人借书报来读" },
-        { "en": "By going to a big school", "zh": "上一所大学校" },
-        { "en": "By watching television", "zh": "看电视" },
-        { "en": "By taking classes online", "zh": "上网课" }
+        {
+          "en": "By watching television",
+          "zh": "看电视"
+        },
+        {
+          "en": "By going to a big school according to some versions of the story",
+          "zh": "上一所大学校（按书中另一种说法）"
+        },
+        {
+          "en": "By taking classes online",
+          "zh": "上网课"
+        },
+        {
+          "en": "By borrowing books and newspapers from neighbors and travelers",
+          "zh": "向邻居和旅人借书报来读"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Lincoln went to school only a few weeks and taught himself by borrowing books and newspapers.",
@@ -48,12 +72,24 @@
         "zh": "林肯学习并从事的是哪种工作？"
       },
       "options": [
-        { "en": "Farming only", "zh": "只务农" },
-        { "en": "Teaching school", "zh": "教书" },
-        { "en": "Building ships that sailed across the ocean to trade with distant lands", "zh": "建造跨海航行、与远方贸易的船只" },
-        { "en": "Law, as a lawyer", "zh": "法律，做律师" }
+        {
+          "en": "Teaching school",
+          "zh": "教书"
+        },
+        {
+          "en": "Farming only",
+          "zh": "只务农"
+        },
+        {
+          "en": "Law, as a lawyer",
+          "zh": "法律，做律师"
+        },
+        {
+          "en": "Building ships that sailed across the ocean to trade with distant lands",
+          "zh": "建造跨海航行、与远方贸易的船只"
+        }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Lincoln read law books, passed the exam in 1837, and became a respected lawyer.",
@@ -66,12 +102,24 @@
         "zh": "在词汇表中，‘abolitionist’（废奴主义者）是什么意思？"
       },
       "options": [
-        { "en": "A person who leads an army", "zh": "领导军队的人" },
-        { "en": "A traveler who explores faraway lands and writes long letters about the people he meets", "zh": "探索远方、给所遇之人写长信的旅行者" },
-        { "en": "A person who fought to make slavery illegal", "zh": "为废除奴隶制而奋斗的人" },
-        { "en": "A builder of cabins", "zh": "建造小屋的人" }
+        {
+          "en": "A builder of cabins",
+          "zh": "建造小屋的人"
+        },
+        {
+          "en": "A person who leads an army",
+          "zh": "领导军队的人"
+        },
+        {
+          "en": "A traveler who explores faraway lands and writes long letters about the people he meets",
+          "zh": "探索远方、给所遇之人写长信的旅行者"
+        },
+        {
+          "en": "A person who fought to make slavery illegal",
+          "zh": "为废除奴隶制而奋斗的人"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines abolitionist as a person who fought to make slavery illegal.",
@@ -84,12 +132,24 @@
         "zh": "哪份文件解放了南方的奴隶？"
       },
       "options": [
-        { "en": "The Emancipation Proclamation", "zh": "《解放黑人奴隶宣言》" },
-        { "en": "The Bill of Rights", "zh": "《权利法案》" },
-        { "en": "A newspaper article", "zh": "一篇报纸文章" },
-        { "en": "A long letter sent by a king in a faraway country to his royal court", "zh": "远方国家的国王写给王宫的一封长信" }
+        {
+          "en": "The Bill of Rights",
+          "zh": "《权利法案》"
+        },
+        {
+          "en": "The Emancipation Proclamation",
+          "zh": "《解放黑人奴隶宣言》"
+        },
+        {
+          "en": "A long letter sent by a king in a faraway country to his royal court",
+          "zh": "远方国家的国王写给王宫的一封长信"
+        },
+        {
+          "en": "A newspaper article",
+          "zh": "一篇报纸文章"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Emancipation Proclamation, which took effect on January 1, 1863, freed the slaves in the South.",
@@ -102,10 +162,22 @@
         "zh": "林肯在葛底斯堡发表了哪篇著名的短演讲？"
       },
       "options": [
-        { "en": "The Inaugural Speech", "zh": "就职演说" },
-        { "en": "A very long speech that lasted many hours and described every battle of the war in great detail", "zh": "一篇持续数小时、详细描述每场战役的极长演讲" },
-        { "en": "The Gettysburg Address", "zh": "葛底斯堡演说" },
-        { "en": "The State of the Union", "zh": "国情咨文" }
+        {
+          "en": "A very long speech that lasted many hours and described every battle of the war in great detail",
+          "zh": "一篇持续数小时、详细描述每场战役的极长演讲"
+        },
+        {
+          "en": "The Inaugural Speech",
+          "zh": "就职演说"
+        },
+        {
+          "en": "The Gettysburg Address",
+          "zh": "葛底斯堡演说"
+        },
+        {
+          "en": "The State of the Union",
+          "zh": "国情咨文"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "林肯常被称为‘伟大的解放者’。这个称呼指的是什么？"
       },
       "options": [
-        { "en": "His skill at building cabins", "zh": "他搭建小屋的本领" },
-        { "en": "The fact that he freed the slaves", "zh": "他解放了奴隶这一事实" },
-        { "en": "His love of travel", "zh": "他对旅行的热爱" },
-        { "en": "His tall height", "zh": "他身材高大" }
+        {
+          "en": "The fact that he freed the slaves",
+          "zh": "他解放了奴隶这一事实"
+        },
+        {
+          "en": "His tall height",
+          "zh": "他身材高大"
+        },
+        {
+          "en": "His skill at building cabins according to some versions of the story",
+          "zh": "他搭建小屋的本领（按书中另一种说法）"
+        },
+        {
+          "en": "His love of travel",
+          "zh": "他对旅行的热爱"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Lincoln is called the Great Emancipator because he freed the slaves through the Emancipation Proclamation.",
@@ -138,12 +222,24 @@
         "zh": "作者为什么要引用林肯那句关于不愿做奴隶也不愿做主人的名言？"
       },
       "options": [
-        { "en": "To teach math", "zh": "为了教数学" },
-        { "en": "To describe the weather", "zh": "为了描写天气" },
-        { "en": "To explain the steps for planting corn on a frontier farm in early America", "zh": "为了说明在早期美洲边境农场种玉米的步骤" },
-        { "en": "To show his belief in freedom and equality for all", "zh": "为了展现他对人人自由平等信念" }
+        {
+          "en": "To show his belief in freedom and equality for all",
+          "zh": "为了展现他对人人自由平等信念"
+        },
+        {
+          "en": "To describe the weather",
+          "zh": "为了描写天气"
+        },
+        {
+          "en": "To explain the steps for planting corn on a frontier farm in early America",
+          "zh": "为了说明在早期美洲边境农场种玉米的步骤"
+        },
+        {
+          "en": "To teach math",
+          "zh": "为了教数学"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author shares Lincoln's words to show his belief that democracy means no one should rule over another.",
@@ -156,12 +252,24 @@
         "zh": "林肯任总统期间发生了哪场战争？"
       },
       "options": [
-        { "en": "World War II", "zh": "第二次世界大战" },
-        { "en": "A long war fought long ago between two kingdoms over a distant island in the sea", "zh": "很久以前两个王国为海上一座孤岛而进行的漫长战争" },
-        { "en": "The Civil War, from 1861 to 1865", "zh": "南北战争，1861至1865年" },
-        { "en": "The Cold War", "zh": "冷战" }
+        {
+          "en": "World War II",
+          "zh": "第二次世界大战"
+        },
+        {
+          "en": "The Civil War, from 1861 to 1865",
+          "zh": "南北战争，1861至1865年"
+        },
+        {
+          "en": "The Cold War",
+          "zh": "冷战"
+        },
+        {
+          "en": "A long war fought long ago between two kingdoms over a distant island in the sea",
+          "zh": "很久以前两个王国为海上一座孤岛而进行的漫长战争"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Civil War was fought from 1861 to 1865, during Lincoln's time as president.",
@@ -174,12 +282,24 @@
         "zh": "在词汇表中，‘orator’（演说家）是什么意思？"
       },
       "options": [
-        { "en": "A person who paints large pictures of mountains and rivers for the king's palace", "zh": "为国王宫殿绘制山水巨画的人" },
-        { "en": "A public speaker, especially an eloquent one", "zh": "公开演讲者，尤指有口才的人" },
-        { "en": "A farmer", "zh": "农民" },
-        { "en": "A sailor", "zh": "水手" }
+        {
+          "en": "A public speaker, especially an eloquent one",
+          "zh": "公开演讲者，尤指有口才的人"
+        },
+        {
+          "en": "A person who paints large pictures of mountains and rivers for the king's palace",
+          "zh": "为国王宫殿绘制山水巨画的人"
+        },
+        {
+          "en": "A sailor",
+          "zh": "水手"
+        },
+        {
+          "en": "A farmer",
+          "zh": "农民"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines orator as a public speaker, especially an eloquent one.",

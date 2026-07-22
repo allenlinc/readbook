@@ -21,12 +21,12 @@
           "zh": "描述动物为生存而从一个地方移动到另一个地方的术语。"
         },
         {
-          "en": "A kind of weather.",
-          "zh": "一种天气。"
+          "en": "A place where animals nest. according to some versions of the story in an early draft of the book",
+          "zh": "动物筑巢的地方。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "A place where animals nest.",
-          "zh": "动物筑巢的地方。"
+          "en": "A kind of weather.",
+          "zh": "一种天气。"
         }
       ],
       "answer": 1,
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "100,000 miles",
+          "zh": "100,000 英里"
+        },
+        {
           "en": "1,000 miles",
           "zh": "1,000 英里"
         },
@@ -83,13 +87,9 @@
         {
           "en": "500 miles",
           "zh": "500 英里"
-        },
-        {
-          "en": "100,000 miles",
-          "zh": "100,000 英里"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'Every year Arctic Terns fly 22,000 miles on these migration routes from the Arctic... to Antarctica.'",
@@ -107,8 +107,8 @@
           "zh": "因为干旱使它们所在之处的草和水干涸。"
         },
         {
-          "en": "To escape cold winters.",
-          "zh": "为了躲避寒冷的冬天。"
+          "en": "To escape cold winters. according to some versions of the story",
+          "zh": "为了躲避寒冷的冬天。（按书中另一种说法）"
         },
         {
           "en": "To find the ocean.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "describe the sound of a storm",
-          "zh": "描写暴风雨的声音"
-        },
-        {
-          "en": "show how loudly and powerfully the herds move",
-          "zh": "表现兽群移动时多么喧闹而有力"
+          "en": "describe the sound of a storm according to some versions of the story",
+          "zh": "描写暴风雨的声音（按书中另一种说法）"
         },
         {
           "en": "explain why animals migrate",
           "zh": "解释动物为何迁徙"
         },
         {
+          "en": "show how loudly and powerfully the herds move",
+          "zh": "表现兽群移动时多么喧闹而有力"
+        },
+        {
           "en": "name a kind of animal",
           "zh": "命名一种动物"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Figure of speech: 'thunder' is a verb that makes the reader feel the noise and power of huge moving herds like wildebeests.",
@@ -163,8 +163,8 @@
       },
       "options": [
         {
-          "en": "As a story with made-up characters.",
-          "zh": "以一个虚构人物的故事形式。"
+          "en": "As a story with made-up characters. according to some versions of the story",
+          "zh": "以一个虚构人物的故事形式。（按书中另一种说法）"
         },
         {
           "en": "With section headings like 'What Is Migration?' and 'How Do They Do It?'",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "The sun.",
-          "zh": "太阳。"
+          "en": "Magnetite.",
+          "zh": "磁铁矿。"
         },
         {
           "en": "Their sense of smell.",
           "zh": "它们的嗅觉。"
         },
         {
-          "en": "Ocean currents.",
-          "zh": "洋流。"
+          "en": "Ocean currents. according to some versions of the story",
+          "zh": "洋流。（按书中另一种说法）"
         },
         {
-          "en": "Magnetite.",
-          "zh": "磁铁矿。"
+          "en": "The sun.",
+          "zh": "太阳。"
         }
       ],
       "answer": 1,
@@ -227,12 +227,12 @@
           "zh": "它们脑中的微小磁铁矿颗粒。"
         },
         {
-          "en": "Their brightly colored wings.",
-          "zh": "它们色彩鲜艳的翅膀。"
-        },
-        {
           "en": "The stars only.",
           "zh": "只有星星。"
+        },
+        {
+          "en": "Their brightly colored wings. according to some versions of the story",
+          "zh": "它们色彩鲜艳的翅膀。（按书中另一种说法）"
         },
         {
           "en": "Their sense of taste.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "They travel only in Africa. according to some versions of the story in an early draft of the book",
+          "zh": "它们只在非洲迁徙。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They never return north.",
+          "zh": "它们从不返回北方。"
+        },
+        {
           "en": "They fly only at night.",
           "zh": "它们只在夜间飞行。"
         },
         {
           "en": "The adults die after laying eggs, and their young complete the journey.",
           "zh": "成虫产卵后死去，由它们的后代完成旅程。"
-        },
-        {
-          "en": "They travel only in Africa.",
-          "zh": "它们只在非洲迁徙。"
-        },
-        {
-          "en": "They never return north.",
-          "zh": "它们从不返回北方。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says monarchs fly south for winter, then 'the adults die after the females lay eggs. The eggs develop into young butterflies that complete the journey back home.'",
@@ -283,12 +283,8 @@
       },
       "options": [
         {
-          "en": "To tell a made-up story about talking animals.",
-          "zh": "讲述一个关于会说话的动物的虚构故事。"
-        },
-        {
-          "en": "To inform readers about why and how animals migrate.",
-          "zh": "向读者介绍动物为何及如何迁徙。"
+          "en": "To tell a made-up story about talking animals. according to some versions of the story",
+          "zh": "讲述一个关于会说话的动物的虚构故事。（按书中另一种说法）"
         },
         {
           "en": "To teach how to catch fish.",
@@ -297,9 +293,13 @@
         {
           "en": "To describe one city park.",
           "zh": "描述一座城市公园。"
+        },
+        {
+          "en": "To inform readers about why and how animals migrate.",
+          "zh": "向读者介绍动物为何及如何迁徙。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "As an informational book, it explains the reasons, dangers, and navigation methods of migration using real animal examples.",

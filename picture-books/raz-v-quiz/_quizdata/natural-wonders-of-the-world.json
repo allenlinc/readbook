@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "The Colorado River eroded the rock over millions of years.",
-          "zh": "科罗拉多河经过数百万年的侵蚀切割岩石。"
-        },
-        {
-          "en": "A volcano erupted.",
-          "zh": "火山喷发。"
+          "en": "A meteor hit it. according to some versions of the story in an early draft of the book",
+          "zh": "陨石撞击而成。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Humans dug it.",
           "zh": "人类挖掘而成。"
         },
         {
-          "en": "A meteor hit it.",
-          "zh": "陨石撞击而成。"
+          "en": "A volcano erupted.",
+          "zh": "火山喷发。"
+        },
+        {
+          "en": "The Colorado River eroded the rock over millions of years.",
+          "zh": "科罗拉多河经过数百万年的侵蚀切割岩石。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Water erosion by the Colorado River slowly carved the deep canyons over millions of years.",
@@ -43,12 +43,12 @@
       },
       "options": [
         {
-          "en": "The bottom layer near the river, about two billion years old.",
-          "zh": "靠近河底的那层，约二十亿年历史。"
+          "en": "The top layer where visitors first look. according to some versions of the story",
+          "zh": "游客最先看到的最顶层。（按书中另一种说法）"
         },
         {
-          "en": "The top layer where visitors first look.",
-          "zh": "游客最先看到的最顶层。"
+          "en": "The bottom layer near the river, about two billion years old.",
+          "zh": "靠近河底的那层，约二十亿年历史。"
         },
         {
           "en": "The middle layer.",
@@ -59,7 +59,7 @@
           "zh": "没有岩层。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The bottom layer near the river is the oldest, with some rocks dating back about two billion years.",
@@ -73,12 +73,8 @@
       },
       "options": [
         {
-          "en": "In Mexico, beginning in 1943 in a farmer's cornfield.",
-          "zh": "在墨西哥，1943年始于一位农民的玉米地。"
-        },
-        {
-          "en": "In Egypt, thousands of years ago.",
-          "zh": "在埃及，数千年前。"
+          "en": "In Egypt, thousands of years ago. according to some versions of the story",
+          "zh": "在埃及，数千年前。（按书中另一种说法）"
         },
         {
           "en": "In Australia, in 1900.",
@@ -87,9 +83,13 @@
         {
           "en": "In Antarctica, last year.",
           "zh": "在南极洲，去年。"
+        },
+        {
+          "en": "In Mexico, beginning in 1943 in a farmer's cornfield.",
+          "zh": "在墨西哥，1943年始于一位农民的玉米地。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Paricutín began forming in 1943 when a farmer found a fissure in his cornfield in Mexico.",
@@ -111,12 +111,12 @@
           "zh": "盾状火山。"
         },
         {
-          "en": "An underwater volcano.",
-          "zh": "水下火山。"
-        },
-        {
           "en": "A glacier.",
           "zh": "冰川。"
+        },
+        {
+          "en": "An underwater volcano. according to some versions of the story",
+          "zh": "水下火山。（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "'The tall mountain.' according to some versions of the story",
+          "zh": "“高高的山”。（按书中另一种说法）"
+        },
+        {
           "en": "'The smoke that thunders' (Victoria Falls).",
           "zh": "“雷鸣般的烟雾”（指维多利亚瀑布）。"
         },
         {
-          "en": "'The long river.'",
-          "zh": "“长长的河”。"
-        },
-        {
-          "en": "'The tall mountain.'",
-          "zh": "“高高的山”。"
-        },
-        {
           "en": "'The red rock.'",
           "zh": "“红色的岩石”。"
+        },
+        {
+          "en": "'The long river.'",
+          "zh": "“长长的河”。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Zambians call Victoria Falls Mosi-oa-Tunya, 'the smoke that thunders,' for its mist and booming sound.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "David Livingstone, after Queen Victoria of England.",
-          "zh": "戴维·利文斯通，以英国维多利亚女王命名。"
-        },
-        {
-          "en": "Christopher Columbus, after Spain.",
-          "zh": "克里斯托弗·哥伦布，以西班牙命名。"
-        },
-        {
           "en": "A local farmer, after his dog.",
           "zh": "一位当地农民，以他的狗命名。"
         },
         {
           "en": "The book's author.",
           "zh": "本书作者。"
+        },
+        {
+          "en": "David Livingstone, after Queen Victoria of England.",
+          "zh": "戴维·利文斯通，以英国维多利亚女王命名。"
+        },
+        {
+          "en": "Christopher Columbus, after Spain. according to some versions of the story",
+          "zh": "克里斯托弗·哥伦布，以西班牙命名。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Scottish explorer David Livingstone visited in 1855 and named the falls after Queen Victoria.",
@@ -205,8 +205,8 @@
           "zh": "1000米。"
         },
         {
-          "en": "50,000 meters.",
-          "zh": "50000米。"
+          "en": "50,000 meters. according to some versions of the story",
+          "zh": "50000米。（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "The book's author.",
+          "zh": "本书作者。"
+        },
+        {
           "en": "Sir Edmund Hillary and Tenzing Norgay in 1953.",
           "zh": "1953年的埃德蒙·希拉里爵士和丹增·诺尔盖。"
         },
@@ -231,15 +235,11 @@
           "zh": "克里斯托弗·哥伦布。"
         },
         {
-          "en": "The book's author.",
-          "zh": "本书作者。"
-        },
-        {
-          "en": "A group of tourists in 2000.",
-          "zh": "2000年的一群游客。"
+          "en": "A group of tourists in 2000. according to some versions of the story",
+          "zh": "2000年的一群游客。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In 1953, Edmund Hillary of New Zealand and Tenzing Norgay, a Sherpa from Nepal, first climbed it.",
@@ -257,8 +257,8 @@
           "zh": "一种叫珊瑚虫的微小动物的骨骼。"
         },
         {
-          "en": "Pieces of broken glass.",
-          "zh": "碎玻璃片。"
+          "en": "Pieces of broken glass. according to some versions of the story",
+          "zh": "碎玻璃片。（按书中另一种说法）"
         },
         {
           "en": "Sand from the desert.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Off the northeast coast of Australia.",
-          "zh": "澳大利亚东北海岸外。"
+          "en": "In the Himalayas. according to some versions of the story",
+          "zh": "在喜马拉雅山脉。（按书中另一种说法）"
         },
         {
           "en": "In central Africa.",
           "zh": "非洲中部。"
         },
         {
-          "en": "In the Himalayas.",
-          "zh": "在喜马拉雅山脉。"
+          "en": "Off the northeast coast of Australia.",
+          "zh": "澳大利亚东北海岸外。"
         },
         {
           "en": "Near the North Pole.",
           "zh": "近北极。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Great Barrier Reef is more than 2,300 km long, off the northeast coast of Australia.",

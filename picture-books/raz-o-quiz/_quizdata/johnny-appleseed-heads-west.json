@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "He heard birds calling him West.",
+          "zh": "他听到鸟儿在召唤他向西。"
+        },
+        {
           "en": "He wanted to find gold.",
           "zh": "他想寻找金子。"
         },
@@ -21,15 +25,11 @@
           "zh": "他知道定居者到达时会需要苹果。"
         },
         {
-          "en": "He was running away from the Shawnee.",
-          "zh": "他在逃离肖尼族人。"
-        },
-        {
-          "en": "He heard birds calling him West.",
-          "zh": "他听到鸟儿在召唤他向西。"
+          "en": "He was running away from the Shawnee. according to some versions of the story",
+          "zh": "他在逃离肖尼族人。（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Johnny heard people talk of moving West and 'knew they would need apples when they got there,' so he gathered seeds and went ahead of them.",
@@ -43,16 +43,16 @@
       },
       "options": [
         {
-          "en": "A hat made of leaves",
-          "zh": "用叶子做的帽子"
+          "en": "A cloth sack",
+          "zh": "一个布口袋"
         },
         {
           "en": "A cooking pot",
           "zh": "一口做饭的锅"
         },
         {
-          "en": "A cloth sack",
-          "zh": "一个布口袋"
+          "en": "A hat made of leaves",
+          "zh": "用叶子做的帽子"
         },
         {
           "en": "A wolf skin",
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "A pile of leaves according to some versions of the story",
+          "zh": "一堆树叶（按书中另一种说法）"
+        },
+        {
           "en": "His shovel",
           "zh": "他的铲子"
         },
@@ -83,13 +87,9 @@
         {
           "en": "The cooking pot",
           "zh": "那口锅"
-        },
-        {
-          "en": "A pile of leaves",
-          "zh": "一堆树叶"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The text says: 'Then he'd push the pile of dirt back into the hole with his big bare feet.'",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "Berries",
+          "zh": "浆果"
+        },
+        {
           "en": "Sweet potatoes",
           "zh": "红薯"
         },
@@ -113,13 +117,9 @@
         {
           "en": "Meat",
           "zh": "肉"
-        },
-        {
-          "en": "Berries",
-          "zh": "浆果"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states Johnny was 'always happy to find these foods in his pot because he never ate meat of any kind,' since he loved animals and did not want them harmed.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "He was weak and fragile.",
-          "zh": "他虚弱而脆弱。"
-        },
-        {
-          "en": "He looked thin but was very strong.",
-          "zh": "他看起来瘦，却非常强壮。"
+          "en": "He was taller than the trees. according to some versions of the story",
+          "zh": "他比树还高。（按书中另一种说法）"
         },
         {
           "en": "He was made of wood.",
           "zh": "他是木头做的。"
         },
         {
-          "en": "He was taller than the trees.",
-          "zh": "他比树还高。"
+          "en": "He was weak and fragile.",
+          "zh": "他虚弱而脆弱。"
+        },
+        {
+          "en": "He looked thin but was very strong.",
+          "zh": "他看起来瘦，却非常强壮。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The simile compares his thin appearance to branches but his strength to iron bars, showing he was scrawny yet powerful—able to plant all day and leap rivers.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "A tall-tale exaggeration",
+          "zh": "夸张民间故事里的夸大手法"
+        },
+        {
           "en": "A fact about gravity",
           "zh": "关于重力的一个事实"
         },
         {
-          "en": "A realistic description",
-          "zh": "一个写实的描写"
-        },
-        {
-          "en": "A tall-tale exaggeration",
-          "zh": "夸张民间故事里的夸大手法"
+          "en": "A realistic description according to some versions of the story",
+          "zh": "一个写实的描写（按书中另一种说法）"
         },
         {
           "en": "A scientific explanation",
           "zh": "一个科学解释"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "This impossible detail is a classic exaggeration of a tall tale (a folk tale), meant to make Johnny seem larger than life rather than to report facts.",
@@ -205,8 +205,8 @@
           "zh": "他们偷了他的种子。"
         },
         {
-          "en": "They trapped more wolves.",
-          "zh": "他们又设陷阱抓了更多狼。"
+          "en": "They trapped more wolves. according to some versions of the story",
+          "zh": "他们又设陷阱抓了更多狼。（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -223,10 +223,6 @@
       },
       "options": [
         {
-          "en": "He left it there to free itself.",
-          "zh": "他丢下它让它自己挣脱。"
-        },
-        {
           "en": "He spoke softly, patted its head, and opened the trap.",
           "zh": "他轻声说话，拍拍它的头，并打开了夹子。"
         },
@@ -235,11 +231,15 @@
           "zh": "他呼叫肖尼族人来帮忙。"
         },
         {
+          "en": "He left it there to free itself. according to some versions of the story",
+          "zh": "他丢下它让它自己挣脱。（按书中另一种说法）"
+        },
+        {
           "en": "He gave it an apple.",
           "zh": "他给了它一个苹果。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The text says Johnny 'followed the sound and found a wolf caught in a steel trap. Johnny spoke softly, gently patted the wolf's head, and opened the trap.'",
@@ -253,8 +253,8 @@
       },
       "options": [
         {
-          "en": "He saw Johnny fill the pot himself.",
-          "zh": "他看到约翰尼自己把锅装满。"
+          "en": "He ate all the apples.",
+          "zh": "他把苹果全吃光了。"
         },
         {
           "en": "He fell asleep and later found animal tracks around the full pot.",
@@ -265,8 +265,8 @@
           "zh": "他抓住了狼漫游者。"
         },
         {
-          "en": "He ate all the apples.",
-          "zh": "他把苹果全吃光了。"
+          "en": "He saw Johnny fill the pot himself. according to some versions of the story",
+          "zh": "他看到约翰尼自己把锅装满。（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To teach how to sell apple trees for money.",
-          "zh": "教人如何卖苹果树赚钱。"
-        },
-        {
           "en": "To share a folktale about a man who loved nature and helped others.",
           "zh": "分享一个关于热爱自然、助人为乐的人的民间故事。"
         },
         {
-          "en": "To explain the American Revolution fact by fact.",
-          "zh": "逐条解释美国独立战争。"
-        },
-        {
           "en": "To describe real history exactly as it happened.",
           "zh": "如实描述真实的历史。"
+        },
+        {
+          "en": "To explain the American Revolution fact by fact. according to some versions of the story",
+          "zh": "逐条解释美国独立战争。（按书中另一种说法）"
+        },
+        {
+          "en": "To teach how to sell apple trees for money.",
+          "zh": "教人如何卖苹果树赚钱。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "It is a retold folk tale (tall tale) celebrating Johnny's kindness to nature and people, not a strict historical record.",

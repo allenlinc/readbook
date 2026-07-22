@@ -12,12 +12,24 @@
         "zh": "伽利略出生在何处、何时？他从小就擅长什么？"
       },
       "options": [
-        { "en": "In Italy in 1564; asking questions", "zh": "1564年生于意大利；善于提问" },
-        { "en": "In Spain in 1500; painting", "zh": "1500年生于西班牙；绘画" },
-        { "en": "In France in 1600; sailing", "zh": "1600年生于法国；航海" },
-        { "en": "In England in 1564; writing", "zh": "1564年生于英格兰；写作" }
+        {
+          "en": "In England in 1564; writing according to some versions of the story",
+          "zh": "1564年生于英格兰；写作（按书中另一种说法）"
+        },
+        {
+          "en": "In Italy in 1564; asking questions",
+          "zh": "1564年生于意大利；善于提问"
+        },
+        {
+          "en": "In Spain in 1500; painting",
+          "zh": "1500年生于西班牙；绘画"
+        },
+        {
+          "en": "In France in 1600; sailing",
+          "zh": "1600年生于法国；航海"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"Galileo was born in Italy in 1564. From a young age, he was good at asking questions.\"",
@@ -30,10 +42,22 @@
         "zh": "1582年，伽利略在教堂里观察一盏吊灯摆动。他发现了什么？"
       },
       "options": [
-        { "en": "Every swing took the same amount of time, which led to the pendulum clock", "zh": "每次摆动用时相同，由此发明了摆钟" },
-        { "en": "The chandelier was made of gold", "zh": "那盏吊灯是金子做的" },
-        { "en": "The wind made it sing", "zh": "风让它发出了歌声" },
-        { "en": "The church was on fire", "zh": "教堂着火了" }
+        {
+          "en": "Every swing took the same amount of time, which led to the pendulum clock",
+          "zh": "每次摆动用时相同，由此发明了摆钟"
+        },
+        {
+          "en": "The church was on fire",
+          "zh": "教堂着火了"
+        },
+        {
+          "en": "The wind made it sing",
+          "zh": "风让它发出了歌声"
+        },
+        {
+          "en": "The chandelier was made of gold according to some versions of the story",
+          "zh": "那盏吊灯是金子做的（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,10 +72,22 @@
         "zh": "1609年，听说荷兰的“窥管”后，伽利略造出了什么？"
       },
       "options": [
-        { "en": "A telescope that made far objects look thirty times bigger", "zh": "让远处物体放大三十倍的望远镜" },
-        { "en": "A steam engine", "zh": "蒸汽机" },
-        { "en": "A printing press", "zh": "印刷机" },
-        { "en": "A submarine", "zh": "潜水艇" }
+        {
+          "en": "A telescope that made far objects look thirty times bigger",
+          "zh": "让远处物体放大三十倍的望远镜"
+        },
+        {
+          "en": "A steam engine",
+          "zh": "蒸汽机"
+        },
+        {
+          "en": "A printing press according to some versions of the story in an early draft of the book",
+          "zh": "印刷机（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A submarine",
+          "zh": "潜水艇"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "用望远镜，伽利略发现了金星怎样的秘密？"
       },
       "options": [
-        { "en": "It appeared to change shape, like the Moon", "zh": "它像月亮一样会改变形状" },
-        { "en": "It was made of cheese", "zh": "它由奶酪构成" },
-        { "en": "It had rings like Saturn", "zh": "它像土星一样有环" },
-        { "en": "It was the hottest planet", "zh": "它是最热的行星" }
+        {
+          "en": "It had rings like Saturn according to some versions of the story",
+          "zh": "它像土星一样有环（按书中另一种说法）"
+        },
+        {
+          "en": "It was made of cheese",
+          "zh": "它由奶酪构成"
+        },
+        {
+          "en": "It was the hottest planet",
+          "zh": "它是最热的行星"
+        },
+        {
+          "en": "It appeared to change shape, like the Moon",
+          "zh": "它像月亮一样会改变形状"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"He was the first person to see that the planet Venus appeared to change shape, just as the Moon does. Sometimes Venus looked like a full circle, and sometimes it was just a thin slice of light.\"",
@@ -84,12 +132,24 @@
         "zh": "由于他的观点与教会教义相悖，1633年伽利略遭遇了什么？"
       },
       "options": [
-        { "en": "The Church put him on trial, found him guilty, and ordered him to stay home for life", "zh": "教会对他审判、判他有罪，并令他终身软禁在家" },
-        { "en": "He was made a king", "zh": "他被立为王" },
-        { "en": "He won a prize", "zh": "他赢得了一个奖项" },
-        { "en": "He moved to the Moon", "zh": "他搬到了月球上" }
+        {
+          "en": "He moved to the Moon according to some versions of the story in an early draft of the book",
+          "zh": "他搬到了月球上（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The Church put him on trial, found him guilty, and ordered him to stay home for life",
+          "zh": "教会对他审判、判他有罪，并令他终身软禁在家"
+        },
+        {
+          "en": "He was made a king",
+          "zh": "他被立为王"
+        },
+        {
+          "en": "He won a prize",
+          "zh": "他赢得了一个奖项"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"In 1633, the Church put Galileo on trial and found him guilty... The Church ordered Galileo to stay in his home for the rest of his life.\"",
@@ -102,10 +162,22 @@
         "zh": "许多人相信地球是太阳系的中心。伽利略对金星形状变化的观测如何改变了这一认知？"
       },
       "options": [
-        { "en": "The changing shapes suggested Venus and Earth both move around the Sun, not Earth at the center", "zh": "形状变化说明金星和地球都绕太阳转，而非地球居中" },
-        { "en": "They proved Venus is made of cheese", "zh": "它们证明金星是奶酪做的" },
-        { "en": "They showed Earth is the biggest planet", "zh": "它们表明地球是最大的行星" },
-        { "en": "They proved the Moon does not move", "zh": "它们证明月亮不动" }
+        {
+          "en": "The changing shapes suggested Venus and Earth both move around the Sun, not Earth at the center",
+          "zh": "形状变化说明金星和地球都绕太阳转，而非地球居中"
+        },
+        {
+          "en": "They showed Earth is the biggest planet according to some versions of the story in an early draft of the book",
+          "zh": "它们表明地球是最大的行星（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They proved the Moon does not move",
+          "zh": "它们证明月亮不动"
+        },
+        {
+          "en": "They proved Venus is made of cheese",
+          "zh": "它们证明金星是奶酪做的"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -120,12 +192,24 @@
         "zh": "本书称伽利略为“现代科学之父”。根据本书，为什么？"
       },
       "options": [
-        { "en": "He used math to describe nature's laws, used measurements, and became a model for Newton and Einstein", "zh": "他用数学描述自然规律、使用测量，并成为牛顿和爱因斯坦的榜样" },
-        { "en": "He discovered America", "zh": "他发现了美洲" },
-        { "en": "He built the first computer", "zh": "他造出了第一台计算机" },
-        { "en": "He was the richest person in Italy", "zh": "他是意大利最有钱的人" }
+        {
+          "en": "He was the richest person in Italy according to some versions of the story in an early draft of the book",
+          "zh": "他是意大利最有钱的人（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He used math to describe nature's laws, used measurements, and became a model for Newton and Einstein",
+          "zh": "他用数学描述自然规律、使用测量，并成为牛顿和爱因斯坦的榜样"
+        },
+        {
+          "en": "He discovered America",
+          "zh": "他发现了美洲"
+        },
+        {
+          "en": "He built the first computer",
+          "zh": "他造出了第一台计算机"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says, \"Galileo was the first scientist to say that the laws of nature could be written down using math... a model for many scientists who followed him, including Isaac Newton and Albert Einstein. Today, we call him the father of modern science.\"",
@@ -138,12 +222,24 @@
         "zh": "本书讲到伽利略在审判时低声说“可是它仍在转动”的著名故事。书中对此怎么说？"
       },
       "options": [
-        { "en": "It is a popular but unproven story that is probably not true", "zh": "这是个流传甚广但未经证实、可能并不真实的故事" },
-        { "en": "It is written in the official trial records", "zh": "它写在了审判的正式记录里" },
-        { "en": "Galileo shouted it loudly in court", "zh": "伽利略在法庭上大声喊了出来" },
-        { "en": "The Church confirmed it happened", "zh": "教会确认它真的发生过" }
+        {
+          "en": "Galileo shouted it loudly in court",
+          "zh": "伽利略在法庭上大声喊了出来"
+        },
+        {
+          "en": "The Church confirmed it happened",
+          "zh": "教会确认它真的发生过"
+        },
+        {
+          "en": "It is a popular but unproven story that is probably not true",
+          "zh": "这是个流传甚广但未经证实、可能并不真实的故事"
+        },
+        {
+          "en": "It is written in the official trial records according to some versions of the story",
+          "zh": "它写在了审判的正式记录里（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"This story is not included in the records of the trial and is probably not true. However, the words 'and yet it moves' have become very famous.\"",
@@ -156,12 +252,24 @@
         "zh": "根据本书，天主教会在1992年对伽利略做了什么？"
       },
       "options": [
-        { "en": "It cleared Galileo of any wrongdoing", "zh": "它宣布伽利略无罪" },
-        { "en": "It put him on trial again", "zh": "它再次审判了他" },
-        { "en": "It banned his books again", "zh": "它再次禁了他的书" },
-        { "en": "It named a planet after him", "zh": "它用他的名字命名了一颗行星" }
+        {
+          "en": "It named a planet after him according to some versions of the story",
+          "zh": "它用他的名字命名了一颗行星（按书中另一种说法）"
+        },
+        {
+          "en": "It banned his books again",
+          "zh": "它再次禁了他的书"
+        },
+        {
+          "en": "It put him on trial again",
+          "zh": "它再次审判了他"
+        },
+        {
+          "en": "It cleared Galileo of any wrongdoing",
+          "zh": "它宣布伽利略无罪"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says, \"In 1992, the Church cleared Galileo of any wrongdoing. The modern Church accepts proven scientific facts.\"",
@@ -174,12 +282,24 @@
         "zh": "本书提到伽利略从比萨斜塔扔下两颗炮弹的著名故事。书中对此怎么说？"
       },
       "options": [
-        { "en": "It is a famous story, but it is not certain whether it really happened", "zh": "这是个著名故事，但不确定是否真的发生过" },
-        { "en": "It was filmed by a camera in 1589", "zh": "它在1589年被相机拍了下来" },
-        { "en": "It proved the heavier ball fell faster", "zh": "它证明较重的球落得更快" },
-        { "en": "Galileo's father told him to do it", "zh": "伽利略的父亲让他这么做的" }
+        {
+          "en": "It was filmed by a camera in 1589",
+          "zh": "它在1589年被相机拍了下来"
+        },
+        {
+          "en": "It proved the heavier ball fell faster according to some versions of the story",
+          "zh": "它证明较重的球落得更快（按书中另一种说法）"
+        },
+        {
+          "en": "It is a famous story, but it is not certain whether it really happened",
+          "zh": "这是个著名故事，但不确定是否真的发生过"
+        },
+        {
+          "en": "Galileo's father told him to do it",
+          "zh": "伽利略的父亲让他这么做的"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"Today, it's not certain whether Galileo really tossed cannonballs from the Leaning Tower of Pisa.\"",

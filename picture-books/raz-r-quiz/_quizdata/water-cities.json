@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Amsterdam",
-          "zh": "阿姆斯特丹"
-        },
-        {
-          "en": "Venice, Italy",
-          "zh": "意大利威尼斯"
+          "en": "Dubai",
+          "zh": "迪拜"
         },
         {
           "en": "Singapore",
           "zh": "新加坡"
         },
         {
-          "en": "Dubai",
-          "zh": "迪拜"
+          "en": "Amsterdam according to some versions of the story",
+          "zh": "阿姆斯特丹（按书中另一种说法）"
+        },
+        {
+          "en": "Venice, Italy",
+          "zh": "意大利威尼斯"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Venice 'is the world's best-known water city' built on more than a hundred islands.",
@@ -43,8 +43,12 @@
       },
       "options": [
         {
-          "en": "None of it.",
-          "zh": "完全没有。"
+          "en": "None of it. according to some versions of the story",
+          "zh": "完全没有。（按书中另一种说法）"
+        },
+        {
+          "en": "Half of it.",
+          "zh": "一半。"
         },
         {
           "en": "About one-third.",
@@ -53,13 +57,9 @@
         {
           "en": "All of it.",
           "zh": "全部。"
-        },
-        {
-          "en": "Half of it.",
-          "zh": "一半。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'About one-third of the Netherlands is below sea level.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "The Venice of Africa.",
-          "zh": "非洲的威尼斯。"
-        },
-        {
           "en": "The City of Sails.",
           "zh": "帆船之城。"
         },
         {
-          "en": "The Mexican Venice.",
-          "zh": "墨西哥的威尼斯。"
+          "en": "The Mexican Venice. according to some versions of the story",
+          "zh": "墨西哥的威尼斯。（按书中另一种说法）"
         },
         {
           "en": "Shell Island.",
           "zh": "贝壳岛。"
+        },
+        {
+          "en": "The Venice of Africa.",
+          "zh": "非洲的威尼斯。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book labels Ganvié: 'the village of Ganvié is sometimes called the Venice of Africa.'",
@@ -107,16 +107,16 @@
           "zh": "曾经在水下、被恢复成可用状态的土地。"
         },
         {
-          "en": "Land covered by forest.",
-          "zh": "被森林覆盖的土地。"
+          "en": "Land on a mountain.",
+          "zh": "山上的土地。"
+        },
+        {
+          "en": "Land covered by forest. according to some versions of the story in an early draft of the book",
+          "zh": "被森林覆盖的土地。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Land used for airports.",
           "zh": "用于机场的土地。"
-        },
-        {
-          "en": "Land on a mountain.",
-          "zh": "山上的土地。"
         }
       ],
       "answer": 0,
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "A kind of bridge.",
+          "zh": "一种桥。"
+        },
+        {
           "en": "A type of boat.",
           "zh": "一种船。"
         },
@@ -141,15 +145,11 @@
           "zh": "连接两块较大陆地的狭窄带状陆地。"
         },
         {
-          "en": "A deep part of the ocean.",
-          "zh": "海洋很深的部分。"
-        },
-        {
-          "en": "A kind of bridge.",
-          "zh": "一种桥。"
+          "en": "A deep part of the ocean. according to some versions of the story",
+          "zh": "海洋很深的部分。（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines isthmus as 'a narrow strip of land connecting two larger landmasses.' Auckland sits on one.",
@@ -171,12 +171,12 @@
           "zh": "丰族人的宗教不允许追捕住在水上的人，于是他们逃到那里寻求安全。"
         },
         {
-          "en": "They wanted to fish in the ocean.",
-          "zh": "他们想去海里捕鱼。"
+          "en": "They were forced to by the government. according to some versions of the story in an early draft of the book",
+          "zh": "他们是被政府强迫的。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "They were forced to by the government.",
-          "zh": "他们是被政府强迫的。"
+          "en": "They wanted to fish in the ocean.",
+          "zh": "他们想去海里捕鱼。"
         }
       ],
       "answer": 1,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Singapore adds land by dumping rocks and sand into the sea, while Amsterdam pumped water out.",
-          "zh": "新加坡是把岩石和沙倒入海中造地，而阿姆斯特丹是把水抽干。"
+          "en": "Singapore uses stilts.",
+          "zh": "新加坡使用高架支柱。"
         },
         {
-          "en": "Singapore pumps water out just like Amsterdam.",
-          "zh": "新加坡和阿姆斯特丹一样把水抽干。"
+          "en": "Singapore adds land by dumping rocks and sand into the sea, while Amsterdam pumped water out.",
+          "zh": "新加坡是把岩石和沙倒入海中造地，而阿姆斯特丹是把水抽干。"
         },
         {
           "en": "They are exactly the same.",
           "zh": "它们完全一样。"
         },
         {
-          "en": "Singapore uses stilts.",
-          "zh": "新加坡使用高架支柱。"
+          "en": "Singapore pumps water out just like Amsterdam. according to some versions of the story in an early draft of the book",
+          "zh": "新加坡和阿姆斯特丹一样把水抽干。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says Singapore 'has added land by dumping rocks and sand into the sea,' while Amsterdam 'pumped out the water.'",
@@ -227,8 +227,8 @@
           "zh": "描述世界各地建在水上或水边的不同城市。"
         },
         {
-          "en": "To convince people to move to islands.",
-          "zh": "说服人们搬到岛上去住。"
+          "en": "To convince people to move to islands. according to some versions of the story",
+          "zh": "说服人们搬到岛上去住。（按书中另一种说法）"
         },
         {
           "en": "To explain how to build a boat.",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "Only danger.",
-          "zh": "只有危险。"
-        },
-        {
           "en": "Fun, work, safety, a connection with nature, or a way of life.",
           "zh": "乐趣、工作、安全、与自然的联系，或一种生活方式。"
         },
@@ -265,11 +261,15 @@
           "zh": "没什么重要的。"
         },
         {
-          "en": "Only a place to fish.",
-          "zh": "只是一个捕鱼的地方。"
+          "en": "Only danger.",
+          "zh": "只有危险。"
+        },
+        {
+          "en": "Only a place to fish. according to some versions of the story in an early draft of the book",
+          "zh": "只是一个捕鱼的地方。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says water 'may mean fun, work, safety, a connection with nature, or a way of life.'",
@@ -291,12 +291,12 @@
           "zh": "奥克兰"
         },
         {
-          "en": "Christchurch",
-          "zh": "基督城"
-        },
-        {
           "en": "Mexcalitán",
           "zh": "墨西卡利特兰"
+        },
+        {
+          "en": "Christchurch",
+          "zh": "基督城"
         }
       ],
       "answer": 1,

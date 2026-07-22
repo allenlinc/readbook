@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "Build a fine cabin by the river according to some versions of the story",
+          "zh": "在河边建一间讲究的木屋，这与书里的描写相符（按书中另一种说法）"
+        },
+        {
           "en": "Buy a bigger team of twenty dogs",
           "zh": "买一支二十只狗的大队"
         },
@@ -21,15 +25,11 @@
           "zh": "还清欠债，并东行去寻找废矿"
         },
         {
-          "en": "Build a fine cabin by the river",
-          "zh": "在河边建一间讲究的木屋，这与书里的描写相符"
-        },
-        {
           "en": "Return south to the Santa Clara Valley",
           "zh": "回南方圣克拉拉谷"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The sixteen hundred dollars let Thornton pay debts and journey east after the fabled lost mine.",
@@ -47,16 +47,16 @@
           "zh": "直截的肉，雪橇上载着弹药和工具"
         },
         {
-          "en": "Canned goods from the long trail",
-          "zh": "长途雪道上的罐头食品，这一点文中说得很明白"
+          "en": "The dogs' regular dried salmon",
+          "zh": "狗群定例的干三文鱼"
+        },
+        {
+          "en": "Canned goods from the long trail according to some versions of the story",
+          "zh": "长途雪道上的罐头食品，这一点文中说得很明白（按书中另一种说法）"
         },
         {
           "en": "Fish and bread from the villages",
           "zh": "从村落得来的鱼和面包"
-        },
-        {
-          "en": "The dogs' regular dried salmon",
-          "zh": "狗群定例的干三文鱼"
         }
       ],
       "answer": 0,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A deep cave full of bones",
-          "zh": "一个满是骸骨的深洞"
-        },
-        {
           "en": "A frozen lake with no life",
           "zh": "一座毫无生气的冻湖"
         },
         {
-          "en": "An ancient cabin with a flintlock",
-          "zh": "一间有燧石枪的古老木屋，这是原文明确写到的"
+          "en": "An ancient cabin with a flintlock according to some versions of the story",
+          "zh": "一间有燧石枪的古老木屋，这是原文明确写到的（按书中另一种说法）"
         },
         {
           "en": "A shallow placer where gold showed in the pan",
           "zh": "一处浅砂矿，淘盘里显出黄金"
+        },
+        {
+          "en": "A deep cave full of bones",
+          "zh": "一个满是骸骨的深洞"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "They found not the Lost Cabin but a shallow placer where gold showed like yellow butter.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "He raced the other dogs each morning",
-          "zh": "他每晨和其他狗赛跑，读者可以在故事里找到"
-        },
-        {
-          "en": "He learned to steer the heavy sled",
-          "zh": "他学会了掌舵重橇"
+          "en": "He raced the other dogs each morning according to some versions of the story",
+          "zh": "他每晨和其他狗赛跑，读者可以在故事里找到（按书中另一种说法）"
         },
         {
           "en": "He mused by the fire and dreamed of the hairy man",
           "zh": "他火边出神，梦着那多毛的人"
         },
         {
+          "en": "He learned to steer the heavy sled",
+          "zh": "他学会了掌舵重橇"
+        },
+        {
           "en": "He hunted alone far from the camp",
           "zh": "他离营独自去打猎"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "With little work, Buck spent long hours musing by the fire and the hairy man came to him more.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "The cheerful, happy sound of Thornton calling out his name",
-          "zh": "Thornton 欢快叫着他名字的声音"
-        },
-        {
-          "en": "A luring sound that drew him into the wild",
-          "zh": "一种诱他进入荒野的召唤声"
-        },
-        {
           "en": "The nightly howl of the hungry team by camp",
           "zh": "营地边饥饿队伍夜里的长嚎"
         },
         {
+          "en": "The cheerful, happy sound of Thornton calling out his name",
+          "zh": "Thornton 欢快叫着他名字的声音"
+        },
+        {
           "en": "The roaring noise of the rushing rapids",
           "zh": "急流轰鸣的声响"
+        },
+        {
+          "en": "A luring sound that drew him into the wild",
+          "zh": "一种诱他进入荒野的召唤声"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The call filled him with unrest and strange desires, luring him to plunge into the forest.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A long, lean timber wolf",
-          "zh": "一只瘦长的大森林狼"
+          "en": "A lost dog from the old team",
+          "zh": "旧队里一只走失的狗"
         },
         {
-          "en": "A stray black bear by the stream",
-          "zh": "溪边一只走失的黑熊"
+          "en": "A long, lean timber wolf",
+          "zh": "一只瘦长的大森林狼"
         },
         {
           "en": "The short-legged hairy primitive man out of his dreams",
           "zh": "他梦中那短腿多毛的原始人"
         },
         {
-          "en": "A lost dog from the old team",
-          "zh": "旧队里一只走失的狗"
+          "en": "A stray black bear by the stream",
+          "zh": "溪边一只走失的黑熊"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Buck came upon a long, lean timber wolf and, after caution, they sniffed noses and ran together.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "He stayed with the wolf in the wild",
-          "zh": "他留在荒野与狼为伴"
-        },
-        {
-          "en": "He led the wild wolf all the way back to the camp",
-          "zh": "他领着野狼一路回了营地，这与书里的描写相符，这与书里的描写相符"
+          "en": "He returned to Thornton at the camp",
+          "zh": "他回到营地，回到 Thornton 身边"
         },
         {
           "en": "He chased the wolf away for good",
           "zh": "他把狼永远赶走了"
         },
         {
-          "en": "He returned to Thornton at the camp",
-          "zh": "他回到营地，回到 Thornton 身边"
+          "en": "He stayed with the wolf in the wild",
+          "zh": "他留在荒野与狼为伴"
+        },
+        {
+          "en": "He led the wild wolf all the way back to the camp",
+          "zh": "他领着野狼一路回了营地，这与书里的描写相符，这与书里的描写相符"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Buck remembered Thornton, turned about, and started slowly on the back track to camp.",
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "A timber wolf in the woods",
+          "zh": "林中一只大森林狼"
+        },
+        {
           "en": "A large black bear by the river",
           "zh": "河边一只巨大的黑熊"
         },
@@ -233,13 +237,9 @@
         {
           "en": "A whole dozen wolverines quarreling over the spoil",
           "zh": "为赃物争吵的一打狼獾"
-        },
-        {
-          "en": "A timber wolf in the woods",
-          "zh": "林中一只大森林狼"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "By a broad stream he killed a large black bear, and later scattered wolverines over a spoil.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "He grew soft and clean forgot the ways of the wild",
-          "zh": "他变柔软，彻底忘了荒野的门道"
-        },
-        {
-          "en": "He became a killer, proud and full of vigor",
-          "zh": "他成了杀手，骄傲且充满元气"
-        },
-        {
           "en": "He learned to live only in the camp",
           "zh": "他学会只待在营地里生活"
         },
         {
           "en": "He grew afraid of the forest",
           "zh": "他变得害怕森林"
+        },
+        {
+          "en": "He grew soft and clean forgot the ways of the wild",
+          "zh": "他变柔软，彻底忘了荒野的门道"
+        },
+        {
+          "en": "He became a killer, proud and full of vigor",
+          "zh": "他成了杀手，骄傲且充满元气"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "He became possessed of great pride and was in full flower, a killer thriving in a hostile land.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "The early morning order of the dog-driver each day",
-          "zh": "赶橇人每天清晨的号令"
+          "en": "A pull toward the wild life of his forebears",
+          "zh": "一种拉他回归祖先荒野生活的引力"
         },
         {
           "en": "A merry song the men sang together at the saloon",
           "zh": "男人们在酒馆同唱的欢歌，读者可以在故事里找到"
         },
         {
-          "en": "A pull toward the wild life of his forebears",
-          "zh": "一种拉他回归祖先荒野生活的引力"
+          "en": "The early morning order of the dog-driver each day",
+          "zh": "赶橇人每天清晨的号令"
         },
         {
           "en": "The jingling sound of the mail train's bright bells",
           "zh": "邮橇清脆的铃铛声"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The call is the deep, luring pull of the wild and of his ancestors' way of life.",

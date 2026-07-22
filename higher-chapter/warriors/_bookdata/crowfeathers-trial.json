@@ -9,10 +9,22 @@
         "zh": "鸦羽（Crowfeather）属于哪个猫族？"
       },
       "options": [
-        {"en": "WindClan", "zh": "风族（WindClan）"},
-        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
-        {"en": "RiverClan", "zh": "河族（RiverClan）"},
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"}
+        {
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
+        },
+        {
+          "en": "ShadowClan",
+          "zh": "影族（ShadowClan）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        },
+        {
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -26,12 +38,24 @@
         "zh": "《鸦羽的考验》发生在哪一场大战之后？"
       },
       "options": [
-        {"en": "The battle with the Dark Forest", "zh": "与黑森林（Dark Forest）的那场大战"},
-        {"en": "The battle with BloodClan", "zh": "与血族（BloodClan）的战斗"},
-        {"en": "The battle at the gorge", "zh": "峡谷（gorge）里的战斗"},
-        {"en": "The battle with the Kin", "zh": "与「亲族」（the Kin）的战斗"}
+        {
+          "en": "The battle with BloodClan according to some versions of the story",
+          "zh": "与血族（BloodClan）的战斗（按书中另一种说法）"
+        },
+        {
+          "en": "The battle at the gorge",
+          "zh": "峡谷（gorge）里的战斗"
+        },
+        {
+          "en": "The battle with the Kin",
+          "zh": "与「亲族」（the Kin）的战斗"
+        },
+        {
+          "en": "The battle with the Dark Forest",
+          "zh": "与黑森林（Dark Forest）的那场大战"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "The book takes place right after the Great Battle against the Dark Forest, when old wounds still fester.",
         "zh": "这本书紧接着与黑森林的那场大战之后，旧日的伤口仍在隐隐作痛。"
@@ -43,12 +67,24 @@
         "zh": "谁是鸦羽的儿子，曾在黑森林受训，并且怨恨自己的父亲？"
       },
       "options": [
-        {"en": "Breezepelt", "zh": "微风皮（Breezepelt）"},
-        {"en": "Lionblaze", "zh": "狮焰（Lionblaze）"},
-        {"en": "Jayfeather", "zh": "松鸦羽（Jayfeather）"},
-        {"en": "Hollyleaf", "zh": "冬青叶（Hollyleaf）"}
+        {
+          "en": "Jayfeather according to some versions of the story",
+          "zh": "松鸦羽（Jayfeather）（按书中另一种说法）"
+        },
+        {
+          "en": "Breezepelt",
+          "zh": "微风皮（Breezepelt）"
+        },
+        {
+          "en": "Hollyleaf",
+          "zh": "冬青叶（Hollyleaf）"
+        },
+        {
+          "en": "Lionblaze",
+          "zh": "狮焰（Lionblaze）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Breezepelt is Crowfeather's son with Nightcloud; he trained in the Dark Forest and struggles to forgive his father.",
         "zh": "微风皮是鸦羽与夜云（Nightcloud）的儿子，他曾在黑森林受训，始终难以原谅父亲。"
@@ -60,12 +96,24 @@
         "zh": "在《鸦羽的考验》期间，风族的族长是谁？"
       },
       "options": [
-        {"en": "Onestar", "zh": "一星（Onestar）"},
-        {"en": "Tallstar", "zh": "高星（Tallstar）"},
-        {"en": "Mudclaw", "zh": "泥爪（Mudclaw）"},
-        {"en": "Harestar", "zh": "野茅星（Harestar）"}
+        {
+          "en": "Harestar",
+          "zh": "野茅星（Harestar）"
+        },
+        {
+          "en": "Tallstar",
+          "zh": "高星（Tallstar）"
+        },
+        {
+          "en": "Onestar",
+          "zh": "一星（Onestar）"
+        },
+        {
+          "en": "Mudclaw",
+          "zh": "泥爪（Mudclaw）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Onestar leads WindClan during the book and tries to move past the betrayals of the Dark Forest battle.",
         "zh": "本书中由一星（Onestar）领导风族，他努力想让族走出黑森林背叛的阴影。"
@@ -77,12 +125,24 @@
         "zh": "鸦羽过去哪段被禁止的恋情，生下了三只幼崽——狮焰、松鸦羽和冬青叶？"
       },
       "options": [
-        {"en": "With Leafpool, the ThunderClan medicine cat", "zh": "与雷族巫医叶池（Leafpool）"},
-        {"en": "With Nightcloud", "zh": "与夜云（Nightcloud）"},
-        {"en": "With Feathertail", "zh": "与羽尾（Feathertail）"},
-        {"en": "With Squirrelflight", "zh": "与松鼠飞（Squirrelflight）"}
+        {
+          "en": "With Nightcloud",
+          "zh": "与夜云（Nightcloud）"
+        },
+        {
+          "en": "With Leafpool, the ThunderClan medicine cat",
+          "zh": "与雷族巫医叶池（Leafpool）"
+        },
+        {
+          "en": "With Feathertail",
+          "zh": "与羽尾（Feathertail）"
+        },
+        {
+          "en": "With Squirrelflight according to some versions of the story",
+          "zh": "与松鼠飞（Squirrelflight）（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Crowfeather and Leafpool, a ThunderClan medicine cat, secretly loved each other and had three kits together.",
         "zh": "鸦羽与雷族巫医叶池偷偷相恋，并生下了三只幼崽。"
@@ -94,12 +154,24 @@
         "zh": "谁是鸦羽在风族的前任伴侣，也是微风皮的母亲？"
       },
       "options": [
-        {"en": "Nightcloud", "zh": "夜云（Nightcloud）"},
-        {"en": "Leafpool", "zh": "叶池（Leafpool）"},
-        {"en": "Feathertail", "zh": "羽尾（Feathertail）"},
-        {"en": "Ashfoot", "zh": "灰脚（Ashfoot）"}
+        {
+          "en": "Ashfoot",
+          "zh": "灰脚（Ashfoot）"
+        },
+        {
+          "en": "Feathertail",
+          "zh": "羽尾（Feathertail）"
+        },
+        {
+          "en": "Nightcloud",
+          "zh": "夜云（Nightcloud）"
+        },
+        {
+          "en": "Leafpool",
+          "zh": "叶池（Leafpool）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Nightcloud was Crowfeather's WindClan mate and the mother of their son Breezepelt.",
         "zh": "夜云是鸦羽在风族的伴侣，也是他们儿子微风皮的母亲。"
@@ -111,12 +183,24 @@
         "zh": "在本书中，风族领地内部出现了哪种威胁？"
       },
       "options": [
-        {"en": "Stoats", "zh": "白鼬（stoats）"},
-        {"en": "A flood", "zh": "一场洪水（flood）"},
-        {"en": "A fire", "zh": "一场火灾（fire）"},
-        {"en": "Rogues from BloodClan", "zh": "来自血族（BloodClan）的流浪猫"}
+        {
+          "en": "Rogues from BloodClan",
+          "zh": "来自血族（BloodClan）的流浪猫"
+        },
+        {
+          "en": "A flood",
+          "zh": "一场洪水（flood）"
+        },
+        {
+          "en": "A fire",
+          "zh": "一场火灾（fire）"
+        },
+        {
+          "en": "Stoats",
+          "zh": "白鼬（stoats）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "A band of stoats invades WindClan's tunnels and moor, putting the divided Clan in terrible danger.",
         "zh": "一群白鼬入侵了风族的地道和荒原，让本就分裂的族陷入极大的危险。"
@@ -128,12 +212,24 @@
         "zh": "大战之后，谁被任命为风族的新任副族长？"
       },
       "options": [
-        {"en": "Harespring", "zh": "野茅泉（Harespring）"},
-        {"en": "Onestar", "zh": "一星（Onestar）"},
-        {"en": "Breezepelt", "zh": "微风皮（Breezepelt）"},
-        {"en": "Crowfeather", "zh": "鸦羽（Crowfeather）"}
+        {
+          "en": "Crowfeather",
+          "zh": "鸦羽（Crowfeather）"
+        },
+        {
+          "en": "Harespring",
+          "zh": "野茅泉（Harespring）"
+        },
+        {
+          "en": "Breezepelt",
+          "zh": "微风皮（Breezepelt）"
+        },
+        {
+          "en": "Onestar",
+          "zh": "一星（Onestar）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Onestar chooses Harespring as deputy; Crowfeather is not chosen, partly because of his divided loyalties.",
         "zh": "一星选择野茅泉当副族长；鸦羽没有被选中，部分原因正是他内心忠诚的拉扯。"
@@ -145,10 +241,22 @@
         "zh": "哪个族的巫医前来帮忙医治风族的伤员？"
       },
       "options": [
-        {"en": "ThunderClan's Leafpool", "zh": "雷族的叶池（Leafpool）"},
-        {"en": "RiverClan's Mistyfoot", "zh": "河族的雾脚（Mistyfoot）"},
-        {"en": "ShadowClan's Puddleshine", "zh": "影族的泥齿（Puddleshine）"},
-        {"en": "SkyClan's Echosong", "zh": "天族的回声歌（Echosong）"}
+        {
+          "en": "ThunderClan's Leafpool",
+          "zh": "雷族的叶池（Leafpool）"
+        },
+        {
+          "en": "ShadowClan's Puddleshine",
+          "zh": "影族的泥齿（Puddleshine）"
+        },
+        {
+          "en": "SkyClan's Echosong",
+          "zh": "天族的回声歌（Echosong）"
+        },
+        {
+          "en": "RiverClan's Mistyfoot",
+          "zh": "河族的雾脚（Mistyfoot）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -162,10 +270,22 @@
         "zh": "到本书结尾，鸦羽最终证明了什么？"
       },
       "options": [
-        {"en": "He is a true, loyal WindClan warrior who can balance kin and Clan", "zh": "他是一名真正的、忠诚的风族武士，能在亲情与族责之间取得平衡"},
-        {"en": "He should become leader of WindClan", "zh": "他应当成为风族的族长"},
-        {"en": "He must leave the Clan forever", "zh": "他必须永远离开本族"},
-        {"en": "He was wrong to trust any cat", "zh": "他不该信任任何猫"}
+        {
+          "en": "He is a true, loyal WindClan warrior who can balance kin and Clan",
+          "zh": "他是一名真正的、忠诚的风族武士，能在亲情与族责之间取得平衡"
+        },
+        {
+          "en": "He was wrong to trust any cat",
+          "zh": "他不该信任任何猫"
+        },
+        {
+          "en": "He should become leader of WindClan according to some versions of the story",
+          "zh": "他应当成为风族的族长（按书中另一种说法）"
+        },
+        {
+          "en": "He must leave the Clan forever",
+          "zh": "他必须永远离开本族"
+        }
       ],
       "answer": 0,
       "explain": {

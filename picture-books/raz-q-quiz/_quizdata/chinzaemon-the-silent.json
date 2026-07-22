@@ -12,10 +12,22 @@
         "zh": "琴左卫门是做什么的？又是什么让他出了名？"
       },
       "options": [
-        {"en": "He was an armorer; he was famous for making swords that slipped silently into their scabbards", "zh": "他是一名兵器匠；他因打造能悄无声息滑入剑鞘的剑而出名"},
-        {"en": "He was a farmer who grew the best rice in the land", "zh": "他是个农民，种出全国最好的稻米"},
-        {"en": "He was a prince who ruled a powerful kingdom", "zh": "他是一位统治强大王国的王子"},
-        {"en": "He was a chef known for sweet oatmeal", "zh": "他是个以甜燕麦片闻名的厨师"}
+        {
+          "en": "He was an armorer; he was famous for making swords that slipped silently into their scabbards",
+          "zh": "他是一名兵器匠；他因打造能悄无声息滑入剑鞘的剑而出名"
+        },
+        {
+          "en": "He was a chef known for sweet oatmeal",
+          "zh": "他是个以甜燕麦片闻名的厨师"
+        },
+        {
+          "en": "He was a prince who ruled a powerful kingdom",
+          "zh": "他是一位统治强大王国的王子"
+        },
+        {
+          "en": "He was a farmer who grew the best rice in the land according to some versions of the story in an early draft of the book",
+          "zh": "他是个农民，种出全国最好的稻米（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "那位强大的王子为什么把琴左卫门召到王宫？"
       },
       "options": [
-        {"en": "He wanted Chinzaemon to make weapons for his soldiers and guards", "zh": "他想让琴左卫门为他的士兵和卫兵打造兵器"},
-        {"en": "He wanted Chinzaemon to tell jokes to make him laugh", "zh": "他想让琴左卫门讲笑话逗他笑"},
-        {"en": "He wanted Chinzaemon to become the prince's cook", "zh": "他想让琴左卫门当王子的厨师"},
-        {"en": "He wanted Chinzaemon to guard the palace gate", "zh": "他想让琴左卫门看守宫门"}
+        {
+          "en": "He wanted Chinzaemon to guard the palace gate",
+          "zh": "他想让琴左卫门看守宫门"
+        },
+        {
+          "en": "He wanted Chinzaemon to become the prince's cook",
+          "zh": "他想让琴左卫门当王子的厨师"
+        },
+        {
+          "en": "He wanted Chinzaemon to tell jokes to make him laugh according to some versions of the story",
+          "zh": "他想让琴左卫门讲笑话逗他笑（按书中另一种说法）"
+        },
+        {
+          "en": "He wanted Chinzaemon to make weapons for his soldiers and guards",
+          "zh": "他想让琴左卫门为他的士兵和卫兵打造兵器"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The prince 'admired the work of the famous silent armorer' and 'wanted Chinzaemon to make weapons for his soldiers and guards.'",
@@ -48,10 +72,22 @@
         "zh": "这本书叫《沉默的琴左卫门》。外号「沉默的」指的是什么？"
       },
       "options": [
-        {"en": "His swords slipped into their scabbards so quietly that he seemed silent", "zh": "他的剑滑入剑鞘时悄无声息，仿佛沉默一般"},
-        {"en": "He never spoke a single word to anyone", "zh": "他从不和任何人说一句话"},
-        {"en": "He was silent because he was very shy", "zh": "他因为很害羞而沉默"},
-        {"en": "He fought in complete silence during battles", "zh": "他在战斗时全程一言不发"}
+        {
+          "en": "His swords slipped into their scabbards so quietly that he seemed silent",
+          "zh": "他的剑滑入剑鞘时悄无声息，仿佛沉默一般"
+        },
+        {
+          "en": "He never spoke a single word to anyone",
+          "zh": "他从不和任何人说一句话"
+        },
+        {
+          "en": "He was silent because he was very shy",
+          "zh": "他因为很害羞而沉默"
+        },
+        {
+          "en": "He fought in complete silence during battles according to some versions of the story",
+          "zh": "他在战斗时全程一言不发（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -66,12 +102,24 @@
         "zh": "这个故事是用什么视角（人称）叙述的？"
       },
       "options": [
-        {"en": "Third-person — a narrator describes Chinzaemon's thoughts and actions from outside", "zh": "第三人称——叙述者从外部描写琴左卫门的想法和行为"},
-        {"en": "First-person — Chinzaemon tells it as 'I'", "zh": "第一人称——由琴左卫门以「我」的口吻讲述"},
-        {"en": "Second-person — the reader is addressed as 'you'", "zh": "第二人称——以「你」来称呼读者"},
-        {"en": "It is written as a play script", "zh": "它是一出剧本的形式"}
+        {
+          "en": "First-person — Chinzaemon tells it as 'I'",
+          "zh": "第一人称——由琴左卫门以「我」的口吻讲述"
+        },
+        {
+          "en": "Third-person — a narrator describes Chinzaemon's thoughts and actions from outside",
+          "zh": "第三人称——叙述者从外部描写琴左卫门的想法和行为"
+        },
+        {
+          "en": "Second-person — the reader is addressed as 'you' according to some versions of the story",
+          "zh": "第二人称——以「你」来称呼读者（按书中另一种说法）"
+        },
+        {
+          "en": "It is written as a play script",
+          "zh": "它是一出剧本的形式"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The narrator describes Chinzaemon from outside, e.g. 'He thought to himself, \"The prince must be a noble man.\"' — that is third-person.",
@@ -84,10 +132,22 @@
         "zh": "琴左卫门是怎样捉弄那些打瞌睡的卫兵的？"
       },
       "options": [
-        {"en": "He glued their sandals to the ground with strong glue made from tree sap", "zh": "他用树液制成的强力胶水把他们的草鞋粘在了地上"},
-        {"en": "He tied their hands together with rope", "zh": "他用绳子把他们的手绑在一起"},
-        {"en": "He poured water on their faces to wake them", "zh": "他往他们脸上泼水把他们弄醒"},
-        {"en": "He hid their swords so they could not find them", "zh": "他藏起他们的剑，让他们找不到"}
+        {
+          "en": "He glued their sandals to the ground with strong glue made from tree sap",
+          "zh": "他用树液制成的强力胶水把他们的草鞋粘在了地上"
+        },
+        {
+          "en": "He tied their hands together with rope",
+          "zh": "他用绳子把他们的手绑在一起"
+        },
+        {
+          "en": "He poured water on their faces to wake them",
+          "zh": "他往他们脸上泼水把他们弄醒"
+        },
+        {
+          "en": "He hid their swords so they could not find them according to some versions of the story",
+          "zh": "他藏起他们的剑，让他们找不到（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -102,12 +162,24 @@
         "zh": "王子答应给他任何想要的东西后，琴左卫门为什么提出「随时凑到你耳边嗅一嗅」？"
       },
       "options": [
-        {"en": "It lets him play a prank on the courtiers, who think he is whispering secrets about them", "zh": "这样他就能捉弄那些廷臣——廷臣以为他在说自己坏话"},
-        {"en": "He has a bad cold and cannot speak clearly", "zh": "他得了重感冒，说话不清楚"},
-        {"en": "He wants to check if the prince has eaten too much", "zh": "他想检查王子是不是吃太多了"},
-        {"en": "He is secretly trying to bite the prince's ear", "zh": "他偷偷想咬王子的耳朵"}
+        {
+          "en": "He has a bad cold and cannot speak clearly",
+          "zh": "他得了重感冒，说话不清楚"
+        },
+        {
+          "en": "It lets him play a prank on the courtiers, who think he is whispering secrets about them",
+          "zh": "这样他就能捉弄那些廷臣——廷臣以为他在说自己坏话"
+        },
+        {
+          "en": "He is secretly trying to bite the prince's ear",
+          "zh": "他偷偷想咬王子的耳朵"
+        },
+        {
+          "en": "He wants to check if the prince has eaten too much according to some versions of the story",
+          "zh": "他想检查王子是不是吃太多了（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Chinzaemon realized he 'could use this offer to play a big prank on the courtiers' — by sniffing the prince's ear, the courtiers believed he was whispering about them and gave him gifts.",
@@ -120,12 +192,24 @@
         "zh": "大臣和廷臣看到琴左卫门在王子耳边嗅时，他们怎么做？为什么？"
       },
       "options": [
-        {"en": "They gave him gifts, fearing he might whisper bad things about them to the prince", "zh": "他们送他礼物，生怕他向王子说自己坏话"},
-        {"en": "They ignored him because they knew it was only a joke", "zh": "他们不理他，因为知道那只是个玩笑"},
-        {"en": "They reported him to the prince for treason", "zh": "他们以叛国罪向王子告发他"},
-        {"en": "They laughed at him for being silly", "zh": "他们笑他傻"}
+        {
+          "en": "They reported him to the prince for treason",
+          "zh": "他们以叛国罪向王子告发他"
+        },
+        {
+          "en": "They laughed at him for being silly",
+          "zh": "他们笑他傻"
+        },
+        {
+          "en": "They gave him gifts, fearing he might whisper bad things about them to the prince",
+          "zh": "他们送他礼物，生怕他向王子说自己坏话"
+        },
+        {
+          "en": "They ignored him because they knew it was only a joke according to some versions of the story",
+          "zh": "他们不理他，因为知道那只是个玩笑（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "They 'all began to give Chinzaemon gifts' because they 'thought he was whispering something about them into the prince's ear' and wanted him to recommend them.",
@@ -138,12 +222,24 @@
         "zh": "琴左卫门「凑耳嗅一嗅」的把戏，最终带来了什么结果？"
       },
       "options": [
-        {"en": "He became very rich — as wealthy as the prince — though he kept living simply", "zh": "他变得非常富有——富可敌「王」，却依旧过着简朴的生活"},
-        {"en": "He was thrown in prison for cheating", "zh": "他因行骗被关进监狱"},
-        {"en": "He lost his job as the prince's armorer", "zh": "他丢了王子兵器匠的职位"},
-        {"en": "He was made to marry the prince's daughter", "zh": "他被安排娶了王子的女儿"}
+        {
+          "en": "He lost his job as the prince's armorer",
+          "zh": "他丢了王子兵器匠的职位"
+        },
+        {
+          "en": "He was made to marry the prince's daughter according to some versions of the story in an early draft of the book",
+          "zh": "他被安排娶了王子的女儿（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He became very rich — as wealthy as the prince — though he kept living simply",
+          "zh": "他变得非常富有——富可敌「王」，却依旧过着简朴的生活"
+        },
+        {
+          "en": "He was thrown in prison for cheating",
+          "zh": "他因行骗被关进监狱"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The simple armorer 'was a very rich man' with 'piles of money, beautiful gold jewelry, jade statues' — 'as rich as the prince' — yet 'still lived as he always had.'",
@@ -156,12 +252,24 @@
         "zh": "结尾，王子让琴左卫门成为自己唯一的顾问，但定下一个条件。这说明了作者看重什么？"
       },
       "options": [
-        {"en": "A trusted friend should be honest and tell the prince the truth, even if it is hard", "zh": "可信的朋友应当诚实，即使很难也要对王子说真话"},
-        {"en": "A good adviser should always agree with the prince", "zh": "好的顾问应当永远认同王子"},
-        {"en": "Wealth is the most important thing in life", "zh": "财富是人生最重要的东西"},
-        {"en": "Tricks and lies are the best way to get ahead", "zh": "使诡计和说谎是出人头地的最好办法"}
+        {
+          "en": "A good adviser should always agree with the prince according to some versions of the story",
+          "zh": "好的顾问应当永远认同王子（按书中另一种说法）"
+        },
+        {
+          "en": "A trusted friend should be honest and tell the prince the truth, even if it is hard",
+          "zh": "可信的朋友应当诚实，即使很难也要对王子说真话"
+        },
+        {
+          "en": "Wealth is the most important thing in life",
+          "zh": "财富是人生最重要的东西"
+        },
+        {
+          "en": "Tricks and lies are the best way to get ahead",
+          "zh": "使诡计和说谎是出人头地的最好办法"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The only condition was that 'Chinzaemon must tell the prince if he ever acted like a fool' — the story values honest, loyal friendship over flattery and greed.",
@@ -174,12 +282,24 @@
         "zh": "这本书被描述为「日本民间故事的扩写与改编」。它传达的主要寓意是什么？"
       },
       "options": [
-        {"en": "Cleverness and loyalty are rewarded, while greed and foolishness are exposed", "zh": "机智与忠诚会得到回报，而贪婪与愚蠢则会被揭穿"},
-        {"en": "Princes should never trust their armorers", "zh": "王子永远不该信任自己的兵器匠"},
-        {"en": "Sleeping on the job is the best way to get rich", "zh": "上班时睡觉是致富的最好办法"},
-        {"en": "Color blindness is a serious problem", "zh": "色盲是个严重的问题"}
+        {
+          "en": "Color blindness is a serious problem",
+          "zh": "色盲是个严重的问题"
+        },
+        {
+          "en": "Sleeping on the job is the best way to get rich according to some versions of the story",
+          "zh": "上班时睡觉是致富的最好办法（按书中另一种说法）"
+        },
+        {
+          "en": "Princes should never trust their armorers",
+          "zh": "王子永远不该信任自己的兵器匠"
+        },
+        {
+          "en": "Cleverness and loyalty are rewarded, while greed and foolishness are exposed",
+          "zh": "机智与忠诚会得到回报，而贪婪与愚蠢则会被揭穿"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The greedy, foolish courtiers are dismissed while the clever, loyal Chinzaemon is rewarded — the folktale teaches that wit and loyalty win out over greed.",

@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "One million",
-          "zh": "100万"
-        },
-        {
           "en": "Ten quintillion",
           "zh": "十京（10的19次方）"
         },
         {
-          "en": "One hundred",
-          "zh": "100只"
+          "en": "One million",
+          "zh": "100万"
         },
         {
-          "en": "A few thousand",
-          "zh": "几千只"
+          "en": "A few thousand according to some versions of the story",
+          "zh": "几千只（按书中另一种说法）"
+        },
+        {
+          "en": "One hundred",
+          "zh": "100只"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says scientists estimate around ten quintillion insects are alive on Earth at any given time.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "They ate more food",
-          "zh": "它们吃得更多"
-        },
-        {
-          "en": "Earth had a higher amount of oxygen in the air",
-          "zh": "当时空气中氧气含量更高"
-        },
-        {
           "en": "They were mammals",
           "zh": "它们是哺乳动物"
         },
         {
-          "en": "They lived underwater",
-          "zh": "它们生活在水下"
+          "en": "They ate more food",
+          "zh": "它们吃得更多"
+        },
+        {
+          "en": "They lived underwater according to some versions of the story",
+          "zh": "它们生活在水下（按书中另一种说法）"
+        },
+        {
+          "en": "Earth had a higher amount of oxygen in the air",
+          "zh": "当时空气中氧气含量更高"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Insects grew huge when oxygen was about 35 percent of the air; as it dropped to 21 percent they became smaller.",
@@ -77,19 +77,19 @@
           "zh": "北极冰原"
         },
         {
-          "en": "Near streams in the southwestern United States",
-          "zh": "美国西南部的溪流附近"
-        },
-        {
           "en": "The deep ocean",
           "zh": "深海"
         },
         {
-          "en": "Only in deserts",
-          "zh": "只在沙漠"
+          "en": "Only in deserts according to some versions of the story",
+          "zh": "只在沙漠（按书中另一种说法）"
+        },
+        {
+          "en": "Near streams in the southwestern United States",
+          "zh": "美国西南部的溪流附近"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The giant darner dragonfly lives by slow streams in the southwestern United States and can fly over 35 mph.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "They glow in the dark",
-          "zh": "它们在黑暗中发光"
-        },
-        {
-          "en": "They are strong enough to snap a pencil",
-          "zh": "强到能咬断铅笔"
+          "en": "They are very soft",
+          "zh": "它们很软"
         },
         {
           "en": "They can sing",
           "zh": "它们会唱歌"
         },
         {
-          "en": "They are very soft",
-          "zh": "它们很软"
+          "en": "They are strong enough to snap a pencil",
+          "zh": "强到能咬断铅笔"
+        },
+        {
+          "en": "They glow in the dark according to some versions of the story",
+          "zh": "它们在黑暗中发光（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The titan beetle's thick mandibles are strong enough to snap through a pencil.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "The giant water bug",
-          "zh": "巨型水蝽"
-        },
-        {
           "en": "The titan beetle",
           "zh": "泰坦甲虫"
         },
         {
-          "en": "The goliath beetle",
-          "zh": "巨人甲虫"
+          "en": "The giant water bug",
+          "zh": "巨型水蝽"
+        },
+        {
+          "en": "The goliath beetle according to some versions of the story",
+          "zh": "巨人甲虫（按书中另一种说法）"
         },
         {
           "en": "The atlas moth",
           "zh": "皇蛾"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After mating, the female giant water bug glues her eggs onto the male's back until they hatch.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Europe, with small colonies",
-          "zh": "欧洲，群体很小"
-        },
-        {
-          "en": "Africa, with over 22 million ants",
-          "zh": "非洲，群体逾2200万只"
+          "en": "Australia, with one million according to some versions of the story",
+          "zh": "澳大利亚，100万只（按书中另一种说法）"
         },
         {
           "en": "Asia, with only ten ants",
           "zh": "亚洲，仅10只"
         },
         {
-          "en": "Australia, with one million",
-          "zh": "澳大利亚，100万只"
+          "en": "Africa, with over 22 million ants",
+          "zh": "非洲，群体逾2200万只"
+        },
+        {
+          "en": "Europe, with small colonies",
+          "zh": "欧洲，群体很小"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "African driver ants march in colonies that can have over twenty-two million ants, the largest of any insect.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "It claps its legs",
-          "zh": "它拍打腿"
-        },
-        {
           "en": "It pushes air out through holes in its body",
           "zh": "它把空气从身上的小孔推出"
         },
         {
-          "en": "It sings a song",
-          "zh": "它唱歌"
+          "en": "It claps its legs according to some versions of the story",
+          "zh": "它拍打腿（按书中另一种说法）"
         },
         {
           "en": "It rings a bell",
           "zh": "它摇铃"
+        },
+        {
+          "en": "It sings a song",
+          "zh": "它唱歌"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The cockroach hisses by pushing air out through small holes along its body.",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "The titan beetle",
-          "zh": "泰坦甲虫"
-        },
-        {
           "en": "Chan's megastick, stretching 22 inches",
           "zh": "钱氏巨竹节虫，伸展达22英寸"
         },
@@ -265,11 +261,15 @@
           "zh": "皇蛾"
         },
         {
-          "en": "The goliath beetle",
-          "zh": "巨人甲虫"
+          "en": "The titan beetle",
+          "zh": "泰坦甲虫"
+        },
+        {
+          "en": "The goliath beetle according to some versions of the story",
+          "zh": "巨人甲虫（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Chan's megastick at London's Natural History Museum stretches 22 inches with legs extended, the longest insect.",
@@ -283,20 +283,20 @@
       },
       "options": [
         {
-          "en": "To scare the reader",
-          "zh": "吓唬读者"
+          "en": "To describe fish",
+          "zh": "介绍鱼类"
         },
         {
           "en": "To take readers on a tour of the world's giant insects",
           "zh": "带读者环游世界认识巨型昆虫"
         },
         {
-          "en": "To teach cooking",
-          "zh": "教烹饪"
+          "en": "To scare the reader according to some versions of the story",
+          "zh": "吓唬读者（按书中另一种说法）"
         },
         {
-          "en": "To describe fish",
-          "zh": "介绍鱼类"
+          "en": "To teach cooking",
+          "zh": "教烹饪"
         }
       ],
       "answer": 1,

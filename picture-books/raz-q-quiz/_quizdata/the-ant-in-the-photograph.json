@@ -12,12 +12,24 @@
         "zh": "Daron 为家长之夜做的作品是什么？"
       },
       "options": [
-        {"en": "A brightly painted giant ant sculpture made from recycled materials", "zh": "一只色彩鲜艳、用回收材料做成的大蚂蚁雕塑"},
-        {"en": "A painting of a forest", "zh": "一幅森林画"},
-        {"en": "A book report about ants", "zh": "一份关于蚂蚁的读书报告"},
-        {"en": "A model of the solar system", "zh": "一个太阳系模型"}
+        {
+          "en": "A model of the solar system",
+          "zh": "一个太阳系模型"
+        },
+        {
+          "en": "A painting of a forest",
+          "zh": "一幅森林画"
+        },
+        {
+          "en": "A brightly painted giant ant sculpture made from recycled materials",
+          "zh": "一只色彩鲜艳、用回收材料做成的大蚂蚁雕塑"
+        },
+        {
+          "en": "A book report about ants according to some versions of the story in an early draft of the book",
+          "zh": "一份关于蚂蚁的读书报告（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Daron points to 'a sculpture of a brightly painted, giant ant' made from 'recycled stuff that was being thrown away like milk cartons and bottle caps.'",
@@ -30,12 +42,24 @@
         "zh": "Daron 的蚂蚁雕塑是怎么被毁掉的？"
       },
       "options": [
-        {"en": "He steps on a book on the floor, slips, and crashes the ant to the ground", "zh": "他踩到地上的书滑倒，连人带蚂蚁摔在地上"},
-        {"en": "His mom accidentally drops it", "zh": "妈妈不小心把它掉在地上"},
-        {"en": "Another student breaks it on purpose", "zh": "另一个学生故意把它弄坏"},
-        {"en": "It falls into a puddle of water", "zh": "它掉进了水坑"}
+        {
+          "en": "His mom accidentally drops it",
+          "zh": "妈妈不小心把它掉在地上"
+        },
+        {
+          "en": "Another student breaks it on purpose according to some versions of the story",
+          "zh": "另一个学生故意把它弄坏（按书中另一种说法）"
+        },
+        {
+          "en": "He steps on a book on the floor, slips, and crashes the ant to the ground",
+          "zh": "他踩到地上的书滑倒，连人带蚂蚁摔在地上"
+        },
+        {
+          "en": "It falls into a puddle of water",
+          "zh": "它掉进了水坑"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Daron 'didn't notice a book on the floor. When he stepped on it, his feet flew out from under him... He and his ant crashed to the floor' and it is ruined.",
@@ -48,12 +72,24 @@
         "zh": "Michael 在哪里找到了那台丢失的相机？"
       },
       "options": [
-        {"en": "In Elm Creek Park, by a park bench", "zh": "在 Elm Creek 公园，一张长椅旁"},
-        {"en": "In the school lost and found", "zh": "在学校失物招领处"},
-        {"en": "In Daron's classroom", "zh": "在 Daron 的教室里"},
-        {"en": "At the post office", "zh": "在邮局"}
+        {
+          "en": "At the post office",
+          "zh": "在邮局"
+        },
+        {
+          "en": "In Elm Creek Park, by a park bench",
+          "zh": "在 Elm Creek 公园，一张长椅旁"
+        },
+        {
+          "en": "In the school lost and found according to some versions of the story",
+          "zh": "在学校失物招领处（按书中另一种说法）"
+        },
+        {
+          "en": "In Daron's classroom",
+          "zh": "在 Daron 的教室里"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Michael says, 'I found it in Elm Creek Park, by a park bench,' and Daron's mom remembers they sat on a bench while walking the dog and forgot it.",
@@ -66,10 +102,22 @@
         "zh": "Michael 怎么知道这台相机是 Daron 的？"
       },
       "options": [
-        {"en": "He printed the photos and saw Daron with his ant sculpture, then realized they shared Mr. Casey as a teacher", "zh": "他洗出了照片，看到 Daron 和他的蚂蚁雕塑，进而发现他们同是 Casey 老师的学生"},
-        {"en": "Daron's name was written on the camera", "zh": "相机上写着 Daron 的名字"},
-        {"en": "The camera was gold and easy to spot", "zh": "相机是金色的，很容易认"},
-        {"en": "A police officer told him", "zh": "一位警察告诉他的"}
+        {
+          "en": "He printed the photos and saw Daron with his ant sculpture, then realized they shared Mr. Casey as a teacher",
+          "zh": "他洗出了照片，看到 Daron 和他的蚂蚁雕塑，进而发现他们同是 Casey 老师的学生"
+        },
+        {
+          "en": "The camera was gold and easy to spot",
+          "zh": "相机是金色的，很容易认"
+        },
+        {
+          "en": "A police officer told him",
+          "zh": "一位警察告诉他的"
+        },
+        {
+          "en": "Daron's name was written on the camera according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "相机上写着 Daron 的名字（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "这个故事是用什么视角（人称）叙述的？"
       },
       "options": [
-        {"en": "Third person—a narrator describes Daron's thoughts and feelings from outside", "zh": "第三人称——由外部的叙述者描写 Daron 的想法和感受"},
-        {"en": "First person—Daron tells it as 'I'", "zh": "第一人称——由 Daron 以「我」讲述"},
-        {"en": "Second person—addressing the reader as 'you'", "zh": "第二人称——以「你」称呼读者"},
-        {"en": "As a newspaper article", "zh": "以新闻报道的形式"}
+        {
+          "en": "As a newspaper article",
+          "zh": "以新闻报道的形式"
+        },
+        {
+          "en": "Third person—a narrator describes Daron's thoughts and feelings from outside",
+          "zh": "第三人称——由外部的叙述者描写 Daron 的想法和感受"
+        },
+        {
+          "en": "First person—Daron tells it as 'I'",
+          "zh": "第一人称——由 Daron 以「我」讲述"
+        },
+        {
+          "en": "Second person—addressing the reader as 'you' according to some versions of the story",
+          "zh": "第二人称——以「你」称呼读者（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The narrator says 'Daron was excited' and 'He felt like a balloon,' describing Daron from outside, which is third-person narration.",
@@ -102,12 +162,24 @@
         "zh": "书名「照片里的蚂蚁」(The Ant in the Photograph) 指的是什么？"
       },
       "options": [
-        {"en": "The photo of Daron holding his ant sculpture, which becomes the only record of it after it is ruined", "zh": "Daron 抱着蚂蚁雕塑的那张照片，雕塑毁掉后它成了唯一的记录"},
-        {"en": "A real ant that crawls into a camera", "zh": "一只爬进相机里的真蚂蚁"},
-        {"en": "A picture hanging in the classroom", "zh": "挂在教室里的一幅画"},
-        {"en": "The cover of a book about insects", "zh": "一本昆虫书的封面"}
+        {
+          "en": "The cover of a book about insects",
+          "zh": "一本昆虫书的封面"
+        },
+        {
+          "en": "A real ant that crawls into a camera according to some versions of the story in an early draft of the book",
+          "zh": "一只爬进相机里的真蚂蚁（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A picture hanging in the classroom",
+          "zh": "挂在教室里的一幅画"
+        },
+        {
+          "en": "The photo of Daron holding his ant sculpture, which becomes the only record of it after it is ruined",
+          "zh": "Daron 抱着蚂蚁雕塑的那张照片，雕塑毁掉后它成了唯一的记录"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "After the sculpture is ruined, Daron hopes 'the photograph of it turns out' so Dad can see it; that photo is later what lets Michael identify the owner.",
@@ -120,12 +192,24 @@
         "zh": "故事中 Daron 遇到了哪两个问题（即「聚焦问题」）？"
       },
       "options": [
-        {"en": "His ant sculpture is ruined AND the camera with its only photo is lost", "zh": "他的蚂蚁雕塑毁了，而且存有唯一照片的相机也丢了"},
-        {"en": "He loses his dog AND misses the bus", "zh": "他丢了狗，又错过了校车"},
-        {"en": "He fails a test AND breaks a window", "zh": "他考试不及格，又打碎了窗户"},
-        {"en": "He forgets his homework AND loses his mom", "zh": "他忘了作业，又跟妈妈走散"}
+        {
+          "en": "He forgets his homework AND loses his mom according to some versions of the story",
+          "zh": "他忘了作业，又跟妈妈走散（按书中另一种说法）"
+        },
+        {
+          "en": "His ant sculpture is ruined AND the camera with its only photo is lost",
+          "zh": "他的蚂蚁雕塑毁了，而且存有唯一照片的相机也丢了"
+        },
+        {
+          "en": "He fails a test AND breaks a window",
+          "zh": "他考试不及格，又打碎了窗户"
+        },
+        {
+          "en": "He loses his dog AND misses the bus",
+          "zh": "他丢了狗，又错过了校车"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Focus Question asks 'What problems does Daron face?'—first the sculpture is ruined ('it's ruined!'), then the camera with the photo is lost and can't be found.",
@@ -138,10 +222,22 @@
         "zh": "Daron 的问题是怎样解决的？"
       },
       "options": [
-        {"en": "Michael finds the camera at the park and returns it, so Daron can show Dad the photo", "zh": "Michael 在公园找到相机并归还，Daron 才能把照片给爸爸看"},
-        {"en": "Daron buys a new camera", "zh": "Daron 买了一台新相机"},
-        {"en": "The teacher makes a new sculpture for him", "zh": "老师替他做了一个新雕塑"},
-        {"en": "His dad fixes the broken ant", "zh": "他爸爸把坏掉的蚂蚁修好了"}
+        {
+          "en": "Michael finds the camera at the park and returns it, so Daron can show Dad the photo",
+          "zh": "Michael 在公园找到相机并归还，Daron 才能把照片给爸爸看"
+        },
+        {
+          "en": "His dad fixes the broken ant",
+          "zh": "他爸爸把坏掉的蚂蚁修好了"
+        },
+        {
+          "en": "The teacher makes a new sculpture for him according to some versions of the story in an early draft of the book",
+          "zh": "老师替他做了一个新雕塑（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Daron buys a new camera",
+          "zh": "Daron 买了一台新相机"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,10 +252,22 @@
         "zh": "到结尾，Daron 关于「陌生人」学到了什么道理？"
       },
       "options": [
-        {"en": "Sometimes you can count on the kindness of a stranger", "zh": "有时候你可以信赖陌生人的善意"},
-        {"en": "Strangers are always dangerous", "zh": "陌生人总是危险的"},
-        {"en": "Never talk to older boys", "zh": "永远不要和年长的男孩说话"},
-        {"en": "You should keep cameras at home", "zh": "你应该把相机留在家里"}
+        {
+          "en": "Sometimes you can count on the kindness of a stranger",
+          "zh": "有时候你可以信赖陌生人的善意"
+        },
+        {
+          "en": "Strangers are always dangerous",
+          "zh": "陌生人总是危险的"
+        },
+        {
+          "en": "Never talk to older boys",
+          "zh": "永远不要和年长的男孩说话"
+        },
+        {
+          "en": "You should keep cameras at home according to some versions of the story",
+          "zh": "你应该把相机留在家里（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "作者为什么要写 Michael 自己也做过回收材料雕塑的回忆？"
       },
       "options": [
-        {"en": "To explain how Michael recognized the camera's owner and to show the school project connects them", "zh": "为了说明 Michael 是怎样认出相机主人的，也展现这个学校作业把两人联系了起来"},
-        {"en": "To prove Michael was a better artist", "zh": "为了证明 Michael 艺术更好"},
-        {"en": "To teach readers how to make a dog", "zh": "为了教读者怎么做一只狗"},
-        {"en": "To show Michael did not like school", "zh": "为了表现 Michael 不喜欢上学"}
+        {
+          "en": "To teach readers how to make a dog",
+          "zh": "为了教读者怎么做一只狗"
+        },
+        {
+          "en": "To show Michael did not like school according to some versions of the story in an early draft of the book",
+          "zh": "为了表现 Michael 不喜欢上学（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To prove Michael was a better artist",
+          "zh": "为了证明 Michael 艺术更好"
+        },
+        {
+          "en": "To explain how Michael recognized the camera's owner and to show the school project connects them",
+          "zh": "为了说明 Michael 是怎样认出相机主人的，也展现这个学校作业把两人联系了起来"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Michael says he 'made a dog' for the same third-grade project with Mr. Casey, which is why he recognized Daron's photo—the shared recycled-sculpture tradition links them.",

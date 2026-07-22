@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "Miguel",
-          "zh": "米格尔"
-        },
-        {
           "en": "Dorian",
           "zh": "多里安"
         },
@@ -25,11 +21,15 @@
           "zh": "特雷莎"
         },
         {
+          "en": "Miguel",
+          "zh": "米格尔"
+        },
+        {
           "en": "Levi Strauss",
           "zh": "李维·施特劳斯"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Miguel is the main character; the story follows his friendship problem and his adventure into the world of Oz.",
@@ -51,12 +51,12 @@
           "zh": "他赢得了一场比赛"
         },
         {
-          "en": "He finds a gold coin",
-          "zh": "他找到了一枚金币"
-        },
-        {
           "en": "He reads a book",
           "zh": "他读了一本书"
+        },
+        {
+          "en": "He finds a gold coin according to some versions of the story in an early draft of the book",
+          "zh": "他找到了一枚金币（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "A cookbook",
+          "zh": "一本烹饪书"
+        },
+        {
           "en": "The Wizard of Oz, from Great Grandpa Gallardo's chest",
           "zh": "《绿野仙踪》，来自曾祖父加拉多的书箱"
         },
         {
-          "en": "A math textbook",
-          "zh": "一本数学课本"
-        },
-        {
-          "en": "A cookbook",
-          "zh": "一本烹饪书"
+          "en": "A math textbook according to some versions of the story in an early draft of the book",
+          "zh": "一本数学课本（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A newspaper",
           "zh": "一份报纸"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The sparkling red letters of The Wizard of Oz catch Miguel's eye, and the book magically pulls the boys into Oz.",
@@ -111,12 +111,12 @@
           "zh": "狮子"
         },
         {
-          "en": "The Tin Woodsman",
-          "zh": "铁皮樵夫"
-        },
-        {
           "en": "Dorothy",
           "zh": "多萝西"
+        },
+        {
+          "en": "The Tin Woodsman",
+          "zh": "铁皮樵夫"
         }
       ],
       "answer": 0,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "The Lion (the Cowardly Lion)",
-          "zh": "狮子（胆小的狮子）"
-        },
-        {
-          "en": "The Tin Woodsman",
-          "zh": "铁皮樵夫"
-        },
-        {
           "en": "The Scarecrow",
           "zh": "稻草人"
         },
         {
+          "en": "The Tin Woodsman according to some versions of the story",
+          "zh": "铁皮樵夫（按书中另一种说法）"
+        },
+        {
           "en": "The Wizard",
           "zh": "魔法师"
+        },
+        {
+          "en": "The Lion (the Cowardly Lion)",
+          "zh": "狮子（胆小的狮子）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Leo becomes the Lion, and Trevon becomes the Tin Woodsman in the adventure.",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "By flying a plane according to some versions of the story in an early draft of the book",
+          "zh": "开飞机（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "With a slingshot made from a stretchy band between two pine trees",
           "zh": "用两根松树之间绷紧的弹力带做成弹弓"
         },
@@ -171,15 +175,11 @@
           "zh": "游泳过去"
         },
         {
-          "en": "By flying a plane",
-          "zh": "开飞机"
-        },
-        {
           "en": "By taking a train",
           "zh": "坐火车"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Dorothy builds a slingshot from a stretchy band tied between two pine trees and flings herself and her basket across the gap.",
@@ -193,12 +193,12 @@
       },
       "options": [
         {
-          "en": "Flying monkeys",
-          "zh": "会飞的猴子"
+          "en": "Giant rabbits according to some versions of the story",
+          "zh": "巨大的兔子（按书中另一种说法）"
         },
         {
-          "en": "Giant rabbits",
-          "zh": "巨大的兔子"
+          "en": "Flying monkeys",
+          "zh": "会飞的猴子"
         },
         {
           "en": "Talking trees",
@@ -209,7 +209,7 @@
           "zh": "猫"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Hundreds of flying monkeys hover like helicopters and dive at the boys during the adventure.",
@@ -227,16 +227,16 @@
           "zh": "要坚持做正确的事，不要当欺凌者"
         },
         {
-          "en": "How to bake bread",
-          "zh": "怎样烤面包"
-        },
-        {
           "en": "How to fly a kite",
           "zh": "怎样放风筝"
         },
         {
-          "en": "How to build a robot",
-          "zh": "怎样造机器人"
+          "en": "How to bake bread",
+          "zh": "怎样烤面包"
+        },
+        {
+          "en": "How to build a robot according to some versions of the story",
+          "zh": "怎样造机器人（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Teresa, Miguel's sister",
-          "zh": "米格尔的妹妹特雷莎"
-        },
-        {
-          "en": "Sam Brannan",
-          "zh": "萨姆·布兰南"
-        },
-        {
           "en": "A teacher",
           "zh": "一位老师"
+        },
+        {
+          "en": "Sam Brannan according to some versions of the story",
+          "zh": "萨姆·布兰南（按书中另一种说法）"
+        },
+        {
+          "en": "Teresa, Miguel's sister",
+          "zh": "米格尔的妹妹特雷莎"
         },
         {
           "en": "The Wizard",
           "zh": "魔法师"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "At the end, Teresa giggles and admits she may have given Dorothy 'a little advice' about staying on the yellow brick road.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "The right path of doing what is right",
-          "zh": "做正确之事的正道"
+          "en": "A school subject",
+          "zh": "一门学校课程"
         },
         {
-          "en": "A real road in California",
-          "zh": "加利福尼亚的一条真实道路"
+          "en": "A real road in California according to some versions of the story",
+          "zh": "加利福尼亚的一条真实道路（按书中另一种说法）"
         },
         {
           "en": "A type of food",
           "zh": "一种食物"
         },
         {
-          "en": "A school subject",
-          "zh": "一门学校课程"
+          "en": "The right path of doing what is right",
+          "zh": "做正确之事的正道"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The yellow brick road is a symbol for doing the right thing, as Miguel helps his friends 'find the right road.'",

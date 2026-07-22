@@ -13,12 +13,8 @@
       },
       "options": [
         {
-          "en": "Wearing special new shoes",
-          "zh": "穿着特别的新鞋"
-        },
-        {
-          "en": "Running barefoot and setting an Olympic record",
-          "zh": "赤脚奔跑并创下奥运会纪录"
+          "en": "Wearing special new shoes according to some versions of the story",
+          "zh": "穿着特别的新鞋（按书中另一种说法）"
         },
         {
           "en": "Riding a bicycle",
@@ -27,9 +23,13 @@
         {
           "en": "Swimming",
           "zh": "游泳"
+        },
+        {
+          "en": "Running barefoot and setting an Olympic record",
+          "zh": "赤脚奔跑并创下奥运会纪录"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "He won by 200 meters running barefoot and set an Olympic record; he said shoes hurt his feet.",
@@ -47,19 +47,19 @@
           "zh": "两枚"
         },
         {
-          "en": "Four",
-          "zh": "四枚"
+          "en": "Ten",
+          "zh": "十枚"
+        },
+        {
+          "en": "Four according to some versions of the story",
+          "zh": "四枚（按书中另一种说法）"
         },
         {
           "en": "Seven",
           "zh": "七枚"
-        },
-        {
-          "en": "Ten",
-          "zh": "十枚"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "He won seven gold medals, an Olympic record, setting new world records in every race.",
@@ -73,8 +73,12 @@
       },
       "options": [
         {
-          "en": "She was the oldest gymnast.",
-          "zh": "她是最年长的体操运动员。"
+          "en": "She was the oldest gymnast. according to some versions of the story",
+          "zh": "她是最年长的体操运动员。（按书中另一种说法）"
+        },
+        {
+          "en": "She competed at age 20.",
+          "zh": "她20岁时参赛。"
         },
         {
           "en": "She was the first gymnast to earn a perfect 10.",
@@ -83,13 +87,9 @@
         {
           "en": "She won no medals.",
           "zh": "她没有赢得奖牌。"
-        },
-        {
-          "en": "She competed at age 20.",
-          "zh": "她20岁时参赛。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "She was the first gymnast to earn a perfect 10; the scoreboard showed 1.0 because it wasn't made to show 10.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "One — the first woman to compete",
-          "zh": "一枚——第一位参赛的女性"
-        },
-        {
           "en": "Four — the first woman to win four golds in one Summer Olympics",
           "zh": "四枚——首位在一届夏季奥运会赢得四金的女性"
         },
         {
-          "en": "Two — for swimming",
-          "zh": "两枚——游泳项目"
-        },
-        {
           "en": "None, she was disqualified",
           "zh": "零枚，她被取消资格"
+        },
+        {
+          "en": "One — the first woman to compete according to some versions of the story",
+          "zh": "一枚——第一位参赛的女性（按书中另一种说法）"
+        },
+        {
+          "en": "Two — for swimming",
+          "zh": "两枚——游泳项目"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "She won four golds (100m, 200m, 100m relay, 80m hurdles); no woman had won four golds in one Summer Olympics before.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A single running race",
-          "zh": "一场单独的跑步比赛"
-        },
-        {
           "en": "A ten-event contest combining running, jumping, and throwing",
           "zh": "结合跑、跳、投的十项比赛"
         },
         {
-          "en": "A swimming race",
-          "zh": "一场游泳比赛"
-        },
-        {
           "en": "A gymnastics event",
           "zh": "一项体操比赛"
+        },
+        {
+          "en": "A single running race according to some versions of the story",
+          "zh": "一场单独的跑步比赛（按书中另一种说法）"
+        },
+        {
+          "en": "A swimming race",
+          "zh": "一场游泳比赛"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Decathlon athletes compete in ten different events, including sprinting, hurdling, throwing, and jumping.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "A type of medal",
+          "zh": "一种奖牌"
+        },
+        {
           "en": "The ability to move quickly and easily",
           "zh": "快速且轻松移动的能力"
         },
         {
-          "en": "The ability to lift heavy weights",
-          "zh": "举起重物的能力"
+          "en": "The ability to lift heavy weights according to some versions of the story",
+          "zh": "举起重物的能力（按书中另一种说法）"
         },
         {
           "en": "Endurance",
           "zh": "耐力"
-        },
-        {
-          "en": "A type of medal",
-          "zh": "一种奖牌"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines agility as the ability to move quickly and easily, used to describe Comaneci's gymnastics.",
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "Both were swimmers.",
-          "zh": "两人都是游泳运动员。"
-        },
-        {
           "en": "Both won the decathlon (Thorpe in 1912, Thompson twice in 1980 and 1984).",
           "zh": "两人都赢得了十项全能（索普在1912年，汤普森在1980和1984年两度夺冠）。"
         },
@@ -205,11 +201,15 @@
           "zh": "两人都是体操运动员。"
         },
         {
-          "en": "Both ran marathons barefoot.",
-          "zh": "两人都赤脚跑马拉松。"
+          "en": "Both were swimmers.",
+          "zh": "两人都是游泳运动员。"
+        },
+        {
+          "en": "Both ran marathons barefoot. according to some versions of the story in an early draft of the book",
+          "zh": "两人都赤脚跑马拉松。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Thompson won the decathlon in 1980 and 1984; Thorpe won the ten-event decathlon at the 1912 Olympics.",
@@ -223,8 +223,8 @@
       },
       "options": [
         {
-          "en": "That taller athletes always win",
-          "zh": "更高的运动员总能赢"
+          "en": "That swimming is the best sport",
+          "zh": "游泳是最好的运动"
         },
         {
           "en": "That what's inside a person, not skin color, makes a true champion",
@@ -235,8 +235,8 @@
           "zh": "只有欧洲人才能赢"
         },
         {
-          "en": "That swimming is the best sport",
-          "zh": "游泳是最好的运动"
+          "en": "That taller athletes always win according to some versions of the story",
+          "zh": "更高的运动员总能赢（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "To explain the rules of soccer",
-          "zh": "解释足球规则"
+          "en": "To teach how to cook",
+          "zh": "教人做饭"
         },
         {
           "en": "To introduce remarkable Olympic athletes and their amazing accomplishments",
           "zh": "介绍杰出的奥运运动员及其惊人成就"
         },
         {
-          "en": "To argue that the Olympics should be canceled",
-          "zh": "主张应取消奥运会"
+          "en": "To argue that the Olympics should be canceled according to some versions of the story",
+          "zh": "主张应取消奥运会（按书中另一种说法）"
         },
         {
-          "en": "To teach how to cook",
-          "zh": "教人做饭"
+          "en": "To explain the rules of soccer",
+          "zh": "解释足球规则"
         }
       ],
       "answer": 1,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To show his extraordinary determination and toughness",
-          "zh": "为了展现他非凡的决心和坚韧"
-        },
-        {
-          "en": "To explain why he wore shoes",
-          "zh": "为了解释他为什么穿鞋"
-        },
-        {
-          "en": "To describe a hospital",
-          "zh": "为了描述一家医院"
+          "en": "To explain why he wore shoes according to some versions of the story",
+          "zh": "为了解释他为什么穿鞋（按书中另一种说法）"
         },
         {
           "en": "To prove he was disqualified",
           "zh": "为了证明他被取消资格"
+        },
+        {
+          "en": "To show his extraordinary determination and toughness",
+          "zh": "为了展现他非凡的决心和坚韧"
+        },
+        {
+          "en": "To describe a hospital",
+          "zh": "为了描述一家医院"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "It highlights Bikila's remarkable perseverance and achievement under difficult conditions.",

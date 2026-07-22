@@ -4,114 +4,294 @@
   "descZh": "系列第三部，凶残的泼皮猫「独眼」迫使各猫群第一次并肩作战。",
   "questions": [
     {
-      "q": {"en": "Who is the main enemy that threatens all the cat groups?", "zh": "在《第一场战斗》中，威胁所有猫群的主要敌人是谁？"},
+      "q": {
+        "en": "Who is the main enemy that threatens all the cat groups?",
+        "zh": "在《第一场战斗》中，威胁所有猫群的主要敌人是谁？"
+      },
       "options": [
-        {"en": "River Ripple", "zh": "河波（River Ripple）"},
-        {"en": "One Eye", "zh": "独眼（One Eye）"},
-        {"en": "Gray Wing", "zh": "灰翅（Gray Wing）"},
-        {"en": "Shaded Moss", "zh": "荫苔（Shaded Moss）"}
+        {
+          "en": "Gray Wing",
+          "zh": "灰翅（Gray Wing）"
+        },
+        {
+          "en": "One Eye",
+          "zh": "独眼（One Eye）"
+        },
+        {
+          "en": "River Ripple",
+          "zh": "河波（River Ripple）"
+        },
+        {
+          "en": "Shaded Moss",
+          "zh": "荫苔（Shaded Moss）"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "One Eye is a cruel rogue tom who attacks the cats with a group of followers, spreading fear.", "zh": "独眼（One Eye）是一只残忍的泼皮公猫，带着一群追随者袭击猫群，散布恐惧。"}
+      "explain": {
+        "en": "One Eye is a cruel rogue tom who attacks the cats with a group of followers, spreading fear.",
+        "zh": "独眼（One Eye）是一只残忍的泼皮公猫，带着一群追随者袭击猫群，散布恐惧。"
+      }
     },
     {
-      "q": {"en": "How do the founders respond when One Eye attacks them?", "zh": "当独眼发动攻击时，各位创始猫是如何应对的？"},
+      "q": {
+        "en": "How do the founders respond when One Eye attacks them?",
+        "zh": "当独眼发动攻击时，各位创始猫是如何应对的？"
+      },
       "options": [
-        {"en": "They hide in the mountains", "zh": "它们躲进山地"},
-        {"en": "They unite and fight together", "zh": "它们联合起来并肩作战"},
-        {"en": "They become kittypets", "zh": "它们成了宠物猫"},
-        {"en": "They flee the forest", "zh": "它们逃离森林"}
+        {
+          "en": "They hide in the mountains according to some versions of the story",
+          "zh": "它们躲进山地（按书中另一种说法）"
+        },
+        {
+          "en": "They flee the forest",
+          "zh": "它们逃离森林"
+        },
+        {
+          "en": "They unite and fight together",
+          "zh": "它们联合起来并肩作战"
+        },
+        {
+          "en": "They become kittypets",
+          "zh": "它们成了宠物猫"
+        }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Clear Sky, Gray Wing, Tall Shadow, Wind Runner, and River Ripple realize they must join forces against the rogues.",
+        "zh": "晴天、灰翅、高影、风奔和河波意识到必须联手对抗泼皮猫。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the great fight against One Eye and his rogues called?",
+        "zh": "对抗独眼及其泼皮猫的那场大战被称为什么？"
+      },
+      "options": [
+        {
+          "en": "The Blazing Star according to some versions of the story",
+          "zh": "炽烈之星（按书中另一种说法）"
+        },
+        {
+          "en": "The First Battle",
+          "zh": "第一场战斗"
+        },
+        {
+          "en": "The Great Flood",
+          "zh": "大洪水"
+        },
+        {
+          "en": "The Sun Trail",
+          "zh": "太阳踪迹"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Clear Sky, Gray Wing, Tall Shadow, Wind Runner, and River Ripple realize they must join forces against the rogues.", "zh": "晴天、灰翅、高影、风奔和河波意识到必须联手对抗泼皮猫。"}
+      "explain": {
+        "en": "This book's great conflict is known as the First Battle, the first time the cat groups fight as one.",
+        "zh": "本书的大冲突被称为「第一场战斗」，是猫群各群体第一次作为一个整体作战。"
+      }
     },
     {
-      "q": {"en": "What is the great fight against One Eye and his rogues called?", "zh": "对抗独眼及其泼皮猫的那场大战被称为什么？"},
+      "q": {
+        "en": "Who is the first medicine cat who receives messages from the spirits?",
+        "zh": "谁是第一位能与祖灵沟通、接收信息的巫医？"
+      },
       "options": [
-        {"en": "The Blazing Star", "zh": "炽烈之星"},
-        {"en": "The First Battle", "zh": "第一场战斗"},
-        {"en": "The Sun Trail", "zh": "太阳踪迹"},
-        {"en": "The Great Flood", "zh": "大洪水"}
+        {
+          "en": "Storm",
+          "zh": "风暴（Storm）"
+        },
+        {
+          "en": "Star Flower",
+          "zh": "星花（Star Flower）"
+        },
+        {
+          "en": "Turtle Tail",
+          "zh": "龟尾（Turtle Tail）"
+        },
+        {
+          "en": "Half Moon",
+          "zh": "半月（Half Moon）"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "This book's great conflict is known as the First Battle, the first time the cat groups fight as one.", "zh": "本书的大冲突被称为「第一场战斗」，是猫群各群体第一次作为一个整体作战。"}
+      "answer": 3,
+      "explain": {
+        "en": "Half Moon is the first medicine cat; she hears the spirits of the dead in the sky and guides the living.",
+        "zh": "半月（Half Moon）是第一位巫医，她能听见天空中逝去祖灵的声音，并指引生者。"
+      }
     },
     {
-      "q": {"en": "Who is the first medicine cat who receives messages from the spirits?", "zh": "谁是第一位能与祖灵沟通、接收信息的巫医？"},
+      "q": {
+        "en": "What role does Half Moon play during the crisis with One Eye?",
+        "zh": "在与独眼危机期间，半月扮演了什么角色？"
+      },
       "options": [
-        {"en": "Half Moon", "zh": "半月（Half Moon）"},
-        {"en": "Turtle Tail", "zh": "龟尾（Turtle Tail）"},
-        {"en": "Storm", "zh": "风暴（Storm）"},
-        {"en": "Star Flower", "zh": "星花（Star Flower）"}
+        {
+          "en": "She guides the cats with spirit prophecies",
+          "zh": "她用祖灵的预言指引猫群"
+        },
+        {
+          "en": "She leads the battle charge according to some versions of the story",
+          "zh": "她带头冲锋（按书中另一种说法）"
+        },
+        {
+          "en": "She leaves the forest",
+          "zh": "她离开了森林"
+        },
+        {
+          "en": "She becomes a kittypet",
+          "zh": "她成了宠物猫"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Half Moon is the first medicine cat; she hears the spirits of the dead in the sky and guides the living.", "zh": "半月（Half Moon）是第一位巫医，她能听见天空中逝去祖灵的声音，并指引生者。"}
+      "explain": {
+        "en": "Half Moon receives prophecies from the spirits that help the cats understand what they must do.",
+        "zh": "半月从祖灵那里接收到预言，帮助猫群明白该怎么做。"
+      }
     },
     {
-      "q": {"en": "What role does Half Moon play during the crisis with One Eye?", "zh": "在与独眼危机期间，半月扮演了什么角色？"},
+      "q": {
+        "en": "What is the result of the First Battle against One Eye?",
+        "zh": "对抗独眼的第一场战斗结果如何？"
+      },
       "options": [
-        {"en": "She leads the battle charge", "zh": "她带头冲锋"},
-        {"en": "She guides the cats with spirit prophecies", "zh": "她用祖灵的预言指引猫群"},
-        {"en": "She becomes a kittypet", "zh": "她成了宠物猫"},
-        {"en": "She leaves the forest", "zh": "她离开了森林"}
+        {
+          "en": "The mountains are destroyed",
+          "zh": "山地被毁"
+        },
+        {
+          "en": "One Eye is defeated",
+          "zh": "独眼被击败"
+        },
+        {
+          "en": "The cats all become rogues",
+          "zh": "猫群全都成了泼皮猫"
+        },
+        {
+          "en": "The river dries up",
+          "zh": "河流干涸"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Half Moon receives prophecies from the spirits that help the cats understand what they must do.", "zh": "半月从祖灵那里接收到预言，帮助猫群明白该怎么做。"}
+      "explain": {
+        "en": "The united cats defeat One Eye and his rogues, ending the threat to their new home.",
+        "zh": "团结一致的猫群击败了独眼及其泼皮猫，消除了对新家园的威胁。"
+      }
     },
     {
-      "q": {"en": "What is the result of the First Battle against One Eye?", "zh": "对抗独眼的第一场战斗结果如何？"},
+      "q": {
+        "en": "Which cat is revealed to be connected to the rogue One Eye?",
+        "zh": "哪只猫被揭示与泼皮猫独眼有牵连？"
+      },
       "options": [
-        {"en": "One Eye is defeated", "zh": "独眼被击败"},
-        {"en": "The cats all become rogues", "zh": "猫群全都成了泼皮猫"},
-        {"en": "The mountains are destroyed", "zh": "山地被毁"},
-        {"en": "The river dries up", "zh": "河流干涸"}
+        {
+          "en": "Gray Wing",
+          "zh": "灰翅（Gray Wing）"
+        },
+        {
+          "en": "River Ripple",
+          "zh": "河波（River Ripple）"
+        },
+        {
+          "en": "Star Flower",
+          "zh": "星花（Star Flower）"
+        },
+        {
+          "en": "Jagged Peak",
+          "zh": "锯齿峰（Jagged Peak）"
+        }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Star Flower, Clear Sky's mate, is revealed to be One Eye's daughter, though she later proves her loyalty.",
+        "zh": "晴天的伴侣星花被揭示是独眼的女儿，不过她后来证明了自己的忠诚。"
+      }
+    },
+    {
+      "q": {
+        "en": "What big decision do the cats make after defeating One Eye?",
+        "zh": "击败独眼后，猫群做出了什么重大决定？"
+      },
+      "options": [
+        {
+          "en": "To form organized groups called Clans",
+          "zh": "组建称为「族群」的有组织群体"
+        },
+        {
+          "en": "To separate forever",
+          "zh": "永远分开"
+        },
+        {
+          "en": "To return to the mountains according to some versions of the story",
+          "zh": "返回山地（按书中另一种说法）"
+        },
+        {
+          "en": "To live with Twolegs",
+          "zh": "和两脚兽一起生活"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "The united cats defeat One Eye and his rogues, ending the threat to their new home.", "zh": "团结一致的猫群击败了独眼及其泼皮猫，消除了对新家园的威胁。"}
+      "explain": {
+        "en": "After the battle, the cats decide to organize themselves into lasting groups — the beginning of the Clans.",
+        "zh": "战后，猫群决定组建持久的有组织群体——这正是族群的雏形。"
+      }
     },
     {
-      "q": {"en": "Which cat is revealed to be connected to the rogue One Eye?", "zh": "哪只猫被揭示与泼皮猫独眼有牵连？"},
+      "q": {
+        "en": "Why is the First Battle important in the history of the Clans?",
+        "zh": "为什么第一场战斗在族群历史上很重要？"
+      },
       "options": [
-        {"en": "Star Flower", "zh": "星花（Star Flower）"},
-        {"en": "Gray Wing", "zh": "灰翅（Gray Wing）"},
-        {"en": "River Ripple", "zh": "河波（River Ripple）"},
-        {"en": "Jagged Peak", "zh": "锯齿峰（Jagged Peak）"}
+        {
+          "en": "It creates the Thunderpath according to some versions of the story",
+          "zh": "它创造了雷道（按书中另一种说法）"
+        },
+        {
+          "en": "It ends the sun trail",
+          "zh": "它终结了太阳踪迹"
+        },
+        {
+          "en": "It names the river",
+          "zh": "它命名了河流"
+        },
+        {
+          "en": "It is the first time the groups fought as one",
+          "zh": "这是各群体第一次团结作战"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The First Battle is the moment the separate cat groups come together, planting the seed of the Clan system.",
+        "zh": "第一场战斗是各分散猫群首次团结的时刻，播下了族群制度的种子。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which founders fight side by side in the First Battle?",
+        "zh": "在第一场战斗中，哪些创始猫并肩作战？"
+      },
+      "options": [
+        {
+          "en": "Clear Sky, Gray Wing, Tall Shadow, Wind Runner, and River Ripple",
+          "zh": "晴天、灰翅、高影、风奔和河波"
+        },
+        {
+          "en": "Only Clear Sky and Gray Wing according to some versions of the story",
+          "zh": "只有晴天和灰翅（按书中另一种说法）"
+        },
+        {
+          "en": "Only the river cats",
+          "zh": "只有河边的猫"
+        },
+        {
+          "en": "Only the mountain cats",
+          "zh": "只有山地的猫"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Star Flower, Clear Sky's mate, is revealed to be One Eye's daughter, though she later proves her loyalty.", "zh": "晴天的伴侣星花被揭示是独眼的女儿，不过她后来证明了自己的忠诚。"}
-    },
-    {
-      "q": {"en": "What big decision do the cats make after defeating One Eye?", "zh": "击败独眼后，猫群做出了什么重大决定？"},
-      "options": [
-        {"en": "To return to the mountains", "zh": "返回山地"},
-        {"en": "To form organized groups called Clans", "zh": "组建称为「族群」的有组织群体"},
-        {"en": "To live with Twolegs", "zh": "和两脚兽一起生活"},
-        {"en": "To separate forever", "zh": "永远分开"}
-      ],
-      "answer": 1,
-      "explain": {"en": "After the battle, the cats decide to organize themselves into lasting groups — the beginning of the Clans.", "zh": "战后，猫群决定组建持久的有组织群体——这正是族群的雏形。"}
-    },
-    {
-      "q": {"en": "Why is the First Battle important in the history of the Clans?", "zh": "为什么第一场战斗在族群历史上很重要？"},
-      "options": [
-        {"en": "It is the first time the groups fought as one", "zh": "这是各群体第一次团结作战"},
-        {"en": "It ends the sun trail", "zh": "它终结了太阳踪迹"},
-        {"en": "It creates the Thunderpath", "zh": "它创造了雷道"},
-        {"en": "It names the river", "zh": "它命名了河流"}
-      ],
-      "answer": 0,
-      "explain": {"en": "The First Battle is the moment the separate cat groups come together, planting the seed of the Clan system.", "zh": "第一场战斗是各分散猫群首次团结的时刻，播下了族群制度的种子。"}
-    },
-    {
-      "q": {"en": "Which founders fight side by side in the First Battle?", "zh": "在第一场战斗中，哪些创始猫并肩作战？"},
-      "options": [
-        {"en": "Only Clear Sky and Gray Wing", "zh": "只有晴天和灰翅"},
-        {"en": "Clear Sky, Gray Wing, Tall Shadow, Wind Runner, and River Ripple", "zh": "晴天、灰翅、高影、风奔和河波"},
-        {"en": "Only the river cats", "zh": "只有河边的猫"},
-        {"en": "Only the mountain cats", "zh": "只有山地的猫"}
-      ],
-      "answer": 1,
-      "explain": {"en": "All five founders — Clear Sky, Gray Wing, Tall Shadow, Wind Runner, and River Ripple — join together to fight One Eye.", "zh": "五位创始猫——晴天、灰翅、高影、风奔和河波——齐聚一堂，共同对抗独眼。"}
+      "explain": {
+        "en": "All five founders — Clear Sky, Gray Wing, Tall Shadow, Wind Runner, and River Ripple — join together to fight One Eye.",
+        "zh": "五位创始猫——晴天、灰翅、高影、风奔和河波——齐聚一堂，共同对抗独眼。"
+      }
     }
   ]
 }

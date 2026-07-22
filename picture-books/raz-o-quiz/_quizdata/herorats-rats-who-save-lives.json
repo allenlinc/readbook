@@ -12,12 +12,24 @@
         "zh": "书中把地雷描述为一个严重的长期问题，这个国家是哪里？"
       },
       "options": [
-        {"en": "Mozambique, in Africa", "zh": "非洲的莫桑比克"},
-        {"en": "Belgium, in Europe", "zh": "欧洲的比利时"},
-        {"en": "Thailand, in Asia", "zh": "亚洲的泰国"},
-        {"en": "The United States", "zh": "美国"}
+        {
+          "en": "Thailand, in Asia",
+          "zh": "亚洲的泰国"
+        },
+        {
+          "en": "Mozambique, in Africa",
+          "zh": "非洲的莫桑比克"
+        },
+        {
+          "en": "Belgium, in Europe according to some versions of the story",
+          "zh": "欧洲的比利时（按书中另一种说法）"
+        },
+        {
+          "en": "The United States",
+          "zh": "美国"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book opens by describing land mines left behind after almost thirty years of wars in Mozambique, a country on the continent of Africa.",
@@ -30,12 +42,24 @@
         "zh": "是谁想出了训练老鼠寻找地雷这个主意？"
       },
       "options": [
-        {"en": "A scientist using a microscope", "zh": "一位用显微镜的科学家"},
-        {"en": "Bart Weetjens, an engineer from Belgium", "zh": "来自比利时的工程师巴特·维特延斯"},
-        {"en": "Castro, the HeroRAT", "zh": "英雄鼠卡斯特罗"},
-        {"en": "Gabrielle Fimbres, the writer", "zh": "作者加布里埃尔·芬布雷斯"}
+        {
+          "en": "Castro, the HeroRAT",
+          "zh": "英雄鼠卡斯特罗"
+        },
+        {
+          "en": "A scientist using a microscope",
+          "zh": "一位用显微镜的科学家"
+        },
+        {
+          "en": "Bart Weetjens, an engineer from Belgium",
+          "zh": "来自比利时的工程师巴特·维特延斯"
+        },
+        {
+          "en": "Gabrielle Fimbres, the writer according to some versions of the story",
+          "zh": "作者加布里埃尔·芬布雷斯（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Bart Weetjens, an engineer from Belgium who loved rodents since childhood, realized rats' keen sense of smell could find land mines and founded the HeroRATs program.",
@@ -48,12 +72,24 @@
         "zh": "根据书中内容，巴特为什么选择老鼠而不是狗来做这件事？"
       },
       "options": [
-        {"en": "Rats have better eyesight than dogs", "zh": "老鼠的视力比狗好"},
-        {"en": "Rats are faster runners", "zh": "老鼠跑得更快"},
-        {"en": "Rats are cheaper and easier to train than dogs", "zh": "老鼠比狗更便宜、更容易训练"},
-        {"en": "Rats are larger animals", "zh": "老鼠体型更大"}
+        {
+          "en": "Rats are larger animals",
+          "zh": "老鼠体型更大"
+        },
+        {
+          "en": "Rats are faster runners",
+          "zh": "老鼠跑得更快"
+        },
+        {
+          "en": "Rats have better eyesight than dogs according to some versions of the story",
+          "zh": "老鼠的视力比狗好（按书中另一种说法）"
+        },
+        {
+          "en": "Rats are cheaper and easier to train than dogs",
+          "zh": "老鼠比狗更便宜、更容易训练"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Bart figured out that rats would be cheaper and easier to train than dogs, even though people first thought his idea was crazy.",
@@ -66,10 +102,22 @@
         "zh": "英雄鼠在参加最终测试前需要接受多长时间的训练？"
       },
       "options": [
-        {"en": "A few days", "zh": "几天"},
-        {"en": "Two weeks", "zh": "两周"},
-        {"en": "One year", "zh": "一年"},
-        {"en": "Nine months", "zh": "九个月"}
+        {
+          "en": "A few days according to some versions of the story",
+          "zh": "几天（按书中另一种说法）"
+        },
+        {
+          "en": "One year",
+          "zh": "一年"
+        },
+        {
+          "en": "Two weeks",
+          "zh": "两周"
+        },
+        {
+          "en": "Nine months",
+          "zh": "九个月"
+        }
       ],
       "answer": 3,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "当大鼠闻到炸药气味后听到咔哒声并得到食物，这种训练方法叫什么？"
       },
       "options": [
-        {"en": "Clicker training", "zh": "响片训练"},
-        {"en": "Leash walking", "zh": "牵绳行走"},
-        {"en": "Freezing in place", "zh": "原地不动"},
-        {"en": "Long-pole guiding", "zh": "长杆引导"}
+        {
+          "en": "Long-pole guiding",
+          "zh": "长杆引导"
+        },
+        {
+          "en": "Clicker training",
+          "zh": "响片训练"
+        },
+        {
+          "en": "Leash walking",
+          "zh": "牵绳行走"
+        },
+        {
+          "en": "Freezing in place",
+          "zh": "原地不动"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book names this method 'clicker training': rats hear a click and get a food reward when they smell an explosive, which teaches them the signal.",
@@ -102,12 +162,24 @@
         "zh": "英雄鼠找到地雷时，会怎样发出信号？"
       },
       "options": [
-        {"en": "They bark loudly", "zh": "它们大声吠叫"},
-        {"en": "They freeze in place or scratch the ground", "zh": "它们原地不动几秒钟，或抓挠地面"},
-        {"en": "They dig a deep hole", "zh": "它们挖一个深洞"},
-        {"en": "They blow a whistle", "zh": "它们吹口哨"}
+        {
+          "en": "They freeze in place or scratch the ground",
+          "zh": "它们原地不动几秒钟，或抓挠地面"
+        },
+        {
+          "en": "They dig a deep hole according to some versions of the story",
+          "zh": "它们挖一个深洞（按书中另一种说法）"
+        },
+        {
+          "en": "They bark loudly",
+          "zh": "它们大声吠叫"
+        },
+        {
+          "en": "They blow a whistle",
+          "zh": "它们吹口哨"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains that rats are taught to signal by freezing in place for several seconds or by scratching the ground when they detect a land mine.",
@@ -120,10 +192,22 @@
         "zh": "书中对比了肺结核检测。英雄鼠检查四十份样本需要多长时间？"
       },
       "options": [
-        {"en": "One full day", "zh": "整整一天"},
-        {"en": "One hour", "zh": "一个小时"},
-        {"en": "Seven minutes", "zh": "七分钟"},
-        {"en": "Ten seconds", "zh": "十秒钟"}
+        {
+          "en": "One hour",
+          "zh": "一个小时"
+        },
+        {
+          "en": "Ten seconds",
+          "zh": "十秒钟"
+        },
+        {
+          "en": "Seven minutes",
+          "zh": "七分钟"
+        },
+        {
+          "en": "One full day according to some versions of the story",
+          "zh": "整整一天（按书中另一种说法）"
+        }
       ],
       "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "根据书中内容，英雄鼠清除的土地面积大约相当于多少个足球场？"
       },
       "options": [
-        {"en": "180 football fields", "zh": "180个足球场"},
-        {"en": "1,800 land mines", "zh": "1800颗地雷"},
-        {"en": "3.3 million square yards", "zh": "330万平方码"},
-        {"en": "628 football fields", "zh": "628个足球场"}
+        {
+          "en": "628 football fields",
+          "zh": "628个足球场"
+        },
+        {
+          "en": "1,800 land mines",
+          "zh": "1800颗地雷"
+        },
+        {
+          "en": "3.3 million square yards",
+          "zh": "330万平方码"
+        },
+        {
+          "en": "180 football fields",
+          "zh": "180个足球场"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states HeroRATs cleared more than 3.3 million square yards of land — an area the size of 628 football fields.",
@@ -156,10 +252,22 @@
         "zh": "作者为什么要加入关于肺结核的“你知道吗？”一节？"
       },
       "options": [
-        {"en": "To show HeroRATs also save lives by finding disease, not just land mines", "zh": "为了说明英雄鼠除了找地雷，还能通过发现疾病来救人"},
-        {"en": "To explain how microscopes work", "zh": "为了解释显微镜的原理"},
-        {"en": "To compare rats and dogs", "zh": "为了比较老鼠和狗"},
-        {"en": "To describe Mozambique's weather", "zh": "为了描写莫桑比克的天气"}
+        {
+          "en": "To show HeroRATs also save lives by finding disease, not just land mines",
+          "zh": "为了说明英雄鼠除了找地雷，还能通过发现疾病来救人"
+        },
+        {
+          "en": "To explain how microscopes work",
+          "zh": "为了解释显微镜的原理"
+        },
+        {
+          "en": "To describe Mozambique's weather according to some versions of the story in an early draft of the book",
+          "zh": "为了描写莫桑比克的天气（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To compare rats and dogs",
+          "zh": "为了比较老鼠和狗"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "作者写这本书的主要目的是什么？"
       },
       "options": [
-        {"en": "To entertain with a funny story about a pet rat", "zh": "讲一个关于宠物鼠的搞笑故事来娱乐读者"},
-        {"en": "To teach how to build a robot", "zh": "教读者如何造机器人"},
-        {"en": "To inform readers about real rats that help save human lives", "zh": "向读者介绍真正能救人命的大鼠"},
-        {"en": "To argue that land mines should be banned", "zh": "主张应该禁止地雷"}
+        {
+          "en": "To teach how to build a robot",
+          "zh": "教读者如何造机器人"
+        },
+        {
+          "en": "To inform readers about real rats that help save human lives",
+          "zh": "向读者介绍真正能救人命的大鼠"
+        },
+        {
+          "en": "To argue that land mines should be banned",
+          "zh": "主张应该禁止地雷"
+        },
+        {
+          "en": "To entertain with a funny story about a pet rat according to some versions of the story",
+          "zh": "讲一个关于宠物鼠的搞笑故事来娱乐读者（按书中另一种说法）"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is nonfiction that informs readers about the real HeroRATs program and how these trained rats help make the world safer.",

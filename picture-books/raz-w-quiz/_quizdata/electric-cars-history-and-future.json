@@ -47,16 +47,16 @@
           "zh": "可充电的铅酸电池（普兰泰和福尔）"
         },
         {
-          "en": "The invention of the gasoline engine",
-          "zh": "汽油发动机的发明"
-        },
-        {
-          "en": "The discovery of oil in Texas",
-          "zh": "在得克萨斯发现石油"
+          "en": "The invention of the gasoline engine according to some versions of the story",
+          "zh": "汽油发动机的发明（按书中另一种说法）"
         },
         {
           "en": "Henry Ford's assembly line",
           "zh": "亨利福特的流水线"
+        },
+        {
+          "en": "The discovery of oil in Texas",
+          "zh": "在得克萨斯发现石油"
         }
       ],
       "answer": 0,
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "Easy to repair",
+          "zh": "容易修理"
+        },
+        {
           "en": "Having a sharp or strong smell",
           "zh": "有刺鼻或强烈的气味"
         },
@@ -81,15 +85,11 @@
           "zh": "非常安静"
         },
         {
-          "en": "Brightly colored",
-          "zh": "色彩鲜艳"
-        },
-        {
-          "en": "Easy to repair",
-          "zh": "容易修理"
+          "en": "Brightly colored according to some versions of the story",
+          "zh": "色彩鲜艳（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines pungent as 'having a sharp flavor or smell,' which is why early electric cars were preferred over smelly gas cars.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Gas cars were much cheaper to make and buy, helping them win out",
-          "zh": "汽油车制造和购买都便宜得多，从而胜出"
-        },
-        {
-          "en": "Electric cars were always the better choice",
-          "zh": "电动车始终是更好的选择"
+          "en": "Gas cars were illegal to sell",
+          "zh": "汽油车被禁止销售"
         },
         {
           "en": "Both cars cost exactly the same",
           "zh": "两种车价格完全一样"
         },
         {
-          "en": "Gas cars were illegal to sell",
-          "zh": "汽油车被禁止销售"
+          "en": "Gas cars were much cheaper to make and buy, helping them win out",
+          "zh": "汽油车制造和购买都便宜得多，从而胜出"
+        },
+        {
+          "en": "Electric cars were always the better choice according to some versions of the story",
+          "zh": "电动车始终是更好的选择（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Ford's assembly lines made gas cars cheap to produce, so they underpriced electric cars and caused the electric car's decline.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Ferdinand Porsche, in Germany, in 1898",
-          "zh": "费迪南德·保时捷，1898年，德国"
+          "en": "Robert Anderson, in Scotland, in 1832 according to some versions of the story",
+          "zh": "罗伯特·安德森，1832年，苏格兰（按书中另一种说法）"
+        },
+        {
+          "en": "Thomas Davenport, in 1842",
+          "zh": "托马斯·达文波特，1842年"
         },
         {
           "en": "Henry Ford, in the U.S., in 1908",
           "zh": "亨利·福特，1908年，美国"
         },
         {
-          "en": "Robert Anderson, in Scotland, in 1832",
-          "zh": "罗伯特·安德森，1832年，苏格兰"
-        },
-        {
-          "en": "Thomas Davenport, in 1842",
-          "zh": "托马斯·达文波特，1842年"
+          "en": "Ferdinand Porsche, in Germany, in 1898",
+          "zh": "费迪南德·保时捷，1898年，德国"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book notes Ferdinand Porsche invented the first hybrid car in Germany in 1898, using a gas engine to generate electricity.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Sebring-Vanguard",
-          "zh": "Sebring-Vanguard公司"
+          "en": "The Ford Motor Company according to some versions of the story",
+          "zh": "福特汽车公司（按书中另一种说法）"
+        },
+        {
+          "en": "Toyota",
+          "zh": "丰田"
         },
         {
           "en": "General Motors",
           "zh": "通用汽车"
         },
         {
-          "en": "The Ford Motor Company",
-          "zh": "福特汽车公司"
-        },
-        {
-          "en": "Toyota",
-          "zh": "丰田"
+          "en": "Sebring-Vanguard",
+          "zh": "Sebring-Vanguard公司"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Seeing new interest in EVs, Sebring-Vanguard built about 2,000 CitiCars that could go 55 miles on one charge.",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "Black smoke",
+          "zh": "黑烟"
+        },
+        {
           "en": "Water (H2O)",
           "zh": "水（H2O）"
         },
@@ -201,15 +205,11 @@
           "zh": "有毒气体"
         },
         {
-          "en": "Black smoke",
-          "zh": "黑烟"
-        },
-        {
           "en": "Gasoline fumes",
           "zh": "汽油味气体"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Fuel cells split hydrogen and combine it with oxygen; after the reaction, the only exhaust is water (H2O).",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Compare the advantages and disadvantages clearly",
-          "zh": "清晰地比较优点和缺点"
+          "en": "Follow the order of events in time according to some versions of the story",
+          "zh": "按时间顺序了解事件（按书中另一种说法）"
         },
         {
           "en": "Memorize the glossary words",
           "zh": "记住词汇表中的单词"
         },
         {
-          "en": "Follow the order of events in time",
-          "zh": "按时间顺序了解事件"
+          "en": "Compare the advantages and disadvantages clearly",
+          "zh": "清晰地比较优点和缺点"
         },
         {
           "en": "Count the number of car companies",
           "zh": "数一数汽车公司的数量"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "By grouping facts into Pluses and Minuses, the author lets readers weigh both sides of electric cars at a glance.",
@@ -257,16 +257,16 @@
           "zh": "为了说明可能提高未来电动车需求的因素"
         },
         {
-          "en": "To argue that gas cars are better",
-          "zh": "为了论证汽油车更好"
-        },
-        {
-          "en": "To describe how to drill for oil",
-          "zh": "为了描述如何钻油"
+          "en": "To argue that gas cars are better according to some versions of the story in an early draft of the book",
+          "zh": "为了论证汽油车更好（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To explain the history of Ford",
           "zh": "为了说明福特的历史"
+        },
+        {
+          "en": "To describe how to drill for oil",
+          "zh": "为了描述如何钻油"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Bright in the long term, though short-term challenges remain",
-          "zh": "长期前景光明，但短期仍有挑战"
-        },
-        {
           "en": "Doomed to disappear forever",
           "zh": "注定永远消失"
         },
         {
-          "en": "Already perfect with no problems",
-          "zh": "已经完美，没有问题"
+          "en": "Bright in the long term, though short-term challenges remain",
+          "zh": "长期前景光明，但短期仍有挑战"
+        },
+        {
+          "en": "Already perfect with no problems according to some versions of the story",
+          "zh": "已经完美，没有问题（按书中另一种说法）"
         },
         {
           "en": "Only useful as toys",
           "zh": "只适合当玩具"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says the long-term future is 'very bright' but notes short-term issues like cost and limited range.",

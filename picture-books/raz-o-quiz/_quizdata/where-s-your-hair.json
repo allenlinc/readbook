@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "They all eat the same kind of food according to some versions of the story",
+          "zh": "它们都吃同样的食物（按书中另一种说法）"
+        },
+        {
           "en": "They are warm-blooded and nurse their young",
           "zh": "它们是温血动物并用乳汁哺育幼崽"
         },
@@ -23,13 +27,9 @@
         {
           "en": "They all have a thick coat of fur",
           "zh": "它们都有厚厚的皮毛"
-        },
-        {
-          "en": "They all eat the same kind of food",
-          "zh": "它们都吃同样的食物"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that all mammals are warm-blooded, nurse their young, and most (not all) have hair.",
@@ -43,12 +43,8 @@
       },
       "options": [
         {
-          "en": "A hairless cat breed from Russia",
-          "zh": "一种来自俄罗斯的无毛猫"
-        },
-        {
-          "en": "A hairless dog breed that is the national dog of Mexico",
-          "zh": "一种无毛狗，是墨西哥的国犬"
+          "en": "A hairless cat breed from Russia according to some versions of the story",
+          "zh": "一种来自俄罗斯的无毛猫（按书中另一种说法）"
         },
         {
           "en": "A hairless guinea pig",
@@ -57,9 +53,13 @@
         {
           "en": "A type of naked mole rat",
           "zh": "一种裸鼹鼠"
+        },
+        {
+          "en": "A hairless dog breed that is the national dog of Mexico",
+          "zh": "一种无毛狗，是墨西哥的国犬"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the xolo is a hairless dog breed that has been around for more than three thousand years and is the national dog of Mexico.",
@@ -73,8 +73,12 @@
       },
       "options": [
         {
-          "en": "A change in the animal's diet",
-          "zh": "动物饮食的改变"
+          "en": "A change in the animal's diet according to some versions of the story",
+          "zh": "动物饮食的改变（按书中另一种说法）"
+        },
+        {
+          "en": "Being kept as a pet",
+          "zh": "被当作宠物饲养"
         },
         {
           "en": "A gene mutation passed down over generations",
@@ -83,13 +87,9 @@
         {
           "en": "Living in cold weather",
           "zh": "生活在寒冷的天气里"
-        },
-        {
-          "en": "Being kept as a pet",
-          "zh": "被当作宠物饲养"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains that most hairless breeds are caused by a gene mutation that is then passed down to children over generations.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "By giving them sweaters to wear",
-          "zh": "给它们穿毛衣"
+          "en": "By feeding them special food",
+          "zh": "喂它们吃特殊的食物"
         },
         {
-          "en": "By shaving off their remaining fur",
-          "zh": "把剩下的毛剃光"
+          "en": "By giving them sweaters to wear",
+          "zh": "给它们穿毛衣"
         },
         {
           "en": "By keeping them outside in the sun",
           "zh": "把它们养在户外晒太阳"
         },
         {
-          "en": "By feeding them special food",
-          "zh": "喂它们吃特殊的食物"
+          "en": "By shaving off their remaining fur",
+          "zh": "把剩下的毛剃光"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says many pet owners use sweaters to warm their hairless pets and also protect them from sunburn.",
@@ -133,10 +133,6 @@
       },
       "options": [
         {
-          "en": "A kind of pet food",
-          "zh": "一种宠物食品"
-        },
-        {
           "en": "A change in a gene that happens unexpectedly",
           "zh": "基因发生的意外变化"
         },
@@ -145,11 +141,15 @@
           "zh": "一种皮毛外套"
         },
         {
-          "en": "A way to train animals",
-          "zh": "训练动物的方法"
+          "en": "A way to train animals according to some versions of the story",
+          "zh": "训练动物的方法（按书中另一种说法）"
+        },
+        {
+          "en": "A kind of pet food",
+          "zh": "一种宠物食品"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The Glossary defines a mutation as a change in the genes from one generation to the next that may change how an offspring grows.",
@@ -167,19 +167,19 @@
           "zh": "一条湿鱼"
         },
         {
+          "en": "A cold stone according to some versions of the story",
+          "zh": "一块冰冷的石头（按书中另一种说法）"
+        },
+        {
           "en": "A fuzzy peach",
           "zh": "一只毛茸茸的桃子"
         },
         {
           "en": "A rough rock",
           "zh": "一块粗糙的石头"
-        },
-        {
-          "en": "A cold stone",
-          "zh": "一块冰冷的石头"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book states that although hairless cats lack a thick coat, most have a very fine coat and feel like a fuzzy peach when petted.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "Hairless pets never cause allergies",
-          "zh": "无毛宠物从不会引起过敏"
+          "en": "Hairless pets eat the dander",
+          "zh": "无毛宠物会吃掉皮屑"
         },
         {
           "en": "Hairless pets have less fur to trap dander, which causes allergies",
           "zh": "无毛宠物没有厚毛来困住引起过敏的皮屑"
         },
         {
-          "en": "Hairless pets don't shed skin",
-          "zh": "无毛宠物不掉皮屑"
+          "en": "Hairless pets never cause allergies according to some versions of the story",
+          "zh": "无毛宠物从不会引起过敏（按书中另一种说法）"
         },
         {
-          "en": "Hairless pets eat the dander",
-          "zh": "无毛宠物会吃掉皮屑"
+          "en": "Hairless pets don't shed skin",
+          "zh": "无毛宠物不掉皮屑"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "They grow thick fur in winter",
-          "zh": "它们在冬天长出厚毛"
-        },
-        {
-          "en": "They move to deeper, cooler tunnels when warm and group together when cold",
-          "zh": "天热时移到更深更凉的隧道，天冷时聚在一起取暖"
-        },
-        {
           "en": "They hibernate all year",
           "zh": "它们全年冬眠"
         },
         {
+          "en": "They grow thick fur in winter according to some versions of the story in an early draft of the book",
+          "zh": "它们在冬天长出厚毛（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "They rely on the Sun's heat",
           "zh": "它们依靠太阳的热量"
+        },
+        {
+          "en": "They move to deeper, cooler tunnels when warm and group together when cold",
+          "zh": "天热时移到更深更凉的隧道，天冷时聚在一起取暖"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains that when it is warm, naked mole rats move to deeper, cooler tunnels, and when it is cold they group together to keep each other warm.",
@@ -253,12 +253,12 @@
       },
       "options": [
         {
-          "en": "To convince readers to buy hairless pets",
-          "zh": "说服读者购买无毛宠物"
-        },
-        {
           "en": "To inform readers about hairless mammals and how they adapt",
           "zh": "向读者介绍无毛哺乳动物及其适应方式"
+        },
+        {
+          "en": "To convince readers to buy hairless pets according to some versions of the story",
+          "zh": "说服读者购买无毛宠物（按书中另一种说法）"
         },
         {
           "en": "To tell a fictional story about a dog",
@@ -269,7 +269,7 @@
           "zh": "描述如何给猫美容"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is an informational text that teaches facts about hairless mammals, their breeds, and how they adapt to life without much hair.",
@@ -283,12 +283,12 @@
       },
       "options": [
         {
-          "en": "Elephants and rhinoceroses",
-          "zh": "大象和犀牛"
-        },
-        {
           "en": "Whales and dolphins",
           "zh": "鲸鱼和海豚"
+        },
+        {
+          "en": "Elephants and rhinoceroses",
+          "zh": "大象和犀牛"
         },
         {
           "en": "Naked mole rats",
@@ -299,7 +299,7 @@
           "zh": "无毛猫"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book states that whales and dolphins live in the ocean and use a thick layer of blubber, or fat, to stay warm instead of hair.",

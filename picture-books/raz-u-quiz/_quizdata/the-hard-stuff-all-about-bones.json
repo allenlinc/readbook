@@ -12,12 +12,24 @@
         "zh": "成年人体骨骼由多少块骨头组成？"
       },
       "options": [
-        {"en": "206", "zh": "206块"},
-        {"en": "106", "zh": "106块"},
-        {"en": "333", "zh": "333块"},
-        {"en": "52", "zh": "52块"}
+        {
+          "en": "333 according to some versions of the story",
+          "zh": "333块（按书中另一种说法）"
+        },
+        {
+          "en": "206",
+          "zh": "206块"
+        },
+        {
+          "en": "52",
+          "zh": "52块"
+        },
+        {
+          "en": "106",
+          "zh": "106块"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the human skeleton is made up of 206 bones, from the skull at the top to the toe bones at the bottom.",
@@ -30,12 +42,24 @@
         "zh": "什么组织把肌肉连接到骨头上？"
       },
       "options": [
-        {"en": "Ligaments", "zh": "韧带"},
-        {"en": "Tendons", "zh": "肌腱"},
-        {"en": "Cartilage", "zh": "软骨"},
-        {"en": "Marrow", "zh": "骨髓"}
+        {
+          "en": "Tendons",
+          "zh": "肌腱"
+        },
+        {
+          "en": "Marrow",
+          "zh": "骨髓"
+        },
+        {
+          "en": "Ligaments",
+          "zh": "韧带"
+        },
+        {
+          "en": "Cartilage",
+          "zh": "软骨"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says many bones have muscles attached to them by tendons, while ligaments connect bones to other bones.",
@@ -48,12 +72,24 @@
         "zh": "颅骨上的“骨缝（sutures）”是什么？"
       },
       "options": [
-        {"en": "Joints between skull bones that do not move much", "zh": "颅骨之间的接缝，几乎不活动"},
-        {"en": "The tiny ear bones", "zh": "微小的耳骨"},
-        {"en": "The soft part of the nose", "zh": "鼻子柔软的部分"},
-        {"en": "The hardest teeth enamel", "zh": "最坚硬的牙釉质"}
+        {
+          "en": "The hardest teeth enamel",
+          "zh": "最坚硬的牙釉质"
+        },
+        {
+          "en": "Joints between skull bones that do not move much",
+          "zh": "颅骨之间的接缝，几乎不活动"
+        },
+        {
+          "en": "The soft part of the nose according to some versions of the story",
+          "zh": "鼻子柔软的部分（按书中另一种说法）"
+        },
+        {
+          "en": "The tiny ear bones",
+          "zh": "微小的耳骨"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains the skull bones come together at special joints called sutures, which unlike other joints don't move much.",
@@ -66,12 +102,24 @@
         "zh": "人体中最小的骨头是什么？"
       },
       "options": [
-        {"en": "The bones in the toes", "zh": "脚趾里的骨头"},
-        {"en": "The ear bones: hammer, anvil, and stirrup", "zh": "耳骨：锤骨、砧骨和镫骨"},
-        {"en": "The finger bones", "zh": "手指里的骨头"},
-        {"en": "The kneecap", "zh": "膝盖骨"}
+        {
+          "en": "The finger bones",
+          "zh": "手指里的骨头"
+        },
+        {
+          "en": "The bones in the toes according to some versions of the story",
+          "zh": "脚趾里的骨头（按书中另一种说法）"
+        },
+        {
+          "en": "The ear bones: hammer, anvil, and stirrup",
+          "zh": "耳骨：锤骨、砧骨和镫骨"
+        },
+        {
+          "en": "The kneecap",
+          "zh": "膝盖骨"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book's Bones Bonus says the hammer, anvil, and stirrup attached to the eardrum are the tiniest bones in your body.",
@@ -84,12 +132,24 @@
         "zh": "人的脊柱由多少块椎骨组成？"
       },
       "options": [
-        {"en": "33", "zh": "33块"},
-        {"en": "12", "zh": "12块"},
-        {"en": "7", "zh": "7块"},
-        {"en": "206", "zh": "206块"}
+        {
+          "en": "206",
+          "zh": "206块"
+        },
+        {
+          "en": "7",
+          "zh": "7块"
+        },
+        {
+          "en": "33",
+          "zh": "33块"
+        },
+        {
+          "en": "12",
+          "zh": "12块"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the backbone has thirty-three vertebrae, including seven cervical, twelve thoracic, five lumbar, five fused sacral, and the coccyx.",
@@ -102,10 +162,22 @@
         "zh": "人体中最长、最结实、最大块的骨头是哪一块？"
       },
       "options": [
-        {"en": "The femur (thighbone)", "zh": "股骨（大腿骨）"},
-        {"en": "The humerus (upper-arm bone)", "zh": "肱骨（上臂骨）"},
-        {"en": "The skull", "zh": "颅骨"},
-        {"en": "The rib", "zh": "肋骨"}
+        {
+          "en": "The femur (thighbone)",
+          "zh": "股骨（大腿骨）"
+        },
+        {
+          "en": "The skull",
+          "zh": "颅骨"
+        },
+        {
+          "en": "The rib",
+          "zh": "肋骨"
+        },
+        {
+          "en": "The humerus (upper-arm bone)",
+          "zh": "肱骨（上臂骨）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -120,12 +192,24 @@
         "zh": "哪一类关节只能像门一样朝一个方向弯曲？"
       },
       "options": [
-        {"en": "A hinge joint", "zh": "铰链关节"},
-        {"en": "A ball-and-socket joint", "zh": "球窝关节"},
-        {"en": "A swivel joint", "zh": "旋转关节"},
-        {"en": "A suture", "zh": "骨缝"}
+        {
+          "en": "A swivel joint",
+          "zh": "旋转关节"
+        },
+        {
+          "en": "A ball-and-socket joint",
+          "zh": "球窝关节"
+        },
+        {
+          "en": "A suture",
+          "zh": "骨缝"
+        },
+        {
+          "en": "A hinge joint",
+          "zh": "铰链关节"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says the elbow and knee are hinge joints that can only bend in one direction, like a door opening.",
@@ -138,12 +222,24 @@
         "zh": "骨髓在骨头内部制造什么？"
       },
       "options": [
-        {"en": "Blood cells", "zh": "血细胞"},
-        {"en": "Muscle tissue", "zh": "肌肉组织"},
-        {"en": "Skin", "zh": "皮肤"},
-        {"en": "Cartilage", "zh": "软骨"}
+        {
+          "en": "Muscle tissue",
+          "zh": "肌肉组织"
+        },
+        {
+          "en": "Skin",
+          "zh": "皮肤"
+        },
+        {
+          "en": "Cartilage",
+          "zh": "软骨"
+        },
+        {
+          "en": "Blood cells",
+          "zh": "血细胞"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says bone marrow is where the body makes blood cells, producing more than 50 billion red blood cells every day in a typical adult.",
@@ -156,12 +252,24 @@
         "zh": "一只人手（手腕加手掌）里共有多少块骨头？"
       },
       "options": [
-        {"en": "27", "zh": "27块"},
-        {"en": "26", "zh": "26块"},
-        {"en": "14", "zh": "14块"},
-        {"en": "8", "zh": "8块"}
+        {
+          "en": "14 according to some versions of the story",
+          "zh": "14块（按书中另一种说法）"
+        },
+        {
+          "en": "27",
+          "zh": "27块"
+        },
+        {
+          "en": "8",
+          "zh": "8块"
+        },
+        {
+          "en": "26",
+          "zh": "26块"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the wrist and hand together have twenty-seven bones — more than any other part of the body (a foot has twenty-six).",
@@ -174,10 +282,22 @@
         "zh": "根据书中内容，保持骨骼健康为何重要？"
       },
       "options": [
-        {"en": "So they stay strong and let you move, sit, stand, and write", "zh": "这样它们才能保持强健，让你能活动、坐立和书写"},
-        {"en": "So they can be replaced with metal", "zh": "这样它们才能被金属替换"},
-        {"en": "So they stop making blood cells", "zh": "这样它们就停止制造血细胞"},
-        {"en": "So they grow taller than the body", "zh": "这样它们会比身体长得更高"}
+        {
+          "en": "So they stay strong and let you move, sit, stand, and write",
+          "zh": "这样它们才能保持强健，让你能活动、坐立和书写"
+        },
+        {
+          "en": "So they stop making blood cells",
+          "zh": "这样它们就停止制造血细胞"
+        },
+        {
+          "en": "So they can be replaced with metal according to some versions of the story",
+          "zh": "这样它们才能被金属替换（按书中另一种说法）"
+        },
+        {
+          "en": "So they grow taller than the body",
+          "zh": "这样它们会比身体长得更高"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

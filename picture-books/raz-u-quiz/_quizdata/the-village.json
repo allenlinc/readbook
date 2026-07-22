@@ -12,12 +12,24 @@
         "zh": "萨拉在高草丛中听到是谁在喊“乌迪——”？"
       },
       "options": [
-        {"en": "Qynn", "zh": "钦恩"},
-        {"en": "Jake", "zh": "杰克"},
-        {"en": "Odie", "zh": "奥迪"},
-        {"en": "The cat", "zh": "那只猫"}
+        {
+          "en": "Jake",
+          "zh": "杰克"
+        },
+        {
+          "en": "Odie",
+          "zh": "奥迪"
+        },
+        {
+          "en": "The cat",
+          "zh": "那只猫"
+        },
+        {
+          "en": "Qynn",
+          "zh": "钦恩"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Sarah hears the cry, runs toward it, and Jake's blond head pops up from the grass crying that he can't find Odie.",
@@ -30,12 +42,24 @@
         "zh": "杰克弄丢了什么、怎么也找不到？"
       },
       "options": [
-        {"en": "His sister Qynn", "zh": "他的姐姐钦恩"},
-        {"en": "Odie, who always comes when called", "zh": "奥迪，平时一叫就会来的那只"},
-        {"en": "A treasure map", "zh": "一张藏宝图"},
-        {"en": "His fairy wings", "zh": "他的精灵翅膀"}
+        {
+          "en": "His fairy wings according to some versions of the story",
+          "zh": "他的精灵翅膀（按书中另一种说法）"
+        },
+        {
+          "en": "His sister Qynn",
+          "zh": "他的姐姐钦恩"
+        },
+        {
+          "en": "Odie, who always comes when called",
+          "zh": "奥迪，平时一叫就会来的那只"
+        },
+        {
+          "en": "A treasure map",
+          "zh": "一张藏宝图"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Jake cries, 'I can't find Odie! He always comes when I call,' showing Odie is missing.",
@@ -48,12 +72,24 @@
         "zh": "在村庄里突然开口和萨拉说话的是什么生物？"
       },
       "options": [
-        {"en": "A talking fat white cat", "zh": "一只会说话的胖白猫"},
-        {"en": "A small dragon", "zh": "一条小恐龙"},
-        {"en": "A robot", "zh": "一个机器人"},
-        {"en": "An octopus", "zh": "一只章鱼"}
+        {
+          "en": "A robot",
+          "zh": "一个机器人"
+        },
+        {
+          "en": "A talking fat white cat",
+          "zh": "一只会说话的胖白猫"
+        },
+        {
+          "en": "An octopus",
+          "zh": "一只章鱼"
+        },
+        {
+          "en": "A small dragon according to some versions of the story",
+          "zh": "一条小恐龙（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A fat white cat leaps into Sarah's arms and asks, 'What are you doing here?' — Jake calls it a talking cat.",
@@ -66,12 +102,24 @@
         "zh": "地面开始震动后，村庄的屋子发生了什么？"
       },
       "options": [
-        {"en": "They are repaired", "zh": "它们被修好了"},
-        {"en": "They collapse and are engulfed in flames", "zh": "它们坍塌并被火焰吞没"},
-        {"en": "They float away", "zh": "它们飘走了"},
-        {"en": "They turn invisible", "zh": "它们变得隐形了"}
+        {
+          "en": "They collapse and are engulfed in flames",
+          "zh": "它们坍塌并被火焰吞没"
+        },
+        {
+          "en": "They are repaired",
+          "zh": "它们被修好了"
+        },
+        {
+          "en": "They float away",
+          "zh": "它们飘走了"
+        },
+        {
+          "en": "They turn invisible according to some versions of the story",
+          "zh": "它们变得隐形了（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the small houses collapse in on themselves and are completely engulfed in flames that leap into the sky.",
@@ -84,12 +132,24 @@
         "zh": "在词汇表中，“inexhaustible”用来形容杰克时是什么意思？"
       },
       "options": [
-        {"en": "Unable to be tired or worn out", "zh": "不会疲倦或耗尽精力"},
-        {"en": "Very frightened", "zh": "非常害怕"},
-        {"en": "Old-fashioned", "zh": "老式的"},
-        {"en": "Burning the surface of something", "zh": "烧焦某物表面"}
+        {
+          "en": "Very frightened",
+          "zh": "非常害怕"
+        },
+        {
+          "en": "Unable to be tired or worn out",
+          "zh": "不会疲倦或耗尽精力"
+        },
+        {
+          "en": "Burning the surface of something according to some versions of the story",
+          "zh": "烧焦某物表面（按书中另一种说法）"
+        },
+        {
+          "en": "Old-fashioned",
+          "zh": "老式的"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines inexhaustible as 'unable to be tired or worn out,' which fits Jake scampering up the hill with a broad grin.",
@@ -102,12 +162,24 @@
         "zh": "当房屋起火时，“engulfed”是什么意思？"
       },
       "options": [
-        {"en": "Swept over and covered completely", "zh": "席卷并完全覆盖"},
-        {"en": "Lit up", "zh": "被照亮"},
-        {"en": "Moved upward", "zh": "向上移动"},
-        {"en": "Made a noise", "zh": "发出声响"}
+        {
+          "en": "Made a noise according to some versions of the story",
+          "zh": "发出声响（按书中另一种说法）"
+        },
+        {
+          "en": "Moved upward",
+          "zh": "向上移动"
+        },
+        {
+          "en": "Lit up",
+          "zh": "被照亮"
+        },
+        {
+          "en": "Swept over and covered completely",
+          "zh": "席卷并完全覆盖"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines engulfed as 'swept over and covered completely,' describing the buildings swallowed by flames.",
@@ -120,12 +192,24 @@
         "zh": "萨拉和杰克为什么决定朝远处灯光的方向走？"
       },
       "options": [
-        {"en": "They want to find treasure", "zh": "他们想找宝藏"},
-        {"en": "They believe Qynn and Odie probably went there", "zh": "他们认为钦恩和奥迪可能去了那里"},
-        {"en": "The cat ordered them to", "zh": "猫命令他们去"},
-        {"en": "They are chasing the octopus", "zh": "他们在追章鱼"}
+        {
+          "en": "They believe Qynn and Odie probably went there",
+          "zh": "他们认为钦恩和奥迪可能去了那里"
+        },
+        {
+          "en": "The cat ordered them to",
+          "zh": "猫命令他们去"
+        },
+        {
+          "en": "They are chasing the octopus according to some versions of the story",
+          "zh": "他们在追章鱼（按书中另一种说法）"
+        },
+        {
+          "en": "They want to find treasure",
+          "zh": "他们想找宝藏"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Sarah reasons that if Qynn and Odie are around, they are probably heading for that town, so the two should go there too.",
@@ -138,10 +222,22 @@
         "zh": "包围萨拉和杰克的生物长什么样？"
       },
       "options": [
-        {"en": "Small birds", "zh": "小鸟"},
-        {"en": "Octopus-like, with far more than eight tentacles and rows of sharp teeth", "zh": "像章鱼，触手远多于八条，还有成排尖牙"},
-        {"en": "Friendly dogs", "zh": "友善的狗"},
-        {"en": "Giant spiders", "zh": "巨大的蜘蛛"}
+        {
+          "en": "Giant spiders according to some versions of the story in an early draft of the book",
+          "zh": "巨大的蜘蛛（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Octopus-like, with far more than eight tentacles and rows of sharp teeth",
+          "zh": "像章鱼，触手远多于八条，还有成排尖牙"
+        },
+        {
+          "en": "Friendly dogs",
+          "zh": "友善的狗"
+        },
+        {
+          "en": "Small birds",
+          "zh": "小鸟"
+        }
       ],
       "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,12 +252,24 @@
         "zh": "作者在故事结尾如何营造出危险感？"
       },
       "options": [
-        {"en": "By describing a sunny picnic", "zh": "通过描写一场阳光下的野餐"},
-        {"en": "By showing houses burning, a spreading ring of fire, and menacing tentacled creatures", "zh": "通过展现房屋燃烧、不断扩散的火环，以及凶恶的触手生物"},
-        {"en": "By having the cat sing a song", "zh": "通过让猫唱歌"},
-        {"en": "By describing a calm ocean", "zh": "通过描写平静的海洋"}
+        {
+          "en": "By describing a calm ocean",
+          "zh": "通过描写平静的海洋"
+        },
+        {
+          "en": "By having the cat sing a song",
+          "zh": "通过让猫唱歌"
+        },
+        {
+          "en": "By showing houses burning, a spreading ring of fire, and menacing tentacled creatures",
+          "zh": "通过展现房屋燃烧、不断扩散的火环，以及凶恶的触手生物"
+        },
+        {
+          "en": "By describing a sunny picnic according to some versions of the story in an early draft of the book",
+          "zh": "通过描写一场阳光下的野餐（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The danger grows as houses burn, a ring of fire spreads, and tentacled creatures close in, leaving the children trapped.",
@@ -174,12 +282,24 @@
         "zh": "杰克第一次看到那些生物时表现出什么情绪？"
       },
       "options": [
-        {"en": "Terror and running away", "zh": "惊恐并逃跑"},
-        {"en": "Frozen in awe with an amazed smile", "zh": "惊呆了，带着惊奇的笑容"},
-        {"en": "Anger", "zh": "愤怒"},
-        {"en": "Sleepiness", "zh": "困倦"}
+        {
+          "en": "Anger",
+          "zh": "愤怒"
+        },
+        {
+          "en": "Sleepiness",
+          "zh": "困倦"
+        },
+        {
+          "en": "Terror and running away according to some versions of the story",
+          "zh": "惊恐并逃跑（按书中另一种说法）"
+        },
+        {
+          "en": "Frozen in awe with an amazed smile",
+          "zh": "惊呆了，带着惊奇的笑容"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says Jake stands frozen in awe, his mouth gaping in an amazed smile, rather than showing fear.",

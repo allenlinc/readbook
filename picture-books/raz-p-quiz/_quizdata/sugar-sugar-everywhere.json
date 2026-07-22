@@ -7,78 +7,320 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en":"About how much sugar does the average American eat in a year?","zh":"普通美国人一年大约吃多少糖？"},
-      "options": [{"en":"Just over 150 pounds (68 kg)","zh":"略多于150磅（68公斤）"},{"en":"About 10 pounds","zh":"约10磅"},{"en":"About 5 pounds","zh":"约5磅"},{"en":"Over 500 pounds","zh":"超过500磅"}],
-      "answer": 0,
+      "q": {
+        "en": "About how much sugar does the average American eat in a year?",
+        "zh": "普通美国人一年大约吃多少糖？"
+      },
+      "options": [
+        {
+          "en": "Over 500 pounds according to some versions of the story",
+          "zh": "超过500磅（按书中另一种说法）"
+        },
+        {
+          "en": "Just over 150 pounds (68 kg)",
+          "zh": "略多于150磅（68公斤）"
+        },
+        {
+          "en": "About 5 pounds",
+          "zh": "约5磅"
+        },
+        {
+          "en": "About 10 pounds",
+          "zh": "约10磅"
+        }
+      ],
+      "answer": 1,
       "skill": "Key Ideas and Details",
-      "explain": {"en":"The book states 'The average American ... eats just over 150 pounds (68 kg) of sugar a year.'","zh":"书中写道：'普通美国人一年吃掉的糖略多于150磅（68公斤）。'"}
+      "explain": {
+        "en": "The book states 'The average American ... eats just over 150 pounds (68 kg) of sugar a year.'",
+        "zh": "书中写道：'普通美国人一年吃掉的糖略多于150磅（68公斤）。'"
+      }
     },
     {
-      "q": {"en":"What is table sugar (sucrose) made from?","zh":"餐桌糖（蔗糖）是用什么做的？"},
-      "options": [{"en":"Sugar cane or sugar beets","zh":"甘蔗或甜菜"},{"en":"Only apples","zh":"只用苹果"},{"en":"Salt and water","zh":"盐和水的混合物"},{"en":"Milk","zh":"牛奶"}],
-      "answer": 0,
+      "q": {
+        "en": "What is table sugar (sucrose) made from?",
+        "zh": "餐桌糖（蔗糖）是用什么做的？"
+      },
+      "options": [
+        {
+          "en": "Milk",
+          "zh": "牛奶"
+        },
+        {
+          "en": "Sugar cane or sugar beets",
+          "zh": "甘蔗或甜菜"
+        },
+        {
+          "en": "Only apples",
+          "zh": "只用苹果"
+        },
+        {
+          "en": "Salt and water according to some versions of the story",
+          "zh": "盐和水的混合物（按书中另一种说法）"
+        }
+      ],
+      "answer": 1,
       "skill": "Key Ideas and Details",
-      "explain": {"en":"The text says 'Table sugar is sucrose. Sucrose comes from sugar cane or sugar beets.'","zh":"文中说'餐桌糖是蔗糖。蔗糖来自甘蔗或甜菜'。"}
+      "explain": {
+        "en": "The text says 'Table sugar is sucrose. Sucrose comes from sugar cane or sugar beets.'",
+        "zh": "文中说'餐桌糖是蔗糖。蔗糖来自甘蔗或甜菜'。"
+      }
     },
     {
-      "q": {"en":"Why is sugar added to ketchup and pasta sauce?","zh":"为什么番茄酱和意面酱里要加糖？"},
-      "options": [{"en":"Tomatoes taste bitter when cooked, so sugar removes the bitter taste","zh":"番茄煮熟后会发苦，加糖能去除苦味"},{"en":"To make them redder","zh":"为了让它们更红"},{"en":"To preserve them forever","zh":"为了让它们永久保存"},{"en":"Because they are sweet foods","zh":"因为它们本身就是甜食"}],
-      "answer": 0,
+      "q": {
+        "en": "Why is sugar added to ketchup and pasta sauce?",
+        "zh": "为什么番茄酱和意面酱里要加糖？"
+      },
+      "options": [
+        {
+          "en": "To preserve them forever",
+          "zh": "为了让它们永久保存"
+        },
+        {
+          "en": "Tomatoes taste bitter when cooked, so sugar removes the bitter taste",
+          "zh": "番茄煮熟后会发苦，加糖能去除苦味"
+        },
+        {
+          "en": "To make them redder",
+          "zh": "为了让它们更红"
+        },
+        {
+          "en": "Because they are sweet foods according to some versions of the story",
+          "zh": "因为它们本身就是甜食（按书中另一种说法）"
+        }
+      ],
+      "answer": 1,
       "skill": "Craft and Structure",
-      "explain": {"en":"The book explains tomatoes 'contain acids that can give them a bitter taste when cooked,' so sugar is added to remove it.","zh":"书中解释番茄'含有酸，煮熟后会发苦'，所以加糖来去除苦味。"}
+      "explain": {
+        "en": "The book explains tomatoes 'contain acids that can give them a bitter taste when cooked,' so sugar is added to remove it.",
+        "zh": "书中解释番茄'含有酸，煮熟后会发苦'，所以加糖来去除苦味。"
+      }
     },
     {
-      "q": {"en":"What does the body do with sugar it does not use?","zh":"身体把用不完的糖变成什么？"},
-      "options": [{"en":"Turns it into fat and stores it","zh":"把它转化成脂肪储存起来"},{"en":"Throws it away as sweat","zh":"当作汗水排掉"},{"en":"Makes it into bones","zh":"变成骨头"},{"en":"Sends it to the brain only","zh":"只送到大脑"}],
+      "q": {
+        "en": "What does the body do with sugar it does not use?",
+        "zh": "身体把用不完的糖变成什么？"
+      },
+      "options": [
+        {
+          "en": "Turns it into fat and stores it",
+          "zh": "把它转化成脂肪储存起来"
+        },
+        {
+          "en": "Sends it to the brain only according to some versions of the story",
+          "zh": "只送到大脑（按书中另一种说法）"
+        },
+        {
+          "en": "Makes it into bones",
+          "zh": "变成骨头"
+        },
+        {
+          "en": "Throws it away as sweat",
+          "zh": "当作汗水排掉"
+        }
+      ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en":"The text says 'it changes the sugar to fat and stores it for later' when too much sugar comes in.","zh":"文中说当过多糖分进入体内，身体'把糖转化为脂肪并储存起来以备后用'。"}
+      "explain": {
+        "en": "The text says 'it changes the sugar to fat and stores it for later' when too much sugar comes in.",
+        "zh": "文中说当过多糖分进入体内，身体'把糖转化为脂肪并储存起来以备后用'。"
+      }
     },
     {
-      "q": {"en":"Why did the author write this book?","zh":"作者写这本书的目的是什么？"},
-      "options": [{"en":"To inform readers that sugar hides in many foods and affects health","zh":"告知读者糖藏在许多食物中并影响健康"},{"en":"To teach how to bake cookies","zh":"教人烤饼干"},{"en":"To describe ocean animals","zh":"描写海洋动物"},{"en":"To tell a ghost story","zh":"讲一个鬼故事"}],
-      "answer": 0,
+      "q": {
+        "en": "Why did the author write this book?",
+        "zh": "作者写这本书的目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To teach how to bake cookies according to some versions of the story in an early draft of the book",
+          "zh": "教人烤饼干（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To tell a ghost story",
+          "zh": "讲一个鬼故事"
+        },
+        {
+          "en": "To describe ocean animals",
+          "zh": "描写海洋动物"
+        },
+        {
+          "en": "To inform readers that sugar hides in many foods and affects health",
+          "zh": "告知读者糖藏在许多食物中并影响健康"
+        }
+      ],
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en":"The focus question is 'What happens to our bodies when we eat sugar?' showing the book aims to teach about hidden sugar.","zh":"焦点问题是'我们吃糖时身体会发生什么？'，说明本书旨在讲解隐藏的糖。"}
+      "explain": {
+        "en": "The focus question is 'What happens to our bodies when we eat sugar?' showing the book aims to teach about hidden sugar.",
+        "zh": "焦点问题是'我们吃糖时身体会发生什么？'，说明本书旨在讲解隐藏的糖。"
+      }
     },
     {
-      "q": {"en":"Which breakfast cereal in the book had the MOST sugar per cup?","zh":"书中哪种早餐麦片每杯含糖量最高？"},
-      "options": [{"en":"Raisin Bran (18g)","zh":"葡萄干麦片（18克）"},{"en":"Shredded Wheat (0g)","zh":" shredded wheat（0克）"},{"en":"Corn Flakes (2g)","zh":"玉米片（2克）"},{"en":"Toasted Oats (1g)","zh":"烤燕麦（1克）"}],
+      "q": {
+        "en": "Which breakfast cereal in the book had the MOST sugar per cup?",
+        "zh": "书中哪种早餐麦片每杯含糖量最高？"
+      },
+      "options": [
+        {
+          "en": "Raisin Bran (18g)",
+          "zh": "葡萄干麦片（18克）"
+        },
+        {
+          "en": "Toasted Oats (1g)",
+          "zh": "烤燕麦（1克）"
+        },
+        {
+          "en": "Corn Flakes (2g)",
+          "zh": "玉米片（2克）"
+        },
+        {
+          "en": "Shredded Wheat (0g)",
+          "zh": " shredded wheat（0克）"
+        }
+      ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en":"The chart lists Raisin Bran at 18g, the highest of the cereals shown.","zh":"表格中葡萄干麦片为18克，是所列麦片中最高的。"}
+      "explain": {
+        "en": "The chart lists Raisin Bran at 18g, the highest of the cereals shown.",
+        "zh": "表格中葡萄干麦片为18克，是所列麦片中最高的。"
+      }
     },
     {
-      "q": {"en":"What does the suffix '-ose' at the end of lactose, fructose, and glucose tell you?","zh":"lactose、fructose、glucose 这些词尾的'-ose'表示什么？"},
-      "options": [{"en":"The word is a kind of sugar","zh":"这个词指的是一种糖"},{"en":"The word is a color","zh":"这个词指一种颜色"},{"en":"The word is a type of fish","zh":"这个词指一种鱼"},{"en":"The word is a verb","zh":"这个词是动词"}],
-      "answer": 0,
+      "q": {
+        "en": "What does the suffix '-ose' at the end of lactose, fructose, and glucose tell you?",
+        "zh": "lactose、fructose、glucose 这些词尾的'-ose'表示什么？"
+      },
+      "options": [
+        {
+          "en": "The word is a verb",
+          "zh": "这个词是动词"
+        },
+        {
+          "en": "The word is a type of fish according to some versions of the story",
+          "zh": "这个词指一种鱼（按书中另一种说法）"
+        },
+        {
+          "en": "The word is a color",
+          "zh": "这个词指一种颜色"
+        },
+        {
+          "en": "The word is a kind of sugar",
+          "zh": "这个词指的是一种糖"
+        }
+      ],
+      "answer": 3,
       "skill": "Craft and Structure",
-      "explain": {"en":"The 'WORD WISE' note says the suffix -ose 'identifies things as sugars.'","zh":"'词汇须知'一栏说明后缀 -ose'用来标识糖类物质'。"}
+      "explain": {
+        "en": "The 'WORD WISE' note says the suffix -ose 'identifies things as sugars.'",
+        "zh": "'词汇须知'一栏说明后缀 -ose'用来标识糖类物质'。"
+      }
     },
     {
-      "q": {"en":"What is glucose?","zh":"什么是葡萄糖？"},
-      "options": [{"en":"A simple sugar that is a major energy source for the body","zh":"一种为身体提供主要能量的单糖"},{"en":"A type of vegetable","zh":"一种蔬菜"},{"en":"A kind of animal fat","zh":"一种动物脂肪"},{"en":"A red food coloring","zh":"一种红色食用色素"}],
+      "q": {
+        "en": "What is glucose?",
+        "zh": "什么是葡萄糖？"
+      },
+      "options": [
+        {
+          "en": "A simple sugar that is a major energy source for the body",
+          "zh": "一种为身体提供主要能量的单糖"
+        },
+        {
+          "en": "A red food coloring according to some versions of the story",
+          "zh": "一种红色食用色素（按书中另一种说法）"
+        },
+        {
+          "en": "A type of vegetable",
+          "zh": "一种蔬菜"
+        },
+        {
+          "en": "A kind of animal fat",
+          "zh": "一种动物脂肪"
+        }
+      ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en":"The glossary defines glucose as 'a simple sugar that is a major energy source for the body.'","zh":"词汇表把葡萄糖定义为'为身体提供主要能量的一种单糖'。"}
+      "explain": {
+        "en": "The glossary defines glucose as 'a simple sugar that is a major energy source for the body.'",
+        "zh": "词汇表把葡萄糖定义为'为身体提供主要能量的一种单糖'。"
+      }
     },
     {
-      "q": {"en":"What are two ways the book suggests to limit added sugar?","zh":"书中建议用哪两种方法来减少添加糖？"},
-      "options": [{"en":"Eat more natural food and read food labels","zh":"多吃天然食物并阅读食品标签"},{"en":"Eat only candy","zh":"只吃糖果"},{"en":"Drink more soda","zh":"多喝汽水"},{"en":"Skip all meals","zh":"跳过所有正餐"}],
-      "answer": 0,
+      "q": {
+        "en": "What are two ways the book suggests to limit added sugar?",
+        "zh": "书中建议用哪两种方法来减少添加糖？"
+      },
+      "options": [
+        {
+          "en": "Eat only candy",
+          "zh": "只吃糖果"
+        },
+        {
+          "en": "Drink more soda",
+          "zh": "多喝汽水"
+        },
+        {
+          "en": "Eat more natural food and read food labels",
+          "zh": "多吃天然食物并阅读食品标签"
+        },
+        {
+          "en": "Skip all meals according to some versions of the story",
+          "zh": "跳过所有正餐（按书中另一种说法）"
+        }
+      ],
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en":"The book advises eating 'more natural food and less prepared food' and 'read labels on packaged foods.'","zh":"书中建议'多吃天然食物、少吃加工食品'，并'阅读包装食品上的标签'。"}
+      "explain": {
+        "en": "The book advises eating 'more natural food and less prepared food' and 'read labels on packaged foods.'",
+        "zh": "书中建议'多吃天然食物、少吃加工食品'，并'阅读包装食品上的标签'。"
+      }
     },
     {
-      "q": {"en":"What is the main message about sugar?","zh":"关于糖，这本书的核心信息是什么？"},
-      "options": [{"en":"It can be almost anywhere, so pay attention to what you eat","zh":"它几乎无处不在，要注意自己吃的东西"},{"en":"Sugar is always bad and must be avoided","zh":"糖总是有害，必须完全避免"},{"en":"Only children eat sugar","zh":"只有小孩才吃糖"},{"en":"Sugar powers cars best","zh":"糖最适合给汽车提供动力"}],
-      "answer": 0,
+      "q": {
+        "en": "What is the main message about sugar?",
+        "zh": "关于糖，这本书的核心信息是什么？"
+      },
+      "options": [
+        {
+          "en": "Sugar powers cars best",
+          "zh": "糖最适合给汽车提供动力"
+        },
+        {
+          "en": "Only children eat sugar",
+          "zh": "只有小孩才吃糖"
+        },
+        {
+          "en": "It can be almost anywhere, so pay attention to what you eat",
+          "zh": "它几乎无处不在，要注意自己吃的东西"
+        },
+        {
+          "en": "Sugar is always bad and must be avoided according to some versions of the story",
+          "zh": "糖总是有害，必须完全避免（按书中另一种说法）"
+        }
+      ],
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en":"The ending says sugar 'can be almost anywhere' and 'it's important to pay attention to what we eat.'","zh":"结尾说糖'几乎无处不在'，并且'注意我们吃的东西很重要'。"}
+      "explain": {
+        "en": "The ending says sugar 'can be almost anywhere' and 'it's important to pay attention to what we eat.'",
+        "zh": "结尾说糖'几乎无处不在'，并且'注意我们吃的东西很重要'。"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en":"Look at three foods you ate today. Which one probably had the most added sugar, and how could you check?","zh":"看看你今天吃的三样食物。哪一样可能添加了最多的糖？你该怎么去核实？"},
-    "guidance": {"en":["Name the three foods.","Suggest reading the ingredient label to check."],"zh":["说出这三样食物。","建议通过阅读配料表来核实。"]}
+    "prompt": {
+      "en": "Look at three foods you ate today. Which one probably had the most added sugar, and how could you check?",
+      "zh": "看看你今天吃的三样食物。哪一样可能添加了最多的糖？你该怎么去核实？"
+    },
+    "guidance": {
+      "en": [
+        "Name the three foods.",
+        "Suggest reading the ingredient label to check."
+      ],
+      "zh": [
+        "说出这三样食物。",
+        "建议通过阅读配料表来核实。"
+      ]
+    }
   }
 }

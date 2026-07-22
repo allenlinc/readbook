@@ -13,20 +13,20 @@
       },
       "options": [
         {
-          "en": "England, 1564",
-          "zh": "英格兰，1564年"
+          "en": "Spain, 1642",
+          "zh": "西班牙，1642年"
         },
         {
           "en": "Italy, 1564",
           "zh": "意大利，1564年"
         },
         {
-          "en": "France, 1609",
-          "zh": "法国，1609年"
+          "en": "England, 1564",
+          "zh": "英格兰，1564年"
         },
         {
-          "en": "Spain, 1642",
-          "zh": "西班牙，1642年"
+          "en": "France, 1609",
+          "zh": "法国，1609年"
         }
       ],
       "answer": 1,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "It was made of gold",
-          "zh": "它是金子做的"
-        },
-        {
           "en": "Every swing, wide or narrow, took the same amount of time",
           "zh": "无论摆幅大小，每次摆动用时都相同"
+        },
+        {
+          "en": "It played music",
+          "zh": "它会奏乐"
         },
         {
           "en": "It was on fire",
           "zh": "它着火了"
         },
         {
-          "en": "It played music",
-          "zh": "它会奏乐"
+          "en": "It was made of gold according to some versions of the story",
+          "zh": "它是金子做的（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'Although some swings were much wider than others, every swing took exactly the same amount of time,' leading him to design a clock using a swinging weight.",
@@ -77,8 +77,8 @@
           "zh": "让远处物体看起来更近的望远镜"
         },
         {
-          "en": "a microscope",
-          "zh": "显微镜"
+          "en": "a microscope according to some versions of the story",
+          "zh": "显微镜（按书中另一种说法）"
         },
         {
           "en": "a clock",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A car",
-          "zh": "汽车"
-        },
-        {
-          "en": "A telescope that made objects look thirty times bigger",
-          "zh": "让物体放大三十倍的望远镜"
-        },
-        {
           "en": "A microscope",
           "zh": "显微镜"
         },
         {
-          "en": "A printing press",
-          "zh": "印刷机"
+          "en": "A car",
+          "zh": "汽车"
+        },
+        {
+          "en": "A printing press according to some versions of the story",
+          "zh": "印刷机（按书中另一种说法）"
+        },
+        {
+          "en": "A telescope that made objects look thirty times bigger",
+          "zh": "让物体放大三十倍的望远镜"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'Soon he was able to make distant objects look thirty times bigger. He had built a telescope.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Sunspots",
-          "zh": "太阳黑子"
-        },
-        {
-          "en": "Jupiter's four largest moons",
-          "zh": "木星最大的四颗卫星"
-        },
-        {
           "en": "That Venus changes shape like the Moon",
           "zh": "金星像月亮一样改变形状"
         },
         {
           "en": "That Earth is flat",
           "zh": "地球是平的"
+        },
+        {
+          "en": "Sunspots",
+          "zh": "太阳黑子"
+        },
+        {
+          "en": "Jupiter's four largest moons",
+          "zh": "木星最大的四颗卫星"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Galileo observed sunspots, Jupiter's four largest moons, and Venus's phases; he argued Earth moves around the Sun, not that Earth is flat.",
@@ -163,10 +163,6 @@
       },
       "options": [
         {
-          "en": "He stole money",
-          "zh": "他偷了钱"
-        },
-        {
           "en": "His discoveries suggested Earth was not the center of the solar system, opposing Church teaching",
           "zh": "他的发现表明地球并非太阳系中心，与教会教义相悖"
         },
@@ -175,11 +171,15 @@
           "zh": "他是个国王"
         },
         {
-          "en": "He wrote in Italian",
-          "zh": "他用意大利文写作"
+          "en": "He wrote in Italian according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他用意大利文写作（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "He stole money",
+          "zh": "他偷了钱"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'The Catholic Church did not like his ideas... the Church had taught that the Sun, Moon, planets, and stars all moved around Earth,' and Galileo's proof opposed this.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "'Eureka'",
-          "zh": "“尤里卡”"
+          "en": "'To be or not to be'",
+          "zh": "“生存还是毁灭”"
         },
         {
           "en": "'And yet it moves'",
           "zh": "“然而它仍在转动”"
         },
         {
-          "en": "'I think, therefore I am'",
-          "zh": "“我思故我在”"
+          "en": "'Eureka'",
+          "zh": "“尤里卡”"
         },
         {
-          "en": "'To be or not to be'",
-          "zh": "“生存还是毁灭”"
+          "en": "'I think, therefore I am'",
+          "zh": "“我思故我在”"
         }
       ],
       "answer": 1,
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "1633",
-          "zh": "1633年"
+          "en": "1757 according to some versions of the story",
+          "zh": "1757年（按书中另一种说法）"
         },
         {
-          "en": "1757",
-          "zh": "1757年"
+          "en": "1642",
+          "zh": "1642年"
         },
         {
           "en": "1992",
           "zh": "1992年"
         },
         {
-          "en": "1642",
-          "zh": "1642年"
+          "en": "1633",
+          "zh": "1633年"
         }
       ],
       "answer": 2,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "How do questions lead to new discoveries?",
-          "zh": "问题如何带来新发现？"
+          "en": "How to build a clock",
+          "zh": "如何造钟"
+        },
+        {
+          "en": "Who invented the telescope? according to some versions of the story",
+          "zh": "谁发明了望远镜？（按书中另一种说法）"
         },
         {
           "en": "Why is the sky blue?",
           "zh": "天空为什么是蓝的？"
         },
         {
-          "en": "Who invented the telescope?",
-          "zh": "谁发明了望远镜？"
-        },
-        {
-          "en": "How to build a clock",
-          "zh": "如何造钟"
+          "en": "How do questions lead to new discoveries?",
+          "zh": "问题如何带来新发现？"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Focus Question at the start is 'How do questions lead to new discoveries?' and the book credits Galileo's questioning.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "He was the first to describe laws of nature with math and use measurable data",
-          "zh": "他最先用数学描述自然规律并使用可测量数据"
-        },
-        {
           "en": "He discovered America",
           "zh": "他发现了美洲"
         },
         {
-          "en": "He built the first car",
-          "zh": "他造出了第一辆汽车"
+          "en": "He built the first car according to some versions of the story in an early draft of the book",
+          "zh": "他造出了第一辆汽车（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He was the first to describe laws of nature with math and use measurable data",
+          "zh": "他最先用数学描述自然规律并使用可测量数据"
         },
         {
           "en": "He was a king",
           "zh": "他是个国王"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "'He was the first to say that laws of nature could be described using math... one of the first scientists to insist on using measurable data... Today, we call him the father of modern science.'",

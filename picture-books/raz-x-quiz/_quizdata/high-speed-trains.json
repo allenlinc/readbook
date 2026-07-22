@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "France, in the 1980s.",
-          "zh": "法国，20世纪80年代。"
-        },
-        {
-          "en": "China, starting in 2004.",
-          "zh": "中国，始于2004年。"
-        },
-        {
           "en": "Germany, in the 1970s.",
           "zh": "德国，20世纪70年代。"
         },
         {
           "en": "Japan, for the 1964 Olympic Games (the Shinkansen / bullet train).",
           "zh": "日本，为1964年奥运会（新干线/子弹头列车）。"
+        },
+        {
+          "en": "France, in the 1980s.",
+          "zh": "法国，20世纪80年代。"
+        },
+        {
+          "en": "China, starting in 2004. according to some versions of the story in an early draft of the book",
+          "zh": "中国，始于2004年。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'Japan introduced the first modern high-speed train design... when it hosted the 1964 Olympic Games. That train was the Shinkansen, or bullet train.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Diesel, steam, and electric trains.",
-          "zh": "柴油、蒸汽和电力列车。"
+          "en": "Amtrak, Eurostar, and AVE.",
+          "zh": "美铁、欧洲之星和AVE。"
         },
         {
           "en": "Bullet, Chunnel, and Acela.",
           "zh": "子弹头、英吉利海峡隧道和阿西乐。"
         },
         {
-          "en": "Amtrak, Eurostar, and AVE.",
-          "zh": "美铁、欧洲之星和AVE。"
-        },
-        {
           "en": "Shinkansen, TGV, and maglev.",
           "zh": "新干线、TGV和磁悬浮。"
+        },
+        {
+          "en": "Diesel, steam, and electric trains.",
+          "zh": "柴油、蒸汽和电力列车。"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The section 'Three Types of Fast' states 'The three main types of high-speed trains are the Shinkansen, the TGV, and maglev trains.'",
@@ -73,12 +73,8 @@
       },
       "options": [
         {
-          "en": "Magnetic forces cause it to levitate above the guideway without touching it.",
-          "zh": "磁力使它悬浮在导轨上方，不与轨道接触。"
-        },
-        {
-          "en": "It rides on wheels like a normal train.",
-          "zh": "它像普通列车一样靠轮子行驶。"
+          "en": "It rides on wheels like a normal train. according to some versions of the story",
+          "zh": "它像普通列车一样靠轮子行驶。（按书中另一种说法）"
         },
         {
           "en": "It floats on water.",
@@ -87,9 +83,13 @@
         {
           "en": "It uses helicopter rotors.",
           "zh": "它使用直升机旋翼。"
+        },
+        {
+          "en": "Magnetic forces cause it to levitate above the guideway without touching it.",
+          "zh": "磁力使它悬浮在导轨上方，不与轨道接触。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains maglev uses 'the power of magnets to fly along the tracks without touching the ground' and magnetic forces 'cause the train to levitate, or float, above the guideway.'",
@@ -103,20 +103,20 @@
       },
       "options": [
         {
-          "en": "A Japanese bullet train.",
-          "zh": "日本子弹头列车。"
+          "en": "A German rail network.",
+          "zh": "德国的铁路网。"
         },
         {
           "en": "A French high-speed train; TGV means 'train à grande vitesse' ('high-speed train' in French).",
           "zh": "法国的高速列车；TGV 意为'train à grande vitesse'（法语'高速列车'）。"
         },
         {
-          "en": "A type of maglev in China.",
-          "zh": "中国的一种磁悬浮。"
+          "en": "A type of maglev in China. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "中国的一种磁悬浮。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
-          "en": "A German rail network.",
-          "zh": "德国的铁路网。"
+          "en": "A Japanese bullet train.",
+          "zh": "日本子弹头列车。"
         }
       ],
       "answer": 1,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "They only run at night.",
-          "zh": "它们只在夜间运行。"
-        },
-        {
           "en": "They are faster than buses and as fast as airplanes (counting airport time), and more comfortable.",
           "zh": "它们比巴士快，与飞机一样快（算上机场时间），而且更舒适。"
         },
         {
-          "en": "They are cheaper than walking.",
-          "zh": "它们比走路还便宜。"
+          "en": "They are cheaper than walking. according to some versions of the story in an early draft of the book",
+          "zh": "它们比走路还便宜。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They only run at night.",
+          "zh": "它们只在夜间运行。"
         },
         {
           "en": "They don't need tracks.",
           "zh": "它们不需要轨道。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says high-speed trains are 'perfect for trips between one hundred and five hundred miles'—faster than buses and 'just as fast as airplanes when you consider the amount of time you spend at the airport,' and more comfortable.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "These areas have the most coal.",
-          "zh": "这些地区煤炭最多。"
-        },
-        {
           "en": "These areas have high population density with many people traveling frequently.",
           "zh": "这些地区人口密度高，有很多人频繁出行。"
+        },
+        {
+          "en": "These areas are simply the richest. according to some versions of the story in an early draft of the book",
+          "zh": "这些地区只是最富裕。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "These areas have no airplanes.",
           "zh": "这些地区没有飞机。"
         },
         {
-          "en": "These areas are simply the richest.",
-          "zh": "这些地区只是最富裕。"
+          "en": "These areas have the most coal.",
+          "zh": "这些地区煤炭最多。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says one reason for success is that 'these countries all have many areas with high population density' where large numbers of people travel frequently.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "A type of train fuel.",
-          "zh": "一种列车燃料。"
+          "en": "Gases in Earth's atmosphere that trap heat and contribute to global warming.",
+          "zh": "地球大气中捕获热量、导致全球变暖的气体。"
         },
         {
           "en": "Bars around which wheels revolve.",
           "zh": "轮子绕其转动的轴杆。"
         },
         {
-          "en": "Gases in Earth's atmosphere that trap heat and contribute to global warming.",
-          "zh": "地球大气中捕获热量、导致全球变暖的气体。"
+          "en": "A type of train fuel.",
+          "zh": "一种列车燃料。"
         },
         {
-          "en": "Low bridges over dry land or long valleys.",
-          "zh": "横跨旱地或长谷的低桥。"
+          "en": "Low bridges over dry land or long valleys. according to some versions of the story",
+          "zh": "横跨旱地或长谷的低桥。（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'greenhouse gases' as 'gases in Earth's atmosphere that trap heat and contribute to global warming.'",
@@ -227,19 +227,19 @@
           "zh": "卖火车票。"
         },
         {
-          "en": "To tell a fictional story.",
-          "zh": "讲一个虚构故事。"
-        },
-        {
           "en": "To inform readers about how high-speed trains work, their types, benefits, and what they need to succeed.",
           "zh": "向读者介绍高速列车如何运作、有哪些类型、有何优势，以及成功所需的条件。"
         },
         {
-          "en": "To promote only maglev trains.",
-          "zh": "只推广磁悬浮列车。"
+          "en": "To promote only maglev trains. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "只推广磁悬浮列车。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "To tell a fictional story.",
+          "zh": "讲一个虚构故事。"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is an informational text covering history, how the trains work, the three types, safety, advantages, and what they need to be successful.",
@@ -261,15 +261,15 @@
           "zh": "法国TGV脱轨。"
         },
         {
-          "en": "During the Sendai Earthquake on March 11, 2011, power was cut to 27 Shinkansen trains, which stopped safely with no injuries.",
-          "zh": "2011年3月11日仙台地震时，27列新干线被切断电源，安全停车，无人受伤。"
+          "en": "A Chunnel flood in 1994. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "1994年英吉利海峡隧道洪水。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
-          "en": "A Chunnel flood in 1994.",
-          "zh": "1994年英吉利海峡隧道洪水。"
+          "en": "During the Sendai Earthquake on March 11, 2011, power was cut to 27 Shinkansen trains, which stopped safely with no injuries.",
+          "zh": "2011年3月11日仙台地震时，27列新干线被切断电源，安全停车，无人受伤。"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that during the March 11, 2011 Sendai Earthquake, an early-warning system 'cut the power to twenty-seven Shinkansen trains... The trains automatically applied their emergency brakes and safely came to a stop without any injuries.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "A California network (Los Angeles to San Francisco in under 2 hours 20 minutes at up to 220 mph).",
-          "zh": "加州网络（洛杉矶到旧金山不到2小时20分钟，时速最高220英里）。"
-        },
-        {
-          "en": "Amtrak's Acela Express, which began in 2011.",
-          "zh": "2011年开始的美铁阿西乐特快。"
-        },
-        {
           "en": "A maglev across the English Channel.",
           "zh": "横跨英吉利海峡的磁悬浮。"
+        },
+        {
+          "en": "Amtrak's Acela Express, which began in 2011. according to some versions of the story in an early draft of the book",
+          "zh": "2011年开始的美铁阿西乐特快。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A California network (Los Angeles to San Francisco in under 2 hours 20 minutes at up to 220 mph).",
+          "zh": "加州网络（洛杉矶到旧金山不到2小时20分钟，时速最高220英里）。"
         },
         {
           "en": "A system in Florida.",
           "zh": "佛州的一个系统。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'In the United States, the first true high-speed rail network is being developed in California' (LA to SF in under 2h20 at up to 220 mph).",

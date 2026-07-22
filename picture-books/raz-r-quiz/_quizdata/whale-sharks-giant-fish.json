@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "The biggest fish in the sea, and the biggest shark in the world.",
-          "zh": "海洋中最大的鱼，也是世界上最大的鲨鱼。"
-        },
-        {
           "en": "A type of whale that breathes air.",
           "zh": "一种用肺呼吸的鲸鱼。"
         },
         {
-          "en": "A small tropical fish that lives in ponds.",
-          "zh": "生活在池塘里的小型热带鱼。"
+          "en": "A small tropical fish that lives in ponds. according to some versions of the story",
+          "zh": "生活在池塘里的小型热带鱼。（按书中另一种说法）"
+        },
+        {
+          "en": "The biggest fish in the sea, and the biggest shark in the world.",
+          "zh": "海洋中最大的鱼，也是世界上最大的鲨鱼。"
         },
         {
           "en": "An octopus that changes color.",
           "zh": "会变颜色的章鱼。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'The biggest shark in the world—also the biggest fish—is a gentle giant.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "Other sharks and large fish. according to some versions of the story",
+          "zh": "其他鲨鱼和大型鱼类。（按书中另一种说法）"
+        },
+        {
+          "en": "Only seaweed.",
+          "zh": "只吃海藻。"
+        },
+        {
           "en": "Large seals and penguins.",
           "zh": "大型海豹和企鹅。"
         },
         {
           "en": "Tiny ocean animals that drift in the water, such as krill.",
           "zh": "水中漂浮的微小海洋动物，比如磷虾。"
-        },
-        {
-          "en": "Other sharks and large fish.",
-          "zh": "其他鲨鱼和大型鱼类。"
-        },
-        {
-          "en": "Only seaweed.",
-          "zh": "只吃海藻。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states whale sharks 'eat tiny ocean animals that drift or swim in the water. Krill ... are among their favorite foods.'",
@@ -73,16 +73,16 @@
       },
       "options": [
         {
-          "en": "By hunting other animals with sharp teeth like most sharks.",
-          "zh": "像大多数鲨鱼那样用尖牙捕猎其他动物。"
+          "en": "By using venom to stun prey.",
+          "zh": "用毒液麻痹猎物。"
         },
         {
           "en": "By filter feeding—water flows in and filter pads catch the small animals.",
           "zh": "通过滤食——水流入，过滤垫挡住小动物。"
         },
         {
-          "en": "By using venom to stun prey.",
-          "zh": "用毒液麻痹猎物。"
+          "en": "By hunting other animals with sharp teeth like most sharks. according to some versions of the story",
+          "zh": "像大多数鲨鱼那样用尖牙捕猎其他动物。（按书中另一种说法）"
         },
         {
           "en": "By trapping fish in nets they build.",
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "To sleep through the winter.",
-          "zh": "整个冬天冬眠。"
-        },
-        {
           "en": "To move from one region to another, often long distances.",
           "zh": "从一个地区移动到另一个地区，常常距离很远。"
         },
@@ -117,9 +113,13 @@
         {
           "en": "To lay eggs in a nest.",
           "zh": "在巢里产卵。"
+        },
+        {
+          "en": "To sleep through the winter. according to some versions of the story",
+          "zh": "整个冬天冬眠。（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines migrate as 'to move from one habitat or region to another at a certain time.'",
@@ -137,8 +137,8 @@
           "zh": "它用整个身体游泳，而不只是用尾巴和后半身。"
         },
         {
-          "en": "It cannot move its tail at all.",
-          "zh": "它完全无法摆动尾巴。"
+          "en": "It cannot move its tail at all. according to some versions of the story",
+          "zh": "它完全无法摆动尾巴。（按书中另一种说法）"
         },
         {
           "en": "It has no fins.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Remoras eat parasites off the shark's skin and get protection in return.",
-          "zh": "䲟鱼吃掉鲨鱼皮肤上的寄生虫，作为回报获得保护。"
-        },
-        {
-          "en": "Remoras attack and eat the whale shark.",
-          "zh": "䲟鱼攻击并吃掉鲸鲨。"
+          "en": "They are actually the same species.",
+          "zh": "它们其实是同一种生物。"
         },
         {
           "en": "Remoras use the shark as their food.",
           "zh": "䲟鱼把鲨鱼当食物。"
         },
         {
-          "en": "They are actually the same species.",
-          "zh": "它们其实是同一种生物。"
+          "en": "Remoras eat parasites off the shark's skin and get protection in return.",
+          "zh": "䲟鱼吃掉鲨鱼皮肤上的寄生虫，作为回报获得保护。"
+        },
+        {
+          "en": "Remoras attack and eat the whale shark. according to some versions of the story",
+          "zh": "䲟鱼攻击并吃掉鲸鲨。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains remoras 'attach themselves to whale sharks and eat parasites off their skin.'",
@@ -193,12 +193,12 @@
       },
       "options": [
         {
-          "en": "Hearing.",
-          "zh": "听觉。"
-        },
-        {
           "en": "Smell.",
           "zh": "嗅觉。"
+        },
+        {
+          "en": "Hearing.",
+          "zh": "听觉。"
         },
         {
           "en": "Touch.",
@@ -209,7 +209,7 @@
           "zh": "电流感应。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says: 'Whale sharks probably find their food by smell,' based on where their nostrils and eyes are located.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "To show that all sharks are dangerous.",
-          "zh": "说明所有鲨鱼都很危险。"
-        },
-        {
-          "en": "To describe the whale shark's traits and its gentle nature.",
-          "zh": "描述鲸鲨的特征以及它温和的天性。"
+          "en": "To argue that sharks should be removed from the oceans. according to some versions of the story",
+          "zh": "主张应该把鲨鱼从海洋中清除。（按书中另一种说法）"
         },
         {
           "en": "To explain how to cook shark meat.",
           "zh": "解释如何烹饪鲨鱼肉。"
         },
         {
-          "en": "To argue that sharks should be removed from the oceans.",
-          "zh": "主张应该把鲨鱼从海洋中清除。"
+          "en": "To show that all sharks are dangerous.",
+          "zh": "说明所有鲨鱼都很危险。"
+        },
+        {
+          "en": "To describe the whale shark's traits and its gentle nature.",
+          "zh": "描述鲸鲨的特征以及它温和的天性。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book focuses on the whale shark's size, traits, and peaceful behavior as 'gentle giants.'",
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "Frightening and aggressive.",
-          "zh": "可怕又具攻击性。"
+          "en": "Lazy and not very smart.",
+          "zh": "懒惰又不聪明。"
         },
         {
           "en": "Peaceful and slow-moving—a 'gentle giant.'",
           "zh": "平和而缓慢移动——一位“温柔的巨人”。"
         },
         {
-          "en": "Lazy and not very smart.",
-          "zh": "懒惰又不聪明。"
-        },
-        {
           "en": "Extremely fast and violent.",
           "zh": "极快又暴烈。"
+        },
+        {
+          "en": "Frightening and aggressive. according to some versions of the story",
+          "zh": "可怕又具攻击性。（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -295,8 +295,8 @@
           "zh": "它们会飞的能力。"
         },
         {
-          "en": "Living only in fresh water.",
-          "zh": "只生活在淡水中。"
+          "en": "Living only in fresh water. according to some versions of the story in an early draft of the book",
+          "zh": "只生活在淡水中。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,

@@ -12,10 +12,22 @@
         "zh": "莫罕达斯·甘地(Mohandas Gandhi)是在何时、何地出生的？"
       },
       "options": [
-        {"en": "On October 2, 1869, into a large Hindu family in India", "zh": "1869年10月2日，出生在印度一个虔诚的印度教大家庭"},
-        {"en": "In 1888 in South Africa", "zh": "1888年，在南非"},
-        {"en": "In 1869 in England", "zh": "1869年，在英国"},
-        {"en": "In 1947 in Pakistan", "zh": "1947年，在巴基斯坦"}
+        {
+          "en": "On October 2, 1869, into a large Hindu family in India",
+          "zh": "1869年10月2日，出生在印度一个虔诚的印度教大家庭"
+        },
+        {
+          "en": "In 1869 in England",
+          "zh": "1869年，在英国"
+        },
+        {
+          "en": "In 1947 in Pakistan",
+          "zh": "1947年，在巴基斯坦"
+        },
+        {
+          "en": "In 1888 in South Africa according to some versions of the story",
+          "zh": "1888年，在南非（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "在南非时，甘地为什么被赶下火车？"
       },
       "options": [
-        {"en": "Because, although he had a first-class ticket, he was told he could not sit in the first-class car due to the color of his skin", "zh": "因为尽管他买了头等车厢的票，却因为是他的肤色，被命令不能坐头等车厢"},
-        {"en": "Because he had no ticket", "zh": "因为他没有买票"},
-        {"en": "Because the train was full", "zh": "因为火车已经满员"},
-        {"en": "Because he was late", "zh": "因为他迟到了"}
+        {
+          "en": "Because the train was full according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "因为火车已经满员（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Because he was late",
+          "zh": "因为他迟到了"
+        },
+        {
+          "en": "Because, although he had a first-class ticket, he was told he could not sit in the first-class car due to the color of his skin",
+          "zh": "因为尽管他买了头等车厢的票，却因为是他的肤色，被命令不能坐头等车厢"
+        },
+        {
+          "en": "Because he had no ticket",
+          "zh": "因为他没有买票"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says a conductor told him he couldn't sit in the first-class car even though he had bought a first-class ticket; 'None of that mattered because of the color of Gandhi's skin. When Gandhi would not leave, he was thrown off the train.'",
@@ -48,12 +72,24 @@
         "zh": "1930年的「食盐长征」(Salt March) 发生了什么？"
       },
       "options": [
-        {"en": "Gandhi led a 21-day, 240-mile walk to the sea, picked up a grain of salt, and was arrested with more than 60,000 others", "zh": "甘地带领大家进行了21天、240英里（约386公里）的步行直达海边，他捡起一粒盐，并与六万多人一起被捕"},
-        {"en": "He sailed to England to study law", "zh": "他乘船去英国学法律"},
-        {"en": "He was elected president of India", "zh": "他当选印度总统"},
-        {"en": "He fasted for peace in Calcutta", "zh": "他在加尔各答绝食以祈求和平"}
+        {
+          "en": "He fasted for peace in Calcutta according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他在加尔各答绝食以祈求和平（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "He sailed to England to study law",
+          "zh": "他乘船去英国学法律"
+        },
+        {
+          "en": "He was elected president of India",
+          "zh": "他当选印度总统"
+        },
+        {
+          "en": "Gandhi led a 21-day, 240-mile walk to the sea, picked up a grain of salt, and was arrested with more than 60,000 others",
+          "zh": "甘地带领大家进行了21天、240英里（约386公里）的步行直达海边，他捡起一粒盐，并与六万多人一起被捕"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'On March 12, Gandhi and some followers began a 21-day, 240-mile walk across India to the sea... He picked up a grain of salt... Gandhi was arrested, along with more than 60,000 others.'",
@@ -66,12 +102,24 @@
         "zh": "甘地是怎样去世的？"
       },
       "options": [
-        {"en": "On January 30, 1948, a young Hindu man who disapproved of his work for peace with Muslims shot him three times", "zh": "1948年1月30日，一名不赞同他与穆斯林寻求和平的年轻印度教徒向他开了三枪"},
-        {"en": "He died of old age in 1869", "zh": "他于1869年自然老死"},
-        {"en": "He was killed during the Salt March", "zh": "他在食盐长征中被杀"},
-        {"en": "He died in a train accident in South Africa", "zh": "他在南非死于火车事故"}
+        {
+          "en": "He died in a train accident in South Africa according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他在南非死于火车事故（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "On January 30, 1948, a young Hindu man who disapproved of his work for peace with Muslims shot him three times",
+          "zh": "1948年1月30日，一名不赞同他与穆斯林寻求和平的年轻印度教徒向他开了三枪"
+        },
+        {
+          "en": "He was killed during the Salt March",
+          "zh": "他在食盐长征中被杀"
+        },
+        {
+          "en": "He died of old age in 1869",
+          "zh": "他于1869年自然老死"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'On January 30, 1948... A young Hindu man in the crowd didn't approve of Gandhi's work to make peace with Muslims. He shot Gandhi three times.'",
@@ -84,12 +132,24 @@
         "zh": "甘地的词「satyagraha」(坚持真理) 是什么意思？"
       },
       "options": [
-        {"en": "'Holding firmly to the truth,' which he used to represent nonviolent protest", "zh": "「紧紧抓住真理」，他用它来代表非暴力的抗议"},
-        {"en": "'Fighting with weapons'", "zh": "「用武器战斗」"},
-        {"en": "'Ruling a country'", "zh": "「统治一个国家」"},
-        {"en": "'Studying law in England'", "zh": "「在英国学法律」"}
+        {
+          "en": "'Fighting with weapons'",
+          "zh": "「用武器战斗」"
+        },
+        {
+          "en": "'Holding firmly to the truth,' which he used to represent nonviolent protest",
+          "zh": "「紧紧抓住真理」，他用它来代表非暴力的抗议"
+        },
+        {
+          "en": "'Ruling a country'",
+          "zh": "「统治一个国家」"
+        },
+        {
+          "en": "'Studying law in England' according to some versions of the story in an early draft of the book",
+          "zh": "「在英国学法律」（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains, 'satyagraha (suh-TYAH-gruh-huh). The word means \"holding firmly to the truth.\" Gandhi used it to represent his form of nonviolent protest.'",
@@ -102,12 +162,24 @@
         "zh": "在词汇表里，「非暴力」(nonviolence) 是什么？"
       },
       "options": [
-        {"en": "The refusal to use physical force or violence as a response", "zh": "拒绝以体力或暴力作为回应"},
-        {"en": "A type of government", "zh": "一种政府形式"},
-        {"en": "A religious festival", "zh": "一个宗教节日"},
-        {"en": "A way to travel by train", "zh": "一种乘火车出行的方式"}
+        {
+          "en": "A type of government",
+          "zh": "一种政府形式"
+        },
+        {
+          "en": "The refusal to use physical force or violence as a response",
+          "zh": "拒绝以体力或暴力作为回应"
+        },
+        {
+          "en": "A religious festival",
+          "zh": "一个宗教节日"
+        },
+        {
+          "en": "A way to travel by train according to some versions of the story",
+          "zh": "一种乘火车出行的方式（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines nonviolence as 'the refusal to use physical force or violence as a response (p. 5).' It was a core Hindu belief Gandhi lived by.",
@@ -120,12 +192,24 @@
         "zh": "书里说甘地坚定的信念包括公平、自由、善良与和平。这些信念对世界产生了什么影响？"
       },
       "options": [
-        {"en": "His beliefs in nonviolence and peace changed nations and continue to inspire people", "zh": "他关于非暴力与和平的信念改变了许多国家，并持续激励着人们"},
-        {"en": "They made him a wealthy businessman", "zh": "这些信念让他成了富有的商人"},
-        {"en": "They had no effect on anyone", "zh": "它们对任何人都没有影响"},
-        {"en": "They caused him to leave India forever", "zh": "这些信念让他永远离开了印度"}
+        {
+          "en": "They had no effect on anyone",
+          "zh": "它们对任何人都没有影响"
+        },
+        {
+          "en": "They made him a wealthy businessman",
+          "zh": "这些信念让他成了富有的商人"
+        },
+        {
+          "en": "They caused him to leave India forever according to some versions of the story in an early draft of the book",
+          "zh": "这些信念让他永远离开了印度（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "His beliefs in nonviolence and peace changed nations and continue to inspire people",
+          "zh": "他关于非暴力与和平的信念改变了许多国家，并持续激励着人们"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says of the quiet man, 'His strong beliefs in fairness, freedom, kindness, and peace changed nations,' and 'continues to inspire people around the world.'",
@@ -138,12 +222,24 @@
         "zh": "甘地的榜样是怎样传播到印度以外的？"
       },
       "options": [
-        {"en": "News of his nonviolent protests reached around the world, and he later inspired leaders like Martin Luther King Jr. and Nelson Mandela", "zh": "他非暴力抗议的消息传遍全球，后来还激励了马丁·路德·金和纳尔逊·曼德拉等领袖"},
-        {"en": "He traveled to every country as its president", "zh": "他以总统身份访问了每一个国家"},
-        {"en": "He wrote a best-selling novel", "zh": "他写了一本畅销小说"},
-        {"en": "He invented a new religion", "zh": "他创立了一种新宗教"}
+        {
+          "en": "He traveled to every country as its president according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他以总统身份访问了每一个国家（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "He invented a new religion",
+          "zh": "他创立了一种新宗教"
+        },
+        {
+          "en": "News of his nonviolent protests reached around the world, and he later inspired leaders like Martin Luther King Jr. and Nelson Mandela",
+          "zh": "他非暴力抗议的消息传遍全球，后来还激励了马丁·路德·金和纳尔逊·曼德拉等领袖"
+        },
+        {
+          "en": "He wrote a best-selling novel",
+          "zh": "他写了一本畅销小说"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book notes that news of the protests 'reached around the world,' and in its legacy section says he 'inspired such great leaders as Martin Luther King Jr. and Nelson Mandela.'",
@@ -156,10 +252,22 @@
         "zh": "作者给甘地「印度之父」的称号，又称他「Mahatma」（伟大的灵魂）。作者的主要意图是什么？"
       },
       "options": [
-        {"en": "To show admiration and inspire readers with Gandhi's peaceful, influential life", "zh": "为了表达敬仰，并用甘地和平而有影响力的一生来激励读者"},
-        {"en": "To argue that Gandhi was a president", "zh": "为了论证甘地是一位总统"},
-        {"en": "To prove Gandhi was the richest man in India", "zh": "为了证明甘地是印度最有钱的人"},
-        {"en": "To explain how to make salt", "zh": "为了讲解怎样制盐"}
+        {
+          "en": "To show admiration and inspire readers with Gandhi's peaceful, influential life",
+          "zh": "为了表达敬仰，并用甘地和平而有影响力的一生来激励读者"
+        },
+        {
+          "en": "To explain how to make salt",
+          "zh": "为了讲解怎样制盐"
+        },
+        {
+          "en": "To prove Gandhi was the richest man in India according to some versions of the story",
+          "zh": "为了证明甘地是印度最有钱的人（按书中另一种说法）"
+        },
+        {
+          "en": "To argue that Gandhi was a president",
+          "zh": "为了论证甘地是一位总统"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,10 +282,22 @@
         "zh": "书里没有写暴力革命，而是聚焦在甘地的和平方式上，比如坚持真理、食盐长征和绝食。为什么要这样写？"
       },
       "options": [
-        {"en": "To show that nonviolent protest and peaceful action can change nations and win justice", "zh": "为了展现非暴力的抗议与和平的行动也能改变国家、争取到公正"},
-        {"en": "Because Gandhi did not know how to fight", "zh": "因为甘地不懂得怎样打架"},
-        {"en": "Because violence was illegal in India", "zh": "因为在印度暴力是违法的"},
-        {"en": "To make the story shorter", "zh": "为了让故事更短"}
+        {
+          "en": "To show that nonviolent protest and peaceful action can change nations and win justice",
+          "zh": "为了展现非暴力的抗议与和平的行动也能改变国家、争取到公正"
+        },
+        {
+          "en": "To make the story shorter",
+          "zh": "为了让故事更短"
+        },
+        {
+          "en": "Because Gandhi did not know how to fight according to some versions of the story in an early draft of the book",
+          "zh": "因为甘地不懂得怎样打架（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Because violence was illegal in India",
+          "zh": "因为在印度暴力是违法的"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

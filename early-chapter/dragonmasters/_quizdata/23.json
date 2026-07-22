@@ -9,114 +9,294 @@
   "source": "ima-pdf",
   "questions": [
     {
-      "q": {"en": "What strange thing is creeping across the sky at the start of the book?", "zh": "故事开头，有什么奇怪的东西在天空中蔓延？"},
+      "q": {
+        "en": "What strange thing is creeping across the sky at the start of the book?",
+        "zh": "故事开头，有什么奇怪的东西在天空中蔓延？"
+      },
       "options": [
-        {"en": "Falling snow", "zh": "飘落的雪花"},
-        {"en": "A black shadow", "zh": "一片黑色的影子"},
-        {"en": "Normal storm clouds", "zh": "普通的暴风雨云"},
-        {"en": "A flock of birds", "zh": "一群鸟"}
+        {
+          "en": "Normal storm clouds",
+          "zh": "普通的暴风雨云"
+        },
+        {
+          "en": "A flock of birds",
+          "zh": "一群鸟"
+        },
+        {
+          "en": "Falling snow",
+          "zh": "飘落的雪花"
+        },
+        {
+          "en": "A black shadow",
+          "zh": "一片黑色的影子"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "A strange black shadow is creeping across the bright blue sky, and Worm says something bad is coming.", "zh": "一片奇怪的黑影正在湛蓝的天空中蔓延，沃姆说有坏事要发生了。"}
+      "answer": 3,
+      "explain": {
+        "en": "A strange black shadow is creeping across the bright blue sky, and Worm says something bad is coming.",
+        "zh": "一片奇怪的黑影正在湛蓝的天空中蔓延，沃姆说有坏事要发生了。"
+      }
     },
     {
-      "q": {"en": "Who arrives from the Land of Gallia to ask King Roland for help?", "zh": "谁从伽利亚王国赶来向罗兰国王求助？"},
+      "q": {
+        "en": "Who arrives from the Land of Gallia to ask King Roland for help?",
+        "zh": "谁从伽利亚王国赶来向罗兰国王求助？"
+      },
       "options": [
-        {"en": "Darpan", "zh": "达尔潘"},
-        {"en": "Petra", "zh": "佩特拉"},
-        {"en": "Jean", "zh": "吉恩"},
-        {"en": "Darma", "zh": "达尔马"}
-      ],
-      "answer": 2,
-      "explain": {"en": "Jean, Dragon Master of the Silver Dragon Argent, flies in and asks for help because the shadow is covering her kingdom too.", "zh": "银龙阿尔真特的驯龙师吉恩飞来求救，因为黑影也笼罩了她的王国。"}
-    },
-    {
-      "q": {"en": "Why does Griffith's gazing ball keep failing (showing yarn, a bubble, a wooden ball)?", "zh": "为什么格里菲斯的窥镜一直失灵（变出毛线、肥皂泡、木球）？"},
-      "options": [
-        {"en": "He simply forgot the spell", "zh": "他只是忘了咒语"},
-        {"en": "The Shadow Dragon is draining wizard magic all over the world", "zh": "暗影龙正在吸走全世界的巫师魔法"},
-        {"en": "The king took it away", "zh": "国王把它拿走了"},
-        {"en": "Worm broke it", "zh": "沃姆弄坏了它"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Griffith realizes his magic is not working and that the Shadow Dragon is somehow affecting all wizard magic.", "zh": "格里菲斯意识到自己的魔法失灵了，而暗影龙正在影响全世界巫师的魔法。"}
-    },
-    {
-      "q": {"en": "What are the names of the Shadow Dragon and his Dragon Master?", "zh": "暗影龙和它的驯龙师分别叫什么名字？"},
-      "options": [
-        {"en": "Chaya and Aruna", "zh": "查亚和阿鲁娜"},
-        {"en": "Nova and Stella", "zh": "诺娃和斯特拉"},
-        {"en": "Maldred and Worm", "zh": "马尔德里德和沃姆"},
-        {"en": "Tana and Yeray", "zh": "塔娜和耶拉伊"}
+        {
+          "en": "Jean",
+          "zh": "吉恩"
+        },
+        {
+          "en": "Darpan",
+          "zh": "达尔潘"
+        },
+        {
+          "en": "Darma",
+          "zh": "达尔马"
+        },
+        {
+          "en": "Petra",
+          "zh": "佩特拉"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "In his gazing ball Griffith sees Chaya the Shadow Dragon and his eight-year-old Dragon Master, Aruna, whose eyes glow red.", "zh": "格里菲斯在窥镜里看到暗影龙查亚和它八岁的驯龙师阿鲁娜，两人的眼睛都闪着红光。"}
+      "explain": {
+        "en": "Jean, Dragon Master of the Silver Dragon Argent, flies in and asks for help because the shadow is covering her kingdom too.",
+        "zh": "银龙阿尔真特的驯龙师吉恩飞来求救，因为黑影也笼罩了她的王国。"
+      }
     },
     {
-      "q": {"en": "Why did Aruna feed the Balam seed to Chaya?", "zh": "阿鲁娜为什么把巴拉姆种子喂给查亚？"},
+      "q": {
+        "en": "Why does Griffith's gazing ball keep failing (showing yarn, a bubble, a wooden ball)?",
+        "zh": "为什么格里菲斯的窥镜一直失灵（变出毛线、肥皂泡、木球）？"
+      },
       "options": [
-        {"en": "She wanted to make him strong on purpose", "zh": "她故意想让它变强"},
-        {"en": "To stop her wizard Vanad from eating it and turning evil", "zh": "为了阻止她的巫师瓦纳德吃下种子而变坏"},
-        {"en": "Because Chaya was hungry", "zh": "因为查亚饿了"},
-        {"en": "To summon a Star Dragon", "zh": "为了召唤星龙"}
+        {
+          "en": "The king took it away",
+          "zh": "国王把它拿走了"
+        },
+        {
+          "en": "The Shadow Dragon is draining wizard magic all over the world",
+          "zh": "暗影龙正在吸走全世界的巫师魔法"
+        },
+        {
+          "en": "Worm broke it",
+          "zh": "沃姆弄坏了它"
+        },
+        {
+          "en": "He simply forgot the spell according to some versions of the story",
+          "zh": "他只是忘了咒语（按书中另一种说法）"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Aruna grabbed the seed first so Vanad could not eat it, believing the seed's power would not work on dragons.", "zh": "阿鲁娜抢先抓走了种子，不让瓦纳德吃下，她以为种子的力量对龙不起作用。"}
+      "explain": {
+        "en": "Griffith realizes his magic is not working and that the Shadow Dragon is somehow affecting all wizard magic.",
+        "zh": "格里菲斯意识到自己的魔法失灵了，而暗影龙正在影响全世界巫师的魔法。"
+      }
     },
     {
-      "q": {"en": "How often does the Balam flower produce one seed?", "zh": "巴拉姆花每隔多久才会结出一粒种子？"},
+      "q": {
+        "en": "What are the names of the Shadow Dragon and his Dragon Master?",
+        "zh": "暗影龙和它的驯龙师分别叫什么名字？"
+      },
       "options": [
-        {"en": "Every year", "zh": "每年"},
-        {"en": "Every 100 years", "zh": "每100年"},
-        {"en": "Every 1000 years", "zh": "每1000年"},
-        {"en": "Every month", "zh": "每个月"}
+        {
+          "en": "Nova and Stella",
+          "zh": "诺娃和斯特拉"
+        },
+        {
+          "en": "Maldred and Worm",
+          "zh": "马尔德里德和沃姆"
+        },
+        {
+          "en": "Chaya and Aruna",
+          "zh": "查亚和阿鲁娜"
+        },
+        {
+          "en": "Tana and Yeray",
+          "zh": "塔娜和耶拉伊"
+        }
       ],
       "answer": 2,
-      "explain": {"en": "Vanad explains that every thousand years the special flower produces exactly one seed.", "zh": "瓦纳德解释说，这种特别的花每过一千年才会结出一粒种子。"}
+      "explain": {
+        "en": "In his gazing ball Griffith sees Chaya the Shadow Dragon and his eight-year-old Dragon Master, Aruna, whose eyes glow red.",
+        "zh": "格里菲斯在窥镜里看到暗影龙查亚和它八岁的驯龙师阿鲁娜，两人的眼睛都闪着红光。"
+      }
     },
     {
-      "q": {"en": "How do Drake and Jean escape from the Shadow Realm?", "zh": "德雷克和吉恩是如何逃出暗影界的？"},
+      "q": {
+        "en": "Why did Aruna feed the Balam seed to Chaya?",
+        "zh": "阿鲁娜为什么把巴拉姆种子喂给查亚？"
+      },
       "options": [
-        {"en": "Worm transports them out", "zh": "沃姆把他们传送出去"},
-        {"en": "Drake uses his silver sword to make a portal", "zh": "德雷克用银剑制造了一道传送门"},
-        {"en": "They fly out on Argent", "zh": "他们骑着阿尔真特飞出去"},
-        {"en": "Vanad leads them out", "zh": "瓦纳德带他们出去"}
+        {
+          "en": "Because Chaya was hungry",
+          "zh": "因为查亚饿了"
+        },
+        {
+          "en": "To summon a Star Dragon",
+          "zh": "为了召唤星龙"
+        },
+        {
+          "en": "She wanted to make him strong on purpose according to some versions of the story",
+          "zh": "她故意想让它变强（按书中另一种说法）"
+        },
+        {
+          "en": "To stop her wizard Vanad from eating it and turning evil",
+          "zh": "为了阻止她的巫师瓦纳德吃下种子而变坏"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "Worm cannot transport out of the magical space, so Drake uses the magic silver sword Jean gave him to create a portal.", "zh": "沃姆无法把这个魔法空间传送出去，于是德雷克用吉恩送他的魔法银剑制造了一道传送门。"}
+      "answer": 3,
+      "explain": {
+        "en": "Aruna grabbed the seed first so Vanad could not eat it, believing the seed's power would not work on dragons.",
+        "zh": "阿鲁娜抢先抓走了种子，不让瓦纳德吃下，她以为种子的力量对龙不起作用。"
+      }
     },
     {
-      "q": {"en": "What happens to Jean's hand after a shadow phantom touches it?", "zh": "暗影幽灵碰到吉恩的手后，发生了什么？"},
+      "q": {
+        "en": "How often does the Balam flower produce one seed?",
+        "zh": "巴拉姆花每隔多久才会结出一粒种子？"
+      },
       "options": [
-        {"en": "It begins to glow", "zh": "它开始发光"},
-        {"en": "It turns into a shadow", "zh": "它变成了影子"},
-        {"en": "It becomes invisible", "zh": "它变得看不见了"},
-        {"en": "It disappears completely", "zh": "它彻底消失了"}
+        {
+          "en": "Every month",
+          "zh": "每个月"
+        },
+        {
+          "en": "Every 100 years according to some versions of the story",
+          "zh": "每100年（按书中另一种说法）"
+        },
+        {
+          "en": "Every 1000 years",
+          "zh": "每1000年"
+        },
+        {
+          "en": "Every year",
+          "zh": "每年"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "Griffith examines Jean's right hand and finds the phantom's touch has turned it into a shadow.", "zh": "格里菲斯检查吉恩的右手，发现被幽灵碰过的地方已经变成了影子。"}
+      "answer": 2,
+      "explain": {
+        "en": "Vanad explains that every thousand years the special flower produces exactly one seed.",
+        "zh": "瓦纳德解释说，这种特别的花每过一千年才会结出一粒种子。"
+      }
     },
     {
-      "q": {"en": "Who heals Jean's shadow hand, and how?", "zh": "是谁、用什么方法治好了吉恩的影子手？"},
+      "q": {
+        "en": "How do Drake and Jean escape from the Shadow Realm?",
+        "zh": "德雷克和吉恩是如何逃出暗影界的？"
+      },
       "options": [
-        {"en": "Worm with green light", "zh": "沃姆用绿光"},
-        {"en": "Bo's Water Dragon Shu with healing mist", "zh": "博的水龙舒用治愈薄雾"},
-        {"en": "Griffith's wand", "zh": "格里菲斯的魔杖"},
-        {"en": "The Star Stone", "zh": "星石"}
+        {
+          "en": "Vanad leads them out",
+          "zh": "瓦纳德带他们出去"
+        },
+        {
+          "en": "Drake uses his silver sword to make a portal",
+          "zh": "德雷克用银剑制造了一道传送门"
+        },
+        {
+          "en": "Worm transports them out according to some versions of the story",
+          "zh": "沃姆把他们传送出去（按书中另一种说法）"
+        },
+        {
+          "en": "They fly out on Argent",
+          "zh": "他们骑着阿尔真特飞出去"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Bo's Water Dragon Shu breathes a blue healing mist that washes away the shadow phantom's spell.", "zh": "博的水龙舒吐出蓝色的治愈薄雾，洗去了暗影幽灵的咒语。"}
+      "explain": {
+        "en": "Worm cannot transport out of the magical space, so Drake uses the magic silver sword Jean gave him to create a portal.",
+        "zh": "沃姆无法把这个魔法空间传送出去，于是德雷克用吉恩送他的魔法银剑制造了一道传送门。"
+      }
     },
     {
-      "q": {"en": "What do Rori and Ana learn is needed to summon a Star Dragon?", "zh": "罗瑞和安娜得知，召唤星龙需要什么？"},
+      "q": {
+        "en": "What happens to Jean's hand after a shadow phantom touches it?",
+        "zh": "暗影幽灵碰到吉恩的手后，发生了什么？"
+      },
       "options": [
-        {"en": "A Shadow Dragon", "zh": "一条暗影龙"},
-        {"en": "A Light Dragon", "zh": "一条光龙"},
-        {"en": "The Balam seed", "zh": "巴拉姆种子"},
-        {"en": "A silver sword", "zh": "一把银剑"}
+        {
+          "en": "It turns into a shadow",
+          "zh": "它变成了影子"
+        },
+        {
+          "en": "It begins to glow",
+          "zh": "它开始发光"
+        },
+        {
+          "en": "It becomes invisible",
+          "zh": "它变得看不见了"
+        },
+        {
+          "en": "It disappears completely",
+          "zh": "它彻底消失了"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Griffith examines Jean's right hand and finds the phantom's touch has turned it into a shadow.",
+        "zh": "格里菲斯检查吉恩的右手，发现被幽灵碰过的地方已经变成了影子。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who heals Jean's shadow hand, and how?",
+        "zh": "是谁、用什么方法治好了吉恩的影子手？"
+      },
+      "options": [
+        {
+          "en": "The Star Stone",
+          "zh": "星石"
+        },
+        {
+          "en": "Bo's Water Dragon Shu with healing mist",
+          "zh": "博的水龙舒用治愈薄雾"
+        },
+        {
+          "en": "Worm with green light according to some versions of the story",
+          "zh": "沃姆用绿光（按书中另一种说法）"
+        },
+        {
+          "en": "Griffith's wand",
+          "zh": "格里菲斯的魔杖"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "They read in a book that a Light Dragon is needed to summon a Star Dragon from the sky, and one can be found on the Picland Islands.", "zh": "她们从书里读到，召唤天上的星龙需要一条光龙，而皮克兰群岛上就有一条。"}
+      "explain": {
+        "en": "Bo's Water Dragon Shu breathes a blue healing mist that washes away the shadow phantom's spell.",
+        "zh": "博的水龙舒吐出蓝色的治愈薄雾，洗去了暗影幽灵的咒语。"
+      }
+    },
+    {
+      "q": {
+        "en": "What do Rori and Ana learn is needed to summon a Star Dragon?",
+        "zh": "罗瑞和安娜得知，召唤星龙需要什么？"
+      },
+      "options": [
+        {
+          "en": "A Light Dragon",
+          "zh": "一条光龙"
+        },
+        {
+          "en": "The Balam seed",
+          "zh": "巴拉姆种子"
+        },
+        {
+          "en": "A silver sword",
+          "zh": "一把银剑"
+        },
+        {
+          "en": "A Shadow Dragon",
+          "zh": "一条暗影龙"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "They read in a book that a Light Dragon is needed to summon a Star Dragon from the sky, and one can be found on the Picland Islands.",
+        "zh": "她们从书里读到，召唤天上的星龙需要一条光龙，而皮克兰群岛上就有一条。"
+      }
     }
   ]
 }

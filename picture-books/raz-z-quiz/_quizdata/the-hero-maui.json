@@ -12,10 +12,22 @@
         "zh": "毛伊（Maui）的身世与身份是什么？"
       },
       "options": [
-        {"en": "A demigod, son of a human woman and a god, with supernatural cunning and strength", "zh": "半神，人类女子与神之子，拥有超凡的狡黠与力量"},
-        {"en": "A fully mortal fisherman", "zh": "一个纯粹的凡人渔夫"},
-        {"en": "An immortal god like the others", "zh": "像其他神一样的永生神"},
-        {"en": "A human king", "zh": "人类国王"}
+        {
+          "en": "A demigod, son of a human woman and a god, with supernatural cunning and strength",
+          "zh": "半神，人类女子与神之子，拥有超凡的狡黠与力量"
+        },
+        {
+          "en": "An immortal god like the others according to some versions of the story in an early draft of the book",
+          "zh": "像其他神一样的永生神（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A fully mortal fisherman",
+          "zh": "一个纯粹的凡人渔夫"
+        },
+        {
+          "en": "A human king",
+          "zh": "人类国王"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "毛伊是如何让太阳慢下来的？"
       },
       "options": [
-        {"en": "He snares the Sun's sixteen legs with ropes so it agrees to travel slowly in summer", "zh": "他用绳索套住太阳的十六条腿，迫使它同意在夏天慢行"},
-        {"en": "He blows it out", "zh": "他把太阳吹灭"},
-        {"en": "He asks Ru for help", "zh": "他向鲁（Ru）求助"},
-        {"en": "He builds a wall", "zh": "他筑起一道墙"}
+        {
+          "en": "He builds a wall",
+          "zh": "他筑起一道墙"
+        },
+        {
+          "en": "He asks Ru for help according to some versions of the story in an early draft of the book",
+          "zh": "他向鲁（Ru）求助（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He snares the Sun's sixteen legs with ropes so it agrees to travel slowly in summer",
+          "zh": "他用绳索套住太阳的十六条腿，迫使它同意在夏天慢行"
+        },
+        {
+          "en": "He blows it out",
+          "zh": "他把太阳吹灭"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Maui learns 'The Sun has sixteen legs' and snares each as it rises; the terrified Sun agrees to run fast in winter but 'at a leisurely pace' in summer, 'creating the seasons we have today.'",
@@ -48,12 +72,24 @@
         "zh": "毛伊“骗子（trickster）“的本性在故事中起到什么作用？"
       },
       "options": [
-        {"en": "It drives his clever, mischievous solutions (e.g., transforming into a beetle to fish)", "zh": "它驱动了他聪明而淘气的解决方式（例如变成甲虫去钓鱼）"},
-        {"en": "It makes him evil", "zh": "这使他邪恶"},
-        {"en": "It is never shown", "zh": "从未体现出来"},
-        {"en": "It causes him to fail at everything", "zh": "这使他事事失败"}
+        {
+          "en": "It causes him to fail at everything according to some versions of the story in an early draft of the book",
+          "zh": "这使他事事失败（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It drives his clever, mischievous solutions (e.g., transforming into a beetle to fish)",
+          "zh": "它驱动了他聪明而淘气的解决方式（例如变成甲虫去钓鱼）"
+        },
+        {
+          "en": "It makes him evil",
+          "zh": "这使他邪恶"
+        },
+        {
+          "en": "It is never shown",
+          "zh": "从未体现出来"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "'Maui's great strength and cunning were equaled only by his love of mischief' — he transforms into a beetle to hide in his brothers' net and pull up the islands.",
@@ -66,12 +102,24 @@
         "zh": "本书如何通过神话解释自然现象？"
       },
       "options": [
-        {"en": "It attributes the sky's dome, the seasons, islands, and volcanoes to Maui's actions", "zh": "它把天空的穹顶、四季、岛屿和火山都归因于毛伊的作为"},
-        {"en": "It uses scientific experiments", "zh": "它使用科学实验"},
-        {"en": "It ignores nature", "zh": "它无视自然"},
-        {"en": "It says everything is accidental", "zh": "它说一切都是偶然"}
+        {
+          "en": "It ignores nature",
+          "zh": "它无视自然"
+        },
+        {
+          "en": "It attributes the sky's dome, the seasons, islands, and volcanoes to Maui's actions",
+          "zh": "它把天空的穹顶、四季、岛屿和火山都归因于毛伊的作为"
+        },
+        {
+          "en": "It uses scientific experiments",
+          "zh": "它使用科学实验"
+        },
+        {
+          "en": "It says everything is accidental according to some versions of the story in an early draft of the book",
+          "zh": "它说一切都是偶然（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The myths explain origins: the sky dome (pushing up the sky), seasons (snares the Sun), islands (fishing hook), and volcanoes (burning hands on a new island).",
@@ -84,12 +132,24 @@
         "zh": "推高天空这一举动无意中引发了什么，从而把两个故事联系起来？"
       },
       "options": [
-        {"en": "It gives the Sun room to race across quickly, creating short days and prompting Maui to snare the Sun", "zh": "它让太阳有了快速横空疾驰的空间，造成白昼变短，促使毛伊去套住太阳"},
-        {"en": "It makes the ocean rise", "zh": "它使海洋上涨"},
-        {"en": "It destroys the plants", "zh": "它毁掉了植物"},
-        {"en": "It creates the islands", "zh": "它创造了岛屿"}
+        {
+          "en": "It destroys the plants",
+          "zh": "它毁掉了植物"
+        },
+        {
+          "en": "It makes the ocean rise according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "它使海洋上涨（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "It gives the Sun room to race across quickly, creating short days and prompting Maui to snare the Sun",
+          "zh": "它让太阳有了快速横空疾驰的空间，造成白昼变短，促使毛伊去套住太阳"
+        },
+        {
+          "en": "It creates the islands",
+          "zh": "它创造了岛屿"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "'The lifting of the sky created an unexpected problem: now the Sun suddenly had enough space to run very fast across the heavens each day' — which leads directly into 'Maui Snares the Sun.'",
@@ -102,10 +162,22 @@
         "zh": "本书对毛伊传达了怎样的文化价值？"
       },
       "options": [
-        {"en": "He is honored as a hero whose exploits are passed down through generations, even in defeat", "zh": "他被尊为英雄，其事迹代代相传，即便失败亦如此"},
-        {"en": "He should be forgotten", "zh": "他应当被遗忘"},
-        {"en": "He was a villain", "zh": "他是个恶棍"},
-        {"en": "He represented foreign invaders", "zh": "他代表外来入侵者"}
+        {
+          "en": "He is honored as a hero whose exploits are passed down through generations, even in defeat",
+          "zh": "他被尊为英雄，其事迹代代相传，即便失败亦如此"
+        },
+        {
+          "en": "He was a villain",
+          "zh": "他是个恶棍"
+        },
+        {
+          "en": "He represented foreign invaders according to some versions of the story in an early draft of the book",
+          "zh": "他代表外来入侵者（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He should be forgotten",
+          "zh": "他应当被遗忘"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -120,12 +192,24 @@
         "zh": "根据本书，火山的起源是什么？"
       },
       "options": [
-        {"en": "Maui touched a new island with his fire-burned hands, setting it ablaze; it still burns today", "zh": "毛伊用被火烧伤的手触碰新岛，使其燃起大火；至今仍在燃烧"},
-        {"en": "They were made by the Sun", "zh": "它们由太阳造成"},
-        {"en": "They came from the sky dome", "zh": "它们来自天空穹顶"},
-        {"en": "They were built by humans", "zh": "它们由人类建造"}
+        {
+          "en": "They came from the sky dome according to some versions of the story in an early draft of the book",
+          "zh": "它们来自天空穹顶（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They were built by humans",
+          "zh": "它们由人类建造"
+        },
+        {
+          "en": "They were made by the Sun",
+          "zh": "它们由太阳造成"
+        },
+        {
+          "en": "Maui touched a new island with his fire-burned hands, setting it ablaze; it still burns today",
+          "zh": "毛伊用被火烧伤的手触碰新岛，使其燃起大火；至今仍在燃烧"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Maui 'touched it with his burning hands, the island caught fire. It is still burning to this day. This is the origin of volcanoes.'",
@@ -138,10 +222,22 @@
         "zh": "在最后的 quest（毛伊的失败）中，毛伊为什么失败了？"
       },
       "options": [
-        {"en": "He tried to steal immortality from Hine but was caught and killed as he left her mouth", "zh": "他试图从希内（Hine）那里窃取永生，却在离开她口腔时被抓住并杀死"},
-        {"en": "He was defeated in battle", "zh": "他在战斗中战败"},
-        {"en": "He lost his hook", "zh": "他弄丢了鱼钩"},
-        {"en": "He forgot the ropes", "zh": "他忘了绳索"}
+        {
+          "en": "He tried to steal immortality from Hine but was caught and killed as he left her mouth",
+          "zh": "他试图从希内（Hine）那里窃取永生，却在离开她口腔时被抓住并杀死"
+        },
+        {
+          "en": "He lost his hook",
+          "zh": "他弄丢了鱼钩"
+        },
+        {
+          "en": "He forgot the ropes",
+          "zh": "他忘了绳索"
+        },
+        {
+          "en": "He was defeated in battle according to some versions of the story in an early draft of the book",
+          "zh": "他在战斗中战败（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -156,12 +252,24 @@
         "zh": "毛伊拉起岛屿的故事与新西兰（奥特亚罗瓦，Aotearoa）有何关联？"
       },
       "options": [
-        {"en": "The gouges his brothers carved from the island became the mountains and valleys of Aotearoa", "zh": "他的兄弟从岛上凿出的缺口，成了奥特亚罗瓦的山脉与山谷"},
-        {"en": "Maui never reached New Zealand", "zh": "毛伊从未到达新西兰"},
-        {"en": "The islands sank", "zh": "那些岛屿沉没了"},
-        {"en": "Only Europe is mentioned", "zh": "书中只提到欧洲"}
+        {
+          "en": "Maui never reached New Zealand according to some versions of the story in an early draft of the book",
+          "zh": "毛伊从未到达新西兰（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Only Europe is mentioned",
+          "zh": "书中只提到欧洲"
+        },
+        {
+          "en": "The islands sank",
+          "zh": "那些岛屿沉没了"
+        },
+        {
+          "en": "The gouges his brothers carved from the island became the mountains and valleys of Aotearoa",
+          "zh": "他的兄弟从岛上凿出的缺口，成了奥特亚罗瓦的山脉与山谷"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "'This is the reason for the mountains and valleys we see today on Aotearoa, the islands of New Zealand.'",
@@ -174,12 +282,24 @@
         "zh": "本书对毛伊故事得以流传的原因，暗示了什么？"
       },
       "options": [
-        {"en": "They are among the best-loved Polynesian legends, passed down to honor his attempt to help humanity", "zh": "它们是波利尼西亚最受人喜爱的传说，为纪念他帮助人类的尝试而代代相传"},
-        {"en": "They were written in books long ago", "zh": "它们很早就被写进了书里"},
-        {"en": "They were ordered by kings", "zh": "它们由国王下令记录"},
-        {"en": "They are forgotten today", "zh": "它们在今天已被遗忘"}
+        {
+          "en": "They were written in books long ago according to some versions of the story in an early draft of the book",
+          "zh": "它们很早就被写进了书里（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They are among the best-loved Polynesian legends, passed down to honor his attempt to help humanity",
+          "zh": "它们是波利尼西亚最受人喜爱的传说，为纪念他帮助人类的尝试而代代相传"
+        },
+        {
+          "en": "They are forgotten today",
+          "zh": "它们在今天已被遗忘"
+        },
+        {
+          "en": "They were ordered by kings",
+          "zh": "它们由国王下令记录"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book states these are 'among the best-loved legends of Polynesia' and that 'humanity remembers him and honors him for the attempt' to give the gift of immortality.",

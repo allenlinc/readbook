@@ -12,12 +12,24 @@
         "zh": "谁来做 Deon 和 Latanya 烹饪比赛的裁判？"
       },
       "options": [
-        {"en": "Grandma and Grandpa Jackson", "zh": "杰克逊奶奶和爷爷"},
-        {"en": "Their moms and dads", "zh": "他们的爸爸妈妈"},
-        {"en": "The school teacher", "zh": "学校老师"},
-        {"en": "A professional chef", "zh": "一位专业厨师"}
+        {
+          "en": "The school teacher",
+          "zh": "学校老师"
+        },
+        {
+          "en": "A professional chef",
+          "zh": "一位专业厨师"
+        },
+        {
+          "en": "Grandma and Grandpa Jackson",
+          "zh": "杰克逊奶奶和爷爷"
+        },
+        {
+          "en": "Their moms and dads according to some versions of the story",
+          "zh": "他们的爸爸妈妈（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Deon suggests, 'let Grandma and Grandpa Jackson judge them,' and both kids agree to let the grandparents be the judges.",
@@ -30,12 +42,24 @@
         "zh": "Deon 为什么认为自己会赢这场比赛？"
       },
       "options": [
-        {"en": "He uses Grandma Jackson's sweet potato pie recipe and she is the judge", "zh": "他用了杰克逊奶奶的红薯派配方，而奶奶正是裁判"},
-        {"en": "He is a better cook than Latanya", "zh": "他比 Latanya 更会做饭"},
-        {"en": "He adds chocolate chips to his dish", "zh": "他在菜里加了巧克力豆"},
-        {"en": "He bakes at a higher temperature", "zh": "他用更高的温度烤"}
+        {
+          "en": "He adds chocolate chips to his dish",
+          "zh": "他在菜里加了巧克力豆"
+        },
+        {
+          "en": "He bakes at a higher temperature",
+          "zh": "他用更高的温度烤"
+        },
+        {
+          "en": "He is a better cook than Latanya according to some versions of the story",
+          "zh": "他比 Latanya 更会做饭（按书中另一种说法）"
+        },
+        {
+          "en": "He uses Grandma Jackson's sweet potato pie recipe and she is the judge",
+          "zh": "他用了杰克逊奶奶的红薯派配方，而奶奶正是裁判"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Deon knows 'Grandma Jackson made a great sweet potato pie' and 'thought that he would win the contest if he used Grandma's sweet potato pie recipe and she was the judge.'",
@@ -48,10 +72,22 @@
         "zh": "Deon 想在派里加什么，却被爸爸拦住了？"
       },
       "options": [
-        {"en": "Chocolate chips", "zh": "巧克力豆"},
-        {"en": "Apples", "zh": "苹果"},
-        {"en": "Marshmallows", "zh": "棉花糖"},
-        {"en": "Pecans", "zh": "山核桃"}
+        {
+          "en": "Chocolate chips",
+          "zh": "巧克力豆"
+        },
+        {
+          "en": "Marshmallows according to some versions of the story",
+          "zh": "棉花糖（按书中另一种说法）"
+        },
+        {
+          "en": "Pecans",
+          "zh": "山核桃"
+        },
+        {
+          "en": "Apples",
+          "zh": "苹果"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "这场比赛最后是怎么判定的？"
       },
       "options": [
-        {"en": "It is a tie—the grandparents order one of each dish for Thanksgiving", "zh": "打成平手——爷爷奶奶为感恩节各点了一份"},
-        {"en": "Latanya wins because of the marshmallows", "zh": "因为棉花糖，Latanya 赢了"},
-        {"en": "Deon wins because he used Grandma's recipe", "zh": "因为用了奶奶的配方，Deon 赢了"},
-        {"en": "The parents pick a winner by voting", "zh": "父母投票选出了赢家"}
+        {
+          "en": "The parents pick a winner by voting",
+          "zh": "父母投票选出了赢家"
+        },
+        {
+          "en": "It is a tie—the grandparents order one of each dish for Thanksgiving",
+          "zh": "打成平手——爷爷奶奶为感恩节各点了一份"
+        },
+        {
+          "en": "Deon wins because he used Grandma's recipe according to some versions of the story",
+          "zh": "因为用了奶奶的配方，Deon 赢了（按书中另一种说法）"
+        },
+        {
+          "en": "Latanya wins because of the marshmallows",
+          "zh": "因为棉花糖，Latanya 赢了"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Grandpa says both dishes 'looked beautiful and tasted delicious' and they'd 'like to order one of each for Thanksgiving dinner,' so Mom asks 'So it's a tie?'—and they decide it's a tie.",
@@ -84,12 +132,24 @@
         "zh": "这个故事是用什么视角（人称）叙述的？"
       },
       "options": [
-        {"en": "Third person—a narrator describes Deon, Latanya, and their families from outside", "zh": "第三人称——由外部的叙述者描写 Deon、Latanya 和他们两家"},
-        {"en": "First person—Deon tells it as 'I'", "zh": "第一人称——由 Deon 以「我」讲述"},
-        {"en": "Second person—addressing the reader as 'you'", "zh": "第二人称——以「你」称呼读者"},
-        {"en": "As a recipe book only", "zh": "只是一本食谱"}
+        {
+          "en": "First person—Deon tells it as 'I'",
+          "zh": "第一人称——由 Deon 以「我」讲述"
+        },
+        {
+          "en": "As a recipe book only",
+          "zh": "只是一本食谱"
+        },
+        {
+          "en": "Second person—addressing the reader as 'you' according to some versions of the story in an early draft of the book",
+          "zh": "第二人称——以「你」称呼读者（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Third person—a narrator describes Deon, Latanya, and their families from outside",
+          "zh": "第三人称——由外部的叙述者描写 Deon、Latanya 和他们两家"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The story uses names and 'he said/she said' (e.g., 'Deon said,' 'Latanya made a face'), describing characters from outside, which is third person.",
@@ -102,10 +162,22 @@
         "zh": "书名「红薯挑战赛」(Sweet Potato Challenge) 指的是什么？"
       },
       "options": [
-        {"en": "The cooking contest in which the cousins challenge each other to make dishes with sweet potatoes", "zh": "表兄妹互相挑战、用红薯做菜的那场烹饪比赛"},
-        {"en": "A race to eat the most sweet potatoes", "zh": "一场比谁吃红薯最多的比赛"},
-        {"en": "A school test about sweet potatoes", "zh": "一场关于红薯的学校考试"},
-        {"en": "A game Grandma invented", "zh": "奶奶发明的一种游戏"}
+        {
+          "en": "The cooking contest in which the cousins challenge each other to make dishes with sweet potatoes",
+          "zh": "表兄妹互相挑战、用红薯做菜的那场烹饪比赛"
+        },
+        {
+          "en": "A school test about sweet potatoes",
+          "zh": "一场关于红薯的学校考试"
+        },
+        {
+          "en": "A game Grandma invented",
+          "zh": "奶奶发明的一种游戏"
+        },
+        {
+          "en": "A race to eat the most sweet potatoes according to some versions of the story in an early draft of the book",
+          "zh": "一场比谁吃红薯最多的比赛（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "哪种食材出现在 Latanya 的「苹果红薯焗」里，却不在 Deon 的红薯派里？"
       },
       "options": [
-        {"en": "Apples", "zh": "苹果"},
-        {"en": "Sweet potatoes", "zh": "红薯"},
-        {"en": "Cinnamon", "zh": "肉桂"},
-        {"en": "Sugar", "zh": "糖"}
+        {
+          "en": "Sweet potatoes",
+          "zh": "红薯"
+        },
+        {
+          "en": "Apples",
+          "zh": "苹果"
+        },
+        {
+          "en": "Cinnamon",
+          "zh": "肉桂"
+        },
+        {
+          "en": "Sugar",
+          "zh": "糖"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Latanya's recipe lists '2 apples, peeled and sliced,' while Deon's pie has eggs, cream, spices, and sweet potatoes but no apples—apples are unique to her dish.",
@@ -138,12 +222,24 @@
         "zh": "爸爸为什么说 Deon 不能加巧克力豆去改奶奶的配方？"
       },
       "options": [
-        {"en": "Because it is a family tradition that should not be changed", "zh": "因为那是家族传统，不该改动"},
-        {"en": "Because chocolate chips are too expensive", "zh": "因为巧克力豆太贵"},
-        {"en": "Because Deon is too young to cook", "zh": "因为 Deon 太小不会做饭"},
-        {"en": "Because Latanya would be upset", "zh": "因为 Latanya 会不高兴"}
+        {
+          "en": "Because Latanya would be upset",
+          "zh": "因为 Latanya 会不高兴"
+        },
+        {
+          "en": "Because it is a family tradition that should not be changed",
+          "zh": "因为那是家族传统，不该改动"
+        },
+        {
+          "en": "Because chocolate chips are too expensive according to some versions of the story",
+          "zh": "因为巧克力豆太贵（按书中另一种说法）"
+        },
+        {
+          "en": "Because Deon is too young to cook",
+          "zh": "因为 Deon 太小不会做饭"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Dad says, 'You can't mess with Grandma's recipe. It has been a family tradition for as long as I can remember.'",
@@ -156,12 +252,24 @@
         "zh": "到故事结尾，Latanya 改变了自己哪一个错误的看法？"
       },
       "options": [
-        {"en": "She thought 'boys can't cook,' but admits 'I was wrong. Boys can cook'", "zh": "她原以为「男孩不会做饭」，但承认「我错了，男孩也会做饭」"},
-        {"en": "She thought sweet potatoes were unhealthy", "zh": "她原以为红薯不健康"},
-        {"en": "She thought Grandma was a bad cook", "zh": "她原以为奶奶做饭难吃"},
-        {"en": "She thought Deon would cheat", "zh": "她原以为 Deon 会作弊"}
+        {
+          "en": "She thought Grandma was a bad cook",
+          "zh": "她原以为奶奶做饭难吃"
+        },
+        {
+          "en": "She thought Deon would cheat",
+          "zh": "她原以为 Deon 会作弊"
+        },
+        {
+          "en": "She thought 'boys can't cook,' but admits 'I was wrong. Boys can cook'",
+          "zh": "她原以为「男孩不会做饭」，但承认「我错了，男孩也会做饭」"
+        },
+        {
+          "en": "She thought sweet potatoes were unhealthy according to some versions of the story",
+          "zh": "她原以为红薯不健康（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "At the start Latanya says, 'Boys can't cook,' but after tasting Deon's pie she says, 'I was wrong. Boys can cook. This is really good!'",
@@ -174,10 +282,22 @@
         "zh": "故事的结尾对「家族传统」暗示了什么？"
       },
       "options": [
-        {"en": "New recipes the kids make can be added to the family tradition", "zh": "孩子们做的新菜谱也能被加进家族传统里"},
-        {"en": "Old traditions should be thrown away", "zh": "旧传统应该被丢掉的"},
-        {"en": "Only grandparents can cook", "zh": "只有爷爷奶奶会做饭"},
-        {"en": "Cooking is only for boys", "zh": "做饭只是男孩的事"}
+        {
+          "en": "New recipes the kids make can be added to the family tradition",
+          "zh": "孩子们做的新菜谱也能被加进家族传统里"
+        },
+        {
+          "en": "Only grandparents can cook",
+          "zh": "只有爷爷奶奶会做饭"
+        },
+        {
+          "en": "Cooking is only for boys",
+          "zh": "做饭只是男孩的事"
+        },
+        {
+          "en": "Old traditions should be thrown away according to some versions of the story",
+          "zh": "旧传统应该被丢掉的（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

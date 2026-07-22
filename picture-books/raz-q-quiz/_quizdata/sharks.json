@@ -12,12 +12,24 @@
         "zh": "鲨鱼在世界的海洋里生活了多久？"
       },
       "options": [
-        {"en": "For more than 350 million years, even before dinosaurs", "zh": "超过三亿五千万年，甚至在恐龙之前"},
-        {"en": "For about 100 years", "zh": "约一百年"},
-        {"en": "Since the first humans appeared", "zh": "自最早的人类出现以来"},
-        {"en": "For only 50 million years", "zh": "只有五千万年"}
+        {
+          "en": "For only 50 million years",
+          "zh": "只有五千万年"
+        },
+        {
+          "en": "For more than 350 million years, even before dinosaurs",
+          "zh": "超过三亿五千万年，甚至在恐龙之前"
+        },
+        {
+          "en": "Since the first humans appeared according to some versions of the story",
+          "zh": "自最早的人类出现以来（按书中另一种说法）"
+        },
+        {
+          "en": "For about 100 years",
+          "zh": "约一百年"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says sharks 'have lived in the world's oceans for more than 350 million years. They were even around before dinosaurs walked on Earth.'",
@@ -30,10 +42,22 @@
         "zh": "鲨鱼的骨架是由什么构成的？"
       },
       "options": [
-        {"en": "Cartilage, the same material that gives human ears their shape — not bone", "zh": "软骨，与人类耳朵形状相同的材料——不是骨头"},
-        {"en": "Hard bone like most other fish", "zh": "像多数鱼类那样的硬骨"},
-        {"en": "Solid rock", "zh": "坚硬的岩石"},
-        {"en": "Soft muscle only", "zh": "只有柔软的肌肉"}
+        {
+          "en": "Cartilage, the same material that gives human ears their shape — not bone",
+          "zh": "软骨，与人类耳朵形状相同的材料——不是骨头"
+        },
+        {
+          "en": "Hard bone like most other fish according to some versions of the story in an early draft of the book",
+          "zh": "像多数鱼类那样的硬骨（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Soft muscle only",
+          "zh": "只有柔软的肌肉"
+        },
+        {
+          "en": "Solid rock",
+          "zh": "坚硬的岩石"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "哪种鲨鱼是世界上最大的鱼？"
       },
       "options": [
-        {"en": "The whale shark", "zh": "鲸鲨"},
-        {"en": "The great white shark", "zh": "大白鲨"},
-        {"en": "The dogfish shark", "zh": "角鲨"},
-        {"en": "The hammerhead shark", "zh": "双髻鲨"}
+        {
+          "en": "The great white shark",
+          "zh": "大白鲨"
+        },
+        {
+          "en": "The dogfish shark",
+          "zh": "角鲨"
+        },
+        {
+          "en": "The hammerhead shark",
+          "zh": "双髻鲨"
+        },
+        {
+          "en": "The whale shark",
+          "zh": "鲸鲨"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states 'The whale shark is the largest fish in the world' and 'the biggest fish alive today.'",
@@ -66,10 +102,22 @@
         "zh": "在词汇表里，「cartilage」（软骨）是什么？"
       },
       "options": [
-        {"en": "An elastic tissue that makes up the skeletons of sharks, rays, and skates", "zh": "构成鲨鱼、鳐鱼和魟鱼骨架的弹性组织"},
-        {"en": "A type of sharp tooth", "zh": "一种尖利的牙齿"},
-        {"en": "The hard outer skin of a shark", "zh": "鲨鱼坚硬的外皮"},
-        {"en": "A kind of ocean plant", "zh": "一种海洋植物"}
+        {
+          "en": "An elastic tissue that makes up the skeletons of sharks, rays, and skates",
+          "zh": "构成鲨鱼、鳐鱼和魟鱼骨架的弹性组织"
+        },
+        {
+          "en": "A kind of ocean plant",
+          "zh": "一种海洋植物"
+        },
+        {
+          "en": "The hard outer skin of a shark according to some versions of the story in an early draft of the book",
+          "zh": "鲨鱼坚硬的外皮（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A type of sharp tooth",
+          "zh": "一种尖利的牙齿"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -84,12 +132,24 @@
         "zh": "根据词汇表，「camouflage」（伪装）是什么？"
       },
       "options": [
-        {"en": "A pattern that helps something blend in with its surroundings (dark on top, pale on bottom)", "zh": "帮助生物融入环境的花纹（上深下浅）"},
-        {"en": "A fin used for swimming", "zh": "用来游泳的鳍"},
-        {"en": "A type of shark tooth", "zh": "一种鲨鱼牙齿"},
-        {"en": "A loud noise sharks make", "zh": "鲨鱼发出的响亮声音"}
+        {
+          "en": "A loud noise sharks make according to some versions of the story in an early draft of the book",
+          "zh": "鲨鱼发出的响亮声音（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A pattern that helps something blend in with its surroundings (dark on top, pale on bottom)",
+          "zh": "帮助生物融入环境的花纹（上深下浅）"
+        },
+        {
+          "en": "A fin used for swimming",
+          "zh": "用来游泳的鳍"
+        },
+        {
+          "en": "A type of shark tooth",
+          "zh": "一种鲨鱼牙齿"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines camouflage as 'a pattern that helps something blend in with its surroundings'; the book notes sharks 'are dark on the top and pale on the bottom.'",
@@ -102,12 +162,24 @@
         "zh": "鲨鱼的背鳍有什么作用？为什么它对人类很重要？"
       },
       "options": [
-        {"en": "It helps the shark keep upright, and often sticks above water as the first warning a shark is near", "zh": "帮助鲨鱼保持直立，并常露出水面，成为鲨鱼靠近的第一个警示"},
-        {"en": "It is used to chew food", "zh": "用来咀嚼食物"},
-        {"en": "It helps the shark breathe underwater", "zh": "帮助鲨鱼在水下呼吸"},
-        {"en": "It stores extra fat for winter", "zh": "为过冬储存脂肪"}
+        {
+          "en": "It is used to chew food",
+          "zh": "用来咀嚼食物"
+        },
+        {
+          "en": "It helps the shark keep upright, and often sticks above water as the first warning a shark is near",
+          "zh": "帮助鲨鱼保持直立，并常露出水面，成为鲨鱼靠近的第一个警示"
+        },
+        {
+          "en": "It helps the shark breathe underwater according to some versions of the story in an early draft of the book",
+          "zh": "帮助鲨鱼在水下呼吸（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It stores extra fat for winter",
+          "zh": "为过冬储存脂肪"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says the dorsal fin 'sharks use to keep upright' and 'Catching sight of a shark's dorsal fin is often the first warning people have that a shark is nearby.'",
@@ -120,12 +192,24 @@
         "zh": "鲸鲨有细小的牙齿却不用它们。它是怎么进食的？"
       },
       "options": [
-        {"en": "It swims with its mouth open and uses gill filters to catch plankton, letting water flow through", "zh": "它张着大嘴游动，用鳃部的滤网捕捉浮游生物，让水流过"},
-        {"en": "It bites large animals with its sharp teeth", "zh": "用尖牙撕咬大型动物"},
-        {"en": "It sucks in whole seals", "zh": "把整只海豹吸进去"},
-        {"en": "It waits for fish to land on its back", "zh": "等鱼落到它背上"}
+        {
+          "en": "It waits for fish to land on its back",
+          "zh": "等鱼落到它背上"
+        },
+        {
+          "en": "It bites large animals with its sharp teeth according to some versions of the story in an early draft of the book",
+          "zh": "用尖牙撕咬大型动物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It swims with its mouth open and uses gill filters to catch plankton, letting water flow through",
+          "zh": "它张着大嘴游动，用鳃部的滤网捕捉浮游生物，让水流过"
+        },
+        {
+          "en": "It sucks in whole seals",
+          "zh": "把整只海豹吸进去"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the whale shark 'has tiny teeth but doesn't use them when eating... Special filters in its gills catch the plankton and let the water flow through.'",
@@ -138,12 +222,24 @@
         "zh": "书中提到许多鲨鱼正面临灭绝危险。为什么它们的数量很难恢复？"
       },
       "options": [
-        {"en": "Sharks do not reproduce nearly as quickly as other fish, so it takes much longer for their numbers to grow back", "zh": "鲨鱼繁殖速度远不及其他鱼类，所以数量恢复要慢得多"},
-        {"en": "They live in places where no one can find them", "zh": "它们生活在没人能找到的地方"},
-        {"en": "They eat too much and starve", "zh": "它们吃得太多而饿死"},
-        {"en": "They are too small to count", "zh": "它们太小而无法统计"}
+        {
+          "en": "They eat too much and starve",
+          "zh": "它们吃得太多而饿死"
+        },
+        {
+          "en": "They live in places where no one can find them according to some versions of the story in an early draft of the book",
+          "zh": "它们生活在没人能找到的地方（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They are too small to count",
+          "zh": "它们太小而无法统计"
+        },
+        {
+          "en": "Sharks do not reproduce nearly as quickly as other fish, so it takes much longer for their numbers to grow back",
+          "zh": "鲨鱼繁殖速度远不及其他鱼类，所以数量恢复要慢得多"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states 'Sharks do not reproduce nearly as quickly as other fish. When they are killed, it takes much longer for their numbers to increase again.'",
@@ -156,10 +252,22 @@
         "zh": "作者提到每年被蜜蜂咬死的人比被鲨鱼杀死的还多。为什么要写这个事实？"
       },
       "options": [
-        {"en": "To show that sharks are not as dangerous as many people fear, and to reduce unfair fear of them", "zh": "为了说明鲨鱼并不像许多人害怕的那样危险，并减少人们对它的无端恐惧"},
-        {"en": "To prove bees are the real danger", "zh": "为了证明蜜蜂才是真正的危险"},
-        {"en": "To encourage readers to swim with sharks", "zh": "为了鼓励读者和鲨鱼一起游泳"},
-        {"en": "To show sharks eat bees", "zh": "为了说明鲨鱼吃蜜蜂"}
+        {
+          "en": "To show that sharks are not as dangerous as many people fear, and to reduce unfair fear of them",
+          "zh": "为了说明鲨鱼并不像许多人害怕的那样危险，并减少人们对它的无端恐惧"
+        },
+        {
+          "en": "To encourage readers to swim with sharks according to some versions of the story in an early draft of the book",
+          "zh": "为了鼓励读者和鲨鱼一起游泳（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To show sharks eat bees",
+          "zh": "为了说明鲨鱼吃蜜蜂"
+        },
+        {
+          "en": "To prove bees are the real danger",
+          "zh": "为了证明蜜蜂才是真正的危险"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "关于鲨鱼，作者最想传达的主要信息是什么？"
       },
       "options": [
-        {"en": "Sharks are an important part of the ocean's balance and deserve to exist, even though most are not dangerous to people", "zh": "鲨鱼是海洋平衡的重要一环，应当有生存的权利，尽管多数对人类并不危险"},
-        {"en": "Sharks should all be caught and removed from the ocean", "zh": "应该把鲨鱼全部捕杀、移出海洋"},
-        {"en": "Sharks are mean and useless animals", "zh": "鲨鱼是凶恶而无用的动物"},
-        {"en": "Only great white sharks matter", "zh": "只有大白鲨才重要"}
+        {
+          "en": "Sharks should all be caught and removed from the ocean according to some versions of the story in an early draft of the book",
+          "zh": "应该把鲨鱼全部捕杀、移出海洋（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Sharks are mean and useless animals",
+          "zh": "鲨鱼是凶恶而无用的动物"
+        },
+        {
+          "en": "Sharks are an important part of the ocean's balance and deserve to exist, even though most are not dangerous to people",
+          "zh": "鲨鱼是海洋平衡的重要一环，应当有生存的权利，尽管多数对人类并不危险"
+        },
+        {
+          "en": "Only great white sharks matter",
+          "zh": "只有大白鲨才重要"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book argues sharks 'are an important part of the balance of life in the world's oceans' and 'have as much right to exist as any other animal.'",

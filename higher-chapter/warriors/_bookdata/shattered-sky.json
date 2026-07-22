@@ -9,12 +9,24 @@
         "zh": "为了解放影族，其他族群联合起来对抗___。"
       },
       "options": [
-        {"en": "Darktail and the Kin", "zh": "暗尾与亲族（Darktail and the Kin）"},
-        {"en": "the Dark Forest", "zh": "黑森林（the Dark Forest）"},
-        {"en": "BloodClan", "zh": "血族（BloodClan）"},
-        {"en": "the Twolegs", "zh": "两脚兽（the Twolegs）"}
+        {
+          "en": "BloodClan",
+          "zh": "血族（BloodClan）"
+        },
+        {
+          "en": "Darktail and the Kin",
+          "zh": "暗尾与亲族（Darktail and the Kin）"
+        },
+        {
+          "en": "the Dark Forest according to some versions of the story",
+          "zh": "黑森林（the Dark Forest）（按书中另一种说法）"
+        },
+        {
+          "en": "the Twolegs",
+          "zh": "两脚兽（the Twolegs）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "The four Clans join forces to drive Darktail and his Kin out of ShadowClan.",
         "zh": "四大族群联手，要把暗尾和他的亲族赶出影族。"
@@ -26,12 +38,24 @@
         "zh": "哪一支失落已久的族群回到湖畔，前来助战？"
       },
       "options": [
-        {"en": "SkyClan", "zh": "天族（SkyClan）"},
-        {"en": "BloodClan", "zh": "血族（BloodClan）"},
-        {"en": "The Tribe of Rushing Water", "zh": "奔流部落（The Tribe of Rushing Water）"},
-        {"en": "The Ancients", "zh": "远古猫（The Ancients）"}
+        {
+          "en": "The Tribe of Rushing Water",
+          "zh": "奔流部落（The Tribe of Rushing Water）"
+        },
+        {
+          "en": "BloodClan",
+          "zh": "血族（BloodClan）"
+        },
+        {
+          "en": "SkyClan",
+          "zh": "天族（SkyClan）"
+        },
+        {
+          "en": "The Ancients",
+          "zh": "远古猫（The Ancients）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "SkyClan, led by Leafstar and warriors like Hawkwing, arrives at the lake just in time to help.",
         "zh": "由叶星（Leafstar）和鹰翅（Hawkwing）等武士带领的天族，恰好在此时抵达湖畔相助。"
@@ -43,12 +67,24 @@
         "zh": "天族由其族长带领，这位族长名叫___。"
       },
       "options": [
-        {"en": "Leafstar", "zh": "叶星（Leafstar）"},
-        {"en": "Hawkwing", "zh": "鹰翅（Hawkwing）"},
-        {"en": "Echosong", "zh": "回歌（Echosong）"},
-        {"en": "Bilberry", "zh": "越橘（Bilberry）"}
+        {
+          "en": "Hawkwing according to some versions of the story",
+          "zh": "鹰翅（Hawkwing）（按书中另一种说法）"
+        },
+        {
+          "en": "Bilberry",
+          "zh": "越橘（Bilberry）"
+        },
+        {
+          "en": "Echosong",
+          "zh": "回歌（Echosong）"
+        },
+        {
+          "en": "Leafstar",
+          "zh": "叶星（Leafstar）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Leafstar is the leader of SkyClan, the cat who guides her Clan back to the lake territories.",
         "zh": "叶星（Leafstar）是天族的族长，正是她带领族群回到湖畔领地。"
@@ -60,12 +96,24 @@
         "zh": "曾经追随暗尾的针尾，为了帮助各族，___而死。"
       },
       "options": [
-        {"en": "drowning in the river (sacrificing herself)", "zh": "在河中溺亡（牺牲自己）"},
-        {"en": "a battle wound", "zh": "战伤"},
-        {"en": "old age", "zh": "年老"},
-        {"en": "sickness", "zh": "病逝"}
+        {
+          "en": "sickness",
+          "zh": "病逝"
+        },
+        {
+          "en": "drowning in the river (sacrificing herself)",
+          "zh": "在河中溺亡（牺牲自己）"
+        },
+        {
+          "en": "old age",
+          "zh": "年老"
+        },
+        {
+          "en": "a battle wound according to some versions of the story",
+          "zh": "战伤（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Needletail drowns in the river while trying to escape Darktail and protect the Clans she betrayed.",
         "zh": "针尾为了逃离暗尾、保护她曾经背叛的族群，在河中溺亡，牺牲了自己。"
@@ -77,10 +125,22 @@
         "zh": "暗尾最终被击败，是因为他___。"
       },
       "options": [
-        {"en": "drowns in the river", "zh": "在河中溺亡（drowns in the river）"},
-        {"en": "is made a Clan leader", "zh": "当上了族长"},
-        {"en": "joins StarClan", "zh": "加入了星族"},
-        {"en": "is exiled to the mountains", "zh": "被流放到山区"}
+        {
+          "en": "drowns in the river",
+          "zh": "在河中溺亡（drowns in the river）"
+        },
+        {
+          "en": "is made a Clan leader",
+          "zh": "当上了族长"
+        },
+        {
+          "en": "is exiled to the mountains according to some versions of the story",
+          "zh": "被流放到山区（按书中另一种说法）"
+        },
+        {
+          "en": "joins StarClan",
+          "zh": "加入了星族"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -94,12 +154,24 @@
         "zh": "亲族被赶走后，谁重新领导影族？"
       },
       "options": [
-        {"en": "Rowanstar", "zh": "罗星（Rowanstar）"},
-        {"en": "Tigerheart", "zh": "虎心（Tigerheart）"},
-        {"en": "Blackstar", "zh": "黑星（Blackstar）"},
-        {"en": "Bramblestar", "zh": "棘星（Bramblestar）"}
+        {
+          "en": "Blackstar",
+          "zh": "黑星（Blackstar）"
+        },
+        {
+          "en": "Rowanstar",
+          "zh": "罗星（Rowanstar）"
+        },
+        {
+          "en": "Tigerheart",
+          "zh": "虎心（Tigerheart）"
+        },
+        {
+          "en": "Bramblestar",
+          "zh": "棘星（Bramblestar）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Rowanstar and the exiled ShadowClan cats return home and take back their Clan.",
         "zh": "罗星（Rowanstar）和流亡的影族猫回到家园，重新接管了自己的族群。"
@@ -111,12 +183,24 @@
         "zh": "小枝爪和小紫爪发现她们其实是___。"
       },
       "options": [
-        {"en": "sisters", "zh": "亲姐妹（sisters）"},
-        {"en": "enemies", "zh": "敌人"},
-        {"en": "cousins", "zh": "表姐妹"},
-        {"en": "strangers", "zh": "陌生人"}
+        {
+          "en": "enemies",
+          "zh": "敌人"
+        },
+        {
+          "en": "strangers according to some versions of the story",
+          "zh": "陌生人（按书中另一种说法）"
+        },
+        {
+          "en": "sisters",
+          "zh": "亲姐妹（sisters）"
+        },
+        {
+          "en": "cousins",
+          "zh": "表姐妹"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Though raised apart in different Clans, Twigpaw and Violetpaw are littermate sisters.",
         "zh": "虽然在不同族群长大，小枝爪和小紫爪其实是同一窝的亲姐妹。"
@@ -128,10 +212,22 @@
         "zh": "各族需要天族，这样湖畔才会有完整的___个族群。"
       },
       "options": [
-        {"en": "five", "zh": "五（five）"},
-        {"en": "four", "zh": "四（four）"},
-        {"en": "six", "zh": "六（six）"},
-        {"en": "three", "zh": "三（three）"}
+        {
+          "en": "five",
+          "zh": "五（five）"
+        },
+        {
+          "en": "three",
+          "zh": "三（three）"
+        },
+        {
+          "en": "four",
+          "zh": "四（four）"
+        },
+        {
+          "en": "six",
+          "zh": "六（six）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -145,12 +241,24 @@
         "zh": "战后，赤杨心以___的身份救治伤者。"
       },
       "options": [
-        {"en": "medicine cat", "zh": "巫医（medicine cat）"},
-        {"en": "warrior", "zh": "武士（warrior）"},
-        {"en": "leader", "zh": "族长（leader）"},
-        {"en": "elder", "zh": "长老（elder）"}
+        {
+          "en": "elder",
+          "zh": "长老（elder）"
+        },
+        {
+          "en": "leader",
+          "zh": "族长（leader）"
+        },
+        {
+          "en": "warrior according to some versions of the story",
+          "zh": "武士（warrior）（按书中另一种说法）"
+        },
+        {
+          "en": "medicine cat",
+          "zh": "巫医（medicine cat）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "As ThunderClan's medicine cat, Alderheart heals the cats hurt in the fight against the Kin.",
         "zh": "作为雷族的巫医，赤杨心救治了在与亲族之战中受伤的猫。"
@@ -162,10 +270,22 @@
         "zh": "天族能回到湖畔，很大程度上要归功于勇敢的武士___。"
       },
       "options": [
-        {"en": "Hawkwing", "zh": "鹰翅（Hawkwing）"},
-        {"en": "Leafstar", "zh": "叶星（Leafstar）"},
-        {"en": "Alderheart", "zh": "赤杨心（Alderheart）"},
-        {"en": "Bramblestar", "zh": "棘星（Bramblestar）"}
+        {
+          "en": "Hawkwing",
+          "zh": "鹰翅（Hawkwing）"
+        },
+        {
+          "en": "Bramblestar",
+          "zh": "棘星（Bramblestar）"
+        },
+        {
+          "en": "Alderheart",
+          "zh": "赤杨心（Alderheart）"
+        },
+        {
+          "en": "Leafstar",
+          "zh": "叶星（Leafstar）"
+        }
       ],
       "answer": 0,
       "explain": {

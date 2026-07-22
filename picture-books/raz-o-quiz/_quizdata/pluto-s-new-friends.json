@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Brag and Tag",
-          "zh": "炫耀与追逐（Brag and Tag）"
-        },
-        {
-          "en": "Hide and Seek",
-          "zh": "捉迷藏"
-        },
-        {
           "en": "Moon Toss",
           "zh": "月球投掷"
         },
         {
+          "en": "Brag and Tag",
+          "zh": "炫耀与追逐（Brag and Tag）"
+        },
+        {
           "en": "Star Chase",
           "zh": "追星星"
+        },
+        {
+          "en": "Hide and Seek according to some versions of the story",
+          "zh": "捉迷藏（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Pluto loved to play the Brag and Tag game with the other planets.",
@@ -43,8 +43,12 @@
       },
       "options": [
         {
-          "en": "He was too far from the Sun",
-          "zh": "它离太阳太远"
+          "en": "He was too cold",
+          "zh": "它太冷了"
+        },
+        {
+          "en": "He was too far from the Sun according to some versions of the story",
+          "zh": "它离太阳太远（按书中另一种说法）"
         },
         {
           "en": "He was too tiny and had a messy orbit",
@@ -53,13 +57,9 @@
         {
           "en": "He had too many moons",
           "zh": "它有太多卫星"
-        },
-        {
-          "en": "He was too cold",
-          "zh": "它太冷了"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The planets said Pluto was 'too tiny to be a planet' and had a 'messy orbit' full of rocks and ice chunks.",
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "A new dwarf planet",
-          "zh": "一颗新的矮行星"
-        },
-        {
           "en": "Pluto's largest moon",
           "zh": "冥王星最大的卫星"
         },
@@ -87,9 +83,13 @@
         {
           "en": "A comet",
           "zh": "一颗彗星"
+        },
+        {
+          "en": "A new dwarf planet according to some versions of the story",
+          "zh": "一颗新的矮行星（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Charon is described as Pluto's largest moon, who tries to cheer Pluto up by pointing out that Pluto has three moons.",
@@ -111,8 +111,8 @@
           "zh": "铃声"
         },
         {
-          "en": "Wind blowing",
-          "zh": "风吹声"
+          "en": "Wind blowing according to some versions of the story",
+          "zh": "风吹声（按书中另一种说法）"
         },
         {
           "en": "A rocket",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "He was sleeping according to some versions of the story",
+          "zh": "他在睡觉（按书中另一种说法）"
+        },
+        {
+          "en": "He was singing",
+          "zh": "他在唱歌"
+        },
+        {
           "en": "He was excited",
           "zh": "他很兴奋"
         },
         {
           "en": "He was complaining",
           "zh": "他在抱怨"
-        },
-        {
-          "en": "He was sleeping",
-          "zh": "他在睡觉"
-        },
-        {
-          "en": "He was singing",
-          "zh": "他在唱歌"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The context shows Pluto was unhappy about the junk, so 'griped' means he complained.",
@@ -163,12 +163,8 @@
       },
       "options": [
         {
-          "en": "They are exactly the same as planets",
-          "zh": "它们和行星完全一样"
-        },
-        {
-          "en": "They are like planets but share their orbits with other objects",
-          "zh": "它们像行星，但与其他天体共享轨道"
+          "en": "They are exactly the same as planets according to some versions of the story",
+          "zh": "它们和行星完全一样（按书中另一种说法）"
         },
         {
           "en": "They are smaller than moons",
@@ -177,9 +173,13 @@
         {
           "en": "They do not orbit the Sun",
           "zh": "它们不绕太阳运行"
+        },
+        {
+          "en": "They are like planets but share their orbits with other objects",
+          "zh": "它们像行星，但与其他天体共享轨道"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Eris tells Pluto, 'We're just like planets, only we share our orbits with other objects.'",
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "The Sun's surface",
-          "zh": "太阳的表面"
-        },
-        {
           "en": "The neighborhood of dwarf planets made of frozen gases and rocks left from the solar system's beginning",
           "zh": "矮行星的聚集地，由太阳系形成时遗留的冰冻气体和岩石组成"
         },
@@ -207,9 +203,13 @@
         {
           "en": "Pluto's moon",
           "zh": "冥王星的卫星"
+        },
+        {
+          "en": "The Sun's surface according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "太阳的表面（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Eris says the Kuiper Belt is 'our neighborhood' made of frozen gases and rocks left over from when the solar system began.",
@@ -223,8 +223,12 @@
       },
       "options": [
         {
-          "en": "To report real news about space travel",
-          "zh": "报道关于太空旅行的真实新闻"
+          "en": "To describe how to build a telescope",
+          "zh": "描述如何制造望远镜"
+        },
+        {
+          "en": "To report real news about space travel according to some versions of the story",
+          "zh": "报道关于太空旅行的真实新闻（按书中另一种说法）"
         },
         {
           "en": "To teach readers about dwarf planets in a fun, story-like way",
@@ -233,13 +237,9 @@
         {
           "en": "To argue that Pluto should be a planet",
           "zh": "主张冥王星应该是一颗行星"
-        },
-        {
-          "en": "To describe how to build a telescope",
-          "zh": "描述如何制造望远镜"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The story uses friendly characters and a game to explain real facts about dwarf planets and the Kuiper Belt.",
@@ -253,12 +253,12 @@
       },
       "options": [
         {
-          "en": "To make the science easier to enjoy and relate to",
-          "zh": "让科学知识更容易被人喜爱和产生共鸣"
+          "en": "Because Pluto is actually a person according to some versions of the story",
+          "zh": "因为冥王星其实是一个人（按书中另一种说法）"
         },
         {
-          "en": "Because Pluto is actually a person",
-          "zh": "因为冥王星其实是一个人"
+          "en": "To make the science easier to enjoy and relate to",
+          "zh": "让科学知识更容易被人喜爱和产生共鸣"
         },
         {
           "en": "To show that planets are alive",
@@ -269,7 +269,7 @@
           "zh": "为了把读者弄糊涂"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "By giving Pluto emotions, the author makes the science story more engaging and helps readers care about the characters.",
@@ -283,12 +283,12 @@
       },
       "options": [
         {
-          "en": "Ceres",
-          "zh": "谷神星（Ceres）"
-        },
-        {
           "en": "Eris",
           "zh": "厄里斯（Eris）"
+        },
+        {
+          "en": "Ceres",
+          "zh": "谷神星（Ceres）"
         },
         {
           "en": "Haumea",
@@ -299,7 +299,7 @@
           "zh": "鸟神星（Makemake）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Pluto learns that Eris takes the longest time to orbit the Sun, while Ceres takes the shortest.",

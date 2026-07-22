@@ -12,10 +12,22 @@
         "zh": "“Tohono O'odham（托霍诺·奥哈姆）”这个名字是什么意思？"
       },
       "options": [
-        { "en": "\"desert people\"", "zh": "“沙漠民族”" },
-        { "en": "\"people of the camels\"", "zh": "“骆驼的人”" },
-        { "en": "\"water finder\"", "zh": "“找水的人”" },
-        { "en": "\"cactus eater\"", "zh": "“吃仙人掌的人”" }
+        {
+          "en": "\"desert people\"",
+          "zh": "“沙漠民族”"
+        },
+        {
+          "en": "\"people of the camels\"",
+          "zh": "“骆驼的人”"
+        },
+        {
+          "en": "\"cactus eater\"",
+          "zh": "“吃仙人掌的人”"
+        },
+        {
+          "en": "\"water finder\"",
+          "zh": "“找水的人”"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "在词汇表中，“oasis（绿洲）”是什么？"
       },
       "options": [
-        { "en": "A fertile place in the desert that has water", "zh": "沙漠中有水的肥沃之地" },
-        { "en": "A kind of tent", "zh": "一种帐篷" },
-        { "en": "A type of camel", "zh": "一种骆驼" },
-        { "en": "A dry riverbed", "zh": "干涸的河床" }
+        {
+          "en": "A type of camel according to some versions of the story",
+          "zh": "一种骆驼（按书中另一种说法）"
+        },
+        {
+          "en": "A kind of tent",
+          "zh": "一种帐篷"
+        },
+        {
+          "en": "A dry riverbed",
+          "zh": "干涸的河床"
+        },
+        {
+          "en": "A fertile place in the desert that has water",
+          "zh": "沙漠中有水的肥沃之地"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines oases as \"fertile places in the desert that have water (p. 13).\"",
@@ -48,12 +72,24 @@
         "zh": "托霍诺·奥哈姆人是如何获得饮用水的？"
       },
       "options": [
-        { "en": "From springs, streams, dug wells, or girls hiking to mountain canyons", "zh": "来自泉水、溪流、挖的井，或由女孩徒步到山谷去取" },
-        { "en": "From the ocean only", "zh": "只来自海洋" },
-        { "en": "By melting snow", "zh": "通过融化雪" },
-        { "en": "They had no water at all", "zh": "他们根本没有水" }
+        {
+          "en": "From the ocean only",
+          "zh": "只来自海洋"
+        },
+        {
+          "en": "By melting snow",
+          "zh": "通过融化雪"
+        },
+        {
+          "en": "They had no water at all according to some versions of the story in an early draft of the book",
+          "zh": "他们根本没有水（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "From springs, streams, dug wells, or girls hiking to mountain canyons",
+          "zh": "来自泉水、溪流、挖的井，或由女孩徒步到山谷去取"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says some villages were near springs and streams, others dug wells, and \"Young girls hiked into mountain canyons to get water.\"",
@@ -66,12 +102,24 @@
         "zh": "作者写这本书的主要目的是什么？"
       },
       "options": [
-        { "en": "To inform readers how different desert peoples adapt and live", "zh": "为了向读者介绍不同沙漠民族如何适应并生存" },
-        { "en": "To persuade people to move to deserts", "zh": "为了劝人们搬去沙漠" },
-        { "en": "To tell a fictional story", "zh": "为了讲一个虚构故事" },
-        { "en": "To sell camels", "zh": "为了卖骆驼" }
+        {
+          "en": "To sell camels",
+          "zh": "为了卖骆驼"
+        },
+        {
+          "en": "To tell a fictional story",
+          "zh": "为了讲一个虚构故事"
+        },
+        {
+          "en": "To inform readers how different desert peoples adapt and live",
+          "zh": "为了向读者介绍不同沙漠民族如何适应并生存"
+        },
+        {
+          "en": "To persuade people to move to deserts according to some versions of the story",
+          "zh": "为了劝人们搬去沙漠（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book presents facts about the Tohono O'odham, Bedouin, and other desert peoples, ending \"people have found food, water, shelter... in the desert,\" which is to inform.",
@@ -84,12 +132,24 @@
         "zh": "阿拉伯骆驼是怎样帮助贝都因人的？"
       },
       "options": [
-        { "en": "They gave shelter, clothing, food, and rides", "zh": "它们提供住所、衣物、食物和代步" },
-        { "en": "They pulled sleds", "zh": "它们拉雪橇" },
-        { "en": "They herded sheep", "zh": "它们放牧羊群" },
-        { "en": "They caught fish", "zh": "它们捕鱼" }
+        {
+          "en": "They pulled sleds",
+          "zh": "它们拉雪橇"
+        },
+        {
+          "en": "They gave shelter, clothing, food, and rides",
+          "zh": "它们提供住所、衣物、食物和代步"
+        },
+        {
+          "en": "They herded sheep according to some versions of the story",
+          "zh": "它们放牧羊群（按书中另一种说法）"
+        },
+        {
+          "en": "They caught fish",
+          "zh": "它们捕鱼"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"Arabian camels gave the Bedouin shelter, clothing, food, and rides,\" and they wove camel hair, drank the milk, and ate the meat.",
@@ -102,12 +162,24 @@
         "zh": "在词汇表中，“nomads（游牧民）”是什么意思？"
       },
       "options": [
-        { "en": "People who move from place to place with no permanent home", "zh": "没有固定居所、四处迁徙的人" },
-        { "en": "People who live in cities", "zh": "住在城市里的人" },
-        { "en": "A kind of desert plant", "zh": "一种沙漠植物" },
-        { "en": "Trained hunting dogs", "zh": "受过训练的猎犬" }
+        {
+          "en": "Trained hunting dogs",
+          "zh": "受过训练的猎犬"
+        },
+        {
+          "en": "A kind of desert plant",
+          "zh": "一种沙漠植物"
+        },
+        {
+          "en": "People who move from place to place with no permanent home",
+          "zh": "没有固定居所、四处迁徙的人"
+        },
+        {
+          "en": "People who live in cities according to some versions of the story",
+          "zh": "住在城市里的人（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines nomads as \"people who move from place to place with no permanent home (p. 17).\" The Gobi nomads raised sheep, goats, and cattle.",
@@ -120,10 +192,22 @@
         "zh": "托霍诺·奥哈姆人怎样把沙漠当作“市场”？"
       },
       "options": [
-        { "en": "They planted seeds for food, went to springs for water, and hunted for meat", "zh": "他们播种获取食物、去泉边取水、打猎获取肉食" },
-        { "en": "They bought things in stores", "zh": "他们在商店里买东西" },
-        { "en": "They traded with Europe", "zh": "他们与欧洲贸易" },
-        { "en": "They fished in the ocean every day", "zh": "他们每天在海里捕鱼" }
+        {
+          "en": "They planted seeds for food, went to springs for water, and hunted for meat",
+          "zh": "他们播种获取食物、去泉边取水、打猎获取肉食"
+        },
+        {
+          "en": "They bought things in stores",
+          "zh": "他们在商店里买东西"
+        },
+        {
+          "en": "They fished in the ocean every day according to some versions of the story in an early draft of the book",
+          "zh": "他们每天在海里捕鱼（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They traded with Europe",
+          "zh": "他们与欧洲贸易"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "作者为什么用表格比较四个沙漠？"
       },
       "options": [
-        { "en": "To show that deserts are all different, though all are dry", "zh": "为了说明沙漠虽都干旱，却各不相同" },
-        { "en": "To prove the Sahara is the smallest", "zh": "为了证明撒哈拉是最小的" },
-        { "en": "To teach map reading", "zh": "为了教看地图" },
-        { "en": "To list camel types", "zh": "为了列出骆驼的种类" }
+        {
+          "en": "To prove the Sahara is the smallest according to some versions of the story",
+          "zh": "为了证明撒哈拉是最小的（按书中另一种说法）"
+        },
+        {
+          "en": "To show that deserts are all different, though all are dry",
+          "zh": "为了说明沙漠虽都干旱，却各不相同"
+        },
+        {
+          "en": "To teach map reading",
+          "zh": "为了教看地图"
+        },
+        {
+          "en": "To list camel types",
+          "zh": "为了列出骆驼的种类"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The table caption says, \"Compare these four deserts. Notice that they are all different,\" while the book notes all deserts are dry.",
@@ -156,10 +252,22 @@
         "zh": "根据书中内容，沙漠大约覆盖了地球表面的多少？"
       },
       "options": [
-        { "en": "Roughly one-fifth", "zh": "大约五分之一" },
-        { "en": "Half", "zh": "一半" },
-        { "en": "Almost none", "zh": "几乎没有" },
-        { "en": "Three-quarters", "zh": "四分之三" }
+        {
+          "en": "Roughly one-fifth",
+          "zh": "大约五分之一"
+        },
+        {
+          "en": "Almost none",
+          "zh": "几乎没有"
+        },
+        {
+          "en": "Half",
+          "zh": "一半"
+        },
+        {
+          "en": "Three-quarters according to some versions of the story",
+          "zh": "四分之三（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -174,12 +282,24 @@
         "zh": "卡拉哈里沙漠的布须曼人如何获取食物？"
       },
       "options": [
-        { "en": "Women gathered plants and roots; men hunted with bows and arrows", "zh": "女人采集植物和根茎；男人用弓箭打猎" },
-        { "en": "They raised llamas", "zh": "他们饲养羊驼" },
-        { "en": "They grew wheat only", "zh": "他们只种小麦" },
-        { "en": "They ate only dates", "zh": "他们只吃枣" }
+        {
+          "en": "They ate only dates",
+          "zh": "他们只吃枣"
+        },
+        {
+          "en": "Women gathered plants and roots; men hunted with bows and arrows",
+          "zh": "女人采集植物和根茎；男人用弓箭打猎"
+        },
+        {
+          "en": "They raised llamas",
+          "zh": "他们饲养羊驼"
+        },
+        {
+          "en": "They grew wheat only according to some versions of the story in an early draft of the book",
+          "zh": "他们只种小麦（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, \"Bushmen lived in the Kalahari Desert. Women gathered plants and roots. Men hunted with bows and arrows.\"",

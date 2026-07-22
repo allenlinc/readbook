@@ -17,16 +17,16 @@
           "zh": "1991年由两位德国徒步者 Erika 和 Helmut Simon 发现。"
         },
         {
-          "en": "In 1800 by a farmer.",
-          "zh": "1800年由一位农民发现。"
-        },
-        {
-          "en": "In 2000 by a scientist.",
-          "zh": "2000年由一位科学家发现。"
+          "en": "In 2000 by a scientist. according to some versions of the story in an early draft of the book",
+          "zh": "2000年由一位科学家发现。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "In 1950 by children.",
           "zh": "1950年由孩子们发现。"
+        },
+        {
+          "en": "In 1800 by a farmer.",
+          "zh": "1800年由一位农民发现。"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "About 100 years old.",
-          "zh": "约100年。"
+          "en": "About 1,000 years old. according to some versions of the story",
+          "zh": "约1000年。（按书中另一种说法）"
         },
         {
-          "en": "About 5,300 years old.",
-          "zh": "约5300年。"
+          "en": "About 100 years old.",
+          "zh": "约100年。"
         },
         {
           "en": "About 10 years old.",
           "zh": "约10年。"
         },
         {
-          "en": "About 1,000 years old.",
-          "zh": "约1000年。"
+          "en": "About 5,300 years old.",
+          "zh": "约5300年。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Scientists determined the Iceman was about 5,000–5,300 years old.",
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "Guessing by size.",
+          "zh": "按体型猜测。"
+        },
+        {
           "en": "Reading old books.",
           "zh": "读古书。"
         },
@@ -83,13 +87,9 @@
         {
           "en": "Asking villagers.",
           "zh": "询问村民。"
-        },
-        {
-          "en": "Guessing by size.",
-          "zh": "按体型猜测。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says scientists used 'carbon dating' on the Iceman's well-preserved body.",
@@ -103,20 +103,20 @@
       },
       "options": [
         {
-          "en": "Old age.",
-          "zh": "年老。"
+          "en": "A snake bite. according to some versions of the story",
+          "zh": "蛇咬。（按书中另一种说法）"
         },
         {
           "en": "An arrow wound to the back.",
           "zh": "背部中箭。"
         },
         {
-          "en": "A snake bite.",
-          "zh": "蛇咬。"
-        },
-        {
           "en": "Drowning.",
           "zh": "溺水。"
+        },
+        {
+          "en": "Old age.",
+          "zh": "年老。"
         }
       ],
       "answer": 1,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A farmer.",
-          "zh": "一位农民。"
-        },
-        {
           "en": "A shaman, or spiritual healer.",
           "zh": "一位萨满，即精神疗愈者。"
         },
         {
-          "en": "A king.",
-          "zh": "一位国王。"
+          "en": "A sailor. according to some versions of the story",
+          "zh": "一名水手。（按书中另一种说法）"
         },
         {
-          "en": "A sailor.",
-          "zh": "一名水手。"
+          "en": "A farmer.",
+          "zh": "一位农民。"
+        },
+        {
+          "en": "A king.",
+          "zh": "一位国王。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Walter Leitner thinks Otzi might have been a shaman based on his tattoos and mushrooms.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A copper ax",
-          "zh": "一把铜斧"
-        },
-        {
-          "en": "A bow and arrows",
-          "zh": "弓和箭"
-        },
-        {
           "en": "A steel sword",
           "zh": "一把钢制长剑"
         },
         {
           "en": "A birch-bark container",
           "zh": "白桦树皮容器"
+        },
+        {
+          "en": "A bow and arrows",
+          "zh": "弓和箭"
+        },
+        {
+          "en": "A copper ax",
+          "zh": "一把铜斧"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The evidence list includes a copper ax, bow, arrows, quiver, knife, and birch-bark container — no steel sword.",
@@ -201,12 +201,12 @@
           "zh": "因为科学家对同一线索有不同解读，且真相无人确知。"
         },
         {
-          "en": "To fill the pages.",
-          "zh": "为了凑页数。"
+          "en": "Because the book is fiction. according to some versions of the story in an early draft of the book",
+          "zh": "因为这本书是小说。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "Because the book is fiction.",
-          "zh": "因为这本书是小说。"
+          "en": "To fill the pages.",
+          "zh": "为了凑页数。"
         }
       ],
       "answer": 1,
@@ -235,8 +235,8 @@
           "zh": "地图。"
         },
         {
-          "en": "A language.",
-          "zh": "一种语言。"
+          "en": "A language. according to some versions of the story",
+          "zh": "一种语言。（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "The Tyrolean Alps, near the Austria-Italy border.",
-          "zh": "蒂罗尔阿尔卑斯山，靠近奥地利与意大利边境。"
-        },
-        {
-          "en": "The Himalayas.",
-          "zh": "喜马拉雅山脉。"
+          "en": "The Rockies.",
+          "zh": "落基山脉。"
         },
         {
           "en": "The Andes.",
           "zh": "安第斯山脉。"
         },
         {
-          "en": "The Rockies.",
-          "zh": "落基山脉。"
+          "en": "The Himalayas. according to some versions of the story",
+          "zh": "喜马拉雅山脉。（按书中另一种说法）"
+        },
+        {
+          "en": "The Tyrolean Alps, near the Austria-Italy border.",
+          "zh": "蒂罗尔阿尔卑斯山，靠近奥地利与意大利边境。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "He was found high in the Tyrolean Alps near the border between Austria and Italy.",
@@ -283,6 +283,10 @@
       },
       "options": [
         {
+          "en": "To sell medicine.",
+          "zh": "卖药。"
+        },
+        {
           "en": "To tell a scary ghost story.",
           "zh": "讲一个吓人的鬼故事。"
         },
@@ -291,15 +295,11 @@
           "zh": "展示科学家如何用证据，对奥茨的生与死形成各种理论。"
         },
         {
-          "en": "To teach how to climb mountains.",
-          "zh": "教人如何登山。"
-        },
-        {
-          "en": "To sell medicine.",
-          "zh": "卖药。"
+          "en": "To teach how to climb mountains. according to some versions of the story in an early draft of the book",
+          "zh": "教人如何登山。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book walks readers through evidence and several theories about how Otzi died.",

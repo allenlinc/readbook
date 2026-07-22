@@ -17,16 +17,16 @@
           "zh": "她花的钱比赚的多，陷入了债务。"
         },
         {
-          "en": "She cannot find a job to earn any money.",
-          "zh": "她找不到工作赚钱。"
-        },
-        {
           "en": "Her brother refuses to speak to her.",
           "zh": "她的哥哥拒绝和她说话。"
         },
         {
-          "en": "She loses her smartphone on the first day.",
-          "zh": "她第一天就把智能手机弄丢了。"
+          "en": "She loses her smartphone on the first day. according to some versions of the story",
+          "zh": "她第一天就把智能手机弄丢了。（按书中另一种说法）"
+        },
+        {
+          "en": "She cannot find a job to earn any money.",
+          "zh": "她找不到工作赚钱。"
         }
       ],
       "answer": 0,
@@ -43,20 +43,20 @@
       },
       "options": [
         {
-          "en": "$100",
-          "zh": "100美元"
+          "en": "$500 according to some versions of the story",
+          "zh": "500美元（按书中另一种说法）"
         },
         {
           "en": "$200",
           "zh": "200美元"
         },
         {
-          "en": "$35",
-          "zh": "35美元"
+          "en": "$100",
+          "zh": "100美元"
         },
         {
-          "en": "$500",
-          "zh": "500美元"
+          "en": "$35",
+          "zh": "35美元"
         }
       ],
       "answer": 1,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Money a bank pays you for saving.",
-          "zh": "银行为你的存款付给你的钱。"
-        },
-        {
           "en": "Money paid by a borrower for the use of loaned money.",
           "zh": "借款人因使用借来的钱而支付的钱。"
         },
         {
-          "en": "The price of a new phone.",
-          "zh": "一部新手机的价格。"
-        },
-        {
           "en": "A type of video game.",
           "zh": "一种电子游戏。"
+        },
+        {
+          "en": "Money a bank pays you for saving. according to some versions of the story",
+          "zh": "银行为你的存款付给你的钱。（按书中另一种说法）"
+        },
+        {
+          "en": "The price of a new phone.",
+          "zh": "一部新手机的价格。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Thad explains that interest is what banks charge people who borrow money, so borrowers pay back more than they borrowed.",
@@ -103,8 +103,8 @@
       },
       "options": [
         {
-          "en": "$200",
-          "zh": "200美元"
+          "en": "$200 according to some versions of the story",
+          "zh": "200美元（按书中另一种说法）"
         },
         {
           "en": "$220",
@@ -137,19 +137,19 @@
           "zh": "教读者做数学。"
         },
         {
-          "en": "To list the book's glossary words.",
-          "zh": "列出书中的词汇表。"
-        },
-        {
           "en": "To let readers think of solutions to overspending and debt.",
           "zh": "让读者思考解决过度消费和债务的办法。"
         },
         {
           "en": "To advertise smartphones.",
           "zh": "为智能手机做广告。"
+        },
+        {
+          "en": "To list the book's glossary words. according to some versions of the story",
+          "zh": "列出书中的词汇表。（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The section invites readers to reflect on Tanya's pickle and imagine responsible choices about money.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Spends it all on clothes and music.",
-          "zh": "全部花在衣服和音乐上。"
-        },
-        {
           "en": "Saves about half and buys shares of stock.",
           "zh": "存下大约一半并购买股票。"
         },
         {
-          "en": "Gives it all to Tanya.",
-          "zh": "全部给坦尼娅。"
+          "en": "Spends it all on clothes and music. according to some versions of the story",
+          "zh": "全部花在衣服和音乐上。（按书中另一种说法）"
         },
         {
           "en": "Hides it under his bed.",
           "zh": "藏在床底下。"
+        },
+        {
+          "en": "Gives it all to Tanya.",
+          "zh": "全部给坦尼娅。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Thad deposits about half his earnings in savings and buys stock in Disney and Nintendo.",
@@ -193,8 +193,12 @@
       },
       "options": [
         {
-          "en": "They become millionaires quickly.",
-          "zh": "他们很快成为百万富翁。"
+          "en": "They become millionaires quickly. according to some versions of the story",
+          "zh": "他们很快成为百万富翁。（按书中另一种说法）"
+        },
+        {
+          "en": "Nothing bad happens.",
+          "zh": "不会发生坏事。"
         },
         {
           "en": "They fall further and further into debt.",
@@ -203,13 +207,9 @@
         {
           "en": "Their parents buy them anything.",
           "zh": "父母会给他们买任何东西。"
-        },
-        {
-          "en": "Nothing bad happens.",
-          "zh": "不会发生坏事。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The 'Write Your Own Ending' note says spending more than you earn leads to deeper and deeper debt.",
@@ -223,8 +223,12 @@
       },
       "options": [
         {
-          "en": "A fee you pay to borrow money.",
-          "zh": "借款要付的费用。"
+          "en": "A shopping mall.",
+          "zh": "一家购物中心。"
+        },
+        {
+          "en": "A fee you pay to borrow money. according to some versions of the story",
+          "zh": "借款要付的费用。（按书中另一种说法）"
         },
         {
           "en": "A type of smartphone.",
@@ -233,13 +237,9 @@
         {
           "en": "Payments from a company's profits to people who own its stock.",
           "zh": "公司从利润中付给股东的款项。"
-        },
-        {
-          "en": "A shopping mall.",
-          "zh": "一家购物中心。"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines dividends as payments made from a company's profits to its stock owners; Thad reinvests his.",
@@ -253,8 +253,8 @@
       },
       "options": [
         {
-          "en": "10 shares",
-          "zh": "10股"
+          "en": "10 shares according to some versions of the story",
+          "zh": "10股（按书中另一种说法）"
         },
         {
           "en": "25 shares",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Earn more money or spend less each week.",
-          "zh": "赚更多钱，或每周少花一点。"
-        },
-        {
-          "en": "Buy an even more expensive phone.",
-          "zh": "买一部更贵的手机。"
+          "en": "Quit school.",
+          "zh": "退学。"
         },
         {
           "en": "Move to a new city.",
           "zh": "搬到新城市。"
         },
         {
-          "en": "Quit school.",
-          "zh": "退学。"
+          "en": "Buy an even more expensive phone. according to some versions of the story",
+          "zh": "买一部更贵的手机。（按书中另一种说法）"
+        },
+        {
+          "en": "Earn more money or spend less each week.",
+          "zh": "赚更多钱，或每周少花一点。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Dad says she can make more money, spend less, take another loan (which he warns against), or sell the phone.",

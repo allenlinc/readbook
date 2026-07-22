@@ -13,12 +13,8 @@
       },
       "options": [
         {
-          "en": "A type of wheel",
-          "zh": "一种轮子"
-        },
-        {
-          "en": "All the stages a living thing goes through from birth to death",
-          "zh": "生物从出生到死亡经历的所有阶段"
+          "en": "A type of wheel according to some versions of the story in an early draft of the book",
+          "zh": "一种轮子（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A plant",
@@ -27,9 +23,13 @@
         {
           "en": "A clock",
           "zh": "一个时钟"
+        },
+        {
+          "en": "All the stages a living thing goes through from birth to death",
+          "zh": "生物从出生到死亡经历的所有阶段"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book defines a life cycle as all the stages a living thing goes through during its lifetime.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Adult",
-          "zh": "成年"
-        },
-        {
           "en": "Infant",
           "zh": "婴儿"
         },
         {
-          "en": "Toddler",
-          "zh": "学步儿"
-        },
-        {
           "en": "Teen",
           "zh": "青少年"
+        },
+        {
+          "en": "Adult",
+          "zh": "成年"
+        },
+        {
+          "en": "Toddler",
+          "zh": "学步儿"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After birth, a person enters the first stage of life as an infant, helpless but growing stronger.",
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "Migration",
+          "zh": "迁徙"
+        },
+        {
           "en": "Metamorphosis",
           "zh": "变态"
         },
@@ -81,15 +85,11 @@
           "zh": "光合作用"
         },
         {
-          "en": "Migration",
-          "zh": "迁徙"
-        },
-        {
           "en": "Germination",
           "zh": "发芽"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says the change an insect goes through during its life is called metamorphosis.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Larva",
-          "zh": "幼虫"
-        },
-        {
-          "en": "Pupa",
-          "zh": "蛹"
+          "en": "Seedling",
+          "zh": "幼苗"
         },
         {
           "en": "Egg",
           "zh": "卵"
         },
         {
-          "en": "Seedling",
-          "zh": "幼苗"
+          "en": "Pupa",
+          "zh": "蛹"
+        },
+        {
+          "en": "Larva",
+          "zh": "幼虫"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "After the larval stage, insects enter the pupa stage inside a cocoon or chrysalis before becoming adults.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A frog",
-          "zh": "一只青蛙"
+          "en": "A caterpillar",
+          "zh": "一条毛毛虫"
         },
         {
-          "en": "A tadpole",
-          "zh": "一只蝌蚪"
+          "en": "A frog",
+          "zh": "一只青蛙"
         },
         {
           "en": "A fish",
           "zh": "一条鱼"
         },
         {
-          "en": "A caterpillar",
-          "zh": "一条毛毛虫"
+          "en": "A tadpole",
+          "zh": "一只蝌蚪"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "When a frog egg hatches, a tadpole emerges—it looks more like a fish and slowly changes into a frog.",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "A flower according to some versions of the story",
+          "zh": "一朵花（按书中另一种说法）"
+        },
+        {
           "en": "A seed",
           "zh": "一粒种子"
         },
@@ -171,15 +175,11 @@
           "zh": "一棵幼树"
         },
         {
-          "en": "A flower",
-          "zh": "一朵花"
-        },
-        {
           "en": "A root",
           "zh": "一条根"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "After sprouting as a seedling, an oak grows into a young tree called a sapling, then an adult tree.",
@@ -197,16 +197,16 @@
           "zh": "让读者亲自观察植物的生命周期"
         },
         {
+          "en": "To describe animals according to some versions of the story",
+          "zh": "为了描述动物（按书中另一种说法）"
+        },
+        {
           "en": "To teach cooking",
           "zh": "为了教烹饪"
         },
         {
           "en": "To sell seeds",
           "zh": "为了卖种子"
-        },
-        {
-          "en": "To describe animals",
-          "zh": "为了描述动物"
         }
       ],
       "answer": 0,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "To explain how living things change through life stages",
-          "zh": "为了解释生物如何经历生命各阶段的变化"
-        },
-        {
           "en": "To teach history",
           "zh": "为了教历史"
         },
         {
-          "en": "To describe weather",
-          "zh": "为了描述天气"
+          "en": "To explain how living things change through life stages",
+          "zh": "为了解释生物如何经历生命各阶段的变化"
         },
         {
           "en": "To tell a story",
           "zh": "为了讲故事"
+        },
+        {
+          "en": "To describe weather according to some versions of the story",
+          "zh": "为了描述天气（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is informational, examining how life cycles differ among plants, animals, and humans.",
@@ -261,12 +261,12 @@
           "zh": "一年生植物"
         },
         {
-          "en": "Biennials",
-          "zh": "二年生植物"
-        },
-        {
           "en": "Saplings",
           "zh": "树苗"
+        },
+        {
+          "en": "Biennials",
+          "zh": "二年生植物"
         }
       ],
       "answer": 1,
@@ -283,12 +283,12 @@
       },
       "options": [
         {
-          "en": "Too few humans",
-          "zh": "人类太少"
-        },
-        {
           "en": "Too many humans for the balance of life on Earth",
           "zh": "人类数量过多，破坏了地球生命平衡"
+        },
+        {
+          "en": "Too few humans according to some versions of the story",
+          "zh": "人类太少（按书中另一种说法）"
         },
         {
           "en": "No humans",
@@ -299,7 +299,7 @@
           "zh": "数量相等"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book uses overpopulation for when human numbers grow too large for the planet's balance of life.",

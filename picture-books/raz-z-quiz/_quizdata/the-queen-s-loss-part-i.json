@@ -12,12 +12,24 @@
         "zh": "在第一部开头，叙述者试图把谁从沙之幻象中解救出来？"
       },
       "options": [
-        {"en": "Anna, who believes she is holding a baby in a bundle of blankets", "zh": "安娜，她相信自己怀里毯子中包着一个婴儿"},
-        {"en": "The Queen, who is trapped on her throne", "zh": "被困在王座上的女王"},
-        {"en": "Jake, who is riding a steed", "zh": "骑在骏马上的 Jake"},
-        {"en": "Sarah, who is laughing on a couch", "zh": "在沙发上欢笑的 Sarah"}
+        {
+          "en": "Sarah, who is laughing on a couch",
+          "zh": "在沙发上欢笑的 Sarah"
+        },
+        {
+          "en": "Jake, who is riding a steed",
+          "zh": "骑在骏马上的 Jake"
+        },
+        {
+          "en": "Anna, who believes she is holding a baby in a bundle of blankets",
+          "zh": "安娜，她相信自己怀里毯子中包着一个婴儿"
+        },
+        {
+          "en": "The Queen, who is trapped on her throne according to some versions of the story",
+          "zh": "被困在王座上的女王（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The group crowds around Anna, who 'continues to coo at the baby she believes is wriggling in the empty bundle of blankets,' and the narrator works to break the illusion.",
@@ -30,12 +42,24 @@
         "zh": "女王向 Qynn 和她的朋友们提出了什么？"
       },
       "options": [
-        {"en": "A life of endless happiness in their own personal paradise, with no pain, sadness, or loss", "zh": "在自己专属的乐园里永享幸福，没有痛苦、悲伤或失去"},
-        {"en": "A free trip back home immediately", "zh": "立刻免费送他们回家"},
-        {"en": "A job working for the Queen", "zh": "一份为女王工作的差事"},
-        {"en": "A battle to the death", "zh": "一场生死决斗"}
+        {
+          "en": "A job working for the Queen",
+          "zh": "一份为女王工作的差事"
+        },
+        {
+          "en": "A free trip back home immediately according to some versions of the story in an early draft of the book",
+          "zh": "立刻免费送他们回家（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A life of endless happiness in their own personal paradise, with no pain, sadness, or loss",
+          "zh": "在自己专属的乐园里永享幸福，没有痛苦、悲伤或失去"
+        },
+        {
+          "en": "A battle to the death",
+          "zh": "一场生死决斗"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Queen says she can give them 'endless happiness' in 'your own personal paradise' with 'No pain, sadness ... or loss.'",
@@ -48,12 +72,24 @@
         "zh": "关于幸福与悲伤，Seth 提出了什么观点？"
       },
       "options": [
-        {"en": "They are opposite sides of the same coin—one cannot exist without the other", "zh": "它们是一枚硬币的两面——缺一不可"},
-        {"en": "Happiness is the only real feeling", "zh": "幸福才是唯一真实的感受"},
-        {"en": "Sadness should always be avoided at any cost", "zh": "应当不惜一切代价避开悲伤"},
-        {"en": "They have nothing to do with each other", "zh": "两者毫无关系"}
+        {
+          "en": "Sadness should always be avoided at any cost according to some versions of the story",
+          "zh": "应当不惜一切代价避开悲伤（按书中另一种说法）"
+        },
+        {
+          "en": "They have nothing to do with each other",
+          "zh": "两者毫无关系"
+        },
+        {
+          "en": "Happiness is the only real feeling",
+          "zh": "幸福才是唯一真实的感受"
+        },
+        {
+          "en": "They are opposite sides of the same coin—one cannot exist without the other",
+          "zh": "它们是一枚硬币的两面——缺一不可"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Seth says 'Happiness and sadness are opposite sides of the same coin—one doesn't exist without the other.'",
@@ -66,12 +102,24 @@
         "zh": "在第一部结尾，Qynn 拒绝女王的提议后发生了什么？"
       },
       "options": [
-        {"en": "The Queen says she has no further need of them and commands, 'Be gone'", "zh": "女王说不再需要他们，并命令“滚出去”"},
-        {"en": "The Queen throws a victory party", "zh": "女王举办了一场胜利派对"},
-        {"en": "The Queen frees Jake and Sarah immediately", "zh": "女王立刻释放了 Jake 和 Sarah"},
-        {"en": "The Queen apologizes and leaves with them", "zh": "女王道歉并和他们一起离开"}
+        {
+          "en": "The Queen throws a victory party",
+          "zh": "女王举办了一场胜利派对"
+        },
+        {
+          "en": "The Queen says she has no further need of them and commands, 'Be gone'",
+          "zh": "女王说不再需要他们，并命令“滚出去”"
+        },
+        {
+          "en": "The Queen apologizes and leaves with them",
+          "zh": "女王道歉并和他们一起离开"
+        },
+        {
+          "en": "The Queen frees Jake and Sarah immediately according to some versions of the story",
+          "zh": "女王立刻释放了 Jake 和 Sarah（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After Qynn rejects the offer, the Queen says 'Since you have rejected my offer, I have no further need of you,' and then 'Be gone.'",
@@ -84,10 +132,22 @@
         "zh": "这个故事以第一人称（叙述者用“我”）讲述。这对阅读体验有什么影响？"
       },
       "options": [
-        {"en": "Readers experience events and feelings through Qynn's own eyes and thoughts", "zh": "读者通过 Qynn 自己的所见所感和思想来经历事件"},
-        {"en": "Readers learn the private thoughts of every character equally", "zh": "读者平等地得知每个角色的内心想法"},
-        {"en": "The story is told by an outside, all-knowing narrator", "zh": "故事由一个置身事外的全知叙述者讲述"},
-        {"en": "There is no narrator at all", "zh": "根本没有叙述者"}
+        {
+          "en": "Readers experience events and feelings through Qynn's own eyes and thoughts",
+          "zh": "读者通过 Qynn 自己的所见所感和思想来经历事件"
+        },
+        {
+          "en": "The story is told by an outside, all-knowing narrator",
+          "zh": "故事由一个置身事外的全知叙述者讲述"
+        },
+        {
+          "en": "There is no narrator at all",
+          "zh": "根本没有叙述者"
+        },
+        {
+          "en": "Readers learn the private thoughts of every character equally according to some versions of the story",
+          "zh": "读者平等地得知每个角色的内心想法（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,10 +162,22 @@
         "zh": "叙述者反复说“这不是真的”（It's not real）。作者反复使用这句话的目的是什么？"
       },
       "options": [
-        {"en": "To show Qynn using the phrase as a way to stay grounded in reality and resist the illusion", "zh": "表现 Qynn 用这句话让自己锚定现实、抵抗幻象"},
-        {"en": "To prove the baby was actually real", "zh": "为了证明那个婴儿其实是真实的"},
-        {"en": "To describe the weather", "zh": "为了描述天气"},
-        {"en": "To show she has forgotten her name", "zh": "为了说明她忘了自己的名字"}
+        {
+          "en": "To show Qynn using the phrase as a way to stay grounded in reality and resist the illusion",
+          "zh": "表现 Qynn 用这句话让自己锚定现实、抵抗幻象"
+        },
+        {
+          "en": "To prove the baby was actually real according to some versions of the story in an early draft of the book",
+          "zh": "为了证明那个婴儿其实是真实的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To show she has forgotten her name",
+          "zh": "为了说明她忘了自己的名字"
+        },
+        {
+          "en": "To describe the weather",
+          "zh": "为了描述天气"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "当叙述者进入育儿室的幻象时，她觉得它比真实生活“更真实”。这揭示了什么？"
       },
       "options": [
-        {"en": "The sand illusions are so convincing and pleasant that they can feel more real than reality itself", "zh": "沙之幻象极其逼真且美好，以至于让人觉得比现实还真实"},
-        {"en": "The narrator prefers the dirty real world", "zh": "叙述者更喜欢肮脏的现实世界"},
-        {"en": "The nursery is actually a real place in another country", "zh": "育儿室其实是另一个国家真实存在的地方"},
-        {"en": "The Queen cannot create convincing illusions", "zh": "女王无法制造逼真的幻象"}
+        {
+          "en": "The Queen cannot create convincing illusions",
+          "zh": "女王无法制造逼真的幻象"
+        },
+        {
+          "en": "The narrator prefers the dirty real world",
+          "zh": "叙述者更喜欢肮脏的现实世界"
+        },
+        {
+          "en": "The nursery is actually a real place in another country according to some versions of the story in an early draft of the book",
+          "zh": "育儿室其实是另一个国家真实存在的地方（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The sand illusions are so convincing and pleasant that they can feel more real than reality itself",
+          "zh": "沙之幻象极其逼真且美好，以至于让人觉得比现实还真实"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The narrator is 'nearly overwhelmed by the sensation that this place ... is more authentic than the existence that I had come from,' showing how powerful the illusions are.",
@@ -138,12 +222,24 @@
         "zh": "女王给 Qynn 看了两扇彩绘玻璃窗——一扇是 Sarah 和妈妈，一扇是 Jake 骑在骏马上。这揭示了她的什么手法？"
       },
       "options": [
-        {"en": "She uses images of people's loved ones and deepest desires to tempt them into staying", "zh": "她利用人们所爱之人与最深的渴望来诱惑他们留下"},
-        {"en": "She shows them maps of the real world", "zh": "她给他们看真实世界的地图"},
-        {"en": "She is showing them the weather forecast", "zh": "她在给他们看天气预报"},
-        {"en": "She is punishing them with scary images", "zh": "她用可怕的图像惩罚他们"}
+        {
+          "en": "She is punishing them with scary images according to some versions of the story in an early draft of the book",
+          "zh": "她用可怕的图像惩罚他们（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "She uses images of people's loved ones and deepest desires to tempt them into staying",
+          "zh": "她利用人们所爱之人与最深的渴望来诱惑他们留下"
+        },
+        {
+          "en": "She is showing them the weather forecast",
+          "zh": "她在给他们看天气预报"
+        },
+        {
+          "en": "She shows them maps of the real world",
+          "zh": "她给他们看真实世界的地图"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Queen displays 'Sarah and her mom' laughing and 'Jake galloping on a great steed' to argue how blissful their personal paradises would be.",
@@ -156,10 +252,22 @@
         "zh": "Qynn 认为经历恐惧、痛苦和悲伤能让人“学习并成长”。作者安排这一想法的目的是什么？"
       },
       "options": [
-        {"en": "To convey the theme that struggles and loss are part of being alive and help us value happiness", "zh": "传达主题：挣扎与失去是活着的一部分，并帮助我们珍惜幸福"},
-        {"en": "To say that people should seek out pain on purpose", "zh": "为了说人们应当刻意去寻找痛苦"},
-        {"en": "To prove happiness is impossible", "zh": "为了证明幸福不可能存在"},
-        {"en": "To suggest ignoring all negative feelings", "zh": "为了建议忽略所有负面情绪"}
+        {
+          "en": "To convey the theme that struggles and loss are part of being alive and help us value happiness",
+          "zh": "传达主题：挣扎与失去是活着的一部分，并帮助我们珍惜幸福"
+        },
+        {
+          "en": "To prove happiness is impossible",
+          "zh": "为了证明幸福不可能存在"
+        },
+        {
+          "en": "To say that people should seek out pain on purpose according to some versions of the story in an early draft of the book",
+          "zh": "为了说人们应当刻意去寻找痛苦（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To suggest ignoring all negative feelings",
+          "zh": "为了建议忽略所有负面情绪"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "标题是“女王失去的一切”。第一部暗示女王在试图逃避什么？"
       },
       "options": [
-        {"en": "She avoids pain and loss by creating illusions of endless happiness instead of facing real life", "zh": "她通过制造无尽幸福的幻象来逃避痛苦与失去，而不敢面对真实生活"},
-        {"en": "She is trying to avoid winning any battles", "zh": "她在试图避开任何胜利"},
-        {"en": "She wants to lose her throne on purpose", "zh": "她想故意失去王位"},
-        {"en": "She fears learning to read", "zh": "她害怕学会阅读"}
+        {
+          "en": "She wants to lose her throne on purpose",
+          "zh": "她想故意失去王位"
+        },
+        {
+          "en": "She avoids pain and loss by creating illusions of endless happiness instead of facing real life",
+          "zh": "她通过制造无尽幸福的幻象来逃避痛苦与失去，而不敢面对真实生活"
+        },
+        {
+          "en": "She fears learning to read",
+          "zh": "她害怕学会阅读"
+        },
+        {
+          "en": "She is trying to avoid winning any battles according to some versions of the story in an early draft of the book",
+          "zh": "她在试图避开任何胜利（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Queen offers a world 'filled with nothing but joy. No pain, sadness ... or loss,' showing she uses illusions to escape the pain of loss.",

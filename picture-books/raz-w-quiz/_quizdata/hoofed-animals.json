@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Ungulates",
-          "zh": "有蹄类（ungulates）"
-        },
-        {
           "en": "Carnivores",
           "zh": "肉食动物"
+        },
+        {
+          "en": "Mammals only-without-hooves",
+          "zh": "没有蹄的哺乳动物"
         },
         {
           "en": "Reptiles",
           "zh": "爬行动物"
         },
         {
-          "en": "Mammals only-without-hooves",
-          "zh": "没有蹄的哺乳动物"
+          "en": "Ungulates",
+          "zh": "有蹄类（ungulates）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "All hoofed animals belong to a group of mammals called ungulates.",
@@ -47,16 +47,16 @@
           "zh": "角蛋白（keratin）"
         },
         {
-          "en": "Bone only",
-          "zh": "纯骨头"
-        },
-        {
           "en": "Wood",
           "zh": "木头"
         },
         {
           "en": "Glass",
           "zh": "玻璃"
+        },
+        {
+          "en": "Bone only according to some versions of the story",
+          "zh": "纯骨头（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -77,16 +77,16 @@
           "zh": "连接蹄与踝部的一根长而坚实的骨头"
         },
         {
+          "en": "A kind of tail",
+          "zh": "一种尾巴"
+        },
+        {
           "en": "A type of tooth",
           "zh": "一种牙齿"
         },
         {
-          "en": "A horn on the head",
-          "zh": "头上的角"
-        },
-        {
-          "en": "A kind of tail",
-          "zh": "一种尾巴"
+          "en": "A horn on the head according to some versions of the story in an early draft of the book",
+          "zh": "头上的角（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "Marsupials",
+          "zh": "有袋动物"
+        },
+        {
           "en": "Odd-toed ungulates",
           "zh": "奇蹄目有蹄动物"
         },
@@ -111,15 +115,11 @@
           "zh": "偶蹄目有蹄动物"
         },
         {
-          "en": "Marsupials",
-          "zh": "有袋动物"
-        },
-        {
           "en": "Primates",
           "zh": "灵长类"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Horses/zebras (one toe) and rhinos (three toes) are odd-toed ungulates.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Australia and Antarctica",
-          "zh": "澳大利亚和南极洲"
+          "en": "Europe and North America according to some versions of the story",
+          "zh": "欧洲和北美（按书中另一种说法）"
         },
         {
           "en": "Africa and Asia",
           "zh": "非洲和亚洲"
         },
         {
-          "en": "Europe and North America",
-          "zh": "欧洲和北美"
+          "en": "Australia and Antarctica",
+          "zh": "澳大利亚和南极洲"
         },
         {
           "en": "South America",
           "zh": "南美洲"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Even-toed ungulates are native to every continent except Australia and Antarctica.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "For camouflage by blending with the herd",
-          "zh": "通过融入群体起到伪装作用"
+          "en": "To show they are poisonous according to some versions of the story",
+          "zh": "表示它们有毒（按书中另一种说法）"
         },
         {
-          "en": "To attract mates only",
-          "zh": "只是为了吸引配偶"
+          "en": "For camouflage by blending with the herd",
+          "zh": "通过融入群体起到伪装作用"
         },
         {
           "en": "Because they are cold",
           "zh": "因为它们冷"
         },
         {
-          "en": "To show they are poisonous",
-          "zh": "表示它们有毒"
+          "en": "To attract mates only",
+          "zh": "只是为了吸引配偶"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A zebra's stripes help it blend in with other zebras, making it harder for predators to single it out.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Keratin",
-          "zh": "角蛋白"
-        },
-        {
-          "en": "Bone only",
-          "zh": "纯骨头"
-        },
-        {
           "en": "Wood",
           "zh": "木头"
         },
         {
           "en": "Metal",
           "zh": "金属"
+        },
+        {
+          "en": "Bone only",
+          "zh": "纯骨头"
+        },
+        {
+          "en": "Keratin",
+          "zh": "角蛋白"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Rhino horns are made of keratin, the same material as hooves.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Caribou",
-          "zh": "驯鹿"
-        },
-        {
           "en": "Moose",
           "zh": "驼鹿"
         },
         {
-          "en": "Elk",
-          "zh": "麋鹿"
+          "en": "Caribou",
+          "zh": "驯鹿"
         },
         {
           "en": "White-tailed deer",
           "zh": "白尾鹿"
+        },
+        {
+          "en": "Elk",
+          "zh": "麋鹿"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Caribou are the only deer in which the females also grow antlers.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Up to 136 kg (300 lb)",
-          "zh": "多达136公斤（300磅）"
+          "en": "500 kg",
+          "zh": "500公斤"
         },
         {
           "en": "About 1 kg",
           "zh": "约1公斤"
         },
         {
-          "en": "500 kg",
-          "zh": "500公斤"
+          "en": "Up to 136 kg (300 lb)",
+          "zh": "多达136公斤（300磅）"
         },
         {
-          "en": "None; they eat meat",
-          "zh": "不吃；它们吃肉"
+          "en": "None; they eat meat according to some versions of the story",
+          "zh": "不吃；它们吃肉（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "An adult hippo can eat up to 136 kg (300 lb) of plants in a single day.",
@@ -291,12 +291,12 @@
           "zh": "只吃肉"
         },
         {
-          "en": "Rocks",
-          "zh": "石头"
-        },
-        {
           "en": "Plastic",
           "zh": "塑料"
+        },
+        {
+          "en": "Rocks",
+          "zh": "石头"
         }
       ],
       "answer": 0,

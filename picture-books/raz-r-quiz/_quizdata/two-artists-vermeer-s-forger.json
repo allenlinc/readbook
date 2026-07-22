@@ -13,16 +13,16 @@
       },
       "options": [
         {
-          "en": "A famous Dutch master painter from the 1600s.",
-          "zh": "17世纪著名的荷兰绘画大师。"
+          "en": "The inventor of the microscope.",
+          "zh": "显微镜的发明者。"
         },
         {
           "en": "A forger who painted fake Vermeers.",
           "zh": "一个伪造维米尔画作的人。"
         },
         {
-          "en": "The inventor of the microscope.",
-          "zh": "显微镜的发明者。"
+          "en": "A famous Dutch master painter from the 1600s.",
+          "zh": "17世纪著名的荷兰绘画大师。"
         },
         {
           "en": "A museum curator.",
@@ -43,20 +43,20 @@
       },
       "options": [
         {
-          "en": "The Lacemaker",
-          "zh": "《花边女工》"
+          "en": "View of Delft",
+          "zh": "《德尔夫特风光》"
         },
         {
           "en": "The Disciples at Emmaus",
           "zh": "《以马忤斯的门徒》"
         },
         {
-          "en": "View of Delft",
-          "zh": "《德尔夫特风光》"
+          "en": "The Lacemaker",
+          "zh": "《花边女工》"
         },
         {
-          "en": "The Guitar Player",
-          "zh": "《吉他手》"
+          "en": "The Guitar Player according to some versions of the story",
+          "zh": "《吉他手》（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -73,20 +73,20 @@
       },
       "options": [
         {
-          "en": "He wanted to become famous as a scientist.",
-          "zh": "他想成为著名的科学家。"
+          "en": "He needed to decorate his house.",
+          "zh": "他需要装饰自己的房子。"
         },
         {
           "en": "He was angry at critics who said he had no talent and wanted to fool them.",
           "zh": "他生那些说他毫无才华的评论家的气，想愚弄他们。"
         },
         {
-          "en": "He needed to decorate his house.",
-          "zh": "他需要装饰自己的房子。"
-        },
-        {
           "en": "Vermeer asked him to.",
           "zh": "是维米尔请他做的。"
+        },
+        {
+          "en": "He wanted to become famous as a scientist. according to some versions of the story",
+          "zh": "他想成为著名的科学家。（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "A real painting by a master.",
-          "zh": "大师的一幅真迹。"
-        },
-        {
           "en": "An illegal copy made with the intent that it look genuine.",
           "zh": "以冒充真品为目的而制作的非法复制品。"
         },
@@ -115,11 +111,15 @@
           "zh": "一种画笔。"
         },
         {
+          "en": "A real painting by a master. according to some versions of the story",
+          "zh": "大师的一幅真迹。（按书中另一种说法）"
+        },
+        {
           "en": "An old canvas.",
           "zh": "一块旧画布。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines forgery as 'an illegal copy of something that was made with the intent that it look genuine.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "He used brand-new paint and plastic canvases.",
-          "zh": "他用全新的颜料和塑料画布。"
-        },
-        {
-          "en": "He left aging cracks, added chemicals to dry paint fast, and used varnish to look old.",
-          "zh": "他保留老化的裂纹，加入化学剂让颜料快速变干，并用清漆让它显得陈旧。"
-        },
-        {
           "en": "He painted in bright modern colors.",
           "zh": "他用鲜艳的现代色彩作画。"
         },
         {
           "en": "He used a computer.",
           "zh": "他用电脑。"
+        },
+        {
+          "en": "He used brand-new paint and plastic canvases. according to some versions of the story in an early draft of the book",
+          "zh": "他用全新的颜料和塑料画布。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He left aging cracks, added chemicals to dry paint fast, and used varnish to look old.",
+          "zh": "他保留老化的裂纹，加入化学剂让颜料快速变干，并用清漆让它显得陈旧。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says he left 'aging cracks,' 'added a chemical to his paints to make them dry quickly,' and added varnish for an old look.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "He had sold a forged 'Dutch treasure' to a high-ranking Nazi official.",
-          "zh": "他把一幅伪造的“荷兰国宝”卖给了高级纳粹官员。"
-        },
-        {
-          "en": "He stole a real Vermeer.",
-          "zh": "他偷了一幅真正的维米尔。"
+          "en": "He refused to paint.",
+          "zh": "他拒绝作画。"
         },
         {
           "en": "He burned down a museum.",
           "zh": "他烧毁了一座博物馆。"
         },
         {
-          "en": "He refused to paint.",
-          "zh": "他拒绝作画。"
+          "en": "He stole a real Vermeer. according to some versions of the story in an early draft of the book",
+          "zh": "他偷了一幅真正的维米尔。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He had sold a forged 'Dutch treasure' to a high-ranking Nazi official.",
+          "zh": "他把一幅伪造的“荷兰国宝”卖给了高级纳粹官员。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says one forgery 'was sold to a high-ranking Nazi official' and after the war he 'was nearly jailed for life for selling a Dutch national treasure to the enemy.'",
@@ -197,19 +197,19 @@
           "zh": "他们猜的。"
         },
         {
+          "en": "They used a coin toss. according to some versions of the story in an early draft of the book",
+          "zh": "他们抛硬币决定。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "They studied paints, brushes, and canvas, and compared its style to real Vermeers.",
           "zh": "他们研究颜料、画笔和画布，并将其风格与真正的维米尔作品对比。"
         },
         {
           "en": "They asked Han.",
           "zh": "他们问了汉。"
-        },
-        {
-          "en": "They used a coin toss.",
-          "zh": "他们抛硬币决定。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says experts 'studied the paints and brushes,' used microscopes and X-rays, and compared the style to other Vermeers.",
@@ -223,10 +223,6 @@
       },
       "options": [
         {
-          "en": "To teach readers how to forge paintings.",
-          "zh": "教读者如何伪造画作。"
-        },
-        {
           "en": "To tell the true story of a famous art forger and how experts caught him.",
           "zh": "讲述一位著名艺术伪造者的真实故事，以及专家如何识破他。"
         },
@@ -237,9 +233,13 @@
         {
           "en": "To sell paintings.",
           "zh": "为了卖画。"
+        },
+        {
+          "en": "To teach readers how to forge paintings. according to some versions of the story in an early draft of the book",
+          "zh": "教读者如何伪造画作。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book tells the biography of forger Han Van Meegeren and how his fakes were later detected.",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "Dark and simple.",
-          "zh": "阴暗而简单。"
-        },
-        {
           "en": "A genius at using light, soft colors, and showing mood.",
           "zh": "一位善用光线、柔和色彩并表现情绪的天才。"
         },
@@ -265,11 +261,15 @@
           "zh": "潦草而粗糙。"
         },
         {
-          "en": "Only black and white.",
-          "zh": "只有黑白两色。"
+          "en": "Only black and white. according to some versions of the story",
+          "zh": "只有黑白两色。（按书中另一种说法）"
+        },
+        {
+          "en": "Dark and simple.",
+          "zh": "阴暗而简单。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says Vermeer 'was a genius at using light' and 'chose soft colors to create a mood.'",
@@ -287,19 +287,19 @@
           "zh": "大约五幅。"
         },
         {
+          "en": "Exactly ten.",
+          "zh": "正好十幅。"
+        },
+        {
           "en": "About thirty-five.",
           "zh": "大约三十五幅。"
         },
         {
-          "en": "Over one hundred.",
-          "zh": "一百多幅。"
-        },
-        {
-          "en": "Exactly ten.",
-          "zh": "正好十幅。"
+          "en": "Over one hundred. according to some versions of the story",
+          "zh": "一百多幅。（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book states: 'Experts have determined Vermeer painted about thirty-five known works of art.'",

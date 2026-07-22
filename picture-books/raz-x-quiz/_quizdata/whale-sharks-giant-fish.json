@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "It is the biggest fish in the world, about 40 feet (12.2 m) long and weighing around 40,000 pounds (18,144 kg).",
-          "zh": "它是世界上最大的鱼，长约40英尺（12.2米），重约40,000磅（18,144公斤）。"
-        },
-        {
-          "en": "It is the fastest shark in the ocean, swimming at over 30 miles per hour.",
-          "zh": "它是海洋中最快的鲨鱼，游速超过每小时30英里。"
+          "en": "It is the fastest shark in the ocean, swimming at over 30 miles per hour. according to some versions of the story in an early draft of the book",
+          "zh": "它是海洋中最快的鲨鱼，游速超过每小时30英里。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "It is the smallest known fish, no larger than a goldfish.",
           "zh": "它是已知最小的鱼，不比金鱼大。"
         },
         {
+          "en": "It is the biggest fish in the world, about 40 feet (12.2 m) long and weighing around 40,000 pounds (18,144 kg).",
+          "zh": "它是世界上最大的鱼，长约40英尺（12.2米），重约40,000磅（18,144公斤）。"
+        },
+        {
           "en": "It is a medium-sized fish about the size of a dolphin.",
           "zh": "它是一种中等大小的鱼，大约和海豚一样大。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states whale sharks are the biggest fish in the world, with a length of about 40 feet (12.2 m) and a weight of about 40,000 pounds (18,144 kg).",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Only about 6 feet, because they stay near the shore.",
-          "zh": "只有约6英尺，因为它们待在近岸。"
-        },
-        {
-          "en": "As deep as 6,000 feet (1,829 m).",
-          "zh": "深达6,000英尺（1,829米）。"
-        },
-        {
           "en": "About 60 miles down to the ocean floor.",
           "zh": "约60英里，直到海底。"
         },
         {
           "en": "They cannot dive at all because they lack gills.",
           "zh": "它们根本不能下潜，因为没有鳃。"
+        },
+        {
+          "en": "Only about 6 feet, because they stay near the shore.",
+          "zh": "只有约6英尺，因为它们待在近岸。"
+        },
+        {
+          "en": "As deep as 6,000 feet (1,829 m).",
+          "zh": "深达6,000英尺（1,829米）。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says whale sharks swim at the surface but also dive as deep as 6,000 feet (1,829 m).",
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "Large seals and sea lions.",
-          "zh": "大型海豹和海狮。"
-        },
-        {
           "en": "Other sharks and small whales.",
           "zh": "其他鲨鱼和小鲸鱼。"
         },
@@ -85,11 +81,15 @@
           "zh": "微小的漂浮生物，如浮游生物、磷虾和小鱼。"
         },
         {
-          "en": "Coral reefs that they crush with their teeth.",
-          "zh": "它们用牙齿咬碎的珊瑚礁。"
+          "en": "Large seals and sea lions.",
+          "zh": "大型海豹和海狮。"
+        },
+        {
+          "en": "Coral reefs that they crush with their teeth. according to some versions of the story",
+          "zh": "它们用牙齿咬碎的珊瑚礁。（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains whale sharks eat plankton, micronekton, krill, small fish, squid, and plants — tiny drifting food — rather than hunting like predators.",
@@ -107,16 +107,16 @@
           "zh": "它们张开嘴，当水流经鳃裂流出时，用海绵状滤食垫捕获微小食物。"
         },
         {
-          "en": "They chase prey and bite it with their 300 rows of sharp teeth.",
-          "zh": "它们追逐猎物并用300排尖牙咬住。"
-        },
-        {
           "en": "They sting prey with venom like a jellyfish.",
           "zh": "它们像水母一样用毒液蜇伤猎物。"
         },
         {
           "en": "They use echoes to stun fish before swallowing them.",
           "zh": "它们用回声在吞食前击晕鱼。"
+        },
+        {
+          "en": "They chase prey and bite it with their 300 rows of sharp teeth. according to some versions of the story in an early draft of the book",
+          "zh": "它们追逐猎物并用300排尖牙咬住。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "Whale sharks give birth to live babies, not eggs.",
+          "zh": "鲸鲨是胎生，而不是产卵。"
+        },
+        {
           "en": "Whale sharks lay their eggs on the deep ocean floor.",
           "zh": "鲸鲨在深海海底产卵。"
         },
@@ -143,13 +147,9 @@
         {
           "en": "Whale sharks do not reproduce at all.",
           "zh": "鲸鲨根本不繁殖。"
-        },
-        {
-          "en": "Whale sharks give birth to live babies, not eggs.",
-          "zh": "鲸鲨是胎生，而不是产卵。"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says scientists once thought whale sharks laid eggs, but in 1995 they discovered that whale sharks give birth to live babies (pups).",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Dangerous and aggressive toward people.",
-          "zh": "危险且对人具有攻击性。"
-        },
-        {
-          "en": "Able to be hurt easily.",
-          "zh": "容易受到伤害。"
+          "en": "Able to fly or leap from the water.",
+          "zh": "能够飞行或从水中跃起。"
         },
         {
           "en": "Already extinct in the wild.",
           "zh": "在野外已经灭绝。"
         },
         {
-          "en": "Able to fly or leap from the water.",
-          "zh": "能够飞行或从水中跃起。"
+          "en": "Able to be hurt easily.",
+          "zh": "容易受到伤害。"
+        },
+        {
+          "en": "Dangerous and aggressive toward people.",
+          "zh": "危险且对人具有攻击性。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'vulnerable' as 'able to be hurt easily,' which is why the book says whale sharks are classified as vulnerable, not yet endangered.",
@@ -197,8 +197,8 @@
           "zh": "它们经常在靠近水面处游动。"
         },
         {
-          "en": "They live deep inside underwater caves.",
-          "zh": "它们生活在深水洞穴中。"
+          "en": "They live deep inside underwater caves. according to some versions of the story",
+          "zh": "它们生活在深水洞穴中。（按书中另一种说法）"
         },
         {
           "en": "They are protected by thick bony armor.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Remoras attach to the shark and help keep it free of parasites in exchange for food and protection.",
-          "zh": "䲟鱼附着在鲨鱼身上，帮助它清除寄生虫，作为交换获得食物和保护。"
-        },
-        {
-          "en": "Remoras attack and eat young whale sharks.",
-          "zh": "䲟鱼攻击并吃掉年幼的鲸鲨。"
+          "en": "Remoras are a kind of small shark that hunts alone. according to some versions of the story in an early draft of the book",
+          "zh": "䲟鱼是一种单独捕猎的小鲨鱼。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Remoras steer the whale shark toward schools of fish.",
           "zh": "䲟鱼引导鲸鲨游向鱼群。"
         },
         {
-          "en": "Remoras are a kind of small shark that hunts alone.",
-          "zh": "䲟鱼是一种单独捕猎的小鲨鱼。"
+          "en": "Remoras attack and eat young whale sharks.",
+          "zh": "䲟鱼攻击并吃掉年幼的鲸鲨。"
+        },
+        {
+          "en": "Remoras attach to the shark and help keep it free of parasites in exchange for food and protection.",
+          "zh": "䲟鱼附着在鲨鱼身上，帮助它清除寄生虫，作为交换获得食物和保护。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says whale sharks are often seen with remoras — fish with a sucker-like structure — that help keep them free of parasites and get food and protection in return.",
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "By singing loud songs to attract prey.",
-          "zh": "通过大声唱歌吸引猎物。"
+          "en": "By the bright light shining from their eyes.",
+          "zh": "通过眼睛发出的亮光。"
         },
         {
           "en": "By smell, since their nostrils sit near the top of the mouth.",
           "zh": "通过嗅觉，因为它们的鼻孔位于嘴的上方附近。"
         },
         {
-          "en": "By the bright light shining from their eyes.",
-          "zh": "通过眼睛发出的亮光。"
+          "en": "By tasting the water with the tip of their tail. according to some versions of the story",
+          "zh": "用尾巴尖品尝海水。（按书中另一种说法）"
         },
         {
-          "en": "By tasting the water with the tip of their tail.",
-          "zh": "用尾巴尖品尝海水。"
+          "en": "By singing loud songs to attract prey.",
+          "zh": "通过大声唱歌吸引猎物。"
         }
       ],
       "answer": 1,
@@ -283,8 +283,12 @@
       },
       "options": [
         {
-          "en": "To convince readers that whale sharks are dangerous and should be feared.",
-          "zh": "让读者相信鲸鲨很危险，应该害怕它们。"
+          "en": "To convince readers that whale sharks are dangerous and should be feared. according to some versions of the story",
+          "zh": "让读者相信鲸鲨很危险，应该害怕它们。（按书中另一种说法）"
+        },
+        {
+          "en": "To inform readers about the whale shark's features, life cycle, and the threats it faces.",
+          "zh": "向读者介绍鲸鲨的特征、生命周期以及它面临的威胁。"
         },
         {
           "en": "To tell a made-up adventure story about a pirate.",
@@ -293,13 +297,9 @@
         {
           "en": "To teach readers how to cook whale shark meat.",
           "zh": "教读者如何烹饪鲸鲨肉。"
-        },
-        {
-          "en": "To inform readers about the whale shark's features, life cycle, and the threats it faces.",
-          "zh": "向读者介绍鲸鲨的特征、生命周期以及它面临的威胁。"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is an informational text explaining the whale shark's body, behavior, reproduction, and conservation status, showing the author's purpose is to inform.",

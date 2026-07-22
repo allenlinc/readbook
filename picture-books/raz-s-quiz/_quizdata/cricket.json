@@ -47,16 +47,16 @@
           "zh": "击中三柱门，把横木从门柱上打落"
         },
         {
+          "en": "Hit a boundary according to some versions of the story",
+          "zh": "击出边界球（按书中另一种说法）"
+        },
+        {
           "en": "Catch the ball",
           "zh": "接住球"
         },
         {
           "en": "Score a run",
           "zh": "得一分"
-        },
-        {
-          "en": "Hit a boundary",
-          "zh": "击出边界球"
         }
       ],
       "answer": 0,
@@ -73,20 +73,20 @@
       },
       "options": [
         {
-          "en": "A type of bat",
-          "zh": "一种球拍"
+          "en": "A fielding position according to some versions of the story",
+          "zh": "一个防守位置（按书中另一种说法）"
         },
         {
           "en": "A sports event that ends without a definite winner; a tie",
           "zh": "没有决出胜负的比赛；平局"
         },
         {
-          "en": "A fast bowl",
-          "zh": "一种快速投球"
+          "en": "A type of bat",
+          "zh": "一种球拍"
         },
         {
-          "en": "A fielding position",
-          "zh": "一个防守位置"
+          "en": "A fast bowl",
+          "zh": "一种快速投球"
         }
       ],
       "answer": 1,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "By hitting a home run",
-          "zh": "打一个本垒打"
-        },
-        {
-          "en": "By running between the popping creases at each end of the pitch",
-          "zh": "在球道两端的分界线与同伴来回跑动"
+          "en": "By bowling",
+          "zh": "投球"
         },
         {
           "en": "By catching the ball",
           "zh": "接住球"
         },
         {
-          "en": "By bowling",
-          "zh": "投球"
+          "en": "By hitting a home run according to some versions of the story in an early draft of the book",
+          "zh": "打一个本垒打（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "By running between the popping creases at each end of the pitch",
+          "zh": "在球道两端的分界线与同伴来回跑动"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says when the striker hits the ball, 'both the striker and the nonstriker will start running' and score a run when they pass the popping crease.",
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "One",
-          "zh": "一分"
+          "en": "Ten",
+          "zh": "十分"
         },
         {
-          "en": "Four",
-          "zh": "四分"
+          "en": "One",
+          "zh": "一分"
         },
         {
           "en": "Six",
           "zh": "六分"
         },
         {
-          "en": "Ten",
-          "zh": "十分"
+          "en": "Four",
+          "zh": "四分"
         }
       ],
       "answer": 2,
@@ -167,19 +167,19 @@
           "zh": "低手投球"
         },
         {
+          "en": "With two hands according to some versions of the story in an early draft of the book",
+          "zh": "用双手（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "Overarm, with the arm above the head and no bending the elbow",
           "zh": "过肩投球，手臂在头顶上方且肘部不弯曲"
         },
         {
           "en": "By kicking it",
           "zh": "用脚踢"
-        },
-        {
-          "en": "With two hands",
-          "zh": "用双手"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says the bowler will bowl 'overarm (with the arm above the head and without bending the elbow).'",
@@ -197,19 +197,19 @@
           "zh": "W.G. Grace"
         },
         {
-          "en": "Kumar Shri Ranjitsinhji",
-          "zh": "Kumar Shri Ranjitsinhji"
-        },
-        {
           "en": "Claire Taylor",
           "zh": "Claire Taylor"
+        },
+        {
+          "en": "Kumar Shri Ranjitsinhji",
+          "zh": "Kumar Shri Ranjitsinhji"
         },
         {
           "en": "Marvin Tinklekeys",
           "zh": "Marvin Tinklekeys"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'In 2009, Claire Taylor... became the first woman to win the honor.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "It was banned by law",
-          "zh": "它被法律禁止"
-        },
-        {
           "en": "Baseball rose in the late 1800s and better fit American tastes",
           "zh": "棒球在19世纪末兴起，更符合美国人的口味"
         },
         {
-          "en": "A war ended the sport",
-          "zh": "一场战争终结了这项运动"
+          "en": "A war ended the sport according to some versions of the story in an early draft of the book",
+          "zh": "一场战争终结了这项运动（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "No cricket balls were made",
           "zh": "没有生产板球"
+        },
+        {
+          "en": "It was banned by law",
+          "zh": "它被法律禁止"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The 'Do You Know?' box says baseball, with its faster pace, 'was a better fit for American tastes, and by the early 1900s, cricket had all but vanished from the United States.'",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Entertain with a fictional story",
-          "zh": "用虚构故事娱乐读者"
-        },
-        {
           "en": "Explain what cricket is and how it is played",
           "zh": "解释板球是什么以及它如何进行的"
         },
         {
-          "en": "Argue cricket is better than baseball",
-          "zh": "论证板球优于棒球"
+          "en": "Entertain with a fictional story",
+          "zh": "用虚构故事娱乐读者"
         },
         {
           "en": "Teach a foreign language",
           "zh": "教一门外语"
+        },
+        {
+          "en": "Argue cricket is better than baseball according to some versions of the story",
+          "zh": "论证板球优于棒球（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The focus question is 'What is cricket, and how is it played?' and the book is an informational guide to the sport.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Short one-hour games",
-          "zh": "一小时的短比赛"
-        },
-        {
-          "en": "Long, multiday matches that decide international champions",
-          "zh": "决定国际冠军的、持续多日的长比赛"
+          "en": "Children's games",
+          "zh": "儿童游戏"
         },
         {
           "en": "Practice games",
           "zh": "练习赛"
         },
         {
-          "en": "Children's games",
-          "zh": "儿童游戏"
+          "en": "Short one-hour games according to some versions of the story",
+          "zh": "一小时的短比赛（按书中另一种说法）"
+        },
+        {
+          "en": "Long, multiday matches that decide international champions",
+          "zh": "决定国际冠军的、持续多日的长比赛"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book describes Test matches as 'long, multiday matches that decide international champions.'",

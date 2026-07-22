@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "He doesn't like playing soccer",
-          "zh": "他不喜欢踢足球"
-        },
-        {
           "en": "He secretly loves ballet but fears his friends will tease him",
           "zh": "他偷偷热爱芭蕾，却担心朋友们会取笑他"
         },
         {
-          "en": "He can't decide which team to join",
-          "zh": "他决定不了加入哪支球队"
+          "en": "He can't decide which team to join according to some versions of the story",
+          "zh": "他决定不了加入哪支球队（按书中另一种说法）"
         },
         {
           "en": "He is afraid of crocodiles",
           "zh": "他害怕鳄鱼"
+        },
+        {
+          "en": "He doesn't like playing soccer",
+          "zh": "他不喜欢踢足球"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Ricardo loves ballet but is afraid his friends will poke fun at him, so he keeps it a secret.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "To a soccer stadium",
-          "zh": "去足球场"
-        },
-        {
           "en": "To the Opera House to see the ballet Cinderella",
           "zh": "去歌剧院观看芭蕾舞剧《灰姑娘》"
         },
         {
-          "en": "To the zoo",
-          "zh": "去动物园"
+          "en": "To a soccer stadium according to some versions of the story",
+          "zh": "去足球场（按书中另一种说法）"
         },
         {
           "en": "To a dance studio",
           "zh": "去舞蹈工作室"
+        },
+        {
+          "en": "To the zoo",
+          "zh": "去动物园"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mrs. Periwinkle takes the class to the Opera House to see the ballet Cinderella and tour backstage.",
@@ -73,8 +73,12 @@
       },
       "options": [
         {
-          "en": "He is excited about the show",
-          "zh": "他对演出感到兴奋"
+          "en": "He is excited about the show according to some versions of the story",
+          "zh": "他对演出感到兴奋（按书中另一种说法）"
+        },
+        {
+          "en": "He is tired from dancing",
+          "zh": "他跳舞跳累了"
         },
         {
           "en": "He would rather be playing soccer and isn't interested in ballet",
@@ -83,13 +87,9 @@
         {
           "en": "He dislikes his mother",
           "zh": "他不喜欢妈妈"
-        },
-        {
-          "en": "He is tired from dancing",
-          "zh": "他跳舞跳累了"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Ricardo is focused on his soccer playoff and is not excited about ballet, so he rolls his eyes.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "Every morning",
+          "zh": "每天早晨"
+        },
+        {
+          "en": "Only on weekends according to some versions of the story",
+          "zh": "只在周末（按书中另一种说法）"
+        },
+        {
           "en": "Once a month",
           "zh": "一个月一次"
         },
         {
           "en": "Three nights a week",
           "zh": "每周三个晚上"
-        },
-        {
-          "en": "Every morning",
-          "zh": "每天早晨"
-        },
-        {
-          "en": "Only on weekends",
-          "zh": "只在周末"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says he managed to make it to ballet class three nights a week during the playoffs.",
@@ -133,12 +133,12 @@
       },
       "options": [
         {
-          "en": "Ballet is great exercise",
-          "zh": "芭蕾是很好的锻炼"
-        },
-        {
           "en": "Only girls are allowed to take it",
           "zh": "只有女孩可以学"
+        },
+        {
+          "en": "Ballet is great exercise",
+          "zh": "芭蕾是很好的锻炼"
         },
         {
           "en": "It would make him quit soccer",
@@ -149,7 +149,7 @@
           "zh": "这是学校的必修要求"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Ricardo's list of reasons included that ballet is great exercise and that men worldwide dance ballet.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A tiger escapes",
-          "zh": "一只老虎逃跑了"
-        },
-        {
           "en": "A baby is flung toward the crocodiles by a teeter-totter",
           "zh": "一个婴儿被跷跷板弹向了鳄鱼"
+        },
+        {
+          "en": "A tiger escapes",
+          "zh": "一只老虎逃跑了"
         },
         {
           "en": "Zach falls in the water",
           "zh": "Zach 掉进了水里"
         },
         {
-          "en": "Ricardo loses his backpack",
-          "zh": "里卡多弄丢了背包"
+          "en": "Ricardo loses his backpack according to some versions of the story",
+          "zh": "里卡多弄丢了背包（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A child jumped on a teeter-totter and launched a baby through the air toward the crocodiles.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "He asks a zookeeper for help",
-          "zh": "他向动物园管理员求助"
-        },
-        {
-          "en": "He uses a grand split leap he learned in ballet",
-          "zh": "他使出了在芭蕾课上学的大跳劈叉"
-        },
-        {
           "en": "He throws a rope",
           "zh": "他扔出一根绳子"
         },
         {
+          "en": "He asks a zookeeper for help according to some versions of the story",
+          "zh": "他向动物园管理员求助（按书中另一种说法）"
+        },
+        {
           "en": "He calls the police",
           "zh": "他报了警"
+        },
+        {
+          "en": "He uses a grand split leap he learned in ballet",
+          "zh": "他使出了在芭蕾课上学的大跳劈叉"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Ricardo put his ballet training to the test and leaped in a marvelous grand split to snatch the baby.",
@@ -227,19 +227,19 @@
           "zh": "他老师的"
         },
         {
-          "en": "The mayor's daughter",
-          "zh": "市长的女儿"
-        },
-        {
           "en": "His mother's",
           "zh": "他妈妈的"
         },
         {
-          "en": "Zach's sister's",
-          "zh": "Zach 妹妹的"
+          "en": "The mayor's daughter",
+          "zh": "市长的女儿"
+        },
+        {
+          "en": "Zach's sister's according to some versions of the story",
+          "zh": "Zach 妹妹的（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The man with bushy hair is called \"Mr. Mayor,\" and the baby is his daughter, saved from the crocodiles.",
@@ -253,8 +253,8 @@
       },
       "options": [
         {
-          "en": "Soccer is more important than ballet",
-          "zh": "足球比芭蕾更重要"
+          "en": "Zoos are dangerous places",
+          "zh": "动物园是危险的地方"
         },
         {
           "en": "It's good to be true to yourself even if others might tease you",
@@ -265,8 +265,8 @@
           "zh": "男孩绝不该跳舞"
         },
         {
-          "en": "Zoos are dangerous places",
-          "zh": "动物园是危险的地方"
+          "en": "Soccer is more important than ballet according to some versions of the story",
+          "zh": "足球比芭蕾更重要（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -283,20 +283,20 @@
       },
       "options": [
         {
-          "en": "They make fun of him",
-          "zh": "他们取笑他"
+          "en": "They stop being his friends according to some versions of the story",
+          "zh": "他们不再和他做朋友（按书中另一种说法）"
         },
         {
           "en": "No one ever makes fun of his love of dance",
           "zh": "没有人再取笑他对舞蹈的热爱"
         },
         {
-          "en": "They stop being his friends",
-          "zh": "他们不再和他做朋友"
-        },
-        {
           "en": "They force him to quit",
           "zh": "他们逼他放弃"
+        },
+        {
+          "en": "They make fun of him",
+          "zh": "他们取笑他"
         }
       ],
       "answer": 1,

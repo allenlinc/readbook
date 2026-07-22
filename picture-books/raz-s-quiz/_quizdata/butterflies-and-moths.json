@@ -21,12 +21,12 @@
           "zh": "昆虫"
         },
         {
-          "en": "Fish",
-          "zh": "鱼类"
-        },
-        {
           "en": "Reptiles",
           "zh": "爬行动物"
+        },
+        {
+          "en": "Fish",
+          "zh": "鱼类"
         }
       ],
       "answer": 1,
@@ -47,19 +47,19 @@
           "zh": "一种翅膀"
         },
         {
-          "en": "The process of changing from one form into another",
-          "zh": "从一种形态转变为另一种形态的过程"
+          "en": "A spider's bite according to some versions of the story",
+          "zh": "蜘蛛的咬伤（按书中另一种说法）"
         },
         {
           "en": "A kind of flower",
           "zh": "一种花"
         },
         {
-          "en": "A spider's bite",
-          "zh": "蜘蛛的咬伤"
+          "en": "The process of changing from one form into another",
+          "zh": "从一种形态转变为另一种形态的过程"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'metamorphosis' as 'the process of changing from one form into another (p. 12).'",
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "morning / afternoon",
+          "zh": "早晨 / 下午"
+        },
+        {
           "en": "day / night",
           "zh": "白天 / 夜晚"
         },
@@ -83,13 +87,9 @@
         {
           "en": "winter / summer",
           "zh": "冬天 / 夏天"
-        },
-        {
-          "en": "morning / afternoon",
-          "zh": "早晨 / 下午"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The comparison chart lists butterflies as 'active during the day' and moths as 'active at night.'",
@@ -103,12 +103,12 @@
       },
       "options": [
         {
-          "en": "Egg, caterpillar, pupa, adult",
-          "zh": "卵、毛毛虫、蛹、成虫"
+          "en": "Adult, egg, caterpillar, pupa according to some versions of the story",
+          "zh": "成虫、卵、毛毛虫、蛹（按书中另一种说法）"
         },
         {
-          "en": "Adult, egg, caterpillar, pupa",
-          "zh": "成虫、卵、毛毛虫、蛹"
+          "en": "Egg, caterpillar, pupa, adult",
+          "zh": "卵、毛毛虫、蛹、成虫"
         },
         {
           "en": "Caterpillar, egg, adult, pupa",
@@ -119,7 +119,7 @@
           "zh": "蛹、成虫、卵、毛毛虫"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book describes metamorphosis as 'egg to larva to pupa, and then to adult.'",
@@ -137,19 +137,19 @@
           "zh": "固态的叶子"
         },
         {
-          "en": "Nectar, sucked through a tube-like mouthpart",
-          "zh": "用管状口器吸食的花蜜"
+          "en": "Only other insects according to some versions of the story",
+          "zh": "只吃其他昆虫（按书中另一种说法）"
         },
         {
-          "en": "Only other insects",
-          "zh": "只吃其他昆虫"
+          "en": "Nectar, sucked through a tube-like mouthpart",
+          "zh": "用管状口器吸食的花蜜"
         },
         {
           "en": "Wood",
           "zh": "木头"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says they 'feed on nectar, a sweet liquid from flowers' using mouth parts 'like a hollow tube.'",
@@ -175,8 +175,8 @@
           "zh": "巢"
         },
         {
-          "en": "Shell",
-          "zh": "壳"
+          "en": "Shell according to some versions of the story",
+          "zh": "壳（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Luna moth",
-          "zh": "月神蛾"
+          "en": "Queen Alexandra's birdwing",
+          "zh": "亚历山大鸟翼凤蝶"
         },
         {
-          "en": "Monarch",
-          "zh": "黑脉金斑蝶（帝王蝶）"
+          "en": "Luna moth",
+          "zh": "月神蛾"
         },
         {
           "en": "Buckeye",
           "zh": "鹿眼蝶"
         },
         {
-          "en": "Queen Alexandra's birdwing",
-          "zh": "亚历山大鸟翼凤蝶"
+          "en": "Monarch",
+          "zh": "黑脉金斑蝶（帝王蝶）"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says monarchs east of the Rockies 'fly as far as 4,800 kilometers (2,982 mi) to Mexico.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "They bite",
-          "zh": "它们会咬人"
-        },
-        {
           "en": "Oils on human hands can hurt their wings and rub off scales",
           "zh": "人手上的油脂会伤害它们的翅膀并蹭掉鳞片"
         },
         {
-          "en": "They are poisonous",
-          "zh": "它们有毒"
+          "en": "They bite",
+          "zh": "它们会咬人"
         },
         {
-          "en": "They will fly away",
-          "zh": "它们会飞走"
+          "en": "They will fly away according to some versions of the story in an early draft of the book",
+          "zh": "它们会飞走（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They are poisonous",
+          "zh": "它们有毒"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "A 'Do You Know?' note warns: 'The oils on human hands can hurt their wings' and rub off scales.",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "Sell gardens",
-          "zh": "售卖花园"
-        },
-        {
           "en": "Help readers tell butterflies and moths apart and appreciate them",
           "zh": "帮助读者区分蝴蝶和飞蛾并欣赏它们"
         },
@@ -265,11 +261,15 @@
           "zh": "教烹饪"
         },
         {
-          "en": "Argue for insect collecting",
-          "zh": "主张收集昆虫"
+          "en": "Argue for insect collecting according to some versions of the story",
+          "zh": "主张收集昆虫（按书中另一种说法）"
+        },
+        {
+          "en": "Sell gardens",
+          "zh": "售卖花园"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Introduction asks 'how are butterflies and moths the same, and how are they different?' and encourages kind watching.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Fewer than 1,000",
-          "zh": "不到1,000种"
-        },
-        {
-          "en": "More than 165,000",
-          "zh": "超过165,000种"
+          "en": "Fewer than 1,000 according to some versions of the story",
+          "zh": "不到1,000种（按书中另一种说法）"
         },
         {
           "en": "Exactly 50",
           "zh": "正好50种"
         },
         {
+          "en": "More than 165,000",
+          "zh": "超过165,000种"
+        },
+        {
           "en": "About 10",
           "zh": "大约10种"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'More than 165,000 kinds, or species, of butterflies and moths exist. Most of these are moths.'",

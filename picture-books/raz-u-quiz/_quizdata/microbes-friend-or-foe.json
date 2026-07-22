@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Large animals",
-          "zh": "大型动物"
-        },
-        {
           "en": "Tiny living organisms seen only with a microscope",
           "zh": "只能用显微镜看到的微小生物"
         },
         {
-          "en": "Plants",
-          "zh": "植物"
+          "en": "Large animals according to some versions of the story",
+          "zh": "大型动物（按书中另一种说法）"
         },
         {
           "en": "Rocks",
           "zh": "岩石"
+        },
+        {
+          "en": "Plants",
+          "zh": "植物"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book defines microbes as tiny, living organisms that need a strong microscope to be seen.",
@@ -43,20 +43,20 @@
       },
       "options": [
         {
-          "en": "Edward Jenner",
-          "zh": "爱德华·詹纳"
+          "en": "George Washington",
+          "zh": "乔治·华盛顿"
         },
         {
           "en": "Louis Pasteur",
           "zh": "路易斯·巴斯德"
         },
         {
-          "en": "Alexander Fleming",
-          "zh": "亚历山大·弗莱明"
+          "en": "Edward Jenner",
+          "zh": "爱德华·詹纳"
         },
         {
-          "en": "George Washington",
-          "zh": "乔治·华盛顿"
+          "en": "Alexander Fleming",
+          "zh": "亚历山大·弗莱明"
         }
       ],
       "answer": 1,
@@ -73,8 +73,12 @@
       },
       "options": [
         {
-          "en": "Freezes food",
-          "zh": "冷冻食物"
+          "en": "Freezes food according to some versions of the story in an early draft of the book",
+          "zh": "冷冻食物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Cools milk",
+          "zh": "冷却牛奶"
         },
         {
           "en": "Heats food to a set temperature to kill many organisms",
@@ -83,13 +87,9 @@
         {
           "en": "Adds sugar",
           "zh": "加糖"
-        },
-        {
-          "en": "Cools milk",
-          "zh": "冷却牛奶"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Pasteur found that heating sealed food to a specific temperature kills many organisms; this is pasteurization.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Bacteria, viruses, fungi, protozoa",
-          "zh": "细菌、病毒、真菌、原生动物"
-        },
-        {
-          "en": "Cats, dogs, birds, fish",
-          "zh": "猫、狗、鸟、鱼"
-        },
-        {
           "en": "Red, blue, green, yellow",
           "zh": "红、蓝、绿、黄"
         },
         {
-          "en": "Solid, liquid, gas, plasma",
-          "zh": "固态、液态、气态、等离子态"
+          "en": "Bacteria, viruses, fungi, protozoa",
+          "zh": "细菌、病毒、真菌、原生动物"
+        },
+        {
+          "en": "Solid, liquid, gas, plasma according to some versions of the story",
+          "zh": "固态、液态、气态、等离子态（按书中另一种说法）"
+        },
+        {
+          "en": "Cats, dogs, birds, fish",
+          "zh": "猫、狗、鸟、鱼"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book organizes microbes into four groups: bacteria, viruses, fungi, and protozoa.",
@@ -133,12 +133,8 @@
       },
       "options": [
         {
-          "en": "They are the same disease",
-          "zh": "它们是同一种病"
-        },
-        {
-          "en": "Having cowpox protected people from deadly smallpox",
-          "zh": "得过牛痘的人能免受致命天花的侵害"
+          "en": "They are the same disease according to some versions of the story",
+          "zh": "它们是同一种病（按书中另一种说法）"
         },
         {
           "en": "Cowpox is deadlier",
@@ -147,9 +143,13 @@
         {
           "en": "Neither disease exists",
           "zh": "两种病都不存在"
+        },
+        {
+          "en": "Having cowpox protected people from deadly smallpox",
+          "zh": "得过牛痘的人能免受致命天花的侵害"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Jenner noticed people who caught mild cowpox never later got deadly smallpox, leading to vaccination.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A virus",
-          "zh": "一种病毒"
-        },
-        {
-          "en": "A medicine from microbes that fights harmful microbes",
-          "zh": "由微生物产生的、能对抗有害微生物的药物"
+          "en": "A vitamin according to some versions of the story in an early draft of the book",
+          "zh": "一种维生素（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A vaccine",
           "zh": "一种疫苗"
         },
         {
-          "en": "A vitamin",
-          "zh": "一种维生素"
+          "en": "A medicine from microbes that fights harmful microbes",
+          "zh": "由微生物产生的、能对抗有害微生物的药物"
+        },
+        {
+          "en": "A virus",
+          "zh": "一种病毒"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says helpful microbes naturally produce antibiotics, medicines that fight certain harmful microbes.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "Louis Pasteur",
-          "zh": "路易斯·巴斯德"
+          "en": "Edward Jenner",
+          "zh": "爱德华·詹纳"
         },
         {
           "en": "Alexander Fleming",
           "zh": "亚历山大·弗莱明"
         },
         {
-          "en": "Edward Jenner",
-          "zh": "爱德华·詹纳"
+          "en": "George Washington according to some versions of the story",
+          "zh": "乔治·华盛顿（按书中另一种说法）"
         },
         {
-          "en": "George Washington",
-          "zh": "乔治·华盛顿"
+          "en": "Louis Pasteur",
+          "zh": "路易斯·巴斯德"
         }
       ],
       "answer": 1,
@@ -223,10 +223,6 @@
       },
       "options": [
         {
-          "en": "To scare readers",
-          "zh": "为了吓唬读者"
-        },
-        {
           "en": "To teach how microbes affect health and how to stay healthy",
           "zh": "为了讲解微生物如何影响健康以及如何保持健康"
         },
@@ -235,11 +231,15 @@
           "zh": "为了卖药"
         },
         {
-          "en": "To describe plants",
-          "zh": "为了描述植物"
+          "en": "To describe plants according to some versions of the story in an early draft of the book",
+          "zh": "为了描述植物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To scare readers",
+          "zh": "为了吓唬读者"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The informational book explains what microbes are, how they spread disease, and how to stay healthy.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To help readers prevent the spread of germs",
-          "zh": "为了帮助读者防止病菌传播"
+          "en": "To advertise soap according to some versions of the story",
+          "zh": "为了给肥皂打广告（按书中另一种说法）"
         },
         {
-          "en": "To advertise soap",
-          "zh": "为了给肥皂打广告"
+          "en": "To describe doctors",
+          "zh": "为了描述医生"
         },
         {
           "en": "To list foods",
           "zh": "为了列食物"
         },
         {
-          "en": "To describe doctors",
-          "zh": "为了描述医生"
+          "en": "To help readers prevent the spread of germs",
+          "zh": "为了帮助读者防止病菌传播"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The tips (hand washing, clean food prep) give practical ways to stop germs from spreading.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Digests food",
-          "zh": "消化食物"
-        },
-        {
           "en": "Protects the body from infection and disease",
           "zh": "保护身体免受感染和疾病"
         },
         {
-          "en": "Pumps blood",
-          "zh": "泵送血液"
+          "en": "Helps us breathe according to some versions of the story",
+          "zh": "帮助我们呼吸（按书中另一种说法）"
         },
         {
-          "en": "Helps us breathe",
-          "zh": "帮助我们呼吸"
+          "en": "Digests food",
+          "zh": "消化食物"
+        },
+        {
+          "en": "Pumps blood",
+          "zh": "泵送血液"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book compares the immune system to a bodyguard made of cells, tissues, and glands that fight infection.",

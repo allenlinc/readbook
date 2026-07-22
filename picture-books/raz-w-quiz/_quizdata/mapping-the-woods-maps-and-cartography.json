@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "A person who makes maps",
-          "zh": "绘制地图的人"
-        },
-        {
           "en": "A person who flies airplanes",
           "zh": "开飞机的人"
         },
         {
-          "en": "A type of tree",
-          "zh": "一种树"
+          "en": "A person who makes maps",
+          "zh": "绘制地图的人"
         },
         {
           "en": "A kind of bird",
           "zh": "一种鸟"
+        },
+        {
+          "en": "A type of tree",
+          "zh": "一种树"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A cartographer is a mapmaker who draws maps from photos or surveys.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "What each symbol and color means",
-          "zh": "每种符号和颜色的含义"
+          "en": "The population of a city according to some versions of the story",
+          "zh": "城市的人口（按书中另一种说法）"
         },
         {
-          "en": "The population of a city",
-          "zh": "城市的人口"
+          "en": "The name of the author",
+          "zh": "作者的名字"
         },
         {
           "en": "The weather forecast",
           "zh": "天气预报"
         },
         {
-          "en": "The name of the author",
-          "zh": "作者的名字"
+          "en": "What each symbol and color means",
+          "zh": "每种符号和颜色的含义"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The key is a box that explains what each symbol on the map represents.",
@@ -77,12 +77,12 @@
           "zh": "方向（北、南、东、西）"
         },
         {
-          "en": "The scale of the map",
-          "zh": "地图的比例尺"
-        },
-        {
           "en": "The age of the map",
           "zh": "地图的年份"
+        },
+        {
+          "en": "The scale of the map according to some versions of the story",
+          "zh": "地图的比例尺（按书中另一种说法）"
         },
         {
           "en": "The types of trees",
@@ -103,12 +103,12 @@
       },
       "options": [
         {
-          "en": "How big the map is compared to the real area",
-          "zh": "地图与实际区域的大小关系"
+          "en": "How many cities are shown according to some versions of the story",
+          "zh": "显示了几个城市（按书中另一种说法）"
         },
         {
-          "en": "How many cities are shown",
-          "zh": "显示了几个城市"
+          "en": "How big the map is compared to the real area",
+          "zh": "地图与实际区域的大小关系"
         },
         {
           "en": "The temperature outside",
@@ -119,7 +119,7 @@
           "zh": "制图师的名字"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Scale compares the size of the map to the actual distance on the ground.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "The names of streets according to some versions of the story",
+          "zh": "街道名称（按书中另一种说法）"
+        },
+        {
           "en": "Elevation, or how high/low the land is",
           "zh": "海拔高度，即地势高低"
         },
         {
-          "en": "The names of streets",
-          "zh": "街道名称"
+          "en": "The weather",
+          "zh": "天气情况"
         },
         {
           "en": "The population",
           "zh": "人口数量"
-        },
-        {
-          "en": "The weather",
-          "zh": "天气情况"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A topographic map uses lines to show elevation; close lines mean steep land.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A relief map",
-          "zh": "地势图（relief map）"
+          "en": "A boundary map according to some versions of the story",
+          "zh": "边界图（按书中另一种说法）"
+        },
+        {
+          "en": "A data map",
+          "zh": "数据图"
         },
         {
           "en": "A road map",
           "zh": "道路图"
         },
         {
-          "en": "A boundary map",
-          "zh": "边界图"
-        },
-        {
-          "en": "A data map",
-          "zh": "数据图"
+          "en": "A relief map",
+          "zh": "地势图（relief map）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Relief maps use light and dark colors to show how high or low the land is.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "A data map",
-          "zh": "数据图"
-        },
-        {
-          "en": "A pictorial map",
-          "zh": "象形图"
+          "en": "A relief map",
+          "zh": "地势图"
         },
         {
           "en": "A boundary map",
           "zh": "边界图"
         },
         {
-          "en": "A relief map",
-          "zh": "地势图"
+          "en": "A data map",
+          "zh": "数据图"
+        },
+        {
+          "en": "A pictorial map",
+          "zh": "象形图"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "A data map shows statistics, such as how many people use each trail per week.",
@@ -257,16 +257,16 @@
           "zh": "帮助人们辨明方向的物体"
         },
         {
-          "en": "A type of scale",
-          "zh": "一种比例尺"
-        },
-        {
-          "en": "A compass direction",
-          "zh": "一个罗盘方向"
-        },
-        {
           "en": "A kind of weather",
           "zh": "一种天气"
+        },
+        {
+          "en": "A compass direction according to some versions of the story",
+          "zh": "一个罗盘方向（按书中另一种说法）"
+        },
+        {
+          "en": "A type of scale",
+          "zh": "一种比例尺"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "By remembering positions and surveying",
-          "zh": "靠记忆位置和测量"
-        },
-        {
-          "en": "By taking photos from space",
-          "zh": "从太空拍照"
-        },
-        {
           "en": "By using GPS devices",
           "zh": "用GPS设备"
         },
         {
           "en": "By watching television",
           "zh": "看电视"
+        },
+        {
+          "en": "By remembering positions and surveying",
+          "zh": "靠记忆位置和测量"
+        },
+        {
+          "en": "By taking photos from space according to some versions of the story",
+          "zh": "从太空拍照（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "People drew maps by remembering distances/directions or by surveying with math measurements.",

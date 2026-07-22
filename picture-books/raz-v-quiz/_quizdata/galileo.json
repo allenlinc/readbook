@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "1500, France",
+          "zh": "1500年，法国"
+        },
+        {
           "en": "1564, Italy",
           "zh": "1564年，意大利"
         },
@@ -23,13 +27,9 @@
         {
           "en": "1642, Spain",
           "zh": "1642年，西班牙"
-        },
-        {
-          "en": "1500, France",
-          "zh": "1500年，法国"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Galileo Galilei was born in Italy in 1564, during the Italian Renaissance.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "It never moved",
-          "zh": "它从不摆动"
-        },
-        {
           "en": "Every swing took the same amount of time",
           "zh": "每次摆动耗时相同"
+        },
+        {
+          "en": "It was made of gold according to some versions of the story",
+          "zh": "它是金子做的（按书中另一种说法）"
         },
         {
           "en": "It swung only once",
           "zh": "它只摆了一下"
         },
         {
-          "en": "It was made of gold",
-          "zh": "它是金子做的"
+          "en": "It never moved",
+          "zh": "它从不摆动"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Whether wide or narrow, each swing of the chandelier took exactly the same amount of time.",
@@ -73,12 +73,12 @@
       },
       "options": [
         {
-          "en": "Heavy objects fall faster",
-          "zh": "重物落得更快"
-        },
-        {
           "en": "Heavy and light objects fall at the same rate",
           "zh": "轻重物体下落速度相同"
+        },
+        {
+          "en": "Heavy objects fall faster according to some versions of the story",
+          "zh": "重物落得更快（按书中另一种说法）"
         },
         {
           "en": "Objects float",
@@ -89,7 +89,7 @@
           "zh": "只有轻物才下落"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "He proved that heavy objects fall at the same rate as lighter ones.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A microscope",
-          "zh": "显微镜"
-        },
-        {
-          "en": "A telescope that made objects look thirty times larger",
-          "zh": "让物体放大三十倍的望远镜"
-        },
-        {
           "en": "A clock",
           "zh": "时钟"
         },
         {
+          "en": "A microscope according to some versions of the story in an early draft of the book",
+          "zh": "显微镜（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "A compass",
           "zh": "指南针"
+        },
+        {
+          "en": "A telescope that made objects look thirty times larger",
+          "zh": "让物体放大三十倍的望远镜"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "He built and improved a spyglass into a telescope that magnified distant objects about thirty times.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Jupiter's four largest moons",
-          "zh": "木星最大的四颗卫星"
-        },
-        {
-          "en": "Craters on the Moon",
-          "zh": "月球上的环形山"
-        },
-        {
           "en": "Sunspots",
           "zh": "太阳黑子"
         },
         {
           "en": "The planet Neptune",
           "zh": "海王星"
+        },
+        {
+          "en": "Jupiter's four largest moons",
+          "zh": "木星最大的四颗卫星"
+        },
+        {
+          "en": "Craters on the Moon",
+          "zh": "月球上的环形山"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Galileo observed Jupiter's moons, lunar craters, and sunspots, but Neptune was discovered centuries later.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "He was a foreigner",
-          "zh": "他是外国人"
-        },
-        {
           "en": "His discoveries challenged the belief that Earth was the center of the universe",
           "zh": "他的发现挑战了“地球是宇宙中心”的信仰"
         },
         {
-          "en": "He wrote in Italian",
-          "zh": "他用意大利文写作"
+          "en": "He wrote in Italian according to some versions of the story in an early draft of the book",
+          "zh": "他用意大利文写作（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "He was a farmer",
           "zh": "他是农民"
+        },
+        {
+          "en": "He was a foreigner",
+          "zh": "他是外国人"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Church taught that Earth was the center; Galileo's evidence that Venus orbits the Sun contradicted this.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "He became king",
-          "zh": "他当了国王"
+          "en": "He won a prize",
+          "zh": "他得了一个奖"
         },
         {
           "en": "He was tried, found guilty of heresy, and placed under house arrest",
           "zh": "他受审、被判异端罪并遭软禁"
         },
         {
-          "en": "He discovered America",
-          "zh": "他发现了美洲"
+          "en": "He became king",
+          "zh": "他当了国王"
         },
         {
-          "en": "He won a prize",
-          "zh": "他得了一个奖"
+          "en": "He discovered America according to some versions of the story in an early draft of the book",
+          "zh": "他发现了美洲（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "'Eureka!'",
-          "zh": "“尤里卡！”"
-        },
-        {
-          "en": "'And yet it moves'",
-          "zh": "“然而它仍在转动”"
-        },
-        {
           "en": "'To be or not to be'",
           "zh": "“生存还是毁灭”"
         },
         {
           "en": "'Let there be light'",
           "zh": "“要有光”"
+        },
+        {
+          "en": "'And yet it moves'",
+          "zh": "“然而它仍在转动”"
+        },
+        {
+          "en": "'Eureka!'",
+          "zh": "“尤里卡！”"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The legend says Galileo whispered 'And yet it moves' after being forced to recant that Earth does not move.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "He ended the use of mathematics",
-          "zh": "他终结了数学的运用"
-        },
-        {
-          "en": "He showed nature's laws could be described with math and measurable data",
-          "zh": "他指出自然规律可用数学和可测量的数据来描述"
+          "en": "He proved Earth is flat",
+          "zh": "他证明地球是平的"
         },
         {
           "en": "He banned telescopes",
           "zh": "他禁止使用望远镜"
         },
         {
-          "en": "He proved Earth is flat",
-          "zh": "他证明地球是平的"
+          "en": "He ended the use of mathematics according to some versions of the story in an early draft of the book",
+          "zh": "他终结了数学的运用（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He showed nature's laws could be described with math and measurable data",
+          "zh": "他指出自然规律可用数学和可测量的数据来描述"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "He insisted laws of nature be described by equations and used measurable data, separating science from philosophy.",
@@ -287,19 +287,19 @@
           "zh": "怎样造望远镜"
         },
         {
-          "en": "How questions lead to new discoveries",
-          "zh": "问题如何带来新发现"
+          "en": "Why the Church was powerful according to some versions of the story",
+          "zh": "教会为何强大（按书中另一种说法）"
         },
         {
-          "en": "Why the Church was powerful",
-          "zh": "教会为何强大"
+          "en": "How questions lead to new discoveries",
+          "zh": "问题如何带来新发现"
         },
         {
           "en": "How to sail to Italy",
           "zh": "怎样航行到意大利"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The focus question is 'How do questions lead to new discoveries?' - the theme of Galileo's life.",

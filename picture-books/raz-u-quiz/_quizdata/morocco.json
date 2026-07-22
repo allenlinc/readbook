@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Casablanca",
-          "zh": "卡萨布兰卡"
-        },
-        {
-          "en": "Rabat",
-          "zh": "拉巴特"
-        },
-        {
           "en": "Tangier",
           "zh": "丹吉尔"
         },
         {
           "en": "Marrakesh",
           "zh": "马拉喀什"
+        },
+        {
+          "en": "Rabat",
+          "zh": "拉巴特"
+        },
+        {
+          "en": "Casablanca",
+          "zh": "卡萨布兰卡"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states Rabat is the capital, located on the Atlantic coast where the Bou Regreg River meets the sea.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Christianity",
-          "zh": "基督教"
-        },
-        {
-          "en": "Judaism",
-          "zh": "犹太教"
-        },
-        {
           "en": "Islam",
           "zh": "伊斯兰教"
         },
         {
           "en": "Buddhism",
           "zh": "佛教"
+        },
+        {
+          "en": "Judaism",
+          "zh": "犹太教"
+        },
+        {
+          "en": "Christianity",
+          "zh": "基督教"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Islam is the official religion and 99 percent of Moroccans are Muslim.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "The Rockies and Andes",
+          "zh": "落基山和安第斯山"
+        },
+        {
+          "en": "The Himalayas and Andes according to some versions of the story",
+          "zh": "喜马拉雅山和安第斯山（按书中另一种说法）"
+        },
+        {
           "en": "The Alps and Pyrenees",
           "zh": "阿尔卑斯山和比利牛斯山"
         },
         {
           "en": "The Atlas and Rif Mountains",
           "zh": "阿特拉斯山脉和里夫山脉"
-        },
-        {
-          "en": "The Himalayas and Andes",
-          "zh": "喜马拉雅山和安第斯山"
-        },
-        {
-          "en": "The Rockies and Andes",
-          "zh": "落基山和安第斯山"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book names the Atlas Mountains (north-south through the middle) and the Rif Mountains (along the Mediterranean).",
@@ -107,12 +107,12 @@
           "zh": "它只生长在摩洛哥，果实可榨油"
         },
         {
-          "en": "It is the tallest tree in the world",
-          "zh": "它是世界上最高的树"
-        },
-        {
           "en": "It grows bananas",
           "zh": "它结香蕉"
+        },
+        {
+          "en": "It is the tallest tree in the world according to some versions of the story",
+          "zh": "它是世界上最高的树（按书中另一种说法）"
         },
         {
           "en": "It is a desert cactus",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A type of food",
-          "zh": "一种食物"
-        },
-        {
           "en": "A hot wind that blows out of the Sahara",
           "zh": "从撒哈拉吹来的热风"
         },
         {
-          "en": "A mountain",
-          "zh": "一座山"
-        },
-        {
           "en": "A river",
           "zh": "一条河"
+        },
+        {
+          "en": "A type of food according to some versions of the story",
+          "zh": "一种食物（按书中另一种说法）"
+        },
+        {
+          "en": "A mountain",
+          "zh": "一座山"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book describes the sharqī as a hot wind from the Sahara that can cause heat waves up to 41°C.",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "It can fly",
-          "zh": "它会飞"
+          "en": "It changes color",
+          "zh": "它会变色"
         },
         {
           "en": "It flips end over end at about 2 meters per second",
           "zh": "它翻滚前进，速度约每秒2米"
         },
         {
-          "en": "It breathes underwater",
-          "zh": "它在水下呼吸"
+          "en": "It breathes underwater according to some versions of the story",
+          "zh": "它在水下呼吸（按书中另一种说法）"
         },
         {
-          "en": "It changes color",
-          "zh": "它会变色"
+          "en": "It can fly",
+          "zh": "它会飞"
         }
       ],
       "answer": 1,
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "It cannot climb",
+          "zh": "它不会爬树"
+        },
+        {
           "en": "It is the only monkey that lives in Europe (across the Strait of Gibraltar in Spain)",
           "zh": "它是唯一生活在欧洲的猴子（在直布罗陀对岸的西班牙）"
         },
@@ -201,15 +205,11 @@
           "zh": "它只生活在水里"
         },
         {
-          "en": "It is the largest monkey",
-          "zh": "它是最大的猴子"
-        },
-        {
-          "en": "It cannot climb",
-          "zh": "它不会爬树"
+          "en": "It is the largest monkey according to some versions of the story in an early draft of the book",
+          "zh": "它是最大的猴子（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book notes Barbary macaques live in Morocco's forests and across the Strait of Gibraltar in Spain, the only monkeys in Europe.",
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "To persuade people to move there",
-          "zh": "为了劝说人们搬去那里"
+          "en": "To persuade people to move there according to some versions of the story",
+          "zh": "为了劝说人们搬去那里（按书中另一种说法）"
         },
         {
           "en": "To give readers clear, factual information about the country",
           "zh": "为了让读者获得关于这个国家清晰、客观的信息"
         },
         {
-          "en": "To tell a made-up story",
-          "zh": "为了讲一个虚构故事"
-        },
-        {
           "en": "To sell airplane tickets",
           "zh": "为了卖机票"
+        },
+        {
+          "en": "To tell a made-up story",
+          "zh": "为了讲一个虚构故事"
         }
       ],
       "answer": 1,
@@ -253,8 +253,12 @@
       },
       "options": [
         {
-          "en": "1492",
-          "zh": "1492年"
+          "en": "1492 according to some versions of the story",
+          "zh": "1492年（按书中另一种说法）"
+        },
+        {
+          "en": "2004",
+          "zh": "2004年"
         },
         {
           "en": "1912",
@@ -263,13 +267,9 @@
         {
           "en": "1956",
           "zh": "1956年"
-        },
-        {
-          "en": "2004",
-          "zh": "2004年"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states Morocco was under French rule until it became free from France in 1956.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "Tacos according to some versions of the story",
+          "zh": "塔可（按书中另一种说法）"
+        },
+        {
+          "en": "Pizza",
+          "zh": "披萨"
+        },
+        {
           "en": "Couscous",
           "zh": "古斯米（蒸粗麦粉）"
         },
         {
           "en": "Sushi",
           "zh": "寿司"
-        },
-        {
-          "en": "Tacos",
-          "zh": "塔可"
-        },
-        {
-          "en": "Pizza",
-          "zh": "披萨"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book names couscous, a tiny round pasta, as popular in Moroccan foods.",

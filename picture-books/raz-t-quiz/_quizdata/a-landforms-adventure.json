@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Boston to Seattle",
-          "zh": "波士顿到西雅图"
-        },
-        {
-          "en": "New York to California",
-          "zh": "纽约到加州"
+          "en": "Chicago to Texas",
+          "zh": "芝加哥到德州"
         },
         {
           "en": "Seattle to Boston",
           "zh": "西雅图到波士顿"
         },
         {
-          "en": "Chicago to Texas",
-          "zh": "芝加哥到德州"
+          "en": "New York to California",
+          "zh": "纽约到加州"
+        },
+        {
+          "en": "Boston to Seattle",
+          "zh": "波士顿到西雅图"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The family drives Interstate 90 from Boston all the way to Seattle.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Core = yolk, mantle = white, crust = shell",
-          "zh": "地核=蛋黄，地幔=蛋白，地壳=蛋壳"
-        },
-        {
-          "en": "Core = shell, crust = yolk",
-          "zh": "地核=蛋壳，地壳=蛋黄"
-        },
-        {
           "en": "Mantle = yolk",
           "zh": "地幔=蛋黄"
         },
         {
           "en": "Crust = white",
           "zh": "地壳=蛋白"
+        },
+        {
+          "en": "Core = shell, crust = yolk according to some versions of the story",
+          "zh": "地核=蛋壳，地壳=蛋黄（按书中另一种说法）"
+        },
+        {
+          "en": "Core = yolk, mantle = white, crust = shell",
+          "zh": "地核=蛋黄，地幔=蛋白，地壳=蛋壳"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Mr. Lopez explains Earth's core, mantle, and crust using the egg analogy.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "Kinds of rivers",
+          "zh": "河流的种类"
+        },
+        {
           "en": "Huge pieces of rock that make up Earth's crust and float on the mantle",
           "zh": "构成地壳、漂浮在地幔上的巨大岩石块"
         },
         {
+          "en": "Layers of the atmosphere according to some versions of the story in an early draft of the book",
+          "zh": "大气的层次（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "Types of volcanoes",
           "zh": "火山的类型"
-        },
-        {
-          "en": "Layers of the atmosphere",
-          "zh": "大气的层次"
-        },
-        {
-          "en": "Kinds of rivers",
-          "zh": "河流的种类"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Plates float like rafts on the mantle and their movements create landforms.",
@@ -107,16 +107,16 @@
           "zh": "它们非常古老，被侵蚀削低了"
         },
         {
-          "en": "They were never tall",
-          "zh": "它们从来就不高"
-        },
-        {
           "en": "They are made of ice",
           "zh": "它们由冰构成"
         },
         {
-          "en": "People cut them down",
-          "zh": "人们把它们砍低了"
+          "en": "They were never tall",
+          "zh": "它们从来就不高"
+        },
+        {
+          "en": "People cut them down according to some versions of the story",
+          "zh": "人们把它们砍低了（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A glacier carved them about 14,000 years ago",
-          "zh": "约14000年前由冰川凿出"
-        },
-        {
           "en": "Rivers carved them",
           "zh": "河流凿出的"
         },
         {
-          "en": "Volcanoes formed them",
-          "zh": "火山形成的"
+          "en": "Volcanoes formed them according to some versions of the story",
+          "zh": "火山形成的（按书中另一种说法）"
+        },
+        {
+          "en": "A glacier carved them about 14,000 years ago",
+          "zh": "约14000年前由冰川凿出"
         },
         {
           "en": "Humans dug them",
           "zh": "人类挖掘的"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "A glacier carved the basins for the Great Lakes about 14,000 years ago.",
@@ -167,8 +167,8 @@
           "zh": "夹在两片水域之间的狭长陆地"
         },
         {
-          "en": "A steep, narrow valley",
-          "zh": "陡峭狭窄的山谷"
+          "en": "A steep, narrow valley according to some versions of the story",
+          "zh": "陡峭狭窄的山谷（按书中另一种说法）"
         },
         {
           "en": "A type of volcano",
@@ -197,8 +197,8 @@
           "zh": "被高地环绕、由河流侵蚀出的狭长深谷"
         },
         {
-          "en": "Triangle-shaped land at a river's mouth",
-          "zh": "河口处的三角形陆地"
+          "en": "Triangle-shaped land at a river's mouth according to some versions of the story",
+          "zh": "河口处的三角形陆地（按书中另一种说法）"
         },
         {
           "en": "A group of mountains",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Two small plates beneath the Pacific slid under the North American Plate",
-          "zh": "太平洋下的两块小板块滑到了北美板块之下"
-        },
-        {
-          "en": "A single glacier pushed them up",
-          "zh": "一块冰川把它们推起"
-        },
-        {
           "en": "Wind erosion",
           "zh": "风的侵蚀"
+        },
+        {
+          "en": "A single glacier pushed them up according to some versions of the story in an early draft of the book",
+          "zh": "一块冰川把它们推起（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Two small plates beneath the Pacific slid under the North American Plate",
+          "zh": "太平洋下的两块小板块滑到了北美板块之下"
         },
         {
           "en": "Humans built them",
           "zh": "人类建造的"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Rockies formed when plates beneath the Pacific slid under the North American Plate.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To help readers identify and learn the landforms seen on the trip",
-          "zh": "帮助读者识别并学习旅途中看到的地貌"
-        },
-        {
           "en": "To sell a map",
           "zh": "为了卖地图"
+        },
+        {
+          "en": "To help readers identify and learn the landforms seen on the trip",
+          "zh": "帮助读者识别并学习旅途中看到的地貌"
         },
         {
           "en": "To list cities",
           "zh": "为了列出城市"
         },
         {
-          "en": "To describe food",
-          "zh": "为了描述食物"
+          "en": "To describe food according to some versions of the story in an early draft of the book",
+          "zh": "为了描述食物（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The list supports the book's goal of teaching about landforms.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Triangle-shaped land formed by sediment at a river's mouth",
-          "zh": "在河口由泥沙堆积形成的三角形陆地"
+          "en": "A deep lake",
+          "zh": "深湖"
         },
         {
-          "en": "A steep mountain",
-          "zh": "陡峭的山"
+          "en": "Triangle-shaped land formed by sediment at a river's mouth",
+          "zh": "在河口由泥沙堆积形成的三角形陆地"
         },
         {
           "en": "A frozen river",
           "zh": "结冰的河"
         },
         {
-          "en": "A deep lake",
-          "zh": "深湖"
+          "en": "A steep mountain according to some versions of the story in an early draft of the book",
+          "zh": "陡峭的山（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Skagit delta formed where sediments built up at the river's mouth.",

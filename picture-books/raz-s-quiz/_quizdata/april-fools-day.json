@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "\"April Fish\"",
-          "zh": "“四月鱼”"
-        },
-        {
           "en": "\"Lie Day\"",
           "zh": "“谎言日”"
         },
@@ -27,9 +23,13 @@
         {
           "en": "\"Spaghetti Day\"",
           "zh": "“意大利面日”"
+        },
+        {
+          "en": "\"April Fish\"",
+          "zh": "“四月鱼”"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'In France, the April 1 tradition is often known as \"April Fish.\"'",
@@ -43,10 +43,6 @@
       },
       "options": [
         {
-          "en": "A kind of food",
-          "zh": "一种食物"
-        },
-        {
           "en": "A holiday",
           "zh": "一个节日"
         },
@@ -55,11 +51,15 @@
           "zh": "用来误导或戏弄人的东西"
         },
         {
+          "en": "A kind of food according to some versions of the story",
+          "zh": "一种食物（按书中另一种说法）"
+        },
+        {
           "en": "A sport",
           "zh": "一项运动"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines hoax as 'something meant to mislead or trick (p. 13).'",
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "One month",
+          "zh": "一个月"
+        },
+        {
           "en": "One hour",
           "zh": "一小时"
         },
@@ -83,13 +87,9 @@
         {
           "en": "One week",
           "zh": "一周"
-        },
-        {
-          "en": "One month",
-          "zh": "一个月"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'In Scotland, however, April Fools' can go on for two days.'",
@@ -103,12 +103,12 @@
       },
       "options": [
         {
-          "en": "Dia da mentira (Lie Day)",
-          "zh": "Dia da mentira（谎言日）"
+          "en": "Sizdah Bedar according to some versions of the story",
+          "zh": "Sizdah Bedar（按书中另一种说法）"
         },
         {
-          "en": "Sizdah Bedar",
-          "zh": "Sizdah Bedar"
+          "en": "Dia da mentira (Lie Day)",
+          "zh": "Dia da mentira（谎言日）"
         },
         {
           "en": "Hilaria",
@@ -119,7 +119,7 @@
           "zh": "狂欢节"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'In Brazil, April 1 is Dia da mentira (Lie Day).'",
@@ -141,8 +141,8 @@
           "zh": "鱼"
         },
         {
-          "en": "Lion",
-          "zh": "狮子"
+          "en": "Lion according to some versions of the story",
+          "zh": "狮子（按书中另一种说法）"
         },
         {
           "en": "Cake",
@@ -163,8 +163,8 @@
       },
       "options": [
         {
-          "en": "Burger King",
-          "zh": "汉堡王"
+          "en": "Twitter",
+          "zh": "推特"
         },
         {
           "en": "Taco Bell",
@@ -175,8 +175,8 @@
           "zh": "谷歌"
         },
         {
-          "en": "Twitter",
-          "zh": "推特"
+          "en": "Burger King",
+          "zh": "汉堡王"
         }
       ],
       "answer": 1,
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "January 1",
-          "zh": "1月1日"
-        },
-        {
           "en": "April 1",
           "zh": "4月1日"
         },
@@ -205,11 +201,15 @@
           "zh": "12月25日"
         },
         {
+          "en": "January 1",
+          "zh": "1月1日"
+        },
+        {
           "en": "March 1",
           "zh": "3月1日"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the new calendar moved 'The new year moved from the beginning of April to January 1.'",
@@ -227,16 +227,16 @@
           "zh": "因为玩笑应当有趣而不刻薄"
         },
         {
-          "en": "Because the police require it",
-          "zh": "因为警方要求如此"
-        },
-        {
           "en": "Because it is a law",
           "zh": "因为这是一条法律"
         },
         {
           "en": "Because animals get scared",
           "zh": "因为动物会害怕"
+        },
+        {
+          "en": "Because the police require it according to some versions of the story",
+          "zh": "因为警方要求如此（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -257,16 +257,16 @@
           "zh": "伊朗（波斯历）"
         },
         {
-          "en": "France",
-          "zh": "法国"
-        },
-        {
           "en": "Brazil",
           "zh": "巴西"
         },
         {
-          "en": "Scotland",
-          "zh": "苏格兰"
+          "en": "France",
+          "zh": "法国"
+        },
+        {
+          "en": "Scotland according to some versions of the story",
+          "zh": "苏格兰（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Insane (mad)",
-          "zh": "精神失常（疯了）"
+          "en": "Asleep",
+          "zh": "睡着了"
+        },
+        {
+          "en": "Rich people according to some versions of the story",
+          "zh": "富人（按书中另一种说法）"
         },
         {
           "en": "Bears",
           "zh": "熊"
         },
         {
-          "en": "Rich people",
-          "zh": "富人"
-        },
-        {
-          "en": "Asleep",
-          "zh": "睡着了"
+          "en": "Insane (mad)",
+          "zh": "精神失常（疯了）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says villagers 'pretended they suffered from insanity to scare King John away because at that time, madness was thought to be contagious.'",

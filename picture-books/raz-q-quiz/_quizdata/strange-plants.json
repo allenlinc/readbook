@@ -12,12 +12,24 @@
         "zh": "空气凤梨有什么不寻常之处？"
       },
       "options": [
-        {"en": "They grow on tree branches and take nutrients and moisture from the air, not from soil", "zh": "它们长在树枝上，从空气中吸收养分和水分，而不是从土壤里"},
-        {"en": "They grow only underwater in the ocean", "zh": "它们只生长在海洋的水下"},
-        {"en": "They have no leaves at all", "zh": "它们完全没有叶子"},
-        {"en": "They are a kind of animal, not a plant", "zh": "它们是一种动物，不是植物"}
+        {
+          "en": "They are a kind of animal, not a plant according to some versions of the story in an early draft of the book",
+          "zh": "它们是一种动物，不是植物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They grow on tree branches and take nutrients and moisture from the air, not from soil",
+          "zh": "它们长在树枝上，从空气中吸收养分和水分，而不是从土壤里"
+        },
+        {
+          "en": "They grow only underwater in the ocean",
+          "zh": "它们只生长在海洋的水下"
+        },
+        {
+          "en": "They have no leaves at all",
+          "zh": "它们完全没有叶子"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says air plants 'grow on tree branches' in North and South America and 'take all their nutrients and moisture from the air, through their leaves,' not living in soil.",
@@ -30,12 +42,24 @@
         "zh": "捕蝇草是怎样捉住昆虫的？"
       },
       "options": [
-        {"en": "When the insect brushes the trigger hairs inside, the leaf snaps shut and traps it", "zh": "当昆虫碰到叶子内部的触发毛时，叶子会猛地合上把它困住"},
-        {"en": "It wraps the insect in sticky, sweet-smelling hairs", "zh": "它用黏黏的、带甜味的毛把昆虫包住"},
-        {"en": "It gives off a smell of rotting meat to poison it", "zh": "它散发出腐肉味把昆虫毒死"},
-        {"en": "It shoots water at the insect", "zh": "它朝昆虫喷水"}
+        {
+          "en": "It gives off a smell of rotting meat to poison it",
+          "zh": "它散发出腐肉味把昆虫毒死"
+        },
+        {
+          "en": "It shoots water at the insect",
+          "zh": "它朝昆虫喷水"
+        },
+        {
+          "en": "When the insect brushes the trigger hairs inside, the leaf snaps shut and traps it",
+          "zh": "当昆虫碰到叶子内部的触发毛时，叶子会猛地合上把它困住"
+        },
+        {
+          "en": "It wraps the insect in sticky, sweet-smelling hairs according to some versions of the story",
+          "zh": "它用黏黏的、带甜味的毛把昆虫包住（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Venus flytrap's leaves 'look like traps' with 'small trigger hairs on the inside'; when a critter brushes them, 'the leaf snaps shut' and the critter is trapped.",
@@ -48,10 +72,22 @@
         "zh": "澳大利亚的巨型茅膏菜会吃哪种令人吃惊的动物？"
       },
       "options": [
-        {"en": "Small frogs", "zh": "小青蛙"},
-        {"en": "Small birds", "zh": "小鸟"},
-        {"en": "Fish", "zh": "鱼"},
-        {"en": "Snakes", "zh": "蛇"}
+        {
+          "en": "Small frogs",
+          "zh": "小青蛙"
+        },
+        {
+          "en": "Fish",
+          "zh": "鱼"
+        },
+        {
+          "en": "Small birds according to some versions of the story",
+          "zh": "小鸟（按书中另一种说法）"
+        },
+        {
+          "en": "Snakes",
+          "zh": "蛇"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "菟丝子是一种什么植物，它怎样获取养分？"
       },
       "options": [
-        {"en": "A parasite that sends stems into a host plant and sucks its food and water", "zh": "一种寄生植物，把茎伸进宿主植物里吸取它的养分和水分"},
-        {"en": "A plant that eats insects with sticky hairs", "zh": "一种用黏毛吃昆虫的植物"},
-        {"en": "A plant that grows completely underground", "zh": "一种完全在地下生长的植物"},
-        {"en": "A plant that looks like a rock", "zh": "一种长得像石头的植物"}
+        {
+          "en": "A plant that looks like a rock",
+          "zh": "一种长得像石头的植物"
+        },
+        {
+          "en": "A parasite that sends stems into a host plant and sucks its food and water",
+          "zh": "一种寄生植物，把茎伸进宿主植物里吸取它的养分和水分"
+        },
+        {
+          "en": "A plant that eats insects with sticky hairs according to some versions of the story",
+          "zh": "一种用黏毛吃昆虫的植物（按书中另一种说法）"
+        },
+        {
+          "en": "A plant that grows completely underground",
+          "zh": "一种完全在地下生长的植物"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The dodder 'sends slender rootlike stems into another plant' and 'sucks food and water from the plant. It is a parasite' whose link to the soil dies once attached.",
@@ -84,10 +132,22 @@
         "zh": "在词汇表里，carnivorous（肉食的）是什么意思？"
       },
       "options": [
-        {"en": "Eating only meat", "zh": "只吃肉的"},
-        {"en": "Living in water", "zh": "生活在水里的"},
-        {"en": "Growing in the dark", "zh": "在黑暗中生长的"},
-        {"en": "Making its own food from sunlight", "zh": "靠阳光自己制造食物的"}
+        {
+          "en": "Eating only meat",
+          "zh": "只吃肉的"
+        },
+        {
+          "en": "Living in water",
+          "zh": "生活在水里的"
+        },
+        {
+          "en": "Growing in the dark",
+          "zh": "在黑暗中生长的"
+        },
+        {
+          "en": "Making its own food from sunlight",
+          "zh": "靠阳光自己制造食物的"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,10 +162,22 @@
         "zh": "在词汇表里，host（宿主）是什么？"
       },
       "options": [
-        {"en": "A plant or animal off which a parasite feeds", "zh": "寄生生物赖以生存的宿主植物或动物"},
-        {"en": "A kind of flower that smells like meat", "zh": "一种闻起来像肉的花"},
-        {"en": "The person who takes a photograph", "zh": "拍照的人"},
-        {"en": "A small amount of water in the air", "zh": "空气中少量的水"}
+        {
+          "en": "A plant or animal off which a parasite feeds",
+          "zh": "寄生生物赖以生存的宿主植物或动物"
+        },
+        {
+          "en": "A small amount of water in the air",
+          "zh": "空气中少量的水"
+        },
+        {
+          "en": "A kind of flower that smells like meat according to some versions of the story",
+          "zh": "一种闻起来像肉的花（按书中另一种说法）"
+        },
+        {
+          "en": "The person who takes a photograph",
+          "zh": "拍照的人"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "蚂蚁和蚁栖植物怎样互相帮助？"
       },
       "options": [
-        {"en": "Ants protect the plant from animals that would eat it, and the plant gives ants homes and uses their garbage for food and seeds", "zh": "蚂蚁保护植物不被吃它的动物伤害，植物给蚂蚁提供住所，并利用它们的垃圾当作食物、传播种子"},
-        {"en": "The ants eat the plant's flowers", "zh": "蚂蚁吃植物的花"},
-        {"en": "The plant feeds the ants with sweet nectar only", "zh": "植物只用花蜜喂养蚂蚁"},
-        {"en": "They do not help each other at all", "zh": "它们彼此毫无帮助"}
+        {
+          "en": "The plant feeds the ants with sweet nectar only according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "植物只用花蜜喂养蚂蚁（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "They do not help each other at all",
+          "zh": "它们彼此毫无帮助"
+        },
+        {
+          "en": "The ants eat the plant's flowers",
+          "zh": "蚂蚁吃植物的花"
+        },
+        {
+          "en": "Ants protect the plant from animals that would eat it, and the plant gives ants homes and uses their garbage for food and seeds",
+          "zh": "蚂蚁保护植物不被吃它的动物伤害，植物给蚂蚁提供住所，并利用它们的垃圾当作食物、传播种子"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Ant colonies live in the plant; 'the ants protect the plant from animals that would eat it,' using stem cavities as houses, while 'the ant plant uses some of this garbage for food and to spread its seeds.'",
@@ -138,12 +222,24 @@
         "zh": "Stapelia 花和茅膏菜各自怎样利用昆虫？"
       },
       "options": [
-        {"en": "Stapelia smells like rotting meat to attract flies for pollen, while sundew's sticky sweet hairs trap insects to digest them", "zh": "Stapelia 散发腐肉味吸引苍蝇来传播花粉，而茅膏菜用黏黏的甜毛困住昆虫并消化它们"},
-        {"en": "Both plants poison insects with a bad smell", "zh": "两种植物都用臭味毒死昆虫"},
-        {"en": "Both plants use insects only to make seeds, not food", "zh": "两种植物都只用昆虫造种子，不当食物"},
-        {"en": "Neither plant uses insects at all", "zh": "两种植物都不利用昆虫"}
+        {
+          "en": "Both plants use insects only to make seeds, not food according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "两种植物都只用昆虫造种子，不当食物（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Both plants poison insects with a bad smell",
+          "zh": "两种植物都用臭味毒死昆虫"
+        },
+        {
+          "en": "Neither plant uses insects at all",
+          "zh": "两种植物都不利用昆虫"
+        },
+        {
+          "en": "Stapelia smells like rotting meat to attract flies for pollen, while sundew's sticky sweet hairs trap insects to digest them",
+          "zh": "Stapelia 散发腐肉味吸引苍蝇来传播花粉，而茅膏菜用黏黏的甜毛困住昆虫并消化它们"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The stapelia 'emits an odor of rotting meat' so flies carry its pollen to make seeds; the sundew has 'sticky hairs' that smell sweet, trap insects, and then 'digests the insects.'",
@@ -156,12 +252,24 @@
         "zh": "这本书的「聚焦问题」是什么？"
       },
       "options": [
-        {"en": "What makes some plants strange?", "zh": "是什么让有些植物显得奇特？"},
-        {"en": "How do plants make their own food?", "zh": "植物怎样自己制造食物？"},
-        {"en": "Why do plants need water?", "zh": "植物为什么需要水？"},
-        {"en": "Where do most plants live?", "zh": "大多数植物生活在哪里？"}
+        {
+          "en": "Why do plants need water?",
+          "zh": "植物为什么需要水？"
+        },
+        {
+          "en": "What makes some plants strange?",
+          "zh": "是什么让有些植物显得奇特？"
+        },
+        {
+          "en": "How do plants make their own food?",
+          "zh": "植物怎样自己制造食物？"
+        },
+        {
+          "en": "Where do most plants live?",
+          "zh": "大多数植物生活在哪里？"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book opens with the question 'What makes some plants strange?' and then gives example after example of unusual plants to answer it.",
@@ -174,12 +282,24 @@
         "zh": "作者为什么要举那么多不同的例子（空气凤梨、捕蝇草、菟丝子、石头植物、蚁栖植物……）？"
       },
       "options": [
-        {"en": "To show there are many amazing and different kinds of strange plants in the world", "zh": "为了说明世界上有许多奇妙而各不相同的奇特植物"},
-        {"en": "To teach how to cook with plants", "zh": "为了教人用植物做饭"},
-        {"en": "To list every plant on Earth", "zh": "为了列出地球上的每一种植物"},
-        {"en": "To argue that all plants are dangerous", "zh": "为了论证所有植物都很危险"}
+        {
+          "en": "To teach how to cook with plants",
+          "zh": "为了教人用植物做饭"
+        },
+        {
+          "en": "To list every plant on Earth",
+          "zh": "为了列出地球上的每一种植物"
+        },
+        {
+          "en": "To show there are many amazing and different kinds of strange plants in the world",
+          "zh": "为了说明世界上有许多奇妙而各不相同的奇特植物"
+        },
+        {
+          "en": "To argue that all plants are dangerous according to some versions of the story in an early draft of the book",
+          "zh": "为了论证所有植物都很危险（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book ends by saying, 'There are many amazing plants in the world,' after listing bamboo, underground orchids, bat plants, and ghost plants—showing the variety of strange plants.",

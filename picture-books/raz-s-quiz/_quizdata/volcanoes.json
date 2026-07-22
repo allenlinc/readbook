@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "AD 79",
-          "zh": "公元79年"
-        },
-        {
-          "en": "AD 1940",
-          "zh": "公元1940年"
-        },
-        {
           "en": "1980",
           "zh": "1980年"
         },
         {
           "en": "1815",
           "zh": "1815年"
+        },
+        {
+          "en": "AD 79",
+          "zh": "公元79年"
+        },
+        {
+          "en": "AD 1940",
+          "zh": "公元1940年"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book opens: 'Few people... cared about the earthquakes in AD 79' when Vesuvius erupted and buried Pompeii.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "At the edges of Earth's plates, such as the Ring of Fire",
-          "zh": "在地球板块的边缘，如环太平洋火山带"
-        },
-        {
-          "en": "In the middle of oceans only",
-          "zh": "只在海洋正中央"
+          "en": "Only in cold countries",
+          "zh": "只在寒冷国家"
         },
         {
           "en": "On the tops of mountains",
           "zh": "在山顶上"
         },
         {
-          "en": "Only in cold countries",
-          "zh": "只在寒冷国家"
+          "en": "In the middle of oceans only according to some versions of the story",
+          "zh": "只在海洋正中央（按书中另一种说法）"
+        },
+        {
+          "en": "At the edges of Earth's plates, such as the Ring of Fire",
+          "zh": "在地球板块的边缘，如环太平洋火山带"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'Most of the world's volcanoes are found where the plates meet' and names the Pacific 'Ring of Fire.'",
@@ -77,16 +77,16 @@
           "zh": "岩浆异常接近地壳的地方"
         },
         {
-          "en": "A very sunny beach",
-          "zh": "一片阳光充足的海滩"
-        },
-        {
-          "en": "The top of a volcano",
-          "zh": "火山的顶端"
+          "en": "A very sunny beach according to some versions of the story",
+          "zh": "一片阳光充足的海滩（按书中另一种说法）"
         },
         {
           "en": "A kind of lava",
           "zh": "一种熔岩"
+        },
+        {
+          "en": "The top of a volcano",
+          "zh": "火山的顶端"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "They are made of ice",
+          "zh": "它们由冰构成"
+        },
+        {
+          "en": "They are struck by lightning according to some versions of the story",
+          "zh": "它们被闪电击中（按书中另一种说法）"
+        },
+        {
           "en": "Thick magma plugs the vent, building pressure until it explodes",
           "zh": "黏稠的岩浆堵住火山口，压力积聚直到爆炸"
         },
         {
           "en": "They are filled with water",
           "zh": "它们装满水"
-        },
-        {
-          "en": "They are made of ice",
-          "zh": "它们由冰构成"
-        },
-        {
-          "en": "They are struck by lightning",
-          "zh": "它们被闪电击中"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says thick magma 'can cool and harden before it reaches the surface, plugging a vent... the pressure builds. When the pressure becomes great enough, the volcano explodes.'",
@@ -133,8 +133,8 @@
       },
       "options": [
         {
-          "en": "The entire northern side of the mountain was destroyed",
-          "zh": "山体整个北坡被摧毁"
+          "en": "It turned into ice according to some versions of the story",
+          "zh": "它变成了冰（按书中另一种说法）"
         },
         {
           "en": "It became a lake",
@@ -145,11 +145,11 @@
           "zh": "它变高了"
         },
         {
-          "en": "It turned into ice",
-          "zh": "它变成了冰"
+          "en": "The entire northern side of the mountain was destroyed",
+          "zh": "山体整个北坡被摧毁"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'When Washington State's Mount St. Helens erupted in 1980, the entire northern side of the mountain was destroyed.'",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Mauna Loa in Hawaii",
-          "zh": "夏威夷的冒纳罗亚火山（Mauna Loa）"
-        },
-        {
           "en": "Mount Everest",
           "zh": "珠穆朗玛峰"
         },
         {
-          "en": "Mount Vesuvius",
-          "zh": "维苏威火山"
+          "en": "Mauna Loa in Hawaii",
+          "zh": "夏威夷的冒纳罗亚火山（Mauna Loa）"
         },
         {
           "en": "Mount Fuji",
           "zh": "富士山"
+        },
+        {
+          "en": "Mount Vesuvius according to some versions of the story",
+          "zh": "维苏威火山（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says Mauna Loa 'is the tallest volcano in the world, rising 9,170 meters from its base on the seafloor. That's taller than Mount Everest!'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
+          "en": "A type of earthquake",
+          "zh": "一种地震"
+        },
+        {
           "en": "A hill of light rocks (cinders) piled around a vent",
           "zh": "由轻质岩石（火山渣）在火山口周围堆积成的小山"
         },
         {
-          "en": "A lake inside a volcano",
-          "zh": "火山内部的一个湖"
-        },
-        {
-          "en": "A type of earthquake",
-          "zh": "一种地震"
+          "en": "A lake inside a volcano according to some versions of the story",
+          "zh": "火山内部的一个湖（按书中另一种说法）"
         },
         {
           "en": "A kind of magma",
           "zh": "一种岩浆"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says small lava chunks 'harden into light rocks called cinders. The cinders pile up around the vent into a hill... called cinder cones.'",
@@ -227,8 +227,8 @@
           "zh": "土地塌陷进空岩浆房后形成的大型碗状盆地"
         },
         {
-          "en": "A type of lava fountain",
-          "zh": "一种熔岩喷泉"
+          "en": "A type of lava fountain according to some versions of the story in an early draft of the book",
+          "zh": "一种熔岩喷泉（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "The tip of a volcano",
@@ -253,12 +253,12 @@
       },
       "options": [
         {
-          "en": "Quiet for many hundreds of years",
-          "zh": "寂静了几百年"
+          "en": "Erupting right now according to some versions of the story",
+          "zh": "此刻正在喷发（按书中另一种说法）"
         },
         {
-          "en": "Erupting right now",
-          "zh": "此刻正在喷发"
+          "en": "Quiet for many hundreds of years",
+          "zh": "寂静了几百年"
         },
         {
           "en": "Made of water",
@@ -269,7 +269,7 @@
           "zh": "非常小"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines dormant as 'quiet for many hundreds of years.'",
@@ -287,16 +287,16 @@
           "zh": "解释火山如何形成、出现在何处，以及不同类型的火山"
         },
         {
-          "en": "To tell a fictional story about a monster",
-          "zh": "讲述一个怪兽的虚构故事"
+          "en": "To teach how to cook",
+          "zh": "教人做饭"
         },
         {
           "en": "To sell volcano tours",
           "zh": "推销火山游览"
         },
         {
-          "en": "To teach how to cook",
-          "zh": "教人做饭"
+          "en": "To tell a fictional story about a monster according to some versions of the story",
+          "zh": "讲述一个怪兽的虚构故事（按书中另一种说法）"
         }
       ],
       "answer": 0,

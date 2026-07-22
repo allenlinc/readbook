@@ -17,8 +17,8 @@
           "zh": "眼睛里的视锥细胞出了问题"
         },
         {
-          "en": "Watching too much television",
-          "zh": "看电视太多"
+          "en": "Watching too much television according to some versions of the story",
+          "zh": "看电视太多（按书中另一种说法）"
         },
         {
           "en": "Not eating enough carrots",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Blue-yellow color blindness",
-          "zh": "蓝黄色盲"
-        },
-        {
           "en": "Complete color blindness",
           "zh": "全色盲"
         },
         {
-          "en": "Red-green color blindness",
-          "zh": "红绿色盲"
-        },
-        {
           "en": "Purple-orange color blindness",
           "zh": "紫橙色盲"
+        },
+        {
+          "en": "Blue-yellow color blindness",
+          "zh": "蓝黄色盲"
+        },
+        {
+          "en": "Red-green color blindness",
+          "zh": "红绿色盲"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states red-green color blindness 'is the most common type of color vision problem.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "They handle color vision in bright light",
-          "zh": "在亮光下负责色彩视觉"
+          "en": "They handle color vision in bright light according to some versions of the story",
+          "zh": "在亮光下负责色彩视觉（按书中另一种说法）"
         },
         {
-          "en": "They allow you to see in dim light but cannot tell colors apart",
-          "zh": "让你在昏暗光线下看见东西，但分不清颜色"
+          "en": "They focus light onto the retina",
+          "zh": "把光线聚焦到视网膜上"
         },
         {
           "en": "They produce tears",
           "zh": "产生眼泪"
         },
         {
-          "en": "They focus light onto the retina",
-          "zh": "把光线聚焦到视网膜上"
+          "en": "They allow you to see in dim light but cannot tell colors apart",
+          "zh": "让你在昏暗光线下看见东西，但分不清颜色"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says rod cells 'allow you to see in very dim light, but they can't tell different colors apart.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "One out of every hundred",
-          "zh": "每百人中一人"
-        },
-        {
           "en": "One out of every twelve",
           "zh": "每十二人中一人"
         },
         {
-          "en": "One out of every thousand",
-          "zh": "每千人中一人"
-        },
-        {
           "en": "One out of every million",
           "zh": "每百万人中一人"
+        },
+        {
+          "en": "One out of every hundred",
+          "zh": "每百人中一人"
+        },
+        {
+          "en": "One out of every thousand",
+          "zh": "每千人中一人"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says red-green color blindness 'affects one out of every twelve men.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Dogs",
-          "zh": "狗"
-        },
-        {
-          "en": "Bees",
-          "zh": "蜜蜂"
+          "en": "Butterflies",
+          "zh": "蝴蝶"
         },
         {
           "en": "Bulls",
           "zh": "公牛"
         },
         {
-          "en": "Butterflies",
-          "zh": "蝴蝶"
+          "en": "Bees",
+          "zh": "蜜蜂"
+        },
+        {
+          "en": "Dogs",
+          "zh": "狗"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says 'dogs can only see shades of blue and yellow, and bulls are completely color-blind!'",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "The Blood Test",
+          "zh": "血液测试"
+        },
+        {
           "en": "The Eye Chart Test",
           "zh": "视力表测试"
         },
@@ -173,13 +177,9 @@
         {
           "en": "The Hearing Test",
           "zh": "听力测试"
-        },
-        {
-          "en": "The Blood Test",
-          "zh": "血液测试"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'The Ishihara Test is the most common' test for color blindness.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "To show those jobs are easy",
-          "zh": "为了说明这些工作很简单"
+          "en": "To encourage everyone to become pilots according to some versions of the story",
+          "zh": "为了鼓励大家都去当飞行员（按书中另一种说法）"
+        },
+        {
+          "en": "To describe the history of flying",
+          "zh": "为了描述飞行历史"
         },
         {
           "en": "To show color blindness can limit a person's career options",
           "zh": "为了说明色盲会限制一个人的职业选择"
         },
         {
-          "en": "To encourage everyone to become pilots",
-          "zh": "为了鼓励大家都去当飞行员"
-        },
-        {
-          "en": "To describe the history of flying",
-          "zh": "为了描述飞行历史"
+          "en": "To show those jobs are easy",
+          "zh": "为了说明这些工作很简单"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says color blindness 'can even limit a person's career options' and names geologists and pilots as needing full-color vision.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "By giving them special glasses",
-          "zh": "给它们特殊的眼镜"
-        },
-        {
           "en": "By using a virus to insert the red gene into their retinas",
           "zh": "用病毒把红色基因植入它们的视网膜"
         },
         {
-          "en": "By feeding them a special diet",
-          "zh": "给它们特殊的饮食"
+          "en": "By feeding them a special diet according to some versions of the story",
+          "zh": "给它们特殊的饮食（按书中另一种说法）"
+        },
+        {
+          "en": "By giving them special glasses",
+          "zh": "给它们特殊的眼镜"
         },
         {
           "en": "By teaching them to name colors",
           "zh": "教它们认颜色"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says researchers 'used a virus to insert the red gene into the monkeys' retinas.'",
@@ -253,8 +253,8 @@
       },
       "options": [
         {
-          "en": "They make the world black and white",
-          "zh": "让世界变成黑白"
+          "en": "They make the world black and white according to some versions of the story",
+          "zh": "让世界变成黑白（按书中另一种说法）"
         },
         {
           "en": "They filter out specific wavelengths so red and green can be told apart",
@@ -291,12 +291,12 @@
           "zh": "同一颜色两个波峰（或波谷）之间的距离"
         },
         {
-          "en": "The name of a type of cell",
-          "zh": "一种细胞的名称"
-        },
-        {
           "en": "A kind of eye disease",
           "zh": "一种眼病"
+        },
+        {
+          "en": "The name of a type of cell according to some versions of the story",
+          "zh": "一种细胞的名称（按书中另一种说法）"
         }
       ],
       "answer": 1,

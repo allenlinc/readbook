@@ -1,328 +1,328 @@
 {
- "slug": "the-firefighter",
- "title": "The Firefighter",
- "titleZh": "消防员",
- "level": "Y",
- "genre": "Informational",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "What is Todd Cupell's job?",
-    "zh": "托德·库佩尔的职务是什么？"
-   },
-   "options": [
+  "slug": "the-firefighter",
+  "title": "The Firefighter",
+  "titleZh": "消防员",
+  "level": "Y",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "A wildland firefighter from Tucson, Arizona",
-     "zh": "来自亚利桑那州图森市的荒野消防员"
+      "q": {
+        "en": "What is Todd Cupell's job?",
+        "zh": "托德·库佩尔的职务是什么？"
+      },
+      "options": [
+        {
+          "en": "A police officer",
+          "zh": "一名警察"
+        },
+        {
+          "en": "A wildland firefighter from Tucson, Arizona",
+          "zh": "来自亚利桑那州图森市的荒野消防员"
+        },
+        {
+          "en": "A weather scientist studying lightning according to some versions of the story",
+          "zh": "研究闪电的气象科学家（按书中另一种说法）"
+        },
+        {
+          "en": "A park ranger in a national park",
+          "zh": "国家公园的护林员"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book is an interview with Todd Cupell, a wildland firefighter from Tucson, Arizona, given in 2002.",
+        "zh": "本书是对托德·库佩尔的访谈，他是亚利桑那州图森市的荒野消防员，访谈于2002年进行。"
+      }
     },
     {
-     "en": "A park ranger in a national park",
-     "zh": "国家公园的护林员"
+      "q": {
+        "en": "According to Todd, what is the most common natural cause of wildfires?",
+        "zh": "根据托德的说法，野火最常见的自然起因是什么？"
+      },
+      "options": [
+        {
+          "en": "Cars with blown tires",
+          "zh": "爆胎的汽车"
+        },
+        {
+          "en": "Unattended campfires",
+          "zh": "无人看管的营火"
+        },
+        {
+          "en": "Helicopters clipping power lines",
+          "zh": "直升机刮断电线"
+        },
+        {
+          "en": "Lightning strikes",
+          "zh": "雷击"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Todd says lightning strikes are the most common natural cause of wildfires; nature-caused fires are often in remote areas.",
+        "zh": "托德说雷击是野火最常见的自然起因；自然引发的火灾往往位于偏远地区。"
+      }
     },
     {
-     "en": "A weather scientist studying lightning",
-     "zh": "研究闪电的气象科学家"
+      "q": {
+        "en": "In the book, what is 'entrapment'?",
+        "zh": "在本书中，'entrapment'（被困）指什么？"
+      },
+      "options": [
+        {
+          "en": "A tool used to dig firebreaks",
+          "zh": "一种用来挖防火带的工具"
+        },
+        {
+          "en": "When a fire is put out very quickly according to some versions of the story",
+          "zh": "当一场火很快被扑灭时（按书中另一种说法）"
+        },
+        {
+          "en": "When a fire burns all around you and cuts off your escape route",
+          "zh": "当火焰从四面将你包围、切断逃生路线时"
+        },
+        {
+          "en": "A type of fire shelter",
+          "zh": "一种防火庇护所"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Todd defines entrapment as when a fire burns all around you and cuts off your escape route—the biggest fear firefighters face.",
+        "zh": "托德将 entrapment 定义为火焰从四周包围、切断逃生路线——这是消防员最大的恐惧。"
+      }
     },
     {
-     "en": "A police officer",
-     "zh": "一名警察"
+      "q": {
+        "en": "What is a 'Pulaski' as described in the book?",
+        "zh": "如书中描述，'Pulaski'（普利斯基斧）是什么？"
+      },
+      "options": [
+        {
+          "en": "A kind of airplane",
+          "zh": "一种飞机"
+        },
+        {
+          "en": "A hand tool with an ax on one end and a hoe on the other",
+          "zh": "一端是斧头、另一端是锄头的手持工具"
+        },
+        {
+          "en": "A type of fire-retardant shirt according to some versions of the story",
+          "zh": "一种防火衬衫（按书中另一种说法）"
+        },
+        {
+          "en": "A backpack water pump",
+          "zh": "一种背包式水泵"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The glossary defines a Pulaski as a small tool with an ax on one end and a hoe on the other, named for its inventor.",
+        "zh": "术语表将 Pulaski 定义为一端是斧头、另一端是锄头的小工具，以其发明者命名。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the book, what is 'Nomex'?",
+        "zh": "在本书中，'Nomex'是什么？"
+      },
+      "options": [
+        {
+          "en": "A fire-retardant fabric that won't catch fire even if a match is put to it",
+          "zh": "一种阻燃面料，即使点火柴烧也不会着火"
+        },
+        {
+          "en": "A safety zone that has already burned according to some versions of the story",
+          "zh": "一片已经烧过的'安全区'（按书中另一种说法）"
+        },
+        {
+          "en": "A wildfire started by lightning",
+          "zh": "由闪电引发的一种野火"
+        },
+        {
+          "en": "A hot flare used to light back burns",
+          "zh": "一种用来点逆燃的炽热火把"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Todd explains Nomex is a special fire-retardant fabric; if he put a match to it, it would not catch on fire.",
+        "zh": "托德解释 Nomex 是一种特殊的阻燃面料；即使点火柴烧它也不会着火。"
+      }
+    },
+    {
+      "q": {
+        "en": "As described in the book, what is a 'fire shelter'?",
+        "zh": "如书中描述，'fire shelter'（防火帐篷）是什么？"
+      },
+      "options": [
+        {
+          "en": "A one-person tent made of aluminum and fiberglass that is a firefighter's last chance to survive",
+          "zh": "由铝和玻璃纤维制成的单人帐篷，是消防员最后的求生机会"
+        },
+        {
+          "en": "A large water tank on a truck",
+          "zh": "卡车上的大型水箱"
+        },
+        {
+          "en": "A building where firefighters sleep at the station according to some versions of the story in an early draft of the book",
+          "zh": "消防员在消防站睡觉的建筑物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A type of Nomex shirt",
+          "zh": "一种 Nomex 衬衫"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The book says a fire shelter looks like a one-person tent made of aluminum and fiberglass—the last chance to save your life.",
+        "zh": "书中说防火帐篷看起来像由铝和玻璃纤维制成的单人帐篷——是保全生命的最后机会。"
+      }
+    },
+    {
+      "q": {
+        "en": "According to the 'Do You Know?' box, what do smoke jumpers do?",
+        "zh": "根据'你知道吗？'栏目，'smoke jumpers'（空降灭火员）做什么？"
+      },
+      "options": [
+        {
+          "en": "They parachute from airplanes into the hearts of remote wildland fires",
+          "zh": "他们从飞机上跳伞，空降到偏远野火的核心地带"
+        },
+        {
+          "en": "They operate the fire engines in towns",
+          "zh": "他们在城镇里操作消防车"
+        },
+        {
+          "en": "They fly helicopters that clip power lines according to some versions of the story",
+          "zh": "他们驾驶刮断电线的直升机（按书中另一种说法）"
+        },
+        {
+          "en": "They cook meals for the crew",
+          "zh": "他们为队员做饭"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The book states smoke jumpers parachute from airplanes into extremely remote areas to combat flames at the heart of fires.",
+        "zh": "书中说明空降灭火员从飞机跳伞进入极偏远地区，在火场核心与火焰搏斗。"
+      }
+    },
+    {
+      "q": {
+        "en": "According to the prevention tips, how should you put out a campfire before leaving?",
+        "zh": "根据预防提示，离开前应如何熄灭营火？"
+      },
+      "options": [
+        {
+          "en": "Leave it to burn out by itself",
+          "zh": "任其自行烧完"
+        },
+        {
+          "en": "Cover it with leaves and walk away according to some versions of the story in an early draft of the book",
+          "zh": "用树叶盖住就走（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Put it out with plenty of water, stir the ashes, and feel for any heat left",
+          "zh": "用大量水浇灭，搅动灰烬，并摸一摸是否还有余温"
+        },
+        {
+          "en": "Pour a little sand on top only",
+          "zh": "只在上面倒一点沙子"
+        }
+      ],
+      "answer": 2,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The prevention section says to put the fire out with plenty of water, stir the ashes so water reaches every bit, and feel for heat left.",
+        "zh": "预防章节说要用大量水浇灭，搅动灰烬让水渗到每一处，并摸一摸是否还有余温。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in this book?",
+        "zh": "作者写这本书的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To entertain with a fictional adventure story",
+          "zh": "用一个虚构的冒险故事来娱乐读者"
+        },
+        {
+          "en": "To argue that all wildfires should be left to burn according to some versions of the story in an early draft of the book",
+          "zh": "主张所有野火都应任其燃烧（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To persuade readers to become arsonists",
+          "zh": "劝说读者成为纵火犯"
+        },
+        {
+          "en": "To inform readers about the work, tools, dangers, and prevention of wildland firefighting",
+          "zh": "向读者介绍荒野消防的工作、工具、危险与预防措施"
+        }
+      ],
+      "answer": 3,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book is an informational interview explaining what wildland firefighters do, their gear, risks, and how to prevent fires.",
+        "zh": "这是一本信息类访谈读物，讲解荒野消防员的工作、装备、风险以及防火方法。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does Todd feel about people who intentionally set wildfires?",
+        "zh": "托德对故意纵火的人持什么态度？"
+      },
+      "options": [
+        {
+          "en": "He admires their cleverness",
+          "zh": "他钦佩他们的聪明"
+        },
+        {
+          "en": "He thinks it is a shame that puts a black mark on real firefighters, and they are not well liked",
+          "zh": "他认为这是耻辱，给真正的消防员抹黑，而且这些人很不受欢迎"
+        },
+        {
+          "en": "He does not care about it at all",
+          "zh": "他根本不在乎"
+        },
+        {
+          "en": "He says it helps create more jobs fairly according to some versions of the story in an early draft of the book",
+          "zh": "他说这有助于公平地创造更多工作（按书中另一种说法）（在书的早期草稿中）"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "Todd calls arson 'a real shame' that puts a black mark on hardworking firefighters, and says arsonists 'are not very well liked.'",
+        "zh": "托德称纵火是'真正的耻辱'，给辛勤工作的消防员抹黑，并说纵火犯'很不受欢迎'。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book is an interview with Todd Cupell, a wildland firefighter from Tucson, Arizona, given in 2002.",
-    "zh": "本书是对托德·库佩尔的访谈，他是亚利桑那州图森市的荒野消防员，访谈于2002年进行。"
-   }
-  },
-  {
-   "q": {
-    "en": "According to Todd, what is the most common natural cause of wildfires?",
-    "zh": "根据托德的说法，野火最常见的自然起因是什么？"
-   },
-   "options": [
-    {
-     "en": "Lightning strikes",
-     "zh": "雷击"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Todd says firefighters must be team players because 'your life depends on them and vice-versa.' Think of another job where people's lives depend on teamwork. How is it similar to wildland firefighting?",
+      "zh": "托德说消防员必须是团队一员，因为'你的生命依赖于他们，反之亦然'。想另一种生命依赖团队协作的职业，它与荒野消防有何相似之处？"
     },
-    {
-     "en": "Unattended campfires",
-     "zh": "无人看管的营火"
-    },
-    {
-     "en": "Helicopters clipping power lines",
-     "zh": "直升机刮断电线"
-    },
-    {
-     "en": "Cars with blown tires",
-     "zh": "爆胎的汽车"
+    "guidance": {
+      "en": [
+        "Name a job such as a hospital surgical team, sports team, or military unit.",
+        "Explain how trust and cooperation keep everyone safe.",
+        "Compare it to the firefighter's need to trust crew members on the fire line."
+      ],
+      "zh": [
+        "说出一种职业，如医院手术团队、运动队或军队单位。",
+        "解释信任与合作如何保障每个人的安全。",
+        "把它与消防员在火线上必须信任队友的需求作比较。"
+      ]
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Todd says lightning strikes are the most common natural cause of wildfires; nature-caused fires are often in remote areas.",
-    "zh": "托德说雷击是野火最常见的自然起因；自然引发的火灾往往位于偏远地区。"
-   }
-  },
-  {
-   "q": {
-    "en": "In the book, what is 'entrapment'?",
-    "zh": "在本书中，'entrapment'（被困）指什么？"
-   },
-   "options": [
-    {
-     "en": "When a fire burns all around you and cuts off your escape route",
-     "zh": "当火焰从四面将你包围、切断逃生路线时"
-    },
-    {
-     "en": "When a fire is put out very quickly",
-     "zh": "当一场火很快被扑灭时"
-    },
-    {
-     "en": "A type of fire shelter",
-     "zh": "一种防火庇护所"
-    },
-    {
-     "en": "A tool used to dig firebreaks",
-     "zh": "一种用来挖防火带的工具"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Todd defines entrapment as when a fire burns all around you and cuts off your escape route—the biggest fear firefighters face.",
-    "zh": "托德将 entrapment 定义为火焰从四周包围、切断逃生路线——这是消防员最大的恐惧。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is a 'Pulaski' as described in the book?",
-    "zh": "如书中描述，'Pulaski'（普利斯基斧）是什么？"
-   },
-   "options": [
-    {
-     "en": "A hand tool with an ax on one end and a hoe on the other",
-     "zh": "一端是斧头、另一端是锄头的手持工具"
-    },
-    {
-     "en": "A type of fire-retardant shirt",
-     "zh": "一种防火衬衫"
-    },
-    {
-     "en": "A kind of airplane",
-     "zh": "一种飞机"
-    },
-    {
-     "en": "A backpack water pump",
-     "zh": "一种背包式水泵"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The glossary defines a Pulaski as a small tool with an ax on one end and a hoe on the other, named for its inventor.",
-    "zh": "术语表将 Pulaski 定义为一端是斧头、另一端是锄头的小工具，以其发明者命名。"
-   }
-  },
-  {
-   "q": {
-    "en": "In the book, what is 'Nomex'?",
-    "zh": "在本书中，'Nomex'是什么？"
-   },
-   "options": [
-    {
-     "en": "A fire-retardant fabric that won't catch fire even if a match is put to it",
-     "zh": "一种阻燃面料，即使点火柴烧也不会着火"
-    },
-    {
-     "en": "A wildfire started by lightning",
-     "zh": "由闪电引发的一种野火"
-    },
-    {
-     "en": "A safety zone that has already burned",
-     "zh": "一片已经烧过的'安全区'"
-    },
-    {
-     "en": "A hot flare used to light back burns",
-     "zh": "一种用来点逆燃的炽热火把"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "Todd explains Nomex is a special fire-retardant fabric; if he put a match to it, it would not catch on fire.",
-    "zh": "托德解释 Nomex 是一种特殊的阻燃面料；即使点火柴烧它也不会着火。"
-   }
-  },
-  {
-   "q": {
-    "en": "As described in the book, what is a 'fire shelter'?",
-    "zh": "如书中描述，'fire shelter'（防火帐篷）是什么？"
-   },
-   "options": [
-    {
-     "en": "A one-person tent made of aluminum and fiberglass that is a firefighter's last chance to survive",
-     "zh": "由铝和玻璃纤维制成的单人帐篷，是消防员最后的求生机会"
-    },
-    {
-     "en": "A building where firefighters sleep at the station",
-     "zh": "消防员在消防站睡觉的建筑物"
-    },
-    {
-     "en": "A large water tank on a truck",
-     "zh": "卡车上的大型水箱"
-    },
-    {
-     "en": "A type of Nomex shirt",
-     "zh": "一种 Nomex 衬衫"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The book says a fire shelter looks like a one-person tent made of aluminum and fiberglass—the last chance to save your life.",
-    "zh": "书中说防火帐篷看起来像由铝和玻璃纤维制成的单人帐篷——是保全生命的最后机会。"
-   }
-  },
-  {
-   "q": {
-    "en": "According to the 'Do You Know?' box, what do smoke jumpers do?",
-    "zh": "根据'你知道吗？'栏目，'smoke jumpers'（空降灭火员）做什么？"
-   },
-   "options": [
-    {
-     "en": "They parachute from airplanes into the hearts of remote wildland fires",
-     "zh": "他们从飞机上跳伞，空降到偏远野火的核心地带"
-    },
-    {
-     "en": "They fly helicopters that clip power lines",
-     "zh": "他们驾驶刮断电线的直升机"
-    },
-    {
-     "en": "They operate the fire engines in towns",
-     "zh": "他们在城镇里操作消防车"
-    },
-    {
-     "en": "They cook meals for the crew",
-     "zh": "他们为队员做饭"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "The book states smoke jumpers parachute from airplanes into extremely remote areas to combat flames at the heart of fires.",
-    "zh": "书中说明空降灭火员从飞机跳伞进入极偏远地区，在火场核心与火焰搏斗。"
-   }
-  },
-  {
-   "q": {
-    "en": "According to the prevention tips, how should you put out a campfire before leaving?",
-    "zh": "根据预防提示，离开前应如何熄灭营火？"
-   },
-   "options": [
-    {
-     "en": "Put it out with plenty of water, stir the ashes, and feel for any heat left",
-     "zh": "用大量水浇灭，搅动灰烬，并摸一摸是否还有余温"
-    },
-    {
-     "en": "Cover it with leaves and walk away",
-     "zh": "用树叶盖住就走"
-    },
-    {
-     "en": "Leave it to burn out by itself",
-     "zh": "任其自行烧完"
-    },
-    {
-     "en": "Pour a little sand on top only",
-     "zh": "只在上面倒一点沙子"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "The prevention section says to put the fire out with plenty of water, stir the ashes so water reaches every bit, and feel for heat left.",
-    "zh": "预防章节说要用大量水浇灭，搅动灰烬让水渗到每一处，并摸一摸是否还有余温。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in this book?",
-    "zh": "作者写这本书的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "To inform readers about the work, tools, dangers, and prevention of wildland firefighting",
-     "zh": "向读者介绍荒野消防的工作、工具、危险与预防措施"
-    },
-    {
-     "en": "To persuade readers to become arsonists",
-     "zh": "劝说读者成为纵火犯"
-    },
-    {
-     "en": "To entertain with a fictional adventure story",
-     "zh": "用一个虚构的冒险故事来娱乐读者"
-    },
-    {
-     "en": "To argue that all wildfires should be left to burn",
-     "zh": "主张所有野火都应任其燃烧"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The book is an informational interview explaining what wildland firefighters do, their gear, risks, and how to prevent fires.",
-    "zh": "这是一本信息类访谈读物，讲解荒野消防员的工作、装备、风险以及防火方法。"
-   }
-  },
-  {
-   "q": {
-    "en": "How does Todd feel about people who intentionally set wildfires?",
-    "zh": "托德对故意纵火的人持什么态度？"
-   },
-   "options": [
-    {
-     "en": "He thinks it is a shame that puts a black mark on real firefighters, and they are not well liked",
-     "zh": "他认为这是耻辱，给真正的消防员抹黑，而且这些人很不受欢迎"
-    },
-    {
-     "en": "He admires their cleverness",
-     "zh": "他钦佩他们的聪明"
-    },
-    {
-     "en": "He says it helps create more jobs fairly",
-     "zh": "他说这有助于公平地创造更多工作"
-    },
-    {
-     "en": "He does not care about it at all",
-     "zh": "他根本不在乎"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "Todd calls arson 'a real shame' that puts a black mark on hardworking firefighters, and says arsonists 'are not very well liked.'",
-    "zh": "托德称纵火是'真正的耻辱'，给辛勤工作的消防员抹黑，并说纵火犯'很不受欢迎'。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "Todd says firefighters must be team players because 'your life depends on them and vice-versa.' Think of another job where people's lives depend on teamwork. How is it similar to wildland firefighting?",
-   "zh": "托德说消防员必须是团队一员，因为'你的生命依赖于他们，反之亦然'。想另一种生命依赖团队协作的职业，它与荒野消防有何相似之处？"
-  },
-  "guidance": {
-   "en": [
-    "Name a job such as a hospital surgical team, sports team, or military unit.",
-    "Explain how trust and cooperation keep everyone safe.",
-    "Compare it to the firefighter's need to trust crew members on the fire line."
-   ],
-   "zh": [
-    "说出一种职业，如医院手术团队、运动队或军队单位。",
-    "解释信任与合作如何保障每个人的安全。",
-    "把它与消防员在火线上必须信任队友的需求作比较。"
-   ]
-  }
- }
 }

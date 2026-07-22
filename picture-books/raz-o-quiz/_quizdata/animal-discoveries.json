@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "More than 15,000",
-          "zh": "超过 15,000 种"
+          "en": "About 1,000,000",
+          "zh": "大约 1,000,000 种"
         },
         {
           "en": "Fewer than 10",
           "zh": "少于 10 种"
         },
         {
-          "en": "Exactly 100",
-          "zh": "正好 100 种"
+          "en": "More than 15,000",
+          "zh": "超过 15,000 种"
         },
         {
-          "en": "About 1,000,000",
-          "zh": "大约 1,000,000 种"
+          "en": "Exactly 100",
+          "zh": "正好 100 种"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says scientists find more than 15,000 animal species each year, which is 1 percent of the more than 1.5 million species already known.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Around 250",
-          "zh": "大约 250 只"
+          "en": "None, they are extinct",
+          "zh": "一只也没有，已经灭绝"
         },
         {
-          "en": "Around 10,000",
-          "zh": "大约 10,000 只"
+          "en": "Around 250",
+          "zh": "大约 250 只"
         },
         {
           "en": "Around 1 million",
           "zh": "大约 100 万只"
         },
         {
-          "en": "None, they are extinct",
-          "zh": "一只也没有，已经灭绝"
+          "en": "Around 10,000",
+          "zh": "大约 10,000 只"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that only around 250 Caquetá titi monkeys are alive today, meaning the species is endangered.",
@@ -73,8 +73,8 @@
       },
       "options": [
         {
-          "en": "Inside the liquid of pitcher plants",
-          "zh": "在猪笼草的液体里"
+          "en": "In a bird's nest according to some versions of the story",
+          "zh": "在鸟巢里（按书中另一种说法）"
         },
         {
           "en": "In the ocean",
@@ -85,11 +85,11 @@
           "zh": "在树枝上"
         },
         {
-          "en": "In a bird's nest",
-          "zh": "在鸟巢里"
+          "en": "Inside the liquid of pitcher plants",
+          "zh": "在猪笼草的液体里"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Matang narrow-mouthed frog lays its eggs in pitcher plants, and the tadpoles grow in the liquid inside.",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "Its nose falls off completely",
+          "zh": "它的鼻子会完全脱落"
+        },
+        {
           "en": "Its nose points up, then falls when it stops calling",
           "zh": "它的鼻子会向上翘，停止鸣叫时又垂下"
         },
@@ -111,15 +115,11 @@
           "zh": "它的鼻子会变红"
         },
         {
-          "en": "Its nose falls off completely",
-          "zh": "它的鼻子会完全脱落"
-        },
-        {
-          "en": "Its nose grows longer every day",
-          "zh": "它的鼻子每天都会变长"
+          "en": "Its nose grows longer every day according to some versions of the story",
+          "zh": "它的鼻子每天都会变长（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says that when the male long-nosed (Pinocchio) frog calls, its nose points up, and when it is done calling, its nose falls. No one knows why.",
@@ -137,16 +137,16 @@
           "zh": "它长长的鼻子像皮诺曹的，让人容易记住"
         },
         {
-          "en": "It is made of wood",
-          "zh": "它是木头做的"
-        },
-        {
-          "en": "It tells lies",
-          "zh": "它会说谎"
+          "en": "It is made of wood according to some versions of the story in an early draft of the book",
+          "zh": "它是木头做的（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "It lives in Italy",
           "zh": "它生活在意大利"
+        },
+        {
+          "en": "It tells lies",
+          "zh": "它会说谎"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "The author groups animals by type to make the information easy to follow",
-          "zh": "作者按动物类别分组，使信息易于理解"
+          "en": "The book is a made-up story with chapters according to some versions of the story",
+          "zh": "这是一本虚构的故事书，所以分了章节（按书中另一种说法）"
         },
         {
-          "en": "The animals are all the same kind",
-          "zh": "这些动物都是同一种类"
+          "en": "The author groups animals by type to make the information easy to follow",
+          "zh": "作者按动物类别分组，使信息易于理解"
         },
         {
           "en": "The chapters are in alphabetical order",
           "zh": "这些章节按字母顺序排列"
         },
         {
-          "en": "The book is a made-up story with chapters",
-          "zh": "这是一本虚构的故事书，所以分了章节"
+          "en": "The animals are all the same kind",
+          "zh": "这些动物都是同一种类"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Grouping discoveries into chapters by animal type (monkeys, frogs, underwater animals) helps readers follow the facts in a clear, organized way.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Insects",
-          "zh": "昆虫"
-        },
-        {
-          "en": "Plants",
-          "zh": "植物"
-        },
-        {
           "en": "Fish",
           "zh": "鱼类"
         },
         {
+          "en": "Plants according to some versions of the story",
+          "zh": "植物（按书中另一种说法）"
+        },
+        {
           "en": "Birds",
           "zh": "鸟类"
+        },
+        {
+          "en": "Insects",
+          "zh": "昆虫"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The chart shows Insects at 88,598, the highest number, followed by Plants (23,604) and Arachnids (12,751).",
@@ -227,16 +227,16 @@
           "zh": "它是在一场比赛中选定的；获胜者认为人们看到它会惊呼“Oh boy!”（哇哦！）"
         },
         {
+          "en": "It is the oldest name in the book",
+          "zh": "它是书中最古老的名字"
+        },
+        {
           "en": "It means 'deadly poison' in Latin",
           "zh": "它在拉丁语中意为“致命毒药”"
         },
         {
-          "en": "It was named after a famous scientist",
-          "zh": "它是以一位著名科学家的名字命名的"
-        },
-        {
-          "en": "It is the oldest name in the book",
-          "zh": "它是书中最古老的名字"
+          "en": "It was named after a famous scientist according to some versions of the story in an early draft of the book",
+          "zh": "它是以一位著名科学家的名字命名的（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To explain that many new species are still to be found and some need protection",
-          "zh": "为了说明还有大量新物种等待发现，且其中一些需要保护"
-        },
-        {
-          "en": "To list all the book's authors",
-          "zh": "为了列出本书所有作者"
+          "en": "To list all the book's authors according to some versions of the story in an early draft of the book",
+          "zh": "为了列出本书所有作者（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To give a recipe to cook",
           "zh": "为了给出一个烹饪食谱"
         },
         {
+          "en": "To explain that many new species are still to be found and some need protection",
+          "zh": "为了说明还有大量新物种等待发现，且其中一些需要保护"
+        },
+        {
           "en": "To end a fictional story",
           "zh": "为了结束一个虚构故事"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The 'What's Next?' section says many more species have yet to be found and that finding them helps us save their homes, showing the author's hopeful, caring purpose.",
@@ -287,16 +287,16 @@
           "zh": "为了向读者介绍世界各地最近被发现的动物物种"
         },
         {
-          "en": "To teach readers how to become a scientist",
-          "zh": "为了教读者如何成为科学家"
+          "en": "To tell a fictional adventure story",
+          "zh": "为了讲述一个虚构的冒险故事"
+        },
+        {
+          "en": "To teach readers how to become a scientist according to some versions of the story",
+          "zh": "为了教读者如何成为科学家（按书中另一种说法）"
         },
         {
           "en": "To argue that all animals should be pets",
           "zh": "为了论证所有动物都该当宠物"
-        },
-        {
-          "en": "To tell a fictional adventure story",
-          "zh": "为了讲述一个虚构的冒险故事"
         }
       ],
       "answer": 0,

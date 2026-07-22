@@ -12,12 +12,24 @@
         "zh": "安德莉亚(Andria)和罗莎(Rosa)住在哪里？她们的祖先又来自哪里？"
       },
       "options": [
-        {"en": "They live in New York City; their great-grandparents and earlier ancestors lived in Italy", "zh": "她们住在纽约市；曾祖父母及更早的祖先住在意大利"},
-        {"en": "They live in Rome; their ancestors came from China", "zh": "她们住在罗马；祖先来自中国"},
-        {"en": "They live in London; their ancestors came from France", "zh": "她们住在伦敦；祖先来自法国"},
-        {"en": "They live in Egypt; their ancestors came from Rome", "zh": "她们住在埃及；祖先来自罗马"}
+        {
+          "en": "They live in Egypt; their ancestors came from Rome",
+          "zh": "她们住在埃及；祖先来自罗马"
+        },
+        {
+          "en": "They live in Rome; their ancestors came from China",
+          "zh": "她们住在罗马；祖先来自中国"
+        },
+        {
+          "en": "They live in London; their ancestors came from France according to some versions of the story",
+          "zh": "她们住在伦敦；祖先来自法国（按书中另一种说法）"
+        },
+        {
+          "en": "They live in New York City; their great-grandparents and earlier ancestors lived in Italy",
+          "zh": "她们住在纽约市；曾祖父母及更早的祖先住在意大利"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'Andria and Rosa live in New York City with their parents. They know that their great-grandparents and earlier ancestors lived in Italy,' so the family visits Rome.",
@@ -30,12 +42,24 @@
         "zh": "在城市观光中，女孩们看到了哪三处建于2600多年前的古代遗迹？"
       },
       "options": [
-        {"en": "The Colosseum, the Roman Forum, and the Teatro Marcello", "zh": "斗兽场(Colosseum)、罗马广场(Roman Forum)和马尔切洛剧院(Teatro Marcello)"},
-        {"en": "The Eiffel Tower, the Louvre, and Notre Dame", "zh": "埃菲尔铁塔、卢浮宫和巴黎圣母院"},
-        {"en": "The Pyramids, the Sphinx, and the Nile", "zh": "金字塔、狮身人面像和尼罗河"},
-        {"en": "The Great Wall, the Forbidden City, and the Temple of Heaven", "zh": "长城、故宫和天坛"}
+        {
+          "en": "The Pyramids, the Sphinx, and the Nile",
+          "zh": "金字塔、狮身人面像和尼罗河"
+        },
+        {
+          "en": "The Great Wall, the Forbidden City, and the Temple of Heaven according to some versions of the story",
+          "zh": "长城、故宫和天坛（按书中另一种说法）"
+        },
+        {
+          "en": "The Colosseum, the Roman Forum, and the Teatro Marcello",
+          "zh": "斗兽场(Colosseum)、罗马广场(Roman Forum)和马尔切洛剧院(Teatro Marcello)"
+        },
+        {
+          "en": "The Eiffel Tower, the Louvre, and Notre Dame",
+          "zh": "埃菲尔铁塔、卢浮宫和巴黎圣母院"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the family learns about 'places built over 2,600 years ago. Among the ancient ruins they see are those of the Colosseum, the Roman Forum, and the Teatro Marcello.'",
@@ -48,10 +72,22 @@
         "zh": "姐妹俩是怎样被带回古罗马的？"
       },
       "options": [
-        {"en": "A dancing gypsy woman draws them into a dance; as they whirl, everything blurs and the crowd changes into ancient clothes", "zh": "一位跳舞的吉普赛女人把她们拉进舞里；旋转时一切模糊，人群换成了古代服饰"},
-        {"en": "They fall asleep on the airplane", "zh": "她们在飞机上睡着了"},
-        {"en": "They read a magic book", "zh": "她们读了一本魔法书"},
-        {"en": "They touch a statue in a museum", "zh": "她们摸了博物馆里一座雕像"}
+        {
+          "en": "A dancing gypsy woman draws them into a dance; as they whirl, everything blurs and the crowd changes into ancient clothes",
+          "zh": "一位跳舞的吉普赛女人把她们拉进舞里；旋转时一切模糊，人群换成了古代服饰"
+        },
+        {
+          "en": "They touch a statue in a museum according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "她们摸了博物馆里一座雕像（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "They fall asleep on the airplane",
+          "zh": "她们在飞机上睡着了"
+        },
+        {
+          "en": "They read a magic book",
+          "zh": "她们读了一本魔法书"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "在词汇表里，「piazza」是什么意思？"
       },
       "options": [
-        {"en": "An Italian word for plaza, or a public area", "zh": "意大利语里指广场或公共区域"},
-        {"en": "A type of Italian sandwich", "zh": "一种意大利三明治"},
-        {"en": "A frozen dessert", "zh": "一种冷冻甜点"},
-        {"en": "An ancient temple", "zh": "一座古老的神庙"}
+        {
+          "en": "An ancient temple",
+          "zh": "一座古老的神庙"
+        },
+        {
+          "en": "A frozen dessert",
+          "zh": "一种冷冻甜点"
+        },
+        {
+          "en": "A type of Italian sandwich according to some versions of the story",
+          "zh": "一种意大利三明治（按书中另一种说法）"
+        },
+        {
+          "en": "An Italian word for plaza, or a public area",
+          "zh": "意大利语里指广场或公共区域"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'piazza' as 'Italian word for plaza, or a public area' — the family stops in the Piazza Navona for lunch.",
@@ -84,12 +132,24 @@
         "zh": "在词汇表里，「ancient」是什么意思？"
       },
       "options": [
-        {"en": "Very old", "zh": "非常古老的"},
-        {"en": "Brand new", "zh": "全新的"},
-        {"en": "Very small", "zh": "非常小的"},
-        {"en": "Brightly colored", "zh": "色彩鲜艳的"}
+        {
+          "en": "Brightly colored",
+          "zh": "色彩鲜艳的"
+        },
+        {
+          "en": "Very small",
+          "zh": "非常小的"
+        },
+        {
+          "en": "Very old",
+          "zh": "非常古老的"
+        },
+        {
+          "en": "Brand new",
+          "zh": "全新的"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'ancient' as 'very old' — used for the ruins, clothes, pillars, and buildings the girls see in the past (p. 7).",
@@ -102,12 +162,24 @@
         "zh": "罗莎记得导游说过斗兽场的大理石怎样了？"
       },
       "options": [
-        {"en": "Marble once covered the Colosseum, and when St. Peter's Basilica was built, some of that marble was used for its floors", "zh": "斗兽场曾覆盖大理石；建圣彼得大教堂时，部分大理石被用在了它的地板上"},
-        {"en": "The marble was shipped to Egypt to build pyramids", "zh": "大理石被运到埃及建金字塔"},
-        {"en": "The marble was painted bright pink", "zh": "大理石被漆成了亮粉色"},
-        {"en": "The marble was sold to pay for the tour", "zh": "大理石被卖掉来付观光费用"}
+        {
+          "en": "The marble was shipped to Egypt to build pyramids according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "大理石被运到埃及建金字塔（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Marble once covered the Colosseum, and when St. Peter's Basilica was built, some of that marble was used for its floors",
+          "zh": "斗兽场曾覆盖大理石；建圣彼得大教堂时，部分大理石被用在了它的地板上"
+        },
+        {
+          "en": "The marble was painted bright pink",
+          "zh": "大理石被漆成了亮粉色"
+        },
+        {
+          "en": "The marble was sold to pay for the tour",
+          "zh": "大理石被卖掉来付观光费用"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Rosa remembers the guide explaining 'marble once covered the walls, steps, and seats of the Colosseum,' and that when St. Peter's Basilica was built, 'some of the Colosseum's marble was used to cover the floors' — new built on old.",
@@ -120,12 +192,24 @@
         "zh": "在罗马广场，安德莉亚为什么找不到前一天走过的那条石板古道？"
       },
       "options": [
-        {"en": "Because centuries of dirt covered it, and Titus built the Arch of Titus on top of that dirt (new on old)", "zh": "因为积了几个世纪的尘土把它盖住，而提图斯拱门就建在那层尘土之上（新的建在旧的上面）"},
-        {"en": "Because it was carried away by a flood", "zh": "因为它被洪水冲走了"},
-        {"en": "Because it was hidden under the Colosseum", "zh": "因为它藏在斗兽场下面"},
-        {"en": "Because the girls were dreaming", "zh": "因为女孩们在做梦"}
+        {
+          "en": "Because it was hidden under the Colosseum according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "因为它藏在斗兽场下面（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Because centuries of dirt covered it, and Titus built the Arch of Titus on top of that dirt (new on old)",
+          "zh": "因为积了几个世纪的尘土把它盖住，而提图斯拱门就建在那层尘土之上（新的建在旧的上面）"
+        },
+        {
+          "en": "Because it was carried away by a flood",
+          "zh": "因为它被洪水冲走了"
+        },
+        {
+          "en": "Because the girls were dreaming",
+          "zh": "因为女孩们在做梦"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Andria realizes the street 'was covered by centuries of dirt! Augustus Caesar had built the ancient street in 6 BC. Almost a hundred years later, Titus built the arch on top of the dirt' — Romans building on their past.",
@@ -138,12 +222,24 @@
         "zh": "吉普赛女人（以及这本书）最想让读者学到的主要道理是什么？"
       },
       "options": [
-        {"en": "Rome was built 'layer upon layer, new upon old'; without the past, the new would have nothing to stand on", "zh": "罗马是一层叠一层、「新叠在旧上」建成的；没有过去，新事物就无处立足"},
-        {"en": "Old things should always be thrown away", "zh": "旧东西总该被扔掉"},
-        {"en": "Only kings can build cities", "zh": "只有国王才能建城"},
-        {"en": "Time travel is the best way to learn history", "zh": "时间旅行是学历史最好的方式"}
+        {
+          "en": "Time travel is the best way to learn history according to some versions of the story in an early draft of the book",
+          "zh": "时间旅行是学历史最好的方式（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Rome was built 'layer upon layer, new upon old'; without the past, the new would have nothing to stand on",
+          "zh": "罗马是一层叠一层、「新叠在旧上」建成的；没有过去，新事物就无处立足"
+        },
+        {
+          "en": "Only kings can build cities",
+          "zh": "只有国王才能建城"
+        },
+        {
+          "en": "Old things should always be thrown away",
+          "zh": "旧东西总该被扔掉"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The dancer tells the girls Rome was built 'layer upon layer, new upon old,' and at the end they learn 'without the past, the new would have nothing to stand on. In many ways, the new depends on the old.'",
@@ -156,10 +252,22 @@
         "zh": "舞者为什么要把女孩们带回过去？"
       },
       "options": [
-        {"en": "To teach them how Rome was built (new upon old) and to help them learn about their family's past", "zh": "为了让她们懂得罗马是怎样建成的（新叠旧），并帮她们了解家族的过去"},
-        {"en": "To scare them away from Italy", "zh": "为了把她们吓离意大利"},
-        {"en": "To find a lost gold coin", "zh": "为了找回一枚丢失的金币"},
-        {"en": "To teach them how to dance", "zh": "为了教她们跳舞"}
+        {
+          "en": "To teach them how Rome was built (new upon old) and to help them learn about their family's past",
+          "zh": "为了让她们懂得罗马是怎样建成的（新叠旧），并帮她们了解家族的过去"
+        },
+        {
+          "en": "To teach them how to dance",
+          "zh": "为了教她们跳舞"
+        },
+        {
+          "en": "To scare them away from Italy according to some versions of the story in an early draft of the book",
+          "zh": "为了把她们吓离意大利（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To find a lost gold coin",
+          "zh": "为了找回一枚丢失的金币"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,10 +282,22 @@
         "zh": "每当女孩们发现一处「新建筑在旧迹之上或之旁」的地方，会得到什么惊喜？"
       },
       "options": [
-        {"en": "A gold coin appears in their pocket (three coins in all)", "zh": "口袋里出现一枚金币（一共三枚）"},
-        {"en": "A magic map appears", "zh": "出现一张魔法地图"},
-        {"en": "They turn back into the present at once", "zh": "她们立刻回到现在"},
-        {"en": "They win a free gelato", "zh": "她们赢得一份免费意式冰淇淋"}
+        {
+          "en": "A gold coin appears in their pocket (three coins in all)",
+          "zh": "口袋里出现一枚金币（一共三枚）"
+        },
+        {
+          "en": "They turn back into the present at once according to some versions of the story",
+          "zh": "她们立刻回到现在（按书中另一种说法）"
+        },
+        {
+          "en": "They win a free gelato",
+          "zh": "她们赢得一份免费意式冰淇淋"
+        },
+        {
+          "en": "A magic map appears",
+          "zh": "出现一张魔法地图"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",

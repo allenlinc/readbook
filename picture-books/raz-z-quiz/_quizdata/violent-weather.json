@@ -7,128 +7,320 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en": "According to the book, what is the most common violent-weather event?", "zh": "根据本书，最常见的狂暴天气现象是什么？"},
+      "q": {
+        "en": "According to the book, what is the most common violent-weather event?",
+        "zh": "根据本书，最常见的狂暴天气现象是什么？"
+      },
       "options": [
-        {"en": "Thunderstorms", "zh": "雷暴"},
-        {"en": "Tornadoes", "zh": "龙卷风"},
-        {"en": "Hurricanes", "zh": "飓风"},
-        {"en": "Earthquakes", "zh": "地震"}
+        {
+          "en": "Earthquakes according to some versions of the story",
+          "zh": "地震（按书中另一种说法）"
+        },
+        {
+          "en": "Thunderstorms",
+          "zh": "雷暴"
+        },
+        {
+          "en": "Hurricanes",
+          "zh": "飓风"
+        },
+        {
+          "en": "Tornadoes",
+          "zh": "龙卷风"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book states the most common violent-weather event is the thunderstorm.",
+        "zh": "书中说明最常见的狂暴天气现象是雷暴。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the book describe as the biggest danger from ALL thunderstorms?",
+        "zh": "本书将一切雷暴中最大的危险描述为什么？"
+      },
+      "options": [
+        {
+          "en": "High winds",
+          "zh": "强风"
+        },
+        {
+          "en": "Flash floods",
+          "zh": "暴洪"
+        },
+        {
+          "en": "Hail",
+          "zh": "冰雹"
+        },
+        {
+          "en": "Lightning",
+          "zh": "闪电"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says the biggest danger from all thunderstorms is lightning, which occurs with every thunderstorm and can kill or cause wildfires.",
+        "zh": "书中说所有雷暴中最大的危险是闪电，它伴随每次雷暴出现，可致人死亡或引发野火。"
+      }
+    },
+    {
+      "q": {
+        "en": "Approximately what fraction of thunderstorms are classified as severe (supercell)?",
+        "zh": "大约多大比例的雷暴被归类为Severe（超级单体）？"
+      },
+      "options": [
+        {
+          "en": "About 10 percent",
+          "zh": "约10%"
+        },
+        {
+          "en": "About 25 percent",
+          "zh": "约25%"
+        },
+        {
+          "en": "Almost all of them",
+          "zh": "几乎全部"
+        },
+        {
+          "en": "About 50 percent",
+          "zh": "约50%"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book states the most common violent-weather event is the thunderstorm.", "zh": "书中说明最常见的狂暴天气现象是雷暴。"}
+      "explain": {
+        "en": "The book states that about 10 percent of thunderstorms are classified as severe.",
+        "zh": "书中说约10%的雷暴被归类为severe（强雷暴）。"
+      }
     },
     {
-      "q": {"en": "What does the book describe as the biggest danger from ALL thunderstorms?", "zh": "本书将一切雷暴中最大的危险描述为什么？"},
+      "q": {
+        "en": "In which part of the United States do most tornadoes occur?",
+        "zh": "美国大部分龙卷风发生在哪个地区？"
+      },
       "options": [
-        {"en": "Lightning", "zh": "闪电"},
-        {"en": "Hail", "zh": "冰雹"},
-        {"en": "Flash floods", "zh": "暴洪"},
-        {"en": "High winds", "zh": "强风"}
+        {
+          "en": "The Rocky Mountains according to some versions of the story",
+          "zh": "落基山脉（按书中另一种说法）"
+        },
+        {
+          "en": "The West Coast",
+          "zh": "西海岸"
+        },
+        {
+          "en": "Tornado Alley in the central Great Plains",
+          "zh": "中部大平原的“龙卷风走廊”"
+        },
+        {
+          "en": "New England",
+          "zh": "新英格兰"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says the biggest danger from all thunderstorms is lightning, which occurs with every thunderstorm and can kill or cause wildfires.", "zh": "书中说所有雷暴中最大的危险是闪电，它伴随每次雷暴出现，可致人死亡或引发野火。"}
+      "explain": {
+        "en": "The book says most U.S. tornadoes occur in Tornado Alley, a Great Plains region where cold dry air from Canada meets warm moist air from the Gulf of Mexico.",
+        "zh": "书中说美国大部分龙卷风发生在“龙卷风走廊”，即加拿大干冷空气与墨西哥湾暖湿空气交汇的大平原地区。"
+      }
     },
     {
-      "q": {"en": "Approximately what fraction of thunderstorms are classified as severe (supercell)?", "zh": "大约多大比例的雷暴被归类为Severe（超级单体）？"},
+      "q": {
+        "en": "The book says a lightning bolt heats air to about 54,000°F. How does it help readers grasp that temperature?",
+        "zh": "本书说闪电可将空气加热到约华氏54000度。它如何帮助读者理解这个温度？"
+      },
       "options": [
-        {"en": "About 10 percent", "zh": "约10%"},
-        {"en": "About 50 percent", "zh": "约50%"},
-        {"en": "About 25 percent", "zh": "约25%"},
-        {"en": "Almost all of them", "zh": "几乎全部"}
+        {
+          "en": "By listing it as just a number according to some versions of the story",
+          "zh": "仅仅把它列成一个数字（按书中另一种说法）"
+        },
+        {
+          "en": "By comparing it to about five times hotter than the surface of the Sun",
+          "zh": "通过将其与太阳表面温度约五倍高进行比较"
+        },
+        {
+          "en": "By showing only a diagram",
+          "zh": "通过只展示一张图表"
+        },
+        {
+          "en": "By quoting a scientist",
+          "zh": "通过引用一位科学家的话"
+        }
       ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {"en": "The book states that about 10 percent of thunderstorms are classified as severe.", "zh": "书中说约10%的雷暴被归类为severe（强雷暴）。"}
-    },
-    {
-      "q": {"en": "In which part of the United States do most tornadoes occur?", "zh": "美国大部分龙卷风发生在哪个地区？"},
-      "options": [
-        {"en": "Tornado Alley in the central Great Plains", "zh": "中部大平原的“龙卷风走廊”"},
-        {"en": "The West Coast", "zh": "西海岸"},
-        {"en": "New England", "zh": "新英格兰"},
-        {"en": "The Rocky Mountains", "zh": "落基山脉"}
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says most U.S. tornadoes occur in Tornado Alley, a Great Plains region where cold dry air from Canada meets warm moist air from the Gulf of Mexico.", "zh": "书中说美国大部分龙卷风发生在“龙卷风走廊”，即加拿大干冷空气与墨西哥湾暖湿空气交汇的大平原地区。"}
-    },
-    {
-      "q": {"en": "The book says a lightning bolt heats air to about 54,000°F. How does it help readers grasp that temperature?", "zh": "本书说闪电可将空气加热到约华氏54000度。它如何帮助读者理解这个温度？"},
-      "options": [
-        {"en": "By comparing it to about five times hotter than the surface of the Sun", "zh": "通过将其与太阳表面温度约五倍高进行比较"},
-        {"en": "By listing it as just a number", "zh": "仅仅把它列成一个数字"},
-        {"en": "By quoting a scientist", "zh": "通过引用一位科学家的话"},
-        {"en": "By showing only a diagram", "zh": "通过只展示一张图表"}
-      ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
-      "explain": {"en": "The book notes the air is flash heated to about 54,000°F, or about five times hotter than the surface of the Sun, to convey the intensity.", "zh": "书中指出空气被瞬间加热到约华氏54000度，约为太阳表面温度的五倍，以传达其强烈程度。"}
+      "explain": {
+        "en": "The book notes the air is flash heated to about 54,000°F, or about five times hotter than the surface of the Sun, to convey the intensity.",
+        "zh": "书中指出空气被瞬间加热到约华氏54000度，约为太阳表面温度的五倍，以传达其强烈程度。"
+      }
     },
     {
-      "q": {"en": "What is the \"eye\" of a hurricane?", "zh": "飓风的“风眼”是什么？"},
+      "q": {
+        "en": "What is the \"eye\" of a hurricane?",
+        "zh": "飓风的“风眼”是什么？"
+      },
       "options": [
-        {"en": "The calm center where there is no wind or rain", "zh": "没有风也没有雨的平静中心"},
-        {"en": "The area with the strongest winds", "zh": "风力最强的区域"},
-        {"en": "The outer edge of the storm", "zh": "风暴的外缘"},
-        {"en": "The storm surge", "zh": "风暴潮"}
+        {
+          "en": "The outer edge of the storm",
+          "zh": "风暴的外缘"
+        },
+        {
+          "en": "The storm surge",
+          "zh": "风暴潮"
+        },
+        {
+          "en": "The area with the strongest winds according to some versions of the story",
+          "zh": "风力最强的区域（按书中另一种说法）"
+        },
+        {
+          "en": "The calm center where there is no wind or rain",
+          "zh": "没有风也没有雨的平静中心"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
-      "explain": {"en": "The book describes the eye as the calm center of the pinwheel-shaped hurricane, where there is no wind or rain.", "zh": "书中将风眼描述为风车状飓风的平静中心，那里没有风也没有雨。"}
+      "explain": {
+        "en": "The book describes the eye as the calm center of the pinwheel-shaped hurricane, where there is no wind or rain.",
+        "zh": "书中将风眼描述为风车状飓风的平静中心，那里没有风也没有雨。"
+      }
     },
     {
-      "q": {"en": "Based on the text, what geographic condition helps Tornado Alley produce tornadoes?", "zh": "根据文本，什么地理条件使“龙卷风走廊”容易产生龙卷风？"},
+      "q": {
+        "en": "Based on the text, what geographic condition helps Tornado Alley produce tornadoes?",
+        "zh": "根据文本，什么地理条件使“龙卷风走廊”容易产生龙卷风？"
+      },
       "options": [
-        {"en": "Flat terrain lets cold dry air from Canada meet warm moist air from the Gulf of Mexico", "zh": "平坦地形使加拿大的干冷空气与墨西哥湾的暖湿空气相遇"},
-        {"en": "Mountains block the wind", "zh": "山脉阻挡了风"},
-        {"en": "Ocean currents", "zh": "洋流"},
-        {"en": "Earthquakes", "zh": "地震"}
+        {
+          "en": "Earthquakes",
+          "zh": "地震"
+        },
+        {
+          "en": "Mountains block the wind according to some versions of the story in an early draft of the book",
+          "zh": "山脉阻挡了风（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Flat terrain lets cold dry air from Canada meet warm moist air from the Gulf of Mexico",
+          "zh": "平坦地形使加拿大的干冷空气与墨西哥湾的暖湿空气相遇"
+        },
+        {
+          "en": "Ocean currents",
+          "zh": "洋流"
+        }
+      ],
+      "answer": 2,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The book explains Tornado Alley's flat terrain allows cold dry Canadian air to meet moist warm Gulf air, often producing supercell thunderstorms that generate tornadoes.",
+        "zh": "书中解释，龙卷风走廊平坦的地形让加拿大干冷空气与墨西哥湾暖湿空气相遇，常产生生成龙卷风的超级单体雷暴。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book describes Hurricane Katrina as the worst recent U.S. hurricane. Which states does it say were affected?",
+        "zh": "本书将卡特里娜飓风描述为美国近年最严重的飓风。它说哪些州受到了影响？"
+      },
+      "options": [
+        {
+          "en": "Louisiana, Mississippi, Alabama, Georgia, and Florida",
+          "zh": "路易斯安那、密西西比、阿拉巴马、佐治亚和佛罗里达"
+        },
+        {
+          "en": "Only Texas and Louisiana according to some versions of the story",
+          "zh": "仅得克萨斯和路易斯安那（按书中另一种说法）"
+        },
+        {
+          "en": "California and Nevada",
+          "zh": "加利福尼亚和内华达"
+        },
+        {
+          "en": "New York and New Jersey",
+          "zh": "纽约和新泽西"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The book explains Tornado Alley's flat terrain allows cold dry Canadian air to meet moist warm Gulf air, often producing supercell thunderstorms that generate tornadoes.", "zh": "书中解释，龙卷风走廊平坦的地形让加拿大干冷空气与墨西哥湾暖湿空气相遇，常产生生成龙卷风的超级单体雷暴。"}
+      "explain": {
+        "en": "The book says Hurricane Katrina killed thousands along the Gulf Coast in Louisiana, Mississippi, Alabama, Georgia, and Florida.",
+        "zh": "书中说卡特里娜飓风在墨西哥湾沿岸的路易斯安那、密西西比、阿拉巴马、佐治亚和佛罗里达造成数千人死亡。"
+      }
     },
     {
-      "q": {"en": "The book describes Hurricane Katrina as the worst recent U.S. hurricane. Which states does it say were affected?", "zh": "本书将卡特里娜飓风描述为美国近年最严重的飓风。它说哪些州受到了影响？"},
+      "q": {
+        "en": "What is the author's Focus Question for the book?",
+        "zh": "本书作者的“聚焦问题”是什么？"
+      },
       "options": [
-        {"en": "Louisiana, Mississippi, Alabama, Georgia, and Florida", "zh": "路易斯安那、密西西比、阿拉巴马、佐治亚和佛罗里达"},
-        {"en": "Only Texas and Louisiana", "zh": "仅得克萨斯和路易斯安那"},
-        {"en": "California and Nevada", "zh": "加利福尼亚和内华达"},
-        {"en": "New York and New Jersey", "zh": "纽约和新泽西"}
-      ],
-      "answer": 0,
-      "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The book says Hurricane Katrina killed thousands along the Gulf Coast in Louisiana, Mississippi, Alabama, Georgia, and Florida.", "zh": "书中说卡特里娜飓风在墨西哥湾沿岸的路易斯安那、密西西比、阿拉巴马、佐治亚和佛罗里达造成数千人死亡。"}
-    },
-    {
-      "q": {"en": "What is the author's Focus Question for the book?", "zh": "本书作者的“聚焦问题”是什么？"},
-      "options": [
-        {"en": "What are some causes and effects of violent weather?", "zh": "狂暴天气的成因和后果分别有哪些？"},
-        {"en": "How can we predict earthquakes?", "zh": "我们如何预测地震？"},
-        {"en": "Why are thunderstorms fun?", "zh": "为什么雷暴很有趣？"},
-        {"en": "How should houses be built?", "zh": "房屋应当如何建造？"}
-      ],
-      "answer": 0,
-      "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The book opens with the Focus Question: What are some causes and effects of violent weather?", "zh": "本书开篇的“聚焦问题”就是：狂暴天气的成因和后果分别有哪些？"}
-    },
-    {
-      "q": {"en": "In the Conclusion, what does the author suggest people consider when choosing where to live?", "zh": "在结论中，作者建议人们在选择居住地时考虑什么？"},
-      "options": [
-        {"en": "An area's general climate rather than worrying only about the worst extremes", "zh": "一个地区的总体气候，而不是只担心最极端的灾害"},
-        {"en": "Avoid all coastal areas", "zh": "避开所有沿海地区"},
-        {"en": "Move to Tornado Alley", "zh": "搬到龙卷风走廊"},
-        {"en": "Consider only earthquakes", "zh": "只考虑地震"}
+        {
+          "en": "What are some causes and effects of violent weather?",
+          "zh": "狂暴天气的成因和后果分别有哪些？"
+        },
+        {
+          "en": "How should houses be built?",
+          "zh": "房屋应当如何建造？"
+        },
+        {
+          "en": "Why are thunderstorms fun?",
+          "zh": "为什么雷暴很有趣？"
+        },
+        {
+          "en": "How can we predict earthquakes? according to some versions of the story",
+          "zh": "我们如何预测地震？（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The Conclusion advises that rather than worrying about extremes, it is most important to consider an area's general climate, which provides both consistency and drama.", "zh": "结论建议，与其担心极端灾害，更重要的是考虑一个地区的总体气候，它既提供规律性也提供戏剧性变化。"}
+      "explain": {
+        "en": "The book opens with the Focus Question: What are some causes and effects of violent weather?",
+        "zh": "本书开篇的“聚焦问题”就是：狂暴天气的成因和后果分别有哪些？"
+      }
+    },
+    {
+      "q": {
+        "en": "In the Conclusion, what does the author suggest people consider when choosing where to live?",
+        "zh": "在结论中，作者建议人们在选择居住地时考虑什么？"
+      },
+      "options": [
+        {
+          "en": "Avoid all coastal areas according to some versions of the story in an early draft of the book",
+          "zh": "避开所有沿海地区（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "An area's general climate rather than worrying only about the worst extremes",
+          "zh": "一个地区的总体气候，而不是只担心最极端的灾害"
+        },
+        {
+          "en": "Consider only earthquakes",
+          "zh": "只考虑地震"
+        },
+        {
+          "en": "Move to Tornado Alley",
+          "zh": "搬到龙卷风走廊"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The Conclusion advises that rather than worrying about extremes, it is most important to consider an area's general climate, which provides both consistency and drama.",
+        "zh": "结论建议，与其担心极端灾害，更重要的是考虑一个地区的总体气候，它既提供规律性也提供戏剧性变化。"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en": "The book covers thunderstorms, tornadoes, and hurricanes. Which type of violent weather are you most likely to experience where you live, and what does the book suggest you should know about preparing for it?", "zh": "本书介绍了雷暴、龙卷风和飓风。你居住的地方最可能遭遇哪一种狂暴天气？书中建议你应该了解哪些应对准备？"},
-    "guidance": {"en": ["Name the type of violent weather most relevant to your area.", "Describe one safety fact from the book (such as lightning or storm surge) that would help you prepare."], "zh": ["说出与你所在地区最相关的狂暴天气类型。", "描述书中一条有助于你应对的安全知识（如闪电或风暴潮）。"]}
+    "prompt": {
+      "en": "The book covers thunderstorms, tornadoes, and hurricanes. Which type of violent weather are you most likely to experience where you live, and what does the book suggest you should know about preparing for it?",
+      "zh": "本书介绍了雷暴、龙卷风和飓风。你居住的地方最可能遭遇哪一种狂暴天气？书中建议你应该了解哪些应对准备？"
+    },
+    "guidance": {
+      "en": [
+        "Name the type of violent weather most relevant to your area.",
+        "Describe one safety fact from the book (such as lightning or storm surge) that would help you prepare."
+      ],
+      "zh": [
+        "说出与你所在地区最相关的狂暴天气类型。",
+        "描述书中一条有助于你应对的安全知识（如闪电或风暴潮）。"
+      ]
+    }
   }
 }

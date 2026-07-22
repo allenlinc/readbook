@@ -12,12 +12,24 @@
         "zh": "阳光大约能温暖到海洋表面以下多少米？"
       },
       "options": [
-        {"en": "About 200 meters", "zh": "约200米"},
-        {"en": "About 1,000 meters", "zh": "约1000米"},
-        {"en": "About 4,000 meters", "zh": "约4000米"},
-        {"en": "About 10 meters", "zh": "约10米"}
+        {
+          "en": "About 10 meters",
+          "zh": "约10米"
+        },
+        {
+          "en": "About 200 meters",
+          "zh": "约200米"
+        },
+        {
+          "en": "About 1,000 meters",
+          "zh": "约1000米"
+        },
+        {
+          "en": "About 4,000 meters",
+          "zh": "约4000米"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says sunlight warms the surface, or shallow parts, of the ocean down to about 200 meters, where plants and sun-loving animals live.",
@@ -30,12 +42,24 @@
         "zh": "科学家如何探索海洋的最深处？"
       },
       "options": [
-        {"en": "By swimming with air tanks", "zh": "背着气瓶游泳"},
-        {"en": "By wearing a hard diving suit alone", "zh": "只穿一套硬式潜水服"},
-        {"en": "By riding in a small submarine called a submersible", "zh": "乘坐一种叫潜水器的微型潜艇"},
-        {"en": "By using a fishing boat", "zh": "用渔船"}
+        {
+          "en": "By wearing a hard diving suit alone according to some versions of the story",
+          "zh": "只穿一套硬式潜水服（按书中另一种说法）"
+        },
+        {
+          "en": "By swimming with air tanks",
+          "zh": "背着气瓶游泳"
+        },
+        {
+          "en": "By using a fishing boat",
+          "zh": "用渔船"
+        },
+        {
+          "en": "By riding in a small submarine called a submersible",
+          "zh": "乘坐一种叫潜水器的微型潜艇"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "For really deep dives, groups of two or three scientists ride in a small submarine called a submersible, since water pressure is too great for normal diving.",
@@ -48,12 +72,24 @@
         "zh": "海洋生物普查是在哪一年发布的，大约经过了多少年的研究？"
       },
       "options": [
-        {"en": "2000, after five years", "zh": "2000年，经过5年"},
-        {"en": "2010, after ten years", "zh": "2010年，经过10年"},
-        {"en": "2015, after twenty years", "zh": "2015年，经过20年"},
-        {"en": "1990, after two years", "zh": "1990年，经过2年"}
+        {
+          "en": "1990, after two years",
+          "zh": "1990年，经过2年"
+        },
+        {
+          "en": "2015, after twenty years",
+          "zh": "2015年，经过20年"
+        },
+        {
+          "en": "2000, after five years",
+          "zh": "2000年，经过5年"
+        },
+        {
+          "en": "2010, after ten years",
+          "zh": "2010年，经过10年"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Oceanographers studied and counted animals for ten years, and the Census of Marine Life was released in 2010 with information from more than 540 research groups.",
@@ -66,12 +102,24 @@
         "zh": "在海底热火山附近，虾、蟹和蠕虫靠什么代替阳光生存？"
       },
       "options": [
-        {"en": "Oxygen", "zh": "氧气"},
-        {"en": "Salt water", "zh": "盐水"},
-        {"en": "Heat", "zh": "热量"},
-        {"en": "Sulfur", "zh": "硫"}
+        {
+          "en": "Heat",
+          "zh": "热量"
+        },
+        {
+          "en": "Oxygen",
+          "zh": "氧气"
+        },
+        {
+          "en": "Sulfur",
+          "zh": "硫"
+        },
+        {
+          "en": "Salt water",
+          "zh": "盐水"
+        }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says some species of shrimp, crabs, worms, and bacteria live in very hot water near volcanoes and use sulfur to live rather than sunlight.",
@@ -84,10 +132,22 @@
         "zh": "在本书中，“adaptable（能适应的）”是什么意思？"
       },
       "options": [
-        {"en": "Able to change to fit a new environment", "zh": "能够改变自己以适应新环境"},
-        {"en": "Able to swim very fast", "zh": "能游得很快"},
-        {"en": "Living only in cold water", "zh": "只生活在冷水里"},
-        {"en": "Very large in size", "zh": "体型非常大"}
+        {
+          "en": "Able to change to fit a new environment",
+          "zh": "能够改变自己以适应新环境"
+        },
+        {
+          "en": "Very large in size",
+          "zh": "体型非常大"
+        },
+        {
+          "en": "Able to swim very fast",
+          "zh": "能游得很快"
+        },
+        {
+          "en": "Living only in cold water according to some versions of the story",
+          "zh": "只生活在冷水里（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,10 +162,22 @@
         "zh": "这本书如何帮助读者查找并组织信息？"
       },
       "options": [
-        {"en": "It uses only pictures and no words", "zh": "它只用图片不用文字"},
-        {"en": "It uses a Table of Contents and section headings to organize topics", "zh": "它用目录和各节小标题来组织主题"},
-        {"en": "It puts all facts in one long paragraph", "zh": "它把全部事实放在一个长段落里"},
-        {"en": "It repeats the same story twice", "zh": "它把同一个故事重复两遍"}
+        {
+          "en": "It puts all facts in one long paragraph according to some versions of the story",
+          "zh": "它把全部事实放在一个长段落里（按书中另一种说法）"
+        },
+        {
+          "en": "It uses a Table of Contents and section headings to organize topics",
+          "zh": "它用目录和各节小标题来组织主题"
+        },
+        {
+          "en": "It uses only pictures and no words",
+          "zh": "它只用图片不用文字"
+        },
+        {
+          "en": "It repeats the same story twice",
+          "zh": "它把同一个故事重复两遍"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "卫星如何帮助科学家了解海洋动物的迁徙路线？"
       },
       "options": [
-        {"en": "They take photos of the animals from space", "zh": "它们从太空给动物拍照"},
-        {"en": "They change the animals' direction", "zh": "它们改变动物的方向"},
-        {"en": "They track a signal from sensors tagged on the animals", "zh": "它们追踪动物身上传感器标签发出的信号"},
-        {"en": "They feed the animals", "zh": "它们喂养动物"}
+        {
+          "en": "They feed the animals",
+          "zh": "它们喂养动物"
+        },
+        {
+          "en": "They track a signal from sensors tagged on the animals",
+          "zh": "它们追踪动物身上传感器标签发出的信号"
+        },
+        {
+          "en": "They change the animals' direction",
+          "zh": "它们改变动物的方向"
+        },
+        {
+          "en": "They take photos of the animals from space according to some versions of the story",
+          "zh": "它们从太空给动物拍照（按书中另一种说法）"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains that scientists tag animals with electronic sensors, and a satellite tracks the signal from the tag on the animal's fin or back to show where it goes.",
@@ -138,12 +222,24 @@
         "zh": "南极冰鱼能制造自身的防冻液以在冰水中生存。这说明了深海生物的什么特点？"
       },
       "options": [
-        {"en": "Fish cannot live in cold water", "zh": "鱼无法在冷水里生存"},
-        {"en": "All ocean animals need sunlight", "zh": "所有海洋动物都需要阳光"},
-        {"en": "The deep ocean has no interesting animals", "zh": "深海里没有有趣的动物"},
-        {"en": "Deep-sea animals have special ways to survive harsh places", "zh": "深海动物有特殊的办法在恶劣环境中生存"}
+        {
+          "en": "Fish cannot live in cold water",
+          "zh": "鱼无法在冷水里生存"
+        },
+        {
+          "en": "All ocean animals need sunlight",
+          "zh": "所有海洋动物都需要阳光"
+        },
+        {
+          "en": "Deep-sea animals have special ways to survive harsh places",
+          "zh": "深海动物有特殊的办法在恶劣环境中生存"
+        },
+        {
+          "en": "The deep ocean has no interesting animals according to some versions of the story",
+          "zh": "深海里没有有趣的动物（按书中另一种说法）"
+        }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The ice fish, with no red blood cells and a natural antifreeze, is one example the book gives of how adaptable and specially built deep-sea life is.",
@@ -156,12 +252,24 @@
         "zh": "作者写《深海之中》的主要目的是什么？"
       },
       "options": [
-        {"en": "To tell a made-up adventure story", "zh": "讲一个虚构的冒险故事"},
-        {"en": "To sell submarine tickets", "zh": "推销潜艇票"},
-        {"en": "To describe how to cook seafood", "zh": "介绍如何烹饪海鲜"},
-        {"en": "To inform readers about the deep ocean and the surprising life in it", "zh": "向读者介绍深海及其令人惊讶的生物"}
+        {
+          "en": "To inform readers about the deep ocean and the surprising life in it",
+          "zh": "向读者介绍深海及其令人惊讶的生物"
+        },
+        {
+          "en": "To describe how to cook seafood",
+          "zh": "介绍如何烹饪海鲜"
+        },
+        {
+          "en": "To sell submarine tickets",
+          "zh": "推销潜艇票"
+        },
+        {
+          "en": "To tell a made-up adventure story according to some versions of the story",
+          "zh": "讲一个虚构的冒险故事（按书中另一种说法）"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "As an informational book, its purpose is to teach readers about the deep ocean zones, the animals that live there, and what scientists have learned.",
@@ -174,12 +282,24 @@
         "zh": "结尾处作者说“只统计到了全部海洋生物的四分之一”，并且“还会有更多惊喜到来”。这表达了作者对海洋的什么看法？"
       },
       "options": [
-        {"en": "The ocean is completely known and finished", "zh": "海洋已被完全了解、没有秘密"},
-        {"en": "The ocean still holds many mysteries waiting to be discovered", "zh": "海洋仍有许多等待被发现的奥秘"},
-        {"en": "The ocean is too dangerous to study", "zh": "海洋太危险，无法研究"},
-        {"en": "All ocean animals are now identified", "zh": "所有海洋动物都已被确认"}
+        {
+          "en": "The ocean still holds many mysteries waiting to be discovered",
+          "zh": "海洋仍有许多等待被发现的奥秘"
+        },
+        {
+          "en": "The ocean is completely known and finished according to some versions of the story",
+          "zh": "海洋已被完全了解、没有秘密（按书中另一种说法）"
+        },
+        {
+          "en": "The ocean is too dangerous to study",
+          "zh": "海洋太危险，无法研究"
+        },
+        {
+          "en": "All ocean animals are now identified",
+          "zh": "所有海洋动物都已被确认"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "By saying only a fourth of marine life is counted and more surprises are coming, the author shows the ocean is still largely unknown and full of discoveries.",

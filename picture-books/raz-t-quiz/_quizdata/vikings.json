@@ -1,326 +1,326 @@
 {
- "title": "Vikings",
- "titleZh": "维京人",
- "level": "T",
- "genre": "Informational",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "Where did the Vikings originally come from?",
-    "zh": "维京人最初来自哪里？"
-   },
-   "options": [
+  "title": "Vikings",
+  "titleZh": "维京人",
+  "level": "T",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "the coastal lands of Norway, Sweden, and Denmark",
-     "zh": "挪威、瑞典和丹麦的沿海地带"
+      "q": {
+        "en": "Where did the Vikings originally come from?",
+        "zh": "维京人最初来自哪里？"
+      },
+      "options": [
+        {
+          "en": "France and Spain",
+          "zh": "法国和西班牙"
+        },
+        {
+          "en": "Iceland and Greenland according to some versions of the story",
+          "zh": "冰岛和格陵兰（按书中另一种说法）"
+        },
+        {
+          "en": "North America",
+          "zh": "北美洲"
+        },
+        {
+          "en": "the coastal lands of Norway, Sweden, and Denmark",
+          "zh": "挪威、瑞典和丹麦的沿海地带"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says they came from northern Europe, now Norway, Sweden, and Denmark.",
+        "zh": "书中说他们来自北欧，即今天的挪威、瑞典和丹麦。"
+      }
     },
     {
-     "en": "Iceland and Greenland",
-     "zh": "冰岛和格陵兰"
+      "q": {
+        "en": "According to the book, what did Viking helmets most likely NOT have?",
+        "zh": "根据书中内容，维京人的头盔最可能没有什么？"
+      },
+      "options": [
+        {
+          "en": "metal",
+          "zh": "金属"
+        },
+        {
+          "en": "horns",
+          "zh": "角"
+        },
+        {
+          "en": "decoration",
+          "zh": "装饰"
+        },
+        {
+          "en": "leather",
+          "zh": "皮革"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says many helmets were decorated but most likely did not have horns.",
+        "zh": "书中说许多头盔有装饰，但最可能没有角。"
+      }
     },
     {
-     "en": "France and Spain",
-     "zh": "法国和西班牙"
+      "q": {
+        "en": "Out of the 25 ships that sailed to Greenland with Eric the Red, how many arrived safely?",
+        "zh": "跟随红胡子埃里克驶往格陵兰的25艘船中，有多少艘安全抵达？"
+      },
+      "options": [
+        {
+          "en": "25 according to some versions of the story",
+          "zh": "25艘（按书中另一种说法）"
+        },
+        {
+          "en": "3",
+          "zh": "3艘"
+        },
+        {
+          "en": "14",
+          "zh": "14艘"
+        },
+        {
+          "en": "10",
+          "zh": "10艘"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The seas were rough and several sank; fourteen ships arrived safely.",
+        "zh": "海上风浪很大，几艘沉没，14艘安全抵达。"
+      }
     },
     {
-     "en": "North America",
-     "zh": "北美洲"
+      "q": {
+        "en": "Who became the first European known to die and be buried in North America?",
+        "zh": "谁是已知第一个在北美洲死去并安葬的欧洲人？"
+      },
+      "options": [
+        {
+          "en": "Leif Ericson",
+          "zh": "莱夫·埃里克松"
+        },
+        {
+          "en": "Leif Ericson's brother",
+          "zh": "莱夫·埃里克松的弟弟"
+        },
+        {
+          "en": "Gardar Svarvarsson according to some versions of the story",
+          "zh": "加尔扎尔·斯瓦尔瓦松（按书中另一种说法）"
+        },
+        {
+          "en": "Eric the Red",
+          "zh": "红胡子埃里克"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Leif's brother was wounded by an arrow, died in Vinland, and was buried there—the first known European buried in North America.",
+        "zh": "莱夫的弟弟中箭身亡，葬在文兰，是已知第一个安葬在北美的欧洲人。"
+      }
+    },
+    {
+      "q": {
+        "en": "The glossary defines 'sagas' as Viking-Age stories about heroes and adventures. What does the book say Vikings liked to do with these tales?",
+        "zh": "术语表把'sagas（萨迦）'定义为维京时代关于英雄与冒险的故事。书中说维京人喜欢怎么对待这些故事？"
+      },
+      "options": [
+        {
+          "en": "tell stories and create poems about their achievements and battles",
+          "zh": "讲述故事并创作诗歌歌颂他们的战绩"
+        },
+        {
+          "en": "translate them into English according to some versions of the story",
+          "zh": "把它们译成英文（按书中另一种说法）"
+        },
+        {
+          "en": "burn them for warmth",
+          "zh": "烧掉它们取暖"
+        },
+        {
+          "en": "hide them from children",
+          "zh": "对孩子们保密"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The Vikings liked to tell stories and make poems about their battles; these became sagas.",
+        "zh": "维京人喜欢讲述故事、为战斗作诗，这些后来成了萨迦。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book says Viking longships were built with the same shape at both ends. Why was this useful?",
+        "zh": "书中说维京长船两头形状相同。这有什么用？"
+      },
+      "options": [
+        {
+          "en": "it made the ships heavier",
+          "zh": "让船更重"
+        },
+        {
+          "en": "it allowed them to sail backward only according to some versions of the story",
+          "zh": "只能倒着航行（按书中另一种说法）"
+        },
+        {
+          "en": "Vikings could jump in and row away without turning the ship around",
+          "zh": "维京人可直接跳上船划走，不必掉头"
+        },
+        {
+          "en": "it scared their enemies",
+          "zh": "用来吓唬敌人"
+        }
+      ],
+      "answer": 2,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Because both ends were the same, they did not have to turn the ship around to leave shore.",
+        "zh": "因为两头一样，离港时不必掉头。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book says Vikings reached North America hundreds of years before Columbus was born, and Leif Ericson found a place called Vinland. What does this show?",
+        "zh": "书中说维京人在哥伦布出生前几百年就到达了北美，莱夫·埃里克松还发现了叫文兰的地方。这说明什么？"
+      },
+      "options": [
+        {
+          "en": "Vikings explored the Americas long before other Europeans arrived",
+          "zh": "维京人远早于其他欧洲人探索了美洲"
+        },
+        {
+          "en": "Vinland is in Europe",
+          "zh": "文兰在欧洲"
+        },
+        {
+          "en": "Columbus was a Viking",
+          "zh": "哥伦布是维京人"
+        },
+        {
+          "en": "the Vikings never left Europe according to some versions of the story",
+          "zh": "维京人从未离开欧洲（按书中另一种说法）"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "They reached North America and did so hundreds of years before Columbus was born.",
+        "zh": "他们到达了北美，而且比哥伦布出生还早几百年。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book notes about 900 common English words—like sky, skin, window, and husband—come from the Viking language. What does this tell us?",
+        "zh": "书中提到约900个常见英语单词（如sky、skin、window、husband）源自维京语言。这告诉我们什么？"
+      },
+      "options": [
+        {
+          "en": "Vikings spoke modern English",
+          "zh": "维京人说现代英语"
+        },
+        {
+          "en": "English comes from French",
+          "zh": "英语源自法语"
+        },
+        {
+          "en": "the words are all about ships according to some versions of the story",
+          "zh": "这些词都和船有关（按书中另一种说法）"
+        },
+        {
+          "en": "Viking culture left a lasting mark on the English language",
+          "zh": "维京文化给英语留下了持久的影响"
+        }
+      ],
+      "answer": 3,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Many everyday English words come from the Viking language, showing their cultural influence.",
+        "zh": "许多日常英语单词来自维京语言，可见其文化影响之深。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in writing 'Vikings'?",
+        "zh": "作者写《维京人》的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "to show Vikings were explorers, merchants, poets, and more—not just warriors",
+          "zh": "说明维京人不仅是战士，也是探险家、商人、诗人等"
+        },
+        {
+          "en": "to prove Vikings were only violent raiders according to some versions of the story",
+          "zh": "证明维京人只是暴力的袭击者（按书中另一种说法）"
+        },
+        {
+          "en": "to teach Norse religion only",
+          "zh": "只讲北欧宗教"
+        },
+        {
+          "en": "to list every Viking king",
+          "zh": "列出每一位维京国王"
+        }
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The introduction asks whether you think of warriors or explorers, saying 'The Vikings were all of these things.'",
+        "zh": "开篇就问你想到的是战士还是探险家，并说'维京人兼具所有这些身份'。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does the author view the Vikings' place in history?",
+        "zh": "作者如何看待维京人在历史上的地位？"
+      },
+      "options": [
+        {
+          "en": "they should be forgotten",
+          "zh": "他们应被遗忘"
+        },
+        {
+          "en": "they are remembered for bravery, strength, and exploration",
+          "zh": "人们铭记他们的勇敢、力量与探索精神"
+        },
+        {
+          "en": "they harmed only themselves according to some versions of the story",
+          "zh": "他们只伤害了自己（按书中另一种说法）"
+        },
+        {
+          "en": "they were failures",
+          "zh": "他们是失败者"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book says they will always be remembered for bravery and for exploring new lands.",
+        "zh": "书中说人们将永远铭记他们的勇敢以及对新大陆的探索。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book says they came from northern Europe, now Norway, Sweden, and Denmark.",
-    "zh": "书中说他们来自北欧，即今天的挪威、瑞典和丹麦。"
-   }
-  },
-  {
-   "q": {
-    "en": "According to the book, what did Viking helmets most likely NOT have?",
-    "zh": "根据书中内容，维京人的头盔最可能没有什么？"
-   },
-   "options": [
-    {
-     "en": "horns",
-     "zh": "角"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "The book says land in Viking culture went to the firstborn son, so younger sons had to seek their own fortune. How might this tradition have encouraged Viking exploration? Use details from the book.",
+      "zh": "书中说维京文化中土地传给长子，幼子必须自谋出路。这一传统如何推动了维京人的探索？请结合书中细节说明。"
     },
-    {
-     "en": "decoration",
-     "zh": "装饰"
-    },
-    {
-     "en": "metal",
-     "zh": "金属"
-    },
-    {
-     "en": "leather",
-     "zh": "皮革"
+    "guidance": {
+      "en": [
+        "Recall the section about younger sons receiving no land and the stories of rich lands drawing them away.",
+        "Connect this to Leif Ericson and other explorers leaving home."
+      ],
+      "zh": [
+        "回想书中关于幼子得不到土地、富庶之地的故事吸引他们离家的段落。",
+        "将此与莱夫·埃里克松等离家探索的人物联系起来。"
+      ]
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book says many helmets were decorated but most likely did not have horns.",
-    "zh": "书中说许多头盔有装饰，但最可能没有角。"
-   }
   },
-  {
-   "q": {
-    "en": "Out of the 25 ships that sailed to Greenland with Eric the Red, how many arrived safely?",
-    "zh": "跟随红胡子埃里克驶往格陵兰的25艘船中，有多少艘安全抵达？"
-   },
-   "options": [
-    {
-     "en": "14",
-     "zh": "14艘"
-    },
-    {
-     "en": "25",
-     "zh": "25艘"
-    },
-    {
-     "en": "3",
-     "zh": "3艘"
-    },
-    {
-     "en": "10",
-     "zh": "10艘"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The seas were rough and several sank; fourteen ships arrived safely.",
-    "zh": "海上风浪很大，几艘沉没，14艘安全抵达。"
-   }
-  },
-  {
-   "q": {
-    "en": "Who became the first European known to die and be buried in North America?",
-    "zh": "谁是已知第一个在北美洲死去并安葬的欧洲人？"
-   },
-   "options": [
-    {
-     "en": "Leif Ericson's brother",
-     "zh": "莱夫·埃里克松的弟弟"
-    },
-    {
-     "en": "Leif Ericson",
-     "zh": "莱夫·埃里克松"
-    },
-    {
-     "en": "Eric the Red",
-     "zh": "红胡子埃里克"
-    },
-    {
-     "en": "Gardar Svarvarsson",
-     "zh": "加尔扎尔·斯瓦尔瓦松"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Leif's brother was wounded by an arrow, died in Vinland, and was buried there—the first known European buried in North America.",
-    "zh": "莱夫的弟弟中箭身亡，葬在文兰，是已知第一个安葬在北美的欧洲人。"
-   }
-  },
-  {
-   "q": {
-    "en": "The glossary defines 'sagas' as Viking-Age stories about heroes and adventures. What does the book say Vikings liked to do with these tales?",
-    "zh": "术语表把'sagas（萨迦）'定义为维京时代关于英雄与冒险的故事。书中说维京人喜欢怎么对待这些故事？"
-   },
-   "options": [
-    {
-     "en": "tell stories and create poems about their achievements and battles",
-     "zh": "讲述故事并创作诗歌歌颂他们的战绩"
-    },
-    {
-     "en": "burn them for warmth",
-     "zh": "烧掉它们取暖"
-    },
-    {
-     "en": "hide them from children",
-     "zh": "对孩子们保密"
-    },
-    {
-     "en": "translate them into English",
-     "zh": "把它们译成英文"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The Vikings liked to tell stories and make poems about their battles; these became sagas.",
-    "zh": "维京人喜欢讲述故事、为战斗作诗，这些后来成了萨迦。"
-   }
-  },
-  {
-   "q": {
-    "en": "The book says Viking longships were built with the same shape at both ends. Why was this useful?",
-    "zh": "书中说维京长船两头形状相同。这有什么用？"
-   },
-   "options": [
-    {
-     "en": "Vikings could jump in and row away without turning the ship around",
-     "zh": "维京人可直接跳上船划走，不必掉头"
-    },
-    {
-     "en": "it made the ships heavier",
-     "zh": "让船更重"
-    },
-    {
-     "en": "it allowed them to sail backward only",
-     "zh": "只能倒着航行"
-    },
-    {
-     "en": "it scared their enemies",
-     "zh": "用来吓唬敌人"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "Because both ends were the same, they did not have to turn the ship around to leave shore.",
-    "zh": "因为两头一样，离港时不必掉头。"
-   }
-  },
-  {
-   "q": {
-    "en": "The book says Vikings reached North America hundreds of years before Columbus was born, and Leif Ericson found a place called Vinland. What does this show?",
-    "zh": "书中说维京人在哥伦布出生前几百年就到达了北美，莱夫·埃里克松还发现了叫文兰的地方。这说明什么？"
-   },
-   "options": [
-    {
-     "en": "Vikings explored the Americas long before other Europeans arrived",
-     "zh": "维京人远早于其他欧洲人探索了美洲"
-    },
-    {
-     "en": "Columbus was a Viking",
-     "zh": "哥伦布是维京人"
-    },
-    {
-     "en": "Vinland is in Europe",
-     "zh": "文兰在欧洲"
-    },
-    {
-     "en": "the Vikings never left Europe",
-     "zh": "维京人从未离开欧洲"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "They reached North America and did so hundreds of years before Columbus was born.",
-    "zh": "他们到达了北美，而且比哥伦布出生还早几百年。"
-   }
-  },
-  {
-   "q": {
-    "en": "The book notes about 900 common English words—like sky, skin, window, and husband—come from the Viking language. What does this tell us?",
-    "zh": "书中提到约900个常见英语单词（如sky、skin、window、husband）源自维京语言。这告诉我们什么？"
-   },
-   "options": [
-    {
-     "en": "Viking culture left a lasting mark on the English language",
-     "zh": "维京文化给英语留下了持久的影响"
-    },
-    {
-     "en": "Vikings spoke modern English",
-     "zh": "维京人说现代英语"
-    },
-    {
-     "en": "English comes from French",
-     "zh": "英语源自法语"
-    },
-    {
-     "en": "the words are all about ships",
-     "zh": "这些词都和船有关"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Many everyday English words come from the Viking language, showing their cultural influence.",
-    "zh": "许多日常英语单词来自维京语言，可见其文化影响之深。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in writing 'Vikings'?",
-    "zh": "作者写《维京人》的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "to show Vikings were explorers, merchants, poets, and more—not just warriors",
-     "zh": "说明维京人不仅是战士，也是探险家、商人、诗人等"
-    },
-    {
-     "en": "to prove Vikings were only violent raiders",
-     "zh": "证明维京人只是暴力的袭击者"
-    },
-    {
-     "en": "to teach Norse religion only",
-     "zh": "只讲北欧宗教"
-    },
-    {
-     "en": "to list every Viking king",
-     "zh": "列出每一位维京国王"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The introduction asks whether you think of warriors or explorers, saying 'The Vikings were all of these things.'",
-    "zh": "开篇就问你想到的是战士还是探险家，并说'维京人兼具所有这些身份'。"
-   }
-  },
-  {
-   "q": {
-    "en": "How does the author view the Vikings' place in history?",
-    "zh": "作者如何看待维京人在历史上的地位？"
-   },
-   "options": [
-    {
-     "en": "they are remembered for bravery, strength, and exploration",
-     "zh": "人们铭记他们的勇敢、力量与探索精神"
-    },
-    {
-     "en": "they should be forgotten",
-     "zh": "他们应被遗忘"
-    },
-    {
-     "en": "they were failures",
-     "zh": "他们是失败者"
-    },
-    {
-     "en": "they harmed only themselves",
-     "zh": "他们只伤害了自己"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The book says they will always be remembered for bravery and for exploring new lands.",
-    "zh": "书中说人们将永远铭记他们的勇敢以及对新大陆的探索。"
-   }
-  }
- ],
- "extended": {
-  "prompt": {
-   "en": "The book says land in Viking culture went to the firstborn son, so younger sons had to seek their own fortune. How might this tradition have encouraged Viking exploration? Use details from the book.",
-   "zh": "书中说维京文化中土地传给长子，幼子必须自谋出路。这一传统如何推动了维京人的探索？请结合书中细节说明。"
-  },
-  "guidance": {
-   "en": [
-    "Recall the section about younger sons receiving no land and the stories of rich lands drawing them away.",
-    "Connect this to Leif Ericson and other explorers leaving home."
-   ],
-   "zh": [
-    "回想书中关于幼子得不到土地、富庶之地的故事吸引他们离家的段落。",
-    "将此与莱夫·埃里克松等离家探索的人物联系起来。"
-   ]
-  }
- },
- "slug": "vikings"
+  "slug": "vikings"
 }

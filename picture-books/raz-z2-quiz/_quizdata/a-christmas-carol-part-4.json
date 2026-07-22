@@ -7,131 +7,322 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en": "Where does the Ghost first take Scrooge in this part, and who runs the place?", "zh": "在这一部分，幽灵首先把 Scrooge 带到了哪里，那里是谁经营的？"},
+      "q": {
+        "en": "Where does the Ghost first take Scrooge in this part, and who runs the place?",
+        "zh": "在这一部分，幽灵首先把 Scrooge 带到了哪里，那里是谁经营的？"
+      },
       "options": [
-        {"en": "A grand royal palace ruled by a very strict king together with all of his armed palace guards", "zh": "一座由极其严厉的国王和他所有的武装侍卫共同统治的宏伟宫殿"},
-        {"en": "A small village schoolhouse", "zh": "一座小乡村校舍"},
-        {"en": "The warehouse where Scrooge was apprenticed, run by old Fezziwig", "zh": "Scrooge 当学徒的仓库，由老 Fezziwig 经营"},
-        {"en": "A hospital ward", "zh": "一间医院病房"}
-      ],
-      "answer": 2,
-      "skill": "Key Ideas and Details",
-      "explain": {"en": "The Ghost stops at a warehouse door; Scrooge says he was apprenticed there, and old Fezziwig runs the Christmas Eve party.", "zh": "幽灵在一扇仓库门前停下；Scrooge 说自己在那里当过学徒，而老 Fezziwig 在那里办圣诞前夜的舞会。"}
-    },
-    {
-      "q": {"en": "According to Scrooge, what makes Fezziwig worthy of such praise from his workers?", "zh": "按 Scrooge 的说法，是什么让 Fezziwig 值得工人们如此称赞？"},
-      "options": [
-        {"en": "His kind words and looks made his workers happy, worth more than money", "zh": "他和善的话语与神情让工人快乐，胜过金钱"},
-        {"en": "He paid the workers a large fortune in gold", "zh": "他付给工人一大笔金子"},
-        {"en": "He built a tall stone wall", "zh": "他筑了一道高石墙"},
-        {"en": "He gave them a long holiday every week", "zh": "他每周给工人放长假"}
+        {
+          "en": "The warehouse where Scrooge was apprenticed, run by old Fezziwig",
+          "zh": "Scrooge 当学徒的仓库，由老 Fezziwig 经营"
+        },
+        {
+          "en": "A hospital ward",
+          "zh": "一间医院病房"
+        },
+        {
+          "en": "A small village schoolhouse",
+          "zh": "一座小乡村校舍"
+        },
+        {
+          "en": "A grand royal palace ruled by a very strict king together with all of his armed palace guards",
+          "zh": "一座由极其严厉的国王和他所有的武装侍卫共同统治的宏伟宫殿"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "Scrooge says Fezziwig's power lay in his words and looks, and the happiness he gave was as great as if it cost a fortune.", "zh": "Scrooge 说 Fezziwig 的影响力在于他的话语和神情，而他给予的快乐之大，如同花了一大笔钱。"}
+      "explain": {
+        "en": "The Ghost stops at a warehouse door; Scrooge says he was apprenticed there, and old Fezziwig runs the Christmas Eve party.",
+        "zh": "幽灵在一扇仓库门前停下；Scrooge 说自己在那里当过学徒，而老 Fezziwig 在那里办圣诞前夜的舞会。"
+      }
     },
     {
-      "q": {"en": "The author says each child in Belle's home was 'conducting itself like forty.' What does this exaggeration show?", "zh": "作者说 Belle 家里的每个孩子都'表现得像四十个'。这种夸张说明了什么？"},
+      "q": {
+        "en": "According to Scrooge, what makes Fezziwig worthy of such praise from his workers?",
+        "zh": "按 Scrooge 的说法，是什么让 Fezziwig 值得工人们如此称赞？"
+      },
       "options": [
-        {"en": "That there were exactly forty children", "zh": "正好有四十个孩子"},
-        {"en": "That the children were very quiet", "zh": "孩子们非常安静"},
-        {"en": "That the room was empty", "zh": "房间是空的"},
-        {"en": "That the children were so wild and lively they seemed like many at once", "zh": "孩子们极其吵闹活泼，仿佛一个人顶好多个"}
-      ],
-      "answer": 3,
-      "skill": "Craft and Structure",
-      "explain": {"en": "The playful exaggeration shows the children were bursting with wild, lively energy all at once.", "zh": "这种俏皮的夸张说明孩子们同时爆发出极其吵闹、活泼的劲儿。"}
-    },
-    {
-      "q": {"en": "When Belle says 'Another idol has displaced me... A golden one,' what does she mean?", "zh": "当 Belle 说'另一个偶像取代了我……一个金色的偶像'时，她是什么意思？"},
-      "options": [
-        {"en": "That she has started worshipping a real golden statue in a faraway temple", "zh": "她开始在远方一座神庙里崇拜一尊真正的金像"},
-        {"en": "That Scrooge now loves money more than he loves her", "zh": "Scrooge 如今爱金钱胜过爱她"},
-        {"en": "That a golden sun replaced the moon", "zh": "金色的太阳取代了月亮"},
-        {"en": "That she prefers golden clothes", "zh": "她更喜欢金色的衣服"}
+        {
+          "en": "He gave them a long holiday every week",
+          "zh": "他每周给工人放长假"
+        },
+        {
+          "en": "His kind words and looks made his workers happy, worth more than money",
+          "zh": "他和善的话语与神情让工人快乐，胜过金钱"
+        },
+        {
+          "en": "He built a tall stone wall",
+          "zh": "他筑了一道高石墙"
+        },
+        {
+          "en": "He paid the workers a large fortune in gold according to some versions of the story",
+          "zh": "他付给工人一大笔金子（按书中另一种说法）"
+        }
       ],
       "answer": 1,
-      "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "Belle means Scrooge's love of gold, his greed for wealth, has taken the place of his love for her.", "zh": "Belle 的意思是，Scrooge 对金子的爱——也就是对财富的贪婪——已经取代了他对她的爱。"}
-    },
-    {
-      "q": {"en": "The book says Scrooge's face 'had begun to wear the signs of care and avarice,' with 'an eager, greedy, restless motion in the eye.' What does this reveal?", "zh": "书中说 Scrooge 的面容'已开始显出忧虑与贪婪的痕迹'，眼中带着'一种热切、贪婪、不安的神情'。这揭示了什么？"},
-      "options": [
-        {"en": "That greed and worry were already changing who he was", "zh": "贪婪与忧虑已经在改变他这个人"},
-        {"en": "That he was very sleepy", "zh": "他非常困"},
-        {"en": "That he was a small child", "zh": "他还是个小孩子"},
-        {"en": "That he felt cold", "zh": "他觉得冷"}
-      ],
-      "answer": 0,
-      "skill": "Craft and Structure",
-      "explain": {"en": "Even in his prime, the signs of care and avarice show greed and worry were already reshaping his character.", "zh": "即便正当盛年，忧虑与贪婪的痕迹也表明，贪欲与烦恼已在重塑他的性格。"}
-    },
-    {
-      "q": {"en": "At the end of this part, what does Scrooge do to the Ghost of Christmas Past?", "zh": "在本部分结尾，Scrooge 对圣诞过去的幽灵做了什么？"},
-      "options": [
-        {"en": "He invites the kind Spirit to stay and share a big and happy holiday breakfast with the whole family", "zh": "他邀请善良的幽灵留下，和全家人一起享用一顿丰盛快乐的节日早餐"},
-        {"en": "He writes it a thank-you note", "zh": "他给幽灵写感谢信"},
-        {"en": "He presses the cap down over its head to put out its light", "zh": "他把帽子按在它头上，想熄灭它的光"},
-        {"en": "He opens a window for it", "zh": "他给它开了扇窗"}
-      ],
-      "answer": 2,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "Scrooge seizes the extinguisher-cap and presses it down on the Spirit's head, though its light still streams out.", "zh": "Scrooge 抓起灭烛帽，按在幽灵头上，尽管光仍从帽下泄出。"}
+      "explain": {
+        "en": "Scrooge says Fezziwig's power lay in his words and looks, and the happiness he gave was as great as if it cost a fortune.",
+        "zh": "Scrooge 说 Fezziwig 的影响力在于他的话语和神情，而他给予的快乐之大，如同花了一大笔钱。"
+      }
     },
     {
-      "q": {"en": "Belle's husband says he saw Scrooge sitting alone because his 'partner lies upon the point of death.' Who is that partner?", "zh": "Belle 的丈夫说，他看见 Scrooge 独自坐着，因为他的'合伙人奄奄一息'。那位合伙人是谁？"},
+      "q": {
+        "en": "The author says each child in Belle's home was 'conducting itself like forty.' What does this exaggeration show?",
+        "zh": "作者说 Belle 家里的每个孩子都'表现得像四十个'。这种夸张说明了什么？"
+      },
       "options": [
-        {"en": "A friendly old neighbor who had lived right next door to the office for many long years", "zh": "一位和善的老邻居，多年来就住在办公室隔壁的隔壁"},
-        {"en": "Jacob Marley, the business partner who later visits as a ghost", "zh": "Jacob Marley，后来化作鬼魂来访的生意合伙人"},
-        {"en": "The fiddler from the warehouse dance", "zh": "仓库舞会上的小提琴手"},
-        {"en": "The schoolmaster from his childhood", "zh": "他童年时的校长"}
+        {
+          "en": "That the children were very quiet",
+          "zh": "孩子们非常安静"
+        },
+        {
+          "en": "That the children were so wild and lively they seemed like many at once",
+          "zh": "孩子们极其吵闹活泼，仿佛一个人顶好多个"
+        },
+        {
+          "en": "That the room was empty",
+          "zh": "房间是空的"
+        },
+        {
+          "en": "That there were exactly forty children according to some versions of the story",
+          "zh": "正好有四十个孩子（按书中另一种说法）"
+        }
       ],
       "answer": 1,
-      "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The dying partner is Jacob Marley, Scrooge's old business partner who returned as a chained ghost in Part 2.", "zh": "那位奄奄一息的合伙人就是 Jacob Marley，Scrooge 的旧生意伙伴，曾在第2部分化作戴锁链的鬼魂归来。"}
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The playful exaggeration shows the children were bursting with wild, lively energy all at once.",
+        "zh": "这种俏皮的夸张说明孩子们同时爆发出极其吵闹、活泼的劲儿。"
+      }
     },
     {
-      "q": {"en": "Why does the author show Scrooge the happy, noisy family of Belle, the woman he once loved?", "zh": "作者为什么要让 Scrooge 看到他曾爱过的女子 Belle 那幸福喧闹的家庭？"},
+      "q": {
+        "en": "When Belle says 'Another idol has displaced me... A golden one,' what does she mean?",
+        "zh": "当 Belle 说'另一个偶像取代了我……一个金色的偶像'时，她是什么意思？"
+      },
       "options": [
-        {"en": "To teach how to bake mince-pies", "zh": "教人如何烤肉馅派"},
-        {"en": "To describe a weather storm", "zh": "描写一场暴风雨"},
-        {"en": "To show how to build a warehouse", "zh": "说明如何建仓库"},
-        {"en": "To show Scrooge the warm family life his greed cost him", "zh": "让 Scrooge 看到自己因贪婪而错失的温暖家庭生活"}
+        {
+          "en": "That she prefers golden clothes",
+          "zh": "她更喜欢金色的衣服"
+        },
+        {
+          "en": "That a golden sun replaced the moon",
+          "zh": "金色的太阳取代了月亮"
+        },
+        {
+          "en": "That she has started worshipping a real golden statue in a faraway temple",
+          "zh": "她开始在远方一座神庙里崇拜一尊真正的金像"
+        },
+        {
+          "en": "That Scrooge now loves money more than he loves her",
+          "zh": "Scrooge 如今爱金钱胜过爱她"
+        }
       ],
       "answer": 3,
-      "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "By showing Belle's joyful family with another man, the author makes Scrooge feel the warm life his greed cost him.", "zh": "作者让 Scrooge 看到 Belle 与别人组成的欢乐家庭，使他体会到自己因贪婪而失去的温暖生活。"}
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Belle means Scrooge's love of gold, his greed for wealth, has taken the place of his love for her.",
+        "zh": "Belle 的意思是，Scrooge 对金子的爱——也就是对财富的贪婪——已经取代了他对她的爱。"
+      }
     },
     {
-      "q": {"en": "The narrator says of Belle's daughter, 'What would I not have given to be one of them.' Whose voice is this in the story?", "zh": "叙述者谈到 Belle 的女儿时说：'我哪怕付出一切，也愿成为他们中的一个。'这是故事中谁的声音？"},
+      "q": {
+        "en": "The book says Scrooge's face 'had begun to wear the signs of care and avarice,' with 'an eager, greedy, restless motion in the eye.' What does this reveal?",
+        "zh": "书中说 Scrooge 的面容'已开始显出忧虑与贪婪的痕迹'，眼中带着'一种热切、贪婪、不安的神情'。这揭示了什么？"
+      },
       "options": [
-        {"en": "The youngest and loudest child in the crowded room speaking his thoughts out aloud", "zh": "拥挤房间里最小、最吵的孩子把心里的想法大声说了出来"},
-        {"en": "The fiddler tuning his music", "zh": "正在调音的小提琴手"},
-        {"en": "The story's narrator, speaking with fond feeling", "zh": "故事的讲述者，带着喜爱的情感在说"},
-        {"en": "Old Fezziwig at the dance", "zh": "舞会上的老 Fezziwig"}
+        {
+          "en": "That he was very sleepy",
+          "zh": "他非常困"
+        },
+        {
+          "en": "That he felt cold",
+          "zh": "他觉得冷"
+        },
+        {
+          "en": "That greed and worry were already changing who he was",
+          "zh": "贪婪与忧虑已经在改变他这个人"
+        },
+        {
+          "en": "That he was a small child according to some versions of the story",
+          "zh": "他还是个小孩子（按书中另一种说法）"
+        }
       ],
       "answer": 2,
       "skill": "Craft and Structure",
-      "explain": {"en": "The first-person 'I' passages are the narrator's wistful, fond voice, not a character speaking in the scene.", "zh": "第一人称'我'的段落是叙述者带着憧憬与喜爱的声音，并非场景中某个角色在说话。"}
+      "explain": {
+        "en": "Even in his prime, the signs of care and avarice show greed and worry were already reshaping his character.",
+        "zh": "即便正当盛年，忧虑与贪婪的痕迹也表明，贪欲与烦恼已在重塑他的性格。"
+      }
     },
     {
-      "q": {"en": "After the Fezziwig scene, Scrooge says he wishes 'to say a word or two to my clerk just now.' What does this hint?", "zh": "在 Fezziwig 的场景之后，Scrooge 说自己'真想此刻能对我的职员说一两句话'。这暗示了什么？"},
+      "q": {
+        "en": "At the end of this part, what does Scrooge do to the Ghost of Christmas Past?",
+        "zh": "在本部分结尾，Scrooge 对圣诞过去的幽灵做了什么？"
+      },
       "options": [
-        {"en": "He is starting to want to treat his clerk more kindly", "zh": "他开始想对自己的职员更友善一些"},
-        {"en": "He wants to march into the office and fire his poor clerk at once without any warning", "zh": "他想冲进办公室，毫无预兆地立刻解雇他可怜的职员"},
-        {"en": "He plans to close the business", "zh": "他打算关掉生意"},
-        {"en": "He is hungry for dinner", "zh": "他饿了想吃晚饭"}
+        {
+          "en": "He writes it a thank-you note",
+          "zh": "他给幽灵写感谢信"
+        },
+        {
+          "en": "He opens a window for it",
+          "zh": "他给它开了扇窗"
+        },
+        {
+          "en": "He invites the kind Spirit to stay and share a big and happy holiday breakfast with the whole family",
+          "zh": "他邀请善良的幽灵留下，和全家人一起享用一顿丰盛快乐的节日早餐"
+        },
+        {
+          "en": "He presses the cap down over its head to put out its light",
+          "zh": "他把帽子按在它头上，想熄灭它的光"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Scrooge seizes the extinguisher-cap and presses it down on the Spirit's head, though its light still streams out.",
+        "zh": "Scrooge 抓起灭烛帽，按在幽灵头上，尽管光仍从帽下泄出。"
+      }
+    },
+    {
+      "q": {
+        "en": "Belle's husband says he saw Scrooge sitting alone because his 'partner lies upon the point of death.' Who is that partner?",
+        "zh": "Belle 的丈夫说，他看见 Scrooge 独自坐着，因为他的'合伙人奄奄一息'。那位合伙人是谁？"
+      },
+      "options": [
+        {
+          "en": "Jacob Marley, the business partner who later visits as a ghost",
+          "zh": "Jacob Marley，后来化作鬼魂来访的生意合伙人"
+        },
+        {
+          "en": "A friendly old neighbor who had lived right next door to the office for many long years",
+          "zh": "一位和善的老邻居，多年来就住在办公室隔壁的隔壁"
+        },
+        {
+          "en": "The schoolmaster from his childhood",
+          "zh": "他童年时的校长"
+        },
+        {
+          "en": "The fiddler from the warehouse dance",
+          "zh": "仓库舞会上的小提琴手"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The dying partner is Jacob Marley, Scrooge's old business partner who returned as a chained ghost in Part 2.",
+        "zh": "那位奄奄一息的合伙人就是 Jacob Marley，Scrooge 的旧生意伙伴，曾在第2部分化作戴锁链的鬼魂归来。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why does the author show Scrooge the happy, noisy family of Belle, the woman he once loved?",
+        "zh": "作者为什么要让 Scrooge 看到他曾爱过的女子 Belle 那幸福喧闹的家庭？"
+      },
+      "options": [
+        {
+          "en": "To show Scrooge the warm family life his greed cost him",
+          "zh": "让 Scrooge 看到自己因贪婪而错失的温暖家庭生活"
+        },
+        {
+          "en": "To describe a weather storm",
+          "zh": "描写一场暴风雨"
+        },
+        {
+          "en": "To show how to build a warehouse according to some versions of the story",
+          "zh": "说明如何建仓库（按书中另一种说法）"
+        },
+        {
+          "en": "To teach how to bake mince-pies",
+          "zh": "教人如何烤肉馅派"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "Seeing Fezziwig's kindness stirs Scrooge to want to speak kindly to his own clerk, an early sign of change.", "zh": "看到 Fezziwig 的善意，Scrooge 心生念头想对自己的职员说句好话，这是他开始转变的苗头。"}
+      "explain": {
+        "en": "By showing Belle's joyful family with another man, the author makes Scrooge feel the warm life his greed cost him.",
+        "zh": "作者让 Scrooge 看到 Belle 与别人组成的欢乐家庭，使他体会到自己因贪婪而失去的温暖生活。"
+      }
+    },
+    {
+      "q": {
+        "en": "The narrator says of Belle's daughter, 'What would I not have given to be one of them.' Whose voice is this in the story?",
+        "zh": "叙述者谈到 Belle 的女儿时说：'我哪怕付出一切，也愿成为他们中的一个。'这是故事中谁的声音？"
+      },
+      "options": [
+        {
+          "en": "Old Fezziwig at the dance",
+          "zh": "舞会上的老 Fezziwig"
+        },
+        {
+          "en": "The story's narrator, speaking with fond feeling",
+          "zh": "故事的讲述者，带着喜爱的情感在说"
+        },
+        {
+          "en": "The fiddler tuning his music",
+          "zh": "正在调音的小提琴手"
+        },
+        {
+          "en": "The youngest and loudest child in the crowded room speaking his thoughts out aloud",
+          "zh": "拥挤房间里最小、最吵的孩子把心里的想法大声说了出来"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The first-person 'I' passages are the narrator's wistful, fond voice, not a character speaking in the scene.",
+        "zh": "第一人称'我'的段落是叙述者带着憧憬与喜爱的声音，并非场景中某个角色在说话。"
+      }
+    },
+    {
+      "q": {
+        "en": "After the Fezziwig scene, Scrooge says he wishes 'to say a word or two to my clerk just now.' What does this hint?",
+        "zh": "在 Fezziwig 的场景之后，Scrooge 说自己'真想此刻能对我的职员说一两句话'。这暗示了什么？"
+      },
+      "options": [
+        {
+          "en": "He is hungry for dinner",
+          "zh": "他饿了想吃晚饭"
+        },
+        {
+          "en": "He plans to close the business",
+          "zh": "他打算关掉生意"
+        },
+        {
+          "en": "He is starting to want to treat his clerk more kindly",
+          "zh": "他开始想对自己的职员更友善一些"
+        },
+        {
+          "en": "He wants to march into the office and fire his poor clerk at once without any warning",
+          "zh": "他想冲进办公室，毫无预兆地立刻解雇他可怜的职员"
+        }
+      ],
+      "answer": 2,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "Seeing Fezziwig's kindness stirs Scrooge to want to speak kindly to his own clerk, an early sign of change.",
+        "zh": "看到 Fezziwig 的善意，Scrooge 心生念头想对自己的职员说句好话，这是他开始转变的苗头。"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en": "Scrooge sees Fezziwig, a kind employer who made his workers happy at little cost, and Belle, who left him because of his love of money. What kind of person makes others feel valued, and how can small kindnesses matter?", "zh": "Scrooge 看到了 Fezziwig——一位用很小代价就让工人快乐的好老板，也看到了 Belle——因他爱财而离开他的女子。什么样的人能让别人感到被重视？小小的善意为何重要？"},
+    "prompt": {
+      "en": "Scrooge sees Fezziwig, a kind employer who made his workers happy at little cost, and Belle, who left him because of his love of money. What kind of person makes others feel valued, and how can small kindnesses matter?",
+      "zh": "Scrooge 看到了 Fezziwig——一位用很小代价就让工人快乐的好老板，也看到了 Belle——因他爱财而离开他的女子。什么样的人能让别人感到被重视？小小的善意为何重要？"
+    },
     "guidance": {
-      "en": ["Think about Fezziwig's words and looks, not just his spending.", "Consider how Belle says Scrooge's 'master-passion, Gain' changed him.", "Connect small kind acts to how people feel about their work or life."],
-      "zh": ["想想 Fezziwig 的话语和神情，而不只是他的花费。", "考虑 Belle 所说的 Scrooge 的'主宰激情——贪图'如何改变了他。", "把小小的善举与人们对工作或生活的感受联系起来。"]
+      "en": [
+        "Think about Fezziwig's words and looks, not just his spending.",
+        "Consider how Belle says Scrooge's 'master-passion, Gain' changed him.",
+        "Connect small kind acts to how people feel about their work or life."
+      ],
+      "zh": [
+        "想想 Fezziwig 的话语和神情，而不只是他的花费。",
+        "考虑 Belle 所说的 Scrooge 的'主宰激情——贪图'如何改变了他。",
+        "把小小的善举与人们对工作或生活的感受联系起来。"
+      ]
     }
   }
 }

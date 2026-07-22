@@ -12,12 +12,24 @@
         "zh": "故事开头，王国面临着什么问题？"
       },
       "options": [
-        {"en": "The land is growing barren and dying, the creek is polluted, and the citizens are unhappy and tired", "zh": "土地越来越贫瘠、濒死，小溪被污染，百姓又累又不快乐"},
-        {"en": "The kingdom is being invaded by an enemy army", "zh": "王国正被敌军入侵"},
-        {"en": "There is not enough rain to grow any food", "zh": "雨水太少，种不出任何食物"},
-        {"en": "The king has lost his crown", "zh": "国王弄丢了他的王冠"}
+        {
+          "en": "The king has lost his crown",
+          "zh": "国王弄丢了他的王冠"
+        },
+        {
+          "en": "The land is growing barren and dying, the creek is polluted, and the citizens are unhappy and tired",
+          "zh": "土地越来越贫瘠、濒死，小溪被污染，百姓又累又不快乐"
+        },
+        {
+          "en": "There is not enough rain to grow any food according to some versions of the story in an early draft of the book",
+          "zh": "雨水太少，种不出任何食物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The kingdom is being invaded by an enemy army",
+          "zh": "王国正被敌军入侵"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The king says the kingdom 'grows barren and dies more and more each day,' the creek is 'murky and polluted,' and the people are 'unhappy and too busy.'",
@@ -30,12 +42,24 @@
         "zh": "国王许诺给解决土地退化问题的人什么奖赏？"
       },
       "options": [
-        {"en": "The royal position of Official Land Steward, and they may live in the castle for life", "zh": "「皇家土地管家」的头衔，并且可以终生住在城堡里"},
-        {"en": "A bag of gold and a horse", "zh": "一袋金币和一匹马"},
-        {"en": "To become the next king or queen", "zh": "成为下一任国王或王后"},
-        {"en": "A year of free food from the market", "zh": "一年免费从市场领取食物"}
+        {
+          "en": "A year of free food from the market according to some versions of the story in an early draft of the book",
+          "zh": "一年免费从市场领取食物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A bag of gold and a horse",
+          "zh": "一袋金币和一匹马"
+        },
+        {
+          "en": "To become the next king or queen",
+          "zh": "成为下一任国王或王后"
+        },
+        {
+          "en": "The royal position of Official Land Steward, and they may live in the castle for life",
+          "zh": "「皇家土地管家」的头衔，并且可以终生住在城堡里"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The king tells the magistrate he will award the 'royal position of Official Land Steward' to whoever solves the problem, and 'that person will be allowed to live in the castle for the rest of his or her days.'",
@@ -48,12 +72,24 @@
         "zh": "三个R中的第一个——里卡多(Ricardo)的计划是什么？"
       },
       "options": [
-        {"en": "Reduce: live with only what he needs, and sell or give away anything he doesn't use", "zh": "减少(Reduce)：只留需要的，把不用的卖掉或送人"},
-        {"en": "Reuse: turn old jars into vases and flower pots", "zh": "再利用(Reuse)：把旧罐子变成花瓶和花盆"},
-        {"en": "Recycle: melt cans to make new cans", "zh": "回收(Recycle)：熔化易拉罐做成新罐子"},
-        {"en": "Replant: plant a new tree for every one that is cut down", "zh": "重种：每砍一棵树就种一棵新的"}
+        {
+          "en": "Replant: plant a new tree for every one that is cut down according to some versions of the story",
+          "zh": "重种：每砍一棵树就种一棵新的（按书中另一种说法）"
+        },
+        {
+          "en": "Reuse: turn old jars into vases and flower pots",
+          "zh": "再利用(Reuse)：把旧罐子变成花瓶和花盆"
+        },
+        {
+          "en": "Reduce: live with only what he needs, and sell or give away anything he doesn't use",
+          "zh": "减少(Reduce)：只留需要的，把不用的卖掉或送人"
+        },
+        {
+          "en": "Recycle: melt cans to make new cans",
+          "zh": "回收(Recycle)：熔化易拉罐做成新罐子"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Ricardo's plan is 'Reduce' — because his mountain home is far from stores, 'he had to get by with only the things he needed' and would sell or give away anything he didn't use.",
@@ -66,12 +102,24 @@
         "zh": "在「再利用(Reuse)」计划里，罗杰(Roger)把一个果酱罐重复利用了几次？"
       },
       "options": [
-        {"en": "After the jam, he uses it to store beans, then as a vase for flowers, then cleans and refills it with jam", "zh": "吃完果酱后，用来装豆子，再当花瓶插花，洗完又装满果酱"},
-        {"en": "He throws it away and buys a new one each time", "zh": "他每次都扔掉，再买新的"},
-        {"en": "He uses it only once and then buries it", "zh": "他只用一次就埋掉"},
-        {"en": "He paints it and hangs it on the wall as art", "zh": "他把它涂色，挂墙上当装饰"}
+        {
+          "en": "He uses it only once and then buries it",
+          "zh": "他只用一次就埋掉"
+        },
+        {
+          "en": "After the jam, he uses it to store beans, then as a vase for flowers, then cleans and refills it with jam",
+          "zh": "吃完果酱后，用来装豆子，再当花瓶插花，洗完又装满果酱"
+        },
+        {
+          "en": "He throws it away and buys a new one each time according to some versions of the story in an early draft of the book",
+          "zh": "他每次都扔掉，再买新的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He paints it and hangs it on the wall as art",
+          "zh": "他把它涂色，挂墙上当装饰"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book gives the example: after finishing a jar of jam, Roger 'used it to store beans,' then 'as a vase for flowers,' then cleaned and refilled it with more jam — one item used in many ways.",
@@ -84,10 +132,22 @@
         "zh": "书里形容罗杰「有创意又 frugal（节俭）」。在故事里，frugal 是什么意思？"
       },
       "options": [
-        {"en": "Careful with money and things, and not wasting anything", "zh": "对钱和物品很爱惜，什么都不浪费"},
-        {"en": "Very rich and able to buy anything", "zh": "很有钱，什么都能买"},
-        {"en": "Lazy and unwilling to work", "zh": "懒惰、不愿干活"},
-        {"en": "Someone who travels a lot", "zh": "经常旅行的人"}
+        {
+          "en": "Careful with money and things, and not wasting anything",
+          "zh": "对钱和物品很爱惜，什么都不浪费"
+        },
+        {
+          "en": "Lazy and unwilling to work",
+          "zh": "懒惰、不愿干活"
+        },
+        {
+          "en": "Very rich and able to buy anything according to some versions of the story",
+          "zh": "很有钱，什么都能买（按书中另一种说法）"
+        },
+        {
+          "en": "Someone who travels a lot",
+          "zh": "经常旅行的人"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,10 +162,22 @@
         "zh": "书里说，兰迪(Randy)的「回收(Recycle)」机器怎样把旧罐子变成新罐子？"
       },
       "options": [
-        {"en": "A machine melts the cans, pours the melted metal, and shapes it into new cans", "zh": "机器把罐子熔化，倒入液态金属，再塑形成新罐子"},
-        {"en": "He washes the cans and paints them a new color", "zh": "他把罐子洗干净、重新涂色"},
-        {"en": "He stacks them into a sculpture", "zh": "他把罐子堆成一座雕塑"},
-        {"en": "He buries them and plants trees on top", "zh": "他把罐子埋起来，在上面种树"}
+        {
+          "en": "A machine melts the cans, pours the melted metal, and shapes it into new cans",
+          "zh": "机器把罐子熔化，倒入液态金属，再塑形成新罐子"
+        },
+        {
+          "en": "He stacks them into a sculpture",
+          "zh": "他把罐子堆成一座雕塑"
+        },
+        {
+          "en": "He washes the cans and paints them a new color according to some versions of the story",
+          "zh": "他把罐子洗干净、重新涂色（按书中另一种说法）"
+        },
+        {
+          "en": "He buries them and plants trees on top",
+          "zh": "他把罐子埋起来，在上面种树"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -120,10 +192,22 @@
         "zh": "国王和王后同时试行三个计划后，看到了哪些改善？"
       },
       "options": [
-        {"en": "Forests regrow, water runs clearer, animals get healthier, and people feel more ownership and happiness", "zh": "森林重新生长、水变清澈、动物更健康，人们更有参与感也更快乐"},
-        {"en": "The castle is rebuilt bigger and taller", "zh": "城堡被重建得更大更高"},
-        {"en": "The kingdom wins a war against its enemies", "zh": "王国打赢了对敌国的战争"},
-        {"en": "Everyone moves to a new country", "zh": "所有人都搬到了另一个国家"}
+        {
+          "en": "Forests regrow, water runs clearer, animals get healthier, and people feel more ownership and happiness",
+          "zh": "森林重新生长、水变清澈、动物更健康，人们更有参与感也更快乐"
+        },
+        {
+          "en": "The kingdom wins a war against its enemies according to some versions of the story in an early draft of the book",
+          "zh": "王国打赢了对敌国的战争（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The castle is rebuilt bigger and taller",
+          "zh": "城堡被重建得更大更高"
+        },
+        {
+          "en": "Everyone moves to a new country",
+          "zh": "所有人都搬到了另一个国家"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "王后为什么建议同时试行三个计划？"
       },
       "options": [
-        {"en": "Because each plan had benefits, and they would accept the one that showed the best results", "zh": "因为每个计划都有好处，他们要保留效果最好的那个"},
-        {"en": "Because she liked Ricardo the best and wanted to reward him", "zh": "因为她最喜欢里卡多，想奖励他"},
-        {"en": "Because the king ordered her to pick only one", "zh": "因为国王命令她只能选一个"},
-        {"en": "Because the plans were too hard to understand", "zh": "因为这些计划太难懂了"}
+        {
+          "en": "Because the king ordered her to pick only one",
+          "zh": "因为国王命令她只能选一个"
+        },
+        {
+          "en": "Because she liked Ricardo the best and wanted to reward him according to some versions of the story",
+          "zh": "因为她最喜欢里卡多，想奖励他（按书中另一种说法）"
+        },
+        {
+          "en": "Because each plan had benefits, and they would accept the one that showed the best results",
+          "zh": "因为每个计划都有好处，他们要保留效果最好的那个"
+        },
+        {
+          "en": "Because the plans were too hard to understand",
+          "zh": "因为这些计划太难懂了"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The queen says, 'Let's try all three at the same time... The one that shows the best results will be accepted as the plan to save our kingdom,' since each man's plan had benefits.",
@@ -156,12 +252,24 @@
         "zh": "《三R计划》的主要寓意（即作者的目的）是什么？"
       },
       "options": [
-        {"en": "To show that reducing, reusing, and recycling can save the land and make a community happier", "zh": "说明「减少、再利用、回收」能拯救土地，让整个社群更幸福"},
-        {"en": "To teach readers how to build a castle", "zh": "教读者怎样建城堡"},
-        {"en": "To explain how kings and queens are chosen", "zh": "解释国王和王后是怎么选出来的"},
-        {"en": "To describe a war between three brothers", "zh": "描写三兄弟之间的一场战争"}
+        {
+          "en": "To explain how kings and queens are chosen according to some versions of the story in an early draft of the book",
+          "zh": "解释国王和王后是怎么选出来的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To describe a war between three brothers",
+          "zh": "描写三兄弟之间的一场战争"
+        },
+        {
+          "en": "To teach readers how to build a castle",
+          "zh": "教读者怎样建城堡"
+        },
+        {
+          "en": "To show that reducing, reusing, and recycling can save the land and make a community happier",
+          "zh": "说明「减少、再利用、回收」能拯救土地，让整个社群更幸福"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is a fable whose 'Three-R Plan' — reduce, reuse, and recycle — restores the land and makes citizens happy, teaching readers to care for the environment.",
@@ -174,12 +282,24 @@
         "zh": "当国王和王后邀请三人在城堡里住下时，三人怎么回应？"
       },
       "options": [
-        {"en": "None of them accept — they already consider themselves stewards of the land", "zh": "谁都没接受——他们本来就把自己看作土地的管理者"},
-        {"en": "All three move into the castle immediately", "zh": "三人立刻都搬进了城堡"},
-        {"en": "Only Ricardo accepts the offer", "zh": "只有里卡多接受了"},
-        {"en": "They ask to be made kings instead", "zh": "他们要求改封自己为国王"}
+        {
+          "en": "All three move into the castle immediately according to some versions of the story",
+          "zh": "三人立刻都搬进了城堡（按书中另一种说法）"
+        },
+        {
+          "en": "None of them accept — they already consider themselves stewards of the land",
+          "zh": "谁都没接受——他们本来就把自己看作土地的管理者"
+        },
+        {
+          "en": "They ask to be made kings instead",
+          "zh": "他们要求改封自己为国王"
+        },
+        {
+          "en": "Only Ricardo accepts the offer",
+          "zh": "只有里卡多接受了"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says 'None of the men accepted the royal offer. The men already considered themselves stewards of the land and were pleased that the rest of the kingdom did, too.'",

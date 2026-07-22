@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "A dream he suddenly remembers",
+          "zh": "他突然想起的一个梦"
+        },
+        {
           "en": "A familiar smell that he realizes is his old home",
           "zh": "一股他认出是老家散发的熟悉气味"
         },
@@ -21,15 +25,11 @@
           "zh": "一个大声呼唤他名字的声音"
         },
         {
-          "en": "A bright light shining from a window",
-          "zh": "一扇窗户透出的明亮灯光"
-        },
-        {
-          "en": "A dream he suddenly remembers",
-          "zh": "他突然想起的一个梦"
+          "en": "A bright light shining from a window according to some versions of the story",
+          "zh": "一扇窗户透出的明亮灯光（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mole is struck 'like an electric shock' by a mysterious smell; he realizes it is 'his old home that he had hurriedly forsaken' and follows his nose to it.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "'Mole End'",
-          "zh": "‘Mole End’（鼹鼠居）"
-        },
-        {
-          "en": "'Mole House'",
-          "zh": "‘Mole House’（鼹鼠屋）"
-        },
-        {
           "en": "'River Bank'",
           "zh": "‘River Bank’（河岸）"
         },
         {
+          "en": "'Mole End'",
+          "zh": "‘Mole End’（鼹鼠居）"
+        },
+        {
           "en": "'Little End'",
           "zh": "‘Little End’（小尽头）"
+        },
+        {
+          "en": "'Mole House'",
+          "zh": "‘Mole House’（鼹鼠屋）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "When they reach the door, the text says they see 'Mole's little front door, with 'Mole End' painted, in Gothic lettering, over the bellpull at the side.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A tin of sardines, captain's biscuits, and a German sausage",
-          "zh": "一罐沙丁鱼、一盒船长饼干和一根德式香肠"
+          "en": "A birthday cake and fruit",
+          "zh": "生日蛋糕和水果"
         },
         {
           "en": "Fresh bread and butter",
           "zh": "新鲜的面包和黄油"
         },
         {
-          "en": "Pate de foie gras and champagne",
-          "zh": "鹅肝酱和香槟"
+          "en": "A tin of sardines, captain's biscuits, and a German sausage",
+          "zh": "一罐沙丁鱼、一盒船长饼干和一根德式香肠"
         },
         {
-          "en": "A birthday cake and fruit",
-          "zh": "生日蛋糕和水果"
+          "en": "Pate de foie gras and champagne according to some versions of the story",
+          "zh": "鹅肝酱和香槟（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The foraging yields 'a tin of sardines—a box of captain's biscuits, nearly full—and a German sausage encased in silver paper,' though there is no bread.",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "Otter and his family",
+          "zh": "水獭和他的家人"
+        },
+        {
           "en": "A group of field mice",
           "zh": "一群田鼠"
         },
@@ -113,13 +117,9 @@
         {
           "en": "The rabbits from the Wild Wood",
           "zh": "野树林里的兔子"
-        },
-        {
-          "en": "Otter and his family",
-          "zh": "水獭和他的家人"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mole says 'it must be the field mice' who go round carol-singing, and they arrive in the forecourt singing an old-time carol.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A metaphor comparing smell to a communication wire",
-          "zh": "隐喻，把气味比作传递信息的电线"
-        },
-        {
-          "en": "Onomatopoeia imitating a sound",
-          "zh": "拟声，模仿某种声音"
+          "en": "Alliteration of repeated consonants according to some versions of the story",
+          "zh": "头韵，重复相同的辅音（按书中另一种说法）"
         },
         {
           "en": "Hyperbole exaggerating his fear",
           "zh": "夸张，夸大他的恐惧"
         },
         {
-          "en": "Alliteration of repeated consonants",
-          "zh": "头韵，重复相同的辅音"
+          "en": "Onomatopoeia imitating a sound",
+          "zh": "拟声，模仿某种声音"
+        },
+        {
+          "en": "A metaphor comparing smell to a communication wire",
+          "zh": "隐喻，把气味比作传递信息的电线"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The author compares the scent to 'a fine filament, the telegraphic current' and a 'mysterious fairy call,' using metaphor to show smell as a message from home.",
@@ -171,12 +171,12 @@
           "zh": "通过鼹鼠写给老鼠的信"
         },
         {
-          "en": "Through another character's diary entry",
-          "zh": "通过另一个角色写的日记"
+          "en": "By reporting only what the characters say aloud according to some versions of the story",
+          "zh": "只报道人物说出口的话（按书中另一种说法）"
         },
         {
-          "en": "By reporting only what the characters say aloud",
-          "zh": "只报道人物说出口的话"
+          "en": "Through another character's diary entry",
+          "zh": "通过另一个角色写的日记"
         }
       ],
       "answer": 0,
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "He blends human-like emotions with animal instincts",
-          "zh": "他同时兼具类人的情感与动物的本能"
-        },
-        {
           "en": "He dislikes Rat and wants to leave him",
           "zh": "他讨厌老鼠，想离开他"
         },
@@ -205,11 +201,15 @@
           "zh": "他希望自己是人类的小孩"
         },
         {
-          "en": "He forgets everything about his old life",
-          "zh": "他忘掉了旧生活的一切"
+          "en": "He blends human-like emotions with animal instincts",
+          "zh": "他同时兼具类人的情感与动物的本能"
+        },
+        {
+          "en": "He forgets everything about his old life according to some versions of the story",
+          "zh": "他忘掉了旧生活的一切（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Mole shows human-style bonds (loyalty to Rat, homesickness) yet is guided by an animal sense of smell, blending both natures as the focus question asks.",
@@ -227,16 +227,16 @@
           "zh": "基督教圣诞诞生的故事"
         },
         {
-          "en": "A spring harvest festival",
-          "zh": "春天的丰收节"
+          "en": "A summer wedding celebration according to some versions of the story",
+          "zh": "夏日的婚礼庆典（按书中另一种说法）"
         },
         {
           "en": "A birthday party for Toad",
           "zh": "为蟾蜍举办的生日聚会"
         },
         {
-          "en": "A summer wedding celebration",
-          "zh": "夏日的婚礼庆典"
+          "en": "A spring harvest festival",
+          "zh": "春天的丰收节"
         }
       ],
       "answer": 0,
@@ -261,8 +261,8 @@
           "zh": "野树林的危险"
         },
         {
-          "en": "Rat's dislike of Mole's home",
-          "zh": "老鼠讨厌鼹鼠的家"
+          "en": "Rat's dislike of Mole's home according to some versions of the story",
+          "zh": "老鼠讨厌鼹鼠的家（按书中另一种说法）"
         },
         {
           "en": "A lesson about navigation",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "That a simple, personal home gives life lasting meaning",
-          "zh": "简朴而属于自身的家，能为生命赋予持久的意义"
-        },
-        {
-          "en": "That only grand houses are worth having",
-          "zh": "只有华丽的房子才值得拥有"
-        },
-        {
           "en": "That animals should live without homes",
           "zh": "动物应当无家可归地生活"
         },
         {
+          "en": "That only grand houses are worth having according to some versions of the story",
+          "zh": "只有华丽的房子才值得拥有（按书中另一种说法）"
+        },
+        {
           "en": "That Mole should abandon the river",
           "zh": "鼹鼠应当抛弃河流"
+        },
+        {
+          "en": "That a simple, personal home gives life lasting meaning",
+          "zh": "简朴而属于自身的家，能为生命赋予持久的意义"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Mole sees 'how much it all meant to him, and the special value of some such anchorage in one's existence,' teaching that a humble home grounds a life.",

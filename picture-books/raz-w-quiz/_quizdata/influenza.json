@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "A virus",
-          "zh": "病毒"
-        },
-        {
           "en": "A bacterium",
           "zh": "细菌"
+        },
+        {
+          "en": "Bad weather",
+          "zh": "坏天气"
         },
         {
           "en": "A fungus",
           "zh": "真菌"
         },
         {
-          "en": "Bad weather",
-          "zh": "坏天气"
+          "en": "A virus",
+          "zh": "病毒"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Influenza is caused by a virus that spreads quickly between people.",
@@ -47,16 +47,16 @@
           "zh": "三种：A、B、C型"
         },
         {
-          "en": "Two: good and bad",
-          "zh": "两种：好与坏"
-        },
-        {
-          "en": "Four: A, B, C, D",
-          "zh": "四种：A、B、C、D型"
+          "en": "Four: A, B, C, D according to some versions of the story",
+          "zh": "四种：A、B、C、D型（按书中另一种说法）"
         },
         {
           "en": "One only",
           "zh": "只有一种"
+        },
+        {
+          "en": "Two: good and bad",
+          "zh": "两种：好与坏"
         }
       ],
       "answer": 0,
@@ -77,16 +77,16 @@
           "zh": "通过咳嗽、打喷嚏产生的空气、唾液和黏液"
         },
         {
-          "en": "Through touching only plants",
-          "zh": "只通过触碰植物"
+          "en": "Through swimming in pools",
+          "zh": "通过在泳池游泳"
+        },
+        {
+          "en": "Through touching only plants according to some versions of the story",
+          "zh": "只通过触碰植物（按书中另一种说法）"
         },
         {
           "en": "Through reading books",
           "zh": "通过读书"
-        },
-        {
-          "en": "Through swimming in pools",
-          "zh": "通过在泳池游泳"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Antibodies",
-          "zh": "抗体"
-        },
-        {
-          "en": "Muscles",
-          "zh": "肌肉"
+          "en": "Muscles according to some versions of the story",
+          "zh": "肌肉（按书中另一种说法）"
         },
         {
           "en": "Bones",
           "zh": "骨骼"
         },
         {
+          "en": "Antibodies",
+          "zh": "抗体"
+        },
+        {
           "en": "Hair",
           "zh": "毛发"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The immune system makes antibodies that attack and destroy cells containing the virus.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "Sugar water",
+          "zh": "糖水"
+        },
+        {
           "en": "Weakened or dead flu viruses",
           "zh": "弱化或死亡的流感病毒"
         },
         {
+          "en": "Plant leaves according to some versions of the story",
+          "zh": "植物叶子（按书中另一种说法）"
+        },
+        {
           "en": "Live bacteria",
           "zh": "活细菌"
-        },
-        {
-          "en": "Plant leaves",
-          "zh": "植物叶子"
-        },
-        {
-          "en": "Sugar water",
-          "zh": "糖水"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Vaccines contain weakened or dead flu viruses that teach the body to make antibodies.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A virus that has mutated from another virus",
-          "zh": "由另一种病毒突变而来的病毒"
+          "en": "A kind of bird",
+          "zh": "一种鸟"
+        },
+        {
+          "en": "A weather pattern according to some versions of the story",
+          "zh": "一种天气模式（按书中另一种说法）"
         },
         {
           "en": "A type of medicine",
           "zh": "一种药"
         },
         {
-          "en": "A kind of bird",
-          "zh": "一种鸟"
-        },
-        {
-          "en": "A weather pattern",
-          "zh": "一种天气模式"
+          "en": "A virus that has mutated from another virus",
+          "zh": "由另一种病毒突变而来的病毒"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Each virus that mutates from another is called a strain of that virus.",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "The Hong Kong flu",
+          "zh": "香港流感"
+        },
+        {
           "en": "The Spanish flu",
           "zh": "西班牙流感"
         },
@@ -201,15 +205,11 @@
           "zh": "亚洲流感"
         },
         {
-          "en": "The Hong Kong flu",
-          "zh": "香港流感"
-        },
-        {
           "en": "The Swine flu",
           "zh": "猪流感"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The 1918 Spanish flu killed more than 600,000 Americans and 25–40 million worldwide.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "About 80 percent",
-          "zh": "约80%"
-        },
-        {
-          "en": "100 percent",
-          "zh": "100%"
-        },
-        {
-          "en": "10 percent",
-          "zh": "10%"
+          "en": "100 percent according to some versions of the story",
+          "zh": "100%（按书中另一种说法）"
         },
         {
           "en": "Zero percent",
           "zh": "0%"
+        },
+        {
+          "en": "About 80 percent",
+          "zh": "约80%"
+        },
+        {
+          "en": "10 percent",
+          "zh": "10%"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Vaccines for most viral strains have an 80% prevention rate.",
@@ -265,8 +265,8 @@
           "zh": "只有青少年"
         },
         {
-          "en": "Only people who live near the ocean",
-          "zh": "只有住在海边的人"
+          "en": "Only people who live near the ocean according to some versions of the story in an early draft of the book",
+          "zh": "只有住在海边的人（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "Stop eating completely according to some versions of the story",
+          "zh": "完全不吃东西（按书中另一种说法）"
+        },
+        {
           "en": "Rest, drink plenty of fluids, and use over-the-counter medicine",
           "zh": "休息、多喝水、服用非处方药"
         },
         {
-          "en": "Run a marathon",
-          "zh": "跑马拉松"
-        },
-        {
-          "en": "Stop eating completely",
-          "zh": "完全不吃东西"
-        },
-        {
           "en": "Go to school as usual",
           "zh": "照常去上学"
+        },
+        {
+          "en": "Run a marathon",
+          "zh": "跑马拉松"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book advises rest, fluids, and over-the-counter medicines to relieve flu symptoms.",

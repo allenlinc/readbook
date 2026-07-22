@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "An area where more water evaporates than falls as rain",
-          "zh": "蒸发的水比降雨多的地方"
-        },
-        {
-          "en": "A place that is always covered with sand",
-          "zh": "总是被沙子覆盖的地方"
-        },
-        {
           "en": "A region with no plants at all",
           "zh": "完全没有植物的地区"
         },
         {
+          "en": "An area where more water evaporates than falls as rain",
+          "zh": "蒸发的水比降雨多的地方"
+        },
+        {
           "en": "A land that is always hot",
           "zh": "总是很热的土地"
+        },
+        {
+          "en": "A place that is always covered with sand according to some versions of the story",
+          "zh": "总是被沙子覆盖的地方（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says a desert is any area where more water evaporates, or dries up, than falls as rain.",
@@ -43,12 +43,12 @@
       },
       "options": [
         {
-          "en": "The Gobi",
-          "zh": "戈壁沙漠"
-        },
-        {
           "en": "The Sahara",
           "zh": "撒哈拉沙漠"
+        },
+        {
+          "en": "The Gobi",
+          "zh": "戈壁沙漠"
         },
         {
           "en": "The Atacama",
@@ -59,7 +59,7 @@
           "zh": "南极洲"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the Sahara is 'by far the largest desert in the world.'",
@@ -77,19 +77,19 @@
           "zh": "因为它们被沙子覆盖"
         },
         {
+          "en": "Because they are the hottest places on Earth",
+          "zh": "因为它们是地球上最热的地方"
+        },
+        {
           "en": "Because all of the water there is frozen",
           "zh": "因为那里的水全部是冻结的"
         },
         {
           "en": "Because no people live there",
           "zh": "因为没有人住在那里"
-        },
-        {
-          "en": "Because they are the hottest places on Earth",
-          "zh": "因为它们是地球上最热的地方"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains both poles are deserts because all the water there is frozen.",
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "The Nile",
-          "zh": "尼罗河"
-        },
-        {
           "en": "The Amazon",
           "zh": "亚马逊河"
         },
@@ -117,9 +113,13 @@
         {
           "en": "The Tigris",
           "zh": "底格里斯河"
+        },
+        {
+          "en": "The Nile",
+          "zh": "尼罗河"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Nile flows along the eastern edge of the Sahara, bringing life-giving water to crops and cities.",
@@ -141,8 +141,8 @@
           "zh": "戈壁过于严酷偏远，无法支撑城市"
         },
         {
-          "en": "Both deserts have exactly the same number of cities",
-          "zh": "两个沙漠的城市数量完全一样"
+          "en": "Both deserts have exactly the same number of cities according to some versions of the story",
+          "zh": "两个沙漠的城市数量完全一样（按书中另一种说法）"
         },
         {
           "en": "The Sahara has no people, but the Gobi does",
@@ -167,16 +167,16 @@
           "zh": "世界上最大的石油储量"
         },
         {
-          "en": "Gold mines",
-          "zh": "金矿"
+          "en": "Fresh water lakes according to some versions of the story",
+          "zh": "淡水湖（按书中另一种说法）"
         },
         {
           "en": "Diamonds",
           "zh": "钻石"
         },
         {
-          "en": "Fresh water lakes",
-          "zh": "淡水湖"
+          "en": "Gold mines",
+          "zh": "金矿"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "The first dinosaur eggs",
-          "zh": "第一批恐龙蛋"
+          "en": "A petrified forest",
+          "zh": "石化森林"
         },
         {
           "en": "A frozen woolly mammoth",
           "zh": "冷冻的长毛象"
         },
         {
-          "en": "An ancient human skeleton",
-          "zh": "古老的人类骨骼"
+          "en": "The first dinosaur eggs",
+          "zh": "第一批恐龙蛋"
         },
         {
-          "en": "A petrified forest",
-          "zh": "石化森林"
+          "en": "An ancient human skeleton",
+          "zh": "古老的人类骨骼"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says it was in the Gobi that 'the first dinosaur eggs were found.'",
@@ -223,10 +223,6 @@
       },
       "options": [
         {
-          "en": "A shallow pool of fresh water",
-          "zh": "一汪浅浅的淡水"
-        },
-        {
           "en": "An area of white crystallized salt left when salty lakes dry",
           "zh": "咸水湖干涸后留下的白色结晶盐区域"
         },
@@ -235,11 +231,15 @@
           "zh": "一种沙漠植物"
         },
         {
+          "en": "A shallow pool of fresh water according to some versions of the story",
+          "zh": "一汪浅浅的淡水（按书中另一种说法）"
+        },
+        {
           "en": "A tool used by nomads",
           "zh": "游牧民族使用的一种工具"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains salt pans form when rivers carry salt into marshes or lakes that dry, leaving white crystallized salt.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "In northern Africa",
-          "zh": "北非"
-        },
-        {
           "en": "In central Asia",
           "zh": "中亚"
         },
         {
-          "en": "Along the Pacific Coast of South America, between the ocean and the Andes",
-          "zh": "南美洲太平洋沿岸，海洋与安第斯山脉之间"
+          "en": "In northern Africa",
+          "zh": "北非"
         },
         {
-          "en": "On the Arabian Peninsula",
-          "zh": "阿拉伯半岛"
+          "en": "On the Arabian Peninsula according to some versions of the story in an early draft of the book",
+          "zh": "阿拉伯半岛（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Along the Pacific Coast of South America, between the ocean and the Andes",
+          "zh": "南美洲太平洋沿岸，海洋与安第斯山脉之间"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book places the Atacama along the Pacific Coast, squeezed between the ocean and the high Andes Mountains.",
@@ -283,20 +283,20 @@
       },
       "options": [
         {
-          "en": "Deserts are empty, lifeless places",
-          "zh": "沙漠是空旷、没有生命的地方"
+          "en": "People should avoid deserts completely according to some versions of the story",
+          "zh": "人们应该完全避开沙漠（按书中另一种说法）"
         },
         {
           "en": "Deserts are sources of life, riches, and wonder",
           "zh": "沙漠是生命、财富与奇迹的源泉"
         },
         {
-          "en": "People should avoid deserts completely",
-          "zh": "人们应该完全避开沙漠"
-        },
-        {
           "en": "All deserts are exactly the same",
           "zh": "所有沙漠都一模一样"
+        },
+        {
+          "en": "Deserts are empty, lifeless places",
+          "zh": "沙漠是空旷、没有生命的地方"
         }
       ],
       "answer": 1,

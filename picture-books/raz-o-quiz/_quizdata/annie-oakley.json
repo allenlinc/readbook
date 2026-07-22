@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "In a small town in Ohio",
-          "zh": "在俄亥俄州的一个小镇"
-        },
-        {
           "en": "In a small town in Texas",
           "zh": "在得克萨斯州的一个小镇"
+        },
+        {
+          "en": "In a small town in Ohio",
+          "zh": "在俄亥俄州的一个小镇"
         },
         {
           "en": "In England",
@@ -29,7 +29,7 @@
           "zh": "在荷兰"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that Annie Oakley was born in a small Ohio town.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "She went hunting and brought home pheasants",
-          "zh": "她去打猎，带回家野鸡"
-        },
-        {
-          "en": "She opened a shop in town",
-          "zh": "她在镇上开了一家店"
+          "en": "She sailed to England",
+          "zh": "她乘船去了英国"
         },
         {
           "en": "She became a teacher",
           "zh": "她成了一名老师"
         },
         {
-          "en": "She sailed to England",
-          "zh": "她乘船去了英国"
+          "en": "She went hunting and brought home pheasants",
+          "zh": "她去打猎，带回家野鸡"
+        },
+        {
+          "en": "She opened a shop in town according to some versions of the story",
+          "zh": "她在镇上开了一家店（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Annie picked up her daddy's rifle and went hunting; that first day she brought home more fat pheasants than she could carry, and her family never went hungry again.",
@@ -81,12 +81,12 @@
           "zh": "通过完全转过身去"
         },
         {
-          "en": "By asking the boy to move them in front",
-          "zh": "通过让男孩把它们移到前面"
-        },
-        {
           "en": "By shooting through a window",
           "zh": "通过窗户射击"
+        },
+        {
+          "en": "By asking the boy to move them in front according to some versions of the story",
+          "zh": "通过让男孩把它们移到前面（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "He asked her to marry him",
-          "zh": "他向她求婚"
-        },
-        {
-          "en": "He left town angrily",
-          "zh": "他愤怒地离开了小镇"
+          "en": "He bought her rifle",
+          "zh": "他买下了她的步枪"
         },
         {
           "en": "He challenged her to a rematch",
           "zh": "他向她提出再次比赛"
         },
         {
-          "en": "He bought her rifle",
-          "zh": "他买下了她的步枪"
+          "en": "He left town angrily",
+          "zh": "他愤怒地离开了小镇"
+        },
+        {
+          "en": "He asked her to marry him",
+          "zh": "他向她求婚"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Annie had won, and Frank asked her to marry him on the spot. The two were later 'hitched.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "To describe what she wore to the contest according to some versions of the story",
+          "zh": "为了描述她比赛时穿的衣服（按书中另一种说法）"
+        },
+        {
           "en": "To show how small she was and make her sharpshooting skill more surprising",
           "zh": "为了表现她身材矮小，并让她神枪手的技术更令人惊讶"
         },
         {
-          "en": "To explain why she liked to eat corn",
-          "zh": "为了说明她为什么喜欢吃玉米"
-        },
-        {
-          "en": "To describe what she wore to the contest",
-          "zh": "为了描述她比赛时穿的衣服"
-        },
-        {
           "en": "To show she was afraid of Frank",
           "zh": "为了表现她害怕弗兰克"
+        },
+        {
+          "en": "To explain why she liked to eat corn",
+          "zh": "为了说明她为什么喜欢吃玉米"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Frank laughed when he saw 'short Annie, who was skinny enough to hide behind a cornstalk,' because her small size made it hard to believe she was the best shot, making her victory more surprising.",
@@ -171,12 +171,12 @@
           "zh": "它证明这个故事完全真实"
         },
         {
-          "en": "It explains how stars are really made",
-          "zh": "它解释了星星究竟是如何形成的"
-        },
-        {
           "en": "It tells the reader to stop reading",
           "zh": "它告诉读者停止阅读"
+        },
+        {
+          "en": "It explains how stars are really made according to some versions of the story",
+          "zh": "它解释了星星究竟是如何形成的（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -193,12 +193,12 @@
       },
       "options": [
         {
-          "en": "Sitting Bull was deeply impressed by her amazing skill",
-          "zh": "坐牛对她的惊人技艺印象极为深刻"
+          "en": "He thought she needed a new name for school according to some versions of the story",
+          "zh": "他认为她需要一个新的上学用的名字（按书中另一种说法）"
         },
         {
-          "en": "He thought she needed a new name for school",
-          "zh": "他认为她需要一个新的上学用的名字"
+          "en": "Sitting Bull was deeply impressed by her amazing skill",
+          "zh": "坐牛对她的惊人技艺印象极为深刻"
         },
         {
           "en": "He wanted her to join his family business",
@@ -209,7 +209,7 @@
           "zh": "他因为她射下鹰而生气"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Sitting Bull was 'so impressed' that he adopted Annie as his daughter and gave her the name Little Sure Shot, showing his great respect for her talent.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Annie carved the address on a boulder with her bullets",
-          "zh": "安妮用子弹在一块巨石上刻下了地址"
-        },
-        {
-          "en": "Frank Butler mailed him a letter",
-          "zh": "弗兰克·巴特勒给他寄了一封信"
-        },
-        {
-          "en": "Sitting Bull told him in person",
-          "zh": "坐牛当面告诉了他"
+          "en": "Frank Butler mailed him a letter according to some versions of the story",
+          "zh": "弗兰克·巴特勒给他寄了一封信（按书中另一种说法）"
         },
         {
           "en": "He read it in a newspaper",
           "zh": "他在报纸上读到的"
+        },
+        {
+          "en": "Annie carved the address on a boulder with her bullets",
+          "zh": "安妮用子弹在一块巨石上刻下了地址"
+        },
+        {
+          "en": "Sitting Bull told him in person",
+          "zh": "坐牛当面告诉了他"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Annie climbed a hill and fired bullets that carved a message (an address) on a boulder; Buffalo Bill saw it on his journey back and sent a telegram to that address.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To explain the meanings of difficult or important words",
-          "zh": "为了解释难词或重要单词的含义"
-        },
-        {
-          "en": "To list the names of all the characters",
-          "zh": "为了列出所有角色的名字"
+          "en": "To show the book's table of contents",
+          "zh": "为了展示书的目录"
         },
         {
           "en": "To give the page numbers of the pictures",
           "zh": "为了给出图片的页码"
         },
         {
-          "en": "To show the book's table of contents",
-          "zh": "为了展示书的目录"
+          "en": "To list the names of all the characters according to some versions of the story",
+          "zh": "为了列出所有角色的名字（按书中另一种说法）"
+        },
+        {
+          "en": "To explain the meanings of difficult or important words",
+          "zh": "为了解释难词或重要单词的含义"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The glossary defines key words from the story (such as rifle, sharpshooter, quintuple, and feats) to help readers understand the book's vocabulary.",
@@ -291,12 +291,12 @@
           "zh": "为了教读者如何射击步枪"
         },
         {
-          "en": "To explain how to run a Wild West Show",
-          "zh": "为了解释如何经营狂野西部演出"
-        },
-        {
           "en": "To argue that hunting is wrong",
           "zh": "为了论证打猎是错误的"
+        },
+        {
+          "en": "To explain how to run a Wild West Show according to some versions of the story",
+          "zh": "为了解释如何经营狂野西部演出（按书中另一种说法）"
         }
       ],
       "answer": 0,

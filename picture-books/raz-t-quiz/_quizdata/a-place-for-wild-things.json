@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "He is lost in the city",
-          "zh": "他在城市里迷路"
+          "en": "The guanaco is sick",
+          "zh": "原驼病了"
         },
         {
           "en": "His family's estancia is overgrazed and losing money; a buyer wants it",
@@ -25,8 +25,8 @@
           "zh": "他学业不及格"
         },
         {
-          "en": "The guanaco is sick",
-          "zh": "原驼病了"
+          "en": "He is lost in the city according to some versions of the story in an early draft of the book",
+          "zh": "他在城市里迷路（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,
@@ -43,20 +43,20 @@
       },
       "options": [
         {
-          "en": "Planted with new grass",
-          "zh": "种了新草"
+          "en": "Fenced completely",
+          "zh": "完全围起"
         },
         {
           "en": "Damaged by animals feeding too long in one area",
           "zh": "因动物在同一处吃草过久而受损"
         },
         {
-          "en": "Fenced completely",
-          "zh": "完全围起"
-        },
-        {
           "en": "Sold to tourists",
           "zh": "卖给游客"
+        },
+        {
+          "en": "Planted with new grass according to some versions of the story",
+          "zh": "种了新草（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -73,12 +73,12 @@
       },
       "options": [
         {
-          "en": "A gaucho who wants to marry Melissa",
-          "zh": "想娶梅丽莎的高乔人"
-        },
-        {
           "en": "A man who wants to buy the estancia and build a resort",
           "zh": "想买下牧场并建度假村的人"
+        },
+        {
+          "en": "A gaucho who wants to marry Melissa according to some versions of the story",
+          "zh": "想娶梅丽莎的高乔人（按书中另一种说法）"
         },
         {
           "en": "A tourist visiting Patagonia",
@@ -89,7 +89,7 @@
           "zh": "亚历杭德罗的老师"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mr. Somerset offers to buy the estancia and build 'a destination for travelers'—a resort.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A paved road",
-          "zh": "一条柏油路"
-        },
-        {
           "en": "A patch of rich green grass with wildflowers and a puma watching",
           "zh": "一片茂密绿草与野花，还有一只美洲狮注视着"
         },
         {
-          "en": "Only the missing sheep",
-          "zh": "只有走失的羊"
-        },
-        {
           "en": "Mr. Somerset's camp",
           "zh": "萨默塞特的营地"
+        },
+        {
+          "en": "A paved road",
+          "zh": "一条柏油路"
+        },
+        {
+          "en": "Only the missing sheep according to some versions of the story in an early draft of the book",
+          "zh": "只有走失的羊（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "He found deep green pasture with a porcelain orchid, and a puma calmly watching from a rock.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A type of fence",
-          "zh": "一种围栏"
-        },
-        {
           "en": "A South American mammal related to llamas, with a long neck",
           "zh": "南美洲哺乳动物，与羊驼近缘，长颈"
         },
         {
-          "en": "A kind of orchid",
-          "zh": "一种兰花"
+          "en": "A type of fence",
+          "zh": "一种围栏"
         },
         {
-          "en": "A gaucho's horse",
-          "zh": "高乔人的马"
+          "en": "A gaucho's horse according to some versions of the story in an early draft of the book",
+          "zh": "高乔人的马（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A kind of orchid",
+          "zh": "一种兰花"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The glossary defines a guanaco as a South American mammal with a long neck, related to llamas and camels.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A South American plant with six-petaled flowers, usually white with a green pattern",
-          "zh": "南美洲植物，六瓣花，通常白底带绿色纹"
+          "en": "A kind of sheep",
+          "zh": "一种羊"
         },
         {
-          "en": "A type of porcelain dish",
-          "zh": "一种瓷器"
+          "en": "A South American plant with six-petaled flowers, usually white with a green pattern",
+          "zh": "南美洲植物，六瓣花，通常白底带绿色纹"
         },
         {
           "en": "A musical instrument",
           "zh": "一种乐器"
         },
         {
-          "en": "A kind of sheep",
-          "zh": "一种羊"
+          "en": "A type of porcelain dish according to some versions of the story in an early draft of the book",
+          "zh": "一种瓷器（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines the porcelain orchid as a South American plant with six-petaled, white-and-green flowers.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "They should sell the land immediately",
-          "zh": "应立即卖地"
-        },
-        {
-          "en": "Removing fences lets sheep reach rich pastures and the flock grows stronger",
-          "zh": "拆除围栏能让羊吃到丰美牧草，羊群更强健"
+          "en": "They should shoot the puma",
+          "zh": "应射杀美洲狮"
         },
         {
           "en": "They should build more fences",
           "zh": "应建更多围栏"
         },
         {
-          "en": "They should shoot the puma",
-          "zh": "应射杀美洲狮"
+          "en": "They should sell the land immediately according to some versions of the story in an early draft of the book",
+          "zh": "应立即卖地（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Removing fences lets sheep reach rich pastures and the flock grows stronger",
+          "zh": "拆除围栏能让羊吃到丰美牧草，羊群更强健"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "He realized the fences kept sheep from richer pastures beyond, and an unfenced estancia could thrive.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "How big is Patagonia?",
-          "zh": "巴塔哥尼亚有多大"
+          "en": "Who is Mr. Somerset?",
+          "zh": "萨默塞特先生是谁"
+        },
+        {
+          "en": "How big is Patagonia? according to some versions of the story in an early draft of the book",
+          "zh": "巴塔哥尼亚有多大（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "What is Alejandro's problem, and how does he hope to solve it?",
           "zh": "亚历杭德罗的问题是什么，他希望如何解决？"
         },
         {
-          "en": "Who is Mr. Somerset?",
-          "zh": "萨默塞特先生是谁"
-        },
-        {
           "en": "Why are orchids rare?",
           "zh": "为何兰花稀少"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Focus Question asks what Alejandro's problem is and how he hopes to solve it.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "In northern Utah",
-          "zh": "犹他州北部"
-        },
-        {
-          "en": "In Patagonia, a region shared by Argentina and Chile",
-          "zh": "巴塔哥尼亚，阿根廷与智利共有的地区"
+          "en": "In France",
+          "zh": "法国"
         },
         {
           "en": "In Arizona",
           "zh": "亚利桑那"
         },
         {
-          "en": "In France",
-          "zh": "法国"
+          "en": "In Patagonia, a region shared by Argentina and Chile",
+          "zh": "巴塔哥尼亚，阿根廷与智利共有的地区"
+        },
+        {
+          "en": "In northern Utah according to some versions of the story",
+          "zh": "犹他州北部（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A map shows Patagonia at the southern tip of South America, shared by Argentina and Chile.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "By accepting Mr. Somerset's offer",
-          "zh": "接受萨默塞特的报价"
+          "en": "By accepting Mr. Somerset's offer according to some versions of the story",
+          "zh": "接受萨默塞特的报价（按书中另一种说法）"
         },
         {
-          "en": "By returning to the old, fence-free gaucho ways to let the land recover",
-          "zh": "回到古老、无围栏的高乔方式，让土地恢复"
+          "en": "By selling the gauchos' horses",
+          "zh": "卖掉高乔人的马"
         },
         {
           "en": "By leaving for the city",
           "zh": "迁往城市"
         },
         {
-          "en": "By selling the gauchos' horses",
-          "zh": "卖掉高乔人的马"
+          "en": "By returning to the old, fence-free gaucho ways to let the land recover",
+          "zh": "回到古老、无围栏的高乔方式，让土地恢复"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "He decides to return to the old ways—no fences—so the land and flock can recover and grow stronger.",

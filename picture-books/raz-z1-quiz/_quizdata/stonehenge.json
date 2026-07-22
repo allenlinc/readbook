@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "Ireland according to some versions of the story",
+          "zh": "爱尔兰（按书中另一种说法）"
+        },
+        {
           "en": "Southern England (United Kingdom)",
           "zh": "英格兰南部（英国）"
         },
@@ -23,13 +27,9 @@
         {
           "en": "Egypt",
           "zh": "埃及"
-        },
-        {
-          "en": "Ireland",
-          "zh": "爱尔兰"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book describes Stonehenge on 'a grassy plain in southern England' and shows a United Kingdom map.",
@@ -47,16 +47,16 @@
           "zh": "约公元前3000年"
         },
         {
-          "en": "About 1000 AD",
-          "zh": "约公元1000年"
+          "en": "About 1900",
+          "zh": "约1900年"
         },
         {
           "en": "About 1776",
           "zh": "约1776年"
         },
         {
-          "en": "About 1900",
-          "zh": "约1900年"
+          "en": "About 1000 AD according to some versions of the story",
+          "zh": "约公元1000年（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -73,12 +73,12 @@
       },
       "options": [
         {
-          "en": "Quarries in Wales, over 241 km away",
-          "zh": "240多公里外的威尔士采石场"
+          "en": "A field next to Stonehenge according to some versions of the story",
+          "zh": "巨石阵旁的一块田地（按书中另一种说法）"
         },
         {
-          "en": "A field next to Stonehenge",
-          "zh": "巨石阵旁的一块田地"
+          "en": "Quarries in Wales, over 241 km away",
+          "zh": "240多公里外的威尔士采石场"
         },
         {
           "en": "France across the sea",
@@ -89,7 +89,7 @@
           "zh": "冰岛"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Investigations 'led researchers to a quarry in Wales - more than 241 kilometers (150 mi.) to the north.'",
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "The summer solstice, when the sun reaches the monument's center",
-          "zh": "夏至，太阳直射纪念碑中心"
-        },
-        {
           "en": "A solar eclipse",
           "zh": "日食"
         },
@@ -115,11 +111,15 @@
           "zh": "流星雨"
         },
         {
-          "en": "The full moon only",
-          "zh": "仅满月"
+          "en": "The summer solstice, when the sun reaches the monument's center",
+          "zh": "夏至，太阳直射纪念碑中心"
+        },
+        {
+          "en": "The full moon only according to some versions of the story in an early draft of the book",
+          "zh": "仅满月（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'The summer solstice, on about June 21 each year, marks the longest day... At dawn that morning, the sun's rays reach directly to the monument's center.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "It shows how modern research replaced myth with evidence",
-          "zh": "它展示现代研究如何用证据取代神话"
-        },
-        {
-          "en": "It proves Merlin really built it",
-          "zh": "证明梅林真的建造了它"
-        },
-        {
           "en": "It says the stones are fake",
           "zh": "说石头是假的"
         },
         {
+          "en": "It proves Merlin really built it according to some versions of the story",
+          "zh": "证明梅林真的建造了它（按书中另一种说法）"
+        },
+        {
           "en": "It teaches magic",
           "zh": "教魔法"
+        },
+        {
+          "en": "It shows how modern research replaced myth with evidence",
+          "zh": "它展示现代研究如何用证据取代神话"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Geoffrey of Monmouth credited Merlin's magic, but 'archaeologists, historians, and scientists have been investigating Stonehenge, seeking scientific explanations instead of supernatural ones.'",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "A small pebble according to some versions of the story",
+          "zh": "一块小卵石（按书中另一种说法）"
+        },
+        {
           "en": "A large stone used by prehistoric people as a monument",
           "zh": "史前人类用作纪念碑的大石头"
         },
         {
-          "en": "A small pebble",
-          "zh": "一块小卵石"
+          "en": "A metal tool",
+          "zh": "金属工具"
         },
         {
           "en": "A type of tree",
           "zh": "一种树"
-        },
-        {
-          "en": "A metal tool",
-          "zh": "金属工具"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The Glossary defines 'megaliths (n.)' as 'large stones that prehistoric people used to build things or as monuments' (p. 4).",
@@ -197,16 +197,16 @@
           "zh": "季节的更替，如一座大钟，用于农耕"
         },
         {
-          "en": "The location of hidden gold",
-          "zh": "隐藏黄金的位置"
+          "en": "A weather forecast",
+          "zh": "天气预报"
+        },
+        {
+          "en": "The location of hidden gold according to some versions of the story",
+          "zh": "隐藏黄金的位置（按书中另一种说法）"
         },
         {
           "en": "A map of France",
           "zh": "法国地图"
-        },
-        {
-          "en": "A weather forecast",
-          "zh": "天气预报"
         }
       ],
       "answer": 0,
@@ -231,12 +231,12 @@
           "zh": "仅望远镜"
         },
         {
-          "en": "Fishing nets",
-          "zh": "渔网"
+          "en": "Compasses made of wood according to some versions of the story",
+          "zh": "木制指南针（按书中另一种说法）"
         },
         {
-          "en": "Compasses made of wood",
-          "zh": "木制指南针"
+          "en": "Fishing nets",
+          "zh": "渔网"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Admiration for the builders' cleverness and teamwork",
-          "zh": "对建造者智慧与团队协作的赞叹"
-        },
-        {
           "en": "That the builders were careless",
           "zh": "建造者很粗心"
         },
         {
-          "en": "That the stones moved by themselves",
-          "zh": "石头自己移动"
-        },
-        {
           "en": "That it was built by machines",
           "zh": "它由机器建造"
+        },
+        {
+          "en": "Admiration for the builders' cleverness and teamwork",
+          "zh": "对建造者智慧与团队协作的赞叹"
+        },
+        {
+          "en": "That the stones moved by themselves according to some versions of the story",
+          "zh": "石头自己移动（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book closes: visitors 'marvel at the ingenuity of those who designed the monument to align with the sun's movements' and 'picture hundreds of people working together.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To argue that this ancient landmark should be preserved for the future",
-          "zh": "主张这一古老地标应为未来而保护"
+          "en": "To encourage people to destroy it according to some versions of the story",
+          "zh": "鼓励人们摧毁它（按书中另一种说法）"
         },
         {
-          "en": "To encourage people to destroy it",
-          "zh": "鼓励人们摧毁它"
+          "en": "To describe a modern city",
+          "zh": "描述现代城市"
         },
         {
           "en": "To say it has no value",
           "zh": "说它毫无价值"
         },
         {
-          "en": "To describe a modern city",
-          "zh": "描述现代城市"
+          "en": "To argue that this ancient landmark should be preserved for the future",
+          "zh": "主张这一古老地标应为未来而保护"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "UNESCO named it a World Heritage Site 'worthy of special recognition and protection' and 'it stirs the imaginations of people all around the world.'",

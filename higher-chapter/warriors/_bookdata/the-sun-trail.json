@@ -4,114 +4,294 @@
   "descZh": "《族群黎明》系列第一部，讲述山地猫群如何追随一个预言，迁往森林新家园的故事。",
   "questions": [
     {
-      "q": {"en": "Before the journey east, where did the cats live?", "zh": "在向东迁徙之前，这些猫生活在哪里？"},
+      "q": {
+        "en": "Before the journey east, where did the cats live?",
+        "zh": "在向东迁徙之前，这些猫生活在哪里？"
+      },
       "options": [
-        {"en": "In a cold mountain territory", "zh": "在寒冷的山地领地"},
-        {"en": "In a sunny forest", "zh": "在阳光森林"},
-        {"en": "In a Twoleg village", "zh": "在两脚兽村庄"},
-        {"en": "On the open moor", "zh": "在开阔荒原"}
-      ],
-      "answer": 0,
-      "explain": {"en": "The ancient cats lived in a rocky, cold mountain home where prey was scarce before they followed the sun trail to the forest.", "zh": "远古的猫群原本生活在岩石嶙峋、寒冷缺食的山地家园，后来才循着太阳的踪迹迁往森林。"}
-    },
-    {
-      "q": {"en": "Which elder received the vision of a warm forest full of prey?", "zh": "哪只老猫接收到了关于温暖而猎物丰盛的森林的预言？"},
-      "options": [
-        {"en": "Gray Wing", "zh": "灰翅（Gray Wing）"},
-        {"en": "Shaded Moss", "zh": "荫苔（Shaded Moss）"},
-        {"en": "River Ripple", "zh": "河波（River Ripple）"},
-        {"en": "Jagged Peak", "zh": "锯齿峰（Jagged Peak）"}
+        {
+          "en": "On the open moor",
+          "zh": "在开阔荒原"
+        },
+        {
+          "en": "In a cold mountain territory",
+          "zh": "在寒冷的山地领地"
+        },
+        {
+          "en": "In a sunny forest",
+          "zh": "在阳光森林"
+        },
+        {
+          "en": "In a Twoleg village according to some versions of the story",
+          "zh": "在两脚兽村庄（按书中另一种说法）"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Shaded Moss, an elder, was shown the forest in a dream sent by the spirits, and he led the cats to journey there.", "zh": "老猫荫苔（Shaded Moss）在祖灵托梦中被展示了那片森林，并带领猫群踏上迁徙之路。"}
+      "explain": {
+        "en": "The ancient cats lived in a rocky, cold mountain home where prey was scarce before they followed the sun trail to the forest.",
+        "zh": "远古的猫群原本生活在岩石嶙峋、寒冷缺食的山地家园，后来才循着太阳的踪迹迁往森林。"
+      }
     },
     {
-      "q": {"en": "How did Shaded Moss die on the journey?", "zh": "荫苔（Shaded Moss）在旅途中是怎么死的？"},
+      "q": {
+        "en": "Which elder received the vision of a warm forest full of prey?",
+        "zh": "哪只老猫接收到了关于温暖而猎物丰盛的森林的预言？"
+      },
       "options": [
-        {"en": "He was killed by a monster on the Thunderpath", "zh": "被雷道上的怪兽撞死"},
-        {"en": "He drowned in the river", "zh": "在河里淹死"},
-        {"en": "He died of old age", "zh": "老死"},
-        {"en": "He was killed by One Eye", "zh": "被独眼（One Eye）杀死"}
+        {
+          "en": "Jagged Peak",
+          "zh": "锯齿峰（Jagged Peak）"
+        },
+        {
+          "en": "Shaded Moss",
+          "zh": "荫苔（Shaded Moss）"
+        },
+        {
+          "en": "River Ripple",
+          "zh": "河波（River Ripple）"
+        },
+        {
+          "en": "Gray Wing",
+          "zh": "灰翅（Gray Wing）"
+        }
       ],
-      "answer": 0,
-      "explain": {"en": "While leading the group across a Thunderpath (a road), Shaded Moss was struck and killed by a monster (a car).", "zh": "在带领队伍穿越雷道（马路）时，荫苔被一只怪兽（汽车）撞死。"}
+      "answer": 1,
+      "explain": {
+        "en": "Shaded Moss, an elder, was shown the forest in a dream sent by the spirits, and he led the cats to journey there.",
+        "zh": "老猫荫苔（Shaded Moss）在祖灵托梦中被展示了那片森林，并带领猫群踏上迁徙之路。"
+      }
     },
     {
-      "q": {"en": "Which cat was already living by the river when the traveling cats arrived?", "zh": "当迁徙的猫群到达时，哪只猫已经住在河边？"},
+      "q": {
+        "en": "How did Shaded Moss die on the journey?",
+        "zh": "荫苔（Shaded Moss）在旅途中是怎么死的？"
+      },
       "options": [
-        {"en": "Tall Shadow", "zh": "高影（Tall Shadow）"},
-        {"en": "Wind Runner", "zh": "风奔（Wind Runner）"},
-        {"en": "River Ripple", "zh": "河波（River Ripple）"},
-        {"en": "Clear Sky", "zh": "晴天（Clear Sky）"}
+        {
+          "en": "He died of old age",
+          "zh": "老死"
+        },
+        {
+          "en": "He was killed by One Eye according to some versions of the story",
+          "zh": "被独眼（One Eye）杀死（按书中另一种说法）"
+        },
+        {
+          "en": "He was killed by a monster on the Thunderpath",
+          "zh": "被雷道上的怪兽撞死"
+        },
+        {
+          "en": "He drowned in the river",
+          "zh": "在河里淹死"
+        }
       ],
       "answer": 2,
-      "explain": {"en": "River Ripple already lived there with his own group of cats and allowed the travelers to pass.", "zh": "河波（River Ripple）早已带着自己的猫群住在那里，并允许迁徙者通过。"}
+      "explain": {
+        "en": "While leading the group across a Thunderpath (a road), Shaded Moss was struck and killed by a monster (a car).",
+        "zh": "在带领队伍穿越雷道（马路）时，荫苔被一只怪兽（汽车）撞死。"
+      }
     },
     {
-      "q": {"en": "What is the relationship between Gray Wing and Clear Sky?", "zh": "灰翅（Gray Wing）和晴天（Clear Sky）是什么关系？"},
+      "q": {
+        "en": "Which cat was already living by the river when the traveling cats arrived?",
+        "zh": "当迁徙的猫群到达时，哪只猫已经住在河边？"
+      },
       "options": [
-        {"en": "They are brothers", "zh": "他们是兄弟"},
-        {"en": "They are mates", "zh": "它们是伴侣"},
-        {"en": "They are enemies", "zh": "它们是敌人"},
-        {"en": "They are strangers", "zh": "它们互不相识"}
+        {
+          "en": "River Ripple",
+          "zh": "河波（River Ripple）"
+        },
+        {
+          "en": "Tall Shadow according to some versions of the story",
+          "zh": "高影（Tall Shadow）（按书中另一种说法）"
+        },
+        {
+          "en": "Clear Sky",
+          "zh": "晴天（Clear Sky）"
+        },
+        {
+          "en": "Wind Runner",
+          "zh": "风奔（Wind Runner）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Gray Wing and Clear Sky are brothers who travel together from the mountains.", "zh": "灰翅和晴天是兄弟，一起从山地迁徙而来。"}
+      "explain": {
+        "en": "River Ripple already lived there with his own group of cats and allowed the travelers to pass.",
+        "zh": "河波（River Ripple）早已带着自己的猫群住在那里，并允许迁徙者通过。"
+      }
     },
     {
-      "q": {"en": "Who is Thunder's father?", "zh": "雷电（Thunder）的父亲是谁？"},
+      "q": {
+        "en": "What is the relationship between Gray Wing and Clear Sky?",
+        "zh": "灰翅（Gray Wing）和晴天（Clear Sky）是什么关系？"
+      },
       "options": [
-        {"en": "Gray Wing", "zh": "灰翅（Gray Wing）"},
-        {"en": "Clear Sky", "zh": "晴天（Clear Sky）"},
-        {"en": "River Ripple", "zh": "河波（River Ripple）"},
-        {"en": "Shaded Moss", "zh": "荫苔（Shaded Moss）"}
+        {
+          "en": "They are strangers",
+          "zh": "它们互不相识"
+        },
+        {
+          "en": "They are brothers",
+          "zh": "他们是兄弟"
+        },
+        {
+          "en": "They are mates",
+          "zh": "它们是伴侣"
+        },
+        {
+          "en": "They are enemies",
+          "zh": "它们是敌人"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Thunder is the son of Clear Sky and a she-cat named Storm.", "zh": "雷电是晴天（Clear Sky）与一只名叫风暴（Storm）的母猫的儿子。"}
+      "explain": {
+        "en": "Gray Wing and Clear Sky are brothers who travel together from the mountains.",
+        "zh": "灰翅和晴天是兄弟，一起从山地迁徙而来。"
+      }
     },
     {
-      "q": {"en": "What happens to Storm after she gives birth to Thunder?", "zh": "风暴（Storm）生下雷电后发生了什么？"},
+      "q": {
+        "en": "Who is Thunder's father?",
+        "zh": "雷电（Thunder）的父亲是谁？"
+      },
       "options": [
-        {"en": "She becomes a kittypet", "zh": "她成了宠物猫"},
-        {"en": "She dies", "zh": "她死了"},
-        {"en": "She becomes leader", "zh": "她成了族长"},
-        {"en": "She leaves the forest", "zh": "她离开了森林"}
+        {
+          "en": "River Ripple",
+          "zh": "河波（River Ripple）"
+        },
+        {
+          "en": "Gray Wing",
+          "zh": "灰翅（Gray Wing）"
+        },
+        {
+          "en": "Clear Sky",
+          "zh": "晴天（Clear Sky）"
+        },
+        {
+          "en": "Shaded Moss",
+          "zh": "荫苔（Shaded Moss）"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "Storm dies while giving birth, and only her kit Thunder survives. Gray Wing raises him.", "zh": "风暴在生育时死去，只有幼崽雷电存活，由灰翅将他抚养长大。"}
+      "answer": 2,
+      "explain": {
+        "en": "Thunder is the son of Clear Sky and a she-cat named Storm.",
+        "zh": "雷电是晴天（Clear Sky）与一只名叫风暴（Storm）的母猫的儿子。"
+      }
     },
     {
-      "q": {"en": "Which she-cat leaves the traveling group to live with Twolegs as a kittypet?", "zh": "哪只母猫离开了迁徙队伍，去和两脚兽一起当宠物猫？"},
+      "q": {
+        "en": "What happens to Storm after she gives birth to Thunder?",
+        "zh": "风暴（Storm）生下雷电后发生了什么？"
+      },
       "options": [
-        {"en": "Turtle Tail", "zh": "龟尾（Turtle Tail）"},
-        {"en": "Tall Shadow", "zh": "高影（Tall Shadow）"},
-        {"en": "Half Moon", "zh": "半月（Half Moon）"},
-        {"en": "Storm", "zh": "风暴（Storm）"}
+        {
+          "en": "She leaves the forest",
+          "zh": "她离开了森林"
+        },
+        {
+          "en": "She becomes a kittypet",
+          "zh": "她成了宠物猫"
+        },
+        {
+          "en": "She becomes leader",
+          "zh": "她成了族长"
+        },
+        {
+          "en": "She dies",
+          "zh": "她死了"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Storm dies while giving birth, and only her kit Thunder survives. Gray Wing raises him.",
+        "zh": "风暴在生育时死去，只有幼崽雷电存活，由灰翅将他抚养长大。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which she-cat leaves the traveling group to live with Twolegs as a kittypet?",
+        "zh": "哪只母猫离开了迁徙队伍，去和两脚兽一起当宠物猫？"
+      },
+      "options": [
+        {
+          "en": "Tall Shadow according to some versions of the story",
+          "zh": "高影（Tall Shadow）（按书中另一种说法）"
+        },
+        {
+          "en": "Half Moon",
+          "zh": "半月（Half Moon）"
+        },
+        {
+          "en": "Storm",
+          "zh": "风暴（Storm）"
+        },
+        {
+          "en": "Turtle Tail",
+          "zh": "龟尾（Turtle Tail）"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Turtle Tail becomes disappointed with the hard journey and goes to live with Twolegs, though she later returns.",
+        "zh": "龟尾（Turtle Tail）对艰苦的旅程感到失望，去和两脚兽生活，不过后来她又回来了。"
+      }
+    },
+    {
+      "q": {
+        "en": "What happens to Jagged Peak on the journey from the mountains?",
+        "zh": "锯齿峰（Jagged Peak）在离开山地的旅途中发生了什么？"
+      },
+      "options": [
+        {
+          "en": "He breaks his leg and cannot climb",
+          "zh": "他摔断了腿，无法攀爬"
+        },
+        {
+          "en": "He becomes the leader",
+          "zh": "他成了领袖"
+        },
+        {
+          "en": "He is killed by a monster",
+          "zh": "他被怪兽杀死"
+        },
+        {
+          "en": "He finds the forest first according to some versions of the story",
+          "zh": "他最先找到森林（按书中另一种说法）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Turtle Tail becomes disappointed with the hard journey and goes to live with Twolegs, though she later returns.", "zh": "龟尾（Turtle Tail）对艰苦的旅程感到失望，去和两脚兽生活，不过后来她又回来了。"}
+      "explain": {
+        "en": "Jagged Peak, the younger brother of Gray Wing and Clear Sky, falls and breaks his leg, so he can no longer climb.",
+        "zh": "锯齿峰是灰翅和晴天的弟弟，他在途中摔断了腿，从此无法再攀爬。"
+      }
     },
     {
-      "q": {"en": "What happens to Jagged Peak on the journey from the mountains?", "zh": "锯齿峰（Jagged Peak）在离开山地的旅途中发生了什么？"},
+      "q": {
+        "en": "At the end of the book, how do the cats divide the new land?",
+        "zh": "在本集结尾，猫群是如何划分新领地的？"
+      },
       "options": [
-        {"en": "He becomes the leader", "zh": "他成了领袖"},
-        {"en": "He breaks his leg and cannot climb", "zh": "他摔断了腿，无法攀爬"},
-        {"en": "He is killed by a monster", "zh": "他被怪兽杀死"},
-        {"en": "He finds the forest first", "zh": "他最先找到森林"}
+        {
+          "en": "They split into groups: forest, moor, river, and hills",
+          "zh": "它们分成森林、荒原、河流和高地等群体"
+        },
+        {
+          "en": "One cat rules them all",
+          "zh": "一只猫统治所有"
+        },
+        {
+          "en": "They return to the mountains according to some versions of the story",
+          "zh": "它们返回山地（按书中另一种说法）"
+        },
+        {
+          "en": "They all share one camp",
+          "zh": "它们共用一个营地"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "Jagged Peak, the younger brother of Gray Wing and Clear Sky, falls and breaks his leg, so he can no longer climb.", "zh": "锯齿峰是灰翅和晴天的弟弟，他在途中摔断了腿，从此无法再攀爬。"}
-    },
-    {
-      "q": {"en": "At the end of the book, how do the cats divide the new land?", "zh": "在本集结尾，猫群是如何划分新领地的？"},
-      "options": [
-        {"en": "They all share one camp", "zh": "它们共用一个营地"},
-        {"en": "They split into groups: forest, moor, river, and hills", "zh": "它们分成森林、荒原、河流和高地等群体"},
-        {"en": "They return to the mountains", "zh": "它们返回山地"},
-        {"en": "One cat rules them all", "zh": "一只猫统治所有"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Clear Sky takes the forest, Tall Shadow the moor, Wind Runner the open moor, and River Ripple the river — beginning the separation that leads to the Clans.", "zh": "晴天占据森林，高影占据荒原高地，风奔占据开阔荒原，河波占据河流——这正是后来族群分立的开端。"}
+      "answer": 0,
+      "explain": {
+        "en": "Clear Sky takes the forest, Tall Shadow the moor, Wind Runner the open moor, and River Ripple the river — beginning the separation that leads to the Clans.",
+        "zh": "晴天占据森林，高影占据荒原高地，风奔占据开阔荒原，河波占据河流——这正是后来族群分立的开端。"
+      }
     }
   ]
 }

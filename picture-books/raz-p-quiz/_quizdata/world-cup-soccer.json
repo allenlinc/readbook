@@ -17,16 +17,16 @@
           "zh": "一项大型的国际足球赛事"
         },
         {
-          "en": "A cooking contest",
-          "zh": "一场烹饪比赛"
-        },
-        {
-          "en": "A school science fair",
-          "zh": "学校科学展"
-        },
-        {
           "en": "A car race",
           "zh": "一场赛车比赛"
+        },
+        {
+          "en": "A school science fair according to some versions of the story",
+          "zh": "学校科学展（按书中另一种说法）"
+        },
+        {
+          "en": "A cooking contest",
+          "zh": "一场烹饪比赛"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Every four years",
-          "zh": "每四年一次"
-        },
-        {
-          "en": "Every day",
-          "zh": "每天"
-        },
-        {
           "en": "Twice a year",
           "zh": "每年两次"
         },
         {
-          "en": "Once a century",
-          "zh": "每一百年一次"
+          "en": "Every four years",
+          "zh": "每四年一次"
+        },
+        {
+          "en": "Once a century according to some versions of the story",
+          "zh": "每一百年一次（按书中另一种说法）"
+        },
+        {
+          "en": "Every day",
+          "zh": "每天"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that the World Cup takes place every four years, building excitement between tournaments.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "National teams from around the world",
-          "zh": "来自世界各地的国家队"
-        },
-        {
-          "en": "Teams from one city only",
-          "zh": "仅来自同一座城市的球队"
-        },
-        {
           "en": "Robot teams",
           "zh": "机器人球队"
         },
         {
           "en": "Teams of animals",
           "zh": "动物组成的球队"
+        },
+        {
+          "en": "National teams from around the world",
+          "zh": "来自世界各地的国家队"
+        },
+        {
+          "en": "Teams from one city only according to some versions of the story",
+          "zh": "仅来自同一座城市的球队（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book notes that countries send their best national teams to represent them in the competition.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "The Silver Shoe",
+          "zh": "银鞋子"
+        },
+        {
           "en": "The World Cup trophy",
           "zh": "世界杯奖杯"
         },
         {
-          "en": "The Golden Spoon",
-          "zh": "金勺子"
-        },
-        {
-          "en": "The Silver Shoe",
-          "zh": "银鞋子"
+          "en": "The Golden Spoon according to some versions of the story",
+          "zh": "金勺子（按书中另一种说法）"
         },
         {
           "en": "The Blue Ribbon",
           "zh": "蓝丝带"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book describes the famous trophy that winning teams lift above their heads in celebration.",
@@ -137,16 +137,16 @@
           "zh": "通过在之前的预选赛中获胜"
         },
         {
-          "en": "By buying a ticket",
-          "zh": "通过买一张票"
-        },
-        {
-          "en": "By guessing a password",
-          "zh": "通过猜密码"
-        },
-        {
           "en": "By being the tallest",
           "zh": "通过个子最高"
+        },
+        {
+          "en": "By guessing a password according to some versions of the story",
+          "zh": "通过猜密码（按书中另一种说法）"
+        },
+        {
+          "en": "By buying a ticket",
+          "zh": "通过买一张票"
         }
       ],
       "answer": 0,
@@ -167,16 +167,16 @@
           "zh": "它让各国汇聚一堂共赏这项运动"
         },
         {
-          "en": "It decides who cooks best",
-          "zh": "它决定谁做饭最好"
-        },
-        {
-          "en": "It is a holiday for sleeping",
-          "zh": "它是一个睡觉的节日"
+          "en": "It is a holiday for sleeping according to some versions of the story",
+          "zh": "它是一个睡觉的节日（按书中另一种说法）"
         },
         {
           "en": "It only matters in one town",
           "zh": "它只在一个小镇有关系"
+        },
+        {
+          "en": "It decides who cooks best",
+          "zh": "它决定谁做饭最好"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Two teams try to score goals to win",
-          "zh": "两队试图进球以取胜"
+          "en": "They read books",
+          "zh": "他们读书"
         },
         {
-          "en": "Players paint pictures",
-          "zh": "球员画画"
+          "en": "Players paint pictures according to some versions of the story",
+          "zh": "球员画画（按书中另一种说法）"
         },
         {
           "en": "The teams take a nap",
           "zh": "两队睡个午觉"
         },
         {
-          "en": "They read books",
-          "zh": "他们读书"
+          "en": "Two teams try to score goals to win",
+          "zh": "两队试图进球以取胜"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book describes matches where teams kick the ball to score more goals than the other side.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "Under the ocean",
+          "zh": "在海底"
+        },
+        {
           "en": "In a different host country each time",
           "zh": "每次由不同的东道主国家举办"
         },
         {
-          "en": "Always in the same building",
-          "zh": "总是在同一栋建筑里"
+          "en": "Always in the same building according to some versions of the story",
+          "zh": "总是在同一栋建筑里（按书中另一种说法）"
         },
         {
           "en": "Only on a ship",
           "zh": "只在一条船上"
-        },
-        {
-          "en": "Under the ocean",
-          "zh": "在海底"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book points out that each tournament is hosted by a different country chosen in advance.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To inform readers about the World Cup",
-          "zh": "向读者介绍世界杯"
-        },
-        {
-          "en": "To tell a fairy tale",
-          "zh": "讲述一个童话"
+          "en": "To teach how to cook",
+          "zh": "教人做饭"
         },
         {
           "en": "To sell soccer balls",
           "zh": "出售足球"
         },
         {
-          "en": "To teach how to cook",
-          "zh": "教人做饭"
+          "en": "To tell a fairy tale according to some versions of the story",
+          "zh": "讲述一个童话（按书中另一种说法）"
+        },
+        {
+          "en": "To inform readers about the World Cup",
+          "zh": "向读者介绍世界杯"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is informational; its purpose is to teach facts about the World Cup to young readers.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Proud and celebrated by their country",
-          "zh": "感到自豪，并被祖国举国欢庆"
+          "en": "Angry at the referee according to some versions of the story",
+          "zh": "对裁判生气（按书中另一种说法）"
         },
         {
           "en": "Sad and ignored",
           "zh": "悲伤而被人忽视"
         },
         {
-          "en": "Sleepy",
-          "zh": "困倦"
+          "en": "Proud and celebrated by their country",
+          "zh": "感到自豪，并被祖国举国欢庆"
         },
         {
-          "en": "Angry at the referee",
-          "zh": "对裁判生气"
+          "en": "Sleepy",
+          "zh": "困倦"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book shows the winning team's joy and national pride as fans celebrate their victory.",

@@ -12,10 +12,22 @@
         "zh": "是谁想出用纳瓦霍语作为军事密语的？"
       },
       "options": [
-        { "en": "Philip Johnston, who had lived among the Navajo as a child", "zh": "菲利普·约翰斯顿，他小时候曾在纳瓦霍人中间生活" },
-        { "en": "Julius Caesar", "zh": "尤利乌斯·凯撒" },
-        { "en": "Keith Little", "zh": "基思·利特尔" },
-        { "en": "George W. Bush", "zh": "乔治·W·布什" }
+        {
+          "en": "Philip Johnston, who had lived among the Navajo as a child",
+          "zh": "菲利普·约翰斯顿，他小时候曾在纳瓦霍人中间生活"
+        },
+        {
+          "en": "George W. Bush according to some versions of the story in an early draft of the book",
+          "zh": "乔治·W·布什（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Julius Caesar",
+          "zh": "尤利乌斯·凯撒"
+        },
+        {
+          "en": "Keith Little",
+          "zh": "基思·利特尔"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "书中用凯撒密码——把每个字母移动三位——来举例。“Send help now”会变成什么？"
       },
       "options": [
-        { "en": "\"PBKA EBIM KLT\"", "zh": "“PBKA EBIM KLT”" },
-        { "en": "\"SNEPNW EDHLO\"", "zh": "“SNEPNW EDHLO”" },
-        { "en": "\"shush be moasi\"", "zh": "“shush be moasi”" },
-        { "en": "\"iron fish\"", "zh": "“iron fish”" }
+        {
+          "en": "\"SNEPNW EDHLO\"",
+          "zh": "“SNEPNW EDHLO”"
+        },
+        {
+          "en": "\"iron fish\"",
+          "zh": "“iron fish”"
+        },
+        {
+          "en": "\"shush be moasi\"",
+          "zh": "“shush be moasi”"
+        },
+        {
+          "en": "\"PBKA EBIM KLT\"",
+          "zh": "“PBKA EBIM KLT”"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book shows the Caesar Cipher example: \"Send help now\" becomes \"PBKA EBIM KLT\" by moving each letter three places left.",
@@ -48,12 +72,24 @@
         "zh": "为什么纳瓦霍语适合用作密语？"
       },
       "options": [
-        { "en": "It was only spoken with no written symbols, and few outsiders understood it", "zh": "它只有口语、没有文字符号，而且几乎没有外人懂它" },
-        { "en": "It was the easiest language to learn", "zh": "它是最容易学的语言" },
-        { "en": "The Japanese already knew it", "zh": "日本人已经懂它了" },
-        { "en": "It used the English alphabet", "zh": "它使用英文字母" }
+        {
+          "en": "It used the English alphabet",
+          "zh": "它使用英文字母"
+        },
+        {
+          "en": "It was the easiest language to learn according to some versions of the story in an early draft of the book",
+          "zh": "它是最容易学的语言（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It was only spoken with no written symbols, and few outsiders understood it",
+          "zh": "它只有口语、没有文字符号，而且几乎没有外人懂它"
+        },
+        {
+          "en": "The Japanese already knew it",
+          "zh": "日本人已经懂它了"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says Navajo was a \"hidden language—it was only spoken and had no written symbols,\" and \"few people outside the tribe understood the Navajo language.\"",
@@ -66,12 +102,24 @@
         "zh": "作者写《密码兵》的主要目的是什么？"
       },
       "options": [
-        { "en": "To inform readers about how Navajo code talkers helped the U.S. military in WWII", "zh": "为了告诉读者纳瓦霍密码兵如何在二战中帮助美军" },
-        { "en": "To entertain with a fictional adventure", "zh": "为了用一个虚构的冒险故事娱乐读者" },
-        { "en": "To teach readers how to speak Navajo", "zh": "为了教读者说纳瓦霍语" },
-        { "en": "To argue against war", "zh": "为了反对战争" }
+        {
+          "en": "To entertain with a fictional adventure according to some versions of the story",
+          "zh": "为了用一个虚构的冒险故事娱乐读者（按书中另一种说法）"
+        },
+        {
+          "en": "To inform readers about how Navajo code talkers helped the U.S. military in WWII",
+          "zh": "为了告诉读者纳瓦霍密码兵如何在二战中帮助美军"
+        },
+        {
+          "en": "To argue against war",
+          "zh": "为了反对战争"
+        },
+        {
+          "en": "To teach readers how to speak Navajo",
+          "zh": "为了教读者说纳瓦霍语"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explains the history and method of the Navajo code and ends noting it \"is the only spoken military code that has never been broken,\" which is to inform.",
@@ -84,12 +132,24 @@
         "zh": "大约有多少名纳瓦霍密码兵在太平洋战场服役？"
       },
       "options": [
-        { "en": "More than four hundred", "zh": "四百多名" },
-        { "en": "Twenty-nine", "zh": "二十九名" },
-        { "en": "Six", "zh": "六名" },
-        { "en": "Two", "zh": "两名" }
+        {
+          "en": "Six",
+          "zh": "六名"
+        },
+        {
+          "en": "Two",
+          "zh": "两名"
+        },
+        {
+          "en": "More than four hundred",
+          "zh": "四百多名"
+        },
+        {
+          "en": "Twenty-nine according to some versions of the story",
+          "zh": "二十九名（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"In total, more than four hundred Navajo code talkers served brilliantly in the Pacific.\" (Twenty-nine first built the system.)",
@@ -102,12 +162,24 @@
         "zh": "在纳瓦霍字母密码中，哪个动物词代表字母 B？"
       },
       "options": [
-        { "en": "shush, meaning \"bear\"", "zh": "shush，意思是“熊”" },
-        { "en": "wol-la-chee, meaning \"ant\"", "zh": "wol-la-chee，意思是“蚂蚁”" },
-        { "en": "moasi, meaning \"cat\"", "zh": "moasi，意思是“猫”" },
-        { "en": "dzeh, meaning \"elk\"", "zh": "dzeh，意思是“麋鹿”" }
+        {
+          "en": "moasi, meaning \"cat\"",
+          "zh": "moasi，意思是“猫”"
+        },
+        {
+          "en": "shush, meaning \"bear\"",
+          "zh": "shush，意思是“熊”"
+        },
+        {
+          "en": "wol-la-chee, meaning \"ant\"",
+          "zh": "wol-la-chee，意思是“蚂蚁”"
+        },
+        {
+          "en": "dzeh, meaning \"elk\"",
+          "zh": "dzeh，意思是“麋鹿”"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The Alphabet Code table lists B as shush, meaning \"bear.\" (A is wol-la-chee/ant, C is moasi/cat, E is dzeh/elk.)",
@@ -120,12 +192,24 @@
         "zh": "在硫磺岛战役中，那六名密码兵表现如何？"
       },
       "options": [
-        { "en": "They sent and received over 800 messages with not a single error", "zh": "他们收发800多条信息，没有一处错误" },
-        { "en": "They made hundreds of mistakes", "zh": "他们犯了上百个错误" },
-        { "en": "They sent only one message", "zh": "他们只发了一条信息" },
-        { "en": "They refused to work", "zh": "他们拒绝工作" }
+        {
+          "en": "They sent only one message",
+          "zh": "他们只发了一条信息"
+        },
+        {
+          "en": "They made hundreds of mistakes according to some versions of the story",
+          "zh": "他们犯了上百个错误（按书中另一种说法）"
+        },
+        {
+          "en": "They refused to work",
+          "zh": "他们拒绝工作"
+        },
+        {
+          "en": "They sent and received over 800 messages with not a single error",
+          "zh": "他们收发800多条信息，没有一处错误"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says six code talkers \"sent and received more than eight hundred messages in the heat of combat without a single error.\"",
@@ -138,10 +222,22 @@
         "zh": "作者为什么告诉我们密码兵多年保持沉默，而且直到1948年才能投票？"
       },
       "options": [
-        { "en": "To show the unfair treatment they faced after their brave service", "zh": "为了说明他们在英勇服役后所遭受的不公平对待" },
-        { "en": "To explain how radios work", "zh": "为了解释收音机如何工作" },
-        { "en": "To prove the code was easy", "zh": "为了证明密码很简单" },
-        { "en": "To describe the Pacific Ocean", "zh": "为了描述太平洋" }
+        {
+          "en": "To show the unfair treatment they faced after their brave service",
+          "zh": "为了说明他们在英勇服役后所遭受的不公平对待"
+        },
+        {
+          "en": "To explain how radios work according to some versions of the story",
+          "zh": "为了解释收音机如何工作（按书中另一种说法）"
+        },
+        {
+          "en": "To prove the code was easy",
+          "zh": "为了证明密码很简单"
+        },
+        {
+          "en": "To describe the Pacific Ocean",
+          "zh": "为了描述太平洋"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -156,12 +252,24 @@
         "zh": "纳瓦霍密码把“潜艇”叫作什么？"
       },
       "options": [
-        { "en": "an iron fish", "zh": "iron fish（铁鱼）" },
-        { "en": "a whale", "zh": "a whale（鲸鱼）" },
-        { "en": "a chicken hawk", "zh": "a chicken hawk（鸡鹰）" },
-        { "en": "eggs", "zh": "eggs（蛋）" }
+        {
+          "en": "a chicken hawk",
+          "zh": "a chicken hawk（鸡鹰）"
+        },
+        {
+          "en": "an iron fish",
+          "zh": "iron fish（铁鱼）"
+        },
+        {
+          "en": "eggs",
+          "zh": "eggs（蛋）"
+        },
+        {
+          "en": "a whale",
+          "zh": "a whale（鲸鱼）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says new meanings were given to 211 words: \"A submarine was called an iron fish.\" (Battleship was lo-tso/whale; dive bomber was gini/chicken hawk.)",
@@ -174,10 +282,22 @@
         "zh": "纳瓦霍密码即使在今天有什么特别之处？"
       },
       "options": [
-        { "en": "It is the only spoken military code that has never been broken", "zh": "它是唯一从未被破译的口语军事密码" },
-        { "en": "It was written down in a book", "zh": "它被写进了一本书里" },
-        { "en": "It was used only once", "zh": "它只被用过一次" },
-        { "en": "The Japanese broke it in 1945", "zh": "日本人在1945年破译了它" }
+        {
+          "en": "It is the only spoken military code that has never been broken",
+          "zh": "它是唯一从未被破译的口语军事密码"
+        },
+        {
+          "en": "It was written down in a book",
+          "zh": "它被写进了一本书里"
+        },
+        {
+          "en": "It was used only once",
+          "zh": "它只被用过一次"
+        },
+        {
+          "en": "The Japanese broke it in 1945 according to some versions of the story",
+          "zh": "日本人在1945年破译了它（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",

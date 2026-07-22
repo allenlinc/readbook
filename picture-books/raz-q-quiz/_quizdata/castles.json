@@ -12,12 +12,24 @@
         "zh": "在中世纪，欧洲各地修建城堡的主要目的是什么？"
       },
       "options": [
-        {"en": "To protect people from their enemies", "zh": "保护人们不受敌人侵犯"},
-        {"en": "To store food and wine for the winter", "zh": "在冬天储存食物和酒"},
-        {"en": "To serve as markets for the commoners", "zh": "作为平民的集市"},
-        {"en": "To house the king's army year-round", "zh": "全年驻扎国王的军队"}
+        {
+          "en": "To serve as markets for the commoners",
+          "zh": "作为平民的集市"
+        },
+        {
+          "en": "To store food and wine for the winter according to some versions of the story",
+          "zh": "在冬天储存食物和酒（按书中另一种说法）"
+        },
+        {
+          "en": "To protect people from their enemies",
+          "zh": "保护人们不受敌人侵犯"
+        },
+        {
+          "en": "To house the king's army year-round",
+          "zh": "全年驻扎国王的军队"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'During the Middle Ages, many great castles were built across Europe. The castles were made to protect people from their enemies.'",
@@ -30,10 +42,22 @@
         "zh": "最早的一种城堡叫「mott and bailey」（土丘与围院），它是什么样的？"
       },
       "options": [
-        {"en": "A high mound of dirt (the mott) with a wooden tower, surrounded by a fenced yard (the bailey)", "zh": "一座土堆（mott）上建着木塔，外面用栅栏围出庭院（bailey）"},
-        {"en": "A stone keep surrounded by a water-filled moat", "zh": "被灌水的护城河环绕的石头主楼"},
-        {"en": "A prison built in the castle cellars", "zh": "建在城堡地窖里的监狱"},
-        {"en": "A large open field where tournaments were held", "zh": "举办比武大会的大旷场"}
+        {
+          "en": "A high mound of dirt (the mott) with a wooden tower, surrounded by a fenced yard (the bailey)",
+          "zh": "一座土堆（mott）上建着木塔，外面用栅栏围出庭院（bailey）"
+        },
+        {
+          "en": "A prison built in the castle cellars",
+          "zh": "建在城堡地窖里的监狱"
+        },
+        {
+          "en": "A large open field where tournaments were held",
+          "zh": "举办比武大会的大旷场"
+        },
+        {
+          "en": "A stone keep surrounded by a water-filled moat according to some versions of the story in an early draft of the book",
+          "zh": "被灌水的护城河环绕的石头主楼（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "在书中，「whitewash」（白灰水）指的是什么？"
       },
       "options": [
-        {"en": "A mixture of lime and water painted on walls to give a fresh white coat", "zh": "石灰和水的混合物，刷在墙上让墙壁焕然一白"},
-        {"en": "A type of thick stone used for the keep", "zh": "用来建主楼的厚石头"},
-        {"en": "The white flag flown when a castle surrendered", "zh": "城堡投降时升起的白旗"},
-        {"en": "A shiny metal used on the gate", "zh": "大门上用的闪亮金属"}
+        {
+          "en": "A type of thick stone used for the keep",
+          "zh": "用来建主楼的厚石头"
+        },
+        {
+          "en": "The white flag flown when a castle surrendered according to some versions of the story",
+          "zh": "城堡投降时升起的白旗（按书中另一种说法）"
+        },
+        {
+          "en": "A shiny metal used on the gate",
+          "zh": "大门上用的闪亮金属"
+        },
+        {
+          "en": "A mixture of lime and water painted on walls to give a fresh white coat",
+          "zh": "石灰和水的混合物，刷在墙上让墙壁焕然一白"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Newly built castles 'were painted with a mixture of lime and water... called whitewash' because it gave the walls 'a fresh, clean coat of white.'",
@@ -66,12 +102,24 @@
         "zh": "城堡墙壁顶端为什么做成锯齿状（crenelations）？"
       },
       "options": [
-        {"en": "Their sawtooth shape protected archers from arrows and made the walls harder to climb", "zh": "锯齿状的外形能保护弓箭手躲箭，也让墙更难攀爬"},
-        {"en": "They were decorative patterns showing the noble's coat of arms", "zh": "它们是显示贵族纹章的装饰图案"},
-        {"en": "They helped rainwater drain off the roof", "zh": "帮助雨水从屋顶排走"},
-        {"en": "They were used to hang flags on festival days", "zh": "节日里用来挂旗子"}
+        {
+          "en": "They were used to hang flags on festival days",
+          "zh": "节日里用来挂旗子"
+        },
+        {
+          "en": "Their sawtooth shape protected archers from arrows and made the walls harder to climb",
+          "zh": "锯齿状的外形能保护弓箭手躲箭，也让墙更难攀爬"
+        },
+        {
+          "en": "They were decorative patterns showing the noble's coat of arms according to some versions of the story",
+          "zh": "它们是显示贵族纹章的装饰图案（按书中另一种说法）"
+        },
+        {
+          "en": "They helped rainwater drain off the roof",
+          "zh": "帮助雨水从屋顶排走"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The walls were topped with crenelations that 'gave them a sawtooth look. This design protected archers from enemy arrows. It also made it more difficult to climb over the walls.'",
@@ -84,12 +132,24 @@
         "zh": "在词汇表里，「keep」（主楼）是什么？"
       },
       "options": [
-        {"en": "The central tower or building where the nobility lived—the safest, hardest part to enter", "zh": "贵族居住的中心塔楼/建筑——最安全、最难进入的部分"},
-        {"en": "The outer fence made of wooden spikes", "zh": "用木刺做的外围栏"},
-        {"en": "The ditch filled with water around the castle", "zh": "城堡周围灌水的沟"},
-        {"en": "The yard holding the kitchen and stables", "zh": "放着厨房和马厩的庭院"}
+        {
+          "en": "The outer fence made of wooden spikes",
+          "zh": "用木刺做的外围栏"
+        },
+        {
+          "en": "The yard holding the kitchen and stables",
+          "zh": "放着厨房和马厩的庭院"
+        },
+        {
+          "en": "The central tower or building where the nobility lived—the safest, hardest part to enter",
+          "zh": "贵族居住的中心塔楼/建筑——最安全、最难进入的部分"
+        },
+        {
+          "en": "The ditch filled with water around the castle according to some versions of the story in an early draft of the book",
+          "zh": "城堡周围灌水的沟（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines the keep as 'the central tower or building in a castle.' The book adds it 'was the safest part of the castle and the hardest to enter.'",
@@ -102,10 +162,22 @@
         "zh": "螺旋楼梯为什么要设计成向上顺时针旋转？"
       },
       "options": [
-        {"en": "To slow down invaders, since it was hard to fight in the narrow, turning stairwells", "zh": "为了拖慢入侵者，因为在狭窄的旋梯里很难挥武器作战"},
-        {"en": "To let more sunlight reach the upper floors", "zh": "让更多阳光照到楼上"},
-        {"en": "To make it easier for servants to carry food", "zh": "方便仆人端食物上楼"},
-        {"en": "To save building stone", "zh": "为了节省建材"}
+        {
+          "en": "To slow down invaders, since it was hard to fight in the narrow, turning stairwells",
+          "zh": "为了拖慢入侵者，因为在狭窄的旋梯里很难挥武器作战"
+        },
+        {
+          "en": "To save building stone",
+          "zh": "为了节省建材"
+        },
+        {
+          "en": "To let more sunlight reach the upper floors",
+          "zh": "让更多阳光照到楼上"
+        },
+        {
+          "en": "To make it easier for servants to carry food according to some versions of the story in an early draft of the book",
+          "zh": "方便仆人端食物上楼（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "两道墙、两道门的设计是怎样帮助防守城堡的？"
       },
       "options": [
-        {"en": "The inner wall was taller so archers fired over the outer defenders, and gates at opposite ends forced invaders to circle and be shot", "zh": "内墙更高，弓箭手能从上方射箭；两道门在两端，逼入侵者绕圈、挨箭"},
-        {"en": "Both walls were the same height so attackers could not tell which to climb", "zh": "两墙一样高，让攻击者分不清爬哪道"},
-        {"en": "The gates were side by side so invaders got confused and gave up", "zh": "两道门并排，让入侵者迷惑而放弃"},
-        {"en": "The outer wall was taller to block the sun from the inner yard", "zh": "外墙更高，替内院挡太阳"}
+        {
+          "en": "Both walls were the same height so attackers could not tell which to climb according to some versions of the story in an early draft of the book",
+          "zh": "两墙一样高，让攻击者分不清爬哪道（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The gates were side by side so invaders got confused and gave up",
+          "zh": "两道门并排，让入侵者迷惑而放弃"
+        },
+        {
+          "en": "The outer wall was taller to block the sun from the inner yard",
+          "zh": "外墙更高，替内院挡太阳"
+        },
+        {
+          "en": "The inner wall was taller so archers fired over the outer defenders, and gates at opposite ends forced invaders to circle and be shot",
+          "zh": "内墙更高，弓箭手能从上方射箭；两道门在两端，逼入侵者绕圈、挨箭"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "A castle 'usually had two surrounding walls. The inner wall was taller than the outer one' so archers could fire over defenders, and 'the two sets of gates... opened at opposite ends... forced invaders to circle around' and be shot.",
@@ -138,12 +222,24 @@
         "zh": "关于「护城河里养鳄鱼」的说法，书里是怎么说的？"
       },
       "options": [
-        {"en": "It is a myth—no crocodiles, though some moats had eels and fish kept for food", "zh": "那是谣言——没有鳄鱼，不过有些护城河里养了鳗鱼和鱼当食物"},
-        {"en": "It is true—crocodiles were placed in every moat", "zh": "是真的——每座护城河都放了鳄鱼"},
-        {"en": "Crocodiles lived there only during the winter", "zh": "鳄鱼只在冬天住在里面"},
-        {"en": "The book says moats were always filled with sharks", "zh": "书里说护城河里总是有鲨鱼"}
+        {
+          "en": "Crocodiles lived there only during the winter",
+          "zh": "鳄鱼只在冬天住在里面"
+        },
+        {
+          "en": "It is a myth—no crocodiles, though some moats had eels and fish kept for food",
+          "zh": "那是谣言——没有鳄鱼，不过有些护城河里养了鳗鱼和鱼当食物"
+        },
+        {
+          "en": "It is true—crocodiles were placed in every moat according to some versions of the story",
+          "zh": "是真的——每座护城河都放了鳄鱼（按书中另一种说法）"
+        },
+        {
+          "en": "The book says moats were always filled with sharks",
+          "zh": "书里说护城河里总是有鲨鱼"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states, 'There is a myth that crocodiles were placed in some moats. Some moats did have eels and other kinds of fish in them for food, but there were no crocodiles.'",
@@ -156,12 +252,24 @@
         "zh": "作者写《城堡》这本书的主要目的什么？"
       },
       "options": [
-        {"en": "To inform readers about how medieval castles were built, who lived in them, and how they were defended", "zh": "向读者介绍中世纪城堡是怎么建造的、谁住在里面、又是如何防御的"},
-        {"en": "To convince readers to build their own castles", "zh": "劝读者自己动手建城堡"},
-        {"en": "To tell a fictional adventure story about a knight", "zh": "讲一个骑士的虚构冒险故事"},
-        {"en": "To argue that castles were a waste of money", "zh": "论证城堡是浪费钱"}
+        {
+          "en": "To tell a fictional adventure story about a knight according to some versions of the story in an early draft of the book",
+          "zh": "讲一个骑士的虚构冒险故事（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To inform readers about how medieval castles were built, who lived in them, and how they were defended",
+          "zh": "向读者介绍中世纪城堡是怎么建造的、谁住在里面、又是如何防御的"
+        },
+        {
+          "en": "To argue that castles were a waste of money",
+          "zh": "论证城堡是浪费钱"
+        },
+        {
+          "en": "To convince readers to build their own castles",
+          "zh": "劝读者自己动手建城堡"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The whole book is an informational text describing castle design, the people who lived in and around them, and how they were defended—its goal is to teach readers about real medieval castles.",
@@ -174,10 +282,22 @@
         "zh": "为什么书里要描写从国王、贵族一直到农民的社会等级？"
       },
       "options": [
-        {"en": "To show how medieval society was organized around the castle and the king's power", "zh": "说明中世纪社会是如何以城堡和君权为中心组织起来的"},
-        {"en": "To prove that peasants were the happiest class", "zh": "证明农民是最快乐的阶层"},
-        {"en": "To explain how to become a king", "zh": "解释怎样成为国王"},
-        {"en": "To list the foods each class ate", "zh": "列出每个阶层吃什么"}
+        {
+          "en": "To show how medieval society was organized around the castle and the king's power",
+          "zh": "说明中世纪社会是如何以城堡和君权为中心组织起来的"
+        },
+        {
+          "en": "To list the foods each class ate",
+          "zh": "列出每个阶层吃什么"
+        },
+        {
+          "en": "To explain how to become a king",
+          "zh": "解释怎样成为国王"
+        },
+        {
+          "en": "To prove that peasants were the happiest class according to some versions of the story",
+          "zh": "证明农民是最快乐的阶层（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

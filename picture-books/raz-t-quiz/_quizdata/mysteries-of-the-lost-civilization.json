@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "About 2600 BC to 1450 BC",
-          "zh": "约公元前 2600 年至公元前 1450 年"
+          "en": "1450 BC to 1100 BC according to some versions of the story",
+          "zh": "公元前 1450 年至公元前 1100 年（按书中另一种说法）"
         },
         {
           "en": "1700 BC to 1100 BC",
           "zh": "公元前 1700 年至公元前 1100 年"
         },
         {
-          "en": "3000 BC to 1000 BC",
-          "zh": "公元前 3000 年至公元前 1000 年"
+          "en": "About 2600 BC to 1450 BC",
+          "zh": "约公元前 2600 年至公元前 1450 年"
         },
         {
-          "en": "1450 BC to 1100 BC",
-          "zh": "公元前 1450 年至公元前 1100 年"
+          "en": "3000 BC to 1000 BC",
+          "zh": "公元前 3000 年至公元前 1000 年"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Minoan civilization prospered on Crete between about 2600 BC and 1450 BC.",
@@ -43,10 +43,6 @@
       },
       "options": [
         {
-          "en": "The island of Minos",
-          "zh": "Minos 岛"
-        },
-        {
           "en": "King Minos from Greek mythology",
           "zh": "希腊神话中的 Minos 王"
         },
@@ -55,11 +51,15 @@
           "zh": "Minos 河"
         },
         {
-          "en": "A researcher named Minos",
-          "zh": "一位名叫 Minos 的研究者"
+          "en": "A researcher named Minos according to some versions of the story",
+          "zh": "一位名叫 Minos 的研究者（按书中另一种说法）"
+        },
+        {
+          "en": "The island of Minos",
+          "zh": "Minos 岛"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "One of the first people to study the civilization named it \"Minoan\" after King Minos of Greek mythology.",
@@ -73,8 +73,12 @@
       },
       "options": [
         {
-          "en": "Greece",
-          "zh": "希腊"
+          "en": "Greece according to some versions of the story",
+          "zh": "希腊（按书中另一种说法）"
+        },
+        {
+          "en": "Italy",
+          "zh": "意大利"
         },
         {
           "en": "The area known today as Turkey",
@@ -83,13 +87,9 @@
         {
           "en": "Egypt",
           "zh": "埃及"
-        },
-        {
-          "en": "Italy",
-          "zh": "意大利"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Researchers believe the first people settled Crete about 8,000 years ago and came from the area known today as Turkey.",
@@ -111,12 +111,12 @@
           "zh": "基于证据的一个或一组观点"
         },
         {
-          "en": "A made-up story",
-          "zh": "虚构的故事"
+          "en": "A type of volcano according to some versions of the story",
+          "zh": "一种火山（按书中另一种说法）"
         },
         {
-          "en": "A type of volcano",
-          "zh": "一种火山"
+          "en": "A made-up story",
+          "zh": "虚构的故事"
         }
       ],
       "answer": 1,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "They were mostly peaceful and had few enemies",
-          "zh": "他们大体上爱好和平，几乎没有敌人"
+          "en": "They worshipped only the sea according to some versions of the story",
+          "zh": "他们只崇拜海洋（按书中另一种说法）"
         },
         {
-          "en": "They were always at war",
-          "zh": "他们总是处于战争中"
+          "en": "They were mostly peaceful and had few enemies",
+          "zh": "他们大体上爱好和平，几乎没有敌人"
         },
         {
           "en": "They had no art",
           "zh": "他们没有艺术"
         },
         {
-          "en": "They worshipped only the sea",
-          "zh": "他们只崇拜海洋"
+          "en": "They were always at war",
+          "zh": "他们总是处于战争中"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says their art shows few scenes of battles, telling researchers the Minoans were mostly peaceful.",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "It was smaller",
-          "zh": "它更小"
+          "en": "Exactly the same size according to some versions of the story",
+          "zh": "大小完全一样（按书中另一种说法）"
         },
         {
           "en": "About twelve times bigger",
           "zh": "大约大了十二倍"
         },
         {
-          "en": "Exactly the same size",
-          "zh": "大小完全一样"
-        },
-        {
           "en": "It was not a volcano",
           "zh": "它不是火山"
+        },
+        {
+          "en": "It was smaller",
+          "zh": "它更小"
         }
       ],
       "answer": 1,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "It happened at the exact same time as the Minoans disappeared",
-          "zh": "它与米诺斯人消失发生在完全相同的时刻"
-        },
-        {
           "en": "It erupted about 180 years before the Minoans disappeared",
           "zh": "它在米诺斯人消失前约 180 年就已爆发"
         },
         {
-          "en": "It happened after the Mycenaeans invaded",
-          "zh": "它发生在迈锡尼人入侵之后"
+          "en": "It happened at the exact same time as the Minoans disappeared",
+          "zh": "它与米诺斯人消失发生在完全相同的时刻"
         },
         {
           "en": "It never actually erupted",
           "zh": "它其实从未爆发过"
+        },
+        {
+          "en": "It happened after the Mycenaeans invaded",
+          "zh": "它发生在迈锡尼人入侵之后"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Later evidence showed Thera erupted about 180 years before the Minoans disappeared, so the volcano was not the direct cause.",
@@ -227,16 +227,16 @@
           "zh": "来自希腊的迈锡尼人"
         },
         {
-          "en": "The people of Atlantis",
-          "zh": "亚特兰蒂斯的人"
-        },
-        {
-          "en": "The volcano Thera alone",
-          "zh": "只有 Thera 火山"
-        },
-        {
           "en": "King Minos",
           "zh": "Minos 王"
+        },
+        {
+          "en": "The volcano Thera alone according to some versions of the story",
+          "zh": "只有 Thera 火山（按书中另一种说法）"
+        },
+        {
+          "en": "The people of Atlantis",
+          "zh": "亚特兰蒂斯的人"
         }
       ],
       "answer": 0,
@@ -257,19 +257,19 @@
           "zh": "柏拉图访问过克里特"
         },
         {
-          "en": "Because of Crete's greatness and the fact that it seemed to disappear",
-          "zh": "因为克里特曾经伟大，而且似乎突然消失了"
-        },
-        {
-          "en": "Atlantis was mentioned in Minoan writing",
-          "zh": "米诺斯文献中提到了亚特兰蒂斯"
+          "en": "Atlantis was mentioned in Minoan writing according to some versions of the story",
+          "zh": "米诺斯文献中提到了亚特兰蒂斯（按书中另一种说法）"
         },
         {
           "en": "They look exactly the same on a map",
           "zh": "它们在地图上看起来完全一样"
+        },
+        {
+          "en": "Because of Crete's greatness and the fact that it seemed to disappear",
+          "zh": "因为克里特曾经伟大，而且似乎突然消失了"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Because of the greatness of Minoan Crete and the fact that it seemed to disappear, some think it may be Plato's Atlantis.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "The answers have all been found",
-          "zh": "答案都已经被找到了"
-        },
-        {
-          "en": "The search for answers will continue",
-          "zh": "寻找答案的过程将会继续"
-        },
-        {
           "en": "There is no mystery at all",
           "zh": "根本不存在任何谜团"
         },
         {
+          "en": "The answers have all been found according to some versions of the story",
+          "zh": "答案都已经被找到了（按书中另一种说法）"
+        },
+        {
           "en": "Only Plato was correct",
           "zh": "只有柏拉图是对的"
+        },
+        {
+          "en": "The search for answers will continue",
+          "zh": "寻找答案的过程将会继续"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book ends by saying one thing is sure—the search for answers will continue.",

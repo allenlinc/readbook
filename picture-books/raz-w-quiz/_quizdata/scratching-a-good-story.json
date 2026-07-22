@@ -17,16 +17,16 @@
           "zh": "他必须为英语课写一篇故事，却不知道怎么写。"
         },
         {
-          "en": "He lost his favorite pen.",
-          "zh": "他弄丢了自己最爱的钢笔。"
-        },
-        {
-          "en": "He failed a math test.",
-          "zh": "他数学考试不及格。"
+          "en": "He lost his favorite pen. according to some versions of the story",
+          "zh": "他弄丢了自己最爱的钢笔。（按书中另一种说法）"
         },
         {
           "en": "He missed the school bus.",
           "zh": "他错过了校车。"
+        },
+        {
+          "en": "He failed a math test.",
+          "zh": "他数学考试不及格。"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "A magic pencil that writes the story by itself.",
-          "zh": "一支会自动写故事的魔法铅笔。"
-        },
-        {
           "en": "A talking pen that acts as Tyler's writing teacher and guide.",
           "zh": "一支会说话、充当泰勒写作老师和引导者的钢笔。"
         },
         {
-          "en": "Tyler's English teacher.",
-          "zh": "泰勒的英语老师。"
-        },
-        {
           "en": "A computer writing program.",
           "zh": "一个电脑写作程序。"
+        },
+        {
+          "en": "A magic pencil that writes the story by itself. according to some versions of the story",
+          "zh": "一支会自动写故事的魔法铅笔。（按书中另一种说法）"
+        },
+        {
+          "en": "Tyler's English teacher.",
+          "zh": "泰勒的英语老师。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The pen explains story elements like character, setting, and conflict to Tyler.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Jackson",
-          "zh": "Jackson"
+          "en": "Ben",
+          "zh": "Ben"
         },
         {
-          "en": "Mountain",
-          "zh": "Mountain"
+          "en": "Jackson",
+          "zh": "Jackson"
         },
         {
           "en": "Tyler",
           "zh": "Tyler"
         },
         {
-          "en": "Ben",
-          "zh": "Ben"
+          "en": "Mountain",
+          "zh": "Mountain"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Tyler says, 'Jackson. I've always enjoyed the name Jackson.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "The illustrations in the book.",
+          "zh": "书中的插图。"
+        },
+        {
+          "en": "The place where the story happens. according to some versions of the story",
+          "zh": "故事发生的地点。（按书中另一种说法）"
+        },
+        {
           "en": "The happy ending of the book.",
           "zh": "书的圆满结局。"
         },
         {
           "en": "A problem faced by a character that drives the plot.",
           "zh": "角色遇到、推动情节发展的问题。"
-        },
-        {
-          "en": "The place where the story happens.",
-          "zh": "故事发生的地点。"
-        },
-        {
-          "en": "The illustrations in the book.",
-          "zh": "书中的插图。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines conflict as 'a problem faced by the character or characters in a story.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "His green cap.",
-          "zh": "他的绿色帽子。"
-        },
-        {
-          "en": "His blue hair.",
-          "zh": "他的蓝头发。"
+          "en": "His blue hair. according to some versions of the story",
+          "zh": "他的蓝头发。（按书中另一种说法）"
         },
         {
           "en": "His backpack.",
           "zh": "他的书包。"
         },
         {
+          "en": "His green cap.",
+          "zh": "他的绿色帽子。"
+        },
+        {
           "en": "His lunch.",
           "zh": "他的午餐。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mountain lifts Jackson off the ground and snatches his green cap.",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "Characters from a movie he saw.",
-          "zh": "他看过的电影里的人物。"
+          "en": "Famous historical figures.",
+          "zh": "著名的历史人物。"
         },
         {
           "en": "Real people in his own life, like friends and family.",
           "zh": "他生活中真实的人，比如朋友和家人。"
         },
         {
-          "en": "Famous historical figures.",
-          "zh": "著名的历史人物。"
-        },
-        {
           "en": "Animals at the zoo.",
           "zh": "动物园里的动物。"
+        },
+        {
+          "en": "Characters from a movie he saw. according to some versions of the story",
+          "zh": "他看过的电影里的人物。（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "To list the chapter titles.",
-          "zh": "为了列出章节标题。"
+          "en": "To show the author's photo.",
+          "zh": "为了展示作者的照片。"
         },
         {
           "en": "To explain story-writing terms used in the book.",
           "zh": "为了解释书中用到的写作术语。"
         },
         {
-          "en": "To show the author's photo.",
-          "zh": "为了展示作者的照片。"
+          "en": "To give the answers to the story. according to some versions of the story",
+          "zh": "为了给出故事的结局。（按书中另一种说法）"
         },
         {
-          "en": "To give the answers to the story.",
-          "zh": "为了给出故事的结局。"
+          "en": "To list the chapter titles.",
+          "zh": "为了列出章节标题。"
         }
       ],
       "answer": 1,
@@ -227,19 +227,19 @@
           "zh": "结尾欢快的音乐。"
         },
         {
-          "en": "The strain between a character wanting something and something blocking it.",
-          "zh": "角色想要某样东西、却又被阻碍之间的拉扯。"
+          "en": "The number of pages in the book. according to some versions of the story in an early draft of the book",
+          "zh": "书的页数。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "The number of pages in the book.",
-          "zh": "书的页数。"
+          "en": "The strain between a character wanting something and something blocking it.",
+          "zh": "角色想要某样东西、却又被阻碍之间的拉扯。"
         },
         {
           "en": "The color of the cover.",
           "zh": "封面的颜色。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The pen explains tension as the 'strain, or pull' between desire and obstacle.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Jackson loses his cap forever.",
-          "zh": "Jackson 永远失去了帽子。"
-        },
-        {
           "en": "Jackson takes his cap back and becomes friends with Mountain.",
           "zh": "Jackson 拿回帽子，并和 Mountain 成了朋友。"
         },
         {
-          "en": "The pen runs out of ink.",
-          "zh": "钢笔没墨了。"
+          "en": "Jackson loses his cap forever. according to some versions of the story",
+          "zh": "Jackson 永远失去了帽子。（按书中另一种说法）"
         },
         {
           "en": "Tyler gets a bad grade.",
           "zh": "泰勒得了差评。"
+        },
+        {
+          "en": "The pen runs out of ink.",
+          "zh": "钢笔没墨了。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Jackson snatches his cap back and learns Mountain dyed his hair green; they sit together.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "To describe a real school.",
+          "zh": "为了描写一所真实的学校。"
+        },
+        {
           "en": "To teach history facts.",
           "zh": "为了讲授历史知识。"
         },
         {
+          "en": "To explain how to draw pictures. according to some versions of the story",
+          "zh": "为了讲解如何画画。（按书中另一种说法）"
+        },
+        {
           "en": "To teach readers about story elements through a fun fictional tale.",
           "zh": "通过一个有趣的虚构故事，教读者故事的基本要素。"
-        },
-        {
-          "en": "To explain how to draw pictures.",
-          "zh": "为了讲解如何画画。"
-        },
-        {
-          "en": "To describe a real school.",
-          "zh": "为了描写一所真实的学校。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book uses a talking pen to teach character, setting, conflict, plot, and climax.",

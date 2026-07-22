@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "A strong love for the warm tent and the kindly men who fed him",
-          "zh": "对温暖的帐篷和喂养他的和善人们的强烈喜爱"
+          "en": "A wish to return to Judge Miller's sunny estate",
+          "zh": "想回到 Miller 法官那阳光明媚庄园的愿望"
         },
         {
           "en": "A fear of the cold snow and the long, dark northern nights",
           "zh": "对寒冷积雪与漫长黑暗北方夜的恐惧"
         },
         {
-          "en": "The wild, fierce nature deep inside him from his ancestors",
-          "zh": "他自祖先那里承自内心深处的野性、凶猛本性"
+          "en": "A strong love for the warm tent and the kindly men who fed him",
+          "zh": "对温暖的帐篷和喂养他的和善人们的强烈喜爱"
         },
         {
-          "en": "A wish to return to Judge Miller's sunny estate",
-          "zh": "想回到 Miller 法官那阳光明媚庄园的愿望"
+          "en": "The wild, fierce nature deep inside him from his ancestors",
+          "zh": "他自祖先那里承自内心深处的野性、凶猛本性"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The dominant primordial beast is the wild, fierce nature inherited from Buck's wolfish ancestors.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Buck refused to leave his warm nest by the rock",
-          "zh": "Buck 拒绝离开他在岩石边的温暖窝"
-        },
-        {
-          "en": "Spitz pushed in and took over the snug nest that Buck had just made",
-          "zh": "Spitz 挤进来，占走了 Buck 刚刨好的舒适窝"
+          "en": "A pack of starving huskies attacked the camp",
+          "zh": "一群饥饿的哈士奇袭击了营地"
         },
         {
           "en": "Francois gave Buck too little fish to eat",
           "zh": "Francois 分给 Buck 的鱼太少"
         },
         {
-          "en": "A pack of starving huskies attacked the camp",
-          "zh": "一群饥饿的哈士奇袭击了营地"
+          "en": "Buck refused to leave his warm nest by the rock",
+          "zh": "Buck 拒绝离开他在岩石边的温暖窝"
+        },
+        {
+          "en": "Spitz pushed in and took over the snug nest that Buck had just made",
+          "zh": "Spitz 挤进来，占走了 Buck 刚刨好的舒适窝"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "When Buck returned from eating, Spitz had taken the warm nest Buck had made by the rock.",
@@ -77,16 +77,16 @@
           "zh": "它们从附近村落嗅到了食物的气味"
         },
         {
-          "en": "They were led there by the dog Spitz on purpose",
-          "zh": "它们是被狗 Spitz 故意引去的"
-        },
-        {
           "en": "They came down the river on a broken sled",
           "zh": "它们是乘着破雪橇顺河而来的"
         },
         {
           "en": "They were set loose by the two dog-drivers",
           "zh": "它们是被两名赶橇人放出来的"
+        },
+        {
+          "en": "They were led there by the dog Spitz on purpose",
+          "zh": "它们是被狗 Spitz 故意引去的"
         }
       ],
       "answer": 0,
@@ -103,16 +103,16 @@
       },
       "options": [
         {
-          "en": "Billee, who was good-natured",
-          "zh": "好脾气的 Billee"
+          "en": "Sol-leks, who was the Angry One",
+          "zh": "“愤怒者”Sol-leks"
         },
         {
           "en": "Joe, who was sour and malignant",
           "zh": "爱发牢骚又恶毒的 Joe"
         },
         {
-          "en": "Sol-leks, who was the Angry One",
-          "zh": "“愤怒者”Sol-leks"
+          "en": "Billee, who was good-natured",
+          "zh": "好脾气的 Billee"
         },
         {
           "en": "Dave, who was gloomy, morose, and cared for nothing",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "The dogs were too tired to walk upon it",
+          "zh": "狗群太累了，走不动河面"
+        },
+        {
           "en": "It was full of hungry bears on the banks",
           "zh": "两岸满是饥饿的熊"
         },
@@ -143,13 +147,9 @@
         {
           "en": "The ice was thin and the swift water left no ice at all",
           "zh": "冰层很薄，湍急的水流处根本结不住冰"
-        },
-        {
-          "en": "The dogs were too tired to walk upon it",
-          "zh": "狗群太累了，走不动河面"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Only in eddies and quiet spots did the ice hold; the swift wild water broke through everywhere else.",
@@ -163,12 +163,8 @@
       },
       "options": [
         {
-          "en": "They were too large for any harness",
-          "zh": "他的脚太大，套不进任何挽具，相关细节在书中有交代"
-        },
-        {
-          "en": "They were hardened from many generations outside",
-          "zh": "他的脚因世代在外而早已坚硬"
+          "en": "They were hardened from many generations outside according to some versions of the story",
+          "zh": "他的脚因世代在外而早已坚硬（按书中另一种说法）"
         },
         {
           "en": "They were webbed like a duck's from birth",
@@ -177,9 +173,13 @@
         {
           "en": "They were soft and became sore on the hard trail",
           "zh": "他的脚柔软，在硬道上走得生疼"
+        },
+        {
+          "en": "They were too large for any harness",
+          "zh": "他的脚太大，套不进任何挽具，相关细节在书中有交代"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Unlike the huskies, Buck's feet had softened over generations, so they grew sore on the trail.",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "He rubbed them with cold snow every single morning on the trail",
+          "zh": "他每天清晨在雪道上都用冷雪去揉搓它的脚，这与书里的描写相符"
+        },
+        {
           "en": "He made four moccasins from his own shoe tops",
           "zh": "他用自己的鞋面给 Buck 做了四只鹿皮鞋"
         },
@@ -201,15 +205,11 @@
           "zh": "他把 Buck 留在营地休息"
         },
         {
-          "en": "He rubbed them with cold snow every single morning on the trail",
-          "zh": "他每天清晨在雪道上都用冷雪去揉搓它的脚，这与书里的描写相符"
-        },
-        {
           "en": "He gave Buck extra fish to grow strong",
           "zh": "他多给 Buck 鱼吃，让它长壮"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Francois rubbed Buck's feet nightly and sacrificed the tops of his moccasins to make four for Buck.",
@@ -223,10 +223,6 @@
       },
       "options": [
         {
-          "en": "She learned to lead the whole team with great speed and skill",
-          "zh": "她学会了以极快的速度和技巧带领整支队伍"
-        },
-        {
           "en": "She suddenly went mad and chased Buck through the woods",
           "zh": "她突然发了疯，在树林里追着 Buck 跑"
         },
@@ -237,9 +233,13 @@
         {
           "en": "She refused to eat and grew very thin",
           "zh": "她不肯进食，变得十分消瘦"
+        },
+        {
+          "en": "She learned to lead the whole team with great speed and skill",
+          "zh": "她学会了以极快的速度和技巧带领整支队伍"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Dolly suddenly went mad and sprang straight for Buck, who fled in panic until Francois saved him.",
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "He drove her off with a long whip",
-          "zh": "他用长鞭把她赶走"
+          "en": "He called Spitz to fight her away",
+          "zh": "他唤来 Spitz 把地赶走"
         },
         {
-          "en": "He shut her inside the loaded sled and left her there for the night",
-          "zh": "他把她关进载货的雪橇里，留她过夜，这是原文明确写到的"
+          "en": "He drove her off with a long whip",
+          "zh": "他用长鞭把她赶走"
         },
         {
           "en": "He struck her with an axe as Buck ran past",
           "zh": "趁 Buck 跑过，他用斧头劈中了她"
         },
         {
-          "en": "He called Spitz to fight her away",
-          "zh": "他唤来 Spitz 把地赶走"
+          "en": "He shut her inside the loaded sled and left her there for the night",
+          "zh": "他把她关进载货的雪橇里，留她过夜，这是原文明确写到的"
         }
       ],
       "answer": 2,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "That Buck was far too soft ever to lead the team as Spitz did",
-          "zh": "Buck 太软弱，永远也比不上 Spitz 那样带队"
-        },
-        {
-          "en": "That Spitz would surely kill Buck one day",
-          "zh": "Spitz 终有一天会杀死 Buck"
-        },
-        {
           "en": "That Buck would never learn the ways of the trail",
           "zh": "Buck 永远也学不会雪道上的门道"
         },
         {
           "en": "That Buck was worth two devils and would beat Spitz",
           "zh": "Buck 抵得上两个魔鬼，终会打败 Spitz"
+        },
+        {
+          "en": "That Spitz would surely kill Buck one day",
+          "zh": "Spitz 终有一天会杀死 Buck"
+        },
+        {
+          "en": "That Buck was far too soft ever to lead the team as Spitz did",
+          "zh": "Buck 太软弱，永远也比不上 Spitz 那样带队"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Francois said Buck was worth two devils and would one day chew Spitz up and spit him out.",

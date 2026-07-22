@@ -12,10 +12,22 @@
         "zh": "迈克的爸爸总爱说「省下的一便士就是赚到的一便士」。迈克是怎么回应这句话的？"
       },
       "options": [
-        {"en": "He objects, saying technically earning a penny is not the same as saving one", "zh": "他反对，说从严格意义上讲，「赚到一便士」和「省下一便士」并不是一回事"},
-        {"en": "He agrees completely and starts saving right away", "zh": "他完全同意，立刻开始存钱"},
-        {"en": "He ignores it and changes the subject", "zh": "他不予理会，岔开了话题"},
-        {"en": "He writes it down as his favorite quote", "zh": "他把这句话抄下来当作座右铭"}
+        {
+          "en": "He objects, saying technically earning a penny is not the same as saving one",
+          "zh": "他反对，说从严格意义上讲，「赚到一便士」和「省下一便士」并不是一回事"
+        },
+        {
+          "en": "He ignores it and changes the subject",
+          "zh": "他不予理会，岔开了话题"
+        },
+        {
+          "en": "He writes it down as his favorite quote",
+          "zh": "他把这句话抄下来当作座右铭"
+        },
+        {
+          "en": "He agrees completely and starts saving right away according to some versions of the story",
+          "zh": "他完全同意，立刻开始存钱（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "迈克的小妹妹艾斯特有一个储蓄账户。账户里的利息能让她做什么？"
       },
       "options": [
-        {"en": "Buy herself a candy bar every month (about twelve a year)", "zh": "每个月给自己买一块糖果条（一年大约十二块）"},
-        {"en": "Buy a new spy kit", "zh": "买一套新的间谍装备"},
-        {"en": "Pay for a trip to another country", "zh": "支付去国外的旅行"},
-        {"en": "Nothing—the interest is only a few cents", "zh": "什么也做不了——利息只有几美分"}
+        {
+          "en": "Pay for a trip to another country",
+          "zh": "支付去国外的旅行"
+        },
+        {
+          "en": "Buy herself a candy bar every month (about twelve a year)",
+          "zh": "每个月给自己买一块糖果条（一年大约十二块）"
+        },
+        {
+          "en": "Buy a new spy kit",
+          "zh": "买一套新的间谍装备"
+        },
+        {
+          "en": "Nothing—the interest is only a few cents according to some versions of the story",
+          "zh": "什么也做不了——利息只有几美分（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Aster 'earned interest every month'—'enough interest to buy herself a candy bar every month. That was twelve candy bars a year, courtesy of Great Plains Bank!'",
@@ -48,12 +72,24 @@
         "zh": "在词汇表和故事里，「复利」(compound interest) 是什么意思？"
       },
       "options": [
-        {"en": "Earning interest on both your original money and the interest the bank already paid you", "zh": "既在你原本的钱上生息，也在银行已经付给你的利息上再生息"},
-        {"en": "Paying a fee to open a savings account", "zh": "为开储蓄账户付一笔手续费"},
-        {"en": "Putting coins into a jar", "zh": "把硬币放进罐子里"},
-        {"en": "Borrowing money from a friend", "zh": "向朋友借钱"}
+        {
+          "en": "Borrowing money from a friend",
+          "zh": "向朋友借钱"
+        },
+        {
+          "en": "Earning interest on both your original money and the interest the bank already paid you",
+          "zh": "既在你原本的钱上生息，也在银行已经付给你的利息上再生息"
+        },
+        {
+          "en": "Putting coins into a jar",
+          "zh": "把硬币放进罐子里"
+        },
+        {
+          "en": "Paying a fee to open a savings account according to some versions of the story in an early draft of the book",
+          "zh": "为开储蓄账户付一笔手续费（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines compound as earning interest 'on an original amount of money plus the interest that money has already earned'; Mike explains Aster earns 'interest on both her money and the interest the bank paid her.'",
@@ -66,10 +102,22 @@
         "zh": "迈克从祖父母那里拿到25美元生日钱，但那套间谍装备的价格是它的三倍。间谍装备要多少钱？"
       },
       "options": [
-        {"en": "$75", "zh": "75美元"},
-        {"en": "$25", "zh": "25美元"},
-        {"en": "$50", "zh": "50美元"},
-        {"en": "$100", "zh": "100美元"}
+        {
+          "en": "$75",
+          "zh": "75美元"
+        },
+        {
+          "en": "$50",
+          "zh": "50美元"
+        },
+        {
+          "en": "$100",
+          "zh": "100美元"
+        },
+        {
+          "en": "$25",
+          "zh": "25美元"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "迈克把银行叫做「Great Pains（大痛苦）」，而不是「Great Plains（大平原）」。他为什么对艾斯特的利息这么耿耿于怀？"
       },
       "options": [
-        {"en": "He is jealous that Aster's saved money earns candy-bar money while his own keeps slipping through his fingers", "zh": "他嫉妒艾斯特靠存下的钱就能买糖果，而自己的钱却总是不知不觉花光"},
-        {"en": "He thinks the bank is cheating Aster", "zh": "他认为银行在骗艾斯特"},
-        {"en": "He wants the bank to close down", "zh": "他希望那家银行关门"},
-        {"en": "He dislikes the bank's color scheme", "zh": "他不喜欢银行的配色"}
+        {
+          "en": "He wants the bank to close down",
+          "zh": "他希望那家银行关门"
+        },
+        {
+          "en": "He thinks the bank is cheating Aster according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他认为银行在骗艾斯特（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "He dislikes the bank's color scheme",
+          "zh": "他不喜欢银行的配色"
+        },
+        {
+          "en": "He is jealous that Aster's saved money earns candy-bar money while his own keeps slipping through his fingers",
+          "zh": "他嫉妒艾斯特靠存下的钱就能买糖果，而自己的钱却总是不知不觉花光"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Mike grumbles 'More like Great Pains' and calls it 'the really disgusting part' that Aster could buy candy with interest yet still didn't—he is envious she can save and he cannot.",
@@ -102,12 +162,24 @@
         "zh": "结尾迈克垂头丧气时，艾斯特做了什么来让他高兴起来？"
       },
       "options": [
-        {"en": "She brings Mike's favorite jumbo candy bar and breaks off a big chunk to share with him", "zh": "她带来迈克最爱的大号糖果条，掰下一大块分给他吃"},
-        {"en": "She lends him her spy kit", "zh": "她把间谍装备借给他"},
-        {"en": "She gives him all her savings", "zh": "她把全部积蓄都给了他"},
-        {"en": "She buys him a new video game", "zh": "她给他买了一款新电子游戏"}
+        {
+          "en": "She lends him her spy kit",
+          "zh": "她把间谍装备借给他"
+        },
+        {
+          "en": "She brings Mike's favorite jumbo candy bar and breaks off a big chunk to share with him",
+          "zh": "她带来迈克最爱的大号糖果条，掰下一大块分给他吃"
+        },
+        {
+          "en": "She buys him a new video game according to some versions of the story in an early draft of the book",
+          "zh": "她给他买了一款新电子游戏（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "She gives him all her savings",
+          "zh": "她把全部积蓄都给了他"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Aster 'came home with Mike's favorite candy bar, jumbo size' and 'broke off a jumbo chunk, which she handed over to Mike,' saying 'Thought this might cheer you up.'",
@@ -120,10 +192,22 @@
         "zh": "词汇表里把 corral 定义为动词。当迈克「corral 他没花掉的生日钱」时，他做了什么？"
       },
       "options": [
-        {"en": "He gathers the money together for a purpose (to save up for the spy kit)", "zh": "他把钱集中到一起，为了某个目的（为买间谍装备攒钱）"},
-        {"en": "He donates it to charity", "zh": "他把钱捐给了慈善机构"},
-        {"en": "He hides it under his bed", "zh": "他把钱藏在了床底下"},
-        {"en": "He spends it immediately", "zh": "他立刻把钱花掉了"}
+        {
+          "en": "He gathers the money together for a purpose (to save up for the spy kit)",
+          "zh": "他把钱集中到一起，为了某个目的（为买间谍装备攒钱）"
+        },
+        {
+          "en": "He hides it under his bed according to some versions of the story in an early draft of the book",
+          "zh": "他把钱藏在了床底下（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He donates it to charity",
+          "zh": "他把钱捐给了慈善机构"
+        },
+        {
+          "en": "He spends it immediately",
+          "zh": "他立刻把钱花掉了"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -138,12 +222,24 @@
         "zh": "迈克和艾斯特都拿零花钱，可艾斯特有储蓄账户，迈克却从来没有。根据书里说的，为什么？"
       },
       "options": [
-        {"en": "Aster saved since kindergarten and kept her money, while Mike spent his as fast as it arrived and never had enough to open one", "zh": "艾斯特从幼儿园起就存钱、留住了钱；而迈克钱一到手就花光，从没攒够开账户的钱"},
-        {"en": "Aster's allowance was much larger than Mike's", "zh": "艾斯特的零花钱比迈克多得多"},
-        {"en": "The bank only let girls open accounts", "zh": "银行只让女孩开户"},
-        {"en": "Mike was too young to have an allowance", "zh": "迈克年纪太小，还没零花钱"}
+        {
+          "en": "The bank only let girls open accounts",
+          "zh": "银行只让女孩开户"
+        },
+        {
+          "en": "Aster's allowance was much larger than Mike's according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "艾斯特的零花钱比迈克多得多（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Aster saved since kindergarten and kept her money, while Mike spent his as fast as it arrived and never had enough to open one",
+          "zh": "艾斯特从幼儿园起就存钱、留住了钱；而迈克钱一到手就花光，从没攒够开账户的钱"
+        },
+        {
+          "en": "Mike was too young to have an allowance",
+          "zh": "迈克年纪太小，还没零花钱"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says Aster 'had a savings account... since kindergarten—Mike never had enough money to open one,' while Mike 'spent money as quickly as ice cream melts' and 'had a hard time holding on to it.'",
@@ -156,12 +252,24 @@
         "zh": "这本书的「聚焦问题」是「迈克学到了什么关于存钱的教训？」他领悟到的教训是什么？"
       },
       "options": [
-        {"en": "Saving may not be his strength, and he can find another way to reach his goal", "zh": "存钱也许不是他的强项，但他可以另想办法去实现目标"},
-        {"en": "He must never spend any money again", "zh": "他从此再也绝不能花一分钱"},
-        {"en": "Only little sisters should have savings accounts", "zh": "只有小妹妹才该有储蓄账户"},
-        {"en": "Banks are always a bad idea", "zh": "银行永远是个坏主意"}
+        {
+          "en": "He must never spend any money again",
+          "zh": "他从此再也绝不能花一分钱"
+        },
+        {
+          "en": "Only little sisters should have savings accounts according to some versions of the story",
+          "zh": "只有小妹妹才该有储蓄账户（按书中另一种说法）"
+        },
+        {
+          "en": "Banks are always a bad idea",
+          "zh": "银行永远是个坏主意"
+        },
+        {
+          "en": "Saving may not be his strength, and he can find another way to reach his goal",
+          "zh": "存钱也许不是他的强项，但他可以另想办法去实现目标"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "After Aster says 'Maybe saving's not your thing,' Mike thinks, 'I've got to find my other thing. I'm gonna find my thing!'—he learns saving isn't for everyone and looks for another path.",
@@ -174,12 +282,24 @@
         "zh": "作者用了很多好笑的比喻，比如把迈克称作「缺了两颗门牙、会走路的ATM」。作者为什么这样写？"
       },
       "options": [
-        {"en": "To make a money lesson fun and relatable for young readers through humor", "zh": "用幽默让关于金钱的道理对小读者来说既好笑又好懂"},
-        {"en": "To scare children away from banks", "zh": "为了吓唬孩子远离银行"},
-        {"en": "To teach a serious history lesson", "zh": "为了讲一堂严肃的历史课"},
-        {"en": "To describe a real ATM machine", "zh": "为了描写一台真正的ATM机"}
+        {
+          "en": "To scare children away from banks",
+          "zh": "为了吓唬孩子远离银行"
+        },
+        {
+          "en": "To teach a serious history lesson according to some versions of the story in an early draft of the book",
+          "zh": "为了讲一堂严肃的历史课（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To make a money lesson fun and relatable for young readers through humor",
+          "zh": "用幽默让关于金钱的道理对小读者来说既好笑又好懂"
+        },
+        {
+          "en": "To describe a real ATM machine",
+          "zh": "为了描写一台真正的ATM机"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The playful comparisons (Mike as a 'little sweetly smiling money machine, like a walking ATM with two missing front teeth') keep the story light while teaching about saving and spending.",

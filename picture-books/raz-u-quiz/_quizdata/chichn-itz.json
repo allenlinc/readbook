@@ -12,12 +12,24 @@
         "zh": "1842年是谁发现了奇琴伊察？"
       },
       "options": [
-        {"en": "John Lloyd Stephens and Frederick Catherwood", "zh": "约翰·劳埃德·斯蒂芬斯和弗雷德里克·卡瑟伍德"},
-        {"en": "Charles Barry and Augustus Pugin", "zh": "查尔斯·巴里和奥古斯特·普金"},
-        {"en": "Guy Fawkes and Benjamin Hall", "zh": "盖伊·福克斯和本杰明·霍尔"},
-        {"en": "The Maya emperor Kukulkan", "zh": "玛雅皇帝库库尔坎"}
+        {
+          "en": "The Maya emperor Kukulkan",
+          "zh": "玛雅皇帝库库尔坎"
+        },
+        {
+          "en": "John Lloyd Stephens and Frederick Catherwood",
+          "zh": "约翰·劳埃德·斯蒂芬斯和弗雷德里克·卡瑟伍德"
+        },
+        {
+          "en": "Guy Fawkes and Benjamin Hall",
+          "zh": "盖伊·福克斯和本杰明·霍尔"
+        },
+        {
+          "en": "Charles Barry and Augustus Pugin according to some versions of the story",
+          "zh": "查尔斯·巴里和奥古斯特·普金（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says that in 1842, explorers John Lloyd Stephens and Frederick Catherwood were traveling through the jungle in eastern Mexico when they found the ancient city.",
@@ -30,10 +42,22 @@
         "zh": "探险家发现这座城时，它大约有多少年历史？"
       },
       "options": [
-        {"en": "About 100 years old", "zh": "约100年"},
-        {"en": "About 1,300 years old", "zh": "约1300年"},
-        {"en": "Over 5,000 years old", "zh": "超过5000年"},
-        {"en": "Only 50 years old", "zh": "只有50年"}
+        {
+          "en": "Over 5,000 years old according to some versions of the story",
+          "zh": "超过5000年（按书中另一种说法）"
+        },
+        {
+          "en": "About 1,300 years old",
+          "zh": "约1300年"
+        },
+        {
+          "en": "Only 50 years old",
+          "zh": "只有50年"
+        },
+        {
+          "en": "About 100 years old",
+          "zh": "约100年"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -48,10 +72,22 @@
         "zh": "玛雅帝国分布在哪些现代国家？"
       },
       "options": [
-        {"en": "Spain, France, Italy, Germany, Portugal", "zh": "西班牙、法国、意大利、德国、葡萄牙"},
-        {"en": "Canada, USA, Mexico, Brazil, Chile", "zh": "加拿大、美国、墨西哥、巴西、智利"},
-        {"en": "Mexico, Belize, Guatemala, Honduras, and El Salvador", "zh": "墨西哥、伯利兹、危地马拉、洪都拉斯和萨尔瓦多"},
-        {"en": "China, India, Japan, Korea, Vietnam", "zh": "中国、印度、日本、韩国、越南"}
+        {
+          "en": "Canada, USA, Mexico, Brazil, Chile",
+          "zh": "加拿大、美国、墨西哥、巴西、智利"
+        },
+        {
+          "en": "China, India, Japan, Korea, Vietnam",
+          "zh": "中国、印度、日本、韩国、越南"
+        },
+        {
+          "en": "Mexico, Belize, Guatemala, Honduras, and El Salvador",
+          "zh": "墨西哥、伯利兹、危地马拉、洪都拉斯和萨尔瓦多"
+        },
+        {
+          "en": "Spain, France, Italy, Germany, Portugal according to some versions of the story",
+          "zh": "西班牙、法国、意大利、德国、葡萄牙（按书中另一种说法）"
+        }
       ],
       "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
@@ -66,10 +102,22 @@
         "zh": "“埃尔卡斯蒂略”是什么？"
       },
       "options": [
-        {"en": "A sacred well for offerings", "zh": "一口用于献祭的圣井"},
-        {"en": "The Great Ball Court", "zh": "大球场"},
-        {"en": "The observatory building", "zh": "天文台建筑"},
-        {"en": "The large pyramid in the center, meaning 'the castle'", "zh": "位于中心的大金字塔，意思是“城堡”"}
+        {
+          "en": "The Great Ball Court",
+          "zh": "大球场"
+        },
+        {
+          "en": "A sacred well for offerings according to some versions of the story",
+          "zh": "一口用于献祭的圣井（按书中另一种说法）"
+        },
+        {
+          "en": "The observatory building",
+          "zh": "天文台建筑"
+        },
+        {
+          "en": "The large pyramid in the center, meaning 'the castle'",
+          "zh": "位于中心的大金字塔，意思是“城堡”"
+        }
       ],
       "answer": 3,
       "skill": "Key Ideas and Details",
@@ -84,10 +132,22 @@
         "zh": "在没有车轮也没有大型牲畜的情况下，玛雅人如何搬运沉重的石灰岩石块？"
       },
       "options": [
-        {"en": "Workers carried the blocks to the city and put them in place by hand", "zh": "工人把石块扛到城里，亲手安放到位"},
-        {"en": "They used horses and oxen to drag them", "zh": "他们用马和牛拖运"},
-        {"en": "They used wagons with wheels", "zh": "他们用带轮子的马车"},
-        {"en": "They floated them down rivers on boats", "zh": "他们用船沿河漂流运下去"}
+        {
+          "en": "Workers carried the blocks to the city and put them in place by hand",
+          "zh": "工人把石块扛到城里，亲手安放到位"
+        },
+        {
+          "en": "They used horses and oxen to drag them",
+          "zh": "他们用马和牛拖运"
+        },
+        {
+          "en": "They used wagons with wheels",
+          "zh": "他们用带轮子的马车"
+        },
+        {
+          "en": "They floated them down rivers on boats according to some versions of the story",
+          "zh": "他们用船沿河漂流运下去（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,10 +162,22 @@
         "zh": "圣井（Sacred Cenote）是用来做什么的？"
       },
       "options": [
-        {"en": "As a marketplace", "zh": "当作市场"},
-        {"en": "As a place to make offerings to Chac, the rain god", "zh": "作为向雨神恰克献祭的地方"},
-        {"en": "As a ball court", "zh": "当作球场"},
-        {"en": "As the king's residence", "zh": "作为国王的居所"}
+        {
+          "en": "As a ball court",
+          "zh": "当作球场"
+        },
+        {
+          "en": "As a place to make offerings to Chac, the rain god",
+          "zh": "作为向雨神恰克献祭的地方"
+        },
+        {
+          "en": "As the king's residence according to some versions of the story",
+          "zh": "作为国王的居所（按书中另一种说法）"
+        },
+        {
+          "en": "As a marketplace",
+          "zh": "当作市场"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "埃尔卡斯蒂略的台阶数量有什么特别？"
       },
       "options": [
-        {"en": "There are exactly 100 steps", "zh": "正好100级"},
-        {"en": "There are 12 steps for the months", "zh": "对应月份的12级"},
-        {"en": "Four staircases of 91 steps plus the platform equal 365, one for each day of the year", "zh": "四条各91级的阶梯加上顶层平台共365级，对应一年中的每一天"},
-        {"en": "There are no steps, only a ramp", "zh": "没有台阶，只有斜坡"}
+        {
+          "en": "Four staircases of 91 steps plus the platform equal 365, one for each day of the year",
+          "zh": "四条各91级的阶梯加上顶层平台共365级，对应一年中的每一天"
+        },
+        {
+          "en": "There are exactly 100 steps",
+          "zh": "正好100级"
+        },
+        {
+          "en": "There are 12 steps for the months according to some versions of the story in an early draft of the book",
+          "zh": "对应月份的12级（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "There are no steps, only a ramp",
+          "zh": "没有台阶，只有斜坡"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says El Castillo has four staircases of ninety-one steps each, and counting the platform at the top there is a step for each day of the year (365).",
@@ -138,10 +222,22 @@
         "zh": "每年有两次，夕阳照在埃尔卡斯蒂略上会发生什么？"
       },
       "options": [
-        {"en": "Fireworks light up the pyramid", "zh": "烟花照亮金字塔"},
-        {"en": "The king gives a speech", "zh": "国王发表演讲"},
-        {"en": "A festival of music is held", "zh": "举行音乐节"},
-        {"en": "Sun rays cast triangular shadows that look like a slithering serpent", "zh": "阳光投下三角形阴影，看上去像一条游动的巨蛇"}
+        {
+          "en": "A festival of music is held",
+          "zh": "举行音乐节"
+        },
+        {
+          "en": "Fireworks light up the pyramid according to some versions of the story in an early draft of the book",
+          "zh": "烟花照亮金字塔（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The king gives a speech",
+          "zh": "国王发表演讲"
+        },
+        {
+          "en": "Sun rays cast triangular shadows that look like a slithering serpent",
+          "zh": "阳光投下三角形阴影，看上去像一条游动的巨蛇"
+        }
       ],
       "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,10 +252,22 @@
         "zh": "天文台“埃尔卡拉科尔”是为了观测什么而建的？"
       },
       "options": [
-        {"en": "Venus at its northernmost point in the sky", "zh": "处于天空中最北端时的金星"},
-        {"en": "The Moon only", "zh": "仅观测月亮"},
-        {"en": "Falling stars", "zh": "流星"},
-        {"en": "The Sun at noon", "zh": "正午的太阳"}
+        {
+          "en": "Venus at its northernmost point in the sky",
+          "zh": "处于天空中最北端时的金星"
+        },
+        {
+          "en": "Falling stars",
+          "zh": "流星"
+        },
+        {
+          "en": "The Moon only",
+          "zh": "仅观测月亮"
+        },
+        {
+          "en": "The Sun at noon according to some versions of the story",
+          "zh": "正午的太阳（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -174,12 +282,24 @@
         "zh": "为什么现在游客不被允许攀登埃尔卡斯蒂略？"
       },
       "options": [
-        {"en": "Because it is too far from the entrance", "zh": "因为离入口太远"},
-        {"en": "To protect the pyramid from wear and to protect tourists from falls", "zh": "为了保护金字塔免受磨损，也保护游客免于坠落"},
-        {"en": "Because the Maya still use it for ceremonies", "zh": "因为玛雅人仍用它举行仪式"},
-        {"en": "Because it is made of gold", "zh": "因为它是金子做的"}
+        {
+          "en": "Because it is too far from the entrance",
+          "zh": "因为离入口太远"
+        },
+        {
+          "en": "Because the Maya still use it for ceremonies according to some versions of the story",
+          "zh": "因为玛雅人仍用它举行仪式（按书中另一种说法）"
+        },
+        {
+          "en": "To protect the pyramid from wear and to protect tourists from falls",
+          "zh": "为了保护金字塔免受磨损，也保护游客免于坠落"
+        },
+        {
+          "en": "Because it is made of gold",
+          "zh": "因为它是金子做的"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says the rule helps protect the pyramid from the wear of climbers' feet and also protects tourists from a possible fall.",

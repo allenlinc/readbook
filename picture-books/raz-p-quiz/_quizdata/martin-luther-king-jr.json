@@ -21,12 +21,12 @@
           "zh": "1776 年 7 月 4 日"
         },
         {
-          "en": "December 25, 1950",
-          "zh": "1950 年 12 月 25 日"
-        },
-        {
           "en": "March 3, 1933",
           "zh": "1933 年 3 月 3 日"
+        },
+        {
+          "en": "December 25, 1950",
+          "zh": "1950 年 12 月 25 日"
         }
       ],
       "answer": 0,
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "She built a school according to some versions of the story",
+          "zh": "她建了一所学校（按书中另一种说法）"
+        },
+        {
           "en": "She refused to give up her bus seat",
           "zh": "她拒绝让出自己的巴士座位"
         },
@@ -51,15 +55,11 @@
           "zh": "她驾驶了一辆巴士"
         },
         {
-          "en": "She built a school",
-          "zh": "她建了一所学校"
-        },
-        {
           "en": "She wrote a law",
           "zh": "她起草了一部法律"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains that Rosa Parks was arrested for refusing to give up her seat, sparking the Montgomery Bus Boycott led by King.",
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "Chicago",
+          "zh": "芝加哥"
+        },
+        {
           "en": "Birmingham",
           "zh": "伯明翰"
         },
@@ -83,13 +87,9 @@
         {
           "en": "Los Angeles",
           "zh": "洛杉矶"
-        },
-        {
-          "en": "Chicago",
-          "zh": "芝加哥"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book describes King's peaceful protests in Birmingham, Alabama, against unfair laws.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "\"I Have a Dream\"",
-          "zh": "\"我有一个梦想\""
-        },
-        {
-          "en": "\"The Gettysburg Address\"",
-          "zh": "\"葛底斯堡演说\""
+          "en": "\"A Tale of Two Cities\"",
+          "zh": "\"双城记\""
         },
         {
           "en": "\"State of the Union\"",
           "zh": "\"国情咨文\""
         },
         {
-          "en": "\"A Tale of Two Cities\"",
-          "zh": "\"双城记\""
+          "en": "\"The Gettysburg Address\"",
+          "zh": "\"葛底斯堡演说\""
+        },
+        {
+          "en": "\"I Have a Dream\"",
+          "zh": "\"我有一个梦想\""
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book highlights King's \"I Have a Dream\" speech calling for equality.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "39 years old",
-          "zh": "39 岁"
-        },
-        {
-          "en": "25 years old",
-          "zh": "25 岁"
-        },
-        {
-          "en": "70 years old",
-          "zh": "70 岁"
+          "en": "25 years old according to some versions of the story",
+          "zh": "25 岁（按书中另一种说法）"
         },
         {
           "en": "50 years old",
           "zh": "50 岁"
+        },
+        {
+          "en": "39 years old",
+          "zh": "39 岁"
+        },
+        {
+          "en": "70 years old",
+          "zh": "70 岁"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that King was killed in 1968 at the age of 39.",
@@ -167,16 +167,16 @@
           "zh": "和平、非暴力的抗议"
         },
         {
-          "en": "Violent fighting",
-          "zh": "暴力斗争"
+          "en": "Moving to another country according to some versions of the story",
+          "zh": "移居到另一个国家（按书中另一种说法）"
         },
         {
           "en": "Running for office only",
           "zh": "仅仅竞选公职"
         },
         {
-          "en": "Moving to another country",
-          "zh": "移居到另一个国家"
+          "en": "Violent fighting",
+          "zh": "暴力斗争"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Refusing to use or buy something as a protest",
-          "zh": "拒绝使用或购买某物以示抗议"
+          "en": "Writing a letter",
+          "zh": "写一封信"
         },
         {
-          "en": "Celebrating a holiday",
-          "zh": "庆祝一个节日"
+          "en": "Celebrating a holiday according to some versions of the story",
+          "zh": "庆祝一个节日（按书中另一种说法）"
         },
         {
           "en": "Building a new road",
           "zh": "修建一条新路"
         },
         {
-          "en": "Writing a letter",
-          "zh": "写一封信"
+          "en": "Refusing to use or buy something as a protest",
+          "zh": "拒绝使用或购买某物以示抗议"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book uses \"boycott\" to describe people refusing to ride buses to protest unfair treatment.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "His protests helped lead to civil rights laws",
-          "zh": "他的抗议运动促成了民权法律的出台"
+          "en": "They created tax rules only according to some versions of the story",
+          "zh": "它们只制定了税收规则（按书中另一种说法）"
         },
         {
-          "en": "They had no effect on laws",
-          "zh": "它们对法律毫无影响"
+          "en": "His protests helped lead to civil rights laws",
+          "zh": "他的抗议运动促成了民权法律的出台"
         },
         {
           "en": "They removed all laws",
           "zh": "它们废除了一切法律"
         },
         {
-          "en": "They created tax rules only",
-          "zh": "它们只制定了税收规则"
+          "en": "They had no effect on laws",
+          "zh": "它们对法律毫无影响"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains that King's work helped bring about new civil rights laws.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "A world where people are judged by character, not skin color",
-          "zh": "一个以品格而非肤色来评判人的世界"
-        },
-        {
           "en": "Winning an election",
           "zh": "赢得一场选举"
         },
         {
-          "en": "Building a spaceship",
-          "zh": "建造一艘宇宙飞船"
-        },
-        {
           "en": "Earning more money",
           "zh": "赚更多的钱"
+        },
+        {
+          "en": "A world where people are judged by character, not skin color",
+          "zh": "一个以品格而非肤色来评判人的世界"
+        },
+        {
+          "en": "Building a spaceship according to some versions of the story",
+          "zh": "建造一艘宇宙飞船（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains the speech's dream of equality and fairness for all people.",
@@ -287,16 +287,16 @@
           "zh": "向读者介绍金的一生及其为平等而进行的斗争"
         },
         {
-          "en": "Entertain with a fantasy tale",
-          "zh": "用一个奇幻故事来娱乐"
+          "en": "Describe how to cook",
+          "zh": "描述如何烹饪"
         },
         {
           "en": "Sell tickets to a show",
           "zh": "售卖演出的门票"
         },
         {
-          "en": "Describe how to cook",
-          "zh": "描述如何烹饪"
+          "en": "Entertain with a fantasy tale according to some versions of the story",
+          "zh": "用一个奇幻故事来娱乐（按书中另一种说法）"
         }
       ],
       "answer": 0,

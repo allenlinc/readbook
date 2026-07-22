@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "It goes straight into the local drinking water.",
-          "zh": "直接流入当地的饮用水中。"
-        },
-        {
           "en": "It flows into the local sewerage system, which carries it to a treatment plant.",
           "zh": "流入当地的污水管网系统，被输送到污水处理厂。"
+        },
+        {
+          "en": "It goes straight into the local drinking water. according to some versions of the story",
+          "zh": "直接流入当地的饮用水中。（按书中另一种说法）"
         },
         {
           "en": "It evaporates into the air on its own.",
@@ -29,7 +29,7 @@
           "zh": "被卡车直接倒进河里。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'all of this dirty water ends up in the local sewerage system' and 'Sewer pipes carry waste to the sewage treatment plant.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Clean rainwater collected from storms.",
-          "zh": "从暴风雨中收集的干净雨水。"
-        },
-        {
-          "en": "Human waste that is carried away from buildings through pipes.",
-          "zh": "通过管道从建筑物中输送走的人类废弃物。"
-        },
-        {
           "en": "A type of plant that cleans water.",
           "zh": "一种能净化水的植物。"
         },
         {
+          "en": "Clean rainwater collected from storms. according to some versions of the story",
+          "zh": "从暴风雨中收集的干净雨水。（按书中另一种说法）"
+        },
+        {
           "en": "The gas produced by a digester.",
           "zh": "消化池产生的气体。"
+        },
+        {
+          "en": "Human waste that is carried away from buildings through pipes.",
+          "zh": "通过管道从建筑物中输送走的人类废弃物。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The glossary defines sewage as 'human waste that is carried away from buildings through a system of pipes.'",
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "The solid waste is sent to a digester.",
-          "zh": "固体废弃物被送进消化池。"
-        },
-        {
           "en": "A big screen removes large items such as rocks, sticks, and garbage.",
           "zh": "一个大筛网先去除石头、树枝和垃圾等大件物品。"
         },
@@ -85,11 +81,15 @@
           "zh": "水被直接送到农场。"
         },
         {
+          "en": "The solid waste is sent to a digester. according to some versions of the story",
+          "zh": "固体废弃物被送进消化池。（按书中另一种说法）"
+        },
+        {
           "en": "Bacteria are pumped out of the water.",
           "zh": "把细菌从水里抽出来。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "STEP 1 in the book: 'A big screen (think of a giant kitchen strainer) removes large items such as rocks, sticks, and garbage.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A machine that measures water levels.",
-          "zh": "测量水位的机器。"
+          "en": "A filter that removes salt from water. according to some versions of the story",
+          "zh": "去除水中盐分的过滤器。（按书中另一种说法）"
+        },
+        {
+          "en": "A type of storm sewer pipe.",
+          "zh": "一种暴雨下水管道。"
         },
         {
           "en": "A giant tank where microorganisms break down solid waste.",
           "zh": "一个巨大的罐子，微生物在其中分解固体废弃物。"
         },
         {
-          "en": "A filter that removes salt from water.",
-          "zh": "去除水中盐分的过滤器。"
-        },
-        {
-          "en": "A type of storm sewer pipe.",
-          "zh": "一种暴雨下水管道。"
+          "en": "A machine that measures water levels.",
+          "zh": "测量水位的机器。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary says a digester is 'a large tank in a sewage treatment plant where microorganisms break down solid waste.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A septic system serves only one home and treats waste right on the property.",
-          "zh": "化粪池系统只服务一个家庭，并在房屋所在地就地处理废弃物。"
-        },
-        {
           "en": "A septic system sends waste to a large city treatment plant.",
           "zh": "化粪池系统把废弃物送到大型城市处理厂。"
         },
         {
-          "en": "A septic system uses screens and filters exactly like a city plant.",
-          "zh": "化粪池系统使用和城市处理厂完全一样的筛网和过滤器。"
+          "en": "A septic system serves only one home and treats waste right on the property.",
+          "zh": "化粪池系统只服务一个家庭，并在房屋所在地就地处理废弃物。"
         },
         {
           "en": "A septic system is only used in big cities.",
           "zh": "化粪池系统只在大城市使用。"
+        },
+        {
+          "en": "A septic system uses screens and filters exactly like a city plant. according to some versions of the story",
+          "zh": "化粪池系统使用和城市处理厂完全一样的筛网和过滤器。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says a septic system 'is a small sewage treatment system that serves only one home' made of a septic tank and drainage field.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "To make the water taste better.",
-          "zh": "让水更好喝。"
-        },
-        {
           "en": "The bacteria eat the sludge and help break it down.",
           "zh": "细菌吃掉污泥并帮助分解它。"
+        },
+        {
+          "en": "To make the water taste better.",
+          "zh": "让水更好喝。"
         },
         {
           "en": "To kill all the fish in the water.",
           "zh": "杀死水里所有的鱼。"
         },
         {
-          "en": "To fill the digester with gas only.",
-          "zh": "仅仅为了让消化池充满气体。"
+          "en": "To fill the digester with gas only. according to some versions of the story",
+          "zh": "仅仅为了让消化池充满气体。（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains: 'These helpful bacteria eat the sludge to break it down.'",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "It turns into drinking water.",
-          "zh": "变成饮用水。"
+          "en": "It is sent to the moon.",
+          "zh": "被送到月球上。"
         },
         {
           "en": "About half turns into gas used to help power the plant's machines; the rest is dried and used on farm fields.",
           "zh": "大约一半变成气体，用来帮助驱动处理厂的机器；其余被晒干后用于农田。"
         },
         {
-          "en": "It is flushed back into people's homes.",
-          "zh": "被冲回人们的家里。"
+          "en": "It turns into drinking water.",
+          "zh": "变成饮用水。"
         },
         {
-          "en": "It is sent to the moon.",
-          "zh": "被送到月球上。"
+          "en": "It is flushed back into people's homes. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "被冲回人们的家里。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "To entertain readers with a scary story about monsters.",
-          "zh": "用一个关于怪物的恐怖故事娱乐读者。"
-        },
-        {
-          "en": "To explain where sewage goes and how it is treated.",
-          "zh": "解释污水去了哪里以及如何被处理。"
-        },
-        {
           "en": "To persuade people to stop using toilets.",
           "zh": "说服人们不要再使用马桶。"
         },
         {
           "en": "To describe how to build a house.",
           "zh": "描述如何建造一所房子。"
+        },
+        {
+          "en": "To explain where sewage goes and how it is treated.",
+          "zh": "解释污水去了哪里以及如何被处理。"
+        },
+        {
+          "en": "To entertain readers with a scary story about monsters.",
+          "zh": "用一个关于怪物的恐怖故事娱乐读者。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Focus Question is 'Where does sewage go, and how is it treated?' The whole book answers that question.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "The author wants them replaced by outhouses.",
+          "zh": "作者希望用户外厕所取代它们。"
+        },
+        {
+          "en": "The author believes they cause deadly diseases. according to some versions of the story",
+          "zh": "作者认为它们会引发致命疾病。（按书中另一种说法）"
+        },
+        {
           "en": "The author thinks they are gross and useless.",
           "zh": "作者认为它们又恶心又没用。"
         },
         {
           "en": "The author appreciates them and says we should thank our modern sewerage system.",
           "zh": "作者很感激它们，并说我们应该感谢现代污水管网系统。"
-        },
-        {
-          "en": "The author wants them replaced by outhouses.",
-          "zh": "作者希望用户外厕所取代它们。"
-        },
-        {
-          "en": "The author believes they cause deadly diseases.",
-          "zh": "作者认为它们会引发致命疾病。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book ends: 'So, the next time you flush, take a moment to thank your modern sewerage system!'",
@@ -291,12 +291,12 @@
           "zh": "污水处理随着时间的推移不断改善，从倒桶、户外厕所发展到现代处理。"
         },
         {
-          "en": "Sewage problems were solved completely in ancient Greece.",
-          "zh": "污水问题在古希腊就被彻底解决了。"
-        },
-        {
           "en": "Nobody ever tried to deal with waste.",
           "zh": "从来没有人尝试处理废弃物。"
+        },
+        {
+          "en": "Sewage problems were solved completely in ancient Greece. according to some versions of the story",
+          "zh": "污水问题在古希腊就被彻底解决了。（按书中另一种说法）"
         }
       ],
       "answer": 1,

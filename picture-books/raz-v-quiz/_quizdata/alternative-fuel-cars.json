@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Less than 1 million gallons",
-          "zh": "不到100万加仑"
-        },
-        {
-          "en": "More than 870 million gallons",
-          "zh": "超过8.7亿加仑"
-        },
-        {
           "en": "Exactly 120 gallons",
           "zh": "正好120加仑"
         },
         {
           "en": "About 44 gallons",
           "zh": "约44加仑"
+        },
+        {
+          "en": "More than 870 million gallons",
+          "zh": "超过8.7亿加仑"
+        },
+        {
+          "en": "Less than 1 million gallons according to some versions of the story",
+          "zh": "不到100万加仑（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that in 2005 more than 870 million gallons of gasoline were burned each day worldwide.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Silicon",
-          "zh": "硅"
+          "en": "Plastic",
+          "zh": "塑料"
         },
         {
           "en": "Gold",
           "zh": "金"
         },
         {
-          "en": "Hydrogen",
-          "zh": "氢"
+          "en": "Silicon",
+          "zh": "硅"
         },
         {
-          "en": "Plastic",
-          "zh": "塑料"
+          "en": "Hydrogen",
+          "zh": "氢"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A 'Do You Know?' box says the most common solar cells are made from silicon, the same element as sand.",
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "To replace the glossary",
-          "zh": "用来取代词汇表"
-        },
-        {
           "en": "To help readers use math to understand the topic",
           "zh": "帮助读者用数学理解主题"
         },
@@ -85,11 +81,15 @@
           "zh": "教人开车"
         },
         {
+          "en": "To replace the glossary according to some versions of the story",
+          "zh": "用来取代词汇表（按书中另一种说法）"
+        },
+        {
           "en": "To list the index",
           "zh": "列出索引"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "These boxes let readers apply math to real facts, such as fuel savings and costs.",
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "It is rare and expensive",
-          "zh": "它稀少又昂贵"
-        },
-        {
           "en": "Water is its only waste product and it is abundant",
           "zh": "它的唯一废物是水，而且储量丰富"
         },
@@ -115,11 +111,15 @@
           "zh": "它有汽油味"
         },
         {
-          "en": "It can only be made from oil",
-          "zh": "它只能从石油中提取"
+          "en": "It is rare and expensive",
+          "zh": "它稀少又昂贵"
+        },
+        {
+          "en": "It can only be made from oil according to some versions of the story",
+          "zh": "它只能从石油中提取（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says hydrogen combined with oxygen releases energy and pure water is the only waste.",
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "A type of solar panel",
-          "zh": "一种太阳能电池板"
+          "en": "A type of solar panel according to some versions of the story",
+          "zh": "一种太阳能电池板（按书中另一种说法）"
         },
         {
           "en": "A mixture of ethanol and gasoline",
           "zh": "乙醇与汽油的混合物"
         },
         {
-          "en": "A kind of battery",
-          "zh": "一种电池"
-        },
-        {
           "en": "A brand of car",
           "zh": "一个汽车品牌"
+        },
+        {
+          "en": "A kind of battery",
+          "zh": "一种电池"
         }
       ],
       "answer": 1,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "To prove cars are a new invention",
-          "zh": "为了证明汽车是新发明"
-        },
-        {
-          "en": "To show alternative-fuel vehicles are not new and interest returns when needed",
-          "zh": "为了说明替代燃料车并不新鲜，且在需要时兴趣会回升"
-        },
-        {
           "en": "To say gasoline is always best",
           "zh": "为了说明汽油总是最好"
         },
         {
           "en": "To advertise a car company",
           "zh": "为某汽车公司打广告"
+        },
+        {
+          "en": "To prove cars are a new invention according to some versions of the story in an early draft of the book",
+          "zh": "为了证明汽车是新发明（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To show alternative-fuel vehicles are not new and interest returns when needed",
+          "zh": "为了说明替代燃料车并不新鲜，且在需要时兴趣会回升"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author shows alternative-fuel vehicles have a long history and regained interest after the 1970s gas shortage.",
@@ -193,8 +193,8 @@
       },
       "options": [
         {
-          "en": "They must be plugged into an outlet",
-          "zh": "必须插在电源插座上"
+          "en": "They cannot be recharged",
+          "zh": "无法充电"
         },
         {
           "en": "The electric motor puts energy back into the batteries as it runs",
@@ -205,8 +205,8 @@
           "zh": "只靠太阳能电池板"
         },
         {
-          "en": "They cannot be recharged",
-          "zh": "无法充电"
+          "en": "They must be plugged into an outlet according to some versions of the story",
+          "zh": "必须插在电源插座上（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -223,12 +223,12 @@
       },
       "options": [
         {
-          "en": "They are too fast to control",
-          "zh": "太快难以控制"
-        },
-        {
           "en": "They cannot produce electricity at night or on cloudy days without storage",
           "zh": "没有储能时，夜间或阴天无法发电"
+        },
+        {
+          "en": "They are too fast to control according to some versions of the story in an early draft of the book",
+          "zh": "太快难以控制（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "They use too much gasoline",
@@ -239,7 +239,7 @@
           "zh": "只在冬天能运行"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book notes that night driving and low-sunlight days are times solar panels would not work without storage.",
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "By the alphabet",
-          "zh": "按字母顺序"
+          "en": "By the alphabet according to some versions of the story in an early draft of the book",
+          "zh": "按字母顺序（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "By type of alternative fuel (solar, hydrogen, battery, ethanol)",
           "zh": "按替代燃料的类型（太阳能、氢、电池、乙醇）"
         },
         {
-          "en": "By car color",
-          "zh": "按汽车颜色"
-        },
-        {
           "en": "By country",
           "zh": "按国家"
+        },
+        {
+          "en": "By car color",
+          "zh": "按汽车颜色"
         }
       ],
       "answer": 1,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "Which was invented first according to some versions of the story",
+          "zh": "哪个最先被发明（按书中另一种说法）"
+        },
+        {
           "en": "Which one is the prettiest",
           "zh": "哪个最好看"
         },
         {
-          "en": "Economic factors like production and fuel cost",
-          "zh": "经济因素，如生产成本和燃料价格"
-        },
-        {
-          "en": "Which was invented first",
-          "zh": "哪个最先被发明"
-        },
-        {
           "en": "The weather only",
           "zh": "只看天气"
+        },
+        {
+          "en": "Economic factors like production and fuel cost",
+          "zh": "经济因素，如生产成本和燃料价格"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The 'What's in the Future?' section says the winner will depend on economic factors such as cost.",

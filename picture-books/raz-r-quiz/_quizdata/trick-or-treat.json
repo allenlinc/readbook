@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "To hold a Super Spy kit.",
+          "zh": "装一个超级间谍套装。"
+        },
+        {
           "en": "To collect candy.",
           "zh": "装糖果。"
         },
         {
+          "en": "To store her Halloween costume. according to some versions of the story",
+          "zh": "存放她的万圣节服装。（按书中另一种说法）"
+        },
+        {
           "en": "To collect money for UNICEF, a charity.",
           "zh": "为联合国儿童基金会（一个慈善机构）募款。"
-        },
-        {
-          "en": "To store her Halloween costume.",
-          "zh": "存放她的万圣节服装。"
-        },
-        {
-          "en": "To hold a Super Spy kit.",
-          "zh": "装一个超级间谍套装。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Aster says: 'It's for money ... It's for UNICEF' and UNICEF 'is a charity that helps poor kids around the world.'",
@@ -43,10 +43,6 @@
       },
       "options": [
         {
-          "en": "$10",
-          "zh": "10美元"
-        },
-        {
           "en": "$25",
           "zh": "25美元"
         },
@@ -55,11 +51,15 @@
           "zh": "50美元"
         },
         {
+          "en": "$10",
+          "zh": "10美元"
+        },
+        {
           "en": "$100",
           "zh": "100美元"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Derek 'offered to sell his kit to Mike for twenty-five dollars.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "He spent it all on candy.",
-          "zh": "他把钱全花在糖果上。"
-        },
-        {
           "en": "He replaced the weight with candy, then later returned the money.",
           "zh": "他用糖果替代钱的重量，后来又把钱放了回去。"
         },
         {
-          "en": "He gave it to Derek.",
-          "zh": "他把钱给了德里克。"
+          "en": "He spent it all on candy. according to some versions of the story in an early draft of the book",
+          "zh": "他把钱全花在糖果上。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "He lost it.",
           "zh": "他把钱弄丢了。"
+        },
+        {
+          "en": "He gave it to Derek.",
+          "zh": "他把钱给了德里克。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mike 'used all his saltwater taffy ... to replace the weight of the coins' but later 'replaced the stolen money in the box.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "To stop or take something while it is traveling from one place to another.",
-          "zh": "在某物从一处转移到另一处时拦下或拿走它。"
-        },
-        {
-          "en": "To celebrate.",
-          "zh": "庆祝。"
-        },
-        {
           "en": "To paint.",
           "zh": "绘画。"
         },
         {
           "en": "To sleep.",
           "zh": "睡觉。"
+        },
+        {
+          "en": "To celebrate. according to some versions of the story in an early draft of the book",
+          "zh": "庆祝。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To stop or take something while it is traveling from one place to another.",
+          "zh": "在某物从一处转移到另一处时拦下或拿走它。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines intercept as 'to stop or take someone or something while that person or thing is traveling from one place to another.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Genghis Khan",
-          "zh": "成吉思汗"
-        },
-        {
-          "en": "Mike",
-          "zh": "迈克"
-        },
-        {
           "en": "A pirate",
           "zh": "一名海盗"
         },
         {
+          "en": "Genghis Khan",
+          "zh": "成吉思汗"
+        },
+        {
           "en": "A kung fu master",
           "zh": "一位功夫大师"
+        },
+        {
+          "en": "Mike",
+          "zh": "迈克"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Derek says he is 'Genghis Khan,' described as 'The ruthless Mongolian warrior who created the largest empire.'",
@@ -171,12 +171,12 @@
           "zh": "他在做了一个不安的梦后感到内疚，知道自己做得不对。"
         },
         {
-          "en": "Aster caught him.",
-          "zh": "阿斯特抓到了他。"
+          "en": "His parents found out. according to some versions of the story in an early draft of the book",
+          "zh": "他的父母发现了。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "His parents found out.",
-          "zh": "他的父母发现了。"
+          "en": "Aster caught him.",
+          "zh": "阿斯特抓到了他。"
         }
       ],
       "answer": 1,
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "That UNICEF only takes food. according to some versions of the story in an early draft of the book",
+          "zh": "说明联合国儿童基金会只收食物。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "That Mike stole it.",
           "zh": "说明是迈克偷的。"
         },
@@ -201,15 +205,11 @@
           "zh": "说明25美元能为一名儿童提供终身免疫，预防六种疾病。"
         },
         {
-          "en": "That UNICEF only takes food.",
-          "zh": "说明联合国儿童基金会只收食物。"
-        },
-        {
           "en": "That Aster failed.",
           "zh": "说明阿斯特失败了。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Aster's paper says $25 'can provide immunization to protect a child for life against the six leading childhood diseases.'",
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "That stealing is the best way to get what you want.",
-          "zh": "偷窃是得到自己想要东西的最好方法。"
+          "en": "That UNICEF is a bad organization.",
+          "zh": "联合国儿童基金会是个糟糕的组织。"
         },
         {
           "en": "That doing the right thing and helping others feels better than being greedy.",
           "zh": "做正确的事、帮助他人，比贪婪的感觉更好。"
         },
         {
-          "en": "That UNICEF is a bad organization.",
-          "zh": "联合国儿童基金会是个糟糕的组织。"
-        },
-        {
           "en": "That his sister is annoying.",
           "zh": "他妹妹很烦人。"
+        },
+        {
+          "en": "That stealing is the best way to get what you want. according to some versions of the story",
+          "zh": "偷窃是得到自己想要东西的最好方法。（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Mike never changes.",
-          "zh": "迈克从未改变。"
-        },
-        {
           "en": "Mike goes from wanting to steal to feeling good about helping poor kids.",
           "zh": "迈克从想偷钱，转变为因帮助贫困儿童而感到安心快乐。"
+        },
+        {
+          "en": "Mike never changes.",
+          "zh": "迈克从未改变。"
         },
         {
           "en": "Mike becomes a thief.",
           "zh": "迈克变成了一个小偷。"
         },
         {
-          "en": "Mike runs away from home.",
-          "zh": "迈克离家出走了。"
+          "en": "Mike runs away from home. according to some versions of the story in an early draft of the book",
+          "zh": "迈克离家出走了。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Focus Question is 'What lesson does Mike learn?' and he ends by smiling, saying 'Wow,' pleased to have helped.",
@@ -283,8 +283,12 @@
       },
       "options": [
         {
-          "en": "$1 million",
-          "zh": "100万美元"
+          "en": "Nothing",
+          "zh": "一分钱也没有"
+        },
+        {
+          "en": "$1 million according to some versions of the story",
+          "zh": "100万美元（按书中另一种说法）"
         },
         {
           "en": "$175 million",
@@ -293,13 +297,9 @@
         {
           "en": "$1 billion",
           "zh": "10亿美元"
-        },
-        {
-          "en": "Nothing",
-          "zh": "一分钱也没有"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The box states: 'From 1950 to 2015, they raised $175 million.'",

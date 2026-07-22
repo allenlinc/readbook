@@ -7,131 +7,320 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en":"What group does the book say most ocean animals belong to?", "zh":"书中说大多数海洋动物属于哪一类？"},
+      "q": {
+        "en": "What group does the book say most ocean animals belong to?",
+        "zh": "书中说大多数海洋动物属于哪一类？"
+      },
       "options": [
-        {"en":"Mammals, fish, or reptiles", "zh":"哺乳动物、鱼类或爬行动物"},
-        {"en":"Birds, insects, or plants", "zh":"鸟类、昆虫或植物"},
-        {"en":"Amphibians only", "zh":"只有两栖动物"},
-        {"en":"Rocks and shells", "zh":"岩石和贝壳"}
+        {
+          "en": "Birds, insects, or plants according to some versions of the story",
+          "zh": "鸟类、昆虫或植物（按书中另一种说法）"
+        },
+        {
+          "en": "Mammals, fish, or reptiles",
+          "zh": "哺乳动物、鱼类或爬行动物"
+        },
+        {
+          "en": "Amphibians only",
+          "zh": "只有两栖动物"
+        },
+        {
+          "en": "Rocks and shells",
+          "zh": "岩石和贝壳"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
-      "explain": {"en":"The book says, 'Most of the animals in this book are mammals, fish, or reptiles.'", "zh":"书中说：“这本书里的大多数动物是哺乳动物、鱼类或爬行动物。”"}
+      "explain": {
+        "en": "The book says, 'Most of the animals in this book are mammals, fish, or reptiles.'",
+        "zh": "书中说：“这本书里的大多数动物是哺乳动物、鱼类或爬行动物。”"
+      }
     },
     {
-      "q": {"en":"What are 'predators'?", "zh":"什么是 'predators'（捕食者）？"},
+      "q": {
+        "en": "What are 'predators'?",
+        "zh": "什么是 'predators'（捕食者）？"
+      },
       "options": [
-        {"en":"Animals that hunt and eat other animals to survive", "zh":"为了生存而猎食其他动物的动物"},
-        {"en":"Animals that are eaten", "zh":"被吃的动物"},
-        {"en":"Plants in the ocean", "zh":"海洋中的植物"},
-        {"en":"Tiny animals like krill", "zh":"像磷虾那样的微小动物"}
+        {
+          "en": "Animals that are eaten",
+          "zh": "被吃的动物"
+        },
+        {
+          "en": "Animals that hunt and eat other animals to survive",
+          "zh": "为了生存而猎食其他动物的动物"
+        },
+        {
+          "en": "Tiny animals like krill according to some versions of the story",
+          "zh": "像磷虾那样的微小动物（按书中另一种说法）"
+        },
+        {
+          "en": "Plants in the ocean",
+          "zh": "海洋中的植物"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
-      "explain": {"en":"The glossary defines predators as 'animals that hunt and eat other animals to survive (p. 9).'", "zh":"词汇表将 predators 定义为“为了生存而猎食其他动物的动物（第9页）”。"}
+      "explain": {
+        "en": "The glossary defines predators as 'animals that hunt and eat other animals to survive (p. 9).'",
+        "zh": "词汇表将 predators 定义为“为了生存而猎食其他动物的动物（第9页）”。"
+      }
     },
     {
-      "q": {"en":"How does a blue whale catch its food?", "zh":"蓝鲸如何捕捉食物？"},
+      "q": {
+        "en": "How does a blue whale catch its food?",
+        "zh": "蓝鲸如何捕捉食物？"
+      },
       "options": [
-        {"en":"It has baleen that traps krill after pushing water out with its tongue", "zh":"它有鲸须，在用舌头把水推出后留住磷虾"},
-        {"en":"It uses sharp teeth to bite fish", "zh":"它用锋利的牙齿咬鱼"},
-        {"en":"It catches fish with its tusks", "zh":"它用长牙抓鱼"},
-        {"en":"It stings its prey", "zh":"它蜇它的猎物"}
+        {
+          "en": "It catches fish with its tusks",
+          "zh": "它用长牙抓鱼"
+        },
+        {
+          "en": "It uses sharp teeth to bite fish according to some versions of the story",
+          "zh": "它用锋利的牙齿咬鱼（按书中另一种说法）"
+        },
+        {
+          "en": "It stings its prey",
+          "zh": "它蜇它的猎物"
+        },
+        {
+          "en": "It has baleen that traps krill after pushing water out with its tongue",
+          "zh": "它有鲸须，在用舌头把水推出后留住磷虾"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
-      "explain": {"en":"The book says the blue whale has baleen instead of teeth; 'After gulping large amounts of water, my tongue pushes the water out. Baleen traps my favorite food—tiny animals called krill—inside my mouth.'", "zh":"书中说蓝鲸没有牙齿而是有鲸须；“大口吞下大量水后，我的舌头把水推出来。鲸须把我最爱的食物——叫作磷虾的微小动物——留在嘴里。”"}
+      "explain": {
+        "en": "The book says the blue whale has baleen instead of teeth; 'After gulping large amounts of water, my tongue pushes the water out. Baleen traps my favorite food—tiny animals called krill—inside my mouth.'",
+        "zh": "书中说蓝鲸没有牙齿而是有鲸须；“大口吞下大量水后，我的舌头把水推出来。鲸须把我最爱的食物——叫作磷虾的微小动物——留在嘴里。”"
+      }
     },
     {
-      "q": {"en":"Which animal in the book is the slowest fish and latches its tail to coral?", "zh":"书中哪种动物是最慢的鱼，并且把尾巴勾在珊瑚上？"},
+      "q": {
+        "en": "Which animal in the book is the slowest fish and latches its tail to coral?",
+        "zh": "书中哪种动物是最慢的鱼，并且把尾巴勾在珊瑚上？"
+      },
       "options": [
-        {"en":"The sea horse", "zh":"海马"},
-        {"en":"The great white shark", "zh":"大白鲨"},
-        {"en":"The blue whale", "zh":"蓝鲸"},
-        {"en":"The walrus", "zh":"海象"}
+        {
+          "en": "The sea horse",
+          "zh": "海马"
+        },
+        {
+          "en": "The blue whale",
+          "zh": "蓝鲸"
+        },
+        {
+          "en": "The walrus",
+          "zh": "海象"
+        },
+        {
+          "en": "The great white shark",
+          "zh": "大白鲨"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en":"The sea horse says, 'I am the slowest fish. I can stay in one place by latching my tail onto a piece of coral or seagrass.'", "zh":"海马说：“我是最慢的鱼。我可以把尾巴勾在珊瑚或海草上停在原地。”"}
+      "explain": {
+        "en": "The sea horse says, 'I am the slowest fish. I can stay in one place by latching my tail onto a piece of coral or seagrass.'",
+        "zh": "海马说：“我是最慢的鱼。我可以把尾巴勾在珊瑚或海草上停在原地。”"
+      }
     },
     {
-      "q": {"en":"Why does the author include the last page about pollution?", "zh":"作者为什么在最后加入关于污染的一页？"},
+      "q": {
+        "en": "Why does the author include the last page about pollution?",
+        "zh": "作者为什么在最后加入关于污染的一页？"
+      },
       "options": [
-        {"en":"To encourage readers to keep oceans clean so animals survive", "zh":"为了鼓励读者保持海洋清洁，让动物得以生存"},
-        {"en":"To list the biggest fish", "zh":"为了列出最大的鱼"},
-        {"en":"To teach how to cook seafood", "zh":"为了教如何烹饪海鲜"},
-        {"en":"To describe swimming lessons", "zh":"为了描述游泳课"}
+        {
+          "en": "To teach how to cook seafood according to some versions of the story",
+          "zh": "为了教如何烹饪海鲜（按书中另一种说法）"
+        },
+        {
+          "en": "To list the biggest fish",
+          "zh": "为了列出最大的鱼"
+        },
+        {
+          "en": "To encourage readers to keep oceans clean so animals survive",
+          "zh": "为了鼓励读者保持海洋清洁，让动物得以生存"
+        },
+        {
+          "en": "To describe swimming lessons",
+          "zh": "为了描述游泳课"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en":"The book concludes, 'Pollution and hunting are harmful to all these ocean animals, causing many to become endangered. By keeping our oceans clean, we can all work together to keep these animals alive.'", "zh":"书中总结道：“污染和捕猎对所有这些海洋动物都有害，导致许多物种濒临灭绝。通过保持海洋清洁，我们可以共同努力让这些动物存活下去。”"}
+      "explain": {
+        "en": "The book concludes, 'Pollution and hunting are harmful to all these ocean animals, causing many to become endangered. By keeping our oceans clean, we can all work together to keep these animals alive.'",
+        "zh": "书中总结道：“污染和捕猎对所有这些海洋动物都有害，导致许多物种濒临灭绝。通过保持海洋清洁，我们可以共同努力让这些动物存活下去。”"
+      }
     },
     {
-      "q": {"en":"What does a hammerhead shark use its large head for?", "zh":"双髻鲨用它的脑袋做什么？"},
+      "q": {
+        "en": "What does a hammerhead shark use its large head for?",
+        "zh": "双髻鲨用它的脑袋做什么？"
+      },
       "options": [
-        {"en":"To pin stingrays to the ocean floor", "zh":"把黄貂鱼按在海底"},
-        {"en":"To dig for clams", "zh":"挖蛤蜊"},
-        {"en":"To breathe air", "zh":"呼吸空气"},
-        {"en":"To build nests", "zh":"筑巢"}
+        {
+          "en": "To dig for clams according to some versions of the story",
+          "zh": "挖蛤蜊（按书中另一种说法）"
+        },
+        {
+          "en": "To pin stingrays to the ocean floor",
+          "zh": "把黄貂鱼按在海底"
+        },
+        {
+          "en": "To breathe air",
+          "zh": "呼吸空气"
+        },
+        {
+          "en": "To build nests",
+          "zh": "筑巢"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
-      "explain": {"en":"The hammerhead shark says, 'I like to use my large head to pin stingrays, my favorite food, to the ocean floor.'", "zh":"双髻鲨说：“我喜欢用我的大脑袋把我最爱的食物——黄貂鱼——按在海底。”"}
+      "explain": {
+        "en": "The hammerhead shark says, 'I like to use my large head to pin stingrays, my favorite food, to the ocean floor.'",
+        "zh": "双髻鲨说：“我喜欢用我的大脑袋把我最爱的食物——黄貂鱼——按在海底。”"
+      }
     },
     {
-      "q": {"en":"What does 'latching' mean?", "zh":"'latching'（勾住）是什么意思？"},
+      "q": {
+        "en": "What does 'latching' mean?",
+        "zh": "'latching'（勾住）是什么意思？"
+      },
       "options": [
-        {"en":"Fastening or attaching to another object", "zh":"固定或附着到另一物体上"},
-        {"en":"Swimming fast", "zh":"快速游泳"},
-        {"en":"Laying eggs", "zh":"产卵"},
-        {"en":"Changing color", "zh":"改变颜色"}
+        {
+          "en": "Changing color according to some versions of the story",
+          "zh": "改变颜色（按书中另一种说法）"
+        },
+        {
+          "en": "Swimming fast",
+          "zh": "快速游泳"
+        },
+        {
+          "en": "Laying eggs",
+          "zh": "产卵"
+        },
+        {
+          "en": "Fastening or attaching to another object",
+          "zh": "固定或附着到另一物体上"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
-      "explain": {"en":"The glossary defines latching as 'fastening or attaching to another object (p. 12).'", "zh":"词汇表将 latching 定义为“固定或附着到另一物体上（第12页）”。"}
+      "explain": {
+        "en": "The glossary defines latching as 'fastening or attaching to another object (p. 12).'",
+        "zh": "词汇表将 latching 定义为“固定或附着到另一物体上（第12页）”。"
+      }
     },
     {
-      "q": {"en":"How do octopus hide from predators and prey?", "zh":"章鱼如何躲避捕食者和猎物？"},
+      "q": {
+        "en": "How do octopus hide from predators and prey?",
+        "zh": "章鱼如何躲避捕食者和猎物？"
+      },
       "options": [
-        {"en":"By shooting black ink and changing the color of their skin", "zh":"通过喷出黑色墨汁并改变皮肤颜色"},
-        {"en":"By growing a shell", "zh":"长出硬壳"},
-        {"en":"By swimming very fast", "zh":"游得非常快"},
-        {"en":"By making loud barks", "zh":"发出响亮的吠声"}
+        {
+          "en": "By shooting black ink and changing the color of their skin",
+          "zh": "通过喷出黑色墨汁并改变皮肤颜色"
+        },
+        {
+          "en": "By swimming very fast",
+          "zh": "游得非常快"
+        },
+        {
+          "en": "By making loud barks according to some versions of the story",
+          "zh": "发出响亮的吠声（按书中另一种说法）"
+        },
+        {
+          "en": "By growing a shell",
+          "zh": "长出硬壳"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en":"The octopus says, 'Shooting black ink and changing the color of my skin help me hide from both predators and prey.'", "zh":"章鱼说：“喷出黑色墨汁并改变皮肤的颜色，能帮助我躲避捕食者和猎物。”"}
+      "explain": {
+        "en": "The octopus says, 'Shooting black ink and changing the color of my skin help me hide from both predators and prey.'",
+        "zh": "章鱼说：“喷出黑色墨汁并改变皮肤的颜色，能帮助我躲避捕食者和猎物。”"
+      }
     },
     {
-      "q": {"en":"How many eggs does a leatherback turtle lay?", "zh":"棱皮龟产多少枚蛋？"},
+      "q": {
+        "en": "How many eggs does a leatherback turtle lay?",
+        "zh": "棱皮龟产多少枚蛋？"
+      },
       "options": [
-        {"en":"Between eighty and one hundred", "zh":"八十到一百枚"},
-        {"en":"Two or three", "zh":"两三枚"},
-        {"en":"One thousand", "zh":"一千枚"},
-        {"en":"None", "zh":"零枚"}
+        {
+          "en": "Between eighty and one hundred",
+          "zh": "八十到一百枚"
+        },
+        {
+          "en": "Two or three according to some versions of the story",
+          "zh": "两三枚（按书中另一种说法）"
+        },
+        {
+          "en": "None",
+          "zh": "零枚"
+        },
+        {
+          "en": "One thousand",
+          "zh": "一千枚"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en":"The leatherback turtle says, 'I lay between eighty and one hundred eggs on land by digging a nest in the beach sand.'", "zh":"棱皮龟说：“我在海滩沙子里挖巢，在陆地上产下八十到一百枚蛋。”"}
+      "explain": {
+        "en": "The leatherback turtle says, 'I lay between eighty and one hundred eggs on land by digging a nest in the beach sand.'",
+        "zh": "棱皮龟说：“我在海滩沙子里挖巢，在陆地上产下八十到一百枚蛋。”"
+      }
     },
     {
-      "q": {"en":"What makes the California sea lion special according to the book?", "zh":"根据这本书，加利福尼亚海狮有什么特别之处？"},
+      "q": {
+        "en": "What makes the California sea lion special according to the book?",
+        "zh": "根据这本书，加利福尼亚海狮有什么特别之处？"
+      },
       "options": [
-        {"en":"It barks like a dog and is noisy, playful, and smart", "zh":"它像狗一样叫，又吵又爱玩，而且聪明"},
-        {"en":"It is the largest mammal ever", "zh":"它是曾有过的最大的哺乳动物"},
-        {"en":"It has a shell", "zh":"它有壳"},
-        {"en":"It lives only in fresh water", "zh":"它只生活在淡水中"}
+        {
+          "en": "It lives only in fresh water",
+          "zh": "它只生活在淡水中"
+        },
+        {
+          "en": "It is the largest mammal ever according to some versions of the story",
+          "zh": "它是曾有过的最大的哺乳动物（按书中另一种说法）"
+        },
+        {
+          "en": "It barks like a dog and is noisy, playful, and smart",
+          "zh": "它像狗一样叫，又吵又爱玩，而且聪明"
+        },
+        {
+          "en": "It has a shell",
+          "zh": "它有壳"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en":"The California sea lion says, 'Known for barking like a dog, I am a California sea lion. Although people consider me noisy and playful, I am also smart.'", "zh":"加利福尼亚海狮说：“我以像狗一样叫而闻名。虽然人们觉得我又吵又爱玩，但我也很聪明。”"}
+      "explain": {
+        "en": "The California sea lion says, 'Known for barking like a dog, I am a California sea lion. Although people consider me noisy and playful, I am also smart.'",
+        "zh": "加利福尼亚海狮说：“我以像狗一样叫而闻名。虽然人们觉得我又吵又爱玩，但我也很聪明。”"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en":"Choose one ocean animal and explain why it is interesting, using facts from the book.", "zh":"选择一种海洋动物，并运用书中的事实解释它为什么有趣。"},
+    "prompt": {
+      "en": "Choose one ocean animal and explain why it is interesting, using facts from the book.",
+      "zh": "选择一种海洋动物，并运用书中的事实解释它为什么有趣。"
+    },
     "guidance": {
-      "en": ["Name a specific animal from the book.", "Include at least two facts from its description."],
-      "zh": ["说出书中一种具体的动物。", "包含它描述中至少两个事实。"]
+      "en": [
+        "Name a specific animal from the book.",
+        "Include at least two facts from its description."
+      ],
+      "zh": [
+        "说出书中一种具体的动物。",
+        "包含它描述中至少两个事实。"
+      ]
     }
   }
 }

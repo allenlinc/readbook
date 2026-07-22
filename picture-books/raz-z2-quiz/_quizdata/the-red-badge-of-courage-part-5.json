@@ -12,12 +12,24 @@
         "zh": "《勇气红勋章》的作者是谁？"
       },
       "options": [
-        { "en": "Stephen Crane", "zh": "斯蒂芬·克莱恩" },
-        { "en": "Herman Melville, who wrote sea adventures", "zh": "赫尔曼·梅尔维尔，写过航海冒险故事" },
-        { "en": "Louisa May Alcott, a writer of family stories", "zh": "路易莎·梅·奥尔科特，写过家庭故事" },
-        { "en": "Mark Twain, famous for river tales", "zh": "马克·吐温，以河流故事闻名" }
+        {
+          "en": "Louisa May Alcott, a writer of family stories",
+          "zh": "路易莎·梅·奥尔科特，写过家庭故事"
+        },
+        {
+          "en": "Stephen Crane",
+          "zh": "斯蒂芬·克莱恩"
+        },
+        {
+          "en": "Mark Twain, famous for river tales",
+          "zh": "马克·吐温，以河流故事闻名"
+        },
+        {
+          "en": "Herman Melville, who wrote sea adventures",
+          "zh": "赫尔曼·梅尔维尔，写过航海冒险故事"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says it was adapted from the writings of Stephen Crane, who wrote it in 1895.",
@@ -30,10 +42,22 @@
         "zh": "在第6章打完第一仗后，亨利一开始感觉如何？"
       },
       "options": [
-        { "en": "He is scared and wishes to go home right away", "zh": "他很害怕，想立刻回家" },
-        { "en": "He is angry at his friends for no real reason", "zh": "他无缘无故对朋友们发火" },
-        { "en": "He feels proud and is full of self-satisfaction", "zh": "他感到自豪，充满自我满足" },
-        { "en": "He is sad because the fighting has stopped", "zh": "他很伤心，因为战斗停下了" }
+        {
+          "en": "He is sad because the fighting has stopped",
+          "zh": "他很伤心，因为战斗停下了"
+        },
+        {
+          "en": "He is scared and wishes to go home right away",
+          "zh": "他很害怕，想立刻回家"
+        },
+        {
+          "en": "He feels proud and is full of self-satisfaction",
+          "zh": "他感到自豪，充满自我满足"
+        },
+        {
+          "en": "He is angry at his friends for no real reason according to some versions of the story",
+          "zh": "他无缘无故对朋友们发火（按书中另一种说法）"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "在本书中，单词“repulse”是什么意思？"
       },
       "options": [
-        { "en": "To welcome a friend with a happy smile", "zh": "带着笑容欢迎朋友" },
-        { "en": "To push back or drive the enemy away", "zh": "击退或赶走敌人" },
-        { "en": "To sing a short song of victory", "zh": "唱一首简短的胜利之歌" },
-        { "en": "To hide behind a large oak tree", "zh": "躲在一棵大橡树后面" }
+        {
+          "en": "To hide behind a large oak tree",
+          "zh": "躲在一棵大橡树后面"
+        },
+        {
+          "en": "To sing a short song of victory",
+          "zh": "唱一首简短的胜利之歌"
+        },
+        {
+          "en": "To welcome a friend with a happy smile",
+          "zh": "带着笑容欢迎朋友"
+        },
+        {
+          "en": "To push back or drive the enemy away",
+          "zh": "击退或赶走敌人"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The story says the regiment moved into position 'to repulse', meaning to push the enemy back.",
@@ -66,12 +102,24 @@
         "zh": "当敌人第二次冲锋时，亨利做了什么？"
       },
       "options": [
-        { "en": "He bravely stands and leads the line forward", "zh": "他勇敢站定，带领队伍前进" },
-        { "en": "He helps a wounded man to a safe place", "zh": "他帮伤员到了安全的地方" },
-        { "en": "He sits down to rest and eat some food", "zh": "他坐下来休息并吃东西" },
-        { "en": "He turns and runs toward the rear as fast as he can", "zh": "他转身拼命朝后方跑去" }
+        {
+          "en": "He turns and runs toward the rear as fast as he can",
+          "zh": "他转身拼命朝后方跑去"
+        },
+        {
+          "en": "He helps a wounded man to a safe place",
+          "zh": "他帮伤员到了安全的地方"
+        },
+        {
+          "en": "He bravely stands and leads the line forward according to some versions of the story",
+          "zh": "他勇敢站定，带领队伍前进（按书中另一种说法）"
+        },
+        {
+          "en": "He sits down to rest and eat some food",
+          "zh": "他坐下来休息并吃东西"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Seeing others flee, Henry yells in fright and speeds toward the rear, losing his rifle and cap.",
@@ -84,10 +132,22 @@
         "zh": "在第7章，亨利在像小教堂一样的树林里发现了什么？"
       },
       "options": [
-        { "en": "A dead soldier sitting with his back against a tree", "zh": "一名死去的士兵背靠大树坐着" },
-        { "en": "A small stream where he can drink water", "zh": "一条他能喝水的小溪" },
-        { "en": "A friendly squirrel in the tree branches", "zh": "树枝上一只友善的松鼠" },
-        { "en": "A pile of forgotten army supplies", "zh": "一堆被遗忘的军需物资" }
+        {
+          "en": "A dead soldier sitting with his back against a tree",
+          "zh": "一名死去的士兵背靠大树坐着"
+        },
+        {
+          "en": "A pile of forgotten army supplies",
+          "zh": "一堆被遗忘的军需物资"
+        },
+        {
+          "en": "A small stream where he can drink water",
+          "zh": "一条他能喝水的小溪"
+        },
+        {
+          "en": "A friendly squirrel in the tree branches according to some versions of the story",
+          "zh": "树枝上一只友善的松鼠（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -102,10 +162,22 @@
         "zh": "亨利逃跑时，他的步枪和帽子怎么了？"
       },
       "options": [
-        { "en": "He carefully hands them to a trusted friend for safekeeping", "zh": "他小心地把它们交给信任的朋友保管" },
-        { "en": "He hides them under a leafy bush", "zh": "他把它们藏在长叶子的灌木下" },
-        { "en": "He loses his rifle and his cap while he runs", "zh": "他跑的时候丢掉了步枪和帽子" },
-        { "en": "He trades them for a newer model", "zh": "他把它们换成了更新的型号" }
+        {
+          "en": "He hides them under a leafy bush",
+          "zh": "他把它们藏在长叶子的灌木下"
+        },
+        {
+          "en": "He carefully hands them to a trusted friend for safekeeping",
+          "zh": "他小心地把它们交给信任的朋友保管"
+        },
+        {
+          "en": "He loses his rifle and his cap while he runs",
+          "zh": "他跑的时候丢掉了步枪和帽子"
+        },
+        {
+          "en": "He trades them for a newer model",
+          "zh": "他把它们换成了更新的型号"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "亨利是如何向自己解释逃跑行为的？"
       },
       "options": [
-        { "en": "He insists a senior officer secretly ordered him to retreat at once", "zh": "他坚称一名高级军官秘密命令他立刻撤退" },
-        { "en": "He claims he went to find water for the whole camp", "zh": "他声称是去给全营找水" },
-        { "en": "He explains he was chasing a horse that had run off", "zh": "他解释说在追一匹跑掉的马" },
-        { "en": "He says he ran to save himself because death was near", "zh": "他说自己是为了保命而跑，因为死亡逼近" }
+        {
+          "en": "He insists a senior officer secretly ordered him to retreat at once",
+          "zh": "他坚称一名高级军官秘密命令他立刻撤退"
+        },
+        {
+          "en": "He says he ran to save himself because death was near",
+          "zh": "他说自己是为了保命而跑，因为死亡逼近"
+        },
+        {
+          "en": "He explains he was chasing a horse that had run off",
+          "zh": "他解释说在追一匹跑掉的马"
+        },
+        {
+          "en": "He claims he went to find water for the whole camp",
+          "zh": "他声称是去给全营找水"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Henry tells himself he fled to save his own life because annihilation was approaching.",
@@ -138,10 +222,22 @@
         "zh": "本文中单词“stolid”形容一个人——"
       },
       "options": [
-        { "en": "A person who laughs very loudly at everything", "zh": "对什么都大声大笑的人" },
-        { "en": "A person who runs faster than all the others", "zh": "比别人都跑得快的人" },
-        { "en": "A person who writes long letters home each day", "zh": "每天写长信回家的人" },
-        { "en": "A person who shows little or no feeling", "zh": "几乎不表露感情的人" }
+        {
+          "en": "A person who laughs very loudly at everything",
+          "zh": "对什么都大声大笑的人"
+        },
+        {
+          "en": "A person who writes long letters home each day",
+          "zh": "每天写长信回家的人"
+        },
+        {
+          "en": "A person who runs faster than all the others",
+          "zh": "比别人都跑得快的人"
+        },
+        {
+          "en": "A person who shows little or no feeling",
+          "zh": "几乎不表露感情的人"
+        }
       ],
       "answer": 3,
       "skill": "Craft and Structure",
@@ -156,10 +252,22 @@
         "zh": "为什么作者在亨利逃跑后描写自然，比如松鼠和树林？"
       },
       "options": [
-        { "en": "To describe pretty flowers so young readers enjoy the quiet forest", "zh": "描写漂亮的花，让小读者喜欢安静的森林" },
-        { "en": "To show nature feels peaceful and helps Henry believe running was natural", "zh": "表现自然宁静，并让亨利相信逃跑是顺理成章的" },
-        { "en": "To explain how soldiers planted trees near the battlefield", "zh": "解释士兵如何在战场附近种树" },
-        { "en": "To list the animals that live in that part of the country", "zh": "罗列那个地区生活的动物" }
+        {
+          "en": "To explain how soldiers planted trees near the battlefield",
+          "zh": "解释士兵如何在战场附近种树"
+        },
+        {
+          "en": "To show nature feels peaceful and helps Henry believe running was natural",
+          "zh": "表现自然宁静，并让亨利相信逃跑是顺理成章的"
+        },
+        {
+          "en": "To describe pretty flowers so young readers enjoy the quiet forest according to some versions of the story",
+          "zh": "描写漂亮的花，让小读者喜欢安静的森林（按书中另一种说法）"
+        },
+        {
+          "en": "To list the animals that live in that part of the country",
+          "zh": "罗列那个地区生活的动物"
+        }
       ],
       "answer": 1,
       "skill": "Author's Purpose and Perspective",
@@ -174,10 +282,22 @@
         "zh": "第5部分的“焦点问题”是什么？"
       },
       "options": [
-        { "en": "It asks about Henry's inner conflict in this part", "zh": "它问的是亨利在这一部分的内心冲突" },
-        { "en": "It asks why the general was riding a small mouse-colored horse", "zh": "它问将军为什么骑一匹灰鼠色的小马" },
-        { "en": "It asks how many bullets were fired in total", "zh": "它问一共发射了多少发子弹" },
-        { "en": "It asks where the dead soldier's family lives", "zh": "它问死去的士兵家人住在哪里" }
+        {
+          "en": "It asks about Henry's inner conflict in this part",
+          "zh": "它问的是亨利在这一部分的内心冲突"
+        },
+        {
+          "en": "It asks why the general was riding a small mouse-colored horse",
+          "zh": "它问将军为什么骑一匹灰鼠色的小马"
+        },
+        {
+          "en": "It asks where the dead soldier's family lives",
+          "zh": "它问死去的士兵家人住在哪里"
+        },
+        {
+          "en": "It asks how many bullets were fired in total",
+          "zh": "它问一共发射了多少发子弹"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",

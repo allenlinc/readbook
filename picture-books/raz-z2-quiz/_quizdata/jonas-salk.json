@@ -12,12 +12,24 @@
         "zh": "乔纳斯·索尔克何时、何地出生？"
       },
       "options": [
-        { "en": "Born in New York in 1914", "zh": "1914年出生于纽约" },
-        { "en": "Born in Chicago in 1900", "zh": "1900年出生于芝加哥" },
-        { "en": "Born in London in 1920", "zh": "1920年出生于伦敦" },
-        { "en": "Born on a farm where his family grew wheat", "zh": "出生在一个种小麦的农场" }
+        {
+          "en": "Born in Chicago in 1900",
+          "zh": "1900年出生于芝加哥"
+        },
+        {
+          "en": "Born in London in 1920",
+          "zh": "1920年出生于伦敦"
+        },
+        {
+          "en": "Born on a farm where his family grew wheat",
+          "zh": "出生在一个种小麦的农场"
+        },
+        {
+          "en": "Born in New York in 1914",
+          "zh": "1914年出生于纽约"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Jonas Salk was born in New York in 1914 to Russian Jewish immigrant parents.",
@@ -30,10 +42,22 @@
         "zh": "乔纳斯·索尔克研制的是哪种小儿麻痹疫苗？"
       },
       "options": [
-        { "en": "A live-virus vaccine like Dr. Sabin's", "zh": "像萨宾医生那样活的病毒疫苗" },
-        { "en": "A killed-virus vaccine made safe with formalin", "zh": "用福尔马林处理、安全的灭活病毒疫苗" },
-        { "en": "A vaccine made from sugar cubes", "zh": "用方糖制成的疫苗" },
-        { "en": "A vaccine that a farmer found growing by accident in his vegetable garden", "zh": "一位农民在菜园里偶然发现的疫苗" }
+        {
+          "en": "A vaccine made from sugar cubes",
+          "zh": "用方糖制成的疫苗"
+        },
+        {
+          "en": "A killed-virus vaccine made safe with formalin",
+          "zh": "用福尔马林处理、安全的灭活病毒疫苗"
+        },
+        {
+          "en": "A vaccine that a farmer found growing by accident in his vegetable garden",
+          "zh": "一位农民在菜园里偶然发现的疫苗"
+        },
+        {
+          "en": "A live-virus vaccine like Dr. Sabin's",
+          "zh": "像萨宾医生那样活的病毒疫苗"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -48,10 +72,22 @@
         "zh": "在书中，“安慰剂”（placebo）是什么？"
       },
       "options": [
-        { "en": "A strong medicine that cures polio", "zh": "能治愈小儿麻痹症的强效药" },
-        { "en": "A long metal needle that every doctor in the country used to give each child a shot in the arm", "zh": "全国每位医生给每个孩子手臂打针用的长金属针头" },
-        { "en": "A substance with no real effect, used as a control in a test", "zh": "没有实际效果、在试验中作为对照的物质" },
-        { "en": "A machine that counts antibodies in the blood", "zh": "一种清点血液中抗体的机器" }
+        {
+          "en": "A strong medicine that cures polio",
+          "zh": "能治愈小儿麻痹症的强效药"
+        },
+        {
+          "en": "A machine that counts antibodies in the blood",
+          "zh": "一种清点血液中抗体的机器"
+        },
+        {
+          "en": "A substance with no real effect, used as a control in a test",
+          "zh": "没有实际效果、在试验中作为对照的物质"
+        },
+        {
+          "en": "A long metal needle that every doctor in the country used to give each child a shot in the arm",
+          "zh": "全国每位医生给每个孩子手臂打针用的长金属针头"
+        }
       ],
       "answer": 2,
       "skill": "Craft and Structure",
@@ -66,12 +102,24 @@
         "zh": "索尔克疫苗的大型现场试验是在何时进行的？"
       },
       "options": [
-        { "en": "In 1938, the year FDR founded the polio foundation", "zh": "1938年，罗斯福创立小儿麻痹基金会的那一年" },
-        { "en": "In 1945", "zh": "1945年" },
-        { "en": "In 1962", "zh": "1962年" },
-        { "en": "In 1954, with about two million children", "zh": "1954年，约有200万儿童参与" }
+        {
+          "en": "In 1954, with about two million children",
+          "zh": "1954年，约有200万儿童参与"
+        },
+        {
+          "en": "In 1938, the year FDR founded the polio foundation",
+          "zh": "1938年，罗斯福创立小儿麻痹基金会的那一年"
+        },
+        {
+          "en": "In 1945",
+          "zh": "1945年"
+        },
+        {
+          "en": "In 1962",
+          "zh": "1962年"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In 1954, nearly two million children joined the field trial as Polio Pioneers.",
@@ -84,12 +132,24 @@
         "zh": "萨宾医生的小儿麻痹疫苗与索尔克的有什么不同？"
       },
       "options": [
-        { "en": "It used a live virus and was given on a sugar cube", "zh": "它使用活病毒，并放在方糖上服用" },
-        { "en": "It was painted onto the skin", "zh": "它被涂在皮肤上" },
-        { "en": "It was a shot made of pure water", "zh": "它是用清水制成的针剂" },
-        { "en": "It was invented by a farmer in South America", "zh": "它由一位南美农民发明" }
+        {
+          "en": "It was a shot made of pure water",
+          "zh": "它是用清水制成的针剂"
+        },
+        {
+          "en": "It was painted onto the skin",
+          "zh": "它被涂在皮肤上"
+        },
+        {
+          "en": "It used a live virus and was given on a sugar cube",
+          "zh": "它使用活病毒，并放在方糖上服用"
+        },
+        {
+          "en": "It was invented by a farmer in South America according to some versions of the story",
+          "zh": "它由一位南美农民发明（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Sabin's vaccine used a live virus and was given on a sugar cube, making it cheaper than Salk's shot.",
@@ -102,10 +162,22 @@
         "zh": "小儿麻痹症会对身体造成什么影响？"
       },
       "options": [
-        { "en": "It only causes a mild cold", "zh": "它只引起轻微感冒" },
-        { "en": "It can paralyze muscles, including those used for breathing", "zh": "它会使肌肉麻痹，包括用于呼吸的肌肉" },
-        { "en": "It makes the hair fall out", "zh": "它让人掉头发" },
-        { "en": "It helps the body fight off every single other disease a person might ever catch", "zh": "它帮助身体抵抗一个人可能染上的其他每一种疾病" }
+        {
+          "en": "It helps the body fight off every single other disease a person might ever catch",
+          "zh": "它帮助身体抵抗一个人可能染上的其他每一种疾病"
+        },
+        {
+          "en": "It can paralyze muscles, including those used for breathing",
+          "zh": "它会使肌肉麻痹，包括用于呼吸的肌肉"
+        },
+        {
+          "en": "It only causes a mild cold",
+          "zh": "它只引起轻微感冒"
+        },
+        {
+          "en": "It makes the hair fall out",
+          "zh": "它让人掉头发"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "乔纳斯·索尔克在1960年创立了什么研究所？"
       },
       "options": [
-        { "en": "The Red Cross", "zh": "红十字会" },
-        { "en": "The March of Dimes, a group first started to fight polio and help children", "zh": "出生缺陷基金会，一个最初为抗击小儿麻痹、帮助儿童而成立的组织" },
-        { "en": "The Salk Institute for biological research", "zh": "用于生物学研究的索尔克研究所" },
-        { "en": "A company that makes sugar cubes", "zh": "一家生产方糖的公司" }
+        {
+          "en": "A company that makes sugar cubes",
+          "zh": "一家生产方糖的公司"
+        },
+        {
+          "en": "The March of Dimes, a group first started to fight polio and help children",
+          "zh": "出生缺陷基金会，一个最初为抗击小儿麻痹、帮助儿童而成立的组织"
+        },
+        {
+          "en": "The Red Cross",
+          "zh": "红十字会"
+        },
+        {
+          "en": "The Salk Institute for biological research",
+          "zh": "用于生物学研究的索尔克研究所"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In 1960 Salk founded the Salk Institute, where scientists study biology, genetics, and neurology.",
@@ -138,12 +222,24 @@
         "zh": "作者写乔纳斯·索尔克的主要写作目的是什么？"
       },
       "options": [
-        { "en": "To explain how to win a Nobel Prize", "zh": "讲解如何赢得诺贝尔奖" },
-        { "en": "To teach children to avoid doctors", "zh": "教孩子避开医生" },
-        { "en": "To list every single vaccine that scientists have ever made in the whole wide world since the year 1900", "zh": "列出自1900年以来全世界科学家制造过的每一种疫苗" },
-        { "en": "To show how Salk's vaccine saved children and made a difference for humanity", "zh": "展现索尔克的疫苗如何拯救儿童、为人类带来改变" }
+        {
+          "en": "To show how Salk's vaccine saved children and made a difference for humanity",
+          "zh": "展现索尔克的疫苗如何拯救儿童、为人类带来改变"
+        },
+        {
+          "en": "To explain how to win a Nobel Prize",
+          "zh": "讲解如何赢得诺贝尔奖"
+        },
+        {
+          "en": "To teach children to avoid doctors",
+          "zh": "教孩子避开医生"
+        },
+        {
+          "en": "To list every single vaccine that scientists have ever made in the whole wide world since the year 1900",
+          "zh": "列出自1900年以来全世界科学家制造过的每一种疫苗"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author shows how Salk's vaccine saved thousands of children and changed the world for the better.",
@@ -156,10 +252,22 @@
         "zh": "在大型试验之前，索尔克先在什么人身上测试疫苗？"
       },
       "options": [
-        { "en": "Himself, his wife, and their three sons", "zh": "他自己、妻子和三个儿子" },
-        { "en": "Only monkeys in a zoo", "zh": "只有动物园里的猴子" },
-        { "en": "The president of the United States", "zh": "美国总统" },
-        { "en": "A group of farmers in a faraway village", "zh": "一个偏远村庄的一群农民" }
+        {
+          "en": "Himself, his wife, and their three sons",
+          "zh": "他自己、妻子和三个儿子"
+        },
+        {
+          "en": "A group of farmers in a faraway village according to some versions of the story",
+          "zh": "一个偏远村庄的一群农民（按书中另一种说法）"
+        },
+        {
+          "en": "Only monkeys in a zoo",
+          "zh": "只有动物园里的猴子"
+        },
+        {
+          "en": "The president of the United States",
+          "zh": "美国总统"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -174,10 +282,22 @@
         "zh": "根据1955年的结果，索尔克的疫苗有多有效？"
       },
       "options": [
-        { "en": "It did not work at all", "zh": "它完全无效" },
-        { "en": "It was 68 to 100 percent effective against the three types", "zh": "对三种类型有68%到100%的效力" },
-        { "en": "It only worked on animals", "zh": "它只对动物有效" },
-        { "en": "It was designed on purpose to make healthy people sick so they would stay home", "zh": "它被故意设计成让健康人生病，好让他们待在家里" }
+        {
+          "en": "It was designed on purpose to make healthy people sick so they would stay home",
+          "zh": "它被故意设计成让健康人生病，好让他们待在家里"
+        },
+        {
+          "en": "It was 68 to 100 percent effective against the three types",
+          "zh": "对三种类型有68%到100%的效力"
+        },
+        {
+          "en": "It did not work at all",
+          "zh": "它完全无效"
+        },
+        {
+          "en": "It only worked on animals",
+          "zh": "它只对动物有效"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",

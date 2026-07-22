@@ -14,12 +14,24 @@
         "zh": "为什么只有凯普里和舒被邀请去玫瑰皇后的庆典？"
       },
       "options": [
-        {"en": "They are the prettiest dragons", "zh": "它们是最漂亮的龙"},
-        {"en": "Vulcan misbehaved and the king doesn't believe Worm has powers", "zh": "瓦尔坎闯了祸，而国王不相信沃姆有力量"},
-        {"en": "The other dragons are sick", "zh": "其他的龙生病了"},
-        {"en": "Only girls are allowed to go", "zh": "只有女孩能去"}
+        {
+          "en": "Vulcan misbehaved and the king doesn't believe Worm has powers",
+          "zh": "瓦尔坎闯了祸，而国王不相信沃姆有力量"
+        },
+        {
+          "en": "Only girls are allowed to go",
+          "zh": "只有女孩能去"
+        },
+        {
+          "en": "The other dragons are sick",
+          "zh": "其他的龙生病了"
+        },
+        {
+          "en": "They are the prettiest dragons according to some versions of the story",
+          "zh": "它们是最漂亮的龙（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Vulcan's fire nearly hit the king, and King Roland refuses to believe Worm moved him with mind power, so only Kepri and Shu go.",
         "zh": "瓦尔坎的火差点烧到国王，而罗兰国王不肯相信沃姆用意念救了他，所以只有凯普里和舒前往。"
@@ -31,10 +43,22 @@
         "zh": "马尔德雷攻打城堡时骑的是什么龙？"
       },
       "options": [
-        {"en": "A Sun Dragon", "zh": "太阳龙"},
-        {"en": "A two-headed snake", "zh": "双头蛇"},
-        {"en": "A four-headed hydra", "zh": "四头海德拉龙"},
-        {"en": "A Moon Dragon", "zh": "月亮龙"}
+        {
+          "en": "A Sun Dragon",
+          "zh": "太阳龙"
+        },
+        {
+          "en": "A two-headed snake according to some versions of the story",
+          "zh": "双头蛇（按书中另一种说法）"
+        },
+        {
+          "en": "A four-headed hydra",
+          "zh": "四头海德拉龙"
+        },
+        {
+          "en": "A Moon Dragon",
+          "zh": "月亮龙"
+        }
       ],
       "answer": 2,
       "explain": {
@@ -48,10 +72,22 @@
         "zh": "马尔德雷用什么来控制沃姆？"
       },
       "options": [
-        {"en": "A red Dragon Stone made with dark magic", "zh": "用黑魔法造出的红色龙石块"},
-        {"en": "A magic wand", "zh": "魔杖"},
-        {"en": "A golden crown", "zh": "黄金王冠"},
-        {"en": "A spell book", "zh": "咒语书"}
+        {
+          "en": "A red Dragon Stone made with dark magic",
+          "zh": "用黑魔法造出的红色龙石块"
+        },
+        {
+          "en": "A golden crown according to some versions of the story",
+          "zh": "黄金王冠（按书中另一种说法）"
+        },
+        {
+          "en": "A spell book",
+          "zh": "咒语书"
+        },
+        {
+          "en": "A magic wand",
+          "zh": "魔杖"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -65,12 +101,24 @@
         "zh": "德雷克和罗瑞在城堡里是怎样逃离马尔德雷的？"
       },
       "options": [
-        {"en": "Worm teleports them away", "zh": "沃姆把他们传送走"},
-        {"en": "They fly away on Vulcan", "zh": "他们骑着瓦尔坎飞走"},
-        {"en": "They hide in a closet", "zh": "他们躲在壁橱里"},
-        {"en": "Diego carries them", "zh": "迪亚哥背着他们"}
+        {
+          "en": "Worm teleports them away according to some versions of the story",
+          "zh": "沃姆把他们传送走（按书中另一种说法）"
+        },
+        {
+          "en": "They hide in a closet",
+          "zh": "他们躲在壁橱里"
+        },
+        {
+          "en": "Diego carries them",
+          "zh": "迪亚哥背着他们"
+        },
+        {
+          "en": "They fly away on Vulcan",
+          "zh": "他们骑着瓦尔坎飞走"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "After Vulcan circles back, Rori pulls Drake onto Vulcan's saddle and they fly off to get help.",
         "zh": "瓦尔坎绕回来后，罗瑞把德雷克拉上 saddle，他们骑着龙飞走去搬救兵。"
@@ -82,12 +130,24 @@
         "zh": "马尔德雷的黑魔法把瓦尔坎定在半空后，它是怎么被治好的？"
       },
       "options": [
-        {"en": "With a potion", "zh": "用药水"},
-        {"en": "With Shu's blue mist", "zh": "用舒的蓝色薄雾"},
-        {"en": "With Kepri's sunbeam", "zh": "用凯普里的阳光"},
-        {"en": "With Griffith's lightning", "zh": "用格里菲斯的闪电"}
+        {
+          "en": "With Griffith's lightning",
+          "zh": "用格里菲斯的闪电"
+        },
+        {
+          "en": "With a potion",
+          "zh": "用药水"
+        },
+        {
+          "en": "With Shu's blue mist",
+          "zh": "用舒的蓝色薄雾"
+        },
+        {
+          "en": "With Kepri's sunbeam",
+          "zh": "用凯普里的阳光"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Bo steers Shu close and her misty blue cloud rains down on Vulcan, washing the dark spell away.",
         "zh": "博把舒引过去，舒吐出的蓝色薄雾落在瓦尔坎身上，洗去了黑咒。"
@@ -99,10 +159,22 @@
         "zh": "德雷克做了什么才让沃姆摆脱马尔德雷的控制？"
       },
       "options": [
-        {"en": "Says a magic spell", "zh": "念了咒语"},
-        {"en": "Knocks the red Dragon Stone out of Maldred's hand", "zh": "把红色龙石块从马尔德雷手里打落"},
-        {"en": "Asks the king for help", "zh": "向国王求助"},
-        {"en": "Throws water on it", "zh": "泼了水"}
+        {
+          "en": "Throws water on it",
+          "zh": "泼了水"
+        },
+        {
+          "en": "Knocks the red Dragon Stone out of Maldred's hand",
+          "zh": "把红色龙石块从马尔德雷手里打落"
+        },
+        {
+          "en": "Asks the king for help according to some versions of the story",
+          "zh": "向国王求助（按书中另一种说法）"
+        },
+        {
+          "en": "Says a magic spell",
+          "zh": "念了咒语"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -116,12 +188,24 @@
         "zh": "最后巫师们把马尔德雷送去了哪里？"
       },
       "options": [
-        {"en": "Back to his own castle", "zh": "回他自己的城堡"},
-        {"en": "To the castle dungeon", "zh": "关进城堡地牢"},
-        {"en": "To the Wizard's Council prison", "zh": "送进巫师议会监狱"},
-        {"en": "Back to his home", "zh": "送回家"}
+        {
+          "en": "To the castle dungeon",
+          "zh": "关进城堡地牢"
+        },
+        {
+          "en": "To the Wizard's Council prison",
+          "zh": "送进巫师议会监狱"
+        },
+        {
+          "en": "Back to his home",
+          "zh": "送回家"
+        },
+        {
+          "en": "Back to his own castle according to some versions of the story",
+          "zh": "回他自己的城堡（按书中另一种说法）"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "Griffith and Diego blast Maldred with a ball of blue energy that sends him to the magic-proof Wizard's Council prison.",
         "zh": "格里菲斯和迪亚哥用蓝色能量球把马尔德雷送进了防魔法的巫师议会监狱。"
@@ -133,10 +217,22 @@
         "zh": "当罗瑞终于和瓦尔坎建立连接时发生了什么？"
       },
       "options": [
-        {"en": "Vulcan flies away", "zh": "瓦尔坎飞走了"},
-        {"en": "Her Dragon Stone glows and she hears his voice", "zh": "她的龙石块发光，她听见了瓦尔坎的声音"},
-        {"en": "Vulcan shrinks", "zh": "瓦尔坎缩小了"},
-        {"en": "She gets scared", "zh": "她吓坏了"}
+        {
+          "en": "Vulcan flies away according to some versions of the story",
+          "zh": "瓦尔坎飞走了（按书中另一种说法）"
+        },
+        {
+          "en": "Her Dragon Stone glows and she hears his voice",
+          "zh": "她的龙石块发光，她听见了瓦尔坎的声音"
+        },
+        {
+          "en": "Vulcan shrinks",
+          "zh": "瓦尔坎缩小了"
+        },
+        {
+          "en": "She gets scared",
+          "zh": "她吓坏了"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -150,12 +246,24 @@
         "zh": "在玫瑰皇后的城堡里，瓦尔坎怎样安全地展示自己？"
       },
       "options": [
-        {"en": "Breathes fire at the crowd", "zh": "朝人群喷火"},
-        {"en": "Lights the candlesticks with flames from his nostrils", "zh": "用鼻孔喷出的小火苗点燃烛台"},
-        {"en": "Sings a song", "zh": "唱了一首歌"},
-        {"en": "Flies upside down", "zh": "倒着飞"}
+        {
+          "en": "Lights the candlesticks with flames from his nostrils",
+          "zh": "用鼻孔喷出的小火苗点燃烛台"
+        },
+        {
+          "en": "Flies upside down",
+          "zh": "倒着飞"
+        },
+        {
+          "en": "Breathes fire at the crowd according to some versions of the story",
+          "zh": "朝人群喷火（按书中另一种说法）"
+        },
+        {
+          "en": "Sings a song",
+          "zh": "唱了一首歌"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Vulcan steps forward and streams a thin flame from his nostrils to light each table's candlesticks.",
         "zh": "瓦尔坎走上前，用鼻孔喷出细小火苗，把每张桌上的烛台一一点燃。"
@@ -167,12 +275,24 @@
         "zh": "四头海德拉龙在故事结尾怎样了？"
       },
       "options": [
-        {"en": "It goes home with Maldred", "zh": "它跟着马尔德雷回家了"},
-        {"en": "It is sent far away", "zh": "它被送去了远方"},
-        {"en": "It stays and a new Dragon Master will be chosen", "zh": "它留了下来，会有一位新驯龙师被选出来"},
-        {"en": "It becomes King Roland's pet", "zh": "成了罗兰国王的宠物"}
+        {
+          "en": "It becomes King Roland's pet according to some versions of the story",
+          "zh": "成了罗兰国王的宠物（按书中另一种说法）"
+        },
+        {
+          "en": "It is sent far away",
+          "zh": "它被送去了远方"
+        },
+        {
+          "en": "It goes home with Maldred",
+          "zh": "它跟着马尔德雷回家了"
+        },
+        {
+          "en": "It stays and a new Dragon Master will be chosen",
+          "zh": "它留了下来，会有一位新驯龙师被选出来"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": {
         "en": "The hydra returns sad and friendless; Griffith says she may stay in her own cave and the Dragon Stone will soon choose her a new Dragon Master.",
         "zh": "海德拉龙伤心地回来，格里菲斯说它可以留在自己的洞穴里，龙石块很快就会为它选一位新驯龙师。"

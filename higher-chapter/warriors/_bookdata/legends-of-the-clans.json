@@ -4,114 +4,294 @@
   "descZh": "三个独立冒险故事：斑叶的衷肠、松星的抉择、雷星的怀想。",
   "questions": [
     {
-      "q": {"en": "In Spottedleaf's Heart, as a young apprentice what does Spottedpaw first want to become?", "zh": "在《斑叶的衷肠》中，小时候的斑爪（Spottedpaw）最初想成为什么？"},
+      "q": {
+        "en": "In Spottedleaf's Heart, as a young apprentice what does Spottedpaw first want to become?",
+        "zh": "在《斑叶的衷肠》中，小时候的斑爪（Spottedpaw）最初想成为什么？"
+      },
       "options": [
-        {"en": "A medicine cat", "zh": "巫医"},
-        {"en": "A warrior", "zh": "武士"},
-        {"en": "A queen", "zh": "猫后"},
-        {"en": "An elder", "zh": "长老"}
+        {
+          "en": "A queen",
+          "zh": "猫后"
+        },
+        {
+          "en": "An elder",
+          "zh": "长老"
+        },
+        {
+          "en": "A medicine cat",
+          "zh": "巫医"
+        },
+        {
+          "en": "A warrior",
+          "zh": "武士"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "Young Spottedpaw is determined to become a warrior before duty changes her path.", "zh": "小时候的斑爪一心想当武士，后来职责改变了她的道路。"}
+      "answer": 3,
+      "explain": {
+        "en": "Young Spottedpaw is determined to become a warrior before duty changes her path.",
+        "zh": "小时候的斑爪一心想当武士，后来职责改变了她的道路。"
+      }
     },
     {
-      "q": {"en": "What does Spottedleaf realize she must become to save her Clan?", "zh": "斑叶最终意识到，为了拯救族群，自己必须成为什么？"},
+      "q": {
+        "en": "What does Spottedleaf realize she must become to save her Clan?",
+        "zh": "斑叶最终意识到，为了拯救族群，自己必须成为什么？"
+      },
       "options": [
-        {"en": "The next leader", "zh": "下一任族长"},
-        {"en": "The next medicine cat", "zh": "下一任巫医"},
-        {"en": "A kittypet", "zh": "一只宠物猫"},
-        {"en": "A loner", "zh": "一只泼皮猫"}
+        {
+          "en": "A kittypet",
+          "zh": "一只宠物猫"
+        },
+        {
+          "en": "The next medicine cat",
+          "zh": "下一任巫医"
+        },
+        {
+          "en": "A loner",
+          "zh": "一只泼皮猫"
+        },
+        {
+          "en": "The next leader according to some versions of the story",
+          "zh": "下一任族长（按书中另一种说法）"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Spottedleaf understands that to save her Clan she must give up warrior dreams and train as the next medicine cat.", "zh": "斑叶明白，要救族群就必须放下武士梦，去受训成为下一任巫医。"}
+      "explain": {
+        "en": "Spottedleaf understands that to save her Clan she must give up warrior dreams and train as the next medicine cat.",
+        "zh": "斑叶明白，要救族群就必须放下武士梦，去受训成为下一任巫医。"
+      }
     },
     {
-      "q": {"en": "Which Clan does Spottedleaf belong to?", "zh": "斑叶属于哪个族群？"},
+      "q": {
+        "en": "Which Clan does Spottedleaf belong to?",
+        "zh": "斑叶属于哪个族群？"
+      },
       "options": [
-        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
-        {"en": "RiverClan", "zh": "河族（RiverClan）"},
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
-        {"en": "WindClan", "zh": "风族（WindClan）"}
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        },
+        {
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
+        },
+        {
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
+        },
+        {
+          "en": "ShadowClan according to some versions of the story",
+          "zh": "影族（ShadowClan）（按书中另一种说法）"
+        }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Spottedleaf is a ThunderClan medicine cat, serving her Clan loyally.",
+        "zh": "斑叶是雷族的巫医，忠心为族群服务。"
+      }
+    },
+    {
+      "q": {
+        "en": "In Pinestar's Choice, what position did Pinestar hold before he left?",
+        "zh": "在《松星的抉择》中，松星（Pinestar）离开前担任什么职务？"
+      },
+      "options": [
+        {
+          "en": "ThunderClan leader",
+          "zh": "雷族族长"
+        },
+        {
+          "en": "A kittypet from birth",
+          "zh": "出身边是宠物猫"
+        },
+        {
+          "en": "RiverClan medicine cat",
+          "zh": "河族巫医"
+        },
+        {
+          "en": "ShadowClan deputy",
+          "zh": "影族副族长"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Spottedleaf is a ThunderClan medicine cat, serving her Clan loyally.", "zh": "斑叶是雷族的巫医，忠心为族群服务。"}
+      "explain": {
+        "en": "Pinestar was the leader of ThunderClan before he gave up his Clan life.",
+        "zh": "松星在放弃族群生活之前，是雷族的族长。"
+      }
     },
     {
-      "q": {"en": "In Pinestar's Choice, what position did Pinestar hold before he left?", "zh": "在《松星的抉择》中，松星（Pinestar）离开前担任什么职务？"},
+      "q": {
+        "en": "What did Pinestar choose to become, abandoning the warrior code?",
+        "zh": "松星抛弃武士守则，选择成了什么？"
+      },
       "options": [
-        {"en": "ThunderClan leader", "zh": "雷族族长"},
-        {"en": "ShadowClan deputy", "zh": "影族副族长"},
-        {"en": "RiverClan medicine cat", "zh": "河族巫医"},
-        {"en": "A kittypet from birth", "zh": "出身边是宠物猫"}
+        {
+          "en": "A medicine cat",
+          "zh": "巫医"
+        },
+        {
+          "en": "A kittypet (house cat) living with Twolegs",
+          "zh": "和两脚兽一起生活的宠物猫"
+        },
+        {
+          "en": "The leader of a new Clan according to some versions of the story",
+          "zh": "一个新族群的族长（按书中另一种说法）"
+        },
+        {
+          "en": "A loner in the woods",
+          "zh": "树林里的泼皮猫"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Pinestar left ThunderClan to live as a kittypet, betraying the warrior code he once led.",
+        "zh": "松星离开雷族，去当了一只宠物猫，背叛了他曾领导的武士守则。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which ThunderClan medicine cat (from another novella) had a vision that Pinestar would one day leave to become a kittypet?",
+        "zh": "（另一部短篇里的）哪位雷族巫医曾预见松星终将离开、去当宠物猫？"
+      },
+      "options": [
+        {
+          "en": "Goosefeather",
+          "zh": "鹅羽（Goosefeather）"
+        },
+        {
+          "en": "Cinderpelt",
+          "zh": "炭皮（Cinderpelt）"
+        },
+        {
+          "en": "Yellowfang",
+          "zh": "黄牙（Yellowfang）"
+        },
+        {
+          "en": "Spottedleaf according to some versions of the story",
+          "zh": "斑叶（Spottedleaf）（按书中另一种说法）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Pinestar was the leader of ThunderClan before he gave up his Clan life.", "zh": "松星在放弃族群生活之前，是雷族的族长。"}
+      "explain": {
+        "en": "At the end of Goosefeather's Curse, Goosefeather foresees that Pinestar will one day betray his Clan and become a kittypet.",
+        "zh": "在《鹅羽的诅咒》结尾，鹅羽预见松星终将背叛族群、去当宠物猫。"
+      }
     },
     {
-      "q": {"en": "What did Pinestar choose to become, abandoning the warrior code?", "zh": "松星抛弃武士守则，选择成了什么？"},
+      "q": {
+        "en": "In Thunderstar's Echo, who was Thunderstar?",
+        "zh": "在《雷星的怀想》中，雷星（Thunderstar）是谁？"
+      },
       "options": [
-        {"en": "A loner in the woods", "zh": "树林里的泼皮猫"},
-        {"en": "A kittypet (house cat) living with Twolegs", "zh": "和两脚兽一起生活的宠物猫"},
-        {"en": "The leader of a new Clan", "zh": "一个新族群的族长"},
-        {"en": "A medicine cat", "zh": "巫医"}
+        {
+          "en": "The first leader of SkyClan according to some versions of the story",
+          "zh": "天族的第一任族长（按书中另一种说法）"
+        },
+        {
+          "en": "A kittypet",
+          "zh": "一只宠物猫"
+        },
+        {
+          "en": "The first leader of ThunderClan",
+          "zh": "雷族的第一任族长"
+        },
+        {
+          "en": "A RiverClan warrior",
+          "zh": "河族的一名武士"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "Pinestar left ThunderClan to live as a kittypet, betraying the warrior code he once led.", "zh": "松星离开雷族，去当了一只宠物猫，背叛了他曾领导的武士守则。"}
+      "answer": 2,
+      "explain": {
+        "en": "Thunderstar was the founder and first leader of ThunderClan in the earliest days of the Clans.",
+        "zh": "雷星是族群黎明时期雷族的创立者，也是第一任族长。"
+      }
     },
     {
-      "q": {"en": "Which ThunderClan medicine cat (from another novella) had a vision that Pinestar would one day leave to become a kittypet?", "zh": "（另一部短篇里的）哪位雷族巫医曾预见松星终将离开、去当宠物猫？"},
+      "q": {
+        "en": "In Thunderstar's Echo, what new threat does Thunderstar face down in the earliest days?",
+        "zh": "在《雷星的怀想》中，雷星在族群初期面对并击退了什么新威胁？"
+      },
       "options": [
-        {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"},
-        {"en": "Goosefeather", "zh": "鹅羽（Goosefeather）"},
-        {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"},
-        {"en": "Cinderpelt", "zh": "炭皮（Cinderpelt）"}
+        {
+          "en": "A fire",
+          "zh": "一场火灾"
+        },
+        {
+          "en": "A lack of prey according to some versions of the story",
+          "zh": "猎物短缺（按书中另一种说法）"
+        },
+        {
+          "en": "A flood",
+          "zh": "一场洪水"
+        },
+        {
+          "en": "A new danger threatening the young Clan",
+          "zh": "威胁新生族群的新危险"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "At the end of Goosefeather's Curse, Goosefeather foresees that Pinestar will one day betray his Clan and become a kittypet.", "zh": "在《鹅羽的诅咒》结尾，鹅羽预见松星终将背叛族群、去当宠物猫。"}
+      "answer": 3,
+      "explain": {
+        "en": "Thunderstar faces down a new threat to his young Clan and proves himself as its leader.",
+        "zh": "雷星面对并击退了威胁新生族群的新危险，证明了自己作为族长的能力。"
+      }
     },
     {
-      "q": {"en": "In Thunderstar's Echo, who was Thunderstar?", "zh": "在《雷星的怀想》中，雷星（Thunderstar）是谁？"},
+      "q": {
+        "en": "What does Thunderstar's story help create for all the warrior Clans?",
+        "zh": "雷星的故事为所有武士族群奠定了什么？"
+      },
       "options": [
-        {"en": "The first leader of ThunderClan", "zh": "雷族的第一任族长"},
-        {"en": "The first leader of SkyClan", "zh": "天族的第一任族长"},
-        {"en": "A RiverClan warrior", "zh": "河族的一名武士"},
-        {"en": "A kittypet", "zh": "一只宠物猫"}
+        {
+          "en": "A new tradition",
+          "zh": "一项新的传统"
+        },
+        {
+          "en": "A new hunting technique",
+          "zh": "一种新的狩猎技巧"
+        },
+        {
+          "en": "A new code of laws",
+          "zh": "一部新的法典"
+        },
+        {
+          "en": "A new territory",
+          "zh": "一片新的领地"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Thunderstar was the founder and first leader of ThunderClan in the earliest days of the Clans.", "zh": "雷星是族群黎明时期雷族的创立者，也是第一任族长。"}
+      "explain": {
+        "en": "By facing the threat, Thunderstar forges a new tradition that all the warrior Clans come to share.",
+        "zh": "通过直面威胁，雷星开创了一项新传统，后来被所有武士族群共同遵循。"
+      }
     },
     {
-      "q": {"en": "In Thunderstar's Echo, what new threat does Thunderstar face down in the earliest days?", "zh": "在《雷星的怀想》中，雷星在族群初期面对并击退了什么新威胁？"},
+      "q": {
+        "en": "Legends of the Clans contains three novellas. Which of these is one of them?",
+        "zh": "《族群的传说》包含三个短篇，以下哪一个是其中之一？"
+      },
       "options": [
-        {"en": "A flood", "zh": "一场洪水"},
-        {"en": "A new danger threatening the young Clan", "zh": "威胁新生族群的新危险"},
-        {"en": "A lack of prey", "zh": "猎物短缺"},
-        {"en": "A fire", "zh": "一场火灾"}
+        {
+          "en": "Mapleshade's Vengeance",
+          "zh": "《枫荫的报复》（Mapleshade's Vengeance）"
+        },
+        {
+          "en": "Spottedleaf's Heart",
+          "zh": "《斑叶的衷肠》（Spottedleaf's Heart）"
+        },
+        {
+          "en": "Hollyleaf's Story",
+          "zh": "《冬青叶的故事》（Hollyleaf's Story）"
+        },
+        {
+          "en": "Cloudstar's Journey",
+          "zh": "《云星的旅程》（Cloudstar's Journey）"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Thunderstar faces down a new threat to his young Clan and proves himself as its leader.", "zh": "雷星面对并击退了威胁新生族群的新危险，证明了自己作为族长的能力。"}
-    },
-    {
-      "q": {"en": "What does Thunderstar's story help create for all the warrior Clans?", "zh": "雷星的故事为所有武士族群奠定了什么？"},
-      "options": [
-        {"en": "A new hunting technique", "zh": "一种新的狩猎技巧"},
-        {"en": "A new tradition", "zh": "一项新的传统"},
-        {"en": "A new territory", "zh": "一片新的领地"},
-        {"en": "A new code of laws", "zh": "一部新的法典"}
-      ],
-      "answer": 1,
-      "explain": {"en": "By facing the threat, Thunderstar forges a new tradition that all the warrior Clans come to share.", "zh": "通过直面威胁，雷星开创了一项新传统，后来被所有武士族群共同遵循。"}
-    },
-    {
-      "q": {"en": "Legends of the Clans contains three novellas. Which of these is one of them?", "zh": "《族群的传说》包含三个短篇，以下哪一个是其中之一？"},
-      "options": [
-        {"en": "Mapleshade's Vengeance", "zh": "《枫荫的报复》（Mapleshade's Vengeance）"},
-        {"en": "Spottedleaf's Heart", "zh": "《斑叶的衷肠》（Spottedleaf's Heart）"},
-        {"en": "Hollyleaf's Story", "zh": "《冬青叶的故事》（Hollyleaf's Story）"},
-        {"en": "Cloudstar's Journey", "zh": "《云星的旅程》（Cloudstar's Journey）"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Legends of the Clans collects Spottedleaf's Heart, Pinestar's Choice, and Thunderstar's Echo.", "zh": "《族群的传说》收录了《斑叶的衷肠》《松星的抉择》和《雷星的怀想》三个短篇。"}
+      "explain": {
+        "en": "Legends of the Clans collects Spottedleaf's Heart, Pinestar's Choice, and Thunderstar's Echo.",
+        "zh": "《族群的传说》收录了《斑叶的衷肠》《松星的抉择》和《雷星的怀想》三个短篇。"
+      }
     }
   ]
 }

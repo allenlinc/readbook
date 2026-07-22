@@ -21,8 +21,8 @@
           "zh": "独自生活的野生动物"
         },
         {
-          "en": "An animal that can change its color",
-          "zh": "能改变颜色的动物"
+          "en": "An animal that can change its color according to some versions of the story",
+          "zh": "能改变颜色的动物（按书中另一种说法）"
         },
         {
           "en": "A type of plant",
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "A zebroid",
+          "zh": "斑驴"
+        },
+        {
           "en": "A mule",
           "zh": "骡子"
         },
@@ -53,13 +57,9 @@
         {
           "en": "A liger",
           "zh": "狮虎兽"
-        },
-        {
-          "en": "A zebroid",
-          "zh": "斑驴"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states a donkey mother crossed with a horse father produces a hinny; a horse mother produces a mule.",
@@ -73,8 +73,8 @@
       },
       "options": [
         {
-          "en": "They are too large to reproduce",
-          "zh": "它们体型太大无法繁殖"
+          "en": "They refuse to eat",
+          "zh": "它们拒绝进食"
         },
         {
           "en": "Their parents have different numbers of chromosomes that do not match",
@@ -85,8 +85,8 @@
           "zh": "它们只生活在动物园"
         },
         {
-          "en": "They refuse to eat",
-          "zh": "它们拒绝进食"
+          "en": "They are too large to reproduce according to some versions of the story",
+          "zh": "它们体型太大无法繁殖（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "A bear trained in a zoo",
-          "zh": "在动物园受训的熊"
-        },
-        {
           "en": "A hybrid of a grizzly bear and a polar bear",
           "zh": "灰熊与北极熊的杂交后代"
         },
@@ -115,11 +111,15 @@
           "zh": "一种鱼"
         },
         {
+          "en": "A bear trained in a zoo according to some versions of the story",
+          "zh": "在动物园受训的熊（按书中另一种说法）"
+        },
+        {
           "en": "A fictional creature",
           "zh": "虚构的生物"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says a grizzly-polar bear hybrid, called a grolar bear, was first spotted in 2006.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Big dogs are a different species from small dogs",
-          "zh": "大型犬与小型犬是不同物种"
-        },
-        {
-          "en": "Two animals that look very different can still be the same species",
-          "zh": "外表差异很大的两种动物仍可能是同一物种"
-        },
-        {
           "en": "All dogs can interbreed with cats",
           "zh": "所有狗都能与猫杂交"
         },
         {
           "en": "Small animals are always weaker",
           "zh": "小型动物总是更弱"
+        },
+        {
+          "en": "Big dogs are a different species from small dogs according to some versions of the story",
+          "zh": "大型犬与小型犬是不同物种（按书中另一种说法）"
+        },
+        {
+          "en": "Two animals that look very different can still be the same species",
+          "zh": "外表差异很大的两种动物仍可能是同一物种"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "It notes both breeds are the same species, Canis lupus familiaris, despite looking different.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "The liger",
-          "zh": "狮虎兽"
+          "en": "The zebroid",
+          "zh": "斑驴"
         },
         {
           "en": "The beefalo",
           "zh": "皮牛（犎牛杂交）"
         },
         {
-          "en": "The spider goat",
-          "zh": "蜘蛛羊"
+          "en": "The liger",
+          "zh": "狮虎兽"
         },
         {
-          "en": "The zebroid",
-          "zh": "斑驴"
+          "en": "The spider goat",
+          "zh": "蜘蛛羊"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Spider genes were inserted into goat embryos in a lab, so 'spider goats' are transgenic.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "They were placed together in zoos",
-          "zh": "它们被放在同一动物园"
+          "en": "They were placed together in zoos according to some versions of the story in an early draft of the book",
+          "zh": "它们被放在同一动物园（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Rising temperatures and melting sea ice have brought their ranges together",
           "zh": "气温升高与海冰融化使它们的活动范围重叠"
         },
         {
-          "en": "They eat the same brand of food",
-          "zh": "它们吃同一种食物"
-        },
-        {
           "en": "Humans forced them to mate",
           "zh": "人类强迫它们交配"
+        },
+        {
+          "en": "They eat the same brand of food",
+          "zh": "它们吃同一种食物"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Spider goats are larger than hybrids",
-          "zh": "蜘蛛羊比杂交动物更大"
+          "en": "Spider goats cannot produce milk",
+          "zh": "蜘蛛羊不能产奶"
+        },
+        {
+          "en": "Spider goats are larger than hybrids according to some versions of the story in an early draft of the book",
+          "zh": "蜘蛛羊比杂交动物更大（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "The spider genes were inserted artificially in a lab, making the goats transgenic",
           "zh": "蜘蛛基因是在实验室人工植入的，使山羊成为转基因生物"
         },
         {
-          "en": "Spider goats cannot produce milk",
-          "zh": "蜘蛛羊不能产奶"
-        },
-        {
           "en": "They are the same as a mule",
           "zh": "它们与骡子相同"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Because genes were artificially introduced, the goats are transgenic, not the result of mating two species.",
@@ -253,12 +253,12 @@
       },
       "options": [
         {
-          "en": "To present a balanced view of both benefits and problems of hybridization",
-          "zh": "对杂交的益处与问题给出平衡的看法"
+          "en": "To convince readers that all hybrids are bad according to some versions of the story",
+          "zh": "让读者相信所有杂交都是坏事（按书中另一种说法）"
         },
         {
-          "en": "To convince readers that all hybrids are bad",
-          "zh": "让读者相信所有杂交都是坏事"
+          "en": "To present a balanced view of both benefits and problems of hybridization",
+          "zh": "对杂交的益处与问题给出平衡的看法"
         },
         {
           "en": "To sell hybrid pets",
@@ -269,7 +269,7 @@
           "zh": "只描述古代神话"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book weighs both advantages (e.g., hardiness) and risks (e.g., threatened species).",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "That hybrids are certainly always harmful",
-          "zh": "杂交肯定总是有害"
-        },
-        {
           "en": "That they may be both a problem and a natural response to change, with the answer still unclear",
           "zh": "它们可能既是问题也是应对变化的自然方式，答案尚不明朗"
         },
         {
-          "en": "That hybrids do not exist in nature",
-          "zh": "杂交在自然界并不存在"
-        },
-        {
           "en": "That only humans create hybrids",
           "zh": "只有人类才制造杂交"
+        },
+        {
+          "en": "That hybrids are certainly always harmful according to some versions of the story in an early draft of the book",
+          "zh": "杂交肯定总是有害（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "That hybrids do not exist in nature",
+          "zh": "杂交在自然界并不存在"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The final line says they 'may be a bit of both—only time will tell!'",

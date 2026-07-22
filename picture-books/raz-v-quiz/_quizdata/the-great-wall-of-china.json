@@ -12,12 +12,24 @@
         "zh": "1987年，联合国授予长城什么称号？"
       },
       "options": [
-        {"en": "A World Heritage Site", "zh": "世界遗产"},
-        {"en": "The tallest building award", "zh": "最高建筑奖"},
-        {"en": "A national park", "zh": "一个国家公园"},
-        {"en": "A modern wonder of Europe", "zh": "欧洲的现代奇迹"}
+        {
+          "en": "A national park",
+          "zh": "一个国家公园"
+        },
+        {
+          "en": "The tallest building award",
+          "zh": "最高建筑奖"
+        },
+        {
+          "en": "A modern wonder of Europe",
+          "zh": "欧洲的现代奇迹"
+        },
+        {
+          "en": "A World Heritage Site",
+          "zh": "世界遗产"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In 1987 the Great Wall was chosen as a World Heritage Site by the United Nations.",
@@ -30,12 +42,24 @@
         "zh": "什么古老的观念指导了长城弯曲的设计？"
       },
       "options": [
-        {"en": "Feng shui", "zh": "风水"},
-        {"en": "Mathematics", "zh": "数学"},
-        {"en": "Astronomy", "zh": "天文学"},
-        {"en": "Commerce", "zh": "商业"}
+        {
+          "en": "Astronomy",
+          "zh": "天文学"
+        },
+        {
+          "en": "Feng shui",
+          "zh": "风水"
+        },
+        {
+          "en": "Mathematics",
+          "zh": "数学"
+        },
+        {
+          "en": "Commerce",
+          "zh": "商业"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The art and science of feng shui governed the design; the wall was curved to flow over the land in a harmonious way.",
@@ -48,12 +72,24 @@
         "zh": "许多中国人把长城想象成什么动物？"
       },
       "options": [
-        {"en": "A sleeping dragon", "zh": "一条沉睡的龙"},
-        {"en": "A running horse", "zh": "一匹奔跑的马"},
-        {"en": "A flying eagle", "zh": "一只飞翔的鹰"},
-        {"en": "A swimming fish", "zh": "一条游动的鱼"}
+        {
+          "en": "A running horse according to some versions of the story",
+          "zh": "一匹奔跑的马（按书中另一种说法）"
+        },
+        {
+          "en": "A sleeping dragon",
+          "zh": "一条沉睡的龙"
+        },
+        {
+          "en": "A flying eagle",
+          "zh": "一只飞翔的鹰"
+        },
+        {
+          "en": "A swimming fish",
+          "zh": "一条游动的鱼"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says many people in China think of the wall as a sleeping dragon, with its tail in the west and head in the east.",
@@ -66,10 +102,22 @@
         "zh": "根据现代测量，整座长城大约有多长？"
       },
       "options": [
-        {"en": "About 21,196 kilometers", "zh": "约21,196公里"},
-        {"en": "About 5,000 kilometers", "zh": "约5,000公里"},
-        {"en": "About 1,000 kilometers", "zh": "约1,000公里"},
-        {"en": "About 100,000 kilometers", "zh": "约100,000公里"}
+        {
+          "en": "About 21,196 kilometers",
+          "zh": "约21,196公里"
+        },
+        {
+          "en": "About 1,000 kilometers",
+          "zh": "约1,000公里"
+        },
+        {
+          "en": "About 100,000 kilometers",
+          "zh": "约100,000公里"
+        },
+        {
+          "en": "About 5,000 kilometers",
+          "zh": "约5,000公里"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "长城主要是为了阻挡谁而修建的？"
       },
       "options": [
-        {"en": "The Mongol people and other non-Chinese groups", "zh": "蒙古人及其他非汉族群体"},
-        {"en": "Flood waters", "zh": "洪水"},
-        {"en": "Wild animals from the south", "zh": "来自南方的野兽"},
-        {"en": "Traders from Europe", "zh": "来自欧洲的商人"}
+        {
+          "en": "Wild animals from the south according to some versions of the story",
+          "zh": "来自南方的野兽（按书中另一种说法）"
+        },
+        {
+          "en": "Flood waters",
+          "zh": "洪水"
+        },
+        {
+          "en": "The Mongol people and other non-Chinese groups",
+          "zh": "蒙古人及其他非汉族群体"
+        },
+        {
+          "en": "Traders from Europe",
+          "zh": "来自欧洲的商人"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The wall followed the edge of Inner Mongolia and was built to keep out the Mongol people and protect Chinese culture.",
@@ -102,12 +162,24 @@
         "zh": "约公元前221年统一中国后，是哪位皇帝下令修建长墙？"
       },
       "options": [
-        {"en": "Zheng, the first emperor of Qin", "zh": "秦朝第一位皇帝——嬴政"},
-        {"en": "Genghis Khan", "zh": "成吉思汗"},
-        {"en": "A Ming dynasty emperor", "zh": "明朝的一位皇帝"},
-        {"en": "A Tang dynasty emperor", "zh": "唐朝的一位皇帝"}
+        {
+          "en": "A Tang dynasty emperor according to some versions of the story",
+          "zh": "唐朝的一位皇帝（按书中另一种说法）"
+        },
+        {
+          "en": "Genghis Khan",
+          "zh": "成吉思汗"
+        },
+        {
+          "en": "Zheng, the first emperor of Qin",
+          "zh": "秦朝第一位皇帝——嬴政"
+        },
+        {
+          "en": "A Ming dynasty emperor",
+          "zh": "明朝的一位皇帝"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After Qin took control of all of China, Zheng became the first emperor and ordered workers to build almost 4,828 km of wall.",
@@ -120,10 +192,22 @@
         "zh": "明朝时期，是什么秘密成分让灰浆变得坚固？"
       },
       "options": [
-        {"en": "Sticky rice", "zh": "糯米"},
-        {"en": "Ground-up bones", "zh": "磨碎的骨头"},
-        {"en": "Crushed seashells", "zh": "压碎的贝壳"},
-        {"en": "Volcanic ash", "zh": "火山灰"}
+        {
+          "en": "Sticky rice",
+          "zh": "糯米"
+        },
+        {
+          "en": "Ground-up bones",
+          "zh": "磨碎的骨头"
+        },
+        {
+          "en": "Crushed seashells",
+          "zh": "压碎的贝壳"
+        },
+        {
+          "en": "Volcanic ash",
+          "zh": "火山灰"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -138,10 +222,22 @@
         "zh": "哪个段落最著名、保存最完好，且靠近北京？"
       },
       "options": [
-        {"en": "Badaling", "zh": "八达岭"},
-        {"en": "Mutianyu", "zh": "慕田峪"},
-        {"en": "Simatai", "zh": "司马台"},
-        {"en": "Jinshanling", "zh": "金山岭"}
+        {
+          "en": "Badaling",
+          "zh": "八达岭"
+        },
+        {
+          "en": "Jinshanling",
+          "zh": "金山岭"
+        },
+        {
+          "en": "Simatai",
+          "zh": "司马台"
+        },
+        {
+          "en": "Mutianyu",
+          "zh": "慕田峪"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -156,12 +252,24 @@
         "zh": "长城沿线上大约有多少座敌楼和哨所？"
       },
       "options": [
-        {"en": "25,000 watchtowers and 15,000 outposts", "zh": "25,000座敌楼和15,000个哨所"},
-        {"en": "100 watchtowers and 50 outposts", "zh": "100座敌楼和50个哨所"},
-        {"en": "1,000 watchtowers and 1,000 outposts", "zh": "1,000座敌楼和1,000个哨所"},
-        {"en": "500,000 watchtowers and 500,000 outposts", "zh": "500,000座敌楼和500,000个哨所"}
+        {
+          "en": "100 watchtowers and 50 outposts",
+          "zh": "100座敌楼和50个哨所"
+        },
+        {
+          "en": "500,000 watchtowers and 500,000 outposts",
+          "zh": "500,000座敌楼和500,000个哨所"
+        },
+        {
+          "en": "1,000 watchtowers and 1,000 outposts",
+          "zh": "1,000座敌楼和1,000个哨所"
+        },
+        {
+          "en": "25,000 watchtowers and 15,000 outposts",
+          "zh": "25,000座敌楼和15,000个哨所"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "There are about 25,000 watchtowers and 15,000 outposts along the sections of the Great Wall.",
@@ -174,12 +282,24 @@
         "zh": "2008年北京奥运会如何体现了长城的重要性？"
       },
       "options": [
-        {"en": "The wall appeared in the Opening Ceremony and a cycling course", "zh": "长城出现在开幕式和一条自行车赛道上"},
-        {"en": "The wall was torn down for the Games", "zh": "长城为奥运会被拆除"},
-        {"en": "A wall was built inside the stadium", "zh": "在体育场里另建了一道墙"},
-        {"en": "The Games ignored Chinese history", "zh": "奥运会忽略了中国历史"}
+        {
+          "en": "The Games ignored Chinese history",
+          "zh": "奥运会忽略了中国历史"
+        },
+        {
+          "en": "The wall appeared in the Opening Ceremony and a cycling course",
+          "zh": "长城出现在开幕式和一条自行车赛道上"
+        },
+        {
+          "en": "A wall was built inside the stadium according to some versions of the story",
+          "zh": "在体育场里另建了一道墙（按书中另一种说法）"
+        },
+        {
+          "en": "The wall was torn down for the Games",
+          "zh": "长城为奥运会被拆除"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Games honored host-country history: a representation of the wall highlighted the Opening Ceremony and a cycling course ran between two passes.",

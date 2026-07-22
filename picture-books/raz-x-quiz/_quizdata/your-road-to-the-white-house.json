@@ -13,12 +13,8 @@
       },
       "options": [
         {
-          "en": "Be 35 years old, born in the United States, and have lived in the U.S. for 14 years.",
-          "zh": "年满35岁、在美国出生、在美国居住满14年。"
-        },
-        {
-          "en": "Be 25 years old, born in any country, and speak English.",
-          "zh": "年满25岁、在任何国家出生、会说英语。"
+          "en": "Be 25 years old, born in any country, and speak English. according to some versions of the story",
+          "zh": "年满25岁、在任何国家出生、会说英语。（按书中另一种说法）"
         },
         {
           "en": "Be a former senator and own property.",
@@ -27,9 +23,13 @@
         {
           "en": "Be a college graduate and have served in the military.",
           "zh": "大学毕业并服过兵役。"
+        },
+        {
+          "en": "Be 35 years old, born in the United States, and have lived in the U.S. for 14 years.",
+          "zh": "年满35岁、在美国出生、在美国居住满14年。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the rules written in the Constitution require a candidate to be 35 years old, born in the United States, and to have lived in the U.S. for 14 years.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Two terms, or eight years total.",
-          "zh": "两届，共八年。"
-        },
-        {
           "en": "One term, or four years total.",
           "zh": "一届，共四年。"
         },
         {
-          "en": "Three terms, or twelve years total.",
-          "zh": "三届，共十二年。"
-        },
-        {
           "en": "There is no limit.",
           "zh": "没有限制。"
+        },
+        {
+          "en": "Two terms, or eight years total.",
+          "zh": "两届，共八年。"
+        },
+        {
+          "en": "Three terms, or twelve years total.",
+          "zh": "三届，共十二年。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states a president can serve only two terms (eight years) total.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Dwight D. Eisenhower, a famous World War II war hero.",
-          "zh": "德怀特·D·艾森豪威尔，二战著名战争英雄。"
-        },
-        {
           "en": "Ross Perot, a Texas billionaire.",
           "zh": "罗斯·佩罗，得州亿万富翁。"
         },
         {
-          "en": "Dr. Benjamin Spock, a children's doctor.",
-          "zh": "本杰明·斯波克博士，儿科医生。"
+          "en": "Dwight D. Eisenhower, a famous World War II war hero.",
+          "zh": "德怀特·D·艾森豪威尔，二战著名战争英雄。"
+        },
+        {
+          "en": "Dr. Benjamin Spock, a children's doctor. according to some versions of the story",
+          "zh": "本杰明·斯波克博士，儿科医生。（按书中另一种说法）"
         },
         {
           "en": "Ralph Nader, a consumer advocate.",
           "zh": "拉尔夫·纳德，消费者权益倡导者。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Dwight D. Eisenhower is the only non-politician to win the presidency since 1900; he commanded the Allied forces in Europe during World War II. Perot, Nader, and Spock tried but were unsuccessful.",
@@ -115,8 +115,8 @@
           "zh": "选举每十年一次。"
         },
         {
-          "en": "Election years are the same as leap years only.",
-          "zh": "选举年就是闰年。"
+          "en": "Election years are the same as leap years only. according to some versions of the story in an early draft of the book",
+          "zh": "选举年就是闰年。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -137,16 +137,16 @@
           "zh": "选举日之后的1月20日。"
         },
         {
-          "en": "November 1, on Election Day.",
-          "zh": "11月1日，选举当天。"
-        },
-        {
           "en": "July 4, Independence Day.",
           "zh": "7月4日，独立日。"
         },
         {
           "en": "December 25, Christmas.",
           "zh": "12月25日，圣诞节。"
+        },
+        {
+          "en": "November 1, on Election Day. according to some versions of the story",
+          "zh": "11月1日，选举当天。（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "Exactly 500 votes.",
+          "zh": "恰好500票。"
+        },
+        {
           "en": "At least 1,254 votes (out of 2,509 delegates).",
           "zh": "至少1,254票（共2,509名代表）。"
         },
         {
-          "en": "At least 2,176 votes (out of 4,353 delegates).",
-          "zh": "至少2,176票（共4,353名代表）。"
-        },
-        {
-          "en": "Exactly 500 votes.",
-          "zh": "恰好500票。"
+          "en": "At least 2,176 votes (out of 4,353 delegates). according to some versions of the story",
+          "zh": "至少2,176票（共4,353名代表）。（按书中另一种说法）"
         },
         {
           "en": "A simple majority of one vote.",
           "zh": "简单多数为一票。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Republican Party has 2,509 delegates and a Republican candidate must get at least 1,254 votes to win (the Democratic threshold is 2,176 of 4,353).",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Winning the popular vote does not guarantee winning the presidency because of the electoral college.",
-          "zh": "由于选举人团制度，赢得普选票并不保证当选总统。"
-        },
-        {
           "en": "The candidate with the most votes always loses.",
           "zh": "得票最多的人总是输。"
+        },
+        {
+          "en": "The popular vote is the only thing that matters. according to some versions of the story in an early draft of the book",
+          "zh": "普选票是唯一重要的。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Only the Senate chooses the president.",
           "zh": "只有参议院能选出总统。"
         },
         {
-          "en": "The popular vote is the only thing that matters.",
-          "zh": "普选票是唯一重要的。"
+          "en": "Winning the popular vote does not guarantee winning the presidency because of the electoral college.",
+          "zh": "由于选举人团制度，赢得普选票并不保证当选总统。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains the electoral college: winning the popular vote does not mean you've won, as in 2000 when Gore won the popular vote but Bush won the electoral vote.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Political parties can rise, fall, and change over time; the two major parties were not always the same.",
-          "zh": "政党会随时间兴衰更替；两大政党并非一直如此。"
-        },
-        {
-          "en": "The two major parties have always been Democrats and Republicans.",
-          "zh": "两大党一直是民主党和共和党。"
-        },
-        {
           "en": "Third parties can never affect elections.",
           "zh": "第三党永远无法影响选举。"
         },
         {
           "en": "The Whig Party still exists today.",
           "zh": "辉格党至今仍然存在。"
+        },
+        {
+          "en": "Political parties can rise, fall, and change over time; the two major parties were not always the same.",
+          "zh": "政党会随时间兴衰更替；两大政党并非一直如此。"
+        },
+        {
+          "en": "The two major parties have always been Democrats and Republicans. according to some versions of the story",
+          "zh": "两大党一直是民主党和共和党。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book notes the two major parties used to be the Democratic Party and the Whig Party, and the Republican Party took the Whigs' place with an anti-slavery stance, showing parties change over time.",
@@ -257,16 +257,16 @@
           "zh": "政党成员为投票选出候选人而召开的会议。"
         },
         {
-          "en": "The final speech a losing candidate gives.",
-          "zh": "落选候选人发表的总结演讲。"
-        },
-        {
-          "en": "The written rules of the United States.",
-          "zh": "美国的成文法规。"
+          "en": "The final speech a losing candidate gives. according to some versions of the story",
+          "zh": "落选候选人发表的总结演讲。（按书中另一种说法）"
         },
         {
           "en": "A person picked by a party to run for office.",
           "zh": "由政党推选参选的人。"
+        },
+        {
+          "en": "The written rules of the United States.",
+          "zh": "美国的成文法规。"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To guide and inform readers, step by step, about how someone becomes president of the United States.",
-          "zh": "循序渐进地引导并告诉读者，一个人是如何当选美国总统的。"
+          "en": "To teach readers how to write the Constitution.",
+          "zh": "教读者撰写宪法。"
         },
         {
-          "en": "To persuade readers to vote for one political party.",
-          "zh": "劝说读者投票给某一政党。"
+          "en": "To guide and inform readers, step by step, about how someone becomes president of the United States.",
+          "zh": "循序渐进地引导并告诉读者，一个人是如何当选美国总统的。"
         },
         {
           "en": "To tell a fictional story about a president.",
           "zh": "讲述一个关于总统的虚构故事。"
         },
         {
-          "en": "To teach readers how to write the Constitution.",
-          "zh": "教读者撰写宪法。"
+          "en": "To persuade readers to vote for one political party. according to some versions of the story in an early draft of the book",
+          "zh": "劝说读者投票给某一政党。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book follows a clear step-by-step path from qualifications to inauguration, written to inform readers about the road to the presidency.",

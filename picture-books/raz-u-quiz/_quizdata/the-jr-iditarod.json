@@ -12,12 +12,24 @@
         "zh": "谁有资格参加少年艾迪塔罗德雪橇赛？"
       },
       "options": [
-        {"en": "Children ages 5 to 9", "zh": "5到9岁的儿童"},
-        {"en": "Young people ages 14 through 17", "zh": "14到17岁的青少年"},
-        {"en": "Adults over 18 only", "zh": "仅限18岁以上的成年人"},
-        {"en": "Professional racers of any age", "zh": "任何年龄的职业选手"}
+        {
+          "en": "Adults over 18 only",
+          "zh": "仅限18岁以上的成年人"
+        },
+        {
+          "en": "Professional racers of any age according to some versions of the story",
+          "zh": "任何年龄的职业选手（按书中另一种说法）"
+        },
+        {
+          "en": "Children ages 5 to 9",
+          "zh": "5到9岁的儿童"
+        },
+        {
+          "en": "Young people ages 14 through 17",
+          "zh": "14到17岁的青少年"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that young people ages fourteen through seventeen gather in Alaska with their dogs for the race.",
@@ -30,12 +42,24 @@
         "zh": "少年艾迪塔罗德雪橇赛始于哪一年？"
       },
       "options": [
-        {"en": "1973", "zh": "1973年"},
-        {"en": "1978", "zh": "1978年"},
-        {"en": "1925", "zh": "1925年"},
-        {"en": "1999", "zh": "1999年"}
+        {
+          "en": "1999 according to some versions of the story",
+          "zh": "1999年（按书中另一种说法）"
+        },
+        {
+          "en": "1925",
+          "zh": "1925年"
+        },
+        {
+          "en": "1978",
+          "zh": "1978年"
+        },
+        {
+          "en": "1973",
+          "zh": "1973年"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Jr. Iditarod is a demanding race that began in 1978 and has taken place every year since then.",
@@ -48,12 +72,24 @@
         "zh": "在雪橇犬指令中，“gee”这个词是什么意思？"
       },
       "options": [
-        {"en": "Turn right", "zh": "向右转"},
-        {"en": "Turn left", "zh": "向左转"},
-        {"en": "Stop", "zh": "停下"},
-        {"en": "Slow down", "zh": "减速"}
+        {
+          "en": "Turn left according to some versions of the story",
+          "zh": "向左转（按书中另一种说法）"
+        },
+        {
+          "en": "Turn right",
+          "zh": "向右转"
+        },
+        {
+          "en": "Stop",
+          "zh": "停下"
+        },
+        {
+          "en": "Slow down",
+          "zh": "减速"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The command chart in the book lists \"gee\" as turn right and \"haw\" as turn left.",
@@ -66,12 +102,24 @@
         "zh": "少年艾迪塔罗德雪橇赛从哪里出发？"
       },
       "options": [
-        {"en": "The city of Nome", "zh": "诺姆市"},
-        {"en": "The Wasilla area, north of Anchorage", "zh": "安克雷奇以北的瓦西拉一带"},
-        {"en": "The town of Fairbanks", "zh": "费尔班克斯镇"},
-        {"en": "The state capital, Juneau", "zh": "州府朱诺"}
+        {
+          "en": "The city of Nome",
+          "zh": "诺姆市"
+        },
+        {
+          "en": "The state capital, Juneau according to some versions of the story",
+          "zh": "州府朱诺（按书中另一种说法）"
+        },
+        {
+          "en": "The Wasilla area, north of Anchorage",
+          "zh": "安克雷奇以北的瓦西拉一带"
+        },
+        {
+          "en": "The town of Fairbanks",
+          "zh": "费尔班克斯镇"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says mushers arrive in the Wasilla area, north of Anchorage, which is the starting point of the race.",
@@ -84,12 +132,24 @@
         "zh": "少年赛所仿效的艾迪塔罗德大赛，是为了纪念1925年的什么真实事件？"
       },
       "options": [
-        {"en": "Dog teams delivering life-saving medicine to children in Nome", "zh": "狗拉雪橇队向诺姆的儿童运送救命药物"},
-        {"en": "The first airplane flight over Alaska", "zh": "首次飞越阿拉斯加的飞行"},
-        {"en": "A gold rush in the north", "zh": "北方的一场淘金热"},
-        {"en": "The building of the first railroad", "zh": "第一条铁路的修建"}
+        {
+          "en": "The first airplane flight over Alaska according to some versions of the story",
+          "zh": "首次飞越阿拉斯加的飞行（按书中另一种说法）"
+        },
+        {
+          "en": "A gold rush in the north",
+          "zh": "北方的一场淘金热"
+        },
+        {
+          "en": "The building of the first railroad",
+          "zh": "第一条铁路的修建"
+        },
+        {
+          "en": "Dog teams delivering life-saving medicine to children in Nome",
+          "zh": "狗拉雪橇队向诺姆的儿童运送救命药物"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains that part of the Iditarod route was used in 1925 by mushers and dogs to deliver medicine to children in Nome, and the race began in 1973 to commemorate that event.",
@@ -102,10 +162,22 @@
         "zh": "在中途站延特纳站（赛程一半处），每位驾驭员必须做什么？"
       },
       "options": [
-        {"en": "Leave immediately to save time", "zh": "为节省时间立即离开"},
-        {"en": "Take a required ten-hour break, called a layover", "zh": "进行强制的十小时休息，称为中途驻扎"},
-        {"en": "Switch to a new team of dogs", "zh": "换上一队新狗"},
-        {"en": "Cross a frozen river alone", "zh": "独自穿越一条结冰的河流"}
+        {
+          "en": "Switch to a new team of dogs",
+          "zh": "换上一队新狗"
+        },
+        {
+          "en": "Take a required ten-hour break, called a layover",
+          "zh": "进行强制的十小时休息，称为中途驻扎"
+        },
+        {
+          "en": "Cross a frozen river alone",
+          "zh": "独自穿越一条结冰的河流"
+        },
+        {
+          "en": "Leave immediately to save time according to some versions of the story",
+          "zh": "为节省时间立即离开（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -120,10 +192,22 @@
         "zh": "根据书中的“道德准则”，驾驭员把什么看得比获胜更重要？"
       },
       "options": [
-        {"en": "Winning at all costs", "zh": "不惜一切代价获胜"},
-        {"en": "Helping each other", "zh": "互相帮助"},
-        {"en": "Arriving first no matter what", "zh": "无论如何都要第一个到达"},
-        {"en": "Beating the clock", "zh": "抢在时限之前"}
+        {
+          "en": "Arriving first no matter what",
+          "zh": "无论如何都要第一个到达"
+        },
+        {
+          "en": "Helping each other",
+          "zh": "互相帮助"
+        },
+        {
+          "en": "Beating the clock",
+          "zh": "抢在时限之前"
+        },
+        {
+          "en": "Winning at all costs",
+          "zh": "不惜一切代价获胜"
+        }
       ],
       "answer": 1,
       "skill": "Author's Purpose and Perspective",
@@ -138,12 +222,24 @@
         "zh": "如果一名驾驭员在别人喊“让道！”时没有让开，会发生什么？"
       },
       "options": [
-        {"en": "They receive only a warning", "zh": "只会收到一次警告"},
-        {"en": "They are automatically disqualified", "zh": "会被自动取消比赛资格"},
-        {"en": "They must pay a fine", "zh": "必须缴纳罚款"},
-        {"en": "Nothing happens", "zh": "没有任何后果"}
+        {
+          "en": "They are automatically disqualified",
+          "zh": "会被自动取消比赛资格"
+        },
+        {
+          "en": "They receive only a warning according to some versions of the story",
+          "zh": "只会收到一次警告（按书中另一种说法）"
+        },
+        {
+          "en": "Nothing happens",
+          "zh": "没有任何后果"
+        },
+        {
+          "en": "They must pay a fine",
+          "zh": "必须缴纳罚款"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains the \"giving trail\" rule: any musher who does not move over when another calls \"Trail!\" is automatically disqualified.",
@@ -156,10 +252,22 @@
         "zh": "根据获胜者名单，哪位驾驭员赢得少年艾迪塔罗德的次数最多？"
       },
       "options": [
-        {"en": "Tim Osmar", "zh": "蒂姆·奥斯马"},
-        {"en": "Ellie Claus", "zh": "埃莉·克劳斯"},
-        {"en": "Dallas Seavey", "zh": "达拉斯·西维"},
-        {"en": "Ryan Redington", "zh": "瑞恩·雷丁顿"}
+        {
+          "en": "Tim Osmar",
+          "zh": "蒂姆·奥斯马"
+        },
+        {
+          "en": "Ryan Redington",
+          "zh": "瑞恩·雷丁顿"
+        },
+        {
+          "en": "Dallas Seavey",
+          "zh": "达拉斯·西维"
+        },
+        {
+          "en": "Ellie Claus",
+          "zh": "埃莉·克劳斯"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -174,12 +282,24 @@
         "zh": "驾驭员如何决定哪只狗当领头犬？"
       },
       "options": [
-        {"en": "The biggest dog is always chosen as leader", "zh": "体型最大的狗总是被选为领头"},
-        {"en": "They try different dogs in front and watch how the team runs", "zh": "他们让不同的狗轮流带头，观察队伍跑得如何"},
-        {"en": "The dog that barks the most leads", "zh": "叫得最响的狗带头"},
-        {"en": "The oldest dog automatically leads", "zh": "最年长的狗自动带头"}
+        {
+          "en": "They try different dogs in front and watch how the team runs",
+          "zh": "他们让不同的狗轮流带头，观察队伍跑得如何"
+        },
+        {
+          "en": "The dog that barks the most leads",
+          "zh": "叫得最响的狗带头"
+        },
+        {
+          "en": "The oldest dog automatically leads",
+          "zh": "最年长的狗自动带头"
+        },
+        {
+          "en": "The biggest dog is always chosen as leader according to some versions of the story",
+          "zh": "体型最大的狗总是被选为领头（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says mushers put different dogs out in front during practice and watch carefully to find the best arrangement for the team.",

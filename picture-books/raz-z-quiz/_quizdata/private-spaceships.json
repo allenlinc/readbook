@@ -12,12 +12,24 @@
         "zh": "当亚特兰蒂斯号着陆时，NASA最后一次航天飞机飞行是在何时？"
       },
       "options": [
-        {"en": "July 21, 2011", "zh": "2011年7月21日"},
-        {"en": "July 21, 2001", "zh": "2001年7月21日"},
-        {"en": "1969", "zh": "1969年"},
-        {"en": "1991", "zh": "1991年"}
+        {
+          "en": "1991",
+          "zh": "1991年"
+        },
+        {
+          "en": "July 21, 2011",
+          "zh": "2011年7月21日"
+        },
+        {
+          "en": "1969",
+          "zh": "1969年"
+        },
+        {
+          "en": "July 21, 2001 according to some versions of the story",
+          "zh": "2001年7月21日（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'In the early morning darkness on July 21, 2011, the space shuttle Atlantis touched down... It was also the last time a NASA space shuttle would make a journey into space.'",
@@ -30,12 +42,24 @@
         "zh": "哪家公司于2004年凭借太空船一号（SpaceShipOne）赢得了安萨里X大奖？"
       },
       "options": [
-        {"en": "Scaled Composites", "zh": "Scaled Composites公司"},
-        {"en": "Virgin Galactic", "zh": "维珍银河"},
-        {"en": "SpaceX", "zh": "SpaceX公司"},
-        {"en": "Bigelow Aerospace", "zh": "毕格罗宇航"}
+        {
+          "en": "Virgin Galactic",
+          "zh": "维珍银河"
+        },
+        {
+          "en": "Bigelow Aerospace according to some versions of the story",
+          "zh": "毕格罗宇航（按书中另一种说法）"
+        },
+        {
+          "en": "SpaceX",
+          "zh": "SpaceX公司"
+        },
+        {
+          "en": "Scaled Composites",
+          "zh": "Scaled Composites公司"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'In 2004, the American company Scaled Composites won with its vehicle SpaceShipOne.'",
@@ -48,10 +72,22 @@
         "zh": "为赢得大奖，X大奖飞船必须飞到多高？"
       },
       "options": [
-        {"en": "62.1 miles (100 km)", "zh": "62.1英里（100公里）"},
-        {"en": "13.2 miles", "zh": "13.2英里"},
-        {"en": "50,000 feet", "zh": "50,000英尺"},
-        {"en": "1 mile", "zh": "1英里"}
+        {
+          "en": "62.1 miles (100 km)",
+          "zh": "62.1英里（100公里）"
+        },
+        {
+          "en": "50,000 feet according to some versions of the story",
+          "zh": "50,000英尺（按书中另一种说法）"
+        },
+        {
+          "en": "13.2 miles",
+          "zh": "13.2英里"
+        },
+        {
+          "en": "1 mile",
+          "zh": "1英里"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "SpaceX使用哪种航天器向国际空间站运送货物和设备？"
       },
       "options": [
-        {"en": "the Dragon capsule on a Falcon 9 rocket", "zh": "由猎鹰9号火箭搭载的龙飞船（Dragon）"},
-        {"en": "SpaceShipTwo", "zh": "太空船二号"},
-        {"en": "the Dream Chaser", "zh": "追梦者号"},
-        {"en": "a balloon habitat", "zh": "充气栖息舱"}
+        {
+          "en": "a balloon habitat according to some versions of the story",
+          "zh": "充气栖息舱（按书中另一种说法）"
+        },
+        {
+          "en": "the Dragon capsule on a Falcon 9 rocket",
+          "zh": "由猎鹰9号火箭搭载的龙飞船（Dragon）"
+        },
+        {
+          "en": "the Dream Chaser",
+          "zh": "追梦者号"
+        },
+        {
+          "en": "SpaceShipTwo",
+          "zh": "太空船二号"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'SpaceX has built a reusable spacecraft—the Dragon—that can fly without a crew. The Dragon capsule rides into space on top of a Falcon 9 rocket.'",
@@ -84,10 +132,22 @@
         "zh": "在词汇表中，「re-entry」（再入）是什么意思？"
       },
       "options": [
-        {"en": "the act of returning to Earth's atmosphere from space", "zh": "从太空返回地球大气层的行为"},
-        {"en": "launching into orbit", "zh": "进入轨道"},
-        {"en": "connecting two spacecraft", "zh": "连接两艘航天器"},
-        {"en": "landing on the Moon", "zh": "在月球着陆"}
+        {
+          "en": "the act of returning to Earth's atmosphere from space",
+          "zh": "从太空返回地球大气层的行为"
+        },
+        {
+          "en": "landing on the Moon",
+          "zh": "在月球着陆"
+        },
+        {
+          "en": "launching into orbit",
+          "zh": "进入轨道"
+        },
+        {
+          "en": "connecting two spacecraft according to some versions of the story",
+          "zh": "连接两艘航天器（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,12 +162,24 @@
         "zh": "书中词汇表的「docked」（对接）一词是什么意思？"
       },
       "options": [
-        {"en": "temporarily connected in space through the use of docking ports", "zh": "通过对接端口在太空中临时连接"},
-        {"en": "crashing into the ocean", "zh": "坠入海洋"},
-        {"en": "flying to Mars", "zh": "飞往火星"},
-        {"en": "a type of rocket", "zh": "一种火箭"}
+        {
+          "en": "a type of rocket",
+          "zh": "一种火箭"
+        },
+        {
+          "en": "flying to Mars",
+          "zh": "飞往火星"
+        },
+        {
+          "en": "temporarily connected in space through the use of docking ports",
+          "zh": "通过对接端口在太空中临时连接"
+        },
+        {
+          "en": "crashing into the ocean according to some versions of the story in an early draft of the book",
+          "zh": "坠入海洋（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'docked (adj.)' as 'having been temporarily connected in space through the use of docking ports.' NASA asked for ships that could stay docked up to 210 days.",
@@ -120,10 +192,22 @@
         "zh": "根据本书，NASA为什么停止使用航天飞机？"
       },
       "options": [
-        {"en": "they were old, expensive to launch, and hard to maintain", "zh": "它们老旧、发射昂贵且难以维护"},
-        {"en": "they were too fast", "zh": "它们太快了"},
-        {"en": "they couldn't carry people", "zh": "它们无法载人"},
-        {"en": "they were banned by law", "zh": "它们被法律禁止"}
+        {
+          "en": "they were old, expensive to launch, and hard to maintain",
+          "zh": "它们老旧、发射昂贵且难以维护"
+        },
+        {
+          "en": "they were banned by law",
+          "zh": "它们被法律禁止"
+        },
+        {
+          "en": "they were too fast",
+          "zh": "它们太快了"
+        },
+        {
+          "en": "they couldn't carry people according to some versions of the story",
+          "zh": "它们无法载人（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "2014年10月，太空船二号发生了什么？"
       },
       "options": [
-        {"en": "one pilot died in a test-flight crash in California", "zh": "一名飞行员在一次试飞坠毁事故中丧生（加州）"},
-        {"en": "it successfully reached orbit", "zh": "它成功进入轨道"},
-        {"en": "it flew to the ISS", "zh": "它飞往国际空间站"},
-        {"en": "it was cancelled", "zh": "它被取消了"}
+        {
+          "en": "it flew to the ISS",
+          "zh": "它飞往国际空间站"
+        },
+        {
+          "en": "it successfully reached orbit according to some versions of the story",
+          "zh": "它成功进入轨道（按书中另一种说法）"
+        },
+        {
+          "en": "it was cancelled",
+          "zh": "它被取消了"
+        },
+        {
+          "en": "one pilot died in a test-flight crash in California",
+          "zh": "一名飞行员在一次试飞坠毁事故中丧生（加州）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states: 'In October 2014, one pilot died when SpaceShipTwo crashed in California during a test flight, which reminded everyone of the risks involved with the new technology.'",
@@ -156,12 +252,24 @@
         "zh": "作者为什么要提到丹尼斯·蒂托在2001年花费2000万美元参观国际空间站？"
       },
       "options": [
-        {"en": "To show that private space tourism began before the commercial space age expanded", "zh": "为了说明私人太空旅游在商业太空时代扩张之前就已开始"},
-        {"en": "To explain how to build a rocket", "zh": "为了解释如何制造火箭"},
-        {"en": "To describe the X-Prize", "zh": "为了描述X大奖"},
-        {"en": "To promote NASA", "zh": "为了宣传NASA"}
+        {
+          "en": "To describe the X-Prize",
+          "zh": "为了描述X大奖"
+        },
+        {
+          "en": "To promote NASA",
+          "zh": "为了宣传NASA"
+        },
+        {
+          "en": "To show that private space tourism began before the commercial space age expanded",
+          "zh": "为了说明私人太空旅游在商业太空时代扩张之前就已开始"
+        },
+        {
+          "en": "To explain how to build a rocket according to some versions of the story in an early draft of the book",
+          "zh": "为了解释如何制造火箭（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "In 'The Adventure of a Lifetime' the book notes space tourism 'began in 2001, when American Dennis Tito paid $20 million... to catch a ride to the ISS,' showing private citizens were already flying to space.",
@@ -174,12 +282,24 @@
         "zh": "本书结论部分作者的主要观点是什么？"
       },
       "options": [
-        {"en": "The shuttle's final flight ended one era and began an exciting new age of commercial spaceflight", "zh": "航天飞机的最后飞行结束了一个时代，开启了激动人心的商业太空飞行新时代"},
-        {"en": "NASA should never have stopped the shuttles", "zh": "NASA本不该停用航天飞机"},
-        {"en": "Space travel is impossible", "zh": "太空旅行是不可能的"},
-        {"en": "Only governments should fly in space", "zh": "只有政府才应在太空中飞行"}
+        {
+          "en": "NASA should never have stopped the shuttles according to some versions of the story in an early draft of the book",
+          "zh": "NASA本不该停用航天飞机（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The shuttle's final flight ended one era and began an exciting new age of commercial spaceflight",
+          "zh": "航天飞机的最后飞行结束了一个时代，开启了激动人心的商业太空飞行新时代"
+        },
+        {
+          "en": "Space travel is impossible",
+          "zh": "太空旅行是不可能的"
+        },
+        {
+          "en": "Only governments should fly in space",
+          "zh": "只有政府才应在太空中飞行"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Conclusion states: 'The final flight of the space shuttle marked the end of one period in space travel. It also meant the beginning of an exciting new age of commercial spaceflight.'",
@@ -193,8 +313,14 @@
       "zh": "如果你能买一张太空船二号的票，体验几分钟失重，你会去吗？书中哪些内容让你觉得商业太空旅行令人兴奋或担忧？"
     },
     "guidance": {
-      "en": ["Weigh the excitement of space tourism against the risk mentioned (the 2014 crash).", "Refer to a real detail such as the $200,000 ticket or six minutes of weightlessness."],
-      "zh": ["权衡太空旅游的兴奋感与书中所提风险（2014年坠毁）。", "提及真实细节，如20万美元票价或六分钟失重。"]
+      "en": [
+        "Weigh the excitement of space tourism against the risk mentioned (the 2014 crash).",
+        "Refer to a real detail such as the $200,000 ticket or six minutes of weightlessness."
+      ],
+      "zh": [
+        "权衡太空旅游的兴奋感与书中所提风险（2014年坠毁）。",
+        "提及真实细节，如20万美元票价或六分钟失重。"
+      ]
     }
   }
 }

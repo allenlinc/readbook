@@ -9,12 +9,24 @@
         "zh": "虎掌为什么被赶出雷族？"
       },
       "options": [
-        {"en": "He was too old to be deputy", "zh": "他年纪太大当不了副族长"},
-        {"en": "He tried to kill Bluestar and his treason was exposed by Fireheart", "zh": "他企图杀害蓝星，叛徒行径被火星（Fireheart）揭穿"},
-        {"en": "He wanted to join RiverClan", "zh": "他想加入河族"},
-        {"en": "He lost an important battle", "zh": "他输了一场重要的战斗"}
+        {
+          "en": "He tried to kill Bluestar and his treason was exposed by Fireheart",
+          "zh": "他企图杀害蓝星，叛徒行径被火星（Fireheart）揭穿"
+        },
+        {
+          "en": "He wanted to join RiverClan",
+          "zh": "他想加入河族"
+        },
+        {
+          "en": "He lost an important battle",
+          "zh": "他输了一场重要的战斗"
+        },
+        {
+          "en": "He was too old to be deputy according to some versions of the story in an early draft of the book",
+          "zh": "他年纪太大当不了副族长（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "As deputy, Tigerclaw plotted against Bluestar; Fireheart uncovered the truth and he was exiled.",
         "zh": "身为副族长的虎掌阴谋反对蓝星，火星揭穿真相，他便被放逐。"
@@ -26,12 +38,24 @@
         "zh": "被放逐后，虎掌是什么心情？"
       },
       "options": [
-        {"en": "Calm and at peace", "zh": "平静而安宁"},
-        {"en": "Full of fury and wanting revenge on ThunderClan", "zh": "满腔怒火，想向雷族复仇"},
-        {"en": "Happy to be free", "zh": "为获得自由而高兴"},
-        {"en": "Sorry and ashamed", "zh": "后悔又羞愧"}
+        {
+          "en": "Happy to be free according to some versions of the story",
+          "zh": "为获得自由而高兴（按书中另一种说法）"
+        },
+        {
+          "en": "Sorry and ashamed",
+          "zh": "后悔又羞愧"
+        },
+        {
+          "en": "Calm and at peace",
+          "zh": "平静而安宁"
+        },
+        {
+          "en": "Full of fury and wanting revenge on ThunderClan",
+          "zh": "满腔怒火，想向雷族复仇"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "The novella is named for his fury; he burns to punish ThunderClan for casting him out.",
         "zh": "这部外传正因他的愤怒得名，他一心要惩罚将他逐出的雷族。"
@@ -43,12 +67,24 @@
         "zh": "被放逐后，哪群猫投奔了虎掌？"
       },
       "options": [
-        {"en": "A band of rogues and exiled ShadowClan cats", "zh": "一群流浪猫和被逐出影族的猫"},
-        {"en": "Loyal ThunderClan warriors", "zh": "忠诚的雷族武士"},
-        {"en": "RiverClan cats", "zh": "河族猫"},
-        {"en": "StarClan spirits", "zh": "星族的魂魄"}
+        {
+          "en": "StarClan spirits",
+          "zh": "星族的魂魄"
+        },
+        {
+          "en": "A band of rogues and exiled ShadowClan cats",
+          "zh": "一群流浪猫和被逐出影族的猫"
+        },
+        {
+          "en": "Loyal ThunderClan warriors according to some versions of the story",
+          "zh": "忠诚的雷族武士（按书中另一种说法）"
+        },
+        {
+          "en": "RiverClan cats",
+          "zh": "河族猫"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Former ShadowClan warriors like Blackfoot and Clawface, plus rogues, gather around Tigerclaw.",
         "zh": "黑脚（Blackfoot）、利爪面（Clawface）等前影族武士以及一些流浪猫聚到虎掌身边。"
@@ -60,12 +96,24 @@
         "zh": "在雷族领地上的一次突袭中，虎掌杀死了哪只雷族猫？"
       },
       "options": [
-        {"en": "Runningwind", "zh": "疾风（Runningwind）"},
-        {"en": "Fireheart", "zh": "火星（Fireheart）"},
-        {"en": "Bluestar", "zh": "蓝星（Bluestar）"},
-        {"en": "Whitethroat", "zh": "白喉（Whitethroat）"}
+        {
+          "en": "Bluestar",
+          "zh": "蓝星（Bluestar）"
+        },
+        {
+          "en": "Whitethroat according to some versions of the story",
+          "zh": "白喉（Whitethroat）（按书中另一种说法）"
+        },
+        {
+          "en": "Fireheart",
+          "zh": "火星（Fireheart）"
+        },
+        {
+          "en": "Runningwind",
+          "zh": "疾风（Runningwind）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Tigerclaw leaps on Runningwind and kills him; Whitethroat later dies by a monster, not by Tigerclaw's claws.",
         "zh": "虎掌扑倒疾风并将其杀死；白喉后来死于怪兽轮下，并非死在虎掌爪下。"
@@ -77,12 +125,24 @@
         "zh": "在梦中，是哪只黑森林（Dark Forest）的猫对虎掌说影族需要一位领袖？"
       },
       "options": [
-        {"en": "Mapleshade", "zh": "枫荫（Mapleshade）"},
-        {"en": "Brokenstar", "zh": "碎星（Brokenstar）"},
-        {"en": "Hawkfrost", "zh": "鹰霜（Hawkfrost）"},
-        {"en": "Thistleclaw", "zh": "蓟爪（Thistleclaw）"}
+        {
+          "en": "Thistleclaw",
+          "zh": "蓟爪（Thistleclaw）"
+        },
+        {
+          "en": "Mapleshade",
+          "zh": "枫荫（Mapleshade）"
+        },
+        {
+          "en": "Hawkfrost",
+          "zh": "鹰霜（Hawkfrost）"
+        },
+        {
+          "en": "Brokenstar",
+          "zh": "碎星（Brokenstar）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Mapleshade visits Tigerclaw in a starless dream and urges him to become ShadowClan's leader.",
         "zh": "枫荫在无星之梦中拜访虎掌，怂恿他成为影族的领袖。"
@@ -94,12 +154,24 @@
         "zh": "影族内部发生了什么，让虎掌得以掌权？"
       },
       "options": [
-        {"en": "ShadowClan is strong and healthy", "zh": "影族强壮又健康"},
-        {"en": "ShadowClan is sick and without a leader after Nightstar dies", "zh": "影族染病、且夜星（Nightstar）死后群龙无首"},
-        {"en": "ShadowClan wins a great battle", "zh": "影族打赢了一场大战"},
-        {"en": "ShadowClan joins ThunderClan", "zh": "影族并入了雷族"}
+        {
+          "en": "ShadowClan wins a great battle according to some versions of the story",
+          "zh": "影族打赢了一场大战（按书中另一种说法）"
+        },
+        {
+          "en": "ShadowClan joins ThunderClan",
+          "zh": "影族并入了雷族"
+        },
+        {
+          "en": "ShadowClan is sick and without a leader after Nightstar dies",
+          "zh": "影族染病、且夜星（Nightstar）死后群龙无首"
+        },
+        {
+          "en": "ShadowClan is strong and healthy",
+          "zh": "影族强壮又健康"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Weakened by sickness and leaderless, ShadowClan welcomes Tigerclaw's strength and order.",
         "zh": "影族因疫病削弱又群龙无首，正需要虎掌的力量与秩序。"
@@ -111,12 +183,24 @@
         "zh": "虎掌远远地目睹了哪件事，并为自己儿子棘爪（Bramblekit）担忧？"
       },
       "options": [
-        {"en": "A forest fire in ThunderClan", "zh": "雷族森林里的一场大火"},
-        {"en": "A flood at the lake", "zh": "湖畔的一场洪水"},
-        {"en": "A Gathering of all Clans", "zh": "各族的族聚"},
-        {"en": "A badger attack", "zh": "獾的袭击"}
+        {
+          "en": "A badger attack",
+          "zh": "獾的袭击"
+        },
+        {
+          "en": "A flood at the lake",
+          "zh": "湖畔的一场洪水"
+        },
+        {
+          "en": "A forest fire in ThunderClan",
+          "zh": "雷族森林里的一场大火"
+        },
+        {
+          "en": "A Gathering of all Clans according to some versions of the story",
+          "zh": "各族的族聚（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "When ThunderClan's forest catches fire, Tigerclaw watches from the ravine, fearing for Bramblekit.",
         "zh": "雷族森林失火时，虎掌在峡谷上观望，担心棘爪的安危。"
@@ -128,12 +212,24 @@
         "zh": "是谁从大火中救出了棘爪？"
       },
       "options": [
-        {"en": "Tigerclaw", "zh": "虎掌"},
-        {"en": "Fireheart", "zh": "火星（Fireheart）"},
-        {"en": "Goldenflower", "zh": "金花（Goldenflower）"},
-        {"en": "Bluestar", "zh": "蓝星（Bluestar）"}
+        {
+          "en": "Fireheart",
+          "zh": "火星（Fireheart）"
+        },
+        {
+          "en": "Tigerclaw",
+          "zh": "虎掌"
+        },
+        {
+          "en": "Goldenflower",
+          "zh": "金花（Goldenflower）"
+        },
+        {
+          "en": "Bluestar",
+          "zh": "蓝星（Bluestar）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Though Tigerclaw hates him, Fireheart rescues Bramblekit, and Tigerclaw quietly thanks StarClan for sparing his son.",
         "zh": "尽管虎掌恨火星，火星却救了棘爪，虎掌暗自感谢星族保住儿子。"
@@ -145,10 +241,22 @@
         "zh": "虎掌是如何当上影族族长的？"
       },
       "options": [
-        {"en": "He wins a battle against Nightstar", "zh": "他在与夜星的战斗中获胜"},
-        {"en": "Runningnose reads a 'sign'—a claw with tiger-stripe shadows—and names him leader", "zh": "奔鼻（Runningnose）读到「征兆」——一道带虎纹阴影的爪印——于是任命他为领袖"},
-        {"en": "StarClan directly names him", "zh": "星族直接点名他"},
-        {"en": "He is elected by all the Clans", "zh": "他被所有族群共同推举"}
+        {
+          "en": "StarClan directly names him",
+          "zh": "星族直接点名他"
+        },
+        {
+          "en": "Runningnose reads a 'sign'—a claw with tiger-stripe shadows—and names him leader",
+          "zh": "奔鼻（Runningnose）读到「征兆」——一道带虎纹阴影的爪印——于是任命他为领袖"
+        },
+        {
+          "en": "He wins a battle against Nightstar according to some versions of the story in an early draft of the book",
+          "zh": "他在与夜星的战斗中获胜（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He is elected by all the Clans",
+          "zh": "他被所有族群共同推举"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -162,10 +270,22 @@
         "zh": "当上影族族长后，虎掌改叫什么名字？"
       },
       "options": [
-        {"en": "Tigerstar", "zh": "虎星（Tigerstar）"},
-        {"en": "Tigerclaw (he keeps it)", "zh": "仍是虎掌（Tigerclaw）"},
-        {"en": "Darkstar", "zh": "暗星（Darkstar）"},
-        {"en": "Nightstar", "zh": "夜星（Nightstar）"}
+        {
+          "en": "Tigerstar",
+          "zh": "虎星（Tigerstar）"
+        },
+        {
+          "en": "Nightstar",
+          "zh": "夜星（Nightstar）"
+        },
+        {
+          "en": "Darkstar",
+          "zh": "暗星（Darkstar）"
+        },
+        {
+          "en": "Tigerclaw (he keeps it)",
+          "zh": "仍是虎掌（Tigerclaw）"
+        }
       ],
       "answer": 0,
       "explain": {

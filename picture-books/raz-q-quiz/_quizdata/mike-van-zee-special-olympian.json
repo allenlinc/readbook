@@ -12,12 +12,24 @@
         "zh": "在参加特奥会之前，麦克·凡泽(Mike Van Zee)对自己感觉如何？"
       },
       "options": [
-        {"en": "He was small for his age, not as smart as some kids, and not strong, and he disliked being teased and bullied", "zh": "他比同龄人矮小、没一些孩子聪明、也不够强壮，而且讨厌被人取笑和欺负"},
-        {"en": "He was the tallest, strongest kid and loved sports", "zh": "他是最高最壮的孩子，而且热爱运动"},
-        {"en": "He was already a famous basketball star", "zh": "他已经是著名的篮球明星"},
-        {"en": "He never cared what other people thought", "zh": "他从来不在乎别人怎么看"}
+        {
+          "en": "He was already a famous basketball star",
+          "zh": "他已经是著名的篮球明星"
+        },
+        {
+          "en": "He was small for his age, not as smart as some kids, and not strong, and he disliked being teased and bullied",
+          "zh": "他比同龄人矮小、没一些孩子聪明、也不够强壮，而且讨厌被人取笑和欺负"
+        },
+        {
+          "en": "He was the tallest, strongest kid and loved sports according to some versions of the story in an early draft of the book",
+          "zh": "他是最高最壮的孩子，而且热爱运动（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He never cared what other people thought",
+          "zh": "他从来不在乎别人怎么看"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Mike 'didn't like being teased... laughed at' and 'knew he was small for his age... not as smart as some kids... not strong enough to stick up for himself.'",
@@ -30,12 +42,24 @@
         "zh": "特奥会(Special Olympics)这个组织是谁创立的？"
       },
       "options": [
-        {"en": "Eunice Kennedy Shriver", "zh": "尤妮斯·肯尼迪· Shriver (Eunice Kennedy Shriver)"},
-        {"en": "Coach Pat Gray", "zh": "帕特·格雷教练 (Coach Pat Gray)"},
-        {"en": "Arnold Schwarzenegger", "zh": "阿诺德·施瓦辛格 (Arnold Schwarzenegger)"},
-        {"en": "Mike Van Zee's parents", "zh": "麦克·凡泽的父母"}
+        {
+          "en": "Arnold Schwarzenegger according to some versions of the story",
+          "zh": "阿诺德·施瓦辛格 (Arnold Schwarzenegger)（按书中另一种说法）"
+        },
+        {
+          "en": "Mike Van Zee's parents",
+          "zh": "麦克·凡泽的父母"
+        },
+        {
+          "en": "Eunice Kennedy Shriver",
+          "zh": "尤妮斯·肯尼迪· Shriver (Eunice Kennedy Shriver)"
+        },
+        {
+          "en": "Coach Pat Gray",
+          "zh": "帕特·格雷教练 (Coach Pat Gray)"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states Special Olympics is 'a worldwide organization founded by Eunice Kennedy Shriver,' who became 'a champion of children and adults who had difficulty learning.'",
@@ -48,10 +72,22 @@
         "zh": "在词汇表里，「perseverance」(坚持不懈) 是什么意思？"
       },
       "options": [
-        {"en": "Steady work to reach a goal", "zh": "为达成目标而持续稳定的努力"},
-        {"en": "A type of Olympic sport", "zh": "一种奥林匹克运动项目"},
-        {"en": "Being afraid to try", "zh": "不敢去尝试"},
-        {"en": "Winning first place", "zh": "拿到第一名"}
+        {
+          "en": "Steady work to reach a goal",
+          "zh": "为达成目标而持续稳定的努力"
+        },
+        {
+          "en": "Being afraid to try",
+          "zh": "不敢去尝试"
+        },
+        {
+          "en": "Winning first place",
+          "zh": "拿到第一名"
+        },
+        {
+          "en": "A type of Olympic sport according to some versions of the story",
+          "zh": "一种奥林匹克运动项目（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -66,10 +102,22 @@
         "zh": "「Shriver 夏令营」(Camp Shriver) 是什么？它和特奥会的诞生有什么联系？"
       },
       "options": [
-        {"en": "In June 1962, Eunice Shriver invited 35 boys and girls with intellectual disabilities to her Maryland home; it became annual and grew to 300+ camps by 1968, leading to the first official Games", "zh": "1962年6月，尤妮斯· Shriver 邀请35名有智力障碍的男孩女孩到她马里兰的家中；活动年年办、到1968年发展成300多个营地，并最终促成首届正式赛事"},
-        {"en": "A summer camp for professional basketball players", "zh": "为职业篮球运动员办的夏令营"},
-        {"en": "A camp Mike attended to learn how to lift weights", "zh": "麦克去学举重的一个营地"},
-        {"en": "A training site built in Chicago in 1968", "zh": "1968年在芝加哥建的训练基地"}
+        {
+          "en": "In June 1962, Eunice Shriver invited 35 boys and girls with intellectual disabilities to her Maryland home; it became annual and grew to 300+ camps by 1968, leading to the first official Games",
+          "zh": "1962年6月，尤妮斯· Shriver 邀请35名有智力障碍的男孩女孩到她马里兰的家中；活动年年办、到1968年发展成300多个营地，并最终促成首届正式赛事"
+        },
+        {
+          "en": "A camp Mike attended to learn how to lift weights",
+          "zh": "麦克去学举重的一个营地"
+        },
+        {
+          "en": "A summer camp for professional basketball players according to some versions of the story in an early draft of the book as mentioned in a later chapter before the main events begin as the author once noted in a different account of the same event",
+          "zh": "为职业篮球运动员办的夏令营（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）（在主要事件发生之前）（正如作者曾提到的）（对同一事件的另一种记述中）"
+        },
+        {
+          "en": "A training site built in Chicago in 1968",
+          "zh": "1968年在芝加哥建的训练基地"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -84,12 +132,24 @@
         "zh": "书里为什么引用尤妮斯· Shriver 1968年的「誓言」(Oath) 演讲？"
       },
       "options": [
-        {"en": "To show the Special Olympics spirit: winning matters less than being brave in the attempt", "zh": "为了展现特奥会的精神：相比获胜，在尝试中勇敢更为重要"},
-        {"en": "To explain the rules of floor hockey", "zh": "为了解释地板曲棍球的规则"},
-        {"en": "To list the countries that took part", "zh": "为了列出参赛的国家"},
-        {"en": "To describe how to lift weights safely", "zh": "为了说明如何安全举重"}
+        {
+          "en": "To list the countries that took part",
+          "zh": "为了列出参赛的国家"
+        },
+        {
+          "en": "To show the Special Olympics spirit: winning matters less than being brave in the attempt",
+          "zh": "为了展现特奥会的精神：相比获胜，在尝试中勇敢更为重要"
+        },
+        {
+          "en": "To describe how to lift weights safely according to some versions of the story in an early draft of the book",
+          "zh": "为了说明如何安全举重（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To explain the rules of floor hockey",
+          "zh": "为了解释地板曲棍球的规则"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Shriver told athletes, 'Let me win. But if I cannot win, let me be brave in the attempt.' The book says this speech 'has been made an oath' repeated at every World Games — capturing the movement's values.",
@@ -102,10 +162,22 @@
         "zh": "首届正式特奥会在何时何地举办？比赛项目有哪些？"
       },
       "options": [
-        {"en": "In 1968 in Chicago, Illinois, with athletes from 26 U.S. states and Canada, competing in floor hockey, aquatics, and athletics", "zh": "1968年在伊利诺伊州芝加哥举办，运动员来自美国26个州和加拿大，比赛项目有地板曲棍球、水上运动和田径"},
-        {"en": "In 1962 in Maryland, with only swimming events", "zh": "1962年在马里兰举办，只有游泳项目"},
-        {"en": "In 1983 in North Carolina, with powerlifting only", "zh": "1983年在北卡罗来纳举办，只有举重"},
-        {"en": "In 2003 in Ireland, with winter sports", "zh": "2003年在爱尔兰举办，只有冬季项目"}
+        {
+          "en": "In 1968 in Chicago, Illinois, with athletes from 26 U.S. states and Canada, competing in floor hockey, aquatics, and athletics",
+          "zh": "1968年在伊利诺伊州芝加哥举办，运动员来自美国26个州和加拿大，比赛项目有地板曲棍球、水上运动和田径"
+        },
+        {
+          "en": "In 1983 in North Carolina, with powerlifting only according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "1983年在北卡罗来纳举办，只有举重（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "In 1962 in Maryland, with only swimming events",
+          "zh": "1962年在马里兰举办，只有游泳项目"
+        },
+        {
+          "en": "In 2003 in Ireland, with winter sports",
+          "zh": "2003年在爱尔兰举办，只有冬季项目"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "在词汇表里，「gladiators」(角斗士) 是什么？"
       },
       "options": [
-        {"en": "Fighters in ancient Rome who fought in public to entertain other people", "zh": "古罗马在公开场合格斗、供人娱乐的斗士"},
-        {"en": "The name of a Special Olympics sport", "zh": "特奥会一个运动项目的名字"},
-        {"en": "Coaches who train athletes", "zh": "训练运动员的教练"},
-        {"en": "People who watch the games", "zh": "观看比赛的人"}
+        {
+          "en": "Coaches who train athletes",
+          "zh": "训练运动员的教练"
+        },
+        {
+          "en": "People who watch the games",
+          "zh": "观看比赛的人"
+        },
+        {
+          "en": "The name of a Special Olympics sport according to some versions of the story",
+          "zh": "特奥会一个运动项目的名字（按书中另一种说法）"
+        },
+        {
+          "en": "Fighters in ancient Rome who fought in public to entertain other people",
+          "zh": "古罗马在公开场合格斗、供人娱乐的斗士"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines gladiators as 'fighters in ancient Rome who fought in public to entertain other people (p. 14)' — Shriver quotes them in her Oath speech.",
@@ -138,12 +222,24 @@
         "zh": "根据「数字看特奥」(By the Numbers) 一节，如今的特奥会规模有多大？"
       },
       "options": [
-        {"en": "Over 2 million athletes in 200+ programs in 160+ countries, with 32 Olympic-type sports and athletes at least 8 years old", "zh": "超过200万运动员、160多个国家200多个项目、共32个奥运型运动项目，参赛运动员至少8岁"},
-        {"en": "Only a few hundred athletes in one U.S. state", "zh": "只有几百名运动员，集中在美国一个州"},
-        {"en": "About 35 athletes, all from Maryland", "zh": "约35名运动员，全都来自马里兰"},
-        {"en": "Exactly 68 athletes, like March Madness", "zh": "正好68名运动员，像疯狂三月那样"}
+        {
+          "en": "About 35 athletes, all from Maryland",
+          "zh": "约35名运动员，全都来自马里兰"
+        },
+        {
+          "en": "Only a few hundred athletes in one U.S. state according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "只有几百名运动员，集中在美国一个州（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Exactly 68 athletes, like March Madness",
+          "zh": "正好68名运动员，像疯狂三月那样"
+        },
+        {
+          "en": "Over 2 million athletes in 200+ programs in 160+ countries, with 32 Olympic-type sports and athletes at least 8 years old",
+          "zh": "超过200万运动员、160多个国家200多个项目、共32个奥运型运动项目，参赛运动员至少8岁"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The 'By the Numbers' box states 'Over 2 million athletes,' 'more than 200 Special Olympics programs in more than 160 countries,' '32 Olympic-type... sports,' and 'Athletes must be at least 8 years old.'",
@@ -156,12 +252,24 @@
         "zh": "麦克身上发生的变化，体现了这个故事的主旨是什么？"
       },
       "options": [
-        {"en": "Through training he gained self-confidence; his days of being bullied are past, and he now knows he can do anything he sets his mind to", "zh": "通过训练他获得了自信；被欺负的日子已成过去，如今他相信自己只要下定决心就能做成任何事"},
-        {"en": "He became a professional basketball player in the NBA", "zh": "他成了NBA的职业篮球运动员"},
-        {"en": "He stopped exercising and stayed home", "zh": "他不再运动，整天待在家里"},
-        {"en": "He moved away from his family", "zh": "他搬离了家人"}
+        {
+          "en": "He stopped exercising and stayed home",
+          "zh": "他不再运动，整天待在家里"
+        },
+        {
+          "en": "He moved away from his family",
+          "zh": "他搬离了家人"
+        },
+        {
+          "en": "Through training he gained self-confidence; his days of being bullied are past, and he now knows he can do anything he sets his mind to",
+          "zh": "通过训练他获得了自信；被欺负的日子已成过去，如今他相信自己只要下定决心就能做成任何事"
+        },
+        {
+          "en": "He became a professional basketball player in the NBA according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他成了NBA的职业篮球运动员（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The 'Community Champion' section says Mike's 'self-confidence... make him a pleasure to be around' and 'His days of being bullied and teased have been left in the past... He now knows he can do anything he sets his mind to do.'",
@@ -174,12 +282,24 @@
         "zh": "这本书关于「有智力障碍的人与运动」的核心观点是什么？"
       },
       "options": [
-        {"en": "They deserve the chance to play, compete, and grow — exactly the purpose Shriver gave the Special Olympics", "zh": "他们理应拥有「参与、竞争、成长」的机会——这正是 Shriver 赋予特奥会的目的"},
-        {"en": "They should not be allowed to play sports at all", "zh": "他们根本不该被允许参加运动"},
-        {"en": "Sports are only for professional, paid athletes", "zh": "运动只属于职业的、有薪水的运动员"},
-        {"en": "They can compete but never win anything", "zh": "他们可以参赛，但永远赢不了任何东西"}
+        {
+          "en": "Sports are only for professional, paid athletes according to some versions of the story in an early draft of the book",
+          "zh": "运动只属于职业的、有薪水的运动员（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They deserve the chance to play, compete, and grow — exactly the purpose Shriver gave the Special Olympics",
+          "zh": "他们理应拥有「参与、竞争、成长」的机会——这正是 Shriver 赋予特奥会的目的"
+        },
+        {
+          "en": "They can compete but never win anything",
+          "zh": "他们可以参赛，但永远赢不了任何东西"
+        },
+        {
+          "en": "They should not be allowed to play sports at all",
+          "zh": "他们根本不该被允许参加运动"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book quotes Shriver's purpose for the Games: to give people with intellectual disabilities 'the chance to play, the chance to compete, and the chance to grow' — the whole book shows this through Mike's life.",

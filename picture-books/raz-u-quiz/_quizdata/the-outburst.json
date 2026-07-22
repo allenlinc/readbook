@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "She lost a basketball game in the garage",
+          "zh": "因为她在车库里打篮球比赛输了"
+        },
+        {
           "en": "Her family moved from Pennsylvania to North Carolina for Dad's new job",
           "zh": "因为爸爸换了新工作，全家从宾夕法尼亚搬到了北卡罗来纳"
         },
         {
-          "en": "Her grandma taped quotes all over the bathroom mirrors",
-          "zh": "因为奶奶把名言贴满了浴室镜子"
-        },
-        {
-          "en": "She lost a basketball game in the garage",
-          "zh": "因为她在车库里打篮球比赛输了"
+          "en": "Her grandma taped quotes all over the bathroom mirrors according to some versions of the story",
+          "zh": "因为奶奶把名言贴满了浴室镜子（按书中另一种说法）"
         },
         {
           "en": "Her friends moved away without telling her",
           "zh": "因为她的朋友们不声不响地搬走了"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Samantha was furious because her dad's new job forced the family to move far from friends and relatives in Pennsylvania to North Carolina.",
@@ -43,20 +43,20 @@
       },
       "options": [
         {
-          "en": "She writes a mystery story starring Grandma",
-          "zh": "她写了一篇以奶奶为主角侦探的悬疑故事"
+          "en": "She buys Grandma caramel-covered flan",
+          "zh": "她给奶奶买了焦糖布丁"
         },
         {
           "en": "She makes a collage of grandmother quotes and gives it as an apology card",
           "zh": "她做了一张贴满关于奶奶名言的拼贴画，当作道歉卡片送奶奶"
         },
         {
-          "en": "She buys Grandma caramel-covered flan",
-          "zh": "她给奶奶买了焦糖布丁"
-        },
-        {
           "en": "She teaches Grandma how to play chess",
           "zh": "她教奶奶下国际象棋"
+        },
+        {
+          "en": "She writes a mystery story starring Grandma according to some versions of the story",
+          "zh": "她写了一篇以奶奶为主角侦探的悬疑故事（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "reading her poetry aloud",
+          "zh": "大声朗读自己写的诗"
+        },
+        {
+          "en": "singing karaoke with Grandma according to some versions of the story",
+          "zh": "和奶奶一起唱卡拉OK（按书中另一种说法）"
+        },
+        {
           "en": "playing the piano sadly",
           "zh": "伤心地弹钢琴"
         },
         {
           "en": "whacking a basketball against the garage door to release her feelings",
           "zh": "把篮球砸向车库门，借以发泄情绪"
-        },
-        {
-          "en": "singing karaoke with Grandma",
-          "zh": "和奶奶一起唱卡拉OK"
-        },
-        {
-          "en": "reading her poetry aloud",
-          "zh": "大声朗读自己写的诗"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Samantha whacks the basketball against the garage door, and the bouncing sound \"Boing... being...\" echoes her restless, irritated mood.",
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "frightened of the movers",
-          "zh": "害怕那些搬家工人"
-        },
-        {
           "en": "angry and upset",
           "zh": "愤怒又难过"
         },
@@ -117,9 +113,13 @@
         {
           "en": "tired from unpacking",
           "zh": "因为拆行李而疲惫"
+        },
+        {
+          "en": "frightened of the movers",
+          "zh": "害怕那些搬家工人"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The comparison to hail pounding a roof emphasizes how loudly and violently her anger was beating inside her during the argument.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "complain about the hot, steamy weather",
-          "zh": "抱怨天气又热又闷"
-        },
-        {
           "en": "point out the beauty of their green, lush new surroundings",
           "zh": "指出新家四周草木青翠、生机盎然的美"
         },
         {
-          "en": "explain why she writes mystery novels",
-          "zh": "解释自己为什么写悬疑小说"
+          "en": "complain about the hot, steamy weather",
+          "zh": "抱怨天气又热又闷"
         },
         {
           "en": "teach Samantha how to speak Spanish",
           "zh": "教萨曼莎说西班牙语"
+        },
+        {
+          "en": "explain why she writes mystery novels according to some versions of the story",
+          "zh": "解释自己为什么写悬疑小说（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Grandma uses Aristotle's quote to remind Samantha to notice the marvelous, green, lush nature around their new North Carolina home.",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "\"Do not anticipate trouble...\" (Benjamin Franklin)",
-          "zh": "“不要预想麻烦……”（本杰明·富兰克林）"
+          "en": "\"Courage is being scared to death—but saddling up anyway\" (John Wayne)",
+          "zh": "“勇气就是怕得要死，却仍然上马出发”（约翰·韦恩）"
         },
         {
-          "en": "\"In all things of nature there is something of the marvelous\" (Aristotle)",
-          "zh": "“万物之中，皆有奇妙之处”（亚里士多德）"
+          "en": "\"Do not anticipate trouble...\" (Benjamin Franklin)",
+          "zh": "“不要预想麻烦……”（本杰明·富兰克林）"
         },
         {
           "en": "\"If nothing is going well, call your grandmother\"",
           "zh": "“如果一切都不顺，就打电话给奶奶”"
         },
         {
-          "en": "\"Courage is being scared to death—but saddling up anyway\" (John Wayne)",
-          "zh": "“勇气就是怕得要死，却仍然上马出发”（约翰·韦恩）"
+          "en": "\"In all things of nature there is something of the marvelous\" (Aristotle)",
+          "zh": "“万物之中，皆有奇妙之处”（亚里士多德）"
         }
       ],
       "answer": 2,
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "tells the reader the exact words Grandma said",
-          "zh": "把奶奶说的话原原本本告诉读者"
-        },
-        {
           "en": "lets readers infer Grandma's disapproval without being told directly",
           "zh": "让读者自己去体会奶奶的不满，而不是直接说出来"
         },
@@ -207,9 +203,13 @@
         {
           "en": "proves Grandma agreed with Samantha",
           "zh": "证明奶奶同意萨曼莎的话"
+        },
+        {
+          "en": "tells the reader the exact words Grandma said according to some versions of the story",
+          "zh": "把奶奶说的话原原本本告诉读者（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "By showing Grandma's eyes rather than stating her thoughts, the author lets readers feel her silent disapproval through description, not explanation.",
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "why moving to a new state is always a mistake according to some versions of the story",
+          "zh": "为什么搬到外州永远是个错误（按书中另一种说法）"
+        },
+        {
           "en": "how to win a game of chess",
           "zh": "怎样下赢一盘国际象棋"
         },
@@ -231,15 +235,11 @@
           "zh": "在亲情与勇气的帮助下，学会面对生活的变化"
         },
         {
-          "en": "why moving to a new state is always a mistake",
-          "zh": "为什么搬到外州永远是个错误"
-        },
-        {
           "en": "how to write a best-selling mystery novel",
           "zh": "怎样写出一本畅销的悬疑小说"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The story follows Samantha from angry resistance to brave acceptance, showing that family love and courage help us cope with big changes.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "She taped quotes to the mirror according to some versions of the story",
+          "zh": "她把名言贴到镜子上（按书中另一种说法）"
+        },
+        {
           "en": "She moved to a new state",
           "zh": "她搬到了另一个州"
         },
         {
-          "en": "She furiously wrote in her journal",
-          "zh": "她把满腔怒火写进了日记里"
-        },
-        {
-          "en": "She taped quotes to the mirror",
-          "zh": "她把名言贴到镜子上"
-        },
-        {
           "en": "She played basketball",
           "zh": "她去打篮球"
+        },
+        {
+          "en": "She furiously wrote in her journal",
+          "zh": "她把满腔怒火写进了日记里"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Grandma tells Samantha that when Grandpa died she was full of rage, and she coped by furiously writing in her journal.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "a famous published mystery writer according to some versions of the story",
+          "zh": "一位出名的悬疑小说作家（按书中另一种说法）"
+        },
+        {
           "en": "brave and willing to \"saddle up\"",
           "zh": "勇敢、愿意“跨上马出发”"
         },
         {
-          "en": "a famous published mystery writer",
-          "zh": "一位出名的悬疑小说作家"
+          "en": "a person who never gets upset",
+          "zh": "一个再也不会难过的人"
         },
         {
           "en": "someone who hates writing poetry",
           "zh": "一个讨厌写诗的人"
-        },
-        {
-          "en": "a person who never gets upset",
-          "zh": "一个再也不会难过的人"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After apologizing and hearing Grandma's John Wayne quote, Samantha finds the strength to be brave and \"saddle up\" against her fears.",

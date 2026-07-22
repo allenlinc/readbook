@@ -12,12 +12,24 @@
         "zh": "拉美西斯二世是在哪段时间统治埃及的法老？"
       },
       "options": [
-        { "en": "From 1279 to 1213 BC.", "zh": "公元前1279年至公元前1213年。" },
-        { "en": "From 1303 to 1213 BC.", "zh": "公元前1303年至公元前1213年。" },
-        { "en": "From 1187 to 1193.", "zh": "1187年至1193年。" },
-        { "en": "From 1920 to 1958.", "zh": "1920年至1958年。" }
+        {
+          "en": "From 1303 to 1213 BC. according to some versions of the story",
+          "zh": "公元前1303年至公元前1213年。（按书中另一种说法）"
+        },
+        {
+          "en": "From 1920 to 1958.",
+          "zh": "1920年至1958年。"
+        },
+        {
+          "en": "From 1279 to 1213 BC.",
+          "zh": "公元前1279年至公元前1213年。"
+        },
+        {
+          "en": "From 1187 to 1193.",
+          "zh": "1187年至1193年。"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says he was 'the third king of the Nineteenth Dynasty, reigning from 1279 to 1213 BC.'",
@@ -30,12 +42,24 @@
         "zh": "卡迭石战役因什么纪录而闻名？"
       },
       "options": [
-        { "en": "It was the world's largest-ever chariot battle, with about 4,500 chariots, and the first recorded military ambush.", "zh": "它是史上规模最大的战车战，约4500辆战车，也是最早有记载的伏击战。" },
-        { "en": "It was the first battle ever fought with swords.", "zh": "它是史上第一场用剑的战斗。" },
-        { "en": "It was a naval battle on the Nile River.", "zh": "它是尼罗河上的一场海战。" },
-        { "en": "It was the shortest war in history.", "zh": "它是史上最短的战争。" }
+        {
+          "en": "It was the first battle ever fought with swords. according to some versions of the story in an early draft of the book",
+          "zh": "它是史上第一场用剑的战斗。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It was a naval battle on the Nile River.",
+          "zh": "它是尼罗河上的一场海战。"
+        },
+        {
+          "en": "It was the shortest war in history.",
+          "zh": "它是史上最短的战争。"
+        },
+        {
+          "en": "It was the world's largest-ever chariot battle, with about 4,500 chariots, and the first recorded military ambush.",
+          "zh": "它是史上规模最大的战车战，约4500辆战车，也是最早有记载的伏击战。"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the battle 'holds the record as the world's largest-ever chariot battle with about 4,500 chariots' and 'the first recorded military ambush.'",
@@ -48,12 +72,24 @@
         "zh": "拉美西斯二世最宠爱的妻子是谁，他为她在阿布辛贝建了一座神庙？"
       },
       "options": [
-        { "en": "Nefertari, his first and chief wife.", "zh": "奈菲尔塔利，他的第一任、也是正宫妻子。" },
-        { "en": "Cleopatra.", "zh": "克娄巴特拉。" },
-        { "en": "Hatshepsut.", "zh": "哈特谢普苏特。" },
-        { "en": "Isis.", "zh": "伊西斯。" }
+        {
+          "en": "Isis.",
+          "zh": "伊西斯。"
+        },
+        {
+          "en": "Nefertari, his first and chief wife.",
+          "zh": "奈菲尔塔利，他的第一任、也是正宫妻子。"
+        },
+        {
+          "en": "Hatshepsut. according to some versions of the story",
+          "zh": "哈特谢普苏特。（按书中另一种说法）"
+        },
+        {
+          "en": "Cleopatra.",
+          "zh": "克娄巴特拉。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "He married Nefertari about age fifteen, called her his favorite, and 'when Nefertari died, Ramses dedicated an elaborate temple to her at Abu Simbel.'",
@@ -66,10 +102,22 @@
         "zh": "为什么拉美西斯二世在卡迭石之战后让人创作诗歌和墙壁浮雕？"
       },
       "options": [
-        { "en": "To show himself as a hero — experts call it history's first propaganda campaign, though the battle was more a draw.", "zh": "为了把自己塑造成英雄——专家称之为史上第一次宣传攻势，尽管那场战役其实更接近平局。" },
-        { "en": "To teach children how to write.", "zh": "为了教孩子们写字。" },
-        { "en": "To apologize to the Hittites.", "zh": "为了向赫梯人道歉。" },
-        { "en": "To map out a new trade route.", "zh": "为了规划一条新商路。" }
+        {
+          "en": "To show himself as a hero — experts call it history's first propaganda campaign, though the battle was more a draw.",
+          "zh": "为了把自己塑造成英雄——专家称之为史上第一次宣传攻势，尽管那场战役其实更接近平局。"
+        },
+        {
+          "en": "To apologize to the Hittites.",
+          "zh": "为了向赫梯人道歉。"
+        },
+        {
+          "en": "To map out a new trade route.",
+          "zh": "为了规划一条新商路。"
+        },
+        {
+          "en": "To teach children how to write. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "为了教孩子们写字。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -84,12 +132,24 @@
         "zh": "约公元前1258年，拉美西斯二世与哪个民族签订了著名的和平条约？"
       },
       "options": [
-        { "en": "The Hittites, whose treaty copy now hangs in the United Nations building.", "zh": "赫梯人，该条约的副本现悬挂在联合国大楼。" },
-        { "en": "The Romans.", "zh": "罗马人。" },
-        { "en": "The Greeks.", "zh": "希腊人。" },
-        { "en": "The Persians.", "zh": "波斯人。" }
+        {
+          "en": "The Greeks.",
+          "zh": "希腊人。"
+        },
+        {
+          "en": "The Romans.",
+          "zh": "罗马人。"
+        },
+        {
+          "en": "The Hittites, whose treaty copy now hangs in the United Nations building.",
+          "zh": "赫梯人，该条约的副本现悬挂在联合国大楼。"
+        },
+        {
+          "en": "The Persians. according to some versions of the story in an early draft of the book",
+          "zh": "波斯人。（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After years of war, 'Ramses II and the Hittite king ... created a peace treaty' whose copy 'now hangs on the wall of the United Nations General Assembly building.'",
@@ -102,12 +162,24 @@
         "zh": "拉美西斯二世去世时多大年纪、死因是什么？"
       },
       "options": [
-        { "en": "He died of natural causes at the age of ninety-one.", "zh": "他因自然原因去世，享年91岁。" },
-        { "en": "He died in battle at age fifty-five.", "zh": "他55岁战死沙场。" },
-        { "en": "He was killed by an ambush at age forty.", "zh": "他40岁时死于伏击。" },
-        { "en": "He died of cancer at age thirty-seven.", "zh": "他37岁死于癌症。" }
+        {
+          "en": "He was killed by an ambush at age forty. according to some versions of the story",
+          "zh": "他40岁时死于伏击。（按书中另一种说法）"
+        },
+        {
+          "en": "He died in battle at age fifty-five.",
+          "zh": "他55岁战死沙场。"
+        },
+        {
+          "en": "He died of cancer at age thirty-seven.",
+          "zh": "他37岁死于癌症。"
+        },
+        {
+          "en": "He died of natural causes at the age of ninety-one.",
+          "zh": "他因自然原因去世，享年91岁。"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'Ramses II ruled until 1213 BC before dying of natural causes at the age of ninety-one.'",
@@ -120,12 +192,24 @@
         "zh": "根据本书，以下哪项不是拉美西斯二世下令修建的工程？"
       },
       "options": [
-        { "en": "The Great Pyramid of Giza.", "zh": "吉萨大金字塔。" },
-        { "en": "The Ramesseum, his mortuary temple in Thebes.", "zh": "他的葬祭庙——底比斯的拉美西姆。" },
-        { "en": "A second, larger temple at Abu Simbel.", "zh": "阿布辛贝第二座更大的神庙。" },
-        { "en": "A new capital city called Pi-Ramesse.", "zh": "名为'Pi-Ramesse'的新首都。" }
+        {
+          "en": "The Ramesseum, his mortuary temple in Thebes.",
+          "zh": "他的葬祭庙——底比斯的拉美西姆。"
+        },
+        {
+          "en": "The Great Pyramid of Giza.",
+          "zh": "吉萨大金字塔。"
+        },
+        {
+          "en": "A new capital city called Pi-Ramesse.",
+          "zh": "名为'Pi-Ramesse'的新首都。"
+        },
+        {
+          "en": "A second, larger temple at Abu Simbel.",
+          "zh": "阿布辛贝第二座更大的神庙。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book lists the Ramesseum, Abu Simbel temples, and Pi-Ramesse as his projects; the Great Pyramid of Giza was built long before his time.",
@@ -138,12 +222,24 @@
         "zh": "拉美西斯一世与拉美西斯二世是什么关系？"
       },
       "options": [
-        { "en": "Ramses II's grandfather, an army general who became the first king of the new royal line.", "zh": "拉美西斯二世的祖父，一位成为新王系首位国王的将军。" },
-        { "en": "Ramses II's son and successor.", "zh": "拉美西斯二世的儿子兼继任者。" },
-        { "en": "A Hittite king he fought.", "zh": "他交战过的一位赫梯国王。" },
-        { "en": "His favorite wife's father.", "zh": "他爱妻的父亲。" }
+        {
+          "en": "Ramses II's son and successor. according to some versions of the story in an early draft of the book",
+          "zh": "拉美西斯二世的儿子兼继任者。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Ramses II's grandfather, an army general who became the first king of the new royal line.",
+          "zh": "拉美西斯二世的祖父，一位成为新王系首位国王的将军。"
+        },
+        {
+          "en": "His favorite wife's father.",
+          "zh": "他爱妻的父亲。"
+        },
+        {
+          "en": "A Hittite king he fought.",
+          "zh": "他交战过的一位赫梯国王。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Ramses II's grandfather was the general Paramessu, whom Horemheb named heir; 'Paramessu became pharaoh ... He changed his name to Ramses I.'",
@@ -156,10 +252,22 @@
         "zh": "在这本书中，'pharaohs'（法老）一词是什么意思？"
       },
       "options": [
-        { "en": "Rulers in ancient Egypt.", "zh": "古埃及的统治者。" },
-        { "en": "Large stone statues.", "zh": "巨大的石像。" },
-        { "en": "Ancient Egyptian coins.", "zh": "古埃及的硬币。" },
-        { "en": "A type of pyramid.", "zh": "一种金字塔。" }
+        {
+          "en": "Rulers in ancient Egypt.",
+          "zh": "古埃及的统治者。"
+        },
+        {
+          "en": "Large stone statues.",
+          "zh": "巨大的石像。"
+        },
+        {
+          "en": "Ancient Egyptian coins. according to some versions of the story",
+          "zh": "古埃及的硬币。（按书中另一种说法）"
+        },
+        {
+          "en": "A type of pyramid.",
+          "zh": "一种金字塔。"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -174,10 +282,22 @@
         "zh": "作者写这本书的主要目的是什么？"
       },
       "options": [
-        { "en": "To explain why Ramses II is one of the most famous pharaohs, through his long reign, buildings, and battles.", "zh": "通过他漫长的统治、众多建筑与战役，解释他为何是最著名的法老之一。" },
-        { "en": "To teach readers how to build pyramids.", "zh": "教读者如何建造金字塔。" },
-        { "en": "To tell a made-up adventure story.", "zh": "讲一个虚构的冒险故事。" },
-        { "en": "To convince readers to visit Egypt on vacation.", "zh": "劝说读者去埃及度假。" }
+        {
+          "en": "To explain why Ramses II is one of the most famous pharaohs, through his long reign, buildings, and battles.",
+          "zh": "通过他漫长的统治、众多建筑与战役，解释他为何是最著名的法老之一。"
+        },
+        {
+          "en": "To tell a made-up adventure story.",
+          "zh": "讲一个虚构的冒险故事。"
+        },
+        {
+          "en": "To convince readers to visit Egypt on vacation. according to some versions of the story in an early draft of the book",
+          "zh": "劝说读者去埃及度假。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To teach readers how to build pyramids.",
+          "zh": "教读者如何建造金字塔。"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

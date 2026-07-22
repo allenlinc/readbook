@@ -9,10 +9,22 @@
         "zh": "松鸦羽是如何发现藤爪正接受黑森林训练的？"
       },
       "options": [
-        {"en": "Lionblaze tells him", "zh": "狮焰告诉他的"},
-        {"en": "He accidentally enters her dream", "zh": "他不小心进入了她的梦境"},
-        {"en": "Firestar catches her", "zh": "火星撞见她的"},
-        {"en": "He reads it in a prophecy", "zh": "他从预言中读到的"}
+        {
+          "en": "He reads it in a prophecy according to some versions of the story",
+          "zh": "他从预言中读到的（按书中另一种说法）"
+        },
+        {
+          "en": "He accidentally enters her dream",
+          "zh": "他不小心进入了她的梦境"
+        },
+        {
+          "en": "Lionblaze tells him",
+          "zh": "狮焰告诉他的"
+        },
+        {
+          "en": "Firestar catches her",
+          "zh": "火星撞见她的"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -26,10 +38,22 @@
         "zh": "意识到虎星骗了自己之后，藤爪同意做什么？"
       },
       "options": [
-        {"en": "Leave ThunderClan forever", "zh": "永远离开雷族"},
-        {"en": "Spy on the Dark Forest for the Clans", "zh": "为族群潜入黑森林当间谍"},
-        {"en": "Fight Tigerstar alone", "zh": "独自与虎星战斗"},
-        {"en": "Become a medicine cat", "zh": "成为巫医"}
+        {
+          "en": "Leave ThunderClan forever according to some versions of the story",
+          "zh": "永远离开雷族（按书中另一种说法）"
+        },
+        {
+          "en": "Spy on the Dark Forest for the Clans",
+          "zh": "为族群潜入黑森林当间谍"
+        },
+        {
+          "en": "Become a medicine cat",
+          "zh": "成为巫医"
+        },
+        {
+          "en": "Fight Tigerstar alone",
+          "zh": "独自与虎星战斗"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -43,12 +67,24 @@
         "zh": "在黑森林里，藤爪偷听到虎星在刻薄地对待她所在乎的哪只猫？"
       },
       "options": [
-        {"en": "Flametail", "zh": "焰尾（Flametail）"},
-        {"en": "Tigerheart", "zh": "虎心（Tigerheart）"},
-        {"en": "Blackstar", "zh": "黑星（Blackstar）"},
-        {"en": "Toadfoot", "zh": "蟾足（Toadfoot）"}
+        {
+          "en": "Toadfoot",
+          "zh": "蟾足（Toadfoot）"
+        },
+        {
+          "en": "Flametail according to some versions of the story",
+          "zh": "焰尾（Flametail）（按书中另一种说法）"
+        },
+        {
+          "en": "Tigerheart",
+          "zh": "虎心（Tigerheart）"
+        },
+        {
+          "en": "Blackstar",
+          "zh": "黑星（Blackstar）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Ivypaw hears Tigerstar tell Tigerheart that he is worthless if he cannot beat the ThunderClan cats, showing his true cruelty.",
         "zh": "藤爪听见虎星对虎心说，若连雷族的猫都打不过便一文不值——这暴露了他的真面目。"
@@ -60,12 +96,24 @@
         "zh": "哪位影族巫医在冰封湖面的冰窟窿中落水溺亡？"
       },
       "options": [
-        {"en": "Littlecloud", "zh": "小云（Littlecloud）"},
-        {"en": "Flametail", "zh": "焰尾（Flametail）"},
-        {"en": "Runningnose", "zh": "流鼻涕（Runningnose）"},
-        {"en": "Mothwing", "zh": "蛾翅（Mothwing）"}
+        {
+          "en": "Flametail",
+          "zh": "焰尾（Flametail）"
+        },
+        {
+          "en": "Mothwing",
+          "zh": "蛾翅（Mothwing）"
+        },
+        {
+          "en": "Runningnose",
+          "zh": "流鼻涕（Runningnose）"
+        },
+        {
+          "en": "Littlecloud",
+          "zh": "小云（Littlecloud）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Flametail falls through the thin ice while playing with other apprentices and drowns in the frozen lake.",
         "zh": "焰尾在与其他学徒玩耍时踩破薄冰，跌入冰湖溺亡。"
@@ -77,10 +125,22 @@
         "zh": "松鸦羽试图救焰尾时，哪位远古魂魄告诉他，死亡正是焰尾注定的命运？"
       },
       "options": [
-        {"en": "Rock", "zh": "石头（Rock）"},
-        {"en": "Midnight", "zh": "午夜（Midnight）"},
-        {"en": "Fallen Leaves", "zh": "落叶（Fallen Leaves）"},
-        {"en": "The Tribe of Endless Hunting", "zh": "无尽狩猎之族（Tribe of Endless Hunting）"}
+        {
+          "en": "Rock",
+          "zh": "石头（Rock）"
+        },
+        {
+          "en": "The Tribe of Endless Hunting",
+          "zh": "无尽狩猎之族（Tribe of Endless Hunting）"
+        },
+        {
+          "en": "Fallen Leaves",
+          "zh": "落叶（Fallen Leaves）"
+        },
+        {
+          "en": "Midnight",
+          "zh": "午夜（Midnight）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -94,12 +154,24 @@
         "zh": "焰尾死后，哪只猫指责松鸦羽，认为就是他淹死了焰尾？"
       },
       "options": [
-        {"en": "Dawnpelt", "zh": "黎星（Dawnpelt）"},
-        {"en": "Blackstar", "zh": "黑星（Blackstar）"},
-        {"en": "Tigerheart", "zh": "虎心（Tigerheart）"},
-        {"en": "Ivypool", "zh": "藤池（Ivypool）"}
+        {
+          "en": "Tigerheart",
+          "zh": "虎心（Tigerheart）"
+        },
+        {
+          "en": "Ivypool",
+          "zh": "藤池（Ivypool）"
+        },
+        {
+          "en": "Blackstar",
+          "zh": "黑星（Blackstar）"
+        },
+        {
+          "en": "Dawnpelt",
+          "zh": "黎星（Dawnpelt）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Dawnpelt, mourning Flametail, accuses Jayfeather of letting her brother drown and turns many cats against him.",
         "zh": "黎星为焰尾哀悼，指责松鸦羽任由她弟弟溺亡，令许多猫对松鸦羽心生敌意。"
@@ -111,10 +183,22 @@
         "zh": "狮焰与灰心渐生情愫，但灰心担心因狮焰的什么而无法与他在一起？"
       },
       "options": [
-        {"en": "His age", "zh": "他的年龄"},
-        {"en": "His secret power and destiny", "zh": "他的秘密能力与命运"},
-        {"en": "His loyalty to ShadowClan", "zh": "他对影族的忠心"},
-        {"en": "His illness", "zh": "他的疾病"}
+        {
+          "en": "His loyalty to ShadowClan according to some versions of the story",
+          "zh": "他对影族的忠心（按书中另一种说法）"
+        },
+        {
+          "en": "His secret power and destiny",
+          "zh": "他的秘密能力与命运"
+        },
+        {
+          "en": "His illness",
+          "zh": "他的疾病"
+        },
+        {
+          "en": "His age",
+          "zh": "他的年龄"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -128,12 +212,24 @@
         "zh": "在月池边，哪位影族前任族长的魂魄告诉焰尾，影族必须独善其身？"
       },
       "options": [
-        {"en": "Raggedstar", "zh": "褴褛星（Raggedstar）"},
-        {"en": "Brokenstar", "zh": "碎星（Brokenstar）"},
-        {"en": "Cedarstar", "zh": "雪松星（Cedarstar）"},
-        {"en": "Stonetooth", "zh": "石牙（Stonetooth）"}
+        {
+          "en": "Brokenstar according to some versions of the story",
+          "zh": "碎星（Brokenstar）（按书中另一种说法）"
+        },
+        {
+          "en": "Stonetooth",
+          "zh": "石牙（Stonetooth）"
+        },
+        {
+          "en": "Cedarstar",
+          "zh": "雪松星（Cedarstar）"
+        },
+        {
+          "en": "Raggedstar",
+          "zh": "褴褛星（Raggedstar）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Raggedstar's spirit warns Flametail that ShadowClan should trust no other Clan and stand alone.",
         "zh": "褴褛星的魂魄警告焰尾，影族不应信任任何族群，必须独善其身。"
@@ -145,12 +241,24 @@
         "zh": "狮焰拥有什么特殊能力，让灰心觉得两人无法相守？"
       },
       "options": [
-        {"en": "He can read minds", "zh": "他能读心"},
-        {"en": "He cannot be harmed in battle", "zh": "他战斗时不会受伤"},
-        {"en": "He can talk to the dead", "zh": "他能和死者说话"},
-        {"en": "He can become invisible", "zh": "他能隐身"}
+        {
+          "en": "He cannot be harmed in battle",
+          "zh": "他战斗时不会受伤"
+        },
+        {
+          "en": "He can talk to the dead according to some versions of the story",
+          "zh": "他能和死者说话（按书中另一种说法）"
+        },
+        {
+          "en": "He can read minds",
+          "zh": "他能读心"
+        },
+        {
+          "en": "He can become invisible",
+          "zh": "他能隐身"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Lionblaze cannot be wounded in battle, a gift tied to his place as one of the Three in the prophecy.",
         "zh": "狮焰在战斗中不会受伤，这股力量源于他作为预言三力量之一的身份。"
@@ -162,12 +270,24 @@
         "zh": "序章中星族猫为黑森林忧心。哪位雷族前任族长主张各族必须团结一致？"
       },
       "options": [
-        {"en": "Bluestar", "zh": "蓝星（Bluestar）"},
-        {"en": "Firestar", "zh": "火星（Firestar）"},
-        {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"},
-        {"en": "Tallstar", "zh": "高星（Tallstar）"}
+        {
+          "en": "Firestar",
+          "zh": "火星（Firestar）"
+        },
+        {
+          "en": "Yellowfang",
+          "zh": "黄牙（Yellowfang）"
+        },
+        {
+          "en": "Bluestar",
+          "zh": "蓝星（Bluestar）"
+        },
+        {
+          "en": "Tallstar",
+          "zh": "高星（Tallstar）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Bluestar steps in during the StarClan council and insists that the four Clans must stand together against the Dark Forest.",
         "zh": "在星族会议上，蓝星站出来坚持四族必须并肩对抗黑森林。"

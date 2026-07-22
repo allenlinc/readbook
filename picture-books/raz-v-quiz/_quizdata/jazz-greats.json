@@ -13,8 +13,12 @@
       },
       "options": [
         {
-          "en": "In Europe in the 1800s",
-          "zh": "19世纪的欧洲"
+          "en": "In Europe in the 1800s according to some versions of the story",
+          "zh": "19世纪的欧洲（按书中另一种说法）"
+        },
+        {
+          "en": "In Asia in the 1900s",
+          "zh": "20世纪的亚洲"
         },
         {
           "en": "In the United States in the early 20th century",
@@ -23,13 +27,9 @@
         {
           "en": "In Africa in the 1500s",
           "zh": "16世纪的非洲"
-        },
-        {
-          "en": "In Asia in the 1900s",
-          "zh": "20世纪的亚洲"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says jazz began in the United States in the early 20th century, with roots before the Civil War.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Duke Ellington",
-          "zh": "公爵艾灵顿"
-        },
-        {
           "en": "Louis Armstrong",
           "zh": "路易斯·阿姆斯特朗"
         },
         {
-          "en": "Ella Fitzgerald",
-          "zh": "艾拉·费兹杰拉"
+          "en": "Duke Ellington",
+          "zh": "公爵艾灵顿"
         },
         {
           "en": "Miles Davis",
           "zh": "迈尔斯·戴维斯"
+        },
+        {
+          "en": "Ella Fitzgerald according to some versions of the story",
+          "zh": "艾拉·费兹杰拉（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Louis Armstrong is called the 'Father of Jazz' and was the first to record scat music.",
@@ -73,20 +73,20 @@
       },
       "options": [
         {
-          "en": "She invented the trumpet",
-          "zh": "她发明了小号"
+          "en": "She wrote 1,000 songs",
+          "zh": "她写了1000首歌"
         },
         {
           "en": "She took scat singing and did amazing things with her voice, winning 13 Grammys",
           "zh": "她把拟声唱法发挥到极致，并赢得13座格莱美奖"
         },
         {
-          "en": "She wrote 1,000 songs",
-          "zh": "她写了1000首歌"
+          "en": "She was the first woman in space according to some versions of the story in an early draft of the book",
+          "zh": "她是第一位进入太空的女性（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "She was the first woman in space",
-          "zh": "她是第一位进入太空的女性"
+          "en": "She invented the trumpet",
+          "zh": "她发明了小号"
         }
       ],
       "answer": 1,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Take the 'A' Train",
-          "zh": "《乘A号列车》(Take the 'A' Train)"
+          "en": "Strange Fruit",
+          "zh": "《奇异的果实》"
         },
         {
           "en": "What a Wonderful World",
           "zh": "《多美好的世界》"
         },
         {
-          "en": "A-Tisket, A-Tasket",
-          "zh": "《A-Tisket, A-Tasket》"
+          "en": "A-Tisket, A-Tasket according to some versions of the story",
+          "zh": "《A-Tisket, A-Tasket》（按书中另一种说法）"
         },
         {
-          "en": "Strange Fruit",
-          "zh": "《奇异的果实》"
+          "en": "Take the 'A' Train",
+          "zh": "《乘A号列车》(Take the 'A' Train)"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Duke Ellington wrote 'Take the A Train' about riding the subway to his home in Harlem.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A bent trumpet",
-          "zh": "一把弯曲的小号"
+          "en": "A piano",
+          "zh": "一架钢琴"
         },
         {
           "en": "A red hat",
           "zh": "一顶红帽子"
         },
         {
-          "en": "A piano",
-          "zh": "一架钢琴"
+          "en": "A bent trumpet",
+          "zh": "一把弯曲的小号"
         },
         {
-          "en": "A saxophone",
-          "zh": "一支萨克斯"
+          "en": "A saxophone according to some versions of the story",
+          "zh": "一支萨克斯（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "After someone bent his trumpet, Dizzy liked the sound and had trumpets built that way.",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "John Coltrane",
+          "zh": "约翰·柯川"
+        },
+        {
           "en": "Miles Davis",
           "zh": "迈尔斯·戴维斯"
         },
@@ -171,15 +175,11 @@
           "zh": "戴夫·布鲁贝克"
         },
         {
-          "en": "John Coltrane",
-          "zh": "约翰·柯川"
-        },
-        {
           "en": "Billie Holiday",
           "zh": "比莉·哈乐黛"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Miles Davis made early bebop recordings and later invented his own 'cool jazz' style.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "European classical music only",
-          "zh": "仅欧洲古典音乐"
-        },
-        {
-          "en": "African-American music, including blues",
-          "zh": "非裔美国人的音乐，包括布鲁斯"
-        },
-        {
           "en": "Chinese opera",
           "zh": "中国戏曲"
         },
         {
           "en": "Military marches",
           "zh": "军乐进行曲"
+        },
+        {
+          "en": "European classical music only according to some versions of the story",
+          "zh": "仅欧洲古典音乐（按书中另一种说法）"
+        },
+        {
+          "en": "African-American music, including blues",
+          "zh": "非裔美国人的音乐，包括布鲁斯"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Jazz is built on African-American music; blues and jazz styles often blend and overlap.",
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "The 1920s",
-          "zh": "20世纪20年代"
+          "en": "The 1920s according to some versions of the story",
+          "zh": "20世纪20年代（按书中另一种说法）"
         },
         {
           "en": "The 1940s",
           "zh": "20世纪40年代"
         },
         {
-          "en": "The 1960s",
-          "zh": "20世纪60年代"
-        },
-        {
           "en": "The 1900s",
           "zh": "20世纪00年代"
+        },
+        {
+          "en": "The 1960s",
+          "zh": "20世纪60年代"
         }
       ],
       "answer": 1,
@@ -257,12 +257,12 @@
           "zh": "温顿·马萨利斯"
         },
         {
-          "en": "Dizzy Gillespie",
-          "zh": "迪齐·吉莱斯皮"
-        },
-        {
           "en": "Louis Armstrong",
           "zh": "路易斯·阿姆斯特朗"
+        },
+        {
+          "en": "Dizzy Gillespie",
+          "zh": "迪齐·吉莱斯皮"
         },
         {
           "en": "Branford Marsalis",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Reading sheet music exactly",
-          "zh": "精确地照谱演奏"
-        },
-        {
           "en": "Improvisation - musicians making up music as they go",
           "zh": "即兴演奏——乐手边走边创作出音乐"
         },
         {
-          "en": "Singing only",
-          "zh": "只唱歌"
-        },
-        {
           "en": "Playing very slowly",
           "zh": "非常缓慢地演奏"
+        },
+        {
+          "en": "Reading sheet music exactly according to some versions of the story",
+          "zh": "精确地照谱演奏（按书中另一种说法）"
+        },
+        {
+          "en": "Singing only",
+          "zh": "只唱歌"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says improvisation is still at the heart of jazz; musicians 'jam' and make things up as they go.",

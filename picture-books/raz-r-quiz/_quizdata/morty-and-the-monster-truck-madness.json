@@ -17,16 +17,16 @@
           "zh": "鼠镇举行的怪兽卡车狂热表演赛"
         },
         {
-          "en": "A lemonade festival",
-          "zh": "一个柠檬水节"
-        },
-        {
-          "en": "A skateboard competition",
-          "zh": "一场滑板比赛"
+          "en": "A skateboard competition according to some versions of the story",
+          "zh": "一场滑板比赛（按书中另一种说法）"
         },
         {
           "en": "A ballet recital",
           "zh": "一场芭蕾演出"
+        },
+        {
+          "en": "A lemonade festival",
+          "zh": "一个柠檬水节"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "$20 each",
-          "zh": "每张20美元"
-        },
-        {
           "en": "$40 each",
           "zh": "每张40美元"
         },
         {
-          "en": "$50 each",
-          "zh": "每张50美元"
-        },
-        {
           "en": "Free",
           "zh": "免费"
+        },
+        {
+          "en": "$50 each according to some versions of the story",
+          "zh": "每张50美元（按书中另一种说法）"
+        },
+        {
+          "en": "$20 each",
+          "zh": "每张20美元"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Fred's flyer read 'FOUR MONSTER TRUCK TICKETS ... $40 each,' and Ben noted they were 'ten dollars cheaper than the original price.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A race or show where vehicles are driven over roads or rough terrain",
-          "zh": "一种让车辆在道路上或崎岖地形上行驶的比赛或表演"
+          "en": "A kind of loan",
+          "zh": "一种贷款"
         },
         {
-          "en": "A musical instrument",
-          "zh": "一种乐器"
+          "en": "A musical instrument according to some versions of the story in an early draft of the book",
+          "zh": "一种乐器（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A type of mouse",
           "zh": "一种老鼠"
         },
         {
-          "en": "A kind of loan",
-          "zh": "一种贷款"
+          "en": "A race or show where vehicles are driven over roads or rough terrain",
+          "zh": "一种让车辆在道路上或崎岖地形上行驶的比赛或表演"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'rally' as 'a race or show where vehicles are driven over roads or rough terrain.'",
@@ -103,12 +103,12 @@
       },
       "options": [
         {
-          "en": "He took it from his mother's wallet without asking",
-          "zh": "他没经允许从母亲的钱包里拿的"
+          "en": "He earned it by selling lemonade according to some versions of the story",
+          "zh": "他卖柠檬水挣的（按书中另一种说法）"
         },
         {
-          "en": "He earned it by selling lemonade",
-          "zh": "他卖柠檬水挣的"
+          "en": "He took it from his mother's wallet without asking",
+          "zh": "他没经允许从母亲的钱包里拿的"
         },
         {
           "en": "His father gave him a loan",
@@ -119,7 +119,7 @@
           "zh": "他在地上捡到的"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Morty saw four five-dollar bills in his mother's wallet and 'plucked the money from her wallet and pocketed it' to pay for the ticket.",
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "Because the rally was that day",
-          "zh": "因为表演赛就在那天"
+          "en": "Because the rally was that day according to some versions of the story in an early draft of the book",
+          "zh": "因为表演赛就在那天（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Because the $20 Morty took left her twenty dollars short at checkout",
           "zh": "因为莫蒂拿走的20美元让她结账时少了20美元"
         },
         {
-          "en": "Because she forgot her list",
-          "zh": "因为她忘了购物清单"
-        },
-        {
           "en": "Because the store was closing",
           "zh": "因为商店要关门了"
+        },
+        {
+          "en": "Because she forgot her list",
+          "zh": "因为她忘了购物清单"
         }
       ],
       "answer": 1,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Monster trucks are more important than family",
-          "zh": "怪兽卡车比家人更重要"
-        },
-        {
-          "en": "His honest reputation is worth more than all the money there is",
-          "zh": "他诚实的名誉比所有的钱都重要"
+          "en": "Stealing is a good way to get what you want according to some versions of the story",
+          "zh": "偷窃是得到想要东西的好办法（按书中另一种说法）"
         },
         {
           "en": "Never admit your mistakes",
           "zh": "永远不要承认错误"
         },
         {
-          "en": "Stealing is a good way to get what you want",
-          "zh": "偷窃是得到想要东西的好办法"
+          "en": "Monster trucks are more important than family",
+          "zh": "怪兽卡车比家人更重要"
+        },
+        {
+          "en": "His honest reputation is worth more than all the money there is",
+          "zh": "他诚实的名誉比所有的钱都重要"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Mother tells Morty, 'Stealing is a crime' and 'Your honest reputation is worth more than all the money there is.'",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "He blamed Fred",
+          "zh": "他责怪弗雷德"
+        },
+        {
           "en": "He sold his ticket, paid his mother back, and promised never to take anything without permission",
           "zh": "他卖掉了票、把钱还给了母亲，并承诺未经允许绝不再拿任何东西"
         },
@@ -201,15 +205,11 @@
           "zh": "他把钱藏了起来"
         },
         {
-          "en": "He went to the rally anyway",
-          "zh": "他还是去看了表演赛"
-        },
-        {
-          "en": "He blamed Fred",
-          "zh": "他责怪弗雷德"
+          "en": "He went to the rally anyway according to some versions of the story in an early draft of the book",
+          "zh": "他还是去看了表演赛（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Morty sold his ticket to Gus, handed his mother a twenty-dollar bill, and said, 'You can trust me to never take anything from you without your permission.'",
@@ -223,8 +223,8 @@
       },
       "options": [
         {
-          "en": "Buying a ticket",
-          "zh": "买一张票"
+          "en": "Winning a race",
+          "zh": "赢得比赛"
         },
         {
           "en": "Cooking dinner",
@@ -235,8 +235,8 @@
           "zh": "从不想面对的处境中逃脱，或放弃责任"
         },
         {
-          "en": "Winning a race",
-          "zh": "赢得比赛"
+          "en": "Buying a ticket according to some versions of the story in an early draft of the book",
+          "zh": "买一张票（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 2,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To explain how loans work",
-          "zh": "为了讲解贷款如何运作"
+          "en": "To show that Morty learned the value of trust and honesty",
+          "zh": "为了表现莫蒂懂得了信任与诚实的价值"
         },
         {
-          "en": "To prove monster trucks are fun",
-          "zh": "为了证明怪兽卡车很好玩"
+          "en": "To prove monster trucks are fun according to some versions of the story",
+          "zh": "为了证明怪兽卡车很好玩（按书中另一种说法）"
         },
         {
           "en": "To describe a grocery store",
           "zh": "为了描写一家杂货店"
         },
         {
-          "en": "To show that Morty learned the value of trust and honesty",
-          "zh": "为了表现莫蒂懂得了信任与诚实的价值"
+          "en": "To explain how loans work",
+          "zh": "为了讲解贷款如何运作"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The story ends with Morty earning back his mother's trust, showing the author's message that honesty matters more than the rally.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "$1.75",
-          "zh": "1.75美元"
+          "en": "$20.00 according to some versions of the story",
+          "zh": "20.00美元（按书中另一种说法）"
         },
         {
           "en": "$25.00",
           "zh": "25.00美元"
         },
         {
-          "en": "$20.00",
-          "zh": "20.00美元"
-        },
-        {
           "en": "$21.75",
           "zh": "21.75美元"
+        },
+        {
+          "en": "$1.75",
+          "zh": "1.75美元"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "$20.00 plus 7 days times $0.25 equals $20.00 + $1.75 = $21.75, as the book's math question sets up.",

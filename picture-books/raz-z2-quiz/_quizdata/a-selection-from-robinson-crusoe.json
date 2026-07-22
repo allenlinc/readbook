@@ -12,12 +12,24 @@
         "zh": "故事开头，鲁滨逊·克鲁索遇到了什么事？"
       },
       "options": [
-        { "en": "He is stranded alone on a tropical island after a shipwreck", "zh": "船难后他独自被困在一座热带小岛上" },
-        { "en": "He wins a sailing race", "zh": "他赢得了一场帆船比赛" },
-        { "en": "He visits a big city", "zh": "他参观了一座大城市" },
-        { "en": "He builds a boat to sail home", "zh": "他造了一艘船准备回家" }
+        {
+          "en": "He visits a big city",
+          "zh": "他参观了一座大城市"
+        },
+        {
+          "en": "He wins a sailing race",
+          "zh": "他赢得了一场帆船比赛"
+        },
+        {
+          "en": "He is stranded alone on a tropical island after a shipwreck",
+          "zh": "船难后他独自被困在一座热带小岛上"
+        },
+        {
+          "en": "He builds a boat to sail home according to some versions of the story",
+          "zh": "他造了一艘船准备回家（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Crusoe is the only survivor of a shipwreck and finds himself alone on a tropical island.",
@@ -30,12 +42,24 @@
         "zh": "克鲁索最初是如何从失事船只上取得物资的？"
       },
       "options": [
-        { "en": "He waits for a rescue plane", "zh": "他等待救援飞机" },
-        { "en": "He builds a tall tower of stone on the beach to signal ships passing far out at sea", "zh": "他在海滩上用石头垒一座高塔，向远海经过的船只发信号" },
-        { "en": "He swims to the ship and builds a raft", "zh": "他游到船边并造了一只木筏" },
-        { "en": "He asks a friend to help", "zh": "他请朋友帮忙" }
+        {
+          "en": "He waits for a rescue plane",
+          "zh": "他等待救援飞机"
+        },
+        {
+          "en": "He swims to the ship and builds a raft",
+          "zh": "他游到船边并造了一只木筏"
+        },
+        {
+          "en": "He builds a tall tower of stone on the beach to signal ships passing far out at sea",
+          "zh": "他在海滩上用石头垒一座高塔，向远海经过的船只发信号"
+        },
+        {
+          "en": "He asks a friend to help",
+          "zh": "他请朋友帮忙"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Crusoe swims out to the ship, gathers provisions, and builds a raft to float them to shore.",
@@ -48,10 +72,22 @@
         "zh": "克鲁索在岛上建造了什么来保护自己的物品？"
       },
       "options": [
-        { "en": "A large wooden ship with sails that could carry him across the ocean to every continent", "zh": "一艘带帆的大木船，能载他横渡海洋去各个大洲" },
-        { "en": "A tent and a fenced shelter with a cave behind it", "zh": "一顶帐篷和一处带栅栏的居所，后面还有一个洞穴" },
-        { "en": "A small fire", "zh": "一小堆火" },
-        { "en": "A signal flag", "zh": "一面信号旗" }
+        {
+          "en": "A large wooden ship with sails that could carry him across the ocean to every continent",
+          "zh": "一艘带帆的大木船，能载他横渡海洋去各个大洲"
+        },
+        {
+          "en": "A tent and a fenced shelter with a cave behind it",
+          "zh": "一顶帐篷和一处带栅栏的居所，后面还有一个洞穴"
+        },
+        {
+          "en": "A signal flag",
+          "zh": "一面信号旗"
+        },
+        {
+          "en": "A small fire",
+          "zh": "一小堆火"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -66,10 +102,22 @@
         "zh": "在词汇表中，‘provisions’（补给）是什么意思？"
       },
       "options": [
-        { "en": "Maps of the sea", "zh": "航海图" },
-        { "en": "Tools for building", "zh": "建造工具" },
-        { "en": "Large wooden boxes that sailors used to store their clothing during long voyages", "zh": "水手在长途航行中存放衣物的木箱" },
-        { "en": "Supplies, especially those taken on a journey", "zh": "补给品，尤指旅途中携带的物资" }
+        {
+          "en": "Tools for building",
+          "zh": "建造工具"
+        },
+        {
+          "en": "Large wooden boxes that sailors used to store their clothing during long voyages",
+          "zh": "水手在长途航行中存放衣物的木箱"
+        },
+        {
+          "en": "Maps of the sea",
+          "zh": "航海图"
+        },
+        {
+          "en": "Supplies, especially those taken on a journey",
+          "zh": "补给品，尤指旅途中携带的物资"
+        }
       ],
       "answer": 3,
       "skill": "Craft and Structure",
@@ -84,10 +132,22 @@
         "zh": "爬上山后，克鲁索意识到自己身处何处？"
       },
       "options": [
-        { "en": "That he is on a mountain", "zh": "他在一座山上" },
-        { "en": "That he is on a small green island in the middle of a calm lake far from the ocean", "zh": "他在远离海洋的平静湖泊中央一座绿色小岛上" },
-        { "en": "That he is on an island surrounded by the sea", "zh": "他在一座被大海环绕的岛上" },
-        { "en": "That he is in a desert", "zh": "他在沙漠里" }
+        {
+          "en": "That he is on a small green island in the middle of a calm lake far from the ocean",
+          "zh": "他在远离海洋的平静湖泊中央一座绿色小岛上"
+        },
+        {
+          "en": "That he is in a desert",
+          "zh": "他在沙漠里"
+        },
+        {
+          "en": "That he is on an island surrounded by the sea",
+          "zh": "他在一座被大海环绕的岛上"
+        },
+        {
+          "en": "That he is on a mountain",
+          "zh": "他在一座山上"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -102,12 +162,24 @@
         "zh": "克鲁索在船上的一个抽屉里找到了什么？"
       },
       "options": [
-        { "en": "A chest full of golden treasure and a map showing the way to a hidden palace", "zh": "装满黄金的箱子和一张指向隐藏宫殿的地图" },
-        { "en": "Razors, scissors, knives, forks, and some money", "zh": "剃刀、剪刀、刀叉和一些钱" },
-        { "en": "A compass", "zh": "一个指南针" },
-        { "en": "A letter", "zh": "一封信" }
+        {
+          "en": "Razors, scissors, knives, forks, and some money",
+          "zh": "剃刀、剪刀、刀叉和一些钱"
+        },
+        {
+          "en": "A compass",
+          "zh": "一个指南针"
+        },
+        {
+          "en": "A letter",
+          "zh": "一封信"
+        },
+        {
+          "en": "A chest full of golden treasure and a map showing the way to a hidden palace",
+          "zh": "装满黄金的箱子和一张指向隐藏宫殿的地图"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In a locker drawer, Crusoe finds razors, scissors, knives, forks, and some money.",
@@ -120,12 +192,24 @@
         "zh": "在‘希望’一节中，是什么想法让克鲁索感觉好受一些？"
       },
       "options": [
-        { "en": "That he will soon be rich", "zh": "他很快会发财" },
-        { "en": "That the weather will improve", "zh": "天气会好转" },
-        { "en": "That he has a map", "zh": "他有一张地图" },
-        { "en": "That he survived while the others in his boat did not", "zh": "同船其他人没能生还，而他活了下来" }
+        {
+          "en": "That he survived while the others in his boat did not",
+          "zh": "同船其他人没能生还，而他活了下来"
+        },
+        {
+          "en": "That the weather will improve according to some versions of the story",
+          "zh": "天气会好转（按书中另一种说法）"
+        },
+        {
+          "en": "That he will soon be rich",
+          "zh": "他很快会发财"
+        },
+        {
+          "en": "That he has a map",
+          "zh": "他有一张地图"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Crusoe reminds himself that he survived while the other people in his boat did not.",
@@ -138,10 +222,22 @@
         "zh": "作者为什么用克鲁索自己的思想和语言来讲述故事？"
       },
       "options": [
-        { "en": "To let readers see the world from Crusoe's point of view", "zh": "为了让读者从克鲁索的视角看世界" },
-        { "en": "To teach a lesson about math", "zh": "为了上一堂数学课" },
-        { "en": "To list ocean facts", "zh": "为了罗列海洋知识" },
-        { "en": "To describe a faraway kingdom where kings once ruled over the seas and the stars above them", "zh": "为了描写一个远方的王国，那里的国王曾统治海洋与星空" }
+        {
+          "en": "To let readers see the world from Crusoe's point of view",
+          "zh": "为了让读者从克鲁索的视角看世界"
+        },
+        {
+          "en": "To teach a lesson about math",
+          "zh": "为了上一堂数学课"
+        },
+        {
+          "en": "To list ocean facts",
+          "zh": "为了罗列海洋知识"
+        },
+        {
+          "en": "To describe a faraway kingdom where kings once ruled over the seas and the stars above them",
+          "zh": "为了描写一个远方的王国，那里的国王曾统治海洋与星空"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -156,10 +252,22 @@
         "zh": "船难前，克鲁索的船正在探索哪里？"
       },
       "options": [
-        { "en": "The North Pole", "zh": "北极" },
-        { "en": "The Caribbean and South America", "zh": "加勒比海和南美洲" },
-        { "en": "A chain of frozen islands near the top of the world where ice never melts and few people ever travel", "zh": "世界尽头一串冰封的岛屿，那里冰雪不化、罕有人至" },
-        { "en": "A desert", "zh": "沙漠" }
+        {
+          "en": "The North Pole",
+          "zh": "北极"
+        },
+        {
+          "en": "The Caribbean and South America",
+          "zh": "加勒比海和南美洲"
+        },
+        {
+          "en": "A chain of frozen islands near the top of the world where ice never melts and few people ever travel",
+          "zh": "世界尽头一串冰封的岛屿，那里冰雪不化、罕有人至"
+        },
+        {
+          "en": "A desert",
+          "zh": "沙漠"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -174,12 +282,24 @@
         "zh": "在词汇表中，‘desolate’（荒凉的）是什么意思？"
       },
       "options": [
-        { "en": "Crowded", "zh": "拥挤的" },
-        { "en": "Full of friendly people who welcomed him with songs and gifts from their village", "zh": "满是友好的人，用歌声和礼物欢迎他" },
-        { "en": "Empty, alone, and unwelcoming", "zh": "空旷、孤独且荒凉的" },
-        { "en": "Bright", "zh": "明亮的" }
+        {
+          "en": "Full of friendly people who welcomed him with songs and gifts from their village",
+          "zh": "满是友好的人，用歌声和礼物欢迎他"
+        },
+        {
+          "en": "Crowded",
+          "zh": "拥挤的"
+        },
+        {
+          "en": "Bright",
+          "zh": "明亮的"
+        },
+        {
+          "en": "Empty, alone, and unwelcoming",
+          "zh": "空旷、孤独且荒凉的"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines desolate as empty, alone, and unwelcoming.",

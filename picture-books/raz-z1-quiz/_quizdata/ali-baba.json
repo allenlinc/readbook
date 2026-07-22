@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "Forty",
-          "zh": "四十名"
-        },
-        {
           "en": "Ten",
           "zh": "十名"
         },
@@ -27,9 +23,13 @@
         {
           "en": "One hundred",
           "zh": "一百名"
+        },
+        {
+          "en": "Forty",
+          "zh": "四十名"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Ali Baba hides in a tree and 'saw no fewer than forty men on horseback' halt and open the cave.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "'Open, sesame!'",
-          "zh": "'芝麻开门！'"
+          "en": "'Open, door!'",
+          "zh": "'门打开！'"
         },
         {
           "en": "'Open, barley!'",
           "zh": "'大麦开门！'"
         },
         {
-          "en": "'Open, door!'",
-          "zh": "'门打开！'"
+          "en": "'Open, sesame!'",
+          "zh": "'芝麻开门！'"
         },
         {
           "en": "'Open, treasure!'",
           "zh": "'宝藏开门！'"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The robber leader calls out 'Open, sesame!' and the boulder slides open; Ali Baba later uses the same phrase.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "To find out what Ali Baba and Fatima were weighing, so a gold coin would stick to it",
-          "zh": "为了查明阿里巴巴和法蒂玛在称什么，这样金币会粘在上面"
-        },
-        {
-          "en": "To make the scale weigh more accurately",
-          "zh": "为了让秤称得更准"
-        },
-        {
           "en": "Because she liked cooking with suet",
           "zh": "因为她喜欢用板油做饭"
+        },
+        {
+          "en": "To make the scale weigh more accurately according to some versions of the story in an early draft of the book",
+          "zh": "为了让秤称得更准（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To find out what Ali Baba and Fatima were weighing, so a gold coin would stick to it",
+          "zh": "为了查明阿里巴巴和法蒂玛在称什么，这样金币会粘在上面"
         },
         {
           "en": "To hide the scale from Cassim",
           "zh": "为了把秤藏起来不让卡西姆发现"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Vashti was suspicious and 'placed a bit of suet underneath the scale' so whatever they weighed would stick; she later found a gold coin.",
@@ -107,16 +107,16 @@
           "zh": "他忘记了开门所需的咒语"
         },
         {
-          "en": "The cave was locked from the outside",
-          "zh": "山洞从外面被锁住了"
-        },
-        {
-          "en": "He was too weak to walk",
-          "zh": "他虚弱得走不动了"
+          "en": "The cave was locked from the outside according to some versions of the story",
+          "zh": "山洞从外面被锁住了（按书中另一种说法）"
         },
         {
           "en": "The treasure was too heavy to carry",
           "zh": "财宝太重搬不动"
+        },
+        {
+          "en": "He was too weak to walk",
+          "zh": "他虚弱得走不动了"
         }
       ],
       "answer": 0,
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "Foreshadowing of the weather according to some versions of the story",
+          "zh": "对天气的伏笔（按书中另一种说法）"
+        },
+        {
           "en": "Characterization through contrast",
           "zh": "通过对比来塑造人物"
         },
@@ -143,13 +147,9 @@
         {
           "en": "Onomatopoeia",
           "zh": "拟声词"
-        },
-        {
-          "en": "Foreshadowing of the weather",
-          "zh": "对天气的伏笔"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The author develops Cassim and Ali Baba as opposites—one prosperous but greedy, the other poor but loving—to highlight their different choices.",
@@ -167,16 +167,16 @@
           "zh": "一个出人意料的转折，为'谁来拯救这个家庭'营造悬念"
         },
         {
-          "en": "A boring description of cooking",
-          "zh": "一段关于烹饪的枯燥描写"
-        },
-        {
           "en": "A list of the book's chapters",
           "zh": "书中章节的列表"
         },
         {
           "en": "A factual history lesson",
           "zh": "一堂真实的历史课"
+        },
+        {
+          "en": "A boring description of cooking according to some versions of the story in an early draft of the book",
+          "zh": "一段关于烹饪的枯燥描写（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -193,12 +193,12 @@
       },
       "options": [
         {
-          "en": "His intentions differ—he takes only what he needs and shares with family, not through violence",
-          "zh": "他的意图不同——他只拿自己所需并与家人分享，而非通过暴力"
+          "en": "He is a professional thief by trade according to some versions of the story in an early draft of the book",
+          "zh": "他是以偷窃为业的职业盗贼（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "He is a professional thief by trade",
-          "zh": "他是以偷窃为业的职业盗贼"
+          "en": "His intentions differ—he takes only what he needs and shares with family, not through violence",
+          "zh": "他的意图不同——他只拿自己所需并与家人分享，而非通过暴力"
         },
         {
           "en": "He kills anyone who opposes him",
@@ -209,7 +209,7 @@
           "zh": "他为政府工作"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Focus Question asks whether Ali Baba's intentions make his actions acceptable versus the robbers', pointing to motive rather than the act alone.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "It explains why the cave is hidden according to some versions of the story",
+          "zh": "它解释了山洞为何隐蔽（按书中另一种说法）"
+        },
+        {
           "en": "It shows her observant nature, which lets her outsmart the robbers",
           "zh": "它展现了她善于观察的性格，使她能智胜强盗"
         },
         {
-          "en": "It proves she cannot read",
-          "zh": "它证明她不识字"
-        },
-        {
-          "en": "It explains why the cave is hidden",
-          "zh": "它解释了山洞为何隐蔽"
-        },
-        {
           "en": "It describes the weather",
           "zh": "它描写了天气"
+        },
+        {
+          "en": "It proves she cannot read",
+          "zh": "它证明她不识字"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Her careful observation of the chalk X lets her foil the robbers' plan by marking all the doors, a key turning point.",
@@ -257,16 +257,16 @@
           "zh": "引导读者分析道德的模糊性以及意图的作用"
         },
         {
-          "en": "To teach arithmetic",
-          "zh": "教算术"
-        },
-        {
           "en": "To list the robbers' names",
           "zh": "罗列强盗的名字"
         },
         {
-          "en": "To describe Persian geography",
-          "zh": "描写波斯的地理"
+          "en": "To describe Persian geography according to some versions of the story in an early draft of the book",
+          "zh": "描写波斯的地理（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To teach arithmetic",
+          "zh": "教算术"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "The author views Morgiana as the true heroine whose actions drive the resolution",
-          "zh": "作者视莫琪安娜为真正的主角，是她的行为推动了结局"
-        },
-        {
-          "en": "The author sees her as a minor, unimportant character",
-          "zh": "作者认为她是个无关紧要的小角色"
-        },
-        {
           "en": "The author thinks she is the villain",
           "zh": "作者认为她是反派"
         },
         {
           "en": "The author ignores her completely",
           "zh": "作者完全忽略了她"
+        },
+        {
+          "en": "The author sees her as a minor, unimportant character according to some versions of the story",
+          "zh": "作者认为她是个无关紧要的小角色（按书中另一种说法）"
+        },
+        {
+          "en": "The author views Morgiana as the true heroine whose actions drive the resolution",
+          "zh": "作者视莫琪安娜为真正的主角，是她的行为推动了结局"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "By centering a writing task on Morgiana's influence, the author signals she is central to saving the family and resolving the story.",

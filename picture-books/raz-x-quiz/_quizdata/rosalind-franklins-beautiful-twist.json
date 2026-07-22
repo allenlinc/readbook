@@ -12,12 +12,24 @@
         "zh": "罗莎琳德·埃尔西·富兰克林出生在哪一年、哪个国家？"
       },
       "options": [
-        { "en": "In 1920, in England.", "zh": "1920年，英格兰。" },
-        { "en": "In 1900, in France.", "zh": "1900年，法国。" },
-        { "en": "In 1945, in the United States.", "zh": "1945年，美国。" },
-        { "en": "In 1920, in Germany.", "zh": "1920年，德国。" }
+        {
+          "en": "In 1900, in France.",
+          "zh": "1900年，法国。"
+        },
+        {
+          "en": "In 1945, in the United States.",
+          "zh": "1945年，美国。"
+        },
+        {
+          "en": "In 1920, in Germany.",
+          "zh": "1920年，德国。"
+        },
+        {
+          "en": "In 1920, in England.",
+          "zh": "1920年，英格兰。"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'In 1920, Rosalind Elsie Franklin was born in England.'",
@@ -30,12 +42,24 @@
         "zh": "在剑桥时，罗莎琳德成为了哪种科学方法的专家？"
       },
       "options": [
-        { "en": "X-ray crystallography, using X-rays to examine molecules.", "zh": "X射线晶体学，即用X射线研究分子结构。" },
-        { "en": "Building large metal models of atoms.", "zh": "搭建大型金属原子模型。" },
-        { "en": "Writing newspaper articles about science.", "zh": "撰写科学类新闻报道。" },
-        { "en": "Performing surgery on patients.", "zh": "给患者做手术。" }
+        {
+          "en": "Building large metal models of atoms.",
+          "zh": "搭建大型金属原子模型。"
+        },
+        {
+          "en": "X-ray crystallography, using X-rays to examine molecules.",
+          "zh": "X射线晶体学，即用X射线研究分子结构。"
+        },
+        {
+          "en": "Writing newspaper articles about science. according to some versions of the story",
+          "zh": "撰写科学类新闻报道。（按书中另一种说法）"
+        },
+        {
+          "en": "Performing surgery on patients.",
+          "zh": "给患者做手术。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says she 'became an expert in X-ray crystallography, a way of using X-rays to examine molecules.'",
@@ -48,12 +72,24 @@
         "zh": "罗莎琳德在1952年拍摄的'51号照片'是什么？"
       },
       "options": [
-        { "en": "The most amazing X-ray picture of DNA that anyone had ever taken.", "zh": "当时人们拍过的最惊人、最清晰的DNAX射线照片。" },
-        { "en": "A photo of her favorite mountain.", "zh": "一张她最爱的大山的照片。" },
-        { "en": "A picture of King's College where she worked.", "zh": "她工作的国王学院的照片。" },
-        { "en": "A self-portrait for her laboratory ID.", "zh": "她实验室证件的自拍照。" }
+        {
+          "en": "A picture of King's College where she worked. according to some versions of the story",
+          "zh": "她工作的国王学院的照片。（按书中另一种说法）"
+        },
+        {
+          "en": "The most amazing X-ray picture of DNA that anyone had ever taken.",
+          "zh": "当时人们拍过的最惊人、最清晰的DNAX射线照片。"
+        },
+        {
+          "en": "A photo of her favorite mountain.",
+          "zh": "一张她最爱的大山的照片。"
+        },
+        {
+          "en": "A self-portrait for her laboratory ID.",
+          "zh": "她实验室证件的自拍照。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In 1952 she took 'Photograph 51, the most amazing picture of DNA that anyone had ever taken.'",
@@ -66,10 +102,22 @@
         "zh": "詹姆斯·沃森和弗朗西斯·克里克是如何得知DNA形状的？"
       },
       "options": [
-        { "en": "Maurice Wilkins showed them Rosalind's Photograph 51 without her knowledge, and they built a model from it.", "zh": "莫里斯·威尔金斯在罗莎琳德不知情的情况下给他们看了51号照片，他们据此建了模型。" },
-        { "en": "Rosalind gave them the photo willingly and helped them build the model.", "zh": "罗莎琳德主动把照片给他们，并帮忙建模型。" },
-        { "en": "They guessed the shape without looking at any of her work.", "zh": "他们没看她的任何成果，纯靠猜。" },
-        { "en": "They read it from a book Rosalind had published.", "zh": "他们从罗莎琳德出版的书里读到的。" }
+        {
+          "en": "Maurice Wilkins showed them Rosalind's Photograph 51 without her knowledge, and they built a model from it.",
+          "zh": "莫里斯·威尔金斯在罗莎琳德不知情的情况下给他们看了51号照片，他们据此建了模型。"
+        },
+        {
+          "en": "They read it from a book Rosalind had published.",
+          "zh": "他们从罗莎琳德出版的书里读到的。"
+        },
+        {
+          "en": "Rosalind gave them the photo willingly and helped them build the model. according to some versions of the story in an early draft of the book",
+          "zh": "罗莎琳德主动把照片给他们，并帮忙建模型。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They guessed the shape without looking at any of her work.",
+          "zh": "他们没看她的任何成果，纯靠猜。"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -84,12 +132,24 @@
         "zh": "为什么罗莎琳德·富兰克林没能因发现DNA而获得诺贝尔奖？"
       },
       "options": [
-        { "en": "She died in 1958 at age 37, and only living people can win the Nobel Prize; Watson, Crick, and Wilkins won in 1962.", "zh": "她1958年去世，年仅37岁，而诺贝尔奖只颁给在世的人；沃森、克里克和威尔金斯于1962年获奖。" },
-        { "en": "She refused to accept the prize when offered.", "zh": "别人颁发时她拒绝了。" },
-        { "en": "She was not a scientist, only a lab assistant.", "zh": "她不是科学家，只是实验室助理。" },
-        { "en": "The Nobel committee had never heard of her work.", "zh": "诺贝尔奖委员会从没听说过她的研究。" }
+        {
+          "en": "She refused to accept the prize when offered.",
+          "zh": "别人颁发时她拒绝了。"
+        },
+        {
+          "en": "She died in 1958 at age 37, and only living people can win the Nobel Prize; Watson, Crick, and Wilkins won in 1962.",
+          "zh": "她1958年去世，年仅37岁，而诺贝尔奖只颁给在世的人；沃森、克里克和威尔金斯于1962年获奖。"
+        },
+        {
+          "en": "The Nobel committee had never heard of her work. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "诺贝尔奖委员会从没听说过她的研究。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "She was not a scientist, only a lab assistant.",
+          "zh": "她不是科学家，只是实验室助理。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Four years after her 1958 death, Watson, Crick, and Maurice won the 1962 Nobel Prize; 'only living people can win the Nobel Prize.'",
@@ -102,12 +162,24 @@
         "zh": "罗莎琳德最喜欢、觉得最放松的活动是什么？"
       },
       "options": [
-        { "en": "Mountain climbing in other countries.", "zh": "去其他国家登山。" },
-        { "en": "Playing the piano.", "zh": "弹钢琴。" },
-        { "en": "Painting portraits.", "zh": "画肖像画。" },
-        { "en": "Swimming in the ocean.", "zh": "在海里游泳。" }
+        {
+          "en": "Painting portraits.",
+          "zh": "画肖像画。"
+        },
+        {
+          "en": "Playing the piano.",
+          "zh": "弹钢琴。"
+        },
+        {
+          "en": "Mountain climbing in other countries.",
+          "zh": "去其他国家登山。"
+        },
+        {
+          "en": "Swimming in the ocean. according to some versions of the story",
+          "zh": "在海里游泳。（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says her favorite activity was mountain climbing and 'she found nothing more relaxing than traveling to other countries to climb new mountains.'",
@@ -120,10 +192,22 @@
         "zh": "在剑桥大学，男女学生的比例是多少？"
       },
       "options": [
-        { "en": "For every nine men admitted, only one woman was allowed to enroll.", "zh": "每录取9名男生，只许1名女生入学。" },
-        { "en": "There were equal numbers of men and women.", "zh": "男女人数相等。" },
-        { "en": "Only women were admitted, no men.", "zh": "只收女生，不收男生。" },
-        { "en": "There were two men for every one woman.", "zh": "男女比例为二比一。" }
+        {
+          "en": "For every nine men admitted, only one woman was allowed to enroll.",
+          "zh": "每录取9名男生，只许1名女生入学。"
+        },
+        {
+          "en": "There were two men for every one woman.",
+          "zh": "男女比例为二比一。"
+        },
+        {
+          "en": "There were equal numbers of men and women. according to some versions of the story",
+          "zh": "男女人数相等。（按书中另一种说法）"
+        },
+        {
+          "en": "Only women were admitted, no men.",
+          "zh": "只收女生，不收男生。"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "离开国王学院后，罗莎琳德去了哪里、研究什么？"
       },
       "options": [
-        { "en": "Birkbeck College, where she led a team studying viruses.", "zh": "去了伯贝克学院，带领团队研究病毒。" },
-        { "en": "A hospital, where she trained to be a nurse.", "zh": "去了医院，受训当护士。" },
-        { "en": "France, where she stopped doing science.", "zh": "去了法国，不再做科研。" },
-        { "en": "A school, where she taught PE.", "zh": "去了一所学校教体育。" }
+        {
+          "en": "A school, where she taught PE.",
+          "zh": "去了一所学校教体育。"
+        },
+        {
+          "en": "France, where she stopped doing science.",
+          "zh": "去了法国，不再做科研。"
+        },
+        {
+          "en": "A hospital, where she trained to be a nurse. according to some versions of the story",
+          "zh": "去了医院，受训当护士。（按书中另一种说法）"
+        },
+        {
+          "en": "Birkbeck College, where she led a team studying viruses.",
+          "zh": "去了伯贝克学院，带领团队研究病毒。"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "At Birkbeck College she 'was the boss, with a team of talented and respectful scientists working for her. They studied viruses.'",
@@ -156,10 +252,22 @@
         "zh": "在这本书中，'double helix'（双螺旋）是什么意思？"
       },
       "options": [
-        { "en": "A spiral made up of two strands — the shape of DNA.", "zh": "由两条链组成的螺旋——即DNA的形状。" },
-        { "en": "A kind of X-ray machine.", "zh": "一种X射线机器。" },
-        { "en": "A type of mountain range.", "zh": "一种山脉。" },
-        { "en": "A medical term for cancer.", "zh": "癌症的医学术语。" }
+        {
+          "en": "A spiral made up of two strands — the shape of DNA.",
+          "zh": "由两条链组成的螺旋——即DNA的形状。"
+        },
+        {
+          "en": "A medical term for cancer. according to some versions of the story",
+          "zh": "癌症的医学术语。（按书中另一种说法）"
+        },
+        {
+          "en": "A type of mountain range.",
+          "zh": "一种山脉。"
+        },
+        {
+          "en": "A kind of X-ray machine.",
+          "zh": "一种X射线机器。"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -174,12 +282,24 @@
         "zh": "作者写这本书的主要目的是什么？"
       },
       "options": [
-        { "en": "To inform readers about Rosalind Franklin's life and her key role in discovering the structure of DNA.", "zh": "向读者介绍罗莎琳德·富兰克林的生平，以及她在发现DNA结构中的关键作用。" },
-        { "en": "To teach readers how to climb mountains.", "zh": "教读者如何登山。" },
-        { "en": "To tell a made-up fairy tale.", "zh": "讲一个虚构的童话。" },
-        { "en": "To convince readers to become doctors.", "zh": "劝说读者去当医生。" }
+        {
+          "en": "To tell a made-up fairy tale.",
+          "zh": "讲一个虚构的童话。"
+        },
+        {
+          "en": "To convince readers to become doctors.",
+          "zh": "劝说读者去当医生。"
+        },
+        {
+          "en": "To inform readers about Rosalind Franklin's life and her key role in discovering the structure of DNA.",
+          "zh": "向读者介绍罗莎琳德·富兰克林的生平，以及她在发现DNA结构中的关键作用。"
+        },
+        {
+          "en": "To teach readers how to climb mountains. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "教读者如何登山。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is a biography explaining her determination and 'one of the most important discoveries in the history of science' — DNA's double helix.",

@@ -12,12 +12,24 @@
         "zh": "书中描述的校车系统由谁来出资？"
       },
       "options": [
-        {"en": "Only the students themselves", "zh": "仅由学生自己"},
-        {"en": "Taxpayer money from local property taxes, plus some state funds", "zh": "来自地方财产税的税款，以及部分州政府拨款"},
-        {"en": "Private companies", "zh": "私营公司"},
-        {"en": "Foreign governments", "zh": "外国政府"}
+        {
+          "en": "Private companies",
+          "zh": "私营公司"
+        },
+        {
+          "en": "Only the students themselves according to some versions of the story",
+          "zh": "仅由学生自己（按书中另一种说法）"
+        },
+        {
+          "en": "Taxpayer money from local property taxes, plus some state funds",
+          "zh": "来自地方财产税的税款，以及部分州政府拨款"
+        },
+        {
+          "en": "Foreign governments",
+          "zh": "外国政府"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says buses are paid for with taxpayer money from local property taxes, and states sometimes give schools transportation funds.",
@@ -30,12 +42,24 @@
         "zh": "2013年，每天大约有多少学生乘坐校车？"
       },
       "options": [
-        {"en": "About 26 million", "zh": "约2600万"},
-        {"en": "About 480,000", "zh": "约48万"},
-        {"en": "About 54", "zh": "约54人"},
-        {"en": "About 1,046", "zh": "约1046人"}
+        {
+          "en": "About 480,000 according to some versions of the story",
+          "zh": "约48万（按书中另一种说法）"
+        },
+        {
+          "en": "About 26 million",
+          "zh": "约2600万"
+        },
+        {
+          "en": "About 54",
+          "zh": "约54人"
+        },
+        {
+          "en": "About 1,046",
+          "zh": "约1046人"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that in 2013 about 480,000 buses carried students, and slightly more than half of public school students—about 26 million—used buses daily.",
@@ -48,12 +72,24 @@
         "zh": "校车为什么选用黄色？"
       },
       "options": [
-        {"en": "It was the cheapest color", "zh": "因为它最便宜"},
-        {"en": "It is highly visible so drivers can see buses and stop in time", "zh": "因为它非常显眼，司机能及时看见并停车"},
-        {"en": "It matched the national flag", "zh": "因为它和国旗颜色一致"},
-        {"en": "It hides dirt", "zh": "因为它耐脏"}
+        {
+          "en": "It is highly visible so drivers can see buses and stop in time",
+          "zh": "因为它非常显眼，司机能及时看见并停车"
+        },
+        {
+          "en": "It hides dirt",
+          "zh": "因为它耐脏"
+        },
+        {
+          "en": "It matched the national flag according to some versions of the story",
+          "zh": "因为它和国旗颜色一致（按书中另一种说法）"
+        },
+        {
+          "en": "It was the cheapest color",
+          "zh": "因为它最便宜"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says yellow was chosen because it was highly visible, helping drivers recognize and stop for school buses instantly.",
@@ -66,12 +102,24 @@
         "zh": "1954年，美国最高法院对学校的种族隔离作出了什么裁决？"
       },
       "options": [
-        {"en": "That segregation was a good idea", "zh": "种族隔离是个好主意"},
-        {"en": "That segregation discriminated against African American students", "zh": "种族隔离歧视了非裔美国学生"},
-        {"en": "That buses must be yellow", "zh": "校车必须是黄色"},
-        {"en": "That schools should be closed", "zh": "学校应当关闭"}
+        {
+          "en": "That segregation discriminated against African American students",
+          "zh": "种族隔离歧视了非裔美国学生"
+        },
+        {
+          "en": "That schools should be closed",
+          "zh": "学校应当关闭"
+        },
+        {
+          "en": "That segregation was a good idea according to some versions of the story",
+          "zh": "种族隔离是个好主意（按书中另一种说法）"
+        },
+        {
+          "en": "That buses must be yellow",
+          "zh": "校车必须是黄色"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says in 1954 the U.S. Supreme Court declared that school segregation discriminated against African American students.",
@@ -84,12 +132,24 @@
         "zh": "在词汇表中，“mass transit”是什么意思？"
       },
       "options": [
-        {"en": "Private cars only", "zh": "仅指私家车"},
-        {"en": "A public transportation system that moves large numbers of people by bus, subway, or train", "zh": "用公交、地铁或火车运送大量人群的公共交通系统"},
-        {"en": "A type of school", "zh": "一种学校"},
-        {"en": "A kind of road", "zh": "一种道路"}
+        {
+          "en": "A kind of road",
+          "zh": "一种道路"
+        },
+        {
+          "en": "A type of school",
+          "zh": "一种学校"
+        },
+        {
+          "en": "Private cars only according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "仅指私家车（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "A public transportation system that moves large numbers of people by bus, subway, or train",
+          "zh": "用公交、地铁或火车运送大量人群的公共交通系统"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines mass transit as a public transportation system that moves large numbers of people on buses, subways, or trains.",
@@ -102,10 +162,22 @@
         "zh": "在书中，“consolidation（合并）”是指什么？"
       },
       "options": [
-        {"en": "Building many new small schools", "zh": "新建许多小型学校"},
-        {"en": "Combining several smaller schools into one larger building", "zh": "把几所较小的学校合并成一栋更大的建筑"},
-        {"en": "Painting buses yellow", "zh": "把校车漆成黄色"},
-        {"en": "Ending the use of buses", "zh": "停止使用校车"}
+        {
+          "en": "Painting buses yellow",
+          "zh": "把校车漆成黄色"
+        },
+        {
+          "en": "Combining several smaller schools into one larger building",
+          "zh": "把几所较小的学校合并成一栋更大的建筑"
+        },
+        {
+          "en": "Ending the use of buses",
+          "zh": "停止使用校车"
+        },
+        {
+          "en": "Building many new small schools according to some versions of the story",
+          "zh": "新建许多小型学校（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "为什么校车在农村地区尤其重要？"
       },
       "options": [
-        {"en": "Rural areas have no other public transit options", "zh": "农村地区没有其他公共交通可选"},
-        {"en": "Rural students do not go to school", "zh": "农村学生不上学"},
-        {"en": "Buses are faster than trains", "zh": "校车比火车快"},
-        {"en": "Cities ban buses", "zh": "城市禁止使用校车"}
+        {
+          "en": "Cities ban buses",
+          "zh": "城市禁止使用校车"
+        },
+        {
+          "en": "Rural areas have no other public transit options",
+          "zh": "农村地区没有其他公共交通可选"
+        },
+        {
+          "en": "Buses are faster than trains",
+          "zh": "校车比火车快"
+        },
+        {
+          "en": "Rural students do not go to school according to some versions of the story",
+          "zh": "农村学生不上学（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says rural areas often have no public transit options at all outside the school bus system, making buses necessary.",
@@ -138,10 +222,22 @@
         "zh": "根据美国国家安全管理委员会的说法，校车比私家车安全多少倍？"
       },
       "options": [
-        {"en": "40 times safer", "zh": "安全40倍"},
-        {"en": "Equally safe", "zh": "同样安全"},
-        {"en": "10 times more dangerous", "zh": "危险10倍"},
-        {"en": "Twice as safe", "zh": "安全2倍"}
+        {
+          "en": "40 times safer",
+          "zh": "安全40倍"
+        },
+        {
+          "en": "10 times more dangerous",
+          "zh": "危险10倍"
+        },
+        {
+          "en": "Twice as safe",
+          "zh": "安全2倍"
+        },
+        {
+          "en": "Equally safe",
+          "zh": "同样安全"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,12 +252,24 @@
         "zh": "哪些“绿色”改进帮助校车保护环境？"
       },
       "options": [
-        {"en": "Bigger gasoline engines", "zh": "更大的汽油发动机"},
-        {"en": "Electric engines, hybrid buses, and propane fuel", "zh": "电动引擎、混合动力校车和丙烷燃料"},
-        {"en": "Removing all seat belts", "zh": "拆除所有安全带"},
-        {"en": "Using more diesel", "zh": "使用更多柴油"}
+        {
+          "en": "Removing all seat belts",
+          "zh": "拆除所有安全带"
+        },
+        {
+          "en": "Using more diesel",
+          "zh": "使用更多柴油"
+        },
+        {
+          "en": "Bigger gasoline engines according to some versions of the story",
+          "zh": "更大的汽油发动机（按书中另一种说法）"
+        },
+        {
+          "en": "Electric engines, hybrid buses, and propane fuel",
+          "zh": "电动引擎、混合动力校车和丙烷燃料"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book describes electric engines, hybrid buses with better mileage, and propane fuel as greener, less polluting choices.",
@@ -174,12 +282,24 @@
         "zh": "书中描述的美国公立学校体系支持什么原则？"
       },
       "options": [
-        {"en": "Only rich students get an education", "zh": "只有富裕学生才能受教育"},
-        {"en": "Everybody is entitled to an education", "zh": "每个人都有受教育的权利"},
-        {"en": "Buses should be free", "zh": "校车应当免费"},
-        {"en": "Schools must be painted yellow", "zh": "学校必须漆成黄色"}
+        {
+          "en": "Only rich students get an education according to some versions of the story",
+          "zh": "只有富裕学生才能受教育（按书中另一种说法）"
+        },
+        {
+          "en": "Buses should be free",
+          "zh": "校车应当免费"
+        },
+        {
+          "en": "Everybody is entitled to an education",
+          "zh": "每个人都有受教育的权利"
+        },
+        {
+          "en": "Schools must be painted yellow",
+          "zh": "学校必须漆成黄色"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says the American public school system is based on the principle that everybody is entitled to an education.",

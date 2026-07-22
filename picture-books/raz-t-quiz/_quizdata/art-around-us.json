@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "Only with brushes",
-          "zh": "只用画笔"
+          "en": "By printing",
+          "zh": "通过印刷"
         },
         {
           "en": "Splash, spray, drip, or even use mud",
@@ -25,8 +25,8 @@
           "zh": "用脚"
         },
         {
-          "en": "By printing",
-          "zh": "通过印刷"
+          "en": "Only with brushes according to some versions of the story",
+          "zh": "只用画笔（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "A type of paintbrush according to some versions of the story",
+          "zh": "一种画笔（按书中另一种说法）"
+        },
+        {
           "en": "A thin metal blade used to smear on colors",
           "zh": "一种用来涂抹颜料的薄金属刀片"
         },
         {
-          "en": "A type of paintbrush",
-          "zh": "一种画笔"
+          "en": "A canvas",
+          "zh": "画布"
         },
         {
           "en": "A wooden frame",
           "zh": "木框"
-        },
-        {
-          "en": "A canvas",
-          "zh": "画布"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "A palette knife is a thin metal blade some painters prefer to smear colors onto a surface.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A loom",
-          "zh": "织布机"
-        },
-        {
           "en": "A pottery wheel (a spinning table)",
           "zh": "陶轮（旋转的工作台）"
         },
         {
-          "en": "A chisel",
-          "zh": "凿子"
+          "en": "A loom",
+          "zh": "织布机"
         },
         {
-          "en": "A blowpipe",
-          "zh": "吹管"
+          "en": "A blowpipe according to some versions of the story",
+          "zh": "吹管（按书中另一种说法）"
+        },
+        {
+          "en": "A chisel",
+          "zh": "凿子"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Potters put clay on a pottery wheel, a small round spinning table, and shape it as it spins.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Melted glass",
-          "zh": "熔化的玻璃"
+          "en": "A kind of paint according to some versions of the story",
+          "zh": "一种颜料（按书中另一种说法）"
+        },
+        {
+          "en": "Soft fabric",
+          "zh": "柔软的布料"
         },
         {
           "en": "Baked, dried clay that keeps its shape",
           "zh": "经烘烤干燥的黏土，能保持形状"
         },
         {
-          "en": "A kind of paint",
-          "zh": "一种颜料"
-        },
-        {
-          "en": "Soft fabric",
-          "zh": "柔软的布料"
+          "en": "Melted glass",
+          "zh": "熔化的玻璃"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "After clay is baked in a kiln, the material is called ceramic and keeps its shape.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "To loop yarn into strips of fabric",
+          "zh": "把纱线交织成布条"
+        },
+        {
           "en": "To blow glass",
           "zh": "吹制玻璃"
         },
         {
-          "en": "To carve stone",
-          "zh": "雕刻石头"
-        },
-        {
-          "en": "To loop yarn into strips of fabric",
-          "zh": "把纱线交织成布条"
+          "en": "To carve stone according to some versions of the story",
+          "zh": "雕刻石头（按书中另一种说法）"
         },
         {
           "en": "To bake clay",
           "zh": "烘烤黏土"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "A loom is a machine that loops yarns over and under each other to make fabric.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "By painting it",
+          "zh": "涂色"
+        },
+        {
           "en": "By blowing air through a long hollow tube called a blowpipe",
           "zh": "通过长空心管（吹管）吹气"
         },
         {
-          "en": "By hammering it",
-          "zh": "用锤子敲"
+          "en": "By hammering it according to some versions of the story in an early draft of the book",
+          "zh": "用锤子敲（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "By freezing it",
           "zh": "冷冻它"
-        },
-        {
-          "en": "By painting it",
-          "zh": "涂色"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Glassblowers scoop hot glass on a blowpipe and blow air through it to form a bubble.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Art made from everyday objects an artist finds",
-          "zh": "用艺术家捡到的日常物品制作的艺术"
+          "en": "Art painted on walls",
+          "zh": "画在墙上的艺术"
         },
         {
-          "en": "Art found in a museum",
-          "zh": "在博物馆里发现的艺术"
+          "en": "Art found in a museum according to some versions of the story",
+          "zh": "在博物馆里发现的艺术（按书中另一种说法）"
         },
         {
           "en": "Art made by children",
           "zh": "儿童制作的艺术"
         },
         {
-          "en": "Art painted on walls",
-          "zh": "画在墙上的艺术"
+          "en": "Art made from everyday objects an artist finds",
+          "zh": "用艺术家捡到的日常物品制作的艺术"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Found object artists use rusty junk, old car parts, wire, and other everyday materials they find.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "A small painting",
-          "zh": "一幅小画"
+          "en": "A type of sculpture according to some versions of the story",
+          "zh": "一种雕塑（按书中另一种说法）"
+        },
+        {
+          "en": "A photograph",
+          "zh": "一张照片"
         },
         {
           "en": "A whole room or building made into one work of art",
           "zh": "整个房间或建筑变成的一件艺术品"
         },
         {
-          "en": "A type of sculpture",
-          "zh": "一种雕塑"
-        },
-        {
-          "en": "A photograph",
-          "zh": "一张照片"
+          "en": "A small painting",
+          "zh": "一幅小画"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "An installation is very large, often an entire room or building made into one piece of art.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "On city buildings",
-          "zh": "在城市建筑上"
-        },
-        {
           "en": "In caves in France and Spain",
           "zh": "在法国和西班牙的洞穴中"
         },
         {
-          "en": "On the ocean floor",
-          "zh": "在海床上"
+          "en": "On city buildings",
+          "zh": "在城市建筑上"
         },
         {
-          "en": "In modern museums only",
-          "zh": "仅在现代博物馆"
+          "en": "In modern museums only according to some versions of the story",
+          "zh": "仅在现代博物馆（按书中另一种说法）"
+        },
+        {
+          "en": "On the ocean floor",
+          "zh": "在海床上"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Caves in France and Spain have primitive drawings of animals made over 13,000 years ago.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "Art is mysterious and hard to enjoy according to some versions of the story",
+          "zh": "艺术很神秘且难以欣赏（按书中另一种说法）"
+        },
+        {
           "en": "Art is only for experts",
           "zh": "艺术只属于专家"
         },
         {
-          "en": "Art is mysterious and hard to enjoy",
-          "zh": "艺术很神秘且难以欣赏"
+          "en": "Art must be serious",
+          "zh": "艺术必须严肃"
         },
         {
           "en": "Art is all around us and anyone can make and enjoy it",
           "zh": "艺术无处不在，任何人都能创作并欣赏"
-        },
-        {
-          "en": "Art must be serious",
-          "zh": "艺术必须严肃"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book ends by telling readers to look for art around them because it is everywhere.",

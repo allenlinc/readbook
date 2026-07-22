@@ -9,10 +9,22 @@
         "zh": "大战之后，谁重返雷族担任族长？"
       },
       "options": [
-        {"en": "Ashfur", "zh": "灰条（Ashfur）"},
-        {"en": "The real Bramblestar, freed from Ashfur.", "zh": "被灰条释放的真正的棘星。"},
-        {"en": "Squirrelflight", "zh": "松鼠飞（Squirrelflight）"},
-        {"en": "Tigerheartstar", "zh": "虎心星（Tigerheartstar）"}
+        {
+          "en": "Ashfur",
+          "zh": "灰条（Ashfur）"
+        },
+        {
+          "en": "The real Bramblestar, freed from Ashfur.",
+          "zh": "被灰条释放的真正的棘星。"
+        },
+        {
+          "en": "Tigerheartstar according to some versions of the story",
+          "zh": "虎心星（Tigerheartstar）（按书中另一种说法）"
+        },
+        {
+          "en": "Squirrelflight",
+          "zh": "松鼠飞（Squirrelflight）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -26,12 +38,24 @@
         "zh": "危机过后，《战士守则》发生了什么变化？"
       },
       "options": [
-        {"en": "It is thrown away completely.", "zh": "它被彻底废除。"},
-        {"en": "It is kept exactly the same as before.", "zh": "它与从前一模一样，毫无改动。"},
-        {"en": "It is amended with new lessons learned from the impostor's rule.", "zh": "它根据冒名顶替者统治的教训，增补了新的内容。"},
-        {"en": "It is rewritten by the Twolegs.", "zh": "它由两脚兽重写。"}
+        {
+          "en": "It is amended with new lessons learned from the impostor's rule.",
+          "zh": "它根据冒名顶替者统治的教训，增补了新的内容。"
+        },
+        {
+          "en": "It is thrown away completely.",
+          "zh": "它被彻底废除。"
+        },
+        {
+          "en": "It is kept exactly the same as before. according to some versions of the story",
+          "zh": "它与从前一模一样，毫无改动。（按书中另一种说法）"
+        },
+        {
+          "en": "It is rewritten by the Twolegs.",
+          "zh": "它由两脚兽重写。"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "The Clans amend the Warrior Code, adding new rules shaped by what they suffered under the impostor.",
         "zh": "各族修订了《战士守则》，根据在冒名顶替者统治下的遭遇增补了新规。"
@@ -43,10 +67,22 @@
         "zh": "哪只勇敢的猫作为在战斗中牺牲的英雄而被哀悼？"
       },
       "options": [
-        {"en": "Squirrelflight", "zh": "松鼠飞（Squirrelflight）"},
-        {"en": "Bristlefrost", "zh": "棘霜（Bristlefrost）"},
-        {"en": "Leafpool", "zh": "叶池（Leafpool）"},
-        {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"}
+        {
+          "en": "Leafpool",
+          "zh": "叶池（Leafpool）"
+        },
+        {
+          "en": "Bristlefrost",
+          "zh": "棘霜（Bristlefrost）"
+        },
+        {
+          "en": "Spottedleaf",
+          "zh": "斑叶（Spottedleaf）"
+        },
+        {
+          "en": "Squirrelflight",
+          "zh": "松鼠飞（Squirrelflight）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -60,10 +96,22 @@
         "zh": "各族接受了关于《战士守则》的什么新认识？"
       },
       "options": [
-        {"en": "That the Code can be changed and is not perfect or absolute.", "zh": "守则可以被修改，并非完美或绝对。"},
-        {"en": "That the Code must never change.", "zh": "守则永远不可更改。"},
-        {"en": "That only leaders may read the Code.", "zh": "只有族长能读守则。"},
-        {"en": "That the Code comes from the Twolegs.", "zh": "守则来自两脚兽。"}
+        {
+          "en": "That the Code can be changed and is not perfect or absolute.",
+          "zh": "守则可以被修改，并非完美或绝对。"
+        },
+        {
+          "en": "That the Code must never change.",
+          "zh": "守则永远不可更改。"
+        },
+        {
+          "en": "That only leaders may read the Code. according to some versions of the story",
+          "zh": "只有族长能读守则。（按书中另一种说法）"
+        },
+        {
+          "en": "That the Code comes from the Twolegs.",
+          "zh": "守则来自两脚兽。"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -77,12 +125,24 @@
         "zh": "危机过后，松鼠飞与棘星如何重聚？"
       },
       "options": [
-        {"en": "They remain separated forever.", "zh": "他们永远分离。"},
-        {"en": "With the impostor gone, the real Bramblestar returns and they are together again.", "zh": "冒名顶替者离去，真正的棘星归来，两人再度相聚。"},
-        {"en": "Squirrelflight joins StarClan.", "zh": "松鼠飞加入了星族。"},
-        {"en": "Bramblestar becomes a rogue.", "zh": "棘星成了泼皮猫。"}
+        {
+          "en": "They remain separated forever.",
+          "zh": "他们永远分离。"
+        },
+        {
+          "en": "Bramblestar becomes a rogue.",
+          "zh": "棘星成了泼皮猫。"
+        },
+        {
+          "en": "Squirrelflight joins StarClan. according to some versions of the story in an early draft of the book",
+          "zh": "松鼠飞加入了星族。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "With the impostor gone, the real Bramblestar returns and they are together again.",
+          "zh": "冒名顶替者离去，真正的棘星归来，两人再度相聚。"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Once the impostor is gone, the true Bramblestar returns and is reunited with his mate Squirrelflight.",
         "zh": "冒名顶替者离去后，真正的棘星归来，与伴侣松鼠飞再度相聚。"
@@ -94,12 +154,24 @@
         "zh": "最终灰条（Ashfur）的下场如何？"
       },
       "options": [
-        {"en": "He becomes a hero of ThunderClan.", "zh": "他成了雷族的英雄。"},
-        {"en": "He is gone for good, defeated and unable to return.", "zh": "他被彻底击败，无法再回来。"},
-        {"en": "He rules ShadowClan.", "zh": "他统治了影族。"},
-        {"en": "He becomes a medicine cat.", "zh": "他成了巫医。"}
+        {
+          "en": "He rules ShadowClan.",
+          "zh": "他统治了影族。"
+        },
+        {
+          "en": "He becomes a hero of ThunderClan. according to some versions of the story",
+          "zh": "他成了雷族的英雄。（按书中另一种说法）"
+        },
+        {
+          "en": "He is gone for good, defeated and unable to return.",
+          "zh": "他被彻底击败，无法再回来。"
+        },
+        {
+          "en": "He becomes a medicine cat.",
+          "zh": "他成了巫医。"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Ashfur is defeated and trapped in the Dark Forest, gone from the lives of the living Clans for good.",
         "zh": "灰条被击败并困于黑森林，永远退出了活着的各族的生活。"
@@ -111,12 +183,24 @@
         "zh": "书名中的「迷雾微光」象征着什么？"
       },
       "options": [
-        {"en": "A new hunting trick.", "zh": "一种新的捕猎技巧。"},
-        {"en": "Hope and clarity returning to the Clans after darkness.", "zh": "黑暗过后，希望与明朗重回各族。"},
-        {"en": "A Twoleg's lamp.", "zh": "两脚兽的灯。"},
-        {"en": "A coming storm.", "zh": "即将来临的风暴。"}
+        {
+          "en": "Hope and clarity returning to the Clans after darkness.",
+          "zh": "黑暗过后，希望与明朗重回各族。"
+        },
+        {
+          "en": "A coming storm.",
+          "zh": "即将来临的风暴。"
+        },
+        {
+          "en": "A new hunting trick. according to some versions of the story",
+          "zh": "一种新的捕猎技巧。（按书中另一种说法）"
+        },
+        {
+          "en": "A Twoleg's lamp.",
+          "zh": "两脚兽的灯。"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "The 'light in the mist' stands for the hope and clear truth that return to the Clans after the long darkness.",
         "zh": "「迷雾微光」象征着历经漫长黑暗后，希望与真相重新照耀各族。"
@@ -128,12 +212,24 @@
         "zh": "棘霜（Bristlefrost）死后，她的灵魂去了哪里？"
       },
       "options": [
-        {"en": "The Dark Forest.", "zh": "黑森林。"},
-        {"en": "StarClan, as a honored warrior.", "zh": "星族，作为受敬重的战士。"},
-        {"en": "She vanishes.", "zh": "她消散无踪。"},
-        {"en": "The old forest.", "zh": "旧森林。"}
+        {
+          "en": "The Dark Forest. according to some versions of the story",
+          "zh": "黑森林。（按书中另一种说法）"
+        },
+        {
+          "en": "She vanishes.",
+          "zh": "她消散无踪。"
+        },
+        {
+          "en": "The old forest.",
+          "zh": "旧森林。"
+        },
+        {
+          "en": "StarClan, as a honored warrior.",
+          "zh": "星族，作为受敬重的战士。"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Because of her bravery, Bristlefrost's spirit joins StarClan and is honored among the warrior ancestors.",
         "zh": "凭借其勇敢，棘霜的灵魂升入星族，在战士祖先中备受敬重。"
@@ -145,12 +241,24 @@
         "zh": "危机结束后，湖畔领地重归何种状态？"
       },
       "options": [
-        {"en": "Constant war.", "zh": "无休止的战争。"},
-        {"en": "Peace and the normal life of the Clans.", "zh": "和平与各族的寻常生活。"},
-        {"en": "A great flood.", "zh": "一场大洪水。"},
-        {"en": "Rule by rogues.", "zh": "泼皮猫的统治。"}
+        {
+          "en": "Constant war.",
+          "zh": "无休止的战争。"
+        },
+        {
+          "en": "Rule by rogues. according to some versions of the story",
+          "zh": "泼皮猫的统治。（按书中另一种说法）"
+        },
+        {
+          "en": "Peace and the normal life of the Clans.",
+          "zh": "和平与各族的寻常生活。"
+        },
+        {
+          "en": "A great flood.",
+          "zh": "一场大洪水。"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "With Ashfur gone, peace returns to the lake and the Clans resume their normal lives.",
         "zh": "灰条离去后，和平重回湖畔，各族恢复了往日的寻常生活。"
@@ -162,10 +270,22 @@
         "zh": "关于流放者与宽恕，各族学到了什么？"
       },
       "options": [
-        {"en": "Exiles should never be allowed back.", "zh": "流放者永远不可回归。"},
-        {"en": "That loyalty and truth matter more than blind obedience, and exiles may be welcomed back.", "zh": "忠诚与真相比盲目服从更重要，流放者也可被重新接纳。"},
-        {"en": "That the Code forbids forgiveness.", "zh": "守则禁止宽恕。"},
-        {"en": "That only leaders can forgive.", "zh": "只有族长才能宽恕。"}
+        {
+          "en": "That the Code forbids forgiveness.",
+          "zh": "守则禁止宽恕。"
+        },
+        {
+          "en": "That loyalty and truth matter more than blind obedience, and exiles may be welcomed back.",
+          "zh": "忠诚与真相比盲目服从更重要，流放者也可被重新接纳。"
+        },
+        {
+          "en": "That only leaders can forgive.",
+          "zh": "只有族长才能宽恕。"
+        },
+        {
+          "en": "Exiles should never be allowed back. according to some versions of the story in an early draft of the book",
+          "zh": "流放者永远不可回归。（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 1,
       "explain": {

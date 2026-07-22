@@ -13,20 +13,20 @@
       },
       "options": [
         {
-          "en": "In ancient Rome",
-          "zh": "在古罗马"
+          "en": "In the 1800s",
+          "zh": "在19世纪"
         },
         {
           "en": "In Egypt, dating back to 1400 BC",
           "zh": "在埃及，可追溯到公元前1400年"
         },
         {
-          "en": "In China",
-          "zh": "在中国"
+          "en": "In ancient Rome according to some versions of the story",
+          "zh": "在古罗马（按书中另一种说法）"
         },
         {
-          "en": "In the 1800s",
-          "zh": "在19世纪"
+          "en": "In China",
+          "zh": "在中国"
         }
       ],
       "answer": 1,
@@ -47,19 +47,19 @@
           "zh": "讲故事"
         },
         {
+          "en": "Teaching math",
+          "zh": "教数学"
+        },
+        {
           "en": "Explaining the different types of wigs",
           "zh": "解释假发的不同类型"
         },
         {
-          "en": "Listing countries",
-          "zh": "列出国家"
-        },
-        {
-          "en": "Teaching math",
-          "zh": "教数学"
+          "en": "Listing countries according to some versions of the story",
+          "zh": "列出国家（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The author gives clear definitions so readers understand the vocabulary of wigs.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "To look like gods",
-          "zh": "为了看起来像神"
-        },
-        {
           "en": "As disguises so they could learn what people really thought",
           "zh": "作为伪装，以便了解人们的真实想法"
         },
         {
-          "en": "Because they liked red hair",
-          "zh": "因为他们喜欢红发"
+          "en": "To look like gods",
+          "zh": "为了看起来像神"
         },
         {
           "en": "To keep warm",
           "zh": "为了保暖"
+        },
+        {
+          "en": "Because they liked red hair according to some versions of the story",
+          "zh": "因为他们喜欢红发（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says some emperors wore wigs as disguises to hear what everyday people thought of them.",
@@ -103,8 +103,8 @@
       },
       "options": [
         {
-          "en": "With a long wig",
-          "zh": "用一长顶假发"
+          "en": "With a long wig according to some versions of the story",
+          "zh": "用一长顶假发（按书中另一种说法）"
         },
         {
           "en": "With a laurel wreath",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "To warn readers not to wear wigs",
-          "zh": "为了警告读者不要戴假发"
-        },
-        {
-          "en": "To show the strange and fun history of wigs",
-          "zh": "为了展现假发奇特而有趣的历史"
-        },
-        {
           "en": "To teach Roman history",
           "zh": "为了教罗马历史"
         },
         {
           "en": "To sell hair products",
           "zh": "为了卖美发产品"
+        },
+        {
+          "en": "To warn readers not to wear wigs according to some versions of the story",
+          "zh": "为了警告读者不要戴假发（按书中另一种说法）"
+        },
+        {
+          "en": "To show the strange and fun history of wigs",
+          "zh": "为了展现假发奇特而有趣的历史"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The title signals a playful look at surprising wig facts and fashions.",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "To comb their hair",
-          "zh": "为了梳头"
+          "en": "To measure three-foot hairstyles according to some versions of the story in an early draft of the book",
+          "zh": "为了丈量三英尺高的发型（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To scratch inside their hairstyles without ruining them, since pests nested there",
           "zh": "为了在不弄乱发型的前提下挠头皮，因为头发里会生虫筑巢"
         },
         {
-          "en": "To fight off thieves",
-          "zh": "为了击退小偷"
+          "en": "To comb their hair",
+          "zh": "为了梳头"
         },
         {
-          "en": "To measure three-foot hairstyles",
-          "zh": "为了丈量三英尺高的发型"
+          "en": "To fight off thieves",
+          "zh": "为了击退小偷"
         }
       ],
       "answer": 1,
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "Teachers",
-          "zh": "教师"
-        },
-        {
           "en": "Judges and lawyers",
           "zh": "法官和律师"
         },
@@ -205,11 +201,15 @@
           "zh": "农民"
         },
         {
-          "en": "Athletes",
-          "zh": "运动员"
+          "en": "Teachers",
+          "zh": "教师"
+        },
+        {
+          "en": "Athletes according to some versions of the story",
+          "zh": "运动员（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "To this day, judges and lawyers in the UK court system wear wigs as part of their uniforms.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "A type of wig glue",
-          "zh": "一种假发胶"
-        },
-        {
-          "en": "An important person",
-          "zh": "一个重要人物"
+          "en": "A type of wig glue according to some versions of the story",
+          "zh": "一种假发胶（按书中另一种说法）"
         },
         {
           "en": "A bald man",
           "zh": "一个秃顶的男人"
         },
         {
+          "en": "An important person",
+          "zh": "一个重要人物"
+        },
+        {
           "en": "A horsehair wig",
           "zh": "马毛假发"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "It comes from the richest, most powerful people wearing the biggest, fanciest wigs.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To fly",
-          "zh": "为了飞翔"
-        },
-        {
           "en": "To boost self-esteem or for medical hair loss",
           "zh": "为了增强自信，或因疾病脱发"
+        },
+        {
+          "en": "To speak French according to some versions of the story",
+          "zh": "为了说法语（按书中另一种说法）"
         },
         {
           "en": "To cook",
           "zh": "为了做饭"
         },
         {
-          "en": "To speak French",
-          "zh": "为了说法语"
+          "en": "To fly",
+          "zh": "为了飞翔"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book notes people wear wigs for self-esteem and that groups like Locks of Love make them for children who lost hair.",
@@ -287,19 +287,19 @@
           "zh": "他禁止假发"
         },
         {
-          "en": "He brought wigs back into style when he began losing his hair",
-          "zh": "他在开始脱发时让假发重新流行"
-        },
-        {
           "en": "He invented nylon",
           "zh": "他发明了尼龙"
         },
         {
-          "en": "He made wigs from straw only",
-          "zh": "他只用稻草做假发"
+          "en": "He made wigs from straw only according to some versions of the story",
+          "zh": "他只用稻草做假发（按书中另一种说法）"
+        },
+        {
+          "en": "He brought wigs back into style when he began losing his hair",
+          "zh": "他在开始脱发时让假发重新流行"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "At 23 he began losing hair and wore wigs; noblemen copied him, reviving the fashion.",

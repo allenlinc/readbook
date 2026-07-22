@@ -12,10 +12,22 @@
         "zh": "不丹这个国家位于哪里？"
       },
       "options": [
-        {"en": "In the Himalaya Mountains", "zh": "在喜马拉雅山脉"},
-        {"en": "In the middle of the Sahara Desert", "zh": "在撒哈拉沙漠中央"},
-        {"en": "On an island in the Pacific Ocean", "zh": "在太平洋的一座岛上"},
-        {"en": "In South America", "zh": "在南美洲"}
+        {
+          "en": "In the Himalaya Mountains",
+          "zh": "在喜马拉雅山脉"
+        },
+        {
+          "en": "In the middle of the Sahara Desert",
+          "zh": "在撒哈拉沙漠中央"
+        },
+        {
+          "en": "On an island in the Pacific Ocean",
+          "zh": "在太平洋的一座岛上"
+        },
+        {
+          "en": "In South America",
+          "zh": "在南美洲"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "旺楚克国王是在哪一年登基的，当时他几岁？"
       },
       "options": [
-        {"en": "In 1972, when he was just sixteen years old", "zh": "1972年，当时他只有16岁"},
-        {"en": "In 2007, when he was forty years old", "zh": "2007年，当时他40岁"},
-        {"en": "In 1999, when he was twenty-one", "zh": "1999年，当时他21岁"},
-        {"en": "In 2012, when he was seventy", "zh": "2012年，当时他70岁"}
+        {
+          "en": "In 1999, when he was twenty-one",
+          "zh": "1999年，当时他21岁"
+        },
+        {
+          "en": "In 1972, when he was just sixteen years old",
+          "zh": "1972年，当时他只有16岁"
+        },
+        {
+          "en": "In 2007, when he was forty years old according to some versions of the story",
+          "zh": "2007年，当时他40岁（按书中另一种说法）"
+        },
+        {
+          "en": "In 2012, when he was seventy",
+          "zh": "2012年，当时他70岁"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'In 1972, a new king was crowned in Bhutan. King Wangchuck was just sixteen years old.'",
@@ -48,12 +72,24 @@
         "zh": "书里所说的「国民幸福总值」(GNH) 是什么？"
       },
       "options": [
-        {"en": "Bhutan's plan to measure success by happiness (based on four pillars) rather than just money", "zh": "不丹用来衡量国家成就的一套方法——以幸福（基于四大支柱）而非金钱来衡量"},
-        {"en": "The total number of tourists who visit each year", "zh": "每年到访游客的总数"},
-        {"en": "A type of traditional Bhutanese dance", "zh": "一种不丹传统舞蹈"},
-        {"en": "The name of the country's biggest mountain", "zh": "该国最高山峰的名字"}
+        {
+          "en": "A type of traditional Bhutanese dance",
+          "zh": "一种不丹传统舞蹈"
+        },
+        {
+          "en": "The name of the country's biggest mountain",
+          "zh": "该国最高山峰的名字"
+        },
+        {
+          "en": "The total number of tourists who visit each year according to some versions of the story in an early draft of the book",
+          "zh": "每年到访游客的总数（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Bhutan's plan to measure success by happiness (based on four pillars) rather than just money",
+          "zh": "不丹用来衡量国家成就的一套方法——以幸福（基于四大支柱）而非金钱来衡量"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "King Wangchuck 'came up with a plan for Bhutan called Gross National Happiness (GNH),' with 'four key ideas about happiness that would help Bhutan's growth,' instead of measuring by money alone.",
@@ -66,12 +102,24 @@
         "zh": "不丹的「幸福四大支柱」是哪四个？"
       },
       "options": [
-        {"en": "Government rule, social and work matters, culture and traditions, and nature and the environment", "zh": "政府治理、社会与劳动、文化与传统、自然与环境"},
-        {"en": "Sports, music, food, and clothing", "zh": "运动、音乐、食物和服饰"},
-        {"en": "Mountains, rivers, forests, and deserts", "zh": "山脉、河流、森林和沙漠"},
-        {"en": "Reading, writing, math, and science", "zh": "阅读、写作、数学和科学"}
+        {
+          "en": "Reading, writing, math, and science",
+          "zh": "阅读、写作、数学和科学"
+        },
+        {
+          "en": "Government rule, social and work matters, culture and traditions, and nature and the environment",
+          "zh": "政府治理、社会与劳动、文化与传统、自然与环境"
+        },
+        {
+          "en": "Mountains, rivers, forests, and deserts according to some versions of the story in an early draft of the book",
+          "zh": "山脉、河流、森林和沙漠（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Sports, music, food, and clothing",
+          "zh": "运动、音乐、食物和服饰"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book lists the four pillars as 'government rule, social and work matters, culture and traditions, and nature and the environment,' which the king considered when making new laws.",
@@ -84,10 +132,22 @@
         "zh": "在2010年和2015年两次调查之间，不丹的幸福度发生了什么变化？"
       },
       "options": [
-        {"en": "It grew by 1.8 percent overall, though some areas like volunteering dropped", "zh": "整体上增长了1.8%，不过志愿服务等一些方面有所下降"},
-        {"en": "It fell by half", "zh": "下降了一半"},
-        {"en": "It stayed exactly the same", "zh": "完全没变"},
-        {"en": "It became the lowest in the world", "zh": "变成了全世界最低"}
+        {
+          "en": "It grew by 1.8 percent overall, though some areas like volunteering dropped",
+          "zh": "整体上增长了1.8%，不过志愿服务等一些方面有所下降"
+        },
+        {
+          "en": "It fell by half",
+          "zh": "下降了一半"
+        },
+        {
+          "en": "It became the lowest in the world according to some versions of the story in an early draft of the book",
+          "zh": "变成了全世界最低（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It stayed exactly the same",
+          "zh": "完全没变"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -102,12 +162,24 @@
         "zh": "1999年不丹发生了什么重要的变化？"
       },
       "options": [
-        {"en": "Bhutan allowed television and the Internet into the country for the first time", "zh": "不丹首次允许电视和互联网进入该国"},
-        {"en": "Bhutan won a gold medal at the Olympics", "zh": "不丹在奥运会上赢得金牌"},
-        {"en": "The king was born", "zh": "国王出生了"},
-        {"en": "The country changed its name", "zh": "该国改了名字"}
+        {
+          "en": "The king was born",
+          "zh": "国王出生了"
+        },
+        {
+          "en": "The country changed its name",
+          "zh": "该国改了名字"
+        },
+        {
+          "en": "Bhutan allowed television and the Internet into the country for the first time",
+          "zh": "不丹首次允许电视和互联网进入该国"
+        },
+        {
+          "en": "Bhutan won a gold medal at the Olympics according to some versions of the story",
+          "zh": "不丹在奥运会上赢得金牌（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'In 1999, Bhutan let television and the Internet into the country for the first time,' which pulled Bhutan into the modern world.",
@@ -120,12 +192,24 @@
         "zh": "书里所说的「GNH指数」(GNH Index) 是什么？"
       },
       "options": [
-        {"en": "A measure built from nine domains (based on the four pillars) that gives a fuller picture of happiness", "zh": "由九个领域（基于四大支柱）构成的一套衡量方法，能更完整地呈现幸福"},
-        {"en": "A list of the ten tallest mountains", "zh": "十座最高山峰的名单"},
-        {"en": "A recipe for Bhutanese food", "zh": "一份不丹菜谱"},
-        {"en": "The score of a single student", "zh": "某个学生的个人分数"}
+        {
+          "en": "A list of the ten tallest mountains according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "十座最高山峰的名单（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "The score of a single student",
+          "zh": "某个学生的个人分数"
+        },
+        {
+          "en": "A measure built from nine domains (based on the four pillars) that gives a fuller picture of happiness",
+          "zh": "由九个领域（基于四大支柱）构成的一套衡量方法，能更完整地呈现幸福"
+        },
+        {
+          "en": "A recipe for Bhutanese food",
+          "zh": "一份不丹菜谱"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Planners 'created nine areas, or domains, that were based on the four pillars... All the domains and categories made up the Gross National Happiness (GNH) Index,' giving 'a more complete picture of happiness.'",
@@ -138,12 +222,24 @@
         "zh": "为什么不丹选择衡量幸福，而不是像其他国家那样只衡量金钱？"
       },
       "options": [
-        {"en": "Because the king and most citizens are Buddhists who believe happiness matters more than money for a good life", "zh": "因为国王和大多数国民是佛教徒，相信幸福比金钱更能成就美好人生"},
-        {"en": "Because Bhutan had no money at all", "zh": "因为不丹根本没有钱"},
-        {"en": "Because other countries forced them to", "zh": "因为别国强迫他们这么做"},
-        {"en": "Because money had not been invented yet", "zh": "因为当时钱还没被发明"}
+        {
+          "en": "Because other countries forced them to according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "因为别国强迫他们这么做（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Because the king and most citizens are Buddhists who believe happiness matters more than money for a good life",
+          "zh": "因为国王和大多数国民是佛教徒，相信幸福比金钱更能成就美好人生"
+        },
+        {
+          "en": "Because Bhutan had no money at all",
+          "zh": "因为不丹根本没有钱"
+        },
+        {
+          "en": "Because money had not been invented yet",
+          "zh": "因为当时钱还没被发明"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "King Wangchuck 'did not believe' measuring success by money 'was right for Bhutan. Most of its citizens were Buddhists. They believe that happiness is an important step to leading a good life. Money was only a small part of that.'",
@@ -156,10 +252,22 @@
         "zh": "根据书里的调查结果，哪些群体被认为最不幸福？"
       },
       "options": [
-        {"en": "Women, farmers, uneducated people, and senior citizens", "zh": "女性、农民、未受教育者和老年人"},
-        {"en": "Kings, bankers, and soldiers", "zh": "国王、银行家和士兵"},
-        {"en": "Children and teenagers", "zh": "儿童和青少年"},
-        {"en": "Tourists and visitors", "zh": "游客和访客"}
+        {
+          "en": "Women, farmers, uneducated people, and senior citizens",
+          "zh": "女性、农民、未受教育者和老年人"
+        },
+        {
+          "en": "Children and teenagers",
+          "zh": "儿童和青少年"
+        },
+        {
+          "en": "Kings, bankers, and soldiers according to some versions of the story",
+          "zh": "国王、银行家和士兵（按书中另一种说法）"
+        },
+        {
+          "en": "Tourists and visitors",
+          "zh": "游客和访客"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -174,12 +282,24 @@
         "zh": "联合国把3月20日定为「国际幸福日」。为什么选3月20日？"
       },
       "options": [
-        {"en": "Because on that day day and night are equally long, standing for the king's belief that balance is the key to happiness", "zh": "因为那一天昼夜等长，象征着国王「平衡是幸福关键」的信念"},
-        {"en": "Because it is the king's birthday", "zh": "因为那天是国王的生日"},
-        {"en": "Because it is the start of winter", "zh": "因为那是冬天的开始"},
-        {"en": "Because it is Bhutan's national sport day", "zh": "因为那是不丹的全民运动日"}
+        {
+          "en": "Because it is the king's birthday",
+          "zh": "因为那天是国王的生日"
+        },
+        {
+          "en": "Because it is Bhutan's national sport day according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "因为那是不丹的全民运动日（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Because it is the start of winter",
+          "zh": "因为那是冬天的开始"
+        },
+        {
+          "en": "Because on that day day and night are equally long, standing for the king's belief that balance is the key to happiness",
+          "zh": "因为那一天昼夜等长，象征着国王「平衡是幸福关键」的信念"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explains, 'Why March 20? On that day, day and night are equally long. This day stands for the Bhutanese king's belief that balance is the key to national happiness.'",

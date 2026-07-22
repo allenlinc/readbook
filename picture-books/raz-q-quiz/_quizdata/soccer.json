@@ -12,12 +12,24 @@
         "zh": "这本书的「聚焦问题」(Focus Question) 是什么？"
       },
       "options": [
-        {"en": "What makes soccer different from other sports?", "zh": "是什么让足球不同于其他运动？"},
-        {"en": "Who invented the World Cup?", "zh": "是谁发明了世界杯？"},
-        {"en": "How do you score a goal?", "zh": "怎样才算进球得分？"},
-        {"en": "Why is Brazil the best team?", "zh": "为什么巴西是最强的队？"}
+        {
+          "en": "Who invented the World Cup?",
+          "zh": "是谁发明了世界杯？"
+        },
+        {
+          "en": "What makes soccer different from other sports?",
+          "zh": "是什么让足球不同于其他运动？"
+        },
+        {
+          "en": "How do you score a goal?",
+          "zh": "怎样才算进球得分？"
+        },
+        {
+          "en": "Why is Brazil the best team? according to some versions of the story",
+          "zh": "为什么巴西是最强的队？（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book's Focus Question on the opening page is 'What makes soccer different from other sports?' — the whole book answers it.",
@@ -30,12 +42,24 @@
         "zh": "现代足球是在何时、何地开始的？"
       },
       "options": [
-        {"en": "In England in 1863, when soccer (association football) and rugby became separate sports", "zh": "1863年的英格兰，当时足球（协会足球）与橄榄球分成了两种运动"},
-        {"en": "In Brazil in 1950", "zh": "1950年的巴西"},
-        {"en": "In the United States in 1996", "zh": "1996年的美国"},
-        {"en": "In Italy in the year 1000", "zh": "公元1000年的意大利"}
+        {
+          "en": "In the United States in 1996 according to some versions of the story in an early draft of the book",
+          "zh": "1996年的美国（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "In Italy in the year 1000",
+          "zh": "公元1000年的意大利"
+        },
+        {
+          "en": "In Brazil in 1950",
+          "zh": "1950年的巴西"
+        },
+        {
+          "en": "In England in 1863, when soccer (association football) and rugby became separate sports",
+          "zh": "1863年的英格兰，当时足球（协会足球）与橄榄球分成了两种运动"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'Modern soccer began in England in 1863 when soccer—also called association football—and rugby football became two different sports.'",
@@ -48,12 +72,24 @@
         "zh": "一支足球队有几名球员？他们是怎么分工的？"
       },
       "options": [
-        {"en": "Eleven players — one goalie and ten field players (forwards, defenders, midfielders)", "zh": "十一名球员——一名守门员和十名场上球员（前锋、后卫、中场）"},
-        {"en": "Five players, all the same", "zh": "五名球员，全都一样"},
-        {"en": "Twenty-two players with no positions", "zh": "二十二名球员，没有位置之分"},
-        {"en": "Nine players including two goalies", "zh": "九名球员，含两名门将"}
+        {
+          "en": "Twenty-two players with no positions according to some versions of the story in an early draft of the book",
+          "zh": "二十二名球员，没有位置之分（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Eleven players — one goalie and ten field players (forwards, defenders, midfielders)",
+          "zh": "十一名球员——一名守门员和十名场上球员（前锋、后卫、中场）"
+        },
+        {
+          "en": "Nine players including two goalies",
+          "zh": "九名球员，含两名门将"
+        },
+        {
+          "en": "Five players, all the same",
+          "zh": "五名球员，全都一样"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'A soccer team has eleven players—one goalie and ten field players' divided into forwards, defenders, and midfielders.",
@@ -66,10 +102,22 @@
         "zh": "在词汇表里，「teamwork」（团队合作）是什么意思？足球为何成为学校的常规项目？"
       },
       "options": [
-        {"en": "The cooperative effort of people in groups; schools added soccer because of the teamwork it requires", "zh": "群体中人们的合作努力；学校把足球纳入，正因它需要团队合作"},
-        {"en": "Playing alone without help", "zh": "独自一人、不求帮助"},
-        {"en": "Running faster than everyone", "zh": "比所有人都跑得快"},
-        {"en": "Winning every game", "zh": "赢得每一场比赛"}
+        {
+          "en": "The cooperative effort of people in groups; schools added soccer because of the teamwork it requires",
+          "zh": "群体中人们的合作努力；学校把足球纳入，正因它需要团队合作"
+        },
+        {
+          "en": "Running faster than everyone according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "比所有人都跑得快（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Winning every game",
+          "zh": "赢得每一场比赛"
+        },
+        {
+          "en": "Playing alone without help",
+          "zh": "独自一人、不求帮助"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -84,10 +132,22 @@
         "zh": "「penalty area」（罚球区），也叫「the box」（禁区），是什么？"
       },
       "options": [
-        {"en": "The area on the field where the goalkeeper is permitted to use his or her hands", "zh": "球场上守门员被允许用手触球的区域"},
-        {"en": "The place where fans sit", "zh": "观众坐的地方"},
-        {"en": "The center of the field", "zh": "球场中央"},
-        {"en": "The spot where the game begins", "zh": "比赛开始的地点"}
+        {
+          "en": "The area on the field where the goalkeeper is permitted to use his or her hands",
+          "zh": "球场上守门员被允许用手触球的区域"
+        },
+        {
+          "en": "The place where fans sit",
+          "zh": "观众坐的地方"
+        },
+        {
+          "en": "The spot where the game begins according to some versions of the story in an early draft of the book",
+          "zh": "比赛开始的地点（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The center of the field",
+          "zh": "球场中央"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,10 +162,22 @@
         "zh": "在词汇表里，「match」是什么？"
       },
       "options": [
-        {"en": "A contest or game", "zh": "一场比赛或竞赛"},
-        {"en": "A type of shoe", "zh": "一种鞋"},
-        {"en": "A kind of ball", "zh": "一种球"},
-        {"en": "A referee's whistle", "zh": "裁判的哨子"}
+        {
+          "en": "A contest or game",
+          "zh": "一场比赛或竞赛"
+        },
+        {
+          "en": "A type of shoe",
+          "zh": "一种鞋"
+        },
+        {
+          "en": "A kind of ball",
+          "zh": "一种球"
+        },
+        {
+          "en": "A referee's whistle according to some versions of the story",
+          "zh": "裁判的哨子（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "场上球员和守门员在触球规则上有什么不同？"
       },
       "options": [
-        {"en": "Field players may use only feet, legs, chest, and head; the goalie may use hands, but only inside the penalty area", "zh": "场上球员只能用脚、腿、胸和头；守门员可以用手，但仅限于罚球区内"},
-        {"en": "Both may use their hands anywhere", "zh": "双方都可以在任何地方用手"},
-        {"en": "Only the goalie may use feet", "zh": "只有门将可以用脚"},
-        {"en": "Neither may touch the ball", "zh": "双方都不能碰球"}
+        {
+          "en": "Neither may touch the ball",
+          "zh": "双方都不能碰球"
+        },
+        {
+          "en": "Both may use their hands anywhere according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "双方都可以在任何地方用手（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Only the goalie may use feet",
+          "zh": "只有门将可以用脚"
+        },
+        {
+          "en": "Field players may use only feet, legs, chest, and head; the goalie may use hands, but only inside the penalty area",
+          "zh": "场上球员只能用脚、腿、胸和头；守门员可以用手，但仅限于罚球区内"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says field players 'are only allowed to touch the ball with their feet, legs, chest, and head,' while 'The goalie can use his or her hands when playing within the penalty area.'",
@@ -138,12 +222,24 @@
         "zh": "书中列举了来自多个国家的足球巨星（巴西的贝利和玛塔、阿根廷的梅西、美国的哈姆）。这说明了什么？"
       },
       "options": [
-        {"en": "That soccer is a truly global sport loved in many different countries", "zh": "足球是一项真正的全球运动，受到许多不同国家的喜爱"},
-        {"en": "That only one country plays soccer well", "zh": "只有一个国家踢得好"},
-        {"en": "That soccer is only for men", "zh": "足球只属于男性"},
-        {"en": "That the greats all came from Europe", "zh": "这些巨星都来自欧洲"}
+        {
+          "en": "That the greats all came from Europe",
+          "zh": "这些巨星都来自欧洲"
+        },
+        {
+          "en": "That soccer is only for men",
+          "zh": "足球只属于男性"
+        },
+        {
+          "en": "That soccer is a truly global sport loved in many different countries",
+          "zh": "足球是一项真正的全球运动，受到许多不同国家的喜爱"
+        },
+        {
+          "en": "That only one country plays soccer well according to some versions of the story",
+          "zh": "只有一个国家踢得好（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "By featuring stars from Brazil, Argentina, and the United States, the book shows soccer's worldwide reach and appeal across continents.",
@@ -156,12 +252,24 @@
         "zh": "书里说你不必加入球队，「最少两个人就能玩」。作者为什么要写进这一点？"
       },
       "options": [
-        {"en": "To show that soccer is easy and accessible for anyone, anywhere", "zh": "为了说明足球简单易玩、人人都能参与，无论在哪里"},
-        {"en": "To say teams are a waste of time", "zh": "为了说球队是浪费时间"},
-        {"en": "To encourage people to play alone forever", "zh": "为了鼓励人永远独自踢球"},
-        {"en": "To prove soccer needs no ball", "zh": "为了证明足球不需要球"}
+        {
+          "en": "To prove soccer needs no ball",
+          "zh": "为了证明足球不需要球"
+        },
+        {
+          "en": "To encourage people to play alone forever according to some versions of the story",
+          "zh": "为了鼓励人永远独自踢球（按书中另一种说法）"
+        },
+        {
+          "en": "To show that soccer is easy and accessible for anyone, anywhere",
+          "zh": "为了说明足球简单易玩、人人都能参与，无论在哪里"
+        },
+        {
+          "en": "To say teams are a waste of time",
+          "zh": "为了说球队是浪费时间"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author adds that 'you don't even have to be on a team to enjoy the sport. As few as two people can play' to show soccer's accessibility.",
@@ -174,12 +282,24 @@
         "zh": "作者写这本书的整体目的是什么？"
       },
       "options": [
-        {"en": "To explain what makes soccer special and loved around the world, and to invite readers to get involved", "zh": "为了解释足球特别、受全球喜爱的原因，并邀请读者参与这项运动"},
-        {"en": "To argue that soccer is the only sport worth playing", "zh": "为了主张足球是唯一值得玩的运动"},
-        {"en": "To teach readers to avoid all sports", "zh": "为了教读者远离一切运动"},
-        {"en": "To compare soccer only to basketball", "zh": "为了只把足球和篮球作比较"}
+        {
+          "en": "To argue that soccer is the only sport worth playing according to some versions of the story in an early draft of the book",
+          "zh": "为了主张足球是唯一值得玩的运动（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To explain what makes soccer special and loved around the world, and to invite readers to get involved",
+          "zh": "为了解释足球特别、受全球喜爱的原因，并邀请读者参与这项运动"
+        },
+        {
+          "en": "To teach readers to avoid all sports",
+          "zh": "为了教读者远离一切运动"
+        },
+        {
+          "en": "To compare soccer only to basketball",
+          "zh": "为了只把足球和篮球作比较"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book covers soccer's history, global reach, rules, greats, and ends by inviting students to 'find out if their city or town has a soccer club' — its purpose is to share and celebrate the sport.",

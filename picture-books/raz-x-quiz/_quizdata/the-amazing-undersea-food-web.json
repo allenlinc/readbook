@@ -17,16 +17,16 @@
           "zh": "一种捕食鲭鱼、鲱鱼等小鱼的大鱼。"
         },
         {
-          "en": "A microscopic animal such as krill that eats other sea creatures.",
-          "zh": "像磷虾一样以其他海洋生物为食的微小动物。"
+          "en": "A coral-reef animal that catches zooplankton with stinging tentacles. according to some versions of the story in an early draft of the book",
+          "zh": "用带刺触手捕捉浮游动物的珊瑚礁动物。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Tiny algae that float near the surface, make their own food by photosynthesis, and form the center of the ocean's food web.",
           "zh": "漂浮在表层、通过光合作用自养、并构成海洋食物链核心的微小藻类。"
         },
         {
-          "en": "A coral-reef animal that catches zooplankton with stinging tentacles.",
-          "zh": "用带刺触手捕捉浮游动物的珊瑚礁动物。"
+          "en": "A microscopic animal such as krill that eats other sea creatures.",
+          "zh": "像磷虾一样以其他海洋生物为食的微小动物。"
         }
       ],
       "answer": 2,
@@ -43,20 +43,20 @@
       },
       "options": [
         {
-          "en": "100 kilograms of phytoplankton.",
-          "zh": "100 千克浮游植物。"
+          "en": "1,000 kilograms of phytoplankton. according to some versions of the story",
+          "zh": "1,000 千克浮游植物。（按书中另一种说法）"
         },
         {
-          "en": "1,000 kilograms of phytoplankton.",
-          "zh": "1,000 千克浮游植物。"
+          "en": "10 kilograms of phytoplankton.",
+          "zh": "10 千克浮游植物。"
         },
         {
           "en": "10,000 kilograms of phytoplankton.",
           "zh": "10,000 千克浮游植物。"
         },
         {
-          "en": "10 kilograms of phytoplankton.",
-          "zh": "10 千克浮游植物。"
+          "en": "100 kilograms of phytoplankton.",
+          "zh": "100 千克浮游植物。"
         }
       ],
       "answer": 2,
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "About 1,000 meters (3,280 ft).",
-          "zh": "约 1,000 米（3,280 英尺）。"
-        },
-        {
           "en": "About 200 meters (660 ft).",
           "zh": "约 200 米（660 英尺）。"
         },
@@ -85,11 +81,15 @@
           "zh": "约 5,000 米（16,404 英尺）。"
         },
         {
+          "en": "About 1,000 meters (3,280 ft).",
+          "zh": "约 1,000 米（3,280 英尺）。"
+        },
+        {
           "en": "About 10,000 meters (32,808 ft).",
           "zh": "约 10,000 米（32,808 英尺）。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the euphotic zone extends about 200 meters down from the surface and contains most of the ocean's animal species.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Coral reef animals such as angelfish and sharks.",
-          "zh": "神仙鱼、鲨鱼等珊瑚礁动物。"
-        },
-        {
           "en": "Phytoplankton photosynthesis.",
           "zh": "浮游植物的光合作用。"
         },
         {
-          "en": "Giant squid living in the twilight zone.",
-          "zh": "生活在微光带的巨型乌贼。"
-        },
-        {
           "en": "Zooplankton such as krill and larvae.",
           "zh": "磷虾、幼虫等浮游动物。"
+        },
+        {
+          "en": "Coral reef animals such as angelfish and sharks.",
+          "zh": "神仙鱼、鲨鱼等珊瑚礁动物。"
+        },
+        {
+          "en": "Giant squid living in the twilight zone.",
+          "zh": "生活在微光带的巨型乌贼。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says phytoplankton photosynthesis provides the Earth's atmosphere with more than half of its oxygen.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Bioluminescence, a biochemical process like the one in fireflies.",
-          "zh": "生物发光，一种与萤火虫相同的生化过程。"
-        },
-        {
-          "en": "Photosynthesis using chlorophyll from the Sun.",
-          "zh": "利用来自太阳的叶绿素进行光合作用。"
-        },
-        {
           "en": "Marine snow drifting down from above.",
           "zh": "从上方飘落的'海洋雪'。"
         },
         {
           "en": "The hot water released by chimney openings.",
           "zh": "烟囱状开口释放的热水。"
+        },
+        {
+          "en": "Photosynthesis using chlorophyll from the Sun. according to some versions of the story",
+          "zh": "利用来自太阳的叶绿素进行光合作用。（按书中另一种说法）"
+        },
+        {
+          "en": "Bioluminescence, a biochemical process like the one in fireflies.",
+          "zh": "生物发光，一种与萤火虫相同的生化过程。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains bioluminescence is the same process that makes light in fireflies, and many midnight-zone animals glow this way.",
@@ -167,19 +167,19 @@
           "zh": "从天空飘落到海面的真正的雪。"
         },
         {
-          "en": "Polluted water dumped by human activity near coral reefs.",
-          "zh": "人类活动在珊瑚礁附近排入的污染水。"
-        },
-        {
-          "en": "Dead phytoplankton and zooplankton drifting slowly down like snow.",
-          "zh": "死亡的浮游植物和浮游动物像雪一样缓缓下沉。"
+          "en": "Polluted water dumped by human activity near coral reefs. according to some versions of the story",
+          "zh": "人类活动在珊瑚礁附近排入的污染水。（按书中另一种说法）"
         },
         {
           "en": "Tiny pieces of broken coral crushed by divers and boats.",
           "zh": "被潜水者和船只压碎的珊瑚碎片。"
+        },
+        {
+          "en": "Dead phytoplankton and zooplankton drifting slowly down like snow.",
+          "zh": "死亡的浮游植物和浮游动物像雪一样缓缓下沉。"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book calls marine snow 'a nice name for dead phytoplankton and zooplankton' that drift down through the ocean layers like snow.",
@@ -205,8 +205,8 @@
           "zh": "它们提供阳光，使植物能在海沟底部生长。"
         },
         {
-          "en": "They create strong upward currents that push fish to the surface.",
-          "zh": "它们形成向上的强水流，把鱼推到海面。"
+          "en": "They create strong upward currents that push fish to the surface. according to some versions of the story in an early draft of the book",
+          "zh": "它们形成向上的强水流，把鱼推到海面。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,
@@ -227,19 +227,19 @@
           "zh": "包含海洋几乎全部生命的海洋顶层。"
         },
         {
-          "en": "The middle ocean zone that receives very little sunlight.",
-          "zh": "只能接收到极少阳光的海洋中层。"
-        },
-        {
           "en": "The bottom ocean zone that receives no sunlight.",
           "zh": "接收不到阳光的海洋底层。"
+        },
+        {
+          "en": "The middle ocean zone that receives very little sunlight.",
+          "zh": "只能接收到极少阳光的海洋中层。"
         },
         {
           "en": "A narrow strip of land connecting two larger landmasses.",
           "zh": "连接两块较大陆地的狭长地带。"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'aphotic zone' as the bottom ocean zone, which receives no sunlight.",
@@ -257,16 +257,16 @@
           "zh": "向读者说明海底食物链如何把海洋四个区域中的生物连接起来。"
         },
         {
-          "en": "To convince readers to stop eating seafood such as tuna and salmon.",
-          "zh": "劝说读者停止食用金枪鱼、三文鱼等海鲜。"
-        },
-        {
           "en": "To tell a made-up adventure story about a talking fish.",
           "zh": "讲述一个会说话的鱼的虚构冒险故事。"
         },
         {
           "en": "To teach readers how to build a home aquarium.",
           "zh": "教读者如何建造家庭水族箱。"
+        },
+        {
+          "en": "To convince readers to stop eating seafood such as tuna and salmon. according to some versions of the story",
+          "zh": "劝说读者停止食用金枪鱼、三文鱼等海鲜。（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -283,8 +283,8 @@
       },
       "options": [
         {
-          "en": "They are built by phytoplankton using chlorophyll in deep ocean trenches.",
-          "zh": "它们由浮游植物利用叶绿素在深海沟中建造。"
+          "en": "They are built by phytoplankton using chlorophyll in deep ocean trenches. according to some versions of the story",
+          "zh": "它们由浮游植物利用叶绿素在深海沟中建造。（按书中另一种说法）"
         },
         {
           "en": "They are formed by the skeletons of coral polyps and provide shelter for young ocean creatures.",

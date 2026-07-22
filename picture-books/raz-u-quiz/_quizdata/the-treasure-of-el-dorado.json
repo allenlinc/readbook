@@ -12,12 +12,24 @@
         "zh": "安德烈的研究探险队前往哪里进行探索？"
       },
       "options": [
-        {"en": "Lake Guatavita in Colombia", "zh": "哥伦比亚的瓜塔维塔湖"},
-        {"en": "Machu Picchu in Peru", "zh": "秘鲁的马丘比丘"},
-        {"en": "The Nile River in Egypt", "zh": "埃及的尼罗河"},
-        {"en": "The Amazon in Brazil", "zh": "巴西的亚马逊"}
+        {
+          "en": "The Amazon in Brazil",
+          "zh": "巴西的亚马逊"
+        },
+        {
+          "en": "Lake Guatavita in Colombia",
+          "zh": "哥伦比亚的瓜塔维塔湖"
+        },
+        {
+          "en": "The Nile River in Egypt according to some versions of the story",
+          "zh": "埃及的尼罗河（按书中另一种说法）"
+        },
+        {
+          "en": "Machu Picchu in Peru",
+          "zh": "秘鲁的马丘比丘"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Andre's blog says he is going on an expedition to Colombia to explore Lake Guatavita, looking for Muisca artifacts.",
@@ -30,10 +42,22 @@
         "zh": "探险队用来水下探索的机器人叫什么、属于什么类型？"
       },
       "options": [
-        {"en": "Jacques, a sonar- and video-equipped underwater drone", "zh": "雅克，一台配备声纳和摄像头的无人水下机器人"},
-        {"en": "A helicopter called Eagle", "zh": "一架名为“鹰”的直升机"},
-        {"en": "A submarine named Titanic", "zh": "一艘名为“泰坦尼克”的潜艇"},
-        {"en": "A walking robot called Rover", "zh": "一个名叫“漫游者”的步行机器人"}
+        {
+          "en": "Jacques, a sonar- and video-equipped underwater drone",
+          "zh": "雅克，一台配备声纳和摄像头的无人水下机器人"
+        },
+        {
+          "en": "A walking robot called Rover according to some versions of the story",
+          "zh": "一个名叫“漫游者”的步行机器人（按书中另一种说法）"
+        },
+        {
+          "en": "A submarine named Titanic",
+          "zh": "一艘名为“泰坦尼克”的潜艇"
+        },
+        {
+          "en": "A helicopter called Eagle",
+          "zh": "一架名为“鹰”的直升机"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "根据传说，穆伊斯卡国王是如何对待黄金的？"
       },
       "options": [
-        {"en": "Buried it in a cave", "zh": "把它埋在山洞里"},
-        {"en": "Covered his body with gold and rinsed himself in the lake", "zh": "用黄金覆盖全身并在湖中沐浴冲洗"},
-        {"en": "Sold it to explorers", "zh": "把它卖给探险家"},
-        {"en": "Melted it into coins", "zh": "把它熔铸成硬币"}
+        {
+          "en": "Covered his body with gold and rinsed himself in the lake",
+          "zh": "用黄金覆盖全身并在湖中沐浴冲洗"
+        },
+        {
+          "en": "Sold it to explorers according to some versions of the story",
+          "zh": "把它卖给探险家（按书中另一种说法）"
+        },
+        {
+          "en": "Buried it in a cave",
+          "zh": "把它埋在山洞里"
+        },
+        {
+          "en": "Melted it into coins",
+          "zh": "把它熔铸成硬币"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the king would cover his body with gold and jewels and then rinse himself in Lake Guatavita.",
@@ -66,10 +102,22 @@
         "zh": "在美洲豹小雕像里发现的纸条是由谁签名的？"
       },
       "options": [
-        {"en": "Professor Kat", "zh": "凯特教授"},
-        {"en": "Mario Fernandez, on June 22, 1954", "zh": "马里奥·费尔南德斯，1954年6月22日"},
-        {"en": "Jamie", "zh": "杰米"},
-        {"en": "A Spanish conquistador", "zh": "一位西班牙征服者"}
+        {
+          "en": "A Spanish conquistador according to some versions of the story",
+          "zh": "一位西班牙征服者（按书中另一种说法）"
+        },
+        {
+          "en": "Mario Fernandez, on June 22, 1954",
+          "zh": "马里奥·费尔南德斯，1954年6月22日"
+        },
+        {
+          "en": "Professor Kat",
+          "zh": "凯特教授"
+        },
+        {
+          "en": "Jamie",
+          "zh": "杰米"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "根据安德烈的藏宝图指引，满月会在什么时候升起在火山口的“锁眼”处？"
       },
       "options": [
-        {"en": "On the longest night of the year", "zh": "在一年中最长的夜晚"},
-        {"en": "On the brightest day, with the shortest night", "zh": "在最明亮的白天、夜晚最短之时"},
-        {"en": "During a solar eclipse", "zh": "在一次日食期间"},
-        {"en": "At high noon", "zh": "在正午时分"}
+        {
+          "en": "On the longest night of the year according to some versions of the story",
+          "zh": "在一年中最长的夜晚（按书中另一种说法）"
+        },
+        {
+          "en": "During a solar eclipse",
+          "zh": "在一次日食期间"
+        },
+        {
+          "en": "On the brightest day, with the shortest night",
+          "zh": "在最明亮的白天、夜晚最短之时"
+        },
+        {
+          "en": "At high noon",
+          "zh": "在正午时分"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The guide says: 'On the brightest day, with the shortest night, the full moon will rise in the keyhole of the crater.'",
@@ -102,12 +162,24 @@
         "zh": "什么线索表明这只美洲豹小雕像并非古代穆伊斯卡人所造？"
       },
       "options": [
-        {"en": "It was made of gold", "zh": "它是用黄金制成的"},
-        {"en": "It had a metal tube with a screw cap, which the Muisca did not have", "zh": "它有一个带螺旋盖的金属管，而穆伊斯卡人并没有这种东西"},
-        {"en": "It was too heavy", "zh": "它太重了"},
-        {"en": "It was found on land", "zh": "它是在陆地上被发现的"}
+        {
+          "en": "It was found on land according to some versions of the story in an early draft of the book",
+          "zh": "它是在陆地上被发现的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It was made of gold",
+          "zh": "它是用黄金制成的"
+        },
+        {
+          "en": "It was too heavy",
+          "zh": "它太重了"
+        },
+        {
+          "en": "It had a metal tube with a screw cap, which the Muisca did not have",
+          "zh": "它有一个带螺旋盖的金属管，而穆伊斯卡人并没有这种东西"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Andre notices the metal tube has a screw cap and thinks the Muisca did not have those, showing it was not ancient.",
@@ -120,12 +192,24 @@
         "zh": "在故事中，夏至与满月同时发生大约多久一次？"
       },
       "options": [
-        {"en": "Every year", "zh": "每年"},
-        {"en": "Almost every 75 years", "zh": "几乎每75年一次"},
-        {"en": "Never", "zh": "从未发生"},
-        {"en": "Every decade", "zh": "每十年"}
+        {
+          "en": "Every year",
+          "zh": "每年"
+        },
+        {
+          "en": "Never",
+          "zh": "从未发生"
+        },
+        {
+          "en": "Every decade according to some versions of the story",
+          "zh": "每十年（按书中另一种说法）"
+        },
+        {
+          "en": "Almost every 75 years",
+          "zh": "几乎每75年一次"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Andre says tomorrow night's solstice and full moon together hasn't happened for almost seventy-five years.",
@@ -138,12 +222,24 @@
         "zh": "焦点问题说安德烈找到了两种宝藏。它们分别是什么？"
       },
       "options": [
-        {"en": "Gold coins and silver bars", "zh": "金币和银条"},
-        {"en": "The Muisca artifact and the family memory with his grandfather", "zh": "穆伊斯卡的文物，以及与祖父之间的家庭记忆"},
-        {"en": "A map and a boat", "zh": "一张地图和一艘船"},
-        {"en": "The robot Jacques and a camera", "zh": "机器人雅克和一台摄像机"}
+        {
+          "en": "The Muisca artifact and the family memory with his grandfather",
+          "zh": "穆伊斯卡的文物，以及与祖父之间的家庭记忆"
+        },
+        {
+          "en": "The robot Jacques and a camera according to some versions of the story",
+          "zh": "机器人雅克和一台摄像机（按书中另一种说法）"
+        },
+        {
+          "en": "A map and a boat",
+          "zh": "一张地图和一艘船"
+        },
+        {
+          "en": "Gold coins and silver bars",
+          "zh": "金币和银条"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Andre finds a real Muisca jaguar treasure, but the deeper treasure is the family connection to his grandfather Abuelo.",
@@ -156,10 +252,22 @@
         "zh": "阿布埃洛为什么把自己的宝藏沉入瓜塔维塔湖？"
       },
       "options": [
-        {"en": "To hide it from thieves", "zh": "为了躲避盗贼"},
-        {"en": "Like his ancestors, to return it to the lake", "zh": "像祖先一样，把它归还给湖泊"},
-        {"en": "Because he hated gold", "zh": "因为他讨厌黄金"},
-        {"en": "So he could sell it later", "zh": "以便日后出售"}
+        {
+          "en": "To hide it from thieves",
+          "zh": "为了躲避盗贼"
+        },
+        {
+          "en": "Like his ancestors, to return it to the lake",
+          "zh": "像祖先一样，把它归还给湖泊"
+        },
+        {
+          "en": "So he could sell it later according to some versions of the story",
+          "zh": "以便日后出售（按书中另一种说法）"
+        },
+        {
+          "en": "Because he hated gold",
+          "zh": "因为他讨厌黄金"
+        }
       ],
       "answer": 1,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "到故事结尾，阿布埃洛所说的“最伟大的宝藏”真正代表的是什么？"
       },
       "options": [
-        {"en": "The gold itself", "zh": "黄金本身"},
-        {"en": "The connection to his family and people, passed down through generations", "zh": "与家族和族人之间的纽带，代代相传"},
-        {"en": "The treasure map", "zh": "那张藏宝图"},
-        {"en": "The robot Jacques", "zh": "机器人雅克"}
+        {
+          "en": "The treasure map",
+          "zh": "那张藏宝图"
+        },
+        {
+          "en": "The gold itself",
+          "zh": "黄金本身"
+        },
+        {
+          "en": "The connection to his family and people, passed down through generations",
+          "zh": "与家族和族人之间的纽带，代代相传"
+        },
+        {
+          "en": "The robot Jacques according to some versions of the story in an early draft of the book",
+          "zh": "机器人雅克（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Abuelo calls it a reminder of how rich their people once were and passes it to Andre as 'our treasure,' showing its true value is heritage and family.",

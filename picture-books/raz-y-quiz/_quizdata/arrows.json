@@ -1,328 +1,328 @@
 {
- "slug": "arrows",
- "title": "Arrows",
- "titleZh": "箭头",
- "level": "Y",
- "genre": "Fiction",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "Who discovers the first mysterious arrow in the forest?",
-    "zh": "是谁在森林里发现了第一个神秘的箭头？"
-   },
-   "options": [
+  "slug": "arrows",
+  "title": "Arrows",
+  "titleZh": "箭头",
+  "level": "Y",
+  "genre": "Fiction",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "Papa, her grandfather",
-     "zh": "她的祖父Papa"
+      "q": {
+        "en": "Who discovers the first mysterious arrow in the forest?",
+        "zh": "是谁在森林里发现了第一个神秘的箭头？"
+      },
+      "options": [
+        {
+          "en": "Poloma, a young girl",
+          "zh": "小女孩波洛玛（Poloma）"
+        },
+        {
+          "en": "A Civil War spy",
+          "zh": "一名内战间谍"
+        },
+        {
+          "en": "Papa, her grandfather according to some versions of the story",
+          "zh": "她的祖父Papa（按书中另一种说法）"
+        },
+        {
+          "en": "A Choctaw soldier",
+          "zh": "一名乔克托士兵"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Poloma finds the first carved arrow on a moss-covered boulder while chasing her bouncing ball.",
+        "zh": "波洛玛在追弹跳的球时，在一块长满青苔的巨石上发现了第一个刻下的箭头。"
+      }
     },
     {
-     "en": "Poloma, a young girl",
-     "zh": "小女孩波洛玛（Poloma）"
+      "q": {
+        "en": "What is Poloma's grandfather's background related to codes?",
+        "zh": "波洛玛的祖父在与密码相关的方面有什么背景？"
+      },
+      "options": [
+        {
+          "en": "He was a school teacher who hated codes according to some versions of the story",
+          "zh": "他是一名讨厌密码的学校教师（按书中另一种说法）"
+        },
+        {
+          "en": "He invented the computer",
+          "zh": "他发明了计算机"
+        },
+        {
+          "en": "He was a Choctaw Code Talker decorated for cryptography in WWII",
+          "zh": "他是一名在二战中因密码工作而获勋的乔克托密码通讯兵"
+        },
+        {
+          "en": "He was a professional baseball player",
+          "zh": "他曾是职业棍球运动员"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Papa was a WWII Choctaw Code Talker who used his native language as a secret code and was decorated for cryptography work.",
+        "zh": "Papa是二战中的乔克托密码通讯兵，用本族语言作密码，并因密码工作获勋。"
+      }
     },
     {
-     "en": "A Choctaw soldier",
-     "zh": "一名乔克托士兵"
+      "q": {
+        "en": "After decoding the cipher, what message do the carved letters spell?",
+        "zh": "破译密码后，那些刻下的字母拼出了什么信息？"
+      },
+      "options": [
+        {
+          "en": "Follow the Drinking Gourd",
+          "zh": "跟着“饮水瓢”（北斗七星）走"
+        },
+        {
+          "en": "Beware the British",
+          "zh": "当心英国人"
+        },
+        {
+          "en": "Go South Young Man according to some versions of the story",
+          "zh": "年轻人，去南方（按书中另一种说法）"
+        },
+        {
+          "en": "Attack at Dawn",
+          "zh": "黎明时分进攻"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Using the advance cipher (shift each letter back one), 'gpmmpx uif esjoljoh hpvse' decodes to 'Follow the Drinking Gourd.'",
+        "zh": "用推进密码（每个字母回移一位），“gpmmpx uif esjoljoh hpvse”破译为“Follow the Drinking Gourd（跟着饮水瓢走）”。"
+      }
     },
     {
-     "en": "A Civil War spy",
-     "zh": "一名内战间谍"
+      "q": {
+        "en": "In the story, what does 'the Drinking Gourd' refer to?",
+        "zh": "在故事中，“饮水瓢（Drinking Gourd）”指的是什么？"
+      },
+      "options": [
+        {
+          "en": "The Big Dipper constellation that points north",
+          "zh": "指向北方的北斗七星（大熊座）星座"
+        },
+        {
+          "en": "A real metal cup used by soldiers according to some versions of the story",
+          "zh": "士兵使用的一种真实金属杯（按书中另一种说法）"
+        },
+        {
+          "en": "A secret password",
+          "zh": "一个秘密口令"
+        },
+        {
+          "en": "A type of tree in the forest",
+          "zh": "森林里的一种树"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The Drinking Gourd is the Big Dipper, a constellation in the northern sky that escaping slaves followed northward.",
+        "zh": "“饮水瓢”指北斗七星，是出现在北方天空的星座，逃亡奴隶凭倒它向北前行。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the coded message, 'uif' stands for 'the.' Each letter is shifted one place in the alphabet. What type of code is this?",
+        "zh": "在密码信息中，“uif”代表“the”。每个字母在字母表中移动了一位。这是一种什么类型的密码？"
+      },
+      "options": [
+        {
+          "en": "A mathematical equation",
+          "zh": "数学方程式"
+        },
+        {
+          "en": "A musical notation",
+          "zh": "音乐记谱法"
+        },
+        {
+          "en": "A substitution cipher",
+          "zh": "替换密码"
+        },
+        {
+          "en": "A sign language",
+          "zh": "手语"
+        }
+      ],
+      "answer": 2,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "A cipher that replaces each letter with another letter is a substitution cipher, like the advance cipher in the story.",
+        "zh": "把每个字母替换成另一个字母的密码就是替换密码，正如故事中的推进密码。"
+      }
+    },
+    {
+      "q": {
+        "en": "From whose point of view is the story mainly told?",
+        "zh": "这个故事主要是从谁的视角叙述的？"
+      },
+      "options": [
+        {
+          "en": "King George III",
+          "zh": "乔治三世国王"
+        },
+        {
+          "en": "An outside narrator focusing on Poloma's experiences",
+          "zh": "聚焦波洛玛经历的第三人称叙述者"
+        },
+        {
+          "en": "The Drinking Gourd itself according to some versions of the story",
+          "zh": "“饮水瓢”本身（按书中另一种说法）"
+        },
+        {
+          "en": "A Civil War general",
+          "zh": "一名内战将军"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The story is told by a third-person narrator who follows Poloma and her grandfather as they discover and decode the arrows.",
+        "zh": "故事由第三人称叙述者讲述，跟随波洛玛和祖父发现并破译箭头的过程。"
+      }
+    },
+    {
+      "q": {
+        "en": "The story connects the carved arrows and cipher to which historical event?",
+        "zh": "这个故事将刻下的箭头和密码与哪一历史事件联系起来？"
+      },
+      "options": [
+        {
+          "en": "World War II in Europe",
+          "zh": "欧洲第二次世界大战"
+        },
+        {
+          "en": "The invention of basketball according to some versions of the story",
+          "zh": "篮球的发明（按书中另一种说法）"
+        },
+        {
+          "en": "The American Revolution",
+          "zh": "美国独立战争"
+        },
+        {
+          "en": "The Civil War and the Underground Railroad",
+          "zh": "美国内战与“地下铁路”"
+        }
+      ],
+      "answer": 3,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Papa explains the arrows may date to the Civil War and the Underground Railroad that led enslaved people north to freedom.",
+        "zh": "Papa解释说箭头可能追溯到内战以及帮助被劫为奴隶的人北逃自由的“地下铁路”。"
+      }
+    },
+    {
+      "q": {
+        "en": "Using the story's code rule (shift each letter back one), what does 'hpvse' decode to?",
+        "zh": "运用故事中的密码规则（每个字母向前移一位），“hpvse”能解码成什么？"
+      },
+      "options": [
+        {
+          "en": "house",
+          "zh": "house（房子）"
+        },
+        {
+          "en": "ghost",
+          "zh": "ghost（鬼）"
+        },
+        {
+          "en": "heart",
+          "zh": "heart（心）"
+        },
+        {
+          "en": "gourd",
+          "zh": "gourd（瓢）"
+        }
+      ],
+      "answer": 3,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Shifting each letter of 'hpvse' back one gives g-o-u-r-d, the word 'gourd,' the last word of the hidden message.",
+        "zh": "把“hpvse”每个字母前移一位得到 g-o-u-r-d，即“gourd（瓢）”，正是隐藏信息的最后一个词。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why does the author include information about Choctaw Code Talkers and the Enigma Machine?",
+        "zh": "作者为什么要加入关于乔克托密码通讯兵和恩尼格玛机的内容？"
+      },
+      "options": [
+        {
+          "en": "To teach how to cook",
+          "zh": "为了教人做饭"
+        },
+        {
+          "en": "To show the real history of codes that inspires the story",
+          "zh": "展示启发这个故事的真实密码历史"
+        },
+        {
+          "en": "To advertise a movie",
+          "zh": "为了给一部电影做广告"
+        },
+        {
+          "en": "To confuse the reader with unrelated facts according to some versions of the story",
+          "zh": "用无关的事实迷惑读者（按书中另一种说法）"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "These real examples of historical codes give the fictional mystery a factual, educational foundation.",
+        "zh": "这些真实的密码史实为虚构的谜题提供了事实与知识基础。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in writing Arrows?",
+        "zh": "作者创作《箭头》的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To prove that arrows were carved by aliens according to some versions of the story",
+          "zh": "证明箭头是外星人刻的（按书中另一种说法）"
+        },
+        {
+          "en": "To teach readers about codes, history, and problem-solving through a story",
+          "zh": "通过一个故事向读者传授密码、历史与解决问题的知识"
+        },
+        {
+          "en": "To describe how to play basketball",
+          "zh": "描述如何打篮球"
+        },
+        {
+          "en": "To list the presidents of the United States",
+          "zh": "列出美国总统"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The story uses a puzzle and historical context to engage readers with codes, history, and logical thinking.",
+        "zh": "故事借助谜题和历史背景，引导读者了解密码、历史与逻辑思维。"
+      }
     }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Poloma finds the first carved arrow on a moss-covered boulder while chasing her bouncing ball.",
-    "zh": "波洛玛在追弹跳的球时，在一块长满青苔的巨石上发现了第一个刻下的箭头。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is Poloma's grandfather's background related to codes?",
-    "zh": "波洛玛的祖父在与密码相关的方面有什么背景？"
-   },
-   "options": [
-    {
-     "en": "He was a professional baseball player",
-     "zh": "他曾是职业棍球运动员"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Imagine you found a secret message in your backyard written in a simple code. Write the message and explain how someone could decode it using a substitution cipher.",
+      "zh": "设想你在后院发现了一条用简单密码写成的秘密信息。写出这条信息，并解释别人如何用替换密码将其破译。"
     },
-    {
-     "en": "He was a Choctaw Code Talker decorated for cryptography in WWII",
-     "zh": "他是一名在二战中因密码工作而获勋的乔克托密码通讯兵"
-    },
-    {
-     "en": "He was a school teacher who hated codes",
-     "zh": "他是一名讨厌密码的学校教师"
-    },
-    {
-     "en": "He invented the computer",
-     "zh": "他发明了计算机"
+    "guidance": {
+      "en": [
+        "Create a short coded message using a letter-shift rule.",
+        "Show the decoding key or rule.",
+        "Explain why codes were important in history."
+      ],
+      "zh": [
+        "用字母位移规则创作一条简短的密码信息。",
+        "给出破译的密钥或规则。",
+        "解释密码在历史上为何重要。"
+      ]
     }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Papa was a WWII Choctaw Code Talker who used his native language as a secret code and was decorated for cryptography work.",
-    "zh": "Papa是二战中的乔克托密码通讯兵，用本族语言作密码，并因密码工作获勋。"
-   }
-  },
-  {
-   "q": {
-    "en": "After decoding the cipher, what message do the carved letters spell?",
-    "zh": "破译密码后，那些刻下的字母拼出了什么信息？"
-   },
-   "options": [
-    {
-     "en": "Follow the Drinking Gourd",
-     "zh": "跟着“饮水瓢”（北斗七星）走"
-    },
-    {
-     "en": "Attack at Dawn",
-     "zh": "黎明时分进攻"
-    },
-    {
-     "en": "Beware the British",
-     "zh": "当心英国人"
-    },
-    {
-     "en": "Go South Young Man",
-     "zh": "年轻人，去南方"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Using the advance cipher (shift each letter back one), 'gpmmpx uif esjoljoh hpvse' decodes to 'Follow the Drinking Gourd.'",
-    "zh": "用推进密码（每个字母回移一位），“gpmmpx uif esjoljoh hpvse”破译为“Follow the Drinking Gourd（跟着饮水瓢走）”。"
-   }
-  },
-  {
-   "q": {
-    "en": "In the story, what does 'the Drinking Gourd' refer to?",
-    "zh": "在故事中，“饮水瓢（Drinking Gourd）”指的是什么？"
-   },
-   "options": [
-    {
-     "en": "A real metal cup used by soldiers",
-     "zh": "士兵使用的一种真实金属杯"
-    },
-    {
-     "en": "The Big Dipper constellation that points north",
-     "zh": "指向北方的北斗七星（大熊座）星座"
-    },
-    {
-     "en": "A type of tree in the forest",
-     "zh": "森林里的一种树"
-    },
-    {
-     "en": "A secret password",
-     "zh": "一个秘密口令"
-    }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The Drinking Gourd is the Big Dipper, a constellation in the northern sky that escaping slaves followed northward.",
-    "zh": "“饮水瓢”指北斗七星，是出现在北方天空的星座，逃亡奴隶凭倒它向北前行。"
-   }
-  },
-  {
-   "q": {
-    "en": "In the coded message, 'uif' stands for 'the.' Each letter is shifted one place in the alphabet. What type of code is this?",
-    "zh": "在密码信息中，“uif”代表“the”。每个字母在字母表中移动了一位。这是一种什么类型的密码？"
-   },
-   "options": [
-    {
-     "en": "A substitution cipher",
-     "zh": "替换密码"
-    },
-    {
-     "en": "A sign language",
-     "zh": "手语"
-    },
-    {
-     "en": "A mathematical equation",
-     "zh": "数学方程式"
-    },
-    {
-     "en": "A musical notation",
-     "zh": "音乐记谱法"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "A cipher that replaces each letter with another letter is a substitution cipher, like the advance cipher in the story.",
-    "zh": "把每个字母替换成另一个字母的密码就是替换密码，正如故事中的推进密码。"
-   }
-  },
-  {
-   "q": {
-    "en": "From whose point of view is the story mainly told?",
-    "zh": "这个故事主要是从谁的视角叙述的？"
-   },
-   "options": [
-    {
-     "en": "An outside narrator focusing on Poloma's experiences",
-     "zh": "聚焦波洛玛经历的第三人称叙述者"
-    },
-    {
-     "en": "King George III",
-     "zh": "乔治三世国王"
-    },
-    {
-     "en": "A Civil War general",
-     "zh": "一名内战将军"
-    },
-    {
-     "en": "The Drinking Gourd itself",
-     "zh": "“饮水瓢”本身"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The story is told by a third-person narrator who follows Poloma and her grandfather as they discover and decode the arrows.",
-    "zh": "故事由第三人称叙述者讲述，跟随波洛玛和祖父发现并破译箭头的过程。"
-   }
-  },
-  {
-   "q": {
-    "en": "The story connects the carved arrows and cipher to which historical event?",
-    "zh": "这个故事将刻下的箭头和密码与哪一历史事件联系起来？"
-   },
-   "options": [
-    {
-     "en": "World War II in Europe",
-     "zh": "欧洲第二次世界大战"
-    },
-    {
-     "en": "The Civil War and the Underground Railroad",
-     "zh": "美国内战与“地下铁路”"
-    },
-    {
-     "en": "The invention of basketball",
-     "zh": "篮球的发明"
-    },
-    {
-     "en": "The American Revolution",
-     "zh": "美国独立战争"
-    }
-   ],
-   "answer": 1,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Papa explains the arrows may date to the Civil War and the Underground Railroad that led enslaved people north to freedom.",
-    "zh": "Papa解释说箭头可能追溯到内战以及帮助被劫为奴隶的人北逃自由的“地下铁路”。"
-   }
-  },
-  {
-   "q": {
-    "en": "Using the story's code rule (shift each letter back one), what does 'hpvse' decode to?",
-    "zh": "运用故事中的密码规则（每个字母向前移一位），“hpvse”能解码成什么？"
-   },
-   "options": [
-    {
-     "en": "gourd",
-     "zh": "gourd（瓢）"
-    },
-    {
-     "en": "house",
-     "zh": "house（房子）"
-    },
-    {
-     "en": "heart",
-     "zh": "heart（心）"
-    },
-    {
-     "en": "ghost",
-     "zh": "ghost（鬼）"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Shifting each letter of 'hpvse' back one gives g-o-u-r-d, the word 'gourd,' the last word of the hidden message.",
-    "zh": "把“hpvse”每个字母前移一位得到 g-o-u-r-d，即“gourd（瓢）”，正是隐藏信息的最后一个词。"
-   }
-  },
-  {
-   "q": {
-    "en": "Why does the author include information about Choctaw Code Talkers and the Enigma Machine?",
-    "zh": "作者为什么要加入关于乔克托密码通讯兵和恩尼格玛机的内容？"
-   },
-   "options": [
-    {
-     "en": "To confuse the reader with unrelated facts",
-     "zh": "用无关的事实迷惑读者"
-    },
-    {
-     "en": "To show the real history of codes that inspires the story",
-     "zh": "展示启发这个故事的真实密码历史"
-    },
-    {
-     "en": "To teach how to cook",
-     "zh": "为了教人做饭"
-    },
-    {
-     "en": "To advertise a movie",
-     "zh": "为了给一部电影做广告"
-    }
-   ],
-   "answer": 1,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "These real examples of historical codes give the fictional mystery a factual, educational foundation.",
-    "zh": "这些真实的密码史实为虚构的谜题提供了事实与知识基础。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in writing Arrows?",
-    "zh": "作者创作《箭头》的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "To teach readers about codes, history, and problem-solving through a story",
-     "zh": "通过一个故事向读者传授密码、历史与解决问题的知识"
-    },
-    {
-     "en": "To prove that arrows were carved by aliens",
-     "zh": "证明箭头是外星人刻的"
-    },
-    {
-     "en": "To describe how to play basketball",
-     "zh": "描述如何打篮球"
-    },
-    {
-     "en": "To list the presidents of the United States",
-     "zh": "列出美国总统"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The story uses a puzzle and historical context to engage readers with codes, history, and logical thinking.",
-    "zh": "故事借助谜题和历史背景，引导读者了解密码、历史与逻辑思维。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "Imagine you found a secret message in your backyard written in a simple code. Write the message and explain how someone could decode it using a substitution cipher.",
-   "zh": "设想你在后院发现了一条用简单密码写成的秘密信息。写出这条信息，并解释别人如何用替换密码将其破译。"
-  },
-  "guidance": {
-   "en": [
-    "Create a short coded message using a letter-shift rule.",
-    "Show the decoding key or rule.",
-    "Explain why codes were important in history."
-   ],
-   "zh": [
-    "用字母位移规则创作一条简短的密码信息。",
-    "给出破译的密钥或规则。",
-    "解释密码在历史上为何重要。"
-   ]
-  }
- }
 }

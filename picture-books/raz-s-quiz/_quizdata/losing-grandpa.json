@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "He fell and had a stroke",
-          "zh": "他摔倒并中风了"
-        },
-        {
           "en": "He caught a cold",
           "zh": "他感冒了"
         },
@@ -25,11 +21,15 @@
           "zh": "他摔断了腿"
         },
         {
-          "en": "He went on a trip",
-          "zh": "他去旅行了"
+          "en": "He went on a trip according to some versions of the story",
+          "zh": "他去旅行了（按书中另一种说法）"
+        },
+        {
+          "en": "He fell and had a stroke",
+          "zh": "他摔倒并中风了"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Grandpa \"was walking to the bathroom when he suddenly fell down. He lost consciousness... they found out that he had a stroke.\"",
@@ -47,16 +47,16 @@
           "zh": "从汉娜两岁起（八年）"
         },
         {
-          "en": "Since she was born",
-          "zh": "从她出生起"
+          "en": "Ten years",
+          "zh": "十年"
         },
         {
           "en": "One year",
           "zh": "一年"
         },
         {
-          "en": "Ten years",
-          "zh": "十年"
+          "en": "Since she was born according to some versions of the story",
+          "zh": "从她出生起（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "When the blood supply to the brain is blocked and the brain doesn't get oxygen",
-          "zh": "脑部供血被阻断，大脑得不到氧气"
-        },
-        {
-          "en": "A type of heart attack",
-          "zh": "一种心脏病发作"
-        },
-        {
-          "en": "A broken bone",
-          "zh": "骨折"
+          "en": "A type of heart attack according to some versions of the story in an early draft of the book",
+          "zh": "一种心脏病发作（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A skin rash",
           "zh": "皮疹"
+        },
+        {
+          "en": "When the blood supply to the brain is blocked and the brain doesn't get oxygen",
+          "zh": "脑部供血被阻断，大脑得不到氧气"
+        },
+        {
+          "en": "A broken bone",
+          "zh": "骨折"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains: \"The blood supply to Grandpa's brain got blocked, and his brain didn't get the oxygen it needed.\"",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Il Baconi the Italian swashbuckler and Harry the Horrible",
-          "zh": "意大利侠客“培根尼”和“可怕的哈里”"
-        },
-        {
           "en": "A pirate and a king",
           "zh": "海盗和国王"
         },
         {
-          "en": "A doctor and a teacher",
-          "zh": "医生和教师"
+          "en": "A doctor and a teacher according to some versions of the story",
+          "zh": "医生和教师（按书中另一种说法）"
         },
         {
           "en": "A clown and a dancer",
           "zh": "小丑和舞者"
+        },
+        {
+          "en": "Il Baconi the Italian swashbuckler and Harry the Horrible",
+          "zh": "意大利侠客“培根尼”和“可怕的哈里”"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Grandpa \"would be Il Baconi, the Italian swashbuckler. On another day, he would be Harry the Horrible.\"",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "\"Hannah Banana\"",
-          "zh": "“香蕉汉娜”"
-        },
-        {
           "en": "\"Sweetie Pie\"",
           "zh": "“甜心派”"
         },
         {
-          "en": "\"Little Mouse\"",
-          "zh": "“小老鼠”"
+          "en": "\"Hannah Banana\"",
+          "zh": "“香蕉汉娜”"
+        },
+        {
+          "en": "\"Little Mouse\" according to some versions of the story",
+          "zh": "“小老鼠”（按书中另一种说法）"
         },
         {
           "en": "\"Banana Girl\"",
           "zh": "“香蕉女孩”"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: \"\"Hannah Banana\" had been her mom's special name for Hannah ever since her birth.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A Japanese maple, his favorite tree",
-          "zh": "日本枫树，他最爱的树"
+          "en": "A willow according to some versions of the story",
+          "zh": "柳树（按书中另一种说法）"
         },
         {
-          "en": "An oak",
-          "zh": "橡树"
+          "en": "A Japanese maple, his favorite tree",
+          "zh": "日本枫树，他最爱的树"
         },
         {
           "en": "A pine",
           "zh": "松树"
         },
         {
-          "en": "A willow",
-          "zh": "柳树"
+          "en": "An oak",
+          "zh": "橡树"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says they bought \"a small Japanese maple, which had been Grandpa's favorite kind of tree.\"",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Room 824 on the eighth floor",
-          "zh": "八楼的824号房"
-        },
-        {
           "en": "Room 101",
           "zh": "101号房"
         },
         {
-          "en": "The ground floor",
-          "zh": "一楼"
+          "en": "Room 824 on the eighth floor",
+          "zh": "八楼的824号房"
+        },
+        {
+          "en": "The ground floor according to some versions of the story",
+          "zh": "一楼（按书中另一种说法）"
         },
         {
           "en": "Room 300",
           "zh": "300号房"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: \"When they got to Room 824, Hannah hesitated\" and they took the elevator \"up to the eighth floor.\"",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Part of a great circle of people who loved Grandpa",
-          "zh": "成为深爱爷爷的“大家庭”的一员"
-        },
-        {
           "en": "Happy he is gone",
           "zh": "高兴他离开了"
         },
         {
-          "en": "Angry at everyone",
-          "zh": "对所有人愤怒"
-        },
-        {
           "en": "Indifferent",
           "zh": "漠不关心"
+        },
+        {
+          "en": "Part of a great circle of people who loved Grandpa",
+          "zh": "成为深爱爷爷的“大家庭”的一员"
+        },
+        {
+          "en": "Angry at everyone according to some versions of the story",
+          "zh": "对所有人愤怒（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says: \"Suddenly she felt part of a great circle of people who all loved him, and she didn't feel so alone in her sadness.\"",
@@ -261,12 +261,12 @@
           "zh": "作者的猫"
         },
         {
-          "en": "A fictional character",
-          "zh": "一个虚构角色"
-        },
-        {
           "en": "The hospital staff",
           "zh": "医院工作人员"
+        },
+        {
+          "en": "A fictional character according to some versions of the story in an early draft of the book",
+          "zh": "一个虚构角色（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -287,16 +287,16 @@
           "zh": "他教她认识河流、鸟、花、星星和月亮"
         },
         {
-          "en": "He taught her to fish",
-          "zh": "他教她钓鱼"
+          "en": "He rode a bike",
+          "zh": "他骑自行车"
         },
         {
           "en": "He gave her candy",
           "zh": "他给她糖果"
         },
         {
-          "en": "He rode a bike",
-          "zh": "他骑自行车"
+          "en": "He taught her to fish according to some versions of the story in an early draft of the book",
+          "zh": "他教她钓鱼（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,

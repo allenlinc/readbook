@@ -12,12 +12,24 @@
         "zh": "叙述者在森林里寻找的是谁？"
       },
       "options": [
-        {"en": "Sarah, Jake, and Odie", "zh": "萨拉、杰克和奥迪"},
-        {"en": "A stranger named Thomas", "zh": "一个叫托马斯的陌生人"},
-        {"en": "The talking cat", "zh": "那只会说话的猫"},
-        {"en": "The king", "zh": "国王"}
+        {
+          "en": "The talking cat",
+          "zh": "那只会说话的猫"
+        },
+        {
+          "en": "A stranger named Thomas",
+          "zh": "一个叫托马斯的陌生人"
+        },
+        {
+          "en": "The king",
+          "zh": "国王"
+        },
+        {
+          "en": "Sarah, Jake, and Odie",
+          "zh": "萨拉、杰克和奥迪"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The narrator calls out 'Sarah! Jake! Can anyone hear me?' and remembers arriving with Sarah, Jake, and Odie.",
@@ -30,12 +42,24 @@
         "zh": "在叙述者坠落之前，大家刚从哪里出来？"
       },
       "options": [
-        {"en": "The Cave of the Lost, after using a key to open an ornate door", "zh": "失落之洞，用钥匙打开了一扇华丽的门之后"},
-        {"en": "A school classroom", "zh": "学校教室"},
-        {"en": "A big city", "zh": "一座大城市"},
-        {"en": "A sailing boat", "zh": "一艘帆船"}
+        {
+          "en": "A school classroom according to some versions of the story in an early draft of the book",
+          "zh": "学校教室（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A sailing boat",
+          "zh": "一艘帆船"
+        },
+        {
+          "en": "The Cave of the Lost, after using a key to open an ornate door",
+          "zh": "失落之洞，用钥匙打开了一扇华丽的门之后"
+        },
+        {
+          "en": "A big city",
+          "zh": "一座大城市"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The narrator remembers Thomas and his friends took them into the Cave of the Lost, where they used a key to open the ornate door behind the rock.",
@@ -48,12 +72,24 @@
         "zh": "最先从地下钻出来、被叙述者误认为蚯蚓的是什么？"
       },
       "options": [
-        {"en": "A snake", "zh": "一条蛇"},
-        {"en": "A tentacle covered with suckers and sharp teeth", "zh": "一条布满吸盘和尖牙的触手"},
-        {"en": "A tree root", "zh": "一条树根"},
-        {"en": "A small river", "zh": "一条小河"}
+        {
+          "en": "A tentacle covered with suckers and sharp teeth",
+          "zh": "一条布满吸盘和尖牙的触手"
+        },
+        {
+          "en": "A snake",
+          "zh": "一条蛇"
+        },
+        {
+          "en": "A small river according to some versions of the story",
+          "zh": "一条小河（按书中另一种说法）"
+        },
+        {
+          "en": "A tree root",
+          "zh": "一条树根"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "At first the narrator thinks it is 'a large worm,' but then realizes it is a tentacle with menacing suckers and rows of sharp teeth.",
@@ -66,12 +102,24 @@
         "zh": "在悬崖边，叙述者是如何逃脱那只怪物的？"
       },
       "options": [
-        {"en": "He flies away", "zh": "他飞走了"},
-        {"en": "He grabs a fern frond and is whipped to the side as the creature falls into the clouds", "zh": "他抓住蕨叶，被甩向一侧，而怪物坠入云海"},
-        {"en": "He shoots it with a gun", "zh": "他用枪射中了它"},
-        {"en": "The cat saves him", "zh": "猫救了他"}
+        {
+          "en": "He grabs a fern frond and is whipped to the side as the creature falls into the clouds",
+          "zh": "他抓住蕨叶，被甩向一侧，而怪物坠入云海"
+        },
+        {
+          "en": "He shoots it with a gun according to some versions of the story in an early draft of the book",
+          "zh": "他用枪射中了它（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He flies away",
+          "zh": "他飞走了"
+        },
+        {
+          "en": "The cat saves him",
+          "zh": "猫救了他"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "He grabs a mammoth fern frond; his running momentum whips him to the side while the creature, with nothing to grasp, falls silently into the clouds.",
@@ -84,12 +132,24 @@
         "zh": "在词汇表中，“flail”是什么意思？"
       },
       "options": [
-        {"en": "To wave one's limbs wildly about", "zh": "疯狂地挥舞四肢"},
-        {"en": "To move in a winding manner", "zh": "蜿蜒地移动"},
-        {"en": "To jump over something", "zh": "跳过某物"},
-        {"en": "To wait in hiding", "zh": "埋伏等待"}
+        {
+          "en": "To jump over something",
+          "zh": "跳过某物"
+        },
+        {
+          "en": "To wave one's limbs wildly about",
+          "zh": "疯狂地挥舞四肢"
+        },
+        {
+          "en": "To move in a winding manner according to some versions of the story",
+          "zh": "蜿蜒地移动（按书中另一种说法）"
+        },
+        {
+          "en": "To wait in hiding",
+          "zh": "埋伏等待"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines flail as 'to wave one's limbs wildly about,' as the narrator does when falling and later when the creature's limbs flail.",
@@ -102,12 +162,24 @@
         "zh": "在词汇表中，描写“看见悬崖边缘”那句里的“fortuitous”是什么意思？"
       },
       "options": [
-        {"en": "Occurring by chance with a positive or lucky outcome", "zh": "偶然发生且带来了幸运的结果"},
-        {"en": "Very large or enormous", "zh": "非常大或巨大"},
-        {"en": "Grabbing and holding firmly", "zh": "紧紧抓住"},
-        {"en": "Lifting with effort", "zh": "费力地抬起"}
+        {
+          "en": "Grabbing and holding firmly according to some versions of the story",
+          "zh": "紧紧抓住（按书中另一种说法）"
+        },
+        {
+          "en": "Lifting with effort",
+          "zh": "费力地抬起"
+        },
+        {
+          "en": "Very large or enormous",
+          "zh": "非常大或巨大"
+        },
+        {
+          "en": "Occurring by chance with a positive or lucky outcome",
+          "zh": "偶然发生且带来了幸运的结果"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines fortuitous as 'occurring by chance with a positive or lucky outcome,' fitting the lucky moment he spots the cliff in time.",
@@ -120,10 +192,22 @@
         "zh": "攻击叙述者的那只怪物长什么样？"
       },
       "options": [
-        {"en": "A small car-sized octopus with a bulbous head and many tentacles", "zh": "一辆小汽车大小的章鱼，长着圆鼓鼓的头和许多触手"},
-        {"en": "A friendly dog", "zh": "一只友善的狗"},
-        {"en": "A small bird", "zh": "一只小鸟"},
-        {"en": "A giant fern", "zh": "一棵巨大的蕨类"}
+        {
+          "en": "A small car-sized octopus with a bulbous head and many tentacles",
+          "zh": "一辆小汽车大小的章鱼，长着圆鼓鼓的头和许多触手"
+        },
+        {
+          "en": "A small bird",
+          "zh": "一只小鸟"
+        },
+        {
+          "en": "A friendly dog according to some versions of the story in an early draft of the book",
+          "zh": "一只友善的狗（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A giant fern",
+          "zh": "一棵巨大的蕨类"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "在故事结尾，叙述者得出了哪两点认识？"
       },
       "options": [
-        {"en": "He is alone and this isn't the Hollow", "zh": "他孤身一人，而且这里不是“空心地”"},
-        {"en": "He has found gold", "zh": "他找到了黄金"},
-        {"en": "Sarah is a queen", "zh": "萨拉是女王"},
-        {"en": "The cat is his mother", "zh": "那只猫是他的母亲"}
+        {
+          "en": "Sarah is a queen",
+          "zh": "萨拉是女王"
+        },
+        {
+          "en": "The cat is his mother according to some versions of the story",
+          "zh": "那只猫是他的母亲（按书中另一种说法）"
+        },
+        {
+          "en": "He is alone and this isn't the Hollow",
+          "zh": "他孤身一人，而且这里不是“空心地”"
+        },
+        {
+          "en": "He has found gold",
+          "zh": "他找到了黄金"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states: 'Two things become clear in this moment: I'm alone, and this isn't the Hollow.'",
@@ -156,10 +252,22 @@
         "zh": "作者如何借助用词来表现叙述者的恐惧？"
       },
       "options": [
-        {"en": "By using calm, happy words", "zh": "通过平静、欢快的词语"},
-        {"en": "By using phrases like 'utterly lost,' 'frozen by fear,' and 'the horror of the thing behind me drives me forward'", "zh": "通过“彻底迷失”“因恐惧而僵住”“身后怪物的恐怖驱使我向前”等措辞"},
-        {"en": "By describing a picnic", "zh": "通过描写野餐"},
-        {"en": "By using math terms", "zh": "通过使用数学术语"}
+        {
+          "en": "By using math terms",
+          "zh": "通过使用数学术语"
+        },
+        {
+          "en": "By using phrases like 'utterly lost,' 'frozen by fear,' and 'the horror of the thing behind me drives me forward'",
+          "zh": "通过“彻底迷失”“因恐惧而僵住”“身后怪物的恐怖驱使我向前”等措辞"
+        },
+        {
+          "en": "By describing a picnic",
+          "zh": "通过描写野餐"
+        },
+        {
+          "en": "By using calm, happy words according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "通过平静、欢快的词语（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
       "answer": 1,
       "skill": "Author's Purpose and Perspective",
@@ -174,10 +282,22 @@
         "zh": "除了恐惧，在恐惧完全占据之前，叙述者早期还表现出什么情绪？"
       },
       "options": [
-        {"en": "Only boredom", "zh": "只有无聊"},
-        {"en": "Curiosity, as he is 'frozen by a mixture of fear and curiosity'", "zh": "好奇，因为他“因恐惧与好奇交织而僵住”"},
-        {"en": "Anger at Sarah", "zh": "对萨拉的愤怒"},
-        {"en": "Hunger", "zh": "饥饿"}
+        {
+          "en": "Only boredom",
+          "zh": "只有无聊"
+        },
+        {
+          "en": "Curiosity, as he is 'frozen by a mixture of fear and curiosity'",
+          "zh": "好奇，因为他“因恐惧与好奇交织而僵住”"
+        },
+        {
+          "en": "Anger at Sarah according to some versions of the story in an early draft of the book",
+          "zh": "对萨拉的愤怒（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Hunger",
+          "zh": "饥饿"
+        }
       ],
       "answer": 1,
       "skill": "Author's Purpose and Perspective",

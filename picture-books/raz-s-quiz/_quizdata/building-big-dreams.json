@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "CN Tower",
-          "zh": "加拿大国家电视塔"
-        },
-        {
-          "en": "Golden Gate Bridge",
-          "zh": "金门大桥"
-        },
-        {
           "en": "Burj Khalifa",
           "zh": "哈利法塔"
         },
         {
           "en": "Panama Canal",
           "zh": "巴拿马运河"
+        },
+        {
+          "en": "Golden Gate Bridge",
+          "zh": "金门大桥"
+        },
+        {
+          "en": "CN Tower",
+          "zh": "加拿大国家电视塔"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Burj Khalifa, opening in 2010, 'became the tallest human-made structure in the world.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "England and France",
-          "zh": "英国和法国"
-        },
-        {
           "en": "Spain and Africa",
           "zh": "西班牙和非洲"
         },
         {
-          "en": "The US and Canada",
-          "zh": "美国和加拿大"
+          "en": "The US and Canada according to some versions of the story",
+          "zh": "美国和加拿大（按书中另一种说法）"
         },
         {
           "en": "China and India",
           "zh": "中国和印度"
+        },
+        {
+          "en": "England and France",
+          "zh": "英国和法国"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says trains 'Travel from England to France in one tunnel and return in another.'",
@@ -73,20 +73,20 @@
       },
       "options": [
         {
-          "en": "Large ships",
-          "zh": "大型船只"
+          "en": "Tunnels",
+          "zh": "隧道"
         },
         {
           "en": "Gated sections where water levels are raised and lowered to let ships pass",
           "zh": "通过升降水位让船只通过的带闸门的水舱"
         },
         {
-          "en": "Tunnels",
-          "zh": "隧道"
-        },
-        {
           "en": "Bridges",
           "zh": "桥梁"
+        },
+        {
+          "en": "Large ships according to some versions of the story in an early draft of the book",
+          "zh": "大型船只（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "Fifty years",
+          "zh": "五十年"
+        },
+        {
           "en": "One year",
           "zh": "一年"
         },
@@ -111,15 +115,11 @@
           "zh": "大约七年"
         },
         {
-          "en": "Twenty years",
-          "zh": "二十年"
-        },
-        {
-          "en": "Fifty years",
-          "zh": "五十年"
+          "en": "Twenty years according to some versions of the story",
+          "zh": "二十年（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'This massive project took about 13,000 people seven years to complete.'",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Speed up the ships",
-          "zh": "让船只加速"
-        },
-        {
-          "en": "Raise and lower ships between the two oceans",
-          "zh": "在两个大洋之间升降船只"
+          "en": "Generate electricity",
+          "zh": "发电"
         },
         {
           "en": "Block fish",
           "zh": "阻挡鱼群"
         },
         {
-          "en": "Generate electricity",
-          "zh": "发电"
+          "en": "Raise and lower ships between the two oceans",
+          "zh": "在两个大洋之间升降船只"
+        },
+        {
+          "en": "Speed up the ships according to some versions of the story",
+          "zh": "让船只加速（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the locks 'stair-step' ships 'up, and then down again—to sea level on the other side of Panama.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "None",
-          "zh": "没有"
+          "en": "Two",
+          "zh": "两名"
         },
         {
-          "en": "Eleven",
-          "zh": "十一名"
+          "en": "None",
+          "zh": "没有"
         },
         {
           "en": "One hundred",
           "zh": "一百名"
         },
         {
-          "en": "Two",
-          "zh": "两名"
+          "en": "Eleven",
+          "zh": "十一名"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'During construction, eleven workers lost their lives.' (A net saved nineteen others.)",
@@ -223,8 +223,8 @@
       },
       "options": [
         {
-          "en": "Southern farms only",
-          "zh": "仅南方农田"
+          "en": "Europe",
+          "zh": "欧洲"
         },
         {
           "en": "Dry northern cities such as Beijing",
@@ -235,8 +235,8 @@
           "zh": "海洋"
         },
         {
-          "en": "Europe",
-          "zh": "欧洲"
+          "en": "Southern farms only according to some versions of the story",
+          "zh": "仅南方农田（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "Sell tickets",
-          "zh": "卖票"
-        },
-        {
           "en": "Show amazing engineering feats that solved unusually big problems",
           "zh": "展示解决了超大问题的惊人工程壮举"
         },
@@ -265,11 +261,15 @@
           "zh": "讲授法国历史"
         },
         {
-          "en": "Argue against big building projects",
-          "zh": "反对大型建筑工程"
+          "en": "Argue against big building projects according to some versions of the story",
+          "zh": "反对大型建筑工程（按书中另一种说法）"
+        },
+        {
+          "en": "Sell tickets",
+          "zh": "卖票"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Conclusion says 'Unusually big problems can inspire the biggest dreams and the most imaginative solutions.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Bridge",
-          "zh": "桥梁"
-        },
-        {
           "en": "Hydroelectric project",
           "zh": "水电工程"
         },
         {
-          "en": "Tunnel",
-          "zh": "隧道"
+          "en": "Skyscraper according to some versions of the story",
+          "zh": "摩天大楼（按书中另一种说法）"
         },
         {
-          "en": "Skyscraper",
-          "zh": "摩天大楼"
+          "en": "Bridge",
+          "zh": "桥梁"
+        },
+        {
+          "en": "Tunnel",
+          "zh": "隧道"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'The Three Gorges Dam is the largest hydroelectric project in the world.'",

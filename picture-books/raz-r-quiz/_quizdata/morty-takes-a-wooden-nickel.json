@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "8 nickels",
-          "zh": "8枚"
-        },
-        {
-          "en": "250 nickels",
-          "zh": "250枚"
-        },
-        {
           "en": "880 nickels",
           "zh": "880枚"
         },
         {
+          "en": "8 nickels",
+          "zh": "8枚"
+        },
+        {
           "en": "1,500 nickels",
           "zh": "1,500枚"
+        },
+        {
+          "en": "250 nickels",
+          "zh": "250枚"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Morty tells the librarian, 'I have eight hundred eighty nickels,' and the back-matter math uses 'Grandpa's 880 nickels.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "$880",
-          "zh": "880美元"
-        },
-        {
-          "en": "$1,500",
-          "zh": "1,500美元"
+          "en": "Nothing",
+          "zh": "没付钱"
         },
         {
           "en": "$250",
           "zh": "250美元"
         },
         {
-          "en": "Nothing",
-          "zh": "没付钱"
+          "en": "$880",
+          "zh": "880美元"
+        },
+        {
+          "en": "$1,500",
+          "zh": "1,500美元"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The librarian said, 'I can give you two hundred fifty dollars for all of it,' and Morty replied, 'That's great!'",
@@ -73,16 +73,16 @@
       },
       "options": [
         {
-          "en": "A type of tree",
-          "zh": "一种树"
-        },
-        {
-          "en": "A skateboard trick",
-          "zh": "一种滑板技巧"
-        },
-        {
           "en": "A kind of mouse",
           "zh": "一种老鼠"
+        },
+        {
+          "en": "A skateboard trick according to some versions of the story",
+          "zh": "一种滑板技巧（按书中另一种说法）"
+        },
+        {
+          "en": "A type of tree",
+          "zh": "一种树"
         },
         {
           "en": "A person who studies or collects coins",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "His parents bought it for him",
-          "zh": "父母给他买的"
-        },
-        {
-          "en": "He saved his allowance for a year",
-          "zh": "他把零花钱攒了一年"
+          "en": "He won it in a contest",
+          "zh": "他比赛赢来的"
         },
         {
           "en": "He sold his grandfather's nickel collection to the librarian",
           "zh": "他把爷爷的镍币收藏卖给了图书管理员"
         },
         {
-          "en": "He won it in a contest",
-          "zh": "他比赛赢来的"
+          "en": "His parents bought it for him",
+          "zh": "父母给他买的"
+        },
+        {
+          "en": "He saved his allowance for a year according to some versions of the story",
+          "zh": "他把零花钱攒了一年（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Morty sold the collection for $250 and then 'cruised to the bench' at the skate park with his new Leaping Tiger board.",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "He saw the skateboard in a store according to some versions of the story",
+          "zh": "他在商店里看到了那块滑板（按书中另一种说法）"
+        },
+        {
           "en": "Morty told him right away",
           "zh": "莫蒂立刻告诉了他"
         },
@@ -143,13 +147,9 @@
         {
           "en": "Mother found the empty box",
           "zh": "母亲发现了空盒子"
-        },
-        {
-          "en": "He saw the skateboard in a store",
-          "zh": "他在商店里看到了那块滑板"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Grandpa says, 'My friend works at the library. He knows that I'm a numismatist and recognized the collection immediately.'",
@@ -163,8 +163,12 @@
       },
       "options": [
         {
-          "en": "Exactly $250",
-          "zh": "正好250美元"
+          "en": "Exactly $250 according to some versions of the story",
+          "zh": "正好250美元（按书中另一种说法）"
+        },
+        {
+          "en": "At least $1,500",
+          "zh": "至少1,500美元"
         },
         {
           "en": "$32.91",
@@ -173,13 +177,9 @@
         {
           "en": "$88",
           "zh": "88美元"
-        },
-        {
-          "en": "At least $1,500",
-          "zh": "至少1,500美元"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Grandpa replied, 'At least fifteen hundred by my estimate. Many of those coins are extremely rare.'",
@@ -197,8 +197,8 @@
           "zh": "莫蒂变富了"
         },
         {
-          "en": "Morty found a rare coin",
-          "zh": "莫蒂发现了一枚稀有硬币"
+          "en": "Morty found a rare coin according to some versions of the story",
+          "zh": "莫蒂发现了一枚稀有硬币（按书中另一种说法）"
         },
         {
           "en": "Morty made a very bad deal and got far less than it was worth",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "A skateboard move",
-          "zh": "一种滑板动作"
-        },
-        {
-          "en": "A feeling of sadness",
-          "zh": "一种悲伤的感觉"
-        },
-        {
-          "en": "A strong liking or tendency",
-          "zh": "强烈的爱好或倾向"
+          "en": "A feeling of sadness according to some versions of the story",
+          "zh": "一种悲伤的感觉（按书中另一种说法）"
         },
         {
           "en": "A type of coin",
           "zh": "一种硬币"
+        },
+        {
+          "en": "A skateboard move",
+          "zh": "一种滑板动作"
+        },
+        {
+          "en": "A strong liking or tendency",
+          "zh": "强烈的爱好或倾向"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'penchant' as 'a strong liking or tendency,' as when the librarian has 'a penchant for old coins.'",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Libraries are for sleeping",
-          "zh": "图书馆是用来睡觉的"
-        },
-        {
-          "en": "Skateboards are more fun than coins",
-          "zh": "滑板比硬币好玩"
+          "en": "He should honor promises and not betray the trust of people who care about him",
+          "zh": "他应该信守承诺，不要背叛关心他的人的信任"
         },
         {
           "en": "Always sell family treasures",
           "zh": "永远要卖掉家里的珍宝"
         },
         {
-          "en": "He should honor promises and not betray the trust of people who care about him",
-          "zh": "他应该信守承诺，不要背叛关心他的人的信任"
+          "en": "Libraries are for sleeping",
+          "zh": "图书馆是用来睡觉的"
+        },
+        {
+          "en": "Skateboards are more fun than coins according to some versions of the story in an early draft of the book",
+          "zh": "滑板比硬币好玩（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Morty feels 'ashamed that he had betrayed Grandpa' and promises to earn the money back, learning to value trust over a purchase.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "$250",
-          "zh": "250美元"
-        },
-        {
           "en": "$1,250",
           "zh": "1,250美元"
         },
         {
-          "en": "$1,500",
-          "zh": "1,500美元"
-        },
-        {
           "en": "$880",
           "zh": "880美元"
+        },
+        {
+          "en": "$1,500 according to some versions of the story",
+          "zh": "1,500美元（按书中另一种说法）"
+        },
+        {
+          "en": "$250",
+          "zh": "250美元"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book's math question asks this directly: $1,500 (full value) minus $250 (what Morty got) equals $1,250 more.",

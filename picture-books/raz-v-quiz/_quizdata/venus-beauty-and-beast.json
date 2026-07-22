@@ -12,12 +12,24 @@
         "zh": "金星是以什么命名的？"
       },
       "options": [
-        {"en": "A Roman goddess of love and beauty", "zh": "罗马爱与美的女神"},
-        {"en": "A Greek god of war", "zh": "希腊战神"},
-        {"en": "A scientist", "zh": "一位科学家"},
-        {"en": "A mountain", "zh": "一座山"}
+        {
+          "en": "A Greek god of war according to some versions of the story",
+          "zh": "希腊战神（按书中另一种说法）"
+        },
+        {
+          "en": "A Roman goddess of love and beauty",
+          "zh": "罗马爱与美的女神"
+        },
+        {
+          "en": "A scientist",
+          "zh": "一位科学家"
+        },
+        {
+          "en": "A mountain",
+          "zh": "一座山"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Venus is named after the Roman goddess of love and beauty, the only planet named for a female figure.",
@@ -30,12 +42,24 @@
         "zh": "金星上的平均温度是多少？"
       },
       "options": [
-        {"en": "About 32 F, or 0 C", "zh": "约32华氏度（0摄氏度）"},
-        {"en": "About 240 F, or 116 C", "zh": "约240华氏度（116摄氏度）"},
-        {"en": "About 870 F, or 465 C", "zh": "约870华氏度（465摄氏度）"},
-        {"en": "About 2,000 F", "zh": "约2000华氏度"}
+        {
+          "en": "About 870 F, or 465 C",
+          "zh": "约870华氏度（465摄氏度）"
+        },
+        {
+          "en": "About 2,000 F",
+          "zh": "约2000华氏度"
+        },
+        {
+          "en": "About 240 F, or 116 C according to some versions of the story",
+          "zh": "约240华氏度（116摄氏度）（按书中另一种说法）"
+        },
+        {
+          "en": "About 32 F, or 0 C",
+          "zh": "约32华氏度（0摄氏度）"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the average temperature on Venus is 870 F, or 465 C.",
@@ -48,12 +72,24 @@
         "zh": "为什么金星如此极端炎热？"
       },
       "options": [
-        {"en": "It is closest to the Sun", "zh": "它离太阳最近"},
-        {"en": "A thick blanket of clouds traps heat, the greenhouse effect", "zh": "厚厚的云层困住热量，即温室效应"},
-        {"en": "It has no atmosphere", "zh": "它没有大气"},
-        {"en": "It is made of fire", "zh": "它由火构成"}
+        {
+          "en": "It is closest to the Sun according to some versions of the story",
+          "zh": "它离太阳最近（按书中另一种说法）"
+        },
+        {
+          "en": "It has no atmosphere",
+          "zh": "它没有大气"
+        },
+        {
+          "en": "It is made of fire",
+          "zh": "它由火构成"
+        },
+        {
+          "en": "A thick blanket of clouds traps heat, the greenhouse effect",
+          "zh": "厚厚的云层困住热量，即温室效应"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Venus is wrapped in thick clouds that trap the Sun's heat, creating a strong greenhouse effect.",
@@ -66,12 +102,24 @@
         "zh": "金星云层中像“雨滴”落下的是什么危险物质？"
       },
       "options": [
-        {"en": "Water", "zh": "水"},
-        {"en": "Sulfuric acid", "zh": "硫酸"},
-        {"en": "Snow", "zh": "雪"},
-        {"en": "Oxygen", "zh": "氧气"}
+        {
+          "en": "Sulfuric acid",
+          "zh": "硫酸"
+        },
+        {
+          "en": "Water",
+          "zh": "水"
+        },
+        {
+          "en": "Oxygen according to some versions of the story",
+          "zh": "氧气（按书中另一种说法）"
+        },
+        {
+          "en": "Snow",
+          "zh": "雪"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Raindrops of sulfuric acid sometimes fall from the clouds of Venus.",
@@ -84,10 +132,22 @@
         "zh": "金星表面哪个地貌是唯一以男性命名的？"
       },
       "options": [
-        {"en": "Aphrodite Terra", "zh": "阿佛洛狄忒高地"},
-        {"en": "Maxwell Montes", "zh": "麦克斯韦山脉"},
-        {"en": "Mauna Loa", "zh": "冒纳罗亚"},
-        {"en": "Mount Fuji", "zh": "富士山"}
+        {
+          "en": "Mount Fuji",
+          "zh": "富士山"
+        },
+        {
+          "en": "Maxwell Montes",
+          "zh": "麦克斯韦山脉"
+        },
+        {
+          "en": "Mauna Loa",
+          "zh": "冒纳罗亚"
+        },
+        {
+          "en": "Aphrodite Terra",
+          "zh": "阿佛洛狄忒高地"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -102,10 +162,22 @@
         "zh": "是谁发射了在金星着陆的“金星号”（Venera）探测器？"
       },
       "options": [
-        {"en": "The United States", "zh": "美国"},
-        {"en": "The Soviet Union, now Russia", "zh": "苏联（今俄罗斯）"},
-        {"en": "Japan", "zh": "日本"},
-        {"en": "The European Union", "zh": "欧盟"}
+        {
+          "en": "The European Union according to some versions of the story",
+          "zh": "欧盟（按书中另一种说法）"
+        },
+        {
+          "en": "The Soviet Union, now Russia",
+          "zh": "苏联（今俄罗斯）"
+        },
+        {
+          "en": "Japan",
+          "zh": "日本"
+        },
+        {
+          "en": "The United States",
+          "zh": "美国"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "美国的“麦哲伦号”探测器是如何了解金星表面的？"
       },
       "options": [
-        {"en": "By sending astronauts", "zh": "通过派宇航员"},
-        {"en": "By using advanced radar to make detailed pictures", "zh": "通过使用先进雷达绘制 detailed 图像"},
-        {"en": "By digging holes", "zh": "通过挖洞"},
-        {"en": "By asking telescopes", "zh": "通过望远镜询问"}
+        {
+          "en": "By sending astronauts according to some versions of the story",
+          "zh": "通过派宇航员（按书中另一种说法）"
+        },
+        {
+          "en": "By digging holes",
+          "zh": "通过挖洞"
+        },
+        {
+          "en": "By asking telescopes",
+          "zh": "通过望远镜询问"
+        },
+        {
+          "en": "By using advanced radar to make detailed pictures",
+          "zh": "通过使用先进雷达绘制 detailed 图像"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Magellan used advanced radar to produce sharp pictures of Venus's mountains and volcanoes.",
@@ -138,12 +222,24 @@
         "zh": "为什么金星上很难有生命存活？"
       },
       "options": [
-        {"en": "It is too cold", "zh": "太冷"},
-        {"en": "It is extremely hot and dry", "zh": "极端炎热又干燥"},
-        {"en": "It has too much water", "zh": "水太多"},
-        {"en": "It has no volcanoes", "zh": "没有火山"}
+        {
+          "en": "It has no volcanoes",
+          "zh": "没有火山"
+        },
+        {
+          "en": "It has too much water according to some versions of the story",
+          "zh": "水太多（按书中另一种说法）"
+        },
+        {
+          "en": "It is extremely hot and dry",
+          "zh": "极端炎热又干燥"
+        },
+        {
+          "en": "It is too cold",
+          "zh": "太冷"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Because Venus is so hot and dry, scientists agree no living things could survive there.",
@@ -156,12 +252,24 @@
         "zh": "作者称金星既是“美丽”又是“狂暴”，是为了说明——"
       },
       "options": [
-        {"en": "it is only pretty", "zh": "它只是好看"},
-        {"en": "it is both strangely beautiful and extremely hostile", "zh": "它既奇特美丽又极端不宜居（狂暴）"},
-        {"en": "it is ugly", "zh": "它很丑"},
-        {"en": "it is a star", "zh": "它是一颗恒星"}
+        {
+          "en": "it is both strangely beautiful and extremely hostile",
+          "zh": "它既奇特美丽又极端不宜居（狂暴）"
+        },
+        {
+          "en": "it is a star",
+          "zh": "它是一颗恒星"
+        },
+        {
+          "en": "it is ugly",
+          "zh": "它很丑"
+        },
+        {
+          "en": "it is only pretty according to some versions of the story",
+          "zh": "它只是好看（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book ends by calling Venus both beauty and beast, strange yet beautiful.",
@@ -174,12 +282,24 @@
         "zh": "作者对金星的总体语气是怎样的？"
       },
       "options": [
-        {"en": "Fear and dislike", "zh": "恐惧与厌恶"},
-        {"en": "Fascination and respect for a strange, special world", "zh": "对这颗奇特而特别的星球充满好奇与敬意"},
-        {"en": "Boredom", "zh": "厌倦"},
-        {"en": "Anger", "zh": "愤怒"}
+        {
+          "en": "Boredom",
+          "zh": "厌倦"
+        },
+        {
+          "en": "Fear and dislike according to some versions of the story",
+          "zh": "恐惧与厌恶（按书中另一种说法）"
+        },
+        {
+          "en": "Fascination and respect for a strange, special world",
+          "zh": "对这颗奇特而特别的星球充满好奇与敬意"
+        },
+        {
+          "en": "Anger",
+          "zh": "愤怒"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author admires Venus as a special and strange world worth studying with science.",

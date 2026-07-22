@@ -12,10 +12,22 @@
         "zh": "伊丽莎白·都铎(Elizabeth Tudor)是哪一天、由谁生下的？"
       },
       "options": [
-        {"en": "On September 7, 1533, to King Henry VIII and Anne Boleyn", "zh": "1533年9月7日，由国王亨利八世和安妮·博林所生"},
-        {"en": "On September 7, 1533, to King Henry VIII and Jane Seymour", "zh": "1533年9月7日，由国王亨利八世和简·西摩所生"},
-        {"en": "In 1558, to King Philip II of Spain", "zh": "1558年，由西班牙国王腓力二世所生"},
-        {"en": "In 1603, to Mary, Queen of Scots", "zh": "1603年，由苏格兰女王玛丽所生"}
+        {
+          "en": "On September 7, 1533, to King Henry VIII and Anne Boleyn",
+          "zh": "1533年9月7日，由国王亨利八世和安妮·博林所生"
+        },
+        {
+          "en": "In 1603, to Mary, Queen of Scots",
+          "zh": "1603年，由苏格兰女王玛丽所生"
+        },
+        {
+          "en": "In 1558, to King Philip II of Spain",
+          "zh": "1558年，由西班牙国王腓力二世所生"
+        },
+        {
+          "en": "On September 7, 1533, to King Henry VIII and Jane Seymour according to some versions of the story",
+          "zh": "1533年9月7日，由国王亨利八世和简·西摩所生（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "伊丽莎白的姐姐玛丽，为什么得到「血腥玛丽」(Bloody Mary) 这个绰号？"
       },
       "options": [
-        {"en": "She was known for strict punishments and often ordered Protestants to be put to death", "zh": "她以严厉惩罚闻名，常常下令处死新教徒"},
-        {"en": "She started the Church of England", "zh": "她创立了英国国教会"},
-        {"en": "She won a famous battle against Spain", "zh": "她打赢了一场对西班牙的著名战役"},
-        {"en": "She loved bright red clothing", "zh": "她特别喜欢鲜红色的衣服"}
+        {
+          "en": "She loved bright red clothing",
+          "zh": "她特别喜欢鲜红色的衣服"
+        },
+        {
+          "en": "She was known for strict punishments and often ordered Protestants to be put to death",
+          "zh": "她以严厉惩罚闻名，常常下令处死新教徒"
+        },
+        {
+          "en": "She won a famous battle against Spain according to some versions of the story in an early draft of the book",
+          "zh": "她打赢了一场对西班牙的著名战役（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "She started the Church of England",
+          "zh": "她创立了英国国教会"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Mary 'was known for her strict punishments and often ordered Protestants to be put to death. This earned her the nickname “Bloody Mary.”'",
@@ -48,12 +72,24 @@
         "zh": "1588年，英格兰和西班牙之间发生了什么？"
       },
       "options": [
-        {"en": "King Philip II of Spain sent ships to invade England, but the English defeated them", "zh": "西班牙国王腓力二世派船入侵英格兰，却被英国人击败"},
-        {"en": "England invaded Spain and won new land there", "zh": "英格兰入侵西班牙，并在那里夺得新领地"},
-        {"en": "Elizabeth married King Philip II of Spain", "zh": "伊丽莎白嫁给了西班牙国王腓力二世"},
-        {"en": "A peace treaty was signed ending all fighting", "zh": "双方签署和平条约，结束了所有战事"}
+        {
+          "en": "A peace treaty was signed ending all fighting",
+          "zh": "双方签署和平条约，结束了所有战事"
+        },
+        {
+          "en": "Elizabeth married King Philip II of Spain",
+          "zh": "伊丽莎白嫁给了西班牙国王腓力二世"
+        },
+        {
+          "en": "England invaded Spain and won new land there according to some versions of the story",
+          "zh": "英格兰入侵西班牙，并在那里夺得新领地（按书中另一种说法）"
+        },
+        {
+          "en": "King Philip II of Spain sent ships to invade England, but the English defeated them",
+          "zh": "西班牙国王腓力二世派船入侵英格兰，却被英国人击败"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In 1588, 'Philip ordered a large group of ships to set sail and invade England.' English ships forced the Spanish north, and 'Many Spanish ships crashed on the rocky shores.'",
@@ -66,12 +102,24 @@
         "zh": "在词汇表里，「plotted」是什么意思？"
       },
       "options": [
-        {"en": "Secretly planned to do something, often something illegal or evil", "zh": "秘密地计划去做某事，常指非法或邪恶的事"},
-        {"en": "To draw a map of land", "zh": "绘制一块土地的地图"},
-        {"en": "To farm the soil for crops", "zh": "耕种土地种庄稼"},
-        {"en": "To rule a country as king or queen", "zh": "作为国王或女王统治一个国家"}
+        {
+          "en": "To farm the soil for crops",
+          "zh": "耕种土地种庄稼"
+        },
+        {
+          "en": "To draw a map of land",
+          "zh": "绘制一块土地的地图"
+        },
+        {
+          "en": "Secretly planned to do something, often something illegal or evil",
+          "zh": "秘密地计划去做某事，常指非法或邪恶的事"
+        },
+        {
+          "en": "To rule a country as king or queen according to some versions of the story",
+          "zh": "作为国王或女王统治一个国家（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines plotted as 'secretly planned to do something, often something illegal or evil' (p. 7) — used for the plans against Elizabeth and Mary.",
@@ -84,12 +132,24 @@
         "zh": "在词汇表里，「invade」是什么意思？"
       },
       "options": [
-        {"en": "To enter aggressively to conquer, weaken, or injure", "zh": "带着攻击性地进入，以征服、削弱或伤害"},
-        {"en": "To make peace with another country", "zh": "与另一国讲和"},
-        {"en": "To explore new places for trade", "zh": "为贸易探索新地方"},
-        {"en": "To build a strong navy", "zh": "建立强大的海军"}
+        {
+          "en": "To make peace with another country according to some versions of the story",
+          "zh": "与另一国讲和（按书中另一种说法）"
+        },
+        {
+          "en": "To explore new places for trade",
+          "zh": "为贸易探索新地方"
+        },
+        {
+          "en": "To build a strong navy",
+          "zh": "建立强大的海军"
+        },
+        {
+          "en": "To enter aggressively to conquer, weaken, or injure",
+          "zh": "带着攻击性地进入，以征服、削弱或伤害"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines invade as 'to enter aggressively to conquer, weaken, or injure' (p. 11) — this is what Philip II's ships did to England in 1588.",
@@ -102,12 +162,24 @@
         "zh": "伊丽莎白的宗教信仰和玛丽有什么不同？伊丽莎白当女王后是如何处理宗教问题的？"
       },
       "options": [
-        {"en": "Elizabeth was Protestant but worked with both Catholics and Protestants to make peace", "zh": "伊丽莎白是新教徒，但她同时与天主教徒和新教徒合作，试图实现和平"},
-        {"en": "Elizabeth was Catholic and killed all Protestants", "zh": "伊丽莎白是天主教徒，并处死了所有新教徒"},
-        {"en": "Elizabeth had no religion and banned all churches", "zh": "伊丽莎白没有信仰，并禁止一切教会"},
-        {"en": "Elizabeth was Protestant and forced everyone to become Protestant by force", "zh": "伊丽莎白是新教徒，并用武力强迫所有人改信新教"}
+        {
+          "en": "Elizabeth had no religion and banned all churches",
+          "zh": "伊丽莎白没有信仰，并禁止一切教会"
+        },
+        {
+          "en": "Elizabeth was Protestant and forced everyone to become Protestant by force according to some versions of the story",
+          "zh": "伊丽莎白是新教徒，并用武力强迫所有人改信新教（按书中另一种说法）"
+        },
+        {
+          "en": "Elizabeth was Protestant but worked with both Catholics and Protestants to make peace",
+          "zh": "伊丽莎白是新教徒，但她同时与天主教徒和新教徒合作，试图实现和平"
+        },
+        {
+          "en": "Elizabeth was Catholic and killed all Protestants",
+          "zh": "伊丽莎白是天主教徒，并处死了所有新教徒"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Mary was Catholic and persecuted Protestants, while 'Elizabeth, on the other hand, was Protestant.' As queen she 'had an open mind' and 'worked with both Catholics and Protestants and tried to make peace.'",
@@ -120,10 +192,22 @@
         "zh": "为什么伊丽莎白在位时期被称为英国历史上的「黄金时代」(Golden Age)？"
       },
       "options": [
-        {"en": "There was growth in education and the arts, a strong government and navy, exploration, and trade, making England a global empire", "zh": "教育艺术繁荣、政府海军强大、鼓励探索与贸易，使英格兰成为日不落帝国"},
-        {"en": "Because she filled the treasury with gold from the Americas", "zh": "因为她用来自美洲的黄金填满了国库"},
-        {"en": "Because she won a war against France every year", "zh": "因为她每年都打赢一场对法国的战争"},
-        {"en": "Because she discovered a new continent", "zh": "因为她发现了一块新大陆"}
+        {
+          "en": "There was growth in education and the arts, a strong government and navy, exploration, and trade, making England a global empire",
+          "zh": "教育艺术繁荣、政府海军强大、鼓励探索与贸易，使英格兰成为日不落帝国"
+        },
+        {
+          "en": "Because she won a war against France every year",
+          "zh": "因为她每年都打赢一场对法国的战争"
+        },
+        {
+          "en": "Because she filled the treasury with gold from the Americas according to some versions of the story in an early draft of the book",
+          "zh": "因为她用来自美洲的黄金填满了国库（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Because she discovered a new continent",
+          "zh": "因为她发现了一块新大陆"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "这本书的「聚焦问题」(Focus Question) 是什么？也就是作者希望你思考的核心问题。"
       },
       "options": [
-        {"en": "How did Elizabeth set a strong example as queen of England?", "zh": "伊丽莎白是怎样为英格兰女王树立强有力榜样的？"},
-        {"en": "Why did Henry VIII have six wives?", "zh": "亨利八世为什么有六任妻子？"},
-        {"en": "How was the Spanish Armada defeated?", "zh": "西班牙无敌舰队是怎么被击败的？"},
-        {"en": "Where did the Tudor family come from?", "zh": "都铎家族是从哪里来的？"}
+        {
+          "en": "Where did the Tudor family come from?",
+          "zh": "都铎家族是从哪里来的？"
+        },
+        {
+          "en": "How did Elizabeth set a strong example as queen of England?",
+          "zh": "伊丽莎白是怎样为英格兰女王树立强有力榜样的？"
+        },
+        {
+          "en": "How was the Spanish Armada defeated? according to some versions of the story",
+          "zh": "西班牙无敌舰队是怎么被击败的？（按书中另一种说法）"
+        },
+        {
+          "en": "Why did Henry VIII have six wives?",
+          "zh": "亨利八世为什么有六任妻子？"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book opens with the Focus Question 'How did Elizabeth set a strong example as queen of England?' and the whole book answers it through her life and successes.",
@@ -156,10 +252,22 @@
         "zh": "面对众多向她求婚的人，伊丽莎白是怎么做的？"
       },
       "options": [
-        {"en": "She received many offers but did not accept any of them", "zh": "她收到过许多求婚，但没有接受任何一桩"},
-        {"en": "She married King Philip II of Spain", "zh": "她嫁给了西班牙国王腓力二世"},
-        {"en": "She married her cousin Mary, Queen of Scots", "zh": "她嫁给了表亲苏格兰女王玛丽"},
-        {"en": "She married a famous English explorer", "zh": "她嫁给了一位著名的英国探险家"}
+        {
+          "en": "She received many offers but did not accept any of them",
+          "zh": "她收到过许多求婚，但没有接受任何一桩"
+        },
+        {
+          "en": "She married King Philip II of Spain",
+          "zh": "她嫁给了西班牙国王腓力二世"
+        },
+        {
+          "en": "She married her cousin Mary, Queen of Scots according to some versions of the story",
+          "zh": "她嫁给了表亲苏格兰女王玛丽（按书中另一种说法）"
+        },
+        {
+          "en": "She married a famous English explorer",
+          "zh": "她嫁给了一位著名的英国探险家"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "根据这本书，伊丽莎白证明了什么？她留下了怎样长久的影响？"
       },
       "options": [
-        {"en": "She proved a woman could be a successful ruler and, by naming James VI, united Scotland and England", "zh": "她证明了女性也能成为成功的统治者，并通过指定詹姆士六世，统一了苏格兰和英格兰"},
-        {"en": "She proved that only men should rule countries", "zh": "她证明了只有男性才应该统治国家"},
-        {"en": "She proved England should never have a navy", "zh": "她证明了英格兰不该拥有海军"},
-        {"en": "She proved that queens must always marry", "zh": "她证明了女王都必须结婚"}
+        {
+          "en": "She proved England should never have a navy",
+          "zh": "她证明了英格兰不该拥有海军"
+        },
+        {
+          "en": "She proved a woman could be a successful ruler and, by naming James VI, united Scotland and England",
+          "zh": "她证明了女性也能成为成功的统治者，并通过指定詹姆士六世，统一了苏格兰和英格兰"
+        },
+        {
+          "en": "She proved that queens must always marry",
+          "zh": "她证明了女王都必须结婚"
+        },
+        {
+          "en": "She proved that only men should rule countries according to some versions of the story in an early draft of the book",
+          "zh": "她证明了只有男性才应该统治国家（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says Elizabeth 'proved that a woman could be a successful ruler' and, by naming Protestant James VI (son of Mary, Queen of Scots) as king, 'united Scotland and England.'",

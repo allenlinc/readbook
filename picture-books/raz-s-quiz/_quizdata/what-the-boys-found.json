@@ -17,8 +17,8 @@
           "zh": "四个少年和一只狗，在1940年"
         },
         {
-          "en": "A team of archaeologists in 1900",
-          "zh": "一支考古队，在1900年"
+          "en": "A team of archaeologists in 1900 according to some versions of the story",
+          "zh": "一支考古队，在1900年（按书中另一种说法）"
         },
         {
           "en": "A single farmer in 1800",
@@ -51,8 +51,8 @@
           "zh": "一条河把它冲开"
         },
         {
-          "en": "An earthquake split the ground",
-          "zh": "地震裂开了地面"
+          "en": "An earthquake split the ground according to some versions of the story",
+          "zh": "地震裂开了地面（按书中另一种说法）"
         },
         {
           "en": "Workers dug for gold",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Marcel Ravidat",
-          "zh": "马塞尔·拉维达（Marcel Ravidat）"
-        },
-        {
           "en": "The village mayor",
           "zh": "村长"
         },
         {
-          "en": "An archaeologist",
-          "zh": "一位考古学家"
+          "en": "An archaeologist according to some versions of the story",
+          "zh": "一位考古学家（按书中另一种说法）"
         },
         {
           "en": "Cliff the bully",
           "zh": "霸凌者克利夫"
+        },
+        {
+          "en": "Marcel Ravidat",
+          "zh": "马塞尔·拉维达（Marcel Ravidat）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'they decided that Marcel should go forward alone' with the lantern.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Horses, cows, stags, and bison",
-          "zh": "马、牛、雄鹿和野牛"
-        },
-        {
-          "en": "Only fish and snakes",
-          "zh": "只有鱼和蛇"
+          "en": "Cats and dogs",
+          "zh": "猫和狗"
         },
         {
           "en": "Dinosaurs",
           "zh": "恐龙"
         },
         {
-          "en": "Cats and dogs",
-          "zh": "猫和狗"
+          "en": "Horses, cows, stags, and bison",
+          "zh": "马、牛、雄鹿和野牛"
+        },
+        {
+          "en": "Only fish and snakes according to some versions of the story",
+          "zh": "只有鱼和蛇（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Marcel saw 'Images of horses, cows, stags, and bison' on the walls.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "About 17,000 years old",
-          "zh": "约17000年"
+          "en": "About 1,000 years old",
+          "zh": "约1000年"
         },
         {
           "en": "About 100 years old",
           "zh": "约100年"
         },
         {
-          "en": "About 1,000 years old",
-          "zh": "约1000年"
-        },
-        {
           "en": "About 1 million years old",
           "zh": "约100万年"
+        },
+        {
+          "en": "About 17,000 years old",
+          "zh": "约17000年"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After study, scientists found 'The pictures... had been created by Stone Age people who lived about 17,000 years earlier.'",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "The scientists lost their tools according to some versions of the story",
+          "zh": "科学家弄丢了工具（按书中另一种说法）"
+        },
+        {
           "en": "They were not made with materials containing the needed carbon",
           "zh": "它们并非用含所需碳的材料制成"
         },
@@ -171,15 +175,11 @@
           "zh": "洞穴太暗"
         },
         {
-          "en": "The scientists lost their tools",
-          "zh": "科学家弄丢了工具"
-        },
-        {
           "en": "The paintings were too new",
           "zh": "壁画太新了"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says charcoal could be radiocarbon dated, 'But they found that these pictures could not be dated in this way.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "They burned animal fat in early lamps",
-          "zh": "他们用早期灯具燃烧动物脂肪照明"
+          "en": "They used glow-in-the-dark paint according to some versions of the story",
+          "zh": "他们用夜光颜料（按书中另一种说法）"
         },
         {
-          "en": "They used electric lights",
-          "zh": "他们用电灯"
+          "en": "They burned animal fat in early lamps",
+          "zh": "他们用早期灯具燃烧动物脂肪照明"
         },
         {
           "en": "They carried the sun inside",
           "zh": "他们把太阳带进洞里"
         },
         {
-          "en": "They used glow-in-the-dark paint",
-          "zh": "他们用夜光颜料"
+          "en": "They used electric lights",
+          "zh": "他们用电灯"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book concludes: 'Stone Age artists lit their workspace by burning lamps filled with animal fat.'",
@@ -231,12 +231,12 @@
           "zh": "挂食物"
         },
         {
-          "en": "To let air in",
-          "zh": "通风"
+          "en": "To store water according to some versions of the story",
+          "zh": "储水（按书中另一种说法）"
         },
         {
-          "en": "To store water",
-          "zh": "储水"
+          "en": "To let air in",
+          "zh": "通风"
         }
       ],
       "answer": 0,
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "A kind of animal fat according to some versions of the story in an early draft of the book",
+          "zh": "一种动物脂肪（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "Sculpture in which the design is raised slightly from the surface",
           "zh": "一种设计略微从表面凸起的雕塑"
         },
@@ -263,13 +267,9 @@
         {
           "en": "A stone tool",
           "zh": "一种石器"
-        },
-        {
-          "en": "A kind of animal fat",
-          "zh": "一种动物脂肪"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines bas-relief as 'sculpture in which the design is raised slightly from the surface but is still attached.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To inform readers about the discovery and scientific mystery of cave art",
-          "zh": "向读者介绍洞穴艺术的发现与科学之谜"
-        },
-        {
-          "en": "To tell a scary ghost story",
-          "zh": "讲一个吓人的鬼故事"
+          "en": "To sell cave tours",
+          "zh": "推销洞穴游览"
         },
         {
           "en": "To teach how to paint",
           "zh": "教人如何画画"
         },
         {
-          "en": "To sell cave tours",
-          "zh": "推销洞穴游览"
+          "en": "To inform readers about the discovery and scientific mystery of cave art",
+          "zh": "向读者介绍洞穴艺术的发现与科学之谜"
+        },
+        {
+          "en": "To tell a scary ghost story according to some versions of the story in an early draft of the book",
+          "zh": "讲一个吓人的鬼故事（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The subtitle is 'An Art History Mystery' and the book explains how scientists studied the Lascaux cave.",

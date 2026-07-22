@@ -17,8 +17,8 @@
           "zh": "布宜诺斯艾利斯"
         },
         {
-          "en": "Córdoba",
-          "zh": "科尔多瓦"
+          "en": "Córdoba according to some versions of the story",
+          "zh": "科尔多瓦（按书中另一种说法）"
         },
         {
           "en": "Rosario",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "Third according to some versions of the story",
+          "zh": "第三（按书中另一种说法）"
+        },
+        {
           "en": "First",
           "zh": "第一"
         },
         {
-          "en": "Eighth",
-          "zh": "第八"
-        },
-        {
-          "en": "Third",
-          "zh": "第三"
-        },
-        {
           "en": "Fifth",
           "zh": "第五"
+        },
+        {
+          "en": "Eighth",
+          "zh": "第八"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'Argentina is the second-largest country in South America and the eighth-largest country in the world.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "Mountains",
+          "zh": "山脉"
+        },
+        {
           "en": "The largest areas that some countries are divided into",
           "zh": "某些国家划分出的最大区域"
         },
         {
-          "en": "Small villages",
-          "zh": "小村庄"
+          "en": "Small villages according to some versions of the story",
+          "zh": "小村庄（按书中另一种说法）"
         },
         {
           "en": "Rivers",
           "zh": "河流"
-        },
-        {
-          "en": "Mountains",
-          "zh": "山脉"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines provinces as 'the largest areas that some countries are divided into (p. 4).' The book notes Argentina has 23 provinces.",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "Mountains",
+          "zh": "山脉"
+        },
+        {
           "en": "South American cowboys",
           "zh": "南美牛仔"
         },
@@ -111,15 +115,11 @@
           "zh": "本土树木"
         },
         {
-          "en": "A kind of food",
-          "zh": "一种食物"
-        },
-        {
-          "en": "Mountains",
-          "zh": "山脉"
+          "en": "A kind of food according to some versions of the story",
+          "zh": "一种食物（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The glossary defines gaucho as 'a cowboy of the South American grassy plains (p. 12).'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Tallest buildings",
-          "zh": "最高的建筑"
-        },
-        {
-          "en": "Largest cities",
-          "zh": "最大的城市"
-        },
-        {
           "en": "Seven natural wonders",
           "zh": "七大自然奇观"
         },
         {
           "en": "Longest rivers",
           "zh": "最长的河流"
+        },
+        {
+          "en": "Largest cities",
+          "zh": "最大的城市"
+        },
+        {
+          "en": "Tallest buildings according to some versions of the story",
+          "zh": "最高的建筑（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'Iguazú Falls are one of the seven natural wonders of the world.'",
@@ -163,8 +163,12 @@
       },
       "options": [
         {
-          "en": "They are the shortest river",
-          "zh": "它们是最短的河流"
+          "en": "They are the shortest river according to some versions of the story",
+          "zh": "它们是最短的河流（按书中另一种说法）"
+        },
+        {
+          "en": "They are the smallest ocean",
+          "zh": "它们是最小的海洋"
         },
         {
           "en": "They are the longest mountain chain in the world",
@@ -173,13 +177,9 @@
         {
           "en": "They are the biggest desert",
           "zh": "它们是最大的沙漠"
-        },
-        {
-          "en": "They are the smallest ocean",
-          "zh": "它们是最小的海洋"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the Andes 'is the longest mountain chain in the world' at about 7,242 km long.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
+          "en": "Coffee according to some versions of the story",
+          "zh": "咖啡（按书中另一种说法）"
+        },
+        {
           "en": "Yerba maté",
           "zh": "马黛茶"
         },
         {
-          "en": "Coffee",
-          "zh": "咖啡"
+          "en": "Milk",
+          "zh": "牛奶"
         },
         {
           "en": "Soda",
           "zh": "汽水"
-        },
-        {
-          "en": "Milk",
-          "zh": "牛奶"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'Many people in Argentina drink a tea called yerba maté. They say it gives them energy.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Many different peoples came together to form the nation",
-          "zh": "许多不同民族汇聚在一起组成了这个国家"
-        },
-        {
-          "en": "It is a very hot country",
-          "zh": "它是一个很热的国家"
+          "en": "It has no cities",
+          "zh": "它没有城市"
         },
         {
           "en": "It is a small country",
           "zh": "它是一个小国"
         },
         {
-          "en": "It has no cities",
-          "zh": "它没有城市"
+          "en": "Many different peoples came together to form the nation",
+          "zh": "许多不同民族汇聚在一起组成了这个国家"
+        },
+        {
+          "en": "It is a very hot country according to some versions of the story",
+          "zh": "它是一个很热的国家（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explains: 'People call Argentina a \"melting pot.\" This is because many different kinds of people came together to form a new nation.'",
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "1973 according to some versions of the story",
+          "zh": "1973年（按书中另一种说法）"
+        },
+        {
           "en": "1816",
           "zh": "1816年"
         },
@@ -263,13 +267,9 @@
         {
           "en": "1946",
           "zh": "1946年"
-        },
-        {
-          "en": "1973",
-          "zh": "1973年"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'In 1946, the people elected Juan Perón president.'",
@@ -287,16 +287,16 @@
           "zh": "西班牙语"
         },
         {
-          "en": "Portuguese",
-          "zh": "葡萄牙语"
+          "en": "French",
+          "zh": "法语"
         },
         {
           "en": "English",
           "zh": "英语"
         },
         {
-          "en": "French",
-          "zh": "法语"
+          "en": "Portuguese",
+          "zh": "葡萄牙语"
         }
       ],
       "answer": 0,

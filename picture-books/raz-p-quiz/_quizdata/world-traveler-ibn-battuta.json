@@ -12,12 +12,24 @@
         "zh": "伊本·白图泰出生在何处、何时？他又学习了什么？"
       },
       "options": [
-        { "en": "In Spain in 1354, he studied medicine", "zh": "1354年生于西班牙，学医" },
-        { "en": "In Morocco, northern Africa, in 1304, he studied law", "zh": "1304年生于北非的摩洛哥，学习法律" },
-        { "en": "In China in 1325, he studied sailing", "zh": "1325年生于中国，学习航海" },
-        { "en": "In India in 1334, he studied farming", "zh": "1334年生于印度，学习农耕" }
+        {
+          "en": "In Morocco, northern Africa, in 1304, he studied law",
+          "zh": "1304年生于北非的摩洛哥，学习法律"
+        },
+        {
+          "en": "In China in 1325, he studied sailing according to some versions of the story",
+          "zh": "1325年生于中国，学习航海（按书中另一种说法）"
+        },
+        {
+          "en": "In Spain in 1354, he studied medicine",
+          "zh": "1354年生于西班牙，学医"
+        },
+        {
+          "en": "In India in 1334, he studied farming",
+          "zh": "1334年生于印度，学习农耕"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"Abu Ibn Battuta was born in 1304 in the country of Morocco in northern Africa. He studied law when he was a young man.\"",
@@ -30,12 +42,24 @@
         "zh": "1325年，21岁的伊本·白图泰动身前往哪里？那里为什么重要？"
       },
       "options": [
-        { "en": "To China, to meet the emperor", "zh": "去中国，面见皇帝" },
-        { "en": "To Mecca, a holy place for Muslims", "zh": "去麦加，那是穆斯林的圣地" },
-        { "en": "To Spain, to study law", "zh": "去西班牙，学习法律" },
-        { "en": "To India, to become a judge", "zh": "去印度，当法官" }
+        {
+          "en": "To Spain, to study law",
+          "zh": "去西班牙，学习法律"
+        },
+        {
+          "en": "To India, to become a judge",
+          "zh": "去印度，当法官"
+        },
+        {
+          "en": "To China, to meet the emperor according to some versions of the story",
+          "zh": "去中国，面见皇帝（按书中另一种说法）"
+        },
+        {
+          "en": "To Mecca, a holy place for Muslims",
+          "zh": "去麦加，那是穆斯林的圣地"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states he set out in 1325 \"to the city of Mecca... Mecca is a holy place for Muslims.\" Many Muslims try to visit Mecca at least once.",
@@ -48,10 +72,22 @@
         "zh": "书中配有地图，并标出“旅行年份”（如1325-1327、1330-1332）。这些地图标注帮助读者做什么？"
       },
       "options": [
-        { "en": "Learn how to draw pictures", "zh": "学习如何画画" },
-        { "en": "Follow the route and order of his journeys", "zh": "跟随他的路线和旅程先后顺序" },
-        { "en": "Find out what food he ate", "zh": "弄清他吃了什么食物" },
-        { "en": "Count the number of bears", "zh": "数一数有多少只熊" }
+        {
+          "en": "Count the number of bears",
+          "zh": "数一数有多少只熊"
+        },
+        {
+          "en": "Follow the route and order of his journeys",
+          "zh": "跟随他的路线和旅程先后顺序"
+        },
+        {
+          "en": "Find out what food he ate according to some versions of the story",
+          "zh": "弄清他吃了什么食物（按书中另一种说法）"
+        },
+        {
+          "en": "Learn how to draw pictures",
+          "zh": "学习如何画画"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
@@ -66,10 +102,22 @@
         "zh": "作者为什么要告诉我们，白图泰总是“借着火炬、在夜晚的凉意中”跟着大队伍旅行？"
       },
       "options": [
-        { "en": "To show that travel was dangerous and needed safety in numbers", "zh": "为了说明旅途危险，需要成群结队来保证安全" },
-        { "en": "To explain that he was afriad of the dark", "zh": "为了说明他怕黑" },
-        { "en": "To describe his favorite meal", "zh": "为了描写他最爱的一餐" },
-        { "en": "To say he only traveled in winter", "zh": "为了说他只在冬天旅行" }
+        {
+          "en": "To show that travel was dangerous and needed safety in numbers",
+          "zh": "为了说明旅途危险，需要成群结队来保证安全"
+        },
+        {
+          "en": "To describe his favorite meal",
+          "zh": "为了描写他最爱的一餐"
+        },
+        {
+          "en": "To say he only traveled in winter",
+          "zh": "为了说他只在冬天旅行"
+        },
+        {
+          "en": "To explain that he was afriad of the dark according to some versions of the story",
+          "zh": "为了说明他怕黑（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -84,12 +132,24 @@
         "zh": "在印度，统治者起初欢迎他之后，伊本·白图泰遭遇了什么？"
       },
       "options": [
-        { "en": "He was made a judge, then suspected of treason, guarded, but later forgiven", "zh": "他先被任命为法官，后被怀疑叛国、遭到看管，但最终被原谅" },
-        { "en": "He became the ruler's cook", "zh": "他成了统治者的厨师" },
-        { "en": "He left immediately for China", "zh": "他立刻动身去了中国" },
-        { "en": "He opened a school", "zh": "他开办了一所学校" }
+        {
+          "en": "He opened a school",
+          "zh": "他开办了一所学校"
+        },
+        {
+          "en": "He left immediately for China according to some versions of the story in an early draft of the book",
+          "zh": "他立刻动身去了中国（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He became the ruler's cook",
+          "zh": "他成了统治者的厨师"
+        },
+        {
+          "en": "He was made a judge, then suspected of treason, guarded, but later forgiven",
+          "zh": "他先被任命为法官，后被怀疑叛国、遭到看管，但最终被原谅"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the ruler \"made him a judge,\" later \"suspected Ibn Battuta of treason and placed him under guard,\" and \"Eventually, the ruler forgave Ibn Battuta.\"",
@@ -102,12 +162,24 @@
         "zh": "1346年白图泰到达中国时，就连穷僧人和乞丐身上的什么让他感到惊讶？"
       },
       "options": [
-        { "en": "They rode camels", "zh": "他们骑着骆驼" },
-        { "en": "They wore clothing made of silk", "zh": "他们穿着丝绸做的衣服" },
-        { "en": "They spoke Arabic", "zh": "他们说阿拉伯语" },
-        { "en": "They lived in trees", "zh": "他们住在树上" }
+        {
+          "en": "They rode camels",
+          "zh": "他们骑着骆驼"
+        },
+        {
+          "en": "They lived in trees according to some versions of the story",
+          "zh": "他们住在树上（按书中另一种说法）"
+        },
+        {
+          "en": "They wore clothing made of silk",
+          "zh": "他们穿着丝绸做的衣服"
+        },
+        {
+          "en": "They spoke Arabic",
+          "zh": "他们说阿拉伯语"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"He was surprised that even poor monks and beggars in China had clothing made of silk. Silk was a very expensive fabric in most parts of the world.\"",
@@ -120,12 +192,24 @@
         "zh": "书中说白图泰旅行了75000英里——“相当于绕地球三圈”。作者分享这个数字的目的是什么？"
       },
       "options": [
-        { "en": "To prove he was an explorer of unknown lands", "zh": "为了证明他是探索未知之地的探险家" },
-        { "en": "To show the huge distance he traveled and why he is called a great traveler", "zh": "为了展示他旅行距离之远，以及他为何被称为伟大的旅行家" },
-        { "en": "To teach math", "zh": "为了教数学" },
-        { "en": "To describe the size of Morocco", "zh": "为了描写摩洛哥的面积" }
+        {
+          "en": "To teach math",
+          "zh": "为了教数学"
+        },
+        {
+          "en": "To describe the size of Morocco",
+          "zh": "为了描写摩洛哥的面积"
+        },
+        {
+          "en": "To show the huge distance he traveled and why he is called a great traveler",
+          "zh": "为了展示他旅行距离之远，以及他为何被称为伟大的旅行家"
+        },
+        {
+          "en": "To prove he was an explorer of unknown lands according to some versions of the story",
+          "zh": "为了证明他是探索未知之地的探险家（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author uses the distance to help readers grasp how far he went, supporting the claim that he \"remains one of the greatest travelers in history.\"",
@@ -138,10 +222,22 @@
         "zh": "1349年白图泰终于回到摩洛哥老家时，他已经离家多久、多少岁了？"
       },
       "options": [
-        { "en": "Gone 10 years, age 31", "zh": "离家10年，31岁" },
-        { "en": "Gone 24 years, age 45", "zh": "离家24年，45岁" },
-        { "en": "Gone 5 years, age 26", "zh": "离家5年，26岁" },
-        { "en": "Gone 50 years, age 80", "zh": "离家50年，80岁" }
+        {
+          "en": "Gone 10 years, age 31 according to some versions of the story",
+          "zh": "离家10年，31岁（按书中另一种说法）"
+        },
+        {
+          "en": "Gone 24 years, age 45",
+          "zh": "离家24年，45岁"
+        },
+        {
+          "en": "Gone 50 years, age 80",
+          "zh": "离家50年，80岁"
+        },
+        {
+          "en": "Gone 5 years, age 26",
+          "zh": "离家5年，26岁"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -156,12 +252,24 @@
         "zh": "在前往中国的路上，白图泰在最终到达之前遭遇了一连串什么麻烦？"
       },
       "options": [
-        { "en": "His group was attacked by rebels, their ships were lost in a storm, then a ruler of Sumatra gave him a ship", "zh": "他的队伍遭叛军袭击、船只被风暴毁掉，后来苏门答腊的统治者送了他一艘船" },
-        { "en": "He got lost in a desert and never left India", "zh": "他在沙漠中迷路，再也没离开印度" },
-        { "en": "He was made emperor of China", "zh": "他当上了中国的皇帝" },
-        { "en": "He traveled by airplane", "zh": "他乘飞机旅行" }
+        {
+          "en": "He traveled by airplane",
+          "zh": "他乘飞机旅行"
+        },
+        {
+          "en": "His group was attacked by rebels, their ships were lost in a storm, then a ruler of Sumatra gave him a ship",
+          "zh": "他的队伍遭叛军袭击、船只被风暴毁掉，后来苏门答腊的统治者送了他一艘船"
+        },
+        {
+          "en": "He got lost in a desert and never left India according to some versions of the story in an early draft of the book",
+          "zh": "他在沙漠中迷路，再也没离开印度（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He was made emperor of China",
+          "zh": "他当上了中国的皇帝"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book connects the events: rebels attacked and split the group, a storm destroyed the ships and lost the treasure, he stayed in islands, and \"the Muslim ruler of Sumatra gave him a ship\" to reach China in 1346.",
@@ -174,12 +282,24 @@
         "zh": "书中说白图泰“不是探险家”，因为他“没有去过未知之地”，却仍是“史上最伟大的旅行家之一”。作者想表达什么？"
       },
       "options": [
-        { "en": "That discovering new lands is the only way to be great", "zh": "“发现新陆地”是成伟大的唯一途径" },
-        { "en": "That traveling far and widely across many countries is impressive even without finding new lands", "zh": "“走得很远、游历众多国家”本身就了不起，哪怕没有发现新陆地" },
-        { "en": "That he was a poor traveler", "zh": "他是个糟糕的旅行者" },
-        { "en": "That he never left Africa", "zh": "他从未离开过非洲" }
+        {
+          "en": "That traveling far and widely across many countries is impressive even without finding new lands",
+          "zh": "“走得很远、游历众多国家”本身就了不起，哪怕没有发现新陆地"
+        },
+        {
+          "en": "That discovering new lands is the only way to be great according to some versions of the story in an early draft of the book",
+          "zh": "“发现新陆地”是成伟大的唯一途径（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "That he was a poor traveler",
+          "zh": "他是个糟糕的旅行者"
+        },
+        {
+          "en": "That he never left Africa",
+          "zh": "他从未离开过非洲"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "By contrasting \"not an explorer\" with \"greatest travelers,\" the author shows that the sheer distance and number of countries (dozens) made his journeys remarkable.",

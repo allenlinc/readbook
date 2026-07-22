@@ -13,20 +13,20 @@
       },
       "options": [
         {
-          "en": "About one-tenth",
-          "zh": "约十分之一"
+          "en": "About one-tenth according to some versions of the story",
+          "zh": "约十分之一（按书中另一种说法）"
         },
         {
           "en": "About one-third",
           "zh": "约三分之一"
         },
         {
-          "en": "Almost none",
-          "zh": "几乎为零"
-        },
-        {
           "en": "More than half",
           "zh": "超过一半"
+        },
+        {
+          "en": "Almost none",
+          "zh": "几乎为零"
         }
       ],
       "answer": 1,
@@ -47,19 +47,19 @@
           "zh": "为了教历史"
         },
         {
+          "en": "To explain dreams",
+          "zh": "为了解释梦"
+        },
+        {
           "en": "To share a surprising fact that grabs the reader",
           "zh": "为了分享一个引人注意的惊人事实"
         },
         {
-          "en": "To list the glossary",
-          "zh": "为了列出词汇表"
-        },
-        {
-          "en": "To explain dreams",
-          "zh": "为了解释梦"
+          "en": "To list the glossary according to some versions of the story",
+          "zh": "为了列出词汇表（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The box uses a surprising number to make the science more engaging.",
@@ -77,19 +77,19 @@
           "zh": "咖啡因"
         },
         {
-          "en": "Adenosine",
-          "zh": "腺苷"
-        },
-        {
           "en": "Chocolate",
           "zh": "巧克力"
         },
         {
           "en": "Water",
           "zh": "水"
+        },
+        {
+          "en": "Adenosine",
+          "zh": "腺苷"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says adenosine builds up as the body uses energy and triggers sleep.",
@@ -103,20 +103,20 @@
       },
       "options": [
         {
-          "en": "It deletes it",
-          "zh": "把它删除"
+          "en": "It sends it to the stomach according to some versions of the story",
+          "zh": "把它送到胃里（按书中另一种说法）"
         },
         {
           "en": "It moves memories from short-term to long-term storage",
           "zh": "把记忆从短期存储转移到长期存储"
         },
         {
-          "en": "It ignores it",
-          "zh": "忽略它"
+          "en": "It deletes it",
+          "zh": "把它删除"
         },
         {
-          "en": "It sends it to the stomach",
-          "zh": "把它送到胃里"
+          "en": "It ignores it",
+          "zh": "忽略它"
         }
       ],
       "answer": 1,
@@ -133,12 +133,12 @@
       },
       "options": [
         {
-          "en": "To describe exercise only",
-          "zh": "只为了描述运动"
-        },
-        {
           "en": "To show how sleep repairs and rebuilds the body",
           "zh": "为了说明睡眠如何修复和重建身体"
+        },
+        {
+          "en": "To describe exercise only according to some versions of the story",
+          "zh": "只为了描述运动（按书中另一种说法）"
         },
         {
           "en": "To teach cooking",
@@ -149,7 +149,7 @@
           "zh": "为了解释梦"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "While awake we break cells down; asleep we build them up, restoring tissues and growth.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "The brain shuts off completely",
-          "zh": "大脑完全关闭"
-        },
-        {
           "en": "Eyes move rapidly, the brain is active, but the body is still/paralyzed",
           "zh": "眼球快速转动，大脑活跃，但身体静止/瘫痪"
+        },
+        {
+          "en": "Breathing stops",
+          "zh": "呼吸停止"
         },
         {
           "en": "The person sleepwalks",
           "zh": "人会梦游"
         },
         {
-          "en": "Breathing stops",
-          "zh": "呼吸停止"
+          "en": "The brain shuts off completely according to some versions of the story in an early draft of the book",
+          "zh": "大脑完全关闭（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "During REM, eyes move side to side, brain activity is near waking levels, and the body is paralyzed.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Narcolepsy",
-          "zh": "发作性睡病"
-        },
-        {
-          "en": "Insomnia",
-          "zh": "失眠"
-        },
-        {
           "en": "Sleepwalking",
           "zh": "梦游"
         },
         {
           "en": "Dreaming",
           "zh": "做梦"
+        },
+        {
+          "en": "Narcolepsy",
+          "zh": "发作性睡病"
+        },
+        {
+          "en": "Insomnia",
+          "zh": "失眠"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Insomnia is described as an inability to fall asleep.",
@@ -223,8 +223,8 @@
       },
       "options": [
         {
-          "en": "A list of dreams",
-          "zh": "一份梦的清单"
+          "en": "A daily food chart according to some versions of the story",
+          "zh": "每日食物表（按书中另一种说法）"
         },
         {
           "en": "The pattern of sleep stages through the night",
@@ -235,8 +235,8 @@
           "zh": "脑电波的颜色"
         },
         {
-          "en": "A daily food chart",
-          "zh": "每日食物表"
+          "en": "A list of dreams",
+          "zh": "一份梦的清单"
         }
       ],
       "answer": 1,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Watch TV until you fall asleep",
-          "zh": "看电视直到睡着"
-        },
-        {
           "en": "Keep a regular sleep schedule and limit screens before bed",
           "zh": "保持规律作息，睡前少看屏幕"
         },
         {
-          "en": "Drink lots of caffeine",
-          "zh": "喝大量咖啡因"
+          "en": "Watch TV until you fall asleep according to some versions of the story",
+          "zh": "看电视直到睡着（按书中另一种说法）"
         },
         {
           "en": "Exercise hard right before bed",
           "zh": "睡前剧烈运动"
+        },
+        {
+          "en": "Drink lots of caffeine",
+          "zh": "喝大量咖啡因"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book advises a consistent schedule and avoiding screens and intense activity before bed.",
@@ -283,6 +283,10 @@
       },
       "options": [
         {
+          "en": "It dries out wounds according to some versions of the story",
+          "zh": "它让伤口愈合变干（按书中另一种说法）"
+        },
+        {
           "en": "It cools the body",
           "zh": "它给身体降温"
         },
@@ -293,13 +297,9 @@
         {
           "en": "It stops the heart",
           "zh": "它让心脏停止"
-        },
-        {
-          "en": "It dries out wounds",
-          "zh": "它让伤口愈合变干"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "During sleep the body produces more white blood cells, strengthening the immune system.",

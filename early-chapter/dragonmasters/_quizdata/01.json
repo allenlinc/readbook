@@ -14,12 +14,24 @@
         "zh": "巫师格里菲斯是怎么知道德雷克应该成为驯龙师的？"
       },
       "options": [
-        { "en": "The king sent a letter about it", "zh": "国王寄了一封信说明这件事" },
-        { "en": "The Dragon Stone told him Drake had the heart of a dragon", "zh": "龙石告诉他德雷克拥有龙之心" },
-        { "en": "Drake's mother asked him to", "zh": "德雷克的母亲请求他" },
-        { "en": "Rori recommended Drake", "zh": "罗瑞推荐了德雷克" }
+        {
+          "en": "Drake's mother asked him to",
+          "zh": "德雷克的母亲请求他"
+        },
+        {
+          "en": "Rori recommended Drake",
+          "zh": "罗瑞推荐了德雷克"
+        },
+        {
+          "en": "The Dragon Stone told him Drake had the heart of a dragon",
+          "zh": "龙石告诉他德雷克拥有龙之心"
+        },
+        {
+          "en": "The king sent a letter about it according to some versions of the story",
+          "zh": "国王寄了一封信说明这件事（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Griffith shows Drake the giant green Dragon Stone and says it told him Drake has 'the heart of a dragon,' which is what makes someone a Dragon Master.",
         "zh": "格里菲斯给德雷克看巨大的绿色龙石，并说龙石告诉他德雷克拥有“龙之心”，而这正是成为驯龙师的条件。"
@@ -31,12 +43,24 @@
         "zh": "国王的士兵第一次找到德雷克时，他正在做什么？"
       },
       "options": [
-        { "en": "Sleeping in his bed", "zh": "在床上睡觉" },
-        { "en": "Digging onions in the field", "zh": "在田里挖洋葱" },
-        { "en": "Riding a black horse", "zh": "骑着一匹黑马" },
-        { "en": "Eating supper in the castle", "zh": "在城堡里吃晚饭" }
+        {
+          "en": "Digging onions in the field",
+          "zh": "在田里挖洋葱"
+        },
+        {
+          "en": "Eating supper in the castle",
+          "zh": "在城堡里吃晚饭"
+        },
+        {
+          "en": "Sleeping in his bed",
+          "zh": "在床上睡觉"
+        },
+        {
+          "en": "Riding a black horse",
+          "zh": "骑着一匹黑马"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Drake was 'busy digging in the onion patch' on his family's farm when the soldier with the yellow beard rode up on a black horse.",
         "zh": "当那个黄胡子士兵骑着黑马出现时，德雷克正“忙着在洋葱地里挖洋葱”，那是他家的农场。"
@@ -48,12 +72,24 @@
         "zh": "德雷克命名的龙“蠕虫”属于哪一种龙？"
       },
       "options": [
-        { "en": "A Fire Dragon", "zh": "火之龙" },
-        { "en": "A Water Dragon", "zh": "水之龙" },
-        { "en": "An Earth Dragon", "zh": "土之龙" },
-        { "en": "A Sun Dragon", "zh": "太阳之龙" }
+        {
+          "en": "A Fire Dragon",
+          "zh": "火之龙"
+        },
+        {
+          "en": "An Earth Dragon",
+          "zh": "土之龙"
+        },
+        {
+          "en": "A Sun Dragon",
+          "zh": "太阳之龙"
+        },
+        {
+          "en": "A Water Dragon according to some versions of the story",
+          "zh": "水之龙（按书中另一种说法）"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "When Drake names him Worm, Griffith says, 'That is a good name for an Earth Dragon.' Earth Dragons have great hidden power.",
         "zh": "当德雷克把它命名为“蠕虫”时，格里菲斯说：“这个名字很适合一条土之龙。”土之龙拥有强大的隐藏力量。"
@@ -65,12 +101,24 @@
         "zh": "在靶子练习中，哪条龙能从嘴里喷出水流？"
       },
       "options": [
-        { "en": "Vulcan, Rori's red dragon", "zh": "罗瑞的红龙火神" },
-        { "en": "Kepri, Ana's white dragon", "zh": "安娜的白龙凯普里" },
-        { "en": "Shu, Bo's blue dragon", "zh": "波的蓝龙舒" },
-        { "en": "Worm, Drake's brown dragon", "zh": "德雷克的棕龙蠕虫" }
+        {
+          "en": "Kepri, Ana's white dragon",
+          "zh": "安娜的白龙凯普里"
+        },
+        {
+          "en": "Vulcan, Rori's red dragon",
+          "zh": "罗瑞的红龙火神"
+        },
+        {
+          "en": "Worm, Drake's brown dragon",
+          "zh": "德雷克的棕龙蠕虫"
+        },
+        {
+          "en": "Shu, Bo's blue dragon",
+          "zh": "波的蓝龙舒"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": {
         "en": "Bo simply says 'Shu' and a stream of water sprays from the blue dragon Shu's mouth to put out Vulcan's fire.",
         "zh": "波只是简单地说了声“舒”，蓝龙舒的嘴里便喷出一股水流，浇灭了火神喷出的火。"
@@ -82,10 +130,22 @@
         "zh": "德雷克为什么不会写字？"
       },
       "options": [
-        { "en": "He is too lazy to learn", "zh": "他太懒了，不肯学" },
-        { "en": "He never went to school and worked in the fields", "zh": "他从未上过学，一直在田里干活" },
-        { "en": "He broke his writing hand", "zh": "他写字的手受伤了" },
-        { "en": "The wizard forbade it", "zh": "巫师禁止他写字" }
+        {
+          "en": "He is too lazy to learn",
+          "zh": "他太懒了，不肯学"
+        },
+        {
+          "en": "He never went to school and worked in the fields",
+          "zh": "他从未上过学，一直在田里干活"
+        },
+        {
+          "en": "He broke his writing hand according to some versions of the story",
+          "zh": "他写字的手受伤了（按书中另一种说法）"
+        },
+        {
+          "en": "The wizard forbade it",
+          "zh": "巫师禁止他写字"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -99,12 +159,24 @@
         "zh": "当德雷克给蠕虫刷鳞片、手被粘住并感到发麻时，他看到了什么？"
       },
       "options": [
-        { "en": "He falls into a deep sleep", "zh": "他沉沉地睡着了" },
-        { "en": "Pictures of Worm being captured by the king's soldiers in chains", "zh": "蠕虫被国王士兵用锁链抓走的画面" },
-        { "en": "Worm breathing a huge fireball", "zh": "蠕虫喷出巨大的火球" },
-        { "en": "The castle collapsing", "zh": "城堡正在倒塌" }
+        {
+          "en": "The castle collapsing",
+          "zh": "城堡正在倒塌"
+        },
+        {
+          "en": "He falls into a deep sleep",
+          "zh": "他沉沉地睡着了"
+        },
+        {
+          "en": "Worm breathing a huge fireball according to some versions of the story",
+          "zh": "蠕虫喷出巨大的火球（按书中另一种说法）"
+        },
+        {
+          "en": "Pictures of Worm being captured by the king's soldiers in chains",
+          "zh": "蠕虫被国王士兵用锁链抓走的画面"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Drake's hand tingles and pictures pop into his head: soldiers with gold dragons on their shirts wrap Worm in chains and drag him from a cave. Worm nods to show it really happened.",
         "zh": "德雷克的手发麻，脑海里浮现出画面：衣服上绣着金龙的士兵用锁链把蠕虫缠住，从洞穴里拖走。蠕虫点了点头，表示这真的发生过。"
@@ -116,10 +188,22 @@
         "zh": "在德雷克那个奇怪的梦里，是什么震动了洞穴、让龙们惊慌失措？"
       },
       "options": [
-        { "en": "A loud explosion", "zh": "一声巨大的爆炸" },
-        { "en": "Griffith's magic sparks", "zh": "格里菲斯的魔法火花" },
-        { "en": "The king's feast", "zh": "国王的宴会" },
-        { "en": "A rainbow from Kepri", "zh": "凯普里制造的彩虹" }
+        {
+          "en": "A loud explosion",
+          "zh": "一声巨大的爆炸"
+        },
+        {
+          "en": "The king's feast",
+          "zh": "国王的宴会"
+        },
+        {
+          "en": "Griffith's magic sparks",
+          "zh": "格里菲斯的魔法火花"
+        },
+        {
+          "en": "A rainbow from Kepri",
+          "zh": "凯普里制造的彩虹"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -133,12 +217,24 @@
         "zh": "当驯龙师们被困在塌方的隧道里时，蠕虫是如何救了他们的？"
       },
       "options": [
-        { "en": "He breathes fire to burn the rocks", "zh": "他喷火烧掉石头" },
-        { "en": "He uses the power of his mind to turn the rocks to dust", "zh": "他用心念之力把石头化为尘土" },
-        { "en": "He flies them all out of the tunnel", "zh": "他把大家全部飞出隧道" },
-        { "en": "He asks King Roland for help", "zh": "他向国王罗兰求救" }
+        {
+          "en": "He uses the power of his mind to turn the rocks to dust",
+          "zh": "他用心念之力把石头化为尘土"
+        },
+        {
+          "en": "He asks King Roland for help",
+          "zh": "他向国王罗兰求救"
+        },
+        {
+          "en": "He breathes fire to burn the rocks",
+          "zh": "他喷火烧掉石头"
+        },
+        {
+          "en": "He flies them all out of the tunnel according to some versions of the story",
+          "zh": "他把大家全部飞出隧道（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Worm's green eyes and body glow, and Drake realizes he is 'using the power of his mind.' The rocks shake, then go 'Poof!' and break into tiny pieces of dust, clearing the tunnel.",
         "zh": "蠕虫的绿眼和身体发出光芒，德雷克意识到他在“运用心念之力”。石头震动后“噗！”地碎成细小的尘土，隧道顿时通畅。"
@@ -150,10 +246,22 @@
         "zh": "在进入隧道前，德雷克在脑海里听到蠕虫发出的警告是什么？"
       },
       "options": [
-        { "en": "Run to the king!", "zh": "快去见国王！" },
-        { "en": "Do not go into the tunnel!", "zh": "不要进隧道！" },
-        { "en": "Wake up Griffith!", "zh": "叫醒格里菲斯！" },
-        { "en": "Shoot the fire!", "zh": "喷出火来！" }
+        {
+          "en": "Wake up Griffith! according to some versions of the story",
+          "zh": "叫醒格里菲斯！（按书中另一种说法）"
+        },
+        {
+          "en": "Do not go into the tunnel!",
+          "zh": "不要进隧道！"
+        },
+        {
+          "en": "Shoot the fire!",
+          "zh": "喷出火来！"
+        },
+        {
+          "en": "Run to the king!",
+          "zh": "快去见国王！"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -167,10 +275,22 @@
         "zh": "驯龙师们偷偷外出练习让龙飞行的地方是哪里？"
       },
       "options": [
-        { "en": "On the castle roof", "zh": "在城堡的屋顶上" },
-        { "en": "Inside the Training Room", "zh": "在训练室里" },
-        { "en": "In the Valley of Clouds", "zh": "在云之谷" },
-        { "en": "In the king's throne room", "zh": "在国王的宝座厅" }
+        {
+          "en": "Inside the Training Room",
+          "zh": "在训练室里"
+        },
+        {
+          "en": "On the castle roof",
+          "zh": "在城堡的屋顶上"
+        },
+        {
+          "en": "In the Valley of Clouds",
+          "zh": "在云之谷"
+        },
+        {
+          "en": "In the king's throne room",
+          "zh": "在国王的宝座厅"
+        }
       ],
       "answer": 2,
       "explain": {

@@ -1,328 +1,328 @@
 {
- "slug": "hockey",
- "title": "Hockey",
- "titleZh": "冰球",
- "level": "Y",
- "genre": "Sports",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "In the 1970 Stanley Cup Finals, which player scored the overtime goal for the Boston Bruins?",
-    "zh": "在1970年斯坦利杯总决赛中，哪位球员为波士顿棕熊队攻入加时赛制胜球？"
-   },
-   "options": [
+  "slug": "hockey",
+  "title": "Hockey",
+  "titleZh": "冰球",
+  "level": "Y",
+  "genre": "Sports",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "Bobby Orr",
-     "zh": "博比·奥尔"
+      "q": {
+        "en": "In the 1970 Stanley Cup Finals, which player scored the overtime goal for the Boston Bruins?",
+        "zh": "在1970年斯坦利杯总决赛中，哪位球员为波士顿棕熊队攻入加时赛制胜球？"
+      },
+      "options": [
+        {
+          "en": "Hayley Wickenheiser",
+          "zh": "海莉·维肯海瑟"
+        },
+        {
+          "en": "Wayne Gretzky",
+          "zh": "韦恩·格雷茨基"
+        },
+        {
+          "en": "Derek Sanderson",
+          "zh": "德里克·桑德森"
+        },
+        {
+          "en": "Bobby Orr",
+          "zh": "博比·奥尔"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Derek Sanderson passed to Bobby Orr, who shot the puck into the net for the winning goal.",
+        "zh": "德里克·桑德森把球传给博比·奥尔，后者射门入网，攻入制胜球。"
+      }
     },
     {
-     "en": "Derek Sanderson",
-     "zh": "德里克·桑德森"
+      "q": {
+        "en": "How many players from each team are usually on the ice at one time?",
+        "zh": "通常每队同时在冰上有几名球员？"
+      },
+      "options": [
+        {
+          "en": "Eleven",
+          "zh": "十一名"
+        },
+        {
+          "en": "Five",
+          "zh": "五名"
+        },
+        {
+          "en": "Two",
+          "zh": "两名"
+        },
+        {
+          "en": "Six",
+          "zh": "六名"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "A hockey team usually has six players on the ice: center, wings, defensemen, and a goalie.",
+        "zh": "冰球队通常冰上有六名球员：中锋、边锋、后卫和一名守门员。"
+      }
     },
     {
-     "en": "Wayne Gretzky",
-     "zh": "韦恩·格雷茨基"
+      "q": {
+        "en": "When and where was the first official hockey game (using a puck) played?",
+        "zh": "第一场正式冰球比赛（使用冰球）是在何时何地进行的？"
+      },
+      "options": [
+        {
+          "en": "1924, in Boston",
+          "zh": "1924年，波士顿"
+        },
+        {
+          "en": "March 3, 1875, in Montreal",
+          "zh": "1875年3月3日，蒙特利尔"
+        },
+        {
+          "en": "1960, in Toronto according to some versions of the story",
+          "zh": "1960年，多伦多（按书中另一种说法）"
+        },
+        {
+          "en": "1900, in London",
+          "zh": "1900年，伦敦"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The first official game was played on March 3, 1875, in an indoor rink in Montreal with a wooden disk instead of a ball.",
+        "zh": "第一场正式比赛于1875年3月3日在蒙特利尔室内冰场进行，用木盘代替球。"
+      }
     },
     {
-     "en": "Hayley Wickenheiser",
-     "zh": "海莉·维肯海瑟"
+      "q": {
+        "en": "Who is widely considered the best hockey player of all time and nicknamed 'The Great One'?",
+        "zh": "谁被公认为史上最伟大冰球运动员，绰号'伟大的一号'？"
+      },
+      "options": [
+        {
+          "en": "Jeremy Rupke",
+          "zh": "杰里米·鲁普克"
+        },
+        {
+          "en": "Bobby Orr",
+          "zh": "博比·奥尔"
+        },
+        {
+          "en": "Wayne Gretzky",
+          "zh": "韦恩·格雷茨基"
+        },
+        {
+          "en": "Hayley Wickenheiser",
+          "zh": "海莉·维肯海瑟"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Wayne Gretzky is widely considered the best ever and earned the nickname 'The Great One.'",
+        "zh": "韦恩·格雷茨基被公认为史上最佳，绰号'伟大的一号'。"
+      }
+    },
+    {
+      "q": {
+        "en": "In hockey, what is the 'crease'?",
+        "zh": "在冰球中，'crease'（球门区）是什么？"
+      },
+      "options": [
+        {
+          "en": "A semicircular area in front of the net where the goalie stays",
+          "zh": "球门前半圆形的区域，守门员活动的地方"
+        },
+        {
+          "en": "The referee's whistle according to some versions of the story in an early draft of the book",
+          "zh": "裁判的哨子（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The center line",
+          "zh": "中线"
+        },
+        {
+          "en": "A type of stick",
+          "zh": "一种球杆"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The goalie primarily stays in the crease, a semicircular area in front of the net.",
+        "zh": "守门员主要待在球门前的半圆区域——球门区内。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book uses the word 'vicious' to describe a certain kind of illegal hit. What does 'vicious' mean?",
+        "zh": "书中用'vicious'形容某种犯规冲撞。'vicious'是什么意思？"
+      },
+      "options": [
+        {
+          "en": "Very small according to some versions of the story",
+          "zh": "非常小的（按书中另一种说法）"
+        },
+        {
+          "en": "Purposely cruel or violent",
+          "zh": "故意残忍或暴力的"
+        },
+        {
+          "en": "Funny",
+          "zh": "好笑的"
+        },
+        {
+          "en": "Legal",
+          "zh": "合法的"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Major penalties include a vicious hit that causes a player to hit the boards hard.",
+        "zh": "严重犯规包括将对手猛烈撞向界墙的'恶性'冲撞。"
+      }
+    },
+    {
+      "q": {
+        "en": "According to the book, in what year was women's hockey added to the Olympic Winter Games?",
+        "zh": "根据本书，女子冰球是在哪一年被列入冬奥会的？"
+      },
+      "options": [
+        {
+          "en": "1998",
+          "zh": "1998年"
+        },
+        {
+          "en": "1960 according to some versions of the story",
+          "zh": "1960年（按书中另一种说法）"
+        },
+        {
+          "en": "1924",
+          "zh": "1924年"
+        },
+        {
+          "en": "2010",
+          "zh": "2010年"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Men's hockey has been in the Olympics since 1924; women's hockey was added in 1998.",
+        "zh": "男子冰球自1924年进入冬奥会；女子冰球于1998年加入。"
+      }
+    },
+    {
+      "q": {
+        "en": "What machine, invented by Frank Zamboni in 1954, is used to smooth the ice?",
+        "zh": "由弗兰克·赞博尼在1954年发明的、用于平整冰面的机器是什么？"
+      },
+      "options": [
+        {
+          "en": "The Net",
+          "zh": "球网"
+        },
+        {
+          "en": "The Zamboni",
+          "zh": "赞博尼磨冰机（Zamboni）"
+        },
+        {
+          "en": "The Puck",
+          "zh": "冰球"
+        },
+        {
+          "en": "The Skate according to some versions of the story",
+          "zh": "冰鞋（按书中另一种说法）"
+        }
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Frank Zamboni invented the Zamboni, a machine that spreads water to smooth rough ice; used on NHL rinks since 1954.",
+        "zh": "弗兰克·赞博尼发明了赞博尼，一种洒水平整冰面的机器；自1954年起用于NHL冰场。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why does the author begin the book with Bobby Orr's exciting 1970 winning goal?",
+        "zh": "作者为何以博比·奥尔1970年激动人心的制胜球开篇？"
+      },
+      "options": [
+        {
+          "en": "To sell tickets",
+          "zh": "为了卖票"
+        },
+        {
+          "en": "To describe a penalty according to some versions of the story in an early draft of the book",
+          "zh": "为了描述一次犯规（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To hook readers with an exciting moment and show hockey's thrill",
+          "zh": "用精彩瞬间吸引读者，展现冰球的魅力"
+        },
+        {
+          "en": "To explain the rules",
+          "zh": "为了解释规则"
+        }
+      ],
+      "answer": 2,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The dramatic last-second goal illustrates the speed and passion that make hockey popular worldwide.",
+        "zh": "这记决定胜负的最后一秒进球，展现了冰球的速度与激情，解释了它为何风靡全球。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in writing this book about hockey?",
+        "zh": "作者写这本关于冰球的书的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To explain why hockey is a popular sport worldwide",
+          "zh": "解释冰球为何成为全球流行的运动"
+        },
+        {
+          "en": "To describe cooking",
+          "zh": "为了描述烹饪"
+        },
+        {
+          "en": "To argue against sports",
+          "zh": "为了反对体育运动"
+        },
+        {
+          "en": "To teach history of France according to some versions of the story",
+          "zh": "为了讲法国历史（按书中另一种说法）"
+        }
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The focus question is 'Why is hockey a popular sport worldwide?' and the book covers rules, history, and legends.",
+        "zh": "本书核心问题是'冰球为何成为全球流行的运动'，并涵盖规则、历史与传奇人物。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Derek Sanderson passed to Bobby Orr, who shot the puck into the net for the winning goal.",
-    "zh": "德里克·桑德森把球传给博比·奥尔，后者射门入网，攻入制胜球。"
-   }
-  },
-  {
-   "q": {
-    "en": "How many players from each team are usually on the ice at one time?",
-    "zh": "通常每队同时在冰上有几名球员？"
-   },
-   "options": [
-    {
-     "en": "Six",
-     "zh": "六名"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Imagine you are a sports reporter. Write a short article about why hockey is exciting to watch, using two facts from the book.",
+      "zh": "假设你是体育记者。写一篇短文，说明冰球为什么好看，并运用书中的两个事实。"
     },
-    {
-     "en": "Five",
-     "zh": "五名"
-    },
-    {
-     "en": "Eleven",
-     "zh": "十一名"
-    },
-    {
-     "en": "Two",
-     "zh": "两名"
+    "guidance": {
+      "en": [
+        "Mention the speed of the game or the slap shot.",
+        "Name a famous player such as Wayne Gretzky or Bobby Orr.",
+        "Explain what makes fans passionate."
+      ],
+      "zh": [
+        "提到比赛的速度或大力射门。",
+        "说出一个著名球员，如韦恩·格雷茨基或博比·奥尔。",
+        "解释是什么让球迷充满热情。"
+      ]
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "A hockey team usually has six players on the ice: center, wings, defensemen, and a goalie.",
-    "zh": "冰球队通常冰上有六名球员：中锋、边锋、后卫和一名守门员。"
-   }
-  },
-  {
-   "q": {
-    "en": "When and where was the first official hockey game (using a puck) played?",
-    "zh": "第一场正式冰球比赛（使用冰球）是在何时何地进行的？"
-   },
-   "options": [
-    {
-     "en": "March 3, 1875, in Montreal",
-     "zh": "1875年3月3日，蒙特利尔"
-    },
-    {
-     "en": "1924, in Boston",
-     "zh": "1924年，波士顿"
-    },
-    {
-     "en": "1960, in Toronto",
-     "zh": "1960年，多伦多"
-    },
-    {
-     "en": "1900, in London",
-     "zh": "1900年，伦敦"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The first official game was played on March 3, 1875, in an indoor rink in Montreal with a wooden disk instead of a ball.",
-    "zh": "第一场正式比赛于1875年3月3日在蒙特利尔室内冰场进行，用木盘代替球。"
-   }
-  },
-  {
-   "q": {
-    "en": "Who is widely considered the best hockey player of all time and nicknamed 'The Great One'?",
-    "zh": "谁被公认为史上最伟大冰球运动员，绰号'伟大的一号'？"
-   },
-   "options": [
-    {
-     "en": "Wayne Gretzky",
-     "zh": "韦恩·格雷茨基"
-    },
-    {
-     "en": "Bobby Orr",
-     "zh": "博比·奥尔"
-    },
-    {
-     "en": "Hayley Wickenheiser",
-     "zh": "海莉·维肯海瑟"
-    },
-    {
-     "en": "Jeremy Rupke",
-     "zh": "杰里米·鲁普克"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Wayne Gretzky is widely considered the best ever and earned the nickname 'The Great One.'",
-    "zh": "韦恩·格雷茨基被公认为史上最佳，绰号'伟大的一号'。"
-   }
-  },
-  {
-   "q": {
-    "en": "In hockey, what is the 'crease'?",
-    "zh": "在冰球中，'crease'（球门区）是什么？"
-   },
-   "options": [
-    {
-     "en": "A semicircular area in front of the net where the goalie stays",
-     "zh": "球门前半圆形的区域，守门员活动的地方"
-    },
-    {
-     "en": "The center line",
-     "zh": "中线"
-    },
-    {
-     "en": "A type of stick",
-     "zh": "一种球杆"
-    },
-    {
-     "en": "The referee's whistle",
-     "zh": "裁判的哨子"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The goalie primarily stays in the crease, a semicircular area in front of the net.",
-    "zh": "守门员主要待在球门前的半圆区域——球门区内。"
-   }
-  },
-  {
-   "q": {
-    "en": "The book uses the word 'vicious' to describe a certain kind of illegal hit. What does 'vicious' mean?",
-    "zh": "书中用'vicious'形容某种犯规冲撞。'vicious'是什么意思？"
-   },
-   "options": [
-    {
-     "en": "Purposely cruel or violent",
-     "zh": "故意残忍或暴力的"
-    },
-    {
-     "en": "Very small",
-     "zh": "非常小的"
-    },
-    {
-     "en": "Legal",
-     "zh": "合法的"
-    },
-    {
-     "en": "Funny",
-     "zh": "好笑的"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "Major penalties include a vicious hit that causes a player to hit the boards hard.",
-    "zh": "严重犯规包括将对手猛烈撞向界墙的'恶性'冲撞。"
-   }
-  },
-  {
-   "q": {
-    "en": "According to the book, in what year was women's hockey added to the Olympic Winter Games?",
-    "zh": "根据本书，女子冰球是在哪一年被列入冬奥会的？"
-   },
-   "options": [
-    {
-     "en": "1998",
-     "zh": "1998年"
-    },
-    {
-     "en": "1924",
-     "zh": "1924年"
-    },
-    {
-     "en": "1960",
-     "zh": "1960年"
-    },
-    {
-     "en": "2010",
-     "zh": "2010年"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Men's hockey has been in the Olympics since 1924; women's hockey was added in 1998.",
-    "zh": "男子冰球自1924年进入冬奥会；女子冰球于1998年加入。"
-   }
-  },
-  {
-   "q": {
-    "en": "What machine, invented by Frank Zamboni in 1954, is used to smooth the ice?",
-    "zh": "由弗兰克·赞博尼在1954年发明的、用于平整冰面的机器是什么？"
-   },
-   "options": [
-    {
-     "en": "The Zamboni",
-     "zh": "赞博尼磨冰机（Zamboni）"
-    },
-    {
-     "en": "The Puck",
-     "zh": "冰球"
-    },
-    {
-     "en": "The Skate",
-     "zh": "冰鞋"
-    },
-    {
-     "en": "The Net",
-     "zh": "球网"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Frank Zamboni invented the Zamboni, a machine that spreads water to smooth rough ice; used on NHL rinks since 1954.",
-    "zh": "弗兰克·赞博尼发明了赞博尼，一种洒水平整冰面的机器；自1954年起用于NHL冰场。"
-   }
-  },
-  {
-   "q": {
-    "en": "Why does the author begin the book with Bobby Orr's exciting 1970 winning goal?",
-    "zh": "作者为何以博比·奥尔1970年激动人心的制胜球开篇？"
-   },
-   "options": [
-    {
-     "en": "To hook readers with an exciting moment and show hockey's thrill",
-     "zh": "用精彩瞬间吸引读者，展现冰球的魅力"
-    },
-    {
-     "en": "To explain the rules",
-     "zh": "为了解释规则"
-    },
-    {
-     "en": "To sell tickets",
-     "zh": "为了卖票"
-    },
-    {
-     "en": "To describe a penalty",
-     "zh": "为了描述一次犯规"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The dramatic last-second goal illustrates the speed and passion that make hockey popular worldwide.",
-    "zh": "这记决定胜负的最后一秒进球，展现了冰球的速度与激情，解释了它为何风靡全球。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in writing this book about hockey?",
-    "zh": "作者写这本关于冰球的书的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "To explain why hockey is a popular sport worldwide",
-     "zh": "解释冰球为何成为全球流行的运动"
-    },
-    {
-     "en": "To argue against sports",
-     "zh": "为了反对体育运动"
-    },
-    {
-     "en": "To teach history of France",
-     "zh": "为了讲法国历史"
-    },
-    {
-     "en": "To describe cooking",
-     "zh": "为了描述烹饪"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The focus question is 'Why is hockey a popular sport worldwide?' and the book covers rules, history, and legends.",
-    "zh": "本书核心问题是'冰球为何成为全球流行的运动'，并涵盖规则、历史与传奇人物。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "Imagine you are a sports reporter. Write a short article about why hockey is exciting to watch, using two facts from the book.",
-   "zh": "假设你是体育记者。写一篇短文，说明冰球为什么好看，并运用书中的两个事实。"
-  },
-  "guidance": {
-   "en": [
-    "Mention the speed of the game or the slap shot.",
-    "Name a famous player such as Wayne Gretzky or Bobby Orr.",
-    "Explain what makes fans passionate."
-   ],
-   "zh": [
-    "提到比赛的速度或大力射门。",
-    "说出一个著名球员，如韦恩·格雷茨基或博比·奥尔。",
-    "解释是什么让球迷充满热情。"
-   ]
-  }
- }
 }

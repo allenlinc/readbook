@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "Moscow",
-          "zh": "莫斯科"
-        },
-        {
           "en": "St. Petersburg",
           "zh": "圣彼得堡"
         },
@@ -27,9 +23,13 @@
         {
           "en": "Siberia",
           "zh": "西伯利亚"
+        },
+        {
+          "en": "Moscow",
+          "zh": "莫斯科"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states Moscow is Russia's capital city and home to more than twelve million people.",
@@ -47,16 +47,16 @@
           "zh": "世界最大的国家，几乎是美国的二倍"
         },
         {
-          "en": "The smallest country in Europe",
-          "zh": "欧洲最小的国家"
-        },
-        {
           "en": "About the same size as Japan",
           "zh": "与日本面积差不多"
         },
         {
-          "en": "The second largest, after Canada",
-          "zh": "第二大，仅次于加拿大"
+          "en": "The smallest country in Europe",
+          "zh": "欧洲最小的国家"
+        },
+        {
+          "en": "The second largest, after Canada according to some versions of the story",
+          "zh": "第二大，仅次于加拿大（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "It is the oldest and deepest lake in the world",
-          "zh": "它是世界上最古老、最深的湖"
-        },
-        {
-          "en": "It is the largest lake in the United States",
-          "zh": "它是美国最大的湖"
+          "en": "It is the largest lake in the United States according to some versions of the story",
+          "zh": "它是美国最大的湖（按书中另一种说法）"
         },
         {
           "en": "It is a man-made reservoir",
           "zh": "它是一座人造水库"
         },
         {
+          "en": "It is the oldest and deepest lake in the world",
+          "zh": "它是世界上最古老、最深的湖"
+        },
+        {
           "en": "It is frozen all year round",
           "zh": "它终年冰封"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Lake Baikal is 'the oldest and deepest lake in the world' and holds about 20 percent of the world's unfrozen fresh water.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "The Moscow Ballet and classical music",
-          "zh": "莫斯科芭蕾舞团与古典音乐"
-        },
-        {
-          "en": "Broadway musicals",
-          "zh": "百老汇音乐剧"
-        },
-        {
-          "en": "Japanese kabuki",
-          "zh": "日本歌舞伎"
+          "en": "Broadway musicals according to some versions of the story",
+          "zh": "百老汇音乐剧（按书中另一种说法）"
         },
         {
           "en": "African drumming",
           "zh": "非洲鼓乐"
+        },
+        {
+          "en": "The Moscow Ballet and classical music",
+          "zh": "莫斯科芭蕾舞团与古典音乐"
+        },
+        {
+          "en": "Japanese kabuki",
+          "zh": "日本歌舞伎"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Russians are 'particularly known for their world-famous Moscow Ballet and classical musicians.'",
@@ -137,12 +137,12 @@
           "zh": "1917年"
         },
         {
-          "en": "1922",
-          "zh": "1922年"
+          "en": "1991 according to some versions of the story",
+          "zh": "1991年（按书中另一种说法）"
         },
         {
-          "en": "1991",
-          "zh": "1991年"
+          "en": "1922",
+          "zh": "1922年"
         },
         {
           "en": "1762",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A soup made with beets that is red in color",
-          "zh": "一种用甜菜做成、呈红色的汤"
-        },
-        {
-          "en": "A drink made from stale bread",
-          "zh": "一种用陈面包做的饮料"
-        },
-        {
           "en": "A type of pancake",
           "zh": "一种薄饼"
         },
         {
+          "en": "A soup made with beets that is red in color",
+          "zh": "一种用甜菜做成、呈红色的汤"
+        },
+        {
           "en": "A kind of meat pie",
           "zh": "一种肉派"
+        },
+        {
+          "en": "A drink made from stale bread according to some versions of the story",
+          "zh": "一种用陈面包做的饮料（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Borscht is 'a popular soup made from beets' and 'gets its red color from the beets.'",
@@ -197,16 +197,16 @@
           "zh": "按主题分章，如人民、土地、历史、节日和食物"
         },
         {
-          "en": "As a day-by-day diary",
-          "zh": "以日记形式按天记录"
-        },
-        {
-          "en": "As a list of presidents",
-          "zh": "以总统列表形式"
+          "en": "As a list of presidents according to some versions of the story in an early draft of the book",
+          "zh": "以总统列表形式（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "In the form of a poem",
           "zh": "以诗歌形式"
+        },
+        {
+          "en": "As a day-by-day diary",
+          "zh": "以日记形式按天记录"
         }
       ],
       "answer": 0,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "To show a unique feature of the Russian language and culture",
-          "zh": "为了展现俄罗斯语言与文化的独特之处"
+          "en": "To teach readers how to count money according to some versions of the story",
+          "zh": "教读者如何数钱（按书中另一种说法）"
         },
         {
-          "en": "To teach readers how to count money",
-          "zh": "教读者如何数钱"
+          "en": "To describe the food",
+          "zh": "描述食物"
         },
         {
           "en": "To explain the weather",
           "zh": "解释天气"
         },
         {
-          "en": "To describe the food",
-          "zh": "描述食物"
+          "en": "To show a unique feature of the Russian language and culture",
+          "zh": "为了展现俄罗斯语言与文化的独特之处"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explains Russian uses the Cyrillic alphabet with 33 letters, highlighting a special part of its culture.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "Most Russians live in the tundra year-round",
+          "zh": "多数俄罗斯人常年住在苔原"
+        },
+        {
           "en": "Russia borders the Arctic Ocean and has the world's coldest settlement",
           "zh": "俄罗斯濒临北冰洋，并拥有世界上最冷的定居点"
         },
         {
-          "en": "Russia is a small, warm country near the equator",
-          "zh": "俄罗斯是靠近赤道的小型温暖国家"
-        },
-        {
-          "en": "Most Russians live in the tundra year-round",
-          "zh": "多数俄罗斯人常年住在苔原"
+          "en": "Russia is a small, warm country near the equator according to some versions of the story",
+          "zh": "俄罗斯是靠近赤道的小型温暖国家（按书中另一种说法）"
         },
         {
           "en": "Russia has no forests at all",
           "zh": "俄罗斯完全没有森林"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the Arctic Ocean borders Russia to the north and that it is 'home to the coldest settlement in the world.'",
@@ -283,6 +283,10 @@
       },
       "options": [
         {
+          "en": "Its single language shared with all nations according to some versions of the story",
+          "zh": "它与所有国家共用的单一语言（按书中另一种说法）"
+        },
+        {
           "en": "Its vast size, rich resources, and strong traditions",
           "zh": "辽阔的国土、丰富的资源和深厚的传统"
         },
@@ -293,13 +297,9 @@
         {
           "en": "Its lack of any celebrations",
           "zh": "它没有任何节日"
-        },
-        {
-          "en": "Its single language shared with all nations",
-          "zh": "它与所有国家共用的单一语言"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Conclusion says Russia is rich in natural resources, beautiful landscapes, ballet, holidays, and delicious foods—'rich in tradition.'",

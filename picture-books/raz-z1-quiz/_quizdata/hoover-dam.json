@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "The Missouri River at Boulder Canyon only",
+          "zh": "密苏里河，仅波尔德峡谷"
+        },
+        {
           "en": "The Mississippi River at Natchez",
           "zh": "密西西比河，纳奇兹"
         },
@@ -21,15 +25,11 @@
           "zh": "科罗拉多河，黑峡谷"
         },
         {
-          "en": "The Missouri River at Boulder Canyon only",
-          "zh": "密苏里河，仅波尔德峡谷"
-        },
-        {
           "en": "The Nile River",
           "zh": "尼罗河"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The dam spans the Colorado River at Black Canyon on the Arizona-Nevada border.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "A buttress dam",
-          "zh": "支墩坝"
-        },
-        {
           "en": "An arch-gravity dam",
           "zh": "拱形重力坝"
+        },
+        {
+          "en": "A timber dam",
+          "zh": "木坝"
         },
         {
           "en": "An earthen dam",
           "zh": "土坝"
         },
         {
-          "en": "A timber dam",
-          "zh": "木坝"
+          "en": "A buttress dam according to some versions of the story",
+          "zh": "支墩坝（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Hoover Dam's design combines a gravity dam and an arch dam—an arch-gravity dam.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "1935",
-          "zh": "1935年"
-        },
-        {
           "en": "1947",
           "zh": "1947年"
         },
         {
-          "en": "1901",
-          "zh": "1901年"
+          "en": "1960 according to some versions of the story",
+          "zh": "1960年（按书中另一种说法）"
         },
         {
-          "en": "1960",
-          "zh": "1960年"
+          "en": "1935",
+          "zh": "1935年"
+        },
+        {
+          "en": "1901",
+          "zh": "1901年"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "It kept the name Boulder Dam until 1947, when it was renamed for the 31st president, Hoover.",
@@ -107,19 +107,19 @@
           "zh": "9人"
         },
         {
-          "en": "Ninety-six",
-          "zh": "96人"
+          "en": "None",
+          "zh": "无人死亡"
         },
         {
           "en": "One thousand",
           "zh": "1000人"
         },
         {
-          "en": "None",
-          "zh": "无人死亡"
+          "en": "Ninety-six",
+          "zh": "96人"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A total of ninety-six workers died from construction-related causes.",
@@ -141,8 +141,8 @@
           "zh": "帮助读者理解这项工程成就的巨大规模"
         },
         {
-          "en": "To show the dam is small",
-          "zh": "说明大坝很小"
+          "en": "To show the dam is small according to some versions of the story in an early draft of the book",
+          "zh": "说明大坝很小（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To list employee names",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "They would carry water away before it reached the top of the dam",
-          "zh": "在水到达坝顶前将水引走"
+          "en": "They would fill the dam with fish according to some versions of the story",
+          "zh": "给大坝注满鱼（按书中另一种说法）"
         },
         {
           "en": "They would block all water",
           "zh": "拦截所有水流"
         },
         {
-          "en": "They would fill the dam with fish",
-          "zh": "给大坝注满鱼"
+          "en": "They would carry water away before it reached the top of the dam",
+          "zh": "在水到达坝顶前将水引走"
         },
         {
           "en": "They would be used for swimming",
           "zh": "用于游泳"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Spillways would carry water away through converted diversion tunnels before it reached the dam top.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Dams help no one",
-          "zh": "大坝对谁都没好处"
-        },
-        {
           "en": "The dam brought benefits (water/power) but harmed some wildlife habitats",
           "zh": "大坝带来了（供水/供电）益处，却损害了一些野生动物栖息地"
         },
         {
-          "en": "Tortoises moved to the city",
-          "zh": "陆龟搬到了城市"
-        },
-        {
           "en": "The dam was a failure",
           "zh": "大坝是失败的"
+        },
+        {
+          "en": "Tortoises moved to the city according to some versions of the story in an early draft of the book",
+          "zh": "陆龟搬到了城市（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Dams help no one",
+          "zh": "大坝对谁都没好处"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book lists both the region's flourishing and the decline of native species like the tortoise.",
@@ -223,16 +223,16 @@
       },
       "options": [
         {
-          "en": "How to paint the dam",
-          "zh": "如何给大坝上漆"
+          "en": "How to power the lights according to some versions of the story",
+          "zh": "如何为灯供电（按书中另一种说法）"
         },
         {
           "en": "Preventing cracking and ensuring a stable foundation",
           "zh": "防止开裂并确保地基稳固"
         },
         {
-          "en": "How to power the lights",
-          "zh": "如何为灯供电"
+          "en": "How to paint the dam",
+          "zh": "如何给大坝上漆"
         },
         {
           "en": "How to build a road",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To explain how Hoover Dam transformed the Southwest by providing water and power",
-          "zh": "解释胡佛大坝如何通过供水和供电改变了西南部"
-        },
-        {
-          "en": "To describe a fictional story",
-          "zh": "描述一个虚构故事"
-        },
-        {
           "en": "To teach music",
           "zh": "教授音乐"
         },
         {
           "en": "To sell land",
           "zh": "出售土地"
+        },
+        {
+          "en": "To describe a fictional story according to some versions of the story in an early draft of the book",
+          "zh": "描述一个虚构故事（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To explain how Hoover Dam transformed the Southwest by providing water and power",
+          "zh": "解释胡佛大坝如何通过供水和供电改变了西南部"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The 'Engineering Marvel' section says millions benefit from its water and power.",
@@ -283,16 +283,16 @@
       },
       "options": [
         {
-          "en": "That the dam was a mistake",
-          "zh": "大坝是个错误"
+          "en": "That it should be torn down according to some versions of the story in an early draft of the book",
+          "zh": "它应当被拆除（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "That Hoover Dam is a proud symbol of American engineering skill and determination",
           "zh": "胡佛大坝是美国工程技艺与决心的骄傲象征"
         },
         {
-          "en": "That it should be torn down",
-          "zh": "它应当被拆除"
+          "en": "That the dam was a mistake",
+          "zh": "大坝是个错误"
         },
         {
           "en": "That foreigners built it",

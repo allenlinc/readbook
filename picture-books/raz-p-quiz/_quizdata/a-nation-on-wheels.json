@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Over 200 million",
-          "zh": "超过两亿辆"
+          "en": "Fewer than 100",
+          "zh": "不到一百辆"
         },
         {
           "en": "About 1 million",
           "zh": "大约一百万辆"
         },
         {
-          "en": "Exactly 50 thousand",
-          "zh": "正好五万辆"
+          "en": "Over 200 million",
+          "zh": "超过两亿辆"
         },
         {
-          "en": "Fewer than 100",
-          "zh": "不到一百辆"
+          "en": "Exactly 50 thousand",
+          "zh": "正好五万辆"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says there are over 200 million cars and trucks just in the United States.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Gasoline engines, developed in the late 1880s",
-          "zh": "19世纪80年代末开发的汽油发动机"
+          "en": "Electric engines only according to some versions of the story",
+          "zh": "只有电动发动机（按书中另一种说法）"
+        },
+        {
+          "en": "Wind-powered engines",
+          "zh": "风力发动机"
         },
         {
           "en": "Steam engines only",
           "zh": "只有蒸汽发动机"
         },
         {
-          "en": "Electric engines only",
-          "zh": "只有电动发动机"
-        },
-        {
-          "en": "Wind-powered engines",
-          "zh": "风力发动机"
+          "en": "Gasoline engines, developed in the late 1880s",
+          "zh": "19世纪80年代末开发的汽油发动机"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In the late 1880s, people made engines that could run on gasoline, and today most cars use gas engines.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A Celtic war chariot",
-          "zh": "凯尔特人的战车"
+          "en": "A gasoline automobile according to some versions of the story",
+          "zh": "汽油汽车（按书中另一种说法）"
         },
         {
-          "en": "A gasoline automobile",
-          "zh": "汽油汽车"
+          "en": "A train",
+          "zh": "火车"
         },
         {
           "en": "A bicycle",
           "zh": "自行车"
         },
         {
-          "en": "A train",
-          "zh": "火车"
+          "en": "A Celtic war chariot",
+          "zh": "凯尔特人的战车"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "A Do You Know note says Car was first used in 1301 to describe a Celtic war chariot.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "The assembly line",
-          "zh": "装配线"
+          "en": "The electronic computer",
+          "zh": "电子计算机"
         },
         {
-          "en": "The gasoline engine",
-          "zh": "汽油发动机"
+          "en": "The assembly line",
+          "zh": "装配线"
         },
         {
           "en": "The steering wheel",
           "zh": "方向盘"
         },
         {
-          "en": "The electronic computer",
-          "zh": "电子计算机"
+          "en": "The gasoline engine",
+          "zh": "汽油发动机"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states: In 1913, he invented the assembly line, a faster and cheaper way to make a car.",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "Apple, Google, and Microsoft according to some versions of the story",
+          "zh": "苹果、谷歌和微软（按书中另一种说法）"
+        },
+        {
           "en": "General Motors, Chrysler, and Ford",
           "zh": "通用汽车、克莱斯勒和福特"
         },
@@ -143,13 +147,9 @@
         {
           "en": "BMW, Volvo, and Saab",
           "zh": "宝马、沃尔沃和萨博"
-        },
-        {
-          "en": "Apple, Google, and Microsoft",
-          "zh": "苹果、谷歌和微软"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Three big companies have been making cars in the United States for a long time: General Motors, Chrysler, and Ford.",
@@ -175,8 +175,8 @@
           "zh": "为了多卖汽油"
         },
         {
-          "en": "To describe a new car color",
-          "zh": "为了描述一种新的汽车颜色"
+          "en": "To describe a new car color according to some versions of the story",
+          "zh": "为了描述一种新的汽车颜色（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Toyota, a Japanese company",
-          "zh": "日本公司丰田"
-        },
-        {
-          "en": "Ford, an American company",
-          "zh": "美国公司福特"
-        },
-        {
           "en": "Volkswagen of Germany",
           "zh": "德国大众"
+        },
+        {
+          "en": "Ford, an American company according to some versions of the story",
+          "zh": "美国公司福特（按书中另一种说法）"
+        },
+        {
+          "en": "Toyota, a Japanese company",
+          "zh": "日本公司丰田"
         },
         {
           "en": "General Motors",
           "zh": "通用汽车"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "In 2007, Toyota, the first foreign company to do so, sold more cars and trucks than any other company in the world.",
@@ -227,12 +227,12 @@
           "zh": "同时使用汽油发动机和电动机的汽车"
         },
         {
-          "en": "A car made only of wood",
-          "zh": "只用木头制造的车"
-        },
-        {
           "en": "A car that flies",
           "zh": "会飞的车"
+        },
+        {
+          "en": "A car made only of wood according to some versions of the story",
+          "zh": "只用木头制造的车（按书中另一种说法）"
         },
         {
           "en": "A car pulled by horses",
@@ -257,16 +257,16 @@
           "zh": "密歇根州的底特律"
         },
         {
-          "en": "New York City",
-          "zh": "纽约市"
-        },
-        {
           "en": "Los Angeles, California",
           "zh": "加利福尼亚州的洛杉矶"
         },
         {
           "en": "London, England",
           "zh": "英国伦敦"
+        },
+        {
+          "en": "New York City",
+          "zh": "纽约市"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "To tell a fairy tale",
+          "zh": "讲述一个童话故事"
+        },
+        {
           "en": "To inform readers about how cars shaped America",
           "zh": "向读者介绍汽车如何塑造了美国"
         },
         {
+          "en": "To sell a specific car brand according to some versions of the story",
+          "zh": "推销某个特定汽车品牌（按书中另一种说法）"
+        },
+        {
           "en": "To teach readers how to drive",
           "zh": "教读者如何开车"
-        },
-        {
-          "en": "To sell a specific car brand",
-          "zh": "推销某个特定汽车品牌"
-        },
-        {
-          "en": "To tell a fairy tale",
-          "zh": "讲述一个童话故事"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "As an informational leveled book, its aim is to teach facts about cars, their history, and their impact.",

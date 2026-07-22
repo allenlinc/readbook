@@ -17,16 +17,16 @@
           "zh": "每年少于25.4厘米（10英寸）"
         },
         {
-          "en": "More than 100 centimeters per year",
-          "zh": "每年超过100厘米"
-        },
-        {
-          "en": "Exactly 50 centimeters per year",
-          "zh": "每年正好50厘米"
+          "en": "More than 100 centimeters per year according to some versions of the story",
+          "zh": "每年超过100厘米（按书中另一种说法）"
         },
         {
           "en": "Almost none, zero every year",
           "zh": "几乎没有，每年为零"
+        },
+        {
+          "en": "Exactly 50 centimeters per year",
+          "zh": "每年正好50厘米"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "\"Desert people\"",
-          "zh": "“沙漠中的人们”"
+          "en": "\"River dwellers\"",
+          "zh": "“河边居民”"
         },
         {
           "en": "\"Mountain climbers\"",
           "zh": "“登山者”"
         },
         {
-          "en": "\"River dwellers\"",
-          "zh": "“河边居民”"
-        },
-        {
           "en": "\"Sky watchers\"",
           "zh": "“观天者”"
+        },
+        {
+          "en": "\"Desert people\"",
+          "zh": "“沙漠中的人们”"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states Tohono O'odham means 'desert people,' Native Americans who still live in the Sonoran Desert.",
@@ -73,12 +73,8 @@
       },
       "options": [
         {
-          "en": "Their sacred mountain, where Elder Brother created them",
-          "zh": "他们神圣的山，长兄（Elder Brother）在那里创造了他们"
-        },
-        {
-          "en": "A kind of cactus they eat",
-          "zh": "一种他们食用的仙人掌"
+          "en": "A kind of cactus they eat according to some versions of the story in an early draft of the book",
+          "zh": "一种他们食用的仙人掌（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A type of camel",
@@ -87,9 +83,13 @@
         {
           "en": "A modern city they built",
           "zh": "他们建造的现代城市"
+        },
+        {
+          "en": "Their sacred mountain, where Elder Brother created them",
+          "zh": "他们神圣的山，长兄（Elder Brother）在那里创造了他们"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "They watch the Sun rise over Baboquivari, their sacred mountain, where Elder Brother created them from clay.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "\"Riders of the wind\"",
+          "zh": "“御风而行的人”"
+        },
+        {
+          "en": "\"Farmers of the oasis\" according to some versions of the story",
+          "zh": "“绿洲的农人”（按书中另一种说法）"
+        },
+        {
           "en": "\"People of the desert\"",
           "zh": "“沙漠中的人们”"
         },
         {
           "en": "\"Builders of tents\"",
           "zh": "“搭帐篷的人”"
-        },
-        {
-          "en": "\"Farmers of the oasis\"",
-          "zh": "“绿洲的农人”"
-        },
-        {
-          "en": "\"Riders of the wind\"",
-          "zh": "“御风而行的人”"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Bedouin means 'people of the desert,' traditional nomadic people who moved on camels.",
@@ -133,12 +133,12 @@
       },
       "options": [
         {
-          "en": "Low black tents that protected them from sun, wind, and sand",
-          "zh": "低矮的黑色帐篷，能遮挡阳光、风和沙"
+          "en": "Round homes made of dried mud and grass according to some versions of the story",
+          "zh": "用干泥和草搭成的圆形房屋（按书中另一种说法）"
         },
         {
-          "en": "Round homes made of dried mud and grass",
-          "zh": "用干泥和草搭成的圆形房屋"
+          "en": "Low black tents that protected them from sun, wind, and sand",
+          "zh": "低矮的黑色帐篷，能遮挡阳光、风和沙"
         },
         {
           "en": "Tall buildings made of stone",
@@ -149,7 +149,7 @@
           "zh": "建在骆驼背上的房子"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Bedouins lived in low black tents that protected them from the sun, wind, and blowing sand, and could be packed up quickly.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Less rain falls there, so fewer plants and animals live there",
-          "zh": "那里降雨更少，因此动植物也更少"
-        },
-        {
-          "en": "It has too many rivers and lakes",
-          "zh": "它有太多河流和湖泊"
+          "en": "It is located underwater",
+          "zh": "它位于水下"
         },
         {
           "en": "It is covered entirely by snow",
           "zh": "它被冰雪完全覆盖"
         },
         {
-          "en": "It is located underwater",
-          "zh": "它位于水下"
+          "en": "Less rain falls there, so fewer plants and animals live there",
+          "zh": "那里降雨更少，因此动植物也更少"
+        },
+        {
+          "en": "It has too many rivers and lakes according to some versions of the story",
+          "zh": "它有太多河流和湖泊（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Sahara gets less rain than the Sonoran, so fewer plants and animals live there, making it a poorer 'supermarket.'",
@@ -201,12 +201,12 @@
           "zh": "只有10公斤"
         },
         {
-          "en": "About 1,000 kilograms",
-          "zh": "约1000公斤"
-        },
-        {
           "en": "Nothing at all",
           "zh": "根本什么都驮不了"
+        },
+        {
+          "en": "About 1,000 kilograms according to some versions of the story",
+          "zh": "约1000公斤（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -223,12 +223,12 @@
       },
       "options": [
         {
-          "en": "Round tents called gers",
-          "zh": "称为 gers 的圆形帐篷"
+          "en": "Low black tents according to some versions of the story",
+          "zh": "低矮的黑色帐篷（按书中另一种说法）"
         },
         {
-          "en": "Low black tents",
-          "zh": "低矮的黑色帐篷"
+          "en": "Round tents called gers",
+          "zh": "称为 gers 的圆形帐篷"
         },
         {
           "en": "Underground caves",
@@ -239,7 +239,7 @@
           "zh": "树屋"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Nomads roamed the Gobi Desert and lived in round tents called gers while searching for vegetation for their animals.",
@@ -257,12 +257,12 @@
           "zh": "男子用长矛和回飞棒狩猎"
         },
         {
-          "en": "They used rifles and cannons",
-          "zh": "他们使用步枪和大炮"
+          "en": "They trained falcons to catch fish according to some versions of the story",
+          "zh": "他们训练猎鹰捕鱼（按书中另一种说法）"
         },
         {
-          "en": "They trained falcons to catch fish",
-          "zh": "他们训练猎鹰捕鱼"
+          "en": "They used rifles and cannons",
+          "zh": "他们使用步枪和大炮"
         },
         {
           "en": "They rode camels to chase deer",
@@ -283,6 +283,10 @@
       },
       "options": [
         {
+          "en": "They only eat dates and nothing else according to some versions of the story",
+          "zh": "他们只吃枣，别的什么都不吃（按书中另一种说法）"
+        },
+        {
           "en": "For them, the desert is not just survival but their way of life",
           "zh": "对他们而言，沙漠不仅仅是生存，更是生活方式"
         },
@@ -293,13 +297,9 @@
         {
           "en": "The desert is impossible to live in",
           "zh": "沙漠根本无法居住"
-        },
-        {
-          "en": "They only eat dates and nothing else",
-          "zh": "他们只吃枣，别的什么都不吃"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book concludes that for these people the desert is not just about survival — it is their way of life.",

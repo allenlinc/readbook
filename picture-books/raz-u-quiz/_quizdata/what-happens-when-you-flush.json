@@ -21,8 +21,8 @@
           "zh": "约1加仑"
         },
         {
-          "en": "About 1,000 gallons",
-          "zh": "约1000加仑"
+          "en": "About 1,000 gallons according to some versions of the story",
+          "zh": "约1000加仑（按书中另一种说法）"
         },
         {
           "en": "None at all",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "A large screen removes big objects like rocks and garbage",
-          "zh": "用大筛网滤除石头、垃圾等大件物体"
-        },
-        {
-          "en": "The water is bottled",
-          "zh": "把水装瓶"
-        },
-        {
           "en": "It is frozen",
           "zh": "把它冷冻"
         },
         {
+          "en": "The water is bottled according to some versions of the story",
+          "zh": "把水装瓶（按书中另一种说法）"
+        },
+        {
           "en": "It is painted",
           "zh": "给它上色"
+        },
+        {
+          "en": "A large screen removes big objects like rocks and garbage",
+          "zh": "用大筛网滤除石头、垃圾等大件物体"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Step 1 is a big screen (like a giant kitchen strainer) that removes large objects so they don't jam the machines.",
@@ -77,16 +77,16 @@
           "zh": "把空气泵入淤泥，让细菌将其分解"
         },
         {
-          "en": "Freezing the water",
-          "zh": "把水冷冻"
-        },
-        {
           "en": "Adding sugar",
           "zh": "加糖"
         },
         {
-          "en": "Painting the tanks",
-          "zh": "给池子上漆"
+          "en": "Freezing the water",
+          "zh": "把水冷冻"
+        },
+        {
+          "en": "Painting the tanks according to some versions of the story",
+          "zh": "给池子上漆（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "A kind of soap according to some versions of the story",
+          "zh": "一种肥皂（按书中另一种说法）"
+        },
+        {
+          "en": "A water slide",
+          "zh": "水上滑梯"
+        },
+        {
           "en": "A tank where solid waste settles to the bottom",
           "zh": "让固体废料沉淀到池底的池子"
         },
         {
           "en": "A type of boat",
           "zh": "一种船"
-        },
-        {
-          "en": "A kind of soap",
-          "zh": "一种肥皂"
-        },
-        {
-          "en": "A water slide",
-          "zh": "水上滑梯"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "In the clarifier, all the solid waste settles to the bottom and the cleaner water on top is sent for further filtering.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "The water is frozen solid according to some versions of the story",
+          "zh": "水被冻成固体（按书中另一种说法）"
+        },
+        {
           "en": "Bacteria break down sludge without oxygen, making methane gas",
           "zh": "细菌在无氧条件下分解淤泥，产生甲烷气体"
         },
         {
-          "en": "The water is frozen solid",
-          "zh": "水被冻成固体"
+          "en": "Fish are raised",
+          "zh": "养殖鱼类"
         },
         {
           "en": "Rocks are added",
           "zh": "加入石头"
-        },
-        {
-          "en": "Fish are raised",
-          "zh": "养殖鱼类"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In the digester, a second kind of bacteria digests the sludge without oxygen (anaerobic digestion), producing methane gas used as energy.",
@@ -171,8 +171,8 @@
           "zh": "公共游泳池"
         },
         {
-          "en": "A type of washing machine",
-          "zh": "一种洗衣机"
+          "en": "A type of washing machine according to some versions of the story in an early draft of the book",
+          "zh": "一种洗衣机（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A city park",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "It is pumped back upstairs according to some versions of the story",
+          "zh": "被抽回楼上（按书中另一种说法）"
+        },
+        {
           "en": "It percolates, trickling slowly through the ground",
           "zh": "它渗透(percolate)，缓缓渗入地下"
         },
@@ -203,13 +207,9 @@
         {
           "en": "It evaporates instantly",
           "zh": "它立刻蒸发"
-        },
-        {
-          "en": "It is pumped back upstairs",
-          "zh": "被抽回楼上"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The effluent runs into the drainage field and percolates through the ground, where the soil naturally filters out pollutants.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "It is a major source of our drinking water",
-          "zh": "它是我们饮用水的重要来源"
-        },
-        {
-          "en": "It is used to paint houses",
-          "zh": "它用来漆房子"
-        },
-        {
           "en": "It makes clouds",
           "zh": "它制造云朵"
         },
         {
           "en": "It is a kind of food",
           "zh": "它是一种食物"
+        },
+        {
+          "en": "It is a major source of our drinking water",
+          "zh": "它是我们饮用水的重要来源"
+        },
+        {
+          "en": "It is used to paint houses according to some versions of the story",
+          "zh": "它用来漆房子（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Groundwater collects naturally underground and is a major source of drinking water; leaking sewers can contaminate it with harmful microorganisms.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Nearly 850 miles",
-          "zh": "近850英里"
-        },
-        {
-          "en": "About 10 miles",
-          "zh": "约10英里"
-        },
-        {
           "en": "Over 5,000 miles",
           "zh": "超过5000英里"
         },
         {
           "en": "Zero",
           "zh": "零"
+        },
+        {
+          "en": "About 10 miles",
+          "zh": "约10英里"
+        },
+        {
+          "en": "Nearly 850 miles",
+          "zh": "近850英里"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "New York began building sewers in the mid-1800s and by 1914 had nearly 850 miles (1,368 km) of sewers.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To show the progress made and help us appreciate modern sewers",
-          "zh": "为了展现取得的进步，并让我们感激现代下水道"
-        },
-        {
           "en": "To sell old pipes",
           "zh": "为了卖旧管子"
         },
         {
-          "en": "To teach a cooking recipe",
-          "zh": "为了教一道菜谱"
+          "en": "To show the progress made and help us appreciate modern sewers",
+          "zh": "为了展现取得的进步，并让我们感激现代下水道"
         },
         {
           "en": "To describe a sport",
           "zh": "为了介绍一项运动"
+        },
+        {
+          "en": "To teach a cooking recipe according to some versions of the story in an early draft of the book",
+          "zh": "为了教一道菜谱（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "By contrasting past problems (waste in streets and rivers) with today's treatment, the author helps readers appreciate modern systems.",

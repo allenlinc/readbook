@@ -12,12 +12,24 @@
         "zh": "2007 年危地马拉城的天坑发生了什么？"
       },
       "options": [
-        {"en": "On February 23 a huge hole opened, a dozen houses tumbled in, and several lives were lost; it was over 330 feet (100 m) deep", "zh": "2月23日一个大坑骤然裂开，十几栋房屋塌陷其中，数人丧生；坑深超过330英尺（100米）"},
-        {"en": "A small crack appeared but no buildings fell", "zh": "只出现一道小裂缝，没有房屋倒塌"},
-        {"en": "It was only 3 feet deep and harmless", "zh": "只有3英尺深，毫无危害"},
-        {"en": "It happened in the ocean", "zh": "它发生在海洋里"}
+        {
+          "en": "A small crack appeared but no buildings fell according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "只出现一道小裂缝，没有房屋倒塌（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "On February 23 a huge hole opened, a dozen houses tumbled in, and several lives were lost; it was over 330 feet (100 m) deep",
+          "zh": "2月23日一个大坑骤然裂开，十几栋房屋塌陷其中，数人丧生；坑深超过330英尺（100米）"
+        },
+        {
+          "en": "It was only 3 feet deep and harmless",
+          "zh": "只有3英尺深，毫无危害"
+        },
+        {
+          "en": "It happened in the ocean",
+          "zh": "它发生在海洋里"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says on February 23, 2007, 'a huge hole suddenly opened... A dozen houses tumbled into the pit, and several lives were lost. The hole was more than 330 feet (100 m) deep.'",
@@ -30,12 +42,24 @@
         "zh": "覆盖沉降型天坑与覆盖塌陷型天坑的主要区别是什么？"
       },
       "options": [
-        {"en": "Cover-subsidence forms slowly into a bowl shape; cover-collapse can open suddenly without warning", "zh": "覆盖沉降型缓慢形成、呈碗状；覆盖塌陷型可能毫无预警地突然塌陷"},
-        {"en": "Both always form in one day", "zh": "两者总是一天内形成"},
-        {"en": "Cover-collapse is always shallow and safe", "zh": "覆盖塌陷型总很浅也很安全"},
-        {"en": "They are exactly the same thing", "zh": "它们完全是同一回事"}
+        {
+          "en": "They are exactly the same thing",
+          "zh": "它们完全是同一回事"
+        },
+        {
+          "en": "Both always form in one day",
+          "zh": "两者总是一天内形成"
+        },
+        {
+          "en": "Cover-collapse is always shallow and safe according to some versions of the story in an early draft of the book",
+          "zh": "覆盖塌陷型总很浅也很安全（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Cover-subsidence forms slowly into a bowl shape; cover-collapse can open suddenly without warning",
+          "zh": "覆盖沉降型缓慢形成、呈碗状；覆盖塌陷型可能毫无预警地突然塌陷"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book describes cover-subsidence as forming slowly into a bowl, while cover-collapse happens 'without warning' when the thin overburden suddenly collapses.",
@@ -48,10 +72,22 @@
         "zh": "什么是「喀斯特」(karst)？它为什么与天坑有关？"
       },
       "options": [
-        {"en": "Bedrock made of rock that dissolves easily, like limestone, where sinkholes often form", "zh": "由易溶于水的岩石（如石灰岩）构成的基岩，天坑常在此形成"},
-        {"en": "A type of fast-moving river", "zh": "一种湍急的河流"},
-        {"en": "A kind of volcanic rock", "zh": "一种火山岩"},
-        {"en": "The name of a city in Guatemala", "zh": "危地马拉一座城市的名字"}
+        {
+          "en": "Bedrock made of rock that dissolves easily, like limestone, where sinkholes often form",
+          "zh": "由易溶于水的岩石（如石灰岩）构成的基岩，天坑常在此形成"
+        },
+        {
+          "en": "A kind of volcanic rock",
+          "zh": "一种火山岩"
+        },
+        {
+          "en": "The name of a city in Guatemala according to some versions of the story in an early draft of the book",
+          "zh": "危地马拉一座城市的名字（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A type of fast-moving river",
+          "zh": "一种湍急的河流"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "在词汇表里，「overburden」是什么？"
       },
       "options": [
-        {"en": "The dirt, soil, and rocks above the bedrock or something of interest", "zh": "基岩或目标物上方的一层泥土、土壤和岩石"},
-        {"en": "The layer of solid rock underneath the surface", "zh": "地表下方的坚硬岩层"},
-        {"en": "The water inside a cave", "zh": "洞穴里的水"},
-        {"en": "A kind of underground plant", "zh": "一种地下植物"}
+        {
+          "en": "The layer of solid rock underneath the surface according to some versions of the story",
+          "zh": "地表下方的坚硬岩层（按书中另一种说法）"
+        },
+        {
+          "en": "The dirt, soil, and rocks above the bedrock or something of interest",
+          "zh": "基岩或目标物上方的一层泥土、土壤和岩石"
+        },
+        {
+          "en": "A kind of underground plant",
+          "zh": "一种地下植物"
+        },
+        {
+          "en": "The water inside a cave",
+          "zh": "洞穴里的水"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines overburden as 'the dirt, soil, and rocks above the bedrock or something of interest, such as minerals or artifacts.'",
@@ -84,12 +132,24 @@
         "zh": "根据词汇表，「dissolves」（溶解）是什么意思？它如何造成天坑？"
       },
       "options": [
-        {"en": "It breaks down because of contact with a liquid; rainwater with mild acid dissolves karst and forms underground spaces", "zh": "因接触液体而分解；带弱酸的雨水溶解喀斯特岩，形成地下空间"},
-        {"en": "It means to build something up", "zh": "意思是把某物建起来"},
-        {"en": "It means to freeze solid", "zh": "意思是冻成固体"},
-        {"en": "It means to fly away", "zh": "意思是飞走"}
+        {
+          "en": "It means to fly away",
+          "zh": "意思是飞走"
+        },
+        {
+          "en": "It means to freeze solid",
+          "zh": "意思是冻成固体"
+        },
+        {
+          "en": "It breaks down because of contact with a liquid; rainwater with mild acid dissolves karst and forms underground spaces",
+          "zh": "因接触液体而分解；带弱酸的雨水溶解喀斯特岩，形成地下空间"
+        },
+        {
+          "en": "It means to build something up according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "意思是把某物建起来（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines dissolves as 'breaks down... because of contact with a liquid.' Rainwater picks up mild acid and 'dissolves karst,' helping create the underground spaces that cause sinkholes.",
@@ -102,10 +162,22 @@
         "zh": "书中描述的「cenote」（天然井，读音 seh-NO-tay）是什么？"
       },
       "options": [
-        {"en": "A deep natural sinkhole with a pool of water at the bottom, found in Mexico", "zh": "底部有水池的深天然天坑，见于墨西哥"},
-        {"en": "A type of small earthquake", "zh": "一种小地震"},
-        {"en": "A kind of underground mine", "zh": "一种地下矿坑"},
-        {"en": "A human-made garbage dump", "zh": "人造的垃圾场"}
+        {
+          "en": "A deep natural sinkhole with a pool of water at the bottom, found in Mexico",
+          "zh": "底部有水池的深天然天坑，见于墨西哥"
+        },
+        {
+          "en": "A type of small earthquake",
+          "zh": "一种小地震"
+        },
+        {
+          "en": "A human-made garbage dump",
+          "zh": "人造的垃圾场"
+        },
+        {
+          "en": "A kind of underground mine according to some versions of the story in an early draft of the book",
+          "zh": "一种地下矿坑（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,10 +192,22 @@
         "zh": "城市地下老旧、漏水的管道是如何造成天坑的？"
       },
       "options": [
-        {"en": "Old pipes collapse, letting liquid escape and eat away at the ground until the pavement caves in", "zh": "旧管道塌陷，让液体漏出、侵蚀地面，直到路面塌陷"},
-        {"en": "Pipes fill with water and float to the surface", "zh": "管道灌满水并浮到地面"},
-        {"en": "Pipes grow into trees", "zh": "管道长成了树"},
-        {"en": "Pipes cool the air and stop sinkholes", "zh": "管道冷却空气、阻止天坑"}
+        {
+          "en": "Old pipes collapse, letting liquid escape and eat away at the ground until the pavement caves in",
+          "zh": "旧管道塌陷，让液体漏出、侵蚀地面，直到路面塌陷"
+        },
+        {
+          "en": "Pipes cool the air and stop sinkholes",
+          "zh": "管道冷却空气、阻止天坑"
+        },
+        {
+          "en": "Pipes fill with water and float to the surface according to some versions of the story in an early draft of the book",
+          "zh": "管道灌满水并浮到地面（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Pipes grow into trees",
+          "zh": "管道长成了树"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "为什么把垃圾扔进天坑是个坏主意？"
       },
       "options": [
-        {"en": "Many sinkholes drain into underground water sources that people drink and farmers use, so garbage pollutes food and drinking water", "zh": "许多天坑排入地下水源，而那是人们饮用、农民灌溉的水，所以垃圾会污染食物和饮用水"},
-        {"en": "Because it makes the sinkhole prettier", "zh": "因为这会让天坑更美观"},
-        {"en": "Because fish live in the garbage", "zh": "因为鱼住在垃圾里"},
-        {"en": "Because it fills the hole with useful items", "zh": "因为这能把坑填满成有用之物"}
+        {
+          "en": "Because fish live in the garbage",
+          "zh": "因为鱼住在垃圾里"
+        },
+        {
+          "en": "Many sinkholes drain into underground water sources that people drink and farmers use, so garbage pollutes food and drinking water",
+          "zh": "许多天坑排入地下水源，而那是人们饮用、农民灌溉的水，所以垃圾会污染食物和饮用水"
+        },
+        {
+          "en": "Because it fills the hole with useful items according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "因为这能把坑填满成有用之物（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Because it makes the sinkhole prettier",
+          "zh": "因为这会让天坑更美观"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book warns sinkholes 'drain into underground water sources. This is the same water that people drink... the result is pollution in our food and drinking water.'",
@@ -156,12 +252,24 @@
         "zh": "一些地质学家认为人类活动造成的坑不该叫天坑。作者为什么要写进这个观点？"
       },
       "options": [
-        {"en": "To show that scientists have different perspectives, since true sinkholes come from natural processes", "zh": "为了说明科学家有不同看法，因为真正的天坑来自自然过程"},
-        {"en": "To prove humans never cause holes", "zh": "为了证明人类从不造成坑洞"},
-        {"en": "To say the geologists are wrong", "zh": "为了说那些地质学家错了"},
-        {"en": "To encourage more mining", "zh": "为了鼓励更多采矿"}
+        {
+          "en": "To prove humans never cause holes according to some versions of the story in an early draft of the book",
+          "zh": "为了证明人类从不造成坑洞（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To encourage more mining",
+          "zh": "为了鼓励更多采矿"
+        },
+        {
+          "en": "To say the geologists are wrong",
+          "zh": "为了说那些地质学家错了"
+        },
+        {
+          "en": "To show that scientists have different perspectives, since true sinkholes come from natural processes",
+          "zh": "为了说明科学家有不同看法，因为真正的天坑来自自然过程"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book notes 'Some geologists argue that holes caused by human activity shouldn't be called sinkholes because true sinkholes result from natural processes,' presenting a debate.",
@@ -174,12 +282,24 @@
         "zh": "关于天坑，作者的整体信息是什么？"
       },
       "options": [
-        {"en": "They can be destructive but are also interesting to study and sometimes beautiful, showing water's power over the earth", "zh": "它们虽有破坏力，但也值得研究、有时还很美，展现了水改变大地的力量"},
-        {"en": "They are always deadly and should be feared above all", "zh": "它们总是致命的，应当最优先恐惧"},
-        {"en": "They are useless holes with no value", "zh": "它们是无用的坑，毫无价值"},
-        {"en": "They only form in cities", "zh": "它们只在城市里形成"}
+        {
+          "en": "They are always deadly and should be feared above all according to some versions of the story in an early draft of the book",
+          "zh": "它们总是致命的，应当最优先恐惧（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They only form in cities",
+          "zh": "它们只在城市里形成"
+        },
+        {
+          "en": "They can be destructive but are also interesting to study and sometimes beautiful, showing water's power over the earth",
+          "zh": "它们虽有破坏力，但也值得研究、有时还很美，展现了水改变大地的力量"
+        },
+        {
+          "en": "They are useless holes with no value",
+          "zh": "它们是无用的坑，毫无价值"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The conclusion says sinkholes 'can be destructive, but they are rarely dangerous' and 'even beautiful,' and they 'show water's powerful effects on soil and rock.'",

@@ -12,12 +12,24 @@
         "zh": "谁是唯一一个曾经「十一又十七岁」(eleventeen) 的人？"
       },
       "options": [
-        {"en": "Sarah", "zh": "莎拉"},
-        {"en": "Her sister Kate", "zh": "她的姐姐凯特"},
-        {"en": "Her brother Noah", "zh": "她的弟弟诺亚"},
-        {"en": "Her mother", "zh": "她的妈妈"}
+        {
+          "en": "Her brother Noah",
+          "zh": "她的弟弟诺亚"
+        },
+        {
+          "en": "Sarah",
+          "zh": "莎拉"
+        },
+        {
+          "en": "Her sister Kate",
+          "zh": "她的姐姐凯特"
+        },
+        {
+          "en": "Her mother",
+          "zh": "她的妈妈"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'Sarah turned eleventeen yesterday,' and 'Sarah is the only person who has ever turned eleventeen. Ever!'",
@@ -30,12 +42,24 @@
         "zh": "八岁的诺亚说，他希望自己的两个姐姐怎样？"
       },
       "options": [
-        {"en": "He wishes they were both eighteen so they'd go to college and he'd have Mom to himself", "zh": "他希望她们都十八岁，好去上大学，那样妈妈就只属于他一个人了"},
-        {"en": "He wishes they were both snails", "zh": "他希望她们都变成蜗牛"},
-        {"en": "He wishes they would take him to the mall", "zh": "他希望她们带他去商场"},
-        {"en": "He wishes they would stop eating breakfast", "zh": "他希望她们别再吃早饭"}
+        {
+          "en": "He wishes they would stop eating breakfast according to some versions of the story in an early draft of the book",
+          "zh": "他希望她们别再吃早饭（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He wishes they were both snails",
+          "zh": "他希望她们都变成蜗牛"
+        },
+        {
+          "en": "He wishes they would take him to the mall",
+          "zh": "他希望她们带他去商场"
+        },
+        {
+          "en": "He wishes they were both eighteen so they'd go to college and he'd have Mom to himself",
+          "zh": "他希望她们都十八岁，好去上大学，那样妈妈就只属于他一个人了"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Noah says, 'I wish you were both eighteen... Because then they'd both go away to college, and I'd have Mommy all to myself.'",
@@ -48,12 +72,24 @@
         "zh": "根据这本书，莎拉一旦满十一岁，就能做哪些新事情？"
       },
       "options": [
-        {"en": "Jog to the park with her friend Alika and babysit her brother Noah for pay", "zh": "和好朋友阿莉卡慢跑去公园，并且有偿帮妈妈照看弟弟诺亚"},
-        {"en": "Drive a car", "zh": "开汽车"},
-        {"en": "Go to college", "zh": "上大学"},
-        {"en": "Vote in an election", "zh": "参加选举投票"}
+        {
+          "en": "Drive a car",
+          "zh": "开汽车"
+        },
+        {
+          "en": "Vote in an election according to some versions of the story in an early draft of the book",
+          "zh": "参加选举投票（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Go to college",
+          "zh": "上大学"
+        },
+        {
+          "en": "Jog to the park with her friend Alika and babysit her brother Noah for pay",
+          "zh": "和好朋友阿莉卡慢跑去公园，并且有偿帮妈妈照看弟弟诺亚"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says at eleven she and Alika 'would be able to jog down to the park,' and 'her parents said she could babysit Noah and they would pay her.'",
@@ -66,12 +102,24 @@
         "zh": "莎拉为什么说「十一离十六只差五个词」？"
       },
       "options": [
-        {"en": "Counting from eleven to sixteen (twelve, thirteen, fourteen, fifteen, sixteen) is only five number-words", "zh": "从十一数到十六（十二、十三、十四、十五、十六）只有五个数字词"},
-        {"en": "Eleven and sixteen are spelled almost the same", "zh": "十一和十六的拼写几乎一样"},
-        {"en": "She would turn sixteen in five days", "zh": "再过五天她就十六岁了"},
-        {"en": "Her sister Kate is five years older", "zh": "她的姐姐凯特比她大五岁"}
+        {
+          "en": "Eleven and sixteen are spelled almost the same according to some versions of the story in an early draft of the book",
+          "zh": "十一和十六的拼写几乎一样（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Counting from eleven to sixteen (twelve, thirteen, fourteen, fifteen, sixteen) is only five number-words",
+          "zh": "从十一数到十六（十二、十三、十四、十五、十六）只有五个数字词"
+        },
+        {
+          "en": "Her sister Kate is five years older",
+          "zh": "她的姐姐凯特比她大五岁"
+        },
+        {
+          "en": "She would turn sixteen in five days",
+          "zh": "再过五天她就十六岁了"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "She means that by counting the number-words — twelve, thirteen, fourteen, fifteen, sixteen — eleven is just five words from sixteen, which makes her feel almost a teenager.",
@@ -84,10 +132,22 @@
         "zh": "这个故事是用什么视角（人称）叙述的？"
       },
       "options": [
-        {"en": "Third-person — a narrator describes Sarah's thoughts and actions (e.g., 'Sarah turned eleventeen yesterday')", "zh": "第三人称——由叙述者描述莎拉的想法和行为（例如「莎拉昨天变成了十一又十七岁」）"},
-        {"en": "First-person — Sarah tells it as 'I'", "zh": "第一人称——由莎拉以「我」的口吻讲述"},
-        {"en": "Second-person — the reader is the main character", "zh": "第二人称——读者就是主角"},
-        {"en": "As a script performed on stage", "zh": "以舞台剧本的形式"}
+        {
+          "en": "Third-person — a narrator describes Sarah's thoughts and actions (e.g., 'Sarah turned eleventeen yesterday')",
+          "zh": "第三人称——由叙述者描述莎拉的想法和行为（例如「莎拉昨天变成了十一又十七岁」）"
+        },
+        {
+          "en": "Second-person — the reader is the main character according to some versions of the story in an early draft of the book",
+          "zh": "第二人称——读者就是主角（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "First-person — Sarah tells it as 'I'",
+          "zh": "第一人称——由莎拉以「我」的口吻讲述"
+        },
+        {
+          "en": "As a script performed on stage",
+          "zh": "以舞台剧本的形式"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,12 +162,24 @@
         "zh": "当莎拉遇到两难问题时，爸爸叫她怎么做？这句话是什么意思？"
       },
       "options": [
-        {"en": "Weigh the facts — compare the good points of each choice as if putting them on a scale", "zh": "「权衡事实」——就像把每个选项的优点放到天平上比较"},
-        {"en": "Run away — leave the house until she feels better", "zh": "「逃跑」——离开家直到心情好转"},
-        {"en": "Ask Kate — let her big sister decide", "zh": "「去问凯特」——让姐姐替她决定"},
-        {"en": "Eat breakfast — food solves everything", "zh": "「吃早饭」——食物能解决一切"}
+        {
+          "en": "Ask Kate — let her big sister decide",
+          "zh": "「去问凯特」——让姐姐替她决定"
+        },
+        {
+          "en": "Run away — leave the house until she feels better according to some versions of the story",
+          "zh": "「逃跑」——离开家直到心情好转（按书中另一种说法）"
+        },
+        {
+          "en": "Weigh the facts — compare the good points of each choice as if putting them on a scale",
+          "zh": "「权衡事实」——就像把每个选项的优点放到天平上比较"
+        },
+        {
+          "en": "Eat breakfast — food solves everything",
+          "zh": "「吃早饭」——食物能解决一切"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, 'Whenever Sarah had a dilemma, her father would tell her to \"weigh the facts.\"' She uses a table like a scale to compare the two sides.",
@@ -120,12 +192,24 @@
         "zh": "莎拉画了一张表，比较「当青少年」和「当十一岁」。她得出什么结论：十一岁在哪些方面像十六岁？"
       },
       "options": [
-        {"en": "At eleven she can earn her own money and decide how to spend it, just like a sixteen-year-old", "zh": "到了十一岁，她能自己赚钱、自己决定怎么花，就像十六岁的人一样"},
-        {"en": "At eleven she can go to college", "zh": "到了十一岁她就能上大学"},
-        {"en": "At eleven she can drive a car", "zh": "到了十一岁她就能开车"},
-        {"en": "At eleven she can vote", "zh": "到了十一岁她就能投票"}
+        {
+          "en": "At eleven she can vote",
+          "zh": "到了十一岁她就能投票"
+        },
+        {
+          "en": "At eleven she can earn her own money and decide how to spend it, just like a sixteen-year-old",
+          "zh": "到了十一岁，她能自己赚钱、自己决定怎么花，就像十六岁的人一样"
+        },
+        {
+          "en": "At eleven she can go to college according to some versions of the story in an early draft of the book",
+          "zh": "到了十一岁她就能上大学（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "At eleven she can drive a car",
+          "zh": "到了十一岁她就能开车"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "She notes that at eleven she can babysit Noah, earn money, and 'use her own money and buy things she wanted... just like a sixteen-year-old.'",
@@ -138,12 +222,24 @@
         "zh": "莎拉是怎样把自己的想法组合起来，造出「eleventeen」这个词的？"
       },
       "options": [
-        {"en": "She blends 'eleven' with 'teen' because she feels responsible and grown-up like a teenager, though still eleven in years", "zh": "她把「eleven」和「teen」合在一起，因为虽然年纪还是十一，她却觉得自己像青少年一样懂事、长大了"},
-        {"en": "She counts to eleven and then adds seven", "zh": "她数到十一，再加上七"},
-        {"en": "She copies the word from her sister Kate", "zh": "她从姐姐凯特那儿抄来的"},
-        {"en": "She finds it in the dictionary", "zh": "她在字典里查到的"}
+        {
+          "en": "She copies the word from her sister Kate according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "她从姐姐凯特那儿抄来的（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "She counts to eleven and then adds seven",
+          "zh": "她数到十一，再加上七"
+        },
+        {
+          "en": "She blends 'eleven' with 'teen' because she feels responsible and grown-up like a teenager, though still eleven in years",
+          "zh": "她把「eleven」和「teen」合在一起，因为虽然年纪还是十一，她却觉得自己像青少年一样懂事、长大了"
+        },
+        {
+          "en": "She finds it in the dictionary",
+          "zh": "她在字典里查到的"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "She realizes eleven is 'only five words away from sixteen' and decides to call herself 'eleventeen' — like a teenager (responsible, able to earn money), but not yet one in years.",
@@ -156,10 +252,22 @@
         "zh": "到故事结尾，莎拉学到了什么道理？"
       },
       "options": [
-        {"en": "It is more important to act older (responsible, earning money) than to actually be older", "zh": "表现得成熟（有责任心、能赚钱）比实际年龄更大更重要"},
-        {"en": "Being twelve is the best age of all", "zh": "十二岁才是最好玩的年纪"},
-        {"en": "She should never listen to her dad", "zh": "她永远不该听爸爸的话"},
-        {"en": "Snails are faster than sisters", "zh": "蜗牛比姐姐跑得快"}
+        {
+          "en": "It is more important to act older (responsible, earning money) than to actually be older",
+          "zh": "表现得成熟（有责任心、能赚钱）比实际年龄更大更重要"
+        },
+        {
+          "en": "Snails are faster than sisters",
+          "zh": "蜗牛比姐姐跑得快"
+        },
+        {
+          "en": "Being twelve is the best age of all according to some versions of the story in an early draft of the book",
+          "zh": "十二岁才是最好玩的年纪（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "She should never listen to her dad",
+          "zh": "她永远不该听爸爸的话"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,10 +282,22 @@
         "zh": "作者用了什么手法，让故事显得俏皮、并把读者吸引进来？"
       },
       "options": [
-        {"en": "The narrator speaks directly to the reader ('I'll let you in on a little secret') and uses a made-up word", "zh": "叙述者直接对读者说话（「让我悄悄告诉你一个小秘密」），还用了一个自造的词"},
-        {"en": "The book is written as a science report", "zh": "这本书是以科学报告的形式写的"},
-        {"en": "The story takes place in outer space", "zh": "故事发生在外太空"},
-        {"en": "The characters are all animals", "zh": "角色全都是动物"}
+        {
+          "en": "The narrator speaks directly to the reader ('I'll let you in on a little secret') and uses a made-up word",
+          "zh": "叙述者直接对读者说话（「让我悄悄告诉你一个小秘密」），还用了一个自造的词"
+        },
+        {
+          "en": "The book is written as a science report according to some versions of the story in an early draft of the book",
+          "zh": "这本书是以科学报告的形式写的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The story takes place in outer space",
+          "zh": "故事发生在外太空"
+        },
+        {
+          "en": "The characters are all animals",
+          "zh": "角色全都是动物"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

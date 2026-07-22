@@ -9,10 +9,22 @@
         "zh": "松鸦崽（Jaykit）一出生有什么与众不同之处？"
       },
       "options": [
-        {"en": "He has an extra tail", "zh": "他有一条额外的尾巴"},
-        {"en": "He is born blind", "zh": "他天生失明"},
-        {"en": "He can already speak", "zh": "他一生下来就会说话"},
-        {"en": "He is much bigger than his siblings", "zh": "他比手足们都大得多"}
+        {
+          "en": "He has an extra tail",
+          "zh": "他有一条额外的尾巴"
+        },
+        {
+          "en": "He is born blind",
+          "zh": "他天生失明"
+        },
+        {
+          "en": "He can already speak",
+          "zh": "他一生下来就会说话"
+        },
+        {
+          "en": "He is much bigger than his siblings",
+          "zh": "他比手足们都大得多"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -26,12 +38,24 @@
         "zh": "松鼠飞（Squirrelflight）生下的三只幼崽叫什么名字？"
       },
       "options": [
-        {"en": "Lionkit, Hollykit, and Jaykit", "zh": "狮崽（Lionkit）、冬青崽（Hollykit）和松鸦崽（Jaykit）"},
-        {"en": "Bramblekit, Leafkit, and Stormkit", "zh": "荆棘崽、叶崽和暴崽"},
-        {"en": "Firekit, Sandkit, and Cloudkit", "zh": "火崽、沙崽和云崽"},
-        {"en": "Tigerkit, Mothkit, and Icekit", "zh": "虎崽、蛾崽和冰崽"}
+        {
+          "en": "Tigerkit, Mothkit, and Icekit",
+          "zh": "虎崽、蛾崽和冰崽"
+        },
+        {
+          "en": "Firekit, Sandkit, and Cloudkit",
+          "zh": "火崽、沙崽和云崽"
+        },
+        {
+          "en": "Bramblekit, Leafkit, and Stormkit according to some versions of the story",
+          "zh": "荆棘崽、叶崽和暴崽（按书中另一种说法）"
+        },
+        {
+          "en": "Lionkit, Hollykit, and Jaykit",
+          "zh": "狮崽（Lionkit）、冬青崽（Hollykit）和松鸦崽（Jaykit）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "The three siblings are Lionkit, Hollykit, and Jaykit, later named Lionblaze, Hollyleaf, and Jayfeather.",
         "zh": "三兄妹是狮崽、冬青崽和松鸦崽，后来分别成为狮焰、冬青叶和松鸦羽。"
@@ -43,12 +67,24 @@
         "zh": "三只幼崽成为学徒后，哪一只受训成为巫医？"
       },
       "options": [
-        {"en": "Lionpaw", "zh": "狮爪（Lionpaw）"},
-        {"en": "Hollypaw", "zh": "冬青爪（Hollypaw）"},
-        {"en": "Jaypaw", "zh": "松鸦爪（Jaypaw）"},
-        {"en": "All three of them", "zh": "三只都成为巫医"}
+        {
+          "en": "Jaypaw",
+          "zh": "松鸦爪（Jaypaw）"
+        },
+        {
+          "en": "Lionpaw",
+          "zh": "狮爪（Lionpaw）"
+        },
+        {
+          "en": "Hollypaw",
+          "zh": "冬青爪（Hollypaw）"
+        },
+        {
+          "en": "All three of them",
+          "zh": "三只都成为巫医"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "Because Jaykit is blind, Leafpool takes Jaypaw as her medicine cat apprentice.",
         "zh": "因为松鸦崽失明，叶池（Leafpool）收松鸦爪为巫医学徒。"
@@ -60,12 +96,24 @@
         "zh": "松鸦爪（Jaypaw）发现自己拥有什么奇特力量？"
       },
       "options": [
-        {"en": "He can become invisible", "zh": "他能隐身"},
-        {"en": "He can walk in other cats' dreams and read their minds", "zh": "他能在别的猫的梦里行走、读懂它们的心思"},
-        {"en": "He can fly", "zh": "他会飞"},
-        {"en": "He can breathe underwater", "zh": "他能在水下呼吸"}
+        {
+          "en": "He can fly",
+          "zh": "他会飞"
+        },
+        {
+          "en": "He can become invisible",
+          "zh": "他能隐身"
+        },
+        {
+          "en": "He can walk in other cats' dreams and read their minds",
+          "zh": "他能在别的猫的梦里行走、读懂它们的心思"
+        },
+        {
+          "en": "He can breathe underwater according to some versions of the story",
+          "zh": "他能在水下呼吸（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Jaypaw learns he can enter other cats' dreams and sense their thoughts, even though he cannot see.",
         "zh": "松鸦爪发现自己能进入别的猫的梦境、感知它们的想法，尽管他看不见。"
@@ -77,12 +125,24 @@
         "zh": "在湖底漆黑的地道里，是谁的灵魂指引着松鸦爪？"
       },
       "options": [
-        {"en": "A former leader named Bluestar", "zh": "前任族长蓝星（Bluestar）"},
-        {"en": "An ancient cat named Fallen Leaves", "zh": "一只名叫枯叶（Fallen Leaves）的远古猫"},
-        {"en": "A hungry fox", "zh": "一只饥饿的狐狸"},
-        {"en": "Firestar's father", "zh": "火星（Firestar）的父亲"}
+        {
+          "en": "An ancient cat named Fallen Leaves",
+          "zh": "一只名叫枯叶（Fallen Leaves）的远古猫"
+        },
+        {
+          "en": "A former leader named Bluestar according to some versions of the story",
+          "zh": "前任族长蓝星（Bluestar）（按书中另一种说法）"
+        },
+        {
+          "en": "A hungry fox",
+          "zh": "一只饥饿的狐狸"
+        },
+        {
+          "en": "Firestar's father",
+          "zh": "火星（Firestar）的父亲"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "In the tunnels Jaypaw meets Fallen Leaves, the spirit of an ancient cat who was lost there long ago.",
         "zh": "在地道里，松鸦爪遇见了枯叶——一只远古猫的灵魂，很久以前就迷失在那里。"
@@ -94,10 +154,22 @@
         "zh": "关于「三力量」的预言说，他们将拥有什么？"
       },
       "options": [
-        {"en": "The power of the stars in their paws", "zh": "星族的力量在爪中"},
-        {"en": "Wings to fly to the moon", "zh": "飞向月亮的翅膀"},
-        {"en": "The ability to live forever", "zh": "永生的能力"},
-        {"en": "A map to a hidden river", "zh": "一张通往暗河的地图"}
+        {
+          "en": "The power of the stars in their paws",
+          "zh": "星族的力量在爪中"
+        },
+        {
+          "en": "The ability to live forever according to some versions of the story",
+          "zh": "永生的能力（按书中另一种说法）"
+        },
+        {
+          "en": "A map to a hidden river",
+          "zh": "一张通往暗河的地图"
+        },
+        {
+          "en": "Wings to fly to the moon",
+          "zh": "飞向月亮的翅膀"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -111,12 +183,24 @@
         "zh": "哪位雷族（ThunderClan）族长得知了关于三力量的预言？"
       },
       "options": [
-        {"en": "Firestar", "zh": "火星（Firestar）"},
-        {"en": "Brambleclaw", "zh": "荆棘爪（Brambleclaw）"},
-        {"en": "Blackstar", "zh": "黑星（Blackstar）"},
-        {"en": "Onestar", "zh": "一星（Onestar）"}
+        {
+          "en": "Blackstar",
+          "zh": "黑星（Blackstar）"
+        },
+        {
+          "en": "Firestar",
+          "zh": "火星（Firestar）"
+        },
+        {
+          "en": "Onestar",
+          "zh": "一星（Onestar）"
+        },
+        {
+          "en": "Brambleclaw",
+          "zh": "荆棘爪（Brambleclaw）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Firestar, the ThunderClan leader, receives the warning from StarClan about the coming Three.",
         "zh": "雷族族长火星从星族那里得到了关于即将到来的三力量的警示。"
@@ -128,12 +212,24 @@
         "zh": "哪位雷族公猫仍渴望着松鼠飞（Squirrelflight）的爱？"
       },
       "options": [
-        {"en": "Ashfur", "zh": "灰毛（Ashfur）"},
-        {"en": "Brackenfur", "zh": "蕨毛（Brackenfur）"},
-        {"en": "Cloudtail", "zh": "云尾（Cloudtail）"},
-        {"en": "Thornclaw", "zh": "刺爪（Thornclaw）"}
+        {
+          "en": "Cloudtail",
+          "zh": "云尾（Cloudtail）"
+        },
+        {
+          "en": "Ashfur",
+          "zh": "灰毛（Ashfur）"
+        },
+        {
+          "en": "Thornclaw",
+          "zh": "刺爪（Thornclaw）"
+        },
+        {
+          "en": "Brackenfur",
+          "zh": "蕨毛（Brackenfur）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Ashfur has never gotten over his love for Squirrelflight, which causes trouble later in the series.",
         "zh": "灰毛始终放不下对松鼠飞的爱，这在后续剧情中酿成了麻烦。"
@@ -145,12 +241,24 @@
         "zh": "在系列开始时，猫族以为这三只幼崽的父母是谁？"
       },
       "options": [
-        {"en": "Leafpool and Crowfeather", "zh": "叶池（Leafpool）与乌掌（Crowfeather）"},
-        {"en": "Brambleclaw and Squirrelflight", "zh": "荆棘爪（Brambleclaw）与松鼠飞（Squirrelflight）"},
-        {"en": "Firestar and Sandstorm", "zh": "火星（Firestar）与沙暴（Sandstorm）"},
-        {"en": "Two unknown loners", "zh": "两只不知名的独行猫"}
+        {
+          "en": "Leafpool and Crowfeather according to some versions of the story",
+          "zh": "叶池（Leafpool）与乌掌（Crowfeather）（按书中另一种说法）"
+        },
+        {
+          "en": "Firestar and Sandstorm",
+          "zh": "火星（Firestar）与沙暴（Sandstorm）"
+        },
+        {
+          "en": "Brambleclaw and Squirrelflight",
+          "zh": "荆棘爪（Brambleclaw）与松鼠飞（Squirrelflight）"
+        },
+        {
+          "en": "Two unknown loners",
+          "zh": "两只不知名的独行猫"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Everyone believes Brambleclaw and Squirrelflight are the parents; the real truth is hidden.",
         "zh": "大家都以为父母是荆棘爪和松鼠飞，真正的身世被隐瞒了起来。"
@@ -162,12 +270,24 @@
         "zh": "在「三力量」系列中，四大猫族住在哪里？"
       },
       "options": [
-        {"en": "In the old forest", "zh": "在旧森林里"},
-        {"en": "By the lake", "zh": "在湖边"},
-        {"en": "In the mountains", "zh": "在山里"},
-        {"en": "Only on the open moor", "zh": "只在开阔的荒原上"}
+        {
+          "en": "In the mountains",
+          "zh": "在山里"
+        },
+        {
+          "en": "In the old forest",
+          "zh": "在旧森林里"
+        },
+        {
+          "en": "Only on the open moor",
+          "zh": "只在开阔的荒原上"
+        },
+        {
+          "en": "By the lake",
+          "zh": "在湖边"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "After the Great Journey, the four Clans live around the lake in their new territories.",
         "zh": "大旅程之后，四大猫族在湖边的新领地安了家。"

@@ -12,12 +12,24 @@
         "zh": "白云营地(Camp White Cloud)在哪里？营员们要待多久？"
       },
       "options": [
-        {"en": "In the mountains of Colorado, for two weeks", "zh": "在科罗拉多州的山里，待两个星期"},
-        {"en": "On a beach in Florida, for one day", "zh": "在佛罗里达的海滩上，待一天"},
-        {"en": "In a city in New York, for the whole summer", "zh": "在纽约市里，待整个夏天"},
-        {"en": "Near a lake in Texas, for three months", "zh": "在得克萨斯的一个湖边，待三个月"}
+        {
+          "en": "Near a lake in Texas, for three months",
+          "zh": "在得克萨斯的一个湖边，待三个月"
+        },
+        {
+          "en": "In a city in New York, for the whole summer according to some versions of the story",
+          "zh": "在纽约市里，待整个夏天（按书中另一种说法）"
+        },
+        {
+          "en": "On a beach in Florida, for one day",
+          "zh": "在佛罗里达的海滩上，待一天"
+        },
+        {
+          "en": "In the mountains of Colorado, for two weeks",
+          "zh": "在科罗拉多州的山里，待两个星期"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Frankie arrived 'along with 199 other campers, to spend two weeks in the mountains of Colorado.'",
@@ -30,10 +42,22 @@
         "zh": "安琪拉·汉森(Angela Hansen)是谁？她在营地里有什么特别之处？"
       },
       "options": [
-        {"en": "Her dad is the Camp Director, so she gets to play all summer but rarely sees him because he is busy", "zh": "她爸爸是营地主任，所以她整个夏天都能玩，但因为爸爸很忙，很少见到他"},
-        {"en": "She is the camp cook who feeds everyone", "zh": "她是给所有人做饭的营地厨师"},
-        {"en": "She is a new camper who just arrived that day", "zh": "她是当天才刚到的新营员"},
-        {"en": "She is the soccer coach for the boys' team", "zh": "她是男足队的教练"}
+        {
+          "en": "Her dad is the Camp Director, so she gets to play all summer but rarely sees him because he is busy",
+          "zh": "她爸爸是营地主任，所以她整个夏天都能玩，但因为爸爸很忙，很少见到他"
+        },
+        {
+          "en": "She is a new camper who just arrived that day according to some versions of the story in an early draft of the book",
+          "zh": "她是当天才刚到的新营员（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "She is the camp cook who feeds everyone",
+          "zh": "她是给所有人做饭的营地厨师"
+        },
+        {
+          "en": "She is the soccer coach for the boys' team",
+          "zh": "她是男足队的教练"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "这个谜团故事是用什么视角（人称）叙述的？"
       },
       "options": [
-        {"en": "Third-person — a narrator describes Frankie's thoughts and actions from outside", "zh": "第三人称——叙述者从外部描写弗兰基的想法和行为"},
-        {"en": "First-person — Frankie tells it herself as 'I'", "zh": "第一人称——由弗兰基以「我」的口吻讲述"},
-        {"en": "Second-person — the reader is addressed as 'you'", "zh": "第二人称——以「你」来称呼读者"},
-        {"en": "It is written as a newspaper article", "zh": "它是一篇新闻报道的形式"}
+        {
+          "en": "Second-person — the reader is addressed as 'you'",
+          "zh": "第二人称——以「你」来称呼读者"
+        },
+        {
+          "en": "Third-person — a narrator describes Frankie's thoughts and actions from outside",
+          "zh": "第三人称——叙述者从外部描写弗兰基的想法和行为"
+        },
+        {
+          "en": "First-person — Frankie tells it herself as 'I' according to some versions of the story",
+          "zh": "第一人称——由弗兰基以「我」的口吻讲述（按书中另一种说法）"
+        },
+        {
+          "en": "It is written as a newspaper article",
+          "zh": "它是一篇新闻报道的形式"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The narrator describes Frankie from outside, e.g. 'Frankie didn't believe the story' and 'Frankie could faintly see Angela's bunk' — that is third-person.",
@@ -66,12 +102,24 @@
         "zh": "根据安琪拉讲的故事，「卢珀老头」(Old Man Looper) 是谁？"
       },
       "options": [
-        {"en": "A miner who hoped to find gold, had little luck, and mysteriously disappeared, said to haunt the camp", "zh": "一个想挖到金子却运气不佳、神秘失踪的矿工，据说在营地出没"},
-        {"en": "The first Camp Director who built the wooden arch", "zh": "建造木拱门的第一任营地主任"},
-        {"en": "A friendly bear that lives in the woods", "zh": "住在森林里的一只友好的熊"},
-        {"en": "Frankie's grandfather", "zh": "弗兰基的祖父"}
+        {
+          "en": "A friendly bear that lives in the woods",
+          "zh": "住在森林里的一只友好的熊"
+        },
+        {
+          "en": "Frankie's grandfather",
+          "zh": "弗兰基的祖父"
+        },
+        {
+          "en": "A miner who hoped to find gold, had little luck, and mysteriously disappeared, said to haunt the camp",
+          "zh": "一个想挖到金子却运气不佳、神秘失踪的矿工，据说在营地出没"
+        },
+        {
+          "en": "The first Camp Director who built the wooden arch according to some versions of the story in an early draft of the book",
+          "zh": "建造木拱门的第一任营地主任（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Angela told that Looper 'was a miner who hoped to find a fortune in gold... he had little luck... One day, he mysteriously disappeared; Angela said he'd haunted the camp ever since.'",
@@ -84,10 +132,22 @@
         "zh": "弗兰基不相信那是卢珀老头的鬼魂。文中哪些线索表明背后是真实的人，而不是鬼？"
       },
       "options": [
-        {"en": "Angela stayed 'asleep' (stuffed her bag with pillows), fresh carved messages appeared, and a letter was found in her woodworking box", "zh": "安琪拉一直「在睡」（用枕头塞满睡袋装睡）、出现了刚刻不久的字、在她的木工盒里发现了一封信"},
-        {"en": "The cabin door was locked from the outside every night", "zh": "小屋的门每晚都从外面锁着"},
-        {"en": "A real ghost was seen by the camp director", "zh": "营地主任亲眼看到了真正的鬼"},
-        {"en": "The carvings were made by a wild animal", "zh": "那些刻字是野兽刻的"}
+        {
+          "en": "Angela stayed 'asleep' (stuffed her bag with pillows), fresh carved messages appeared, and a letter was found in her woodworking box",
+          "zh": "安琪拉一直「在睡」（用枕头塞满睡袋装睡）、出现了刚刻不久的字、在她的木工盒里发现了一封信"
+        },
+        {
+          "en": "The cabin door was locked from the outside every night according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "小屋的门每晚都从外面锁着（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "A real ghost was seen by the camp director",
+          "zh": "营地主任亲眼看到了真正的鬼"
+        },
+        {
+          "en": "The carvings were made by a wild animal",
+          "zh": "那些刻字是野兽刻的"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -102,12 +162,24 @@
         "zh": "安琪拉为什么要制造那些恐怖警告、在营地里刻字？"
       },
       "options": [
-        {"en": "She was upset that her busy father, the Camp Director, never spent time with her, and wanted his attention", "zh": "她因为爸爸（营地主任）太忙、从不陪她而难过，想引起爸爸的注意"},
-        {"en": "She wanted to win the soccer game", "zh": "她想赢足球比赛"},
-        {"en": "She was bored and liked carving wood", "zh": "她无聊，又喜欢刻木头"},
-        {"en": "She wanted to close the camp to get more pocket money", "zh": "她想关闭营地，好多拿零花钱"}
+        {
+          "en": "She wanted to close the camp to get more pocket money according to some versions of the story in an early draft of the book",
+          "zh": "她想关闭营地，好多拿零花钱（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "She was bored and liked carving wood",
+          "zh": "她无聊，又喜欢刻木头"
+        },
+        {
+          "en": "She was upset that her busy father, the Camp Director, never spent time with her, and wanted his attention",
+          "zh": "她因为爸爸（营地主任）太忙、从不陪她而难过，想引起爸爸的注意"
+        },
+        {
+          "en": "She wanted to win the soccer game",
+          "zh": "她想赢足球比赛"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "In the epilogue Angela says, 'I know how important you are to all of these campers, but I just couldn't stand not getting time with you any more' — her mischief was a cry for her father's attention.",
@@ -120,12 +192,24 @@
         "zh": "在「最后通牒」(Last Chance) 那次，餐厅墙上刻了什么字？"
       },
       "options": [
-        {"en": "\"LAST WARNING! LEAVE NOW!\"", "zh": "「最后警告！马上离开！」"},
-        {"en": "\"THIS IS NOT YOUR HOME! LEAVE NOW!\"", "zh": "「这里不是你的家！马上离开！」"},
-        {"en": "\"WELCOME TO CAMP WHITE CLOUD\"", "zh": "「欢迎来到白云营地」"},
-        {"en": "\"OLD MAN LOOPER LIVES HERE\"", "zh": "「卢珀老头住在这里」"}
+        {
+          "en": "\"WELCOME TO CAMP WHITE CLOUD\"",
+          "zh": "「欢迎来到白云营地」"
+        },
+        {
+          "en": "\"LAST WARNING! LEAVE NOW!\"",
+          "zh": "「最后警告！马上离开！」"
+        },
+        {
+          "en": "\"THIS IS NOT YOUR HOME! LEAVE NOW!\"",
+          "zh": "「这里不是你的家！马上离开！」"
+        },
+        {
+          "en": "\"OLD MAN LOOPER LIVES HERE\"",
+          "zh": "「卢珀老头住在这里」"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "At the dining hall, 'one wall was carved with \"LAST WARNING! LEAVE NOW!\"' The earlier cabin message was 'THIS IS NOT YOUR HOME! LEAVE NOW!'",
@@ -138,10 +222,22 @@
         "zh": "书里把小屋外的黑影叫做「prowler」。prowler 是什么意思？"
       },
       "options": [
-        {"en": "Someone who moves around secretly, especially at night, to spy on or disturb others", "zh": "在暗处（尤其夜里）悄悄走动、窥探或捣乱的人"},
-        {"en": "A type of friendly camp counselor", "zh": "一种友好的营地辅导员"},
-        {"en": "A kind of owl that lives in trees", "zh": "一种住在树上的猫头鹰"},
-        {"en": "The name of the camp's dog", "zh": "营地一条狗的名字"}
+        {
+          "en": "Someone who moves around secretly, especially at night, to spy on or disturb others",
+          "zh": "在暗处（尤其夜里）悄悄走动、窥探或捣乱的人"
+        },
+        {
+          "en": "A type of friendly camp counselor according to some versions of the story in an early draft of the book",
+          "zh": "一种友好的营地辅导员（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A kind of owl that lives in trees",
+          "zh": "一种住在树上的猫头鹰"
+        },
+        {
+          "en": "The name of the camp's dog",
+          "zh": "营地一条狗的名字"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -156,12 +252,24 @@
         "zh": "弗兰基和吉尔是怎样破案、让白云营地免于关闭的？"
       },
       "options": [
-        {"en": "They gathered clues (fake sleep, early leave from woodworking, the letter in her box) and told Director Hansen, proving Angela was behind it", "zh": "他们收集线索（装睡、提前离开木工课、木工盒里的信）告诉了汉森主任，证明是安琪拉干的"},
-        {"en": "They caught a real ghost in the woods", "zh": "他们在树林里抓到了真正的鬼"},
-        {"en": "They guessed randomly and got lucky", "zh": "他们随便猜、碰巧猜中"},
-        {"en": "They asked the soccer team to vote", "zh": "他们让足球队投票决定"}
+        {
+          "en": "They caught a real ghost in the woods according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他们在树林里抓到了真正的鬼（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "They gathered clues (fake sleep, early leave from woodworking, the letter in her box) and told Director Hansen, proving Angela was behind it",
+          "zh": "他们收集线索（装睡、提前离开木工课、木工盒里的信）告诉了汉森主任，证明是安琪拉干的"
+        },
+        {
+          "en": "They asked the soccer team to vote",
+          "zh": "他们让足球队投票决定"
+        },
+        {
+          "en": "They guessed randomly and got lucky",
+          "zh": "他们随便猜、碰巧猜中"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Frankie whispered the evidence to Director Hansen, and he announced, 'Thanks to Frankie and Gil, Camp White Cloud stays open!' — their clue-combining solved it.",
@@ -174,12 +282,24 @@
         "zh": "作者讲这个谜团故事，主要目的是什么？"
       },
       "options": [
-        {"en": "To show how paying attention to clues and working together can solve a problem — and help us understand someone else's feelings", "zh": "为了说明留意线索、团队合作能破解问题，也帮助我们理解别人的感受"},
-        {"en": "To teach readers how to dig for gold", "zh": "教读者怎样挖金子"},
-        {"en": "To prove that ghosts are real", "zh": "证明鬼是真实存在的"},
-        {"en": "To explain how to build a wooden arch", "zh": "讲解怎样搭建木拱门"}
+        {
+          "en": "To prove that ghosts are real",
+          "zh": "证明鬼是真实存在的"
+        },
+        {
+          "en": "To explain how to build a wooden arch according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "讲解怎样搭建木拱门（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "To teach readers how to dig for gold",
+          "zh": "教读者怎样挖金子"
+        },
+        {
+          "en": "To show how paying attention to clues and working together can solve a problem — and help us understand someone else's feelings",
+          "zh": "为了说明留意线索、团队合作能破解问题，也帮助我们理解别人的感受"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book ends with Director Hansen praising 'detectives like Frankie and Gil to solve the case,' and reveals Angela's sad reason — the author wants readers to see both smart detective work and empathy.",

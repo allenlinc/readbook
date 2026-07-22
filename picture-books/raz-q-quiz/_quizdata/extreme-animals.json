@@ -12,12 +12,24 @@
         "zh": "有史以来最大的哺乳动物是什么？它有多大？"
       },
       "options": [
-        {"en": "The blue whale; as long as half a football field and so heavy it must be supported by water", "zh": "蓝鲸；身长相当于半个足球场，重到必须靠水支撑身体"},
-        {"en": "The elephant; as heavy as two pickup trucks", "zh": "大象；重得像两辆皮卡"},
-        {"en": "The giraffe; as tall as a two-story house", "zh": "长颈鹿；高得像两层楼"},
-        {"en": "The hippo; faster than a person", "zh": "河马；比人跑得快"}
+        {
+          "en": "The elephant; as heavy as two pickup trucks according to some versions of the story in an early draft of the book",
+          "zh": "大象；重得像两辆皮卡（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The blue whale; as long as half a football field and so heavy it must be supported by water",
+          "zh": "蓝鲸；身长相当于半个足球场，重到必须靠水支撑身体"
+        },
+        {
+          "en": "The giraffe; as tall as a two-story house",
+          "zh": "长颈鹿；高得像两层楼"
+        },
+        {
+          "en": "The hippo; faster than a person",
+          "zh": "河马；比人跑得快"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says a 'giant blue whale is as long as half of a football field. It is the largest mammal to inhabit the Earth—now or ever,' and 'has to be supported by water.'",
@@ -30,10 +42,22 @@
         "zh": "哪种动物是陆地上最高的？它刚出生时的幼崽有多高？"
       },
       "options": [
-        {"en": "The giraffe; a baby giraffe is already about 1.8 m (6 ft) tall at birth", "zh": "长颈鹿；刚出生的小长颈鹿就已经约1.8米（6英尺）高"},
-        {"en": "The elephant; its baby weighs 136 kg", "zh": "大象；它的幼崽重136千克"},
-        {"en": "The ostrich; it is the fastest on two feet", "zh": "鸵鸟；它是两条腿跑得最快的"},
-        {"en": "The kangaroo; it can kick with all four feet", "zh": "袋鼠；它能用四条腿同时踢"}
+        {
+          "en": "The giraffe; a baby giraffe is already about 1.8 m (6 ft) tall at birth",
+          "zh": "长颈鹿；刚出生的小长颈鹿就已经约1.8米（6英尺）高"
+        },
+        {
+          "en": "The elephant; its baby weighs 136 kg",
+          "zh": "大象；它的幼崽重136千克"
+        },
+        {
+          "en": "The kangaroo; it can kick with all four feet according to some versions of the story",
+          "zh": "袋鼠；它能用四条腿同时踢（按书中另一种说法）"
+        },
+        {
+          "en": "The ostrich; it is the fastest on two feet",
+          "zh": "鸵鸟；它是两条腿跑得最快的"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "哪种动物寿命最短？它活多久？"
       },
       "options": [
-        {"en": "The mayfly; it lives only about one day after becoming an adult", "zh": "蜉蝣；它变成成虫后只能活大约一天"},
-        {"en": "The tortoise; 150 to 200 years", "zh": "乌龟；150到200年"},
-        {"en": "The snail; it never hurries", "zh": "蜗牛；它从不着急"},
-        {"en": "The lungfish; four years without food", "zh": "肺鱼；四年不吃东西"}
+        {
+          "en": "The tortoise; 150 to 200 years",
+          "zh": "乌龟；150到200年"
+        },
+        {
+          "en": "The snail; it never hurries",
+          "zh": "蜗牛；它从不着急"
+        },
+        {
+          "en": "The lungfish; four years without food according to some versions of the story",
+          "zh": "肺鱼；四年不吃东西（按书中另一种说法）"
+        },
+        {
+          "en": "The mayfly; it lives only about one day after becoming an adult",
+          "zh": "蜉蝣；它变成成虫后只能活大约一天"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Under 'Shortest Life,' the book says, 'A mayfly usually lives only one day after it hatches into an adult insect.'",
@@ -66,10 +102,22 @@
         "zh": "根据这本书，提到的最快的动物是哪些？"
       },
       "options": [
-        {"en": "The cheetah (over 105 km/h on land) and the peregrine falcon (over 322 km/h diving)", "zh": "猎豹（陆地上超过105公里/小时）和游隼（俯冲时超过322公里/小时）"},
-        {"en": "The snail and the sloth", "zh": "蜗牛和树懒"},
-        {"en": "The penguin and the flamingo", "zh": "企鹅和火烈鸟"},
-        {"en": "The tortoise and the mayfly", "zh": "乌龟和蜉蝣"}
+        {
+          "en": "The cheetah (over 105 km/h on land) and the peregrine falcon (over 322 km/h diving)",
+          "zh": "猎豹（陆地上超过105公里/小时）和游隼（俯冲时超过322公里/小时）"
+        },
+        {
+          "en": "The snail and the sloth",
+          "zh": "蜗牛和树懒"
+        },
+        {
+          "en": "The penguin and the flamingo according to some versions of the story in an early draft of the book",
+          "zh": "企鹅和火烈鸟（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The tortoise and the mayfly",
+          "zh": "乌龟和蜉蝣"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -84,10 +132,22 @@
         "zh": "书里把「极限动物」称作动物王国里的「摇滚明星」(rock stars)。这是什么意思？"
       },
       "options": [
-        {"en": "They get noticed everywhere they go because of their unusual, standout traits", "zh": "因为它们有着不寻常、格外突出的特点，走到哪里都引人注目"},
-        {"en": "They all play musical instruments", "zh": "它们都会演奏乐器"},
-        {"en": "They live only in concert halls", "zh": "它们只住在音乐厅里"},
-        {"en": "They are made of stone", "zh": "它们是用石头做的"}
+        {
+          "en": "They get noticed everywhere they go because of their unusual, standout traits",
+          "zh": "因为它们有着不寻常、格外突出的特点，走到哪里都引人注目"
+        },
+        {
+          "en": "They all play musical instruments according to some versions of the story in an early draft of the book",
+          "zh": "它们都会演奏乐器（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They are made of stone",
+          "zh": "它们是用石头做的"
+        },
+        {
+          "en": "They live only in concert halls",
+          "zh": "它们只住在音乐厅里"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,12 +162,24 @@
         "zh": "在这本书里，一种动物被称为「极限」(extreme) 是什么意思？"
       },
       "options": [
-        {"en": "It goes to extremes to get noticed — having an unusual ability, size, speed, or color that makes it stand out", "zh": "它用极端的方式引人注意——拥有不寻常的能力、体型、速度或颜色，使它脱颖而出"},
-        {"en": "It is always in danger", "zh": "它总是身处危险"},
-        {"en": "It lives only in zoos", "zh": "它只生活在动物园里"},
-        {"en": "It is the size of a rock", "zh": "它和石头一样大"}
+        {
+          "en": "It is always in danger",
+          "zh": "它总是身处危险"
+        },
+        {
+          "en": "It lives only in zoos",
+          "zh": "它只生活在动物园里"
+        },
+        {
+          "en": "It is the size of a rock according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "它和石头一样大（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "It goes to extremes to get noticed — having an unusual ability, size, speed, or color that makes it stand out",
+          "zh": "它用极端的方式引人注意——拥有不寻常的能力、体型、速度或颜色，使它脱颖而出"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The intro says unusual animals 'seem to go to extremes to get noticed' through 'an ability, or a special talent,' or their 'speed or their size—or even their coloration.'",
@@ -120,12 +192,24 @@
         "zh": "这本书把动物按相反的「极端」分类。哪一对最能体现最大和最小的动物？"
       },
       "options": [
-        {"en": "The blue whale (biggest) and the bee hummingbird (smallest, lighter than a teaspoon of water)", "zh": "蓝鲸（最大）和蜜蜂蜂鸟（最小，比一茶匙水还轻）"},
-        {"en": "The giraffe and the ostrich", "zh": "长颈鹿和鸵鸟"},
-        {"en": "The camel and the cricket", "zh": "骆驼和蟋蟀"},
-        {"en": "The zebra and the penguin", "zh": "斑马和企鹅"}
+        {
+          "en": "The camel and the cricket",
+          "zh": "骆驼和蟋蟀"
+        },
+        {
+          "en": "The blue whale (biggest) and the bee hummingbird (smallest, lighter than a teaspoon of water)",
+          "zh": "蓝鲸（最大）和蜜蜂蜂鸟（最小，比一茶匙水还轻）"
+        },
+        {
+          "en": "The zebra and the penguin",
+          "zh": "斑马和企鹅"
+        },
+        {
+          "en": "The giraffe and the ostrich according to some versions of the story in an early draft of the book",
+          "zh": "长颈鹿和鸵鸟（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The 'Biggest' section features the blue whale, while the 'Smallest' section features the bee hummingbird that 'weighs less than the water in a teaspoon.'",
@@ -138,12 +222,24 @@
         "zh": "这本书同时列出了「最吵」和「最安静」的动物。哪一种属于最安静的，哪几种属于最吵的？"
       },
       "options": [
-        {"en": "The giraffe is one of the quietest, while the howler monkey and blue whale are among the loudest", "zh": "长颈鹿是最安静的之一，而吼猴和蓝鲸则属于最吵的"},
-        {"en": "The snail is loudest and the cheetah is quietest", "zh": "蜗牛最吵、猎豹最安静"},
-        {"en": "The flamingo is loudest and the penguin is quietest", "zh": "火烈鸟最吵、企鹅最安静"},
-        {"en": "The ant is loudest and the elephant is quietest", "zh": "蚂蚁最吵、大象最安静"}
+        {
+          "en": "The flamingo is loudest and the penguin is quietest according to some versions of the story in an early draft of the book",
+          "zh": "火烈鸟最吵、企鹅最安静（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The ant is loudest and the elephant is quietest",
+          "zh": "蚂蚁最吵、大象最安静"
+        },
+        {
+          "en": "The giraffe is one of the quietest, while the howler monkey and blue whale are among the loudest",
+          "zh": "长颈鹿是最安静的之一，而吼猴和蓝鲸则属于最吵的"
+        },
+        {
+          "en": "The snail is loudest and the cheetah is quietest",
+          "zh": "蜗牛最吵、猎豹最安静"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Under 'Quietest,' the giraffe 'is one of the quietest animals' (it communicates with body language), while the 'Loudest' section covers the blue whale's rocket-loud song and the howler monkey's far-carrying howl.",
@@ -156,12 +252,24 @@
         "zh": "作者写这本书的目的是什么？"
       },
       "options": [
-        {"en": "To share odd, unknown, and fun facts about unusual animals and what makes them special", "zh": "为了分享那些奇特、少见又有趣的事实，介绍不寻常的动物以及它们的特别之处"},
-        {"en": "To teach readers how to train pets", "zh": "为了教读者怎么训练宠物"},
-        {"en": "To argue that all animals are the same", "zh": "为了论证所有动物都一样"},
-        {"en": "To list every animal in the world", "zh": "为了列出世界上每一种动物"}
+        {
+          "en": "To teach readers how to train pets",
+          "zh": "为了教读者怎么训练宠物"
+        },
+        {
+          "en": "To share odd, unknown, and fun facts about unusual animals and what makes them special",
+          "zh": "为了分享那些奇特、少见又有趣的事实，介绍不寻常的动物以及它们的特别之处"
+        },
+        {
+          "en": "To argue that all animals are the same according to some versions of the story in an early draft of the book",
+          "zh": "为了论证所有动物都一样（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To list every animal in the world",
+          "zh": "为了列出世界上每一种动物"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The intro says the book 'tells many odd, unknown, and fun facts about these unusual animals, and what makes them different and special.'",
@@ -174,12 +282,24 @@
         "zh": "这本书关于「极限动物」的最终主旨是什么？"
       },
       "options": [
-        {"en": "They come in many different sizes and shapes and get noticed like 'rock stars'", "zh": "它们有各种各样的体型和外形，像「摇滚明星」一样引人注目"},
-        {"en": "Only the biggest animals matter", "zh": "只有最大的动物才重要"},
-        {"en": "Small animals should be afraid", "zh": "小型动物应该感到害怕"},
-        {"en": "Animals should try to be normal", "zh": "动物应该努力变得普通"}
+        {
+          "en": "Small animals should be afraid",
+          "zh": "小型动物应该感到害怕"
+        },
+        {
+          "en": "Animals should try to be normal according to some versions of the story in an early draft of the book",
+          "zh": "动物应该努力变得普通（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They come in many different sizes and shapes and get noticed like 'rock stars'",
+          "zh": "它们有各种各样的体型和外形，像「摇滚明星」一样引人注目"
+        },
+        {
+          "en": "Only the biggest animals matter",
+          "zh": "只有最大的动物才重要"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The ending says 'extreme animals come in many different sizes and shapes,' and calls them 'the rock stars in the animal kingdom.'",

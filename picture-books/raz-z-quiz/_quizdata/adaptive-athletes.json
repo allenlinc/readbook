@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "A car driver",
+          "zh": "一名司机"
+        },
+        {
           "en": "Sir Ludwig Guttmann, a British doctor",
           "zh": "英国医生路德维希·古特曼爵士"
         },
@@ -21,15 +25,11 @@
           "zh": "一位著名游泳运动员"
         },
         {
-          "en": "The president of the U.S.",
-          "zh": "美国总统"
-        },
-        {
-          "en": "A car driver",
-          "zh": "一名司机"
+          "en": "The president of the U.S. according to some versions of the story",
+          "zh": "美国总统（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Dr. Ludwig Guttmann started a program in Britain to rehabilitate WWII veterans.",
@@ -43,8 +43,8 @@
       },
       "options": [
         {
-          "en": "1960 in Rome, Italy",
-          "zh": "1960年，意大利罗马"
+          "en": "1989 in Germany according to some versions of the story",
+          "zh": "1989年，德国（按书中另一种说法）"
         },
         {
           "en": "1948 in London",
@@ -55,11 +55,11 @@
           "zh": "2012年，北京"
         },
         {
-          "en": "1989 in Germany",
-          "zh": "1989年，德国"
+          "en": "1960 in Rome, Italy",
+          "zh": "1960年，意大利罗马"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the first official Paralympics were held in 1960 in Italy, after the Rome Olympics.",
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "Natalie du Toit according to some versions of the story",
+          "zh": "娜塔莉·杜托伊特（按书中另一种说法）"
+        },
+        {
           "en": "Trischa Zorn, a blind American swimmer",
           "zh": "特里莎·佐恩，一位失明的美国游泳运动员"
         },
@@ -81,15 +85,11 @@
           "zh": "艾米·珀迪"
         },
         {
-          "en": "Natalie du Toit",
-          "zh": "娜塔莉·杜托伊特"
-        },
-        {
           "en": "Tom Aggar",
           "zh": "汤姆·阿加"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Trischa Zorn won 55 medals (41 gold) from 1980 to 2004, the most decorated ever.",
@@ -107,16 +107,16 @@
           "zh": "一项专供视力受限运动员、使用带铃铛的球的运动"
         },
         {
-          "en": "A type of horse racing",
-          "zh": "一种赛马"
+          "en": "A running race",
+          "zh": "赛跑"
         },
         {
           "en": "A swimming event",
           "zh": "游泳项目"
         },
         {
-          "en": "A running race",
-          "zh": "赛跑"
+          "en": "A type of horse racing according to some versions of the story in an early draft of the book",
+          "zh": "一种赛马（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -133,8 +133,12 @@
       },
       "options": [
         {
-          "en": "By giving made-up stories",
-          "zh": "用虚构故事"
+          "en": "By giving made-up stories according to some versions of the story",
+          "zh": "用虚构故事（按书中另一种说法）"
+        },
+        {
+          "en": "By drawing cartoons only",
+          "zh": "只用卡通画"
         },
         {
           "en": "By using real examples, facts, and numbers about Paralympians",
@@ -143,13 +147,9 @@
         {
           "en": "By listing songs",
           "zh": "列出歌曲"
-        },
-        {
-          "en": "By drawing cartoons only",
-          "zh": "只用卡通画"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book backs claims with named athletes, medal counts, and specific dates.",
@@ -163,10 +163,6 @@
       },
       "options": [
         {
-          "en": "To fill space",
-          "zh": "凑篇幅"
-        },
-        {
           "en": "To help readers understand the terms about disabilities and sports",
           "zh": "帮助读者理解有关残障与运动的术语"
         },
@@ -175,11 +171,15 @@
           "zh": "考拼写"
         },
         {
-          "en": "To translate to French",
-          "zh": "翻译成法语"
+          "en": "To fill space",
+          "zh": "凑篇幅"
+        },
+        {
+          "en": "To translate to French according to some versions of the story in an early draft of the book",
+          "zh": "翻译成法语（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "These features explain words like 'adaptive,' 'prosthetic,' and 'paraplegia.'",
@@ -193,8 +193,8 @@
       },
       "options": [
         {
-          "en": "They guess",
-          "zh": "他们猜"
+          "en": "They stop randomly according to some versions of the story in an early draft of the book",
+          "zh": "他们随机停下（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Tappers at the pool ends tap them with a pole as they near the wall",
@@ -205,8 +205,8 @@
           "zh": "他们用前灯"
         },
         {
-          "en": "They stop randomly",
-          "zh": "他们随机停下"
+          "en": "They guess",
+          "zh": "他们猜"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "A wooden cane",
-          "zh": "木手杖"
+          "en": "A bicycle horn according to some versions of the story",
+          "zh": "自行车铃（按书中另一种说法）"
+        },
+        {
+          "en": "A sailboat",
+          "zh": "帆船"
         },
         {
           "en": "A lower-body exoskeleton like eLEGS",
           "zh": "如 eLEGS 这样的下半身外骨骼"
         },
         {
-          "en": "A bicycle horn",
-          "zh": "自行车铃"
-        },
-        {
-          "en": "A sailboat",
-          "zh": "帆船"
+          "en": "A wooden cane",
+          "zh": "木手杖"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book describes robotic legs such as eLEGS that let people with paraplegia stand and walk.",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "That disabled people cannot be athletes",
-          "zh": "残障人士不能当运动员"
-        },
-        {
           "en": "That adaptive athletes show the human spirit by overcoming disabilities to excel",
           "zh": "适应性运动员以超越残障、追求卓越的精神打动人心"
         },
@@ -267,9 +263,13 @@
         {
           "en": "That only Olympians matter",
           "zh": "只有奥运会选手才重要"
+        },
+        {
+          "en": "That disabled people cannot be athletes according to some versions of the story in an early draft of the book",
+          "zh": "残障人士不能当运动员（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book celebrates athletes who 'made the most of their abilities' despite disabilities.",
@@ -287,19 +287,19 @@
           "zh": "当作失败"
         },
         {
-          "en": "As inspiring, having grown from 1948 beginnings to match the Olympics in scale",
-          "zh": "令人鼓舞，从1948年起发展壮大，规模已可比肩奥运会"
-        },
-        {
-          "en": "As unimportant",
-          "zh": "无关紧要"
-        },
-        {
           "en": "As a mistake",
           "zh": "当作错误"
+        },
+        {
+          "en": "As unimportant according to some versions of the story in an early draft of the book",
+          "zh": "无关紧要（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "As inspiring, having grown from 1948 beginnings to match the Olympics in scale",
+          "zh": "令人鼓舞，从1948年起发展壮大，规模已可比肩奥运会"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says the Games grew from simple 1948 beginnings to match the Olympics in scale.",

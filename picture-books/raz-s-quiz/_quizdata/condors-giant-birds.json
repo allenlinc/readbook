@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "The California condor",
-          "zh": "加州神鹫"
-        },
-        {
           "en": "The Andean condor",
           "zh": "安第斯神鹫"
         },
         {
-          "en": "The eagle",
-          "zh": "老鹰"
+          "en": "The California condor",
+          "zh": "加州神鹫"
         },
         {
           "en": "The falcon",
           "zh": "隼"
+        },
+        {
+          "en": "The eagle",
+          "zh": "老鹰"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'This is the largest flying bird in the world—the giant Andean condor.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Fresh fruits and seeds",
-          "zh": "新鲜的水果和种子"
+          "en": "Fresh fruits and seeds according to some versions of the story",
+          "zh": "新鲜的水果和种子（按书中另一种说法）"
         },
         {
           "en": "Live fish they catch",
           "zh": "它们捕捉的活鱼"
         },
         {
-          "en": "Carrion—dead and decaying animals",
-          "zh": "腐肉——死去并腐烂的动物"
-        },
-        {
           "en": "Honey from flowers",
           "zh": "花蜜"
+        },
+        {
+          "en": "Carrion—dead and decaying animals",
+          "zh": "腐肉——死去并腐烂的动物"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says condors 'only eat carrion—dead and decaying animals.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A type of nest",
-          "zh": "一种巢"
-        },
-        {
           "en": "The decaying meat of a dead animal",
           "zh": "死动物腐烂的肉"
         },
         {
-          "en": "A strong wind current",
-          "zh": "一股强风"
+          "en": "A strong wind current according to some versions of the story",
+          "zh": "一股强风（按书中另一种说法）"
+        },
+        {
+          "en": "A type of nest",
+          "zh": "一种巢"
         },
         {
           "en": "A bald head",
           "zh": "一个光秃的头"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'carrion (n.)' as 'the decaying meat of a dead animal (p. 7).'",
@@ -111,8 +111,8 @@
           "zh": "高处的巢有助于保护蛋免受地面捕食者的威胁"
         },
         {
-          "en": "Because they cannot fly low",
-          "zh": "因为它们飞不高"
+          "en": "Because they cannot fly low according to some versions of the story in an early draft of the book",
+          "zh": "因为它们飞不高（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To avoid the wind",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "Andean condors are black and California condors are white according to some versions of the story",
+          "zh": "安第斯神鹫是黑色，加州神鹫是白色（按书中另一种说法）"
+        },
+        {
           "en": "Male Andean condors have combs (fleshy lumps) on their heads",
           "zh": "雄性安第斯神鹫头上有肉冠（肉瘤）"
         },
@@ -141,15 +145,11 @@
           "zh": "加州神鹫更大"
         },
         {
-          "en": "Andean condors are black and California condors are white",
-          "zh": "安第斯神鹫是黑色，加州神鹫是白色"
-        },
-        {
           "en": "Only female Andeans have combs",
           "zh": "只有雌性安第斯神鹫有肉冠"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says Andean males 'have large, fleshy lumps on their heads called combs' and California condors don't have combs.",
@@ -167,19 +167,19 @@
           "zh": "每个月"
         },
         {
+          "en": "Four eggs every year according to some versions of the story",
+          "zh": "每年四枚（按书中另一种说法）"
+        },
+        {
           "en": "Once a year",
           "zh": "每年一次"
         },
         {
           "en": "One egg every two years",
           "zh": "每两年一枚"
-        },
-        {
-          "en": "Four eggs every year",
-          "zh": "每年四枚"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'A female condor produces just one egg every two years.'",
@@ -193,8 +193,8 @@
       },
       "options": [
         {
-          "en": "Other birds",
-          "zh": "其他鸟类"
+          "en": "Cold weather",
+          "zh": "寒冷的天气"
         },
         {
           "en": "Human beings",
@@ -205,8 +205,8 @@
           "zh": "缺少风"
         },
         {
-          "en": "Cold weather",
-          "zh": "寒冷的天气"
+          "en": "Other birds",
+          "zh": "其他鸟类"
         }
       ],
       "answer": 1,
@@ -223,8 +223,12 @@
       },
       "options": [
         {
-          "en": "It helps them fly faster",
-          "zh": "它帮助它们飞得更快"
+          "en": "It helps them fly faster according to some versions of the story in an early draft of the book",
+          "zh": "它帮助它们飞得更快（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It attracts mates",
+          "zh": "它能吸引配偶"
         },
         {
           "en": "Being feather-free makes grooming simpler after feeding on decaying animals",
@@ -233,13 +237,9 @@
         {
           "en": "It keeps them warm",
           "zh": "它能保暖"
-        },
-        {
-          "en": "It attracts mates",
-          "zh": "它能吸引配偶"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The text explains a bald head is 'a very useful adaptation' because 'condors have hardly any feathers for the messy stuff to stick to' after feeding.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Persuade readers to visit zoos",
-          "zh": "劝说读者去动物园"
+          "en": "Teach readers how to cook",
+          "zh": "教读者做饭"
+        },
+        {
+          "en": "Entertain with a fictional story according to some versions of the story",
+          "zh": "用虚构故事娱乐读者（按书中另一种说法）"
         },
         {
           "en": "Inform and build appreciation for condors and the need to protect them",
           "zh": "向读者介绍秃鹫并唤起保护它们的意识"
         },
         {
-          "en": "Entertain with a fictional story",
-          "zh": "用虚构故事娱乐读者"
-        },
-        {
-          "en": "Teach readers how to cook",
-          "zh": "教读者做饭"
+          "en": "Persuade readers to visit zoos",
+          "zh": "劝说读者去动物园"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book gives facts about condors' lives and their endangered status, ending with a call for people to keep protecting them.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "About ten",
-          "zh": "大约十只"
+          "en": "Over 230",
+          "zh": "超过230只"
         },
         {
           "en": "Fewer than five",
           "zh": "不到五只"
         },
         {
-          "en": "Over 230",
-          "zh": "超过230只"
+          "en": "About ten",
+          "zh": "大约十只"
         },
         {
           "en": "Exactly 400",
           "zh": "正好400只"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book reports: 'By May 2013, over 230 California condors were flying free again.'",

@@ -12,12 +12,24 @@
         "zh": "在故事里，Odie（奥迪）是谁或什么？"
       },
       "options": [
-        {"en": "The narrator's wiener dog (dachshund) that they brought trick-or-treating", "zh": "叙述者带去讨糖的小腊肠狗（dachshund）"},
-        {"en": "Sarah's cat that got lost in the woods", "zh": "莎拉走丢的猫"},
-        {"en": "A ghost that lives in the Hollow", "zh": "住在幽林里的一个幽灵"},
-        {"en": "Jake's older brother", "zh": "杰克的哥哥"}
+        {
+          "en": "A ghost that lives in the Hollow",
+          "zh": "住在幽林里的一个幽灵"
+        },
+        {
+          "en": "The narrator's wiener dog (dachshund) that they brought trick-or-treating",
+          "zh": "叙述者带去讨糖的小腊肠狗（dachshund）"
+        },
+        {
+          "en": "Sarah's cat that got lost in the woods according to some versions of the story in an early draft of the book",
+          "zh": "莎拉走丢的猫（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Jake's older brother",
+          "zh": "杰克的哥哥"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Jake 'insisted on bringing his wiener dog trick-or-treating with us,' and the dog's name is Odie; when Odie heard something move, he bolted into the forest.",
@@ -30,12 +42,24 @@
         "zh": "孩子们跑过幽林时，丢了哪些东西？"
       },
       "options": [
-        {"en": "Their flashlights, most of their candy, and their costumes", "zh": "手电筒、大部分糖果和各自的戏服"},
-        {"en": "Their trick-or-treat bags but nothing else", "zh": "只有讨糖的袋子，别的没丢"},
-        {"en": "Only Jake's ghost costume", "zh": "只有杰克的幽灵戏服"},
-        {"en": "Nothing—they held onto everything", "zh": "什么都没丢，全都保住了"}
+        {
+          "en": "Only Jake's ghost costume",
+          "zh": "只有杰克的幽灵戏服"
+        },
+        {
+          "en": "Their trick-or-treat bags but nothing else according to some versions of the story",
+          "zh": "只有讨糖的袋子，别的没丢（按书中另一种说法）"
+        },
+        {
+          "en": "Their flashlights, most of their candy, and their costumes",
+          "zh": "手电筒、大部分糖果和各自的戏服"
+        },
+        {
+          "en": "Nothing—they held onto everything",
+          "zh": "什么都没丢，全都保住了"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The text says, 'We lost our flashlights and most of our candy, and Jake's ghost costume is in tatters' (the narrator also lost a warrior's shield and Sarah lost cat ears).",
@@ -48,12 +72,24 @@
         "zh": "作者是如何在幽林里营造出阴森、恐怖气氛的？"
       },
       "options": [
-        {"en": "By using creepy descriptions like branches 'like skeletal hands' and sounds like creaking and snapping twigs", "zh": "用令人毛骨悚然的描写，比如树枝「像骷髅的手」、还有树枝嘎吱作响和枯枝折断的声音"},
-        {"en": "By describing a sunny, cheerful picnic", "zh": "描写一场阳光明媚、欢乐的野餐"},
-        {"en": "By listing facts about trees in a science book", "zh": "像科普书那样罗列树木的知识"},
-        {"en": "By writing in the format of a diary", "zh": "用日记的形式来写"}
+        {
+          "en": "By describing a sunny, cheerful picnic",
+          "zh": "描写一场阳光明媚、欢乐的野餐"
+        },
+        {
+          "en": "By listing facts about trees in a science book according to some versions of the story in an early draft of the book",
+          "zh": "像科普书那样罗列树木的知识（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "By using creepy descriptions like branches 'like skeletal hands' and sounds like creaking and snapping twigs",
+          "zh": "用令人毛骨悚然的描写，比如树枝「像骷髅的手」、还有树枝嘎吱作响和枯枝折断的声音"
+        },
+        {
+          "en": "By writing in the format of a diary",
+          "zh": "用日记的形式来写"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book describes 'empty branches reach out of the darkness like skeletal hands' and 'the creak of branches. A snapping twig'—sensory, frightening word choices build the mood.",
@@ -66,12 +102,24 @@
         "zh": "按莎拉的说法，人们讲如果你在幽林里玩耍，会发生什么？"
       },
       "options": [
-        {"en": "Ghost children come play with you and never let you leave—you become a ghost like them", "zh": "幽灵小孩会来和你玩，而且再也不让你离开——你会变成和他们一样的幽灵"},
-        {"en": "You win a prize for being the bravest kid", "zh": "你会因为最勇敢而赢得奖品"},
-        {"en": "The trees give you candy", "zh": "树木会给你糖果"},
-        {"en": "You find your lost flashlights", "zh": "你会找回丢失的手电筒"}
+        {
+          "en": "You win a prize for being the bravest kid according to some versions of the story in an early draft of the book",
+          "zh": "你会因为最勇敢而赢得奖品（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Ghost children come play with you and never let you leave—you become a ghost like them",
+          "zh": "幽灵小孩会来和你玩，而且再也不让你离开——你会变成和他们一样的幽灵"
+        },
+        {
+          "en": "You find your lost flashlights",
+          "zh": "你会找回丢失的手电筒"
+        },
+        {
+          "en": "The trees give you candy",
+          "zh": "树木会给你糖果"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Sarah says, 'They say if you play in these woods, some kids will come play with you—and they never let you leave. You become a ghost like them.'",
@@ -84,12 +132,24 @@
         "zh": "那个苍白的男孩说自己是「幽灵」，但叙述者不认同。为什么叙述者认为他不是幽灵？"
       },
       "options": [
-        {"en": "The narrator believes 'there's no such thing as ghosts' and thinks the boy is just a kid trying to freak them out", "zh": "叙述者相信「根本没有幽灵这回事」，认为那男孩只是个想吓唬他们的小孩"},
-        {"en": "The narrator saw the boy's parents nearby", "zh": "叙述者看到男孩的父母就在附近"},
-        {"en": "The boy was wearing a bright superhero costume", "zh": "男孩穿着亮眼超级英雄的戏服"},
-        {"en": "Sarah proved the boy was a robot", "zh": "莎拉证明男孩是个机器人"}
+        {
+          "en": "Sarah proved the boy was a robot",
+          "zh": "莎拉证明男孩是个机器人"
+        },
+        {
+          "en": "The narrator saw the boy's parents nearby",
+          "zh": "叙述者看到男孩的父母就在附近"
+        },
+        {
+          "en": "The boy was wearing a bright superhero costume according to some versions of the story in an early draft of the book",
+          "zh": "男孩穿着亮眼超级英雄的戏服（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The narrator believes 'there's no such thing as ghosts' and thinks the boy is just a kid trying to freak them out",
+          "zh": "叙述者相信「根本没有幽灵这回事」，认为那男孩只是个想吓唬他们的小孩"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The narrator says, 'There's no such thing as ghosts,' and later, 'It's just a kid trying to freak us out,' showing he doubts the ghost story.",
@@ -102,12 +162,24 @@
         "zh": "出现在空地里的神秘男孩长什么样？"
       },
       "options": [
-        {"en": "Very pale skin, black circles around his eyes, looks hungry, with pants bunched below his knees, long socks, and a large stained white shirt", "zh": "肤色很苍白，眼圈发黑，看起来很饿，裤子在膝盖下方皱成一团，穿着长袜和一件又大又脏的白衬衫"},
-        {"en": "Tall with a red cape and a crown", "zh": "个子很高，披着红斗篷、戴着王冠"},
-        {"en": "Dressed as a friendly clown with balloons", "zh": "打扮成拿着气球、和蔼的小丑"},
-        {"en": "Wearing a spacesuit and a helmet", "zh": "穿着宇航服、戴着头盔"}
+        {
+          "en": "Wearing a spacesuit and a helmet",
+          "zh": "穿着宇航服、戴着头盔"
+        },
+        {
+          "en": "Tall with a red cape and a crown",
+          "zh": "个子很高，披着红斗篷、戴着王冠"
+        },
+        {
+          "en": "Dressed as a friendly clown with balloons according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "打扮成拿着气球、和蔼的小丑（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Very pale skin, black circles around his eyes, looks hungry, with pants bunched below his knees, long socks, and a large stained white shirt",
+          "zh": "肤色很苍白，眼圈发黑，看起来很饿，裤子在膝盖下方皱成一团，穿着长袜和一件又大又脏的白衬衫"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Up close, 'his skin is very pale, he has black circles around his eyes, and he looks very hungry,' wearing 'pants bunched up just below his knees, long socks, and a large, stained white shirt.'",
@@ -120,10 +192,22 @@
         "zh": "找到狗之后，男孩向孩子们提出了什么请求？"
       },
       "options": [
-        {"en": "'Would you stay and play with me for a while?'", "zh": "「你们愿意留下来陪我玩一会儿吗？」"},
-        {"en": "'Can you help me find my lost cat?'", "zh": "「你们能帮我找丢失的猫吗？」"},
-        {"en": "'Please give me your candy.'", "zh": "「请把你们的糖果给我。」"},
-        {"en": "'Take me to your school.'", "zh": "「带我去你们的学校。」"}
+        {
+          "en": "'Would you stay and play with me for a while?'",
+          "zh": "「你们愿意留下来陪我玩一会儿吗？」"
+        },
+        {
+          "en": "'Please give me your candy.'",
+          "zh": "「请把你们的糖果给我。」"
+        },
+        {
+          "en": "'Can you help me find my lost cat?' according to some versions of the story",
+          "zh": "「你们能帮我找丢失的猫吗？」（按书中另一种说法）"
+        },
+        {
+          "en": "'Take me to your school.'",
+          "zh": "「带我去你们的学校。」"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -138,10 +222,22 @@
         "zh": "故事始终没有明确告诉我们那个男孩究竟是真实的小孩还是幽灵。作者为什么要保留这个谜团？"
       },
       "options": [
-        {"en": "To build suspense and let readers wonder, making the Halloween tale scarier and more fun", "zh": "为了制造悬念、让读者自己去猜想，使这个万圣节故事更恐怖也更有趣"},
-        {"en": "Because the author forgot to decide", "zh": "因为作者自己忘记决定了"},
-        {"en": "To teach a lesson about science", "zh": "为了讲一个科学道理"},
-        {"en": "To describe how to build a house", "zh": "为了说明怎么盖房子"}
+        {
+          "en": "To build suspense and let readers wonder, making the Halloween tale scarier and more fun",
+          "zh": "为了制造悬念、让读者自己去猜想，使这个万圣节故事更恐怖也更有趣"
+        },
+        {
+          "en": "To teach a lesson about science",
+          "zh": "为了讲一个科学道理"
+        },
+        {
+          "en": "Because the author forgot to decide according to some versions of the story in an early draft of the book",
+          "zh": "因为作者自己忘记决定了（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To describe how to build a house",
+          "zh": "为了说明怎么盖房子"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -156,12 +252,24 @@
         "zh": "小弟弟杰克对那个神秘男孩是什么感觉？"
       },
       "options": [
-        {"en": "Excited—he wants to stay and play because 'Odie really likes him'", "zh": "很兴奋——他想留下来一起玩，因为「奥迪真的很喜欢他」"},
-        {"en": "Terrified and wants to run home immediately", "zh": "吓得要命，想立刻跑回家"},
-        {"en": "Bored and falls asleep", "zh": "觉得很无聊，睡着了"},
-        {"en": "Angry that the boy took his candy", "zh": "很生气，因为男孩拿了他的糖果"}
+        {
+          "en": "Terrified and wants to run home immediately according to some versions of the story",
+          "zh": "吓得要命，想立刻跑回家（按书中另一种说法）"
+        },
+        {
+          "en": "Excited—he wants to stay and play because 'Odie really likes him'",
+          "zh": "很兴奋——他想留下来一起玩，因为「奥迪真的很喜欢他」"
+        },
+        {
+          "en": "Bored and falls asleep",
+          "zh": "觉得很无聊，睡着了"
+        },
+        {
+          "en": "Angry that the boy took his candy",
+          "zh": "很生气，因为男孩拿了他的糖果"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Jake looks excited and asks, 'Can we?' adding, 'Odie really likes him'—he is drawn to the boy, not scared.",
@@ -174,10 +282,22 @@
         "zh": "这个故事发生在什么时候、什么地方？"
       },
       "options": [
-        {"en": "On Halloween night, in and around a woods called the Hollow that the kids walk by every day", "zh": "万圣节夜晚，在孩子们每天路过的、名叫「幽林」的树林内外"},
-        {"en": "On Christmas morning at a shopping mall", "zh": "圣诞节早晨，在一家购物中心"},
-        {"en": "On a summer afternoon at the beach", "zh": "夏日下午，在海滩"},
-        {"en": "On New Year's Day in a big city", "zh": "元旦，在一座大城市"}
+        {
+          "en": "On Halloween night, in and around a woods called the Hollow that the kids walk by every day",
+          "zh": "万圣节夜晚，在孩子们每天路过的、名叫「幽林」的树林内外"
+        },
+        {
+          "en": "On Christmas morning at a shopping mall according to some versions of the story in an early draft of the book",
+          "zh": "圣诞节早晨，在一家购物中心（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "On a summer afternoon at the beach",
+          "zh": "夏日下午，在海滩"
+        },
+        {
+          "en": "On New Year's Day in a big city",
+          "zh": "元旦，在一座大城市"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

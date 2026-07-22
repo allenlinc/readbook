@@ -12,12 +12,24 @@
         "zh": "塞萨尔·查韦斯是哪一年、在哪里出生的？"
       },
       "options": [
-        {"en": "In 1927, near Yuma, Arizona", "zh": "1927年，亚利桑那州尤马附近"},
-        {"en": "In 1927, in Mexico City", "zh": "1927年，墨西哥城"},
-        {"en": "In 1947, in California", "zh": "1947年，加利福尼亚"},
-        {"en": "In 1910, near Yuma, Texas", "zh": "1910年，得州尤马附近"}
+        {
+          "en": "In 1947, in California",
+          "zh": "1947年，加利福尼亚"
+        },
+        {
+          "en": "In 1910, near Yuma, Texas according to some versions of the story",
+          "zh": "1910年，得州尤马附近（按书中另一种说法）"
+        },
+        {
+          "en": "In 1927, in Mexico City",
+          "zh": "1927年，墨西哥城"
+        },
+        {
+          "en": "In 1927, near Yuma, Arizona",
+          "zh": "1927年，亚利桑那州尤马附近"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'Cesar Estrada Chavez was born to a Mexican-American family in 1927 near Yuma, Arizona.'",
@@ -30,12 +42,24 @@
         "zh": "查韦斯一家为什么在大萧条时期向西迁徙？"
       },
       "options": [
-        {"en": "Dishonest men cheated them out of their land in 1937, so they joined other poor families looking for migrant farm work", "zh": "1937年有人欺骗他们失去了土地，于是随其他穷人家去寻找流动农活"},
-        {"en": "They won a free trip from the government", "zh": "他们赢得了政府送的免费旅行"},
-        {"en": "They wanted to see the Pacific Ocean", "zh": "他们想看太平洋"},
-        {"en": "Cesar got a job offer at a university", "zh": "塞萨尔收到大学的录用"}
+        {
+          "en": "They wanted to see the Pacific Ocean",
+          "zh": "他们想看太平洋"
+        },
+        {
+          "en": "They won a free trip from the government according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他们赢得了政府送的免费旅行（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Dishonest men cheated them out of their land in 1937, so they joined other poor families looking for migrant farm work",
+          "zh": "1937年有人欺骗他们失去了土地，于是随其他穷人家去寻找流动农活"
+        },
+        {
+          "en": "Cesar got a job offer at a university",
+          "zh": "塞萨尔收到大学的录用"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The family 'lost their land' in 1937 after 'dishonest men cheated the Chavez family,' then 'joined the many other poor families who traveled west during the Great Depression, looking for jobs as migrant farm workers.'",
@@ -48,12 +72,24 @@
         "zh": "1965年在加州德拉诺的葡萄罢工中，工人们要求的是什么？"
       },
       "options": [
-        {"en": "A raise from $.90 an hour to $1.40 an hour", "zh": "时薪从0.90美元涨到1.40美元"},
-        {"en": "A shorter lunch break", "zh": "更短的午餐时间"},
-        {"en": "Free housing for their families", "zh": "家人免费住房"},
-        {"en": "The right to stop working on Sundays", "zh": "周日休息的权利"}
+        {
+          "en": "The right to stop working on Sundays according to some versions of the story",
+          "zh": "周日休息的权利（按书中另一种说法）"
+        },
+        {
+          "en": "A raise from $.90 an hour to $1.40 an hour",
+          "zh": "时薪从0.90美元涨到1.40美元"
+        },
+        {
+          "en": "A shorter lunch break",
+          "zh": "更短的午餐时间"
+        },
+        {
+          "en": "Free housing for their families",
+          "zh": "家人免费住房"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In 1965, Filipino farm workers 'went on strike against the grape growers in Delano, California. They were asking for a pay raise from $.90 an hour to $1.40 an hour.'",
@@ -66,12 +102,24 @@
         "zh": "书的词汇表里，「boycott」（抵制）是什么意思？"
       },
       "options": [
-        {"en": "To refuse to buy or take part in something in order to force a change", "zh": "拒绝购买或参与某事，以迫使改变"},
-        {"en": "A type of farm machine", "zh": "一种农用机器"},
-        {"en": "A union meeting", "zh": "一次工会集会"},
-        {"en": "A holiday celebration", "zh": "节日庆祝"}
+        {
+          "en": "A type of farm machine according to some versions of the story in an early draft of the book",
+          "zh": "一种农用机器（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To refuse to buy or take part in something in order to force a change",
+          "zh": "拒绝购买或参与某事，以迫使改变"
+        },
+        {
+          "en": "A holiday celebration",
+          "zh": "节日庆祝"
+        },
+        {
+          "en": "A union meeting",
+          "zh": "一次工会集会"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines boycott as 'to refuse to buy or take part in something in order to make a point or force a change.' Strikers asked people to boycott grapes.",
@@ -84,10 +132,22 @@
         "zh": "根据这本书，什么是「labor union」（工会）？"
       },
       "options": [
-        {"en": "A group of workers who unite to demand certain rights and benefits", "zh": "团结起来争取某些权利和福利的一群工人"},
-        {"en": "A team of farmers who share one tractor", "zh": "共用一台拖拉机的农民小组"},
-        {"en": "A school for migrant children", "zh": "流动儿童学校"},
-        {"en": "A government agency that pays wages", "zh": "发工资的政府机构"}
+        {
+          "en": "A group of workers who unite to demand certain rights and benefits",
+          "zh": "团结起来争取某些权利和福利的一群工人"
+        },
+        {
+          "en": "A school for migrant children",
+          "zh": "流动儿童学校"
+        },
+        {
+          "en": "A government agency that pays wages",
+          "zh": "发工资的政府机构"
+        },
+        {
+          "en": "A team of farmers who share one tractor according to some versions of the story",
+          "zh": "共用一台拖拉机的农民小组（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,10 +162,22 @@
         "zh": "查韦斯的口号「Si se puede」是什么意思？"
       },
       "options": [
-        {"en": "\"Yes, it can be done\"—his belief that a farm workers' union was possible", "zh": "「一定能做到」——他相信建立农工工会是可能的"},
-        {"en": "\"We shall be heard\"", "zh": "「我们会被听见」"},
-        {"en": "\"The rich have money, but the poor have time\"", "zh": "「富人很有钱，穷人很有时间」"},
-        {"en": "\"Never give up farming\"", "zh": "「永远别放弃种田」"}
+        {
+          "en": "\"Yes, it can be done\"—his belief that a farm workers' union was possible",
+          "zh": "「一定能做到」——他相信建立农工工会是可能的"
+        },
+        {
+          "en": "\"The rich have money, but the poor have time\" according to some versions of the story",
+          "zh": "「富人很有钱，穷人很有时间」（按书中另一种说法）"
+        },
+        {
+          "en": "\"We shall be heard\"",
+          "zh": "「我们会被听见」"
+        },
+        {
+          "en": "\"Never give up farming\"",
+          "zh": "「永远别放弃种田」"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "查韦斯工会支持的抵制葡萄行动，最终结果如何？"
       },
       "options": [
-        {"en": "More than 14 million Americans joined the boycott, and after five years the growers agreed to the union's demands", "zh": "超过1400万美国人加入抵制，五年后种植园主答应了工会的要求"},
-        {"en": "The growers won and the union was shut down immediately", "zh": "种植园主赢了，工会立刻被关闭"},
-        {"en": "Only a few hundred people took part", "zh": "只有几百人参与"},
-        {"en": "The boycott ended after one week with no change", "zh": "抵制一周后结束，毫无改变"}
+        {
+          "en": "The boycott ended after one week with no change",
+          "zh": "抵制一周后结束，毫无改变"
+        },
+        {
+          "en": "The growers won and the union was shut down immediately according to some versions of the story in an early draft of the book",
+          "zh": "种植园主赢了，工会立刻被关闭（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Only a few hundred people took part",
+          "zh": "只有几百人参与"
+        },
+        {
+          "en": "More than 14 million Americans joined the boycott, and after five years the growers agreed to the union's demands",
+          "zh": "超过1400万美国人加入抵制，五年后种植园主答应了工会的要求"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Strikers asked people to boycott grapes and 'More than 14 million Americans did just that,' and 'after five long years, the grape growers agreed to the union's demands.'",
@@ -138,12 +222,24 @@
         "zh": "查韦斯那次只喝水的25天绝食，是怎样帮助葡萄罢工的？"
       },
       "options": [
-        {"en": "When some workers wanted violence, his fast put an end to that talk and helped the strike succeed", "zh": "当一些工人想动武时，他的绝食制止了这种念头，帮罢工取得成功"},
-        {"en": "It made the growers angrier and the strike fail", "zh": "它让种植园主更愤怒，导致罢工失败"},
-        {"en": "It had no effect on the strike", "zh": "对罢工毫无影响"},
-        {"en": "It forced the workers to eat less", "zh": "它逼工人吃得更少"}
+        {
+          "en": "It forced the workers to eat less",
+          "zh": "它逼工人吃得更少"
+        },
+        {
+          "en": "It had no effect on the strike",
+          "zh": "对罢工毫无影响"
+        },
+        {
+          "en": "When some workers wanted violence, his fast put an end to that talk and helped the strike succeed",
+          "zh": "当一些工人想动武时，他的绝食制止了这种念头，帮罢工取得成功"
+        },
+        {
+          "en": "It made the growers angrier and the strike fail according to some versions of the story in an early draft of the book",
+          "zh": "它让种植园主更愤怒，导致罢工失败（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "During the 1968 grape strike, 'some of the farm workers became discouraged and wanted to resort to violence. Chavez went on a water-only hunger strike that lasted twenty-five days. His fast put an end to the talk of violence, and that helped their strike succeed.'",
@@ -156,10 +252,22 @@
         "zh": "作者为什么要专门写流动儿童辍学那一节？"
       },
       "options": [
-        {"en": "To show the hard cycle of migrant poverty and why education was so important for change", "zh": "说明流动劳工贫困的恶性循环，以及教育为何对改变如此重要"},
-        {"en": "To prove that school is a waste of time", "zh": "证明上学是浪费时间"},
-        {"en": "To list the best schools in California", "zh": "列出加州最好的学校"},
-        {"en": "To encourage children to work instead of study", "zh": "鼓励孩子去打工而不是读书"}
+        {
+          "en": "To show the hard cycle of migrant poverty and why education was so important for change",
+          "zh": "说明流动劳工贫困的恶性循环，以及教育为何对改变如此重要"
+        },
+        {
+          "en": "To encourage children to work instead of study according to some versions of the story in an early draft of the book",
+          "zh": "鼓励孩子去打工而不是读书（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To prove that school is a waste of time",
+          "zh": "证明上学是浪费时间"
+        },
+        {
+          "en": "To list the best schools in California",
+          "zh": "列出加州最好的学校"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "作者写《塞萨尔·查韦斯：流动劳工的英雄》的主要目的是什么？"
       },
       "options": [
-        {"en": "To inform readers about Chavez's life and his nonviolent fight for farm workers' rights and dignity", "zh": "向读者介绍查韦斯的生平，以及他为农工权利和尊严所做的非暴力斗争"},
-        {"en": "To argue that unions should be illegal", "zh": "主张工会应当非法"},
-        {"en": "To entertain with a made-up adventure", "zh": "用一个虚构冒险来逗乐"},
-        {"en": "To teach readers how to grow grapes", "zh": "教读者怎么种葡萄"}
+        {
+          "en": "To entertain with a made-up adventure according to some versions of the story in an early draft of the book",
+          "zh": "用一个虚构冒险来逗乐（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To inform readers about Chavez's life and his nonviolent fight for farm workers' rights and dignity",
+          "zh": "向读者介绍查韦斯的生平，以及他为农工权利和尊严所做的非暴力斗争"
+        },
+        {
+          "en": "To argue that unions should be illegal",
+          "zh": "主张工会应当非法"
+        },
+        {
+          "en": "To teach readers how to grow grapes",
+          "zh": "教读者怎么种葡萄"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The biography tells Chavez's true story—from his hard childhood to leading the United Farm Workers—to show how one humble man fought for 'the dignity of all people' through nonviolent action.",

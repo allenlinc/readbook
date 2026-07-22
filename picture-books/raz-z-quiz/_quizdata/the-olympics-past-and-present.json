@@ -12,12 +12,24 @@
         "zh": "根据书中内容，古代奥林匹克运动会始于何时、何地？"
       },
       "options": [
-        {"en": "In 776 BC in Olympia, Greece (though historians believe it may have been earlier)", "zh": "公元前 776 年，希腊奥林匹亚（不过历史学家认为可能更早）"},
-        {"en": "In 1896 in Athens, Greece", "zh": "1896 年，希腊雅典"},
-        {"en": "In 1924 in Chamonix, France", "zh": "1924 年，法国霞慕尼"},
-        {"en": "In AD 393 in Rome", "zh": "公元 393 年，罗马"}
+        {
+          "en": "In 1896 in Athens, Greece",
+          "zh": "1896 年，希腊雅典"
+        },
+        {
+          "en": "In 1924 in Chamonix, France according to some versions of the story in an early draft of the book",
+          "zh": "1924 年，法国霞慕尼（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "In AD 393 in Rome",
+          "zh": "公元 393 年，罗马"
+        },
+        {
+          "en": "In 776 BC in Olympia, Greece (though historians believe it may have been earlier)",
+          "zh": "公元前 776 年，希腊奥林匹亚（不过历史学家认为可能更早）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'a central, organized festival of competition began in Olympia, Greece, in 776 BC, although many historians believe it was probably much earlier.'",
@@ -30,12 +42,24 @@
         "zh": "古代奥林匹克运动会是为了纪念哪位希腊神？"
       },
       "options": [
-        {"en": "Zeus, the king of the gods", "zh": "宙斯，众神之王"},
-        {"en": "Aten, the Sun disk", "zh": "阿顿，太阳圆盘"},
-        {"en": "Ra, the Sun god", "zh": "拉，太阳神"},
-        {"en": "Hera, goddess of women", "zh": "赫拉，女性之神"}
+        {
+          "en": "Hera, goddess of women according to some versions of the story",
+          "zh": "赫拉，女性之神（按书中另一种说法）"
+        },
+        {
+          "en": "Zeus, the king of the gods",
+          "zh": "宙斯，众神之王"
+        },
+        {
+          "en": "Ra, the Sun god",
+          "zh": "拉，太阳神"
+        },
+        {
+          "en": "Aten, the Sun disk",
+          "zh": "阿顿，太阳圆盘"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Olympics 'honored the king of the gods, Zeus, who lived on Mount Olympus.'",
@@ -48,12 +72,24 @@
         "zh": "是谁复兴了现代奥运会，并成立了管理奥运会的委员会？"
       },
       "options": [
-        {"en": "Pierre de Coubertin, who formed the International Olympic Committee (IOC) in 1894", "zh": "皮埃尔·德·顾拜旦，他于 1894 年成立了国际奥林匹克委员会（IOC）"},
-        {"en": "Howard Carter, the archaeologist", "zh": "考古学家霍华德·卡特"},
-        {"en": "Alfred Nobel, the inventor", "zh": "发明家阿尔弗雷德·诺贝尔"},
-        {"en": "Jesse Owens, the runner", "zh": "跑步运动员杰西·欧文斯"}
+        {
+          "en": "Alfred Nobel, the inventor",
+          "zh": "发明家阿尔弗雷德·诺贝尔"
+        },
+        {
+          "en": "Pierre de Coubertin, who formed the International Olympic Committee (IOC) in 1894",
+          "zh": "皮埃尔·德·顾拜旦，他于 1894 年成立了国际奥林匹克委员会（IOC）"
+        },
+        {
+          "en": "Jesse Owens, the runner",
+          "zh": "跑步运动员杰西·欧文斯"
+        },
+        {
+          "en": "Howard Carter, the archaeologist according to some versions of the story in an early draft of the book",
+          "zh": "考古学家霍华德·卡特（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Coubertin 'formed the International Olympic Committee, or IOC, in 1894' to revive the Olympics as a worldwide competition.",
@@ -66,10 +102,22 @@
         "zh": "女性最早是在什么时候被正式允许参加夏季奥运会的？"
       },
       "options": [
-        {"en": "In 1928 in Amsterdam, the Netherlands", "zh": "1928 年，荷兰阿姆斯特丹"},
-        {"en": "In 1896 in Athens, Greece", "zh": "1896 年，希腊雅典"},
-        {"en": "In 1924 in Chamonix, France", "zh": "1924 年，法国霞慕尼"},
-        {"en": "In 1968 in Mexico City", "zh": "1968 年，墨西哥城"}
+        {
+          "en": "In 1928 in Amsterdam, the Netherlands",
+          "zh": "1928 年，荷兰阿姆斯特丹"
+        },
+        {
+          "en": "In 1896 in Athens, Greece",
+          "zh": "1896 年，希腊雅典"
+        },
+        {
+          "en": "In 1924 in Chamonix, France according to some versions of the story",
+          "zh": "1924 年，法国霞慕尼（按书中另一种说法）"
+        },
+        {
+          "en": "In 1968 in Mexico City",
+          "zh": "1968 年，墨西哥城"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "书中设有“奥林匹克小知识”边栏，例如提到宙斯雕像为世界七大奇迹之一。作者设置这些边栏的目的是什么？"
       },
       "options": [
-        {"en": "To add interesting extra facts and details that support and enrich the main text", "zh": "补充有趣的小知识和细节，支持和丰富正文"},
-        {"en": "To replace the main text with fiction", "zh": "用虚构内容取代正文"},
-        {"en": "To confuse the reader with unrelated stories", "zh": "用无关的故事迷惑读者"},
-        {"en": "To list the winners of each sport", "zh": "列出每个项目的获奖者"}
+        {
+          "en": "To list the winners of each sport",
+          "zh": "列出每个项目的获奖者"
+        },
+        {
+          "en": "To confuse the reader with unrelated stories according to some versions of the story",
+          "zh": "用无关的故事迷惑读者（按书中另一种说法）"
+        },
+        {
+          "en": "To add interesting extra facts and details that support and enrich the main text",
+          "zh": "补充有趣的小知识和细节，支持和丰富正文"
+        },
+        {
+          "en": "To replace the main text with fiction",
+          "zh": "用虚构内容取代正文"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The 'Olympics Trivia' box about the Zeus statue adds a vivid extra detail, a craft feature used to engage readers with supporting facts.",
@@ -102,12 +162,24 @@
         "zh": "在古代奥运会期间，各城邦遵守“休战”（truce）。书中 truce 是什么意思？"
       },
       "options": [
-        {"en": "An agreement to keep the peace", "zh": "维持和平的约定"},
-        {"en": "A race between chariots", "zh": "战车之间的比赛"},
-        {"en": "A type of Olympic medal", "zh": "一种奥运奖牌"},
-        {"en": "A religious sacrifice of oxen", "zh": "用牛献祭的宗教仪式"}
+        {
+          "en": "A type of Olympic medal",
+          "zh": "一种奥运奖牌"
+        },
+        {
+          "en": "An agreement to keep the peace",
+          "zh": "维持和平的约定"
+        },
+        {
+          "en": "A race between chariots",
+          "zh": "战车之间的比赛"
+        },
+        {
+          "en": "A religious sacrifice of oxen",
+          "zh": "用牛献祭的宗教仪式"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines truce as 'an agreement to keep the peace,' and the book says during the Games 'the city-states observed a strictly enforced truce.'",
@@ -120,10 +192,22 @@
         "zh": "书中是如何描述奥运火炬接力传统的？"
       },
       "options": [
-        {"en": "The torch is lit in Olympia using magnified sunlight and carried by runners to the host city; the relay tradition began in 1936", "zh": "火炬在奥林匹亚用放大的阳光点燃，由跑者传递到主办城市；接力传统始于 1936 年"},
-        {"en": "The torch is made of gold and lit in Sweden", "zh": "火炬由黄金制成，在瑞典点燃"},
-        {"en": "The torch was first used in 1896 in Athens", "zh": "火炬最早于 1896 年在雅典使用"},
-        {"en": "Runners carry it only within the host stadium", "zh": "跑者只在主办体育场内部传递"}
+        {
+          "en": "The torch is lit in Olympia using magnified sunlight and carried by runners to the host city; the relay tradition began in 1936",
+          "zh": "火炬在奥林匹亚用放大的阳光点燃，由跑者传递到主办城市；接力传统始于 1936 年"
+        },
+        {
+          "en": "The torch was first used in 1896 in Athens according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "火炬最早于 1896 年在雅典使用（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Runners carry it only within the host stadium",
+          "zh": "跑者只在主办体育场内部传递"
+        },
+        {
+          "en": "The torch is made of gold and lit in Sweden",
+          "zh": "火炬由黄金制成，在瑞典点燃"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "1936 年柏林奥运会期间，杰西·欧文斯身上发生了什么？"
       },
       "options": [
-        {"en": "African American Jesse Owens won multiple gold medals, humiliating the Nazis' claim of white superiority", "zh": "非裔美国人杰西·欧文斯赢得多枚金牌，令宣称白人优越的纳粹颜面尽失"},
-        {"en": "The Nazis proved their athletes were superior in 1936", "zh": "纳粹在 1936 年证明了他们的运动员更优越"},
-        {"en": "Jesse Owens boycotted the 1936 Games", "zh": "杰西·欧文斯抵制了 1936 年奥运会"},
-        {"en": "The 1936 Games were canceled by World War I", "zh": "1936 年奥运会因第一次世界大战而取消"}
+        {
+          "en": "Jesse Owens boycotted the 1936 Games",
+          "zh": "杰西·欧文斯抵制了 1936 年奥运会"
+        },
+        {
+          "en": "The 1936 Games were canceled by World War I",
+          "zh": "1936 年奥运会因第一次世界大战而取消"
+        },
+        {
+          "en": "African American Jesse Owens won multiple gold medals, humiliating the Nazis' claim of white superiority",
+          "zh": "非裔美国人杰西·欧文斯赢得多枚金牌，令宣称白人优越的纳粹颜面尽失"
+        },
+        {
+          "en": "The Nazis proved their athletes were superior in 1936 according to some versions of the story in an early draft of the book",
+          "zh": "纳粹在 1936 年证明了他们的运动员更优越（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the Nazis wanted to prove white Germans superior 'But they were humiliated by the amazing gold-medal performance of runner Jesse Owens, an African American.'",
@@ -156,10 +252,22 @@
         "zh": "作者如何看待古代和现代奥运会的主要宗旨？"
       },
       "options": [
-        {"en": "Like the ancient Games, the modern Olympics represent the ideal of sportsmanship and peaceful competition among nations", "zh": "与古代奥运会一样，现代奥运会体现了体育精神与各国间和平竞争的理想"},
-        {"en": "The modern Games are worse than the ancient ones", "zh": "现代奥运会不如古代奥运会"},
-        {"en": "War is unavoidable despite the Games", "zh": "无论有没有奥运会，战争都不可避免"},
-        {"en": "The Games have nothing in common with the ancient ones", "zh": "现代奥运会与古代奥运会毫无共同之处"}
+        {
+          "en": "Like the ancient Games, the modern Olympics represent the ideal of sportsmanship and peaceful competition among nations",
+          "zh": "与古代奥运会一样，现代奥运会体现了体育精神与各国间和平竞争的理想"
+        },
+        {
+          "en": "The modern Games are worse than the ancient ones",
+          "zh": "现代奥运会不如古代奥运会"
+        },
+        {
+          "en": "The Games have nothing in common with the ancient ones according to some versions of the story in an early draft of the book",
+          "zh": "现代奥运会与古代奥运会毫无共同之处（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "War is unavoidable despite the Games",
+          "zh": "无论有没有奥运会，战争都不可避免"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "作者为什么要加入兴奋剂和作弊的故事，例如马里昂·琼斯被剥夺奖牌？"
       },
       "options": [
-        {"en": "To show that officials work to keep the Games honest and fair, since cheating has tarnished the Olympics' reputation", "zh": "为了说明官员们努力保持奥运会的公正与诚实，因为作弊已经损害了奥运会的声誉"},
-        {"en": "To encourage athletes to use steroids", "zh": "为了鼓励运动员使用类固醇"},
-        {"en": "To say drug testing is pointless", "zh": "为了说明药检毫无意义"},
-        {"en": "To prove all winners cheat", "zh": "为了证明所有获奖者都作弊"}
+        {
+          "en": "To say drug testing is pointless",
+          "zh": "为了说明药检毫无意义"
+        },
+        {
+          "en": "To encourage athletes to use steroids according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "为了鼓励运动员使用类固醇（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "To prove all winners cheat",
+          "zh": "为了证明所有获奖者都作弊"
+        },
+        {
+          "en": "To show that officials work to keep the Games honest and fair, since cheating has tarnished the Olympics' reputation",
+          "zh": "为了说明官员们努力保持奥运会的公正与诚实，因为作弊已经损害了奥运会的声誉"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book notes 'Olympic champions who fail a drug test can be stripped of their medals' and that cheating 'has tarnished the image and reputation of the Olympics,' showing efforts to keep it fair.",

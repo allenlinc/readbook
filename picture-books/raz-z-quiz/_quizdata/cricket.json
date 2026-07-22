@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "England, as a children's game in the 1500s",
-          "zh": "英格兰，16世纪作为一种儿童游戏"
-        },
-        {
           "en": "India, in the 1800s",
           "zh": "印度，19世纪"
+        },
+        {
+          "en": "England, as a children's game in the 1500s",
+          "zh": "英格兰，16世纪作为一种儿童游戏"
         },
         {
           "en": "Australia, in the 1900s",
           "zh": "澳大利亚，20世纪"
         },
         {
-          "en": "The United States, in the 1700s",
-          "zh": "美国，18世纪"
+          "en": "The United States, in the 1700s according to some versions of the story",
+          "zh": "美国，18世纪（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says cricket 'became one of the world's favorite sports' after starting 'in England, the birthplace of cricket' as a 16th-century children's game.",
@@ -47,16 +47,16 @@
           "zh": "1598年一份关于土地纠纷的法律文件"
         },
         {
-          "en": "The 1788 Laws of Cricket",
-          "zh": "1788年的《板球法则》"
+          "en": "The 1900 Olympic records",
+          "zh": "1900年的奥运记录"
+        },
+        {
+          "en": "The 1788 Laws of Cricket according to some versions of the story",
+          "zh": "1788年的《板球法则》（按书中另一种说法）"
         },
         {
           "en": "A 1864 rulebook",
           "zh": "1864年的规则手册"
-        },
-        {
-          "en": "The 1900 Olympic records",
-          "zh": "1900年的奥运记录"
         }
       ],
       "answer": 0,
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "The Olympic Committee according to some versions of the story",
+          "zh": "奥林匹克委员会（按书中另一种说法）"
+        },
+        {
           "en": "The Marylebone Cricket Club; still used today",
           "zh": "玛丽勒本板球俱乐部；至今仍在使用"
         },
@@ -83,13 +87,9 @@
         {
           "en": "The magazine Wisden",
           "zh": "《维斯登》杂志"
-        },
-        {
-          "en": "The Olympic Committee",
-          "zh": "奥林匹克委员会"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Laws of Cricket were 'written in 1788 by a group of noblemen called the Marylebone Cricket Club' and 'are still in use hundreds of years later.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Eleven",
-          "zh": "十一人"
-        },
-        {
-          "en": "Nine",
-          "zh": "九人"
+          "en": "Twelve according to some versions of the story",
+          "zh": "十二人（按书中另一种说法）"
         },
         {
           "en": "Ten",
           "zh": "十人"
         },
         {
-          "en": "Twelve",
-          "zh": "十二人"
+          "en": "Nine",
+          "zh": "九人"
+        },
+        {
+          "en": "Eleven",
+          "zh": "十一人"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'Two teams, each with eleven players, take turns batting and bowling.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "By comparing cricket to baseball throughout",
-          "zh": "通篇把板球与棒球作比较"
+          "en": "By ignoring baseball completely",
+          "zh": "完全不提棒球"
         },
         {
           "en": "By using only cricket terms with no comparison",
           "zh": "只用语板球术语不作比较"
         },
         {
-          "en": "By translating it into soccer",
-          "zh": "把它翻译成足球"
+          "en": "By comparing cricket to baseball throughout",
+          "zh": "通篇把板球与棒球作比较"
         },
         {
-          "en": "By ignoring baseball completely",
-          "zh": "完全不提棒球"
+          "en": "By translating it into soccer",
+          "zh": "把它翻译成足球"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book notes baseball 'was derived from early forms of cricket' and compares bowlers to pitchers and wicketkeepers to catchers.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "It links cricket terms to everyday language to engage readers",
-          "zh": "把板球术语与日常语言联系起来，吸引读者"
-        },
-        {
           "en": "It mocks the sport",
           "zh": "是在嘲笑这项运动"
         },
         {
-          "en": "It focuses only on mathematics",
-          "zh": "只关注数学"
-        },
-        {
           "en": "It avoids cultural context",
           "zh": "回避文化背景"
+        },
+        {
+          "en": "It links cricket terms to everyday language to engage readers",
+          "zh": "把板球术语与日常语言联系起来，吸引读者"
+        },
+        {
+          "en": "It focuses only on mathematics according to some versions of the story",
+          "zh": "只关注数学（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The author shows 'not cricket' means unfair and a 'sticky wicket' means a tough situation—connecting the sport to common speech.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "It gave the ball more speed and spin",
-          "zh": "让球速更快、旋转更强"
-        },
-        {
           "en": "It made the ball slower",
           "zh": "让球变慢"
+        },
+        {
+          "en": "It gave the ball more speed and spin",
+          "zh": "让球速更快、旋转更强"
         },
         {
           "en": "It ended batting forever",
           "zh": "永远取消了击球"
         },
         {
-          "en": "It banned running between wickets",
-          "zh": "禁止在门柱间跑动"
+          "en": "It banned running between wickets according to some versions of the story",
+          "zh": "禁止在门柱间跑动（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the change 'to allowing overarm bowling' gave 'the ball more speed and spin.'",
@@ -227,16 +227,16 @@
           "zh": "大英帝国把这项运动传播到世界各地"
         },
         {
-          "en": "It began at the Olympic Games",
-          "zh": "它始于奥林匹克运动会"
-        },
-        {
           "en": "The United Nations promoted it",
           "zh": "联合国推广了它"
         },
         {
           "en": "Baseball failed there",
           "zh": "棒球在那里失败了"
+        },
+        {
+          "en": "It began at the Olympic Games according to some versions of the story",
+          "zh": "它始于奥林匹克运动会（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -257,16 +257,16 @@
           "zh": "包容的价值观帮助这项运动走向世界"
         },
         {
-          "en": "It spread only by force through empires",
-          "zh": "它只是靠帝国武力传播"
-        },
-        {
-          "en": "It rejects equality",
-          "zh": "它排斥平等"
+          "en": "It spread only by force through empires according to some versions of the story",
+          "zh": "它只是靠帝国武力传播（按书中另一种说法）"
         },
         {
           "en": "It is a sport only for elites",
           "zh": "它是只属于精英的运动"
+        },
+        {
+          "en": "It rejects equality",
+          "zh": "它排斥平等"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To highlight notable players and the sport's history",
-          "zh": "突出重要球员以及这项运动的历史"
-        },
-        {
-          "en": "To prove only men play cricket",
-          "zh": "为了证明只有男性打板球"
+          "en": "To advertise the Olympics",
+          "zh": "为了给奥运会做广告"
         },
         {
           "en": "To list the rules of the game",
           "zh": "为了罗列比赛规则"
         },
         {
-          "en": "To advertise the Olympics",
-          "zh": "为了给奥运会做广告"
+          "en": "To prove only men play cricket according to some versions of the story",
+          "zh": "为了证明只有男性打板球（按书中另一种说法）"
+        },
+        {
+          "en": "To highlight notable players and the sport's history",
+          "zh": "突出重要球员以及这项运动的历史"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "These 'Heroes of the Oval' show cricket's evolution and its diverse, historically important figures.",

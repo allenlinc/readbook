@@ -17,12 +17,12 @@
           "zh": "东京。"
         },
         {
-          "en": "Osaka.",
-          "zh": "大阪。"
-        },
-        {
           "en": "Kyoto.",
           "zh": "京都。"
+        },
+        {
+          "en": "Osaka.",
+          "zh": "大阪。"
         },
         {
           "en": "Nagoya.",
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "Less than 10 percent. according to some versions of the story",
+          "zh": "不到10%。（按书中另一种说法）"
+        },
+        {
           "en": "More than 80 percent.",
           "zh": "超过80%。"
         },
@@ -51,15 +55,11 @@
           "zh": "约50%。"
         },
         {
-          "en": "Less than 10 percent.",
-          "zh": "不到10%。"
-        },
-        {
           "en": "Exactly 100 percent.",
           "zh": "正好100%。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "More than 80 percent of Japan's population lives on Honshu.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A floor covering made from rice straw.",
-          "zh": "用稻草编成的地板垫。"
-        },
-        {
-          "en": "A type of traditional robe.",
-          "zh": "一种传统长袍。"
-        },
-        {
           "en": "A military ruler.",
           "zh": "军事统治者。"
+        },
+        {
+          "en": "A type of traditional robe. according to some versions of the story",
+          "zh": "一种传统长袍。（按书中另一种说法）"
+        },
+        {
+          "en": "A floor covering made from rice straw.",
+          "zh": "用稻草编成的地板垫。"
         },
         {
           "en": "A large ocean wave.",
           "zh": "巨大的海浪。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Tatami are floor coverings made from rice straw.",
@@ -103,12 +103,12 @@
       },
       "options": [
         {
-          "en": "Mount Fuji.",
-          "zh": "富士山。"
-        },
-        {
           "en": "Mount Honshu.",
           "zh": "本州山。"
+        },
+        {
+          "en": "Mount Fuji.",
+          "zh": "富士山。"
         },
         {
           "en": "The Tokyo Alps.",
@@ -119,7 +119,7 @@
           "zh": "奥羽山脉。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mount Fuji is the most famous, though it has not erupted in many years.",
@@ -141,8 +141,8 @@
           "zh": "一种活火山。"
         },
         {
-          "en": "A traditional tea ceremony.",
-          "zh": "传统的茶道。"
+          "en": "A traditional tea ceremony. according to some versions of the story in an early draft of the book",
+          "zh": "传统的茶道。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A type of rice cake.",
@@ -167,16 +167,16 @@
           "zh": "向读者介绍日本的地理、人民、历史和文化。"
         },
         {
-          "en": "To convince readers to visit a temple.",
-          "zh": "说服读者去参观寺庙。"
+          "en": "To sell Japanese food.",
+          "zh": "推销日本食品。"
+        },
+        {
+          "en": "To convince readers to visit a temple. according to some versions of the story",
+          "zh": "说服读者去参观寺庙。（按书中另一种说法）"
         },
         {
           "en": "To tell a fictional story.",
           "zh": "讲述一个虚构故事。"
-        },
-        {
-          "en": "To sell Japanese food.",
-          "zh": "推销日本食品。"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Shoguns.",
-          "zh": "将军（shoguns）。"
+          "en": "Emperors only. according to some versions of the story",
+          "zh": "只有天皇。（按书中另一种说法）"
         },
         {
-          "en": "Emperors only.",
-          "zh": "只有天皇。"
+          "en": "Foreign kings.",
+          "zh": "外国国王。"
         },
         {
           "en": "Farmers.",
           "zh": "农民。"
         },
         {
-          "en": "Foreign kings.",
-          "zh": "外国国王。"
+          "en": "Shoguns.",
+          "zh": "将军（shoguns）。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Shoguns, or military rulers, controlled Japan for over six hundred years.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "\"Sun's origin\" (Land of the Rising Sun).",
-          "zh": "“太阳的源头”（日出之国）。"
-        },
-        {
-          "en": "\"Land of the mountains.\"",
-          "zh": "“群山之国”。"
-        },
-        {
           "en": "\"Island of peace.\"",
           "zh": "“和平之岛”。"
         },
         {
           "en": "\"Home of the emperor.\"",
           "zh": "“天皇之家”。"
+        },
+        {
+          "en": "\"Sun's origin\" (Land of the Rising Sun).",
+          "zh": "“太阳的源头”（日出之国）。"
+        },
+        {
+          "en": "\"Land of the mountains.\" according to some versions of the story",
+          "zh": "“群山之国”。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "It means \"sun's origin,\" so Japan is called the Land of the Rising Sun.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Characters borrowed from Chinese writing.",
-          "zh": "从中文书写中借用的字符。"
+          "en": "A type of Japanese robe. according to some versions of the story",
+          "zh": "一种日本长袍。（按书中另一种说法）"
         },
         {
-          "en": "A type of Japanese robe.",
-          "zh": "一种日本长袍。"
+          "en": "A kind of volcano.",
+          "zh": "一种火山。"
         },
         {
           "en": "Traditional floor mats.",
           "zh": "传统地板垫。"
         },
         {
-          "en": "A kind of volcano.",
-          "zh": "一种火山。"
+          "en": "Characters borrowed from Chinese writing.",
+          "zh": "从中文书写中借用的字符。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Kanji are characters borrowed from Chinese writing.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Rice.",
-          "zh": "大米。"
+          "en": "Potatoes.",
+          "zh": "土豆。"
         },
         {
-          "en": "Wheat.",
-          "zh": "小麦。"
+          "en": "Rice.",
+          "zh": "大米。"
         },
         {
           "en": "Corn.",
           "zh": "玉米。"
         },
         {
-          "en": "Potatoes.",
-          "zh": "土豆。"
+          "en": "Wheat.",
+          "zh": "小麦。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Japan grows most of its own rice, a staple of the Japanese diet.",

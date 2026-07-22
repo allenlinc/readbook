@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "Kenya",
+          "zh": "肯尼亚"
+        },
+        {
           "en": "Hawaii",
           "zh": "夏威夷"
         },
@@ -21,15 +25,11 @@
           "zh": "堪萨斯州"
         },
         {
-          "en": "Kenya",
-          "zh": "肯尼亚"
-        },
-        {
           "en": "Illinois",
           "zh": "伊利诺伊州"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'Barack Obama Jr.—called Barry during his childhood—was born in 1961 in Hawaii.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Indonesia",
-          "zh": "印度尼西亚"
-        },
-        {
           "en": "Kenya",
           "zh": "肯尼亚"
+        },
+        {
+          "en": "Mexico",
+          "zh": "墨西哥"
         },
         {
           "en": "Kansas",
           "zh": "堪萨斯州"
         },
         {
-          "en": "Mexico",
-          "zh": "墨西哥"
+          "en": "Indonesia",
+          "zh": "印度尼西亚"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states his father 'was from the country of Kenya, in eastern Africa.'",
@@ -73,8 +73,12 @@
       },
       "options": [
         {
-          "en": "A type of school",
-          "zh": "一种学校"
+          "en": "A law",
+          "zh": "一条法律"
+        },
+        {
+          "en": "A type of school according to some versions of the story in an early draft of the book",
+          "zh": "一种学校（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A sport",
@@ -83,13 +87,9 @@
         {
           "en": "A way of life or tradition passed down through generations",
           "zh": "代代相传的生活方式或传统"
-        },
-        {
-          "en": "A law",
-          "zh": "一条法律"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines heritage as 'a way of life, tradition, or characteristic that is passed down from generation to generation (p. 7).'",
@@ -107,19 +107,19 @@
           "zh": "哈佛大学"
         },
         {
+          "en": "Yale University",
+          "zh": "耶鲁大学"
+        },
+        {
           "en": "Columbia University",
           "zh": "哥伦比亚大学"
         },
         {
-          "en": "University of Hawaii",
-          "zh": "夏威夷大学"
-        },
-        {
-          "en": "Yale University",
-          "zh": "耶鲁大学"
+          "en": "University of Hawaii according to some versions of the story",
+          "zh": "夏威夷大学（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'In 1981, he transferred to Columbia University in New York City.'",
@@ -133,16 +133,16 @@
       },
       "options": [
         {
+          "en": "The Illinois state senate",
+          "zh": "伊利诺伊州参议院"
+        },
+        {
           "en": "The U.S. Senate",
           "zh": "美国参议院"
         },
         {
           "en": "The Dodgers",
           "zh": "道奇队"
-        },
-        {
-          "en": "The Illinois state senate",
-          "zh": "伊利诺伊州参议院"
         },
         {
           "en": "The Harvard Law Review",
@@ -163,16 +163,16 @@
       },
       "options": [
         {
-          "en": "1985",
-          "zh": "1985年"
+          "en": "2004 according to some versions of the story",
+          "zh": "2004年（按书中另一种说法）"
         },
         {
           "en": "1992",
           "zh": "1992年"
         },
         {
-          "en": "2004",
-          "zh": "2004年"
+          "en": "1985",
+          "zh": "1985年"
         },
         {
           "en": "2009",
@@ -193,8 +193,12 @@
       },
       "options": [
         {
-          "en": "1996",
-          "zh": "1996年"
+          "en": "1996 according to some versions of the story",
+          "zh": "1996年（按书中另一种说法）"
+        },
+        {
+          "en": "1971",
+          "zh": "1971年"
         },
         {
           "en": "2004",
@@ -203,13 +207,9 @@
         {
           "en": "2008",
           "zh": "2008年"
-        },
-        {
-          "en": "1971",
-          "zh": "1971年"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'He ran for the United States Senate in 2004... He easily won a seat in the U.S. Senate later that year.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "His words inspired many people and encouraged him to run for president",
-          "zh": "他的话激励了许多人，也促使他竞选总统"
-        },
-        {
-          "en": "To show he was a poor speaker",
-          "zh": "为了说明他演讲很差"
-        },
-        {
           "en": "To prove he disliked America",
           "zh": "为了证明他讨厌美国"
         },
         {
-          "en": "To show he wanted to be a writer",
-          "zh": "为了说明他想当作家"
+          "en": "His words inspired many people and encouraged him to run for president",
+          "zh": "他的话激励了许多人，也促使他竞选总统"
+        },
+        {
+          "en": "To show he wanted to be a writer according to some versions of the story",
+          "zh": "为了说明他想当作家（按书中另一种说法）"
+        },
+        {
+          "en": "To show he was a poor speaker",
+          "zh": "为了说明他演讲很差"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says the speech was 'a big success' and 'many people encouraged Barack to run for president' because of it.",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "November 4, 2008",
-          "zh": "2008年11月4日"
-        },
-        {
           "en": "January 20, 2009",
           "zh": "2009年1月20日"
         },
@@ -267,9 +263,13 @@
         {
           "en": "1996",
           "zh": "1996年"
+        },
+        {
+          "en": "November 4, 2008 according to some versions of the story",
+          "zh": "2008年11月4日（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'Barack began his job as president on January 20, 2009.'",
@@ -287,12 +287,12 @@
           "zh": "诺贝尔和平奖"
         },
         {
-          "en": "Pulitzer Prize",
-          "zh": "普利策奖"
-        },
-        {
           "en": "Academy Award",
           "zh": "奥斯卡奖"
+        },
+        {
+          "en": "Pulitzer Prize",
+          "zh": "普利策奖"
         },
         {
           "en": "World Series title",

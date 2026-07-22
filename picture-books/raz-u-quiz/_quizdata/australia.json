@@ -12,12 +12,24 @@
         "zh": "澳大利亚人用哪个昵称称呼自己的国家？"
       },
       "options": [
-        {"en": "\"Oz\"", "zh": "“Oz”"},
-        {"en": "\"Kanga\"", "zh": "“Kanga”"},
-        {"en": "\"Down Under\" only, by law", "zh": "法律上的“Down Under”"},
-        {"en": "\"New South Wales\"", "zh": "“新南威尔士”"}
+        {
+          "en": "\"Down Under\" only, by law",
+          "zh": "法律上的“Down Under”"
+        },
+        {
+          "en": "\"Oz\"",
+          "zh": "“Oz”"
+        },
+        {
+          "en": "\"New South Wales\"",
+          "zh": "“新南威尔士”"
+        },
+        {
+          "en": "\"Kanga\"",
+          "zh": "“Kanga”"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the official name is the Commonwealth of Australia, but Australians call their land 'Oz.'",
@@ -30,12 +42,24 @@
         "zh": "澳大利亚的地理有什么特别之处？"
       },
       "options": [
-        {"en": "It is the youngest continent", "zh": "它是地球上最年轻的洲"},
-        {"en": "It is the second largest country", "zh": "它是面积第二大的国家"},
-        {"en": "It is the only country that is also a continent", "zh": "它是唯一同时也是一个大洲的国家"},
-        {"en": "It is landlocked with no coast", "zh": "它是内陆国，没有海岸"}
+        {
+          "en": "It is landlocked with no coast",
+          "zh": "它是内陆国，没有海岸"
+        },
+        {
+          "en": "It is the only country that is also a continent",
+          "zh": "它是唯一同时也是一个大洲的国家"
+        },
+        {
+          "en": "It is the youngest continent",
+          "zh": "它是地球上最年轻的洲"
+        },
+        {
+          "en": "It is the second largest country according to some versions of the story",
+          "zh": "它是面积第二大的国家（按书中另一种说法）"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says Australia is the only country that is also a continent, and it is also the oldest, smallest, flattest continent and the world's largest island.",
@@ -48,12 +72,24 @@
         "zh": "原住民在澳大利亚生活了大约多久？"
       },
       "options": [
-        {"en": "About 400 years", "zh": "约400年"},
-        {"en": "Over 40,000 years", "zh": "超过四万年"},
-        {"en": "About 1,000 years", "zh": "约一千年"},
-        {"en": "Since 1770", "zh": "自1770年起"}
+        {
+          "en": "Over 40,000 years",
+          "zh": "超过四万年"
+        },
+        {
+          "en": "Since 1770",
+          "zh": "自1770年起"
+        },
+        {
+          "en": "About 400 years",
+          "zh": "约400年"
+        },
+        {
+          "en": "About 1,000 years according to some versions of the story",
+          "zh": "约一千年（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says a group called Aborigines has lived in Australia for over 40,000 years.",
@@ -66,12 +102,24 @@
         "zh": "鸭嘴兽有什么不寻常之处？"
       },
       "options": [
-        {"en": "It is a bird that flies south", "zh": "它是一种向南飞的鸟"},
-        {"en": "It lives only in trees", "zh": "它只生活在树上"},
-        {"en": "It is a fish", "zh": "它是一种鱼"},
-        {"en": "It is a mammal that lays eggs and has a venomous spur", "zh": "它是一种会下蛋、后脚有剧毒距的哺乳动物"}
+        {
+          "en": "It is a fish",
+          "zh": "它是一种鱼"
+        },
+        {
+          "en": "It lives only in trees",
+          "zh": "它只生活在树上"
+        },
+        {
+          "en": "It is a mammal that lays eggs and has a venomous spur",
+          "zh": "它是一种会下蛋、后脚有剧毒距的哺乳动物"
+        },
+        {
+          "en": "It is a bird that flies south according to some versions of the story",
+          "zh": "它是一种向南飞的鸟（按书中另一种说法）"
+        }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book describes the platypus as a mammal (warm-blooded, nurses its young) whose females lay eggs, and an adult male has a venomous spur on its back ankles.",
@@ -84,10 +132,22 @@
         "zh": "什么是有袋类动物？"
       },
       "options": [
-        {"en": "Mammals that keep their young in a pouch, such as kangaroos and koalas", "zh": "把幼崽养在育儿袋里的哺乳动物，比如袋鼠和考拉"},
-        {"en": "Reptiles that lay hard-shelled eggs", "zh": "下硬壳蛋的爬行动物"},
-        {"en": "Birds found only in cities", "zh": "只生活在城市的鸟"},
-        {"en": "Fish with lungs", "zh": "有肺的鱼"}
+        {
+          "en": "Mammals that keep their young in a pouch, such as kangaroos and koalas",
+          "zh": "把幼崽养在育儿袋里的哺乳动物，比如袋鼠和考拉"
+        },
+        {
+          "en": "Birds found only in cities",
+          "zh": "只生活在城市的鸟"
+        },
+        {
+          "en": "Reptiles that lay hard-shelled eggs according to some versions of the story",
+          "zh": "下硬壳蛋的爬行动物（按书中另一种说法）"
+        },
+        {
+          "en": "Fish with lungs",
+          "zh": "有肺的鱼"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -102,12 +162,24 @@
         "zh": "澳大利亚的内陆荒野（outback）是什么样的？"
       },
       "options": [
-        {"en": "A crowded coastal city", "zh": "一座拥挤的沿海城市"},
-        {"en": "A huge dry inland area with wild camels and enormous ranches called stations", "zh": "一片广袤干燥的内陆，有野骆驼和称为“station”的巨大牧场"},
-        {"en": "A snowy mountain range", "zh": "一座积雪的山脉"},
-        {"en": "A tropical rainforest", "zh": "一片热带雨林"}
+        {
+          "en": "A tropical rainforest",
+          "zh": "一片热带雨林"
+        },
+        {
+          "en": "A snowy mountain range",
+          "zh": "一座积雪的山脉"
+        },
+        {
+          "en": "A crowded coastal city according to some versions of the story in an early draft of the book",
+          "zh": "一座拥挤的沿海城市（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A huge dry inland area with wild camels and enormous ranches called stations",
+          "zh": "一片广袤干燥的内陆，有野骆驼和称为“station”的巨大牧场"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book describes the outback as a huge dry inland where rain may not fall for years, home to the world's largest number of wild camels and to enormous ranches called stations.",
@@ -120,10 +192,22 @@
         "zh": "1770年是谁为英国宣称占领了澳大利亚东海岸？"
       },
       "options": [
-        {"en": "William Dampier", "zh": "威廉·丹皮尔"},
-        {"en": "The Dutch explorers", "zh": "荷兰探险家"},
-        {"en": "Captain James Cook", "zh": "詹姆斯·库克船长"},
-        {"en": "Captain Arthur Phillip", "zh": "亚瑟·菲利普船长"}
+        {
+          "en": "The Dutch explorers",
+          "zh": "荷兰探险家"
+        },
+        {
+          "en": "William Dampier",
+          "zh": "威廉·丹皮尔"
+        },
+        {
+          "en": "Captain James Cook",
+          "zh": "詹姆斯·库克船长"
+        },
+        {
+          "en": "Captain Arthur Phillip",
+          "zh": "亚瑟·菲利普船长"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -138,10 +222,22 @@
         "zh": "澳大利亚各殖民地是在哪一年联合为澳大利亚联邦的？"
       },
       "options": [
-        {"en": "1770", "zh": "1770年"},
-        {"en": "1851", "zh": "1851年"},
-        {"en": "1967", "zh": "1967年"},
-        {"en": "1901", "zh": "1901年"}
+        {
+          "en": "1967 according to some versions of the story",
+          "zh": "1967年（按书中另一种说法）"
+        },
+        {
+          "en": "1770",
+          "zh": "1770年"
+        },
+        {
+          "en": "1851",
+          "zh": "1851年"
+        },
+        {
+          "en": "1901",
+          "zh": "1901年"
+        }
       ],
       "answer": 3,
       "skill": "Key Ideas and Details",
@@ -156,12 +252,24 @@
         "zh": "澳大利亚的首都是哪里？"
       },
       "options": [
-        {"en": "Canberra", "zh": "堪培拉"},
-        {"en": "Sydney", "zh": "悉尼"},
-        {"en": "Melbourne", "zh": "墨尔本"},
-        {"en": "Perth", "zh": "珀斯"}
+        {
+          "en": "Perth",
+          "zh": "珀斯"
+        },
+        {
+          "en": "Canberra",
+          "zh": "堪培拉"
+        },
+        {
+          "en": "Sydney",
+          "zh": "悉尼"
+        },
+        {
+          "en": "Melbourne",
+          "zh": "墨尔本"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says Australia's capital city is Canberra, within New South Wales, with about 500,000 residents—not the larger city of Sydney.",
@@ -174,12 +282,24 @@
         "zh": "根据书中“进一步探索”一节，它建议怎样去了解更多关于澳大利亚的知识？"
       },
       "options": [
-        {"en": "By ignoring books and only watching TV", "zh": "不看书本，只看电视"},
-        {"en": "By visiting the library, searching the Internet, and exploring Australian movies, music, and art", "zh": "去图书馆、上网搜索，并接触澳大利亚的电影、音乐和艺术"},
-        {"en": "By moving to Australia permanently", "zh": "永久搬到澳大利亚"},
-        {"en": "By avoiding all media", "zh": "避开一切媒体"}
+        {
+          "en": "By visiting the library, searching the Internet, and exploring Australian movies, music, and art",
+          "zh": "去图书馆、上网搜索，并接触澳大利亚的电影、音乐和艺术"
+        },
+        {
+          "en": "By moving to Australia permanently",
+          "zh": "永久搬到澳大利亚"
+        },
+        {
+          "en": "By avoiding all media",
+          "zh": "避开一切媒体"
+        },
+        {
+          "en": "By ignoring books and only watching TV according to some versions of the story in an early draft of the book",
+          "zh": "不看书本，只看电视（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The 'Explore More' section tells readers to ask a librarian for books, search the Internet (such as Google), and explore Australian movies, music, and theater.",

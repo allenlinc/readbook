@@ -9,12 +9,24 @@
         "zh": "哪几只猫与松鸦羽一同前往山区？"
       },
       "options": [
-        {"en": "Firestar, Graystripe, and Sandstorm", "zh": "火星、灰条、沙暴"},
-        {"en": "Foxleap, Squirrelflight, and Dovewing", "zh": "狐跃、松鼠飞、鸽翅"},
-        {"en": "Lionblaze, Cinderheart, and Ivypool", "zh": "狮焰、灰心、藤池"},
-        {"en": "Brambleclaw, Leafpool, and Hollyleaf", "zh": "莓棘、叶池、冬青叶"}
+        {
+          "en": "Brambleclaw, Leafpool, and Hollyleaf according to some versions of the story",
+          "zh": "莓棘、叶池、冬青叶（按书中另一种说法）"
+        },
+        {
+          "en": "Firestar, Graystripe, and Sandstorm",
+          "zh": "火星、灰条、沙暴"
+        },
+        {
+          "en": "Foxleap, Squirrelflight, and Dovewing",
+          "zh": "狐跃、松鼠飞、鸽翅"
+        },
+        {
+          "en": "Lionblaze, Cinderheart, and Ivypool",
+          "zh": "狮焰、灰心、藤池"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Firestar sends Jayfeather to the mountains with Foxleap, Squirrelflight, and the newly made warrior Dovewing.",
         "zh": "火星派松鸦羽与狐跃、松鼠飞以及刚成为武士的鸽翅一同前往山区。"
@@ -26,12 +38,24 @@
         "zh": "在山区，松鸦羽以哪只远古猫的身份回到过去？"
       },
       "options": [
-        {"en": "Jay's Wing", "zh": "杰之翼（Jay's Wing）"},
-        {"en": "Rock", "zh": "石头（Rock）"},
-        {"en": "Fallen Leaves", "zh": "落叶（Fallen Leaves）"},
-        {"en": "Half Moon", "zh": "半月（Half Moon）"}
+        {
+          "en": "Fallen Leaves",
+          "zh": "落叶（Fallen Leaves）"
+        },
+        {
+          "en": "Rock",
+          "zh": "石头（Rock）"
+        },
+        {
+          "en": "Half Moon",
+          "zh": "半月（Half Moon）"
+        },
+        {
+          "en": "Jay's Wing",
+          "zh": "杰之翼（Jay's Wing）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Jayfeather's spirit becomes Jay's Wing, a sharpclaw of the Ancients who lived at the lake long before the Clans.",
         "zh": "松鸦羽的魂魄化身为远古猫杰之翼——早在族群出现之前就住在湖边的「利爪」。"
@@ -43,10 +67,22 @@
         "zh": "作为杰之翼，松鸦羽与远古猫中的哪只母猫相恋？"
       },
       "options": [
-        {"en": "Dove's Wing", "zh": "鸽之翼（Dove's Wing）"},
-        {"en": "Half Moon", "zh": "半月（Half Moon）"},
-        {"en": "Shy Fawn", "zh": "羞鹿（Shy Fawn）"},
-        {"en": "Cloud", "zh": "云（Cloud）"}
+        {
+          "en": "Cloud",
+          "zh": "云（Cloud）"
+        },
+        {
+          "en": "Half Moon",
+          "zh": "半月（Half Moon）"
+        },
+        {
+          "en": "Dove's Wing",
+          "zh": "鸽之翼（Dove's Wing）"
+        },
+        {
+          "en": "Shy Fawn",
+          "zh": "羞鹿（Shy Fawn）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -60,10 +96,22 @@
         "zh": "松鸦羽册封半月为部落中的第一位什么？"
       },
       "options": [
-        {"en": "Stoneteller, the Tribe's combined leader and medicine cat", "zh": "石语者（Stoneteller，兼首领与巫医于一身）"},
-        {"en": "Cave Guard", "zh": "洞穴守卫（Cave Guard）"},
-        {"en": "Sharpclaw", "zh": "利爪（Sharpclaw）"},
-        {"en": "Healer of the Clans", "zh": "族群的治愈者"}
+        {
+          "en": "Stoneteller, the Tribe's combined leader and medicine cat",
+          "zh": "石语者（Stoneteller，兼首领与巫医于一身）"
+        },
+        {
+          "en": "Healer of the Clans",
+          "zh": "族群的治愈者"
+        },
+        {
+          "en": "Cave Guard according to some versions of the story in an early draft of the book",
+          "zh": "洞穴守卫（Cave Guard）（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Sharpclaw",
+          "zh": "利爪（Sharpclaw）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -77,12 +125,24 @@
         "zh": "在远古的梦境中，哪只猫被揭示为狮焰的前世？"
       },
       "options": [
-        {"en": "Lion's Roar", "zh": "狮吼（Lion's Roar）"},
-        {"en": "Jay's Wing", "zh": "杰之翼（Jay's Wing）"},
-        {"en": "Stone Song", "zh": "石歌（Stone Song）"},
-        {"en": "Furled Bracken", "zh": "卷蕨（Furled Bracken）"}
+        {
+          "en": "Stone Song",
+          "zh": "石歌（Stone Song）"
+        },
+        {
+          "en": "Jay's Wing",
+          "zh": "杰之翼（Jay's Wing）"
+        },
+        {
+          "en": "Furled Bracken",
+          "zh": "卷蕨（Furled Bracken）"
+        },
+        {
+          "en": "Lion's Roar",
+          "zh": "狮吼（Lion's Roar）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "When Shy Fawn's kit is born with a mighty yowl, Jayfeather realizes the kit Lion's Roar is really his brother Lionblaze reborn.",
         "zh": "羞鹿生下的幼猫发出嘹亮吼声，松鸦羽恍然醒悟——那只叫「狮吼」的幼猫正是他弟弟狮焰的转世。"
@@ -94,10 +154,22 @@
         "zh": "在远古的梦境中，鸽翅以哪只猫的形象出现？"
       },
       "options": [
-        {"en": "Dove's Wing", "zh": "鸽之翼（Dove's Wing）"},
-        {"en": "Half Moon", "zh": "半月（Half Moon）"},
-        {"en": "Swoop", "zh": "俯冲（Swoop）"},
-        {"en": "Cloud", "zh": "云（Cloud）"}
+        {
+          "en": "Dove's Wing",
+          "zh": "鸽之翼（Dove's Wing）"
+        },
+        {
+          "en": "Swoop",
+          "zh": "俯冲（Swoop）"
+        },
+        {
+          "en": "Cloud",
+          "zh": "云（Cloud）"
+        },
+        {
+          "en": "Half Moon according to some versions of the story",
+          "zh": "半月（Half Moon）（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -111,10 +183,22 @@
         "zh": "回到现世后，松鸦羽挑选谁担任现代部落的新任石语者？"
       },
       "options": [
-        {"en": "Cloud", "zh": "云（Cloud）"},
-        {"en": "Crag Where Eagles Nest", "zh": "鹰巢岩（Crag Where Eagles Nest）"},
-        {"en": "Stone Song", "zh": "石歌（Stone Song）"},
-        {"en": "Half Moon", "zh": "半月（Half Moon）"}
+        {
+          "en": "Cloud",
+          "zh": "云（Cloud）"
+        },
+        {
+          "en": "Crag Where Eagles Nest",
+          "zh": "鹰巢岩（Crag Where Eagles Nest）"
+        },
+        {
+          "en": "Half Moon",
+          "zh": "半月（Half Moon）"
+        },
+        {
+          "en": "Stone Song according to some versions of the story",
+          "zh": "石歌（Stone Song）（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -128,10 +212,22 @@
         "zh": "松鸦羽、狮焰和鸽翅发现，哪只他们认为已死的猫其实还活着？"
       },
       "options": [
-        {"en": "Hollyleaf", "zh": "冬青叶（Hollyleaf）"},
-        {"en": "Russetfur", "zh": "赤杨毛（Russetfur）"},
-        {"en": "Flametail", "zh": "焰尾（Flametail）"},
-        {"en": "Briarpaw", "zh": "苔爪（Briarpaw）"}
+        {
+          "en": "Hollyleaf",
+          "zh": "冬青叶（Hollyleaf）"
+        },
+        {
+          "en": "Briarpaw",
+          "zh": "苔爪（Briarpaw）"
+        },
+        {
+          "en": "Flametail",
+          "zh": "焰尾（Flametail）"
+        },
+        {
+          "en": "Russetfur according to some versions of the story",
+          "zh": "赤杨毛（Russetfur）（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -145,12 +241,24 @@
         "zh": "旅途中一只鹰袭击了远古猫。哪只猫为救 Flora 而死？"
       },
       "options": [
-        {"en": "Swoop", "zh": "俯冲（Swoop）"},
-        {"en": "Half Moon", "zh": "半月（Half Moon）"},
-        {"en": "Cloud", "zh": "云（Cloud）"},
-        {"en": "Stone Song", "zh": "石歌（Stone Song）"}
+        {
+          "en": "Stone Song",
+          "zh": "石歌（Stone Song）"
+        },
+        {
+          "en": "Half Moon",
+          "zh": "半月（Half Moon）"
+        },
+        {
+          "en": "Swoop",
+          "zh": "俯冲（Swoop）"
+        },
+        {
+          "en": "Cloud",
+          "zh": "云（Cloud）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Swoop is carried off by the eagle's talons while trying to save Flora, giving her life to protect the kit.",
         "zh": "俯冲为救 Flora 被鹰爪抓走而丧命，用自己的生命护住了幼猫。"
@@ -162,10 +270,22 @@
         "zh": "赋予本书书名的「月亮征兆」是什么？"
       },
       "options": [
-        {"en": "A star falling into the lake", "zh": "一颗星落入湖中"},
-        {"en": "The moon's reflection in a cave, read by Half Moon", "zh": "洞穴中月亮的倒影，由半月解读"},
-        {"en": "A full moon over the Clan camp", "zh": "族群营地上的满月"},
-        {"en": "A comet in the sky", "zh": "天空中的彗星"}
+        {
+          "en": "A star falling into the lake",
+          "zh": "一颗星落入湖中"
+        },
+        {
+          "en": "The moon's reflection in a cave, read by Half Moon",
+          "zh": "洞穴中月亮的倒影，由半月解读"
+        },
+        {
+          "en": "A full moon over the Clan camp according to some versions of the story",
+          "zh": "族群营地上的满月（按书中另一种说法）"
+        },
+        {
+          "en": "A comet in the sky",
+          "zh": "天空中的彗星"
+        }
       ],
       "answer": 1,
       "explain": {

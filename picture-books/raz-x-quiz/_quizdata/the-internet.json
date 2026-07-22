@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "A system or network that connects millions of computers around the world.",
-          "zh": "一个连接全球数百万台电脑的系统或网络。"
-        },
-        {
-          "en": "A single giant computer in one building.",
-          "zh": "一座大楼里的一台巨型计算机。"
-        },
-        {
-          "en": "A type of television broadcast.",
-          "zh": "一种电视广播形式。"
+          "en": "A single giant computer in one building. according to some versions of the story",
+          "zh": "一座大楼里的一台巨型计算机。（按书中另一种说法）"
         },
         {
           "en": "A book of maps.",
           "zh": "一本地图册。"
+        },
+        {
+          "en": "A system or network that connects millions of computers around the world.",
+          "zh": "一个连接全球数百万台电脑的系统或网络。"
+        },
+        {
+          "en": "A type of television broadcast.",
+          "zh": "一种电视广播形式。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Internet is 'a system or network that connects millions of computers around the world.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Copper wire carries more.",
-          "zh": "铜线传输更多。"
-        },
-        {
-          "en": "They carry exactly the same amount.",
-          "zh": "两者传输量完全一样。"
-        },
-        {
           "en": "Fiber-optic cable has greater bandwidth; two strands carry 24,000 phone calls while two copper wires carry only one.",
           "zh": "光纤带宽更大；两根光纤可承载24000通电话，而两根铜线只能承载一通。"
         },
         {
           "en": "Neither can carry phone calls.",
           "zh": "两者都不能传输电话。"
+        },
+        {
+          "en": "They carry exactly the same amount. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "两者传输量完全一样。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Copper wire carries more.",
+          "zh": "铜线传输更多。"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states fiber-optic cable has greater bandwidth than wire and that two strands carry 24,000 phone calls versus one call for two copper wires.",
@@ -73,8 +73,8 @@
       },
       "options": [
         {
-          "en": "A series of letters only, like a name.",
-          "zh": "只有一连串字母，像一个名字。"
+          "en": "The same as a domain name like raz-kids.com. according to some versions of the story",
+          "zh": "和 raz-kids.com 这样的域名相同。（按书中另一种说法）"
         },
         {
           "en": "A unique series of numbers in four sets separated by dots, such as 209.104.1.69.",
@@ -85,8 +85,8 @@
           "zh": "一张彩色图片。"
         },
         {
-          "en": "The same as a domain name like raz-kids.com.",
-          "zh": "和 raz-kids.com 这样的域名相同。"
+          "en": "A series of letters only, like a name.",
+          "zh": "只有一连串字母，像一个名字。"
         }
       ],
       "answer": 1,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A type of fiber-optic cable.",
-          "zh": "一种光纤电缆。"
+          "en": "A search engine.",
+          "zh": "一种搜索引擎。"
         },
         {
-          "en": "A wireless network that sends information over the Internet using radio waves.",
-          "zh": "利用无线电波在互联网上发送信息的无线网络。"
+          "en": "A type of fiber-optic cable. according to some versions of the story in an early draft of the book",
+          "zh": "一种光纤电缆。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A computer's memory chip.",
           "zh": "电脑的内存芯片。"
         },
         {
-          "en": "A search engine.",
-          "zh": "一种搜索引擎。"
+          "en": "A wireless network that sends information over the Internet using radio waves.",
+          "zh": "利用无线电波在互联网上发送信息的无线网络。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book defines WiFi as information sent wirelessly on radio waves, known as a wireless network.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "The browser connects your computer to a server, which provides the information; your computer is the client that sends and receives.",
-          "zh": "浏览器把你的电脑连到提供信息的服务器；你的电脑是发送和接收信息的客户端。"
+          "en": "The browser stores the information and the server deletes it. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "浏览器存储信息，服务器将其删除。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
-          "en": "The server does all the work and the browser is not needed.",
-          "zh": "服务器完成所有工作，不需要浏览器。"
+          "en": "The browser connects your computer to a server, which provides the information; your computer is the client that sends and receives.",
+          "zh": "浏览器把你的电脑连到提供信息的服务器；你的电脑是发送和接收信息的客户端。"
         },
         {
           "en": "Clients provide the information and servers only watch.",
           "zh": "客户端提供信息，服务器只负责观看。"
         },
         {
-          "en": "The browser stores the information and the server deletes it.",
-          "zh": "浏览器存储信息，服务器将其删除。"
+          "en": "The server does all the work and the browser is not needed.",
+          "zh": "服务器完成所有工作，不需要浏览器。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains a browser connects your computer to a server that provides access to information, while your computer (a client) sends and receives information.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "In the 1960s, when the U.S. Department of Defense created ARPAnet, linking four computers.",
-          "zh": "20世纪60年代，美国国防部创建了连接四台电脑的 ARPAnet。"
-        },
-        {
-          "en": "In the 1990s, invented by Tim Berners-Lee alone.",
-          "zh": "20世纪90年代，由蒂姆·伯纳斯-李独自发明。"
-        },
-        {
-          "en": "In the 1800s with the first telephone.",
-          "zh": "19世纪随第一部电话出现。"
+          "en": "In the 1990s, invented by Tim Berners-Lee alone. according to some versions of the story in an early draft of the book",
+          "zh": "20世纪90年代，由蒂姆·伯纳斯-李独自发明。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "In 2004 with online shopping.",
           "zh": "2004年随网络购物出现。"
+        },
+        {
+          "en": "In the 1960s, when the U.S. Department of Defense created ARPAnet, linking four computers.",
+          "zh": "20世纪60年代，美国国防部创建了连接四台电脑的 ARPAnet。"
+        },
+        {
+          "en": "In the 1800s with the first telephone.",
+          "zh": "19世纪随第一部电话出现。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says most people think it began in the 1960s when the U.S. Department of Defense created ARPAnet, which linked four computers.",
@@ -197,16 +197,16 @@
           "zh": "蒂姆·伯纳斯-李，在20世纪90年代。"
         },
         {
-          "en": "Thomas Edison.",
-          "zh": "托马斯·爱迪生。"
-        },
-        {
           "en": "George Washington.",
           "zh": "乔治·华盛顿。"
         },
         {
           "en": "A group of university students in the 1980s.",
           "zh": "20世纪80年代的一群大学生。"
+        },
+        {
+          "en": "Thomas Edison.",
+          "zh": "托马斯·爱迪生。"
         }
       ],
       "answer": 0,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "A kind of search engine.",
+          "zh": "一种搜索引擎。"
+        },
+        {
+          "en": "A type of computer cable. according to some versions of the story in an early draft of the book",
+          "zh": "一种电脑电缆。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "A whole webpage.",
           "zh": "一整个网页。"
         },
         {
-          "en": "A type of computer cable.",
-          "zh": "一种电脑电缆。"
-        },
-        {
           "en": "A unit of information equal to one letter of the alphabet or one number, like the letter A.",
           "zh": "等于一个字母或一个数字的信息单位，例如字母 A。"
-        },
-        {
-          "en": "A kind of search engine.",
-          "zh": "一种搜索引擎。"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines a byte as 'a unit of information that can be stored on a computer and is equal to one letter of the alphabet or one number.'",
@@ -257,12 +257,12 @@
           "zh": "向读者说明互联网如何运作、如何起源，以及如何使用。"
         },
         {
-          "en": "To persuade readers to buy a certain computer brand.",
-          "zh": "劝说读者购买某个品牌的电脑。"
-        },
-        {
           "en": "To tell a fictional adventure story.",
           "zh": "讲述一个虚构的冒险故事。"
+        },
+        {
+          "en": "To persuade readers to buy a certain computer brand. according to some versions of the story",
+          "zh": "劝说读者购买某个品牌的电脑。（按书中另一种说法）"
         },
         {
           "en": "To teach readers how to write computer code.",
@@ -283,20 +283,20 @@
       },
       "options": [
         {
-          "en": "The physical length of a cable.",
-          "zh": "电缆的物理长度。"
+          "en": "The color of the wires.",
+          "zh": "电线的颜色。"
         },
         {
           "en": "The maximum amount of information that can move on a cable; more bandwidth means more information can travel.",
           "zh": "电缆可传输的最大信息量；带宽越大，能传输的信息越多。"
         },
         {
-          "en": "The number of computers in the world.",
-          "zh": "世界上的电脑数量。"
+          "en": "The physical length of a cable.",
+          "zh": "电缆的物理长度。"
         },
         {
-          "en": "The color of the wires.",
-          "zh": "电线的颜色。"
+          "en": "The number of computers in the world. according to some versions of the story in an early draft of the book",
+          "zh": "世界上的电脑数量。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,

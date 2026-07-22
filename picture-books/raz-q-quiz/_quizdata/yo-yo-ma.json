@@ -12,10 +12,22 @@
         "zh": "马友友出生在何时、何地？"
       },
       "options": [
-        {"en": "In 1955 in Paris, France", "zh": "1955 年，生于法国巴黎"},
-        {"en": "In 1955 in New York City", "zh": "1955 年，生于纽约市"},
-        {"en": "In 1962 in China", "zh": "1962 年，生于中国"},
-        {"en": "In 1945 in Paris, France", "zh": "1945 年，生于法国巴黎"}
+        {
+          "en": "In 1955 in Paris, France",
+          "zh": "1955 年，生于法国巴黎"
+        },
+        {
+          "en": "In 1955 in New York City",
+          "zh": "1955 年，生于纽约市"
+        },
+        {
+          "en": "In 1962 in China",
+          "zh": "1962 年，生于中国"
+        },
+        {
+          "en": "In 1945 in Paris, France according to some versions of the story",
+          "zh": "1945 年，生于法国巴黎（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "马友友为什么最终拉大提琴，而不是小提琴或低音提琴？"
       },
       "options": [
-        {"en": "He smashed violins in frustration and quit; later wanted a double bass but it was too big, so his parents got him the cello, the second-biggest string instrument", "zh": "他因受挫摔坏过小提琴便放弃了；后来想要低音提琴，但太大，于是父母给他买了第二大的弦乐器——大提琴"},
-        {"en": "He always loved the violin best", "zh": "他一直最爱的就是小提琴"},
-        {"en": "His older sister chose the cello for him", "zh": "是他的姐姐替他选了大提琴"},
-        {"en": "He won a cello in a music contest", "zh": "他在一场音乐比赛里赢了一把大提琴"}
+        {
+          "en": "He won a cello in a music contest",
+          "zh": "他在一场音乐比赛里赢了一把大提琴"
+        },
+        {
+          "en": "He always loved the violin best",
+          "zh": "他一直最爱的就是小提琴"
+        },
+        {
+          "en": "His older sister chose the cello for him according to some versions of the story in an early draft of the book as mentioned in a later chapter before the main events begin",
+          "zh": "是他的姐姐替他选了大提琴（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）（在主要事件发生之前）"
+        },
+        {
+          "en": "He smashed violins in frustration and quit; later wanted a double bass but it was too big, so his parents got him the cello, the second-biggest string instrument",
+          "zh": "他因受挫摔坏过小提琴便放弃了；后来想要低音提琴，但太大，于是父母给他买了第二大的弦乐器——大提琴"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Given a violin at age three, he 'sounded terrible' and 'smashed more than one violin in frustration,' then quit. At four he wanted a double bass, but it was about 6 feet tall—too big—so his parents got him the cello instead.",
@@ -48,12 +72,24 @@
         "zh": "马友友几岁时为约翰·肯尼迪(John F. Kennedy)总统演出？"
       },
       "options": [
-        {"en": "At age seven, in 1962", "zh": "七岁，1962 年"},
-        {"en": "At age three", "zh": "三岁"},
-        {"en": "At age fifteen", "zh": "十五岁"},
-        {"en": "At age twenty-three", "zh": "二十三岁"}
+        {
+          "en": "At age twenty-three according to some versions of the story",
+          "zh": "二十三岁（按书中另一种说法）"
+        },
+        {
+          "en": "At age seven, in 1962",
+          "zh": "七岁，1962 年"
+        },
+        {
+          "en": "At age three",
+          "zh": "三岁"
+        },
+        {
+          "en": "At age fifteen",
+          "zh": "十五岁"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'In 1962, seven-year-old Yo-Yo performed for President John F. Kennedy.' The next year he and his sister played on TV for millions.",
@@ -66,12 +102,24 @@
         "zh": "什么健康问题曾逼得马友友停止演奏？手术后又发生了什么？"
       },
       "options": [
-        {"en": "Scoliosis (a curved spine) required risky back surgery; after a successful operation he was in a body cast for six months", "zh": "脊柱侧弯( scoliosis) 需要冒险做背部手术；手术成功后他打了六个月的石膏固定身体"},
-        {"en": "He broke his arm in an accident", "zh": "他在一次意外中摔断了手臂"},
-        {"en": "He lost his hearing", "zh": "他失聪了"},
-        {"en": "He caught a bad cold before a concert", "zh": "他在演出前得了重感冒"}
+        {
+          "en": "He lost his hearing",
+          "zh": "他失聪了"
+        },
+        {
+          "en": "He broke his arm in an accident",
+          "zh": "他在一次意外中摔断了手臂"
+        },
+        {
+          "en": "He caught a bad cold before a concert according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他在演出前得了重感冒（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Scoliosis (a curved spine) required risky back surgery; after a successful operation he was in a body cast for six months",
+          "zh": "脊柱侧弯( scoliosis) 需要冒险做背部手术；手术成功后他打了六个月的石膏固定身体"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "As soon as he graduated, Ma 'had to stop playing cello' for back surgery to correct scoliosis. The surgery succeeded, but 'Yo-Yo was in a body cast for six months' and could not play.",
@@ -84,12 +132,24 @@
         "zh": "在词汇表里，「cello」（大提琴）是什么？"
       },
       "options": [
-        {"en": "A large stringed instrument in the violin family that a seated player holds upright between the legs", "zh": "小提琴家族中的一种大型弦乐器，演奏者坐着把它竖直夹在双腿之间"},
-        {"en": "A small wind instrument you blow into", "zh": "一种用嘴吹的小型管乐器"},
-        {"en": "A kind of drum", "zh": "一种鼓"},
-        {"en": "A type of singing voice", "zh": "一种人声唱法"}
+        {
+          "en": "A type of singing voice",
+          "zh": "一种人声唱法"
+        },
+        {
+          "en": "A kind of drum",
+          "zh": "一种鼓"
+        },
+        {
+          "en": "A large stringed instrument in the violin family that a seated player holds upright between the legs",
+          "zh": "小提琴家族中的一种大型弦乐器，演奏者坐着把它竖直夹在双腿之间"
+        },
+        {
+          "en": "A small wind instrument you blow into according to some versions of the story in an early draft of the book",
+          "zh": "一种用嘴吹的小型管乐器（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'cello' as 'a large stringed instrument in the violin family that a seated player holds upright between the legs while playing.'",
@@ -102,10 +162,22 @@
         "zh": "在词汇表里，「ensemble」（乐团/合奏团）是什么？"
       },
       "options": [
-        {"en": "A group of people, such as musicians, who perform together", "zh": "一群一起表演的人，例如音乐家"},
-        {"en": "A single solo performer", "zh": "一位独奏表演者"},
-        {"en": "A kind of musical note", "zh": "一种音符"},
-        {"en": "A type of musical instrument", "zh": "一种乐器"}
+        {
+          "en": "A group of people, such as musicians, who perform together",
+          "zh": "一群一起表演的人，例如音乐家"
+        },
+        {
+          "en": "A kind of musical note",
+          "zh": "一种音符"
+        },
+        {
+          "en": "A single solo performer",
+          "zh": "一位独奏表演者"
+        },
+        {
+          "en": "A type of musical instrument according to some versions of the story",
+          "zh": "一种乐器（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,10 +192,22 @@
         "zh": "丝绸之路乐团如何体现了马友友的身世背景？"
       },
       "options": [
-        {"en": "It brings together musicians from twenty countries and mixes musical traditions, reflecting his Chinese, French, and American influences", "zh": "它汇聚了来自二十个国家的音乐家、融合各种音乐传统，体现了他中国、法国和美国的多元影响"},
-        {"en": "It only plays traditional American music", "zh": "它只演奏美国传统音乐"},
-        {"en": "It was founded by his older sister", "zh": "它是由他姐姐创立的"},
-        {"en": "It uses only one kind of instrument", "zh": "它只用一种乐器"}
+        {
+          "en": "It brings together musicians from twenty countries and mixes musical traditions, reflecting his Chinese, French, and American influences",
+          "zh": "它汇聚了来自二十个国家的音乐家、融合各种音乐传统，体现了他中国、法国和美国的多元影响"
+        },
+        {
+          "en": "It uses only one kind of instrument",
+          "zh": "它只用一种乐器"
+        },
+        {
+          "en": "It only plays traditional American music according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "它只演奏美国传统音乐（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "It was founded by his older sister",
+          "zh": "它是由他姐姐创立的"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "马友友为什么从朱利亚德(Juilliard)音乐学院转去另一所大学？"
       },
       "options": [
-        {"en": "He didn't want the cello to be the only thing in his life and wanted to study other subjects", "zh": "他不想让大提琴成为生命中的唯一，还想学习别的东西"},
-        {"en": "He failed all of his music classes", "zh": "他所有音乐课都不及格"},
-        {"en": "Juilliard closed down", "zh": "朱利亚德音乐学院关门了"},
-        {"en": "His father forced him to leave", "zh": "他父亲逼他离开的"}
+        {
+          "en": "He failed all of his music classes according to some versions of the story in an early draft of the book",
+          "zh": "他所有音乐课都不及格（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He didn't want the cello to be the only thing in his life and wanted to study other subjects",
+          "zh": "他不想让大提琴成为生命中的唯一，还想学习别的东西"
+        },
+        {
+          "en": "Juilliard closed down",
+          "zh": "朱利亚德音乐学院关门了"
+        },
+        {
+          "en": "His father forced him to leave",
+          "zh": "他父亲逼他离开的"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "He chose Juilliard, 'one of the best music schools,' but 'soon... switched to a college where he could study other things besides music. Yo-Yo didn't want the cello to be the only thing in his life.'",
@@ -156,12 +252,24 @@
         "zh": "这本书关于丝绸之路乐团的「聚焦问题」(Focus Question) 是什么？"
       },
       "options": [
-        {"en": "How is the Silk Road Ensemble a reflection of Yo-Yo Ma's background and music?", "zh": "丝绸之路乐团如何反映了马友友的身世背景与音乐？"},
-        {"en": "How old is Yo-Yo Ma?", "zh": "马友友多大了？"},
-        {"en": "Why did he learn the cello?", "zh": "他为什么要学大提琴？"},
-        {"en": "Where was he born?", "zh": "他出生在哪里？"}
+        {
+          "en": "Where was he born?",
+          "zh": "他出生在哪里？"
+        },
+        {
+          "en": "How is the Silk Road Ensemble a reflection of Yo-Yo Ma's background and music?",
+          "zh": "丝绸之路乐团如何反映了马友友的身世背景与音乐？"
+        },
+        {
+          "en": "Why did he learn the cello? according to some versions of the story in an early draft of the book",
+          "zh": "他为什么要学大提琴？（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "How old is Yo-Yo Ma?",
+          "zh": "马友友多大了？"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book opens with the Focus Question: 'How is the Silk Road Ensemble a reflection of Yo-Yo Ma's background and music?' The chapters about his cultures and the Ensemble answer it.",
@@ -174,12 +282,24 @@
         "zh": "当马友友说「我是个意外」(I'm an accident) 时，他是在怎样解释自己的成功？"
       },
       "options": [
-        {"en": "He credits many people (parents, teachers, sister, wife, children) and experiences, not just his own talent", "zh": "他把成功归功于许多人（父母、老师、姐姐、妻子、孩子）和种种经历，而不只是自己的天赋"},
-        {"en": "He thinks he succeeded purely by random luck", "zh": "他认为自己纯粹是靠运气偶然成功的"},
-        {"en": "He does not actually like music", "zh": "他其实并不喜欢音乐"},
-        {"en": "He regrets becoming a musician", "zh": "他后悔成为了音乐家"}
+        {
+          "en": "He regrets becoming a musician",
+          "zh": "他后悔成为了音乐家"
+        },
+        {
+          "en": "He thinks he succeeded purely by random luck according to some versions of the story in an early draft of the book",
+          "zh": "他认为自己纯粹是靠运气偶然成功的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He credits many people (parents, teachers, sister, wife, children) and experiences, not just his own talent",
+          "zh": "他把成功归功于许多人（父母、老师、姐姐、妻子、孩子）和种种经历，而不只是自己的天赋"
+        },
+        {
+          "en": "He does not actually like music",
+          "zh": "他其实并不喜欢音乐"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Ma says his success 'comes from many things. His parents, teachers, sister, wife, and children have all helped him,' plus living in Paris and New York and performing young. He feels any difference might have changed his life.",

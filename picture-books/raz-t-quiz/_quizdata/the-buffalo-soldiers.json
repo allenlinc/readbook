@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "The Buffalo Soldiers",
-          "zh": "水牛战士（Buffalo Soldiers）"
-        },
-        {
           "en": "The Redcoats",
           "zh": "红衫军"
         },
@@ -25,11 +21,15 @@
           "zh": "爱国者"
         },
         {
-          "en": "The Minutemen",
-          "zh": "一分钟人"
+          "en": "The Minutemen according to some versions of the story",
+          "zh": "一分钟人（按书中另一种说法）"
+        },
+        {
+          "en": "The Buffalo Soldiers",
+          "zh": "水牛战士（Buffalo Soldiers）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After the Civil War ended in 1865, Congress created the first peacetime regiments of black soldiers, later called Buffalo Soldiers.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "$100, more than white soldiers according to some versions of the story",
+          "zh": "100美元，多于白人士兵（按书中另一种说法）"
+        },
+        {
           "en": "$13, the same as white soldiers",
           "zh": "13美元，与白人士兵相同"
         },
         {
-          "en": "$5, less than white soldiers",
-          "zh": "5美元，少于白人士兵"
-        },
-        {
-          "en": "$100, more than white soldiers",
-          "zh": "100美元，多于白人士兵"
-        },
-        {
           "en": "Nothing at all",
           "zh": "完全没有军饷"
+        },
+        {
+          "en": "$5, less than white soldiers",
+          "zh": "5美元，少于白人士兵"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In 1866 the U.S. Army paid black soldiers the same as white soldiers — $13 per month.",
@@ -77,16 +77,16 @@
           "zh": "第10骑兵军团"
         },
         {
+          "en": "The 41st Infantry according to some versions of the story",
+          "zh": "第41步军团（按书中另一种说法）"
+        },
+        {
           "en": "The 9th Cavalry",
           "zh": "第9骑兵军团"
         },
         {
           "en": "The 38th Infantry",
           "zh": "第38步军团"
-        },
-        {
-          "en": "The 41st Infantry",
-          "zh": "第41步军团"
         }
       ],
       "answer": 0,
@@ -103,12 +103,8 @@
       },
       "options": [
         {
-          "en": "Colonel Benjamin Grierson",
-          "zh": "本杰明·格里森上校"
-        },
-        {
-          "en": "Chief Victorio",
-          "zh": "维多利亚酋长"
+          "en": "Chief Victorio according to some versions of the story",
+          "zh": "维多利亚酋长（按书中另一种说法）"
         },
         {
           "en": "Charles Creek",
@@ -117,9 +113,13 @@
         {
           "en": "Henry Johnson",
           "zh": "亨利·约翰逊"
+        },
+        {
+          "en": "Colonel Benjamin Grierson",
+          "zh": "本杰明·格里森上校"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "First stationed at Fort Leavenworth, the 10th Cavalry was led by Colonel Benjamin Grierson, a white man.",
@@ -137,16 +137,16 @@
           "zh": "来自美洲原住民，由他们为黑人士兵命名"
         },
         {
+          "en": "From a black soldier's nickname according to some versions of the story",
+          "zh": "来自一名黑人士兵的绰号（按书中另一种说法）"
+        },
+        {
           "en": "From the U.S. government",
           "zh": "来自美国政府"
         },
         {
           "en": "From their buffalo coats only",
           "zh": "仅仅来自他们穿的水牛皮外套"
-        },
-        {
-          "en": "From a black soldier's nickname",
-          "zh": "来自一名黑人士兵的绰号"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Bicycles without brakes",
-          "zh": "没有刹车自行车"
-        },
-        {
-          "en": "Buffalo-drawn wagons",
-          "zh": "水牛拉的车"
-        },
-        {
-          "en": "Steam trains",
-          "zh": "蒸汽火车"
+          "en": "Buffalo-drawn wagons according to some versions of the story",
+          "zh": "水牛拉的车（按书中另一种说法）"
         },
         {
           "en": "Canoes",
           "zh": "独木舟"
+        },
+        {
+          "en": "Bicycles without brakes",
+          "zh": "没有刹车自行车"
+        },
+        {
+          "en": "Steam trains",
+          "zh": "蒸汽火车"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The army tested bikes without brakes; soldiers rode 1,900 miles from Fort Missoula to St. Louis.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Fourteen",
-          "zh": "十四枚"
-        },
-        {
-          "en": "Five",
-          "zh": "五枚"
-        },
-        {
           "en": "One hundred",
           "zh": "一百枚"
         },
         {
+          "en": "Fourteen",
+          "zh": "十四枚"
+        },
+        {
           "en": "Zero",
           "zh": "零枚"
+        },
+        {
+          "en": "Five",
+          "zh": "五枚"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Buffalo Soldiers earned fourteen Medals of Honor between 1870 and 1890 in the West.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "Gold miners",
+          "zh": "淘金矿工"
+        },
+        {
+          "en": "School teachers according to some versions of the story",
+          "zh": "学校教师（按书中另一种说法）"
+        },
+        {
           "en": "Park rangers who built roads and fought fires",
           "zh": "修建道路、扑救林火的公园管理员"
         },
         {
           "en": "Movie actors",
           "zh": "电影演员"
-        },
-        {
-          "en": "Gold miners",
-          "zh": "淘金矿工"
-        },
-        {
-          "en": "School teachers",
-          "zh": "学校教师"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Between 1899 and 1904 they served as park rangers, building trails, fighting fires, and stopping poaching.",
@@ -257,16 +257,16 @@
           "zh": "朝鲜战争期间"
         },
         {
-          "en": "During World War I",
-          "zh": "第一次世界大战期间"
+          "en": "In 1898",
+          "zh": "1898年"
+        },
+        {
+          "en": "During World War I according to some versions of the story",
+          "zh": "第一次世界大战期间（按书中另一种说法）"
         },
         {
           "en": "In 1866",
           "zh": "1866年"
-        },
-        {
-          "en": "In 1898",
-          "zh": "1898年"
         }
       ],
       "answer": 0,
@@ -283,12 +283,12 @@
       },
       "options": [
         {
-          "en": "To honor their bravery and service in America's history",
-          "zh": "纪念他们在美国历史中的勇敢与贡献"
+          "en": "To argue that war should be avoided according to some versions of the story",
+          "zh": "主张应当避免战争（按书中另一种说法）"
         },
         {
-          "en": "To argue that war should be avoided",
-          "zh": "主张应当避免战争"
+          "en": "To honor their bravery and service in America's history",
+          "zh": "纪念他们在美国历史中的勇敢与贡献"
         },
         {
           "en": "To teach how to ride a horse",
@@ -299,7 +299,7 @@
           "zh": "推销水牛皮外套"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book remembers them as tough men who took on tough jobs and whose bravery is an important part of America's story.",

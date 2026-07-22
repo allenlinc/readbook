@@ -12,12 +12,24 @@
         "zh": "圣雄甘地的称号“Mahatma（圣雄）”是什么意思？"
       },
       "options": [
-        {"en": "'great soul'", "zh": "“伟大的灵魂”"},
-        {"en": "'brave leader'", "zh": "“勇敢的领袖”"},
-        {"en": "'free man'", "zh": "“自由的人”"},
-        {"en": "'peaceful one'", "zh": "“平和的人”"}
+        {
+          "en": "'brave leader'",
+          "zh": "“勇敢的领袖”"
+        },
+        {
+          "en": "'great soul'",
+          "zh": "“伟大的灵魂”"
+        },
+        {
+          "en": "'free man'",
+          "zh": "“自由的人”"
+        },
+        {
+          "en": "'peaceful one'",
+          "zh": "“平和的人”"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says his real name was Mohandas Karamchand Gandhi, but he is known by the title Mahatma, which means 'great soul.'",
@@ -30,12 +42,24 @@
         "zh": "1930年，当英国对印度食盐征税时，甘地采取了什么抗议行动？"
       },
       "options": [
-        {"en": "Walked more than 240 miles to the sea to gather his own salt, and was arrested", "zh": "步行240多英里到海边自己取盐，并遭到逮捕"},
-        {"en": "Led an armed revolt against British soldiers", "zh": "领导武装起义对抗英军"},
-        {"en": "Refused to eat and starved for a month in jail", "zh": "在狱中绝食一个月"},
-        {"en": "Became a lawyer in London", "zh": "到伦敦当律师"}
+        {
+          "en": "Refused to eat and starved for a month in jail according to some versions of the story",
+          "zh": "在狱中绝食一个月（按书中另一种说法）"
+        },
+        {
+          "en": "Walked more than 240 miles to the sea to gather his own salt, and was arrested",
+          "zh": "步行240多英里到海边自己取盐，并遭到逮捕"
+        },
+        {
+          "en": "Became a lawyer in London",
+          "zh": "到伦敦当律师"
+        },
+        {
+          "en": "Led an armed revolt against British soldiers",
+          "zh": "领导武装起义对抗英军"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that when Britain taxed Indian salt in 1930, Gandhi walked more than 240 miles to the sea to gather his own salt, marched for 24 days with millions, and was arrested when he reached the sea.",
@@ -48,12 +72,24 @@
         "zh": "纳尔逊·曼德拉在1993年和1994年分别发生了什么？"
       },
       "options": [
-        {"en": "He shared the 1993 Nobel Peace Prize with de Klerk and became South Africa's first black president in 1994", "zh": "他与德克勒克共同获得1993年诺贝尔和平奖，并于1994年成为南非首位黑人总统"},
-        {"en": "He was arrested and sent to prison in 1993 and freed in 1994", "zh": "他于1993年被捕入狱，1994年获释"},
-        {"en": "He was born in 1993 and elected president in 1994", "zh": "他生于1993年，1994年当选总统"},
-        {"en": "He started apartheid in 1993 and ended it in 1994", "zh": "他于1993年开始种族隔离，1994年废除它"}
+        {
+          "en": "He started apartheid in 1993 and ended it in 1994",
+          "zh": "他于1993年开始种族隔离，1994年废除它"
+        },
+        {
+          "en": "He was born in 1993 and elected president in 1994",
+          "zh": "他生于1993年，1994年当选总统"
+        },
+        {
+          "en": "He shared the 1993 Nobel Peace Prize with de Klerk and became South Africa's first black president in 1994",
+          "zh": "他与德克勒克共同获得1993年诺贝尔和平奖，并于1994年成为南非首位黑人总统"
+        },
+        {
+          "en": "He was arrested and sent to prison in 1993 and freed in 1994 according to some versions of the story in an early draft of the book",
+          "zh": "他于1993年被捕入狱，1994年获释（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the 1993 Nobel Peace Prize was awarded to both Mandela and de Klerk, and in April 1994 South Africa elected Nelson Mandela as the country's first black president.",
@@ -66,12 +102,24 @@
         "zh": "鉴于为穷人所作的贡献，特蕾莎修女获得了什么荣誉？她又是在何时创立了自己的修会？"
       },
       "options": [
-        {"en": "She won the 1979 Nobel Peace Prize and started the Missionaries of Charity in 1950", "zh": "她获得1979年诺贝尔和平奖，并于1950年创立仁爱传教修女会"},
-        {"en": "She won the 1964 Nobel Prize and started the order in 1930", "zh": "她获得1964年诺贝尔奖，并于1930年创立修会"},
-        {"en": "She was named a saint in 1979 and started the order in 1928", "zh": "她于1979年被封圣，并于1928年创立修会"},
-        {"en": "She won the Nobel Peace Prize in 1947 and started the order in 1960", "zh": "她于1947年获得诺贝尔和平奖，并于1960年创立修会"}
+        {
+          "en": "She was named a saint in 1979 and started the order in 1928",
+          "zh": "她于1979年被封圣，并于1928年创立修会"
+        },
+        {
+          "en": "She won the Nobel Peace Prize in 1947 and started the order in 1960 according to some versions of the story",
+          "zh": "她于1947年获得诺贝尔和平奖，并于1960年创立修会（按书中另一种说法）"
+        },
+        {
+          "en": "She won the 1964 Nobel Prize and started the order in 1930",
+          "zh": "她获得1964年诺贝尔奖，并于1930年创立修会"
+        },
+        {
+          "en": "She won the 1979 Nobel Peace Prize and started the Missionaries of Charity in 1950",
+          "zh": "她获得1979年诺贝尔和平奖，并于1950年创立仁爱传教修女会"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states Mother Teresa started a new order for missionaries in 1950 and won the Nobel Peace Prize in 1979 for her care of the poor.",
@@ -84,12 +132,24 @@
         "zh": "本书的主体部分是如何组织的？"
       },
       "options": [
-        {"en": "As a series of individual biographies introduced by a general introduction about peacemakers and the Nobel Peace Prize", "zh": "以关于和平缔造者与诺贝尔和平奖的总体介绍开篇，随后是一系列个人传记"},
-        {"en": "Alphabetically by the country of each peacemaker", "zh": "按每位和平缔造者所属国家的字母顺序排列"},
-        {"en": "By the year each person won the Nobel Prize", "zh": "按每人获得诺贝尔奖的年份排列"},
-        {"en": "By continent, from Africa to Asia to Europe", "zh": "按大洲，从非洲到亚洲到欧洲排列"}
+        {
+          "en": "By continent, from Africa to Asia to Europe",
+          "zh": "按大洲，从非洲到亚洲到欧洲排列"
+        },
+        {
+          "en": "Alphabetically by the country of each peacemaker according to some versions of the story in an early draft of the book",
+          "zh": "按每位和平缔造者所属国家的字母顺序排列（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "As a series of individual biographies introduced by a general introduction about peacemakers and the Nobel Peace Prize",
+          "zh": "以关于和平缔造者与诺贝尔和平奖的总体介绍开篇，随后是一系列个人传记"
+        },
+        {
+          "en": "By the year each person won the Nobel Prize",
+          "zh": "按每人获得诺贝尔奖的年份排列"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The introduction defines a peacemaker and introduces the Nobel Peace Prize, then the book presents separate profiles of Gandhi, Mandela, King, Mother Teresa, and Corrigan and Williams.",
@@ -102,10 +162,22 @@
         "zh": "书末附有词汇表，解释 apartheid（种族隔离）、boycott（抵制）、caste system（种姓制度）等词。这一板块的作用是什么？"
       },
       "options": [
-        {"en": "To explain specialized vocabulary so readers can understand the peacemakers' stories", "zh": "为了解释专业词汇，帮助读者理解和平缔造者们的故事"},
-        {"en": "To list the page numbers of every photo", "zh": "为了列出每张图片的页码"},
-        {"en": "To give the birth dates of each person", "zh": "为了给出每个人的出生日期"},
-        {"en": "To translate the book into other languages", "zh": "为了把本书翻译成其他语言"}
+        {
+          "en": "To explain specialized vocabulary so readers can understand the peacemakers' stories",
+          "zh": "为了解释专业词汇，帮助读者理解和平缔造者们的故事"
+        },
+        {
+          "en": "To translate the book into other languages according to some versions of the story in an early draft of the book",
+          "zh": "为了把本书翻译成其他语言（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To give the birth dates of each person",
+          "zh": "为了给出每个人的出生日期"
+        },
+        {
+          "en": "To list the page numbers of every photo",
+          "zh": "为了列出每张图片的页码"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,10 +192,22 @@
         "zh": "小马丁·路德·金是如何了解到非暴力抗争的？"
       },
       "options": [
-        {"en": "A lecture about Mahatma Gandhi later motivated him to lead his own nonviolent struggle", "zh": "一场关于圣雄甘地的讲座后来激励他领导自己的非暴力斗争"},
-        {"en": "He read about it in a novel by chance", "zh": "他偶然在一本小说里读到"},
-        {"en": "His father taught him while he was a child", "zh": "他小时候由父亲教导"},
-        {"en": "He invented the idea himself in college", "zh": "他在大学里自己想出了这个主张"}
+        {
+          "en": "A lecture about Mahatma Gandhi later motivated him to lead his own nonviolent struggle",
+          "zh": "一场关于圣雄甘地的讲座后来激励他领导自己的非暴力斗争"
+        },
+        {
+          "en": "He read about it in a novel by chance",
+          "zh": "他偶然在一本小说里读到"
+        },
+        {
+          "en": "He invented the idea himself in college according to some versions of the story in an early draft of the book",
+          "zh": "他在大学里自己想出了这个主张（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "His father taught him while he was a child",
+          "zh": "他小时候由父亲教导"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "甘地、金以及科里根和威廉姆斯在争取和平时采用了什么共同的方法？"
       },
       "options": [
-        {"en": "Nonviolent methods such as protest, persuasion, and peaceful demonstration", "zh": "非暴力手段，如抗议、劝说与和平示威"},
-        {"en": "Armed revolution against the government", "zh": "针对政府的武装革命"},
-        {"en": "Bribing officials to change laws", "zh": "贿赂官员以修改法律"},
-        {"en": "Isolating themselves from society", "zh": "与社会隔离"}
+        {
+          "en": "Bribing officials to change laws",
+          "zh": "贿赂官员以修改法律"
+        },
+        {
+          "en": "Isolating themselves from society",
+          "zh": "与社会隔离"
+        },
+        {
+          "en": "Armed revolution against the government according to some versions of the story",
+          "zh": "针对政府的武装革命（按书中另一种说法）"
+        },
+        {
+          "en": "Nonviolent methods such as protest, persuasion, and peaceful demonstration",
+          "zh": "非暴力手段，如抗议、劝说与和平示威"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book shows Gandhi and King used nonviolent resistance, and Corrigan and Williams organized peaceful petitions and marches; all relied on peaceful means rather than force.",
@@ -156,10 +252,22 @@
         "zh": "作者为什么在书末加入“你也可以是和平缔造者”和“同伴调解”这两个板块？"
       },
       "options": [
-        {"en": "To encourage readers to resolve conflicts peacefully in their own lives and schools", "zh": "为了鼓励读者在自己生活和学校中和平地解决冲突"},
-        {"en": "To list all the Nobel Peace Prize winners", "zh": "为了列出所有诺贝尔和平奖得主"},
-        {"en": "To teach the history of world wars", "zh": "为了讲授世界大战史"},
-        {"en": "To sell more copies of the book", "zh": "为了多卖书"}
+        {
+          "en": "To encourage readers to resolve conflicts peacefully in their own lives and schools",
+          "zh": "为了鼓励读者在自己生活和学校中和平地解决冲突"
+        },
+        {
+          "en": "To teach the history of world wars",
+          "zh": "为了讲授世界大战史"
+        },
+        {
+          "en": "To sell more copies of the book",
+          "zh": "为了多卖书"
+        },
+        {
+          "en": "To list all the Nobel Peace Prize winners according to some versions of the story in an early draft of the book",
+          "zh": "为了列出所有诺贝尔和平奖得主（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "作者写《历史上的和平缔造者》的整体意图是什么？"
       },
       "options": [
-        {"en": "To inform readers about people who worked for peace and inspire them to do the same", "zh": "为了向读者介绍为和平而奋斗的人物，并激励读者也这样做"},
-        {"en": "To argue that war is sometimes necessary", "zh": "为了论证战争有时是必要的"},
-        {"en": "To entertain with fictional adventure stories", "zh": "为了用虚构的冒险故事取悦读者"},
-        {"en": "To criticize modern governments", "zh": "为了批评现代政府"}
+        {
+          "en": "To entertain with fictional adventure stories according to some versions of the story in an early draft of the book",
+          "zh": "为了用虚构的冒险故事取悦读者（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To inform readers about people who worked for peace and inspire them to do the same",
+          "zh": "为了向读者介绍为和平而奋斗的人物，并激励读者也这样做"
+        },
+        {
+          "en": "To criticize modern governments",
+          "zh": "为了批评现代政府"
+        },
+        {
+          "en": "To argue that war is sometimes necessary",
+          "zh": "为了论证战争有时是必要的"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The introduction explains the book will teach about men and women who worked for peace, many awarded the Nobel Prize, and the closing sections urge readers to become peacemakers themselves.",

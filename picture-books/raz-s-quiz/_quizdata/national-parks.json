@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "President Thomas Jefferson",
+          "zh": "托马斯·杰斐逊总统"
+        },
+        {
           "en": "President Ulysses S. Grant",
           "zh": "尤利西斯·S·格兰特总统"
         },
         {
+          "en": "President Theodore Roosevelt according to some versions of the story",
+          "zh": "西奥多·罗斯福总统（按书中另一种说法）"
+        },
+        {
           "en": "President Abraham Lincoln",
           "zh": "亚伯拉罕·林肯总统"
-        },
-        {
-          "en": "President Theodore Roosevelt",
-          "zh": "西奥多·罗斯福总统"
-        },
-        {
-          "en": "President Thomas Jefferson",
-          "zh": "托马斯·杰斐逊总统"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: \"President Ulysses S. Grant signed the bill creating Yellowstone National Park in Wyoming, Idaho, and Montana\" in 1872.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "To move from one area to another every year",
-          "zh": "每年从一个地区移动到另一个地区"
-        },
-        {
           "en": "To become extinct",
           "zh": "灭绝"
         },
         {
-          "en": "To build a nest",
-          "zh": "筑巢"
+          "en": "To move from one area to another every year",
+          "zh": "每年从一个地区移动到另一个地区"
         },
         {
-          "en": "To mix fresh and salt water",
-          "zh": "混合淡水和咸水"
+          "en": "To mix fresh and salt water according to some versions of the story",
+          "zh": "混合淡水和咸水（按书中另一种说法）"
+        },
+        {
+          "en": "To build a nest",
+          "zh": "筑巢"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The glossary defines \"migrate\" as \"move from one area to another every year (p. 9).\"",
@@ -77,16 +77,16 @@
           "zh": "河流尽头淡水与咸水混合的地方"
         },
         {
-          "en": "A narrow sea inlet between steep slopes",
-          "zh": "陡峭山坡之间的狭长海湾"
+          "en": "Objects from ancient times",
+          "zh": "古代遗留下来的物品"
         },
         {
           "en": "Dry grasslands",
           "zh": "干旱的草原"
         },
         {
-          "en": "Objects from ancient times",
-          "zh": "古代遗留下来的物品"
+          "en": "A narrow sea inlet between steep slopes according to some versions of the story",
+          "zh": "陡峭山坡之间的狭长海湾（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "\"The place where the land goes on forever\"",
-          "zh": "“土地一直延伸到的地方”"
-        },
-        {
           "en": "\"Home of the lions\"",
           "zh": "“狮子的家园”"
         },
         {
-          "en": "\"Land of the wildebeest\"",
-          "zh": "“角马的领地”"
+          "en": "\"The place where the land goes on forever\"",
+          "zh": "“土地一直延伸到的地方”"
         },
         {
           "en": "\"The big water\"",
           "zh": "“大水”"
+        },
+        {
+          "en": "\"Land of the wildebeest\" according to some versions of the story",
+          "zh": "“角马的领地”（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: \"To the Masai, the Serengeti has always been Siringitu: 'the place where the land goes on forever.'\"",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "The rare beluga, or white whale",
-          "zh": "稀有的白鲸"
+          "en": "The alligator",
+          "zh": "短吻鳄"
         },
         {
           "en": "The blue whale",
           "zh": "蓝鲸"
         },
         {
-          "en": "The alligator",
-          "zh": "短吻鳄"
+          "en": "The Florida panther according to some versions of the story",
+          "zh": "佛罗里达黑豹（按书中另一种说法）"
         },
         {
-          "en": "The Florida panther",
-          "zh": "佛罗里达黑豹"
+          "en": "The rare beluga, or white whale",
+          "zh": "稀有的白鲸"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: \"The rare beluga, or white whale, lives here year-round.\"",
@@ -167,16 +167,16 @@
           "zh": "过多游客留下垃圾、踩踏小径"
         },
         {
+          "en": "Too much rain",
+          "zh": "雨水太多"
+        },
+        {
           "en": "Too few animals",
           "zh": "动物太少"
         },
         {
-          "en": "A lack of mountains",
-          "zh": "缺少山脉"
-        },
-        {
-          "en": "Too much rain",
-          "zh": "雨水太多"
+          "en": "A lack of mountains according to some versions of the story",
+          "zh": "缺少山脉（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -197,16 +197,16 @@
           "zh": "瑞典"
         },
         {
-          "en": "Norway",
-          "zh": "挪威"
-        },
-        {
           "en": "Finland",
           "zh": "芬兰"
         },
         {
           "en": "Russia",
           "zh": "俄罗斯"
+        },
+        {
+          "en": "Norway",
+          "zh": "挪威"
         }
       ],
       "answer": 0,
@@ -223,8 +223,8 @@
       },
       "options": [
         {
-          "en": "More than 15,000",
-          "zh": "超过15,000幅"
+          "en": "More than 50,000 according to some versions of the story",
+          "zh": "超过50,000幅（按书中另一种说法）"
         },
         {
           "en": "About 1,500",
@@ -235,11 +235,11 @@
           "zh": "约150幅"
         },
         {
-          "en": "More than 50,000",
-          "zh": "超过50,000幅"
+          "en": "More than 15,000",
+          "zh": "超过15,000幅"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the landscape \"left behind more than 15,000 drawings and engravings in caves and on the sides of cliffs.\"",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To inform readers about the value and variety of national parks around the world",
-          "zh": "向读者介绍世界各地国家公园的价值和多样性"
-        },
-        {
-          "en": "To teach readers how to build a park",
-          "zh": "教读者如何建造公园"
+          "en": "To teach readers how to build a park according to some versions of the story in an early draft of the book",
+          "zh": "教读者如何建造公园（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To argue that parks should be closed",
           "zh": "主张应该关闭公园"
         },
         {
+          "en": "To inform readers about the value and variety of national parks around the world",
+          "zh": "向读者介绍世界各地国家公园的价值和多样性"
+        },
+        {
           "en": "To entertain with a fictional story",
           "zh": "用一个虚构故事来娱乐"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is an informational text that explores many real parks and explains \"The Value of Parks,\" showing the author aims to inform.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Volcanoes National Park",
-          "zh": "火山国家公园"
+          "en": "Santa Rosa National Park",
+          "zh": "圣罗莎国家公园"
         },
         {
           "en": "Everglades National Park",
           "zh": "大沼泽地国家公园"
         },
         {
-          "en": "Rock Creek Park",
-          "zh": "岩石溪公园"
+          "en": "Volcanoes National Park",
+          "zh": "火山国家公园"
         },
         {
-          "en": "Santa Rosa National Park",
-          "zh": "圣罗莎国家公园"
+          "en": "Rock Creek Park",
+          "zh": "岩石溪公园"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says of Volcanoes National Park, Hawaii: \"In this park, you can view the world's largest, most active volcano.\"",

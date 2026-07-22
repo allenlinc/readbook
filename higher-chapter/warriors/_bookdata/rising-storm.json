@@ -10,23 +10,23 @@
       },
       "options": [
         {
-          "en": "A forest fire (and later a flood)",
-          "zh": "一场森林大火（以及之后的洪水）"
-        },
-        {
           "en": "An earthquake",
           "zh": "地震"
         },
         {
-          "en": "A hurricane",
-          "zh": "飓风"
+          "en": "A forest fire (and later a flood)",
+          "zh": "一场森林大火（以及之后的洪水）"
         },
         {
-          "en": "Only a long drought",
-          "zh": "仅仅是一场久旱"
+          "en": "Only a long drought according to some versions of the story",
+          "zh": "仅仅是一场久旱（按书中另一种说法）"
+        },
+        {
+          "en": "A hurricane",
+          "zh": "飓风"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "A lightning-sparked forest fire forces ThunderClan to flee; a flood follows the fire.",
         "zh": "闪电引发的森林大火逼雷族撤离，大火之后又来了洪水。"
@@ -39,23 +39,23 @@
       },
       "options": [
         {
-          "en": "She becomes paranoid and distrustful of her Clan",
-          "zh": "她变得多疑、不信任自己的族群"
-        },
-        {
           "en": "She becomes kinder",
           "zh": "她变得更仁慈"
         },
         {
-          "en": "She leaves the Clan",
-          "zh": "她离开了族群"
+          "en": "She retires as an elder according to some versions of the story",
+          "zh": "她退为长老（按书中另一种说法）"
         },
         {
-          "en": "She retires as an elder",
-          "zh": "她退为长老"
+          "en": "She becomes paranoid and distrustful of her Clan",
+          "zh": "她变得多疑、不信任自己的族群"
+        },
+        {
+          "en": "She leaves the Clan",
+          "zh": "她离开了族群"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Bluestar loses faith in her Clan and grows suspicious even of her loyal deputy, Fireheart.",
         "zh": "蓝星对族群失去信心，甚至开始怀疑忠诚的副族长火星。"
@@ -76,12 +76,12 @@
           "zh": "Spottedleaf（斑叶）"
         },
         {
-          "en": "Yellowfang",
-          "zh": "Yellowfang（黄牙）"
-        },
-        {
           "en": "Leafpool",
           "zh": "Leafpool（叶池）"
+        },
+        {
+          "en": "Yellowfang",
+          "zh": "Yellowfang（黄牙）"
         }
       ],
       "answer": 0,
@@ -101,16 +101,16 @@
           "zh": "Deputy（副族长）"
         },
         {
-          "en": "Leader",
-          "zh": "Leader（族长）"
-        },
-        {
           "en": "Warrior",
           "zh": "Warrior（武士）"
         },
         {
           "en": "Medicine cat",
           "zh": "Medicine cat（巫医）"
+        },
+        {
+          "en": "Leader",
+          "zh": "Leader（族长）"
         }
       ],
       "answer": 0,
@@ -126,23 +126,23 @@
       },
       "options": [
         {
-          "en": "Sandstorm",
-          "zh": "Sandstorm（沙暴）"
+          "en": "Frostfur",
+          "zh": "Frostfur（霜毛）"
         },
         {
           "en": "Spottedleaf",
           "zh": "Spottedleaf（斑叶）"
         },
         {
-          "en": "Cinderpelt",
-          "zh": "Cinderpelt（炭毛）"
+          "en": "Sandstorm",
+          "zh": "Sandstorm（沙暴）"
         },
         {
-          "en": "Frostfur",
-          "zh": "Frostfur（霜毛）"
+          "en": "Cinderpelt",
+          "zh": "Cinderpelt（炭毛）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Sandstorm and Fireheart's bond deepens across these books; she becomes his mate and close partner.",
         "zh": "沙暴与火星的感情在几本书中逐渐加深，后来成了他的伴侣。"
@@ -159,16 +159,16 @@
           "zh": "风暴中的一道闪电击中"
         },
         {
-          "en": "Twolegs on purpose",
-          "zh": "两脚兽故意纵火"
-        },
-        {
-          "en": "Tigerstar's trap",
-          "zh": "虎星的陷阱"
+          "en": "Twolegs on purpose according to some versions of the story",
+          "zh": "两脚兽故意纵火（按书中另一种说法）"
         },
         {
           "en": "A volcano",
           "zh": "火山"
+        },
+        {
+          "en": "Tigerstar's trap",
+          "zh": "虎星的陷阱"
         }
       ],
       "answer": 0,
@@ -184,23 +184,23 @@
       },
       "options": [
         {
-          "en": "A flood",
-          "zh": "一场洪水"
-        },
-        {
           "en": "A blizzard",
           "zh": "一场暴风雪"
+        },
+        {
+          "en": "A drought",
+          "zh": "一场旱灾"
         },
         {
           "en": "Another fire",
           "zh": "又一场大火"
         },
         {
-          "en": "A drought",
-          "zh": "一场旱灾"
+          "en": "A flood",
+          "zh": "一场洪水"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Heavy rain after the fire swells the river and floods the low parts of the forest.",
         "zh": "大火过后暴雨倾盆，河水上涨，淹没了森林低洼处。"
@@ -213,23 +213,23 @@
       },
       "options": [
         {
-          "en": "ShadowClan",
-          "zh": "ShadowClan（影族）"
-        },
-        {
           "en": "ThunderClan",
           "zh": "ThunderClan（雷族）"
         },
         {
-          "en": "RiverClan",
-          "zh": "RiverClan（河族）"
+          "en": "ShadowClan",
+          "zh": "ShadowClan（影族）"
         },
         {
           "en": "WindClan",
           "zh": "WindClan（风族）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "RiverClan（河族）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Tigerstar rules ShadowClan and begins plotting to dominate the other three Clans.",
         "zh": "虎星统治着影族，并开始图谋吞并其他三个族群。"
@@ -242,23 +242,23 @@
       },
       "options": [
         {
-          "en": "A pack of dogs",
-          "zh": "一群狗"
+          "en": "Twolegs",
+          "zh": "两脚兽"
         },
         {
-          "en": "A fox",
-          "zh": "一只狐狸"
+          "en": "A pack of dogs",
+          "zh": "一群狗"
         },
         {
           "en": "BloodClan",
           "zh": "BloodClan（血族）"
         },
         {
-          "en": "Twolegs",
-          "zh": "两脚兽"
+          "en": "A fox",
+          "zh": "一只狐狸"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Tigerstar begins gathering a pack of dogs to use against ThunderClan — the danger fully erupts in the next book.",
         "zh": "虎星开始纠集一群狗来对付雷族——危机在下一本书中全面爆发。"
@@ -271,23 +271,23 @@
       },
       "options": [
         {
-          "en": "She distrusts him and questions his loyalty",
-          "zh": "她不信任他，质疑他的忠诚"
+          "en": "She ignores him",
+          "zh": "她无视他"
         },
         {
           "en": "She promotes him",
           "zh": "她提拔了他"
         },
         {
-          "en": "She makes him leader",
-          "zh": "她让他当族长"
+          "en": "She makes him leader according to some versions of the story",
+          "zh": "她让他当族长（按书中另一种说法）"
         },
         {
-          "en": "She ignores him",
-          "zh": "她无视他"
+          "en": "She distrusts him and questions his loyalty",
+          "zh": "她不信任他，质疑他的忠诚"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Convinced the Clan has betrayed her, Bluestar turns on even Fireheart, the cat most loyal to her.",
         "zh": "蓝星认定族群背叛了自己，连最忠诚的火星也遭到了她的猜忌。"

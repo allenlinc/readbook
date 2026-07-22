@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "She won a major tennis championship. according to some versions of the story",
+          "zh": "她赢得了一项大型网球锦标赛。（按书中另一种说法）"
+        },
+        {
           "en": "She became the first American woman in space.",
           "zh": "她成为第一位进入太空的美国女性。"
         },
         {
-          "en": "She won a major tennis championship.",
-          "zh": "她赢得了一项大型网球锦标赛。"
+          "en": "She became the youngest NASA pilot.",
+          "zh": "她成为最年轻的NASA飞行员。"
         },
         {
           "en": "She wrote her first science book.",
           "zh": "她写了第一本科普书。"
-        },
-        {
-          "en": "She became the youngest NASA pilot.",
-          "zh": "她成为最年轻的NASA飞行员。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Challenger launched on June 18, 1983, and Sally was the first American woman in space.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "26 according to some versions of the story",
+          "zh": "26岁（按书中另一种说法）"
+        },
+        {
           "en": "32",
           "zh": "32岁"
         },
         {
-          "en": "26",
-          "zh": "26岁"
+          "en": "51",
+          "zh": "51岁"
         },
         {
           "en": "45",
           "zh": "45岁"
-        },
-        {
-          "en": "51",
-          "zh": "51岁"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Introduction states she was the youngest American astronaut, male or female, at age 32.",
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "Flight engineer",
-          "zh": "飞行工程师"
-        },
-        {
           "en": "Pilot",
           "zh": "飞行员"
         },
@@ -85,11 +81,15 @@
           "zh": "小学老师"
         },
         {
+          "en": "Flight engineer",
+          "zh": "飞行工程师"
+        },
+        {
           "en": "News reporter",
           "zh": "新闻记者"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'Sally was the flight engineer on board' and as flight engineer she used the robot arm to pick up satellites.",
@@ -107,16 +107,16 @@
           "zh": "这样食物在失重状态下就不会飘走。"
         },
         {
-          "en": "Because sticky food tastes better in space.",
-          "zh": "因为在太空中黏的食物更好吃。"
-        },
-        {
           "en": "To make it easier to cook.",
           "zh": "为了让它更容易烹制。"
         },
         {
           "en": "Because fresh food was not available.",
           "zh": "因为没有新鲜食物可用。"
+        },
+        {
+          "en": "Because sticky food tastes better in space. according to some versions of the story",
+          "zh": "因为在太空中黏的食物更好吃。（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Very interested in",
-          "zh": "对……非常感兴趣"
+          "en": "Afraid of",
+          "zh": "害怕"
+        },
+        {
+          "en": "Confused by according to some versions of the story",
+          "zh": "对……感到困惑（按书中另一种说法）"
         },
         {
           "en": "Bored by",
           "zh": "对……感到无聊"
         },
         {
-          "en": "Afraid of",
-          "zh": "害怕"
-        },
-        {
-          "en": "Confused by",
-          "zh": "对……感到困惑"
+          "en": "Very interested in",
+          "zh": "对……非常感兴趣"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says the planets, stars, and galaxies 'always fascinated Sally,' meaning they greatly interested her from a young age.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Earth's gravity and its high speed keep it in orbit.",
-          "zh": "地球的引力和它的高速使它保持在轨道上。"
-        },
-        {
-          "en": "The rocket boosters stay attached.",
-          "zh": "火箭助推器一直连接着。"
-        },
-        {
           "en": "The robot arm holds it in place.",
           "zh": "机械臂把它固定住。"
         },
         {
+          "en": "Earth's gravity and its high speed keep it in orbit.",
+          "zh": "地球的引力和它的高速使它保持在轨道上。"
+        },
+        {
           "en": "It is pulled by the Moon.",
           "zh": "它被月球拉着。"
+        },
+        {
+          "en": "The rocket boosters stay attached. according to some versions of the story",
+          "zh": "火箭助推器一直连接着。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains the shuttle circled Earth 'because of the Earth's gravity' and its speed was 'just fast enough to keep it from falling back to Earth.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "How humans and living things are changing the planet.",
-          "zh": "人类和其他生物如何改变地球。"
-        },
-        {
           "en": "The names of new stars.",
           "zh": "新恒星的名字。"
         },
         {
-          "en": "How to build better rockets.",
-          "zh": "如何建造更好的火箭。"
-        },
-        {
           "en": "The price of satellites.",
           "zh": "卫星的价格。"
+        },
+        {
+          "en": "How humans and living things are changing the planet.",
+          "zh": "人类和其他生物如何改变地球。"
+        },
+        {
+          "en": "How to build better rockets. according to some versions of the story",
+          "zh": "如何建造更好的火箭。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says scientists use the photos to study how living things change the planet and to learn about the layers of air around Earth.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "To show that dreams can come true with courage and hard work.",
-          "zh": "为了说明梦想可以通过勇气和努力成真。"
-        },
-        {
-          "en": "To teach readers how to fly a plane.",
-          "zh": "为了教读者如何驾驶飞机。"
-        },
-        {
           "en": "To complain about NASA's mistakes.",
           "zh": "为了抱怨NASA的错误。"
         },
         {
+          "en": "To teach readers how to fly a plane. according to some versions of the story",
+          "zh": "为了教读者如何驾驶飞机。（按书中另一种说法）"
+        },
+        {
           "en": "To describe how to cook in space.",
           "zh": "为了描述如何在太空中做饭。"
+        },
+        {
+          "en": "To show that dreams can come true with courage and hard work.",
+          "zh": "为了说明梦想可以通过勇气和努力成真。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The final page says Sally 'showed us that dreams can come true with courage and hard work,' stating the author's purpose.",
@@ -257,16 +257,16 @@
           "zh": "通过讲述她从事科学工作并激励儿童。"
         },
         {
-          "en": "By saying she was the best tennis player.",
-          "zh": "通过说她是最好的网球选手。"
-        },
-        {
-          "en": "By listing all the countries she visited.",
-          "zh": "通过列出她访问过的所有国家。"
+          "en": "By listing all the countries she visited. according to some versions of the story",
+          "zh": "通过列出她访问过的所有国家。（按书中另一种说法）"
         },
         {
           "en": "By describing her sister Karen.",
           "zh": "通过描写她的妹妹卡伦。"
+        },
+        {
+          "en": "By saying she was the best tennis player.",
+          "zh": "通过说她是最好的网球选手。"
         }
       ],
       "answer": 0,
@@ -287,16 +287,16 @@
           "zh": "它在发射后仅一分多钟就爆炸了。"
         },
         {
-          "en": "It landed safely on the Moon.",
-          "zh": "它安全降落在月球上。"
+          "en": "It returned after six days in space. according to some versions of the story",
+          "zh": "它在太空六天后返回。（按书中另一种说法）"
         },
         {
           "en": "It broke the speed record.",
           "zh": "它打破了速度纪录。"
         },
         {
-          "en": "It returned after six days in space.",
-          "zh": "它在太空六天后返回。"
+          "en": "It landed safely on the Moon.",
+          "zh": "它安全降落在月球上。"
         }
       ],
       "answer": 0,

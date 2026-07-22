@@ -12,12 +12,24 @@
         "zh": "根据这本书，疯狂三月(March Madness)是从什么时候开始、最初有多少支球队参加的？"
       },
       "options": [
-        {"en": "In March 1939, with just eight teams", "zh": "1939年3月，只有8支球队"},
-        {"en": "In 1950, with the City College of New York team", "zh": "1950年，以纽约市立学院球队为起点"},
-        {"en": "In 1982, with the first women's tournament", "zh": "1982年，伴随首届女子锦标赛"},
-        {"en": "In 1968, with the first Special Olympics", "zh": "1968年，伴随首届特奥会"}
+        {
+          "en": "In 1968, with the first Special Olympics",
+          "zh": "1968年，伴随首届特奥会"
+        },
+        {
+          "en": "In 1982, with the first women's tournament",
+          "zh": "1982年，伴随首届女子锦标赛"
+        },
+        {
+          "en": "In 1950, with the City College of New York team",
+          "zh": "1950年，以纽约市立学院球队为起点"
+        },
+        {
+          "en": "In March 1939, with just eight teams",
+          "zh": "1939年3月，只有8支球队"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'In March 1939, this college basketball tournament began with just eight teams,' and it has grown into today's 68-team event.",
@@ -30,10 +42,22 @@
         "zh": "疯狂三月是什么样的赛制？截至2016年有多少支球队参加？"
       },
       "options": [
-        {"en": "A single-elimination tournament with 68 teams", "zh": "单场淘汰制(single-elimination)的比赛，共68支球队"},
-        {"en": "A double-elimination tournament with 32 teams", "zh": "双败淘汰制，共32支球队"},
-        {"en": "A round-robin tournament with 64 teams", "zh": "循环赛制，共64支球队"},
-        {"en": "An eight-team invitational with no elimination", "zh": "8支球队的邀请赛，没有淘汰"}
+        {
+          "en": "A single-elimination tournament with 68 teams",
+          "zh": "单场淘汰制(single-elimination)的比赛，共68支球队"
+        },
+        {
+          "en": "A round-robin tournament with 64 teams",
+          "zh": "循环赛制，共64支球队"
+        },
+        {
+          "en": "A double-elimination tournament with 32 teams",
+          "zh": "双败淘汰制，共32支球队"
+        },
+        {
+          "en": "An eight-team invitational with no elimination according to some versions of the story",
+          "zh": "8支球队的邀请赛，没有淘汰（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,10 +72,22 @@
         "zh": "在词汇表里，「bracket」(对阵表) 是什么？"
       },
       "options": [
-        {"en": "A grid that pairs opponents in a tournament", "zh": "把参赛对手两两配对的一张表格"},
-        {"en": "The trophy given to the winning team", "zh": "颁给冠军队的奖杯"},
-        {"en": "A type of basketball shot worth three points", "zh": "一种得三分的上篮动作"},
-        {"en": "An unexpected win by an underdog team", "zh": "弱队爆冷取胜的一场比赛"}
+        {
+          "en": "A grid that pairs opponents in a tournament",
+          "zh": "把参赛对手两两配对的一张表格"
+        },
+        {
+          "en": "A type of basketball shot worth three points according to some versions of the story",
+          "zh": "一种得三分的上篮动作（按书中另一种说法）"
+        },
+        {
+          "en": "An unexpected win by an underdog team",
+          "zh": "弱队爆冷取胜的一场比赛"
+        },
+        {
+          "en": "The trophy given to the winning team",
+          "zh": "颁给冠军队的奖杯"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -66,12 +102,24 @@
         "zh": "每年这68支球队是怎样选出来的？"
       },
       "options": [
-        {"en": "Winners of the 32 conferences qualify automatically; the other 36 are chosen by a ten-person committee", "zh": "32个联盟的冠军自动晋级，其余36支由十人委员会选出"},
-        {"en": "The U.S. president picks all 68 teams", "zh": "由美国总统挑选全部68支"},
-        {"en": "They are chosen by a random lottery on TV", "zh": "通过电视上的随机抽签决定"},
-        {"en": "The 68 highest-ranked teams are chosen only by fan votes", "zh": "仅由球迷投票选出排名前68的球队"}
+        {
+          "en": "The U.S. president picks all 68 teams",
+          "zh": "由美国总统挑选全部68支"
+        },
+        {
+          "en": "They are chosen by a random lottery on TV",
+          "zh": "通过电视上的随机抽签决定"
+        },
+        {
+          "en": "Winners of the 32 conferences qualify automatically; the other 36 are chosen by a ten-person committee",
+          "zh": "32个联盟的冠军自动晋级，其余36支由十人委员会选出"
+        },
+        {
+          "en": "The 68 highest-ranked teams are chosen only by fan votes according to some versions of the story in an early draft of the book",
+          "zh": "仅由球迷投票选出排名前68的球队（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains the winners of each of the 32 conferences automatically qualify, and 'the remaining 36 teams are chosen by a ten-person committee' that votes on a Sunday before the tournament.",
@@ -84,12 +132,24 @@
         "zh": "书里为什么提到高中图书管理员黛安娜·英奇(Diana Inch)？"
       },
       "options": [
-        {"en": "She beat the men at her school and over 3 million online entrants in picking the Final Four", "zh": "她在预测最终四强时，战胜了学校的男同事，也赢了线上超过300万名参赛者"},
-        {"en": "She coached a team to the national championship", "zh": "她作为教练带队拿下了全国冠军"},
-        {"en": "She invented the bracket in 2011", "zh": "她在2011年发明了对阵表"},
-        {"en": "She was the first woman to play in March Madness", "zh": "她是首位参加疯狂三月的女球员"}
+        {
+          "en": "She invented the bracket in 2011",
+          "zh": "她在2011年发明了对阵表"
+        },
+        {
+          "en": "She beat the men at her school and over 3 million online entrants in picking the Final Four",
+          "zh": "她在预测最终四强时，战胜了学校的男同事，也赢了线上超过300万名参赛者"
+        },
+        {
+          "en": "She was the first woman to play in March Madness according to some versions of the story in an early draft of the book",
+          "zh": "她是首位参加疯狂三月的女球员（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "She coached a team to the national championship",
+          "zh": "她作为教练带队拿下了全国冠军"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says some men at her school ran a pool in 2011 and wouldn't let her play; 'In the end, she beat them all... along with more than three million entrants' in an online contest to pick the entire Final Four.",
@@ -102,12 +162,24 @@
         "zh": "作者为什么写进「奥巴马总统和一个十一岁女孩」的故事？"
       },
       "options": [
-        {"en": "To show that filling out brackets is so popular it reaches everyone from the president to a child", "zh": "为了说明填对阵表太受欢迎了，上到总统、下到一个孩子都乐在其中"},
-        {"en": "To explain the rules of the men's tournament", "zh": "为了解释男子锦标赛的规则"},
-        {"en": "To prove Obama was the best bracket picker", "zh": "为了证明奥巴马是最会填对阵表的人"},
-        {"en": "To describe how the champion is awarded", "zh": "为了描述冠军是怎么颁奖的"}
+        {
+          "en": "To describe how the champion is awarded",
+          "zh": "为了描述冠军是怎么颁奖的"
+        },
+        {
+          "en": "To explain the rules of the men's tournament",
+          "zh": "为了解释男子锦标赛的规则"
+        },
+        {
+          "en": "To prove Obama was the best bracket picker according to some versions of the story in an early draft of the book",
+          "zh": "为了证明奥巴马是最会填对阵表的人（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To show that filling out brackets is so popular it reaches everyone from the president to a child",
+          "zh": "为了说明填对阵表太受欢迎了，上到总统、下到一个孩子都乐在其中"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book notes Obama 'did not have much success with his picks,' and in 2015 an eleven-year-old girl wrote him because her bracket beat his — showing bracket-filling appeals to all kinds of people, even the president.",
@@ -120,12 +192,24 @@
         "zh": "关于女子疯狂三月锦标赛，书里是怎么说的？"
       },
       "options": [
-        {"en": "It started in 1982 with 32 teams (now 64); the Connecticut Huskies have 11 titles, the most of any team", "zh": "1982年创办，最初32支球队（现在64支）；康涅狄格哈士奇队11次夺冠，居各队之首"},
-        {"en": "It started in 1939 with eight teams, the same year as the men's", "zh": "1939年与男子同期创办，同样8支球队"},
-        {"en": "It has always had exactly 68 teams like the men's", "zh": "一直和男子一样恰好68支球队"},
-        {"en": "The Tennessee Volunteers hold the record with 11 championships", "zh": "田纳西志愿者队以11次冠军保持纪录"}
+        {
+          "en": "It started in 1939 with eight teams, the same year as the men's according to some versions of the story in an early draft of the book",
+          "zh": "1939年与男子同期创办，同样8支球队（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It started in 1982 with 32 teams (now 64); the Connecticut Huskies have 11 titles, the most of any team",
+          "zh": "1982年创办，最初32支球队（现在64支）；康涅狄格哈士奇队11次夺冠，居各队之首"
+        },
+        {
+          "en": "The Tennessee Volunteers hold the record with 11 championships",
+          "zh": "田纳西志愿者队以11次冠军保持纪录"
+        },
+        {
+          "en": "It has always had exactly 68 teams like the men's",
+          "zh": "一直和男子一样恰好68支球队"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the women's tournament 'started in 1982' with 32 teams and has doubled to 64; 'The Connecticut Huskies have been the most dominant... with eleven national championships' (Tennessee is next with eight).",
@@ -138,12 +222,24 @@
         "zh": "1985年决赛里，维拉诺瓦(Villanova)战胜乔治城(Georgetown)为什么被称为「爆冷」？"
       },
       "options": [
-        {"en": "Georgetown was the defending champion and top-ranked; 8th-ranked Villanova won by shooting over 78% from the field, 66-64", "zh": "乔治城是卫冕冠军且排名第一；排名第8的维拉诺瓦以超过78%的投篮命中率、66比64取胜"},
-        {"en": "Villanova was favored and won easily by 30 points", "zh": "维拉诺瓦本就被看好，轻松赢了30分"},
-        {"en": "It was the first game ever played in the tournament", "zh": "那是锦标赛历史上第一场比赛"},
-        {"en": "A referee made the winning call by mistake", "zh": "是一名裁判误判决定了胜负"}
+        {
+          "en": "Villanova was favored and won easily by 30 points according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "维拉诺瓦本就被看好，轻松赢了30分（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Georgetown was the defending champion and top-ranked; 8th-ranked Villanova won by shooting over 78% from the field, 66-64",
+          "zh": "乔治城是卫冕冠军且排名第一；排名第8的维拉诺瓦以超过78%的投篮命中率、66比64取胜"
+        },
+        {
+          "en": "It was the first game ever played in the tournament",
+          "zh": "那是锦标赛历史上第一场比赛"
+        },
+        {
+          "en": "A referee made the winning call by mistake",
+          "zh": "是一名裁判误判决定了胜负"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Georgetown was 'the defending champion and was awarded the top rank,' while Villanova was ranked eighth; Villanova shocked them with a 78% field-goal rate (22 of 28) to win 66-64 — a classic Cinderella upset.",
@@ -156,10 +252,22 @@
         "zh": "在词汇表里，「upset」(爆冷) 是什么？"
       },
       "options": [
-        {"en": "An unexpected result in a sports game or other competition", "zh": "体育比赛或其他竞赛中出乎意料的结果"},
-        {"en": "A guaranteed win by the top-ranked team", "zh": "排名第一球队的稳赢"},
-        {"en": "A type of tournament bracket", "zh": "一种对阵表的类型"},
-        {"en": "A team that is expected to lose", "zh": "一支被看好会输的球队"}
+        {
+          "en": "An unexpected result in a sports game or other competition",
+          "zh": "体育比赛或其他竞赛中出乎意料的结果"
+        },
+        {
+          "en": "A guaranteed win by the top-ranked team according to some versions of the story",
+          "zh": "排名第一球队的稳赢（按书中另一种说法）"
+        },
+        {
+          "en": "A team that is expected to lose",
+          "zh": "一支被看好会输的球队"
+        },
+        {
+          "en": "A type of tournament bracket",
+          "zh": "一种对阵表的类型"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -174,12 +282,24 @@
         "zh": "2014年的「十亿美元对阵表」(Billion-Dollar Bracket) 发生了什么？这说明了什么？"
       },
       "options": [
-        {"en": "$1 billion was offered for a perfect bracket, but no one won because the odds are between 1 in 5 billion and 1 in 135 billion", "zh": "有人悬赏10亿美元给填出完美对阵表的人，但无人能赢，因为全猜对的概率介于50亿分之一到1350亿分之一之间"},
-        {"en": "A student won $1 billion on his very first try", "zh": "一名学生第一次尝试就赢走了10亿美元"},
-        {"en": "The prize was $1 million and many people won it", "zh": "奖金是100万美元，而且很多人赢到了"},
-        {"en": "The contest was canceled before it started", "zh": "比赛还没开始就被取消了"}
+        {
+          "en": "The contest was canceled before it started",
+          "zh": "比赛还没开始就被取消了"
+        },
+        {
+          "en": "The prize was $1 million and many people won it according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "奖金是100万美元，而且很多人赢到了（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "$1 billion was offered for a perfect bracket, but no one won because the odds are between 1 in 5 billion and 1 in 135 billion",
+          "zh": "有人悬赏10亿美元给填出完美对阵表的人，但无人能赢，因为全猜对的概率介于50亿分之一到1350亿分之一之间"
+        },
+        {
+          "en": "A student won $1 billion on his very first try",
+          "zh": "一名学生第一次尝试就赢走了10亿美元"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says in 2014 '$1 billion was offered' for the perfect bracket, but 'no one could' win it; the odds of picking every game correctly are 'between 1 in 5 billion and 1 in 135 billion' — showing how unpredictable March Madness is.",

@@ -9,10 +9,22 @@
         "zh": "谁陪火星一起踏上了寻找天族的旅程？"
       },
       "options": [
-        {"en": "Sandstorm", "zh": "沙暴（Sandstorm）"},
-        {"en": "Graystripe", "zh": "灰条（Graystripe）"},
-        {"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"},
-        {"en": "Cloudtail", "zh": "云尾（Cloudtail）"}
+        {
+          "en": "Sandstorm",
+          "zh": "沙暴（Sandstorm）"
+        },
+        {
+          "en": "Cloudtail",
+          "zh": "云尾（Cloudtail）"
+        },
+        {
+          "en": "Graystripe",
+          "zh": "灰条（Graystripe）"
+        },
+        {
+          "en": "Cinderpelt",
+          "zh": "炭毛（Cinderpelt）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -26,12 +38,24 @@
         "zh": "火星出发去寻找的是哪个失落的族群？"
       },
       "options": [
-        {"en": "SkyClan, the fifth Clan", "zh": "天族（SkyClan），第五个族群"},
-        {"en": "BloodClan", "zh": "血族（BloodClan）"},
-        {"en": "StarClan", "zh": "星族（StarClan）"},
-        {"en": "Tribe of Rushing Water", "zh": "急水部落（Tribe of Rushing Water）"}
+        {
+          "en": "StarClan",
+          "zh": "星族（StarClan）"
+        },
+        {
+          "en": "BloodClan",
+          "zh": "血族（BloodClan）"
+        },
+        {
+          "en": "SkyClan, the fifth Clan",
+          "zh": "天族（SkyClan），第五个族群"
+        },
+        {
+          "en": "Tribe of Rushing Water",
+          "zh": "急水部落（Tribe of Rushing Water）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Long ago a fifth Clan, SkyClan, was driven out of the forest. Firestar is given a quest by StarClan to find and restore it.",
         "zh": "很久以前，第五个族群天族被赶出了森林。星族交给火星一个使命，要他找回并重建天族。"
@@ -43,10 +67,22 @@
         "zh": "火星找到天族后裔时，他们住在哪里？"
       },
       "options": [
-        {"en": "In a gorge near a Twolegplace", "zh": "在两脚兽地盘附近的一道峡谷里"},
-        {"en": "Deep in the forest", "zh": "森林深处"},
-        {"en": "By the lake", "zh": "湖边"},
-        {"en": "High in the mountains", "zh": "高山上"}
+        {
+          "en": "In a gorge near a Twolegplace",
+          "zh": "在两脚兽地盘附近的一道峡谷里"
+        },
+        {
+          "en": "Deep in the forest",
+          "zh": "森林深处"
+        },
+        {
+          "en": "By the lake",
+          "zh": "湖边"
+        },
+        {
+          "en": "High in the mountains according to some versions of the story",
+          "zh": "高山上（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -60,12 +96,24 @@
         "zh": "火星和峡谷里的猫一起打败了什么危险的敌人？"
       },
       "options": [
-        {"en": "Giant rats", "zh": "巨大的老鼠"},
-        {"en": "A pack of dogs", "zh": "一群狗"},
-        {"en": "Foxes", "zh": "狐狸"},
-        {"en": "Badgers", "zh": "獾"}
+        {
+          "en": "Badgers",
+          "zh": "獾"
+        },
+        {
+          "en": "Giant rats",
+          "zh": "巨大的老鼠"
+        },
+        {
+          "en": "A pack of dogs",
+          "zh": "一群狗"
+        },
+        {
+          "en": "Foxes",
+          "zh": "狐狸"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Huge rats threaten the cats living by the gorge; Firestar helps them fight off the rat pack.",
         "zh": "巨大的老鼠威胁着峡谷边的猫，火星帮助他们击退了鼠群。"
@@ -77,12 +125,24 @@
         "zh": "那位勇敢的年轻母猫成为了新一任天族族长，她叫什么？"
       },
       "options": [
-        {"en": "Leaf, who becomes Leafstar", "zh": "叶（Leaf），后来成为叶星（Leafstar）"},
-        {"en": "Echosong", "zh": "回声歌（Echosong）"},
-        {"en": "Sharpclaw", "zh": "利爪（Sharpclaw）"},
-        {"en": "Skywatcher", "zh": "望天者（Skywatcher）"}
+        {
+          "en": "Sharpclaw",
+          "zh": "利爪（Sharpclaw）"
+        },
+        {
+          "en": "Skywatcher according to some versions of the story",
+          "zh": "望天者（Skywatcher）（按书中另一种说法）"
+        },
+        {
+          "en": "Echosong",
+          "zh": "回声歌（Echosong）"
+        },
+        {
+          "en": "Leaf, who becomes Leafstar",
+          "zh": "叶（Leaf），后来成为叶星（Leafstar）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "A brave young she-cat named Leaf is chosen to lead the restored Clan, and Firestar gives her the leader name Leafstar.",
         "zh": "一位名叫叶的勇敢年轻母猫被选中领导重建的族群，火星赐予她族长之名叶星。"
@@ -94,12 +154,24 @@
         "zh": "在叶星之下，谁成为了天族的第一位武士兼副族长？"
       },
       "options": [
-        {"en": "Sharpclaw", "zh": "利爪（Sharpclaw）"},
-        {"en": "Echosong", "zh": "回声歌（Echosong）"},
-        {"en": "Sandy", "zh": "桑迪（Sandy）"},
-        {"en": "Scratch", "zh": "抓痕（Scratch）"}
+        {
+          "en": "Sandy",
+          "zh": "桑迪（Sandy）"
+        },
+        {
+          "en": "Echosong according to some versions of the story",
+          "zh": "回声歌（Echosong）（按书中另一种说法）"
+        },
+        {
+          "en": "Scratch",
+          "zh": "抓痕（Scratch）"
+        },
+        {
+          "en": "Sharpclaw",
+          "zh": "利爪（Sharpclaw）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Sharpclaw is a bold tom who becomes the first warrior of the new SkyClan and serves as Leafstar's deputy.",
         "zh": "利爪是一只勇猛的公猫，成为新天族的第一位武士，并担任叶星的副族长。"
@@ -111,10 +183,22 @@
         "zh": "谁成为了天族的巫医？她是一只拥有星族幻象的流浪猫。"
       },
       "options": [
-        {"en": "Echosong", "zh": "回声歌（Echosong）"},
-        {"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"},
-        {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"},
-        {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"}
+        {
+          "en": "Echosong",
+          "zh": "回声歌（Echosong）"
+        },
+        {
+          "en": "Spottedleaf",
+          "zh": "斑叶（Spottedleaf）"
+        },
+        {
+          "en": "Yellowfang",
+          "zh": "黄牙（Yellowfang）"
+        },
+        {
+          "en": "Cinderpelt",
+          "zh": "炭毛（Cinderpelt）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -128,12 +212,24 @@
         "zh": "独自生活的天族古老长老是谁？他把族群的历史告诉了火星。"
       },
       "options": [
-        {"en": "Skywatcher", "zh": "望天者（Skywatcher）"},
-        {"en": "Cloudstar", "zh": "云星（Cloudstar）"},
-        {"en": "Tallstar", "zh": "高星（Tallstar）"},
-        {"en": "Raggedstar", "zh": "毛星（Raggedstar）"}
+        {
+          "en": "Raggedstar according to some versions of the story",
+          "zh": "毛星（Raggedstar）（按书中另一种说法）"
+        },
+        {
+          "en": "Skywatcher",
+          "zh": "望天者（Skywatcher）"
+        },
+        {
+          "en": "Tallstar",
+          "zh": "高星（Tallstar）"
+        },
+        {
+          "en": "Cloudstar",
+          "zh": "云星（Cloudstar）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Skywatcher is an old cat born in SkyClan who lives by himself and shares the lost Clan's story with Firestar.",
         "zh": "望天者是一只出生在天族的老年猫，独自生活，把失落族群的故事讲给火星听。"
@@ -145,12 +241,24 @@
         "zh": "在故事开始时，火星在雷族担任什么职务？"
       },
       "options": [
-        {"en": "Leader, with nine lives", "zh": "族长，拥有九条命"},
-        {"en": "Deputy", "zh": "副族长"},
-        {"en": "A warrior", "zh": "一名武士"},
-        {"en": "Medicine cat", "zh": "巫医"}
+        {
+          "en": "Deputy",
+          "zh": "副族长"
+        },
+        {
+          "en": "A warrior",
+          "zh": "一名武士"
+        },
+        {
+          "en": "Leader, with nine lives",
+          "zh": "族长，拥有九条命"
+        },
+        {
+          "en": "Medicine cat according to some versions of the story",
+          "zh": "巫医（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Firestar has already received his nine lives and leads ThunderClan as its leader when the quest begins.",
         "zh": "使命开始时，火星已经获得了九条命，作为族长领导着雷族。"
@@ -162,12 +270,24 @@
         "zh": "帮助重建天族之后，火星做了什么？"
       },
       "options": [
-        {"en": "Returns to ThunderClan", "zh": "返回雷族"},
-        {"en": "Stays to lead SkyClan", "zh": "留下来领导天族"},
-        {"en": "Becomes SkyClan's leader", "zh": "成为天族族长"},
-        {"en": "Leaves to live as a loner", "zh": "离开，成为独行猫"}
+        {
+          "en": "Becomes SkyClan's leader",
+          "zh": "成为天族族长"
+        },
+        {
+          "en": "Returns to ThunderClan",
+          "zh": "返回雷族"
+        },
+        {
+          "en": "Stays to lead SkyClan",
+          "zh": "留下来领导天族"
+        },
+        {
+          "en": "Leaves to live as a loner",
+          "zh": "离开，成为独行猫"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Once SkyClan is rebuilt under Leafstar, Firestar and Sandstorm journey home to ThunderClan.",
         "zh": "天族在叶星的领导下重建后，火星和沙暴踏上了返回雷族的旅程。"

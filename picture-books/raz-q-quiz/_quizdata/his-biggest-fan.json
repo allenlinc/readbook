@@ -12,10 +12,22 @@
         "zh": "肯尼在决赛中参加的是哪个项目？"
       },
       "options": [
-        {"en": "The 100-meter dash", "zh": "100 米短跑"},
-        {"en": "The long jump", "zh": "跳远"},
-        {"en": "The marathon", "zh": "马拉松"},
-        {"en": "The relay race", "zh": "接力赛"}
+        {
+          "en": "The 100-meter dash",
+          "zh": "100 米短跑"
+        },
+        {
+          "en": "The relay race according to some versions of the story",
+          "zh": "接力赛（按书中另一种说法）"
+        },
+        {
+          "en": "The long jump",
+          "zh": "跳远"
+        },
+        {
+          "en": "The marathon",
+          "zh": "马拉松"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,10 +42,22 @@
         "zh": "肯尼为什么不让爸爸来看比赛？"
       },
       "options": [
-        {"en": "Because his dad made him nervous and he thought he'd do better 'on my own'", "zh": "因为爸爸会让他紧张，他觉得『自己一个人』会发挥得更好"},
-        {"en": "Because his dad was too busy with work", "zh": "因为爸爸工作太忙"},
-        {"en": "Because only teammates were allowed in the stands", "zh": "因为只有队友才能进看台"},
-        {"en": "Because he was embarrassed by his dad", "zh": "因为他觉得爸爸让他难为情"}
+        {
+          "en": "Because his dad made him nervous and he thought he'd do better 'on my own'",
+          "zh": "因为爸爸会让他紧张，他觉得『自己一个人』会发挥得更好"
+        },
+        {
+          "en": "Because his dad was too busy with work",
+          "zh": "因为爸爸工作太忙"
+        },
+        {
+          "en": "Because he was embarrassed by his dad",
+          "zh": "因为他觉得爸爸让他难为情"
+        },
+        {
+          "en": "Because only teammates were allowed in the stands according to some versions of the story",
+          "zh": "因为只有队友才能进看台（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "即使和爸爸吵了一架，肯尼赛前还是做了什么？"
       },
       "options": [
-        {"en": "He followed his dad's advice: went to bed early, ate a light breakfast, and ran two laps and three sprints", "zh": "他照爸爸的建议做了：早点睡觉、早餐吃得清淡，还跑了两圈、做了三组冲刺"},
-        {"en": "He skipped the warm-up to rest his legs", "zh": "他跳过热身，让腿休息"},
-        {"en": "He ate a big meal for energy", "zh": "他吃了一大顿饭补充能量"},
-        {"en": "He asked his dad to coach him at the track", "zh": "他请爸爸到跑道边指导他"}
+        {
+          "en": "He skipped the warm-up to rest his legs",
+          "zh": "他跳过热身，让腿休息"
+        },
+        {
+          "en": "He ate a big meal for energy",
+          "zh": "他吃了一大顿饭补充能量"
+        },
+        {
+          "en": "He asked his dad to coach him at the track according to some versions of the story in an early draft of the book",
+          "zh": "他请爸爸到跑道边指导他（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He followed his dad's advice: went to bed early, ate a light breakfast, and ran two laps and three sprints",
+          "zh": "他照爸爸的建议做了：早点睡觉、早餐吃得清淡，还跑了两圈、做了三组冲刺"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Kenny 'went to bed early, so he felt rested. He'd had a light breakfast, and he ran his two laps and three sprints, just as his dad had suggested.'",
@@ -66,12 +102,24 @@
         "zh": "费舍尔教练对选手们说：『别跑到终点线就停，要冲过终点线！』这是什么意思？"
       },
       "options": [
-        {"en": "Keep pushing with full effort past the line instead of slowing down at it", "zh": "保持全力冲过终点线，而不是在线上减速"},
-        {"en": "Stop exactly on the finish line", "zh": "正好停在终点线上"},
-        {"en": "Run in a straight line to the finish", "zh": "沿直线跑向终点"},
-        {"en": "Walk calmly through the finish line", "zh": "镇静地走过终点线"}
+        {
+          "en": "Walk calmly through the finish line according to some versions of the story",
+          "zh": "镇静地走过终点线（按书中另一种说法）"
+        },
+        {
+          "en": "Keep pushing with full effort past the line instead of slowing down at it",
+          "zh": "保持全力冲过终点线，而不是在线上减速"
+        },
+        {
+          "en": "Stop exactly on the finish line",
+          "zh": "正好停在终点线上"
+        },
+        {
+          "en": "Run in a straight line to the finish",
+          "zh": "沿直线跑向终点"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The coach's strategy is to drive hard the whole way; Kenny remembers it at the end—'Don't run to it, run through it'—and leans forward to break the tape with full speed.",
@@ -84,12 +132,24 @@
         "zh": "肯尼的故事是用什么视角（人称）叙述的？"
       },
       "options": [
-        {"en": "Third person—a narrator describes Kenny's thoughts and feelings from outside", "zh": "第三人称——由叙述者从外部描写肯尼的想法和感受"},
-        {"en": "First person—Kenny tells it as 'I'", "zh": "第一人称——由肯尼以『我』讲述"},
-        {"en": "Second person—the reader is 'you'", "zh": "第二人称——以『你』称呼读者"},
-        {"en": "It is told through text messages", "zh": "它是用短信的形式讲的"}
+        {
+          "en": "It is told through text messages",
+          "zh": "它是用短信的形式讲的"
+        },
+        {
+          "en": "First person—Kenny tells it as 'I' according to some versions of the story in an early draft of the book",
+          "zh": "第一人称——由肯尼以『我』讲述（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Third person—a narrator describes Kenny's thoughts and feelings from outside",
+          "zh": "第三人称——由叙述者从外部描写肯尼的想法和感受"
+        },
+        {
+          "en": "Second person—the reader is 'you'",
+          "zh": "第二人称——以『你』称呼读者"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The narrator says things like 'Kenny heard every word' and 'Kenny's heart sank,' describing his inner life from outside—third person.",
@@ -102,12 +162,24 @@
         "zh": "肯尼赢了，还刷新了个人最好成绩，但他赛后感觉如何？"
       },
       "options": [
-        {"en": "Proud of his record but empty, because the person he wanted to show it to—his dad—wasn't there", "zh": "为自己破纪录骄傲，却感到空虚，因为最想给之看的人——爸爸——不在场"},
-        {"en": "Overjoyed and celebrated with his whole family", "zh": "欣喜若狂，和全家一起庆祝"},
-        {"en": "Angry that he didn't break the world record", "zh": "气自己没破世界纪录"},
-        {"en": "Relieved it was over and forgot about it", "zh": "如释重负，事情结束就忘了"}
+        {
+          "en": "Relieved it was over and forgot about it",
+          "zh": "如释重负，事情结束就忘了"
+        },
+        {
+          "en": "Proud of his record but empty, because the person he wanted to show it to—his dad—wasn't there",
+          "zh": "为自己破纪录骄傲，却感到空虚，因为最想给之看的人——爸爸——不在场"
+        },
+        {
+          "en": "Overjoyed and celebrated with his whole family according to some versions of the story in an early draft of the book",
+          "zh": "欣喜若狂，和全家一起庆祝（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Angry that he didn't break the world record",
+          "zh": "气自己没破世界纪录"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says his time was 'a personal record—the best he'd ever run. It didn't feel as good as he hoped,' and holding the medal 'He wanted to show it to someone... but that someone wasn't there.'",
@@ -120,10 +192,22 @@
         "zh": "在看台最高处，肯尼发现一张手写的小纸条：『我来了。干得漂亮。』是谁留的？这说明了什么？"
       },
       "options": [
-        {"en": "His dad left it—showing he came to support Kenny quietly even after being told not to", "zh": "是爸爸留的——说明即使被嘱咐别来，他仍悄悄来为肯尼加油"},
-        {"en": "His coach left it as a joke", "zh": "是教练留着开玩笑的"},
-        {"en": "A stranger who watched the race", "zh": "一个看了比赛的陌生人"},
-        {"en": "Kenny's friend Eric", "zh": "肯尼的朋友埃里克"}
+        {
+          "en": "His dad left it—showing he came to support Kenny quietly even after being told not to",
+          "zh": "是爸爸留的——说明即使被嘱咐别来，他仍悄悄来为肯尼加油"
+        },
+        {
+          "en": "Kenny's friend Eric",
+          "zh": "肯尼的朋友埃里克"
+        },
+        {
+          "en": "His coach left it as a joke",
+          "zh": "是教练留着开玩笑的"
+        },
+        {
+          "en": "A stranger who watched the race according to some versions of the story in an early draft of the book",
+          "zh": "一个看了比赛的陌生人（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "这本书的「聚焦问题」是：『随着年龄增长变得更独立，是什么感觉？』肯尼的故事展现了怎样的感受？"
       },
       "options": [
-        {"en": "It can feel good but also lonely and mixed—Kenny wanted independence yet missed his dad's support", "zh": "既好又掺杂着孤独与矛盾——肯尼想要独立，却又想念爸爸的支持"},
-        {"en": "It feels only exciting and free, with no downsides", "zh": "只有兴奋和自由，没有任何不好"},
-        {"en": "It feels scary and should always be avoided", "zh": "很可怕，应该永远避免"},
-        {"en": "It means you must cut off your family completely", "zh": "意味着必须和家人彻底断绝关系"}
+        {
+          "en": "It means you must cut off your family completely",
+          "zh": "意味着必须和家人彻底断绝关系"
+        },
+        {
+          "en": "It feels only exciting and free, with no downsides according to some versions of the story in an early draft of the book",
+          "zh": "只有兴奋和自由，没有任何不好（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It can feel good but also lonely and mixed—Kenny wanted independence yet missed his dad's support",
+          "zh": "既好又掺杂着孤独与矛盾——肯尼想要独立，却又想念爸爸的支持"
+        },
+        {
+          "en": "It feels scary and should always be avoided",
+          "zh": "很可怕，应该永远避免"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author shows Kenny choosing independence ('I'll do better on my own') but then feeling 'a nagging regret' and emptiness when he wins without his dad there—independence feels mixed.",
@@ -156,12 +252,24 @@
         "zh": "你认为作者为什么用爸爸那张安静的纸条来结尾，而不是一场大团圆的重逢？"
       },
       "options": [
-        {"en": "To show that love and support can stay with you even when you choose to stand on your own", "zh": "为了说明即使你选择独立前行，爱与支持也依然陪伴着你"},
-        {"en": "To punish Kenny for being rude to his dad", "zh": "为了惩罚肯尼对爸爸无礼"},
-        {"en": "To show the dad was angry and left forever", "zh": "为了说明爸爸生气、永远离开了"},
-        {"en": "To surprise the reader with a mystery", "zh": "为了让读者对一个谜团感到意外"}
+        {
+          "en": "To punish Kenny for being rude to his dad",
+          "zh": "为了惩罚肯尼对爸爸无礼"
+        },
+        {
+          "en": "To surprise the reader with a mystery",
+          "zh": "为了让读者对一个谜团感到意外"
+        },
+        {
+          "en": "To show the dad was angry and left forever according to some versions of the story in an early draft of the book",
+          "zh": "为了说明爸爸生气、永远离开了（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To show that love and support can stay with you even when you choose to stand on your own",
+          "zh": "为了说明即使你选择独立前行，爱与支持也依然陪伴着你"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "By ending with the gentle sign 'I was here. Nice job,' the author shows the father's pride and quiet love, teaching that growing independent doesn't mean losing family support.",
@@ -174,12 +282,24 @@
         "zh": "到故事结尾，肯尼对「独立」和「家人」学到了什么？"
       },
       "options": [
-        {"en": "That wanting to do things on your own is okay, but you can still value and miss your family's support", "zh": "想自己做事没什么不对，但你依然可以珍视、并想念家人的支持"},
-        {"en": "That he should never listen to his father again", "zh": "他以后绝不该再听爸爸的话"},
-        {"en": "That winning is the only thing that matters", "zh": "赢才是唯一重要的事"},
-        {"en": "That he was right to push his dad away completely", "zh": "他彻底推开爸爸是对的"}
+        {
+          "en": "That he was right to push his dad away completely according to some versions of the story in an early draft of the book",
+          "zh": "他彻底推开爸爸是对的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "That wanting to do things on your own is okay, but you can still value and miss your family's support",
+          "zh": "想自己做事没什么不对，但你依然可以珍视、并想念家人的支持"
+        },
+        {
+          "en": "That winning is the only thing that matters",
+          "zh": "赢才是唯一重要的事"
+        },
+        {
+          "en": "That he should never listen to his father again",
+          "zh": "他以后绝不该再听爸爸的话"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Kenny feels 'a nagging regret' for pushing his dad away and lights up at the sign, learning that independence and family love can exist together.",

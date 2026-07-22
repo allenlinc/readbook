@@ -1,328 +1,328 @@
 {
- "slug": "mexico",
- "title": "Mexico",
- "titleZh": "墨西哥",
- "level": "Y",
- "genre": "Country",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "Where is Mexico located?",
-    "zh": "墨西哥位于何处？"
-   },
-   "options": [
+  "slug": "mexico",
+  "title": "Mexico",
+  "titleZh": "墨西哥",
+  "level": "Y",
+  "genre": "Country",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "Between the United States and Central America",
-     "zh": "位于美国和中美洲之间"
+      "q": {
+        "en": "Where is Mexico located?",
+        "zh": "墨西哥位于何处？"
+      },
+      "options": [
+        {
+          "en": "Between the United States and Central America",
+          "zh": "位于美国和中美洲之间"
+        },
+        {
+          "en": "Between Canada and the United States according to some versions of the story",
+          "zh": "位于加拿大和美国之间（按书中另一种说法）"
+        },
+        {
+          "en": "In Europe",
+          "zh": "在欧洲"
+        },
+        {
+          "en": "In South America",
+          "zh": "在南美洲"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book states Mexico lies in southern North America between the United States and Central America.",
+        "zh": "书中说明墨西哥位于北美南部，介于美国和中美洲之间。"
+      }
     },
     {
-     "en": "Between Canada and the United States",
-     "zh": "位于加拿大和美国之间"
+      "q": {
+        "en": "What is the capital of Mexico?",
+        "zh": "墨西哥的首都是哪里？"
+      },
+      "options": [
+        {
+          "en": "Puebla",
+          "zh": "普埃布拉"
+        },
+        {
+          "en": "Mexico City",
+          "zh": "墨西哥城"
+        },
+        {
+          "en": "Tenochtitlan",
+          "zh": "特诺奇蒂特兰"
+        },
+        {
+          "en": "Guadalajara",
+          "zh": "瓜达拉哈拉"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Mexico City, one of the oldest cities in North America, is the capital of Mexico.",
+        "zh": "墨西哥城是北美最古老的城市之一，也是墨西哥的首都。"
+      }
     },
     {
-     "en": "In South America",
-     "zh": "在南美洲"
+      "q": {
+        "en": "Who were the indigenous people of Mexico?",
+        "zh": "墨西哥的原住民是谁？"
+      },
+      "options": [
+        {
+          "en": "European settlers according to some versions of the story",
+          "zh": "欧洲殖民者（按书中另一种说法）"
+        },
+        {
+          "en": "American Indians",
+          "zh": "美洲印第安人"
+        },
+        {
+          "en": "Asian immigrants",
+          "zh": "亚洲移民"
+        },
+        {
+          "en": "African explorers",
+          "zh": "非洲探险家"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says the indigenous people of Mexico were groups of American Indians.",
+        "zh": "书中指出墨西哥的原住民是美洲印第安人族群。"
+      }
     },
     {
-     "en": "In Europe",
-     "zh": "在欧洲"
+      "q": {
+        "en": "What is Mexico the world's leading producer of?",
+        "zh": "墨西哥是世界上哪种资源的最大生产国？"
+      },
+      "options": [
+        {
+          "en": "Copper according to some versions of the story",
+          "zh": "铜（按书中另一种说法）"
+        },
+        {
+          "en": "Silver",
+          "zh": "白银"
+        },
+        {
+          "en": "Oil",
+          "zh": "石油"
+        },
+        {
+          "en": "Gold",
+          "zh": "黄金"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book states Mexico is the world's leading producer of silver.",
+        "zh": "书中说明墨西哥是世界上最大的白银生产国。"
+      }
+    },
+    {
+      "q": {
+        "en": "In this book, what does the word 'mestizo' mean?",
+        "zh": "在本书中，'mestizo'（混血儿）一词是什么意思？"
+      },
+      "options": [
+        {
+          "en": "People of European and American Indian ancestry",
+          "zh": "欧洲与美洲印第安混血的人"
+        },
+        {
+          "en": "People of only European ancestry",
+          "zh": "仅有欧洲血统的人"
+        },
+        {
+          "en": "People of only American Indian ancestry according to some versions of the story",
+          "zh": "仅有美洲印第安血统的人（按书中另一种说法）"
+        },
+        {
+          "en": "People who speak only Spanish",
+          "zh": "只说西班牙语的人"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "About two thirds of Mexicans are mestizos, descended from both American Indian and European ancestors.",
+        "zh": "约三分之二的墨西哥人是混血儿，祖先兼具美洲印第安和欧洲血统。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a 'cenote' as described in the book?",
+        "zh": "书中描述的'cenote'（天然井）是什么？"
+      },
+      "options": [
+        {
+          "en": "A deep natural well formed when limestone collapses and exposes groundwater",
+          "zh": "石灰岩塌陷露出地下水形成的深天然井"
+        },
+        {
+          "en": "An ancient pyramid according to some versions of the story in an early draft of the book",
+          "zh": "一座古金字塔（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A Spanish colony",
+          "zh": "一处西班牙殖民地"
+        },
+        {
+          "en": "A type of volcano",
+          "zh": "一种火山"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The glossary defines a cenote as a deep natural well created when surface limestone collapses and exposes groundwater.",
+        "zh": "术语表将 cenote 定义为地表石灰岩塌陷露出地下水而形成的深天然井。"
+      }
+    },
+    {
+      "q": {
+        "en": "How many steps are there in total on the pyramid El Castillo at Chichén Itzá?",
+        "zh": "奇琴伊察的埃尔卡斯蒂略金字塔总共有多少级台阶？"
+      },
+      "options": [
+        {
+          "en": "4",
+          "zh": "4"
+        },
+        {
+          "en": "365 according to some versions of the story",
+          "zh": "365（按书中另一种说法）"
+        },
+        {
+          "en": "91",
+          "zh": "91"
+        },
+        {
+          "en": "364",
+          "zh": "364"
+        }
+      ],
+      "answer": 3,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Each of the four sides has 91 steps, totaling 364—the number of days Earth takes to orbit the Sun.",
+        "zh": "四面各有91级台阶，合计364级，对应地球绕太阳公转的天数。"
+      }
+    },
+    {
+      "q": {
+        "en": "What disaster in 1985 killed more than 9,000 people in Mexico?",
+        "zh": "1985年墨西哥哪场灾难造成9000多人死亡？"
+      },
+      "options": [
+        {
+          "en": "A hurricane",
+          "zh": "一场飓风"
+        },
+        {
+          "en": "A volcanic eruption according to some versions of the story",
+          "zh": "一次火山喷发（按书中另一种说法）"
+        },
+        {
+          "en": "The Mexico City earthquake",
+          "zh": "墨西哥城地震"
+        },
+        {
+          "en": "A flood",
+          "zh": "一场洪水"
+        }
+      ],
+      "answer": 2,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "More than nine thousand people lost their lives in the Mexico City earthquake of September 1985.",
+        "zh": "1985年9月的墨西哥城地震造成9000多人丧生。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in writing this book about Mexico?",
+        "zh": "作者写这本关于墨西哥的书的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To tell a fictional adventure story",
+          "zh": "讲一个虚构的冒险故事"
+        },
+        {
+          "en": "To persuade readers to move to Mexico according to some versions of the story",
+          "zh": "劝说读者移居墨西哥（按书中另一种说法）"
+        },
+        {
+          "en": "To inform readers about Mexico's geography, history, and culture",
+          "zh": "向读者介绍墨西哥的地理、历史与文化"
+        },
+        {
+          "en": "To argue that Mexico should be larger",
+          "zh": "主张墨西哥应当更大"
+        }
+      ],
+      "answer": 2,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book is an informational country profile describing Mexico's land, people, history, and landmarks.",
+        "zh": "本书是介绍国家概况的信息类读物，描述墨西哥的地貌、人民、历史与地标。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which statement best reflects how the author describes Mexico's land?",
+        "zh": "哪句话最能体现作者对墨西哥地貌的描述？"
+      },
+      "options": [
+        {
+          "en": "Mexico is flat and uniform throughout according to some versions of the story in an early draft of the book",
+          "zh": "墨西哥整体平坦单一（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Mexico has no mountains",
+          "zh": "墨西哥没有山脉"
+        },
+        {
+          "en": "Mexico is entirely covered by oceans",
+          "zh": "墨西哥完全被海洋覆盖"
+        },
+        {
+          "en": "Mexico is a country of geographic contrasts—desert and rainforest, mountain and canyon",
+          "zh": "墨西哥是地理反差鲜明的国度——沙漠与雨林、高山与峡谷并存"
+        }
+      ],
+      "answer": 3,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The Conclusion calls Mexico 'a country of geographic contrasts: desert and rainforest, mountain and canyon.'",
+        "zh": "结语称墨西哥是'地理反差鲜明的国度：沙漠与雨林、高山与峡谷'。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book states Mexico lies in southern North America between the United States and Central America.",
-    "zh": "书中说明墨西哥位于北美南部，介于美国和中美洲之间。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the capital of Mexico?",
-    "zh": "墨西哥的首都是哪里？"
-   },
-   "options": [
-    {
-     "en": "Guadalajara",
-     "zh": "瓜达拉哈拉"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Imagine you are a travel writer visiting Mexico. What three places or features from this book would you most want to see, and why?",
+      "zh": "想象你是一位旅行作家正在游览墨西哥。书中哪三个地方或特色是你最想去看的，为什么？"
     },
-    {
-     "en": "Mexico City",
-     "zh": "墨西哥城"
-    },
-    {
-     "en": "Tenochtitlan",
-     "zh": "特诺奇蒂特兰"
-    },
-    {
-     "en": "Puebla",
-     "zh": "普埃布拉"
+    "guidance": {
+      "en": [
+        "Use facts from the book such as Chichén Itzá, Copper Canyon, or Mexico City's historic center.",
+        "Explain why each place interests you using details from the text.",
+        "Connect your choices to Mexico's geography, history, or culture."
+      ],
+      "zh": [
+        "使用书中的事实，如奇琴伊察、铜峡谷或墨西哥城的历史中心。",
+        "结合文中细节说明每个地方吸引你的原因。",
+        "将你的选择与墨西哥的地理、历史或文化联系起来。"
+      ]
     }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Mexico City, one of the oldest cities in North America, is the capital of Mexico.",
-    "zh": "墨西哥城是北美最古老的城市之一，也是墨西哥的首都。"
-   }
-  },
-  {
-   "q": {
-    "en": "Who were the indigenous people of Mexico?",
-    "zh": "墨西哥的原住民是谁？"
-   },
-   "options": [
-    {
-     "en": "European settlers",
-     "zh": "欧洲殖民者"
-    },
-    {
-     "en": "American Indians",
-     "zh": "美洲印第安人"
-    },
-    {
-     "en": "African explorers",
-     "zh": "非洲探险家"
-    },
-    {
-     "en": "Asian immigrants",
-     "zh": "亚洲移民"
-    }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book says the indigenous people of Mexico were groups of American Indians.",
-    "zh": "书中指出墨西哥的原住民是美洲印第安人族群。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is Mexico the world's leading producer of?",
-    "zh": "墨西哥是世界上哪种资源的最大生产国？"
-   },
-   "options": [
-    {
-     "en": "Oil",
-     "zh": "石油"
-    },
-    {
-     "en": "Silver",
-     "zh": "白银"
-    },
-    {
-     "en": "Gold",
-     "zh": "黄金"
-    },
-    {
-     "en": "Copper",
-     "zh": "铜"
-    }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book states Mexico is the world's leading producer of silver.",
-    "zh": "书中说明墨西哥是世界上最大的白银生产国。"
-   }
-  },
-  {
-   "q": {
-    "en": "In this book, what does the word 'mestizo' mean?",
-    "zh": "在本书中，'mestizo'（混血儿）一词是什么意思？"
-   },
-   "options": [
-    {
-     "en": "People of only European ancestry",
-     "zh": "仅有欧洲血统的人"
-    },
-    {
-     "en": "People of only American Indian ancestry",
-     "zh": "仅有美洲印第安血统的人"
-    },
-    {
-     "en": "People of European and American Indian ancestry",
-     "zh": "欧洲与美洲印第安混血的人"
-    },
-    {
-     "en": "People who speak only Spanish",
-     "zh": "只说西班牙语的人"
-    }
-   ],
-   "answer": 2,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "About two thirds of Mexicans are mestizos, descended from both American Indian and European ancestors.",
-    "zh": "约三分之二的墨西哥人是混血儿，祖先兼具美洲印第安和欧洲血统。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is a 'cenote' as described in the book?",
-    "zh": "书中描述的'cenote'（天然井）是什么？"
-   },
-   "options": [
-    {
-     "en": "A type of volcano",
-     "zh": "一种火山"
-    },
-    {
-     "en": "A deep natural well formed when limestone collapses and exposes groundwater",
-     "zh": "石灰岩塌陷露出地下水形成的深天然井"
-    },
-    {
-     "en": "An ancient pyramid",
-     "zh": "一座古金字塔"
-    },
-    {
-     "en": "A Spanish colony",
-     "zh": "一处西班牙殖民地"
-    }
-   ],
-   "answer": 1,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The glossary defines a cenote as a deep natural well created when surface limestone collapses and exposes groundwater.",
-    "zh": "术语表将 cenote 定义为地表石灰岩塌陷露出地下水而形成的深天然井。"
-   }
-  },
-  {
-   "q": {
-    "en": "How many steps are there in total on the pyramid El Castillo at Chichén Itzá?",
-    "zh": "奇琴伊察的埃尔卡斯蒂略金字塔总共有多少级台阶？"
-   },
-   "options": [
-    {
-     "en": "91",
-     "zh": "91"
-    },
-    {
-     "en": "4",
-     "zh": "4"
-    },
-    {
-     "en": "364",
-     "zh": "364"
-    },
-    {
-     "en": "365",
-     "zh": "365"
-    }
-   ],
-   "answer": 2,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Each of the four sides has 91 steps, totaling 364—the number of days Earth takes to orbit the Sun.",
-    "zh": "四面各有91级台阶，合计364级，对应地球绕太阳公转的天数。"
-   }
-  },
-  {
-   "q": {
-    "en": "What disaster in 1985 killed more than 9,000 people in Mexico?",
-    "zh": "1985年墨西哥哪场灾难造成9000多人死亡？"
-   },
-   "options": [
-    {
-     "en": "A hurricane",
-     "zh": "一场飓风"
-    },
-    {
-     "en": "The Mexico City earthquake",
-     "zh": "墨西哥城地震"
-    },
-    {
-     "en": "A volcanic eruption",
-     "zh": "一次火山喷发"
-    },
-    {
-     "en": "A flood",
-     "zh": "一场洪水"
-    }
-   ],
-   "answer": 1,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "More than nine thousand people lost their lives in the Mexico City earthquake of September 1985.",
-    "zh": "1985年9月的墨西哥城地震造成9000多人丧生。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in writing this book about Mexico?",
-    "zh": "作者写这本关于墨西哥的书的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "To tell a fictional adventure story",
-     "zh": "讲一个虚构的冒险故事"
-    },
-    {
-     "en": "To persuade readers to move to Mexico",
-     "zh": "劝说读者移居墨西哥"
-    },
-    {
-     "en": "To inform readers about Mexico's geography, history, and culture",
-     "zh": "向读者介绍墨西哥的地理、历史与文化"
-    },
-    {
-     "en": "To argue that Mexico should be larger",
-     "zh": "主张墨西哥应当更大"
-    }
-   ],
-   "answer": 2,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The book is an informational country profile describing Mexico's land, people, history, and landmarks.",
-    "zh": "本书是介绍国家概况的信息类读物，描述墨西哥的地貌、人民、历史与地标。"
-   }
-  },
-  {
-   "q": {
-    "en": "Which statement best reflects how the author describes Mexico's land?",
-    "zh": "哪句话最能体现作者对墨西哥地貌的描述？"
-   },
-   "options": [
-    {
-     "en": "Mexico is flat and uniform throughout",
-     "zh": "墨西哥整体平坦单一"
-    },
-    {
-     "en": "Mexico is a country of geographic contrasts—desert and rainforest, mountain and canyon",
-     "zh": "墨西哥是地理反差鲜明的国度——沙漠与雨林、高山与峡谷并存"
-    },
-    {
-     "en": "Mexico has no mountains",
-     "zh": "墨西哥没有山脉"
-    },
-    {
-     "en": "Mexico is entirely covered by oceans",
-     "zh": "墨西哥完全被海洋覆盖"
-    }
-   ],
-   "answer": 1,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The Conclusion calls Mexico 'a country of geographic contrasts: desert and rainforest, mountain and canyon.'",
-    "zh": "结语称墨西哥是'地理反差鲜明的国度：沙漠与雨林、高山与峡谷'。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "Imagine you are a travel writer visiting Mexico. What three places or features from this book would you most want to see, and why?",
-   "zh": "想象你是一位旅行作家正在游览墨西哥。书中哪三个地方或特色是你最想去看的，为什么？"
-  },
-  "guidance": {
-   "en": [
-    "Use facts from the book such as Chichén Itzá, Copper Canyon, or Mexico City's historic center.",
-    "Explain why each place interests you using details from the text.",
-    "Connect your choices to Mexico's geography, history, or culture."
-   ],
-   "zh": [
-    "使用书中的事实，如奇琴伊察、铜峡谷或墨西哥城的历史中心。",
-    "结合文中细节说明每个地方吸引你的原因。",
-    "将你的选择与墨西哥的地理、历史或文化联系起来。"
-   ]
-  }
- }
 }

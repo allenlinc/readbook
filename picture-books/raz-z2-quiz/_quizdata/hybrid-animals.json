@@ -12,10 +12,22 @@
         "zh": "什么是杂交动物？"
       },
       "options": [
-        { "en": "An animal with parents from two different species", "zh": "父母来自两个不同物种的动物" },
-        { "en": "A wild animal that lives alone", "zh": "独自生活的野生动物" },
-        { "en": "A type of plant", "zh": "一种植物" },
-        { "en": "A machine that builds robots for farms", "zh": "为农场制造机器人的机器" }
+        {
+          "en": "An animal with parents from two different species",
+          "zh": "父母来自两个不同物种的动物"
+        },
+        {
+          "en": "A wild animal that lives alone",
+          "zh": "独自生活的野生动物"
+        },
+        {
+          "en": "A type of plant",
+          "zh": "一种植物"
+        },
+        {
+          "en": "A machine that builds robots for farms according to some versions of the story",
+          "zh": "为农场制造机器人的机器（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "什么是骡子？"
       },
       "options": [
-        { "en": "A young horse", "zh": "小马" },
-        { "en": "The offspring of a horse and a donkey, usually with a horse mother", "zh": "马和驴的后代，通常母亲是马" },
-        { "en": "A type of big cat", "zh": "一种大型猫科动物" },
-        { "en": "A fish that lives deep in the dark ocean and glows with a light of its own made by its body", "zh": "生活在黑暗深海、自身会发出光芒的鱼" }
+        {
+          "en": "A fish that lives deep in the dark ocean and glows with a light of its own made by its body",
+          "zh": "生活在黑暗深海、自身会发出光芒的鱼"
+        },
+        {
+          "en": "A young horse",
+          "zh": "小马"
+        },
+        {
+          "en": "The offspring of a horse and a donkey, usually with a horse mother",
+          "zh": "马和驴的后代，通常母亲是马"
+        },
+        {
+          "en": "A type of big cat",
+          "zh": "一种大型猫科动物"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A mule is the offspring of a horse and a donkey; if the mother is a donkey, the offspring is called a hinny.",
@@ -48,12 +72,24 @@
         "zh": "在书中，“不育的”（sterile）是什么意思？"
       },
       "options": [
-        { "en": "Very strong", "zh": "非常强壮" },
-        { "en": "Able to fly", "zh": "能够飞翔" },
-        { "en": "Not able to produce offspring", "zh": "不能繁殖后代" },
-        { "en": "Able to live both on land and in water", "zh": "既能在陆地也能在水中生活" }
+        {
+          "en": "Able to live both on land and in water",
+          "zh": "既能在陆地也能在水中生活"
+        },
+        {
+          "en": "Not able to produce offspring",
+          "zh": "不能繁殖后代"
+        },
+        {
+          "en": "Able to fly",
+          "zh": "能够飞翔"
+        },
+        {
+          "en": "Very strong",
+          "zh": "非常强壮"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Sterile means unable to produce offspring; mules are sterile because their chromosomes do not match.",
@@ -66,12 +102,24 @@
         "zh": "骡子为什么通常不育？"
       },
       "options": [
-        { "en": "They are too old to have babies by the time they grow up", "zh": "它们长大时已经太老，无法生育" },
-        { "en": "They eat the wrong food", "zh": "它们吃错了食物" },
-        { "en": "They live in the wrong climate", "zh": "它们生活在错误的气候中" },
-        { "en": "Their parents have different numbers of chromosomes", "zh": "它们父母的染色体数目不同" }
+        {
+          "en": "Their parents have different numbers of chromosomes",
+          "zh": "它们父母的染色体数目不同"
+        },
+        {
+          "en": "They eat the wrong food",
+          "zh": "它们吃错了食物"
+        },
+        {
+          "en": "They are too old to have babies by the time they grow up",
+          "zh": "它们长大时已经太老，无法生育"
+        },
+        {
+          "en": "They live in the wrong climate",
+          "zh": "它们生活在错误的气候中"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Horses have 64 chromosomes and donkeys 62, so a mule has 63 unmatched chromosomes, and meiosis fails.",
@@ -84,12 +132,24 @@
         "zh": "什么是狮虎兽？"
       },
       "options": [
-        { "en": "The hybrid of a male lion and a female tiger", "zh": "雄狮与雌虎的杂交后代" },
-        { "en": "A kind of lizard", "zh": "一种蜥蜴" },
-        { "en": "A type of bird", "zh": "一种鸟" },
-        { "en": "A small insect that lives in gardens", "zh": "生活在花园里的小昆虫" }
+        {
+          "en": "A type of bird",
+          "zh": "一种鸟"
+        },
+        {
+          "en": "A small insect that lives in gardens according to some versions of the story",
+          "zh": "生活在花园里的小昆虫（按书中另一种说法）"
+        },
+        {
+          "en": "A kind of lizard",
+          "zh": "一种蜥蜴"
+        },
+        {
+          "en": "The hybrid of a male lion and a female tiger",
+          "zh": "雄狮与雌虎的杂交后代"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "A liger is the offspring of a male lion and a female tiger; a tigon is the opposite cross.",
@@ -102,12 +162,24 @@
         "zh": "哪两种熊能生出“灰北极熊”（grolar bear）？"
       },
       "options": [
-        { "en": "A panda and a koala", "zh": "熊猫和考拉" },
-        { "en": "A grizzly bear and a polar bear", "zh": "灰熊和北极熊" },
-        { "en": "A lion and a tiger", "zh": "狮子和老虎" },
-        { "en": "A horse and a zebra that live together on a farm in the countryside", "zh": "在乡村农场里生活在一起的马和斑马" }
+        {
+          "en": "A horse and a zebra that live together on a farm in the countryside",
+          "zh": "在乡村农场里生活在一起的马和斑马"
+        },
+        {
+          "en": "A lion and a tiger",
+          "zh": "狮子和老虎"
+        },
+        {
+          "en": "A panda and a koala",
+          "zh": "熊猫和考拉"
+        },
+        {
+          "en": "A grizzly bear and a polar bear",
+          "zh": "灰熊和北极熊"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "As warming brings them together, grizzly and polar bears have produced grolar bear hybrids since 2006.",
@@ -120,12 +192,24 @@
         "zh": "为什么“蜘蛛山羊”被称为转基因动物，而非杂交动物？"
       },
       "options": [
-        { "en": "They are a mix of two kinds of goats", "zh": "它们是两种山羊的混种" },
-        { "en": "They were born in the wild", "zh": "它们出生在野外" },
-        { "en": "Their DNA has spider genes added in a lab", "zh": "它们的DNA在实验室里被加入了蜘蛛基因" },
-        { "en": "They spin large webs like insects that catch flies in the garden", "zh": "它们像在花园里抓苍蝇的昆虫一样结大网" }
+        {
+          "en": "They are a mix of two kinds of goats",
+          "zh": "它们是两种山羊的混种"
+        },
+        {
+          "en": "Their DNA has spider genes added in a lab",
+          "zh": "它们的DNA在实验室里被加入了蜘蛛基因"
+        },
+        {
+          "en": "They spin large webs like insects that catch flies in the garden",
+          "zh": "它们像在花园里抓苍蝇的昆虫一样结大网"
+        },
+        {
+          "en": "They were born in the wild",
+          "zh": "它们出生在野外"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Spider goats have spider DNA inserted in a lab so they make spider-silk protein in their milk; that makes them transgenic, not a hybrid.",
@@ -138,12 +222,24 @@
         "zh": "作者写杂交动物的主要写作目的是什么？"
       },
       "options": [
-        { "en": "To convince readers that all hybrids are bad", "zh": "想让读者相信所有杂交动物都是坏的" },
-        { "en": "To teach how to ride a horse", "zh": "教人如何骑马" },
-        { "en": "To list every single animal that can be found in a very large city zoo", "zh": "列出在很大的城市动物园里能找到的每一种动物" },
-        { "en": "To show both the good and the problems of mixing species", "zh": "展示混合物种的好的一面和存在的问题" }
+        {
+          "en": "To teach how to ride a horse",
+          "zh": "教人如何骑马"
+        },
+        {
+          "en": "To convince readers that all hybrids are bad",
+          "zh": "想让读者相信所有杂交动物都是坏的"
+        },
+        {
+          "en": "To show both the good and the problems of mixing species",
+          "zh": "展示混合物种的好的一面和存在的问题"
+        },
+        {
+          "en": "To list every single animal that can be found in a very large city zoo",
+          "zh": "列出在很大的城市动物园里能找到的每一种动物"
+        }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author presents hybrids as both a possible help with adaptation and a possible threat to biodiversity.",
@@ -156,12 +252,24 @@
         "zh": "“皮弗娄牛”（beefalo）有什么特别之处？"
       },
       "options": [
-        { "en": "They can reproduce if the bison part stays at or below three-eighths", "zh": "只要野牛成分保持在八分之三或以下，它们就能繁殖" },
-        { "en": "They can breathe underwater", "zh": "它们能在水下呼吸" },
-        { "en": "They are a type of bird", "zh": "它们是一种鸟" },
-        { "en": "They live only in deserts", "zh": "它们只生活在沙漠" }
+        {
+          "en": "They can breathe underwater according to some versions of the story in an early draft of the book",
+          "zh": "它们能在水下呼吸（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They can reproduce if the bison part stays at or below three-eighths",
+          "zh": "只要野牛成分保持在八分之三或以下，它们就能繁殖"
+        },
+        {
+          "en": "They are a type of bird",
+          "zh": "它们是一种鸟"
+        },
+        {
+          "en": "They live only in deserts",
+          "zh": "它们只生活在沙漠"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Beefalo are bison-cattle hybrids that can reproduce as long as the bison share stays at or below three-eighths.",
@@ -174,12 +282,24 @@
         "zh": "书中给出的“环物种”（ring species）例子是什么？"
       },
       "options": [
-        { "en": "Penguins in Antarctica", "zh": "南极的企鹅" },
-        { "en": "Ensatina salamanders around the San Joaquin Valley", "zh": "圣华金河谷周围的网纹蝾螈" },
-        { "en": "Tigers in India", "zh": "印度的老虎" },
-        { "en": "Whales that swim in the deep ocean and sing long songs to each other every night", "zh": "在深海游动、每夜互相唱着悠长歌曲的鲸鱼" }
+        {
+          "en": "Ensatina salamanders around the San Joaquin Valley",
+          "zh": "圣华金河谷周围的网纹蝾螈"
+        },
+        {
+          "en": "Whales that swim in the deep ocean and sing long songs to each other every night",
+          "zh": "在深海游动、每夜互相唱着悠长歌曲的鲸鱼"
+        },
+        {
+          "en": "Penguins in Antarctica",
+          "zh": "南极的企鹅"
+        },
+        {
+          "en": "Tigers in India",
+          "zh": "印度的老虎"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Ensatina salamanders form a ring around the San Joaquin Valley, with neighbors able to interbreed.",

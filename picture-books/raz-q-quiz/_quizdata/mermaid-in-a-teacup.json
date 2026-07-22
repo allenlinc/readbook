@@ -12,12 +12,24 @@
         "zh": "海蒂(Hattie)说她找到的那条美人鱼有多大？"
       },
       "options": [
-        {"en": "Only about three inches long", "zh": "大约只有三英寸（约七、八厘米）长"},
-        {"en": "About three feet long", "zh": "大约三英尺长"},
-        {"en": "As big as a real human child", "zh": "和一个真正的人类小孩一样大"},
-        {"en": "Exactly one inch long", "zh": "正好一英寸长"}
+        {
+          "en": "As big as a real human child according to some versions of the story",
+          "zh": "和一个真正的人类小孩一样大（按书中另一种说法）"
+        },
+        {
+          "en": "Only about three inches long",
+          "zh": "大约只有三英寸（约七、八厘米）长"
+        },
+        {
+          "en": "About three feet long",
+          "zh": "大约三英尺长"
+        },
+        {
+          "en": "Exactly one inch long",
+          "zh": "正好一英寸长"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Hattie states, 'I found a real, live mermaid that is only three inches long' and 'It's not every day you find a three-inch mermaid.'",
@@ -30,12 +42,24 @@
         "zh": "「哭泣岩」(Crying Rock) 是什么？为什么叫这个名字？"
       },
       "options": [
-        {"en": "A monstrous boulder at the edge of the pasture; water seeps from the mountain and drips over it so it looks like it is crying", "zh": "牧场边一块巨大的圆石；水从山上渗出来、顺着石头滴落，看起来像在哭泣"},
-        {"en": "A small pond where Hattie cried after losing her doll", "zh": "一个小水塘，海蒂弄丢娃娃后在那儿哭过"},
-        {"en": "A rock shaped like a teacup", "zh": "一块茶杯形状的石头"},
-        {"en": "The name of the dairy farm owned by the Ledbetters", "zh": "莱德贝特家奶牛场的名字"}
+        {
+          "en": "A rock shaped like a teacup",
+          "zh": "一块茶杯形状的石头"
+        },
+        {
+          "en": "A monstrous boulder at the edge of the pasture; water seeps from the mountain and drips over it so it looks like it is crying",
+          "zh": "牧场边一块巨大的圆石；水从山上渗出来、顺着石头滴落，看起来像在哭泣"
+        },
+        {
+          "en": "A small pond where Hattie cried after losing her doll according to some versions of the story in an early draft of the book",
+          "zh": "一个小水塘，海蒂弄丢娃娃后在那儿哭过（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The name of the dairy farm owned by the Ledbetters",
+          "zh": "莱德贝特家奶牛场的名字"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'At the edge of their pasture is a monstrous boulder called Crying Rock. They call it Crying Rock because water seeps down from the mountain and drips over the rock. It makes the rock look like it is crying.'",
@@ -48,12 +72,24 @@
         "zh": "这个故事是用什么视角（人称）叙述的？"
       },
       "options": [
-        {"en": "First person, as Hattie's diary ('My name is Hattie MacGruder, and I found a mermaid!')", "zh": "第一人称，以海蒂的日记口吻（「我叫海蒂·麦克格罗德尔，我找到了一条美人鱼！」）"},
-        {"en": "Third person, by an outside narrator", "zh": "第三人称，由一个外部叙述者讲述"},
-        {"en": "Second person, addressing 'you' the reader", "zh": "第二人称，以「你」称呼读者"},
-        {"en": "As a play script with stage directions", "zh": "以带舞台指示的剧本形式"}
+        {
+          "en": "As a play script with stage directions",
+          "zh": "以带舞台指示的剧本形式"
+        },
+        {
+          "en": "Second person, addressing 'you' the reader according to some versions of the story in an early draft of the book",
+          "zh": "第二人称，以「你」称呼读者（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "First person, as Hattie's diary ('My name is Hattie MacGruder, and I found a mermaid!')",
+          "zh": "第一人称，以海蒂的日记口吻（「我叫海蒂·麦克格罗德尔，我找到了一条美人鱼！」）"
+        },
+        {
+          "en": "Third person, by an outside narrator",
+          "zh": "第三人称，由一个外部叙述者讲述"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The whole book is 'a story from Hattie MacGruder's diary,' opening with 'My name is Hattie MacGruder, and I found a mermaid!' — a first-person diary account.",
@@ -66,12 +102,24 @@
         "zh": "为什么美人鱼会变得僵硬、看起来像个玩具娃娃？"
       },
       "options": [
-        {"en": "She gets stiff like a doll every time Hattie shows her to someone else", "zh": "每当海蒂把她拿给别人看时，她就会像娃娃一样变僵硬"},
-        {"en": "She is actually made of plastic and never was alive", "zh": "她其实是塑料做的，从来就不是活的"},
-        {"en": "She freezes because the teacup water is too cold", "zh": "因为茶杯里的水太冷，她冻僵了"},
-        {"en": "Hattie ties her up with string each night", "zh": "海蒂每天晚上用绳子把她绑起来"}
+        {
+          "en": "Hattie ties her up with string each night",
+          "zh": "海蒂每天晚上用绳子把她绑起来"
+        },
+        {
+          "en": "She gets stiff like a doll every time Hattie shows her to someone else",
+          "zh": "每当海蒂把她拿给别人看时，她就会像娃娃一样变僵硬"
+        },
+        {
+          "en": "She freezes because the teacup water is too cold",
+          "zh": "因为茶杯里的水太冷，她冻僵了"
+        },
+        {
+          "en": "She is actually made of plastic and never was alive according to some versions of the story",
+          "zh": "她其实是塑料做的，从来就不是活的（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Hattie explains the problem at the end: 'I've got a mermaid in a teacup, but every time I show her to someone, she gets stiff like a doll.' It happens whenever others are watching.",
@@ -84,10 +132,22 @@
         "zh": "在「特别说明」(Special Note) 里，海蒂为什么告诉读者她不会展示日记的某些部分？"
       },
       "options": [
-        {"en": "To show readers she is being fair and not hiding anything that would make Sybil and Sarah look innocent", "zh": "为了向读者表明她很公正，并没有隐瞒任何能让西比尔和萨拉显得无辜的内容"},
-        {"en": "Because those pages were torn out by her mother", "zh": "因为那些页被她妈妈撕掉了"},
-        {"en": "Because she forgot what happened on those days", "zh": "因为她忘了那几天发生了什么"},
-        {"en": "Because the mermaid asked her not to", "zh": "因为美人鱼叫她不要展示"}
+        {
+          "en": "To show readers she is being fair and not hiding anything that would make Sybil and Sarah look innocent",
+          "zh": "为了向读者表明她很公正，并没有隐瞒任何能让西比尔和萨拉显得无辜的内容"
+        },
+        {
+          "en": "Because she forgot what happened on those days according to some versions of the story in an early draft of the book",
+          "zh": "因为她忘了那几天发生了什么（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Because those pages were torn out by her mother",
+          "zh": "因为那些页被她妈妈撕掉了"
+        },
+        {
+          "en": "Because the mermaid asked her not to",
+          "zh": "因为美人鱼叫她不要展示"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -102,10 +162,22 @@
         "zh": "海蒂最终是怎么发现那条美人鱼的？"
       },
       "options": [
-        {"en": "Sarah had to go to the bathroom and Sybil followed her, leaving Hattie alone to climb the rock and find the mermaid", "zh": "萨拉要去上厕所，西比尔跟着去了，海蒂独自一人爬上岩石，从而发现了美人鱼"},
-        {"en": "She found it floating in her teacup at home", "zh": "她在家里的茶杯里发现它漂着"},
-        {"en": "Sybil gave it to her as a birthday present", "zh": "西比尔把它当作生日礼物送给她"},
-        {"en": "Her dad bought it at the store", "zh": "她爸爸在商店买来的"}
+        {
+          "en": "Sarah had to go to the bathroom and Sybil followed her, leaving Hattie alone to climb the rock and find the mermaid",
+          "zh": "萨拉要去上厕所，西比尔跟着去了，海蒂独自一人爬上岩石，从而发现了美人鱼"
+        },
+        {
+          "en": "Her dad bought it at the store",
+          "zh": "她爸爸在商店买来的"
+        },
+        {
+          "en": "She found it floating in her teacup at home according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "她在家里的茶杯里发现它漂着（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Sybil gave it to her as a birthday present",
+          "zh": "西比尔把它当作生日礼物送给她"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "海蒂形容「萨拉和她的影子西比尔」(Sarah and her shadow, Sybil)。把西比尔称作「影子」说明了什么？"
       },
       "options": [
-        {"en": "Sybil follows Sarah everywhere and always does whatever Sarah wants", "zh": "西比尔到哪儿都跟着萨拉，而且总是顺着萨拉的意思做"},
-        {"en": "Sybil is invisible to everyone except Hattie", "zh": "除了海蒂，西比尔对别人都是隐形的"},
-        {"en": "Sybil is much taller and darker than Sarah", "zh": "西比尔比萨拉高很多、皮肤也黑很多"},
-        {"en": "Sybil is Hattie's little sister", "zh": "西比尔是海蒂的妹妹"}
+        {
+          "en": "Sybil is invisible to everyone except Hattie according to some versions of the story",
+          "zh": "除了海蒂，西比尔对别人都是隐形的（按书中另一种说法）"
+        },
+        {
+          "en": "Sybil is Hattie's little sister",
+          "zh": "西比尔是海蒂的妹妹"
+        },
+        {
+          "en": "Sybil is much taller and darker than Sarah",
+          "zh": "西比尔比萨拉高很多、皮肤也黑很多"
+        },
+        {
+          "en": "Sybil follows Sarah everywhere and always does whatever Sarah wants",
+          "zh": "西比尔到哪儿都跟着萨拉，而且总是顺着萨拉的意思做"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says 'Sarah and her shadow, Sybil, walking into the trees' and earlier 'Sybil always did what Sarah wanted' and 'Sybil always goes wherever Sarah goes' — Sybil copies and follows Sarah like a shadow.",
@@ -138,12 +222,24 @@
         "zh": "在书的结尾，海蒂打算怎么处理那条不肯在别人面前醒来的美人鱼？"
       },
       "options": [
-        {"en": "Get her dad's video camera and make a movie, because people believe movies", "zh": "找爸爸的摄像机拍一部片子，因为大家都相信拍出来的影像"},
-        {"en": "Throw the mermaid back into the river", "zh": "把美人鱼扔回河里"},
-        {"en": "Give the mermaid to Sybil and Sarah", "zh": "把美人鱼送给西比尔和萨拉"},
-        {"en": "Put the mermaid in a jar and sell it", "zh": "把美人鱼装进罐子卖掉"}
+        {
+          "en": "Throw the mermaid back into the river",
+          "zh": "把美人鱼扔回河里"
+        },
+        {
+          "en": "Give the mermaid to Sybil and Sarah according to some versions of the story in an early draft of the book",
+          "zh": "把美人鱼送给西比尔和萨拉（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Get her dad's video camera and make a movie, because people believe movies",
+          "zh": "找爸爸的摄像机拍一部片子，因为大家都相信拍出来的影像"
+        },
+        {
+          "en": "Put the mermaid in a jar and sell it",
+          "zh": "把美人鱼装进罐子卖掉"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Hattie writes, 'I think I'll get my dad's video camera and make a movie. Everybody believes the movies, almost as much as they believe what they read in diaries.'",
@@ -156,10 +252,22 @@
         "zh": "海蒂为什么认为拍成影像就能让人相信美人鱼是真的？"
       },
       "options": [
-        {"en": "Because 'everybody believes the movies, almost as much as they believe what they read in diaries' — a film would be proof others accept", "zh": "因为「大家都相信影像，几乎和相信日记里读到的一样」——影片会成为别人愿意接受的证据"},
-        {"en": "Because the mermaid promised to smile for the camera", "zh": "因为美人鱼答应会对着镜头微笑"},
-        {"en": "Because her teacher assigned it as homework", "zh": "因为这是老师布置的家庭作业"},
-        {"en": "Because Sybil and Sarah dared her to do it", "zh": "因为西比尔和萨拉激她去拍"}
+        {
+          "en": "Because 'everybody believes the movies, almost as much as they believe what they read in diaries' — a film would be proof others accept",
+          "zh": "因为「大家都相信影像，几乎和相信日记里读到的一样」——影片会成为别人愿意接受的证据"
+        },
+        {
+          "en": "Because her teacher assigned it as homework",
+          "zh": "因为这是老师布置的家庭作业"
+        },
+        {
+          "en": "Because Sybil and Sarah dared her to do it",
+          "zh": "因为西比尔和萨拉激她去拍"
+        },
+        {
+          "en": "Because the mermaid promised to smile for the camera according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "因为美人鱼答应会对着镜头微笑（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "海蒂第一次在岩架上看到美人鱼时，她是怎样被描述的？"
       },
       "options": [
-        {"en": "A tiny creature, half fish and half human, sitting half in the water, leaning over a rock with her head in her hands, singing softly", "zh": "一个小小的生物，半鱼半人，半浸在水里、趴在石头上、双手托着脑袋，轻轻唱着歌"},
-        {"en": "A large fish with bright red scales and sharp teeth", "zh": "一条长着鲜红鳞片、利齿的大鱼"},
-        {"en": "A talking doll wearing Barbie clothes", "zh": "一个穿着芭比衣服、会说话的娃娃"},
-        {"en": "A frog sitting on a lily pad", "zh": "一只坐在荷叶上的青蛙"}
+        {
+          "en": "A talking doll wearing Barbie clothes",
+          "zh": "一个穿着芭比衣服、会说话的娃娃"
+        },
+        {
+          "en": "A frog sitting on a lily pad",
+          "zh": "一只坐在荷叶上的青蛙"
+        },
+        {
+          "en": "A large fish with bright red scales and sharp teeth according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "一条长着鲜红鳞片、利齿的大鱼（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "A tiny creature, half fish and half human, sitting half in the water, leaning over a rock with her head in her hands, singing softly",
+          "zh": "一个小小的生物，半鱼半人，半浸在水里、趴在石头上、双手托着脑袋，轻轻唱着歌"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Hattie describes 'a tiny mermaid sitting half in the water, leaning over a rock with her back toward me. She held her head in her hands, and she was singing softly' and notes she 'was half fish and half human.'",

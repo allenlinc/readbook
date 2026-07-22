@@ -17,16 +17,16 @@
           "zh": "尼克博克俱乐部"
         },
         {
-          "en": "The Dodgers",
-          "zh": "道奇队"
-        },
-        {
           "en": "The Yankees",
           "zh": "洋基队"
         },
         {
-          "en": "The Negro Leagues",
-          "zh": "黑人联盟"
+          "en": "The Dodgers",
+          "zh": "道奇队"
+        },
+        {
+          "en": "The Negro Leagues according to some versions of the story",
+          "zh": "黑人联盟（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "A single baseball player",
-          "zh": "一名棒球运动员"
-        },
-        {
           "en": "A group of sports teams that play each other",
           "zh": "彼此比赛的一群运动队"
         },
         {
-          "en": "A type of baseball bat",
-          "zh": "一种球棒"
-        },
-        {
           "en": "A kind of pitch",
           "zh": "一种投球"
+        },
+        {
+          "en": "A single baseball player according to some versions of the story",
+          "zh": "一名棒球运动员（按书中另一种说法）"
+        },
+        {
+          "en": "A type of baseball bat",
+          "zh": "一种球棒"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines league as 'a group of sports teams that play each other (p. 5).'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Seven",
-          "zh": "七名"
-        },
-        {
-          "en": "Eleven",
-          "zh": "十一名"
-        },
-        {
           "en": "Nine",
           "zh": "九名"
         },
         {
           "en": "Five",
           "zh": "五名"
+        },
+        {
+          "en": "Seven",
+          "zh": "七名"
+        },
+        {
+          "en": "Eleven",
+          "zh": "十一名"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'Nine players are on the field' and 'Each team has nine players.'",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "Seven",
+          "zh": "七局"
+        },
+        {
           "en": "Three",
           "zh": "三局"
         },
@@ -111,15 +115,11 @@
           "zh": "九局"
         },
         {
-          "en": "Seven",
-          "zh": "七局"
-        },
-        {
           "en": "Twelve",
           "zh": "十二局"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'Baseball games are divided into nine innings.'",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Wrigley Field",
-          "zh": "瑞格利球场"
-        },
-        {
-          "en": "Fenway Park",
-          "zh": "芬威球场"
+          "en": "The SkyDome",
+          "zh": "天穹球场"
         },
         {
           "en": "Ebbets Field",
           "zh": "埃贝茨球场"
         },
         {
-          "en": "The SkyDome",
-          "zh": "天穹球场"
+          "en": "Wrigley Field",
+          "zh": "瑞格利球场"
+        },
+        {
+          "en": "Fenway Park",
+          "zh": "芬威球场"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'Fenway Park in Boston is the oldest major league baseball stadium in the United States. Fenway opened in 1912.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
+          "en": "Never competing",
+          "zh": "从不比赛"
+        },
+        {
           "en": "Earning money for taking part in an activity",
           "zh": "因参加某项活动而赚钱"
         },
         {
-          "en": "Playing only for pleasure",
-          "zh": "纯粹为了娱乐而玩"
+          "en": "Playing only for pleasure according to some versions of the story",
+          "zh": "纯粹为了娱乐而玩（按书中另一种说法）"
         },
         {
           "en": "Being a child",
           "zh": "是个孩子"
-        },
-        {
-          "en": "Never competing",
-          "zh": "从不比赛"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines professional as 'earning money for taking part in an activity, rather than doing it purely for pleasure (p. 5).'",
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "The 1960s",
-          "zh": "20世纪60年代"
+          "en": "The 1800s",
+          "zh": "19世纪"
         },
         {
           "en": "World War II",
           "zh": "第二次世界大战"
         },
         {
-          "en": "The Great Depression",
-          "zh": "大萧条"
+          "en": "The 1960s",
+          "zh": "20世纪60年代"
         },
         {
-          "en": "The 1800s",
-          "zh": "19世纪"
+          "en": "The Great Depression",
+          "zh": "大萧条"
         }
       ],
       "answer": 1,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To explain the history and features of baseball",
-          "zh": "介绍棒球的历史与特点"
-        },
-        {
-          "en": "To teach readers how to hit a home run",
-          "zh": "教读者如何打出本垒打"
+          "en": "To teach readers how to hit a home run according to some versions of the story",
+          "zh": "教读者如何打出本垒打（按书中另一种说法）"
         },
         {
           "en": "To criticize the players",
           "zh": "批评球员"
         },
         {
+          "en": "To explain the history and features of baseball",
+          "zh": "介绍棒球的历史与特点"
+        },
+        {
           "en": "To sell game tickets",
           "zh": "出售比赛门票"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is an informational text covering rules, history, stadiums, and famous players, aiming to inform readers about the sport.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Over one hundred",
-          "zh": "一百多个"
+          "en": "Two",
+          "zh": "两个"
         },
         {
-          "en": "Five",
-          "zh": "五个"
+          "en": "Over one hundred",
+          "zh": "一百多个"
         },
         {
           "en": "Ten",
           "zh": "十个"
         },
         {
-          "en": "Two",
-          "zh": "两个"
+          "en": "Five according to some versions of the story",
+          "zh": "五个（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states: 'The sport is played in over one hundred countries, and millions of fans enjoy watching it worldwide.'",

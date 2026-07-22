@@ -12,10 +12,22 @@
         "zh": "亚马孙雨林位于哪个大洲？"
       },
       "options": [
-        {"en": "South America", "zh": "南美洲"},
-        {"en": "Africa", "zh": "非洲"},
-        {"en": "Asia", "zh": "亚洲"},
-        {"en": "Australia", "zh": "大洋洲"}
+        {
+          "en": "South America",
+          "zh": "南美洲"
+        },
+        {
+          "en": "Asia",
+          "zh": "亚洲"
+        },
+        {
+          "en": "Australia according to some versions of the story",
+          "zh": "大洋洲（按书中另一种说法）"
+        },
+        {
+          "en": "Africa",
+          "zh": "非洲"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "热带雨林仅占地球表面约6%，但全球大约多少比例的动植物物种生活在其中？"
       },
       "options": [
-        {"en": "More than half (over 50%)", "zh": "超过一半（50%以上）"},
-        {"en": "Less than 10%", "zh": "不到10%"},
-        {"en": "Exactly 100%", "zh": "恰好100%"},
-        {"en": "About 25%", "zh": "约25%"}
+        {
+          "en": "Less than 10% according to some versions of the story",
+          "zh": "不到10%（按书中另一种说法）"
+        },
+        {
+          "en": "More than half (over 50%)",
+          "zh": "超过一半（50%以上）"
+        },
+        {
+          "en": "Exactly 100%",
+          "zh": "恰好100%"
+        },
+        {
+          "en": "About 25%",
+          "zh": "约25%"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states rainforests cover about 6% of Earth's surface but more than half of the world's plant and animal species are found in them.",
@@ -48,12 +72,24 @@
         "zh": "以下哪一层是雨林的顶层，由最高的树木组成？"
       },
       "options": [
-        {"en": "The emergent layer", "zh": "乔木层（emergent layer）"},
-        {"en": "The rainforest floor", "zh": "雨林地面层"},
-        {"en": "The understory", "zh": "下层植被"},
-        {"en": "The basement", "zh": "地下室"}
+        {
+          "en": "The basement",
+          "zh": "地下室"
+        },
+        {
+          "en": "The understory",
+          "zh": "下层植被"
+        },
+        {
+          "en": "The rainforest floor according to some versions of the story",
+          "zh": "雨林地面层（按书中另一种说法）"
+        },
+        {
+          "en": "The emergent layer",
+          "zh": "乔木层（emergent layer）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book divides the rainforest into four layers like a building; the tallest trees make up the top floor, called the emergent layer.",
@@ -66,12 +102,24 @@
         "zh": "世界上最大的热带雨林是哪个？"
       },
       "options": [
-        {"en": "The Amazon rainforest", "zh": "亚马孙雨林"},
-        {"en": "The Congo rainforest", "zh": "刚果雨林"},
-        {"en": "The Daintree rainforest", "zh": "戴恩树雨林"},
-        {"en": "The Borneo rainforest", "zh": "婆罗洲雨林"}
+        {
+          "en": "The Daintree rainforest",
+          "zh": "戴恩树雨林"
+        },
+        {
+          "en": "The Amazon rainforest",
+          "zh": "亚马孙雨林"
+        },
+        {
+          "en": "The Borneo rainforest",
+          "zh": "婆罗洲雨林"
+        },
+        {
+          "en": "The Congo rainforest",
+          "zh": "刚果雨林"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Amazon rainforest is the largest tropical rainforest in the world, with more kinds of insects, plants, and animals than any other place.",
@@ -84,10 +132,22 @@
         "zh": "切叶蚁把搬回的叶子用来做什么？"
       },
       "options": [
-        {"en": "They chew them into bits to grow the fungus they eat", "zh": "它们把叶子嚼碎，用来培育自己食用的真菌"},
-        {"en": "They eat the leaves directly", "zh": "它们直接吃叶子"},
-        {"en": "They build their nests from them", "zh": "它们用叶子筑巢"},
-        {"en": "They use them as umbrellas", "zh": "它们把叶子当雨伞"}
+        {
+          "en": "They chew them into bits to grow the fungus they eat",
+          "zh": "它们把叶子嚼碎，用来培育自己食用的真菌"
+        },
+        {
+          "en": "They eat the leaves directly",
+          "zh": "它们直接吃叶子"
+        },
+        {
+          "en": "They use them as umbrellas",
+          "zh": "它们把叶子当雨伞"
+        },
+        {
+          "en": "They build their nests from them according to some versions of the story",
+          "zh": "它们用叶子筑巢（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -102,12 +162,24 @@
         "zh": "什么是“附生植物（epiphyte）”？"
       },
       "options": [
-        {"en": "A plant that grows on top of other plants", "zh": "一种生长在其他植物之上的植物"},
-        {"en": "A type of fish", "zh": "一种鱼"},
-        {"en": "A kind of monkey", "zh": "一种猴子"},
-        {"en": "A layer of the rainforest floor", "zh": "雨林地面的一层"}
+        {
+          "en": "A layer of the rainforest floor according to some versions of the story",
+          "zh": "雨林地面的一层（按书中另一种说法）"
+        },
+        {
+          "en": "A kind of monkey",
+          "zh": "一种猴子"
+        },
+        {
+          "en": "A plant that grows on top of other plants",
+          "zh": "一种生长在其他植物之上的植物"
+        },
+        {
+          "en": "A type of fish",
+          "zh": "一种鱼"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book defines epiphytes as plants that grow on top of other plants, often seen covering canopy trees.",
@@ -120,12 +192,24 @@
         "zh": "书中把哪种动物描述为美洲最大的鹰？"
       },
       "options": [
-        {"en": "The harpy eagle", "zh": "角雕（harpy eagle）"},
-        {"en": "The bald eagle", "zh": "白头海雕"},
-        {"en": "The owl", "zh": "猫头鹰"},
-        {"en": "The hawk", "zh": "隼"}
+        {
+          "en": "The hawk",
+          "zh": "隼"
+        },
+        {
+          "en": "The owl",
+          "zh": "猫头鹰"
+        },
+        {
+          "en": "The bald eagle according to some versions of the story",
+          "zh": "白头海雕（按书中另一种说法）"
+        },
+        {
+          "en": "The harpy eagle",
+          "zh": "角雕（harpy eagle）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In the spotlight interview, the harpy eagle says it is the largest eagle in the Americas, about one meter tall with a two-meter wingspan.",
@@ -138,12 +222,24 @@
         "zh": "吼猴为何能发出如此响亮的吼叫？"
       },
       "options": [
-        {"en": "It has a special bone in its windpipe that works like a sound box", "zh": "它的气管里有一块特殊的骨头，像音箱一样"},
-        {"en": "It eats very spicy food", "zh": "它吃了很辣的食物"},
-        {"en": "It has the biggest lungs of any animal", "zh": "它拥有所有动物中最大的肺"},
-        {"en": "It uses a microphone", "zh": "它用了麦克风"}
+        {
+          "en": "It has the biggest lungs of any animal according to some versions of the story",
+          "zh": "它拥有所有动物中最大的肺（按书中另一种说法）"
+        },
+        {
+          "en": "It eats very spicy food",
+          "zh": "它吃了很辣的食物"
+        },
+        {
+          "en": "It has a special bone in its windpipe that works like a sound box",
+          "zh": "它的气管里有一块特殊的骨头，像音箱一样"
+        },
+        {
+          "en": "It uses a microphone",
+          "zh": "它用了麦克风"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The howler monkey explains it has a special bone in its windpipe, and its throat is like a hollow sound box, making it very loud.",
@@ -156,10 +252,22 @@
         "zh": "雨林植物如何处理空气中的二氧化碳？"
       },
       "options": [
-        {"en": "They take it in and replace it with oxygen", "zh": "它们吸收二氧化碳，并释放出氧气"},
-        {"en": "They turn it into water", "zh": "它们把它变成水"},
-        {"en": "They store it as sugar", "zh": "它们把它储存成糖"},
-        {"en": "They ignore it", "zh": "它们对它不加理会"}
+        {
+          "en": "They take it in and replace it with oxygen",
+          "zh": "它们吸收二氧化碳，并释放出氧气"
+        },
+        {
+          "en": "They store it as sugar according to some versions of the story",
+          "zh": "它们把它储存成糖（按书中另一种说法）"
+        },
+        {
+          "en": "They ignore it",
+          "zh": "它们对它不加理会"
+        },
+        {
+          "en": "They turn it into water",
+          "zh": "它们把它变成水"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -174,12 +282,24 @@
         "zh": "根据书中内容，亚马孙为何被称为“宝藏”？"
       },
       "options": [
-        {"en": "It holds countless unnamed species and gives us food, medicine, rubber, and oxygen", "zh": "它拥有无数尚未命名的物种，并为我们提供食物、药物、橡胶和氧气"},
-        {"en": "It is full of gold and jewels", "zh": "它到处是黄金和珠宝"},
-        {"en": "It has the tallest buildings", "zh": "它有最高的建筑"},
-        {"en": "It is the driest place on Earth", "zh": "它是地球上最干旱的地方"}
+        {
+          "en": "It is the driest place on Earth according to some versions of the story in an early draft of the book",
+          "zh": "它是地球上最干旱的地方（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It holds countless unnamed species and gives us food, medicine, rubber, and oxygen",
+          "zh": "它拥有无数尚未命名的物种，并为我们提供食物、药物、橡胶和氧气"
+        },
+        {
+          "en": "It is full of gold and jewels",
+          "zh": "它到处是黄金和珠宝"
+        },
+        {
+          "en": "It has the tallest buildings",
+          "zh": "它有最高的建筑"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book calls the Amazon a treasure because insects are still unnamed, plants recycle CO2 into oxygen, and bananas, chocolate, rubber, and medicines come from it.",

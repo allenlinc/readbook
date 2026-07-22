@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "A family rents a llama for a special job",
-          "zh": "一家人租了一只羊驼来完成一项特别的任务"
+          "en": "A llama runs away from home according to some versions of the story",
+          "zh": "一只羊驼离家出走（按书中另一种说法）"
         },
         {
-          "en": "A llama runs away from home",
-          "zh": "一只羊驼离家出走"
+          "en": "A family rents a llama for a special job",
+          "zh": "一家人租了一只羊驼来完成一项特别的任务"
         },
         {
           "en": "A boy buys a car",
@@ -29,7 +29,7 @@
           "zh": "一只猫学会了游泳"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The story follows a family that rents a llama, showing how the animal helps them with a task.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "Because they lost their dog",
+          "zh": "因为他们弄丢了狗"
+        },
+        {
           "en": "Because they need help with carrying or a job",
           "zh": "因为他们需要帮助来搬运东西或完成一项工作"
         },
         {
-          "en": "Because they want a pet to sleep with",
-          "zh": "因为他们想要一只陪睡的宠物"
+          "en": "Because they want a pet to sleep with according to some versions of the story",
+          "zh": "因为他们想要一只陪睡的宠物（按书中另一种说法）"
         },
         {
           "en": "Because they are opening a school",
           "zh": "因为他们正在开办一所学校"
-        },
-        {
-          "en": "Because they lost their dog",
-          "zh": "因为他们弄丢了狗"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book shows the family renting a llama because they need an animal that can help with work, such as carrying loads.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "To pay to use something for a while",
-          "zh": "付钱在一段时间内使用某物"
-        },
-        {
-          "en": "To give something away for free",
-          "zh": "免费送出某物"
-        },
-        {
           "en": "To throw something away",
           "zh": "把某物扔掉"
         },
         {
+          "en": "To give something away for free according to some versions of the story",
+          "zh": "免费送出某物（按书中另一种说法）"
+        },
+        {
           "en": "To build something new",
           "zh": "建造新东西"
+        },
+        {
+          "en": "To pay to use something for a while",
+          "zh": "付钱在一段时间内使用某物"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The story uses 'rent' to mean paying for the temporary use of the llama rather than buying it.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "By driving a bus",
+          "zh": "通过开公交车"
+        },
+        {
+          "en": "By painting a house according to some versions of the story",
+          "zh": "通过粉刷房子（按书中另一种说法）"
+        },
+        {
           "en": "By carrying things as they walk",
           "zh": "通过在行走时帮他们驮东西"
         },
         {
           "en": "By cooking dinner",
           "zh": "通过做晚饭"
-        },
-        {
-          "en": "By driving a bus",
-          "zh": "通过开公交车"
-        },
-        {
-          "en": "By painting a house",
-          "zh": "通过粉刷房子"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book describes the llama carrying packs or loads, making the family's work easier as they travel.",
@@ -137,16 +137,16 @@
           "zh": "行李太重，一个人搬不动"
         },
         {
-          "en": "It starts to snow indoors",
-          "zh": "室内开始下雪"
-        },
-        {
-          "en": "They forget how to read",
-          "zh": "他们忘了怎么阅读"
+          "en": "They forget how to read according to some versions of the story",
+          "zh": "他们忘了怎么阅读（按书中另一种说法）"
         },
         {
           "en": "Their car breaks down",
           "zh": "他们的汽车坏了"
+        },
+        {
+          "en": "It starts to snow indoors",
+          "zh": "室内开始下雪"
         }
       ],
       "answer": 0,
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "By showing it flies",
+          "zh": "通过展现它会飞"
+        },
+        {
           "en": "By describing its calm and helpful behavior",
           "zh": "通过描写它冷静而乐于助人的行为"
         },
@@ -171,15 +175,11 @@
           "zh": "通过说它会说话"
         },
         {
-          "en": "By showing it flies",
-          "zh": "通过展现它会飞"
-        },
-        {
-          "en": "By making it the villain",
-          "zh": "通过把它写成反派"
+          "en": "By making it the villain according to some versions of the story",
+          "zh": "通过把它写成反派（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The author reveals the llama's gentle, steady nature through its actions as it helps without complaint.",
@@ -197,16 +197,16 @@
           "zh": "任务完成后的快乐与满足感"
         },
         {
-          "en": "A scary feeling of danger",
-          "zh": "危险带来的恐惧感"
-        },
-        {
-          "en": "A sad feeling of loss",
-          "zh": "失去带来的悲伤"
+          "en": "A scary feeling of danger according to some versions of the story",
+          "zh": "危险带来的恐惧感（按书中另一种说法）"
         },
         {
           "en": "A confusing feeling",
           "zh": "困惑的感觉"
+        },
+        {
+          "en": "A sad feeling of loss",
+          "zh": "失去带来的悲伤"
         }
       ],
       "answer": 0,
@@ -227,12 +227,12 @@
           "zh": "为了让故事新奇而有趣"
         },
         {
-          "en": "Because horses cannot be rented",
-          "zh": "因为马不能被租"
+          "en": "Because the story is set on the moon according to some versions of the story",
+          "zh": "因为故事发生在月球上（按书中另一种说法）"
         },
         {
-          "en": "Because the story is set on the moon",
-          "zh": "因为故事发生在月球上"
+          "en": "Because horses cannot be rented",
+          "zh": "因为马不能被租"
         },
         {
           "en": "Because llamas are faster than cars",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "That help from others makes hard work easier",
-          "zh": "他人的帮助能让艰苦的工作变得轻松"
-        },
-        {
           "en": "That llamas should live alone",
           "zh": "羊驼应该独居"
+        },
+        {
+          "en": "That you should never ask for help according to some versions of the story",
+          "zh": "永远不应该求助（按书中另一种说法）"
         },
         {
           "en": "That carrying heavy things is fun",
           "zh": "搬重物很有趣"
         },
         {
-          "en": "That you should never ask for help",
-          "zh": "永远不应该求助"
+          "en": "That help from others makes hard work easier",
+          "zh": "他人的帮助能让艰苦的工作变得轻松"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Through the family's experience, the story teaches that working together and accepting help makes tough jobs manageable.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "The rented llama carries the load for the family",
-          "zh": "租来的羊驼为这家人驮起了行李"
-        },
-        {
           "en": "A stranger buys them a car",
           "zh": "一位陌生人给他们买了辆汽车"
         },
         {
-          "en": "They leave the load behind",
-          "zh": "他们把行李丢下了"
+          "en": "It starts to rain and washes it away according to some versions of the story",
+          "zh": "开始下雨，把行李冲走了（按书中另一种说法）"
         },
         {
-          "en": "It starts to rain and washes it away",
-          "zh": "开始下雨，把行李冲走了"
+          "en": "The rented llama carries the load for the family",
+          "zh": "租来的羊驼为这家人驮起了行李"
+        },
+        {
+          "en": "They leave the load behind",
+          "zh": "他们把行李丢下了"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The story resolves its problem when the llama takes on the heavy load, letting the family finish their trip.",

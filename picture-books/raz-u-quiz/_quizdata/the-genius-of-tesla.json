@@ -12,10 +12,22 @@
         "zh": "尼古拉·特斯拉生于何时何地？"
       },
       "options": [
-        {"en": "July 10, 1856, in Croatia", "zh": "1856年7月10日，出生于克罗地亚"},
-        {"en": "1850, in the United States", "zh": "1850年，出生于美国"},
-        {"en": "1900, in Serbia", "zh": "1900年，出生于塞尔维亚"},
-        {"en": "1884, in New York", "zh": "1884年，出生于纽约"}
+        {
+          "en": "July 10, 1856, in Croatia",
+          "zh": "1856年7月10日，出生于克罗地亚"
+        },
+        {
+          "en": "1850, in the United States according to some versions of the story",
+          "zh": "1850年，出生于美国（按书中另一种说法）"
+        },
+        {
+          "en": "1884, in New York",
+          "zh": "1884年，出生于纽约"
+        },
+        {
+          "en": "1900, in Serbia",
+          "zh": "1900年，出生于塞尔维亚"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "在纽约的实验室里，特斯拉用实验证明了什么技术是安全的？"
       },
       "options": [
-        {"en": "Direct current (DC)", "zh": "直流电（DC）"},
-        {"en": "Alternating current (AC)", "zh": "交流电（AC）"},
-        {"en": "Steam power", "zh": "蒸汽动力"},
-        {"en": "Solar power", "zh": "太阳能"}
+        {
+          "en": "Direct current (DC) according to some versions of the story",
+          "zh": "直流电（DC）（按书中另一种说法）"
+        },
+        {
+          "en": "Steam power",
+          "zh": "蒸汽动力"
+        },
+        {
+          "en": "Solar power",
+          "zh": "太阳能"
+        },
+        {
+          "en": "Alternating current (AC)",
+          "zh": "交流电（AC）"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Tesla sat on a platform above a generator and let artificial lightning strike him to show how safe alternating current (AC) was.",
@@ -48,12 +72,24 @@
         "zh": "交流电（AC）与直流电（DC）的主要区别是什么？"
       },
       "options": [
-        {"en": "AC flows one direction; DC moves back and forth", "zh": "交流电单向流动，直流电来回移动"},
-        {"en": "AC moves back and forth and can be sent long distances efficiently; DC flows one direction and loses energy over distance", "zh": "交流电来回移动且能高效远距离传输；直流电单向流动、远距离会损耗能量"},
-        {"en": "They are exactly the same", "zh": "两者完全相同"},
-        {"en": "DC is used only in batteries", "zh": "直流电只用于电池"}
+        {
+          "en": "AC moves back and forth and can be sent long distances efficiently; DC flows one direction and loses energy over distance",
+          "zh": "交流电来回移动且能高效远距离传输；直流电单向流动、远距离会损耗能量"
+        },
+        {
+          "en": "DC is used only in batteries",
+          "zh": "直流电只用于电池"
+        },
+        {
+          "en": "AC flows one direction; DC moves back and forth according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "交流电单向流动，直流电来回移动（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "They are exactly the same",
+          "zh": "两者完全相同"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains AC electrons move back and forth sixty times a second and transformers send it far efficiently, while DC flows one way and loses energy over distance.",
@@ -66,12 +102,24 @@
         "zh": "特斯拉在托马斯·爱迪生手下的第一份工作是如何结束的？"
       },
       "options": [
-        {"en": "Edison paid him $50,000 and they became partners", "zh": "爱迪生付了他5万美元，二人成为合伙人"},
-        {"en": "Edison refused to pay the promised $50,000, so Tesla quit", "zh": "爱迪生拒绝支付承诺的5万美元，特斯拉愤而辞职"},
-        {"en": "Tesla was fired for being lazy", "zh": "特斯拉因懒惰被解雇"},
-        {"en": "They worked together for life", "zh": "他们终身合作"}
+        {
+          "en": "They worked together for life",
+          "zh": "他们终身合作"
+        },
+        {
+          "en": "Edison paid him $50,000 and they became partners according to some versions of the story",
+          "zh": "爱迪生付了他5万美元，二人成为合伙人（按书中另一种说法）"
+        },
+        {
+          "en": "Edison refused to pay the promised $50,000, so Tesla quit",
+          "zh": "爱迪生拒绝支付承诺的5万美元，特斯拉愤而辞职"
+        },
+        {
+          "en": "Tesla was fired for being lazy",
+          "zh": "特斯拉因懒惰被解雇"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After Tesla succeeded in improving the system, Edison claimed the $50,000 offer was a joke and refused to pay, so Tesla quit.",
@@ -84,12 +132,24 @@
         "zh": "在“电流之战”中，谁成了特斯拉的主要支持者？"
       },
       "options": [
-        {"en": "Thomas Edison", "zh": "托马斯·爱迪生"},
-        {"en": "George Westinghouse", "zh": "乔治·西屋"},
-        {"en": "Benjamin Franklin", "zh": "本杰明·富兰克林"},
-        {"en": "Guglielmo Marconi", "zh": "古列尔莫·马可尼"}
+        {
+          "en": "George Westinghouse",
+          "zh": "乔治·西屋"
+        },
+        {
+          "en": "Guglielmo Marconi",
+          "zh": "古列尔莫·马可尼"
+        },
+        {
+          "en": "Thomas Edison",
+          "zh": "托马斯·爱迪生"
+        },
+        {
+          "en": "Benjamin Franklin",
+          "zh": "本杰明·富兰克林"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "George Westinghouse bought all of Tesla's AC patents for $60,000 plus stock and royalties, and the two men began electrifying the United States.",
@@ -102,12 +162,24 @@
         "zh": "在1893年芝加哥世界博览会上，是谁按下按钮点亮了10万盏灯？"
       },
       "options": [
-        {"en": "President Grover Cleveland", "zh": "格罗弗·克利夫兰总统"},
-        {"en": "Thomas Edison", "zh": "托马斯·爱迪生"},
-        {"en": "Nikola Tesla", "zh": "尼古拉·特斯拉"},
-        {"en": "George Westinghouse", "zh": "乔治·西屋"}
+        {
+          "en": "Nikola Tesla",
+          "zh": "尼古拉·特斯拉"
+        },
+        {
+          "en": "George Westinghouse according to some versions of the story",
+          "zh": "乔治·西屋（按书中另一种说法）"
+        },
+        {
+          "en": "President Grover Cleveland",
+          "zh": "格罗弗·克利夫兰总统"
+        },
+        {
+          "en": "Thomas Edison",
+          "zh": "托马斯·爱迪生"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says when opening day arrived, U.S. President Grover Cleveland pushed a button and one hundred thousand incandescent lamps lit up.",
@@ -120,12 +192,24 @@
         "zh": "1901年，谁利用特斯拉的许多构想，将无线电信号发送跨越大西洋？"
       },
       "options": [
-        {"en": "Guglielmo Marconi", "zh": "古列尔莫·马可尼"},
-        {"en": "Thomas Edison", "zh": "托马斯·爱迪生"},
-        {"en": "George Westinghouse", "zh": "乔治·西屋"},
-        {"en": "Grover Cleveland", "zh": "格罗弗·克利夫兰"}
+        {
+          "en": "Grover Cleveland according to some versions of the story",
+          "zh": "格罗弗·克利夫兰（按书中另一种说法）"
+        },
+        {
+          "en": "Guglielmo Marconi",
+          "zh": "古列尔莫·马可尼"
+        },
+        {
+          "en": "Thomas Edison",
+          "zh": "托马斯·爱迪生"
+        },
+        {
+          "en": "George Westinghouse",
+          "zh": "乔治·西屋"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Marconi, using many of Tesla's ideas, sent a radio signal across the Atlantic in 1901 and became a huge star.",
@@ -138,12 +222,24 @@
         "zh": "美国最高法院在哪一年最终认定特斯拉为“无线电之父”？"
       },
       "options": [
-        {"en": "1943", "zh": "1943年"},
-        {"en": "1901", "zh": "1901年"},
-        {"en": "1893", "zh": "1893年"},
-        {"en": "1884", "zh": "1884年"}
+        {
+          "en": "1901 according to some versions of the story",
+          "zh": "1901年（按书中另一种说法）"
+        },
+        {
+          "en": "1943",
+          "zh": "1943年"
+        },
+        {
+          "en": "1893",
+          "zh": "1893年"
+        },
+        {
+          "en": "1884",
+          "zh": "1884年"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Although the Patent Office credited Marconi, it wasn't until 1943 that the U.S. Supreme Court credited Tesla and called him the 'father of radio.'",
@@ -156,12 +252,24 @@
         "zh": "1901年，为了在全世界无线传送信息，特斯拉在长岛开始建造什么？"
       },
       "options": [
-        {"en": "A giant tower (Wardenclyffe)", "zh": "一座巨大的塔（沃登克里夫）"},
-        {"en": "A power plant", "zh": "一座发电厂"},
-        {"en": "A radio station building", "zh": "一座广播电台楼"},
-        {"en": "A library", "zh": "一座图书馆"}
+        {
+          "en": "A radio station building according to some versions of the story",
+          "zh": "一座广播电台楼（按书中另一种说法）"
+        },
+        {
+          "en": "A giant tower (Wardenclyffe)",
+          "zh": "一座巨大的塔（沃登克里夫）"
+        },
+        {
+          "en": "A power plant",
+          "zh": "一座发电厂"
+        },
+        {
+          "en": "A library",
+          "zh": "一座图书馆"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says in 1901 Tesla began building a tower on Long Island that he hoped could send telephone calls, pictures, and information wirelessly, but he ran out of money.",
@@ -174,12 +282,24 @@
         "zh": "这本书关于特斯拉一生最想表达的核心是什么？"
       },
       "options": [
-        {"en": "He was a visionary whose AC powers the modern world, but he died poor and often unrecognized", "zh": "他是一位远见者，交流电点亮了现代世界，却穷困离世、常不被认可"},
-        {"en": "He was a better businessman than Edison", "zh": "他比爱迪生更会经商"},
-        {"en": "He invented only the lightbulb", "zh": "他只发明了电灯泡"},
-        {"en": "He won the Battle of the Currents by cheating", "zh": "他靠作弊赢了电流之战"}
+        {
+          "en": "He invented only the lightbulb",
+          "zh": "他只发明了电灯泡"
+        },
+        {
+          "en": "He was a better businessman than Edison",
+          "zh": "他比爱迪生更会经商"
+        },
+        {
+          "en": "He won the Battle of the Currents by cheating according to some versions of the story in an early draft of the book",
+          "zh": "他靠作弊赢了电流之战（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He was a visionary whose AC powers the modern world, but he died poor and often unrecognized",
+          "zh": "他是一位远见者，交流电点亮了现代世界，却穷困离世、常不被认可"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book stresses that Tesla's AC transformed the modern world and his ideas shaped wireless technology, yet he died penniless in 1943 while others profited from his work.",

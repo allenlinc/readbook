@@ -25,8 +25,8 @@
           "zh": "印度的一个地区"
         },
         {
-          "en": "A group of islands in the Pacific",
-          "zh": "太平洋上的一组岛屿"
+          "en": "A group of islands in the Pacific according to some versions of the story",
+          "zh": "太平洋上的一组岛屿（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "1999, at age 30 according to some versions of the story",
+          "zh": "1999年，30岁（按书中另一种说法）"
+        },
+        {
           "en": "1972, at age 16",
           "zh": "1972年，16岁"
         },
@@ -51,15 +55,11 @@
           "zh": "2008年，16岁"
         },
         {
-          "en": "1999, at age 30",
-          "zh": "1999年，30岁"
-        },
-        {
           "en": "1968, at age 10",
           "zh": "1968年，10岁"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "He became king in 1972 at the age of sixteen and introduced the idea of Gross National Happiness.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Gross National Happiness (GNH)",
-          "zh": "国民幸福总值（GNH）"
-        },
-        {
-          "en": "Gross Domestic Product",
-          "zh": "国内生产总值（GDP）"
-        },
-        {
           "en": "National Income Index",
           "zh": "国民收入指数"
         },
         {
           "en": "Human Development Score",
           "zh": "人类发展指数"
+        },
+        {
+          "en": "Gross Domestic Product according to some versions of the story",
+          "zh": "国内生产总值（GDP）（按书中另一种说法）"
+        },
+        {
+          "en": "Gross National Happiness (GNH)",
+          "zh": "国民幸福总值（GNH）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "King Wangchuck felt GDP was wrong for Bhutan and promoted Gross National Happiness instead.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "Mountains, rivers, forests, and cities",
+          "zh": "山脉、河流、森林与城市"
+        },
+        {
           "en": "Good governance, sustainable development, cultural preservation, and environmental conservation",
           "zh": "善治、可持续经济社会发展、文化保护与弘扬、环境保护"
         },
         {
+          "en": "Farming, archery, meditation, and trade according to some versions of the story in an early draft of the book",
+          "zh": "农耕、射箭、冥想与贸易（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "Wealth, tourism, education, and health",
           "zh": "财富、旅游、教育与健康"
-        },
-        {
-          "en": "Farming, archery, meditation, and trade",
-          "zh": "农耕、射箭、冥想与贸易"
-        },
-        {
-          "en": "Mountains, rivers, forests, and cities",
-          "zh": "山脉、河流、森林与城市"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The four pillars are good governance, sustainable socioeconomic development, preservation of culture, and environmental conservation.",
@@ -141,12 +141,12 @@
           "zh": "拥挤而繁忙"
         },
         {
-          "en": "Very wealthy",
-          "zh": "非常富有"
+          "en": "Located near the coast according to some versions of the story",
+          "zh": "位于海岸附近（按书中另一种说法）"
         },
         {
-          "en": "Located near the coast",
-          "zh": "位于海岸附近"
+          "en": "Very wealthy",
+          "zh": "非常富有"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "The king and government ministers according to some versions of the story",
+          "zh": "国王与政府部长（按书中另一种说法）"
+        },
+        {
+          "en": "Tourists and monks",
+          "zh": "游客与僧侣"
+        },
+        {
           "en": "Women, farmers, uneducated people, and the elderly",
           "zh": "女性、农民、未受教育者和老年人"
         },
         {
           "en": "Men, teachers, and children",
           "zh": "男性、教师和儿童"
-        },
-        {
-          "en": "The king and government ministers",
-          "zh": "国王与政府部长"
-        },
-        {
-          "en": "Tourists and monks",
-          "zh": "游客与僧侣"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The survey found women, farmers, and people who were uneducated or elderly were among the least happy groups.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "To show how Bhutan protects its traditional, less-modern way of life",
-          "zh": "为了展现不丹如何保护其传统、不那么现代的生活方式"
-        },
-        {
-          "en": "To criticize Bhutan's roads",
-          "zh": "为了批评不丹的道路"
-        },
-        {
-          "en": "To explain traffic accidents",
-          "zh": "为了解释交通事故"
+          "en": "To criticize Bhutan's roads according to some versions of the story in an early draft of the book",
+          "zh": "为了批评不丹的道路（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To prove Bhutan is poor",
           "zh": "为了证明不丹贫穷"
+        },
+        {
+          "en": "To show how Bhutan protects its traditional, less-modern way of life",
+          "zh": "为了展现不丹如何保护其传统、不那么现代的生活方式"
+        },
+        {
+          "en": "To explain traffic accidents",
+          "zh": "为了解释交通事故"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The detail illustrates Bhutan's choice to keep traditional, slower-paced customs over modern changes.",
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "France, Germany, Italy, and Spain",
+          "zh": "法国、德国、意大利和西班牙"
+        },
+        {
           "en": "Thailand, South Korea, Great Britain, and the United States",
           "zh": "泰国、韩国、英国和美国"
         },
@@ -231,15 +235,11 @@
           "zh": "中国、印度、尼泊尔和不丹"
         },
         {
-          "en": "France, Germany, Italy, and Spain",
-          "zh": "法国、德国、意大利和西班牙"
-        },
-        {
-          "en": "Japan, Russia, Canada, and Mexico",
-          "zh": "日本、俄罗斯、加拿大和墨西哥"
+          "en": "Japan, Russia, Canada, and Mexico according to some versions of the story",
+          "zh": "日本、俄罗斯、加拿大和墨西哥（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states Thailand (2007), South Korea, Great Britain, and a major U.S. survey company all used Bhutan's GNH idea.",
@@ -257,12 +257,12 @@
           "zh": "国际幸福日"
         },
         {
-          "en": "Bhutan's independence day",
-          "zh": "不丹的独立日"
+          "en": "The start of spring planting according to some versions of the story",
+          "zh": "春耕开始之日（按书中另一种说法）"
         },
         {
-          "en": "The start of spring planting",
-          "zh": "春耕开始之日"
+          "en": "Bhutan's independence day",
+          "zh": "不丹的独立日"
         },
         {
           "en": "The king's birthday",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Denmark",
-          "zh": "丹麦"
-        },
-        {
           "en": "The United States",
           "zh": "美国"
+        },
+        {
+          "en": "Switzerland",
+          "zh": "瑞士"
         },
         {
           "en": "Bhutan",
           "zh": "不丹"
         },
         {
-          "en": "Switzerland",
-          "zh": "瑞士"
+          "en": "Denmark",
+          "zh": "丹麦"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The report's top ten lists Denmark first; the U.S. ranked 13th and Bhutan 84th.",

@@ -17,16 +17,16 @@
           "zh": "大火烧毁了公园44.5%的面积。"
         },
         {
+          "en": "The park was closed forever.",
+          "zh": "公园被永久关闭。"
+        },
+        {
           "en": "A flood covered the park.",
           "zh": "洪水淹没了公园。"
         },
         {
-          "en": "A snowstorm buried the trees.",
-          "zh": "暴风雪压垮了树木。"
-        },
-        {
-          "en": "The park was closed forever.",
-          "zh": "公园被永久关闭。"
+          "en": "A snowstorm buried the trees. according to some versions of the story",
+          "zh": "暴风雪压垮了树木。（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -47,16 +47,16 @@
           "zh": "地表火、地面火和树冠火。"
         },
         {
-          "en": "Ice fires, water fires, and wind fires.",
-          "zh": "冰火、水火和风火。"
+          "en": "City fires, farm fires, and house fires. according to some versions of the story",
+          "zh": "城市、农场和房屋火灾。（按书中另一种说法）"
         },
         {
           "en": "Red fires, blue fires, and green fires.",
           "zh": "红色、蓝色和绿色火灾。"
         },
         {
-          "en": "City fires, farm fires, and house fires.",
-          "zh": "城市、农场和房屋火灾。"
+          "en": "Ice fires, water fires, and wind fires.",
+          "zh": "冰火、水火和风火。"
         }
       ],
       "answer": 0,
@@ -73,12 +73,12 @@
       },
       "options": [
         {
-          "en": "Great damage or destruction.",
-          "zh": "巨大的破坏或损毁。"
+          "en": "A small rain shower. according to some versions of the story",
+          "zh": "一场小雨。（按书中另一种说法）"
         },
         {
-          "en": "A small rain shower.",
-          "zh": "一场小雨。"
+          "en": "Great damage or destruction.",
+          "zh": "巨大的破坏或损毁。"
         },
         {
           "en": "A kind of tree.",
@@ -89,7 +89,7 @@
           "zh": "一件高兴的事。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines devastation as great damage or destruction.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Lightning strikes.",
-          "zh": "闪电。"
-        },
-        {
           "en": "Earthquakes.",
           "zh": "地震。"
+        },
+        {
+          "en": "Lightning strikes.",
+          "zh": "闪电。"
         },
         {
           "en": "Volcanoes.",
           "zh": "火山。"
         },
         {
-          "en": "Hurricanes only.",
-          "zh": "只有飓风。"
+          "en": "Hurricanes only. according to some versions of the story",
+          "zh": "只有飓风。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says lightning is the leading natural cause of wildfires.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "It returns nutrients to soil and helps some trees like lodgepole pines reproduce.",
-          "zh": "它把养分还给土壤，并帮助某些树（如黑松）繁殖。"
+          "en": "It makes the forest colder.",
+          "zh": "它让森林更冷。"
+        },
+        {
+          "en": "It stops all plant growth. according to some versions of the story in an early draft of the book",
+          "zh": "它阻止所有植物生长。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "It kills all the animals.",
           "zh": "它杀死所有动物。"
         },
         {
-          "en": "It makes the forest colder.",
-          "zh": "它让森林更冷。"
-        },
-        {
-          "en": "It stops all plant growth.",
-          "zh": "它阻止所有植物生长。"
+          "en": "It returns nutrients to soil and helps some trees like lodgepole pines reproduce.",
+          "zh": "它把养分还给土壤，并帮助某些树（如黑松）繁殖。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Fire fights invasive plants, adds nutrients from ash, and lodgepole pines need fire to open their cones.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "To describe a holiday.",
+          "zh": "为了描写一个节日。"
+        },
+        {
           "en": "To show how people's attitudes toward fire changed over time.",
           "zh": "为了说明人们对火的态度随时间改变。"
         },
         {
-          "en": "To prove fire is always good.",
-          "zh": "为了证明火总是好的。"
+          "en": "To prove fire is always good. according to some versions of the story",
+          "zh": "为了证明火总是好的。（按书中另一种说法）"
         },
         {
           "en": "To explain how to cook food.",
           "zh": "为了解释如何做饭。"
-        },
-        {
-          "en": "To describe a holiday.",
-          "zh": "为了描写一个节日。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The rule reflects the old belief that all fire is destructive, an attitude the book later questions.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Built-up debris makes fires more severe and hard to control.",
-          "zh": "堆积的残骸让火势更猛、更难控制。"
-        },
-        {
-          "en": "It makes the forest prettier.",
-          "zh": "它让森林更漂亮。"
+          "en": "It prevents all fires.",
+          "zh": "它阻止一切火灾。"
         },
         {
           "en": "It helps trees grow faster.",
           "zh": "它帮助树长得更快。"
         },
         {
-          "en": "It prevents all fires.",
-          "zh": "它阻止一切火灾。"
+          "en": "It makes the forest prettier. according to some versions of the story",
+          "zh": "它让森林更漂亮。（按书中另一种说法）"
+        },
+        {
+          "en": "Built-up debris makes fires more severe and hard to control.",
+          "zh": "堆积的残骸让火势更猛、更难控制。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Without fire, needles and logs build up, making any fire that starts almost impossible to control.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "Fires clean the streets.",
+          "zh": "火能清扫街道。"
+        },
+        {
+          "en": "Fires make the air smell good. according to some versions of the story",
+          "zh": "火让空气变好闻。（按书中另一种说法）"
+        },
+        {
           "en": "Many homes have been built in wildlands, so fires threaten them.",
           "zh": "许多房屋建在荒野边，火会威胁这些住房。"
         },
         {
-          "en": "Fires make the air smell good.",
-          "zh": "火让空气变好闻。"
-        },
-        {
           "en": "People like to watch fires.",
           "zh": "人们喜欢看火。"
-        },
-        {
-          "en": "Fires clean the streets.",
-          "zh": "火能清扫街道。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Between 1990 and 2008, 10 million homes were built near wildlands at high risk of wildfire.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "10 million.",
-          "zh": "1000万套。"
-        },
-        {
-          "en": "1 thousand.",
-          "zh": "1000套。"
-        },
-        {
           "en": "100 million.",
           "zh": "1亿套。"
         },
         {
           "en": "500.",
           "zh": "500套。"
+        },
+        {
+          "en": "10 million.",
+          "zh": "1000万套。"
+        },
+        {
+          "en": "1 thousand. according to some versions of the story",
+          "zh": "1000套。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states 10 million homes were built in U.S. wildlands near urban areas by 2008.",
@@ -287,8 +287,8 @@
           "zh": "它虽有破坏力也有益处，在大自然中自有其作用。"
         },
         {
-          "en": "All fire should always be put out.",
-          "zh": "所有火都应被扑灭。"
+          "en": "All fire should always be put out. according to some versions of the story in an early draft of the book",
+          "zh": "所有火都应被扑灭。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Fire is never useful.",

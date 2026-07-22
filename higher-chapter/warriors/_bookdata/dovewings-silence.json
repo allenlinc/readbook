@@ -9,10 +9,22 @@
         "zh": "《鸽翅的沉默》（Dovewing's Silence）发生在什么时候？"
       },
       "options": [
-        {"en": "Before the Dark Forest battle", "zh": "黑森林之战前"},
-        {"en": "Right after the Great Battle (The Last Hope)", "zh": "大战（《最终希望》）刚刚结束之后"},
-        {"en": "During the Great Journey", "zh": "大旅程期间"},
-        {"en": "When she is still a kit", "zh": "她还是幼崽的时候"}
+        {
+          "en": "Before the Dark Forest battle according to some versions of the story",
+          "zh": "黑森林之战前（按书中另一种说法）"
+        },
+        {
+          "en": "Right after the Great Battle (The Last Hope)",
+          "zh": "大战（《最终希望》）刚刚结束之后"
+        },
+        {
+          "en": "During the Great Journey",
+          "zh": "大旅程期间"
+        },
+        {
+          "en": "When she is still a kit",
+          "zh": "她还是幼崽的时候"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -26,12 +38,24 @@
         "zh": "大战之后，鸽翅失去了什么？"
       },
       "options": [
-        {"en": "Her tail", "zh": "她的尾巴"},
-        {"en": "Her special powers of hearing and seeing far away", "zh": "她能远距离听和看的特殊力量"},
-        {"en": "Her sister", "zh": "她的姐妹"},
-        {"en": "Her home", "zh": "她的家园"}
+        {
+          "en": "Her sister according to some versions of the story",
+          "zh": "她的姐妹（按书中另一种说法）"
+        },
+        {
+          "en": "Her tail",
+          "zh": "她的尾巴"
+        },
+        {
+          "en": "Her special powers of hearing and seeing far away",
+          "zh": "她能远距离听和看的特殊力量"
+        },
+        {
+          "en": "Her home",
+          "zh": "她的家园"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "The prophecy is fulfilled, and Dovewing's gift of distant senses is gone.",
         "zh": "预言已经实现，鸽翅远距离感知的天赋消失了。"
@@ -43,12 +67,24 @@
         "zh": "失去力量让鸽翅有什么感受？"
       },
       "options": [
-        {"en": "Proud and strong", "zh": "骄傲又强大"},
-        {"en": "Lost and unsure of who she is", "zh": "迷失，不知自己是谁"},
-        {"en": "Happy to be free", "zh": "为获得自由而高兴"},
-        {"en": "Angry at StarClan", "zh": "对星族感到愤怒"}
+        {
+          "en": "Lost and unsure of who she is",
+          "zh": "迷失，不知自己是谁"
+        },
+        {
+          "en": "Proud and strong",
+          "zh": "骄傲又强大"
+        },
+        {
+          "en": "Angry at StarClan according to some versions of the story",
+          "zh": "对星族感到愤怒（按书中另一种说法）"
+        },
+        {
+          "en": "Happy to be free",
+          "zh": "为获得自由而高兴"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Without her gift, Dovewing feels ordinary and silent, and worries she has no special place in the Clan.",
         "zh": "没有了天赋，鸽翅觉得自己平凡又「沉默」，担心自己在族群中不再特别。"
@@ -60,10 +96,22 @@
         "zh": "鸽翅的哪位姐妹为她担忧并试图帮助她？"
       },
       "options": [
-        {"en": "Ivypool", "zh": "常春藤池（Ivypool）"},
-        {"en": "Squirrelflight", "zh": "松鼠飞（Squirrelflight）"},
-        {"en": "Leafpool", "zh": "叶池（Leafpool）"},
-        {"en": "Whitewing", "zh": "白翼（Whitewing）"}
+        {
+          "en": "Ivypool",
+          "zh": "常春藤池（Ivypool）"
+        },
+        {
+          "en": "Squirrelflight",
+          "zh": "松鼠飞（Squirrelflight）"
+        },
+        {
+          "en": "Leafpool",
+          "zh": "叶池（Leafpool）"
+        },
+        {
+          "en": "Whitewing",
+          "zh": "白翼（Whitewing）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -77,12 +125,24 @@
         "zh": "在大战中，是哪只猫为救常春藤池而牺牲？"
       },
       "options": [
-        {"en": "Hollyleaf", "zh": "冬青叶（Hollyleaf）"},
-        {"en": "Dovewing", "zh": "鸽翅（Dovewing）"},
-        {"en": "Briarlight", "zh": "荆棘光（Briarlight）"},
-        {"en": "Ferncloud", "zh": "蕨云（Ferncloud）"}
+        {
+          "en": "Briarlight",
+          "zh": "荆棘光（Briarlight）"
+        },
+        {
+          "en": "Ferncloud",
+          "zh": "蕨云（Ferncloud）"
+        },
+        {
+          "en": "Hollyleaf",
+          "zh": "冬青叶（Hollyleaf）"
+        },
+        {
+          "en": "Dovewing",
+          "zh": "鸽翅（Dovewing）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Hollyleaf gives her life to save Ivypool in the battle, and Dovewing reminds her sister of that sacrifice.",
         "zh": "冬青叶在战斗中为救常春藤池献出生命，鸽翅提醒姐妹别忘了这份牺牲。"
@@ -94,12 +154,24 @@
         "zh": "鸽翅在意的是影族的哪只公猫？"
       },
       "options": [
-        {"en": "Tigerheart", "zh": "虎心（Tigerheart）"},
-        {"en": "Blackstar", "zh": "黑星（Blackstar）"},
-        {"en": "Rowanclaw", "zh": "花楸爪（Rowanclaw）"},
-        {"en": "Flametail", "zh": "焰尾（Flametail）"}
+        {
+          "en": "Rowanclaw according to some versions of the story",
+          "zh": "花楸爪（Rowanclaw）（按书中另一种说法）"
+        },
+        {
+          "en": "Tigerheart",
+          "zh": "虎心（Tigerheart）"
+        },
+        {
+          "en": "Blackstar",
+          "zh": "黑星（Blackstar）"
+        },
+        {
+          "en": "Flametail",
+          "zh": "焰尾（Flametail）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Dovewing's feelings for Tigerheart, a ShadowClan warrior, remain important to her even in her silence.",
         "zh": "鸽翅对影族武士虎心的感情，即使在沉默中也依然重要。"
@@ -111,12 +183,24 @@
         "zh": "是谁告诉鸽翅，她的力量已不再被需要？"
       },
       "options": [
-        {"en": "Midnight the badger and the cat Rock", "zh": "獾午夜（Midnight）和猫洛克（Rock）"},
-        {"en": "Firestar", "zh": "火星（Firestar）"},
-        {"en": "Bluestar", "zh": "蓝星（Bluestar）"},
-        {"en": "Jayfeather", "zh": "松鸦羽（Jayfeather）"}
+        {
+          "en": "Firestar",
+          "zh": "火星（Firestar）"
+        },
+        {
+          "en": "Midnight the badger and the cat Rock",
+          "zh": "獾午夜（Midnight）和猫洛克（Rock）"
+        },
+        {
+          "en": "Jayfeather according to some versions of the story",
+          "zh": "松鸦羽（Jayfeather）（按书中另一种说法）"
+        },
+        {
+          "en": "Bluestar",
+          "zh": "蓝星（Bluestar）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Midnight and Rock explain to Dovewing, Lionblaze, and Jayfeather that the Three's powers have served their purpose.",
         "zh": "午夜和洛克向鸽翅、狮焰、松鸦羽解释说，「三力量」的使命已经完成。"
@@ -128,12 +212,24 @@
         "zh": "战后雷族内部因什么产生分裂，让鸽翅心烦？"
       },
       "options": [
-        {"en": "A fight over who gets the best prey", "zh": "争抢最好的猎物"},
-        {"en": "Clanmates distrust the cats who trained with the Dark Forest", "zh": "族员不信任那些曾受训于黑森林的猫"},
-        {"en": "A flood in the camp", "zh": "营地发大水"},
-        {"en": "A change of leader", "zh": "换了族长"}
+        {
+          "en": "A fight over who gets the best prey according to some versions of the story",
+          "zh": "争抢最好的猎物（按书中另一种说法）"
+        },
+        {
+          "en": "A flood in the camp",
+          "zh": "营地发大水"
+        },
+        {
+          "en": "A change of leader",
+          "zh": "换了族长"
+        },
+        {
+          "en": "Clanmates distrust the cats who trained with the Dark Forest",
+          "zh": "族员不信任那些曾受训于黑森林的猫"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Many cats distrust former Dark Forest trainees like Ivypool, and Dovewing hates the unfair divide.",
         "zh": "许多猫不信任像常春藤池这样曾受训于黑森林的猫，鸽翅厌恶这种不公的裂痕。"
@@ -145,12 +241,24 @@
         "zh": "鸽翅渐渐学会了接受什么？"
       },
       "options": [
-        {"en": "That she must leave the Clans", "zh": "她必须离开族群"},
-        {"en": "That she can be a valued warrior without her powers", "zh": "即使没有力量，她也能成为有价值的武士"},
-        {"en": "That she will never be a warrior", "zh": "她永远当不成武士"},
-        {"en": "That she must become a medicine cat", "zh": "她必须成为巫医"}
+        {
+          "en": "That she can be a valued warrior without her powers",
+          "zh": "即使没有力量，她也能成为有价值的武士"
+        },
+        {
+          "en": "That she must leave the Clans",
+          "zh": "她必须离开族群"
+        },
+        {
+          "en": "That she must become a medicine cat according to some versions of the story",
+          "zh": "她必须成为巫医（按书中另一种说法）"
+        },
+        {
+          "en": "That she will never be a warrior",
+          "zh": "她永远当不成武士"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Dovewing realizes her worth is not her gift, and she can serve her Clan as an ordinary warrior.",
         "zh": "鸽翅意识到自身价值不在天赋，作为普通武士也能为族群效力。"
@@ -162,12 +270,24 @@
         "zh": "故事结尾时，鸽翅对虎心是什么态度？"
       },
       "options": [
-        {"en": "She forgets about him", "zh": "她把他忘了"},
-        {"en": "She makes peace with him and her feelings for him remain", "zh": "她与他和解，对他的感情依旧"},
-        {"en": "She becomes his enemy", "zh": "她成了他的敌人"},
-        {"en": "She joins RiverClan with him", "zh": "她随他去河族"}
+        {
+          "en": "She forgets about him",
+          "zh": "她把他忘了"
+        },
+        {
+          "en": "She joins RiverClan with him according to some versions of the story",
+          "zh": "她随他去河族（按书中另一种说法）"
+        },
+        {
+          "en": "She becomes his enemy",
+          "zh": "她成了他的敌人"
+        },
+        {
+          "en": "She makes peace with him and her feelings for him remain",
+          "zh": "她与他和解，对他的感情依旧"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Dovewing understands that her love for Tigerheart can survive any challenge, and they make amends.",
         "zh": "鸽翅明白自己对虎心的爱能经受任何考验，两人和解如初。"

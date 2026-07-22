@@ -1,328 +1,328 @@
 {
- "slug": "alices-adventures-in-wonderland-part-7",
- "title": "Alice's Adventures in Wonderland (Part 7)",
- "titleZh": "爱丽丝梦游仙境（第7部分）",
- "level": "Y",
- "genre": "Fiction",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "What does the Duchess believe about everything she and Alice discuss?",
-    "zh": "公爵夫人对她和爱丽丝讨论的每件事持什么看法？"
-   },
-   "options": [
+  "slug": "alices-adventures-in-wonderland-part-7",
+  "title": "Alice's Adventures in Wonderland (Part 7)",
+  "titleZh": "爱丽丝梦游仙境（第7部分）",
+  "level": "Y",
+  "genre": "Fiction",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "That everything is a waste of time",
-     "zh": "每件事都是浪费时间"
+      "q": {
+        "en": "What does the Duchess believe about everything she and Alice discuss?",
+        "zh": "公爵夫人对她和爱丽丝讨论的每件事持什么看法？"
+      },
+      "options": [
+        {
+          "en": "That everything is a waste of time according to some versions of the story",
+          "zh": "每件事都是浪费时间（按书中另一种说法）"
+        },
+        {
+          "en": "That nothing matters",
+          "zh": "什么都不重要"
+        },
+        {
+          "en": "That only the Queen is right",
+          "zh": "只有王后是对的"
+        },
+        {
+          "en": "That everything has a moral, if only you can find it",
+          "zh": "只要你能找到，每件事都有寓意"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The Duchess says, 'Everything's got a moral, if only you can find it.'",
+        "zh": "公爵夫人说：'只要你能找到，每件事都有寓意。'"
+      }
     },
     {
-     "en": "That everything has a moral, if only you can find it",
-     "zh": "只要你能找到，每件事都有寓意"
+      "q": {
+        "en": "According to the Gryphon, do the executions the Queen orders actually take place?",
+        "zh": "根据鹰头狮的说法，王后下令的处决真的会执行吗？"
+      },
+      "options": [
+        {
+          "en": "No—'they never executes nobody'; it is all her fancy",
+          "zh": "不——'他们谁也不会被处决'，那只是她的幻想"
+        },
+        {
+          "en": "Yes, every one is carried out according to some versions of the story",
+          "zh": "是的，每一次都执行了（按书中另一种说法）"
+        },
+        {
+          "en": "Only Alice is executed",
+          "zh": "只有爱丽丝被处决"
+        },
+        {
+          "en": "Only the King is executed",
+          "zh": "只有国王被处决"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The Gryphon chuckles and says the executions are 'all her fancy'—nobody is really executed.",
+        "zh": "鹰头狮笑着说那些处决'都只是她的幻想'——实际上谁也不会被处决。"
+      }
     },
     {
-     "en": "That nothing matters",
-     "zh": "什么都不重要"
+      "q": {
+        "en": "What does the Mock Turtle say he once was, before telling his history?",
+        "zh": "在讲述身世之前，mock turtle 说自己曾经是什么？"
+      },
+      "options": [
+        {
+          "en": "A real Turtle",
+          "zh": "一只真正的海龟"
+        },
+        {
+          "en": "A playing card according to some versions of the story",
+          "zh": "一张纸牌（按书中另一种说法）"
+        },
+        {
+          "en": "A flamingo",
+          "zh": "一只火烈鸟"
+        },
+        {
+          "en": "A Gryphon",
+          "zh": "一只鹰头狮"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The Mock Turtle begins: 'Once... I was a real Turtle.'",
+        "zh": "素甲鱼开口道：'从前……我是一只真正的海龟。'"
+      }
     },
     {
-     "en": "That only the Queen is right",
-     "zh": "只有王后是对的"
+      "q": {
+        "en": "Why did the sea-school master get the nickname 'Tortoise'?",
+        "zh": "海里的校长为什么得到'乌龟'(Tortoise)这个绰号？"
+      },
+      "options": [
+        {
+          "en": "Because he lived on land",
+          "zh": "因为他住在陆地上"
+        },
+        {
+          "en": "Because the Queen named him according to some versions of the story",
+          "zh": "因为王后给他起的名（按书中另一种说法）"
+        },
+        {
+          "en": "Because he taught them—a play on 'taught us'",
+          "zh": "因为他'教'(taught)他们，是 taught us 的文字游戏"
+        },
+        {
+          "en": "Because he was slow",
+          "zh": "因为他动作慢"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "'We called him Tortoise because he taught us,' the Mock Turtle says angrily.",
+        "zh": "'我们叫他乌龟，因为他教(taught)我们，'素甲鱼生气地说。"
+      }
+    },
+    {
+      "q": {
+        "en": "According to the glossary, which word means 'a lesson to be learned from a story or experience'?",
+        "zh": "根据词汇表，哪个词的意思是'从故事或经历中可学到的教训'？"
+      },
+      "options": [
+        {
+          "en": "fancy",
+          "zh": "幻想"
+        },
+        {
+          "en": "derision",
+          "zh": "嘲弄"
+        },
+        {
+          "en": "moral",
+          "zh": "寓意"
+        },
+        {
+          "en": "classics",
+          "zh": "经典"
+        }
+      ],
+      "answer": 2,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The glossary defines moral as 'a lesson to be learned from a story or experience.'",
+        "zh": "词汇表将 moral 定义为'从故事或经历中可学到的教训'。"
+      }
+    },
+    {
+      "q": {
+        "en": "Carroll turns ordinary school subjects into nonsense like 'Reeling and Writhing' and 'Uglification.' What technique is this?",
+        "zh": "卡罗尔把普通的学校科目变成了'摇摆与扭动'(Reeling and Writhing)、'丑化'(Uglification)之类的 nonsense。这用了什么手法？"
+      },
+      "options": [
+        {
+          "en": "A math problem",
+          "zh": "一道数学题"
+        },
+        {
+          "en": "A scientific explanation according to some versions of the story",
+          "zh": "科学解释（按书中另一种说法）"
+        },
+        {
+          "en": "A history lesson",
+          "zh": "一堂历史课"
+        },
+        {
+          "en": "Pun-filled wordplay that parodies school subjects",
+          "zh": "充满双关的文字游戏，戏仿学校科目"
+        }
+      ],
+      "answer": 3,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Subjects like 'Reeling and Writhing' (for Reading and Writing) are puns that mock schooling.",
+        "zh": "像'摇摆与扭动'(对应阅读与写作)这样的科目，是用双关语嘲弄学校教育。"
+      }
+    },
+    {
+      "q": {
+        "en": "The Gryphon reveals the Queen's death sentences are empty threats. What does this show the reader about Wonderland's dangers?",
+        "zh": "鹰头狮说王后的死刑判决只是空威胁。这向读者说明了仙境的威胁本质是什么？"
+      },
+      "options": [
+        {
+          "en": "The King is the cruel one",
+          "zh": "国王才是残忍的那个"
+        },
+        {
+          "en": "The terror is mostly illusion; threats are not carried out",
+          "zh": "恐惧大多是幻象，威胁并不会真正执行"
+        },
+        {
+          "en": "Alice is in great physical danger according to some versions of the story",
+          "zh": "爱丽丝面临极大的生命危险（按书中另一种说法）"
+        },
+        {
+          "en": "The dangers are real and fatal",
+          "zh": "危险是真实而致命的"
+        }
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Since nobody is actually executed, the fear is mostly pretend—Wonderland's menace is theatrical.",
+        "zh": "既然没有人真的被处决，恐惧多半是假装的——仙境的威胁只是做戏。"
+      }
+    },
+    {
+      "q": {
+        "en": "The Duchess finds a 'moral' in everything she says, which confuses Alice. How does this affect Alice's experience?",
+        "zh": "公爵夫人对自己说的每句话都要找出'寓意'，这让爱丽丝感到困惑。这对爱丽丝的体验有何影响？"
+      },
+      "options": [
+        {
+          "en": "It helps her win the game",
+          "zh": "这帮她赢了比赛"
+        },
+        {
+          "en": "It annoys and puzzles her, showing adults' silly habit of moralizing",
+          "zh": "这让她又恼又惑，展现出大人说教的可笑习惯"
+        },
+        {
+          "en": "It teaches her to cook",
+          "zh": "这教会她做饭"
+        },
+        {
+          "en": "It makes Alice feel wise according to some versions of the story in an early draft of the book",
+          "zh": "这让爱丽丝觉得自己很有智慧（按书中另一种说法）（在书的早期草稿中）"
+        }
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Alice thinks 'How fond she is of finding morals in things!'—the habit puzzles and tires her.",
+        "zh": "爱丽丝心想'她多爱从每件事里找寓意啊！'——这种习惯让她困惑又厌烦。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why does the author include a Mock Turtle who attended a ridiculous sea-school with subjects like 'Uglification'?",
+        "zh": "作者为什么要安排一只上过荒唐海底学校、学习'丑化'等科目的素甲鱼？"
+      },
+      "options": [
+        {
+          "en": "To parody school and education with nonsense humor",
+          "zh": "用无厘头的幽默戏仿学校与教育"
+        },
+        {
+          "en": "To describe the ocean",
+          "zh": "为了描写海洋"
+        },
+        {
+          "en": "To teach real science according to some versions of the story",
+          "zh": "为了传授真正的科学（按书中另一种说法）"
+        },
+        {
+          "en": "To write a biography",
+          "zh": "为了写传记"
+        }
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The silly curriculum mocks strict Victorian schooling through Carroll's nonsense.",
+        "zh": "这套荒唐的课程用卡罗尔的 nonsense 嘲笑了刻板的维多利亚式教育。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in Part 7?",
+        "zh": "作者撰写第7部分的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To write a history of the sea",
+          "zh": "写一部海洋史"
+        },
+        {
+          "en": "To entertain through absurd wordplay, mock morals, and a parody of school",
+          "zh": "用荒唐的文字游戏、虚假的寓意说教以及对学校的戏仿来娱乐读者"
+        },
+        {
+          "en": "To explain how to play croquet according to some versions of the story in an early draft of the book",
+          "zh": "解释如何打槌球（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To teach children to swim",
+          "zh": "教孩子们游泳"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "Part 7 amuses readers with silly wordplay and a gentle parody of lessons and morals.",
+        "zh": "第7部分用滑稽的文字游戏和对课堂与说教的轻松戏仿来取悦读者。"
+      }
     }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The Duchess says, 'Everything's got a moral, if only you can find it.'",
-    "zh": "公爵夫人说：'只要你能找到，每件事都有寓意。'"
-   }
-  },
-  {
-   "q": {
-    "en": "According to the Gryphon, do the executions the Queen orders actually take place?",
-    "zh": "根据鹰头狮的说法，王后下令的处决真的会执行吗？"
-   },
-   "options": [
-    {
-     "en": "Yes, every one is carried out",
-     "zh": "是的，每一次都执行了"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "The characters in Wonderland make Alice feel puzzled and a little annoyed. Write an essay describing how these characters affect Alice and what this shows about her own character.",
+      "zh": "仙境中的角色让爱丽丝感到困惑又有点恼火。写一篇短文，描述这些角色如何影响爱丽丝，以及这反映出她自己怎样的性格。"
     },
-    {
-     "en": "No—'they never executes nobody'; it is all her fancy",
-     "zh": "不——'他们谁也不会被处决'，那只是她的幻想"
-    },
-    {
-     "en": "Only the King is executed",
-     "zh": "只有国王被处决"
-    },
-    {
-     "en": "Only Alice is executed",
-     "zh": "只有爱丽丝被处决"
+    "guidance": {
+      "en": [
+        "Name one character (Duchess, Gryphon, or Mock Turtle).",
+        "Describe how that character treats Alice.",
+        "Explain what this reveals about Alice's patience or cleverness."
+      ],
+      "zh": [
+        "说出其中一个角色（公爵夫人、鹰头狮或素甲鱼）。",
+        "描述该角色如何对待爱丽丝。",
+        "说明这反映出爱丽丝的耐心或机智能。"
+      ]
     }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The Gryphon chuckles and says the executions are 'all her fancy'—nobody is really executed.",
-    "zh": "鹰头狮笑着说那些处决'都只是她的幻想'——实际上谁也不会被处决。"
-   }
-  },
-  {
-   "q": {
-    "en": "What does the Mock Turtle say he once was, before telling his history?",
-    "zh": "在讲述身世之前，mock turtle 说自己曾经是什么？"
-   },
-   "options": [
-    {
-     "en": "A real Turtle",
-     "zh": "一只真正的海龟"
-    },
-    {
-     "en": "A Gryphon",
-     "zh": "一只鹰头狮"
-    },
-    {
-     "en": "A playing card",
-     "zh": "一张纸牌"
-    },
-    {
-     "en": "A flamingo",
-     "zh": "一只火烈鸟"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The Mock Turtle begins: 'Once... I was a real Turtle.'",
-    "zh": "素甲鱼开口道：'从前……我是一只真正的海龟。'"
-   }
-  },
-  {
-   "q": {
-    "en": "Why did the sea-school master get the nickname 'Tortoise'?",
-    "zh": "海里的校长为什么得到'乌龟'(Tortoise)这个绰号？"
-   },
-   "options": [
-    {
-     "en": "Because he was slow",
-     "zh": "因为他动作慢"
-    },
-    {
-     "en": "Because he taught them—a play on 'taught us'",
-     "zh": "因为他'教'(taught)他们，是 taught us 的文字游戏"
-    },
-    {
-     "en": "Because he lived on land",
-     "zh": "因为他住在陆地上"
-    },
-    {
-     "en": "Because the Queen named him",
-     "zh": "因为王后给他起的名"
-    }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "'We called him Tortoise because he taught us,' the Mock Turtle says angrily.",
-    "zh": "'我们叫他乌龟，因为他教(taught)我们，'素甲鱼生气地说。"
-   }
-  },
-  {
-   "q": {
-    "en": "According to the glossary, which word means 'a lesson to be learned from a story or experience'?",
-    "zh": "根据词汇表，哪个词的意思是'从故事或经历中可学到的教训'？"
-   },
-   "options": [
-    {
-     "en": "classics",
-     "zh": "经典"
-    },
-    {
-     "en": "moral",
-     "zh": "寓意"
-    },
-    {
-     "en": "fancy",
-     "zh": "幻想"
-    },
-    {
-     "en": "derision",
-     "zh": "嘲弄"
-    }
-   ],
-   "answer": 1,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The glossary defines moral as 'a lesson to be learned from a story or experience.'",
-    "zh": "词汇表将 moral 定义为'从故事或经历中可学到的教训'。"
-   }
-  },
-  {
-   "q": {
-    "en": "Carroll turns ordinary school subjects into nonsense like 'Reeling and Writhing' and 'Uglification.' What technique is this?",
-    "zh": "卡罗尔把普通的学校科目变成了'摇摆与扭动'(Reeling and Writhing)、'丑化'(Uglification)之类的 nonsense。这用了什么手法？"
-   },
-   "options": [
-    {
-     "en": "A scientific explanation",
-     "zh": "科学解释"
-    },
-    {
-     "en": "Pun-filled wordplay that parodies school subjects",
-     "zh": "充满双关的文字游戏，戏仿学校科目"
-    },
-    {
-     "en": "A history lesson",
-     "zh": "一堂历史课"
-    },
-    {
-     "en": "A math problem",
-     "zh": "一道数学题"
-    }
-   ],
-   "answer": 1,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "Subjects like 'Reeling and Writhing' (for Reading and Writing) are puns that mock schooling.",
-    "zh": "像'摇摆与扭动'(对应阅读与写作)这样的科目，是用双关语嘲弄学校教育。"
-   }
-  },
-  {
-   "q": {
-    "en": "The Gryphon reveals the Queen's death sentences are empty threats. What does this show the reader about Wonderland's dangers?",
-    "zh": "鹰头狮说王后的死刑判决只是空威胁。这向读者说明了仙境的威胁本质是什么？"
-   },
-   "options": [
-    {
-     "en": "The dangers are real and fatal",
-     "zh": "危险是真实而致命的"
-    },
-    {
-     "en": "The terror is mostly illusion; threats are not carried out",
-     "zh": "恐惧大多是幻象，威胁并不会真正执行"
-    },
-    {
-     "en": "Alice is in great physical danger",
-     "zh": "爱丽丝面临极大的生命危险"
-    },
-    {
-     "en": "The King is the cruel one",
-     "zh": "国王才是残忍的那个"
-    }
-   ],
-   "answer": 1,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Since nobody is actually executed, the fear is mostly pretend—Wonderland's menace is theatrical.",
-    "zh": "既然没有人真的被处决，恐惧多半是假装的——仙境的威胁只是做戏。"
-   }
-  },
-  {
-   "q": {
-    "en": "The Duchess finds a 'moral' in everything she says, which confuses Alice. How does this affect Alice's experience?",
-    "zh": "公爵夫人对自己说的每句话都要找出'寓意'，这让爱丽丝感到困惑。这对爱丽丝的体验有何影响？"
-   },
-   "options": [
-    {
-     "en": "It makes Alice feel wise",
-     "zh": "这让爱丽丝觉得自己很有智慧"
-    },
-    {
-     "en": "It annoys and puzzles her, showing adults' silly habit of moralizing",
-     "zh": "这让她又恼又惑，展现出大人说教的可笑习惯"
-    },
-    {
-     "en": "It teaches her to cook",
-     "zh": "这教会她做饭"
-    },
-    {
-     "en": "It helps her win the game",
-     "zh": "这帮她赢了比赛"
-    }
-   ],
-   "answer": 1,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Alice thinks 'How fond she is of finding morals in things!'—the habit puzzles and tires her.",
-    "zh": "爱丽丝心想'她多爱从每件事里找寓意啊！'——这种习惯让她困惑又厌烦。"
-   }
-  },
-  {
-   "q": {
-    "en": "Why does the author include a Mock Turtle who attended a ridiculous sea-school with subjects like 'Uglification'?",
-    "zh": "作者为什么要安排一只上过荒唐海底学校、学习'丑化'等科目的素甲鱼？"
-   },
-   "options": [
-    {
-     "en": "To teach real science",
-     "zh": "为了传授真正的科学"
-    },
-    {
-     "en": "To parody school and education with nonsense humor",
-     "zh": "用无厘头的幽默戏仿学校与教育"
-    },
-    {
-     "en": "To describe the ocean",
-     "zh": "为了描写海洋"
-    },
-    {
-     "en": "To write a biography",
-     "zh": "为了写传记"
-    }
-   ],
-   "answer": 1,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The silly curriculum mocks strict Victorian schooling through Carroll's nonsense.",
-    "zh": "这套荒唐的课程用卡罗尔的 nonsense 嘲笑了刻板的维多利亚式教育。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in Part 7?",
-    "zh": "作者撰写第7部分的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "To entertain through absurd wordplay, mock morals, and a parody of school",
-     "zh": "用荒唐的文字游戏、虚假的寓意说教以及对学校的戏仿来娱乐读者"
-    },
-    {
-     "en": "To teach children to swim",
-     "zh": "教孩子们游泳"
-    },
-    {
-     "en": "To write a history of the sea",
-     "zh": "写一部海洋史"
-    },
-    {
-     "en": "To explain how to play croquet",
-     "zh": "解释如何打槌球"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "Part 7 amuses readers with silly wordplay and a gentle parody of lessons and morals.",
-    "zh": "第7部分用滑稽的文字游戏和对课堂与说教的轻松戏仿来取悦读者。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "The characters in Wonderland make Alice feel puzzled and a little annoyed. Write an essay describing how these characters affect Alice and what this shows about her own character.",
-   "zh": "仙境中的角色让爱丽丝感到困惑又有点恼火。写一篇短文，描述这些角色如何影响爱丽丝，以及这反映出她自己怎样的性格。"
-  },
-  "guidance": {
-   "en": [
-    "Name one character (Duchess, Gryphon, or Mock Turtle).",
-    "Describe how that character treats Alice.",
-    "Explain what this reveals about Alice's patience or cleverness."
-   ],
-   "zh": [
-    "说出其中一个角色（公爵夫人、鹰头狮或素甲鱼）。",
-    "描述该角色如何对待爱丽丝。",
-    "说明这反映出爱丽丝的耐心或机智能。"
-   ]
-  }
- }
 }

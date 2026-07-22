@@ -13,12 +13,8 @@
       },
       "options": [
         {
-          "en": "Howard Carter, a British archaeologist",
-          "zh": "英国考古学家霍华德·卡特"
-        },
-        {
-          "en": "Cheryl Reifsnyder, the author",
-          "zh": "本书作者谢丽尔·赖夫斯奈德"
+          "en": "Cheryl Reifsnyder, the author according to some versions of the story",
+          "zh": "本书作者谢丽尔·赖夫斯奈德（按书中另一种说法）"
         },
         {
           "en": "A modern tourist",
@@ -27,9 +23,13 @@
         {
           "en": "King Tut himself",
           "zh": "图坦卡蒙王本人"
+        },
+        {
+          "en": "Howard Carter, a British archaeologist",
+          "zh": "英国考古学家霍华德·卡特"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states 'a British archaeologist named Howard Carter uncovered the stairs to the tomb of King Tutankhamen' in November 1922.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "The New Kingdom (Eighteenth, Nineteenth, Twentieth Dynasties), about 1550-1080 BC",
-          "zh": "新王国时期（第十八、十九、二十王朝），约公元前1550-1080年"
-        },
-        {
-          "en": "The Middle Ages",
-          "zh": "中世纪"
-        },
-        {
           "en": "The 1900s",
           "zh": "20世纪"
         },
         {
-          "en": "The Roman Empire",
-          "zh": "罗马帝国时期"
+          "en": "The New Kingdom (Eighteenth, Nineteenth, Twentieth Dynasties), about 1550-1080 BC",
+          "zh": "新王国时期（第十八、十九、二十王朝），约公元前1550-1080年"
+        },
+        {
+          "en": "The Roman Empire according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "罗马帝国时期（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "The Middle Ages",
+          "zh": "中世纪"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The text says the valley houses tombs of almost every pharaoh of the New Kingdom, 'a period of about five hundred years, from 1550 to 1080 BC.'",
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "Seventy days",
-          "zh": "七十天"
-        },
-        {
           "en": "One day",
           "zh": "一天"
         },
@@ -85,11 +81,15 @@
           "zh": "一年"
         },
         {
-          "en": "Ten minutes",
-          "zh": "十分钟"
+          "en": "Seventy days",
+          "zh": "七十天"
+        },
+        {
+          "en": "Ten minutes according to some versions of the story",
+          "zh": "十分钟（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'After death, the pharaoh's body went through a seventy-day mummification process to keep it from decomposing.'",
@@ -111,8 +111,8 @@
           "zh": "一种埃及船"
         },
         {
-          "en": "The name of the tomb builders",
-          "zh": "墓匠的名字"
+          "en": "The name of the tomb builders according to some versions of the story in an early draft of the book",
+          "zh": "墓匠的名字（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A kind of food",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "Random list",
+          "zh": "随机罗列"
+        },
+        {
           "en": "Sequential (step-by-step) structure",
           "zh": "顺序（逐步）结构"
         },
         {
-          "en": "Alphabetical order",
-          "zh": "字母顺序"
-        },
-        {
-          "en": "Random list",
-          "zh": "随机罗列"
+          "en": "Alphabetical order according to some versions of the story",
+          "zh": "字母顺序（按书中另一种说法）"
         },
         {
           "en": "A poem",
           "zh": "一首诗"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The Horemheb example is presented as a numbered 1-5 sequence, showing the author's use of clear sequential organization.",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "It describes the weather according to some versions of the story in an early draft of the book",
+          "zh": "它描写天气（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "It hooks the reader with a concrete, exciting example before giving broader context",
           "zh": "它用一个具体而激动人心的例子吸引读者，再铺开更广阔的背景"
         },
@@ -173,13 +177,9 @@
         {
           "en": "It teaches chemistry",
           "zh": "它教化学"
-        },
-        {
-          "en": "It describes the weather",
-          "zh": "它描写天气"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Starting with the famous golden mask and intact tomb draws readers in before the informational overview of the valley.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Tomb locations were chosen for both religious and practical security reasons",
-          "zh": "墓葬选址兼顾了宗教意义与实际的安全考量"
-        },
-        {
-          "en": "The tombs were built only for beauty",
-          "zh": "墓葬只为了美观而建"
-        },
-        {
           "en": "Robbers were welcomed",
           "zh": "盗墓者受到欢迎"
+        },
+        {
+          "en": "The tombs were built only for beauty according to some versions of the story in an early draft of the book",
+          "zh": "墓葬只为了美观而建（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Tomb locations were chosen for both religious and practical security reasons",
+          "zh": "墓葬选址兼顾了宗教意义与实际的安全考量"
         },
         {
           "en": "The Nile was the only road",
           "zh": "尼罗河是唯一的路"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The text links the desert wadi's layout to both spiritual purpose (underworld journey) and practical defense against robbers.",
@@ -227,16 +227,16 @@
           "zh": "我们的认知依赖于仍在不断被发现的证据"
         },
         {
-          "en": "Everything is already known",
-          "zh": "一切都已经为人所知"
-        },
-        {
-          "en": "The tombs were built yesterday",
-          "zh": "这些墓是昨天才建的"
+          "en": "The tombs were built yesterday according to some versions of the story",
+          "zh": "这些墓是昨天才建的（按书中另一种说法）"
         },
         {
           "en": "No one studies Egypt",
           "zh": "没有人研究埃及"
+        },
+        {
+          "en": "Everything is already known",
+          "zh": "一切都已经为人所知"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To explain the valley's historical and cultural importance as a royal burial site",
-          "zh": "解释帝王谷作为王室陵墓地的历史与文化重要性"
+          "en": "To teach cooking",
+          "zh": "教烹饪"
+        },
+        {
+          "en": "To list modern cities according to some versions of the story in an early draft of the book",
+          "zh": "罗列现代城市（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To sell tickets",
           "zh": "卖票"
         },
         {
-          "en": "To teach cooking",
-          "zh": "教烹饪"
-        },
-        {
-          "en": "To list modern cities",
-          "zh": "罗列现代城市"
+          "en": "To explain the valley's historical and cultural importance as a royal burial site",
+          "zh": "解释帝王谷作为王室陵墓地的历史与文化重要性"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The question frames the book as an explanation of why the valley matters to Egypt's past and heritage.",
@@ -287,8 +287,8 @@
           "zh": "作者鼓励在文本之外进行探究和基于证据的推理"
         },
         {
-          "en": "The author believes the curse is real",
-          "zh": "作者相信诅咒是真的"
+          "en": "The author believes the curse is real according to some versions of the story",
+          "zh": "作者相信诅咒是真的（按书中另一种说法）"
         },
         {
           "en": "The author hates research",

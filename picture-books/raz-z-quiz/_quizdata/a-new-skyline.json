@@ -17,16 +17,16 @@
           "zh": "亨利·哈德逊，他驾驶'半月号'驶入后来以他命名的河流"
         },
         {
-          "en": "Christopher Columbus",
-          "zh": "克里斯托弗·哥伦布"
-        },
-        {
           "en": "George Washington",
           "zh": "乔治·华盛顿"
         },
         {
           "en": "Elisha Otis",
           "zh": "以利沙·奥蒂斯"
+        },
+        {
+          "en": "Christopher Columbus according to some versions of the story in an early draft of the book",
+          "zh": "克里斯托弗·哥伦布（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Building thicker outer walls",
-          "zh": "建造更厚的外墙"
-        },
-        {
-          "en": "A steel frame that supports the building instead of the walls",
-          "zh": "用钢框架代替墙体来支撑建筑"
+          "en": "Stacking bricks without mortar according to some versions of the story",
+          "zh": "不用砂浆地堆砖（按书中另一种说法）"
         },
         {
           "en": "Using only wood",
           "zh": "只用木材"
         },
         {
-          "en": "Stacking bricks without mortar",
-          "zh": "不用砂浆地堆砖"
+          "en": "A steel frame that supports the building instead of the walls",
+          "zh": "用钢框架代替墙体来支撑建筑"
+        },
+        {
+          "en": "Building thicker outer walls",
+          "zh": "建造更厚的外墙"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains steel-frame construction let walls 'hang' from beams, allowing great height.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "Henry Hudson",
+          "zh": "亨利·哈德逊"
+        },
+        {
           "en": "Minoru Yamasaki",
           "zh": "山崎实"
         },
         {
-          "en": "Walter Chrysler",
-          "zh": "沃尔特·克莱斯勒"
+          "en": "Walter Chrysler according to some versions of the story",
+          "zh": "沃尔特·克莱斯勒（按书中另一种说法）"
         },
         {
           "en": "Elisha Otis, in 1854",
           "zh": "以利沙·奥蒂斯，于1854年"
-        },
-        {
-          "en": "Henry Hudson",
-          "zh": "亨利·哈德逊"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Elisha Otis designed the first safety elevator in 1854.",
@@ -103,8 +103,8 @@
       },
       "options": [
         {
-          "en": "July 4, 1776",
-          "zh": "1776年7月4日"
+          "en": "December 7, 1941 according to some versions of the story",
+          "zh": "1941年12月7日（按书中另一种说法）"
         },
         {
           "en": "September 11, 2001",
@@ -115,8 +115,8 @@
           "zh": "1863年1月1日"
         },
         {
-          "en": "December 7, 1941",
-          "zh": "1941年12月7日"
+          "en": "July 4, 1776",
+          "zh": "1776年7月4日"
         }
       ],
       "answer": 1,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "By saying it is short",
-          "zh": "说它很矮"
+          "en": "By giving its exact height (1,776 ft) and noting it symbolizes the year of U.S. independence",
+          "zh": "给出精确高度（1776英尺），并指出它象征美国独立之年"
         },
         {
           "en": "By comparing it only to the Moon",
           "zh": "只和月球比较"
         },
         {
-          "en": "By giving its exact height (1,776 ft) and noting it symbolizes the year of U.S. independence",
-          "zh": "给出精确高度（1776英尺），并指出它象征美国独立之年"
+          "en": "By saying it is short",
+          "zh": "说它很矮"
         },
         {
-          "en": "By using only a drawing with no numbers",
-          "zh": "只用一幅没有数字的图画"
+          "en": "By using only a drawing with no numbers according to some versions of the story in an early draft of the book",
+          "zh": "只用一幅没有数字的图画（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book notes the tower rises 1,776 feet, a deliberate symbol of 1776, the year of independence.",
@@ -167,16 +167,16 @@
           "zh": "列出各建筑的年份、高度和层数，展示天际线的成长"
         },
         {
-          "en": "It lists only paintings",
-          "zh": "只列出画作"
-        },
-        {
-          "en": "It lists recipes",
-          "zh": "列出食谱"
+          "en": "It lists only paintings according to some versions of the story in an early draft of the book",
+          "zh": "只列出画作（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "It lists songs",
           "zh": "列出歌曲"
+        },
+        {
+          "en": "It lists recipes",
+          "zh": "列出食谱"
         }
       ],
       "answer": 0,
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "Underground tunnels only according to some versions of the story",
+          "zh": "只有地下隧道（按书中另一种说法）"
+        },
+        {
           "en": "Tube-frame construction with closely spaced exterior columns",
           "zh": "采用密集外柱的筒体结构"
         },
@@ -203,13 +207,9 @@
         {
           "en": "Inflatable walls",
           "zh": "充气墙"
-        },
-        {
-          "en": "Underground tunnels only",
-          "zh": "只有地下隧道"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says Yamasaki used tube-frame construction with closely spaced perimeter columns.",
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "Store food",
-          "zh": "储存食物"
-        },
-        {
           "en": "House animals",
           "zh": "饲养动物"
+        },
+        {
+          "en": "Hide the building's foundation according to some versions of the story in an early draft of the book",
+          "zh": "隐藏建筑地基（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Let express elevators drop riders at higher floors to transfer, reducing elevator shafts",
           "zh": "让高速电梯在高层的'空中大堂'停靠换乘，减少电梯井数量"
         },
         {
-          "en": "Hide the building's foundation",
-          "zh": "隐藏建筑地基"
+          "en": "Store food",
+          "zh": "储存食物"
         }
       ],
       "answer": 2,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To show how New York City's skyline changed over time and what caused those changes",
-          "zh": "展示纽约市的天际线如何随时间变化，以及变化的原因"
-        },
-        {
           "en": "To convince readers to move to New York",
           "zh": "说服读者搬去纽约"
+        },
+        {
+          "en": "To show how New York City's skyline changed over time and what caused those changes",
+          "zh": "展示纽约市的天际线如何随时间变化，以及变化的原因"
         },
         {
           "en": "To teach how to build a boat",
           "zh": "教如何造船"
         },
         {
-          "en": "To tell a fantasy story about dragons",
-          "zh": "讲一个关于龙的奇幻故事"
+          "en": "To tell a fantasy story about dragons according to some versions of the story in an early draft of the book",
+          "zh": "讲一个关于龙的奇幻故事（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book traces the skyline's evolution from Dutch colony to the rebuilt World Trade Center.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "As a sign of the city's resilient spirit to adapt and grow",
-          "zh": "视为这座城市适应与成长的坚韧精神的象征"
-        },
-        {
-          "en": "As a failure that should not be rebuilt",
-          "zh": "当作不应重建的失败"
-        },
-        {
           "en": "As unimportant",
           "zh": "当作无关紧要"
         },
         {
           "en": "As a mistake",
           "zh": "当作一个错误"
+        },
+        {
+          "en": "As a failure that should not be rebuilt according to some versions of the story",
+          "zh": "当作不应重建的失败（按书中另一种说法）"
+        },
+        {
+          "en": "As a sign of the city's resilient spirit to adapt and grow",
+          "zh": "视为这座城市适应与成长的坚韧精神的象征"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book closes by calling the changing skyline a reflection of the city's resilient spirit.",

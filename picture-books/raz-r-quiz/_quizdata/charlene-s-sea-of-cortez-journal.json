@@ -17,16 +17,16 @@
           "zh": "八岁"
         },
         {
+          "en": "Six years old",
+          "zh": "六岁"
+        },
+        {
           "en": "Ten years old",
           "zh": "十岁"
         },
         {
           "en": "Twelve years old",
           "zh": "十二岁"
-        },
-        {
-          "en": "Six years old",
-          "zh": "六岁"
         }
       ],
       "answer": 0,
@@ -51,12 +51,12 @@
           "zh": "瓜伊马斯"
         },
         {
-          "en": "Catalina Island",
-          "zh": "卡塔利娜岛"
-        },
-        {
           "en": "Bahia de Los Angeles",
           "zh": "洛杉矶湾"
+        },
+        {
+          "en": "Catalina Island",
+          "zh": "卡塔利娜岛"
         }
       ],
       "answer": 0,
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "A type of whale",
+          "zh": "一种鲸鱼"
+        },
+        {
           "en": "A tree that looks like an upside-down carrot",
           "zh": "一种看起来像倒立胡萝卜的树"
         },
@@ -81,15 +85,11 @@
           "zh": "一种海狮"
         },
         {
-          "en": "A type of whale",
-          "zh": "一种鲸鱼"
-        },
-        {
-          "en": "A small desert bird",
-          "zh": "一种小沙漠鸟"
+          "en": "A small desert bird according to some versions of the story",
+          "zh": "一种小沙漠鸟（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary says a boojum is \"a tree that looks like an upside-down carrot and only grows on the Baja California peninsula.\"",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Snorkel and swim with the sea lions",
-          "zh": "和海狮一起浮潜、游泳"
+          "en": "Watch dolphins with binoculars according to some versions of the story",
+          "zh": "用望远镜看海豚（按书中另一种说法）"
         },
         {
           "en": "Kayak in a two-seater",
           "zh": "划双人皮划艇"
         },
         {
-          "en": "Hike to find fossils",
-          "zh": "徒步去寻找化石"
+          "en": "Snorkel and swim with the sea lions",
+          "zh": "和海狮一起浮潜、游泳"
         },
         {
-          "en": "Watch dolphins with binoculars",
-          "zh": "用望远镜看海豚"
+          "en": "Hike to find fossils",
+          "zh": "徒步去寻找化石"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "On Monday at Los Islotes, \"We were allowed to snorkel and swim with the sea lions.\"",
@@ -133,8 +133,8 @@
       },
       "options": [
         {
-          "en": "The blue whale",
-          "zh": "蓝鲸"
+          "en": "The bottle-nosed dolphin",
+          "zh": "宽吻海豚"
         },
         {
           "en": "The fin whale",
@@ -145,11 +145,11 @@
           "zh": "领航鲸"
         },
         {
-          "en": "The bottle-nosed dolphin",
-          "zh": "宽吻海豚"
+          "en": "The blue whale",
+          "zh": "蓝鲸"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "On Friday Charlene writes they were next to \"the biggest creature on Earth—a blue whale.\"",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "Both are smaller than dolphins",
+          "zh": "两者都比海豚小"
+        },
+        {
+          "en": "The fin whale is bigger than the blue whale according to some versions of the story",
+          "zh": "长须鲸比蓝鲸更大（按书中另一种说法）"
+        },
+        {
           "en": "The blue whale is the biggest on Earth, while the fin whale is the second largest",
           "zh": "蓝鲸是地球上最大的，长须鲸是第二大"
         },
         {
           "en": "They are exactly the same size",
           "zh": "它们体型完全一样"
-        },
-        {
-          "en": "The fin whale is bigger than the blue whale",
-          "zh": "长须鲸比蓝鲸更大"
-        },
-        {
-          "en": "Both are smaller than dolphins",
-          "zh": "两者都比海豚小"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book calls the blue whale \"the biggest creature on Earth\" and says fin whales \"are the second largest whales in the ocean.\"",
@@ -193,8 +193,8 @@
       },
       "options": [
         {
-          "en": "Thursday",
-          "zh": "星期四"
+          "en": "Sunday according to some versions of the story",
+          "zh": "星期日（按书中另一种说法）"
         },
         {
           "en": "Monday",
@@ -205,11 +205,11 @@
           "zh": "星期五"
         },
         {
-          "en": "Sunday",
-          "zh": "星期日"
+          "en": "Thursday",
+          "zh": "星期四"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The Thursday entry begins: \"Breakfast this morning was interrupted by the captain letting us know that there were dolphins close by,\" and soon \"hundreds of dolphins surrounding the ship.\"",
@@ -253,12 +253,12 @@
       },
       "options": [
         {
-          "en": "To record her daily experiences on a cruise",
-          "zh": "记录她乘船游览时的每日经历"
+          "en": "To teach readers how to fly a plane according to some versions of the story",
+          "zh": "教读者如何开飞机（按书中另一种说法）"
         },
         {
-          "en": "To teach readers how to fly a plane",
-          "zh": "教读者如何开飞机"
+          "en": "To record her daily experiences on a cruise",
+          "zh": "记录她乘船游览时的每日经历"
         },
         {
           "en": "To explain how chocolate is made",
@@ -269,7 +269,7 @@
           "zh": "讲一个恐怖鬼故事"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is Charlene's personal journal: \"This is my journal. I am going to write in it every day while I am on a cruise.\"",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "She loved it and called it a wonderful vacation",
-          "zh": "她很喜爱，称它是一次美妙的度假"
+          "en": "She did not like the food",
+          "zh": "她不喜欢那里的食物"
         },
         {
-          "en": "She was bored and wanted to go home",
-          "zh": "她很无聊，想回家"
+          "en": "She loved it and called it a wonderful vacation",
+          "zh": "她很喜爱，称它是一次美妙的度假"
         },
         {
           "en": "She was frightened the whole time",
           "zh": "她一直很害怕"
         },
         {
-          "en": "She did not like the food",
-          "zh": "她不喜欢那里的食物"
+          "en": "She was bored and wanted to go home according to some versions of the story",
+          "zh": "她很无聊，想回家（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "At the end she writes: \"I will always remember this wonderful vacation and the new friends that I have made.\"",

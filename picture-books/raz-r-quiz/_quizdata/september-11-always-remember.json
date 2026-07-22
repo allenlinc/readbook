@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "Two",
-          "zh": "两架"
-        },
-        {
           "en": "Three",
           "zh": "三架"
         },
@@ -27,9 +23,13 @@
         {
           "en": "Five",
           "zh": "五架"
+        },
+        {
+          "en": "Two",
+          "zh": "两架"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'a group of terrorists hijacked four planes on the East Coast.'",
@@ -47,16 +47,16 @@
           "zh": "撞入五角大楼"
         },
         {
-          "en": "Into the World Trade Center",
-          "zh": "撞入世贸中心"
+          "en": "In New York City",
+          "zh": "纽约市"
         },
         {
           "en": "In a field in Pennsylvania",
           "zh": "宾夕法尼亚州的一片田野"
         },
         {
-          "en": "In New York City",
-          "zh": "纽约市"
+          "en": "Into the World Trade Center according to some versions of the story",
+          "zh": "撞入世贸中心（按书中另一种说法）"
         }
       ],
       "answer": 2,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "To repair a vehicle",
-          "zh": "修理交通工具"
-        },
-        {
-          "en": "To seize control of a vehicle by outside force",
-          "zh": "由外力夺取对交通工具的控制权"
-        },
-        {
           "en": "To fly a plane",
           "zh": "驾驶飞机"
         },
         {
           "en": "To build a memorial",
           "zh": "建造纪念碑"
+        },
+        {
+          "en": "To repair a vehicle according to some versions of the story",
+          "zh": "修理交通工具（按书中另一种说法）"
+        },
+        {
+          "en": "To seize control of a vehicle by outside force",
+          "zh": "由外力夺取对交通工具的控制权"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines hijacked as 'seized control of a vehicle by outside force.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "For a birthday party",
-          "zh": "为了生日聚会"
-        },
-        {
           "en": "To send messages of hope and support to survivors and rescue workers",
           "zh": "向幸存者和救援人员传递希望与支持的信息"
         },
         {
-          "en": "To sell them",
-          "zh": "用来售卖"
-        },
-        {
           "en": "To wear at school",
           "zh": "在学校佩戴"
+        },
+        {
+          "en": "For a birthday party according to some versions of the story in an early draft of the book",
+          "zh": "为了生日聚会（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To sell them",
+          "zh": "用来售卖"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says children in Hawaii made leis 'with messages written on them' and sent them to survivors and rescue workers at all three sites.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "184",
-          "zh": "184个"
-        },
-        {
           "en": "40",
           "zh": "40个"
         },
         {
-          "en": "2,983",
-          "zh": "2,983个"
-        },
-        {
           "en": "63",
           "zh": "63个"
+        },
+        {
+          "en": "184 according to some versions of the story",
+          "zh": "184个（按书中另一种说法）"
+        },
+        {
+          "en": "2,983",
+          "zh": "2,983个"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 2,983 names are carved—victims of the three attacks plus the 1993 World Trade Center attack.",
@@ -167,16 +167,16 @@
           "zh": "介绍袭击事件，以及人们如何纪念和缅怀遇难者"
         },
         {
-          "en": "To argue against building memorials",
-          "zh": "反对建造纪念碑"
-        },
-        {
           "en": "To describe New York architecture",
           "zh": "描述纽约的建筑"
         },
         {
           "en": "To explain how airplanes work",
           "zh": "解释飞机如何运作"
+        },
+        {
+          "en": "To argue against building memorials according to some versions of the story in an early draft of the book",
+          "zh": "反对建造纪念碑（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "A type of airplane",
-          "zh": "一种飞机"
+          "en": "A kind of flower",
+          "zh": "一种花"
+        },
+        {
+          "en": "A government building according to some versions of the story in an early draft of the book",
+          "zh": "政府大楼（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Something that represents the memory of a person, place, thing, or event",
           "zh": "代表对某个人、地方、事物或事件的记忆的东西"
         },
         {
-          "en": "A kind of flower",
-          "zh": "一种花"
-        },
-        {
-          "en": "A government building",
-          "zh": "政府大楼"
+          "en": "A type of airplane",
+          "zh": "一种飞机"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines a memorial as 'something that represents the memory of a person, place, thing, or event.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "The Pentagon has 184 benches with victims' names; Pennsylvania has a marble wall of 40 pieces with names",
-          "zh": "五角大楼有184张刻有遇难者名字的长椅；宾夕法尼亚有一面由40块大理石组成的刻名墙"
+          "en": "The Pentagon has a wall of 40 marble pieces according to some versions of the story in an early draft of the book",
+          "zh": "五角大楼有一面由40块大理石组成的墙（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "They are exactly the same",
-          "zh": "两者完全一样"
+          "en": "The Pentagon has 184 benches with victims' names; Pennsylvania has a marble wall of 40 pieces with names",
+          "zh": "五角大楼有184张刻有遇难者名字的长椅；宾夕法尼亚有一面由40块大理石组成的刻名墙"
         },
         {
           "en": "Pennsylvania has 184 benches",
           "zh": "宾夕法尼亚有184张长椅"
         },
         {
-          "en": "The Pentagon has a wall of 40 marble pieces",
-          "zh": "五角大楼有一面由40块大理石组成的墙"
+          "en": "They are exactly the same",
+          "zh": "两者完全一样"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the Pentagon has 184 benches (one per victim), while Pennsylvania's wall has 40 marble pieces (one per passenger).",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "September 11, 2001",
-          "zh": "2001年9月11日"
-        },
-        {
           "en": "September 11, 2011",
           "zh": "2011年9月11日"
         },
         {
-          "en": "September 11, 2008",
-          "zh": "2008年9月11日"
-        },
-        {
           "en": "February 26, 1993",
           "zh": "1993年2月26日"
+        },
+        {
+          "en": "September 11, 2008 according to some versions of the story",
+          "zh": "2008年9月11日（按书中另一种说法）"
+        },
+        {
+          "en": "September 11, 2001",
+          "zh": "2001年9月11日"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the memorial 'opened on September 11, 2011' after nearly seven years of building.",
@@ -283,20 +283,20 @@
       },
       "options": [
         {
-          "en": "We should forget to move on",
-          "zh": "我们应该忘记以继续前进"
+          "en": "Memorials are a waste",
+          "zh": "纪念碑是浪费"
         },
         {
           "en": "It is very important we never forget what happened and the heroes",
           "zh": "我们永远不应忘记所发生的事以及那些英雄，这非常重要"
         },
         {
-          "en": "Only Americans should remember",
-          "zh": "只有美国人应该铭记"
+          "en": "We should forget to move on",
+          "zh": "我们应该忘记以继续前进"
         },
         {
-          "en": "Memorials are a waste",
-          "zh": "纪念碑是浪费"
+          "en": "Only Americans should remember according to some versions of the story in an early draft of the book",
+          "zh": "只有美国人应该铭记（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,

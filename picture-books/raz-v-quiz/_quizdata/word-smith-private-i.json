@@ -13,20 +13,20 @@
       },
       "options": [
         {
-          "en": "Missing persons",
-          "zh": "失踪人口"
+          "en": "Cooking recipes",
+          "zh": "烹饪食谱"
         },
         {
           "en": "Problems with words, punctuation, and language",
           "zh": "与文字、标点和语言有关的问题"
         },
         {
-          "en": "Robbery of money",
-          "zh": "钱财抢劫"
+          "en": "Robbery of money according to some versions of the story",
+          "zh": "钱财抢劫（按书中另一种说法）"
         },
         {
-          "en": "Cooking recipes",
-          "zh": "烹饪食谱"
+          "en": "Missing persons",
+          "zh": "失踪人口"
         }
       ],
       "answer": 1,
@@ -51,12 +51,12 @@
           "zh": "回文"
         },
         {
-          "en": "Rhymes",
-          "zh": "押韵"
-        },
-        {
           "en": "Spoonerisms",
           "zh": "首音互换"
+        },
+        {
+          "en": "Rhymes",
+          "zh": "押韵"
         }
       ],
       "answer": 1,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A train station",
-          "zh": "火车站"
-        },
-        {
           "en": "An anagram for 'restaurant'",
           "zh": "'restaurant'（餐馆）的变位词"
         },
         {
-          "en": "A type of animal",
-          "zh": "一种动物"
+          "en": "A weather report according to some versions of the story",
+          "zh": "天气预报（按书中另一种说法）"
         },
         {
-          "en": "A weather report",
-          "zh": "天气预报"
+          "en": "A train station",
+          "zh": "火车站"
+        },
+        {
+          "en": "A type of animal",
+          "zh": "一种动物"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Hannah figures out that 'Runs a treat' rearranges to spell 'restaurant'.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A stranger from another city",
-          "zh": "来自外城的陌生人"
-        },
-        {
-          "en": "Webster White, Word Smith's old partner",
-          "zh": "韦伯斯特·怀特，文字史密斯的前搭档"
+          "en": "The waiter Otto",
+          "zh": "服务员奥托"
         },
         {
           "en": "Hannah's father",
           "zh": "汉娜的父亲"
         },
         {
-          "en": "The waiter Otto",
-          "zh": "服务员奥托"
+          "en": "Webster White, Word Smith's old partner",
+          "zh": "韦伯斯特·怀特，文字史密斯的前搭档"
+        },
+        {
+          "en": "A stranger from another city according to some versions of the story",
+          "zh": "来自外城的陌生人（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The PUNisher is Webster White, formerly Word's partner on the grammar patrol who went rogue.",
@@ -133,10 +133,6 @@
       },
       "options": [
         {
-          "en": "To teach history",
-          "zh": "为了教历史"
-        },
-        {
           "en": "To make reading fun and play with language",
           "zh": "为了让阅读有趣，并玩味语言"
         },
@@ -145,11 +141,15 @@
           "zh": "为了迷惑读者"
         },
         {
-          "en": "To list grammar rules",
-          "zh": "为了列出语法规则"
+          "en": "To teach history",
+          "zh": "为了教历史"
+        },
+        {
+          "en": "To list grammar rules according to some versions of the story",
+          "zh": "为了列出语法规则（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The playful language is the whole point, meant to delight readers who enjoy words.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "To sell wigs",
+          "zh": "卖假发"
+        },
+        {
           "en": "To make soup",
           "zh": "做汤"
         },
         {
+          "en": "To fix the grammar according to some versions of the story",
+          "zh": "纠正语法（按书中另一种说法）"
+        },
+        {
           "en": "To steal all the letters and control words",
           "zh": "偷走所有字母、控制文字"
-        },
-        {
-          "en": "To fix the grammar",
-          "zh": "纠正语法"
-        },
-        {
-          "en": "To sell wigs",
-          "zh": "卖假发"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "He is vacuuming up the letters into a truck so he can control all words and rules.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "A type of palindrome",
-          "zh": "一种回文"
-        },
-        {
-          "en": "A joke with a rhyming punch line, like 'funny bunny'",
-          "zh": "有押韵妙语的笑话，比如 'funny bunny'"
+          "en": "A Spanish word",
+          "zh": "一个西班牙语词"
         },
         {
           "en": "A kind of anagram",
           "zh": "一种变位词"
         },
         {
-          "en": "A Spanish word",
-          "zh": "一个西班牙语词"
+          "en": "A joke with a rhyming punch line, like 'funny bunny'",
+          "zh": "有押韵妙语的笑话，比如 'funny bunny'"
+        },
+        {
+          "en": "A type of palindrome according to some versions of the story in an early draft of the book",
+          "zh": "一种回文（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Otto tells rhyming jokes such as 'soggy doggy' and 'flat cat,' which are Hinky Pinkys.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "He gives Otto money",
-          "zh": "他给奥托钱"
+          "en": "He gives Otto money according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他给奥托钱（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
-          "en": "He makes Otto repeat the tongue twister 'She sells seashells by the seashore'",
-          "zh": "他让奥托重复绕口令'She sells seashells by the seashore'"
+          "en": "He throws water",
+          "zh": "他泼水"
         },
         {
           "en": "He calls the police",
           "zh": "他报警"
         },
         {
-          "en": "He throws water",
-          "zh": "他泼水"
+          "en": "He makes Otto repeat the tongue twister 'She sells seashells by the seashore'",
+          "zh": "他让奥托重复绕口令'She sells seashells by the seashore'"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The tongue twister knocks Otto out of his trance and breaks the spell.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "That rules must never be broken",
-          "zh": "规则绝不可打破"
-        },
-        {
           "en": "That playing with words can be fun and clever",
           "zh": "玩味文字可以既有趣又巧妙"
         },
         {
-          "en": "That only teachers should use big words",
-          "zh": "只有老师才该用大词"
+          "en": "That rules must never be broken",
+          "zh": "规则绝不可打破"
         },
         {
           "en": "That spelling does not matter",
           "zh": "拼写无关紧要"
+        },
+        {
+          "en": "That only teachers should use big words according to some versions of the story",
+          "zh": "只有老师才该用大词（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Word Smith argues you can love language while still having fun with it.",
@@ -283,8 +283,8 @@
       },
       "options": [
         {
-          "en": "Rights",
-          "zh": "对（rights）"
+          "en": "Rights and lefts according to some versions of the story",
+          "zh": "对与左（按书中另一种说法）"
         },
         {
           "en": "Lefts (three lefts make a right)",
@@ -295,8 +295,8 @@
           "zh": "错（wrongs）"
         },
         {
-          "en": "Rights and lefts",
-          "zh": "对与左"
+          "en": "Rights",
+          "zh": "对（rights）"
         }
       ],
       "answer": 1,

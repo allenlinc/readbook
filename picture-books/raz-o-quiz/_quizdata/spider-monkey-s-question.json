@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "They were too busy eating breakfast.",
+          "zh": "他们正忙着吃早餐。"
+        },
+        {
           "en": "They did not know the answer at all.",
           "zh": "他们完全不知道答案。"
         },
@@ -21,15 +25,11 @@
           "zh": "他们觉得是时候让塔里自己去弄明白这件事了。"
         },
         {
-          "en": "They thought the question was silly.",
-          "zh": "他们认为这个问题很傻。"
-        },
-        {
-          "en": "They were too busy eating breakfast.",
-          "zh": "他们正忙着吃早餐。"
+          "en": "They thought the question was silly. according to some versions of the story",
+          "zh": "他们认为这个问题很傻。（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Tari's parents could have guessed the answer, but 'they felt it was time for Tari to figure some things out on his own.'",
@@ -47,19 +47,19 @@
           "zh": "塔里的妈妈。"
         },
         {
-          "en": "A giant monkey with no fur except on her head who lives in the other world.",
-          "zh": "一只除了头上没有毛、住在外面的世界里的巨型猴子。"
-        },
-        {
           "en": "Balam the iguana.",
           "zh": "鬣蜥巴拉姆。"
         },
         {
-          "en": "The wisest spider monkey in the forest.",
-          "zh": "森林里最聪明的蜘蛛猴。"
+          "en": "A giant monkey with no fur except on her head who lives in the other world.",
+          "zh": "一只除了头上没有毛、住在外面的世界里的巨型猴子。"
+        },
+        {
+          "en": "The wisest spider monkey in the forest. according to some versions of the story",
+          "zh": "森林里最聪明的蜘蛛猴。（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Tari and Balam travel to the other world and meet the Namer, described as a giant monkey with no fur except on her head.",
@@ -73,20 +73,20 @@
       },
       "options": [
         {
-          "en": "Because he has eight legs.",
-          "zh": "因为他有八条腿。"
+          "en": "Because he builds webs.",
+          "zh": "因为他织网。"
         },
         {
           "en": "Because the way he climbs reminds the Namer of a spider.",
           "zh": "因为他攀爬的样子让命名者想到了蜘蛛。"
         },
         {
-          "en": "Because he eats spiders.",
-          "zh": "因为他吃蜘蛛。"
+          "en": "Because he has eight legs. according to some versions of the story",
+          "zh": "因为他有八条腿。（按书中另一种说法）"
         },
         {
-          "en": "Because he builds webs.",
-          "zh": "因为他织网。"
+          "en": "Because he eats spiders.",
+          "zh": "因为他吃蜘蛛。"
         }
       ],
       "answer": 1,
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "They swam across the ocean.",
-          "zh": "他们游过了大海。"
-        },
-        {
           "en": "Tari swung through the trees carrying Balam on his back.",
           "zh": "塔里在树间荡来荡去，把巴拉姆背在背上。"
         },
@@ -115,11 +111,15 @@
           "zh": "他们飞过了天空。"
         },
         {
-          "en": "They walked the whole way on the ground.",
-          "zh": "他们全程在地面上步行。"
+          "en": "They walked the whole way on the ground. according to some versions of the story",
+          "zh": "他们全程在地面上步行。（按书中另一种说法）"
+        },
+        {
+          "en": "They swam across the ocean.",
+          "zh": "他们游过了大海。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'Tari swung himself through the trees, carrying Balam on his back' since iguanas are not fast on their feet.",
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "A place full of tall, leafy trees.",
-          "zh": "一个长满高大树木的地方。"
+          "en": "A dark cave underground.",
+          "zh": "一个地下的黑暗洞穴。"
         },
         {
           "en": "A place with open space, no trees, a huge sky, and little green spikes on the ground.",
           "zh": "一个开阔、没有树、天空巨大、地面上有绿色小尖刺的地方。"
         },
         {
-          "en": "An underwater world.",
-          "zh": "一个水下的世界。"
+          "en": "A place full of tall, leafy trees. according to some versions of the story in an early draft of the book",
+          "zh": "一个长满高大树木的地方。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "A dark cave underground.",
-          "zh": "一个地下的黑暗洞穴。"
+          "en": "An underwater world.",
+          "zh": "一个水下的世界。"
         }
       ],
       "answer": 1,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "He sleeps all day long.",
-          "zh": "他整天都在睡觉。"
+          "en": "He ignores the other animals. according to some versions of the story",
+          "zh": "他不理睬其他动物。（按书中另一种说法）"
         },
         {
-          "en": "He asks endless questions about everything around him.",
-          "zh": "他对周围的一切问个不停。"
+          "en": "He sleeps all day long.",
+          "zh": "他整天都在睡觉。"
         },
         {
           "en": "He never leaves his tree.",
           "zh": "他从不离开自己的树。"
         },
         {
-          "en": "He ignores the other animals.",
-          "zh": "他不理睬其他动物。"
+          "en": "He asks endless questions about everything around him.",
+          "zh": "他对周围的一切问个不停。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says Tari asked about the sky, hills, other animals, foods, and more: 'Tari's curiosity was truly endless.'",
@@ -193,8 +193,8 @@
       },
       "options": [
         {
-          "en": "She names animals after careful scientific study.",
-          "zh": "她经过仔细的科学研究才给动物命名。"
+          "en": "Tari's parents choose the names.",
+          "zh": "名字是由塔里的父母取的。"
         },
         {
           "en": "She sometimes names animals for silly or sound-based reasons.",
@@ -205,8 +205,8 @@
           "zh": "她让动物自己选择名字。"
         },
         {
-          "en": "Tari's parents choose the names.",
-          "zh": "名字是由塔里的父母取的。"
+          "en": "She names animals after careful scientific study. according to some versions of the story",
+          "zh": "她经过仔细的科学研究才给动物命名。（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Names are meaningless and random.",
-          "zh": "名字是没有意义、随机的。"
-        },
-        {
           "en": "Names are meant to set apart each special creature.",
           "zh": "名字是为了区分每一种独特的生物。"
+        },
+        {
+          "en": "All monkeys share the same name. according to some versions of the story",
+          "zh": "所有的猴子都叫同一个名字。（按书中另一种说法）"
         },
         {
           "en": "Only humans have real names.",
           "zh": "只有人类才有真正的名字。"
         },
         {
-          "en": "All monkeys share the same name.",
-          "zh": "所有的猴子都叫同一个名字。"
+          "en": "Names are meaningless and random.",
+          "zh": "名字是没有意义、随机的。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book concludes: 'Names were meant to set apart each special creature. They were just like the names that Tari and Balam were given specially by their parents.'",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To show that Tari was lazy.",
-          "zh": "为了说明塔里很懒。"
-        },
-        {
           "en": "To show Tari's deep curiosity and love of asking questions.",
           "zh": "为了表现塔里强烈的好奇心和爱提问的天性。"
+        },
+        {
+          "en": "To show that Tari was lazy.",
+          "zh": "为了说明塔里很懒。"
         },
         {
           "en": "To show he could not speak well.",
           "zh": "为了说明他说话不好。"
         },
         {
-          "en": "To show his parents were angry.",
-          "zh": "为了说明他的父母很生气。"
+          "en": "To show his parents were angry. according to some versions of the story",
+          "zh": "为了说明他的父母很生气。（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Tari's mother 'thought it was wonderful that his first word was why,' which introduces his curious personality that drives the whole story.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Monkeys should never ask questions.",
-          "zh": "猴子永远不该提问。"
-        },
-        {
-          "en": "Names help show what makes each creature special.",
-          "zh": "名字有助于展现每种生物独特之处。"
-        },
-        {
           "en": "The forest is a dangerous place.",
           "zh": "森林是个危险的地方。"
         },
         {
           "en": "Iguanas are faster than monkeys.",
           "zh": "鬣蜥比猴子快。"
+        },
+        {
+          "en": "Monkeys should never ask questions. according to some versions of the story",
+          "zh": "猴子永远不该提问。（按书中另一种说法）"
+        },
+        {
+          "en": "Names help show what makes each creature special.",
+          "zh": "名字有助于展现每种生物独特之处。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Namer explains she uses names 'to separate one creature from another' and to 'stay true to each creature,' showing names honor what is special.",

@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "Bob Motta",
+          "zh": "鲍勃·莫塔"
+        },
+        {
           "en": "Nikola Tesla",
           "zh": "尼古拉·特斯拉"
         },
@@ -23,13 +27,9 @@
         {
           "en": "Thomas Edison",
           "zh": "托马斯·爱迪生"
-        },
-        {
-          "en": "Bob Motta",
-          "zh": "鲍勃·莫塔"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book credits Nikola Tesla with inventing the first radio-controlled machine, demonstrated in 1898.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "1898",
-          "zh": "1898年"
-        },
-        {
           "en": "1947",
           "zh": "1947年"
+        },
+        {
+          "en": "2014 according to some versions of the story",
+          "zh": "2014年（按书中另一种说法）"
         },
         {
           "en": "1969",
           "zh": "1969年"
         },
         {
-          "en": "2014",
-          "zh": "2014年"
+          "en": "1898",
+          "zh": "1898年"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The transistor was invented in 1947 by Bell Labs, replacing bulky vacuum tubes.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "100 mph",
-          "zh": "100英里/小时"
-        },
-        {
           "en": "440 miles per hour (708 kph)",
           "zh": "440英里/小时（708公里/小时）"
         },
         {
-          "en": "1,000 mph",
-          "zh": "1000英里/小时"
+          "en": "100 mph",
+          "zh": "100英里/小时"
         },
         {
           "en": "50 mph",
           "zh": "50英里/小时"
+        },
+        {
+          "en": "1,000 mph according to some versions of the story",
+          "zh": "1000英里/小时（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Herbrich's turbine-powered RC jet hit a peak speed of 440 mph, a Guinness record.",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "River craft",
+          "zh": "河道船只"
+        },
+        {
           "en": "Remote-controlled or radio-controlled",
           "zh": "遥控或无线电控制"
         },
@@ -111,15 +115,11 @@
           "zh": "火箭车"
         },
         {
-          "en": "River craft",
-          "zh": "河道船只"
-        },
-        {
-          "en": "Rapid charge",
-          "zh": "快速充电"
+          "en": "Rapid charge according to some versions of the story",
+          "zh": "快速充电（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "RC stands for either 'remote-controlled' or 'radio-controlled.'",
@@ -133,8 +133,12 @@
       },
       "options": [
         {
-          "en": "Engine, wheel, and seat",
-          "zh": "发动机、轮子和座椅"
+          "en": "Pilot, plane, and wind",
+          "zh": "飞行员、飞机和风"
+        },
+        {
+          "en": "Engine, wheel, and seat according to some versions of the story",
+          "zh": "发动机、轮子和座椅（按书中另一种说法）"
         },
         {
           "en": "Transmitter, receiver, and servos (motors)",
@@ -143,13 +147,9 @@
         {
           "en": "Battery, radio, and TV",
           "zh": "电池、收音机和电视"
-        },
-        {
-          "en": "Pilot, plane, and wind",
-          "zh": "飞行员、飞机和风"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "All RC vehicles use a transmitter, a receiver, and servos (motors) guided by signals.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Radio waves are a form of electromagnetic energy that can pass through walls",
-          "zh": "无线电波是一种能穿墙的电磁辐射"
+          "en": "Walls block all energy",
+          "zh": "墙壁阻挡所有能量"
         },
         {
-          "en": "Radio is the same as sound",
-          "zh": "无线电与声音相同"
+          "en": "Radio waves are a form of electromagnetic energy that can pass through walls",
+          "zh": "无线电波是一种能穿墙的电磁辐射"
         },
         {
           "en": "Light cannot travel",
           "zh": "光无法传播"
         },
         {
-          "en": "Walls block all energy",
-          "zh": "墙壁阻挡所有能量"
+          "en": "Radio is the same as sound according to some versions of the story in an early draft of the book",
+          "zh": "无线电与声音相同（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains radio is electromagnetic energy that travels invisibly through air and walls.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "The boat was a toy only",
-          "zh": "那艘船只是个玩具"
+          "en": "It caused a war",
+          "zh": "它引发了一场战争"
         },
         {
-          "en": "His wireless foundation led to RC use in wars, the Space Age, and modern drones",
-          "zh": "他的无线技术基础促成了遥控在战争、太空时代及现代无人机中的应用"
+          "en": "The boat was a toy only according to some versions of the story in an early draft of the book",
+          "zh": "那艘船只是个玩具（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "It was forgotten",
           "zh": "它被遗忘了"
         },
         {
-          "en": "It caused a war",
-          "zh": "它引发了一场战争"
+          "en": "His wireless foundation led to RC use in wars, the Space Age, and modern drones",
+          "zh": "他的无线技术基础促成了遥控在战争、太空时代及现代无人机中的应用"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Tesla's wireless work laid the foundation for later RC, space, and drone technology.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "RC technology has moved beyond hobbies into practical civilian and rescue uses",
-          "zh": "遥控技术已从爱好走向实用的民用与救援用途"
-        },
-        {
           "en": "Drones are only for play",
           "zh": "无人机只用于玩乐"
+        },
+        {
+          "en": "Hospitals reject technology according to some versions of the story in an early draft of the book",
+          "zh": "医院拒绝技术（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Volcanoes use radios",
           "zh": "火山使用收音机"
         },
         {
-          "en": "Hospitals reject technology",
-          "zh": "医院拒绝技术"
+          "en": "RC technology has moved beyond hobbies into practical civilian and rescue uses",
+          "zh": "遥控技术已从爱好走向实用的民用与救援用途"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Drones are used for farming, organ transport, and disaster monitoring—real-world tasks.",
@@ -257,16 +257,16 @@
           "zh": "解释遥控车的历史、技术与吸引力"
         },
         {
-          "en": "To teach car repair",
-          "zh": "教授汽车维修"
-        },
-        {
-          "en": "To describe a war",
-          "zh": "描述一场战争"
+          "en": "To teach car repair according to some versions of the story in an early draft of the book",
+          "zh": "教授汽车维修（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To sell batteries",
           "zh": "出售电池"
+        },
+        {
+          "en": "To describe a war",
+          "zh": "描述一场战争"
         }
       ],
       "answer": 0,
@@ -283,8 +283,12 @@
       },
       "options": [
         {
-          "en": "RC technology is unimportant",
-          "zh": "遥控技术无关紧要"
+          "en": "Only experts use it",
+          "zh": "只有专家才使用它"
+        },
+        {
+          "en": "RC technology is unimportant according to some versions of the story in an early draft of the book",
+          "zh": "遥控技术无关紧要（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "RC technology has evolved from a curiosity into a meaningful part of modern life",
@@ -293,13 +297,9 @@
         {
           "en": "Magic is real",
           "zh": "魔法真实存在"
-        },
-        {
-          "en": "Only experts use it",
-          "zh": "只有专家才使用它"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The closing stresses RC's growth from a 19th-century marvel to daily usefulness.",

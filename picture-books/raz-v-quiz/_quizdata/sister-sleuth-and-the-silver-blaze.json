@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "A champion racehorse and the favorite to win the Wessex Cup",
-          "zh": "一匹冠军赛马，也是韦塞克斯杯夺冠热门"
-        },
-        {
           "en": "A famous detective from London",
           "zh": "来自伦敦的著名侦探"
         },
@@ -25,11 +21,15 @@
           "zh": "米格尔七岁的妹妹"
         },
         {
-          "en": "A book of magic written by The Great Gallardo",
-          "zh": "伟大的加拉尔多写的一本魔法书"
+          "en": "A champion racehorse and the favorite to win the Wessex Cup",
+          "zh": "一匹冠军赛马，也是韦塞克斯杯夺冠热门"
+        },
+        {
+          "en": "A book of magic written by The Great Gallardo according to some versions of the story",
+          "zh": "伟大的加拉尔多写的一本魔法书（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Silver Blaze is Colonel Ross's champion horse and the first favorite in the Wessex Cup race, which disappears from King's Pyland stables.",
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "Silver Blaze",
+          "zh": "银焰"
+        },
+        {
           "en": "Dr. Watson",
           "zh": "华生医生"
         },
@@ -51,15 +55,11 @@
           "zh": "特雷莎"
         },
         {
-          "en": "Silver Blaze",
-          "zh": "银焰"
-        },
-        {
           "en": "Colonel Ross",
           "zh": "罗斯上校"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Miguel's seven-year-old sister is Teresa, who is obsessed with her toy horses.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "Miguel's great-grandfather, a magician",
+          "zh": "米格尔的曾祖父，一位魔术师"
+        },
+        {
           "en": "Sherlock Holmes's assistant",
           "zh": "福尔摩斯的助手"
         },
         {
-          "en": "The owner of Mapleton Stables",
-          "zh": "梅普尔顿马厩的主人"
-        },
-        {
-          "en": "Miguel's great-grandfather, a magician",
-          "zh": "米格尔的曾祖父，一位魔术师"
+          "en": "The owner of Mapleton Stables according to some versions of the story",
+          "zh": "梅普尔顿马厩的主人（按书中另一种说法）"
         },
         {
           "en": "The murdered horse trainer",
           "zh": "被杀害的马术教练"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Great Gallardo was Miguel's great-grandfather, a magician who left a chest of magical books in the loft.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "The Memoirs of Sherlock Holmes",
-          "zh": "《福尔摩斯回忆录》"
-        },
-        {
           "en": "The autobiography of Ben Franklin",
           "zh": "《富兰克林自传》"
         },
         {
-          "en": "The Adventures of Huckleberry Finn",
-          "zh": "《哈克贝利·费恩历险记》"
+          "en": "The Memoirs of Sherlock Holmes",
+          "zh": "《福尔摩斯回忆录》"
         },
         {
           "en": "A diary kept by Colonel Ross",
           "zh": "罗斯上校写的日记"
+        },
+        {
+          "en": "The Adventures of Huckleberry Finn",
+          "zh": "《哈克贝利·费恩历险记》"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Miguel finds The Memoirs of Sherlock Holmes in the chest, and reading page 185 pulls him into 'The Adventure of the Silver Blaze.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "Page 13 according to some versions of the story",
+          "zh": "第13页（按书中另一种说法）"
+        },
+        {
+          "en": "Page 185",
+          "zh": "第185页"
+        },
+        {
           "en": "Page 24",
           "zh": "第24页"
         },
         {
           "en": "Page 4",
           "zh": "第4页"
-        },
-        {
-          "en": "Page 13",
-          "zh": "第13页"
-        },
-        {
-          "en": "Page 185",
-          "zh": "第185页"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book opens to page 185, 'The Adventure of the Silver Blaze,' and that is when the words swirl and Miguel is transported.",
@@ -175,8 +175,8 @@
           "zh": "为了把他卖给吉普赛人换钱"
         },
         {
-          "en": "Because he was afraid of Sherlock Holmes",
-          "zh": "因为他害怕福尔摩斯"
+          "en": "Because he was afraid of Sherlock Holmes according to some versions of the story",
+          "zh": "因为他害怕福尔摩斯（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -197,19 +197,19 @@
           "zh": "米格尔"
         },
         {
-          "en": "Teresa",
-          "zh": "特雷莎"
+          "en": "Colonel Ross",
+          "zh": "罗斯上校"
         },
         {
           "en": "Inspector Gregory",
           "zh": "格雷戈里警探"
         },
         {
-          "en": "Colonel Ross",
-          "zh": "罗斯上校"
+          "en": "Teresa",
+          "zh": "特雷莎"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Teresa finds the horse tracks plainly outlined in the soft earth under some ferns, and the horseshoe matches them.",
@@ -223,12 +223,8 @@
       },
       "options": [
         {
-          "en": "It helps detectives notice clues others miss",
-          "zh": "它能帮助侦探注意到别人忽略的线索"
-        },
-        {
-          "en": "It is a weakness that investigators should avoid",
-          "zh": "它是调查者应当避免的弱点"
+          "en": "It is a weakness that investigators should avoid according to some versions of the story",
+          "zh": "它是调查者应当避免的弱点（按书中另一种说法）"
         },
         {
           "en": "Only grown-ups are capable of it",
@@ -237,9 +233,13 @@
         {
           "en": "It caused Silver Blaze to disappear",
           "zh": "是它导致银焰失踪的"
+        },
+        {
+          "en": "It helps detectives notice clues others miss",
+          "zh": "它能帮助侦探注意到别人忽略的线索"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Holmes and Teresa both use imagination to picture the horse's path, showing that imagination helps solve mysteries.",
@@ -257,19 +257,19 @@
           "zh": "一把小刀"
         },
         {
-          "en": "His earflap cap",
-          "zh": "他的护耳帽"
-        },
-        {
           "en": "A horseshoe",
           "zh": "一只马蹄铁"
+        },
+        {
+          "en": "His earflap cap",
+          "zh": "他的护耳帽"
         },
         {
           "en": "A toy figurine",
           "zh": "一个玩具小人"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Holmes tosses Miguel the horseshoe he used to compare to the tracks, and later Teresa's find matches it perfectly.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Because it is a full moon",
-          "zh": "因为今天是满月"
+          "en": "Because it is the 185th day of the year",
+          "zh": "因为今天是一年中的第185天"
         },
         {
           "en": "Because the shop is closed",
           "zh": "因为店今天关门"
         },
         {
-          "en": "Because Teresa read ahead",
-          "zh": "因为特雷莎提前读了后面"
+          "en": "Because it is a full moon",
+          "zh": "因为今天是满月"
         },
         {
-          "en": "Because it is the 185th day of the year",
-          "zh": "因为今天是一年中的第185天"
+          "en": "Because Teresa read ahead according to some versions of the story",
+          "zh": "因为特雷莎提前读了后面（按书中另一种说法）"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Miguel checks the calendar and sees it is the 185th day of the year, matching the magic page 185.",

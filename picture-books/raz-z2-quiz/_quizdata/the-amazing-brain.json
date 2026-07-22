@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "It is 2% of body weight but uses over 20% of energy",
-          "zh": "它只占体重的2%，却消耗超过20%的能量"
-        },
-        {
-          "en": "It weighs more than all the other body parts combined",
-          "zh": "它比身体其余所有部分加起来还重"
-        },
-        {
           "en": "It uses less than one percent of the body's energy",
           "zh": "它消耗不到身体百分之一的能量"
         },
         {
           "en": "It is the single heaviest organ in the whole body",
           "zh": "它是全身最重的一个器官"
+        },
+        {
+          "en": "It is 2% of body weight but uses over 20% of energy",
+          "zh": "它只占体重的2%，却消耗超过20%的能量"
+        },
+        {
+          "en": "It weighs more than all the other body parts combined according to some versions of the story",
+          "zh": "它比身体其余所有部分加起来还重（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "It is 2% of body weight but uses over 20% of energy",
@@ -51,12 +51,12 @@
           "zh": "约860亿个神经元"
         },
         {
-          "en": "Only about one million tiny neurons",
-          "zh": "只有大约一百万个微小神经元"
-        },
-        {
           "en": "Exactly one thousand neurons in total",
           "zh": "总共正好一千个神经元"
+        },
+        {
+          "en": "Only about one million tiny neurons",
+          "zh": "只有大约一百万个微小神经元"
         }
       ],
       "answer": 1,
@@ -73,8 +73,12 @@
       },
       "options": [
         {
-          "en": "It is the thinking part of the brain that solves hard math",
-          "zh": "它是负责解难题的思考部位"
+          "en": "It is the thinking part of the brain that solves hard math according to some versions of the story",
+          "zh": "它是负责解难题的思考部位（按书中另一种说法）"
+        },
+        {
+          "en": "It is the wrinkled outside layer of the brain",
+          "zh": "它是大脑起皱的外层"
         },
         {
           "en": "It stores only your oldest long-term memories",
@@ -83,13 +87,9 @@
         {
           "en": "It controls basic survival like breathing and heartbeat",
           "zh": "它控制呼吸、心跳等基本的生存机能"
-        },
-        {
-          "en": "It is the wrinkled outside layer of the brain",
-          "zh": "它是大脑起皱的外层"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "It controls basic survival like breathing and heartbeat",
@@ -111,15 +111,15 @@
           "zh": "它把血液泵向身体各处"
         },
         {
-          "en": "It gently digests the food you eat each day",
-          "zh": "它慢慢消化你每天吃的食物"
-        },
-        {
           "en": "It coordinates smooth muscle movement and balance",
           "zh": "它协调流畅的肌肉运动和平衡"
+        },
+        {
+          "en": "It gently digests the food you eat each day",
+          "zh": "它慢慢消化你每天吃的食物"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "It coordinates smooth muscle movement and balance",
@@ -133,8 +133,8 @@
       },
       "options": [
         {
-          "en": "The hard bone at the top of the spine that protects the brain",
-          "zh": "脊柱顶端保护大脑的硬骨"
+          "en": "A special kind of brain cell that carries signals",
+          "zh": "一种传递信号的特殊脑细胞"
         },
         {
           "en": "The bundle connecting the two brain hemispheres",
@@ -145,8 +145,8 @@
           "zh": "脑干最小最下的部分"
         },
         {
-          "en": "A special kind of brain cell that carries signals",
-          "zh": "一种传递信号的特殊脑细胞"
+          "en": "The hard bone at the top of the spine that protects the brain",
+          "zh": "脊柱顶端保护大脑的硬骨"
         }
       ],
       "answer": 1,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "He was a famous French scientist who first mapped the whole brain",
-          "zh": "他是首位绘制全脑地图的法国科学家"
-        },
-        {
           "en": "He invented the very first EEG machine back in 1920",
           "zh": "他在1920年发明了第一台脑电图机"
         },
         {
-          "en": "A rod shot through his frontal lobe, changing his personality",
-          "zh": "一根铁棍射穿他的额叶，改变了他的性格"
+          "en": "He was a famous French scientist who first mapped the whole brain",
+          "zh": "他是首位绘制全脑地图的法国科学家"
         },
         {
           "en": "He once flew a hot-air balloon across the open ocean",
           "zh": "他曾乘热气球飞越开阔的海洋"
+        },
+        {
+          "en": "A rod shot through his frontal lobe, changing his personality",
+          "zh": "一根铁棍射穿他的额叶，改变了他的性格"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "A rod shot through his frontal lobe, changing his personality",
@@ -193,8 +193,8 @@
       },
       "options": [
         {
-          "en": "Both machines measure exactly the same thing in the same way",
-          "zh": "两台机器测量的是完全相同的事物、方式也一样"
+          "en": "EEG measures electrical signals; fMRI measures blood flow",
+          "zh": "EEG测量电信号，fMRI测量血流"
         },
         {
           "en": "The EEG uses strong magnets; the fMRI uses electricity",
@@ -205,11 +205,11 @@
           "zh": "fMRI比EEG早很多年发明"
         },
         {
-          "en": "EEG measures electrical signals; fMRI measures blood flow",
-          "zh": "EEG测量电信号，fMRI测量血流"
+          "en": "Both machines measure exactly the same thing in the same way",
+          "zh": "两台机器测量的是完全相同的事物、方式也一样"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "EEG measures electrical signals; fMRI measures blood flow",
@@ -223,12 +223,12 @@
       },
       "options": [
         {
-          "en": "Exercise, sleep, brain foods, and puzzles",
-          "zh": "运动、睡眠、健脑食物和益智游戏"
-        },
-        {
           "en": "Only taking one special kind of vitamin pill every day",
           "zh": "每天只吃一种特殊的维生素药丸"
+        },
+        {
+          "en": "Exercise, sleep, brain foods, and puzzles",
+          "zh": "运动、睡眠、健脑食物和益智游戏"
         },
         {
           "en": "Avoiding all forms of physical activity",
@@ -239,7 +239,7 @@
           "zh": "每晚只睡短短两小时"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Exercise, sleep, brain foods, and puzzles",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To prove that computers will always be much smarter than us",
-          "zh": "为了证明电脑永远比我们聪明得多"
-        },
-        {
-          "en": "To claim the human brain is made entirely of metal",
-          "zh": "为了声称人脑完全由金属构成"
-        },
-        {
           "en": "To show brains learn and adapt better than computers",
           "zh": "为了说明大脑比电脑更善于学习和适应"
         },
         {
           "en": "To teach readers how to build a working robot brain",
           "zh": "为了教读者如何造一个能运作的机器脑"
+        },
+        {
+          "en": "To claim the human brain is made entirely of metal",
+          "zh": "为了声称人脑完全由金属构成"
+        },
+        {
+          "en": "To prove that computers will always be much smarter than us",
+          "zh": "为了证明电脑永远比我们聪明得多"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "To show brains learn and adapt better than computers",
@@ -283,12 +283,12 @@
       },
       "options": [
         {
-          "en": "A painful disease that only the very oldest people get",
-          "zh": "只有最年长者才会得的痛苦疾病"
-        },
-        {
           "en": "A brain injury from a hard blow to the head",
           "zh": "头部受到重击造成的脑损伤"
+        },
+        {
+          "en": "A painful disease that only the very oldest people get",
+          "zh": "只有最年长者才会得的痛苦疾病"
         },
         {
           "en": "A strange kind of dream during very deep sleep",
@@ -299,7 +299,7 @@
           "zh": "吃太多坏东西引起的肠胃不适"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "A brain injury from a hard blow to the head",

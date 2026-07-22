@@ -21,12 +21,12 @@
           "zh": "1870年，法国巴黎"
         },
         {
-          "en": "New York, USA, in 1865",
-          "zh": "1865年，美国纽约"
-        },
-        {
           "en": "London, England, in 1868",
           "zh": "1868年，英国伦敦"
+        },
+        {
+          "en": "New York, USA, in 1865",
+          "zh": "1865年，美国纽约"
         }
       ],
       "answer": 0,
@@ -55,8 +55,8 @@
           "zh": "哈佛大学"
         },
         {
-          "en": "Cambridge",
-          "zh": "剑桥大学"
+          "en": "Cambridge according to some versions of the story",
+          "zh": "剑桥大学（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "Uranium and thorium",
-          "zh": "铀和钍"
-        },
-        {
           "en": "Polonium and radium",
           "zh": "钋和镭"
         },
@@ -85,11 +81,15 @@
           "zh": "金和银"
         },
         {
+          "en": "Uranium and thorium according to some versions of the story",
+          "zh": "铀和钍（按书中另一种说法）"
+        },
+        {
           "en": "Oxygen and hydrogen",
           "zh": "氧和氢"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In 1898 they discovered polonium (named for her homeland) and radium.",
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "Physics and Chemistry",
-          "zh": "物理学和化学"
-        },
-        {
           "en": "Medicine and Peace",
           "zh": "医学与和平"
         },
@@ -117,9 +113,13 @@
         {
           "en": "Physics and Math",
           "zh": "物理和数学"
+        },
+        {
+          "en": "Physics and Chemistry",
+          "zh": "物理学和化学"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "She won the 1903 Nobel Prize in Physics and the 1911 Nobel Prize in Chemistry - the only person awarded Nobel Prizes in two different sciences.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Pierre Curie",
-          "zh": "皮埃尔·居里"
+          "en": "Albert Einstein",
+          "zh": "阿尔伯特·爱因斯坦"
         },
         {
-          "en": "Wilhelm Roentgen",
-          "zh": "威廉·伦琴"
+          "en": "Pierre Curie",
+          "zh": "皮埃尔·居里"
         },
         {
           "en": "Henri Becquerel",
           "zh": "亨利·贝克勒尔"
         },
         {
-          "en": "Albert Einstein",
-          "zh": "阿尔伯特·爱因斯坦"
+          "en": "Wilhelm Roentgen",
+          "zh": "威廉·伦琴"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "She married Pierre Curie in 1895, and they worked together on radioactivity.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "She built tanks",
-          "zh": "她制造坦克"
-        },
-        {
           "en": "She provided portable X-ray machines and set up over 200 X-ray stations",
           "zh": "她提供便携式X光机，并建立了200多个X光站"
         },
         {
-          "en": "She cooked meals",
-          "zh": "她做饭"
+          "en": "She trained horses according to some versions of the story in an early draft of the book",
+          "zh": "她训练马匹（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "She trained horses",
-          "zh": "她训练马匹"
+          "en": "She built tanks",
+          "zh": "她制造坦克"
+        },
+        {
+          "en": "She cooked meals",
+          "zh": "她做饭"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "She provided portable X-ray machines for battlefields and set up more than two hundred X-ray stations.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Biology and chemistry",
-          "zh": "生物学和化学"
-        },
-        {
-          "en": "Physics and math",
-          "zh": "物理和数学"
+          "en": "Law and medicine",
+          "zh": "法学和医学"
         },
         {
           "en": "History and art",
           "zh": "历史和艺术"
         },
         {
-          "en": "Law and medicine",
-          "zh": "法学和医学"
+          "en": "Biology and chemistry",
+          "zh": "生物学和化学"
+        },
+        {
+          "en": "Physics and math",
+          "zh": "物理和数学"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "She graduated first in her class with a master's in physics, then earned a second master's in math.",
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "In a car accident",
-          "zh": "死于车祸"
+          "en": "In a war",
+          "zh": "死于战争"
         },
         {
           "en": "From an illness caused by long exposure to radioactivity",
           "zh": "因长期接触放射性物质引起的疾病"
         },
         {
-          "en": "From old age at 100",
-          "zh": "百岁高龄自然老去"
+          "en": "From old age at 100 according to some versions of the story",
+          "zh": "百岁高龄自然老去（按书中另一种说法）"
         },
         {
-          "en": "In a war",
-          "zh": "死于战争"
+          "en": "In a car accident",
+          "zh": "死于车祸"
         }
       ],
       "answer": 1,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "A student again according to some versions of the story",
+          "zh": "再次成为学生（按书中另一种说法）"
+        },
+        {
+          "en": "A librarian",
+          "zh": "图书管理员"
+        },
+        {
           "en": "Its first woman professor",
           "zh": "索邦大学第一位女教授"
         },
         {
           "en": "Its president",
           "zh": "校长"
-        },
-        {
-          "en": "A student again",
-          "zh": "再次成为学生"
-        },
-        {
-          "en": "A librarian",
-          "zh": "图书管理员"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "She was given Pierre's teaching post and became the Sorbonne's first female professor.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "She was the richest scientist",
-          "zh": "她是最富有的科学家"
-        },
-        {
-          "en": "She was the first person ever awarded Nobel Prizes in two different scientific fields",
-          "zh": "她是史上第一位在两个不同科学领域获得诺贝尔奖的人"
+          "en": "She was the richest scientist according to some versions of the story in an early draft of the book",
+          "zh": "她是最富有的科学家（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "She discovered America",
           "zh": "她发现了美洲"
         },
         {
+          "en": "She was the first person ever awarded Nobel Prizes in two different scientific fields",
+          "zh": "她是史上第一位在两个不同科学领域获得诺贝尔奖的人"
+        },
+        {
           "en": "She wrote the most books",
           "zh": "她写的书最多"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "She was the first woman to win a Nobel and the only person to win in two different sciences.",

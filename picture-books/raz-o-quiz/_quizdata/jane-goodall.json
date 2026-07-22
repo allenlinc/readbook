@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "England",
-          "zh": "英格兰"
-        },
-        {
           "en": "Kenya",
           "zh": "肯尼亚"
         },
         {
-          "en": "Tanzania",
-          "zh": "坦桑尼亚"
-        },
-        {
           "en": "The United States",
           "zh": "美国"
+        },
+        {
+          "en": "England",
+          "zh": "英格兰"
+        },
+        {
+          "en": "Tanzania",
+          "zh": "坦桑尼亚"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states Jane Goodall was born in England in 1934 and grew up in the seaside town of Bournemouth.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Eighteen",
-          "zh": "18岁"
-        },
-        {
-          "en": "Twenty-two",
-          "zh": "22岁"
-        },
-        {
           "en": "Twenty-six",
           "zh": "26岁"
         },
         {
           "en": "Thirty",
           "zh": "30岁"
+        },
+        {
+          "en": "Eighteen",
+          "zh": "18岁"
+        },
+        {
+          "en": "Twenty-two according to some versions of the story",
+          "zh": "22岁（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says she was born in 1934 and went to the Gombe Forest in 1960 at the age of twenty-six.",
@@ -77,19 +77,19 @@
           "zh": "科学家"
         },
         {
-          "en": "A secretary",
-          "zh": "秘书"
+          "en": "A teacher",
+          "zh": "教师"
         },
         {
           "en": "A zoo keeper",
           "zh": "动物园管理员"
         },
         {
-          "en": "A teacher",
-          "zh": "教师"
+          "en": "A secretary",
+          "zh": "秘书"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "At age eighteen, Jane graduated from high school and became a secretary before she saved money to travel to Kenya.",
@@ -103,20 +103,20 @@
       },
       "options": [
         {
-          "en": "A science experiment done in a classroom",
-          "zh": "在教室里做的科学实验"
+          "en": "A study of farm animals only",
+          "zh": "只研究农场动物的研究"
         },
         {
           "en": "Research conducted in a natural setting near the animal",
           "zh": "在动物附近的自然环境中进行的研究"
         },
         {
-          "en": "A study of farm animals only",
-          "zh": "只研究农场动物的研究"
-        },
-        {
           "en": "A zoo observation program",
           "zh": "动物园观察项目"
+        },
+        {
+          "en": "A science experiment done in a classroom according to some versions of the story",
+          "zh": "在教室里做的科学实验（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "Painted the leaves",
-          "zh": "给叶子涂色"
+          "en": "Painted the leaves according to some versions of the story",
+          "zh": "给叶子涂色（按书中另一种说法）"
         },
         {
           "en": "Removed the leaves",
           "zh": "把叶子去掉"
         },
         {
-          "en": "Measured the leaves",
-          "zh": "测量叶子"
-        },
-        {
           "en": "Watered the leaves",
           "zh": "给叶子浇水"
+        },
+        {
+          "en": "Measured the leaves",
+          "zh": "测量叶子"
         }
       ],
       "answer": 1,
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "Chimps eat only plants",
-          "zh": "黑猩猩只吃植物"
+          "en": "Chimps sleep all day",
+          "zh": "黑猩猩整天睡觉"
         },
         {
           "en": "Chimps can make and use tools",
           "zh": "黑猩猩能够制造并使用工具"
         },
         {
-          "en": "Chimps cannot learn",
-          "zh": "黑猩猩无法学习"
+          "en": "Chimps eat only plants according to some versions of the story",
+          "zh": "黑猩猩只吃植物（按书中另一种说法）"
         },
         {
-          "en": "Chimps sleep all day",
-          "zh": "黑猩猩整天睡觉"
+          "en": "Chimps cannot learn",
+          "zh": "黑猩猩无法学习"
         }
       ],
       "answer": 1,
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "They have no feelings or intelligence",
-          "zh": "它们没有感情也没有智慧"
-        },
-        {
           "en": "They show a range of emotions like humans",
           "zh": "它们像人类一样表现出多种情绪"
         },
@@ -205,11 +201,15 @@
           "zh": "它们只生活在动物园里"
         },
         {
+          "en": "They have no feelings or intelligence according to some versions of the story",
+          "zh": "它们没有感情也没有智慧（按书中另一种说法）"
+        },
+        {
           "en": "They cannot form families",
           "zh": "它们无法组成家庭"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Goodall stated each chimp had its own personality and showed emotions such as happy, sad, angry, loving, and jealous, and was seen holding hands, laughing, and throwing tantrums.",
@@ -223,8 +223,12 @@
       },
       "options": [
         {
-          "en": "To describe Jane's favorite chimpanzee",
-          "zh": "为了描写珍最喜欢的黑猩猩"
+          "en": "To describe Jane's favorite chimpanzee according to some versions of the story",
+          "zh": "为了描写珍最喜欢的黑猩猩（按书中另一种说法）"
+        },
+        {
+          "en": "To show how to cook termites",
+          "zh": "为了展示如何烹饪白蚁"
         },
         {
           "en": "To explain the dangers chimps faced and why Jane began conservation work",
@@ -233,13 +237,9 @@
         {
           "en": "To list the glossary words",
           "zh": "为了列出词汇表"
-        },
-        {
-          "en": "To show how to cook termites",
-          "zh": "为了展示如何烹饪白蚁"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "This section describes forests being cut down and chimps being hunted, which led Jane to leave Gombe and travel the world to ask for help saving them.",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "To entertain with a fictional story",
-          "zh": "用一个虚构故事来娱乐读者"
-        },
-        {
           "en": "To inform readers about Jane Goodall's life and work",
           "zh": "向读者介绍珍·古道尔的生平和事迹"
         },
@@ -265,11 +261,15 @@
           "zh": "教读者如何当秘书"
         },
         {
+          "en": "To entertain with a fictional story according to some versions of the story",
+          "zh": "用一个虚构故事来娱乐读者（按书中另一种说法）"
+        },
+        {
           "en": "To argue against all zoos",
           "zh": "反对所有动物园"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is a biography that tells the true story of Jane Goodall's life, discoveries, and conservation efforts to inform readers.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "By sitting quietly and letting David Greybeard find a banana she hid",
-          "zh": "通过安静地坐着，让大卫·灰胡子找到她藏起来的香蕉"
-        },
-        {
           "en": "By building a zoo",
           "zh": "通过建立动物园"
         },
         {
-          "en": "By playing loud music",
-          "zh": "通过播放响亮的音乐"
-        },
-        {
           "en": "By capturing them",
           "zh": "通过捕捉它们"
+        },
+        {
+          "en": "By playing loud music according to some versions of the story in an early draft of the book",
+          "zh": "通过播放响亮的音乐（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "By sitting quietly and letting David Greybeard find a banana she hid",
+          "zh": "通过安静地坐着，让大卫·灰胡子找到她藏起来的香蕉"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Jane sat quietly watching the chimps and hid a banana under her shirt for David Greybeard to find, which helped build his trust in her.",

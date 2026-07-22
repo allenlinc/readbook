@@ -21,12 +21,12 @@
           "zh": "至少150年"
         },
         {
-          "en": "at least 500 years",
-          "zh": "至少500年"
-        },
-        {
           "en": "at least 1,000 years",
           "zh": "至少1000年"
+        },
+        {
+          "en": "at least 500 years",
+          "zh": "至少500年"
         }
       ],
       "answer": 1,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "Both grow best in fog",
+          "zh": "两者都在雾中生长得最好"
+        },
+        {
           "en": "Redwoods are the tallest; sequoias are the largest",
           "zh": "红杉最高；北美红杉最大"
         },
         {
-          "en": "Sequoias are the tallest; redwoods are the largest",
-          "zh": "北美红杉最高；红杉最大"
-        },
-        {
-          "en": "Both grow best in fog",
-          "zh": "两者都在雾中生长得最好"
+          "en": "Sequoias are the tallest; redwoods are the largest according to some versions of the story",
+          "zh": "北美红杉最高；红杉最大（按书中另一种说法）"
         },
         {
           "en": "Both grow at 5,000–7,000 feet",
           "zh": "两者都生长在5000至7000英尺的高度"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, \"Giant redwoods are the tallest trees in the world... Giant sequoias are the largest.\"",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "the tallest tree in the world",
-          "zh": "世界上最高的树"
-        },
-        {
-          "en": "the largest tree in the world",
-          "zh": "世界上最大的树"
+          "en": "a kind of redwood",
+          "zh": "一种红杉"
         },
         {
           "en": "the oldest tree in Japan",
           "zh": "日本最古老的树"
         },
         {
-          "en": "a kind of redwood",
-          "zh": "一种红杉"
+          "en": "the tallest tree in the world according to some versions of the story",
+          "zh": "世界上最高的树（按书中另一种说法）"
+        },
+        {
+          "en": "the largest tree in the world",
+          "zh": "世界上最大的树"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, \"A giant sequoia known as the General Sherman Tree is the largest tree in the world.\"",
@@ -103,20 +103,20 @@
       },
       "options": [
         {
-          "en": "\"tall tree\"",
-          "zh": "“高树”"
+          "en": "\"red wood\"",
+          "zh": "“红木”"
         },
         {
           "en": "\"crooked wood\"",
           "zh": "“弯曲的木头”"
         },
         {
-          "en": "\"old forest\"",
-          "zh": "“古老的森林”"
+          "en": "\"old forest\" according to some versions of the story",
+          "zh": "“古老的森林”（按书中另一种说法）"
         },
         {
-          "en": "\"red wood\"",
-          "zh": "“红木”"
+          "en": "\"tall tree\"",
+          "zh": "“高树”"
         }
       ],
       "answer": 1,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "the Pacific fisher",
-          "zh": "太平洋渔貂"
-        },
-        {
           "en": "the Japanese serow",
           "zh": "日本鬣羚"
         },
         {
-          "en": "the snow leopard",
-          "zh": "雪豹"
-        },
-        {
           "en": "the black woodpecker",
           "zh": "黑啄木鸟"
+        },
+        {
+          "en": "the Pacific fisher",
+          "zh": "太平洋渔貂"
+        },
+        {
+          "en": "the snow leopard",
+          "zh": "雪豹"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"The forest is also home to the Japanese serow. This goatlike animal is only found here and in two other small areas in Japan.\"",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "to show that protecting old-growth forests can help bring species back",
-          "zh": "为了说明保护原始森林可以帮助物种回归"
-        },
-        {
-          "en": "to explain how bison are farmed for meat",
-          "zh": "为了解释如何饲养野牛获取肉食"
-        },
-        {
           "en": "to compare Russia with Japan",
           "zh": "为了将俄罗斯与日本作比较"
         },
         {
           "en": "to describe timberline trees",
           "zh": "为了描述林线树木"
+        },
+        {
+          "en": "to explain how bison are farmed for meat according to some versions of the story",
+          "zh": "为了解释如何饲养野牛获取肉食（按书中另一种说法）"
+        },
+        {
+          "en": "to show that protecting old-growth forests can help bring species back",
+          "zh": "为了说明保护原始森林可以帮助物种回归"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book notes captive wisents were set free in the protected Western Caucasus forest, showing protection can restore species.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "They block sunlight so trees stop growing",
-          "zh": "它们遮挡阳光使树木停止生长"
-        },
-        {
           "en": "They provide food and shelter for many animals, plants, and fungi",
           "zh": "它们为许多动物、植物和真菌提供食物与庇护所"
         },
         {
-          "en": "They are used to build houses for people",
-          "zh": "它们被用来为人们建造房屋"
+          "en": "They block sunlight so trees stop growing according to some versions of the story",
+          "zh": "它们遮挡阳光使树木停止生长（按书中另一种说法）"
         },
         {
           "en": "They cause erosion",
           "zh": "它们导致水土流失"
+        },
+        {
+          "en": "They are used to build houses for people",
+          "zh": "它们被用来为人们建造房屋"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says fallen trees and snags \"provide food and shelter for many animals, plants, and fungi. Some of these species live nowhere else on Earth.\"",
@@ -223,8 +223,12 @@
       },
       "options": [
         {
-          "en": "Sequoia and Kings Canyon",
-          "zh": "美洲杉与国王峡谷"
+          "en": "Sequoia and Kings Canyon according to some versions of the story",
+          "zh": "美洲杉与国王峡谷（按书中另一种说法）"
+        },
+        {
+          "en": "Western Caucasus",
+          "zh": "西高加索"
         },
         {
           "en": "Great Smoky Mountains National Park",
@@ -233,13 +237,9 @@
         {
           "en": "Shirakami-Sanchi",
           "zh": "白神山地"
-        },
-        {
-          "en": "Western Caucasus",
-          "zh": "西高加索"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book places the Carolina northern flying squirrel in Great Smoky Mountains National Park, in the Appalachian Mountains of North Carolina and Tennessee.",
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "in the Arctic timberline",
+          "zh": "在北极的林线"
+        },
+        {
           "en": "in dry heat at high elevations",
           "zh": "在高海拔的干热环境中"
         },
@@ -261,15 +265,11 @@
           "zh": "在近海平面的雾中"
         },
         {
-          "en": "in the Arctic timberline",
-          "zh": "在北极的林线"
-        },
-        {
           "en": "on steep mountain slopes in Japan",
           "zh": "在日本陡峭的山坡上"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"Redwoods grow best in fog... Redwoods grow near sea level.\"",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "They should all be cut down for lumber",
-          "zh": "它们都应该被砍伐用作木材"
-        },
-        {
           "en": "They need protection because once lost, their beauty and scientific value may be gone forever",
           "zh": "它们需要保护，因为一旦消失，其美丽与科学价值可能永远丧失"
+        },
+        {
+          "en": "They should only be protected in Japan",
+          "zh": "它们只应在日本受到保护"
         },
         {
           "en": "They are no longer important to study",
           "zh": "它们已不再值得研究"
         },
         {
-          "en": "They should only be protected in Japan",
-          "zh": "它们只应在日本受到保护"
+          "en": "They should all be cut down for lumber according to some versions of the story in an early draft of the book",
+          "zh": "它们都应该被砍伐用作木材（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book warns, \"Once gone, the beauty and scientific information that these old-growth forests hold may be lost forever.\"",

@@ -12,10 +12,22 @@
         "zh": "谁证明了疾病细菌学说（即接触有害微生物会导致疾病）？"
       },
       "options": [
-        {"en": "Louis Pasteur", "zh": "路易·巴斯德"},
-        {"en": "Edward Jenner", "zh": "爱德华·詹纳"},
-        {"en": "Alexander Fleming", "zh": "亚历山大·弗莱明"},
-        {"en": "Robert Koch", "zh": "罗伯特·科赫"}
+        {
+          "en": "Louis Pasteur",
+          "zh": "路易·巴斯德"
+        },
+        {
+          "en": "Edward Jenner",
+          "zh": "爱德华·詹纳"
+        },
+        {
+          "en": "Robert Koch",
+          "zh": "罗伯特·科赫"
+        },
+        {
+          "en": "Alexander Fleming",
+          "zh": "亚历山大·弗莱明"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "以巴斯德命名、用于牛奶和罐头食品杀菌的加热处理过程叫什么？"
       },
       "options": [
-        {"en": "pasteurization", "zh": "巴氏杀菌法"},
-        {"en": "vaccination", "zh": "疫苗接种"},
-        {"en": "fermentation", "zh": "发酵"},
-        {"en": "sterilization", "zh": "灭菌"}
+        {
+          "en": "sterilization according to some versions of the story",
+          "zh": "灭菌（按书中另一种说法）"
+        },
+        {
+          "en": "pasteurization",
+          "zh": "巴氏杀菌法"
+        },
+        {
+          "en": "vaccination",
+          "zh": "疫苗接种"
+        },
+        {
+          "en": "fermentation",
+          "zh": "发酵"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Pasteur discovered that heating sealed food to a specific temperature kills organisms, and 'This heating process is called pasteurization. Today it is used on fresh milk and canned food.'",
@@ -48,10 +72,22 @@
         "zh": "四大类微生物中，哪一类会引起癣和脚气等常见感染？"
       },
       "options": [
-        {"en": "Bacteria", "zh": "细菌"},
-        {"en": "Viruses", "zh": "病毒"},
-        {"en": "Fungi", "zh": "真菌"},
-        {"en": "Protozoa", "zh": "原生动物"}
+        {
+          "en": "Bacteria",
+          "zh": "细菌"
+        },
+        {
+          "en": "Protozoa",
+          "zh": "原生动物"
+        },
+        {
+          "en": "Fungi",
+          "zh": "真菌"
+        },
+        {
+          "en": "Viruses",
+          "zh": "病毒"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -66,10 +102,22 @@
         "zh": "根据本书，许多食物中毒病例是由哪种微生物引起的？"
       },
       "options": [
-        {"en": "Viruses", "zh": "病毒"},
-        {"en": "Bacteria", "zh": "细菌"},
-        {"en": "Fungi", "zh": "真菌"},
-        {"en": "Protozoa", "zh": "原生动物"}
+        {
+          "en": "Fungi",
+          "zh": "真菌"
+        },
+        {
+          "en": "Bacteria",
+          "zh": "细菌"
+        },
+        {
+          "en": "Protozoa",
+          "zh": "原生动物"
+        },
+        {
+          "en": "Viruses",
+          "zh": "病毒"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "在词汇表中，「mutate」（变异）一词是什么意思？"
       },
       "options": [
-        {"en": "to permanently change", "zh": "永久地改变"},
-        {"en": "to multiply quickly", "zh": "快速繁殖"},
-        {"en": "to hide from the immune system", "zh": "躲避免疫系统"},
-        {"en": "to join together", "zh": "结合在一起"}
+        {
+          "en": "to multiply quickly",
+          "zh": "快速繁殖"
+        },
+        {
+          "en": "to hide from the immune system",
+          "zh": "躲避免疫系统"
+        },
+        {
+          "en": "to join together",
+          "zh": "结合在一起"
+        },
+        {
+          "en": "to permanently change",
+          "zh": "永久地改变"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'mutate (v.)' as 'to permanently change.' The book also notes a virus can mutate, or change its identity, to avoid detection.",
@@ -102,12 +162,24 @@
         "zh": "在书中，「抗生素」（antibiotics）是什么？"
       },
       "options": [
-        {"en": "medicines made from microbes to fight infections", "zh": "由微生物制造、用于对抗感染的药物"},
-        {"en": "weak viruses used in vaccines", "zh": "疫苗中使用的弱病毒"},
-        {"en": "a type of microscope", "zh": "一种显微镜"},
-        {"en": "white blood cells", "zh": "白细胞"}
+        {
+          "en": "white blood cells",
+          "zh": "白细胞"
+        },
+        {
+          "en": "a type of microscope",
+          "zh": "一种显微镜"
+        },
+        {
+          "en": "medicines made from microbes to fight infections",
+          "zh": "由微生物制造、用于对抗感染的药物"
+        },
+        {
+          "en": "weak viruses used in vaccines according to some versions of the story",
+          "zh": "疫苗中使用的弱病毒（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'antibiotics' as 'medicines made from microbes to fight infections in the body.' The book explains some microbes naturally produce these strong medicines.",
@@ -120,12 +192,24 @@
         "zh": "根据本书，大约有多少百分比的疾病是通过接触传播的？"
       },
       "options": [
-        {"en": "80 percent", "zh": "80%"},
-        {"en": "50 percent", "zh": "50%"},
-        {"en": "25 percent", "zh": "25%"},
-        {"en": "99 percent", "zh": "99%"}
+        {
+          "en": "25 percent according to some versions of the story",
+          "zh": "25%（按书中另一种说法）"
+        },
+        {
+          "en": "80 percent",
+          "zh": "80%"
+        },
+        {
+          "en": "99 percent",
+          "zh": "99%"
+        },
+        {
+          "en": "50 percent",
+          "zh": "50%"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Under 'Keeping clean' the book says: 'Eighty percent of diseases are transmitted through touch because many people do not wash their hands.'",
@@ -138,10 +222,22 @@
         "zh": "「流行病」（epidemic）和「大流行病」（pandemic）的区别是什么？"
       },
       "options": [
-        {"en": "A pandemic is when an epidemic spreads around the world", "zh": "大流行病是指流行病蔓延到全世界"},
-        {"en": "An epidemic is worldwide while a pandemic is local", "zh": "流行病是全球性的，而大流行病是局部性的"},
-        {"en": "They are exactly the same thing", "zh": "两者完全相同"},
-        {"en": "A pandemic only affects animals", "zh": "大流行病只影响动物"}
+        {
+          "en": "A pandemic is when an epidemic spreads around the world",
+          "zh": "大流行病是指流行病蔓延到全世界"
+        },
+        {
+          "en": "They are exactly the same thing",
+          "zh": "两者完全相同"
+        },
+        {
+          "en": "A pandemic only affects animals",
+          "zh": "大流行病只影响动物"
+        },
+        {
+          "en": "An epidemic is worldwide while a pandemic is local according to some versions of the story",
+          "zh": "流行病是全球性的，而大流行病是局部性的（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,12 +252,24 @@
         "zh": "作者为什么要加入「你知道吗？」段落，说欧洲人把天花带到美洲、导致数百万原住民死亡？"
       },
       "options": [
-        {"en": "To show the deadly effect of a disease on people with no immunity", "zh": "为了说明疾病对没有免疫力的人群造成的致命影响"},
-        {"en": "To explain how vaccines were invented", "zh": "为了解释疫苗是如何发明的"},
-        {"en": "To describe Pasteur's experiments", "zh": "为了描述巴斯德的实验"},
-        {"en": "To give a recipe for cooking food safely", "zh": "为了提供安全烹饪食物的方法"}
+        {
+          "en": "To explain how vaccines were invented",
+          "zh": "为了解释疫苗是如何发明的"
+        },
+        {
+          "en": "To give a recipe for cooking food safely according to some versions of the story",
+          "zh": "为了提供安全烹饪食物的方法（按书中另一种说法）"
+        },
+        {
+          "en": "To describe Pasteur's experiments",
+          "zh": "为了描述巴斯德的实验"
+        },
+        {
+          "en": "To show the deadly effect of a disease on people with no immunity",
+          "zh": "为了说明疾病对没有免疫力的人群造成的致命影响"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book notes Native Americans 'had no immunity to it. As a result, smallpox killed millions,' showing how a disease with no natural resistance can devastate a population.",
@@ -174,10 +282,22 @@
         "zh": "本书结论部分作者的主要观点是什么？"
       },
       "options": [
-        {"en": "We can never eliminate all harmful microbes but can learn to control them and stay healthier", "zh": "我们永远无法消灭所有有害微生物，但可以学会控制它们并保持健康"},
-        {"en": "All microbes are harmful and must be destroyed", "zh": "所有微生物都有害，必须被消灭"},
-        {"en": "Only antibiotics can cure every disease", "zh": "只有抗生素能治愈所有疾病"},
-        {"en": "Vaccines are unnecessary", "zh": "疫苗是不必要的"}
+        {
+          "en": "We can never eliminate all harmful microbes but can learn to control them and stay healthier",
+          "zh": "我们永远无法消灭所有有害微生物，但可以学会控制它们并保持健康"
+        },
+        {
+          "en": "Vaccines are unnecessary",
+          "zh": "疫苗是不必要的"
+        },
+        {
+          "en": "All microbes are harmful and must be destroyed according to some versions of the story in an early draft of the book",
+          "zh": "所有微生物都有害，必须被消灭（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Only antibiotics can cure every disease",
+          "zh": "只有抗生素能治愈所有疾病"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -193,8 +313,14 @@
       "zh": "回想你感冒或得流感的一次经历。书中「保持健康」一节的习惯里，你已经做到了哪些，又有哪些可以改进？"
     },
     "guidance": {
-      "en": ["Mention hand-washing, covering coughs, and staying home when sick as habits from the book.", "Reflect on why preventing the spread of germs matters for your family and community."],
-      "zh": ["提及书中提到的洗手、咳嗽时遮挡、生病时居家等习惯。", "思考预防病菌传播对家庭和社会的重要性。"]
+      "en": [
+        "Mention hand-washing, covering coughs, and staying home when sick as habits from the book.",
+        "Reflect on why preventing the spread of germs matters for your family and community."
+      ],
+      "zh": [
+        "提及书中提到的洗手、咳嗽时遮挡、生病时居家等习惯。",
+        "思考预防病菌传播对家庭和社会的重要性。"
+      ]
     }
   }
 }

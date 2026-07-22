@@ -12,12 +12,24 @@
         "zh": "哪种动物是大平原许多部落饮食的主要来源，并为他们提供衣物、住所和工具的材料？"
       },
       "options": [
-        {"en": "bison (buffalo)", "zh": "野牛（水牛）"},
-        {"en": "deer", "zh": "鹿"},
-        {"en": "horses", "zh": "马"},
-        {"en": "fish", "zh": "鱼"}
+        {
+          "en": "horses according to some versions of the story",
+          "zh": "马（按书中另一种说法）"
+        },
+        {
+          "en": "bison (buffalo)",
+          "zh": "野牛（水牛）"
+        },
+        {
+          "en": "deer",
+          "zh": "鹿"
+        },
+        {
+          "en": "fish",
+          "zh": "鱼"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'Bison were the mainstay of many Plains tribes' diets' and that tribes 'found uses for all parts of the bison' for hides, bones, horns, and more.",
@@ -30,10 +42,22 @@
         "zh": "根据本书，圆锥形帐篷（teepee）是用什么做的？"
       },
       "options": [
-        {"en": "wooden poles and bison hides", "zh": "木杆和野牛皮"},
-        {"en": "stones and mud", "zh": "石头和泥土"},
-        {"en": "tree branches only", "zh": "仅用树枝"},
-        {"en": "animal bones", "zh": "动物骨头"}
+        {
+          "en": "wooden poles and bison hides",
+          "zh": "木杆和野牛皮"
+        },
+        {
+          "en": "animal bones",
+          "zh": "动物骨头"
+        },
+        {
+          "en": "stones and mud",
+          "zh": "石头和泥土"
+        },
+        {
+          "en": "tree branches only according to some versions of the story",
+          "zh": "仅用树枝（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "是谁把马引入大平原，改变了各部落的生活方式？"
       },
       "options": [
-        {"en": "Spanish explorers in the 1500s", "zh": "16世纪的西班牙探险家"},
-        {"en": "the Lakota themselves", "zh": "拉科塔人自己"},
-        {"en": "French traders", "zh": "法国商人"},
-        {"en": "British colonists", "zh": "英国殖民者"}
+        {
+          "en": "British colonists",
+          "zh": "英国殖民者"
+        },
+        {
+          "en": "Spanish explorers in the 1500s",
+          "zh": "16世纪的西班牙探险家"
+        },
+        {
+          "en": "French traders",
+          "zh": "法国商人"
+        },
+        {
+          "en": "the Lakota themselves according to some versions of the story",
+          "zh": "拉科塔人自己（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'Before Europeans brought horses to the United States in the 1500s, nomadic tribes moved and hunted on foot. Spanish explorers introduced horses in the southwestern United States.'",
@@ -66,12 +102,24 @@
         "zh": "在1876年的小大角战役中，哪位美国领导人阵亡？"
       },
       "options": [
-        {"en": "George Armstrong Custer", "zh": "乔治·阿姆斯特朗·卡斯特"},
-        {"en": "Sitting Bull", "zh": "坐牛"},
-        {"en": "Red Cloud", "zh": "红云"},
-        {"en": "Crazy Horse", "zh": "疯马"}
+        {
+          "en": "Crazy Horse",
+          "zh": "疯马"
+        },
+        {
+          "en": "Sitting Bull according to some versions of the story",
+          "zh": "坐牛（按书中另一种说法）"
+        },
+        {
+          "en": "George Armstrong Custer",
+          "zh": "乔治·阿姆斯特朗·卡斯特"
+        },
+        {
+          "en": "Red Cloud",
+          "zh": "红云"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'On June 25, 1876, George Armstrong Custer... led his troops into the valley... The bloody battle ended with the death of Custer and his soldiers.' It is called 'Custer's Last Stand.'",
@@ -84,12 +132,24 @@
         "zh": "在词汇表中，「nomadic」（游牧的）一词是什么意思？"
       },
       "options": [
-        {"en": "moving from place to place", "zh": "四处迁徙、居无定所"},
-        {"en": "staying in one village", "zh": "住在一个村庄里"},
-        {"en": "farming the land", "zh": "耕种土地"},
-        {"en": "building teepees", "zh": "搭建帐篷"}
+        {
+          "en": "building teepees",
+          "zh": "搭建帐篷"
+        },
+        {
+          "en": "moving from place to place",
+          "zh": "四处迁徙、居无定所"
+        },
+        {
+          "en": "farming the land",
+          "zh": "耕种土地"
+        },
+        {
+          "en": "staying in one village according to some versions of the story",
+          "zh": "住在一个村庄里（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'nomadic' as 'moving from place to place.' The book describes nomadic tribes as following the bison migration throughout the year.",
@@ -102,10 +162,22 @@
         "zh": "在本书中，「reservations」（保留地）一词指的是什么？"
       },
       "options": [
-        {"en": "lands set aside for Native Americans", "zh": "划给美洲原住民的土地"},
-        {"en": "places where battles were fought", "zh": "发生战斗的地方"},
-        {"en": "areas for hunting only", "zh": "仅供狩猎的区域"},
-        {"en": "European settlements", "zh": "欧洲人的定居点"}
+        {
+          "en": "lands set aside for Native Americans",
+          "zh": "划给美洲原住民的土地"
+        },
+        {
+          "en": "places where battles were fought according to some versions of the story",
+          "zh": "发生战斗的地方（按书中另一种说法）"
+        },
+        {
+          "en": "European settlements",
+          "zh": "欧洲人的定居点"
+        },
+        {
+          "en": "areas for hunting only",
+          "zh": "仅供狩猎的区域"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "根据本书，大平原部落最终在印第安战争（Indian Wars）中失败的主要原因是什么？"
       },
       "options": [
-        {"en": "diseases such as smallpox killed more than half the people", "zh": "天花等疾病导致超过半数人口死亡"},
-        {"en": "the soldiers were better horsemen", "zh": "士兵更擅长骑马"},
-        {"en": "they ran out of arrows", "zh": "他们用光了箭"},
-        {"en": "a long drought", "zh": "长期干旱"}
+        {
+          "en": "the soldiers were better horsemen according to some versions of the story",
+          "zh": "士兵更擅长骑马（按书中另一种说法）"
+        },
+        {
+          "en": "they ran out of arrows",
+          "zh": "他们用光了箭"
+        },
+        {
+          "en": "a long drought",
+          "zh": "长期干旱"
+        },
+        {
+          "en": "diseases such as smallpox killed more than half the people",
+          "zh": "天花等疾病导致超过半数人口死亡"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says: 'the main reason that the Plains tribes eventually lost the wars was probably not the soldiers. By the time the U.S. Army reached many of the tribes, more than half the people had died from diseases, such as smallpox.'",
@@ -138,12 +222,24 @@
         "zh": "1890年12月29日在伤膝河（Wounded Knee）发生了什么？"
       },
       "options": [
-        {"en": "about 200 Lakota were killed in the last battle between the army and tribal people", "zh": "约200名拉科塔人在军队与原住民的最后一场战斗中被杀"},
-        {"en": "a peace treaty was signed", "zh": "签署了一项和平条约"},
-        {"en": "Sitting Bull was crowned", "zh": "坐牛被加冕"},
-        {"en": "the bison returned", "zh": "野牛回来了"}
+        {
+          "en": "a peace treaty was signed according to some versions of the story in an early draft of the book",
+          "zh": "签署了一项和平条约（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "the bison returned",
+          "zh": "野牛回来了"
+        },
+        {
+          "en": "about 200 Lakota were killed in the last battle between the army and tribal people",
+          "zh": "约200名拉科塔人在军队与原住民的最后一场战斗中被杀"
+        },
+        {
+          "en": "Sitting Bull was crowned",
+          "zh": "坐牛被加冕"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states: 'During the battle, two hundred Lakota were killed by the army... It was the last battle between the army and tribal people.'",
@@ -156,12 +252,24 @@
         "zh": "作者为什么要引用夏延河苏族人弗雷德·杜布雷的话，说野牛是「我们力量和团结的象征」？"
       },
       "options": [
-        {"en": "To show the cultural and spiritual importance of bison to today's tribes", "zh": "为了展示野牛对当今部落的文化和精神重要性"},
-        {"en": "To explain how to cook bison meat", "zh": "为了解释如何烹饪野牛肉"},
-        {"en": "To describe a hunting method", "zh": "为了描述一种狩猎方法"},
-        {"en": "To promote a zoo", "zh": "为了宣传动物园"}
+        {
+          "en": "To promote a zoo",
+          "zh": "为了宣传动物园"
+        },
+        {
+          "en": "To explain how to cook bison meat according to some versions of the story",
+          "zh": "为了解释如何烹饪野牛肉（按书中另一种说法）"
+        },
+        {
+          "en": "To describe a hunting method",
+          "zh": "为了描述一种狩猎方法"
+        },
+        {
+          "en": "To show the cultural and spiritual importance of bison to today's tribes",
+          "zh": "为了展示野牛对当今部落的文化和精神重要性"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book uses DuBray's words to show that bringing bison back 'reminds today's tribes of how their ancestors lived in harmony with nature' and represents the spirit they are trying to preserve.",
@@ -174,10 +282,22 @@
         "zh": "作者描写大平原原住民的过去与现在，其总体目的是什么？"
       },
       "options": [
-        {"en": "To show how tribes today preserve traditions and work to bring bison back", "zh": "为了展示当今部落如何保留传统并努力恢复野牛种群"},
-        {"en": "To argue that all tribes should move to cities", "zh": "为了论证所有部落都应迁往城市"},
-        {"en": "To prove horses were useless", "zh": "为了证明马毫无用处"},
-        {"en": "To describe only the wars", "zh": "仅仅为了描述战争"}
+        {
+          "en": "To show how tribes today preserve traditions and work to bring bison back",
+          "zh": "为了展示当今部落如何保留传统并努力恢复野牛种群"
+        },
+        {
+          "en": "To prove horses were useless",
+          "zh": "为了证明马毫无用处"
+        },
+        {
+          "en": "To describe only the wars",
+          "zh": "仅仅为了描述战争"
+        },
+        {
+          "en": "To argue that all tribes should move to cities according to some versions of the story",
+          "zh": "为了论证所有部落都应迁往城市（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -193,8 +313,14 @@
       "zh": "书中说像拉科塔语这样许多原住民语言正在消失。你认为保护一种语言为什么重要？书中提到的什么办法可能有助于拯救一种语言？"
     },
     "guidance": {
-      "en": ["Mention the Lakota Language Project and using technology to hear pronunciations.", "Reflect on language as a link to heritage and identity."],
-      "zh": ["提及拉科塔语言项目以及用科技听发音。", "思考语言作为文化遗产与身份认同纽带的意义。"]
+      "en": [
+        "Mention the Lakota Language Project and using technology to hear pronunciations.",
+        "Reflect on language as a link to heritage and identity."
+      ],
+      "zh": [
+        "提及拉科塔语言项目以及用科技听发音。",
+        "思考语言作为文化遗产与身份认同纽带的意义。"
+      ]
     }
   }
 }

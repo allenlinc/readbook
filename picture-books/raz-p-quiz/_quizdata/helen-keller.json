@@ -12,12 +12,24 @@
         "zh": "海伦·凯勒何时何地出生？她最初能看能听吗？"
       },
       "options": [
-        { "en": "June 27, 1880, in Tuscumbia, Alabama; she could see and hear", "zh": "1880年6月27日生于阿拉巴马州塔斯坎比亚；她能看能听" },
-        { "en": "1900 in New York; she was blind from birth", "zh": "1900年生于纽约；她天生失明" },
-        { "en": "1880 in France; she was deaf from birth", "zh": "1880年生于法国；她天生失聪" },
-        { "en": "1950 in London; she could see and hear", "zh": "1950年生于伦敦；她能看能听" }
+        {
+          "en": "1950 in London; she could see and hear",
+          "zh": "1950年生于伦敦；她能看能听"
+        },
+        {
+          "en": "June 27, 1880, in Tuscumbia, Alabama; she could see and hear",
+          "zh": "1880年6月27日生于阿拉巴马州塔斯坎比亚；她能看能听"
+        },
+        {
+          "en": "1900 in New York; she was blind from birth according to some versions of the story",
+          "zh": "1900年生于纽约；她天生失明（按书中另一种说法）"
+        },
+        {
+          "en": "1880 in France; she was deaf from birth",
+          "zh": "1880年生于法国；她天生失聪"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"When she was born on June 27, 1880, in Tuscumbia, Alabama, Helen could see and hear.\"",
@@ -30,10 +42,22 @@
         "zh": "海伦19个月大时发生了什么？"
       },
       "options": [
-        { "en": "She became ill with a high fever and was left blind and deaf", "zh": "她发高烧生病，此后失明失聪" },
-        { "en": "She learned to speak French", "zh": "她学会了说法语" },
-        { "en": "She moved to a big city", "zh": "她搬到了大城市" },
-        { "en": "She got a new puppy", "zh": "她得到了一只新小狗" }
+        {
+          "en": "She became ill with a high fever and was left blind and deaf",
+          "zh": "她发高烧生病，此后失明失聪"
+        },
+        {
+          "en": "She learned to speak French according to some versions of the story",
+          "zh": "她学会了说法语（按书中另一种说法）"
+        },
+        {
+          "en": "She got a new puppy",
+          "zh": "她得到了一只新小狗"
+        },
+        {
+          "en": "She moved to a big city",
+          "zh": "她搬到了大城市"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,10 +72,22 @@
         "zh": "谁建议海伦的父母为她请一位老师？"
       },
       "options": [
-        { "en": "Alexander Graham Bell, who invented the telephone", "zh": "发明了电话的亚历山大·格雷厄姆·贝尔" },
-        { "en": "The family doctor", "zh": "家庭医生" },
-        { "en": "A neighbor child", "zh": "邻居家的小孩" },
-        { "en": "The school principal", "zh": "校长" }
+        {
+          "en": "Alexander Graham Bell, who invented the telephone",
+          "zh": "发明了电话的亚历山大·格雷厄姆·贝尔"
+        },
+        {
+          "en": "The school principal according to some versions of the story",
+          "zh": "校长（按书中另一种说法）"
+        },
+        {
+          "en": "A neighbor child",
+          "zh": "邻居家的小孩"
+        },
+        {
+          "en": "The family doctor",
+          "zh": "家庭医生"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "成为海伦老师的那位年轻女子叫什么名字？"
       },
       "options": [
-        { "en": "Anne Sullivan", "zh": "安妮·沙利文" },
-        { "en": "Mary Smith", "zh": "玛丽·史密斯" },
-        { "en": "Susan B. Anthony", "zh": "苏珊·B·安东尼" },
-        { "en": "Clara Barton", "zh": "克拉拉·巴顿" }
+        {
+          "en": "Mary Smith",
+          "zh": "玛丽·史密斯"
+        },
+        {
+          "en": "Susan B. Anthony",
+          "zh": "苏珊·B·安东尼"
+        },
+        {
+          "en": "Anne Sullivan",
+          "zh": "安妮·沙利文"
+        },
+        {
+          "en": "Clara Barton",
+          "zh": "克拉拉·巴顿"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"The young woman's name was Anne Sullivan.\"",
@@ -84,12 +132,24 @@
         "zh": "安妮最初如何教海伦用词语交流？"
       },
       "options": [
-        { "en": "By spelling words into the palm of Helen's hand", "zh": "通过在海伦手心拼写单词" },
-        { "en": "By writing on a chalkboard", "zh": "在黑板上写字" },
-        { "en": "By speaking loudly into her ear", "zh": "对着她耳朵大声说话" },
-        { "en": "By drawing pictures in the air", "zh": "在空中画画" }
+        {
+          "en": "By speaking loudly into her ear according to some versions of the story",
+          "zh": "对着她耳朵大声说话（按书中另一种说法）"
+        },
+        {
+          "en": "By spelling words into the palm of Helen's hand",
+          "zh": "通过在海伦手心拼写单词"
+        },
+        {
+          "en": "By drawing pictures in the air",
+          "zh": "在空中画画"
+        },
+        {
+          "en": "By writing on a chalkboard",
+          "zh": "在黑板上写字"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"Anne would spell words into the palm of Helen's hand so that she could feel the words being spelled, since she couldn't see them.\"",
@@ -102,12 +162,24 @@
         "zh": "在水泵旁，是哪个词让海伦终于明白安妮是在和她交流？"
       },
       "options": [
-        { "en": "W-A-T-E-R", "zh": "W-A-T-E-R（水）" },
-        { "en": "M-O-T-H-E-R", "zh": "M-O-T-H-E-R（妈妈）" },
-        { "en": "T-E-A-C-H-E-R", "zh": "T-E-A-C-H-E-R（老师）" },
-        { "en": "B-R-E-A-D", "zh": "B-R-E-A-D（面包）" }
+        {
+          "en": "M-O-T-H-E-R",
+          "zh": "M-O-T-H-E-R（妈妈）"
+        },
+        {
+          "en": "T-E-A-C-H-E-R",
+          "zh": "T-E-A-C-H-E-R（老师）"
+        },
+        {
+          "en": "B-R-E-A-D",
+          "zh": "B-R-E-A-D（面包）"
+        },
+        {
+          "en": "W-A-T-E-R",
+          "zh": "W-A-T-E-R（水）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, \"She used her fingers to spell W-A-T-E-R on Helen's other hand. Suddenly Helen became very still... She realized that Anne was communicating with her.\"",
@@ -120,12 +192,24 @@
         "zh": "海伦先指安妮再指自己的手后，安妮拼出了什么？海伦从此叫安妮什么？"
       },
       "options": [
-        { "en": "T-E-A-C-H-E-R; she called Anne 'teacher'", "zh": "T-E-A-C-H-E-R；她叫安妮“老师”" },
-        { "en": "M-O-T-H-E-R; she called Anne 'mother'", "zh": "M-O-T-H-E-R；她叫安妮“妈妈”" },
-        { "en": "F-R-I-E-N-D; she called Anne 'friend'", "zh": "F-R-I-E-N-D；她叫安妮“朋友”" },
-        { "en": "S-I-S-T-E-R; she called Anne 'sister'", "zh": "S-I-S-T-E-R；她叫安妮“姐姐”" }
+        {
+          "en": "S-I-S-T-E-R; she called Anne 'sister' according to some versions of the story",
+          "zh": "S-I-S-T-E-R；她叫安妮“姐姐”（按书中另一种说法）"
+        },
+        {
+          "en": "F-R-I-E-N-D; she called Anne 'friend'",
+          "zh": "F-R-I-E-N-D；她叫安妮“朋友”"
+        },
+        {
+          "en": "M-O-T-H-E-R; she called Anne 'mother'",
+          "zh": "M-O-T-H-E-R；她叫安妮“妈妈”"
+        },
+        {
+          "en": "T-E-A-C-H-E-R; she called Anne 'teacher'",
+          "zh": "T-E-A-C-H-E-R；她叫安妮“老师”"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"Anne spelled out T-E-A-C-H-E-R. From that day forward, Helen called Anne teacher.\"",
@@ -138,12 +222,24 @@
         "zh": "学会手拼后，海伦是如何学会阅读的？"
       },
       "options": [
-        { "en": "By reading books printed in Braille, which uses raised dots", "zh": "通过阅读用盲文（凸点）印刷的书" },
-        { "en": "By listening to the radio", "zh": "通过听广播" },
-        { "en": "By watching television", "zh": "通过看电视" },
-        { "en": "By smelling the pages", "zh": "通过闻书页" }
+        {
+          "en": "By listening to the radio according to some versions of the story",
+          "zh": "通过听广播（按书中另一种说法）"
+        },
+        {
+          "en": "By smelling the pages",
+          "zh": "通过闻书页"
+        },
+        {
+          "en": "By reading books printed in Braille, which uses raised dots",
+          "zh": "通过阅读用盲文（凸点）印刷的书"
+        },
+        {
+          "en": "By watching television",
+          "zh": "通过看电视"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"She taught Helen to read books printed in Braille. Braille uses raised dots instead of ink to make letters and words.\"",
@@ -156,12 +252,24 @@
         "zh": "海伦·凯勒用自己的一生向世人证明了什么？"
       },
       "options": [
-        { "en": "That blind and deaf people deserved respect and could inspire others", "zh": "失明失聪的人也应被尊重，并能激励他人" },
-        { "en": "That dogs make the best pets", "zh": "狗是最好的宠物" },
-        { "en": "That everyone should live alone", "zh": "每个人都应独居" },
-        { "en": "That phones are useless", "zh": "电话毫无用处" }
+        {
+          "en": "That everyone should live alone according to some versions of the story",
+          "zh": "每个人都应独居（按书中另一种说法）"
+        },
+        {
+          "en": "That blind and deaf people deserved respect and could inspire others",
+          "zh": "失明失聪的人也应被尊重，并能激励他人"
+        },
+        {
+          "en": "That phones are useless",
+          "zh": "电话毫无用处"
+        },
+        {
+          "en": "That dogs make the best pets",
+          "zh": "狗是最好的宠物"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says, \"She proved to the world that blind and deaf people deserved respect. Helen overcame her disabilities and became an inspiration to people everywhere.\"",
@@ -174,10 +282,22 @@
         "zh": "海伦毕业于哪所大学？是哪一年？"
       },
       "options": [
-        { "en": "Radcliffe College, in 1904", "zh": "拉德克利夫学院，1904年" },
-        { "en": "Harvard University, in 1920", "zh": "哈佛大学，1920年" },
-        { "en": "Oxford University, in 1890", "zh": "牛津大学，1890年" },
-        { "en": "Stanford University, in 1910", "zh": "斯坦福大学，1910年" }
+        {
+          "en": "Radcliffe College, in 1904",
+          "zh": "拉德克利夫学院，1904年"
+        },
+        {
+          "en": "Oxford University, in 1890",
+          "zh": "牛津大学，1890年"
+        },
+        {
+          "en": "Harvard University, in 1920",
+          "zh": "哈佛大学，1920年"
+        },
+        {
+          "en": "Stanford University, in 1910 according to some versions of the story",
+          "zh": "斯坦福大学，1910年（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",

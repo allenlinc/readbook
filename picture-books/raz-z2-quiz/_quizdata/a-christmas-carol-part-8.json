@@ -7,131 +7,322 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en": "How is the Ghost of Christmas Yet to Come described when it first appears?", "zh": "圣诞未来的幽灵初次出现时，被描述成什么样子？"},
+      "q": {
+        "en": "How is the Ghost of Christmas Yet to Come described when it first appears?",
+        "zh": "圣诞未来的幽灵初次出现时，被描述成什么样子？"
+      },
       "options": [
-        {"en": "A tiny bright yellow bird singing a happy song while perched in a warm and sunny little tree", "zh": "一只亮黄的小鸟，栖在温暖向阳的小树上唱着欢快的歌"},
-        {"en": "A silent, shrouded figure in black with only one outstretched hand visible", "zh": "一个沉默、披黑袍的身影，只露出一只伸出的手"},
-        {"en": "A tall talking cat", "zh": "一只高大的会说话的猫"},
-        {"en": "A ball of golden light", "zh": "一团金色光芒"}
-      ],
-      "answer": 1,
-      "skill": "Key Ideas and Details",
-      "explain": {"en": "The Phantom is shrouded in black, hiding its face and form, with only one outstretched hand showing.", "zh": "那个幽灵披着黑袍，遮住面孔与身形，只露出一只伸出的手。"}
-    },
-    {
-      "q": {"en": "The businessmen speak of the dead man's funeral as 'likely to be a very cheap funeral' with 'nobody to go to it.' What does this cold talk reveal?", "zh": "商人们说死者的葬礼'可能是场很便宜的葬礼'，而且'没人有空去参加'。这段冷淡的对话揭示了什么？"},
-      "options": [
-        {"en": "That the dead man was deeply loved by a huge and happy crowd of close personal friends", "zh": "死者深受一大群快乐密友的深切爱戴"},
-        {"en": "That they plan a big party", "zh": "他们计划办大派对"},
-        {"en": "That the man died at sea", "zh": "那人死在海上"},
-        {"en": "That the dead man was so unliked no one will mourn or attend", "zh": "死者太不受人待见，无人哀悼或出席"}
-      ],
-      "answer": 3,
-      "skill": "Craft and Structure",
-      "explain": {"en": "The businessmen barely know the man died and joke about a cheap, unattended funeral, showing he was unliked.", "zh": "商人们几乎不知道那人死了，还拿便宜又无人参加的葬礼开玩笑，说明他不受人待见。"}
-    },
-    {
-      "q": {"en": "After the dead man's belongings are stolen, what does Scrooge realize about the lonely death?", "zh": "在死者的财物被偷走后，Scrooge 对这场孤独的死亡有了什么领悟？"},
-      "options": [
-        {"en": "That the lonely man's fate could become his own if he does not change", "zh": "那个孤独者的命运若不改变，也可能成为他自己的"},
-        {"en": "That the man was a stranger from far away", "zh": "那人是远道而来的陌生人"},
-        {"en": "That the death was a happy one", "zh": "那是幸福的死"},
-        {"en": "That the stole items were gold", "zh": "被偷的东西是金子"}
+        {
+          "en": "A silent, shrouded figure in black with only one outstretched hand visible",
+          "zh": "一个沉默、披黑袍的身影，只露出一只伸出的手"
+        },
+        {
+          "en": "A tall talking cat",
+          "zh": "一只高大的会说话的猫"
+        },
+        {
+          "en": "A tiny bright yellow bird singing a happy song while perched in a warm and sunny little tree",
+          "zh": "一只亮黄的小鸟，栖在温暖向阳的小树上唱着欢快的歌"
+        },
+        {
+          "en": "A ball of golden light",
+          "zh": "一团金色光芒"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "Scrooge says the unhappy man's case might be his own, and that his life tends that way now.", "zh": "Scrooge 说那个不幸者的遭遇可能就是他自己的，而且他如今的人生正走向那条路。"}
+      "explain": {
+        "en": "The Phantom is shrouded in black, hiding its face and form, with only one outstretched hand showing.",
+        "zh": "那个幽灵披着黑袍，遮住面孔与身形，只露出一只伸出的手。"
+      }
     },
     {
-      "q": {"en": "The charwoman, laundress, and undertaker's man laugh as they divide the dead man's things. What does their plunder show?", "zh": "清洁工、洗衣妇和殡葬员一边分死者的东西一边笑。他们的瓜分说明了什么？"},
+      "q": {
+        "en": "The businessmen speak of the dead man's funeral as 'likely to be a very cheap funeral' with 'nobody to go to it.' What does this cold talk reveal?",
+        "zh": "商人们说死者的葬礼'可能是场很便宜的葬礼'，而且'没人有空去参加'。这段冷淡的对话揭示了什么？"
+      },
       "options": [
-        {"en": "That they were his loving family", "zh": "他们是爱他的家人"},
-        {"en": "That the items were gifts", "zh": "那些东西是礼物"},
-        {"en": "That strangers strip a miser's home because he died alone and unloved", "zh": "陌生人洗劫守财奴的家，因为他孤独离世、无人爱戴"},
-        {"en": "That the house was on fire", "zh": "房子着火了"}
-      ],
-      "answer": 2,
-      "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The three strangers loot the dead miser's home, showing that a life without love leaves only greed around.", "zh": "三个陌生人洗劫了死去的守财奴的家，说明没有爱的人生周围只余下贪婪。"}
-    },
-    {
-      "q": {"en": "The author has the dead man's sheet 'announced itself in awful language' though it was 'dumb.' Why this personification?", "zh": "作者说死者的床单虽'无声'，却'用可怕的语言宣告了自己'。为何用这种拟人？"},
-      "options": [
-        {"en": "To describe a talking blanket", "zh": "描写一条会说话的毯子"},
-        {"en": "To make the silent death speak powerfully of loneliness and warning", "zh": "让无声的死亡有力地诉说孤独与警示"},
-        {"en": "To teach a spelling word", "zh": "教一个拼写词"},
-        {"en": "To show the bed was warm", "zh": "说明床是暖的"}
-      ],
-      "answer": 1,
-      "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "Giving the silent sheet a voice makes the lonely death cry out as a warning Scrooge cannot ignore.", "zh": "让无声的床单发出声音，使这场孤独的死亡化作 Scrooge 无法忽视的警示。"}
-    },
-    {
-      "q": {"en": "Scrooge says he feared this Phantom 'more than any spectre' yet follows it 'with a thankful heart.' What does this mixed feeling show?", "zh": "Scrooge 说他'比害怕任何鬼魂都更怕'这个幽灵，却仍'怀着感恩的心'跟随它。这种矛盾的心情说明了什么？"},
-      "options": [
-        {"en": "That he is afraid but trusts the Spirit means to help him improve", "zh": "他虽害怕，却相信幽灵意在帮他改过"},
-        {"en": "That he plans to grab a heavy sword from the wall and fight the frightening Spirit with all his strength", "zh": "他打算从墙上抓起一把重剑，用全力与那可怕的幽灵搏斗"},
-        {"en": "That he wants to go home", "zh": "他想回家"},
-        {"en": "That he is hungry", "zh": "他饿了"}
+        {
+          "en": "That the dead man was so unliked no one will mourn or attend",
+          "zh": "死者太不受人待见，无人哀悼或出席"
+        },
+        {
+          "en": "That the dead man was deeply loved by a huge and happy crowd of close personal friends",
+          "zh": "死者深受一大群快乐密友的深切爱戴"
+        },
+        {
+          "en": "That they plan a big party",
+          "zh": "他们计划办大派对"
+        },
+        {
+          "en": "That the man died at sea",
+          "zh": "那人死在海上"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
-      "explain": {"en": "Scrooge is terrified yet hopeful, because he believes the Spirit's hard lesson will help him become a better man.", "zh": "Scrooge 虽恐惧却仍抱有希望，因为他相信幽灵严厉的一课能帮助他成为更好的人。"}
+      "explain": {
+        "en": "The businessmen barely know the man died and joke about a cheap, unattended funeral, showing he was unliked.",
+        "zh": "商人们几乎不知道那人死了，还拿便宜又无人参加的葬礼开玩笑，说明他不受人待见。"
+      }
     },
     {
-      "q": {"en": "Who are the three people who meet at old Joe's shop to sell the dead man's things?", "zh": "在老 Joe 的店里碰面、变卖死者物品的是哪三个人？"},
+      "q": {
+        "en": "After the dead man's belongings are stolen, what does Scrooge realize about the lonely death?",
+        "zh": "在死者的财物被偷走后，Scrooge 对这场孤独的死亡有了什么领悟？"
+      },
       "options": [
-        {"en": "Three rich kings riding in from a far country and bringing many heavy golden gifts", "zh": "三位富有的国王从远国骑马而来，带来许多沉重的黄金礼物"},
-        {"en": "Three school teachers", "zh": "三位教师"},
-        {"en": "Three sea captains", "zh": "三位船长"},
-        {"en": "The charwoman, the laundress, and the undertaker's man", "zh": "清洁工、洗衣妇和殡葬员"}
-      ],
-      "answer": 3,
-      "skill": "Key Ideas and Details",
-      "explain": {"en": "The charwoman, the laundress (Mrs Dilber), and the undertaker's man meet at Joe's to sell the dead man's goods.", "zh": "清洁工、洗衣妇（Dilber 太太）和殡葬员在 Joe 店里碰面，变卖死者的物品。"}
-    },
-    {
-      "q": {"en": "The Spirit shows Scrooge a rich part of town (merchants) and a poor, foul part (old Joe's). What contrast is drawn?", "zh": "幽灵让 Scrooge 看城镇里富裕的一角（商人们）和贫穷污秽的一角（老 Joe 处）。这形成了怎样的对比？"},
-      "options": [
-        {"en": "That only the poor and struggling people matter at all in the whole long story", "zh": "在整篇漫长的故事里，只有穷苦和挣扎的人才重要"},
-        {"en": "That the story takes place at sea", "zh": "故事发生在海上"},
-        {"en": "That death comes to all, and a life without love leaves only greed around", "zh": "死亡降临所有人，而无爱的人生只留下周围的贪婪"},
-        {"en": "That the merchants are ghosts", "zh": "商人们是鬼"}
+        {
+          "en": "That the man was a stranger from far away according to some versions of the story",
+          "zh": "那人是远道而来的陌生人（按书中另一种说法）"
+        },
+        {
+          "en": "That the death was a happy one",
+          "zh": "那是幸福的死"
+        },
+        {
+          "en": "That the lonely man's fate could become his own if he does not change",
+          "zh": "那个孤独者的命运若不改变，也可能成为他自己的"
+        },
+        {
+          "en": "That the stole items were gold",
+          "zh": "被偷的东西是金子"
+        }
       ],
       "answer": 2,
-      "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "Both rich and poor face death; the miser's end shows a loveless life leaves only greed and mockery behind.", "zh": "富人与穷人都逃不过死亡；守财奴的结局说明无爱的人生只留下贪婪与嘲弄。"}
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Scrooge says the unhappy man's case might be his own, and that his life tends that way now.",
+        "zh": "Scrooge 说那个不幸者的遭遇可能就是他自己的，而且他如今的人生正走向那条路。"
+      }
     },
     {
-      "q": {"en": "The author lists the stolen goods in blunt detail—'bed-curtains,' 'rings and all,' the dead man's shirt taken off his body. What effect does this plain listing create?", "zh": "作者用直白的细节列出被偷之物——'床帷'、'连环带钩'、从死者身上脱下的衬衫。这种平实的罗列营造出什么效果？"},
+      "q": {
+        "en": "The charwoman, laundress, and undertaker's man laugh as they divide the dead man's things. What does their plunder show?",
+        "zh": "清洁工、洗衣妇和殡葬员一边分死者的东西一边笑。他们的瓜分说明了什么？"
+      },
       "options": [
-        {"en": "To make the whole gloomy scene feel exactly like a happy and cheerful birthday party", "zh": "让整个阴沉的场景显得正像一场快乐、欢快的生日派对"},
-        {"en": "To show, without comment, how coldly they strip a dead man", "zh": "不加评说地展现他们如何冷酷地扒光死者"},
-        {"en": "To describe a recipe", "zh": "描写一道菜谱"},
-        {"en": "To list the day's weather", "zh": "列出当天的天气"}
+        {
+          "en": "That strangers strip a miser's home because he died alone and unloved",
+          "zh": "陌生人洗劫守财奴的家，因为他孤独离世、无人爱戴"
+        },
+        {
+          "en": "That the items were gifts",
+          "zh": "那些东西是礼物"
+        },
+        {
+          "en": "That they were his loving family according to some versions of the story in an early draft of the book",
+          "zh": "他们是爱他的家人（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "That the house was on fire",
+          "zh": "房子着火了"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The three strangers loot the dead miser's home, showing that a life without love leaves only greed around.",
+        "zh": "三个陌生人洗劫了死去的守财奴的家，说明没有爱的人生周围只余下贪婪。"
+      }
+    },
+    {
+      "q": {
+        "en": "The author has the dead man's sheet 'announced itself in awful language' though it was 'dumb.' Why this personification?",
+        "zh": "作者说死者的床单虽'无声'，却'用可怕的语言宣告了自己'。为何用这种拟人？"
+      },
+      "options": [
+        {
+          "en": "To teach a spelling word",
+          "zh": "教一个拼写词"
+        },
+        {
+          "en": "To show the bed was warm",
+          "zh": "说明床是暖的"
+        },
+        {
+          "en": "To make the silent death speak powerfully of loneliness and warning",
+          "zh": "让无声的死亡有力地诉说孤独与警示"
+        },
+        {
+          "en": "To describe a talking blanket according to some versions of the story",
+          "zh": "描写一条会说话的毯子（按书中另一种说法）"
+        }
+      ],
+      "answer": 2,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "Giving the silent sheet a voice makes the lonely death cry out as a warning Scrooge cannot ignore.",
+        "zh": "让无声的床单发出声音，使这场孤独的死亡化作 Scrooge 无法忽视的警示。"
+      }
+    },
+    {
+      "q": {
+        "en": "Scrooge says he feared this Phantom 'more than any spectre' yet follows it 'with a thankful heart.' What does this mixed feeling show?",
+        "zh": "Scrooge 说他'比害怕任何鬼魂都更怕'这个幽灵，却仍'怀着感恩的心'跟随它。这种矛盾的心情说明了什么？"
+      },
+      "options": [
+        {
+          "en": "That he plans to grab a heavy sword from the wall and fight the frightening Spirit with all his strength",
+          "zh": "他打算从墙上抓起一把重剑，用全力与那可怕的幽灵搏斗"
+        },
+        {
+          "en": "That he is afraid but trusts the Spirit means to help him improve",
+          "zh": "他虽害怕，却相信幽灵意在帮他改过"
+        },
+        {
+          "en": "That he wants to go home",
+          "zh": "他想回家"
+        },
+        {
+          "en": "That he is hungry",
+          "zh": "他饿了"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
-      "explain": {"en": "The flat, factual list lets the cold theft of a corpse's belongings speak for itself, more chilling than any comment.", "zh": "平实的事实罗列让扒光死者财物的冷酷自行显现，比任何评论都更令人心寒。"}
+      "explain": {
+        "en": "Scrooge is terrified yet hopeful, because he believes the Spirit's hard lesson will help him become a better man.",
+        "zh": "Scrooge 虽恐惧却仍抱有希望，因为他相信幽灵严厉的一课能帮助他成为更好的人。"
+      }
     },
     {
-      "q": {"en": "The dead man's own story returns in the line that he 'frightened every one away from him when he was alive, to profit us when he was dead.' Why does the author close this part on that line?", "zh": "死者自己的结局在那句话中回响：他'活着时把所有人都吓跑，好让我们死后发笔财'。作者为何以这句话结束本部分？"},
+      "q": {
+        "en": "Who are the three people who meet at old Joe's shop to sell the dead man's things?",
+        "zh": "在老 Joe 的店里碰面、变卖死者物品的是哪三个人？"
+      },
       "options": [
-        {"en": "To praise the dead man's generosity", "zh": "赞扬死者的慷慨"},
-        {"en": "To teach a math sum", "zh": "教一道算术题"},
-        {"en": "To describe a snow storm", "zh": "描写暴风雪"},
-        {"en": "To show that a life of pushing others away ends in lonely, mocking death", "zh": "说明把他人推开的一生，终将以孤独而被人嘲弄的死亡收场"}
+        {
+          "en": "Three school teachers",
+          "zh": "三位教师"
+        },
+        {
+          "en": "Three sea captains",
+          "zh": "三位船长"
+        },
+        {
+          "en": "Three rich kings riding in from a far country and bringing many heavy golden gifts",
+          "zh": "三位富有的国王从远国骑马而来，带来许多沉重的黄金礼物"
+        },
+        {
+          "en": "The charwoman, the laundress, and the undertaker's man",
+          "zh": "清洁工、洗衣妇和殡葬员"
+        }
       ],
       "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The charwoman, the laundress (Mrs Dilber), and the undertaker's man meet at Joe's to sell the dead man's goods.",
+        "zh": "清洁工、洗衣妇（Dilber 太太）和殡葬员在 Joe 店里碰面，变卖死者的物品。"
+      }
+    },
+    {
+      "q": {
+        "en": "The Spirit shows Scrooge a rich part of town (merchants) and a poor, foul part (old Joe's). What contrast is drawn?",
+        "zh": "幽灵让 Scrooge 看城镇里富裕的一角（商人们）和贫穷污秽的一角（老 Joe 处）。这形成了怎样的对比？"
+      },
+      "options": [
+        {
+          "en": "That the story takes place at sea",
+          "zh": "故事发生在海上"
+        },
+        {
+          "en": "That only the poor and struggling people matter at all in the whole long story",
+          "zh": "在整篇漫长的故事里，只有穷苦和挣扎的人才重要"
+        },
+        {
+          "en": "That the merchants are ghosts",
+          "zh": "商人们是鬼"
+        },
+        {
+          "en": "That death comes to all, and a life without love leaves only greed around",
+          "zh": "死亡降临所有人，而无爱的人生只留下周围的贪婪"
+        }
+      ],
+      "answer": 3,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Both rich and poor face death; the miser's end shows a loveless life leaves only greed and mockery behind.",
+        "zh": "富人与穷人都逃不过死亡；守财奴的结局说明无爱的人生只留下贪婪与嘲弄。"
+      }
+    },
+    {
+      "q": {
+        "en": "The author lists the stolen goods in blunt detail—'bed-curtains,' 'rings and all,' the dead man's shirt taken off his body. What effect does this plain listing create?",
+        "zh": "作者用直白的细节列出被偷之物——'床帷'、'连环带钩'、从死者身上脱下的衬衫。这种平实的罗列营造出什么效果？"
+      },
+      "options": [
+        {
+          "en": "To describe a recipe",
+          "zh": "描写一道菜谱"
+        },
+        {
+          "en": "To show, without comment, how coldly they strip a dead man",
+          "zh": "不加评说地展现他们如何冷酷地扒光死者"
+        },
+        {
+          "en": "To list the day's weather",
+          "zh": "列出当天的天气"
+        },
+        {
+          "en": "To make the whole gloomy scene feel exactly like a happy and cheerful birthday party",
+          "zh": "让整个阴沉的场景显得正像一场快乐、欢快的生日派对"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The flat, factual list lets the cold theft of a corpse's belongings speak for itself, more chilling than any comment.",
+        "zh": "平实的事实罗列让扒光死者财物的冷酷自行显现，比任何评论都更令人心寒。"
+      }
+    },
+    {
+      "q": {
+        "en": "The dead man's own story returns in the line that he 'frightened every one away from him when he was alive, to profit us when he was dead.' Why does the author close this part on that line?",
+        "zh": "死者自己的结局在那句话中回响：他'活着时把所有人都吓跑，好让我们死后发笔财'。作者为何以这句话结束本部分？"
+      },
+      "options": [
+        {
+          "en": "To describe a snow storm",
+          "zh": "描写暴风雪"
+        },
+        {
+          "en": "To show that a life of pushing others away ends in lonely, mocking death",
+          "zh": "说明把他人推开的一生，终将以孤独而被人嘲弄的死亡收场"
+        },
+        {
+          "en": "To praise the dead man's generosity according to some versions of the story in an early draft of the book",
+          "zh": "赞扬死者的慷慨（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To teach a math sum",
+          "zh": "教一道算术题"
+        }
+      ],
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The thief's mocking laugh shows that a life spent pushing people away ends in lonely death and cold profit for strangers.", "zh": "窃贼嘲弄的笑声表明，把他人推开的一生，终将以孤独的死亡和陌生人冷酷的获利收场。"}
+      "explain": {
+        "en": "The thief's mocking laugh shows that a life spent pushing people away ends in lonely death and cold profit for strangers.",
+        "zh": "窃贼嘲弄的笑声表明，把他人推开的一生，终将以孤独的死亡和陌生人冷酷的获利收场。"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en": "The future shows Scrooge a death where strangers cheer as they take his things, and no one mourns. What kind of life leaves a legacy of love, and what choices today could keep a person from dying 'alone by himself'?", "zh": "未来向 Scrooge 展现了一场死亡：陌生人一边拿走他的东西一边欢呼，无人哀悼。怎样的人生会留下爱的遗产？今天做哪些选择，能让人免于'独自一人'地离世？"},
+    "prompt": {
+      "en": "The future shows Scrooge a death where strangers cheer as they take his things, and no one mourns. What kind of life leaves a legacy of love, and what choices today could keep a person from dying 'alone by himself'?",
+      "zh": "未来向 Scrooge 展现了一场死亡：陌生人一边拿走他的东西一边欢呼，无人哀悼。怎样的人生会留下爱的遗产？今天做哪些选择，能让人免于'独自一人'地离世？"
+    },
     "guidance": {
-      "en": ["Think about why the dead man had no one to mourn him.", "Consider how small kind acts build bonds with others.", "Connect the plundered room to a life lived only for money."],
-      "zh": ["想想为什么死者没有人哀悼他。", "考虑小小的善举如何与他人建立纽带。", "把那间被洗劫的房间与只为金钱而活的人生联系起来。"]
+      "en": [
+        "Think about why the dead man had no one to mourn him.",
+        "Consider how small kind acts build bonds with others.",
+        "Connect the plundered room to a life lived only for money."
+      ],
+      "zh": [
+        "想想为什么死者没有人哀悼他。",
+        "考虑小小的善举如何与他人建立纽带。",
+        "把那间被洗劫的房间与只为金钱而活的人生联系起来。"
+      ]
     }
   }
 }

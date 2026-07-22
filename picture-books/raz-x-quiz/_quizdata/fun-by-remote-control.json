@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "John Perritano.",
+          "zh": "约翰·佩里塔诺（John Perritano）。"
+        },
+        {
           "en": "Nikola Tesla.",
           "zh": "尼古拉·特斯拉（Nikola Tesla）。"
         },
@@ -23,13 +27,9 @@
         {
           "en": "Bob Motta.",
           "zh": "鲍勃·莫塔（Bob Motta）。"
-        },
-        {
-          "en": "John Perritano.",
-          "zh": "约翰·佩里塔诺（John Perritano）。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'We can thank Nikola Tesla for inventing the first radio-controlled machine.'",
@@ -47,16 +47,16 @@
           "zh": "每小时440英里（708公里）的新世界速度纪录。"
         },
         {
-          "en": "The longest flight time of 24 hours.",
-          "zh": "24小时的最长飞行时间。"
+          "en": "The smallest remote-controlled plane ever built. according to some versions of the story",
+          "zh": "有史以来最小的遥控飞机。（按书中另一种说法）"
         },
         {
           "en": "The highest altitude of 10 miles.",
           "zh": "10英里的最高飞行高度。"
         },
         {
-          "en": "The smallest remote-controlled plane ever built.",
-          "zh": "有史以来最小的遥控飞机。"
+          "en": "The longest flight time of 24 hours.",
+          "zh": "24小时的最长飞行时间。"
         }
       ],
       "answer": 0,
@@ -77,16 +77,16 @@
           "zh": "在纽约市的麦迪逊广场花园，1898年。"
         },
         {
-          "en": "At a World's Fair in Paris, in 1900.",
-          "zh": "在巴黎的世界博览会上，1900年。"
-        },
-        {
-          "en": "At a navy base in 1914.",
-          "zh": "在1914年的一处海军基地。"
+          "en": "At a World's Fair in Paris, in 1900. according to some versions of the story",
+          "zh": "在巴黎的世界博览会上，1900年。（按书中另一种说法）"
         },
         {
           "en": "On a radio show in 1920.",
           "zh": "在1920年的一档广播节目中。"
+        },
+        {
+          "en": "At a navy base in 1914.",
+          "zh": "在1914年的一处海军基地。"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "The jet engine.",
+          "zh": "喷气式发动机。"
+        },
+        {
           "en": "The transistor.",
           "zh": "晶体管（transistor）。"
         },
         {
-          "en": "The receiver.",
-          "zh": "接收器（receiver）。"
-        },
-        {
-          "en": "The jet engine.",
-          "zh": "喷气式发动机。"
+          "en": "The receiver. according to some versions of the story",
+          "zh": "接收器（receiver）。（按书中另一种说法）"
         },
         {
           "en": "The computer.",
           "zh": "计算机。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains that 'That all changed in 1947 with the invention of the transistor,' which was tiny yet made currents more powerful and shrank motors.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "A computer on the ground steers it by satellite only.",
+          "zh": "地面的计算机仅通过卫星来操控它。"
+        },
+        {
+          "en": "A wire connects the controller directly to the wheels. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "一根电线把控制器直接连到车轮上。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
           "en": "A transmitter sends radio signals; a receiver inside the vehicle decodes them and sends currents to the motors that move it.",
           "zh": "发射器发出无线电信号；车内的接收器解码信号，并把电流送往驱动车辆的马达。"
         },
         {
-          "en": "A wire connects the controller directly to the wheels.",
-          "zh": "一根电线把控制器直接连到车轮上。"
-        },
-        {
           "en": "The vehicle follows a person using a laser pointer.",
           "zh": "车辆用激光笔跟随一个人。"
-        },
-        {
-          "en": "A computer on the ground steers it by satellite only.",
-          "zh": "地面的计算机仅通过卫星来操控它。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The 'Basics of RC' section says a transmitter sends signals over a frequency; a receiver inside decodes them and 'sending electric currents to the motors, which move and guide the vehicle.'",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A type of electromagnetic energy whose waves range from longer than a football field to about the size of a person, with a frequency of 1 to 100 million waves per second.",
-          "zh": "一种电磁能量，其波长从比足球场还长到约一个人大小不等，频率为每秒100万到1亿个波。"
+          "en": "Water waves in the ocean, about 10 feet long.",
+          "zh": "海洋中的波浪，约10英尺长。"
         },
         {
-          "en": "Sound waves you can hear, about the size of a marble, at 20 waves per second.",
-          "zh": "能听到的声波，约弹珠大小，每秒20个波。"
+          "en": "A type of electromagnetic energy whose waves range from longer than a football field to about the size of a person, with a frequency of 1 to 100 million waves per second.",
+          "zh": "一种电磁能量，其波长从比足球场还长到约一个人大小不等，频率为每秒100万到1亿个波。"
         },
         {
           "en": "Light waves shorter than an atom, at a trillion waves per second.",
           "zh": "比原子还短的光波，每秒一万亿个波。"
         },
         {
-          "en": "Water waves in the ocean, about 10 feet long.",
-          "zh": "海洋中的波浪，约10英尺长。"
+          "en": "Sound waves you can hear, about the size of a marble, at 20 waves per second. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "能听到的声波，约弹珠大小，每秒20个波。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The 'What Is Radio?' section says radio is electromagnetic energy; radio waves 'range from longer than a football field to about the size of a person and have a frequency of 1 million to 100 million waves per second.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "The 2014 Winter Olympic Games in Sochi, Russia.",
-          "zh": "2014年俄罗斯索契冬季奥运会。"
+          "en": "A car race at the Indianapolis 500.",
+          "zh": "印第安纳波利斯500英里汽车赛。"
         },
         {
-          "en": "The 2014 Super Bowl in the United States.",
-          "zh": "2014年美国超级碗。"
+          "en": "The 2014 Super Bowl in the United States. according to some versions of the story",
+          "zh": "2014年美国超级碗。（按书中另一种说法）"
         },
         {
           "en": "A World Cup soccer final in Brazil.",
           "zh": "在巴西举行的世界杯足球决赛。"
         },
         {
-          "en": "A car race at the Indianapolis 500.",
-          "zh": "印第安纳波利斯500英里汽车赛。"
+          "en": "The 2014 Winter Olympic Games in Sochi, Russia.",
+          "zh": "2014年俄罗斯索契冬季奥运会。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, 'TV crews used drones to cover the 2014 Winter Olympic Games in Sochi, Russia' via the Olympic Broadcasting Service.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "They come with large tires and heavy-duty shock absorbers, so they can go almost anywhere.",
-          "zh": "它们配有大型轮胎和重型减震器，因此几乎哪里都能去。"
+          "en": "They can only be driven on smooth race tracks. according to some versions of the story in an early draft of the book",
+          "zh": "它们只能在平坦的赛道上行驶。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "They can only be driven on smooth race tracks.",
-          "zh": "它们只能在平坦的赛道上行驶。"
+          "en": "They are the cheapest RC cars available.",
+          "zh": "它们是市面上最便宜的遥控车。"
         },
         {
           "en": "They run only on glow fuel, not batteries.",
           "zh": "它们只靠助燃燃料运行，不用电池。"
         },
         {
-          "en": "They are the cheapest RC cars available.",
-          "zh": "它们是市面上最便宜的遥控车。"
+          "en": "They come with large tires and heavy-duty shock absorbers, so they can go almost anywhere.",
+          "zh": "它们配有大型轮胎和重型减震器，因此几乎哪里都能去。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says off-road vehicles are popular 'since they come with large tires and heavy-duty shock absorbers' and 'can go just about anywhere.'",
@@ -261,12 +261,12 @@
           "zh": "由电池而非燃料驱动。"
         },
         {
-          "en": "Built to look like a real warplane.",
-          "zh": "被建造得看起来像真实的军用飞机。"
-        },
-        {
           "en": "Flown only indoors.",
           "zh": "只在室内飞行。"
+        },
+        {
+          "en": "Built to look like a real warplane. according to some versions of the story",
+          "zh": "被建造得看起来像真实的军用飞机。（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "To teach readers how to fly a real passenger airplane.",
+          "zh": "教读者如何驾驶真正的客机。"
+        },
+        {
+          "en": "To persuade readers to buy a specific brand of RC car. according to some versions of the story in an early draft of the book",
+          "zh": "劝说读者购买某个特定品牌的遥控车。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "To inform readers about remote-controlled vehicles—their history, how they work, and how people use them.",
           "zh": "向读者介绍遥控车——它们的历史、工作原理以及人们如何使用它们。"
         },
         {
-          "en": "To persuade readers to buy a specific brand of RC car.",
-          "zh": "劝说读者购买某个特定品牌的遥控车。"
-        },
-        {
           "en": "To tell a made-up adventure story about a toy plane.",
           "zh": "讲述一个关于玩具飞机的虚构冒险故事。"
-        },
-        {
-          "en": "To teach readers how to fly a real passenger airplane.",
-          "zh": "教读者如何驾驶真正的客机。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is informational: it explains the history of radio control, how RC works, racing and flying, and future drone uses.",

@@ -14,10 +14,22 @@
         "zh": "德雷克和罗瑞在哪里找到了风龙瓦伊拉？"
       },
       "options": [
-        { "en": "On the islands of Noa", "zh": "在诺阿群岛" },
-        { "en": "In the mountains of Ichu Mocco", "zh": "在伊楚莫科的山区" },
-        { "en": "In the Land of the Far North", "zh": "在极北之地" },
-        { "en": "In Bracken castle", "zh": "在布雷肯城堡" }
+        {
+          "en": "In Bracken castle",
+          "zh": "在布雷肯城堡"
+        },
+        {
+          "en": "In the mountains of Ichu Mocco",
+          "zh": "在伊楚莫科的山区"
+        },
+        {
+          "en": "On the islands of Noa",
+          "zh": "在诺阿群岛"
+        },
+        {
+          "en": "In the Land of the Far North according to some versions of the story",
+          "zh": "在极北之地（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -31,12 +43,24 @@
         "zh": "为什么瓦伊拉被阿玛鲁女王用铁链锁住？"
       },
       "options": [
-        { "en": "She is sick", "zh": "她生病了" },
-        { "en": "The queen wants to force her to use wind to destroy a village", "zh": "女王想逼她用风力摧毁一个村庄" },
-        { "en": "To keep her warm", "zh": "为了给她保暖" },
-        { "en": "She asked to be chained", "zh": "她自己要求被锁" }
+        {
+          "en": "To keep her warm",
+          "zh": "为了给她保暖"
+        },
+        {
+          "en": "She asked to be chained according to some versions of the story",
+          "zh": "她自己要求被锁（按书中另一种说法）"
+        },
+        {
+          "en": "She is sick",
+          "zh": "她生病了"
+        },
+        {
+          "en": "The queen wants to force her to use wind to destroy a village",
+          "zh": "女王想逼她用风力摧毁一个村庄"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Only a Dragon Master can command a dragon, so the queen's wizard found Quilla. The queen wants Wayra to use her winds to destroy a village she is angry with.",
         "zh": "只有驯龙师能指挥龙，所以女王的巫师找到了奎拉。女王想让瓦伊拉用风力摧毁一个她生气的村庄。"
@@ -48,12 +72,24 @@
         "zh": "德雷克和朋友们是如何把瓦伊拉从锁链中解救出来的？"
       },
       "options": [
-        { "en": "They cut the chains with a sword", "zh": "他们用剑砍断锁链" },
-        { "en": "Worm uses his green magic to break the magical chains", "zh": "虫虫用绿色魔法击碎了魔法锁链" },
-        { "en": "The queen lets her go", "zh": "女王放她走" },
-        { "en": "Quilla unlocks them", "zh": "奎拉打开锁" }
+        {
+          "en": "Worm uses his green magic to break the magical chains",
+          "zh": "虫虫用绿色魔法击碎了魔法锁链"
+        },
+        {
+          "en": "They cut the chains with a sword according to some versions of the story",
+          "zh": "他们用剑砍断锁链（按书中另一种说法）"
+        },
+        {
+          "en": "Quilla unlocks them",
+          "zh": "奎拉打开锁"
+        },
+        {
+          "en": "The queen lets her go",
+          "zh": "女王放她走"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Drake tells Worm to break the chains; Worm glows green and the silver chains tremble, then break into tiny pieces.",
         "zh": "德雷克让虫虫击碎锁链；虫虫发出绿光，银链颤抖后碎成小块。"
@@ -65,12 +101,24 @@
         "zh": "转化特内布雷克斯石需要哪三个步骤？"
       },
       "options": [
-        { "en": "Melt, cool, then blow on it", "zh": "熔化、冷却、再吹气" },
-        { "en": "Wash, dry, then paint", "zh": "清洗、晾干、再上色" },
-        { "en": "Freeze, heat, then bury", "zh": "冷冻、加热、再埋起来" },
-        { "en": "Sing, dance, then sleep", "zh": "唱歌、跳舞、再睡觉" }
+        {
+          "en": "Wash, dry, then paint",
+          "zh": "清洗、晾干、再上色"
+        },
+        {
+          "en": "Freeze, heat, then bury according to some versions of the story",
+          "zh": "冷冻、加热、再埋起来（按书中另一种说法）"
+        },
+        {
+          "en": "Sing, dance, then sleep",
+          "zh": "唱歌、跳舞、再睡觉"
+        },
+        {
+          "en": "Melt, cool, then blow on it",
+          "zh": "熔化、冷却、再吹气"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Ka the Lava Dragon melts the stone, Tani the Sea Dragon cools it with seawater, and Wayra the Wind Dragon blows on it to turn it into a magic box.",
         "zh": "熔岩龙卡熔化石头，海龙塔尼用海水冷却，风龙瓦伊拉吹气把它变成一个魔法盒子。"
@@ -82,10 +130,22 @@
         "zh": "阿斯特丽德腰带上戴的、装着被偷龙之力量的是什么？"
       },
       "options": [
-        { "en": "Tiny glowing bottles of colored liquid", "zh": "装着彩色液体的小发光瓶子" },
-        { "en": "Dragon Stones", "zh": "龙石" },
-        { "en": "Feathers", "zh": "羽毛" },
-        { "en": "Keys", "zh": "钥匙" }
+        {
+          "en": "Tiny glowing bottles of colored liquid",
+          "zh": "装着彩色液体的小发光瓶子"
+        },
+        {
+          "en": "Keys",
+          "zh": "钥匙"
+        },
+        {
+          "en": "Dragon Stones according to some versions of the story",
+          "zh": "龙石（按书中另一种说法）"
+        },
+        {
+          "en": "Feathers",
+          "zh": "羽毛"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -99,12 +159,24 @@
         "zh": "阿斯特丽德通过传送门把骨兽带到了哪里？"
       },
       "options": [
-        { "en": "The Land of the Far North (King Albin's kingdom)", "zh": "极北之地（阿尔宾国王的王国）" },
-        { "en": "The islands of Noa", "zh": "诺阿群岛" },
-        { "en": "Belerion", "zh": "贝勒里昂" },
-        { "en": "Ichu Mocco", "zh": "伊楚莫科" }
+        {
+          "en": "Ichu Mocco",
+          "zh": "伊楚莫科"
+        },
+        {
+          "en": "The Land of the Far North (King Albin's kingdom)",
+          "zh": "极北之地（阿尔宾国王的王国）"
+        },
+        {
+          "en": "Belerion",
+          "zh": "贝勒里昂"
+        },
+        {
+          "en": "The islands of Noa according to some versions of the story",
+          "zh": "诺阿群岛（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Astrid wants revenge on King Albin, who banished her, so she attacks the Land of the Far North where Hulda (her sister and Mina's wizard) lives.",
         "zh": "阿斯特丽德想报复放逐她的阿尔宾国王，于是进攻极北之地，那里住着她的姐姐胡尔达（也是米娜的巫师）。"
@@ -116,12 +188,24 @@
         "zh": "冰龙弗罗斯特是如何帮助击败骨兽的？"
       },
       "options": [
-        { "en": "He freezes its long neck so the bones shatter", "zh": "他冻住骨兽的长脖子，使骨头碎裂" },
-        { "en": "He sets it on fire", "zh": "他把骨兽烧着" },
-        { "en": "He buries it in sand", "zh": "他把骨兽埋进沙里" },
-        { "en": "He flies it away", "zh": "他把骨兽带走了" }
+        {
+          "en": "He sets it on fire",
+          "zh": "他把骨兽烧着"
+        },
+        {
+          "en": "He buries it in sand according to some versions of the story",
+          "zh": "他把骨兽埋进沙里（按书中另一种说法）"
+        },
+        {
+          "en": "He freezes its long neck so the bones shatter",
+          "zh": "他冻住骨兽的长脖子，使骨头碎裂"
+        },
+        {
+          "en": "He flies it away",
+          "zh": "他把骨兽带走了"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Frost shoots icy breath at a giant long-necked beast; the ice freezes its neck and the bones shatter, crashing to the ground.",
         "zh": "弗罗斯特朝巨大的长颈骨兽喷出寒气，冰封住脖子，骨头碎裂坠地。"
@@ -133,10 +217,22 @@
         "zh": "当德雷克在骨兽中间打开特内布雷克斯盒子时，发生了什么？"
       },
       "options": [
-        { "en": "The beasts grow bigger", "zh": "骨兽变得更大" },
-        { "en": "Magic light wraps the beasts and the bones fall apart", "zh": "魔法光芒缠绕骨兽，骨头散落一地" },
-        { "en": "It starts to rain", "zh": "开始下雨" },
-        { "en": "Astrid disappears", "zh": "阿斯特丽德消失了" }
+        {
+          "en": "The beasts grow bigger according to some versions of the story",
+          "zh": "骨兽变得更大（按书中另一种说法）"
+        },
+        {
+          "en": "Magic light wraps the beasts and the bones fall apart",
+          "zh": "魔法光芒缠绕骨兽，骨头散落一地"
+        },
+        {
+          "en": "Astrid disappears",
+          "zh": "阿斯特丽德消失了"
+        },
+        {
+          "en": "It starts to rain",
+          "zh": "开始下雨"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -150,10 +246,22 @@
         "zh": "在书的结尾，阿斯特丽德最终是如何被制服的？"
       },
       "options": [
-        { "en": "She is turned to stone by Shaka the Stone Dragon", "zh": "她被石龙沙卡变成了石头" },
-        { "en": "She flies away", "zh": "她飞走了" },
-        { "en": "She becomes a shadow", "zh": "她变成了影子" },
-        { "en": "She is eaten by a beast", "zh": "她被骨兽吃掉" }
+        {
+          "en": "She is turned to stone by Shaka the Stone Dragon",
+          "zh": "她被石龙沙卡变成了石头"
+        },
+        {
+          "en": "She is eaten by a beast according to some versions of the story",
+          "zh": "她被骨兽吃掉（按书中另一种说法）"
+        },
+        {
+          "en": "She becomes a shadow",
+          "zh": "她变成了影子"
+        },
+        {
+          "en": "She flies away",
+          "zh": "她飞走了"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -167,12 +275,24 @@
         "zh": "在书的最后，有什么小生物来拜访德雷克？"
       },
       "options": [
-        { "en": "A tiny dragon with flower-petal wings", "zh": "一只长着花瓣翅膀的小龙" },
-        { "en": "A baby bird", "zh": "一只小鸟" },
-        { "en": "A field snake", "zh": "一条草蛇" },
-        { "en": "A toad", "zh": "一只蟾蜍" }
+        {
+          "en": "A toad",
+          "zh": "一只蟾蜍"
+        },
+        {
+          "en": "A baby bird",
+          "zh": "一只小鸟"
+        },
+        {
+          "en": "A tiny dragon with flower-petal wings",
+          "zh": "一只长着花瓣翅膀的小龙"
+        },
+        {
+          "en": "A field snake according to some versions of the story",
+          "zh": "一条草蛇（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "After the battle, a tiny green dragon with white flower petals on its head and petal-like wings crawls onto Drake — hinting at the next adventure.",
         "zh": "战斗结束后，一只绿色的小龙爬到德雷克身上，头上长着白色花瓣、翅膀像花瓣——暗示了下一段冒险。"

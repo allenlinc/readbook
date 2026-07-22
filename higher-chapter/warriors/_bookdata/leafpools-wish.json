@@ -9,12 +9,24 @@
         "zh": "叶池在雷族担任什么职务？"
       },
       "options": [
-        {"en": "The Clan leader", "zh": "族长"},
-        {"en": "The medicine cat", "zh": "巫医"},
-        {"en": "A normal warrior", "zh": "一名普通武士"},
-        {"en": "The deputy", "zh": "副族长"}
+        {
+          "en": "A normal warrior",
+          "zh": "一名普通武士"
+        },
+        {
+          "en": "The deputy",
+          "zh": "副族长"
+        },
+        {
+          "en": "The Clan leader",
+          "zh": "族长"
+        },
+        {
+          "en": "The medicine cat",
+          "zh": "巫医"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Leafpool is ThunderClan's medicine cat, trained by Cinderpelt and devoted to serving StarClan.",
         "zh": "叶池是雷族的巫医，由炭皮（Cinderpelt）训练，一心侍奉星族。"
@@ -26,12 +38,24 @@
         "zh": "叶池爱上了风族的哪位武士？"
       },
       "options": [
-        {"en": "Crowfeather", "zh": "鸦羽（Crowfeather）"},
-        {"en": "Breezepelt", "zh": "微风皮（Breezepelt）"},
-        {"en": "Onestar", "zh": "一星（Onestar）"},
-        {"en": "Heathclaw", "zh": "石楠爪（Heathclaw）"}
+        {
+          "en": "Heathclaw",
+          "zh": "石楠爪（Heathclaw）"
+        },
+        {
+          "en": "Crowfeather",
+          "zh": "鸦羽（Crowfeather）"
+        },
+        {
+          "en": "Breezepelt according to some versions of the story",
+          "zh": "微风皮（Breezepelt）（按书中另一种说法）"
+        },
+        {
+          "en": "Onestar",
+          "zh": "一星（Onestar）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Leafpool and Crowfeather of WindClan fall in love, breaking the warrior code against cross-Clan love.",
         "zh": "叶池与风族的鸦羽相恋，违背了禁止跨族相恋的武士守则。"
@@ -43,10 +67,22 @@
         "zh": "叶池和鸦羽是在哪里相识并亲近起来的？"
       },
       "options": [
-        {"en": "On the journey to meet Midnight the badger", "zh": "在前往会见獾午夜（Midnight）的旅途中"},
-        {"en": "At a Gathering by the lake", "zh": "在湖畔的族聚上"},
-        {"en": "Inside the ThunderClan camp", "zh": "在雷族营地内"},
-        {"en": "In the tunnels", "zh": "在地道里"}
+        {
+          "en": "On the journey to meet Midnight the badger",
+          "zh": "在前往会见獾午夜（Midnight）的旅途中"
+        },
+        {
+          "en": "In the tunnels",
+          "zh": "在地道里"
+        },
+        {
+          "en": "At a Gathering by the lake according to some versions of the story",
+          "zh": "在湖畔的族聚上（按书中另一种说法）"
+        },
+        {
+          "en": "Inside the ThunderClan camp",
+          "zh": "在雷族营地内"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -60,10 +96,22 @@
         "zh": "叶池许愿自己能成为什么，这样就能和鸦羽在一起？"
       },
       "options": [
-        {"en": "A medicine cat forever", "zh": "永远做巫医"},
-        {"en": "A normal warrior instead of a medicine cat", "zh": "一名普通武士，而非巫医"},
-        {"en": "A Clan leader", "zh": "一名族长"},
-        {"en": "A kittypet", "zh": "一只宠物猫"}
+        {
+          "en": "A medicine cat forever according to some versions of the story",
+          "zh": "永远做巫医（按书中另一种说法）"
+        },
+        {
+          "en": "A normal warrior instead of a medicine cat",
+          "zh": "一名普通武士，而非巫医"
+        },
+        {
+          "en": "A kittypet",
+          "zh": "一只宠物猫"
+        },
+        {
+          "en": "A Clan leader",
+          "zh": "一名族长"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -77,12 +125,24 @@
         "zh": "叶池和鸦羽一共有几只幼崽？"
       },
       "options": [
-        {"en": "Two", "zh": "两只"},
-        {"en": "Three: Hollykit, Lionkit, and Jaykit", "zh": "三只：冬青崽、狮崽和松鸦崽"},
-        {"en": "Four", "zh": "四只"},
-        {"en": "One", "zh": "一只"}
+        {
+          "en": "Three: Hollykit, Lionkit, and Jaykit",
+          "zh": "三只：冬青崽、狮崽和松鸦崽"
+        },
+        {
+          "en": "Two",
+          "zh": "两只"
+        },
+        {
+          "en": "Four according to some versions of the story",
+          "zh": "四只（按书中另一种说法）"
+        },
+        {
+          "en": "One",
+          "zh": "一只"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Their three kits are Hollykit, Lionkit, and Jaykit—later known as Hollyleaf, Lionblaze, and Jayfeather.",
         "zh": "他们的三只孩子是冬青崽、狮崽和松鸦崽——即后来的冬青叶、狮焰与松鸦羽。"
@@ -94,12 +154,24 @@
         "zh": "谁同意把叶池的孩子当作自己的孩子抚养？"
       },
       "options": [
-        {"en": "Squirrelflight", "zh": "松鼠飞（Squirrelflight）"},
-        {"en": "Sandstorm", "zh": "沙暴（Sandstorm）"},
-        {"en": "Cinderpelt", "zh": "炭皮（Cinderpelt）"},
-        {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"}
+        {
+          "en": "Cinderpelt according to some versions of the story",
+          "zh": "炭皮（Cinderpelt）（按书中另一种说法）"
+        },
+        {
+          "en": "Yellowfang",
+          "zh": "黄牙（Yellowfang）"
+        },
+        {
+          "en": "Squirrelflight",
+          "zh": "松鼠飞（Squirrelflight）"
+        },
+        {
+          "en": "Sandstorm",
+          "zh": "沙暴（Sandstorm）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Squirrelflight agrees to raise the kits with Brambleclaw so the secret of their true parents stays hidden.",
         "zh": "松鼠飞同意和黑莓掌一起抚养这些孩子，以隐瞒他们真正的身世。"
@@ -111,10 +183,22 @@
         "zh": "叶池是在哪里生下孩子的？"
       },
       "options": [
-        {"en": "In the ThunderClan nursery", "zh": "在雷族的育婴室"},
-        {"en": "In a hollow tree far from the Clans", "zh": "在远离族群的一棵空心树里"},
-        {"en": "At the Moonpool", "zh": "在月池"},
-        {"en": "In RiverClan", "zh": "在河族"}
+        {
+          "en": "In the ThunderClan nursery according to some versions of the story",
+          "zh": "在雷族的育婴室（按书中另一种说法）"
+        },
+        {
+          "en": "In a hollow tree far from the Clans",
+          "zh": "在远离族群的一棵空心树里"
+        },
+        {
+          "en": "In RiverClan",
+          "zh": "在河族"
+        },
+        {
+          "en": "At the Moonpool",
+          "zh": "在月池"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -128,12 +212,24 @@
         "zh": "松鸦崽（Jaykit）有什么特别之处？"
       },
       "options": [
-        {"en": "He is the biggest of the litter", "zh": "他是同窝里最大的"},
-        {"en": "He is blind", "zh": "他是失明（看不见）的"},
-        {"en": "He cannot hear", "zh": "他听不见"},
-        {"en": "He has no tail", "zh": "他没有尾巴"}
+        {
+          "en": "He cannot hear",
+          "zh": "他听不见"
+        },
+        {
+          "en": "He has no tail",
+          "zh": "他没有尾巴"
+        },
+        {
+          "en": "He is the biggest of the litter",
+          "zh": "他是同窝里最大的"
+        },
+        {
+          "en": "He is blind",
+          "zh": "他是失明（看不见）的"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Leafpool notices Jaykit's blue eyes never focus; he is blind, and later becomes the medicine cat Jayfeather.",
         "zh": "叶池发现松鸦崽的蓝眼睛从不聚焦——他失明了，后来成为巫医松鸦羽。"
@@ -145,12 +241,24 @@
         "zh": "在叶池生产时，哪只猫的魂魄前来相助？"
       },
       "options": [
-        {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"},
-        {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"},
-        {"en": "Bluestar", "zh": "蓝星（Bluestar）"},
-        {"en": "Cinderpelt", "zh": "炭皮（Cinderpelt）"}
+        {
+          "en": "Spottedleaf",
+          "zh": "斑叶（Spottedleaf）"
+        },
+        {
+          "en": "Cinderpelt",
+          "zh": "炭皮（Cinderpelt）"
+        },
+        {
+          "en": "Yellowfang",
+          "zh": "黄牙（Yellowfang）"
+        },
+        {
+          "en": "Bluestar",
+          "zh": "蓝星（Bluestar）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "The spirit of Yellowfang, a former medicine cat, helps deliver the stubborn second kit.",
         "zh": "前任巫医黄牙的魂魄帮忙接生了那只迟迟生不出来的第二个孩子。"
@@ -162,12 +270,24 @@
         "zh": "把孩子交给松鼠飞后，叶池做了什么？"
       },
       "options": [
-        {"en": "She leaves the forest forever", "zh": "她永远离开了森林"},
-        {"en": "She returns to ThunderClan as the medicine cat and vows to love her kits always", "zh": "她以巫医身份回到雷族，并发誓永远爱自己的孩子"},
-        {"en": "She becomes a warrior", "zh": "她转当武士"},
-        {"en": "She joins WindClan", "zh": "她加入了风族"}
+        {
+          "en": "She returns to ThunderClan as the medicine cat and vows to love her kits always",
+          "zh": "她以巫医身份回到雷族，并发誓永远爱自己的孩子"
+        },
+        {
+          "en": "She becomes a warrior",
+          "zh": "她转当武士"
+        },
+        {
+          "en": "She joins WindClan",
+          "zh": "她加入了风族"
+        },
+        {
+          "en": "She leaves the forest forever according to some versions of the story in an early draft of the book",
+          "zh": "她永远离开了森林（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Leafpool eats parsley to dry up her milk and goes back to her duties, promising to love Hollyleaf, Lionblaze, and Jayfeather forever.",
         "zh": "叶池吃下欧芹退奶，回去履行职责，并发誓永远爱冬青叶、狮焰和松鸦羽。"

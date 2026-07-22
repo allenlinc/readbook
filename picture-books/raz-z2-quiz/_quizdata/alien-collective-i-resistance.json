@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Submit and change—or die.",
-          "zh": "屈服并改变——否则就死。"
-        },
-        {
-          "en": "Leave the planet and travel to the stars.",
-          "zh": "离开地球，前往星空。"
-        },
-        {
           "en": "Share your food with all aliens.",
           "zh": "把你们的食物分给所有外星人。"
         },
         {
+          "en": "Submit and change—or die.",
+          "zh": "屈服并改变——否则就死。"
+        },
+        {
           "en": "Give up your weapons and obey our new laws.",
           "zh": "放下武器，遵守我们的新法律。"
+        },
+        {
+          "en": "Leave the planet and travel to the stars.",
+          "zh": "离开地球，前往星空。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The aliens' message to humanity was to submit and change or die, as Charlotte feels when their warning reaches her mind.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "The Collectives",
-          "zh": "共同体"
-        },
-        {
           "en": "The Sterilization and Re-education Centers, or the Streeds",
           "zh": "消毒与再教育中心，也叫 Streeds"
         },
         {
-          "en": "The Compounds",
-          "zh": "据点"
-        },
-        {
           "en": "The Shelters",
           "zh": "避难所"
+        },
+        {
+          "en": "The Collectives according to some versions of the story in an early draft of the book",
+          "zh": "共同体（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The Compounds",
+          "zh": "据点"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Resistance attacked the Streeds, which is short for Sterilization and Re-education Centers.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "They landed huge armies of soldiers on every beach at once.",
-          "zh": "他们同时派大军在每一处海滩登陆。"
-        },
-        {
-          "en": "They sent a deadly disease across every city.",
-          "zh": "他们让致命疾病传遍每座城市。"
+          "en": "They flooded the cities with the rising oceans.",
+          "zh": "他们用上涨的海洋淹没城市。"
         },
         {
           "en": "They used blue beams to disable weapons and power.",
           "zh": "他们用蓝色光束使武器和电力失效。"
         },
         {
-          "en": "They flooded the cities with the rising oceans.",
-          "zh": "他们用上涨的海洋淹没城市。"
+          "en": "They sent a deadly disease across every city.",
+          "zh": "他们让致命疾病传遍每座城市。"
+        },
+        {
+          "en": "They landed huge armies of soldiers on every beach at once.",
+          "zh": "他们同时派大军在每一处海滩登陆。"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The first attack used blue beams to disable nuclear weapons and power, plunging many areas into darkness.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Charlotte's best human friend at school.",
-          "zh": "夏洛特在学校里最好的人类朋友。"
-        },
-        {
           "en": "The fierce leader of the human Resistance army who gives orders.",
           "zh": "下达命令的人类抵抗组织军队首领。"
         },
         {
-          "en": "A name Charlotte gave to her pet dog.",
-          "zh": "夏洛特给她宠物狗取的名字。"
+          "en": "Charlotte's best human friend at school.",
+          "zh": "夏洛特在学校里最好的人类朋友。"
         },
         {
           "en": "The lizard alien who speaks to Charlotte through the Link.",
           "zh": "通过'连接'和夏洛特对话的蜥蜴外星人。"
+        },
+        {
+          "en": "A name Charlotte gave to her pet dog.",
+          "zh": "夏洛特给她宠物狗取的名字。"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Artie is the lizard-like alien who speaks inside Charlotte's mind through the Collective Link.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Free, abundant energy from egg-shaped generators that needed no fuel.",
-          "zh": "来自蛋形发电机、无需燃料的免费充足能源。"
-        },
-        {
-          "en": "New weapons for the army.",
-          "zh": "给军队的新武器。"
+          "en": "Fast spaceships to travel. according to some versions of the story in an early draft of the book",
+          "zh": "用于旅行的快速飞船。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Gold and silver treasures.",
           "zh": "黄金和白银财宝。"
         },
         {
-          "en": "Fast spaceships to travel.",
-          "zh": "用于旅行的快速飞船。"
+          "en": "Free, abundant energy from egg-shaped generators that needed no fuel.",
+          "zh": "来自蛋形发电机、无需燃料的免费充足能源。"
+        },
+        {
+          "en": "New weapons for the army.",
+          "zh": "给军队的新武器。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In exchange for the Centers, the aliens gave governments free energy from egg-shaped, fuel-free generators.",
@@ -163,10 +163,6 @@
       },
       "options": [
         {
-          "en": "Because the aliens wanted to make friends with humans.",
-          "zh": "因为外星人想和人类做朋友。"
-        },
-        {
           "en": "Because he believed the aliens planned to colonize Earth.",
           "zh": "因为他认为外星人计划殖民地球。"
         },
@@ -177,9 +173,13 @@
         {
           "en": "Because the aliens were teaching strange new school subjects to everyone.",
           "zh": "因为外星人给所有人教奇怪的新课程。"
+        },
+        {
+          "en": "Because the aliens wanted to make friends with humans.",
+          "zh": "因为外星人想和人类做朋友。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Charlotte's father believed the aliens were playing the long game to colonize Earth and reduce the human population.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "As a list of facts about space travel.",
-          "zh": "作为一份关于太空旅行的事实清单。"
-        },
-        {
           "en": "As a diary written by Charlotte's father.",
           "zh": "作为夏洛特父亲写的日记。"
         },
         {
-          "en": "By moving between Charlotte's capture and the night of the raid.",
-          "zh": "在夏洛特被俘和袭击之夜之间切换。"
+          "en": "As a list of facts about space travel.",
+          "zh": "作为一份关于太空旅行的事实清单。"
         },
         {
           "en": "By explaining the science of alien biology in clear steps for the reader.",
           "zh": "通过一步步向读者解释外星生物的科学原理。"
+        },
+        {
+          "en": "By moving between Charlotte's capture and the night of the raid.",
+          "zh": "在夏洛特被俘和袭击之夜之间切换。"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The story shifts back and forth between Charlotte held captive and the night she and Sam joined the raid.",
@@ -223,8 +223,8 @@
       },
       "options": [
         {
-          "en": "Fly their ships faster than light.",
-          "zh": "让飞船比光速更快。"
+          "en": "Fly their ships faster than light. according to some versions of the story in an early draft of the book",
+          "zh": "让飞船比光速更快。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Grow food inside their own bodies.",
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "To teach the steps of how to build a real spaceship.",
-          "zh": "为了教读者如何建造真正的飞船。"
+          "en": "To explain how to care for a pet lizard at home.",
+          "zh": "为了讲解如何在家养宠物蜥蜴。"
         },
         {
           "en": "To show a young hero facing a tough choice about trust.",
           "zh": "为了展现一个年轻英雄面对关于信任的艰难抉择。"
         },
         {
-          "en": "To explain how to care for a pet lizard at home.",
-          "zh": "为了讲解如何在家养宠物蜥蜴。"
+          "en": "To give a full history of every country on planet Earth. according to some versions of the story",
+          "zh": "为了完整讲述地球上每个国家的历史。（按书中另一种说法）"
         },
         {
-          "en": "To give a full history of every country on planet Earth.",
-          "zh": "为了完整讲述地球上每个国家的历史。"
+          "en": "To teach the steps of how to build a real spaceship.",
+          "zh": "为了教读者如何建造真正的飞船。"
         }
       ],
       "answer": 1,
@@ -287,12 +287,12 @@
           "zh": "文中说她十五岁，且在外星人于她生日那天抵达时刚溜出家门。"
         },
         {
-          "en": "She lived in a very large castle.",
-          "zh": "她住在一座很大的城堡里。"
+          "en": "She was the oldest soldier in the army. according to some versions of the story in an early draft of the book",
+          "zh": "她是军队里最年长的士兵。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "She was the oldest soldier in the army.",
-          "zh": "她是军队里最年长的士兵。"
+          "en": "She lived in a very large castle.",
+          "zh": "她住在一座很大的城堡里。"
         },
         {
           "en": "She drove a fast red car to school.",

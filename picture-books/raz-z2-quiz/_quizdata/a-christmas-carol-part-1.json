@@ -7,131 +7,322 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en": "Who was Scrooge's business partner?", "zh": "Scrooge 的生意合伙人是谁？"},
+      "q": {
+        "en": "Who was Scrooge's business partner?",
+        "zh": "Scrooge 的生意合伙人是谁？"
+      },
       "options": [
-        {"en": "Marley", "zh": "马莱"},
-        {"en": "His cheerful nephew", "zh": "他活泼的侄子"},
-        {"en": "The tired clerk", "zh": "那位疲惫的职员"},
-        {"en": "A portly gentleman", "zh": "一位体面的绅士"}
+        {
+          "en": "Marley",
+          "zh": "马莱"
+        },
+        {
+          "en": "His cheerful nephew",
+          "zh": "他活泼的侄子"
+        },
+        {
+          "en": "A portly gentleman",
+          "zh": "一位体面的绅士"
+        },
+        {
+          "en": "The tired clerk",
+          "zh": "那位疲惫的职员"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says Scrooge and Marley were partners, and the firm was known as Scrooge and Marley.", "zh": "书中说 Scrooge 和 Marley 是合伙人，商号名为 Scrooge and Marley。"}
+      "explain": {
+        "en": "The book says Scrooge and Marley were partners, and the firm was known as Scrooge and Marley.",
+        "zh": "书中说 Scrooge 和 Marley 是合伙人，商号名为 Scrooge and Marley。"
+      }
     },
     {
-      "q": {"en": "What does Scrooge say when his nephew wishes him a Merry Christmas?", "zh": "当侄子祝 Scrooge 圣诞快乐时，他说了什么？"},
+      "q": {
+        "en": "What does Scrooge say when his nephew wishes him a Merry Christmas?",
+        "zh": "当侄子祝 Scrooge 圣诞快乐时，他说了什么？"
+      },
       "options": [
-        {"en": "God bless you!", "zh": "愿上帝保佑你！"},
-        {"en": "'Bah! Humbug!'", "zh": "“呸！骗人的玩意儿！”"},
-        {"en": "A Merry Christmas!", "zh": "圣诞快乐！"},
-        {"en": "Good afternoon.", "zh": "下午好。"}
+        {
+          "en": "God bless you!",
+          "zh": "愿上帝保佑你！"
+        },
+        {
+          "en": "'Bah! Humbug!'",
+          "zh": "“呸！骗人的玩意儿！”"
+        },
+        {
+          "en": "A Merry Christmas! according to some versions of the story",
+          "zh": "圣诞快乐！（按书中另一种说法）"
+        },
+        {
+          "en": "Good afternoon.",
+          "zh": "下午好。"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "Scrooge replies 'Bah! Humbug!' because he does not believe in celebrating Christmas.", "zh": "Scrooge 回答“呸！骗人的玩意儿！”，因为他不认同庆祝圣诞节。"}
+      "explain": {
+        "en": "Scrooge replies 'Bah! Humbug!' because he does not believe in celebrating Christmas.",
+        "zh": "Scrooge 回答“呸！骗人的玩意儿！”，因为他不认同庆祝圣诞节。"
+      }
     },
     {
-      "q": {"en": "According to Scrooge's nephew, what kind of time is Christmas?", "zh": "据 Scrooge 的侄子所说，圣诞节是怎样的一段时光？"},
+      "q": {
+        "en": "According to Scrooge's nephew, what kind of time is Christmas?",
+        "zh": "据 Scrooge 的侄子所说，圣诞节是怎样的一段时光？"
+      },
       "options": [
-        {"en": "A time for paying bills without money", "zh": "一段没钱付账单的时光"},
-        {"en": "A chance to become much richer", "zh": "变得更有钱的机会"},
-        {"en": "A kind, forgiving time", "zh": "一段善良、宽容的时光"},
-        {"en": "A time spent completely alone", "zh": "完全独处的时光"}
+        {
+          "en": "A time for paying bills without money",
+          "zh": "一段没钱付账单的时光"
+        },
+        {
+          "en": "A kind, forgiving time",
+          "zh": "一段善良、宽容的时光"
+        },
+        {
+          "en": "A chance to become much richer",
+          "zh": "变得更有钱的机会"
+        },
+        {
+          "en": "A time spent completely alone",
+          "zh": "完全独处的时光"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The nephew calls Christmas a kind, forgiving, charitable, and pleasant time when people open their hearts.", "zh": "侄子称圣诞节是一段善良、宽容、慈善且愉快的时光，人们会敞开心扉。"}
+      "explain": {
+        "en": "The nephew calls Christmas a kind, forgiving, charitable, and pleasant time when people open their hearts.",
+        "zh": "侄子称圣诞节是一段善良、宽容、慈善且愉快的时光，人们会敞开心扉。"
+      }
     },
     {
-      "q": {"en": "Why did the two portly gentlemen visit Scrooge?", "zh": "两位体面的绅士为什么要拜访 Scrooge？"},
+      "q": {
+        "en": "Why did the two portly gentlemen visit Scrooge?",
+        "zh": "两位体面的绅士为什么要拜访 Scrooge？"
+      },
       "options": [
-        {"en": "To build a grand new church for the town", "zh": "为小镇建一座宏伟的新教堂"},
-        {"en": "To pay Scrooge's hardworking clerk his wages", "zh": "支付 Scrooge 勤劳职员的工资"},
-        {"en": "To decorate the city streets for the holiday", "zh": "为节日装饰城市街道"},
-        {"en": "To ask for money to help the poor", "zh": "为帮助穷人而募款"}
-      ],
-      "answer": 3,
-      "skill": "Key Ideas and Details",
-      "explain": {"en": "They were raising a fund to buy the poor meat, drink, and warmth during the festive season.", "zh": "他们正在募款，想在节日期间为穷人购买食物、饮料和温暖。"}
-    },
-    {
-      "q": {"en": "Why is the clerk's fire so small?", "zh": "为什么职员的炉火那么小？"},
-      "options": [
-        {"en": "Scrooge keeps the coal box himself", "zh": "Scrooge 把煤箱留在自己房间里"},
-        {"en": "The clerk carelessly forgot to light it", "zh": "职员粗心忘了生火"},
-        {"en": "It is warm summer and no fire is needed", "zh": "正值暖夏，不需要火"},
-        {"en": "The office is already very warm inside", "zh": "办公室里已经很暖和了"}
+        {
+          "en": "To ask for money to help the poor",
+          "zh": "为帮助穷人而募款"
+        },
+        {
+          "en": "To pay Scrooge's hardworking clerk his wages",
+          "zh": "支付 Scrooge 勤劳职员的工资"
+        },
+        {
+          "en": "To decorate the city streets for the holiday",
+          "zh": "为节日装饰城市街道"
+        },
+        {
+          "en": "To build a grand new church for the town",
+          "zh": "为小镇建一座宏伟的新教堂"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "Scrooge keeps the coal box in his own room, so the clerk cannot add more coal to his tiny fire.", "zh": "Scrooge 把煤箱留在自己房间，所以职员无法给微弱的小火添煤。"}
+      "explain": {
+        "en": "They were raising a fund to buy the poor meat, drink, and warmth during the festive season.",
+        "zh": "他们正在募款，想在节日期间为穷人购买食物、饮料和温暖。"
+      }
     },
     {
-      "q": {"en": "What does Scrooge see on his door knocker at home?", "zh": "Scrooge 在家门口的敲门器上看到了什么？"},
+      "q": {
+        "en": "Why is the clerk's fire so small?",
+        "zh": "为什么职员的炉火那么小？"
+      },
       "options": [
-        {"en": "A wreath of holly on the door", "zh": "门上的冬青花环"},
-        {"en": "The face of Marley, his old partner", "zh": "他旧合伙人马莱的脸"},
-        {"en": "His own reflection in the metal", "zh": "金属上他自己的倒影"},
-        {"en": "A note from his nephew about dinner", "zh": "侄子留的晚餐便条"}
+        {
+          "en": "The clerk carelessly forgot to light it",
+          "zh": "职员粗心忘了生火"
+        },
+        {
+          "en": "The office is already very warm inside according to some versions of the story",
+          "zh": "办公室里已经很暖和了（按书中另一种说法）"
+        },
+        {
+          "en": "It is warm summer and no fire is needed",
+          "zh": "正值暖夏，不需要火"
+        },
+        {
+          "en": "Scrooge keeps the coal box himself",
+          "zh": "Scrooge 把煤箱留在自己房间里"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Scrooge keeps the coal box in his own room, so the clerk cannot add more coal to his tiny fire.",
+        "zh": "Scrooge 把煤箱留在自己房间，所以职员无法给微弱的小火添煤。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does Scrooge see on his door knocker at home?",
+        "zh": "Scrooge 在家门口的敲门器上看到了什么？"
+      },
+      "options": [
+        {
+          "en": "A wreath of holly on the door",
+          "zh": "门上的冬青花环"
+        },
+        {
+          "en": "A note from his nephew about dinner according to some versions of the story",
+          "zh": "侄子留的晚餐便条（按书中另一种说法）"
+        },
+        {
+          "en": "His own reflection in the metal",
+          "zh": "金属上他自己的倒影"
+        },
+        {
+          "en": "The face of Marley, his old partner",
+          "zh": "他旧合伙人马莱的脸"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "After thinking of Marley, Scrooge sees the knocker change into Marley's face, a ghostly phenomenon.",
+        "zh": "想到马莱后，Scrooge 看见敲门器变成了马莱的脸，这是一个诡异的现象。"
+      }
+    },
+    {
+      "q": {
+        "en": "The author writes that Scrooge was 'solitary as an oyster.' What does this comparison show?",
+        "zh": "作者写道 Scrooge“像牡蛎一样离群索居”。这个比喻说明了什么？"
+      },
+      "options": [
+        {
+          "en": "That Scrooge loved the ocean and the sea",
+          "zh": "Scrooge 热爱海洋"
+        },
+        {
+          "en": "That he kept to himself, alone",
+          "zh": "他独来独往、与人隔绝"
+        },
+        {
+          "en": "That he was soft and small like a shell",
+          "zh": "他像贝壳一样柔软小巧"
+        },
+        {
+          "en": "That he was loud, friendly, and open",
+          "zh": "他吵闹、友善、开朗"
+        }
       ],
       "answer": 1,
-      "skill": "Key Ideas and Details",
-      "explain": {"en": "After thinking of Marley, Scrooge sees the knocker change into Marley's face, a ghostly phenomenon.", "zh": "想到马莱后，Scrooge 看见敲门器变成了马莱的脸，这是一个诡异的现象。"}
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The simile shows Scrooge is secretive and isolated, keeping apart from other people.",
+        "zh": "这个明喻说明 Scrooge 孤僻隐秘，与人隔绝。"
+      }
     },
     {
-      "q": {"en": "The author writes that Scrooge was 'solitary as an oyster.' What does this comparison show?", "zh": "作者写道 Scrooge“像牡蛎一样离群索居”。这个比喻说明了什么？"},
+      "q": {
+        "en": "Scrooge repeats 'Good afternoon' many times to his nephew. What does this repetition show?",
+        "zh": "Scrooge 对侄子反复说“下午好”。这种重复说明了什么？"
+      },
       "options": [
-        {"en": "That Scrooge loved the ocean and the sea", "zh": "Scrooge 热爱海洋"},
-        {"en": "That he was loud, friendly, and open", "zh": "他吵闹、友善、开朗"},
-        {"en": "That he kept to himself, alone", "zh": "他独来独往、与人隔绝"},
-        {"en": "That he was soft and small like a shell", "zh": "他像贝壳一样柔软小巧"}
+        {
+          "en": "He is happy and full of good cheer",
+          "zh": "他心情愉快、满怀欢喜"
+        },
+        {
+          "en": "He enjoys a long friendly chat",
+          "zh": "他享受漫长的友好交谈"
+        },
+        {
+          "en": "He wants to end the talk and dismiss him",
+          "zh": "他想结束谈话并打发他走"
+        },
+        {
+          "en": "He wants to invite his nephew to dinner according to some versions of the story",
+          "zh": "他想邀请侄子共进晚餐（按书中另一种说法）"
+        }
       ],
       "answer": 2,
       "skill": "Craft and Structure",
-      "explain": {"en": "The simile shows Scrooge is secretive and isolated, keeping apart from other people.", "zh": "这个明喻说明 Scrooge 孤僻隐秘，与人隔绝。"}
+      "explain": {
+        "en": "Each 'Good afternoon' is Scrooge's way of refusing to engage and ending the conversation.",
+        "zh": "每一次“下午好”都是 Scrooge 拒绝交流、结束对话的方式。"
+      }
     },
     {
-      "q": {"en": "Scrooge repeats 'Good afternoon' many times to his nephew. What does this repetition show?", "zh": "Scrooge 对侄子反复说“下午好”。这种重复说明了什么？"},
+      "q": {
+        "en": "The clerk claps at the nephew's speech but then pokes the fire to hide it. What does this show?",
+        "zh": "职员为侄子的话鼓掌，随后却拨弄炉火来掩饰。这说明了什么？"
+      },
       "options": [
-        {"en": "He wants to invite his nephew to dinner", "zh": "他想邀请侄子共进晚餐"},
-        {"en": "He is happy and full of good cheer", "zh": "他心情愉快、满怀欢喜"},
-        {"en": "He enjoys a long friendly chat", "zh": "他享受漫长的友好交谈"},
-        {"en": "He wants to end the talk and dismiss him", "zh": "他想结束谈话并打发他走"}
+        {
+          "en": "He agrees but fears Scrooge will be angry",
+          "zh": "他赞同，但怕 Scrooge 生气"
+        },
+        {
+          "en": "He is cold and wants more heat",
+          "zh": "他冷，想要更多热量"
+        },
+        {
+          "en": "He disagrees with the nephew completely according to some versions of the story",
+          "zh": "他完全不赞同侄子（按书中另一种说法）"
+        },
+        {
+          "en": "He wants to put out the only spark",
+          "zh": "他想熄灭唯一的一点火星"
+        }
       ],
-      "answer": 3,
-      "skill": "Craft and Structure",
-      "explain": {"en": "Each 'Good afternoon' is Scrooge's way of refusing to engage and ending the conversation.", "zh": "每一次“下午好”都是 Scrooge 拒绝交流、结束对话的方式。"}
-    },
-    {
-      "q": {"en": "The clerk claps at the nephew's speech but then pokes the fire to hide it. What does this show?", "zh": "职员为侄子的话鼓掌，随后却拨弄炉火来掩饰。这说明了什么？"},
-      "options": [
-        {"en": "He disagrees with the nephew completely", "zh": "他完全不赞同侄子"},
-        {"en": "He agrees but fears Scrooge will be angry", "zh": "他赞同，但怕 Scrooge 生气"},
-        {"en": "He wants to put out the only spark", "zh": "他想熄灭唯一的一点火星"},
-        {"en": "He is cold and wants more heat", "zh": "他冷，想要更多热量"}
-      ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The clerk secretly agrees with the kind words but is afraid Scrooge will fire him for showing it.", "zh": "职员暗自赞同那些善意的话，却怕 Scrooge 因此解雇他。"}
+      "explain": {
+        "en": "The clerk secretly agrees with the kind words but is afraid Scrooge will fire him for showing it.",
+        "zh": "职员暗自赞同那些善意的话，却怕 Scrooge 因此解雇他。"
+      }
     },
     {
-      "q": {"en": "Why does the author describe the weather as so cold, dark, and foggy?", "zh": "作者为什么把天气描写得那么寒冷、昏暗又多雾？"},
+      "q": {
+        "en": "Why does the author describe the weather as so cold, dark, and foggy?",
+        "zh": "作者为什么把天气描写得那么寒冷、昏暗又多雾？"
+      },
       "options": [
-        {"en": "To explain the science of winter storms", "zh": "为了讲解冬季风暴的科学"},
-        {"en": "To show that the story happens at night", "zh": "为了说明故事发生在夜晚"},
-        {"en": "To reflect Scrooge's cold, unfriendly nature", "zh": "为了映衬 Scrooge 冷漠、不友好的本性"},
-        {"en": "To describe a pleasant, cheerful mood", "zh": "为了描写愉快、欢快的心情"}
+        {
+          "en": "To show that the story happens at night according to some versions of the story",
+          "zh": "为了说明故事发生在夜晚（按书中另一种说法）"
+        },
+        {
+          "en": "To explain the science of winter storms",
+          "zh": "为了讲解冬季风暴的科学"
+        },
+        {
+          "en": "To reflect Scrooge's cold, unfriendly nature",
+          "zh": "为了映衬 Scrooge 冷漠、不友好的本性"
+        },
+        {
+          "en": "To describe a pleasant, cheerful mood",
+          "zh": "为了描写愉快、欢快的心情"
+        }
       ],
       "answer": 2,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The gloomy, freezing weather mirrors Scrooge's cold heart and sets a dismal mood.", "zh": "阴冷昏暗的天气映衬了 Scrooge 冰冷的心，并营造出压抑的氛围。"}
+      "explain": {
+        "en": "The gloomy, freezing weather mirrors Scrooge's cold heart and sets a dismal mood.",
+        "zh": "阴冷昏暗的天气映衬了 Scrooge 冰冷的心，并营造出压抑的氛围。"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en": "Imagine you are Scrooge's nephew. Write a short note inviting your uncle to a kind, cheerful holiday meal.", "zh": "想象你是 Scrooge 的侄子，写一张短笺，邀请叔叔来吃一顿温暖、欢乐的节日餐。"},
+    "prompt": {
+      "en": "Imagine you are Scrooge's nephew. Write a short note inviting your uncle to a kind, cheerful holiday meal.",
+      "zh": "想象你是 Scrooge 的侄子，写一张短笺，邀请叔叔来吃一顿温暖、欢乐的节日餐。"
+    },
     "guidance": {
-      "en": ["Use a friendly, warm tone.", "Mention why the holiday is a good time for kindness.", "Keep it short and polite."],
-      "zh": ["用友好、温暖的语气。", "说明为什么节日是表达善意的美好时光。", "保持简短有礼。"]
+      "en": [
+        "Use a friendly, warm tone.",
+        "Mention why the holiday is a good time for kindness.",
+        "Keep it short and polite."
+      ],
+      "zh": [
+        "用友好、温暖的语气。",
+        "说明为什么节日是表达善意的美好时光。",
+        "保持简短有礼。"
+      ]
     }
   }
 }

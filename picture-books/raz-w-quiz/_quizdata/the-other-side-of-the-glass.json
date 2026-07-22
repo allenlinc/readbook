@@ -17,16 +17,16 @@
           "zh": "塔蒂安娜女王，朋友们叫她塔蒂"
         },
         {
-          "en": "Queen Elizabeth",
-          "zh": "伊丽莎白女王"
-        },
-        {
           "en": "Sarah's mother",
           "zh": "萨拉的母亲"
         },
         {
-          "en": "A witch named Moritz",
-          "zh": "一个名叫莫里茨的女巫"
+          "en": "Queen Elizabeth",
+          "zh": "伊丽莎白女王"
+        },
+        {
+          "en": "A witch named Moritz according to some versions of the story",
+          "zh": "一个名叫莫里茨的女巫（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "It was mother-like and made Sarah want to hug her",
-          "zh": "像母亲一样，让萨拉想要拥抱她"
-        },
-        {
-          "en": "It was cold and frightening",
-          "zh": "冷淡而令人害怕"
+          "en": "It was cold and frightening according to some versions of the story",
+          "zh": "冷淡而令人害怕（按书中另一种说法）"
         },
         {
           "en": "It was like a soldier's",
           "zh": "像士兵一样"
         },
         {
+          "en": "It was mother-like and made Sarah want to hug her",
+          "zh": "像母亲一样，让萨拉想要拥抱她"
+        },
+        {
           "en": "It was about the weather",
           "zh": "它描述的是天气"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says the Queen radiates a 'wonderfully maternal energy' that makes Sarah want to hug her, even as something unnerves her.",
@@ -77,12 +77,12 @@
           "zh": "她把手伸进窗户，光芒中显现出母亲在门廊上的画面"
         },
         {
-          "en": "She shows a photograph",
-          "zh": "她拿出一张照片"
-        },
-        {
           "en": "She writes a letter",
           "zh": "她写了一封信"
+        },
+        {
+          "en": "She shows a photograph according to some versions of the story in an early draft of the book",
+          "zh": "她拿出一张照片（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "She draws a picture",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "The Queen both unnerves her and radiates a warm, mother-like energy",
-          "zh": "女王既让她不安，又散发出温暖的、似母亲般的气质"
+          "en": "The Queen is a stranger who is mean according to some versions of the story",
+          "zh": "女王是个刻薄的陌生人（按书中另一种说法）"
         },
         {
           "en": "The Queen is very loud",
           "zh": "女王声音很大"
         },
         {
-          "en": "The Queen is a stranger who is mean",
-          "zh": "女王是个刻薄的陌生人"
-        },
-        {
           "en": "The Queen steals her toys",
           "zh": "女王偷了她的玩具"
+        },
+        {
+          "en": "The Queen both unnerves her and radiates a warm, mother-like energy",
+          "zh": "女王既让她不安，又散发出温暖的、似母亲般的气质"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author shows Sarah torn between feeling uneasy and feeling comforted, hinting that the Queen may not be trustworthy.",
@@ -141,12 +141,12 @@
           "zh": "永远忘记母亲"
         },
         {
-          "en": "Steal a cowboy figurine",
-          "zh": "偷走一个牛仔小雕像"
-        },
-        {
           "en": "Leave the palace at once",
           "zh": "立刻离开宫殿"
+        },
+        {
+          "en": "Steal a cowboy figurine according to some versions of the story",
+          "zh": "偷走一个牛仔小雕像（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "A mirror in the bathroom according to some versions of the story",
+          "zh": "浴室里的镜子（按书中另一种说法）"
+        },
+        {
           "en": "The magical window that opens to another world",
           "zh": "那扇通向另一个世界的神奇窗户"
         },
@@ -171,15 +175,11 @@
           "zh": "一只真正的饮水杯"
         },
         {
-          "en": "A mirror in the bathroom",
-          "zh": "浴室里的镜子"
-        },
-        {
           "en": "A pair of eyeglasses",
           "zh": "一副眼镜"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The story centers on a glass window that opens like water into a different, magical place on the other side.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Everything turns to sand, revealing it was not real",
-          "zh": "一切化为沙子，表明那并非真实"
-        },
-        {
           "en": "A feast appears",
           "zh": "出现了一场盛宴"
         },
         {
-          "en": "Sarah wakes up at home",
-          "zh": "萨拉在家中醒来"
+          "en": "Sarah wakes up at home according to some versions of the story",
+          "zh": "萨拉在家中醒来（按书中另一种说法）"
         },
         {
           "en": "The cat starts to sing",
           "zh": "猫开始唱歌"
+        },
+        {
+          "en": "Everything turns to sand, revealing it was not real",
+          "zh": "一切化为沙子，表明那并非真实"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the woman snaps her fingers and everything around Sarah changes to sand, including her mother's hand.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "The cat Thomas",
+          "zh": "猫托马斯"
+        },
+        {
+          "en": "Her own mother according to some versions of the story",
+          "zh": "她自己的母亲（按书中另一种说法）"
+        },
+        {
           "en": "Jake, the boy with yellow hair dressed like a cowboy",
           "zh": "杰克，那个黄头发、打扮成牛仔的男孩"
         },
         {
-          "en": "Her own mother",
-          "zh": "她自己的母亲"
-        },
-        {
           "en": "Queen Tatiana",
           "zh": "塔蒂安娜女王"
-        },
-        {
-          "en": "The cat Thomas",
-          "zh": "猫托马斯"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Sarah can't shake the feeling she forgot a boy with yellow hair dressed like a cowboy—her friend Jake.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Should Sarah trust Queen Tatiana? Why or why not?",
-          "zh": "萨拉应该信任塔蒂安娜女王吗？为什么？"
-        },
-        {
           "en": "How do you bake cookies?",
           "zh": "你怎么做饼干？"
         },
         {
-          "en": "Where do cats come from?",
-          "zh": "猫是从哪里来的？"
+          "en": "Should Sarah trust Queen Tatiana? Why or why not?",
+          "zh": "萨拉应该信任塔蒂安娜女王吗？为什么？"
         },
         {
           "en": "Who won the war?",
           "zh": "谁赢得了战争？"
+        },
+        {
+          "en": "Where do cats come from? according to some versions of the story",
+          "zh": "猫是从哪里来的？（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book's focus question is 'Should Sarah trust Queen Tatiana? Why or why not?'",
@@ -283,6 +283,10 @@
       },
       "options": [
         {
+          "en": "Cheap",
+          "zh": "廉价的"
+        },
+        {
           "en": "Intricate, meaning very detailed or complicated",
           "zh": "Intricate，意为非常精细或复杂"
         },
@@ -291,15 +295,11 @@
           "zh": "破碎的"
         },
         {
-          "en": "Cheap",
-          "zh": "廉价的"
-        },
-        {
-          "en": "Invisible",
-          "zh": "看不见的"
+          "en": "Invisible according to some versions of the story in an early draft of the book",
+          "zh": "看不见的（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book describes 'intricate stained-glass windows' and the glossary defines intricate as very detailed or complicated.",

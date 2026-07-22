@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "About a third",
-          "zh": "大约三分之一"
-        },
-        {
           "en": "About half",
           "zh": "大约一半"
         },
         {
-          "en": "Almost none",
-          "zh": "几乎为零"
+          "en": "About a third",
+          "zh": "大约三分之一"
         },
         {
           "en": "About three-quarters",
           "zh": "大约四分之三"
+        },
+        {
+          "en": "Almost none",
+          "zh": "几乎为零"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The 'Wowser!' box says: 'people spend about a third of their lives asleep.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Adenosine",
-          "zh": "腺苷（adenosine）"
-        },
-        {
           "en": "Caffeine",
           "zh": "咖啡因"
         },
         {
-          "en": "Chocolate",
-          "zh": "巧克力"
+          "en": "Vitamin C according to some versions of the story",
+          "zh": "维生素C（按书中另一种说法）"
         },
         {
-          "en": "Vitamin C",
-          "zh": "维生素C"
+          "en": "Adenosine",
+          "zh": "腺苷（adenosine）"
+        },
+        {
+          "en": "Chocolate",
+          "zh": "巧克力"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'a substance called adenosine... triggers sleep' as it builds up while the body uses energy.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "It shuffles memories from short-term to long-term memory",
-          "zh": "它把记忆从短期记忆“搬运”到长期记忆"
-        },
-        {
           "en": "It deletes all memories",
           "zh": "它删除所有记忆"
         },
         {
-          "en": "It copies memories onto paper",
-          "zh": "它把记忆抄到纸上"
+          "en": "It copies memories onto paper according to some versions of the story",
+          "zh": "它把记忆抄到纸上（按书中另一种说法）"
         },
         {
           "en": "It ignores memories",
           "zh": "它忽略记忆"
+        },
+        {
+          "en": "It shuffles memories from short-term to long-term memory",
+          "zh": "它把记忆从短期记忆“搬运”到长期记忆"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'The brain must move information from short-term memory to long-term memory. This shuffle happens while we sleep.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "It helps them grow taller",
+          "zh": "它帮助他们长高"
+        },
+        {
           "en": "It restores body tissues and builds new cells broken down in training",
           "zh": "它能修复身体组织，重建训练中损耗的细胞"
         },
         {
-          "en": "It makes them run faster instantly",
-          "zh": "它让他们立刻跑得更快"
+          "en": "It makes them run faster instantly according to some versions of the story",
+          "zh": "它让他们立刻跑得更快（按书中另一种说法）"
         },
         {
           "en": "It replaces the need to eat",
           "zh": "它替代了进食的需要"
-        },
-        {
-          "en": "It helps them grow taller",
-          "zh": "它帮助他们长高"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains sleep 'restores body tissues' because during training 'they constantly break down cells and tissues.'",
@@ -137,8 +137,8 @@
           "zh": "致力于对抗感染的细胞和组织"
         },
         {
-          "en": "The part of the brain that controls dreams",
-          "zh": "控制梦境的大脑部分"
+          "en": "The part of the brain that controls dreams according to some versions of the story",
+          "zh": "控制梦境的大脑部分（按书中另一种说法）"
         },
         {
           "en": "A type of sleep stage",
@@ -167,16 +167,16 @@
           "zh": "闭着的眼睛快速转动，大脑活跃程度几乎和清醒时一样"
         },
         {
-          "en": "The body runs a marathon",
-          "zh": "身体在跑马拉松"
+          "en": "You cannot dream",
+          "zh": "你无法做梦"
         },
         {
           "en": "The heart stops beating",
           "zh": "心脏停止跳动"
         },
         {
-          "en": "You cannot dream",
-          "zh": "你无法做梦"
+          "en": "The body runs a marathon according to some versions of the story in an early draft of the book",
+          "zh": "身体在跑马拉松（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "REM sleep and NREM sleep",
-          "zh": "REM 睡眠和 NREM 睡眠"
-        },
-        {
-          "en": "Light sleep and dark sleep",
-          "zh": "浅睡和暗睡"
-        },
-        {
           "en": "Hot sleep and cold sleep",
           "zh": "热睡和冷睡"
         },
         {
           "en": "Fast sleep and slow sleep",
           "zh": "快睡和慢睡"
+        },
+        {
+          "en": "Light sleep and dark sleep according to some versions of the story",
+          "zh": "浅睡和暗睡（按书中另一种说法）"
+        },
+        {
+          "en": "REM sleep and NREM sleep",
+          "zh": "REM 睡眠和 NREM 睡眠"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'There are two types of sleep—rapid eye movement (REM) sleep and non-rapid eye movement (NREM) sleep.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "Dreaming",
+          "zh": "做梦（dreaming）"
+        },
+        {
           "en": "Narcolepsy",
           "zh": "发作性嗜睡症（narcolepsy）"
         },
         {
+          "en": "Sleepwalking according to some versions of the story",
+          "zh": "梦游（sleepwalking）（按书中另一种说法）"
+        },
+        {
           "en": "Insomnia",
           "zh": "失眠（insomnia）"
-        },
-        {
-          "en": "Sleepwalking",
-          "zh": "梦游（sleepwalking）"
-        },
-        {
-          "en": "Dreaming",
-          "zh": "做梦（dreaming）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'Narcolepsy is almost the opposite of insomnia. People with narcolepsy may suddenly fall asleep at any time.'",
@@ -257,16 +257,16 @@
           "zh": "每天同一时间睡觉和起床，即便在周末"
         },
         {
-          "en": "Use a smartphone right before bed",
-          "zh": "睡前马上用智能手机"
-        },
-        {
-          "en": "Exercise hard just before sleeping",
-          "zh": "睡前立刻剧烈运动"
+          "en": "Use a smartphone right before bed according to some versions of the story",
+          "zh": "睡前马上用智能手机（按书中另一种说法）"
         },
         {
           "en": "Eat a big meal at bedtime",
           "zh": "睡前吃一顿大餐"
+        },
+        {
+          "en": "Exercise hard just before sleeping",
+          "zh": "睡前立刻剧烈运动"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To explain why sleep is important to good health",
-          "zh": "解释为什么睡眠对身体健康很重要"
+          "en": "To teach a foreign language according to some versions of the story",
+          "zh": "教一门外语（按书中另一种说法）"
         },
         {
           "en": "To sell beds and pillows",
           "zh": "推销床和枕头"
         },
         {
-          "en": "To tell a bedtime story",
-          "zh": "讲一个睡前故事"
+          "en": "To explain why sleep is important to good health",
+          "zh": "解释为什么睡眠对身体健康很重要"
         },
         {
-          "en": "To teach a foreign language",
-          "zh": "教一门外语"
+          "en": "To tell a bedtime story",
+          "zh": "讲一个睡前故事"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Focus Question is 'How is sleep important to good health?' and the text informs readers about sleep's role.",

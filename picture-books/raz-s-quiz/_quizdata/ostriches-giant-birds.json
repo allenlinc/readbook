@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "20 feet and 1000 pounds. according to some versions of the story",
+          "zh": "20英尺高，1000磅重。（按书中另一种说法）"
+        },
+        {
+          "en": "5 feet and 50 pounds.",
+          "zh": "5英尺高，50磅重。"
+        },
+        {
           "en": "Up to 9 feet (2.7 m) tall and 350 pounds (160 kg).",
           "zh": "高达9英尺（2.7米），重达350磅（160公斤）。"
         },
         {
           "en": "3 feet and 10 pounds.",
           "zh": "3英尺高，10磅重。"
-        },
-        {
-          "en": "20 feet and 1000 pounds.",
-          "zh": "20英尺高，1000磅重。"
-        },
-        {
-          "en": "5 feet and 50 pounds.",
-          "zh": "5英尺高，50磅重。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "\"Adult males can grow as tall as 9 feet (2.7 m) with their neck extended and weigh up to 350 pounds (160 kg).\"",
@@ -43,8 +43,8 @@
       },
       "options": [
         {
-          "en": "30 mph over long distance, sprinting up to 45 mph.",
-          "zh": "长距离30英里/小时，冲刺可达45英里/小时。"
+          "en": "They cannot run. according to some versions of the story in an early draft of the book",
+          "zh": "它们不会跑。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "5 mph.",
@@ -55,11 +55,11 @@
           "zh": "100英里/小时。"
         },
         {
-          "en": "They cannot run.",
-          "zh": "它们不会跑。"
+          "en": "30 mph over long distance, sprinting up to 45 mph.",
+          "zh": "长距离30英里/小时，冲刺可达45英里/小时。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "\"They can run 30 miles per hour (48.2 kph) over a long distance and can sprint up to 45 miles per hour (72.4 kph).\"",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "An organ in birds that helps grind and break down food.",
-          "zh": "鸟类体内帮助研磨、分解食物的器官。"
+          "en": "A nest.",
+          "zh": "一个巢。"
         },
         {
-          "en": "A type of feather.",
-          "zh": "一种羽毛。"
+          "en": "A type of feather. according to some versions of the story",
+          "zh": "一种羽毛。（按书中另一种说法）"
         },
         {
           "en": "A kick.",
           "zh": "一种踢击。"
         },
         {
-          "en": "A nest.",
-          "zh": "一个巢。"
+          "en": "An organ in birds that helps grind and break down food.",
+          "zh": "鸟类体内帮助研磨、分解食物的器官。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Glossary: \"gizzard (n.) an organ in birds that helps grind and break down food.\"",
@@ -103,12 +103,12 @@
       },
       "options": [
         {
-          "en": "They lie down and place their long neck on the ground to be less visible.",
-          "zh": "它们趴下，把长脖子贴在地上以便不易被发现。"
+          "en": "They actually bury their heads. according to some versions of the story in an early draft of the book",
+          "zh": "它们真的把头埋起来。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "They actually bury their heads.",
-          "zh": "它们真的把头埋起来。"
+          "en": "They lie down and place their long neck on the ground to be less visible.",
+          "zh": "它们趴下，把长脖子贴在地上以便不易被发现。"
         },
         {
           "en": "They fly away.",
@@ -119,7 +119,7 @@
           "zh": "它们躲在树上。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "\"If an ostrich can't fight or flee, it lies down and places its long neck on the ground... This defense has given rise to the myth that ostriches bury their heads in the sand.\"",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "They are omnivores—leaves, seeds, roots, lizards, snakes, rodents, insects.",
-          "zh": "它们是杂食动物——吃叶子、种子、根茎、蜥蜴、蛇、啮齿动物、昆虫。"
-        },
-        {
-          "en": "Only plants.",
-          "zh": "只吃植物。"
-        },
-        {
           "en": "Only meat.",
           "zh": "只吃肉。"
         },
         {
+          "en": "They are omnivores—leaves, seeds, roots, lizards, snakes, rodents, insects.",
+          "zh": "它们是杂食动物——吃叶子、种子、根茎、蜥蜴、蛇、啮齿动物、昆虫。"
+        },
+        {
           "en": "Only fish.",
           "zh": "只吃鱼。"
+        },
+        {
+          "en": "Only plants. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "只吃植物。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "\"Ostriches are omnivores. Their typical food is leaves, seeds, and roots. They also eat lizards, snakes, rodents, insects...\"",
@@ -167,16 +167,16 @@
           "zh": "强到一脚就能踢死一头成年狮子。"
         },
         {
-          "en": "Can knock over a bush.",
-          "zh": "能踢翻一丛灌木。"
-        },
-        {
-          "en": "Weak.",
-          "zh": "很弱。"
+          "en": "Can knock over a bush. according to some versions of the story",
+          "zh": "能踢翻一丛灌木。（按书中另一种说法）"
         },
         {
           "en": "Only scares insects.",
           "zh": "只能吓走昆虫。"
+        },
+        {
+          "en": "Weak.",
+          "zh": "很弱。"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "They are fast runners, have good vision and long necks to spot danger, and live in cooperative herds.",
-          "zh": "它们跑得快，视力好、长脖子能及早发现危险，并且以合作的群体生活。"
-        },
-        {
-          "en": "They can fly away from danger.",
-          "zh": "它们能飞离危险。"
+          "en": "They need lots of water.",
+          "zh": "它们需要大量水。"
         },
         {
           "en": "They live in snow.",
           "zh": "它们生活在雪地。"
         },
         {
-          "en": "They need lots of water.",
-          "zh": "它们需要大量水。"
+          "en": "They are fast runners, have good vision and long necks to spot danger, and live in cooperative herds.",
+          "zh": "它们跑得快，视力好、长脖子能及早发现危险，并且以合作的群体生活。"
+        },
+        {
+          "en": "They can fly away from danger. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "它们能飞离危险。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book's Focus Question is \"Why are ostriches well suited to live in the African savanna?\" and describes their speed, teamwork, vision, and tolerance of hot days and cold nights.",
@@ -227,16 +227,16 @@
           "zh": "为了分享一个把鸵鸟与恐龙联系起来的有趣科学事实。"
         },
         {
+          "en": "To promote a museum.",
+          "zh": "为了宣传一家博物馆。"
+        },
+        {
           "en": "To scare readers.",
           "zh": "为了吓唬读者。"
         },
         {
-          "en": "To say ostriches are extinct.",
-          "zh": "为了说明鸵鸟已灭绝。"
-        },
-        {
-          "en": "To promote a museum.",
-          "zh": "为了宣传一家博物馆。"
+          "en": "To say ostriches are extinct. according to some versions of the story in an early draft of the book",
+          "zh": "为了说明鸵鸟已灭绝。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "The largest and thickest of any bird's; one equals about two dozen chicken eggs.",
-          "zh": "是所有鸟中最大最厚的；一颗约等于两打鸡蛋的重量。"
-        },
-        {
           "en": "Tiny like a pea.",
           "zh": "像豌豆一样小。"
         },
         {
-          "en": "Same as chicken eggs.",
-          "zh": "和鸡蛋一样大。"
+          "en": "The largest and thickest of any bird's; one equals about two dozen chicken eggs.",
+          "zh": "是所有鸟中最大最厚的；一颗约等于两打鸡蛋的重量。"
+        },
+        {
+          "en": "Same as chicken eggs. according to some versions of the story in an early draft of the book",
+          "zh": "和鸡蛋一样大。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Soft and rubbery.",
           "zh": "柔软而有弹性。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "\"Ostriches lay the world's biggest eggs. It would take two dozen chicken eggs to equal the weight of one ostrich egg.\"",
@@ -287,16 +287,16 @@
           "zh": "很低——一位兽医说它们“蠢得像一箱子石头”，但很好奇。"
         },
         {
-          "en": "As geniuses.",
-          "zh": "像天才。"
-        },
-        {
-          "en": "As smarter than humans.",
-          "zh": "比人类还聪明。"
-        },
-        {
           "en": "As average.",
           "zh": "中等水平。"
+        },
+        {
+          "en": "As smarter than humans. according to some versions of the story in an early draft of the book",
+          "zh": "比人类还聪明。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "As geniuses.",
+          "zh": "像天才。"
         }
       ],
       "answer": 0,

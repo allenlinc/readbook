@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "The World Happiness Report",
+          "zh": "《世界幸福报告》"
+        },
+        {
           "en": "Gross National Happiness (GNH)",
           "zh": "国民幸福总值（GNH）"
         },
         {
-          "en": "Gross Domestic Product (GDP)",
-          "zh": "国内生产总值（GDP）"
-        },
-        {
-          "en": "The World Happiness Report",
-          "zh": "《世界幸福报告》"
+          "en": "Gross Domestic Product (GDP) according to some versions of the story",
+          "zh": "国内生产总值（GDP）（按书中另一种说法）"
         },
         {
           "en": "A stock market",
           "zh": "股票市场"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "King Wangchuck did not think GDP was right for Bhutan, so he created Gross National Happiness (GNH).",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "2007",
-          "zh": "2007年"
+          "en": "1999 according to some versions of the story",
+          "zh": "1999年（按书中另一种说法）"
+        },
+        {
+          "en": "2010",
+          "zh": "2010年"
         },
         {
           "en": "1972",
           "zh": "1972年"
         },
         {
-          "en": "1999",
-          "zh": "1999年"
-        },
-        {
-          "en": "2010",
-          "zh": "2010年"
+          "en": "2007",
+          "zh": "2007年"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states Bhutan's first happiness survey took place in 2007.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Four",
-          "zh": "四个"
+          "en": "Ten",
+          "zh": "十个"
         },
         {
-          "en": "Nine",
-          "zh": "九个"
+          "en": "Four",
+          "zh": "四个"
         },
         {
           "en": "Two",
           "zh": "两个"
         },
         {
-          "en": "Ten",
-          "zh": "十个"
+          "en": "Nine according to some versions of the story",
+          "zh": "九个（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "GNH was based on four pillars: good governing, wise handling of money/growth, support for culture, and care of nature.",
@@ -141,12 +141,12 @@
           "zh": "一位新国王加冕"
         },
         {
-          "en": "The first happiness survey was given",
-          "zh": "进行了第一次幸福调查"
-        },
-        {
           "en": "All stoplights were removed",
           "zh": "所有红绿灯被拆除"
+        },
+        {
+          "en": "The first happiness survey was given according to some versions of the story",
+          "zh": "进行了第一次幸福调查（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Nine",
-          "zh": "九个"
-        },
-        {
-          "en": "Four",
-          "zh": "四个"
-        },
-        {
           "en": "Eight",
           "zh": "八个"
         },
         {
           "en": "Twelve",
           "zh": "十二个"
+        },
+        {
+          "en": "Nine",
+          "zh": "九个"
+        },
+        {
+          "en": "Four",
+          "zh": "四个"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Ministry created nine domains based on the four pillars, which together form the GNH Index.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "The Lhotshampa",
-          "zh": "洛昌帕人（Lhotshampa）"
-        },
-        {
           "en": "Women farmers",
           "zh": "女性农民"
         },
         {
-          "en": "Elderly citizens",
-          "zh": "老年公民"
+          "en": "Uneducated citizens according to some versions of the story",
+          "zh": "未受教育者（按书中另一种说法）"
         },
         {
-          "en": "Uneducated citizens",
-          "zh": "未受教育者"
+          "en": "The Lhotshampa",
+          "zh": "洛昌帕人（Lhotshampa）"
+        },
+        {
+          "en": "Elderly citizens",
+          "zh": "老年公民"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Lhotshampa, Bhutanese citizens of Nepali descent, were not included in the survey.",
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "It is the start of Bhutan's survey according to some versions of the story",
+          "zh": "那是不丹调查开始的日子（按书中另一种说法）"
+        },
+        {
           "en": "On that day day and night are equally long, showing balance",
           "zh": "那一天昼夜等长，象征平衡"
         },
@@ -231,15 +235,11 @@
           "zh": "那是国王的生日"
         },
         {
-          "en": "It is the start of Bhutan's survey",
-          "zh": "那是不丹调查开始的日子"
-        },
-        {
           "en": "It is the end of winter",
           "zh": "那是冬天的结束"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "On March 20 the Sun lines up with Earth's equator, day and night are equal, representing balance as the key to happiness.",
@@ -257,12 +257,12 @@
           "zh": "丹麦"
         },
         {
-          "en": "Bhutan",
-          "zh": "不丹"
-        },
-        {
           "en": "The United States",
           "zh": "美国"
+        },
+        {
+          "en": "Bhutan",
+          "zh": "不丹"
         },
         {
           "en": "Sweden",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To explain how Bhutan measures happiness and why it matters",
-          "zh": "解释不丹如何衡量幸福以及它为何重要"
-        },
-        {
           "en": "To persuade readers to move to Bhutan",
           "zh": "劝说读者移居不丹"
+        },
+        {
+          "en": "To list the world's tallest mountains according to some versions of the story",
+          "zh": "列出世界上最高的山脉（按书中另一种说法）"
         },
         {
           "en": "To tell a fairy tale about a king",
           "zh": "讲述一个关于国王的童话"
         },
         {
-          "en": "To list the world's tallest mountains",
-          "zh": "列出世界上最高的山脉"
+          "en": "To explain how Bhutan measures happiness and why it matters",
+          "zh": "解释不丹如何衡量幸福以及它为何重要"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book informs readers about Bhutan's GNH idea, its survey, and how other nations took notice.",

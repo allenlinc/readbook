@@ -10,23 +10,23 @@
       },
       "options": [
         {
-          "en": "Rusty",
-          "zh": "Rusty（小锈）"
+          "en": "Scourge",
+          "zh": "Scourge（长鞭）"
         },
         {
-          "en": "Firepaw",
-          "zh": "Firepaw（火爪）"
+          "en": "Rusty",
+          "zh": "Rusty（小锈）"
         },
         {
           "en": "Cloudtail",
           "zh": "Cloudtail（云尾）"
         },
         {
-          "en": "Scourge",
-          "zh": "Scourge（长鞭）"
+          "en": "Firepaw",
+          "zh": "Firepaw（火爪）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Rusty is a kittypet (housecat) who is invited to join ThunderClan and is renamed Firepaw.",
         "zh": "Rusty 是一只家猫，被邀请加入雷族后改名为 Firepaw（火爪）。"
@@ -39,23 +39,23 @@
       },
       "options": [
         {
-          "en": "ThunderClan",
-          "zh": "ThunderClan（雷族）"
+          "en": "WindClan",
+          "zh": "WindClan（风族）"
         },
         {
           "en": "RiverClan",
           "zh": "RiverClan（河族）"
         },
         {
-          "en": "ShadowClan",
-          "zh": "ShadowClan（影族）"
+          "en": "ThunderClan",
+          "zh": "ThunderClan（雷族）"
         },
         {
-          "en": "WindClan",
-          "zh": "WindClan（风族）"
+          "en": "ShadowClan according to some versions of the story",
+          "zh": "ShadowClan（影族）（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "He joins ThunderClan, one of the four Clans (Thunder, River, Shadow, Wind) that share the forest.",
         "zh": "他加入了雷族——与河族、影族、风族共享森林的四大猫族之一。"
@@ -72,16 +72,16 @@
           "zh": "Lionheart（狮心）"
         },
         {
+          "en": "Graystripe",
+          "zh": "Graystripe（灰条）"
+        },
+        {
           "en": "Tigerclaw",
           "zh": "Tigerclaw（虎掌）"
         },
         {
           "en": "Bluestar",
           "zh": "Bluestar（蓝星）"
-        },
-        {
-          "en": "Graystripe",
-          "zh": "Graystripe（灰条）"
         }
       ],
       "answer": 0,
@@ -97,23 +97,23 @@
       },
       "options": [
         {
-          "en": "Fire alone can save our Clan",
-          "zh": "唯有火能拯救我们的族群"
+          "en": "The wind will carry us home according to some versions of the story",
+          "zh": "风将带我们回家（按书中另一种说法）"
         },
         {
           "en": "Water will drown the forest",
           "zh": "水将淹没森林"
         },
         {
-          "en": "The wind will carry us home",
-          "zh": "风将带我们回家"
-        },
-        {
           "en": "Ice shall rule the Clan",
           "zh": "冰将统治族群"
+        },
+        {
+          "en": "Fire alone can save our Clan",
+          "zh": "唯有火能拯救我们的族群"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Spottedleaf's prophecy — 'Fire alone can save our Clan' — refers to the flame-colored newcomer, Firepaw.",
         "zh": "Spottedleaf 的预言“唯有火能拯救我们的族群”，指的就是这只火色的新成员 Firepaw。"
@@ -134,12 +134,12 @@
           "zh": "Blackfoot（黑脚）"
         },
         {
-          "en": "Brokenstar",
-          "zh": "Brokenstar（碎星）"
-        },
-        {
           "en": "Tigerclaw",
           "zh": "Tigerclaw（虎掌）"
+        },
+        {
+          "en": "Brokenstar",
+          "zh": "Brokenstar（碎星）"
         }
       ],
       "answer": 0,
@@ -155,23 +155,23 @@
       },
       "options": [
         {
+          "en": "Graypaw according to some versions of the story",
+          "zh": "Graypaw（灰爪）（按书中另一种说法）"
+        },
+        {
           "en": "Ravenpaw",
           "zh": "Ravenpaw（鸦爪）"
         },
         {
-          "en": "Graypaw",
-          "zh": "Graypaw（灰爪）"
+          "en": "Sandpaw",
+          "zh": "Sandpaw（沙爪）"
         },
         {
           "en": "Dustpaw",
           "zh": "Dustpaw（尘爪）"
-        },
-        {
-          "en": "Sandpaw",
-          "zh": "Sandpaw（沙爪）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Ravenpaw sees Tigerclaw kill Redtail and is terrified into silence; he later flees to live as a kittypet.",
         "zh": "鸦爪亲眼看见虎掌杀死红尾，吓得不敢声张，后来逃去做了宠物猫。"
@@ -184,6 +184,10 @@
       },
       "options": [
         {
+          "en": "Lionheart according to some versions of the story",
+          "zh": "Lionheart（狮心）（按书中另一种说法）"
+        },
+        {
           "en": "Tigerclaw",
           "zh": "Tigerclaw（虎掌）"
         },
@@ -192,15 +196,11 @@
           "zh": "Oakheart（橡心）"
         },
         {
-          "en": "Lionheart",
-          "zh": "Lionheart（狮心）"
-        },
-        {
           "en": "A monster (car)",
           "zh": "怪兽（汽车）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Tigerclaw killed Redtail at the gorge and blamed Oakheart; Ravenpaw saw the truth.",
         "zh": "虎掌在峡谷边杀死了红尾，并嫁祸给橡心；鸦爪目睹了真相。"
@@ -213,8 +213,8 @@
       },
       "options": [
         {
-          "en": "Yellowfang",
-          "zh": "Yellowfang（黄牙）"
+          "en": "Leopardfoot",
+          "zh": "Leopardfoot（豹足）"
         },
         {
           "en": "Spottedleaf",
@@ -225,11 +225,11 @@
           "zh": "Cinderpelt（炭毛）"
         },
         {
-          "en": "Leopardfoot",
-          "zh": "Leopardfoot（豹足）"
+          "en": "Yellowfang",
+          "zh": "Yellowfang（黄牙）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Yellowfang, a captured ShadowClan medicine cat, stays with ThunderClan and becomes its new medicine cat.",
         "zh": "黄牙是被俘的影族巫医，留在雷族后成为了新的巫医。"
@@ -242,23 +242,23 @@
       },
       "options": [
         {
-          "en": "Cloudkit, his sister Princess's kit",
-          "zh": "云崽，他姐姐 Princess 的孩子"
-        },
-        {
-          "en": "Brackenkit",
-          "zh": "Brackenkit（蕨崽）"
-        },
-        {
-          "en": "Swiftkit",
-          "zh": "Swiftkit（捷崽）"
+          "en": "Brackenkit according to some versions of the story",
+          "zh": "Brackenkit（蕨崽）（按书中另一种说法）"
         },
         {
           "en": "Tiny",
           "zh": "Tiny（小不点）"
+        },
+        {
+          "en": "Cloudkit, his sister Princess's kit",
+          "zh": "云崽，他姐姐 Princess 的孩子"
+        },
+        {
+          "en": "Swiftkit",
+          "zh": "Swiftkit（捷崽）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Firepaw's kittypet sister Princess gives him one of her kits; he brings the kit (Cloudkit, later Cloudtail) to ThunderClan.",
         "zh": "Firepaw 的家猫姐姐 Princess 送给他一只幼猫，他把云崽（后来的云尾）带进了雷族。"
@@ -275,12 +275,12 @@
           "zh": "Fireheart（火星）"
         },
         {
-          "en": "Firestorm",
-          "zh": "Firestorm（火暴）"
-        },
-        {
           "en": "Emberpaw",
           "zh": "Emberpaw（余烬爪）"
+        },
+        {
+          "en": "Firestorm according to some versions of the story",
+          "zh": "Firestorm（火暴）（按书中另一种说法）"
         },
         {
           "en": "Flamefur",

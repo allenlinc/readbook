@@ -12,12 +12,24 @@
         "zh": "助听犬是做什么的？"
       },
       "options": [
-        { "en": "Alerts a deaf person to important sounds", "zh": "提醒听不见的人注意重要的声音" },
-        { "en": "Guides a blind person", "zh": "为盲人引路" },
-        { "en": "Herds sheep", "zh": "放牧羊群" },
-        { "en": "Finds termites", "zh": "寻找白蚁" }
+        {
+          "en": "Herds sheep",
+          "zh": "放牧羊群"
+        },
+        {
+          "en": "Alerts a deaf person to important sounds",
+          "zh": "提醒听不见的人注意重要的声音"
+        },
+        {
+          "en": "Finds termites",
+          "zh": "寻找白蚁"
+        },
+        {
+          "en": "Guides a blind person according to some versions of the story",
+          "zh": "为盲人引路（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says a hearing dog \"is trained to alert them to sounds\" like an alarm clock, doorbell, or someone calling their name.",
@@ -30,12 +42,24 @@
         "zh": "导盲犬被训练来做什么？"
       },
       "options": [
-        { "en": "Help a blind person cross streets safely and warn about curbs and steps", "zh": "帮助盲人安全过马路，并提醒路缘和台阶" },
-        { "en": "Alert a person to sounds", "zh": "提醒人注意声音" },
-        { "en": "Rescue drowning people", "zh": "救援溺水者" },
-        { "en": "Find hidden drugs", "zh": "寻找藏匿的毒品" }
+        {
+          "en": "Alert a person to sounds according to some versions of the story in an early draft of the book",
+          "zh": "提醒人注意声音（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Rescue drowning people",
+          "zh": "救援溺水者"
+        },
+        {
+          "en": "Help a blind person cross streets safely and warn about curbs and steps",
+          "zh": "帮助盲人安全过马路，并提醒路缘和台阶"
+        },
+        {
+          "en": "Find hidden drugs",
+          "zh": "寻找藏匿的毒品"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says a guide dog \"helps a blind person cross a busy street safely. It can warn the person about curbs and steps.\"",
@@ -48,12 +72,24 @@
         "zh": "水上救援犬是怎样帮助人的？"
       },
       "options": [
-        { "en": "Big Newfoundlands pull drowning people to safety; some jump from helicopters", "zh": "体型庞大的纽芬兰犬把溺水者拉到安全处；有些还能从直升机上跳下" },
-        { "en": "They chase geese", "zh": "它们追逐鹅" },
-        { "en": "They sniff for drugs", "zh": "它们嗅探毒品" },
-        { "en": "They guard herds", "zh": "它们看守畜群" }
+        {
+          "en": "They sniff for drugs according to some versions of the story in an early draft of the book",
+          "zh": "它们嗅探毒品（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They chase geese",
+          "zh": "它们追逐鹅"
+        },
+        {
+          "en": "They guard herds",
+          "zh": "它们看守畜群"
+        },
+        {
+          "en": "Big Newfoundlands pull drowning people to safety; some jump from helicopters",
+          "zh": "体型庞大的纽芬兰犬把溺水者拉到安全处；有些还能从直升机上跳下"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says big Newfoundland dogs \"work as lifeguards. They will jump in the water and pull a drowning person to safety. Some can even jump into the water from a helicopter!\"",
@@ -66,10 +102,22 @@
         "zh": "作者写《工作犬》的主要目的是什么？"
       },
       "options": [
-        { "en": "To inform readers about the many special jobs trained dogs do", "zh": "为了向读者介绍受过训练的工作犬所做的各种特殊工作" },
-        { "en": "To sell dogs", "zh": "为了卖狗" },
-        { "en": "To tell a fictional story", "zh": "为了讲一个虚构故事" },
-        { "en": "To teach dog breeding", "zh": "为了教如何繁殖狗" }
+        {
+          "en": "To inform readers about the many special jobs trained dogs do",
+          "zh": "为了向读者介绍受过训练的工作犬所做的各种特殊工作"
+        },
+        {
+          "en": "To sell dogs",
+          "zh": "为了卖狗"
+        },
+        {
+          "en": "To teach dog breeding",
+          "zh": "为了教如何繁殖狗"
+        },
+        {
+          "en": "To tell a fictional story according to some versions of the story in an early draft of the book",
+          "zh": "为了讲一个虚构故事（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -84,10 +132,22 @@
         "zh": "“白蚁犬”是什么？"
       },
       "options": [
-        { "en": "A trained beagle that smells termite nests in buildings", "zh": "一种受过训练的比格犬，能嗅出建筑物里的白蚁巢" },
-        { "en": "A dog that herds cattle", "zh": "放牧牛群的狗" },
-        { "en": "A dog that plays baseball", "zh": "打棒球的狗" },
-        { "en": "A dog that guards sheep", "zh": "看守羊群的狗" }
+        {
+          "en": "A trained beagle that smells termite nests in buildings",
+          "zh": "一种受过训练的比格犬，能嗅出建筑物里的白蚁巢"
+        },
+        {
+          "en": "A dog that plays baseball according to some versions of the story",
+          "zh": "打棒球的狗（按书中另一种说法）"
+        },
+        {
+          "en": "A dog that guards sheep",
+          "zh": "看守羊群的狗"
+        },
+        {
+          "en": "A dog that herds cattle",
+          "zh": "放牧牛群的狗"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -102,12 +162,24 @@
         "zh": "“arson（纵火）”在“arson dog（纵火侦测犬）”中指的是——"
       },
       "options": [
-        { "en": "A fire that may have been started on purpose", "zh": "可能是被人故意点燃的火灾" },
-        { "en": "A kind of water rescue", "zh": "一种水上救援" },
-        { "en": "A seizure", "zh": "一种癫痫发作" },
-        { "en": "A type of termite", "zh": "一种白蚁" }
+        {
+          "en": "A kind of water rescue according to some versions of the story",
+          "zh": "一种水上救援（按书中另一种说法）"
+        },
+        {
+          "en": "A fire that may have been started on purpose",
+          "zh": "可能是被人故意点燃的火灾"
+        },
+        {
+          "en": "A type of termite",
+          "zh": "一种白蚁"
+        },
+        {
+          "en": "A seizure",
+          "zh": "一种癫痫发作"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says arson dogs \"alert their handler if they smell chemicals that might have been used to start the fire,\" after a building burns down.",
@@ -120,12 +192,24 @@
         "zh": "为什么边境牧羊犬被用作“驱鹅犬”？"
       },
       "options": [
-        { "en": "Geese are a danger to airplanes, so dogs chase them from airports and golf courses", "zh": "鹅对飞机有危险，所以狗把它们在机场和球场附近赶走" },
-        { "en": "They like to swim", "zh": "它们喜欢游泳" },
-        { "en": "They find hidden drugs", "zh": "它们寻找藏匿的毒品" },
-        { "en": "They guard livestock", "zh": "它们看守牲畜" }
+        {
+          "en": "They guard livestock",
+          "zh": "它们看守牲畜"
+        },
+        {
+          "en": "They like to swim",
+          "zh": "它们喜欢游泳"
+        },
+        {
+          "en": "Geese are a danger to airplanes, so dogs chase them from airports and golf courses",
+          "zh": "鹅对飞机有危险，所以狗把它们在机场和球场附近赶走"
+        },
+        {
+          "en": "They find hidden drugs according to some versions of the story in an early draft of the book",
+          "zh": "它们寻找藏匿的毒品（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, \"At airports, they are a danger to airplanes... Border collies chase geese away from places where they may cause problems.\"",
@@ -138,12 +222,24 @@
         "zh": "书末说受过训练的狗还能当保姆、电视明星和雪橇犬，是为了什么？"
       },
       "options": [
-        { "en": "To show dogs can do many more interesting jobs than the ones listed", "zh": "为了说明狗能做的事比列举的还要多、还有趣" },
-        { "en": "To prove dogs are useless", "zh": "为了证明狗没用" },
-        { "en": "To describe a baseball game", "zh": "为了描写一场棒球赛" },
-        { "en": "To teach how to train a cat", "zh": "为了教如何训练猫" }
+        {
+          "en": "To describe a baseball game according to some versions of the story in an early draft of the book",
+          "zh": "为了描写一场棒球赛（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To teach how to train a cat",
+          "zh": "为了教如何训练猫"
+        },
+        {
+          "en": "To prove dogs are useless",
+          "zh": "为了证明狗没用"
+        },
+        {
+          "en": "To show dogs can do many more interesting jobs than the ones listed",
+          "zh": "为了说明狗能做的事比列举的还要多、还有趣"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The conclusion says trained dogs \"can even be babysitters, TV stars, rodeo clowns, and sled dogs,\" suggesting even more jobs beyond the list.",
@@ -156,10 +252,22 @@
         "zh": "“癫痫预警犬”是做什么的？"
       },
       "options": [
-        { "en": "Senses a seizure may happen and gives early warning to reach safety", "zh": "察觉癫痫可能发作，提前预警以便到达安全处" },
-        { "en": "Barks at burglars", "zh": "对入室窃贼吠叫" },
-        { "en": "Retrieves baseballs", "zh": "叼回棒球" },
-        { "en": "Hunts ducks", "zh": "猎鸭" }
+        {
+          "en": "Senses a seizure may happen and gives early warning to reach safety",
+          "zh": "察觉癫痫可能发作，提前预警以便到达安全处"
+        },
+        {
+          "en": "Retrieves baseballs",
+          "zh": "叼回棒球"
+        },
+        {
+          "en": "Barks at burglars according to some versions of the story in an early draft of the book",
+          "zh": "对入室窃贼吠叫（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Hunts ducks",
+          "zh": "猎鸭"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -174,12 +282,24 @@
         "zh": "“棒球叼回犬”的工作是什么？"
       },
       "options": [
-        { "en": "It jumps into San Francisco Bay to retrieve home-run balls that land in the water", "zh": "它跳进旧金山湾，叼回落水的本垒打球" },
-        { "en": "It trains police officers", "zh": "它训练警察" },
-        { "en": "It visits hospitals", "zh": "它探访医院" },
-        { "en": "It finds termites", "zh": "它寻找白蚁" }
+        {
+          "en": "It visits hospitals",
+          "zh": "它探访医院"
+        },
+        {
+          "en": "It jumps into San Francisco Bay to retrieve home-run balls that land in the water",
+          "zh": "它跳进旧金山湾，叼回落水的本垒打球"
+        },
+        {
+          "en": "It finds termites",
+          "zh": "它寻找白蚁"
+        },
+        {
+          "en": "It trains police officers according to some versions of the story in an early draft of the book",
+          "zh": "它训练警察（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "At Pacific Bell Park, a long home run \"can land in the water!... A trained dog from B.A.R.K. jumps into the Bay to retrieve each ball from the water.\"",

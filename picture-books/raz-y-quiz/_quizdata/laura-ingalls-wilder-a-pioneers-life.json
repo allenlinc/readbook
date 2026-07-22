@@ -1,328 +1,328 @@
 {
- "slug": "laura-ingalls-wilder-a-pioneers-life",
- "title": "Laura Ingalls Wilder: A Pioneer's Life",
- "titleZh": "劳拉·英格斯·怀德：拓荒者的一生",
- "level": "Y",
- "genre": "Biography",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "Where was Laura Ingalls born?",
-    "zh": "劳拉·英格斯出生在哪里？"
-   },
-   "options": [
+  "slug": "laura-ingalls-wilder-a-pioneers-life",
+  "title": "Laura Ingalls Wilder: A Pioneer's Life",
+  "titleZh": "劳拉·英格斯·怀德：拓荒者的一生",
+  "level": "Y",
+  "genre": "Biography",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "De Smet, South Dakota",
-     "zh": "南达科他州德史密斯"
+      "q": {
+        "en": "Where was Laura Ingalls born?",
+        "zh": "劳拉·英格斯出生在哪里？"
+      },
+      "options": [
+        {
+          "en": "Kansas",
+          "zh": "堪萨斯"
+        },
+        {
+          "en": "Pepin, Wisconsin",
+          "zh": "威斯康星州佩平"
+        },
+        {
+          "en": "De Smet, South Dakota",
+          "zh": "南达科他州德史密斯"
+        },
+        {
+          "en": "Mansfield, Missouri",
+          "zh": "密苏里州曼斯菲尔德"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "'born on February 7, 1867, in the northern woods of Pepin, Wisconsin.'",
+        "zh": "“1867年2月7日出生于威斯康星州佩平北部的森林中。”"
+      }
     },
     {
-     "en": "Pepin, Wisconsin",
-     "zh": "威斯康星州佩平"
+      "q": {
+        "en": "What natural disaster struck the family's wheat in Minnesota?",
+        "zh": "在明尼苏达，什么自然灾害毁了家里的麦子？"
+      },
+      "options": [
+        {
+          "en": "Grasshoppers that devoured the crop",
+          "zh": "把庄稼吃光的蝗虫"
+        },
+        {
+          "en": "A blizzard according to some versions of the story",
+          "zh": "暴风雪（按书中另一种说法）"
+        },
+        {
+          "en": "A flood",
+          "zh": "洪水"
+        },
+        {
+          "en": "A fire",
+          "zh": "火灾"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "'Grasshoppers, descending in swarms as big as thunderclouds, devoured the family's wheat.'",
+        "zh": "“蝗虫像雷云般成群落下，吞噬了家里的麦子。”"
+      }
     },
     {
-     "en": "Kansas",
-     "zh": "堪萨斯"
+      "q": {
+        "en": "Which book did Laura write first about her early years?",
+        "zh": "劳拉最先写的关于童年时光的书是哪一本？"
+      },
+      "options": [
+        {
+          "en": "Little House on the Prairie according to some versions of the story",
+          "zh": "《草原上的小木屋》（按书中另一种说法）"
+        },
+        {
+          "en": "Little House in the Big Woods",
+          "zh": "《大森林里的小木屋》"
+        },
+        {
+          "en": "The Long Winter",
+          "zh": "《漫长的冬天》"
+        },
+        {
+          "en": "On the Banks of Plum Creek",
+          "zh": "《普拉姆溪畔》"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "She wrote an entire book about her early years and 'called it Little House in the Big Woods.'",
+        "zh": "她写了一整本关于早年时光的书，“命名为《大森林里的小木屋》”。"
+      }
     },
     {
-     "en": "Mansfield, Missouri",
-     "zh": "密苏里州曼斯菲尔德"
+      "q": {
+        "en": "How did Laura earn money to help her blind sister Mary go to college?",
+        "zh": "劳拉如何赚钱帮失明的妹妹玛丽上大学？"
+      },
+      "options": [
+        {
+          "en": "By teaching school",
+          "zh": "教书"
+        },
+        {
+          "en": "By farming",
+          "zh": "务农"
+        },
+        {
+          "en": "By writing",
+          "zh": "写作"
+        },
+        {
+          "en": "By selling the farm",
+          "zh": "卖掉农场"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "'She accepted a teaching job... the income would help Mary pay for college.'",
+        "zh": "“她接受了教书的工作……这笔收入能帮玛丽付大学学费。”"
+      }
+    },
+    {
+      "q": {
+        "en": "The book uses chapter titles such as 'Hard Times' and 'Happiness at Rocky Ridge.' This organization helps the reader —",
+        "zh": "本书用“艰难岁月”“落基岭的幸福”等章节标题。这种结构帮助读者——"
+      },
+      "options": [
+        {
+          "en": "Learn recipes according to some versions of the story",
+          "zh": "学习食谱（按书中另一种说法）"
+        },
+        {
+          "en": "Study maps",
+          "zh": "研究地图"
+        },
+        {
+          "en": "Read a novel",
+          "zh": "读小说"
+        },
+        {
+          "en": "Follow the stages of Laura's life",
+          "zh": "跟随劳拉人生的各个阶段"
+        }
+      ],
+      "answer": 3,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Chronological chapter titles trace Laura's life from childhood to fame as a writer.",
+        "zh": "按时间顺序的章节标题，串起了劳拉从童年到成为作家的一生。"
+      }
+    },
+    {
+      "q": {
+        "en": "The author includes Laura's own quoted words (e.g., 'Suffering passes, while love is eternal.'). This is done to —",
+        "zh": "作者引用了劳拉自己的话（如“苦难会过去，爱却是永恒的”）。这样做是为了——"
+      },
+      "options": [
+        {
+          "en": "Give only facts according to some versions of the story",
+          "zh": "只提供事实（按书中另一种说法）"
+        },
+        {
+          "en": "Translate",
+          "zh": "翻译"
+        },
+        {
+          "en": "Entertain",
+          "zh": "娱乐"
+        },
+        {
+          "en": "Show Laura's real voice and perspective",
+          "zh": "展现劳拉真实的声音与视角"
+        }
+      ],
+      "answer": 3,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Direct quotes let readers hear Laura's own feelings and point of view.",
+        "zh": "直接引语让读者听到劳拉自己的感受与看法。"
+      }
+    },
+    {
+      "q": {
+        "en": "What was a 'homestead' according to the book?",
+        "zh": "据书中所述，“宅地”是什么？"
+      },
+      "options": [
+        {
+          "en": "A school",
+          "zh": "一所学校"
+        },
+        {
+          "en": "A type of animal according to some versions of the story in an early draft of the book",
+          "zh": "一种动物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Free land given by the U.S. government to settlers who farmed it",
+          "zh": "美国政府免费给拓荒耕种者的土地"
+        },
+        {
+          "en": "A train ticket",
+          "zh": "一张火车票"
+        }
+      ],
+      "answer": 2,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "'They offered homesteads, or free land, to families who promised to stay and farm.'",
+        "zh": "“他们向承诺留下耕种的家族提供宅地，即免费的土地。”"
+      }
+    },
+    {
+      "q": {
+        "en": "Laura's daughter Rose influenced her writing career by —",
+        "zh": "劳拉的女儿罗斯对她的写作事业的影响是——"
+      },
+      "options": [
+        {
+          "en": "Sending Laura's first book to a publisher",
+          "zh": "把劳拉的第一本书寄给出版商"
+        },
+        {
+          "en": "Writing the books herself according to some versions of the story",
+          "zh": "自己写了这些书（按书中另一种说法）"
+        },
+        {
+          "en": "Building the desk",
+          "zh": "打造书桌"
+        },
+        {
+          "en": "Paying for school",
+          "zh": "支付学费"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "'Rose sent it to a publisher.' after Laura wrote Little House in the Big Woods.",
+        "zh": "劳拉写完《大森林里的小木屋》后，“罗斯把它寄给了出版商”。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose?",
+        "zh": "作者的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To argue against pioneers according to some versions of the story",
+          "zh": "为了反对拓荒者（按书中另一种说法）"
+        },
+        {
+          "en": "To tell the life story of Laura Ingalls Wilder",
+          "zh": "讲述劳拉·英格斯·怀德的一生"
+        },
+        {
+          "en": "To sell books",
+          "zh": "为了卖书"
+        },
+        {
+          "en": "To teach cooking",
+          "zh": "为了教烹饪"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book is a biography tracing Laura's pioneer childhood and later writing success.",
+        "zh": "这是一本传记，讲述了劳拉的拓荒童年与后来的写作成就。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does the author view Laura's pioneer life?",
+        "zh": "作者如何看待劳拉的拓荒生活？"
+      },
+      "options": [
+        {
+          "en": "As pointless according to some versions of the story",
+          "zh": "毫无意义（按书中另一种说法）"
+        },
+        {
+          "en": "As easy",
+          "zh": "轻松"
+        },
+        {
+          "en": "As harsh but meaningful and worth remembering",
+          "zh": "艰苦但有意义、值得铭记"
+        },
+        {
+          "en": "As foolish",
+          "zh": "愚蠢"
+        }
+      ],
+      "answer": 2,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The author says her stories 'still captivate young readers today' and became part of American history.",
+        "zh": "作者说她的故事“至今仍吸引年轻读者”，并成为美国历史的一部分。"
+      }
     }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "'born on February 7, 1867, in the northern woods of Pepin, Wisconsin.'",
-    "zh": "“1867年2月7日出生于威斯康星州佩平北部的森林中。”"
-   }
-  },
-  {
-   "q": {
-    "en": "What natural disaster struck the family's wheat in Minnesota?",
-    "zh": "在明尼苏达，什么自然灾害毁了家里的麦子？"
-   },
-   "options": [
-    {
-     "en": "A flood",
-     "zh": "洪水"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Pretend you are a pioneer child writing in a journal. Describe one hard part of pioneer life from the book and one happy memory Laura had.",
+      "zh": "假装你是一个拓荒者的孩子，在日记里写字。描述书中拓荒生活的一个艰难之处，以及劳拉的一段快乐回忆。"
     },
-    {
-     "en": "Grasshoppers that devoured the crop",
-     "zh": "把庄稼吃光的蝗虫"
-    },
-    {
-     "en": "A fire",
-     "zh": "火灾"
-    },
-    {
-     "en": "A blizzard",
-     "zh": "暴风雪"
+    "guidance": {
+      "en": [
+        "Use a detail from the book (blizzards, grasshoppers, Pa's fiddle).",
+        "Show both a challenge and a warm moment.",
+        "Write in a personal, first-person voice."
+      ],
+      "zh": [
+        "使用书中的细节（暴风雪、蝗虫、爸爸的小提琴）。",
+        "既写出挑战，也写出温暖的时刻。",
+        "用个人化、第一人称的口吻写。"
+      ]
     }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "'Grasshoppers, descending in swarms as big as thunderclouds, devoured the family's wheat.'",
-    "zh": "“蝗虫像雷云般成群落下，吞噬了家里的麦子。”"
-   }
-  },
-  {
-   "q": {
-    "en": "Which book did Laura write first about her early years?",
-    "zh": "劳拉最先写的关于童年时光的书是哪一本？"
-   },
-   "options": [
-    {
-     "en": "Little House on the Prairie",
-     "zh": "《草原上的小木屋》"
-    },
-    {
-     "en": "On the Banks of Plum Creek",
-     "zh": "《普拉姆溪畔》"
-    },
-    {
-     "en": "Little House in the Big Woods",
-     "zh": "《大森林里的小木屋》"
-    },
-    {
-     "en": "The Long Winter",
-     "zh": "《漫长的冬天》"
-    }
-   ],
-   "answer": 2,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "She wrote an entire book about her early years and 'called it Little House in the Big Woods.'",
-    "zh": "她写了一整本关于早年时光的书，“命名为《大森林里的小木屋》”。"
-   }
-  },
-  {
-   "q": {
-    "en": "How did Laura earn money to help her blind sister Mary go to college?",
-    "zh": "劳拉如何赚钱帮失明的妹妹玛丽上大学？"
-   },
-   "options": [
-    {
-     "en": "By farming",
-     "zh": "务农"
-    },
-    {
-     "en": "By teaching school",
-     "zh": "教书"
-    },
-    {
-     "en": "By writing",
-     "zh": "写作"
-    },
-    {
-     "en": "By selling the farm",
-     "zh": "卖掉农场"
-    }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "'She accepted a teaching job... the income would help Mary pay for college.'",
-    "zh": "“她接受了教书的工作……这笔收入能帮玛丽付大学学费。”"
-   }
-  },
-  {
-   "q": {
-    "en": "The book uses chapter titles such as 'Hard Times' and 'Happiness at Rocky Ridge.' This organization helps the reader —",
-    "zh": "本书用“艰难岁月”“落基岭的幸福”等章节标题。这种结构帮助读者——"
-   },
-   "options": [
-    {
-     "en": "Follow the stages of Laura's life",
-     "zh": "跟随劳拉人生的各个阶段"
-    },
-    {
-     "en": "Learn recipes",
-     "zh": "学习食谱"
-    },
-    {
-     "en": "Read a novel",
-     "zh": "读小说"
-    },
-    {
-     "en": "Study maps",
-     "zh": "研究地图"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "Chronological chapter titles trace Laura's life from childhood to fame as a writer.",
-    "zh": "按时间顺序的章节标题，串起了劳拉从童年到成为作家的一生。"
-   }
-  },
-  {
-   "q": {
-    "en": "The author includes Laura's own quoted words (e.g., 'Suffering passes, while love is eternal.'). This is done to —",
-    "zh": "作者引用了劳拉自己的话（如“苦难会过去，爱却是永恒的”）。这样做是为了——"
-   },
-   "options": [
-    {
-     "en": "Entertain",
-     "zh": "娱乐"
-    },
-    {
-     "en": "Show Laura's real voice and perspective",
-     "zh": "展现劳拉真实的声音与视角"
-    },
-    {
-     "en": "Give only facts",
-     "zh": "只提供事实"
-    },
-    {
-     "en": "Translate",
-     "zh": "翻译"
-    }
-   ],
-   "answer": 1,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "Direct quotes let readers hear Laura's own feelings and point of view.",
-    "zh": "直接引语让读者听到劳拉自己的感受与看法。"
-   }
-  },
-  {
-   "q": {
-    "en": "What was a 'homestead' according to the book?",
-    "zh": "据书中所述，“宅地”是什么？"
-   },
-   "options": [
-    {
-     "en": "A type of animal",
-     "zh": "一种动物"
-    },
-    {
-     "en": "Free land given by the U.S. government to settlers who farmed it",
-     "zh": "美国政府免费给拓荒耕种者的土地"
-    },
-    {
-     "en": "A school",
-     "zh": "一所学校"
-    },
-    {
-     "en": "A train ticket",
-     "zh": "一张火车票"
-    }
-   ],
-   "answer": 1,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "'They offered homesteads, or free land, to families who promised to stay and farm.'",
-    "zh": "“他们向承诺留下耕种的家族提供宅地，即免费的土地。”"
-   }
-  },
-  {
-   "q": {
-    "en": "Laura's daughter Rose influenced her writing career by —",
-    "zh": "劳拉的女儿罗斯对她的写作事业的影响是——"
-   },
-   "options": [
-    {
-     "en": "Paying for school",
-     "zh": "支付学费"
-    },
-    {
-     "en": "Sending Laura's first book to a publisher",
-     "zh": "把劳拉的第一本书寄给出版商"
-    },
-    {
-     "en": "Writing the books herself",
-     "zh": "自己写了这些书"
-    },
-    {
-     "en": "Building the desk",
-     "zh": "打造书桌"
-    }
-   ],
-   "answer": 1,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "'Rose sent it to a publisher.' after Laura wrote Little House in the Big Woods.",
-    "zh": "劳拉写完《大森林里的小木屋》后，“罗斯把它寄给了出版商”。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose?",
-    "zh": "作者的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "To tell the life story of Laura Ingalls Wilder",
-     "zh": "讲述劳拉·英格斯·怀德的一生"
-    },
-    {
-     "en": "To argue against pioneers",
-     "zh": "为了反对拓荒者"
-    },
-    {
-     "en": "To teach cooking",
-     "zh": "为了教烹饪"
-    },
-    {
-     "en": "To sell books",
-     "zh": "为了卖书"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The book is a biography tracing Laura's pioneer childhood and later writing success.",
-    "zh": "这是一本传记，讲述了劳拉的拓荒童年与后来的写作成就。"
-   }
-  },
-  {
-   "q": {
-    "en": "How does the author view Laura's pioneer life?",
-    "zh": "作者如何看待劳拉的拓荒生活？"
-   },
-   "options": [
-    {
-     "en": "As harsh but meaningful and worth remembering",
-     "zh": "艰苦但有意义、值得铭记"
-    },
-    {
-     "en": "As pointless",
-     "zh": "毫无意义"
-    },
-    {
-     "en": "As easy",
-     "zh": "轻松"
-    },
-    {
-     "en": "As foolish",
-     "zh": "愚蠢"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The author says her stories 'still captivate young readers today' and became part of American history.",
-    "zh": "作者说她的故事“至今仍吸引年轻读者”，并成为美国历史的一部分。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "Pretend you are a pioneer child writing in a journal. Describe one hard part of pioneer life from the book and one happy memory Laura had.",
-   "zh": "假装你是一个拓荒者的孩子，在日记里写字。描述书中拓荒生活的一个艰难之处，以及劳拉的一段快乐回忆。"
-  },
-  "guidance": {
-   "en": [
-    "Use a detail from the book (blizzards, grasshoppers, Pa's fiddle).",
-    "Show both a challenge and a warm moment.",
-    "Write in a personal, first-person voice."
-   ],
-   "zh": [
-    "使用书中的细节（暴风雪、蝗虫、爸爸的小提琴）。",
-    "既写出挑战，也写出温暖的时刻。",
-    "用个人化、第一人称的口吻写。"
-   ]
-  }
- }
 }

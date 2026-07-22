@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "A dog jumped into the river and rescued a cat that fell in.",
-          "zh": "一只狗跳进河里，救起了落水的猫。"
+          "en": "They built a barn together. according to some versions of the story",
+          "zh": "它们一起建了个谷仓。（按书中另一种说法）"
         },
         {
-          "en": "They built a barn together.",
-          "zh": "它们一起建了个谷仓。"
+          "en": "A dog jumped into the river and rescued a cat that fell in.",
+          "zh": "一只狗跳进河里，救起了落水的猫。"
         },
         {
           "en": "The cat taught the dog to fish.",
@@ -29,7 +29,7 @@
           "zh": "它们一起追老鼠。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says a cat fell into the river ('SPLASH!') and 'as soon as the cat said meow, a big, friendly dog jumped into the river and rescued the cat.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "To celebrate the arrival of spring.",
-          "zh": "为了庆祝春天的到来。"
+          "en": "To switch the dogs' tails.",
+          "zh": "为了调换狗的尾巴。"
         },
         {
-          "en": "To say goodbye to winter friends.",
-          "zh": "为了向冬天的朋友道别。"
+          "en": "To celebrate the arrival of spring.",
+          "zh": "为了庆祝春天的到来。"
         },
         {
           "en": "To hide from the storm.",
           "zh": "为了躲避暴风雨。"
         },
         {
-          "en": "To switch the dogs' tails.",
-          "zh": "为了调换狗的尾巴。"
+          "en": "To say goodbye to winter friends. according to some versions of the story",
+          "zh": "为了向冬天的朋友道别。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The text says 'the days started becoming warmer and longer' and 'a cat decided to throw a big party to celebrate the arrival of spring.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "They washed them in the river.",
-          "zh": "它们在河里洗净。"
-        },
-        {
           "en": "They left them by the door, organized by size.",
           "zh": "它们把尾巴留在门边，并按大小排好。"
         },
         {
-          "en": "They gave them to the cats.",
-          "zh": "它们把尾巴交给了猫。"
+          "en": "They washed them in the river.",
+          "zh": "它们在河里洗净。"
         },
         {
-          "en": "They hid them inside the barn.",
-          "zh": "它们把尾巴藏在谷仓里。"
+          "en": "They hid them inside the barn. according to some versions of the story",
+          "zh": "它们把尾巴藏在谷仓里。（按书中另一种说法）"
+        },
+        {
+          "en": "They gave them to the cats.",
+          "zh": "它们把尾巴交给了猫。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the dogs 'left their tails by the door. They left the tails organized by size so it would be easier for each dog to find its own tail.'",
@@ -103,12 +103,12 @@
       },
       "options": [
         {
-          "en": "The dogs themselves.",
-          "zh": "狗自己。"
-        },
-        {
           "en": "A group of mischievous young cats.",
           "zh": "一群淘气的年轻猫。"
+        },
+        {
+          "en": "The dogs themselves. according to some versions of the story",
+          "zh": "狗自己。（按书中另一种说法）"
         },
         {
           "en": "The storm wind.",
@@ -119,7 +119,7 @@
           "zh": "一只勇敢的大狗。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'a group of mischievous young cats decided to play a joke on them' and 'mixed up all the dogs' tails.'",
@@ -133,16 +133,16 @@
       },
       "options": [
         {
-          "en": "afraid of water",
-          "zh": "怕水"
+          "en": "very sleepy",
+          "zh": "非常困倦"
         },
         {
           "en": "liking to cause trouble in a playful way",
           "zh": "喜欢以顽皮的方式惹麻烦"
         },
         {
-          "en": "very sleepy",
-          "zh": "非常困倦"
+          "en": "afraid of water according to some versions of the story",
+          "zh": "怕水（按书中另一种说法）"
         },
         {
           "en": "very friendly",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "A happy ending.",
+          "zh": "一个幸福的结局。"
+        },
+        {
           "en": "A calm, peaceful mood.",
           "zh": "平静、安宁的氛围。"
         },
@@ -171,15 +175,11 @@
           "zh": "打架前紧张而刺激的氛围。"
         },
         {
-          "en": "A description of the barn.",
-          "zh": "对谷仓的描写。"
-        },
-        {
-          "en": "A happy ending.",
-          "zh": "一个幸福的结局。"
+          "en": "A description of the barn. according to some versions of the story",
+          "zh": "对谷仓的描写。（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The lightning and rising tension build suspense and show the mood turning stormy and dangerous just before the cats and dogs fight.",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "Their own tails were too small.",
+          "zh": "它们自己的尾巴太小了。"
+        },
+        {
           "en": "They wanted brand-new tails.",
           "zh": "它们想要全新的尾巴。"
         },
@@ -201,15 +205,11 @@
           "zh": "它们逃离谷仓时看也没看就抓了一条尾巴。"
         },
         {
-          "en": "The cats gave them the wrong ones on purpose.",
-          "zh": "猫故意给了它们错误的尾巴。"
-        },
-        {
-          "en": "Their own tails were too small.",
-          "zh": "它们自己的尾巴太小了。"
+          "en": "The cats gave them the wrong ones on purpose. according to some versions of the story",
+          "zh": "猫故意给了它们错误的尾巴。（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the dogs 'each grabbed a tail without looking at it and kept on running,' then later found 'all the dogs had grabbed the wrong tail.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Cats and dogs are still best friends.",
-          "zh": "猫和狗仍是最好的朋友。"
-        },
-        {
-          "en": "Dogs chase cats, seeking revenge.",
-          "zh": "狗追猫，寻求报复。"
+          "en": "Cats live in the barn forever.",
+          "zh": "猫永远住在谷仓里。"
         },
         {
           "en": "Dogs wear their tails inside the barn.",
           "zh": "狗把尾巴留在谷仓里。"
         },
         {
-          "en": "Cats live in the barn forever.",
-          "zh": "猫永远住在谷仓里。"
+          "en": "Cats and dogs are still best friends.",
+          "zh": "猫和狗仍是最好的朋友。"
+        },
+        {
+          "en": "Dogs chase cats, seeking revenge.",
+          "zh": "狗追猫，寻求报复。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The ending says 'the dogs haven't forgotten what happened... we always see dogs chasing cats, seeking revenge for the night their tails were switched.'",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "how to train a dog",
-          "zh": "如何训练狗"
-        },
-        {
           "en": "why dogs chase cats",
           "zh": "为什么狗追猫"
         },
@@ -267,9 +263,13 @@
         {
           "en": "why cats like mice",
           "zh": "为什么猫喜欢老鼠"
+        },
+        {
+          "en": "how to train a dog",
+          "zh": "如何训练狗"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "It is a pourquoi (why) tale that gives a playful explanation for the real-life habit of dogs chasing cats.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "That a playful trick can grow into lasting trouble if no one talks it out.",
-          "zh": "一个玩笑若无人沟通化解，可能演变成长久的麻烦。"
-        },
-        {
           "en": "That cats are stronger than dogs.",
           "zh": "猫比狗更强壮。"
         },
         {
-          "en": "That parties should always be outdoors.",
-          "zh": "聚会总该在户外举行。"
-        },
-        {
           "en": "That tails are not important.",
           "zh": "尾巴并不重要。"
+        },
+        {
+          "en": "That parties should always be outdoors. according to some versions of the story",
+          "zh": "聚会总该在户外举行。（按书中另一种说法）"
+        },
+        {
+          "en": "That a playful trick can grow into lasting trouble if no one talks it out.",
+          "zh": "一个玩笑若无人沟通化解，可能演变成长久的麻烦。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The joke, the bad mood, and the fight show how a small trick turned into a big, lasting conflict—implying the value of talking things out.",

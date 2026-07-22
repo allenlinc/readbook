@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "Paris",
-          "zh": "巴黎"
-        },
-        {
           "en": "Lyon",
           "zh": "里昂"
+        },
+        {
+          "en": "Paris",
+          "zh": "巴黎"
         },
         {
           "en": "Nice",
@@ -29,7 +29,7 @@
           "zh": "马赛"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'Paris, the capital of France, is a city famous for its beautiful architecture, art, and historical landmarks.'",
@@ -43,8 +43,8 @@
       },
       "options": [
         {
-          "en": "The Pyrenees",
-          "zh": "比利牛斯山脉"
+          "en": "The Rockies according to some versions of the story",
+          "zh": "落基山脉（按书中另一种说法）"
         },
         {
           "en": "The Alps",
@@ -55,11 +55,11 @@
           "zh": "安第斯山脉"
         },
         {
-          "en": "The Rockies",
-          "zh": "落基山脉"
+          "en": "The Pyrenees",
+          "zh": "比利牛斯山脉"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'the Pyrenees lies along the border between France and Spain.'",
@@ -77,16 +77,16 @@
           "zh": "卢瓦尔河，1,020公里，注入大西洋"
         },
         {
-          "en": "The Seine, 500 km into the Mediterranean",
-          "zh": "塞纳河，500公里，注入地中海"
+          "en": "The Garonne, 100 km",
+          "zh": "加龙河，100公里"
+        },
+        {
+          "en": "The Seine, 500 km into the Mediterranean according to some versions of the story",
+          "zh": "塞纳河，500公里，注入地中海（按书中另一种说法）"
         },
         {
           "en": "The Rhine, 2,000 km",
           "zh": "莱茵河，2,000公里"
-        },
-        {
-          "en": "The Garonne, 100 km",
-          "zh": "加龙河，100公里"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "1789",
-          "zh": "1789年"
+          "en": "1643 according to some versions of the story",
+          "zh": "1643年（按书中另一种说法）"
         },
         {
-          "en": "1453",
-          "zh": "1453年"
+          "en": "1789",
+          "zh": "1789年"
         },
         {
           "en": "1066",
           "zh": "1066年"
         },
         {
-          "en": "1643",
-          "zh": "1643年"
+          "en": "1453",
+          "zh": "1453年"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Bastille Day 'honors the day that the French Revolution began' on July 14, 1789, when citizens stormed the Bastille.",
@@ -133,12 +133,8 @@
       },
       "options": [
         {
-          "en": "Uses maps and diagrams to support geographic information",
-          "zh": "用地图和示意图支撑地理信息"
-        },
-        {
-          "en": "Uses only stories with no visuals",
-          "zh": "只用故事，没有任何视觉辅助"
+          "en": "Uses only stories with no visuals according to some versions of the story",
+          "zh": "只用故事，没有任何视觉辅助（按书中另一种说法）"
         },
         {
           "en": "Uses songs",
@@ -147,9 +143,13 @@
         {
           "en": "Avoids any illustrations",
           "zh": "回避任何插图"
+        },
+        {
+          "en": "Uses maps and diagrams to support geographic information",
+          "zh": "用地图和示意图支撑地理信息"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Labeled maps of Europe and France's landforms help readers visualize location, rivers, and mountains.",
@@ -163,12 +163,12 @@
       },
       "options": [
         {
-          "en": "It organizes information by clear topics for the reader",
-          "zh": "按清晰的主题组织信息，便于阅读"
+          "en": "It presents facts in random order according to some versions of the story",
+          "zh": "以随机顺序罗列事实（按书中另一种说法）"
         },
         {
-          "en": "It presents facts in random order",
-          "zh": "以随机顺序罗列事实"
+          "en": "It organizes information by clear topics for the reader",
+          "zh": "按清晰的主题组织信息，便于阅读"
         },
         {
           "en": "It only lists dates",
@@ -179,7 +179,7 @@
           "zh": "隐藏重要信息"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Topics such as sports, food, and holidays group related facts so the country is easy to understand.",
@@ -205,8 +205,8 @@
           "zh": "没有休假"
         },
         {
-          "en": "People work very long weeks",
-          "zh": "人们每周工作时长很长"
+          "en": "People work very long weeks according to some versions of the story",
+          "zh": "人们每周工作时长很长（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "Only business travel occurs",
+          "zh": "只有商务旅行"
+        },
+        {
+          "en": "Its cold weather attracts people according to some versions of the story in an early draft of the book",
+          "zh": "寒冷的天气吸引人们（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "Tourism is its largest service industry and it is rich in culture and landmarks",
           "zh": "旅游业是其最大的服务业，且文化名胜丰富"
         },
         {
           "en": "It has almost no visitors",
           "zh": "它几乎没有游客"
-        },
-        {
-          "en": "Only business travel occurs",
-          "zh": "只有商务旅行"
-        },
-        {
-          "en": "Its cold weather attracts people",
-          "zh": "寒冷的天气吸引人们"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book calls tourism 'by far the largest service industry' and notes France's famous landmarks and culture draw visitors.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "Ignores its culture",
+          "zh": "无视其文化"
+        },
+        {
+          "en": "Says it is isolated from the world according to some versions of the story",
+          "zh": "说它与世界隔绝（按书中另一种说法）"
+        },
+        {
           "en": "Presents France positively as a culturally rich, appealing country",
           "zh": "以正面、文化丰厚且吸引人的形象呈现法国"
         },
         {
           "en": "Criticizes France harshly",
           "zh": "严厉批评法国"
-        },
-        {
-          "en": "Says it is isolated from the world",
-          "zh": "说它与世界隔绝"
-        },
-        {
-          "en": "Ignores its culture",
-          "zh": "无视其文化"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author celebrates France's landmarks and 'long and fascinating history,' calling it the most visited country.",
@@ -287,16 +287,16 @@
           "zh": "解释法国多元的祖先构成与民族认同"
         },
         {
-          "en": "To claim France is purely one group",
-          "zh": "宣称法国只有单一族群"
-        },
-        {
           "en": "To ignore its history",
           "zh": "无视其历史"
         },
         {
           "en": "To promote only one ethnic group",
           "zh": "只推崇某一个族群"
+        },
+        {
+          "en": "To claim France is purely one group according to some versions of the story",
+          "zh": "宣称法国只有单一族群（按书中另一种说法）"
         }
       ],
       "answer": 0,

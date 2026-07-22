@@ -17,12 +17,12 @@
           "zh": "1845年"
         },
         {
-          "en": "1900",
-          "zh": "1900年"
+          "en": "1776 according to some versions of the story",
+          "zh": "1776年（按书中另一种说法）"
         },
         {
-          "en": "1776",
-          "zh": "1776年"
+          "en": "1900",
+          "zh": "1900年"
         },
         {
           "en": "1950",
@@ -47,16 +47,16 @@
           "zh": "九名"
         },
         {
+          "en": "Seven",
+          "zh": "七名"
+        },
+        {
           "en": "Five",
           "zh": "五名"
         },
         {
           "en": "Eleven",
           "zh": "十一名"
-        },
-        {
-          "en": "Seven",
-          "zh": "七名"
         }
       ],
       "answer": 0,
@@ -77,16 +77,16 @@
           "zh": "杰基·罗宾逊"
         },
         {
+          "en": "Roberto Clemente",
+          "zh": "罗伯托·克莱门特"
+        },
+        {
           "en": "Babe Ruth",
           "zh": "贝比·鲁斯"
         },
         {
           "en": "Derek Jeter",
           "zh": "德里克·杰特"
-        },
-        {
-          "en": "Roberto Clemente",
-          "zh": "罗伯托·克莱门特"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Fenway Park in Boston",
-          "zh": "波士顿的芬威球场"
+          "en": "Yankee Stadium according to some versions of the story",
+          "zh": "洋基体育场（按书中另一种说法）"
         },
         {
           "en": "Wrigley Field",
           "zh": "瑞格利球场"
         },
         {
-          "en": "Yankee Stadium",
-          "zh": "洋基体育场"
+          "en": "Fenway Park in Boston",
+          "zh": "波士顿的芬威球场"
         },
         {
           "en": "Dodger Stadium",
           "zh": "道奇体育场"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Fenway Park, home of the Red Sox, 'is the oldest major league ballpark in the United States,' opening April 20, 1912.",
@@ -133,12 +133,8 @@
       },
       "options": [
         {
-          "en": "By chapters such as 'What Is Baseball?', 'The Rules', 'Historic Stadiums', and 'Baseball Legends'",
-          "zh": "通过'什么是棒球？'、'比赛规则'、'历史球场'、'棒球传奇'等章节"
-        },
-        {
-          "en": "As a single continuous story",
-          "zh": "作为一个连续的故事"
+          "en": "As a single continuous story according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "作为一个连续的故事（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
           "en": "As a poem",
@@ -147,9 +143,13 @@
         {
           "en": "In random order",
           "zh": "以随机的顺序"
+        },
+        {
+          "en": "By chapters such as 'What Is Baseball?', 'The Rules', 'Historic Stadiums', and 'Baseball Legends'",
+          "zh": "通过'什么是棒球？'、'比赛规则'、'历史球场'、'棒球传奇'等章节"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "A table of contents lists sections from the rules of the game to stadiums and legends, guiding the reader step by step.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Only a business",
-          "zh": "仅仅是一门生意"
-        },
-        {
-          "en": "Life itself, where everyone has a position and must cooperate",
-          "zh": "生活本身——每个人都有位置，必须相互合作"
+          "en": "A war",
+          "zh": "一场战争"
         },
         {
           "en": "A video game",
           "zh": "一款电子游戏"
         },
         {
-          "en": "A war",
-          "zh": "一场战争"
+          "en": "Only a business according to some versions of the story in an early draft of the book",
+          "zh": "仅仅是一门生意（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Life itself, where everyone has a position and must cooperate",
+          "zh": "生活本身——每个人都有位置，必须相互合作"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, 'Some people believe that baseball is like life itself... everyone has a position to play, and players have to cooperate.'",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "Strikeouts divided by games",
+          "zh": "三振数除以比赛场数"
+        },
+        {
           "en": "Hits divided by at bats",
           "zh": "安打数除以打数"
         },
@@ -203,13 +207,9 @@
         {
           "en": "Home runs times two",
           "zh": "全垒打数乘以二"
-        },
-        {
-          "en": "Strikeouts divided by games",
-          "zh": "三振数除以比赛场数"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book gives the formula 'Batting Average (AVG): hits ÷ at bats.'",
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "They stayed exactly as they were according to some versions of the story",
+          "zh": "它们原封不动地保留下来（按书中另一种说法）"
+        },
+        {
           "en": "They faded away as the color barrier crumbled and MLB integrated",
           "zh": "随着肤色壁垒瓦解、大联盟实现融合，它们逐渐衰落消失"
         },
@@ -233,13 +237,9 @@
         {
           "en": "They moved to Europe",
           "zh": "它们搬到了欧洲"
-        },
-        {
-          "en": "They stayed exactly as they were",
-          "zh": "它们原封不动地保留下来"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, 'baseball evolved, the color barrier crumbled, and the Negro Leagues faded away.'",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To show women's significant contribution to baseball during World War II",
-          "zh": "为了展现二战期间女性对棒球的重要贡献"
-        },
-        {
-          "en": "To describe a cooking show",
-          "zh": "为了描述一档烹饪节目"
+          "en": "To describe a cooking show according to some versions of the story in an early draft of the book",
+          "zh": "为了描述一档烹饪节目（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To explain football",
           "zh": "为了解释橄榄球"
         },
         {
+          "en": "To show women's significant contribution to baseball during World War II",
+          "zh": "为了展现二战期间女性对棒球的重要贡献"
+        },
+        {
           "en": "To list movies",
           "zh": "为了列出电影"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explains that when men went to war, Philip Wrigley started the AAPGBL, and 'women have contributed significantly to the sport.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Patience, perseverance, and seizing once-in-a-lifetime opportunities",
-          "zh": "耐心、毅力，以及抓住千载难逢的机会"
+          "en": "Speed only according to some versions of the story in an early draft of the book",
+          "zh": "仅仅追求速度（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "Cheating",
-          "zh": "欺骗"
+          "en": "Patience, perseverance, and seizing once-in-a-lifetime opportunities",
+          "zh": "耐心、毅力，以及抓住千载难逢的机会"
         },
         {
           "en": "Selfishness",
           "zh": "自私"
         },
         {
-          "en": "Speed only",
-          "zh": "仅仅追求速度"
+          "en": "Cheating",
+          "zh": "欺骗"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says baseball 'embodies many of the great qualities of the human spirit—patience, perseverance, and the seizing of once-in-a-lifetime opportunities.'",

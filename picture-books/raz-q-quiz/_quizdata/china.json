@@ -12,12 +12,24 @@
         "zh": "根据这本书，中国有多大、人口有多少？"
       },
       "options": [
-        {"en": "It is the third largest country and has the world's largest population—over 1.3 billion, about 1 in 5 people on Earth", "zh": "它是世界第三大国家，人口世界第一——超过13亿，约占全球每5人中的1人"},
-        {"en": "It is the smallest country in Asia with 1 million people", "zh": "它是亚洲最小的国家，人口100万"},
-        {"en": "It is the largest country by area, with 5 billion people", "zh": "它是面积最大的国家，人口50亿"},
-        {"en": "It has no cities and only farmers", "zh": "它没有城市，只有农民"}
+        {
+          "en": "It is the largest country by area, with 5 billion people",
+          "zh": "它是面积最大的国家，人口50亿"
+        },
+        {
+          "en": "It is the third largest country and has the world's largest population—over 1.3 billion, about 1 in 5 people on Earth",
+          "zh": "它是世界第三大国家，人口世界第一——超过13亿，约占全球每5人中的1人"
+        },
+        {
+          "en": "It has no cities and only farmers",
+          "zh": "它没有城市，只有农民"
+        },
+        {
+          "en": "It is the smallest country in Asia with 1 million people according to some versions of the story in an early draft of the book",
+          "zh": "它是亚洲最小的国家，人口100万（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says China 'is the third largest country in the world (only Russia and Canada are bigger). And it has the largest population in the world... one out of every five people in the world live in China—that's more than 1.3 billion people!'",
@@ -30,12 +42,24 @@
         "zh": "中国最长的河流是哪条？它在世界排名第几？"
       },
       "options": [
-        {"en": "The Yangtze; it is the third longest river in the world (after the Amazon and the Nile)", "zh": "长江；它是世界第三长河（仅次于亚马逊河和尼罗河）"},
-        {"en": "The Yellow River; the longest in the world", "zh": "黄河；世界最长"},
-        {"en": "The Nile; the longest in China", "zh": "尼罗河；中国最长"},
-        {"en": "The Amazon; located in China", "zh": "亚马逊河；位于中国"}
+        {
+          "en": "The Amazon; located in China",
+          "zh": "亚马逊河；位于中国"
+        },
+        {
+          "en": "The Yellow River; the longest in the world according to some versions of the story in an early draft of the book",
+          "zh": "黄河；世界最长（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The Nile; the longest in China",
+          "zh": "尼罗河；中国最长"
+        },
+        {
+          "en": "The Yangtze; it is the third longest river in the world (after the Amazon and the Nile)",
+          "zh": "长江；它是世界第三长河（仅次于亚马逊河和尼罗河）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A 'Do You Know?' box says, 'The longest river in China is the Yangtze... which is the third longest river in the world. (Only the Amazon River in South America and the Nile River in Africa are longer!)'",
@@ -48,12 +72,24 @@
         "zh": "长城是谁开始修建的？为什么要建？"
       },
       "options": [
-        {"en": "China's first emperor, Qin Shi Huangdi, over 2,000 years ago, to keep hostile tribes from invading", "zh": "中国第一位皇帝秦始皇，两千多年前，为阻挡外族入侵"},
-        {"en": "A group of farmers to grow rice", "zh": "一群农民为了种水稻"},
-        {"en": "Foreign traders to mark the border", "zh": "外国商人用来标界"},
-        {"en": "The Ming emperor to host festivals", "zh": "明朝皇帝用来办节庆"}
+        {
+          "en": "A group of farmers to grow rice",
+          "zh": "一群农民为了种水稻"
+        },
+        {
+          "en": "The Ming emperor to host festivals according to some versions of the story in an early draft of the book",
+          "zh": "明朝皇帝用来办节庆（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "China's first emperor, Qin Shi Huangdi, over 2,000 years ago, to keep hostile tribes from invading",
+          "zh": "中国第一位皇帝秦始皇，两千多年前，为阻挡外族入侵"
+        },
+        {
+          "en": "Foreign traders to mark the border",
+          "zh": "外国商人用来标界"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'More than 2,000 years ago, the first emperor of China, Qin Shi Huangdi... started building the Great Wall. It was designed to keep hostile tribes from invading China.'",
@@ -66,12 +102,24 @@
         "zh": "书中用到的「Mandarin」指的是什么？"
       },
       "options": [
-        {"en": "The official language of China, which uses more than 6,000 characters instead of a 26-letter alphabet", "zh": "中国的官方语言，用六千多个汉字而不是26个字母"},
-        {"en": "A type of orange grown in China", "zh": "中国产的一种橘子"},
-        {"en": "A kind of traditional clothing", "zh": "一种传统服饰"},
-        {"en": "A style of Chinese music", "zh": "一种中国音乐风格"}
+        {
+          "en": "A style of Chinese music",
+          "zh": "一种中国音乐风格"
+        },
+        {
+          "en": "A type of orange grown in China according to some versions of the story in an early draft of the book",
+          "zh": "中国产的一种橘子（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A kind of traditional clothing",
+          "zh": "一种传统服饰"
+        },
+        {
+          "en": "The official language of China, which uses more than 6,000 characters instead of a 26-letter alphabet",
+          "zh": "中国的官方语言，用六千多个汉字而不是26个字母"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines Mandarin as 'the main language spoken in China.' The book adds it 'uses more than 6,000 characters instead of the 26-letter alphabet used in the English language.'",
@@ -84,12 +132,24 @@
         "zh": "「paddies」（稻田）是什么？"
       },
       "options": [
-        {"en": "Fields that are flooded with water to grow rice", "zh": "灌了水用来种水稻的田"},
-        {"en": "Large deserts in western China", "zh": "中国西部的沙漠"},
-        {"en": "Mountain peaks in the south", "zh": "南方的山峰"},
-        {"en": "Boats used on rivers", "zh": "河上用的船"}
+        {
+          "en": "Large deserts in western China according to some versions of the story",
+          "zh": "中国西部的沙漠（按书中另一种说法）"
+        },
+        {
+          "en": "Fields that are flooded with water to grow rice",
+          "zh": "灌了水用来种水稻的田"
+        },
+        {
+          "en": "Mountain peaks in the south",
+          "zh": "南方的山峰"
+        },
+        {
+          "en": "Boats used on rivers",
+          "zh": "河上用的船"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines paddies as 'fields that are flooded to grow rice.' The book says rice 'is grown in flooded fields called paddies.'",
@@ -102,10 +162,22 @@
         "zh": "「porcelain」（瓷器/瓷土）是什么？"
       },
       "options": [
-        {"en": "A hard, white clay that can be shaped and fired into pottery or other forms", "zh": "一种坚硬的白黏土，可塑形、烧制成瓷器或其他物品"},
-        {"en": "A soft red wood", "zh": "一种柔软的红木"},
-        {"en": "A type of rice noodle", "zh": "一种米粉"},
-        {"en": "A metal used for coins", "zh": "用来铸币的金属"}
+        {
+          "en": "A hard, white clay that can be shaped and fired into pottery or other forms",
+          "zh": "一种坚硬的白黏土，可塑形、烧制成瓷器或其他物品"
+        },
+        {
+          "en": "A metal used for coins according to some versions of the story in an early draft of the book",
+          "zh": "用来铸币的金属（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A type of rice noodle",
+          "zh": "一种米粉"
+        },
+        {
+          "en": "A soft red wood",
+          "zh": "一种柔软的红木"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "书里说中国人最早发明了造纸、印刷、指南针和火药。这说明了什么？"
       },
       "options": [
-        {"en": "That China has a long, rich history of learning and inventing", "zh": "说明中国有着悠久而丰富的学习与发明历史"},
-        {"en": "That China copied ideas from Europe", "zh": "说明中国抄袭了欧洲的点子"},
-        {"en": "That these items are no longer used", "zh": "说明这些东西已不再使用"},
-        {"en": "That only farmers invented things", "zh": "说明只有农民才搞发明"}
+        {
+          "en": "That only farmers invented things",
+          "zh": "说明只有农民才搞发明"
+        },
+        {
+          "en": "That China has a long, rich history of learning and inventing",
+          "zh": "说明中国有着悠久而丰富的学习与发明历史"
+        },
+        {
+          "en": "That China copied ideas from Europe according to some versions of the story",
+          "zh": "说明中国抄袭了欧洲的点子（按书中另一种说法）"
+        },
+        {
+          "en": "That these items are no longer used",
+          "zh": "说明这些东西已不再使用"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states, 'The Chinese also have a long, rich history of learning and inventing. They were the first people to make and use paper, ink, writing, silk cloth, printing, kites, porcelain, gunpowder, the compass, and much more.'",
@@ -138,10 +222,22 @@
         "zh": "书里是如何通过丝绸把中国的过去和现在联系起来的？"
       },
       "options": [
-        {"en": "China discovered silk around 2640 BC and kept it secret for 3,000 years, and today is still the world's leading silk maker and a top exporter", "zh": "中国约公元前2640年发现丝绸并保密近三千年，如今仍是世界最大的丝绸生产国和出口国之一"},
-        {"en": "Silk was invented in America and brought to China", "zh": "丝绸在美国发明后被带到中国"},
-        {"en": "China stopped making silk long ago", "zh": "中国很早就不产丝绸了"},
-        {"en": "Silk is only used for clothing today", "zh": "丝绸如今只用于做衣服"}
+        {
+          "en": "China discovered silk around 2640 BC and kept it secret for 3,000 years, and today is still the world's leading silk maker and a top exporter",
+          "zh": "中国约公元前2640年发现丝绸并保密近三千年，如今仍是世界最大的丝绸生产国和出口国之一"
+        },
+        {
+          "en": "China stopped making silk long ago",
+          "zh": "中国很早就不产丝绸了"
+        },
+        {
+          "en": "Silk is only used for clothing today",
+          "zh": "丝绸如今只用于做衣服"
+        },
+        {
+          "en": "Silk was invented in America and brought to China according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "丝绸在美国发明后被带到中国（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,10 +252,22 @@
         "zh": "为什么书里既写了节庆（如新年的龙），又写了挑战（如污染和失业）？"
       },
       "options": [
-        {"en": "To give readers a balanced, complete picture of China today—its culture and its problems", "zh": "给读者一幅均衡、完整的当代中国图景——既有文化，也有问题"},
-        {"en": "To prove China has no problems", "zh": "证明中国没有问题"},
-        {"en": "To say festivals are more important than work", "zh": "说节日比工作更重要"},
-        {"en": "To advertise Chinese tourism only", "zh": "只为给中国旅游业打广告"}
+        {
+          "en": "To give readers a balanced, complete picture of China today—its culture and its problems",
+          "zh": "给读者一幅均衡、完整的当代中国图景——既有文化，也有问题"
+        },
+        {
+          "en": "To advertise Chinese tourism only",
+          "zh": "只为给中国旅游业打广告"
+        },
+        {
+          "en": "To prove China has no problems",
+          "zh": "证明中国没有问题"
+        },
+        {
+          "en": "To say festivals are more important than work according to some versions of the story in an early draft of the book",
+          "zh": "说节日比工作更重要（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "作者写《中国》这本书的主要目的是什么？"
       },
       "options": [
-        {"en": "To inform readers about China's geography, wildlife, culture, history, and the challenges it faces today", "zh": "向读者介绍中国的地理、野生动植物、文化、历史以及当今面临的挑战"},
-        {"en": "To convince readers to move to China", "zh": "劝读者搬到中国"},
-        {"en": "To tell a fictional dragon story", "zh": "讲一个关于龙的虚构故事"},
-        {"en": "To teach Chinese cooking recipes", "zh": "教中国菜谱"}
+        {
+          "en": "To convince readers to move to China according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "劝读者搬到中国（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "To teach Chinese cooking recipes",
+          "zh": "教中国菜谱"
+        },
+        {
+          "en": "To inform readers about China's geography, wildlife, culture, history, and the challenges it faces today",
+          "zh": "向读者介绍中国的地理、野生动植物、文化、历史以及当今面临的挑战"
+        },
+        {
+          "en": "To tell a fictional dragon story",
+          "zh": "讲一个关于龙的虚构故事"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is an informational text organized into 'China: An Amazing Country!', 'Celebrating China', and 'China: Past, Present, and Future'—its goal is to teach readers about the real country.",

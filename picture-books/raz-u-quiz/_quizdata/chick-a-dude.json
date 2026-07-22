@@ -12,12 +12,24 @@
         "zh": "这只小知更鸟是在哪里被发现的？"
       },
       "options": [
-        {"en": "In the rafters of the pottery studio, near the hot kiln", "zh": "在陶艺工作室的屋梁上，靠近炽热的窑炉"},
-        {"en": "In the family's refrigerator", "zh": "在自家的冰箱里"},
-        {"en": "Inside Mrs. Rodriguez's car", "zh": "在罗德里格斯太太的车里"},
-        {"en": "At the Wildlife Rescue Center", "zh": "在野生动物救助中心"}
+        {
+          "en": "Inside Mrs. Rodriguez's car according to some versions of the story",
+          "zh": "在罗德里格斯太太的车里（按书中另一种说法）"
+        },
+        {
+          "en": "At the Wildlife Rescue Center",
+          "zh": "在野生动物救助中心"
+        },
+        {
+          "en": "In the family's refrigerator",
+          "zh": "在自家的冰箱里"
+        },
+        {
+          "en": "In the rafters of the pottery studio, near the hot kiln",
+          "zh": "在陶艺工作室的屋梁上，靠近炽热的窑炉"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The story says a baby robin struggled out of a dark corner and walked shakily along the rafters of the pottery studio, near the kiln heating to 2,000 degrees.",
@@ -30,12 +42,24 @@
         "zh": "是谁爬上梯子去救助小鸡的？"
       },
       "options": [
-        {"en": "Mr. Brice", "zh": "布莱斯先生"},
-        {"en": "Christine's brother Rick", "zh": "克里斯汀的弟弟里克"},
-        {"en": "Mrs. Rodriguez, using a twelve-foot ladder", "zh": "罗德里格斯太太，用了一架十二英尺的梯子"},
-        {"en": "The dog Misty", "zh": "狗米斯蒂"}
+        {
+          "en": "The dog Misty",
+          "zh": "狗米斯蒂"
+        },
+        {
+          "en": "Mrs. Rodriguez, using a twelve-foot ladder",
+          "zh": "罗德里格斯太太，用了一架十二英尺的梯子"
+        },
+        {
+          "en": "Christine's brother Rick according to some versions of the story",
+          "zh": "克里斯汀的弟弟里克（按书中另一种说法）"
+        },
+        {
+          "en": "Mr. Brice",
+          "zh": "布莱斯先生"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mrs. Rodriguez carried in and set up the twelve-foot ladder, then climbed it like a firefighter to coax the chick into a box.",
@@ -48,10 +72,22 @@
         "zh": "小鸡待在屋梁上为什么会身处险境？"
       },
       "options": [
-        {"en": "It might be washed away by rain", "zh": "它可能被雨水冲走"},
-        {"en": "The increasing heat from the kiln could roast it, and it could fall", "zh": "窑炉越来越高的温度会把它烤熟，而且它可能掉下去"},
-        {"en": "It was too cold near the window", "zh": "窗边太冷了"},
-        {"en": "Other birds were attacking it", "zh": "其他鸟在攻击它"}
+        {
+          "en": "It was too cold near the window",
+          "zh": "窗边太冷了"
+        },
+        {
+          "en": "The increasing heat from the kiln could roast it, and it could fall",
+          "zh": "窑炉越来越高的温度会把它烤熟，而且它可能掉下去"
+        },
+        {
+          "en": "Other birds were attacking it",
+          "zh": "其他鸟在攻击它"
+        },
+        {
+          "en": "It might be washed away by rain according to some versions of the story in an early draft of the book",
+          "zh": "它可能被雨水冲走（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
@@ -66,12 +102,24 @@
         "zh": "小鸡是怎么得到“Chick-a-Dude”这个名字的？"
       },
       "options": [
-        {"en": "Christine named it after her favorite book", "zh": "克里斯汀以她最喜欢的书命名"},
-        {"en": "Mrs. Rodriguez chose the name", "zh": "罗德里格斯太太选的名字"},
-        {"en": "The vet at the rescue center named it", "zh": "救助中心的兽医起的名"},
-        {"en": "Rick said it looked like a cool dude when it stuck out its chest", "zh": "里克说它挺起胸膛时像个很酷的家伙"}
+        {
+          "en": "Rick said it looked like a cool dude when it stuck out its chest",
+          "zh": "里克说它挺起胸膛时像个很酷的家伙"
+        },
+        {
+          "en": "Christine named it after her favorite book according to some versions of the story",
+          "zh": "克里斯汀以她最喜欢的书命名（按书中另一种说法）"
+        },
+        {
+          "en": "Mrs. Rodriguez chose the name",
+          "zh": "罗德里格斯太太选的名字"
+        },
+        {
+          "en": "The vet at the rescue center named it",
+          "zh": "救助中心的兽医起的名"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Over breakfast the family voted on the name because, as Rick commented, 'He looks like a cool dude when he sticks out his chest.'",
@@ -84,12 +132,24 @@
         "zh": "除了虫子，书中说知更鸟还吃什么食物？"
       },
       "options": [
-        {"en": "Berries and fruits such as grapes, cherries, and tomatoes", "zh": "浆果和水果，比如葡萄、樱桃和番茄"},
-        {"en": "Only dry dog food", "zh": "只吃干狗粮"},
-        {"en": "Fish and shrimp", "zh": "鱼和虾"},
-        {"en": "Bread crusts only", "zh": "只吃面包边"}
+        {
+          "en": "Only dry dog food according to some versions of the story in an early draft of the book",
+          "zh": "只吃干狗粮（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Fish and shrimp",
+          "zh": "鱼和虾"
+        },
+        {
+          "en": "Bread crusts only",
+          "zh": "只吃面包边"
+        },
+        {
+          "en": "Berries and fruits such as grapes, cherries, and tomatoes",
+          "zh": "浆果和水果，比如葡萄、樱桃和番茄"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Christine learned online that robins eat berries and fruits such as grapes, cherries, and tomatoes in addition to worms.",
@@ -102,12 +162,24 @@
         "zh": "米斯蒂是一只什么狗？它对小鸡有什么反应？"
       },
       "options": [
-        {"en": "A tiny Chihuahua who ignores it", "zh": "一只无视小鸡的吉娃娃"},
-        {"en": "A 110-pound Labrador retriever who is stressed and barks at it", "zh": "一只110磅的拉布拉多犬，感到紧张并对它狂吠"},
-        {"en": "A cat who befriends it", "zh": "一只和它交上朋友的猫"},
-        {"en": "A parrot who mimics its chirps", "zh": "一只模仿它叫声的鹦鹉"}
+        {
+          "en": "A parrot who mimics its chirps",
+          "zh": "一只模仿它叫声的鹦鹉"
+        },
+        {
+          "en": "A cat who befriends it",
+          "zh": "一只和它交上朋友的猫"
+        },
+        {
+          "en": "A 110-pound Labrador retriever who is stressed and barks at it",
+          "zh": "一只110磅的拉布拉多犬，感到紧张并对它狂吠"
+        },
+        {
+          "en": "A tiny Chihuahua who ignores it according to some versions of the story",
+          "zh": "一只无视小鸡的吉娃娃（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book describes Misty as their 110-pound bounding Labrador retriever, whose stress level rose and who barked angrily at the chick.",
@@ -120,10 +192,22 @@
         "zh": "当米斯蒂“汪！汪！”大叫时发生了什么？"
       },
       "options": [
-        {"en": "The family eats dinner", "zh": "全家人吃晚餐"},
-        {"en": "Christine writes birthday invitations", "zh": "克里斯汀写生日请柬"},
-        {"en": "Chick-a-Dude springs into the air and lands in an empty stew pot", "zh": "小鸡嘟嘟腾空而起，落进一只空炖锅里"},
-        {"en": "The chick flies out the window", "zh": "小鸡从窗户飞了出去"}
+        {
+          "en": "The chick flies out the window",
+          "zh": "小鸡从窗户飞了出去"
+        },
+        {
+          "en": "Christine writes birthday invitations according to some versions of the story",
+          "zh": "克里斯汀写生日请柬（按书中另一种说法）"
+        },
+        {
+          "en": "Chick-a-Dude springs into the air and lands in an empty stew pot",
+          "zh": "小鸡嘟嘟腾空而起，落进一只空炖锅里"
+        },
+        {
+          "en": "The family eats dinner",
+          "zh": "全家人吃晚餐"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -138,12 +222,24 @@
         "zh": "最后克里斯汀把小鸡嘟嘟带去了哪里？"
       },
       "options": [
-        {"en": "To the Wildlife Rescue Center", "zh": "去野生动物救助中心"},
-        {"en": "To her school", "zh": "去她的学校"},
-        {"en": "To the pottery studio", "zh": "去陶艺工作室"},
-        {"en": "To a pet store to sell", "zh": "去宠物店卖掉"}
+        {
+          "en": "To the pottery studio",
+          "zh": "去陶艺工作室"
+        },
+        {
+          "en": "To the Wildlife Rescue Center",
+          "zh": "去野生动物救助中心"
+        },
+        {
+          "en": "To a pet store to sell according to some versions of the story",
+          "zh": "去宠物店卖掉（按书中另一种说法）"
+        },
+        {
+          "en": "To her school",
+          "zh": "去她的学校"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Christine's mom drove her to the Wildlife Rescue Center, where a woman named Kay greeted them at the gate.",
@@ -156,12 +252,24 @@
         "zh": "在救助中心，小鸡嘟嘟将会经历什么？"
       },
       "options": [
-        {"en": "He will be kept as a pet forever", "zh": "它将永远被当作宠物饲养"},
-        {"en": "He will be trained to talk", "zh": "它会被训练说话"},
-        {"en": "He will be fed only once a day", "zh": "它每天只被喂一次"},
-        {"en": "A vet will examine him; he will practice flying and be fed by hand every 30 minutes, then released after 2-3 weeks", "zh": "兽医会检查它；它会在飞行笼中练习飞翔、每30分钟被人工喂食一次，2到3周后放归野外"}
+        {
+          "en": "A vet will examine him; he will practice flying and be fed by hand every 30 minutes, then released after 2-3 weeks",
+          "zh": "兽医会检查它；它会在飞行笼中练习飞翔、每30分钟被人工喂食一次，2到3周后放归野外"
+        },
+        {
+          "en": "He will be trained to talk",
+          "zh": "它会被训练说话"
+        },
+        {
+          "en": "He will be kept as a pet forever according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "它将永远被当作宠物饲养（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "He will be fed only once a day",
+          "zh": "它每天只被喂一次"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Kay explains a vet will examine him, he'll stay in the flight cage to practice flying, be fed every 30 minutes by hand, and after two or three weeks of nurturing be released into the wild.",
@@ -174,12 +282,24 @@
         "zh": "克里斯汀一家从小鸡嘟嘟的经历中学到了什么？"
       },
       "options": [
-        {"en": "That robins make better pets than dogs", "zh": "知更鸟比狗更适合当宠物"},
-        {"en": "That wild baby birds should be cared for by trained wildlife experts, not kept at home", "zh": "野生雏鸟应由受过训练的野生动物专家照料，而不是留在家里养"},
-        {"en": "That the kiln should never be used", "zh": "窑炉永远不该使用"},
-        {"en": "That Misty should be given away", "zh": "应该把米斯蒂送走"}
+        {
+          "en": "That wild baby birds should be cared for by trained wildlife experts, not kept at home",
+          "zh": "野生雏鸟应由受过训练的野生动物专家照料，而不是留在家里养"
+        },
+        {
+          "en": "That robins make better pets than dogs according to some versions of the story in an early draft of the book",
+          "zh": "知更鸟比狗更适合当宠物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "That the kiln should never be used",
+          "zh": "窑炉永远不该使用"
+        },
+        {
+          "en": "That Misty should be given away",
+          "zh": "应该把米斯蒂送走"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book's focus question asks what the family learns; the rescue center staff are 'trained to provide the best possible care,' showing wild animals belong with experts.",

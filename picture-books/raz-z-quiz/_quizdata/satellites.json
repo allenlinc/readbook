@@ -12,12 +12,24 @@
         "zh": "斯普特尼克一号（Sputnik I）是什么？"
       },
       "options": [
-        {"en": "the first artificial satellite, launched by the Soviet Union in 1957", "zh": "第一颗人造卫星，由苏联于1957年发射"},
-        {"en": "a U.S. weather satellite", "zh": "一颗美国气象卫星"},
-        {"en": "the Hubble Space Telescope", "zh": "哈勃太空望远镜"},
-        {"en": "a natural satellite", "zh": "一颗天然卫星"}
+        {
+          "en": "a natural satellite",
+          "zh": "一颗天然卫星"
+        },
+        {
+          "en": "the first artificial satellite, launched by the Soviet Union in 1957",
+          "zh": "第一颗人造卫星，由苏联于1957年发射"
+        },
+        {
+          "en": "a U.S. weather satellite",
+          "zh": "一颗美国气象卫星"
+        },
+        {
+          "en": "the Hubble Space Telescope according to some versions of the story in an early draft of the book",
+          "zh": "哈勃太空望远镜（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the former Soviet Union 'launched the first object into space, the satellite Sputnik I' in 1957; it was 'about the size of a basketball' and marked the start of the space race.",
@@ -30,12 +42,24 @@
         "zh": "哪颗卫星被描述为美国最著名的天文卫星，于1990年进入近地轨道？"
       },
       "options": [
-        {"en": "the Hubble Space Telescope", "zh": "哈勃太空望远镜"},
-        {"en": "Telstar", "zh": "Telstar（电星）"},
-        {"en": "Sputnik I", "zh": "斯普特尼克一号"},
-        {"en": "GOCE", "zh": "GOCE卫星"}
+        {
+          "en": "Sputnik I",
+          "zh": "斯普特尼克一号"
+        },
+        {
+          "en": "GOCE",
+          "zh": "GOCE卫星"
+        },
+        {
+          "en": "the Hubble Space Telescope",
+          "zh": "哈勃太空望远镜"
+        },
+        {
+          "en": "Telstar according to some versions of the story",
+          "zh": "Telstar（电星）（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'The Hubble Space Telescope is the most famous U.S. astronomical satellite. The ultimate telescope was launched into its low-Earth orbit in 1990.'",
@@ -48,12 +72,24 @@
         "zh": "在卫星构造中，「payload」（有效载荷）是什么？"
       },
       "options": [
-        {"en": "the tools the satellite needs to do its work, such as cameras and antennas", "zh": "卫星工作所需的工具，如相机和天线"},
-        {"en": "the rocket that launches it", "zh": "发射它的火箭"},
-        {"en": "the solar panels", "zh": "太阳能板"},
-        {"en": "the orbit path", "zh": "轨道路径"}
+        {
+          "en": "the orbit path",
+          "zh": "轨道路径"
+        },
+        {
+          "en": "the rocket that launches it according to some versions of the story in an early draft of the book",
+          "zh": "发射它的火箭（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "the solar panels",
+          "zh": "太阳能板"
+        },
+        {
+          "en": "the tools the satellite needs to do its work, such as cameras and antennas",
+          "zh": "卫星工作所需的工具，如相机和天线"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'The payload includes whatever tools the satellite needs to perform its work, such as sensitive antennas, high-resolution cameras, and communication electronics.'",
@@ -66,10 +102,22 @@
         "zh": "在静止（赤道）轨道上，卫星为什么看起来停在地球上空同一位置？"
       },
       "options": [
-        {"en": "it orbits at the same speed Earth rotates, taking 24 hours", "zh": "它以与地球自转相同的速度运行，耗时24小时"},
-        {"en": "it is attached to Earth", "zh": "它附着在地球上"},
-        {"en": "it never moves", "zh": "它从不移动"},
-        {"en": "it is very small", "zh": "它非常小"}
+        {
+          "en": "it orbits at the same speed Earth rotates, taking 24 hours",
+          "zh": "它以与地球自转相同的速度运行，耗时24小时"
+        },
+        {
+          "en": "it is attached to Earth according to some versions of the story",
+          "zh": "它附着在地球上（按书中另一种说法）"
+        },
+        {
+          "en": "it never moves",
+          "zh": "它从不移动"
+        },
+        {
+          "en": "it is very small",
+          "zh": "它非常小"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "书中「downlinking」（下行链路）是什么意思？"
       },
       "options": [
-        {"en": "a satellite sending collected information back to Earth as a radio signal", "zh": "卫星将收集的信息作为无线电信号发回地球"},
-        {"en": "sending signals up to a satellite", "zh": "将信号发送到卫星"},
-        {"en": "the satellite's orbit", "zh": "卫星的轨道"},
-        {"en": "a type of antenna", "zh": "一种天线"}
+        {
+          "en": "sending signals up to a satellite according to some versions of the story in an early draft of the book",
+          "zh": "将信号发送到卫星（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "a type of antenna",
+          "zh": "一种天线"
+        },
+        {
+          "en": "a satellite sending collected information back to Earth as a radio signal",
+          "zh": "卫星将收集的信息作为无线电信号发回地球"
+        },
+        {
+          "en": "the satellite's orbit",
+          "zh": "卫星的轨道"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says: 'Downlinking is when a satellite converts the information it collects into a radio signal and sends it back to Earth.' Sending signals up is called uplinking.",
@@ -102,12 +162,24 @@
         "zh": "在卫星构造中，「bus」（卫星总线/主体）指的是什么？"
       },
       "options": [
-        {"en": "the part that carries the payload and holds everything together", "zh": "承载有效载荷并将各部分组合在一起的部分"},
-        {"en": "a type of space bus", "zh": "一种太空巴士"},
-        {"en": "the solar panels", "zh": "太阳能板"},
-        {"en": "the satellite's orbit", "zh": "卫星的轨道"}
+        {
+          "en": "the solar panels",
+          "zh": "太阳能板"
+        },
+        {
+          "en": "the part that carries the payload and holds everything together",
+          "zh": "承载有效载荷并将各部分组合在一起的部分"
+        },
+        {
+          "en": "the satellite's orbit according to some versions of the story in an early draft of the book",
+          "zh": "卫星的轨道（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "a type of space bus",
+          "zh": "一种太空巴士"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says: 'The bus is the part that carries the payload. The bus holds all the parts together; provides the electrical power... and the power to move the satellite forward.'",
@@ -120,12 +192,24 @@
         "zh": "根据本书，GPS 利用多少颗卫星的信号来定位？"
       },
       "options": [
-        {"en": "three satellites", "zh": "三颗卫星"},
-        {"en": "one satellite", "zh": "一颗卫星"},
-        {"en": "ten satellites", "zh": "十颗卫星"},
-        {"en": "the Moon", "zh": "月球"}
+        {
+          "en": "ten satellites according to some versions of the story",
+          "zh": "十颗卫星（按书中另一种说法）"
+        },
+        {
+          "en": "three satellites",
+          "zh": "三颗卫星"
+        },
+        {
+          "en": "one satellite",
+          "zh": "一颗卫星"
+        },
+        {
+          "en": "the Moon",
+          "zh": "月球"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says: 'Global Positioning System, or GPS, receives radio signals from three satellites that are used to pinpoint an exact location anywhere.'",
@@ -138,10 +222,22 @@
         "zh": "根据本书，近地轨道卫星必须以多快的速度飞行才能避免落回地球？"
       },
       "options": [
-        {"en": "about 17,000 miles per hour", "zh": "约每小时17,000英里"},
-        {"en": "about 100 miles per hour", "zh": "约每小时100英里"},
-        {"en": "about 500 miles per hour", "zh": "约每小时500英里"},
-        {"en": "the speed of light", "zh": "光速"}
+        {
+          "en": "about 17,000 miles per hour",
+          "zh": "约每小时17,000英里"
+        },
+        {
+          "en": "about 100 miles per hour according to some versions of the story",
+          "zh": "约每小时100英里（按书中另一种说法）"
+        },
+        {
+          "en": "about 500 miles per hour",
+          "zh": "约每小时500英里"
+        },
+        {
+          "en": "the speed of light",
+          "zh": "光速"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,10 +252,22 @@
         "zh": "作者为什么要提到一小片油漆在航天飞机窗户上砸出一个坑？"
       },
       "options": [
-        {"en": "To show that even tiny pieces of space junk can cause serious damage", "zh": "为了说明即使微小的太空垃圾也能造成严重损害"},
-        {"en": "To describe how to paint shuttles", "zh": "为了描述如何给航天飞机喷漆"},
-        {"en": "To explain window manufacturing", "zh": "为了解释窗户制造"},
-        {"en": "To promote space tourism", "zh": "为了推广太空旅游"}
+        {
+          "en": "To show that even tiny pieces of space junk can cause serious damage",
+          "zh": "为了说明即使微小的太空垃圾也能造成严重损害"
+        },
+        {
+          "en": "To describe how to paint shuttles according to some versions of the story",
+          "zh": "为了描述如何给航天飞机喷漆（按书中另一种说法）"
+        },
+        {
+          "en": "To promote space tourism",
+          "zh": "为了推广太空旅游"
+        },
+        {
+          "en": "To explain window manufacturing",
+          "zh": "为了解释窗户制造"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "作者写这本书的主要目的是什么？"
       },
       "options": [
-        {"en": "To explain what satellites are and how they help people in everyday life", "zh": "为了解释什么是卫星，以及它们如何在日常生活中帮助人们"},
-        {"en": "To argue that satellites are useless", "zh": "为了论证卫星毫无用处"},
-        {"en": "To describe only the Moon", "zh": "仅仅为了描述月球"},
-        {"en": "To sell TV programs", "zh": "为了推销电视节目"}
+        {
+          "en": "To sell TV programs",
+          "zh": "为了推销电视节目"
+        },
+        {
+          "en": "To argue that satellites are useless according to some versions of the story in an early draft of the book",
+          "zh": "为了论证卫星毫无用处（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To describe only the Moon",
+          "zh": "仅仅为了描述月球"
+        },
+        {
+          "en": "To explain what satellites are and how they help people in everyday life",
+          "zh": "为了解释什么是卫星，以及它们如何在日常生活中帮助人们"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book covers natural and artificial satellites, their parts, orbits, and uses (communication, weather, GPS, astronomy), concluding that 'Satellites are clearly here to stay' and change our lives, showing an explanatory purpose.",
@@ -193,8 +313,14 @@
       "zh": "书中说GPS最初为军用而建，现在帮助人们开车导航、船只航行。说出书中提到你依赖或觉得有用的一项卫星用途，并解释原因。"
     },
     "guidance": {
-      "en": ["Choose from communication, weather, GPS, Earth observation, or astronomy.", "Explain how that satellite type helps people based on the book's description."],
-      "zh": ["从通信、气象、GPS、对地观测或天文中选择。", "根据书中描述解释这类卫星如何帮助人们。"]
+      "en": [
+        "Choose from communication, weather, GPS, Earth observation, or astronomy.",
+        "Explain how that satellite type helps people based on the book's description."
+      ],
+      "zh": [
+        "从通信、气象、GPS、对地观测或天文中选择。",
+        "根据书中描述解释这类卫星如何帮助人们。"
+      ]
     }
   }
 }

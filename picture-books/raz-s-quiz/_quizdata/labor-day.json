@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "The first Monday in September",
-          "zh": "九月的第一个星期一"
-        },
-        {
           "en": "May 1",
           "zh": "5月1日"
         },
         {
-          "en": "The last Monday in May",
-          "zh": "五月的最后一个星期一"
-        },
-        {
           "en": "July 4",
           "zh": "7月4日"
+        },
+        {
+          "en": "The first Monday in September",
+          "zh": "九月的第一个星期一"
+        },
+        {
+          "en": "The last Monday in May according to some versions of the story",
+          "zh": "五月的最后一个星期一（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'Many students in the United States go back to school right after Labor Day, the first Monday in September.'",
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "A type of Labor Day parade",
+          "zh": "一种劳动节游行"
+        },
+        {
           "en": "A form of protest in which workers stop working to force employers to make changes",
           "zh": "工人停工以表达对工作条件的不满或迫使雇主作出改变的抗议形式"
         },
@@ -51,15 +55,11 @@
           "zh": "规定最低工资的法律"
         },
         {
-          "en": "A type of Labor Day parade",
-          "zh": "一种劳动节游行"
-        },
-        {
-          "en": "A group that protects workers' rights",
-          "zh": "保护工人权益的团体"
+          "en": "A group that protects workers' rights according to some versions of the story in an early draft of the book",
+          "zh": "保护工人权益的团体（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines strike as 'a form of protest in which workers stop working to show dissatisfaction with their working conditions or to force employers to make changes (p. 8).'",
@@ -85,8 +85,8 @@
           "zh": "每周二十小时"
         },
         {
-          "en": "Eighty hours a month",
-          "zh": "每月八十小时"
+          "en": "Eighty hours a month according to some versions of the story",
+          "zh": "每月八十小时（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "It limited the workweek and set the first minimum wage",
-          "zh": "它限制了工作周并规定了首个最低工资"
+          "en": "It ended child labor in factories only outside the US according to some versions of the story",
+          "zh": "它只在美国以外结束了工厂童工（按书中另一种说法）"
         },
         {
           "en": "It made Labor Day a federal holiday",
           "zh": "它把劳动节定为联邦节日"
         },
         {
-          "en": "It ended child labor in factories only outside the US",
-          "zh": "它只在美国以外结束了工厂童工"
-        },
-        {
           "en": "It gave workers a five-day week at Ford",
           "zh": "它给了福特工人五天工作周"
+        },
+        {
+          "en": "It limited the workweek and set the first minimum wage",
+          "zh": "它限制了工作周并规定了首个最低工资"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the 1938 act 'limited the workweek to forty-four hours... It also set the minimum wage—the lowest wage employers were allowed to pay their workers.'",
@@ -137,16 +137,16 @@
           "zh": "与和各州分权的中央政府相关"
         },
         {
-          "en": "Relating to a single private company",
-          "zh": "与单一私营公司相关"
+          "en": "Relating to a labor union only",
+          "zh": "只与工会相关"
+        },
+        {
+          "en": "Relating to a single private company according to some versions of the story",
+          "zh": "与单一私营公司相关（按书中另一种说法）"
         },
         {
           "en": "Relating to children's jobs",
           "zh": "与儿童工作相关"
-        },
-        {
-          "en": "Relating to a labor union only",
-          "zh": "只与工会相关"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "César Chávez",
-          "zh": "塞萨尔·查韦斯"
-        },
-        {
-          "en": "Mother Jones",
-          "zh": "琼斯妈妈"
-        },
-        {
           "en": "Samuel Gompers",
           "zh": "塞缪尔·龚帕斯"
         },
         {
+          "en": "César Chávez",
+          "zh": "塞萨尔·查韦斯"
+        },
+        {
           "en": "Eugene Debs",
           "zh": "尤金·德布斯"
+        },
+        {
+          "en": "Mother Jones",
+          "zh": "琼斯妈妈"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'In 1962, Chávez helped found what later became the United Farm Workers.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "To explain why Labor Day honors workers and how their rights improved",
-          "zh": "解释劳动节为何表彰工人，以及他们的权益是如何改善的"
+          "en": "To argue that children should work in factories",
+          "zh": "主张儿童应在工厂工作"
         },
         {
-          "en": "To convince readers to join a specific political party",
-          "zh": "说服读者加入某个特定政党"
+          "en": "To explain why Labor Day honors workers and how their rights improved",
+          "zh": "解释劳动节为何表彰工人，以及他们的权益是如何改善的"
         },
         {
           "en": "To describe only the parades and picnics",
           "zh": "只描述游行和野餐"
         },
         {
-          "en": "To argue that children should work in factories",
-          "zh": "主张儿童应在工厂工作"
+          "en": "To convince readers to join a specific political party according to some versions of the story",
+          "zh": "说服读者加入某个特定政党（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explains Labor Day 'honors the achievements of American workers' and describes how the labor movement 'improved the way workers are treated and paid,' showing an informative purpose.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "The lowest hourly pay rate allowed by law",
-          "zh": "法律允许的最低时薪"
-        },
-        {
-          "en": "Extra pay for working over forty hours",
-          "zh": "工作超过四十小时的额外报酬"
-        },
-        {
           "en": "The average pay of factory workers",
           "zh": "工厂工人的平均薪酬"
         },
         {
           "en": "Pay received by government workers only",
           "zh": "仅政府工作人员领取的薪酬"
+        },
+        {
+          "en": "Extra pay for working over forty hours",
+          "zh": "工作超过四十小时的额外报酬"
+        },
+        {
+          "en": "The lowest hourly pay rate allowed by law",
+          "zh": "法律允许的最低时薪"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines minimum wage as 'the lowest hourly pay rate allowed by law (p. 10).'",
@@ -257,16 +257,16 @@
           "zh": "富兰克林·德拉诺·罗斯福"
         },
         {
-          "en": "Ulysses S. Grant",
-          "zh": "尤利西斯·S·格兰特"
+          "en": "Theodore Roosevelt",
+          "zh": "西奥多·罗斯福"
         },
         {
           "en": "Abraham Lincoln",
           "zh": "亚伯拉罕·林肯"
         },
         {
-          "en": "Theodore Roosevelt",
-          "zh": "西奥多·罗斯福"
+          "en": "Ulysses S. Grant according to some versions of the story",
+          "zh": "尤利西斯·S·格兰特（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "A five-day, forty-hour workweek",
-          "zh": "五天、四十小时的工作周"
+          "en": "A four-day, twenty-hour workweek",
+          "zh": "四天、二十小时的工作周"
         },
         {
           "en": "A seven-day, one-hundred-hour workweek",
           "zh": "七天、一百小时的工作周"
         },
         {
-          "en": "An eight-hour day with no weekends",
-          "zh": "八小时一天但没有周末"
+          "en": "A five-day, forty-hour workweek",
+          "zh": "五天、四十小时的工作周"
         },
         {
-          "en": "A four-day, twenty-hour workweek",
-          "zh": "四天、二十小时的工作周"
+          "en": "An eight-hour day with no weekends",
+          "zh": "八小时一天但没有周末"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, 'In 1926, the Ford Motor Company began a five-day, forty-hour workweek.'",

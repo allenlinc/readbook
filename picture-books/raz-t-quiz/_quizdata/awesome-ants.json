@@ -13,12 +13,8 @@
       },
       "options": [
         {
-          "en": "About 10 million years ago",
-          "zh": "约一千万年前"
-        },
-        {
-          "en": "More than 100 million years ago, in the Cretaceous period",
-          "zh": "超过一亿年前，白垩纪时期"
+          "en": "About 10 million years ago according to some versions of the story",
+          "zh": "约一千万年前（按书中另一种说法）"
         },
         {
           "en": "About 1 million years ago",
@@ -27,9 +23,13 @@
         {
           "en": "About 500 million years ago",
           "zh": "约五亿年前"
+        },
+        {
+          "en": "More than 100 million years ago, in the Cretaceous period",
+          "zh": "超过一亿年前，白垩纪时期"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states ants crawled under dinosaurs more than 100 million years ago in the Cretaceous period.",
@@ -43,20 +43,20 @@
       },
       "options": [
         {
-          "en": "A single ant's home",
-          "zh": "单个蚂蚁的家"
+          "en": "A type of food",
+          "zh": "一种食物"
         },
         {
           "en": "A group of animals that live together",
           "zh": "一群共同生活的动物"
         },
         {
-          "en": "A type of food",
-          "zh": "一种食物"
+          "en": "An ant's body part according to some versions of the story",
+          "zh": "蚂蚁的身体部位（按书中另一种说法）"
         },
         {
-          "en": "An ant's body part",
-          "zh": "蚂蚁的身体部位"
+          "en": "A single ant's home",
+          "zh": "单个蚂蚁的家"
         }
       ],
       "answer": 1,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Fewer than 1,000",
-          "zh": "少于一千种"
-        },
-        {
-          "en": "About 5,000",
-          "zh": "约五千种"
+          "en": "Exactly 100",
+          "zh": "正好一百种"
         },
         {
           "en": "More than 10,000",
           "zh": "超过一万种"
         },
         {
-          "en": "Exactly 100",
-          "zh": "正好一百种"
+          "en": "About 5,000",
+          "zh": "约五千种"
+        },
+        {
+          "en": "Fewer than 1,000 according to some versions of the story",
+          "zh": "少于一千种（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says today more than 10,000 species of ants live on every continent except Antarctica.",
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "One stomach for all food",
-          "zh": "一个胃装所有食物"
-        },
-        {
           "en": "Two stomachs: one for itself, one to share with the colony",
           "zh": "两个胃：一个自己用，一个与蚁群分享"
         },
@@ -115,11 +111,15 @@
           "zh": "三个胃"
         },
         {
+          "en": "One stomach for all food according to some versions of the story",
+          "zh": "一个胃装所有食物（按书中另一种说法）"
+        },
+        {
           "en": "No stomachs",
           "zh": "没有胃"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "An ant has two stomachs: one for its own food and another for food to share with the colony.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "About twice their weight",
-          "zh": "约两倍体重"
-        },
-        {
-          "en": "More than twenty times their weight",
-          "zh": "超过自身体重的二十倍"
+          "en": "Fifty times their weight according to some versions of the story",
+          "zh": "五十倍体重（按书中另一种说法）"
         },
         {
           "en": "Ten times their weight",
           "zh": "十倍体重"
         },
         {
-          "en": "Fifty times their weight",
-          "zh": "五十倍体重"
+          "en": "More than twenty times their weight",
+          "zh": "超过自身体重的二十倍"
+        },
+        {
+          "en": "About twice their weight",
+          "zh": "约两倍体重"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says ants are very strong and can lift more than twenty times their own weight.",
@@ -167,12 +167,12 @@
           "zh": "用于呼吸的小孔"
         },
         {
-          "en": "Sharp claws for climbing",
-          "zh": "用于攀爬的利爪"
-        },
-        {
           "en": "Eyes on the head",
           "zh": "头上的眼睛"
+        },
+        {
+          "en": "Sharp claws for climbing according to some versions of the story",
+          "zh": "用于攀爬的利爪（按书中另一种说法）"
         },
         {
           "en": "A kind of antenna",
@@ -193,8 +193,12 @@
       },
       "options": [
         {
-          "en": "By singing songs",
-          "zh": "通过唱歌"
+          "en": "By flying",
+          "zh": "通过飞行"
+        },
+        {
+          "en": "By singing songs according to some versions of the story in an early draft of the book",
+          "zh": "通过唱歌（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "By smell, using scented chemicals called pheromones",
@@ -203,13 +207,9 @@
         {
           "en": "By writing",
           "zh": "通过书写"
-        },
-        {
-          "en": "By flying",
-          "zh": "通过飞行"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Ants communicate mainly by smell, releasing pheromones that send different messages.",
@@ -223,10 +223,6 @@
       },
       "options": [
         {
-          "en": "Finding food",
-          "zh": "寻找食物"
-        },
-        {
           "en": "Building the nest",
           "zh": "筑巢"
         },
@@ -237,9 +233,13 @@
         {
           "en": "Fighting enemies",
           "zh": "与敌人战斗"
+        },
+        {
+          "en": "Finding food",
+          "zh": "寻找食物"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The queen is an egg-laying machine; she is the only ant in the colony that can lay eggs.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Thinks they are all harmful pests",
-          "zh": "认为它们全是有害害虫"
-        },
-        {
-          "en": "Finds them awesome and beneficial to the environment",
-          "zh": "认为它们了不起且对环境有益"
+          "en": "Fears them",
+          "zh": "害怕它们"
         },
         {
           "en": "Ignores them",
           "zh": "忽视它们"
         },
         {
-          "en": "Fears them",
-          "zh": "害怕它们"
+          "en": "Thinks they are all harmful pests according to some versions of the story",
+          "zh": "认为它们全是有害害虫（按书中另一种说法）"
+        },
+        {
+          "en": "Finds them awesome and beneficial to the environment",
+          "zh": "认为它们了不起且对环境有益"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author calls ants awesome and notes most are beneficial, spreading seeds and improving soil.",
@@ -287,16 +287,16 @@
           "zh": "搭建桥梁和木筏以越过缺口和河流"
         },
         {
+          "en": "Grow wings permanently according to some versions of the story",
+          "zh": "永久长出翅膀（按书中另一种说法）"
+        },
+        {
           "en": "Fly like birds",
           "zh": "像鸟一样飞"
         },
         {
           "en": "Breathe underwater",
           "zh": "在水下呼吸"
-        },
-        {
-          "en": "Grow wings permanently",
-          "zh": "永久长出翅膀"
         }
       ],
       "answer": 0,

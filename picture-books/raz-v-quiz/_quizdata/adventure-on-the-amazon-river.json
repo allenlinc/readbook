@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "In Manaus",
-          "zh": "在马瑙斯"
-        },
-        {
           "en": "In Belem, Brazil",
           "zh": "在巴西的贝伦"
         },
         {
-          "en": "In Toronto, Canada",
-          "zh": "在加拿大的多伦多"
+          "en": "In Manaus",
+          "zh": "在马瑙斯"
         },
         {
           "en": "In Santarem",
           "zh": "在桑塔伦"
+        },
+        {
+          "en": "In Toronto, Canada",
+          "zh": "在加拿大的多伦多"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Cammy's journal says they left Canada and landed in Belem, then traveled up the Amazon.",
@@ -43,10 +43,6 @@
       },
       "options": [
         {
-          "en": "Goodbye",
-          "zh": "再见"
-        },
-        {
           "en": "Thank you",
           "zh": "谢谢"
         },
@@ -55,11 +51,15 @@
           "zh": "河流"
         },
         {
+          "en": "Goodbye according to some versions of the story",
+          "zh": "再见（按书中另一种说法）"
+        },
+        {
           "en": "Dolphin",
           "zh": "海豚"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Cammy's mother teaches her that 'Obrigada' means 'Thank you'.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Through newspaper articles",
-          "zh": "通过报纸文章"
-        },
-        {
           "en": "Through Cammy's travel journal entries",
           "zh": "通过卡米的旅行日记"
         },
         {
-          "en": "Through the boat captain's radio",
-          "zh": "通过船长的收音机"
+          "en": "Through the boat captain's radio according to some versions of the story",
+          "zh": "通过船长的收音机（按书中另一种说法）"
         },
         {
           "en": "Through Gabriela's letters",
           "zh": "通过加布里埃拉的信"
+        },
+        {
+          "en": "Through newspaper articles",
+          "zh": "通过报纸文章"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Dated journal entries let readers hear Cammy's honest, private reflections.",
@@ -115,8 +115,8 @@
           "zh": "为了发出风暴信号"
         },
         {
-          "en": "To celebrate a holiday",
-          "zh": "为了庆祝节日"
+          "en": "To celebrate a holiday according to some versions of the story",
+          "zh": "为了庆祝节日（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A park ranger",
-          "zh": "一位公园管理员"
+          "en": "A park ranger according to some versions of the story",
+          "zh": "一位公园管理员（按书中另一种说法）"
         },
         {
-          "en": "A young boy who was paddling alone",
-          "zh": "一个独自划船的小男孩"
+          "en": "Gabriela",
+          "zh": "加布里埃拉"
         },
         {
           "en": "Her father",
           "zh": "她的父亲"
         },
         {
-          "en": "Gabriela",
-          "zh": "加布里埃拉"
+          "en": "A young boy who was paddling alone",
+          "zh": "一个独自划船的小男孩"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A boy no more than eight years old paddles over and pulls Cammy into his canoe.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "To describe the weather only",
+          "zh": "只为了描写天气"
+        },
+        {
           "en": "To list the boat schedule",
           "zh": "为了列出船期"
         },
         {
+          "en": "To teach Portuguese grammar according to some versions of the story in an early draft of the book",
+          "zh": "为了教葡萄牙语语法（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "To show how Cammy's feelings change as she lives with the river family",
           "zh": "为了展现卡米与河边人家同住时感受的变化"
-        },
-        {
-          "en": "To teach Portuguese grammar",
-          "zh": "为了教葡萄牙语语法"
-        },
-        {
-          "en": "To describe the weather only",
-          "zh": "只为了描写天气"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The entries show her moving from fear to appreciation of the family and the rainforest.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "A book",
-          "zh": "一本书"
+          "en": "A laptop according to some versions of the story in an early draft of the book",
+          "zh": "一台笔记本电脑（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Fruit, crackers, a soda, and a bracelet she made",
           "zh": "水果、饼干、一罐汽水，以及她自己做的手链"
         },
         {
-          "en": "A laptop",
-          "zh": "一台笔记本电脑"
-        },
-        {
           "en": "A map",
           "zh": "一张地图"
+        },
+        {
+          "en": "A book",
+          "zh": "一本书"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Her mother threw a bag with 'a wish' that reached Cammy, and her father had jumped in after her",
-          "zh": "母亲丢下一个装着'愿望'的袋子落到卡米手中，而父亲跳下水去追她"
-        },
-        {
-          "en": "They met at the Wawona Hotel",
-          "zh": "他们在沃沃纳酒店相遇"
+          "en": "They never reunited",
+          "zh": "他们再也没重逢"
         },
         {
           "en": "A ranger called them",
           "zh": "一位管理员呼叫了他们"
         },
         {
-          "en": "They never reunited",
-          "zh": "他们再也没重逢"
+          "en": "They met at the Wawona Hotel",
+          "zh": "他们在沃沃纳酒店相遇"
+        },
+        {
+          "en": "Her mother threw a bag with 'a wish' that reached Cammy, and her father had jumped in after her",
+          "zh": "母亲丢下一个装着'愿望'的袋子落到卡米手中，而父亲跳下水去追她"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Cammy's mother threw the bag; her father had jumped into the river to follow her and climbed into the canoe.",
@@ -257,19 +257,19 @@
           "zh": "为了给出关于树木的事实"
         },
         {
-          "en": "To create a vivid setting and mood of the rainforest",
-          "zh": "为了营造出生动的雨林场景与氛围"
-        },
-        {
           "en": "To teach botany",
           "zh": "为了教植物学"
         },
         {
-          "en": "To list animals alphabetically",
-          "zh": "为了按字母列出动物"
+          "en": "To create a vivid setting and mood of the rainforest",
+          "zh": "为了营造出生动的雨林场景与氛围"
+        },
+        {
+          "en": "To list animals alphabetically according to some versions of the story",
+          "zh": "为了按字母列出动物（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Sensory details build a strong sense of place and atmosphere for Cammy's adventure.",
@@ -283,8 +283,8 @@
       },
       "options": [
         {
-          "en": "That she hates the Amazon forever",
-          "zh": "她永远讨厌亚马逊"
+          "en": "That she hates the Amazon forever according to some versions of the story",
+          "zh": "她永远讨厌亚马逊（按书中另一种说法）"
         },
         {
           "en": "To appreciate nature and other cultures, and to want to learn",

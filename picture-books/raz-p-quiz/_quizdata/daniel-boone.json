@@ -12,12 +12,24 @@
         "zh": "丹尼尔·布恩在哪里、何时出生？"
       },
       "options": [
-        { "en": "In Pennsylvania in 1734", "zh": "1734年，出生于宾夕法尼亚" },
-        { "en": "In Kentucky in 1800", "zh": "1800年，出生于肯塔基" },
-        { "en": "In Missouri in 1734", "zh": "1734年，出生于密苏里" },
-        { "en": "In North Carolina in 1750", "zh": "1750年，出生于北卡罗来纳" }
+        {
+          "en": "In Kentucky in 1800",
+          "zh": "1800年，出生于肯塔基"
+        },
+        {
+          "en": "In North Carolina in 1750",
+          "zh": "1750年，出生于北卡罗来纳"
+        },
+        {
+          "en": "In Pennsylvania in 1734",
+          "zh": "1734年，出生于宾夕法尼亚"
+        },
+        {
+          "en": "In Missouri in 1734",
+          "zh": "1734年，出生于密苏里"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"When Daniel Boone was born in 1734... He was born in Pennsylvania.\"",
@@ -30,10 +42,22 @@
         "zh": "书中说丹尼尔虽然“高大结实”，却“走路悄无声息”。这说明了什么？"
       },
       "options": [
-        { "en": "He was a skilled hunter who could move without being noticed", "zh": "他是个技术高超的猎手，能不被察觉地移动" },
-        { "en": "He was afraid of animals", "zh": "他害怕动物" },
-        { "en": "He was lazy", "zh": "他很懒" },
-        { "en": "He was lost", "zh": "他迷路了" }
+        {
+          "en": "He was a skilled hunter who could move without being noticed",
+          "zh": "他是个技术高超的猎手，能不被察觉地移动"
+        },
+        {
+          "en": "He was lost",
+          "zh": "他迷路了"
+        },
+        {
+          "en": "He was afraid of animals according to some versions of the story in an early draft of the book",
+          "zh": "他害怕动物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He was lazy",
+          "zh": "他很懒"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -48,12 +72,24 @@
         "zh": "为什么堡垒那么急需盐？"
       },
       "options": [
-        { "en": "Because before refrigerators, salt was the only way to preserve (cure) food", "zh": "因为在冰箱出现之前，盐是保存（腌制）食物的唯一办法" },
-        { "en": "Because they wanted to build a wall", "zh": "因为他们想筑一堵墙" },
-        { "en": "Because salt made the water sweet", "zh": "因为盐能让水变甜" },
-        { "en": "Because they used it for light", "zh": "因为他们用它来照明" }
+        {
+          "en": "Because they wanted to build a wall according to some versions of the story in an early draft of the book",
+          "zh": "因为他们想筑一堵墙（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Because they used it for light",
+          "zh": "因为他们用它来照明"
+        },
+        {
+          "en": "Because salt made the water sweet",
+          "zh": "因为盐能让水变甜"
+        },
+        {
+          "en": "Because before refrigerators, salt was the only way to preserve (cure) food",
+          "zh": "因为在冰箱出现之前，盐是保存（腌制）食物的唯一办法"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, \"Before refrigerators, the only way to preserve food was to cure it with salt,\" so salt was essential and they boiled a salt-water spring to make it.",
@@ -66,12 +102,24 @@
         "zh": "作者讲述丹尼尔·布恩一生的主要目的是什么？"
       },
       "options": [
-        { "en": "To inform readers about a famous frontier explorer who opened Kentucky to settlers", "zh": "为了向读者介绍一位开拓肯塔基、让定居者进入西部的著名边境探险家" },
-        { "en": "To teach how to farm", "zh": "为了教人如何耕种" },
-        { "en": "To entertain with a fantasy", "zh": "为了用一个奇幻故事娱乐读者" },
-        { "en": "To explain only how to make jerky", "zh": "为了只讲如何做肉干" }
+        {
+          "en": "To entertain with a fantasy",
+          "zh": "为了用一个奇幻故事娱乐读者"
+        },
+        {
+          "en": "To inform readers about a famous frontier explorer who opened Kentucky to settlers",
+          "zh": "为了向读者介绍一位开拓肯塔基、让定居者进入西部的著名边境探险家"
+        },
+        {
+          "en": "To explain only how to make jerky according to some versions of the story in an early draft of the book",
+          "zh": "为了只讲如何做肉干（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To teach how to farm",
+          "zh": "为了教人如何耕种"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The introduction says Daniel Boone \"brought American settlers into those lands for the first time,\" and the book traces his real life as a frontier explorer.",
@@ -84,12 +132,24 @@
         "zh": "丹尼尔·布恩被俘后是如何逃脱的？"
       },
       "options": [
-        { "en": "He slipped away from the group at the salt springs and ran back to the fort in five days", "zh": "他在咸水泉边从队伍中溜走，用五天跑回堡垒" },
-        { "en": "He was rescued by the British", "zh": "他被英国人救出" },
-        { "en": "He swam across the ocean", "zh": "他游过了大洋" },
-        { "en": "He flew away", "zh": "他飞走了" }
+        {
+          "en": "He was rescued by the British according to some versions of the story in an early draft of the book",
+          "zh": "他被英国人救出（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He slipped away from the group at the salt springs and ran back to the fort in five days",
+          "zh": "他在咸水泉边从队伍中溜走，用五天跑回堡垒"
+        },
+        {
+          "en": "He flew away",
+          "zh": "他飞走了"
+        },
+        {
+          "en": "He swam across the ocean",
+          "zh": "他游过了大洋"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "At the salt springs, \"Daniel managed to slip away... He ran all the way back to the fort... The trip took five days.\"",
@@ -102,12 +162,24 @@
         "zh": "在词汇表中，“mourned（哀悼）”是什么意思？"
       },
       "options": [
-        { "en": "Grieved or felt sad, especially for someone who has died", "zh": "悲伤或难过，尤指为逝者" },
-        { "en": "Celebrated", "zh": "庆祝" },
-        { "en": "Hunted", "zh": "打猎" },
-        { "en": "Built", "zh": "建造" }
+        {
+          "en": "Built",
+          "zh": "建造"
+        },
+        {
+          "en": "Grieved or felt sad, especially for someone who has died",
+          "zh": "悲伤或难过，尤指为逝者"
+        },
+        {
+          "en": "Celebrated according to some versions of the story in an early draft of the book",
+          "zh": "庆祝（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Hunted",
+          "zh": "打猎"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines mourned as \"grieved or felt sad, especially for someone who has died (p. 9).\" Daniel mourned his oldest son.",
@@ -120,10 +192,22 @@
         "zh": "定居者是怎样建造堡垒来防御的？"
       },
       "options": [
-        { "en": "Tough log houses in a tight square facing inward, with back walls forming a high fence wall", "zh": "结实的原木屋围成紧密的正方形、朝内，后墙连成高高的栅栏墙" },
-        { "en": "A single cabin in the woods", "zh": "树林里一间小木屋" },
-        { "en": "A wall made of salt", "zh": "一堵盐做的墙" },
-        { "en": "Tents around a fire", "zh": "火堆旁的几顶帐篷" }
+        {
+          "en": "Tough log houses in a tight square facing inward, with back walls forming a high fence wall",
+          "zh": "结实的原木屋围成紧密的正方形、朝内，后墙连成高高的栅栏墙"
+        },
+        {
+          "en": "A wall made of salt",
+          "zh": "一堵盐做的墙"
+        },
+        {
+          "en": "A single cabin in the woods according to some versions of the story in an early draft of the book",
+          "zh": "树林里一间小木屋（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Tents around a fire",
+          "zh": "火堆旁的几顶帐篷"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "作者为什么要写到丹尼尔后来迁往密苏里？"
       },
       "options": [
-        { "en": "To show that nothing could keep him away from the forest, even in old age", "zh": "为了说明即便上了年纪，也没什么能让他离开森林" },
-        { "en": "To explain the Louisiana Purchase", "zh": "为了解释路易斯安那购地" },
-        { "en": "To describe schools in St. Louis", "zh": "为了描写圣路易斯的学校" },
-        { "en": "To say he became a king", "zh": "为了说他成了国王" }
+        {
+          "en": "To explain the Louisiana Purchase according to some versions of the story in an early draft of the book",
+          "zh": "为了解释路易斯安那购地（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To say he became a king",
+          "zh": "为了说他成了国王"
+        },
+        {
+          "en": "To show that nothing could keep him away from the forest, even in old age",
+          "zh": "为了说明即便上了年纪，也没什么能让他离开森林"
+        },
+        {
+          "en": "To describe schools in St. Louis",
+          "zh": "为了描写圣路易斯的学校"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says, \"nothing could keep Daniel Boone away from the forest, not even old age,\" and he moved to Missouri for its wilderness, living there the rest of his days.",
@@ -156,10 +252,22 @@
         "zh": "在大家以为丹尼尔已死时，他的家人怎么样了？"
       },
       "options": [
-        { "en": "They had moved back to North Carolina", "zh": "他们已经搬回了北卡罗来纳" },
-        { "en": "They moved to Detroit", "zh": "他们搬到了底特律" },
-        { "en": "They joined the British", "zh": "他们投靠了英国人" },
-        { "en": "They went to live with the Native Americans", "zh": "他们去和印第安人一起生活了" }
+        {
+          "en": "They had moved back to North Carolina",
+          "zh": "他们已经搬回了北卡罗来纳"
+        },
+        {
+          "en": "They joined the British",
+          "zh": "他们投靠了英国人"
+        },
+        {
+          "en": "They moved to Detroit",
+          "zh": "他们搬到了底特律"
+        },
+        {
+          "en": "They went to live with the Native Americans",
+          "zh": "他们去和印第安人一起生活了"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -174,12 +282,24 @@
         "zh": "根据书中内容，是什么让俘获他的印第安人觉得丹尼尔·布恩很有价值？"
       },
       "options": [
-        { "en": "His rare skill in the forest, unusual for a European", "zh": "他在森林中罕见的本领，对一个欧洲人来说很不寻常" },
-        { "en": "His gold", "zh": "他的金子" },
-        { "en": "His written language", "zh": "他的文字" },
-        { "en": "His fear of water", "zh": "他怕水" }
+        {
+          "en": "His gold",
+          "zh": "他的金子"
+        },
+        {
+          "en": "His fear of water",
+          "zh": "他怕水"
+        },
+        {
+          "en": "His written language according to some versions of the story in an early draft of the book",
+          "zh": "他的文字（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "His rare skill in the forest, unusual for a European",
+          "zh": "他在森林中罕见的本领，对一个欧洲人来说很不寻常"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "On the way to Chillicothe, \"the Native Americans became impressed with Daniel's skill in the forest. This skill was rare in a European. Such a man was very valuable.\"",

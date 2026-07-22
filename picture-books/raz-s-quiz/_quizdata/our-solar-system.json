@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "Ten",
+          "zh": "10颗"
+        },
+        {
           "en": "Eight",
           "zh": "8颗"
         },
@@ -21,15 +25,11 @@
           "zh": "9颗"
         },
         {
-          "en": "Seven",
-          "zh": "7颗"
-        },
-        {
-          "en": "Ten",
-          "zh": "10颗"
+          "en": "Seven according to some versions of the story",
+          "zh": "7颗（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "\"Our Solar System is made up of the Sun, eight official planets...\"",
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "Mercury",
+          "zh": "水星"
+        },
+        {
           "en": "Mars",
           "zh": "火星"
         },
@@ -53,13 +57,9 @@
         {
           "en": "Jupiter",
           "zh": "木星"
-        },
-        {
-          "en": "Mercury",
-          "zh": "水星"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "\"Mars is the fourth planet from the Sun. It is known as the red planet because of large amounts of rust-colored dust on its surface.\"",
@@ -77,16 +77,16 @@
           "zh": "漂浮在太空中的彗星、小行星或尘埃颗粒。"
         },
         {
-          "en": "A planet.",
-          "zh": "一颗行星。"
-        },
-        {
-          "en": "A type of star.",
-          "zh": "一种恒星。"
-        },
-        {
           "en": "A moon.",
           "zh": "一颗卫星。"
+        },
+        {
+          "en": "A type of star. according to some versions of the story in an early draft of the book",
+          "zh": "一种恒星。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A planet.",
+          "zh": "一颗行星。"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "It rotates backward, so the Sun rises in the west.",
-          "zh": "它逆向旋转，所以太阳从西边升起。"
-        },
-        {
           "en": "It doesn't rotate.",
           "zh": "它不旋转。"
         },
         {
-          "en": "It rotates once per hour.",
-          "zh": "它每小时转一圈。"
-        },
-        {
           "en": "It rotates like Earth.",
           "zh": "它和地球一样旋转。"
+        },
+        {
+          "en": "It rotates backward, so the Sun rises in the west.",
+          "zh": "它逆向旋转，所以太阳从西边升起。"
+        },
+        {
+          "en": "It rotates once per hour. according to some versions of the story",
+          "zh": "它每小时转一圈。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "\"scientists found that Venus rotates backward. This means that on Venus the Sun rises in the west and sets in the east.\"",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Scientists created a new 'dwarf planet' category for objects like Pluto that don't have enough gravity to sweep their orbit.",
-          "zh": "科学家为冥王星这类引力不足以清空轨道的天体新设了“矮行星”类别。"
-        },
-        {
           "en": "It exploded.",
           "zh": "它爆炸了。"
         },
         {
-          "en": "It moved.",
-          "zh": "它移动了。"
+          "en": "It became a moon. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "它变成了一颗卫星。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
-          "en": "It became a moon.",
-          "zh": "它变成了一颗卫星。"
+          "en": "Scientists created a new 'dwarf planet' category for objects like Pluto that don't have enough gravity to sweep their orbit.",
+          "zh": "科学家为冥王星这类引力不足以清空轨道的天体新设了“矮行星”类别。"
+        },
+        {
+          "en": "It moved.",
+          "zh": "它移动了。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "\"Before 2006... Pluto was the ninth planet... scientists... voted to create a new category called dwarf planets... They also do not have enough gravitational pull to sweep other space objects from their orbit.\"",
@@ -167,16 +167,16 @@
           "zh": "一场以360公里/小时旋转、宽达三个地球大小的巨型风暴。"
         },
         {
-          "en": "A volcano.",
-          "zh": "一座火山。"
-        },
-        {
           "en": "A moon.",
           "zh": "一颗卫星。"
         },
         {
-          "en": "A crater.",
-          "zh": "一个陨石坑。"
+          "en": "A crater. according to some versions of the story in an early draft of the book",
+          "zh": "一个陨石坑。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A volcano.",
+          "zh": "一座火山。"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Through its gravitational pull.",
-          "zh": "通过它的引力。"
+          "en": "By rotating fast.",
+          "zh": "通过快速旋转。"
+        },
+        {
+          "en": "By heating the water. according to some versions of the story",
+          "zh": "通过加热海水。（按书中另一种说法）"
         },
         {
           "en": "By shining brightly.",
           "zh": "通过明亮地发光。"
         },
         {
-          "en": "By rotating fast.",
-          "zh": "通过快速旋转。"
-        },
-        {
-          "en": "By heating the water.",
-          "zh": "通过加热海水。"
+          "en": "Through its gravitational pull.",
+          "zh": "通过它的引力。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "\"Earth's ocean tides are caused by the gravitational pull of the Moon.\"",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "To teach math.",
+          "zh": "为了教数学。"
+        },
+        {
           "en": "To inform readers about the Sun, planets, and other objects in our Solar System.",
           "zh": "向读者介绍太阳、行星及太阳系中的其他天体。"
         },
         {
-          "en": "To argue that Pluto should stay a planet.",
-          "zh": "为了论证冥王星应保留行星地位。"
-        },
-        {
-          "en": "To teach math.",
-          "zh": "为了教数学。"
+          "en": "To argue that Pluto should stay a planet. according to some versions of the story",
+          "zh": "为了论证冥王星应保留行星地位。（按书中另一种说法）"
         },
         {
           "en": "To describe Earth only.",
           "zh": "为了只描述地球。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is an informational text with chapters on the Sun, each planet, dwarf planets, asteroids, and comets, describing the Solar System.",
@@ -257,16 +257,16 @@
           "zh": "165磅"
         },
         {
-          "en": "27 lbs",
-          "zh": "27磅"
-        },
-        {
-          "en": "12 lbs",
-          "zh": "12磅"
-        },
-        {
           "en": "5 lbs",
           "zh": "5磅"
+        },
+        {
+          "en": "12 lbs according to some versions of the story",
+          "zh": "12磅（按书中另一种说法）"
+        },
+        {
+          "en": "27 lbs",
+          "zh": "27磅"
         }
       ],
       "answer": 0,
@@ -283,8 +283,8 @@
       },
       "options": [
         {
-          "en": "Ice and dust—like large dirty snowballs in space.",
-          "zh": "冰和尘埃——就像太空中巨大的脏雪球。"
+          "en": "Metal only. according to some versions of the story in an early draft of the book",
+          "zh": "只有金属。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Rock only.",
@@ -295,11 +295,11 @@
           "zh": "只有气体。"
         },
         {
-          "en": "Metal only.",
-          "zh": "只有金属。"
+          "en": "Ice and dust—like large dirty snowballs in space.",
+          "zh": "冰和尘埃——就像太空中巨大的脏雪球。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "\"Comets are composed of ice and dust and are like large dirty snowballs in space.\"",

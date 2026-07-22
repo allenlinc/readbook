@@ -12,10 +12,22 @@
         "zh": "亨利那支疲惫的队伍靠近自己阵地时，休息的士兵怎么对待他们？"
       },
       "options": [
-        { "en": "They cheer loudly and wave a happy hello", "zh": "他们大声欢呼、快乐地挥手致意" },
-        { "en": "They give them hot food", "zh": "他们给热的饭食" },
-        { "en": "They mock them with rude questions", "zh": "他们用粗鲁的问题嘲弄他们" },
-        { "en": "They fall fast asleep", "zh": "他们倒头就睡" }
+        {
+          "en": "They cheer loudly and wave a happy hello",
+          "zh": "他们大声欢呼、快乐地挥手致意"
+        },
+        {
+          "en": "They give them hot food",
+          "zh": "他们给热的饭食"
+        },
+        {
+          "en": "They mock them with rude questions",
+          "zh": "他们用粗鲁的问题嘲弄他们"
+        },
+        {
+          "en": "They fall fast asleep",
+          "zh": "他们倒头就睡"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "那个疾驰而来的军官，为了什么事斥责团长？"
       },
       "options": [
-        { "en": "That the charge fell short of its goal", "zh": "说那次冲锋没够到目标就停了" },
-        { "en": "That they ate too much bread", "zh": "说他们吃了太多面包" },
-        { "en": "That they lost the regimental flag", "zh": "说他们把团旗弄丢了" },
-        { "en": "That they slept through the noise", "zh": "说他们吵闹中都睡过去了" }
+        {
+          "en": "That they lost the regimental flag",
+          "zh": "说他们把团旗弄丢了"
+        },
+        {
+          "en": "That the charge fell short of its goal",
+          "zh": "说那次冲锋没够到目标就停了"
+        },
+        {
+          "en": "That they ate too much bread",
+          "zh": "说他们吃了太多面包"
+        },
+        {
+          "en": "That they slept through the noise according to some versions of the story",
+          "zh": "说他们吵闹中都睡过去了（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "He cries 'what an awful bull you made'—the charge stopped short of success.",
@@ -48,12 +72,24 @@
         "zh": "休息的士兵被形容为“gaunt”。gaunt 是什么意思？"
       },
       "options": [
-        { "en": "Bright and full of laughter", "zh": "明亮、充满欢笑" },
-        { "en": "Soft and rather sleepy", "zh": "柔和、有些困" },
-        { "en": "Sweet like a summer breeze", "zh": "像夏日微风般甜美" },
-        { "en": "Extremely thin and worn down", "zh": "极度消瘦、疲惫不堪" }
+        {
+          "en": "Extremely thin and worn down",
+          "zh": "极度消瘦、疲惫不堪"
+        },
+        {
+          "en": "Sweet like a summer breeze according to some versions of the story",
+          "zh": "像夏日微风般甜美（按书中另一种说法）"
+        },
+        {
+          "en": "Soft and rather sleepy",
+          "zh": "柔和、有些困"
+        },
+        {
+          "en": "Bright and full of laughter",
+          "zh": "明亮、充满欢笑"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Gaunt means extremely thin and worn down.",
@@ -66,12 +102,24 @@
         "zh": "中尉把那个怀疑弟兄们打仗不行的军官叫成什么？"
       },
       "options": [
-        { "en": "A brave and fine hero", "zh": "一位勇敢出色的英雄" },
-        { "en": "A 'damned fool'", "zh": "一个“该死的蠢货”" },
-        { "en": "A kind village preacher", "zh": "一位和善的乡村传教士" },
-        { "en": "A lost little boy", "zh": "一个走失的小男孩" }
+        {
+          "en": "A lost little boy",
+          "zh": "一个走失的小男孩"
+        },
+        {
+          "en": "A brave and fine hero",
+          "zh": "一位勇敢出色的英雄"
+        },
+        {
+          "en": "A 'damned fool'",
+          "zh": "一个“该死的蠢货”"
+        },
+        {
+          "en": "A kind village preacher",
+          "zh": "一位和善的乡村传教士"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The lieutenant says any man who says the boys didn't fight well 'is a damned fool.'",
@@ -84,12 +132,24 @@
         "zh": "团长怎么评价掌旗的弗莱明（亨利）？"
       },
       "options": [
-        { "en": "He is 'a very good man t' have'", "zh": "他是“一个很值得留在身边的好汉”" },
-        { "en": "He is a lazy good-for-nothing", "zh": "他是个懒散的废物" },
-        { "en": "He should be sent straight home", "zh": "他该被直接遣送回家" },
-        { "en": "He is far too young to fight", "zh": "他实在太年轻，不该打仗" }
+        {
+          "en": "He is far too young to fight",
+          "zh": "他实在太年轻，不该打仗"
+        },
+        {
+          "en": "He is a lazy good-for-nothing",
+          "zh": "他是个懒散的废物"
+        },
+        {
+          "en": "He should be sent straight home according to some versions of the story",
+          "zh": "他该被直接遣送回家（按书中另一种说法）"
+        },
+        {
+          "en": "He is 'a very good man t' have'",
+          "zh": "他是“一个很值得留在身边的好汉”"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The colonel says Fleming 'kep' th' flag 'way t' th' front' and is 'a very good man t' have.'",
@@ -102,12 +162,24 @@
         "zh": "听完团长的夸奖，亨利和威尔逊感觉如何？"
       },
       "options": [
-        { "en": "They quickly run off toward the rear", "zh": "他们立刻朝后方跑掉了" },
-        { "en": "They fall fast asleep", "zh": "他们倒头睡过去了" },
-        { "en": "They beam with quiet pride", "zh": "他们悄悄泛起、藏着骄傲的笑" },
-        { "en": "They cook a big meal", "zh": "他们做了一顿大餐" }
+        {
+          "en": "They fall fast asleep",
+          "zh": "他们倒头睡过去了"
+        },
+        {
+          "en": "They cook a big meal",
+          "zh": "他们做了一顿大餐"
+        },
+        {
+          "en": "They quickly run off toward the rear",
+          "zh": "他们立刻朝后方跑掉了"
+        },
+        {
+          "en": "They beam with quiet pride",
+          "zh": "他们悄悄泛起、藏着骄傲的笑"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "They knew their faces were flushing from thrills of pleasure at the praise.",
@@ -120,12 +192,24 @@
         "zh": "中尉称亨利是个“jimhickey”。jimhickey 是什么？"
       },
       "options": [
-        { "en": "A kind of fast horse", "zh": "一种跑得快的马" },
-        { "en": "A small special cup for drinking tea", "zh": "一种喝专用的小茶杯" },
-        { "en": "An excellent person", "zh": "一个出色的人" },
-        { "en": "A tool for fixing rifles", "zh": "修步枪用的工具" }
+        {
+          "en": "A small special cup for drinking tea",
+          "zh": "一种喝专用的小茶杯"
+        },
+        {
+          "en": "An excellent person",
+          "zh": "一个出色的人"
+        },
+        {
+          "en": "A kind of fast horse",
+          "zh": "一种跑得快的马"
+        },
+        {
+          "en": "A tool for fixing rifles",
+          "zh": "修步枪用的工具"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Jimhickey is slang for a person who is excellent.",
@@ -138,12 +222,24 @@
         "zh": "第22章，敌人又涌来时，亨利是什么感觉？"
       },
       "options": [
-        { "en": "Terribly scared and wanting to hide", "zh": "怕得要命、想躲起来" },
-        { "en": "Sleepy and ready to yawn", "zh": "困倦、直想打哈欠" },
-        { "en": "Hungry for some food", "zh": "饿着想吃东西" },
-        { "en": "Calm and confident inside", "zh": "内心平静且充满自信" }
+        {
+          "en": "Sleepy and ready to yawn",
+          "zh": "困倦、直想打哈欠"
+        },
+        {
+          "en": "Calm and confident inside",
+          "zh": "内心平静且充满自信"
+        },
+        {
+          "en": "Hungry for some food",
+          "zh": "饿着想吃东西"
+        },
+        {
+          "en": "Terribly scared and wanting to hide",
+          "zh": "怕得要命、想躲起来"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says he felt serene self-confidence and smiled at the shells.",
@@ -156,12 +252,24 @@
         "zh": "作者为什么把粗鲁的嘲弄和后来的夸奖放在一起对照？"
       },
       "options": [
-        { "en": "To give a step-by-step lesson in how to cook a simple camp meal", "zh": "为了一步步教人如何在营地煮顿简餐" },
-        { "en": "To show words and bravery don't always match", "zh": "为了表现“言语”和“真正的勇敢”未必一致" },
-        { "en": "To list all the officers' names", "zh": "为了列出所有军官的名字" },
-        { "en": "To teach about riding horses", "zh": "为了教人骑马" }
+        {
+          "en": "To show words and bravery don't always match",
+          "zh": "为了表现“言语”和“真正的勇敢”未必一致"
+        },
+        {
+          "en": "To give a step-by-step lesson in how to cook a simple camp meal",
+          "zh": "为了一步步教人如何在营地煮顿简餐"
+        },
+        {
+          "en": "To list all the officers' names",
+          "zh": "为了列出所有军官的名字"
+        },
+        {
+          "en": "To teach about riding horses",
+          "zh": "为了教人骑马"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The gap shows how men talk about war differs from how they act in the midst of it.",
@@ -174,12 +282,24 @@
         "zh": "第22章战斗正酣时，亨利下了什么决心？"
       },
       "options": [
-        { "en": "He will quickly run away to the rear", "zh": "他要赶快朝后方逃跑" },
-        { "en": "He will go to sleep", "zh": "他要睡过去" },
-        { "en": "He will cook a meal", "zh": "他要做顿饭" },
-        { "en": "He resolves not to budge", "zh": "他决心一步也不退" }
+        {
+          "en": "He resolves not to budge",
+          "zh": "他决心一步也不退"
+        },
+        {
+          "en": "He will quickly run away to the rear",
+          "zh": "他要赶快朝后方逃跑"
+        },
+        {
+          "en": "He will cook a meal",
+          "zh": "他要做顿饭"
+        },
+        {
+          "en": "He will go to sleep",
+          "zh": "他要睡过去"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The youth 'had resolved not to budge whatever should happen' at his post.",

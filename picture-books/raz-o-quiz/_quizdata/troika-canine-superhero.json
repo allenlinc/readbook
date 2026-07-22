@@ -13,20 +13,20 @@
       },
       "options": [
         {
-          "en": "in Australia",
-          "zh": "在澳大利亚"
+          "en": "in Russia",
+          "zh": "在俄罗斯"
         },
         {
           "en": "in Canada, above the Arctic Circle",
           "zh": "在加拿大，北极圈以北"
         },
         {
-          "en": "in Russia",
-          "zh": "在俄罗斯"
+          "en": "in Australia",
+          "zh": "在澳大利亚"
         },
         {
-          "en": "in the United States",
-          "zh": "在美国"
+          "en": "in the United States according to some versions of the story",
+          "zh": "在美国（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "The boy's father named him",
-          "zh": "男孩的父亲起的名"
+          "en": "He was a famous movie dog according to some versions of the story in an early draft of the book",
+          "zh": "它是一只有名的电影狗（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The vet named him",
+          "zh": "兽医起的名"
         },
         {
           "en": "The boy could not think of a good name, so he just called him 'Dog'",
           "zh": "男孩想不出好名字，就干脆叫它『Dog』"
         },
         {
-          "en": "He was a famous movie dog",
-          "zh": "它是一只有名的电影狗"
-        },
-        {
-          "en": "The vet named him",
-          "zh": "兽医起的名"
+          "en": "The boy's father named him",
+          "zh": "男孩的父亲起的名"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "When he held the puppy, the boy couldn't think of a name good enough, so he just called him 'Dog.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "It was missing from birth",
-          "zh": "它天生就少一条腿"
-        },
-        {
           "en": "A bear bit it badly and the father had to amputate it",
           "zh": "熊把它咬成重伤，父亲不得不截肢"
         },
         {
-          "en": "He broke it in a race",
-          "zh": "它在比赛中摔断了腿"
-        },
-        {
           "en": "A moose stepped on it",
           "zh": "驼鹿踩到了它"
+        },
+        {
+          "en": "It was missing from birth according to some versions of the story",
+          "zh": "它天生就少一条腿（按书中另一种说法）"
+        },
+        {
+          "en": "He broke it in a race",
+          "zh": "它在比赛中摔断了腿"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A bear bit the dog's leg badly; the father had to amputate it, leaving the dog with three legs.",
@@ -115,8 +115,8 @@
           "zh": "三次"
         },
         {
-          "en": "four",
-          "zh": "四次"
+          "en": "four according to some versions of the story",
+          "zh": "四次（按书中另一种说法）"
         }
       ],
       "answer": 2,
@@ -133,10 +133,6 @@
       },
       "options": [
         {
-          "en": "a third-person narrator who knows everyone's thoughts",
-          "zh": "知道所有人想法的第三人称叙述者"
-        },
-        {
           "en": "the first-person view of the boy who owns the dog",
           "zh": "养狗男孩的第一人称视角"
         },
@@ -145,11 +141,15 @@
           "zh": "狗自己的视角"
         },
         {
+          "en": "a third-person narrator who knows everyone's thoughts",
+          "zh": "知道所有人想法的第三人称叙述者"
+        },
+        {
           "en": "a news reporter",
           "zh": "新闻记者"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The story is told by the boy himself ('I'), sharing his own thoughts and feelings about his dog.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "a type of dogsled",
-          "zh": "一种狗拉雪橇"
-        },
-        {
           "en": "a Russian word for things that come in threes",
           "zh": "一个表示『三者成组』的俄语词"
         },
         {
-          "en": "the name of the boy",
-          "zh": "男孩的名字"
+          "en": "the name of the boy according to some versions of the story",
+          "zh": "男孩的名字（按书中另一种说法）"
         },
         {
           "en": "a kind of bear",
           "zh": "一种熊"
+        },
+        {
+          "en": "a type of dogsled",
+          "zh": "一种狗拉雪橇"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Troika is a Russian word that refers to things that come in threes, fitting the dog's three legs and three rescues.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "He barked at the other racers",
-          "zh": "它对其他选手吠叫"
+          "en": "He ran the other way",
+          "zh": "它朝另一个方向跑"
         },
         {
           "en": "He tugged hard as if he knew there was trouble and kept pulling the sled out of the water",
           "zh": "它使劲拉拽，仿佛知道有麻烦，并一直把雪橇从水里拉出来"
         },
         {
-          "en": "He ran the other way",
-          "zh": "它朝另一个方向跑"
-        },
-        {
           "en": "He hid under the sled",
           "zh": "它躲在雪橇下面"
+        },
+        {
+          "en": "He barked at the other racers according to some versions of the story in an early draft of the book",
+          "zh": "它对其他选手吠叫（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "Another dog chased it",
+          "zh": "另一只狗追它"
+        },
+        {
           "en": "He bit the moose's leg and then stared it in the eyes until it gave up",
           "zh": "它咬住驼鹿的腿，然后盯着它的眼睛直到它放弃"
         },
@@ -231,15 +235,11 @@
           "zh": "它大声嚎叫"
         },
         {
-          "en": "The boy shot the moose",
-          "zh": "男孩开枪打了驼鹿"
-        },
-        {
-          "en": "Another dog chased it",
-          "zh": "另一只狗追它"
+          "en": "The boy shot the moose according to some versions of the story in an early draft of the book",
+          "zh": "男孩开枪打了驼鹿（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Dog seized the moose's leg, was thrown against a tree, but got up and stared the moose down until it retreated.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "to show the deep bond and loyalty between a boy and his dog",
-          "zh": "表现男孩与狗之间深厚的感情与忠诚"
-        },
-        {
-          "en": "to teach readers how to race sled dogs",
-          "zh": "教读者如何参加雪橇犬比赛"
+          "en": "to describe the geography of Canada",
+          "zh": "描述加拿大的地理"
         },
         {
           "en": "to explain how bears hunt",
           "zh": "解释熊如何捕猎"
         },
         {
-          "en": "to describe the geography of Canada",
-          "zh": "描述加拿大的地理"
+          "en": "to teach readers how to race sled dogs according to some versions of the story",
+          "zh": "教读者如何参加雪橇犬比赛（按书中另一种说法）"
+        },
+        {
+          "en": "to show the deep bond and loyalty between a boy and his dog",
+          "zh": "表现男孩与狗之间深厚的感情与忠诚"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Telling it through the loving boy highlights the strong bond and loyalty between the boy and his dog.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "Moose are the most dangerous animals according to some versions of the story",
+          "zh": "驼鹿是最危险的动物（按书中另一种说法）"
+        },
+        {
+          "en": "The Arctic is too cold to live in",
+          "zh": "北极太冷不适合居住"
+        },
+        {
           "en": "Dogs should not be raced",
           "zh": "不应让狗参加比赛"
         },
         {
           "en": "A loyal, brave dog can be a true hero even with a disability",
           "zh": "一只忠诚、勇敢的狗即使有残疾也能成为真正的英雄"
-        },
-        {
-          "en": "Moose are the most dangerous animals",
-          "zh": "驼鹿是最危险的动物"
-        },
-        {
-          "en": "The Arctic is too cold to live in",
-          "zh": "北极太冷不适合居住"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The story shows that a loyal, brave dog with only three legs proved himself a true superhero through his actions.",

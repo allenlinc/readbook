@@ -12,12 +12,24 @@
         "zh": "哪位宇航员小时候参加过太空营，后来还去国际空间站执行任务？"
       },
       "options": [
-        {"en": "Dr. Kate Rubins", "zh": "凯特·鲁宾斯博士"},
-        {"en": "Neil Armstrong", "zh": "尼尔·阿姆斯特朗"},
-        {"en": "Buzz Aldrin", "zh": "巴兹·奥尔德林"},
-        {"en": "Sally Ride", "zh": "萨莉·莱德"}
+        {
+          "en": "Buzz Aldrin",
+          "zh": "巴兹·奥尔德林"
+        },
+        {
+          "en": "Sally Ride",
+          "zh": "萨莉·莱德"
+        },
+        {
+          "en": "Neil Armstrong according to some versions of the story",
+          "zh": "尼尔·阿姆斯特朗（按书中另一种说法）"
+        },
+        {
+          "en": "Dr. Kate Rubins",
+          "zh": "凯特·鲁宾斯博士"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Kate Rubins attended space camp in 1990 and in 2016 served a four-month mission on the ISS.",
@@ -30,12 +42,24 @@
         "zh": "美国最初的太空营位于哪里？"
       },
       "options": [
-        {"en": "Huntsville, Alabama", "zh": "阿拉巴马州亨茨维尔"},
-        {"en": "Houston, Texas", "zh": "得克萨斯州休斯顿"},
-        {"en": "Cape Canaveral, Florida", "zh": "佛罗里达州卡纳维拉尔角"},
-        {"en": "Washington, D.C.", "zh": "华盛顿特区"}
+        {
+          "en": "Houston, Texas",
+          "zh": "得克萨斯州休斯顿"
+        },
+        {
+          "en": "Washington, D.C.",
+          "zh": "华盛顿特区"
+        },
+        {
+          "en": "Huntsville, Alabama",
+          "zh": "阿拉巴马州亨茨维尔"
+        },
+        {
+          "en": "Cape Canaveral, Florida",
+          "zh": "佛罗里达州卡纳维拉尔角"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The camp in Huntsville, Alabama, is near the U.S. Space and Rocket Center and opened in 1982.",
@@ -48,12 +72,24 @@
         "zh": "亨茨维尔太空营是哪一年开放的？"
       },
       "options": [
-        {"en": "1982", "zh": "1982年"},
-        {"en": "1969", "zh": "1969年"},
-        {"en": "2000", "zh": "2000年"},
-        {"en": "1955", "zh": "1955年"}
+        {
+          "en": "2000 according to some versions of the story",
+          "zh": "2000年（按书中另一种说法）"
+        },
+        {
+          "en": "1969",
+          "zh": "1969年"
+        },
+        {
+          "en": "1982",
+          "zh": "1982年"
+        },
+        {
+          "en": "1955",
+          "zh": "1955年"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "More than 750,000 trainees have attended since it opened in 1982.",
@@ -66,12 +102,24 @@
         "zh": "1/6重力椅让学员体验什么？"
       },
       "options": [
-        {"en": "The lighter gravity of the Moon", "zh": "月球上更轻的重力"},
-        {"en": "The pull of a black hole", "zh": "黑洞的引力"},
-        {"en": "Swimming underwater", "zh": "在水下游泳"},
-        {"en": "Flying like a bird", "zh": "像鸟一样飞翔"}
+        {
+          "en": "Swimming underwater",
+          "zh": "在水下游泳"
+        },
+        {
+          "en": "Flying like a bird",
+          "zh": "像鸟一样飞翔"
+        },
+        {
+          "en": "The pull of a black hole according to some versions of the story",
+          "zh": "黑洞的引力（按书中另一种说法）"
+        },
+        {
+          "en": "The lighter gravity of the Moon",
+          "zh": "月球上更轻的重力"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The chair lets trainees feel bounding around on the Moon, where gravity is one-sixth of Earth's.",
@@ -84,10 +132,22 @@
         "zh": "太空弹射（Space Shot）产生多少倍的重力？"
       },
       "options": [
-        {"en": "Four g's", "zh": "4倍重力"},
-        {"en": "One g", "zh": "1倍重力"},
-        {"en": "Ten g's", "zh": "10倍重力"},
-        {"en": "Zero g", "zh": "零重力"}
+        {
+          "en": "Four g's",
+          "zh": "4倍重力"
+        },
+        {
+          "en": "Zero g",
+          "zh": "零重力"
+        },
+        {
+          "en": "One g",
+          "zh": "1倍重力"
+        },
+        {
+          "en": "Ten g's according to some versions of the story",
+          "zh": "10倍重力（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -102,10 +162,22 @@
         "zh": "除了美国，太空营还分布在哪些地方？"
       },
       "options": [
-        {"en": "Canada, Turkey, and Russia", "zh": "加拿大、土耳其和俄罗斯"},
-        {"en": "Australia and Japan", "zh": "澳大利亚和日本"},
-        {"en": "Brazil and India", "zh": "巴西和印度"},
-        {"en": "Only in the United States", "zh": "仅在美国"}
+        {
+          "en": "Canada, Turkey, and Russia",
+          "zh": "加拿大、土耳其和俄罗斯"
+        },
+        {
+          "en": "Australia and Japan",
+          "zh": "澳大利亚和日本"
+        },
+        {
+          "en": "Only in the United States according to some versions of the story",
+          "zh": "仅在美国（按书中另一种说法）"
+        },
+        {
+          "en": "Brazil and India",
+          "zh": "巴西和印度"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -120,10 +192,22 @@
         "zh": "谁是第一个进入太空的人，受到俄罗斯太空营的致敬？"
       },
       "options": [
-        {"en": "Yuri Gagarin, in 1961", "zh": "尤里·加加林，1961年"},
-        {"en": "Neil Armstrong", "zh": "尼尔·阿姆斯特朗"},
-        {"en": "Valentina Tereshkova", "zh": "瓦伦蒂娜·捷列什科娃"},
-        {"en": "John Glenn", "zh": "约翰·格伦"}
+        {
+          "en": "Yuri Gagarin, in 1961",
+          "zh": "尤里·加加林，1961年"
+        },
+        {
+          "en": "Valentina Tereshkova according to some versions of the story",
+          "zh": "瓦伦蒂娜·捷列什科娃（按书中另一种说法）"
+        },
+        {
+          "en": "John Glenn",
+          "zh": "约翰·格伦"
+        },
+        {
+          "en": "Neil Armstrong",
+          "zh": "尼尔·阿姆斯特朗"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -138,12 +222,24 @@
         "zh": "模拟任务主要帮助学员练习哪些技能？"
       },
       "options": [
-        {"en": "Teamwork and leadership", "zh": "团队合作与领导力"},
-        {"en": "Cooking", "zh": "烹饪"},
-        {"en": "Painting", "zh": "绘画"},
-        {"en": "Singing", "zh": "唱歌"}
+        {
+          "en": "Painting according to some versions of the story",
+          "zh": "绘画（按书中另一种说法）"
+        },
+        {
+          "en": "Teamwork and leadership",
+          "zh": "团队合作与领导力"
+        },
+        {
+          "en": "Cooking",
+          "zh": "烹饪"
+        },
+        {
+          "en": "Singing",
+          "zh": "唱歌"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Mission simulators let trainees practice teamwork and leadership, like real astronauts in a crew.",
@@ -156,12 +252,24 @@
         "zh": "猎户座（Orion）太空舱正在为做什么做准备？"
       },
       "options": [
-        {"en": "A future mission to Mars", "zh": "未来前往火星的任务"},
-        {"en": "A trip to the Moon only", "zh": "仅前往月球"},
-        {"en": "A flight around Earth", "zh": "绕地球飞行"},
-        {"en": "A visit to the Sun", "zh": "探访太阳"}
+        {
+          "en": "A trip to the Moon only according to some versions of the story",
+          "zh": "仅前往月球（按书中另一种说法）"
+        },
+        {
+          "en": "A future mission to Mars",
+          "zh": "未来前往火星的任务"
+        },
+        {
+          "en": "A flight around Earth",
+          "zh": "绕地球飞行"
+        },
+        {
+          "en": "A visit to the Sun",
+          "zh": "探访太阳"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Real astronauts will live on Orion during the planned voyage to and from Mars.",
@@ -174,12 +282,24 @@
         "zh": "作者为何在书开头讲述凯特·鲁宾斯的故事？"
       },
       "options": [
-        {"en": "To show that space camp can inspire real future astronauts", "zh": "为了说明太空营能激励真正的未来宇航员"},
-        {"en": "To sell more books", "zh": "为了卖更多书"},
-        {"en": "To describe a movie", "zh": "为了描述一部电影"},
-        {"en": "To explain rocket science", "zh": "为了讲解火箭科学"}
+        {
+          "en": "To explain rocket science according to some versions of the story",
+          "zh": "为了讲解火箭科学（按书中另一种说法）"
+        },
+        {
+          "en": "To show that space camp can inspire real future astronauts",
+          "zh": "为了说明太空营能激励真正的未来宇航员"
+        },
+        {
+          "en": "To describe a movie",
+          "zh": "为了描述一部电影"
+        },
+        {
+          "en": "To sell more books",
+          "zh": "为了卖更多书"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Her story shows a camper who fulfilled a childhood dream and became an astronaut, inspiring readers.",

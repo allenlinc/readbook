@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Egypt",
-          "zh": "埃及"
-        },
-        {
           "en": "Mali, in West Africa",
           "zh": "西非的马里"
         },
         {
-          "en": "Saudi Arabia",
-          "zh": "沙特阿拉伯"
+          "en": "Egypt",
+          "zh": "埃及"
+        },
+        {
+          "en": "Saudi Arabia according to some versions of the story",
+          "zh": "沙特阿拉伯（按书中另一种说法）"
         },
         {
           "en": "India",
           "zh": "印度"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Djenné is a small town of about 13,000 in the country of Mali, in West Africa.",
@@ -51,12 +51,12 @@
           "zh": "晒干的泥（泥砖）"
         },
         {
-          "en": "Steel",
-          "zh": "钢铁"
+          "en": "Wood only according to some versions of the story",
+          "zh": "仅木材（按书中另一种说法）"
         },
         {
-          "en": "Wood only",
-          "zh": "仅木材"
+          "en": "Steel",
+          "zh": "钢铁"
         }
       ],
       "answer": 1,
@@ -73,8 +73,8 @@
       },
       "options": [
         {
-          "en": "1836",
-          "zh": "1836年"
+          "en": "1836 according to some versions of the story",
+          "zh": "1836年（按书中另一种说法）"
         },
         {
           "en": "1907",
@@ -103,8 +103,12 @@
       },
       "options": [
         {
-          "en": "The Harvest Festival",
-          "zh": "丰收节"
+          "en": "The Solar Festival",
+          "zh": "太阳节"
+        },
+        {
+          "en": "The Harvest Festival according to some versions of the story in an early draft of the book",
+          "zh": "丰收节（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "The Crépissage de la Grande Mosquée (Plastering of the Great Mosque)",
@@ -113,13 +117,9 @@
         {
           "en": "The River Festival",
           "zh": "河流节"
-        },
-        {
-          "en": "The Solar Festival",
-          "zh": "太阳节"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Every year the community holds the Crépissage de la Grande Mosquée to replaster the walls.",
@@ -137,16 +137,16 @@
           "zh": "用作修缮时的内置脚手架，并有助于减少开裂"
         },
         {
-          "en": "They are decorative only",
-          "zh": "仅作装饰"
+          "en": "They are used for cooking according to some versions of the story",
+          "zh": "它们用于烹饪（按书中另一种说法）"
         },
         {
           "en": "They hold the roof up",
           "zh": "它们支撑屋顶"
         },
         {
-          "en": "They are used for cooking",
-          "zh": "它们用于烹饪"
+          "en": "They are decorative only",
+          "zh": "仅作装饰"
         }
       ],
       "answer": 0,
@@ -163,12 +163,8 @@
       },
       "options": [
         {
-          "en": "Avoiding flooding from the nearby Bani River",
-          "zh": "避免附近巴尼河泛滥的洪水"
-        },
-        {
-          "en": "Making the building taller for views",
-          "zh": "为观景把建筑垫高"
+          "en": "Making the building taller for views according to some versions of the story",
+          "zh": "为观景把建筑垫高（按书中另一种说法）"
         },
         {
           "en": "Keeping animals out",
@@ -177,9 +173,13 @@
         {
           "en": "Storing grain",
           "zh": "储存谷物"
+        },
+        {
+          "en": "Avoiding flooding from the nearby Bani River",
+          "zh": "避免附近巴尼河泛滥的洪水"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The raised platform avoids flooding from the nearby Bani River.",
@@ -201,12 +201,12 @@
           "zh": "它使小镇隐秘"
         },
         {
-          "en": "It prevented all travel",
-          "zh": "它阻止了一切通行"
-        },
-        {
           "en": "It created a desert",
           "zh": "它制造了沙漠"
+        },
+        {
+          "en": "It prevented all travel according to some versions of the story",
+          "zh": "它阻止了一切通行（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "It is a marketplace",
-          "zh": "它是一处市场"
+          "en": "It is a museum",
+          "zh": "它是一座博物馆"
+        },
+        {
+          "en": "It is a school for all according to some versions of the story in an early draft of the book",
+          "zh": "它是一所为所有人开放的学校（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "It is designed for Islamic worship and faces the holy city of Mecca",
           "zh": "它是为伊斯兰教礼拜而建，并朝向圣城麦加"
         },
         {
-          "en": "It is a school for all",
-          "zh": "它是一所为所有人开放的学校"
-        },
-        {
-          "en": "It is a museum",
-          "zh": "它是一座博物馆"
+          "en": "It is a marketplace",
+          "zh": "它是一处市场"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The qibla wall faces Mecca, and the mosque is a place of worship for Muslims.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To explain the mosque's religious and community role in uniting Djenné",
-          "zh": "解释清真寺在团结杰内中所起的宗教与社区作用"
+          "en": "To describe a sports event according to some versions of the story in an early draft of the book",
+          "zh": "描述一场体育赛事（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "To describe a sports event",
-          "zh": "描述一场体育赛事"
+          "en": "To sell postcards",
+          "zh": "售卖明信片"
         },
         {
           "en": "To teach French grammar",
           "zh": "教授法语语法"
         },
         {
-          "en": "To sell postcards",
-          "zh": "售卖明信片"
+          "en": "To explain the mosque's religious and community role in uniting Djenné",
+          "zh": "解释清真寺在团结杰内中所起的宗教与社区作用"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book stresses the mosque is central to the community and its preservation.",
@@ -283,8 +283,8 @@
       },
       "options": [
         {
-          "en": "That only men should work",
-          "zh": "只有男性才应参与"
+          "en": "That outsiders should do it according to some versions of the story in an early draft of the book",
+          "zh": "应由外人来完成（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "That the mosque is a shared cultural heritage that brings the community together",
@@ -295,8 +295,8 @@
           "zh": "这项工作毫无意义"
         },
         {
-          "en": "That outsiders should do it",
-          "zh": "应由外人来完成"
+          "en": "That only men should work",
+          "zh": "只有男性才应参与"
         }
       ],
       "answer": 1,

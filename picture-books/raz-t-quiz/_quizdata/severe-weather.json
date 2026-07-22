@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "Sun, moon, stars, and wind",
-          "zh": "太阳、月亮、星星和风"
-        },
-        {
           "en": "Temperature, air pressure, wind, and moisture",
           "zh": "温度、气压、风和湿气"
         },
@@ -25,11 +21,15 @@
           "zh": "雨、雪、冰雹和冻雨"
         },
         {
-          "en": "Cars, buildings, trees, and clouds",
-          "zh": "汽车、建筑、树和云"
+          "en": "Cars, buildings, trees, and clouds according to some versions of the story",
+          "zh": "汽车、建筑、树和云（按书中另一种说法）"
+        },
+        {
+          "en": "Sun, moon, stars, and wind",
+          "zh": "太阳、月亮、星星和风"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The building blocks of weather are temperature, air pressure, wind, and moisture; all weather begins with energy from the Sun.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "The rotation of the Moon",
-          "zh": "月球的自转"
-        },
-        {
-          "en": "Unequal heating of the Earth, which creates differences in air pressure and sets air in motion",
-          "zh": "地球受热不均，造成气压差异并使空气流动"
-        },
-        {
           "en": "The ocean tides",
           "zh": "海洋潮汐"
         },
         {
+          "en": "The rotation of the Moon according to some versions of the story in an early draft of the book",
+          "zh": "月球的自转（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "Volcanoes",
           "zh": "火山"
+        },
+        {
+          "en": "Unequal heating of the Earth, which creates differences in air pressure and sets air in motion",
+          "zh": "地球受热不均，造成气压差异并使空气流动"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Wind is caused by the unequal heating of the Earth; differences in temperature lead to differences in air pressure, and the air moves, creating wind.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "The force of air pulled toward Earth by gravity; cold air is heavier and is called high pressure",
-          "zh": "空气被重力拉向地球所产生的力；冷空气更重，称为高压"
-        },
-        {
           "en": "The temperature of the air",
           "zh": "空气的温度"
         },
         {
-          "en": "The amount of rain that falls",
-          "zh": "降雨的量"
+          "en": "The amount of rain that falls according to some versions of the story in an early draft of the book",
+          "zh": "降雨的量（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "The speed of lightning",
           "zh": "闪电的速度"
+        },
+        {
+          "en": "The force of air pulled toward Earth by gravity; cold air is heavier and is called high pressure",
+          "zh": "空气被重力拉向地球所产生的力；冷空气更重，称为高压"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Air in the atmosphere has weight pulled toward Earth by gravity; this push is air pressure, and cold (heavier) air is high-pressure air.",
@@ -103,8 +103,12 @@
       },
       "options": [
         {
-          "en": "Water falls directly from the Sun",
-          "zh": "水直接从太阳落下"
+          "en": "The ground pushes water upward",
+          "zh": "地面把水推向上方"
+        },
+        {
+          "en": "Water falls directly from the Sun according to some versions of the story in an early draft of the book",
+          "zh": "水直接从太阳落下（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Warm, moist air rises, cools, water vapor becomes droplets that join and fall when heavy enough",
@@ -113,13 +117,9 @@
         {
           "en": "Clouds are painted onto the sky",
           "zh": "云被画在天空上"
-        },
-        {
-          "en": "The ground pushes water upward",
-          "zh": "地面把水推向上方"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Warm air holds more moisture; as it rises and cools, water vapor forms droplets that join in clouds until gravity pulls them down as precipitation.",
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "The rarest type of storm, forming only in winter",
-          "zh": "最罕见的风暴，只在冬天形成"
+          "en": "A kind of earthquake",
+          "zh": "一种地震"
         },
         {
           "en": "The most common storm, forming when warm, moist air rises quickly",
           "zh": "最常见的风暴，在温暖潮湿的空气快速上升时形成"
         },
         {
-          "en": "A kind of earthquake",
-          "zh": "一种地震"
-        },
-        {
           "en": "A slow-moving snowstorm",
           "zh": "移动缓慢的暴风雪"
+        },
+        {
+          "en": "The rarest type of storm, forming only in winter according to some versions of the story",
+          "zh": "最罕见的风暴，只在冬天形成（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -163,12 +163,12 @@
       },
       "options": [
         {
-          "en": "From snow that falls from the top of the cloud",
-          "zh": "从云顶落下的雪"
-        },
-        {
           "en": "Wind blows water drops up to freeze, they fall and collect moisture, then are blown up again, adding ice layers until too heavy",
           "zh": "风把水滴吹上去冻结，落下时吸收水分，再被吹上去，层层加冰直到太重落下"
+        },
+        {
+          "en": "From snow that falls from the top of the cloud according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "从云顶落下的雪（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
           "en": "From lightning striking the ground",
@@ -179,7 +179,7 @@
           "zh": "太阳加热雨水形成"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Strong wind blows large water drops up to freeze; they fall, collect moisture, and are blown back up, adding ice layers many times until too heavy to stay up, then fall as hail.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Up to 50 kilometers per hour",
-          "zh": "最高每小时50公里"
-        },
-        {
           "en": "322 to 480 kilometers per hour (200-300 mph), the strongest winds on Earth",
           "zh": "每小时322至480公里（200-300英里），是地球最强的风"
         },
         {
-          "en": "Exactly the speed of sound",
-          "zh": "正好是音速"
+          "en": "Up to 50 kilometers per hour according to some versions of the story in an early draft of the book",
+          "zh": "最高每小时50公里（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Only a gentle breeze",
           "zh": "只是微风"
+        },
+        {
+          "en": "Exactly the speed of sound",
+          "zh": "正好是音速"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Tornadoes have the strongest winds on Earth, reaching 322 to 480 kilometers per hour (200-300 mph).",
@@ -231,12 +231,12 @@
           "zh": "风暴平静的中心"
         },
         {
-          "en": "The place where it rains the most",
-          "zh": "降雨最多的地方"
-        },
-        {
           "en": "The top of the clouds",
           "zh": "云的顶部"
+        },
+        {
+          "en": "The place where it rains the most",
+          "zh": "降雨最多的地方"
         }
       ],
       "answer": 1,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "A light rain in spring",
-          "zh": "春天的小雨"
-        },
-        {
-          "en": "A severe winter storm with heavy snow and winds over 56 km/h, sometimes causing a whiteout",
-          "zh": "伴有大雪、风速超过每小时56公里的严冬风暴，有时造成白茫一片"
-        },
-        {
           "en": "A type of tornado",
           "zh": "一种龙卷风"
         },
         {
           "en": "A warm ocean storm",
           "zh": "温暖的海洋风暴"
+        },
+        {
+          "en": "A severe winter storm with heavy snow and winds over 56 km/h, sometimes causing a whiteout",
+          "zh": "伴有大雪、风速超过每小时56公里的严冬风暴，有时造成白茫一片"
+        },
+        {
+          "en": "A light rain in spring according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "春天的小雨（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A blizzard is the most fierce winter storm, with heavy snowfall and high winds over 56 km/h (35 mph); visibility can become a whiteout.",
@@ -283,16 +283,16 @@
       },
       "options": [
         {
-          "en": "Trees are too small to be useful",
-          "zh": "树太小没用"
+          "en": "Trees block the rain completely",
+          "zh": "树能完全挡住雨"
         },
         {
           "en": "Trees attract lightning",
           "zh": "树会吸引闪电"
         },
         {
-          "en": "Trees block the rain completely",
-          "zh": "树能完全挡住雨"
+          "en": "Trees are too small to be useful",
+          "zh": "树太小没用"
         },
         {
           "en": "Trees are against the law",

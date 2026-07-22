@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "200 tons",
-          "zh": "200吨"
-        },
-        {
           "en": "2 tons",
           "zh": "2吨"
         },
@@ -25,11 +21,15 @@
           "zh": "20吨"
         },
         {
+          "en": "200 tons",
+          "zh": "200吨"
+        },
+        {
           "en": "2,000 tons",
           "zh": "2000吨"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states a typical adult blue whale 'weighs in at 200 tons (181.4 mt) and is approximately 100 feet long.'",
@@ -43,10 +43,6 @@
       },
       "options": [
         {
-          "en": "Krill, tiny shrimplike crustaceans",
-          "zh": "磷虾——一种像虾一样的微小甲壳动物"
-        },
-        {
           "en": "Large fish",
           "zh": "大型鱼类"
         },
@@ -55,11 +51,15 @@
           "zh": "海豹"
         },
         {
-          "en": "Only plankton",
-          "zh": "只有浮游生物"
+          "en": "Only plankton according to some versions of the story",
+          "zh": "只有浮游生物（按书中另一种说法）"
+        },
+        {
+          "en": "Krill, tiny shrimplike crustaceans",
+          "zh": "磷虾——一种像虾一样的微小甲壳动物"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Blue whales search for 'their favorite meal—tiny shrimplike crustaceans called krill.'",
@@ -77,16 +77,16 @@
           "zh": "用角蛋白构成的鲸须板把磷虾筛出来"
         },
         {
-          "en": "With teeth",
-          "zh": "用牙齿"
-        },
-        {
-          "en": "With their tongue only",
-          "zh": "只用舌头"
-        },
-        {
           "en": "With gills",
           "zh": "用鳃"
+        },
+        {
+          "en": "With their tongue only according to some versions of the story in an early draft of the book",
+          "zh": "只用舌头（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "With teeth",
+          "zh": "用牙齿"
         }
       ],
       "answer": 0,
@@ -107,16 +107,16 @@
           "zh": "大约一年"
         },
         {
-          "en": "Two months",
-          "zh": "两个月"
+          "en": "Six weeks",
+          "zh": "六周"
         },
         {
           "en": "Five years",
           "zh": "五年"
         },
         {
-          "en": "Six weeks",
-          "zh": "六周"
+          "en": "Two months according to some versions of the story",
+          "zh": "两个月（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -137,16 +137,16 @@
           "zh": "通过把它与熟悉的事物对比，例如舌头相当于一头大象"
         },
         {
-          "en": "By using only numbers with no comparisons",
-          "zh": "只用数字、不作任何对比"
+          "en": "By drawing a map",
+          "zh": "通过画一张地图"
         },
         {
           "en": "By writing a poem",
           "zh": "通过写一首诗"
         },
         {
-          "en": "By drawing a map",
-          "zh": "通过画一张地图"
+          "en": "By using only numbers with no comparisons according to some versions of the story",
+          "zh": "只用数字、不作任何对比（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "Whales are quieter than people talking according to some versions of the story in an early draft of the book",
+          "zh": "鲸鱼比人说话还轻（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "A blue whale call (180 dB) is louder than a jet engine (140) and a rock concert (150)",
           "zh": "蓝鲸的叫声（180分贝）比喷气发动机（140）和摇滚音乐会（150）都更响"
         },
         {
-          "en": "Whales are quieter than people talking",
-          "zh": "鲸鱼比人说话还轻"
+          "en": "Rock concerts are silent",
+          "zh": "摇滚音乐会是寂静的"
         },
         {
           "en": "A conversation is the loudest sound",
           "zh": "交谈是最响的声音"
-        },
-        {
-          "en": "Rock concerts are silent",
-          "zh": "摇滚音乐会是寂静的"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "A chart shows conversation 70 dB, jet engine 140 dB, rock concert 150 dB, and blue whale call 180 dB.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Gravity would cause its body to collapse; water's buoyancy supports it",
-          "zh": "重力会让它的身体塌陷；而水的浮力支撑着它"
-        },
-        {
           "en": "It has no legs",
           "zh": "它没有腿"
         },
         {
-          "en": "It cannot breathe air",
-          "zh": "它无法呼吸空气"
+          "en": "Gravity would cause its body to collapse; water's buoyancy supports it",
+          "zh": "重力会让它的身体塌陷；而水的浮力支撑着它"
         },
         {
           "en": "It is too small",
           "zh": "它太小了"
+        },
+        {
+          "en": "It cannot breathe air according to some versions of the story in an early draft of the book",
+          "zh": "它无法呼吸空气（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says 'the force of gravity would cause the animal's body to collapse' on land; water provides buoyancy against gravity.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "They were nearly driven to extinction by hunting and face ship collisions; they are endangered",
-          "zh": "它们曾因捕猎几乎灭绝，又面临船只撞击；属于濒危物种"
-        },
-        {
-          "en": "They are dangerous to humans",
-          "zh": "它们对人类有危险"
-        },
-        {
-          "en": "They are farmed for food",
-          "zh": "它们被养殖作为食物"
+          "en": "They are dangerous to humans according to some versions of the story in an early draft of the book",
+          "zh": "它们对人类有危险（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "They are already extinct",
           "zh": "它们已经灭绝了"
+        },
+        {
+          "en": "They were nearly driven to extinction by hunting and face ship collisions; they are endangered",
+          "zh": "它们曾因捕猎几乎灭绝，又面临船只撞击；属于濒危物种"
+        },
+        {
+          "en": "They are farmed for food",
+          "zh": "它们被养殖作为食物"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says hunting 'nearly driven them to extinction' and they now face ship collisions; they are protected under the International Whaling Commission.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "To tell a fictional story according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "为了讲一个虚构故事（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
           "en": "To explain how blue whale anatomy lets them live in the ocean and to raise awareness of threats",
           "zh": "解释蓝鲸的身体结构如何让它们在海中生存，并唤起对威胁的关注"
         },
         {
-          "en": "To tell a fictional story",
-          "zh": "为了讲一个虚构故事"
+          "en": "To describe fishing",
+          "zh": "为了描述捕鱼"
         },
         {
           "en": "To teach mathematics",
           "zh": "为了教数学"
-        },
-        {
-          "en": "To describe fishing",
-          "zh": "为了描述捕鱼"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Focus Question is 'How does the blue whale's anatomy enable it to live in the ocean?' and the conclusion urges protection.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "The enormous size difference between humans and blue whales",
-          "zh": "人类与蓝鲸之间巨大的体型差距"
+          "en": "That humans are bigger according to some versions of the story",
+          "zh": "人类更大（按书中另一种说法）"
         },
         {
-          "en": "That humans are bigger",
-          "zh": "人类更大"
+          "en": "Nothing in particular",
+          "zh": "没什么特别"
         },
         {
           "en": "That whales are small",
           "zh": "鲸鱼很小"
         },
         {
-          "en": "Nothing in particular",
-          "zh": "没什么特别"
+          "en": "The enormous size difference between humans and blue whales",
+          "zh": "人类与蓝鲸之间巨大的体型差距"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The diagram lists a human at 6 ft/175 lb versus a blue whale at 100 ft/200 tons to highlight the scale.",

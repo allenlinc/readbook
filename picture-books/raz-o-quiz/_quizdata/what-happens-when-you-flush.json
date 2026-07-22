@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "Clean drinking water",
-          "zh": "干净的饮用水"
-        },
-        {
           "en": "Human waste carried away through pipes",
           "zh": "通过管道排走的人的排泄物"
+        },
+        {
+          "en": "Clean drinking water according to some versions of the story",
+          "zh": "干净的饮用水（按书中另一种说法）"
         },
         {
           "en": "Rainwater in storms",
@@ -29,7 +29,7 @@
           "zh": "用来清洗的肥皂"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Glossary defines sewage as human waste that is carried away from buildings through a system of pipes.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "All the water according to some versions of the story",
+          "zh": "所有的水（按书中另一种说法）"
+        },
+        {
           "en": "Bacteria only",
           "zh": "只有细菌"
         },
         {
-          "en": "Large items such as rocks, sticks, and garbage",
-          "zh": "大件物品，如石头、树枝和垃圾"
-        },
-        {
-          "en": "All the water",
-          "zh": "所有的水"
-        },
-        {
           "en": "Clean air",
           "zh": "干净的空气"
+        },
+        {
+          "en": "Large items such as rocks, sticks, and garbage",
+          "zh": "大件物品，如石头、树枝和垃圾"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "STEP 1 uses a big screen, like a giant kitchen strainer, to remove large items such as rocks, sticks, and garbage.",
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "They are thrown away in the ocean",
-          "zh": "它们被扔进海里"
-        },
-        {
           "en": "Bacteria eat much of the sludge; about half turns into gas and the rest is dried for farm fields",
           "zh": "细菌吃掉大部分污泥；约一半变成气体，其余被烘干用于农田"
         },
@@ -85,11 +81,15 @@
           "zh": "它们被立刻烧掉"
         },
         {
+          "en": "They are thrown away in the ocean according to some versions of the story in an early draft of the book",
+          "zh": "它们被扔进海里（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "They are sent back to homes",
           "zh": "它们被送回各家各户"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In the digester, a second kind of bacteria eats much of the sludge; about half turns into gas (some powers the plant) and the other half is dried and used on farm fields.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Solids drop to the bottom and liquid is filtered by the soil",
-          "zh": "固体沉到底部，液体被土壤过滤"
-        },
-        {
-          "en": "It sends waste directly to the drinking water",
-          "zh": "它把废物直接送到饮用水里"
-        },
-        {
           "en": "It burns the waste with fire",
           "zh": "它用火焚烧废物"
         },
         {
           "en": "It stores waste above ground",
           "zh": "它把废物储存在地面上"
+        },
+        {
+          "en": "It sends waste directly to the drinking water",
+          "zh": "它把废物直接送到饮用水里"
+        },
+        {
+          "en": "Solids drop to the bottom and liquid is filtered by the soil",
+          "zh": "固体沉到底部，液体被土壤过滤"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains that in a septic tank, solids drop to the bottom and the liquid runs out into the soil, which filters it before it reaches drinking water.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "A washing machine according to some versions of the story",
+          "zh": "一台洗衣机（按书中另一种说法）"
+        },
+        {
           "en": "A giant kitchen strainer",
           "zh": "一个巨大的厨房漏勺"
         },
         {
-          "en": "A washing machine",
-          "zh": "一台洗衣机"
+          "en": "A bicycle",
+          "zh": "一辆自行车"
         },
         {
           "en": "A water bottle",
           "zh": "一个水瓶"
-        },
-        {
-          "en": "A bicycle",
-          "zh": "一辆自行车"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says to 'think of a giant kitchen strainer' when describing the big screen that removes large items.",
@@ -163,12 +163,12 @@
       },
       "options": [
         {
-          "en": "A math equation",
-          "zh": "一个数学方程式"
-        },
-        {
           "en": "Onomatopoeia, a sound word used to catch the reader's attention",
           "zh": "拟声词，用来吸引读者注意力的声音词"
+        },
+        {
+          "en": "A math equation according to some versions of the story in an early draft of the book",
+          "zh": "一个数学方程式（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A chapter title",
@@ -179,7 +179,7 @@
           "zh": "一张照片"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The word 'SWOOSH!' mimics the sound of flushing, which is onomatopoeia used to engage the reader right away.",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "Leaks (12%)",
+          "zh": "漏水（12%）"
+        },
+        {
           "en": "The toilet (24%)",
           "zh": "马桶（24%）"
         },
@@ -203,13 +207,9 @@
         {
           "en": "The bath (3%)",
           "zh": "浴缸（3%）"
-        },
-        {
-          "en": "Leaks (12%)",
-          "zh": "漏水（12%）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The chart shows the toilet at 24%, which is higher than the shower (20%), faucet (19%), clothes washer (17%), leaks (12%), and others.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "It makes the water salty",
-          "zh": "它让水变咸"
+          "en": "It creates more sewage according to some versions of the story in an early draft of the book",
+          "zh": "它制造更多污水（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It stops all farming",
+          "zh": "它让所有农业都停止"
         },
         {
           "en": "It saves precious fresh water by reusing sewer water for irrigation",
           "zh": "通过把污水再利用来灌溉，节省宝贵的淡水"
         },
         {
-          "en": "It creates more sewage",
-          "zh": "它制造更多污水"
-        },
-        {
-          "en": "It stops all farming",
-          "zh": "它让所有农业都停止"
+          "en": "It makes the water salty",
+          "zh": "它让水变咸"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says reclaimed water irrigates a desert golf course and that reusing sewer water saves precious fresh water.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To show how sewage systems have improved over time",
-          "zh": "为了展示污水处理系统是如何随着时间改善的"
+          "en": "To describe old baseball games according to some versions of the story",
+          "zh": "为了描述古老的棒球比赛（按书中另一种说法）"
+        },
+        {
+          "en": "To explain how to build a house",
+          "zh": "为了解释如何盖房子"
         },
         {
           "en": "To prove people never got sick",
           "zh": "为了证明人们从不生病"
         },
         {
-          "en": "To describe old baseball games",
-          "zh": "为了描述古老的棒球比赛"
-        },
-        {
-          "en": "To explain how to build a house",
-          "zh": "为了解释如何盖房子"
+          "en": "To show how sewage systems have improved over time",
+          "zh": "为了展示污水处理系统是如何随着时间改善的"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The 'Sewage Through the Ages' section compares dirty past systems to today's modern sewerage systems to show improvement.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To explain where sewage goes and how it is treated",
-          "zh": "解释污水流向哪里以及如何处理"
-        },
-        {
           "en": "To sell toilets",
           "zh": "推销马桶"
         },
         {
-          "en": "To tell a scary story",
-          "zh": "讲一个恐怖故事"
+          "en": "To explain where sewage goes and how it is treated",
+          "zh": "解释污水流向哪里以及如何处理"
         },
         {
           "en": "To teach about cooking",
           "zh": "教人烹饪"
+        },
+        {
+          "en": "To tell a scary story according to some versions of the story",
+          "zh": "讲一个恐怖故事（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Focus Question is 'Where does sewage go, and how is it treated?' which is exactly what the book explains.",

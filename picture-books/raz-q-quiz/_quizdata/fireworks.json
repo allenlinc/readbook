@@ -12,12 +12,24 @@
         "zh": "烟花最可能是在哪里、什么时候开始的？"
       },
       "options": [
-        {"en": "In China, over 1,000 years ago, when a cook accidentally made gunpowder", "zh": "在中国，一千多年前，一位厨师意外制出了火药"},
-        {"en": "In Italy, about 200 years ago", "zh": "在意大利，大约两百年前"},
-        {"en": "In the United States, in 1900", "zh": "在美国，1900年"},
-        {"en": "In Egypt, with the pyramids", "zh": "在埃及，和金字塔一起"}
+        {
+          "en": "In Italy, about 200 years ago according to some versions of the story in an early draft of the book",
+          "zh": "在意大利，大约两百年前（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "In Egypt, with the pyramids",
+          "zh": "在埃及，和金字塔一起"
+        },
+        {
+          "en": "In the United States, in 1900",
+          "zh": "在美国，1900年"
+        },
+        {
+          "en": "In China, over 1,000 years ago, when a cook accidentally made gunpowder",
+          "zh": "在中国，一千多年前，一位厨师意外制出了火药"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'we do know that it happened in China over 1,000 years ago. Legend says that a Chinese cook accidentally created gunpowder by mixing ingredients in his kitchen.'",
@@ -30,12 +42,24 @@
         "zh": "根据书里的图表，哪种化学物质让烟花燃烧出蓝色？"
       },
       "options": [
-        {"en": "Copper salts", "zh": "铜盐"},
-        {"en": "Strontium salts", "zh": "锶盐"},
-        {"en": "Sodium", "zh": "钠"},
-        {"en": "Barium nitrate", "zh": "硝酸钡"}
+        {
+          "en": "Strontium salts",
+          "zh": "锶盐"
+        },
+        {
+          "en": "Sodium",
+          "zh": "钠"
+        },
+        {
+          "en": "Copper salts",
+          "zh": "铜盐"
+        },
+        {
+          "en": "Barium nitrate",
+          "zh": "硝酸钡"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The chart lists: Copper salts → Blue; Strontium salts → Red; Sodium → Yellow; Barium nitrate → Green; Potassium perchlorate → Makes loud booms.",
@@ -48,12 +72,24 @@
         "zh": "烟花是怎样发出巨大声响的？"
       },
       "options": [
-        {"en": "The intense heat expands the air around it in a wave, which the ear hears as sound — much like thunder from lightning", "zh": "炽热使周围的空气以波的形式向外膨胀，耳朵把这声波听成声音——就像闪电产生雷声一样"},
-        {"en": "The gunpowder is mixed with musical instruments", "zh": "火药里混入了乐器"},
-        {"en": "The shell is made of especially loud metal", "zh": "弹壳是用特别响的金属做的"},
-        {"en": "The stars spin against each other", "zh": "是「星体」互相摩擦旋转发出的"}
+        {
+          "en": "The gunpowder is mixed with musical instruments according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "火药里混入了乐器（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "The intense heat expands the air around it in a wave, which the ear hears as sound — much like thunder from lightning",
+          "zh": "炽热使周围的空气以波的形式向外膨胀，耳朵把这声波听成声音——就像闪电产生雷声一样"
+        },
+        {
+          "en": "The shell is made of especially loud metal",
+          "zh": "弹壳是用特别响的金属做的"
+        },
+        {
+          "en": "The stars spin against each other",
+          "zh": "是「星体」互相摩擦旋转发出的"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'Fireworks cause sound because the intense heat expands the air around the firework. The air is pushed outward in a wave... This is the same way that lightning creates thunder.'",
@@ -66,12 +102,24 @@
         "zh": "烟花里那些彩色或闪亮的小火药球叫什么？"
       },
       "options": [
-        {"en": "Stars", "zh": "星体 (stars)"},
-        {"en": "Mortars", "zh": "发射管 (mortars)"},
-        {"en": "Salutes", "zh": "礼炮 (salutes)"},
-        {"en": "Leaders", "zh": "引信 (leaders)"}
+        {
+          "en": "Leaders",
+          "zh": "引信 (leaders)"
+        },
+        {
+          "en": "Stars",
+          "zh": "星体 (stars)"
+        },
+        {
+          "en": "Mortars",
+          "zh": "发射管 (mortars)"
+        },
+        {
+          "en": "Salutes",
+          "zh": "礼炮 (salutes)"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'Fireworks makers roll the colored or sparkling gunpowder into small balls called stars.' Hundreds of stars can fit inside one shell.",
@@ -84,12 +132,24 @@
         "zh": "在词汇表里，「发射管」(mortar) 是什么？"
       },
       "options": [
-        {"en": "A metal tube that holds a firework shell and shoots it into the sky", "zh": "一种金属管，装着火弹壳并把它们射向天空"},
-        {"en": "A kind of explosive powder", "zh": "一种爆炸性火药"},
-        {"en": "The fuse that lights the lift charge", "zh": "点燃发射药的引信"},
-        {"en": "A bright flash and a loud bang", "zh": "一道亮光和一声巨响"}
+        {
+          "en": "The fuse that lights the lift charge according to some versions of the story",
+          "zh": "点燃发射药的引信（按书中另一种说法）"
+        },
+        {
+          "en": "A kind of explosive powder",
+          "zh": "一种爆炸性火药"
+        },
+        {
+          "en": "A metal tube that holds a firework shell and shoots it into the sky",
+          "zh": "一种金属管，装着火弹壳并把它们射向天空"
+        },
+        {
+          "en": "A bright flash and a loud bang",
+          "zh": "一道亮光和一声巨响"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines mortars as 'metal tubes that hold fireworks shells and shoot them into the sky (p. 17).' Each mortar holds one shell and shoots it like a cannon shoots a cannonball.",
@@ -102,10 +162,22 @@
         "zh": "「烟火术」(pyrotechnics) 这个词是什么意思？"
       },
       "options": [
-        {"en": "The making and lighting of fireworks and other fire effects", "zh": "烟花及其他火焰效果的制造与燃放"},
-        {"en": "A type of chemical salt", "zh": "一种化学盐"},
-        {"en": "The study of weather", "zh": "对天气的研究"},
-        {"en": "A wooden rack for holding shells", "zh": "摆放弹壳的木架"}
+        {
+          "en": "The making and lighting of fireworks and other fire effects",
+          "zh": "烟花及其他火焰效果的制造与燃放"
+        },
+        {
+          "en": "The study of weather",
+          "zh": "对天气的研究"
+        },
+        {
+          "en": "A wooden rack for holding shells according to some versions of the story",
+          "zh": "摆放弹壳的木架（按书中另一种说法）"
+        },
+        {
+          "en": "A type of chemical salt",
+          "zh": "一种化学盐"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "如今的烟花怎样能做到配合音乐燃放？"
       },
       "options": [
-        {"en": "Computer firing panels are so precise that designers program shells to light in time with a CD or computer music file", "zh": "电脑燃放面板非常精准，设计师可以把弹壳编好程序，配合CD或电脑里的音乐文件同步点亮"},
-        {"en": "Musicians play live music right next to each firework", "zh": "乐手在每颗烟花旁现场演奏"},
-        {"en": "The fireworks themselves make musical notes", "zh": "是烟花自己发出乐音"},
-        {"en": "The crowd sings along with the show", "zh": "是观众跟着表演一起唱"}
+        {
+          "en": "Musicians play live music right next to each firework according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "乐手在每颗烟花旁现场演奏（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "The crowd sings along with the show",
+          "zh": "是观众跟着表演一起唱"
+        },
+        {
+          "en": "The fireworks themselves make musical notes",
+          "zh": "是烟花自己发出乐音"
+        },
+        {
+          "en": "Computer firing panels are so precise that designers program shells to light in time with a CD or computer music file",
+          "zh": "电脑燃放面板非常精准，设计师可以把弹壳编好程序，配合CD或电脑里的音乐文件同步点亮"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, 'Computer firing panels have become so precise that fireworks can be set to music... The firing panel is programmed to light the shells with the music, using the timer on the CD or computer file.'",
@@ -138,10 +222,22 @@
         "zh": "引言说烟花「把科学和艺术结合在一起」。下面哪句话体现了这种结合？"
       },
       "options": [
-        {"en": "Makers use chemistry for colors and sound, while designers shape shells into globes, stars, or smiley faces and set them to music", "zh": "工匠用化学制造颜色和声音，而设计师把弹壳做成球体、星星或笑脸的形状，并让它配合音乐"},
-        {"en": "Fireworks are made only by machines in factories", "zh": "烟花只在工厂里由机器制造"},
-        {"en": "Fireworks are used only for wars", "zh": "烟花只用于战争"},
-        {"en": "Only small children enjoy fireworks", "zh": "只有小孩子喜欢烟花"}
+        {
+          "en": "Makers use chemistry for colors and sound, while designers shape shells into globes, stars, or smiley faces and set them to music",
+          "zh": "工匠用化学制造颜色和声音，而设计师把弹壳做成球体、星星或笑脸的形状，并让它配合音乐"
+        },
+        {
+          "en": "Fireworks are used only for wars",
+          "zh": "烟花只用于战争"
+        },
+        {
+          "en": "Fireworks are made only by machines in factories according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "烟花只在工厂里由机器制造（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Only small children enjoy fireworks",
+          "zh": "只有小孩子喜欢烟花"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,12 +252,24 @@
         "zh": "安全章节说，仅在美国每年就有约一万人被烟花炸伤。作者希望读者怎么做？"
       },
       "options": [
-        {"en": "Leave fireworks to trained professionals and never light them yourself", "zh": "把烟花交给受过训练的专业人士，自己绝不去点燃"},
-        {"en": "Buy as many fireworks as possible", "zh": "尽量多买烟花"},
-        {"en": "Store illegal fireworks at home", "zh": "把非法烟花存放在家里"},
-        {"en": "Light fireworks without an adult", "zh": "没有大人在场也去点燃烟花"}
+        {
+          "en": "Buy as many fireworks as possible",
+          "zh": "尽量多买烟花"
+        },
+        {
+          "en": "Leave fireworks to trained professionals and never light them yourself",
+          "zh": "把烟花交给受过训练的专业人士，自己绝不去点燃"
+        },
+        {
+          "en": "Store illegal fireworks at home",
+          "zh": "把非法烟花存放在家里"
+        },
+        {
+          "en": "Light fireworks without an adult according to some versions of the story",
+          "zh": "没有大人在场也去点燃烟花（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "After listing the dangers, the book concludes, 'It is best to leave fireworks to the trained professionals,' and gives safety tips such as never lighting fireworks yourself.",
@@ -174,10 +282,22 @@
         "zh": "作者为什么在书的一开头，描写世界各地用烟花迎接2000年的情景？"
       },
       "options": [
-        {"en": "To show that fireworks are a worldwide celebration that brings people together, and to spark the reader's interest", "zh": "为了展现烟花是一场把人们聚在一起的世界性庆典，并激发读者的兴趣"},
-        {"en": "To teach the reader how to travel the world", "zh": "为了教读者怎样周游世界"},
-        {"en": "To prove fireworks only happen in big cities", "zh": "为了证明烟花只在大城市才有"},
-        {"en": "To explain how to tell time by the Earth's turning", "zh": "为了讲解怎样根据地球转动来判断时间"}
+        {
+          "en": "To show that fireworks are a worldwide celebration that brings people together, and to spark the reader's interest",
+          "zh": "为了展现烟花是一场把人们聚在一起的世界性庆典，并激发读者的兴趣"
+        },
+        {
+          "en": "To teach the reader how to travel the world",
+          "zh": "为了教读者怎样周游世界"
+        },
+        {
+          "en": "To explain how to tell time by the Earth's turning according to some versions of the story in an early draft of the book",
+          "zh": "为了讲解怎样根据地球转动来判断时间（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To prove fireworks only happen in big cities",
+          "zh": "为了证明烟花只在大城市才有"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

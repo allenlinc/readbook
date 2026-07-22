@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "Nottingham Castle",
-          "zh": "诺丁汉城堡"
-        },
-        {
           "en": "Deep in Sherwood Forest",
           "zh": "舍伍德森林深处"
         },
@@ -25,11 +21,15 @@
           "zh": "一个村庄"
         },
         {
+          "en": "Nottingham Castle according to some versions of the story",
+          "zh": "诺丁汉城堡（按书中另一种说法）"
+        },
+        {
           "en": "London",
           "zh": "伦敦"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Robin Hood lived with his band 'deep inside Sherwood Forest.'",
@@ -51,12 +51,12 @@
           "zh": "被欺骗"
         },
         {
-          "en": "Praised",
-          "zh": "称赞"
+          "en": "Arrested according to some versions of the story",
+          "zh": "被捕（按书中另一种说法）"
         },
         {
-          "en": "Arrested",
-          "zh": "被捕"
+          "en": "Praised",
+          "zh": "称赞"
         }
       ],
       "answer": 1,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "He fought him",
-          "zh": "他与卫兵打斗"
+          "en": "He ran away",
+          "zh": "他逃跑了"
+        },
+        {
+          "en": "He fought him according to some versions of the story in an early draft of the book",
+          "zh": "他与卫兵打斗（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "He fed the guard until he fell asleep and stole the warrant",
           "zh": "他让卫兵吃撑到睡着，然后偷走了逮捕令"
         },
         {
-          "en": "He ran away",
-          "zh": "他逃跑了"
-        },
-        {
           "en": "He paid him",
           "zh": "他付钱给卫兵"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Robin 'invited the guard to a feast'; the guard 'ate too much and fell asleep,' so Robin stole the warrant.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "He was poor",
-          "zh": "他很穷"
-        },
-        {
           "en": "So the Sheriff would not recognize him at the archery festival",
           "zh": "为了不让郡长在射箭比赛上认出他"
         },
         {
-          "en": "He lost his clothes",
-          "zh": "他弄丢了衣服"
+          "en": "He was poor",
+          "zh": "他很穷"
         },
         {
           "en": "To beg for food",
           "zh": "为了讨饭"
+        },
+        {
+          "en": "He lost his clothes according to some versions of the story in an early draft of the book",
+          "zh": "他弄丢了衣服（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Robin colored his hair with walnut stain and wore a patch and ragged clothes so the Sheriff 'did not recognize him.'",
@@ -133,10 +133,6 @@
       },
       "options": [
         {
-          "en": "Gill o' the Red Cap",
-          "zh": "红帽吉尔"
-        },
-        {
           "en": "The Sheriff",
           "zh": "郡长"
         },
@@ -147,9 +143,13 @@
         {
           "en": "Adam o' the Dell",
           "zh": "山谷亚当"
+        },
+        {
+          "en": "Gill o' the Red Cap according to some versions of the story",
+          "zh": "红帽吉尔（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The 'tattered beggar'—Robin in disguise—shot the center and 'won the gold-covered arrow.'",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "To celebrate Robin Hood",
-          "zh": "为了庆祝罗宾汉"
+          "en": "To celebrate Robin Hood according to some versions of the story",
+          "zh": "为了庆祝罗宾汉（按书中另一种说法）"
         },
         {
           "en": "To trap and catch Robin Hood",
           "zh": "为了设陷阱抓住罗宾汉"
         },
         {
-          "en": "To teach archery",
-          "zh": "为了教授射箭"
-        },
-        {
           "en": "To give away gold",
           "zh": "为了分发黄金"
+        },
+        {
+          "en": "To teach archery",
+          "zh": "为了教授射箭"
         }
       ],
       "answer": 1,
@@ -193,12 +193,8 @@
       },
       "options": [
         {
-          "en": "Cruel and greedy",
-          "zh": "残忍而贪婪"
-        },
-        {
-          "en": "A clever outlaw who helps the poor",
-          "zh": "一个帮助穷人的聪明亡命之徒"
+          "en": "Cruel and greedy according to some versions of the story",
+          "zh": "残忍而贪婪（按书中另一种说法）"
         },
         {
           "en": "A coward",
@@ -207,9 +203,13 @@
         {
           "en": "A farmer",
           "zh": "一个农民"
+        },
+        {
+          "en": "A clever outlaw who helps the poor",
+          "zh": "一个帮助穷人的聪明亡命之徒"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Robin 'stole back the gold taken in unjust taxes' and gave it to the poor, and used clever disguises.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Both hated him",
-          "zh": "两人都恨他"
-        },
-        {
           "en": "Enemies saw him as a hated robber; common folk saw him as a beloved hero",
           "zh": "敌人视他为可恨的强盗；百姓视他为受人爱戴的英雄"
         },
         {
-          "en": "Both loved him",
-          "zh": "两人都爱戴他"
+          "en": "Both loved him according to some versions of the story in an early draft of the book",
+          "zh": "两人都爱戴他（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Both hated him",
+          "zh": "两人都恨他"
         },
         {
           "en": "No one cared",
           "zh": "没有人关心"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, 'To his enemies, Robin and his men were hated robbers. To the common folk they helped, they were beloved heroes.'",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "He sent a letter by mail",
-          "zh": "他邮寄了一封信"
-        },
-        {
-          "en": "He shot an arrow with a note through the window into the Sheriff's roast",
-          "zh": "他射出一支带字条的箭，穿过窗户扎进郡长的烤肉里"
+          "en": "He sent a letter by mail according to some versions of the story in an early draft of the book",
+          "zh": "他邮寄了一封信（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "He visited the Sheriff",
           "zh": "他亲自拜访郡长"
         },
         {
+          "en": "He shot an arrow with a note through the window into the Sheriff's roast",
+          "zh": "他射出一支带字条的箭，穿过窗户扎进郡长的烤肉里"
+        },
+        {
           "en": "Little John told him",
           "zh": "小约翰告诉了他"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A 'shaft flew through the window. It stuck straight into the roast' with a note saying the beggar was Robin Hood.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "A news report about archery",
-          "zh": "一篇关于射箭的新闻报道"
+          "en": "A news report about archery according to some versions of the story",
+          "zh": "一篇关于射箭的新闻报道（按书中另一种说法）"
         },
         {
-          "en": "A folktale that admires Robin's cleverness and fairness to the poor",
-          "zh": "一个赞美罗宾的机智和对穷人公平的民间传说"
+          "en": "A history of England",
+          "zh": "一部英国史"
         },
         {
           "en": "A science book",
           "zh": "一本科普书"
         },
         {
-          "en": "A history of England",
-          "zh": "一部英国史"
+          "en": "A folktale that admires Robin's cleverness and fairness to the poor",
+          "zh": "一个赞美罗宾的机智和对穷人公平的民间传说"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "It is 'An English Folktale' that celebrates Robin Hood's cleverness and his giving to the poor.",

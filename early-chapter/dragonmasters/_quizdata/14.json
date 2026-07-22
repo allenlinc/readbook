@@ -14,10 +14,22 @@
         "zh": "是什么摧毁了布拉克恩王国的庄稼？"
       },
       "options": [
-        {"en": "A flood from the river", "zh": "河流引发的洪水"},
-        {"en": "An earthquake caused by Maldred and the Naga", "zh": "马尔德雷德与地震龙纳迦引发的地震"},
-        {"en": "A long, cold winter", "zh": "漫长而寒冷的冬天"},
-        {"en": "A fire in the fields", "zh": "田地里的大火"}
+        {
+          "en": "A flood from the river according to some versions of the story",
+          "zh": "河流引发的洪水（按书中另一种说法）"
+        },
+        {
+          "en": "An earthquake caused by Maldred and the Naga",
+          "zh": "马尔德雷德与地震龙纳迦引发的地震"
+        },
+        {
+          "en": "A long, cold winter",
+          "zh": "漫长而寒冷的冬天"
+        },
+        {
+          "en": "A fire in the fields",
+          "zh": "田地里的大火"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -31,10 +43,22 @@
         "zh": "这本书里春龙的名字是什么？"
       },
       "options": [
-        {"en": "Fallyn", "zh": "法琳（Fallyn）"},
-        {"en": "Worm", "zh": "沃姆（Worm）"},
-        {"en": "Naga", "zh": "纳迦（Naga）"},
-        {"en": "Hinky Pink", "zh": "辛奇·平克（Hinky Pink）"}
+        {
+          "en": "Fallyn",
+          "zh": "法琳（Fallyn）"
+        },
+        {
+          "en": "Worm",
+          "zh": "沃姆（Worm）"
+        },
+        {
+          "en": "Hinky Pink",
+          "zh": "辛奇·平克（Hinky Pink）"
+        },
+        {
+          "en": "Naga",
+          "zh": "纳迦（Naga）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -48,12 +72,24 @@
         "zh": "布琳（Breen）是谁？"
       },
       "options": [
-        {"en": "The king's royal wizard", "zh": "国王的宫廷巫师"},
-        {"en": "A redcap fairy who loves marching", "zh": "一个喜欢行军的红帽小妖精"},
-        {"en": "Fallyn's Dragon Master", "zh": "法琳的驯龙师"},
-        {"en": "The ruler of Inis Banba", "zh": "伊尼斯·班巴的统治者"}
+        {
+          "en": "The king's royal wizard",
+          "zh": "国王的宫廷巫师"
+        },
+        {
+          "en": "A redcap fairy who loves marching",
+          "zh": "一个喜欢行军的红帽小妖精"
+        },
+        {
+          "en": "The ruler of Inis Banba",
+          "zh": "伊尼斯·班巴的统治者"
+        },
+        {
+          "en": "Fallyn's Dragon Master",
+          "zh": "法琳的驯龙师"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": {
         "en": "Breen is the red-haired, freckled Dragon Master of Fallyn, who lives in Inis Banba.",
         "zh": "布琳是法琳的驯龙师，红头发、有雀斑，住在伊尼斯·班巴。"
@@ -65,12 +101,24 @@
         "zh": "为什么德雷克必须把自己的龙沃姆留在精灵世界之外？"
       },
       "options": [
-        {"en": "Worm was too big to fit through the door", "zh": "沃姆太大，进不了门"},
-        {"en": "Breen did not like Worm", "zh": "布琳不喜欢沃姆"},
-        {"en": "Worm was too scared to go", "zh": "沃姆太害怕了不敢去"},
-        {"en": "There is only room for one dragon in the fairy world", "zh": "精灵世界里只能容纳一条龙"}
+        {
+          "en": "There is only room for one dragon in the fairy world",
+          "zh": "精灵世界里只能容纳一条龙"
+        },
+        {
+          "en": "Worm was too scared to go",
+          "zh": "沃姆太害怕了不敢去"
+        },
+        {
+          "en": "Worm was too big to fit through the door according to some versions of the story",
+          "zh": "沃姆太大，进不了门（按书中另一种说法）"
+        },
+        {
+          "en": "Breen did not like Worm",
+          "zh": "布琳不喜欢沃姆"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "explain": {
         "en": "Breen explains that Drake must find Fallyn using his own courage and wits, and only one dragon may enter.",
         "zh": "布琳说德雷克必须靠自己的勇气和智慧去寻找法琳，而且精灵世界里只能有一条龙进入。"
@@ -82,12 +130,24 @@
         "zh": "隐藏的精灵世界里天空是什么颜色的？"
       },
       "options": [
-        {"en": "Blue", "zh": "蓝色"},
-        {"en": "Pink", "zh": "粉色"},
-        {"en": "Green", "zh": "绿色"},
-        {"en": "Purple", "zh": "紫色"}
+        {
+          "en": "Purple",
+          "zh": "紫色"
+        },
+        {
+          "en": "Blue",
+          "zh": "蓝色"
+        },
+        {
+          "en": "Pink",
+          "zh": "粉色"
+        },
+        {
+          "en": "Green",
+          "zh": "绿色"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Inside the fairy world the sky is a strange shade of pink instead of bright blue.",
         "zh": "精灵世界里的天空是一种奇特的粉色，而不是明亮的蓝色。"
@@ -99,12 +159,24 @@
         "zh": "德雷克是如何从逼他永远行军的红帽小妖精手里逃脱的？"
       },
       "options": [
-        {"en": "He fights them with his sword", "zh": "他用剑和它们战斗"},
-        {"en": "He runs away faster than them", "zh": "他比它们跑得更快"},
-        {"en": "He tricks them into hide-and-seek and has them count to ten thousand six hundred twenty-three", "zh": "他骗它们玩捉迷藏，让它们数到一万零六百二十三"},
-        {"en": "He asks Breen to carry him away", "zh": "他请布琳把他带走"}
+        {
+          "en": "He fights them with his sword",
+          "zh": "他用剑和它们战斗"
+        },
+        {
+          "en": "He tricks them into hide-and-seek and has them count to ten thousand six hundred twenty-three",
+          "zh": "他骗它们玩捉迷藏，让它们数到一万零六百二十三"
+        },
+        {
+          "en": "He asks Breen to carry him away according to some versions of the story in an early draft of the book",
+          "zh": "他请布琳把他带走（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He runs away faster than them",
+          "zh": "他比它们跑得更快"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "Drake promises a 'more fun' game, gets them to release their magic hold, then tells them to count to 10,623 while he escapes.",
         "zh": "德雷克说有个更好玩的游戏，让它们解开魔法控制，然后让它们数到10623，趁机溜走。"
@@ -116,12 +188,24 @@
         "zh": "德雷克是如何驱散辛奇·平克制造的浓雾的？"
       },
       "options": [
-        {"en": "He asks Worm to make his Dragon Stone glow brightly", "zh": "他让沃姆把自己的龙石变得明亮发光"},
-        {"en": "He waits for night to fall", "zh": "他等到夜晚降临"},
-        {"en": "He blows it away with his breath", "zh": "他用自己的呼吸把它吹散"},
-        {"en": "He uses a lantern he found", "zh": "他用找到的灯笼"}
+        {
+          "en": "He waits for night to fall",
+          "zh": "他等到夜晚降临"
+        },
+        {
+          "en": "He uses a lantern he found",
+          "zh": "他用找到的灯笼"
+        },
+        {
+          "en": "He asks Worm to make his Dragon Stone glow brightly",
+          "zh": "他让沃姆把自己的龙石变得明亮发光"
+        },
+        {
+          "en": "He blows it away with his breath according to some versions of the story",
+          "zh": "他用自己的呼吸把它吹散（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Drake contacts Worm through his Dragon Stone, and Worm makes the stone shine so brightly that the fog vanishes.",
         "zh": "德雷克通过龙石联系沃姆，沃姆让龙石发出耀眼的光，浓雾随即消散。"
@@ -133,10 +217,22 @@
         "zh": "德雷克是怎么发现精灵世界里遇到的“博”不是真人的？"
       },
       "options": [
-        {"en": "The boy had the wrong name", "zh": "那个男孩说错了名字"},
-        {"en": "Breen told him the truth", "zh": "布琳告诉了他真相"},
-        {"en": "Bo was wearing different clothes", "zh": "博穿了不一样的衣服"},
-        {"en": "Drake tests him by mentioning Darma and the Gold Dragon, but Rori went, not Bo", "zh": "德雷克用达尔玛和黄金龙的事试探，其实是罗瑞去的，不是博"}
+        {
+          "en": "Breen told him the truth",
+          "zh": "布琳告诉了他真相"
+        },
+        {
+          "en": "The boy had the wrong name",
+          "zh": "那个男孩说错了名字"
+        },
+        {
+          "en": "Bo was wearing different clothes according to some versions of the story in an early draft of the book",
+          "zh": "博穿了不一样的衣服（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Drake tests him by mentioning Darma and the Gold Dragon, but Rori went, not Bo",
+          "zh": "德雷克用达尔玛和黄金龙的事试探，其实是罗瑞去的，不是博"
+        }
       ],
       "answer": 3,
       "explain": {
@@ -150,12 +246,24 @@
         "zh": "在树精灵的谜语里，符合“粉色天空色、樱桃红中心”的花有多少片花瓣？"
       },
       "options": [
-        {"en": "Four", "zh": "4片"},
-        {"en": "Nine", "zh": "9片"},
-        {"en": "Five", "zh": "5片"},
-        {"en": "Six", "zh": "6片"}
+        {
+          "en": "Five",
+          "zh": "5片"
+        },
+        {
+          "en": "Six",
+          "zh": "6片"
+        },
+        {
+          "en": "Nine according to some versions of the story",
+          "zh": "9片（按书中另一种说法）"
+        },
+        {
+          "en": "Four",
+          "zh": "4片"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "It had to be more than a horse's four legs and fewer than a spider's eight legs; Drake found a five-petal pink flower.",
         "zh": "谜语说花瓣要多于马的4条腿、少于蜘蛛的8条腿，德雷克找到了一朵5片花瓣的粉色花。"
@@ -167,10 +275,22 @@
         "zh": "法琳让布拉克恩的农田恢复生机后，出现了什么特别的新花？"
       },
       "options": [
-        {"en": "A plain rose", "zh": "一朵普通的玫瑰"},
-        {"en": "The Dragon Flower, shaped like a dragon's head", "zh": "龙花，形状像龙头喷火"},
-        {"en": "A sunflower", "zh": "一朵向日葵"},
-        {"en": "A redcap blossom", "zh": "红帽小妖精的花"}
+        {
+          "en": "A sunflower",
+          "zh": "一朵向日葵"
+        },
+        {
+          "en": "The Dragon Flower, shaped like a dragon's head",
+          "zh": "龙花，形状像龙头喷火"
+        },
+        {
+          "en": "A redcap blossom according to some versions of the story",
+          "zh": "红帽小妖精的花（按书中另一种说法）"
+        },
+        {
+          "en": "A plain rose",
+          "zh": "一朵普通的玫瑰"
+        }
       ],
       "answer": 1,
       "explain": {

@@ -17,8 +17,8 @@
           "zh": "一种动物"
         },
         {
-          "en": "Only a machine",
-          "zh": "只能是一台机器"
+          "en": "Only a machine according to some versions of the story",
+          "zh": "只能是一台机器（按书中另一种说法）"
         },
         {
           "en": "A country",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Only luck",
-          "zh": "只有运气"
-        },
-        {
           "en": "One invention leads to another, and needs lead people to invent",
           "zh": "一项发明催生另一项发明，而需求促使人们去发明"
         },
         {
-          "en": "Watching television",
-          "zh": "看电视"
+          "en": "Watching television according to some versions of the story in an early draft of the book",
+          "zh": "看电视（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Eating cheese",
           "zh": "吃奶酪"
+        },
+        {
+          "en": "Only luck",
+          "zh": "只有运气"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book titles a section 'Inventions Follow Inventions' and quotes 'need is the mother of invention,' showing both ideas drive new inventions.",
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "A kind of cheese",
+          "zh": "一种奶酪"
+        },
+        {
           "en": "A sport",
           "zh": "一项运动"
         },
@@ -81,15 +85,11 @@
           "zh": "一种法律权利，确保只有拥有者才能制造或出售该发明"
         },
         {
-          "en": "A type of computer",
-          "zh": "一种计算机"
-        },
-        {
-          "en": "A kind of cheese",
-          "zh": "一种奶酪"
+          "en": "A type of computer according to some versions of the story in an early draft of the book",
+          "zh": "一种计算机（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says: 'A patent ensures that only the person who owns the patent can make or sell the invention.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Because inventions are made by mothers",
-          "zh": "因为发明都是由母亲做出的"
-        },
-        {
-          "en": "Because all inventors have children",
-          "zh": "因为所有发明家都有孩子"
-        },
-        {
           "en": "Because a need forces people to invent ways to solve a problem",
           "zh": "因为需求会迫使人们发明出解决问题的方法"
         },
         {
+          "en": "Because inventions are made by mothers according to some versions of the story",
+          "zh": "因为发明都是由母亲做出的（按书中另一种说法）"
+        },
+        {
           "en": "Because food causes inventions",
           "zh": "因为食物导致了发明"
+        },
+        {
+          "en": "Because all inventors have children",
+          "zh": "因为所有发明家都有孩子"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains this means 'a need for something forces people to invent ways to solve that problem,' such as inventing spacesuits to explore space.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "George Washington according to some versions of the story",
+          "zh": "乔治·华盛顿（按书中另一种说法）"
+        },
+        {
           "en": "Thomas Edison",
           "zh": "托马斯·爱迪生"
         },
         {
-          "en": "Konrad Zuse, a German",
-          "zh": "德国的康拉德·楚泽"
-        },
-        {
-          "en": "George Washington",
-          "zh": "乔治·华盛顿"
-        },
-        {
           "en": "Wayne Gretzky",
           "zh": "韦恩·格雷茨基"
+        },
+        {
+          "en": "Konrad Zuse, a German",
+          "zh": "德国的康拉德·楚泽"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'Many historians think that a German named Konrad Zuse invented the computer. In 1941, he used old materials to build the first computer.'",
@@ -167,16 +167,16 @@
           "zh": "为了解释什么是发明，以及发明如何相互推动"
         },
         {
-          "en": "To tell a fairy tale",
-          "zh": "为了讲一个童话"
-        },
-        {
-          "en": "To describe one person's life",
-          "zh": "为了描写一个人的生平"
-        },
-        {
           "en": "To teach how to cook",
           "zh": "为了教人做饭"
+        },
+        {
+          "en": "To describe one person's life according to some versions of the story",
+          "zh": "为了描写一个人的生平（按书中另一种说法）"
+        },
+        {
+          "en": "To tell a fairy tale",
+          "zh": "为了讲一个童话"
         }
       ],
       "answer": 0,
@@ -193,8 +193,8 @@
       },
       "options": [
         {
-          "en": "Computers, then the Internet",
-          "zh": "计算机，然后是互联网"
+          "en": "Nothing followed the wheel",
+          "zh": "轮子之后什么都没出现"
         },
         {
           "en": "Carts, then animals to pull them, then the gasoline engine, then cars and trains",
@@ -205,8 +205,8 @@
           "zh": "火箭，然后是月球"
         },
         {
-          "en": "Nothing followed the wheel",
-          "zh": "轮子之后什么都没出现"
+          "en": "Computers, then the Internet according to some versions of the story in an early draft of the book",
+          "zh": "计算机，然后是互联网（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "A law",
-          "zh": "一部法律"
-        },
-        {
-          "en": "A type of sport",
-          "zh": "一种运动"
-        },
-        {
           "en": "A kind of food",
           "zh": "一种食物"
         },
         {
           "en": "Tiny electronic parts that make a computer work",
           "zh": "使计算机工作的微小电子部件"
+        },
+        {
+          "en": "A type of sport according to some versions of the story",
+          "zh": "一种运动（按书中另一种说法）"
+        },
+        {
+          "en": "A law",
+          "zh": "一部法律"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'integrated circuits' as 'tiny electronic parts that make a computer work.'",
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "100 patents according to some versions of the story",
+          "zh": "100项专利（按书中另一种说法）"
+        },
+        {
           "en": "None",
           "zh": "一项都没有"
         },
@@ -261,15 +265,11 @@
           "zh": "1,093项专利"
         },
         {
-          "en": "100 patents",
-          "zh": "100项专利"
-        },
-        {
           "en": "10 patents",
           "zh": "10项专利"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'Thomas Edison held 1,093 different patents for the things he invented, including the lightbulb.'",
@@ -287,19 +287,19 @@
           "zh": "发现是由发明家做出的"
         },
         {
-          "en": "An invention is only found in nature",
-          "zh": "发明只存在于自然界"
-        },
-        {
           "en": "An invention uses existing knowledge to make new devices; a discovery is learning about things that already exist",
           "zh": "发明是利用已有知识造出新装置；发现是认识已经存在的东西"
+        },
+        {
+          "en": "An invention is only found in nature according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "发明只存在于自然界（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
           "en": "They mean exactly the same thing",
           "zh": "它们的意思完全一样"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says discoveries happen 'when people first learn about things that already exist,' while inventors 'use existing knowledge to create new devices or processes.'",

@@ -12,12 +12,24 @@
         "zh": "大都会艺术博物馆是在哪一年对外开放的？"
       },
       "options": [
-        {"en": "in the early 1800s", "zh": "在19世纪初"},
-        {"en": "in 1870", "zh": "1870年"},
-        {"en": "near the end of the 1800s", "zh": "在19世纪末"},
-        {"en": "in the year 1900", "zh": "1900年"}
+        {
+          "en": "near the end of the 1800s",
+          "zh": "在19世纪末"
+        },
+        {
+          "en": "in the year 1900",
+          "zh": "1900年"
+        },
+        {
+          "en": "in the early 1800s",
+          "zh": "在19世纪初"
+        },
+        {
+          "en": "in 1870",
+          "zh": "1870年"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Chloe tells the tour group that the museum, which opened in 1870, is four city blocks long and holds more than two million objects.",
@@ -30,12 +42,24 @@
         "zh": "丹铎神庙为何被运到纽约并在博物馆内重建？"
       },
       "options": [
-        {"en": "Egypt gave it to the museum as a gift.", "zh": "埃及将神庙作为礼物赠予博物馆。"},
-        {"en": "It was too small to remain in Egypt.", "zh": "神庙太小，无法留在埃及。"},
-        {"en": "Aswan Dam flooding threatened it, so it was preserved in New York.", "zh": "阿斯旺水坝的洪水威胁到它，因此它在纽约被保存下来。"},
-        {"en": "Egyptian tourists stopped visiting it.", "zh": "埃及的游客不再参观这座神庙。"}
+        {
+          "en": "Egypt gave it to the museum as a gift. according to some versions of the story",
+          "zh": "埃及将神庙作为礼物赠予博物馆。（按书中另一种说法）"
+        },
+        {
+          "en": "Aswan Dam flooding threatened it, so it was preserved in New York.",
+          "zh": "阿斯旺水坝的洪水威胁到它，因此它在纽约被保存下来。"
+        },
+        {
+          "en": "It was too small to remain in Egypt.",
+          "zh": "神庙太小，无法留在埃及。"
+        },
+        {
+          "en": "Egyptian tourists stopped visiting it.",
+          "zh": "埃及的游客不再参观这座神庙。"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Aswan Dam caused flooding that submerged the temple each year, and its 1960s rebuilding permanently jeopardized the site, so it was disassembled, shipped, and reassembled in New York to preserve its history.",
@@ -48,10 +72,22 @@
         "zh": "本书中 docent 一词的意思是什么？"
       },
       "options": [
-        {"en": "a guide who leads tours at a museum or cultural place", "zh": "在博物馆或文化场所带领参观的讲解员"},
-        {"en": "a kind of bright abstract painting", "zh": "一种明亮的抽象画"},
-        {"en": "an ancient object found in a tomb", "zh": "在坟墓中发现的古代物品"},
-        {"en": "the front face of a large building", "zh": "大型建筑的正面"}
+        {
+          "en": "a guide who leads tours at a museum or cultural place",
+          "zh": "在博物馆或文化场所带领参观的讲解员"
+        },
+        {
+          "en": "the front face of a large building",
+          "zh": "大型建筑的正面"
+        },
+        {
+          "en": "a kind of bright abstract painting",
+          "zh": "一种明亮的抽象画"
+        },
+        {
+          "en": "an ancient object found in a tomb according to some versions of the story",
+          "zh": "在坟墓中发现的古代物品（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -66,10 +102,22 @@
         "zh": "按照克洛伊的说法，用‘批判的眼光’看待艺术是什么意思？"
       },
       "options": [
-        {"en": "Only admiring how pretty the picture looks on the wall.", "zh": "只欣赏画作挂在墙上时有多漂亮。"},
-        {"en": "Copying the artwork quickly onto paper.", "zh": "迅速把艺术品临摹到纸上。"},
-        {"en": "Avoiding museums that you do not enjoy.", "zh": "避开自己不喜欢的博物馆。"},
-        {"en": "Questioning its content and learning its history.", "zh": "质疑其内容并了解其背后的历史。"}
+        {
+          "en": "Copying the artwork quickly onto paper.",
+          "zh": "迅速把艺术品临摹到纸上。"
+        },
+        {
+          "en": "Only admiring how pretty the picture looks on the wall.",
+          "zh": "只欣赏画作挂在墙上时有多漂亮。"
+        },
+        {
+          "en": "Avoiding museums that you do not enjoy.",
+          "zh": "避开自己不喜欢的博物馆。"
+        },
+        {
+          "en": "Questioning its content and learning its history.",
+          "zh": "质疑其内容并了解其背后的历史。"
+        }
       ],
       "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
@@ -84,12 +132,24 @@
         "zh": "到参观结束时，学生叙述者对艺术的态度发生了怎样的变化？"
       },
       "options": [
-        {"en": "He remains convinced that visiting museums is always a waste of time.", "zh": "他始终认为去博物馆纯粹是浪费时间。"},
-        {"en": "He comes to value art after first thinking the tour was pointless.", "zh": "他起初觉得参观毫无意义，后来却开始重视艺术。"},
-        {"en": "He resolves to paint realistic landscapes every day.", "zh": "他决定每天都画写实风景画。"},
-        {"en": "He forgets about the essay he must write.", "zh": "他忘记了自己必须写的文章。"}
+        {
+          "en": "He comes to value art after first thinking the tour was pointless.",
+          "zh": "他起初觉得参观毫无意义，后来却开始重视艺术。"
+        },
+        {
+          "en": "He resolves to paint realistic landscapes every day.",
+          "zh": "他决定每天都画写实风景画。"
+        },
+        {
+          "en": "He remains convinced that visiting museums is always a waste of time. according to some versions of the story",
+          "zh": "他始终认为去博物馆纯粹是浪费时间。（按书中另一种说法）"
+        },
+        {
+          "en": "He forgets about the essay he must write.",
+          "zh": "他忘记了自己必须写的文章。"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "At the start the narrator thinks the assignment sounds pointless and asks if art is just paintings on a wall, but by the end he admits he underestimated why art is so important.",
@@ -102,10 +162,22 @@
         "zh": "本书以哪位艺术家的作品作为‘行动绘画’的例子？"
       },
       "options": [
-        {"en": "Jackson Pollock", "zh": "杰克逊·波洛克"},
-        {"en": "Vincent van Gogh, who painted a famous self portrait", "zh": "文森特·梵高，他画过一幅著名的自画像"},
-        {"en": "Claude Monet, known for his water lilies", "zh": "克劳德·莫奈，以睡莲闻名"},
-        {"en": "Emanuel Leutze, who painted Washington Crossing", "zh": "埃马努埃尔·洛伊茨，他画了《华盛顿横渡特拉华河》"}
+        {
+          "en": "Jackson Pollock",
+          "zh": "杰克逊·波洛克"
+        },
+        {
+          "en": "Vincent van Gogh, who painted a famous self portrait",
+          "zh": "文森特·梵高，他画过一幅著名的自画像"
+        },
+        {
+          "en": "Claude Monet, known for his water lilies",
+          "zh": "克劳德·莫奈，以睡莲闻名"
+        },
+        {
+          "en": "Emanuel Leutze, who painted Washington Crossing",
+          "zh": "埃马努埃尔·洛伊茨，他画了《华盛顿横渡特拉华河》"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "在词汇表中，replicate 一词的意思是什么？"
       },
       "options": [
-        {"en": "to light up a dark room", "zh": "点亮一个昏暗的房间"},
-        {"en": "a safe place that gives protection", "zh": "提供庇护的安全之地"},
-        {"en": "to reproduce or imitate something exactly", "zh": "精确地复制或模仿某物"},
-        {"en": "very detailed or complex", "zh": "非常精细或复杂"}
+        {
+          "en": "very detailed or complex",
+          "zh": "非常精细或复杂"
+        },
+        {
+          "en": "to reproduce or imitate something exactly",
+          "zh": "精确地复制或模仿某物"
+        },
+        {
+          "en": "to light up a dark room",
+          "zh": "点亮一个昏暗的房间"
+        },
+        {
+          "en": "a safe place that gives protection according to some versions of the story",
+          "zh": "提供庇护的安全之地（按书中另一种说法）"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines replicate as 'to reproduce or imitate something exactly,' which is how the museum room was built to copy the temple's Egyptian homeland environment.",
@@ -138,12 +222,24 @@
         "zh": "古罗马寝室的壁画经历了什么，又为何得以保存？"
       },
       "options": [
-        {"en": "They were destroyed by a fire inside the museum.", "zh": "它们在博物馆内的一场火灾中被毁。"},
-        {"en": "They were painted by the museum's modern founders.", "zh": "它们由博物馆的现代创立者绘制。"},
-        {"en": "They were shipped from Japan in the early 1900s.", "zh": "它们在20世纪初从日本运来。"},
-        {"en": "Buried by Mount Vesuvius ash in AD 79, they were preserved like a time capsule.", "zh": "它们在公元79年被维苏威火山的灰烬掩埋，如同时间胶囊一般被保存下来。"}
+        {
+          "en": "They were destroyed by a fire inside the museum.",
+          "zh": "它们在博物馆内的一场火灾中被毁。"
+        },
+        {
+          "en": "They were shipped from Japan in the early 1900s.",
+          "zh": "它们在20世纪初从日本运来。"
+        },
+        {
+          "en": "Buried by Mount Vesuvius ash in AD 79, they were preserved like a time capsule.",
+          "zh": "它们在公元79年被维苏威火山的灰烬掩埋，如同时间胶囊一般被保存下来。"
+        },
+        {
+          "en": "They were painted by the museum's modern founders. according to some versions of the story",
+          "zh": "它们由博物馆的现代创立者绘制。（按书中另一种说法）"
+        }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "When Mount Vesuvius erupted on August 24, AD 79, lethal ash buried the villages; the ash created a time capsule that preserved the paintings, which date back to 70 BC.",
@@ -156,12 +252,24 @@
         "zh": "学生参观博物馆的主要目的是什么？"
       },
       "options": [
-        {"en": "To attend a special live concert held on the museum's Roof Garden.", "zh": "去博物馆的屋顶花园听一场特别的现场音乐会。"},
-        {"en": "To take a guided tour and compare three works of art in an essay.", "zh": "参加导览，并在文章中比较三件艺术品。"},
-        {"en": "To buy a French suit of armor.", "zh": "去买一套法国盔甲。"},
-        {"en": "To meet the artist Jackson Pollock.", "zh": "去见艺术家杰克逊·波洛克。"}
+        {
+          "en": "To meet the artist Jackson Pollock.",
+          "zh": "去见艺术家杰克逊·波洛克。"
+        },
+        {
+          "en": "To attend a special live concert held on the museum's Roof Garden.",
+          "zh": "去博物馆的屋顶花园听一场特别的现场音乐会。"
+        },
+        {
+          "en": "To take a guided tour and compare three works of art in an essay.",
+          "zh": "参加导览，并在文章中比较三件艺术品。"
+        },
+        {
+          "en": "To buy a French suit of armor.",
+          "zh": "去买一套法国盔甲。"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The narrator's English teacher, Ms. Kessler, assigned a guided tour and an essay comparing and contrasting three works of art seen at the museum.",
@@ -174,12 +282,24 @@
         "zh": "那套约1600年的法国盔甲有多重？"
       },
       "options": [
-        {"en": "77 pounds (34.9 kg)", "zh": "77磅（34.9千克）"},
-        {"en": "about 25 pounds (11.3 kg), similar to a small dog", "zh": "约25磅（11.3千克），相当于一只小狗"},
-        {"en": "around 50 pounds (22.7 kg), like a large bag", "zh": "约50磅（22.7千克），相当于一个大包"},
-        {"en": "over 100 pounds (45.4 kg), very heavy", "zh": "超过100磅（45.4千克），非常重"}
+        {
+          "en": "around 50 pounds (22.7 kg), like a large bag",
+          "zh": "约50磅（22.7千克），相当于一个大包"
+        },
+        {
+          "en": "77 pounds (34.9 kg)",
+          "zh": "77磅（34.9千克）"
+        },
+        {
+          "en": "over 100 pounds (45.4 kg), very heavy",
+          "zh": "超过100磅（45.4千克），非常重"
+        },
+        {
+          "en": "about 25 pounds (11.3 kg), similar to a small dog",
+          "zh": "约25磅（11.3千克），相当于一只小狗"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Chloe explains the steel suit of armor, accented with gilded details and dating from around 1600, weighs 77 pounds (34.9 kg).",

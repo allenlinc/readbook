@@ -4,114 +4,294 @@
   "descZh": "雷族巫医能看见星族亡魂的天赋，最终成了他口中挥之不去的诅咒。",
   "questions": [
     {
-      "q": {"en": "What special gift does Goosekit have as a very young kit?", "zh": "鹅仔（Goosekit）在很小的时候拥有什么特殊天赋？"},
+      "q": {
+        "en": "What special gift does Goosekit have as a very young kit?",
+        "zh": "鹅仔（Goosekit）在很小的时候拥有什么特殊天赋？"
+      },
       "options": [
-        {"en": "He can run faster than any other cat.", "zh": "他跑得比任何猫都快。"},
-        {"en": "He can see the spirits of dead StarClan cats walking among the living.", "zh": "他能看见星族（StarClan）亡魂在活猫之间走动。"},
-        {"en": "He can understand the language of Twolegs.", "zh": "他能听懂两脚兽的语言。"},
-        {"en": "He can predict the weather perfectly.", "zh": "他能完美预测天气。"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Goosekit is born able to see StarClan cats (the spirits of dead Clan cats) moving through the camp, a gift that later feels like a curse.", "zh": "鹅仔天生就能看见星族的猫（族群亡魂）在营地中走动，这份天赋后来却像诅咒一样压在他身上。"}
-    },
-    {
-      "q": {"en": "At what age is Goosekit made a medicine cat apprentice?", "zh": "鹅仔几个月大时被收为巫医学徒？"},
-      "options": [
-        {"en": "Six moons, the usual age", "zh": "六个月，通常的年龄"},
-        {"en": "Twelve moons", "zh": "十二个月"},
-        {"en": "Four moons", "zh": "四个月"},
-        {"en": "One moon", "zh": "一个月"}
+        {
+          "en": "He can run faster than any other cat.",
+          "zh": "他跑得比任何猫都快。"
+        },
+        {
+          "en": "He can understand the language of Twolegs. according to some versions of the story",
+          "zh": "他能听懂两脚兽的语言。（按书中另一种说法）"
+        },
+        {
+          "en": "He can see the spirits of dead StarClan cats walking among the living.",
+          "zh": "他能看见星族（StarClan）亡魂在活猫之间走动。"
+        },
+        {
+          "en": "He can predict the weather perfectly.",
+          "zh": "他能完美预测天气。"
+        }
       ],
       "answer": 2,
-      "explain": {"en": "Because of his powers, Goosekit is apprenticed as a medicine cat at only four moons old, far younger than normal.", "zh": "因为拥有这种能力，鹅仔在仅仅四个月大时就被收为巫医学徒，远早于正常年龄。"}
+      "explain": {
+        "en": "Goosekit is born able to see StarClan cats (the spirits of dead Clan cats) moving through the camp, a gift that later feels like a curse.",
+        "zh": "鹅仔天生就能看见星族的猫（族群亡魂）在营地中走动，这份天赋后来却像诅咒一样压在他身上。"
+      }
     },
     {
-      "q": {"en": "Who is Goosefeather's medicine cat mentor?", "zh": "鹅羽的巫医导师是谁？"},
+      "q": {
+        "en": "At what age is Goosekit made a medicine cat apprentice?",
+        "zh": "鹅仔几个月大时被收为巫医学徒？"
+      },
       "options": [
-        {"en": "Cloudberry", "zh": "云莓（Cloudberry）"},
-        {"en": "Featherwhisker", "zh": "羽须（Featherwhisker）"},
-        {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"},
-        {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"}
+        {
+          "en": "One moon",
+          "zh": "一个月"
+        },
+        {
+          "en": "Six moons, the usual age",
+          "zh": "六个月，通常的年龄"
+        },
+        {
+          "en": "Four moons",
+          "zh": "四个月"
+        },
+        {
+          "en": "Twelve moons",
+          "zh": "十二个月"
+        }
       ],
-      "answer": 0,
-      "explain": {"en": "Cloudberry is the ThunderClan medicine cat who discovers Goosekit's gift and trains him as her apprentice.", "zh": "云莓是雷族的巫医，她发现了鹅仔的天赋并收他为徒。"}
+      "answer": 2,
+      "explain": {
+        "en": "Because of his powers, Goosekit is apprenticed as a medicine cat at only four moons old, far younger than normal.",
+        "zh": "因为拥有这种能力，鹅仔在仅仅四个月大时就被收为巫医学徒，远早于正常年龄。"
+      }
     },
     {
-      "q": {"en": "Which Clan does Goosefeather belong to?", "zh": "鹅羽属于哪个族群？"},
+      "q": {
+        "en": "Who is Goosefeather's medicine cat mentor?",
+        "zh": "鹅羽的巫医导师是谁？"
+      },
       "options": [
-        {"en": "RiverClan", "zh": "河族（RiverClan）"},
-        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
-        {"en": "WindClan", "zh": "风族（WindClan）"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Goosefeather is a ThunderClan medicine cat, living long before the events of the original series.", "zh": "鹅羽是雷族的巫医，生活在正传故事发生之前的年代。"}
-    },
-    {
-      "q": {"en": "After a vision of kittypets attacking a patrol, whose patrol does Goosefeather help rescue?", "zh": "鹅羽预见宠物猫袭击巡逻队后，他帮忙救下了谁的巡逻队？"},
-      "options": [
-        {"en": "Squirrelwhisker's patrol", "zh": "松鼠须（Squirrelwhisker）的巡逻队"},
-        {"en": "Bluestar's patrol", "zh": "蓝星（Bluestar）的巡逻队"},
-        {"en": "Firestar's patrol", "zh": "火星（Firestar）的巡逻队"},
-        {"en": "Tallstar's patrol", "zh": "高星（Tallstar）的巡逻队"}
-      ],
-      "answer": 0,
-      "explain": {"en": "Goosefeather sees a vision of kittypets attacking Squirrelwhisker's patrol and warns the Clan, who rescues them in time.", "zh": "鹅羽预见宠物猫袭击松鼠须的巡逻队，他向族群发出警告，及时救下了他们。"}
-    },
-    {
-      "q": {"en": "What does Goosefeather fear his Clanmate Stormtail will do to him?", "zh": "鹅羽害怕同族猫风暴尾（Stormtail）会对他做什么？"},
-      "options": [
-        {"en": "Steal his prey", "zh": "偷走他的猎物"},
-        {"en": "Lead a badger to attack him", "zh": "引一只獾来攻击他"},
-        {"en": "Tell the leader to exile him", "zh": "告诉族长把他赶走"},
-        {"en": "Become mates with his sister", "zh": "和他的姐姐成为伴侣"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Goosefeather is haunted by the fear that Stormtail will one day lead a badger to him, and a badger does later attack him.", "zh": "鹅羽一直害怕风暴尾有朝一日会引来獾对付他，后来确实有一只獾袭击了他。"}
-    },
-    {
-      "q": {"en": "Who saves Goosefeather when a badger attacks him?", "zh": "当獾袭击鹅羽时，是谁救了他？"},
-      "options": [
-        {"en": "His sister Moonpaw (later Moonflower)", "zh": "他的姐姐月爪（Moonpaw，后来的月花 Moonflower）"},
-        {"en": "Cloudberry", "zh": "云莓（Cloudberry）"},
-        {"en": "Doestar", "zh": "道星（Doestar）"},
-        {"en": "Pinestar", "zh": "松星（Pinestar）"}
-      ],
-      "answer": 0,
-      "explain": {"en": "Goosefeather's sister Moonpaw arrives just in time and drives the badger away, saving his life.", "zh": "鹅羽的姐姐月爪及时赶到，赶走獾救了他一命。"}
-    },
-    {
-      "q": {"en": "Which dark forest cat appears to Goosefeather and secretly teaches him battle moves?", "zh": "哪只黑森林（Dark Forest）的猫出现在鹅羽面前，偷偷教他战斗技巧？"},
-      "options": [
-        {"en": "Mapleshade", "zh": "枫荫（Mapleshade）"},
-        {"en": "Tigerstar", "zh": "虎星（Tigerstar）"},
-        {"en": "Brokenstar", "zh": "碎星（Brokenstar）"},
-        {"en": "Hawkfrost", "zh": "鹰霜（Hawkfrost）"}
-      ],
-      "answer": 0,
-      "explain": {"en": "The spirit Mapleshade visits Goosefeather and trains him in fighting moves he is unsure he should use.", "zh": "枫荫的魂魄来找鹅羽，偷偷训练他战斗技巧，而鹅羽并不确定自己该不该用。"}
-    },
-    {
-      "q": {"en": "When Larksong's two kits are born, what does Goosefeather's vision say about their futures?", "zh": "当莺歌（Larksong）生下两只小猫时，鹅羽的预见说他们将来会怎样？"},
-      "options": [
-        {"en": "Both will become warriors", "zh": "两只都会成为武士"},
-        {"en": "One will become leader and one will become medicine cat", "zh": "一只会成为族长，一只会成为巫医"},
-        {"en": "Both will leave the Clan", "zh": "两只都会离开族群"},
-        {"en": "Both will become elders", "zh": "两只都会成为长老"}
+        {
+          "en": "Featherwhisker",
+          "zh": "羽须（Featherwhisker）"
+        },
+        {
+          "en": "Cloudberry",
+          "zh": "云莓（Cloudberry）"
+        },
+        {
+          "en": "Spottedleaf",
+          "zh": "斑叶（Spottedleaf）"
+        },
+        {
+          "en": "Yellowfang",
+          "zh": "黄牙（Yellowfang）"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Goosefeather foresees that one of Larksong's kits will become the next Clan leader and the other the medicine cat.", "zh": "鹅羽预见莺歌的一只小猫将成为下一任族长，另一只会成为巫医。"}
+      "explain": {
+        "en": "Cloudberry is the ThunderClan medicine cat who discovers Goosekit's gift and trains him as her apprentice.",
+        "zh": "云莓是雷族的巫医，她发现了鹅仔的天赋并收他为徒。"
+      }
     },
     {
-      "q": {"en": "What goes wrong during a harsh leaf-bare after Cloudberry's plan to bury prey in frozen ground?", "zh": "云莓提出把猎物埋进冻土过冬，可严酷的落叶季里出了什么岔子？"},
+      "q": {
+        "en": "Which Clan does Goosefeather belong to?",
+        "zh": "鹅羽属于哪个族群？"
+      },
       "options": [
-        {"en": "The prey freezes solid and cannot be eaten", "zh": "猎物冻得硬邦邦没法吃"},
-        {"en": "The buried prey rots because rain floods the hole", "zh": "雨水灌进坑里，埋着的猎物腐烂了"},
-        {"en": "Twolegs steal the buried prey", "zh": "两脚兽偷走了埋着的猎物"},
-        {"en": "Foxes dig up the prey", "zh": "狐狸把猎物挖了出来"}
+        {
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
+        },
+        {
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        },
+        {
+          "en": "ShadowClan according to some versions of the story",
+          "zh": "影族（ShadowClan）（按书中另一种说法）"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Rain floods the hole where the prey was buried, the prey rots, and ThunderClan nearly starves during leaf-bare.", "zh": "雨水灌进埋猎物的坑，猎物腐烂，雷族在落叶季里几乎饿死。"}
+      "explain": {
+        "en": "Goosefeather is a ThunderClan medicine cat, living long before the events of the original series.",
+        "zh": "鹅羽是雷族的巫医，生活在正传故事发生之前的年代。"
+      }
+    },
+    {
+      "q": {
+        "en": "After a vision of kittypets attacking a patrol, whose patrol does Goosefeather help rescue?",
+        "zh": "鹅羽预见宠物猫袭击巡逻队后，他帮忙救下了谁的巡逻队？"
+      },
+      "options": [
+        {
+          "en": "Bluestar's patrol according to some versions of the story",
+          "zh": "蓝星（Bluestar）的巡逻队（按书中另一种说法）"
+        },
+        {
+          "en": "Firestar's patrol",
+          "zh": "火星（Firestar）的巡逻队"
+        },
+        {
+          "en": "Tallstar's patrol",
+          "zh": "高星（Tallstar）的巡逻队"
+        },
+        {
+          "en": "Squirrelwhisker's patrol",
+          "zh": "松鼠须（Squirrelwhisker）的巡逻队"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Goosefeather sees a vision of kittypets attacking Squirrelwhisker's patrol and warns the Clan, who rescues them in time.",
+        "zh": "鹅羽预见宠物猫袭击松鼠须的巡逻队，他向族群发出警告，及时救下了他们。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does Goosefeather fear his Clanmate Stormtail will do to him?",
+        "zh": "鹅羽害怕同族猫风暴尾（Stormtail）会对他做什么？"
+      },
+      "options": [
+        {
+          "en": "Steal his prey",
+          "zh": "偷走他的猎物"
+        },
+        {
+          "en": "Become mates with his sister",
+          "zh": "和他的姐姐成为伴侣"
+        },
+        {
+          "en": "Tell the leader to exile him",
+          "zh": "告诉族长把他赶走"
+        },
+        {
+          "en": "Lead a badger to attack him",
+          "zh": "引一只獾来攻击他"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Goosefeather is haunted by the fear that Stormtail will one day lead a badger to him, and a badger does later attack him.",
+        "zh": "鹅羽一直害怕风暴尾有朝一日会引来獾对付他，后来确实有一只獾袭击了他。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who saves Goosefeather when a badger attacks him?",
+        "zh": "当獾袭击鹅羽时，是谁救了他？"
+      },
+      "options": [
+        {
+          "en": "His sister Moonpaw (later Moonflower)",
+          "zh": "他的姐姐月爪（Moonpaw，后来的月花 Moonflower）"
+        },
+        {
+          "en": "Cloudberry according to some versions of the story",
+          "zh": "云莓（Cloudberry）（按书中另一种说法）"
+        },
+        {
+          "en": "Doestar",
+          "zh": "道星（Doestar）"
+        },
+        {
+          "en": "Pinestar",
+          "zh": "松星（Pinestar）"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Goosefeather's sister Moonpaw arrives just in time and drives the badger away, saving his life.",
+        "zh": "鹅羽的姐姐月爪及时赶到，赶走獾救了他一命。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which dark forest cat appears to Goosefeather and secretly teaches him battle moves?",
+        "zh": "哪只黑森林（Dark Forest）的猫出现在鹅羽面前，偷偷教他战斗技巧？"
+      },
+      "options": [
+        {
+          "en": "Mapleshade",
+          "zh": "枫荫（Mapleshade）"
+        },
+        {
+          "en": "Brokenstar according to some versions of the story",
+          "zh": "碎星（Brokenstar）（按书中另一种说法）"
+        },
+        {
+          "en": "Hawkfrost",
+          "zh": "鹰霜（Hawkfrost）"
+        },
+        {
+          "en": "Tigerstar",
+          "zh": "虎星（Tigerstar）"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The spirit Mapleshade visits Goosefeather and trains him in fighting moves he is unsure he should use.",
+        "zh": "枫荫的魂魄来找鹅羽，偷偷训练他战斗技巧，而鹅羽并不确定自己该不该用。"
+      }
+    },
+    {
+      "q": {
+        "en": "When Larksong's two kits are born, what does Goosefeather's vision say about their futures?",
+        "zh": "当莺歌（Larksong）生下两只小猫时，鹅羽的预见说他们将来会怎样？"
+      },
+      "options": [
+        {
+          "en": "One will become leader and one will become medicine cat",
+          "zh": "一只会成为族长，一只会成为巫医"
+        },
+        {
+          "en": "Both will become elders",
+          "zh": "两只都会成为长老"
+        },
+        {
+          "en": "Both will become warriors according to some versions of the story",
+          "zh": "两只都会成为武士（按书中另一种说法）"
+        },
+        {
+          "en": "Both will leave the Clan",
+          "zh": "两只都会离开族群"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Goosefeather foresees that one of Larksong's kits will become the next Clan leader and the other the medicine cat.",
+        "zh": "鹅羽预见莺歌的一只小猫将成为下一任族长，另一只会成为巫医。"
+      }
+    },
+    {
+      "q": {
+        "en": "What goes wrong during a harsh leaf-bare after Cloudberry's plan to bury prey in frozen ground?",
+        "zh": "云莓提出把猎物埋进冻土过冬，可严酷的落叶季里出了什么岔子？"
+      },
+      "options": [
+        {
+          "en": "Foxes dig up the prey",
+          "zh": "狐狸把猎物挖了出来"
+        },
+        {
+          "en": "The buried prey rots because rain floods the hole",
+          "zh": "雨水灌进坑里，埋着的猎物腐烂了"
+        },
+        {
+          "en": "Twolegs steal the buried prey",
+          "zh": "两脚兽偷走了埋着的猎物"
+        },
+        {
+          "en": "The prey freezes solid and cannot be eaten according to some versions of the story",
+          "zh": "猎物冻得硬邦邦没法吃（按书中另一种说法）"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Rain floods the hole where the prey was buried, the prey rots, and ThunderClan nearly starves during leaf-bare.",
+        "zh": "雨水灌进埋猎物的坑，猎物腐烂，雷族在落叶季里几乎饿死。"
+      }
     }
   ]
 }

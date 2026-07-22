@@ -1,328 +1,328 @@
 {
- "slug": "what-do-you-think-about-climate-change",
- "title": "What Do You Think About Climate Change?",
- "titleZh": "你怎么看气候变化？",
- "level": "Y",
- "genre": "Science",
- "mainSkill": "Integration of Knowledge and Ideas",
- "questions": [
-  {
-   "q": {
-    "en": "According to the book, by about how much has Earth's average surface temperature risen since the late 1800s?",
-    "zh": "根据本书，自19世纪末以来地球平均地表温度大约上升了多少？"
-   },
-   "options": [
+  "slug": "what-do-you-think-about-climate-change",
+  "title": "What Do You Think About Climate Change?",
+  "titleZh": "你怎么看气候变化？",
+  "level": "Y",
+  "genre": "Science",
+  "mainSkill": "Integration of Knowledge and Ideas",
+  "questions": [
     {
-     "en": "Roughly 1.0°F to 1.8°F (0.6–1.0°C)",
-     "zh": "约1.0至1.8华氏度（0.6–1.0摄氏度）"
+      "q": {
+        "en": "According to the book, by about how much has Earth's average surface temperature risen since the late 1800s?",
+        "zh": "根据本书，自19世纪末以来地球平均地表温度大约上升了多少？"
+      },
+      "options": [
+        {
+          "en": "About 10°F according to some versions of the story",
+          "zh": "约10华氏度（按书中另一种说法）"
+        },
+        {
+          "en": "4 inches",
+          "zh": "4英寸"
+        },
+        {
+          "en": "25 percent",
+          "zh": "25%"
+        },
+        {
+          "en": "Roughly 1.0°F to 1.8°F (0.6–1.0°C)",
+          "zh": "约1.0至1.8华氏度（0.6–1.0摄氏度）"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Meteorologists' records since the mid-1800s show an average rise of roughly 1.0–1.8°F (0.6–1.0°C).",
+        "zh": "气象学家自19世纪中叶以来的记录显示，平均气温上升了约1.0至1.8华氏度（0.6–1.0摄氏度）。"
+      }
     },
     {
-     "en": "About 10°F",
-     "zh": "约10华氏度"
+      "q": {
+        "en": "What is the 'greenhouse effect' as described in the book?",
+        "zh": "书中描述的“温室效应”是什么？"
+      },
+      "options": [
+        {
+          "en": "Planting trees",
+          "zh": "植树"
+        },
+        {
+          "en": "The melting of polar ice according to some versions of the story in an early draft of the book",
+          "zh": "极地冰川融化（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A type of fossil fuel",
+          "zh": "一种化石燃料"
+        },
+        {
+          "en": "A natural process in which gases trap heat near Earth's surface",
+          "zh": "气体在地球表面附近困住热量的自然过程"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The greenhouse effect is when gases like carbon dioxide trap heat radiating from Earth's surface, warming it.",
+        "zh": "温室效应是指二氧化碳等气体困住地球表面散发出的热量，从而使地表变暖。"
+      }
     },
     {
-     "en": "4 inches",
-     "zh": "4英寸"
+      "q": {
+        "en": "Which human activity is blamed as the main cause of global warming?",
+        "zh": "哪一种人类活动被认为是全球变暖的主要原因？"
+      },
+      "options": [
+        {
+          "en": "Planting trees",
+          "zh": "植树"
+        },
+        {
+          "en": "Building wind farms according to some versions of the story",
+          "zh": "建造风电场（按书中另一种说法）"
+        },
+        {
+          "en": "Burning fossil fuels (coal, oil, natural gas)",
+          "zh": "燃烧化石燃料（煤、石油、天然气）"
+        },
+        {
+          "en": "Recycling",
+          "zh": "回收利用"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The main human cause is burning fossil fuels in cars, factories, and power plants, releasing greenhouse gases.",
+        "zh": "主要的人为原因是汽车、工厂和发电厂燃烧化石燃料，释放温室气体。"
+      }
     },
     {
-     "en": "25 percent",
-     "zh": "25%"
+      "q": {
+        "en": "What did former U.S. Vice President Al Gore receive in 2007?",
+        "zh": "美国前副总统阿尔·戈尔在2007年获得了什么？"
+      },
+      "options": [
+        {
+          "en": "The Presidential Medal of Freedom",
+          "zh": "总统自由勋章"
+        },
+        {
+          "en": "The Nobel Peace Prize",
+          "zh": "诺贝尔和平奖"
+        },
+        {
+          "en": "An Academy Award",
+          "zh": "奥斯卡奖"
+        },
+        {
+          "en": "The Aztec Eagle",
+          "zh": "阿兹特克雄鹰奖"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "In 2007 Gore won the Nobel Peace Prize for warning the public about the dangers of global warming.",
+        "zh": "2007年，戈尔因向公众警示全球变暖的危险而获得诺贝尔和平奖。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the book's glossary, what does the word 'glaciers' mean?",
+        "zh": "在本书术语表中，“glaciers（冰川）”是什么意思？"
+      },
+      "options": [
+        {
+          "en": "Moving water used to produce energy according to some versions of the story in an early draft of the book",
+          "zh": "用于产生能量的流动水体（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Hot water from inside Earth",
+          "zh": "来自地球内部的热水"
+        },
+        {
+          "en": "Large bodies of accumulated ice and compacted snow found year-round that slowly move downhill",
+          "zh": "常年存在的、由积冰和压实雪组成并缓慢下移的巨大冰体"
+        },
+        {
+          "en": "A layer of gases around a planet",
+          "zh": "环绕行星的气体层"
+        }
+      ],
+      "answer": 2,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The glossary defines glaciers as large year-round bodies of accumulated ice and compacted snow.",
+        "zh": "术语表将glaciers定义为常年存在的、由积冰和压实雪组成的巨大冰体。"
+      }
+    },
+    {
+      "q": {
+        "en": "What are 'computer models' used for in the book?",
+        "zh": "书中“计算机模型（computer models）”是用来做什么的？"
+      },
+      "options": [
+        {
+          "en": "Computer programs using math equations to predict future climate",
+          "zh": "用数理方程预测未来气候的计算机程序"
+        },
+        {
+          "en": "Satellites that photograph ice",
+          "zh": "拍摄冰川的卫星"
+        },
+        {
+          "en": "Filters that trap carbon dioxide according to some versions of the story",
+          "zh": "困住二氧化碳的过滤器（按书中另一种说法）"
+        },
+        {
+          "en": "Machines that plant trees",
+          "zh": "种树的机器"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Computer models are programs based on equations about sunlight, heat, rainfall, and other factors used to predict climate change.",
+        "zh": "计算机模型是基于阳光、热量、降雨等因子的方程构建的程序，用来预测气候变化。"
+      }
+    },
+    {
+      "q": {
+        "en": "According to the book, what might rising sea levels threaten?",
+        "zh": "根据本书，海平面上升可能威胁到什么？"
+      },
+      "options": [
+        {
+          "en": "Only coral reefs",
+          "zh": "仅珊瑚礁"
+        },
+        {
+          "en": "Coastal cities such as New York and Boston",
+          "zh": "纽约、波士顿等沿海城市"
+        },
+        {
+          "en": "The Sun's energy",
+          "zh": "太阳的能量"
+        },
+        {
+          "en": "Mountain glaciers only according to some versions of the story",
+          "zh": "仅山岳冰川（按书中另一种说法）"
+        }
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "If seas rose high and fast enough, coastal cities and small islands could be flooded and destroyed.",
+        "zh": "若海平面快速大幅上升，沿海城市和小岛可能被淹没摧毁。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these is given as a renewable energy source in the book?",
+        "zh": "以下哪一项在书中被列为可再生能源？"
+      },
+      "options": [
+        {
+          "en": "Wind, solar, hydropower, and geothermal power",
+          "zh": "风能、太阳能、水能和地热能"
+        },
+        {
+          "en": "Nuclear power only",
+          "zh": "仅核能"
+        },
+        {
+          "en": "Coal and oil",
+          "zh": "煤和石油"
+        },
+        {
+          "en": "Aerosol particles according to some versions of the story",
+          "zh": "气溶胶颗粒（按书中另一种说法）"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Renewable sources named include hydropower, geothermal, wind, and solar power—unlike fossil fuels they don't run out.",
+        "zh": "书中提到的可再生能源包括水能、地热能、风能和太阳能，它们不像化石燃料会耗尽。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the book ask readers to do at the end?",
+        "zh": "本书在结尾要求读者做什么？"
+      },
+      "options": [
+        {
+          "en": "Think for themselves and form their own opinion about climate change",
+          "zh": "独立思考，形成自己对气候变化的看法"
+        },
+        {
+          "en": "Agree that global warming is fake",
+          "zh": "认同全球变暖是假的"
+        },
+        {
+          "en": "Memorize all temperature statistics according to some versions of the story",
+          "zh": "记住所有温度数据（按书中另一种说法）"
+        },
+        {
+          "en": "Stop using all electricity",
+          "zh": "停止用电"
+        }
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The Conclusion invites readers to answer 'What do you think about climate change?' using evidence.",
+        "zh": "结论部分请读者借助证据回答“你怎么看气候变化？”，形成自己的观点。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why does the book caution readers about climate-change websites?",
+        "zh": "本书为何提醒读者要谨慎对待气候变化的网站？"
+      },
+      "options": [
+        {
+          "en": "They are too simple",
+          "zh": "它们太简单"
+        },
+        {
+          "en": "Many websites contain incorrect information",
+          "zh": "许多网站含有错误信息"
+        },
+        {
+          "en": "Government sites are banned according to some versions of the story",
+          "zh": "政府网站被禁（按书中另一种说法）"
+        },
+        {
+          "en": "Books are always better",
+          "zh": "书籍总是更好"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book warns that many global-warming websites contain incorrect information; government, university, or scientific sites are best.",
+        "zh": "书中警告许多全球变暖网站含有错误信息，最好使用政府、大学或科学机构的网站。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Meteorologists' records since the mid-1800s show an average rise of roughly 1.0–1.8°F (0.6–1.0°C).",
-    "zh": "气象学家自19世纪中叶以来的记录显示，平均气温上升了约1.0至1.8华氏度（0.6–1.0摄氏度）。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the 'greenhouse effect' as described in the book?",
-    "zh": "书中描述的“温室效应”是什么？"
-   },
-   "options": [
-    {
-     "en": "A natural process in which gases trap heat near Earth's surface",
-     "zh": "气体在地球表面附近困住热量的自然过程"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "What is your own opinion about climate change, and what evidence would you use to support it?",
+      "zh": "你对气候变化有什么看法？你会用哪些证据来支持自己的观点？"
     },
-    {
-     "en": "The melting of polar ice",
-     "zh": "极地冰川融化"
-    },
-    {
-     "en": "A type of fossil fuel",
-     "zh": "一种化石燃料"
-    },
-    {
-     "en": "Planting trees",
-     "zh": "植树"
+    "guidance": {
+      "en": [
+        "State whether you think Earth is warming and why.",
+        "List possible causes (human activities vs. natural factors).",
+        "Suggest one action you could take to help reduce climate change."
+      ],
+      "zh": [
+        "说明你认为地球是否在变暖，以及原因。",
+        "列出可能的原因（人类活动与自然因素）。",
+        "提出一个你可采取以减轻气候变化的行动。"
+      ]
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The greenhouse effect is when gases like carbon dioxide trap heat radiating from Earth's surface, warming it.",
-    "zh": "温室效应是指二氧化碳等气体困住地球表面散发出的热量，从而使地表变暖。"
-   }
-  },
-  {
-   "q": {
-    "en": "Which human activity is blamed as the main cause of global warming?",
-    "zh": "哪一种人类活动被认为是全球变暖的主要原因？"
-   },
-   "options": [
-    {
-     "en": "Burning fossil fuels (coal, oil, natural gas)",
-     "zh": "燃烧化石燃料（煤、石油、天然气）"
-    },
-    {
-     "en": "Planting trees",
-     "zh": "植树"
-    },
-    {
-     "en": "Building wind farms",
-     "zh": "建造风电场"
-    },
-    {
-     "en": "Recycling",
-     "zh": "回收利用"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The main human cause is burning fossil fuels in cars, factories, and power plants, releasing greenhouse gases.",
-    "zh": "主要的人为原因是汽车、工厂和发电厂燃烧化石燃料，释放温室气体。"
-   }
-  },
-  {
-   "q": {
-    "en": "What did former U.S. Vice President Al Gore receive in 2007?",
-    "zh": "美国前副总统阿尔·戈尔在2007年获得了什么？"
-   },
-   "options": [
-    {
-     "en": "The Nobel Peace Prize",
-     "zh": "诺贝尔和平奖"
-    },
-    {
-     "en": "The Presidential Medal of Freedom",
-     "zh": "总统自由勋章"
-    },
-    {
-     "en": "An Academy Award",
-     "zh": "奥斯卡奖"
-    },
-    {
-     "en": "The Aztec Eagle",
-     "zh": "阿兹特克雄鹰奖"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "In 2007 Gore won the Nobel Peace Prize for warning the public about the dangers of global warming.",
-    "zh": "2007年，戈尔因向公众警示全球变暖的危险而获得诺贝尔和平奖。"
-   }
-  },
-  {
-   "q": {
-    "en": "In the book's glossary, what does the word 'glaciers' mean?",
-    "zh": "在本书术语表中，“glaciers（冰川）”是什么意思？"
-   },
-   "options": [
-    {
-     "en": "Large bodies of accumulated ice and compacted snow found year-round that slowly move downhill",
-     "zh": "常年存在的、由积冰和压实雪组成并缓慢下移的巨大冰体"
-    },
-    {
-     "en": "Moving water used to produce energy",
-     "zh": "用于产生能量的流动水体"
-    },
-    {
-     "en": "A layer of gases around a planet",
-     "zh": "环绕行星的气体层"
-    },
-    {
-     "en": "Hot water from inside Earth",
-     "zh": "来自地球内部的热水"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The glossary defines glaciers as large year-round bodies of accumulated ice and compacted snow.",
-    "zh": "术语表将glaciers定义为常年存在的、由积冰和压实雪组成的巨大冰体。"
-   }
-  },
-  {
-   "q": {
-    "en": "What are 'computer models' used for in the book?",
-    "zh": "书中“计算机模型（computer models）”是用来做什么的？"
-   },
-   "options": [
-    {
-     "en": "Computer programs using math equations to predict future climate",
-     "zh": "用数理方程预测未来气候的计算机程序"
-    },
-    {
-     "en": "Machines that plant trees",
-     "zh": "种树的机器"
-    },
-    {
-     "en": "Satellites that photograph ice",
-     "zh": "拍摄冰川的卫星"
-    },
-    {
-     "en": "Filters that trap carbon dioxide",
-     "zh": "困住二氧化碳的过滤器"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "Computer models are programs based on equations about sunlight, heat, rainfall, and other factors used to predict climate change.",
-    "zh": "计算机模型是基于阳光、热量、降雨等因子的方程构建的程序，用来预测气候变化。"
-   }
-  },
-  {
-   "q": {
-    "en": "According to the book, what might rising sea levels threaten?",
-    "zh": "根据本书，海平面上升可能威胁到什么？"
-   },
-   "options": [
-    {
-     "en": "Coastal cities such as New York and Boston",
-     "zh": "纽约、波士顿等沿海城市"
-    },
-    {
-     "en": "Mountain glaciers only",
-     "zh": "仅山岳冰川"
-    },
-    {
-     "en": "The Sun's energy",
-     "zh": "太阳的能量"
-    },
-    {
-     "en": "Only coral reefs",
-     "zh": "仅珊瑚礁"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "If seas rose high and fast enough, coastal cities and small islands could be flooded and destroyed.",
-    "zh": "若海平面快速大幅上升，沿海城市和小岛可能被淹没摧毁。"
-   }
-  },
-  {
-   "q": {
-    "en": "Which of these is given as a renewable energy source in the book?",
-    "zh": "以下哪一项在书中被列为可再生能源？"
-   },
-   "options": [
-    {
-     "en": "Wind, solar, hydropower, and geothermal power",
-     "zh": "风能、太阳能、水能和地热能"
-    },
-    {
-     "en": "Coal and oil",
-     "zh": "煤和石油"
-    },
-    {
-     "en": "Nuclear power only",
-     "zh": "仅核能"
-    },
-    {
-     "en": "Aerosol particles",
-     "zh": "气溶胶颗粒"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Renewable sources named include hydropower, geothermal, wind, and solar power—unlike fossil fuels they don't run out.",
-    "zh": "书中提到的可再生能源包括水能、地热能、风能和太阳能，它们不像化石燃料会耗尽。"
-   }
-  },
-  {
-   "q": {
-    "en": "What does the book ask readers to do at the end?",
-    "zh": "本书在结尾要求读者做什么？"
-   },
-   "options": [
-    {
-     "en": "Think for themselves and form their own opinion about climate change",
-     "zh": "独立思考，形成自己对气候变化的看法"
-    },
-    {
-     "en": "Memorize all temperature statistics",
-     "zh": "记住所有温度数据"
-    },
-    {
-     "en": "Stop using all electricity",
-     "zh": "停止用电"
-    },
-    {
-     "en": "Agree that global warming is fake",
-     "zh": "认同全球变暖是假的"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The Conclusion invites readers to answer 'What do you think about climate change?' using evidence.",
-    "zh": "结论部分请读者借助证据回答“你怎么看气候变化？”，形成自己的观点。"
-   }
-  },
-  {
-   "q": {
-    "en": "Why does the book caution readers about climate-change websites?",
-    "zh": "本书为何提醒读者要谨慎对待气候变化的网站？"
-   },
-   "options": [
-    {
-     "en": "Many websites contain incorrect information",
-     "zh": "许多网站含有错误信息"
-    },
-    {
-     "en": "Government sites are banned",
-     "zh": "政府网站被禁"
-    },
-    {
-     "en": "They are too simple",
-     "zh": "它们太简单"
-    },
-    {
-     "en": "Books are always better",
-     "zh": "书籍总是更好"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The book warns that many global-warming websites contain incorrect information; government, university, or scientific sites are best.",
-    "zh": "书中警告许多全球变暖网站含有错误信息，最好使用政府、大学或科学机构的网站。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "What is your own opinion about climate change, and what evidence would you use to support it?",
-   "zh": "你对气候变化有什么看法？你会用哪些证据来支持自己的观点？"
-  },
-  "guidance": {
-   "en": [
-    "State whether you think Earth is warming and why.",
-    "List possible causes (human activities vs. natural factors).",
-    "Suggest one action you could take to help reduce climate change."
-   ],
-   "zh": [
-    "说明你认为地球是否在变暖，以及原因。",
-    "列出可能的原因（人类活动与自然因素）。",
-    "提出一个你可采取以减轻气候变化的行动。"
-   ]
-  }
- }
 }

@@ -12,12 +12,24 @@
         "zh": "地球最外层由像拼图碎片一样巨大的岩石组成。这些岩石碎片叫什么？它们相接的地方形成了什么？"
       },
       "options": [
-        {"en": "Plates; where they come together there are faults (cracks and gaps)", "zh": "板块；它们相接的地方会出现断层（裂缝和缺口）"},
-        {"en": "Continents; where they meet there are oceans", "zh": "大陆；它们相接的地方是海洋"},
-        {"en": "Magma; where they meet there are volcanoes", "zh": "岩浆；它们相接的地方是火山"},
-        {"en": "Glaciers; where they meet there are rivers", "zh": "冰川；它们相接的地方是河流"}
+        {
+          "en": "Continents; where they meet there are oceans according to some versions of the story",
+          "zh": "大陆；它们相接的地方是海洋（按书中另一种说法）"
+        },
+        {
+          "en": "Plates; where they come together there are faults (cracks and gaps)",
+          "zh": "板块；它们相接的地方会出现断层（裂缝和缺口）"
+        },
+        {
+          "en": "Glaciers; where they meet there are rivers",
+          "zh": "冰川；它们相接的地方是河流"
+        },
+        {
+          "en": "Magma; where they meet there are volcanoes",
+          "zh": "岩浆；它们相接的地方是火山"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the top layer is made of giant pieces of rock 'like the pieces of a puzzle' called plates, and 'where the plates come together, there are often cracks and gaps, called faults.'",
@@ -30,10 +42,22 @@
         "zh": "根据这本书，地震是怎么引起的？"
       },
       "options": [
-        {"en": "Plates get caught, pressure and energy build up, then the rocks give way and the ground shakes", "zh": "板块被卡住，压力和能量不断积累，然后岩石突然断裂，大地开始震动"},
-        {"en": "Rain soaks into the ground and makes it slide", "zh": "雨水渗入地下，使地面滑动"},
-        {"en": "The Moon pulls on the ocean", "zh": "月亮牵引着海洋"},
-        {"en": "Volcanoes erupt deep underground", "zh": "火山在地下深处喷发"}
+        {
+          "en": "Plates get caught, pressure and energy build up, then the rocks give way and the ground shakes",
+          "zh": "板块被卡住，压力和能量不断积累，然后岩石突然断裂，大地开始震动"
+        },
+        {
+          "en": "Rain soaks into the ground and makes it slide according to some versions of the story in an early draft of the book",
+          "zh": "雨水渗入地下，使地面滑动（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The Moon pulls on the ocean",
+          "zh": "月亮牵引着海洋"
+        },
+        {
+          "en": "Volcanoes erupt deep underground",
+          "zh": "火山在地下深处喷发"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "根据里氏震级，有记录以来最强的地震是几级？"
       },
       "options": [
-        {"en": "9.5", "zh": "9.5级"},
-        {"en": "5.0", "zh": "5.0级"},
-        {"en": "7.2", "zh": "7.2级"},
-        {"en": "10.0", "zh": "10.0级"}
+        {
+          "en": "5.0",
+          "zh": "5.0级"
+        },
+        {
+          "en": "9.5",
+          "zh": "9.5级"
+        },
+        {
+          "en": "7.2",
+          "zh": "7.2级"
+        },
+        {
+          "en": "10.0",
+          "zh": "10.0级"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'There is no top to the Richter scale, but the strongest earthquake ever recorded was a 9.5.'",
@@ -66,12 +102,24 @@
         "zh": "书中说，被「堵住」的火山是怎样猛烈爆发的？"
       },
       "options": [
-        {"en": "Magma cools and hardens into a plug; hot gases keep pressing until the pressure grows and it explodes", "zh": "岩浆冷却、变硬，堵住了裂缝；热气持续挤压，压力越来越大，最后猛烈爆发"},
-        {"en": "Snow on top freezes the lava into a solid block", "zh": "山顶的雪把熔岩冻成了一整块"},
-        {"en": "Rainwater fills the crater and overflows", "zh": "雨水灌满火山口并溢出"},
-        {"en": "Animals dig into the side of the mountain", "zh": "动物在山侧钻洞"}
+        {
+          "en": "Animals dig into the side of the mountain",
+          "zh": "动物在山侧钻洞"
+        },
+        {
+          "en": "Rainwater fills the crater and overflows",
+          "zh": "雨水灌满火山口并溢出"
+        },
+        {
+          "en": "Snow on top freezes the lava into a solid block according to some versions of the story in an early draft of the book",
+          "zh": "山顶的雪把熔岩冻成了一整块（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Magma cools and hardens into a plug; hot gases keep pressing until the pressure grows and it explodes",
+          "zh": "岩浆冷却、变硬，堵住了裂缝；热气持续挤压，压力越来越大，最后猛烈爆发"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains that magma can cool and 'harden into a solid piece of rock, plugging up the crack,' while 'hot gases in the magma continue to press against the plug. The pressure grows. Suddenly, the volcano explodes.'",
@@ -84,10 +132,22 @@
         "zh": "在词汇表里，「岩浆」(magma) 是什么？"
       },
       "options": [
-        {"en": "Melted, liquid rock beneath Earth's surface", "zh": "地球表面之下的熔化液态岩石"},
-        {"en": "Solid rock that makes up the crust", "zh": "构成地壳的实心岩石"},
-        {"en": "The shaking of Earth's crust", "zh": "地壳的震动"},
-        {"en": "A crack in Earth's surface", "zh": "地球表面的一道裂缝"}
+        {
+          "en": "Melted, liquid rock beneath Earth's surface",
+          "zh": "地球表面之下的熔化液态岩石"
+        },
+        {
+          "en": "A crack in Earth's surface",
+          "zh": "地球表面的一道裂缝"
+        },
+        {
+          "en": "The shaking of Earth's crust",
+          "zh": "地壳的震动"
+        },
+        {
+          "en": "Solid rock that makes up the crust according to some versions of the story",
+          "zh": "构成地壳的实心岩石（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,12 +162,24 @@
         "zh": "在词汇表里，「断层」(fault) 是什么？"
       },
       "options": [
-        {"en": "A crack in Earth's crust along which movement occurs", "zh": "地壳中的裂缝，沿着它会发生移动"},
-        {"en": "A type of volcano", "zh": "一种火山"},
-        {"en": "A giant wave in the ocean", "zh": "海洋里的一道巨浪"},
-        {"en": "Liquid rock beneath the surface", "zh": "地表之下的液态岩石"}
+        {
+          "en": "Liquid rock beneath the surface according to some versions of the story",
+          "zh": "地表之下的液态岩石（按书中另一种说法）"
+        },
+        {
+          "en": "A type of volcano",
+          "zh": "一种火山"
+        },
+        {
+          "en": "A giant wave in the ocean",
+          "zh": "海洋里的一道巨浪"
+        },
+        {
+          "en": "A crack in Earth's crust along which movement occurs",
+          "zh": "地壳中的裂缝，沿着它会发生移动"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines faults as 'cracks in Earth's crust along which movement occurs (p. 5).'",
@@ -120,10 +192,22 @@
         "zh": "火山怎么会引发泥石流？"
       },
       "options": [
-        {"en": "Hot gases melt the snow and ice on top at once, sending a dirt-filled flood down the mountain", "zh": "热气一下子把山顶的雪和冰融化，让一股夹满泥土的洪水冲下山坡"},
-        {"en": "Rainwater simply collects in the crater", "zh": "雨水只是在火山口里积起来"},
-        {"en": "The wind blows ash into a nearby river", "zh": "风把火山灰吹进附近的河里"},
-        {"en": "Earthquakes push the whole mountain over", "zh": "地震把整座山推倒"}
+        {
+          "en": "Hot gases melt the snow and ice on top at once, sending a dirt-filled flood down the mountain",
+          "zh": "热气一下子把山顶的雪和冰融化，让一股夹满泥土的洪水冲下山坡"
+        },
+        {
+          "en": "Earthquakes push the whole mountain over",
+          "zh": "地震把整座山推倒"
+        },
+        {
+          "en": "The wind blows ash into a nearby river",
+          "zh": "风把火山灰吹进附近的河里"
+        },
+        {
+          "en": "Rainwater simply collects in the crater according to some versions of the story in an early draft of the book",
+          "zh": "雨水只是在火山口里积起来（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "根据这本书，为什么海啸正变得越来越容易预测？"
       },
       "options": [
-        {"en": "Scientists have instruments that detect volcanoes and earthquakes, so they often have time to warn people", "zh": "科学家有仪器能探测火山和地震，因此常常来得及发出预警"},
-        {"en": "Tsunamis always send a loud alarm before they form", "zh": "海啸形成前总会发出响亮的警报"},
-        {"en": "They only ever happen at night", "zh": "它们只在夜间发生"},
-        {"en": "Animals always flee the coast first", "zh": "动物总是先逃离海岸"}
+        {
+          "en": "They only ever happen at night",
+          "zh": "它们只在夜间发生"
+        },
+        {
+          "en": "Animals always flee the coast first",
+          "zh": "动物总是先逃离海岸"
+        },
+        {
+          "en": "Scientists have instruments that detect volcanoes and earthquakes, so they often have time to warn people",
+          "zh": "科学家有仪器能探测火山和地震，因此常常来得及发出预警"
+        },
+        {
+          "en": "Tsunamis always send a loud alarm before they form according to some versions of the story in an early draft of the book",
+          "zh": "海啸形成前总会发出响亮的警报（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states, 'Like volcanoes, tsunamis are becoming easier to predict. Scientists have instruments that detect volcanoes and earthquakes. When a large one happens, scientists often have time to warn people that a tsunami may be coming.'",
@@ -156,12 +252,24 @@
         "zh": "作者为什么要讲1991年菲律宾火山预警的故事？"
       },
       "options": [
-        {"en": "To show that scientists can now predict eruptions and help people escape to safety", "zh": "为了说明科学家现在能预测喷发，帮助人们逃生保命"},
-        {"en": "To prove volcanoes are more dangerous than earthquakes", "zh": "为了证明火山比地震更危险"},
-        {"en": "To explain how people cause eruptions", "zh": "为了解释人类怎样引发火山喷发"},
-        {"en": "To describe a popular vacation spot", "zh": "为了介绍一个热门度假地"}
+        {
+          "en": "To describe a popular vacation spot",
+          "zh": "为了介绍一个热门度假地"
+        },
+        {
+          "en": "To explain how people cause eruptions",
+          "zh": "为了解释人类怎样引发火山喷发"
+        },
+        {
+          "en": "To show that scientists can now predict eruptions and help people escape to safety",
+          "zh": "为了说明科学家现在能预测喷发，帮助人们逃生保命"
+        },
+        {
+          "en": "To prove volcanoes are more dangerous than earthquakes according to some versions of the story",
+          "zh": "为了证明火山比地震更危险（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book uses the 1991 Philippines example to show the value of prediction: 'scientists warned people... that a volcano was about to erupt. Many people left the area and found safety before the huge volcano erupted.'",
@@ -174,12 +282,24 @@
         "zh": "正如「结语」所说，作者写这本书的主要目的是什么？"
       },
       "options": [
-        {"en": "To explain these events and the forces behind them, and how scientists work to predict them to save thousands of lives", "zh": "为了解释这些现象及其背后的力量，以及科学家如何努力预测它们以拯救成千上万的生命"},
-        {"en": "To tell a made-up story about one family", "zh": "为了讲一个虚构的家庭故事"},
-        {"en": "To convince readers that earthquakes are fun", "zh": "为了让读者相信地震很好玩"},
-        {"en": "To list every volcano on Earth", "zh": "为了列出地球上的每一座火山"}
+        {
+          "en": "To tell a made-up story about one family",
+          "zh": "为了讲一个虚构的家庭故事"
+        },
+        {
+          "en": "To explain these events and the forces behind them, and how scientists work to predict them to save thousands of lives",
+          "zh": "为了解释这些现象及其背后的力量，以及科学家如何努力预测它们以拯救成千上万的生命"
+        },
+        {
+          "en": "To convince readers that earthquakes are fun according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "为了让读者相信地震很好玩（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "To list every volcano on Earth",
+          "zh": "为了列出地球上的每一座火山"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Conclusion says scientists are working 'to be able to predict volcanoes, earthquakes, and tsunamis in order to save thousands of lives' — the book informs readers about these forces and the effort to protect people.",

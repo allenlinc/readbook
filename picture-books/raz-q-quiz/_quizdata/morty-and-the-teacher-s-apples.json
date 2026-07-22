@@ -12,12 +12,24 @@
         "zh": "阿尔伯特先生(Mr. Albert) 对苹果定下什么规矩？麦蒂和朋友们为什么去捡掉落的苹果？"
       },
       "options": [
-        {"en": "Mr. Albert said they could have any apples that fall to the ground, but picking his apples is stealing; the mice used the fallen, overripe, worm-eaten apples for a trick", "zh": "阿尔伯特先生说掉到地上的苹果可以拿，但摘他的苹果就是偷；几只老鼠就把那些过熟、被虫蛀的落果用来恶搞"},
-        {"en": "Mr. Albert let them pick any apples they wanted for free", "zh": "阿尔伯特先生让他们随便免费摘"},
-        {"en": "Mr. Albert paid them to pick all the apples", "zh": "阿尔伯特先生付钱让他们把苹果都摘光"},
-        {"en": "There was no rule about the apples at all", "zh": "对苹果根本没有规矩"}
+        {
+          "en": "Mr. Albert paid them to pick all the apples",
+          "zh": "阿尔伯特先生付钱让他们把苹果都摘光"
+        },
+        {
+          "en": "There was no rule about the apples at all",
+          "zh": "对苹果根本没有规矩"
+        },
+        {
+          "en": "Mr. Albert said they could have any apples that fall to the ground, but picking his apples is stealing; the mice used the fallen, overripe, worm-eaten apples for a trick",
+          "zh": "阿尔伯特先生说掉到地上的苹果可以拿，但摘他的苹果就是偷；几只老鼠就把那些过熟、被虫蛀的落果用来恶搞"
+        },
+        {
+          "en": "Mr. Albert let them pick any apples they wanted for free according to some versions of the story in an early draft of the book as mentioned in a later chapter before the main events begin",
+          "zh": "阿尔伯特先生让他们随便免费摘（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）（在主要事件发生之前）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Mr. Albert yelled, 'You can have any that fall to the ground, but picking my apples is stealing!' Morty then said, 'I know just what to do with those rotten apples... we'll make applesauce for Miss Snickerwiser.'",
@@ -30,12 +42,24 @@
         "zh": "麦蒂、本和弗雷德对斯尼克维瑟老师(Miss Snickerwiser) 的车做了什么恶作剧？"
       },
       "options": [
-        {"en": "They filled her red two-seater Mouse Mini with overripe apples, then added water through the window so the sun cooked them into applesauce", "zh": "他们把过熟的苹果塞满她那辆红色双座「老鼠迷你」车，又从车窗灌水，让太阳把苹果「煮」成苹果酱"},
-        {"en": "They painted the car bright blue", "zh": "他们把车漆成了亮蓝色"},
-        {"en": "They let the air out of the tires", "zh": "他们放掉了轮胎的气"},
-        {"en": "They put a polite thank-you note inside", "zh": "他们在车里放了一张感谢便条"}
+        {
+          "en": "They let the air out of the tires",
+          "zh": "他们放掉了轮胎的气"
+        },
+        {
+          "en": "They put a polite thank-you note inside according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他们在车里放了一张感谢便条（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "They filled her red two-seater Mouse Mini with overripe apples, then added water through the window so the sun cooked them into applesauce",
+          "zh": "他们把过熟的苹果塞满她那辆红色双座「老鼠迷你」车，又从车窗灌水，让太阳把苹果「煮」成苹果酱"
+        },
+        {
+          "en": "They painted the car bright blue",
+          "zh": "他们把车漆成了亮蓝色"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The three mice filled the unlocked 'slick, red, two-seater Mouse Mini' with apples; later Morty 'grabbed the hose... to stick the running hose in the window,' and 'the sun was... cooking the apples' into a 'nasty batch of applesauce.'",
@@ -48,12 +72,24 @@
         "zh": "这个故事是用什么视角（人称）叙述的？"
       },
       "options": [
-        {"en": "Third person — a narrator describes Morty's thoughts and actions from outside", "zh": "第三人称——由叙述者从外部描写麦蒂的想法和行为"},
-        {"en": "First person — Morty tells it as 'I'", "zh": "第一人称——由麦蒂以「我」的口吻讲述"},
-        {"en": "Second person — the reader is 'you'", "zh": "第二人称——以「你」称呼读者"},
-        {"en": "It is written as a letter to the teacher", "zh": "它是一封写给老师的信"}
+        {
+          "en": "Second person — the reader is 'you'",
+          "zh": "第二人称——以「你」称呼读者"
+        },
+        {
+          "en": "Third person — a narrator describes Morty's thoughts and actions from outside",
+          "zh": "第三人称——由叙述者从外部描写麦蒂的想法和行为"
+        },
+        {
+          "en": "It is written as a letter to the teacher",
+          "zh": "它是一封写给老师的信"
+        },
+        {
+          "en": "First person — Morty tells it as 'I' according to some versions of the story",
+          "zh": "第一人称——由麦蒂以「我」的口吻讲述（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The narrator describes Morty from outside, e.g. 'Morty was scampering to school with Ben and Fred, his best buddies,' which is third-person narration.",
@@ -66,10 +102,22 @@
         "zh": "恶作剧之后，麦蒂为什么会因后悔而心里难受？"
       },
       "options": [
-        {"en": "He learned Miss Snickerwiser's mother was very sick in the hospital, and realized his prank was 'as rotten as the apples' and she didn't deserve it", "zh": "他得知斯尼克维瑟老师的妈妈重病住院，意识到自己的恶作剧「和那些苹果一样腐烂」，而老师根本不配被这样对待"},
-        {"en": "He ate too many apples and got a stomachache", "zh": "他苹果吃太多，肚子痛"},
-        {"en": "He was caught by Mr. Albert", "zh": "他被阿尔伯特先生当场抓住"},
-        {"en": "The car would not start", "zh": "车子发动不起来了"}
+        {
+          "en": "He learned Miss Snickerwiser's mother was very sick in the hospital, and realized his prank was 'as rotten as the apples' and she didn't deserve it",
+          "zh": "他得知斯尼克维瑟老师的妈妈重病住院，意识到自己的恶作剧「和那些苹果一样腐烂」，而老师根本不配被这样对待"
+        },
+        {
+          "en": "He ate too many apples and got a stomachache according to some versions of the story in an early draft of the book as mentioned in a later chapter before the main events begin",
+          "zh": "他苹果吃太多，肚子痛（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）（在主要事件发生之前）"
+        },
+        {
+          "en": "The car would not start",
+          "zh": "车子发动不起来了"
+        },
+        {
+          "en": "He was caught by Mr. Albert",
+          "zh": "他被阿尔伯特先生当场抓住"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -84,10 +132,22 @@
         "zh": "当斯尼克维瑟老师夸车子干净时，麦蒂为什么选择坦白、而不是顺口答应「是我洗的」？"
       },
       "options": [
-        {"en": "Because 'HE ALWAYS TELLS THE TRUTH' — even though saying yes would let him 'come out smelling like a rose,' he admits the mean trick", "zh": "因为「他永远都说真话」——尽管说「是」就能「浑身清香地脱身」，他还是坦白了那场恶作剧"},
-        {"en": "Because the teacher forced him to", "zh": "因为老师逼他说出来"},
-        {"en": "Because Ben and Fred told on him", "zh": "因为本和弗雷德告了他的状"},
-        {"en": "Because he wanted a reward", "zh": "因为他想要奖励"}
+        {
+          "en": "Because 'HE ALWAYS TELLS THE TRUTH' — even though saying yes would let him 'come out smelling like a rose,' he admits the mean trick",
+          "zh": "因为「他永远都说真话」——尽管说「是」就能「浑身清香地脱身」，他还是坦白了那场恶作剧"
+        },
+        {
+          "en": "Because the teacher forced him to",
+          "zh": "因为老师逼他说出来"
+        },
+        {
+          "en": "Because Ben and Fred told on him according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "因为本和弗雷德告了他的状（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Because he wanted a reward",
+          "zh": "因为他想要奖励"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -102,10 +162,22 @@
         "zh": "麦蒂坦白后，斯尼克维瑟老师是怎么回应的？"
       },
       "options": [
-        {"en": "She accepts his apology, pats his head, says next time tell her before leaving the playground, and asks him to thank his mother for teaching him to wash dishes", "zh": "她接受了道歉、拍拍他的头，说下次离开操场前要先告诉她，并让他回家谢谢妈妈教会他做完饭洗碗"},
-        {"en": "She sends him straight to the principal's office", "zh": "她立刻把他送进校长办公室"},
-        {"en": "She makes him write lines all night", "zh": "她罚他抄写一整晚"},
-        {"en": "She laughs and ignores the whole thing", "zh": "她大笑，然后把这事全当没发生"}
+        {
+          "en": "She accepts his apology, pats his head, says next time tell her before leaving the playground, and asks him to thank his mother for teaching him to wash dishes",
+          "zh": "她接受了道歉、拍拍他的头，说下次离开操场前要先告诉她，并让他回家谢谢妈妈教会他做完饭洗碗"
+        },
+        {
+          "en": "She makes him write lines all night",
+          "zh": "她罚他抄写一整晚"
+        },
+        {
+          "en": "She sends him straight to the principal's office according to some versions of the story in an early draft of the book as mentioned in a later chapter before the main events begin",
+          "zh": "她立刻把他送进校长办公室（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）（在主要事件发生之前）"
+        },
+        {
+          "en": "She laughs and ignores the whole thing",
+          "zh": "她大笑，然后把这事全当没发生"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "下面哪个比喻表现出麦蒂洗车有多卖力？"
       },
       "options": [
-        {"en": "He scrubbed 'like his hero Mega Mouse — 1,000 times faster and stronger than a normal mouse'", "zh": "他「像自己的英雄麦加鼠那样——比普通老鼠快一千倍、强一千倍」地刷洗"},
-        {"en": "He cleaned 'as slowly as a sleepy snail'", "zh": "他「像困倦的蜗牛一样慢」地清洗"},
-        {"en": "He washed 'as quietly as a mouse in a library'", "zh": "他「像图书馆里的老鼠一样安静」地洗"},
-        {"en": "He scrubbed 'like he was planting a garden'", "zh": "他「像在种花园」一样刷洗"}
+        {
+          "en": "He washed 'as quietly as a mouse in a library' according to some versions of the story in an early draft of the book",
+          "zh": "他「像图书馆里的老鼠一样安静」地洗（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He scrubbed 'like his hero Mega Mouse — 1,000 times faster and stronger than a normal mouse'",
+          "zh": "他「像自己的英雄麦加鼠那样——比普通老鼠快一千倍、强一千倍」地刷洗"
+        },
+        {
+          "en": "He cleaned 'as slowly as a sleepy snail'",
+          "zh": "他「像困倦的蜗牛一样慢」地清洗"
+        },
+        {
+          "en": "He scrubbed 'like he was planting a garden'",
+          "zh": "他「像在种花园」一样刷洗"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, 'Morty scrubbed like his hero Mega Mouse — 1,000 times faster and stronger than a normal mouse,' showing how determined he was to fix his mess.",
@@ -138,12 +222,24 @@
         "zh": "到结尾时，麦蒂对斯尼克维瑟老师、也对自己有了什么认识？"
       },
       "options": [
-        {"en": "He sees she wasn't any harder on him than other mice, his prank came from his own anger, and he no longer likes the smell of rotten apples", "zh": "他明白老师对他并不比对别的老鼠更苛刻，恶作剧源于自己的愤怒，而且他再也不喜欢烂苹果的味道了"},
-        {"en": "He decides Miss Snickerwiser is the meanest teacher ever", "zh": "他认定斯尼克维瑟是史上最刻薄的老师"},
-        {"en": "He plans to play the same trick again next year", "zh": "他打算明年再搞一次同样的恶作剧"},
-        {"en": "He decides he loves the smell of apples forever", "zh": "他决定永远爱苹果的味道"}
+        {
+          "en": "He decides he loves the smell of apples forever",
+          "zh": "他决定永远爱苹果的味道"
+        },
+        {
+          "en": "He sees she wasn't any harder on him than other mice, his prank came from his own anger, and he no longer likes the smell of rotten apples",
+          "zh": "他明白老师对他并不比对别的老鼠更苛刻，恶作剧源于自己的愤怒，而且他再也不喜欢烂苹果的味道了"
+        },
+        {
+          "en": "He plans to play the same trick again next year",
+          "zh": "他打算明年再搞一次同样的恶作剧"
+        },
+        {
+          "en": "He decides Miss Snickerwiser is the meanest teacher ever according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他认定斯尼克维瑟是史上最刻薄的老师（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Morty thinks, 'she wasn't any harder on him than any other mouse in the class,' and 'his prank was just as rotten as the apples.' After cleaning, 'he did not like the smell of warm rotten apple... he wouldn't mind it if he never smelled apples again.'",
@@ -156,12 +252,24 @@
         "zh": "作者为什么要告诉我们斯尼克维瑟老师「最近脾气变差」，还曾因为番茄酱包的事打电话给麦蒂妈妈？"
       },
       "options": [
-        {"en": "To show Morty's motive (he was angry at her being tough) and that her sharpness had a cause (her sick mother), which deepens his regret", "zh": "为了交代麦蒂的动机（他气老师太严厉），也说明老师的火气事出有因（妈妈病了），从而加深他的愧疚"},
-        {"en": "To prove the teacher was always unfair", "zh": "为了证明老师一贯不公"},
-        {"en": "To explain the rule about the apples", "zh": "为了解释苹果的规定"},
-        {"en": "To describe what Morty ate for lunch", "zh": "为了描写麦蒂午饭吃了什么"}
+        {
+          "en": "To explain the rule about the apples",
+          "zh": "为了解释苹果的规定"
+        },
+        {
+          "en": "To describe what Morty ate for lunch according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "为了描写麦蒂午饭吃了什么（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "To prove the teacher was always unfair",
+          "zh": "为了证明老师一贯不公"
+        },
+        {
+          "en": "To show Morty's motive (he was angry at her being tough) and that her sharpness had a cause (her sick mother), which deepens his regret",
+          "zh": "为了交代麦蒂的动机（他气老师太严厉），也说明老师的火气事出有因（妈妈病了），从而加深他的愧疚"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book notes she 'had been crabby lately' and 'even called his mother when Morty smashed catsup packets' — this gives Morty a reason to be mad, but then reveals her mother is sick, so readers understand both sides and Morty's change of heart.",
@@ -174,12 +282,24 @@
         "zh": "结尾斯尼克维瑟老师请麦蒂帮一个什么特别的忙？"
       },
       "options": [
-        {"en": "To go home and tell his mother 'Thank you' for teaching him to wash dishes after cooking", "zh": "回家后跟妈妈说声「谢谢」，谢谢她教会自己做完饭要洗碗"},
-        {"en": "To bring her a basket of fresh apples", "zh": "给她带一篮新鲜苹果"},
-        {"en": "To clean the whole school by himself", "zh": "独自把整所学校打扫干净"},
-        {"en": "To never speak to Ben and Fred again", "zh": "永远不再和本、弗雷德说话"}
+        {
+          "en": "To never speak to Ben and Fred again according to some versions of the story in an early draft of the book",
+          "zh": "永远不再和本、弗雷德说话（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To bring her a basket of fresh apples",
+          "zh": "给她带一篮新鲜苹果"
+        },
+        {
+          "en": "To clean the whole school by himself",
+          "zh": "独自把整所学校打扫干净"
+        },
+        {
+          "en": "To go home and tell his mother 'Thank you' for teaching him to wash dishes after cooking",
+          "zh": "回家后跟妈妈说声「谢谢」，谢谢她教会自己做完饭要洗碗"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "She asks, 'Morty, will you do me one little favor? When you get home, will you tell your mother “Thank you”?' and explains, 'Your mom has done a fine job of teaching you to wash the dishes after you cook.'",

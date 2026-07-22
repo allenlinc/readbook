@@ -17,12 +17,12 @@
           "zh": "氮气、氧气和二氧化碳"
         },
         {
-          "en": "Hydrogen, helium, and neon",
-          "zh": "氢、氦和氖"
+          "en": "Ozone, methane, and argon according to some versions of the story",
+          "zh": "臭氧、甲烷和氩（按书中另一种说法）"
         },
         {
-          "en": "Ozone, methane, and argon",
-          "zh": "臭氧、甲烷和氩"
+          "en": "Hydrogen, helium, and neon",
+          "zh": "氢、氦和氖"
         },
         {
           "en": "Salt, water, and dust",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Three oxygen atoms, written as O3",
-          "zh": "三个氧原子，写作 O3"
+          "en": "Two hydrogen atoms according to some versions of the story",
+          "zh": "两个氢原子（按书中另一种说法）"
         },
         {
-          "en": "Two hydrogen atoms",
-          "zh": "两个氢原子"
+          "en": "Pure nitrogen",
+          "zh": "纯氮气"
         },
         {
           "en": "One carbon atom",
           "zh": "一个碳原子"
         },
         {
-          "en": "Pure nitrogen",
-          "zh": "纯氮气"
+          "en": "Three oxygen atoms, written as O3",
+          "zh": "三个氧原子，写作 O3"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Ozone is an oxygen molecule made of three atoms of oxygen, written as O3.",
@@ -73,8 +73,8 @@
       },
       "options": [
         {
-          "en": "In the upper part of the stratosphere",
-          "zh": "在平流层上层"
+          "en": "At the ocean floor according to some versions of the story",
+          "zh": "在海底（按书中另一种说法）"
         },
         {
           "en": "Near the ground",
@@ -85,11 +85,11 @@
           "zh": "在火山内部"
         },
         {
-          "en": "At the ocean floor",
-          "zh": "在海底"
+          "en": "In the upper part of the stratosphere",
+          "zh": "在平流层上层"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Good ozone sits in the upper stratosphere and absorbs harmful ultraviolet rays from the Sun.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "Clean water according to some versions of the story",
+          "zh": "干净的水（按书中另一种说法）"
+        },
+        {
           "en": "CFCs and ODCs, which release chlorine and bromine",
           "zh": "CFC和ODC，它们释放氯和溴"
         },
         {
-          "en": "Table salt",
-          "zh": "食盐"
-        },
-        {
-          "en": "Clean water",
-          "zh": "干净的水"
-        },
-        {
           "en": "Oxygen",
           "zh": "氧气"
+        },
+        {
+          "en": "Table salt",
+          "zh": "食盐"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Factories released CFCs whose chlorine, and ODCs whose bromine, destroyed ozone molecules.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "The NASA Treaty",
+          "zh": "《NASA条约》"
+        },
+        {
+          "en": "The Geneva Convention according to some versions of the story",
+          "zh": "《日内瓦公约》（按书中另一种说法）"
+        },
+        {
           "en": "The Montreal Protocol of 1987",
           "zh": "1987年的《蒙特利尔议定书》"
         },
         {
           "en": "The Paris Agreement",
           "zh": "《巴黎协定》"
-        },
-        {
-          "en": "The Geneva Convention",
-          "zh": "《日内瓦公约》"
-        },
-        {
-          "en": "The NASA Treaty",
-          "zh": "《NASA条约》"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Countries signed the Montreal Protocol in 1987, calling for a ban on CFCs and ODCs by 1996.",
@@ -167,8 +167,8 @@
           "zh": "1996年"
         },
         {
-          "en": "1987",
-          "zh": "1987年"
+          "en": "1987 according to some versions of the story",
+          "zh": "1987年（按书中另一种说法）"
         },
         {
           "en": "2050",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "About 76 percent (three-fourths)",
-          "zh": "约76%（四分之三）"
-        },
-        {
           "en": "About 1 percent",
           "zh": "约1%"
         },
         {
-          "en": "About 100 percent",
-          "zh": "约100%"
+          "en": "About 100 percent according to some versions of the story",
+          "zh": "约100%（按书中另一种说法）"
+        },
+        {
+          "en": "About 76 percent (three-fourths)",
+          "zh": "约76%（四分之三）"
         },
         {
           "en": "About 13 percent",
           "zh": "约13%"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Most scientists believe carbon dioxide causes about 76 percent of the increase in global warming.",
@@ -227,16 +227,16 @@
           "zh": "气体把热量困在地球表面附近，如同温室的玻璃"
         },
         {
-          "en": "Plants growing in houses",
-          "zh": "植物在房子里生长"
+          "en": "Ice melting into water",
+          "zh": "冰融化成水"
+        },
+        {
+          "en": "Plants growing in houses according to some versions of the story in an early draft of the book",
+          "zh": "植物在房子里生长（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "The Sun going out",
           "zh": "太阳熄灭"
-        },
-        {
-          "en": "Ice melting into water",
-          "zh": "冰融化成水"
         }
       ],
       "answer": 0,
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "Because it is a homework assignment according to some versions of the story",
+          "zh": "因为这是家庭作业（按书中另一种说法）"
+        },
+        {
           "en": "Because individuals can also protect the atmosphere by changing habits",
           "zh": "因为个人也可以通过改变习惯来保护大气"
         },
@@ -261,15 +265,11 @@
           "zh": "因为只有孩子能解决"
         },
         {
-          "en": "Because it is a homework assignment",
-          "zh": "因为这是家庭作业"
-        },
-        {
           "en": "Because the government cannot help",
           "zh": "因为政府帮不上忙"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says individuals can help by reducing car use and recycling refrigerator chemicals.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "A bright red color according to some versions of the story",
+          "zh": "一种鲜红色（按书中另一种说法）"
+        },
+        {
           "en": "A form of light energy that cannot be seen",
           "zh": "一种看不见的光能"
         },
         {
-          "en": "A bright red color",
-          "zh": "一种鲜红色"
+          "en": "A kind of rock",
+          "zh": "一种岩石"
         },
         {
           "en": "A type of cloud",
           "zh": "一种云"
-        },
-        {
-          "en": "A kind of rock",
-          "zh": "一种岩石"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Ultraviolet relates to a form of light energy that cannot be seen by humans.",

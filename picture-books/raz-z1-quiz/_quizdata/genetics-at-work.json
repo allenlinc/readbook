@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "A kind of animal",
+          "zh": "一种动物"
+        },
+        {
           "en": "Units of heredity that determine and pass on traits",
           "zh": "决定并传递性状的遗传单位"
         },
@@ -21,15 +25,11 @@
           "zh": "一种食物"
         },
         {
-          "en": "Buildings where science is done",
-          "zh": "做科学的建筑"
-        },
-        {
-          "en": "A kind of animal",
-          "zh": "一种动物"
+          "en": "Buildings where science is done according to some versions of the story",
+          "zh": "做科学的建筑（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book defines genes as units of heredity that determine traits.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "Building zoos",
+          "zh": "建造动物园"
+        },
+        {
           "en": "Choosing plants or animals with desirable traits to breed together",
           "zh": "挑选具备理想性状的动植物进行繁育"
         },
         {
-          "en": "Letting animals roam free",
-          "zh": "让动物自由游荡"
+          "en": "Letting animals roam free according to some versions of the story in an early draft of the book",
+          "zh": "让动物自由游荡（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Cooking food",
           "zh": "烹饪食物"
-        },
-        {
-          "en": "Building zoos",
-          "zh": "建造动物园"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Selective breeding is interbreeding selected plants or animals to control inherited traits.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "About one thousand",
-          "zh": "约一千个"
-        },
-        {
           "en": "About twenty-four thousand",
           "zh": "约两万四千个"
         },
         {
-          "en": "About one million",
-          "zh": "约一百万个"
-        },
-        {
           "en": "None",
           "zh": "没有"
+        },
+        {
+          "en": "About one million according to some versions of the story",
+          "zh": "约一百万个（按书中另一种说法）"
+        },
+        {
+          "en": "About one thousand",
+          "zh": "约一千个"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Human Genome Project found humans have about 24,000 genes.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "The first healthy cloned mammal (a sheep)",
-          "zh": "第一只健康克隆的哺乳动物（一只羊）"
+          "en": "A robot",
+          "zh": "一个机器人"
         },
         {
           "en": "A new type of corn",
           "zh": "一种新型玉米"
         },
         {
-          "en": "A robot",
-          "zh": "一个机器人"
+          "en": "A computer program according to some versions of the story",
+          "zh": "一个计算机程序（按书中另一种说法）"
         },
         {
-          "en": "A computer program",
-          "zh": "一个计算机程序"
+          "en": "The first healthy cloned mammal (a sheep)",
+          "zh": "第一只健康克隆的哺乳动物（一只羊）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Dolly was the first healthy mammal ever cloned, born in February 1997.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A mule, from a female horse and male donkey",
-          "zh": "骡子，由母马与公驴交配而生"
-        },
-        {
-          "en": "A tomato",
-          "zh": "西红柿"
-        },
-        {
           "en": "A panda",
           "zh": "大熊猫"
+        },
+        {
+          "en": "A tomato according to some versions of the story",
+          "zh": "西红柿（按书中另一种说法）"
+        },
+        {
+          "en": "A mule, from a female horse and male donkey",
+          "zh": "骡子，由母马与公驴交配而生"
         },
         {
           "en": "A rose",
           "zh": "玫瑰"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says female horses bred with male donkeys produce mules, a hybrid.",
@@ -163,8 +163,8 @@
       },
       "options": [
         {
-          "en": "They taste better",
-          "zh": "它们味道更好"
+          "en": "They grow slower",
+          "zh": "它们长得更慢"
         },
         {
           "en": "Some people had allergic reactions and foreign genes' effects can't be predicted",
@@ -175,8 +175,8 @@
           "zh": "它们更便宜"
         },
         {
-          "en": "They grow slower",
-          "zh": "它们长得更慢"
+          "en": "They taste better according to some versions of the story in an early draft of the book",
+          "zh": "它们味道更好（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "It keeps animals in cages forever according to some versions of the story",
+          "zh": "它让动物永远待在笼中（按书中另一种说法）"
+        },
+        {
           "en": "It makes animals prettier",
           "zh": "它让动物更漂亮"
         },
@@ -203,13 +207,9 @@
         {
           "en": "It reduces food needs",
           "zh": "它减少食物需求"
-        },
-        {
-          "en": "It keeps animals in cages forever",
-          "zh": "它让动物永远待在笼中"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Captive breeding maintains genetic diversity so released offspring survive better.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Criminals never leave DNA",
-          "zh": "罪犯从不留下DNA"
-        },
-        {
-          "en": "A criminal may avoid fingerprints but almost always leaves traces of DNA (skin, hair, fluid)",
-          "zh": "罪犯或许能避开指纹，却几乎总会留下DNA痕迹（皮屑、毛发、体液）"
-        },
-        {
           "en": "DNA is visible to the eye",
           "zh": "DNA肉眼可见"
         },
         {
+          "en": "Criminals never leave DNA according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "罪犯从不留下DNA（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
           "en": "DNA changes every hour",
           "zh": "DNA每小时都变"
+        },
+        {
+          "en": "A criminal may avoid fingerprints but almost always leaves traces of DNA (skin, hair, fluid)",
+          "zh": "罪犯或许能避开指纹，却几乎总会留下DNA痕迹（皮屑、毛发、体液）"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Like fingerprints, DNA is unique, and a criminal almost always leaves microscopic DNA traces.",
@@ -257,12 +257,12 @@
           "zh": "展示遗传学如今如何跨多个领域应用，并作为一门科学不断发展"
         },
         {
-          "en": "To teach history only",
-          "zh": "只讲授历史"
-        },
-        {
           "en": "To sell seeds",
           "zh": "出售种子"
+        },
+        {
+          "en": "To teach history only according to some versions of the story in an early draft of the book",
+          "zh": "只讲授历史（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To describe weather",
@@ -283,10 +283,6 @@
       },
       "options": [
         {
-          "en": "That genetics is entirely bad",
-          "zh": "遗传学完全有害"
-        },
-        {
           "en": "That genetics offers great promise but also raises unresolved concerns",
           "zh": "遗传学前景广阔，但也带来尚未解决的担忧"
         },
@@ -295,11 +291,15 @@
           "zh": "它应当被禁止"
         },
         {
+          "en": "That genetics is entirely bad according to some versions of the story in an early draft of the book",
+          "zh": "遗传学完全有害（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "That only farmers use it",
           "zh": "只有农民才使用它"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The text balances excitement about applications with cautions about risks.",

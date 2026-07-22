@@ -12,10 +12,22 @@
         "zh": "根据书中内容，狗最初是从什么演变来的？"
       },
       "options": [
-        { "en": "Wolves that became tame after eating human garbage near villages", "zh": "在村庄附近吃人类垃圾、逐渐变得温顺的狼" },
-        { "en": "Animals made in factories", "zh": "在工厂里被制造出来的动物" },
-        { "en": "Cats that changed shape", "zh": "变了形的猫" },
-        { "en": "Creatures that hatched from eggs", "zh": "从蛋里孵出来的生物" }
+        {
+          "en": "Wolves that became tame after eating human garbage near villages",
+          "zh": "在村庄附近吃人类垃圾、逐渐变得温顺的狼"
+        },
+        {
+          "en": "Animals made in factories",
+          "zh": "在工厂里被制造出来的动物"
+        },
+        {
+          "en": "Cats that changed shape",
+          "zh": "变了形的猫"
+        },
+        {
+          "en": "Creatures that hatched from eggs according to some versions of the story",
+          "zh": "从蛋里孵出来的生物（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "书中“purebred（纯种）”是什么意思？"
       },
       "options": [
-        { "en": "Dogs whose parents are the same breed, so the puppies are that same kind", "zh": "父母是同一品种、所以幼犬也是同一品种的狗" },
-        { "en": "Any mixed dog", "zh": "任何混血的狗" },
-        { "en": "A wild wolf", "zh": "一只野狼" },
-        { "en": "A dog with no tail", "zh": "没有尾巴的狗" }
+        {
+          "en": "A dog with no tail according to some versions of the story in an early draft of the book",
+          "zh": "没有尾巴的狗（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Dogs whose parents are the same breed, so the puppies are that same kind",
+          "zh": "父母是同一品种、所以幼犬也是同一品种的狗"
+        },
+        {
+          "en": "Any mixed dog",
+          "zh": "任何混血的狗"
+        },
+        {
+          "en": "A wild wolf",
+          "zh": "一只野狼"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains purebred means \"since their parents are the same, they will be the same, too. A male and female bulldog will have pups that are bulldogs.\"",
@@ -48,12 +72,24 @@
         "zh": "为什么寻血猎犬是优秀的嗅猎犬？"
       },
       "options": [
-        { "en": "Its loose facial skin and long floppy ears help stir up smells", "zh": "它松弛的脸皮和长长的垂耳有助于搅动气味" },
-        { "en": "It has webbed feet", "zh": "它有蹼状的脚" },
-        { "en": "It is the tallest dog", "zh": "它是身材最高的狗" },
-        { "en": "It has a waterproof coat", "zh": "它有防水的毛皮" }
+        {
+          "en": "It has a waterproof coat according to some versions of the story in an early draft of the book",
+          "zh": "它有防水的毛皮（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It has webbed feet",
+          "zh": "它有蹼状的脚"
+        },
+        {
+          "en": "It is the tallest dog",
+          "zh": "它是身材最高的狗"
+        },
+        {
+          "en": "Its loose facial skin and long floppy ears help stir up smells",
+          "zh": "它松弛的脸皮和长长的垂耳有助于搅动气味"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states the bloodhound \"has loose skin on its face and long, floppy ears. Both of these things help stir up smells so that the bloodhound can find game animals easily.\"",
@@ -66,10 +102,22 @@
         "zh": "作者写这本书的主要目的是什么？"
       },
       "options": [
-        { "en": "To inform readers about the different groups of dog breeds and the jobs they do", "zh": "为了向读者介绍狗的不同品种群体以及它们从事的工作" },
-        { "en": "To tell a fictional story about a lost dog", "zh": "为了讲一个走失狗狗的虚构故事" },
-        { "en": "To persuade people to buy purebred dogs", "zh": "为了劝人们购买纯种狗" },
-        { "en": "To entertain with jokes", "zh": "为了用笑话逗乐读者" }
+        {
+          "en": "To inform readers about the different groups of dog breeds and the jobs they do",
+          "zh": "为了向读者介绍狗的不同品种群体以及它们从事的工作"
+        },
+        {
+          "en": "To tell a fictional story about a lost dog according to some versions of the story",
+          "zh": "为了讲一个走失狗狗的虚构故事（按书中另一种说法）"
+        },
+        {
+          "en": "To persuade people to buy purebred dogs",
+          "zh": "为了劝人们购买纯种狗"
+        },
+        {
+          "en": "To entertain with jokes",
+          "zh": "为了用笑话逗乐读者"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -84,12 +132,24 @@
         "zh": "拉布拉多寻回犬有什么特别之处？"
       },
       "options": [
-        { "en": "It has webbed feet and a waterproof coat to retrieve birds from water", "zh": "它有蹼状的脚和防水的毛皮，能从水里叼回鸟类" },
-        { "en": "It is the tallest dog in the world", "zh": "它是世界上最高的狗" },
-        { "en": "It was bred to herd cattle", "zh": "它被培育来放牧牛群" },
-        { "en": "It has butterfly-shaped ears", "zh": "它有蝴蝶形状的耳朵" }
+        {
+          "en": "It is the tallest dog in the world according to some versions of the story",
+          "zh": "它是世界上最高的狗（按书中另一种说法）"
+        },
+        {
+          "en": "It has butterfly-shaped ears",
+          "zh": "它有蝴蝶形状的耳朵"
+        },
+        {
+          "en": "It has webbed feet and a waterproof coat to retrieve birds from water",
+          "zh": "它有蹼状的脚和防水的毛皮，能从水里叼回鸟类"
+        },
+        {
+          "en": "It was bred to herd cattle",
+          "zh": "它被培育来放牧牛群"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Lab \"was first bred to retrieve, or bring back, birds\" from ponds or lakes, and \"Labs have webbed feet to help them swim well. Their waterproof coat keeps them warm.\"",
@@ -102,12 +162,24 @@
         "zh": "书中用“mutts（杂种狗）”称呼一些狗。杂种狗是什么？"
       },
       "options": [
-        { "en": "Mixed-breed dogs, a mix of two or more kinds", "zh": "混种狗，两种或多种狗的混血" },
-        { "en": "Purebred dogs", "zh": "纯种狗" },
-        { "en": "Wolves", "zh": "狼" },
-        { "en": "Toy dogs", "zh": "玩具犬" }
+        {
+          "en": "Purebred dogs according to some versions of the story",
+          "zh": "纯种狗（按书中另一种说法）"
+        },
+        {
+          "en": "Toy dogs",
+          "zh": "玩具犬"
+        },
+        {
+          "en": "Mixed-breed dogs, a mix of two or more kinds",
+          "zh": "混种狗，两种或多种狗的混血"
+        },
+        {
+          "en": "Wolves",
+          "zh": "狼"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"Mixed-breed dogs are sometimes called mutts,\" meaning a mix of two or more kinds of dogs.",
@@ -120,12 +192,24 @@
         "zh": "牧羊犬是如何控制羊群和牛群的？"
       },
       "options": [
-        { "en": "By barking, staring, or nipping", "zh": "通过吠叫、盯着看，或轻咬" },
-        { "en": "By using their webbed feet", "zh": "用它们带蹼的脚" },
-        { "en": "By howling at the moon", "zh": "对着月亮嚎叫" },
-        { "en": "By digging holes", "zh": "挖洞" }
+        {
+          "en": "By digging holes",
+          "zh": "挖洞"
+        },
+        {
+          "en": "By howling at the moon",
+          "zh": "对着月亮嚎叫"
+        },
+        {
+          "en": "By using their webbed feet according to some versions of the story",
+          "zh": "用它们带蹼的脚（按书中另一种说法）"
+        },
+        {
+          "en": "By barking, staring, or nipping",
+          "zh": "通过吠叫、盯着看，或轻咬"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says herding dogs \"control animals by barking, staring, or nipping\" and are easily trained, eager workers.",
@@ -138,12 +222,24 @@
         "zh": "书中为什么提到大麦町犬在小马车旁小跑？"
       },
       "options": [
-        { "en": "To show how some nonsporting dogs once had real working jobs", "zh": "为了说明一些非运动犬曾经有真正的工作" },
-        { "en": "To prove Dalmatians are the fastest dogs", "zh": "为了证明大麦町犬跑得最快" },
-        { "en": "To explain why they are born white", "zh": "为了解释它们为什么生来是白色的" },
-        { "en": "To tell readers to ride horses", "zh": "为了叫读者去骑马" }
+        {
+          "en": "To tell readers to ride horses",
+          "zh": "为了叫读者去骑马"
+        },
+        {
+          "en": "To show how some nonsporting dogs once had real working jobs",
+          "zh": "为了说明一些非运动犬曾经有真正的工作"
+        },
+        {
+          "en": "To explain why they are born white",
+          "zh": "为了解释它们为什么生来是白色的"
+        },
+        {
+          "en": "To prove Dalmatians are the fastest dogs according to some versions of the story",
+          "zh": "为了证明大麦町犬跑得最快（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The nonsporting group \"no longer perform the jobs they were first bred for.\" The Dalmatian once \"trotted beside a horse-drawn coach\" and protected horses, showing its old job.",
@@ -156,10 +252,22 @@
         "zh": "梗犬通常被培育来做什么？"
       },
       "options": [
-        { "en": "Find and kill pests like rats, otters, foxes, and badgers", "zh": "寻找并消灭老鼠、水獭、狐狸和獾等害兽" },
-        { "en": "Retrieve birds from water", "zh": "从水里叼回鸟类" },
-        { "en": "Pull sleds", "zh": "拉雪橇" },
-        { "en": "Herd reindeer", "zh": "放牧驯鹿" }
+        {
+          "en": "Find and kill pests like rats, otters, foxes, and badgers",
+          "zh": "寻找并消灭老鼠、水獭、狐狸和獾等害兽"
+        },
+        {
+          "en": "Herd reindeer",
+          "zh": "放牧驯鹿"
+        },
+        {
+          "en": "Pull sleds",
+          "zh": "拉雪橇"
+        },
+        {
+          "en": "Retrieve birds from water according to some versions of the story",
+          "zh": "从水里叼回鸟类（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -174,12 +282,24 @@
         "zh": "根据书中内容，为什么混种狗可能是家庭的好选择？"
       },
       "options": [
-        { "en": "Mixed-breed dogs are often healthier and come in many sizes and colors", "zh": "混种狗通常更健康，而且有各种体型和颜色" },
-        { "en": "They are always purebred", "zh": "它们总是纯种的" },
-        { "en": "They need no vet visits", "zh": "它们不需要看兽医" },
-        { "en": "They cannot be trained", "zh": "它们无法被训练" }
+        {
+          "en": "They cannot be trained",
+          "zh": "它们无法被训练"
+        },
+        {
+          "en": "Mixed-breed dogs are often healthier and come in many sizes and colors",
+          "zh": "混种狗通常更健康，而且有各种体型和颜色"
+        },
+        {
+          "en": "They are always purebred according to some versions of the story in an early draft of the book",
+          "zh": "它们总是纯种的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They need no vet visits",
+          "zh": "它们不需要看兽医"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, \"Many people believe that mixed-breed dogs are healthier. Mixed breeds come in all sizes and colors. They often have lively personalities.\"",

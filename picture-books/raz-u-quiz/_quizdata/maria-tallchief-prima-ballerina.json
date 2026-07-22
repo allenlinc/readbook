@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "A Russian ballerina",
-          "zh": "一位俄罗斯芭蕾舞者"
+          "en": "A Russian ballerina according to some versions of the story in an early draft of the book",
+          "zh": "一位俄罗斯芭蕾舞者（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "The first Native American prima ballerina and a star of American ballet",
@@ -43,20 +43,20 @@
       },
       "options": [
         {
-          "en": "New York",
-          "zh": "纽约"
+          "en": "Los Angeles according to some versions of the story",
+          "zh": "洛杉矶（按书中另一种说法）"
         },
         {
           "en": "Fairfax, Oklahoma, on the Osage Reservation",
           "zh": "俄克拉荷马州费尔法克斯的奥塞奇保留地"
         },
         {
-          "en": "Chicago",
-          "zh": "芝加哥"
+          "en": "New York",
+          "zh": "纽约"
         },
         {
-          "en": "Los Angeles",
-          "zh": "洛杉矶"
+          "en": "Chicago",
+          "zh": "芝加哥"
         }
       ],
       "answer": 1,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Swan Lake",
-          "zh": "《天鹅湖》"
-        },
-        {
           "en": "Firebird",
           "zh": "《火鸟》"
         },
         {
-          "en": "The Nutcracker",
-          "zh": "《胡桃夹子》"
-        },
-        {
           "en": "Sleeping Beauty",
           "zh": "《睡美人》"
+        },
+        {
+          "en": "Swan Lake",
+          "zh": "《天鹅湖》"
+        },
+        {
+          "en": "The Nutcracker",
+          "zh": "《胡桃夹子》"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Her performance in Balanchine's Firebird in 1949 made her famous and led to her becoming prima ballerina.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Her father",
-          "zh": "她的父亲"
-        },
-        {
           "en": "A famous choreographer who created a new American ballet style and was her muse",
           "zh": "一位著名编舞家，创造了美国新芭蕾风格，也是她的灵感缪斯"
         },
         {
-          "en": "A U.S. president",
-          "zh": "一位美国总统"
-        },
-        {
           "en": "A food critic",
           "zh": "一位美食评论家"
+        },
+        {
+          "en": "Her father",
+          "zh": "她的父亲"
+        },
+        {
+          "en": "A U.S. president according to some versions of the story in an early draft of the book",
+          "zh": "一位美国总统（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Balanchine was a leading 20th-century choreographer; Tallchief became his muse and they married in 1946.",
@@ -137,19 +137,19 @@
           "zh": "诺贝尔奖"
         },
         {
+          "en": "The Kennedy Center award (given later, in 1996)",
+          "zh": "肯尼迪中心奖（其实是1996年获得的）"
+        },
+        {
           "en": "The National Medal of Arts",
           "zh": "国家艺术奖章"
         },
         {
           "en": "An Olympic medal",
           "zh": "奥运奖牌"
-        },
-        {
-          "en": "The Kennedy Center award (given later, in 1996)",
-          "zh": "肯尼迪中心奖（其实是1996年获得的）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "In 1999 she received the National Medal of Arts, the highest U.S. honor for an individual artist.",
@@ -167,16 +167,16 @@
           "zh": "她是美国第一位首席芭蕾舞者、第一位原住民芭蕾明星"
         },
         {
-          "en": "She invented ballet",
-          "zh": "她发明了芭蕾"
-        },
-        {
-          "en": "She was the tallest dancer",
-          "zh": "她是最高的舞者"
-        },
-        {
           "en": "She wrote many books",
           "zh": "她写了很多书"
+        },
+        {
+          "en": "She was the tallest dancer according to some versions of the story in an early draft of the book",
+          "zh": "她是最高的舞者（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "She invented ballet",
+          "zh": "她发明了芭蕾"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "To entertain with a made-up story",
-          "zh": "用一个虚构故事来娱乐"
-        },
-        {
-          "en": "To inform readers about an important ballet figure and her legacy",
-          "zh": "向读者介绍一位重要的芭蕾人物及其影响"
-        },
-        {
           "en": "To teach cooking",
           "zh": "为了教烹饪"
         },
         {
+          "en": "To entertain with a made-up story according to some versions of the story",
+          "zh": "用一个虚构故事来娱乐（按书中另一种说法）"
+        },
+        {
           "en": "To describe a war",
           "zh": "为了描述一场战争"
+        },
+        {
+          "en": "To inform readers about an important ballet figure and her legacy",
+          "zh": "向读者介绍一位重要的芭蕾人物及其影响"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "As a biography, the book informs readers about Tallchief's life, achievements, and lasting impact on ballet.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Through quotes and facts about her achievements and influence",
-          "zh": "通过引语和关于她成就与影响的事实"
-        },
-        {
-          "en": "By making up stories about her",
-          "zh": "通过编造关于她的故事"
-        },
-        {
           "en": "By ignoring her career",
           "zh": "通过忽略她的职业生涯"
         },
         {
+          "en": "By making up stories about her according to some versions of the story",
+          "zh": "通过编造关于她的故事（按书中另一种说法）"
+        },
+        {
           "en": "By focusing only on Russia",
           "zh": "通过只聚焦俄罗斯"
+        },
+        {
+          "en": "Through quotes and facts about her achievements and influence",
+          "zh": "通过引语和关于她成就与影响的事实"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book uses praise from critics, presidents, and fellow dancers, plus a timeline of her milestones.",
@@ -253,8 +253,8 @@
       },
       "options": [
         {
-          "en": "1949",
-          "zh": "1949年"
+          "en": "2013 according to some versions of the story",
+          "zh": "2013年（按书中另一种说法）"
         },
         {
           "en": "1965, at age 41",
@@ -265,8 +265,8 @@
           "zh": "1980年"
         },
         {
-          "en": "2013",
-          "zh": "2013年"
+          "en": "1949",
+          "zh": "1949年"
         }
       ],
       "answer": 1,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "Stop dancing",
+          "zh": "别再跳舞"
+        },
+        {
+          "en": "Become a doctor according to some versions of the story in an early draft of the book",
+          "zh": "去当医生（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "'Follow one star'—pursue either piano or dance, not both",
           "zh": "“追逐一颗星”——在钢琴和舞蹈中二选一，不可兼得"
         },
         {
-          "en": "Become a doctor",
-          "zh": "去当医生"
-        },
-        {
           "en": "Move to Russia",
           "zh": "搬去俄罗斯"
-        },
-        {
-          "en": "Stop dancing",
-          "zh": "别再跳舞"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Her father insisted she 'follow one star' and choose between piano and dance; she chose dance.",

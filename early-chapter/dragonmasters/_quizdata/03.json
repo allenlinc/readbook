@@ -14,12 +14,24 @@
         "zh": "博在枕头上发现了什么，让他忧心忡忡？"
       },
       "options": [
-        {"en": "A black feather", "zh": "一根黑色羽毛"},
-        {"en": "A red stone", "zh": "一块红石头"},
-        {"en": "A dragon scale", "zh": "一片龙鳞"},
-        {"en": "A letter from the king", "zh": "国王的信"}
+        {
+          "en": "A red stone",
+          "zh": "一块红石头"
+        },
+        {
+          "en": "A black feather",
+          "zh": "一根黑色羽毛"
+        },
+        {
+          "en": "A letter from the king",
+          "zh": "国王的信"
+        },
+        {
+          "en": "A dragon scale",
+          "zh": "一片龙鳞"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "A black feather lies on Bo's pillow; it is the symbol of the Raven Guard and comes with a threatening note.",
         "zh": "博的枕头上有一根黑色羽毛，那是乌鸦卫队的标志，还附带着一张威胁的字条。"
@@ -31,10 +43,22 @@
         "zh": "博为什么要去偷龙石块？"
       },
       "options": [
-        {"en": "He wants to be king", "zh": "他想当国王"},
-        {"en": "His family is imprisoned and he must free them", "zh": "他的家人被关押，他必须救他们"},
-        {"en": "He dislikes Griffith", "zh": "他不喜欢格里菲斯"},
-        {"en": "He wants a pet dragon", "zh": "他想要一条宠物龙"}
+        {
+          "en": "He dislikes Griffith",
+          "zh": "他不喜欢格里菲斯"
+        },
+        {
+          "en": "His family is imprisoned and he must free them",
+          "zh": "他的家人被关押，他必须救他们"
+        },
+        {
+          "en": "He wants to be king",
+          "zh": "他想当国王"
+        },
+        {
+          "en": "He wants a pet dragon according to some versions of the story",
+          "zh": "他想要一条宠物龙（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -48,10 +72,22 @@
         "zh": "水龙舒的秘密能力是什么？"
       },
       "options": [
-        {"en": "She can shoot fire", "zh": "她能喷火"},
-        {"en": "She can fly without wings", "zh": "她能无翅飞行"},
-        {"en": "She can wash away magic spells", "zh": "她能洗去魔法咒语"},
-        {"en": "She can turn invisible", "zh": "她能隐身"}
+        {
+          "en": "She can turn invisible",
+          "zh": "她能隐身"
+        },
+        {
+          "en": "She can fly without wings according to some versions of the story",
+          "zh": "她能无翅飞行（按书中另一种说法）"
+        },
+        {
+          "en": "She can wash away magic spells",
+          "zh": "她能洗去魔法咒语"
+        },
+        {
+          "en": "She can shoot fire",
+          "zh": "她能喷火"
+        }
       ],
       "answer": 2,
       "explain": {
@@ -65,12 +101,24 @@
         "zh": "乌鸦卫队是什么人？"
       },
       "options": [
-        {"en": "King Roland's chefs", "zh": "罗兰国王的厨师"},
-        {"en": "Black-clad fighters who serve Emperor Song and move silently", "zh": "侍奉宋皇帝、行动无声的黑衣战士"},
-        {"en": "A type of dragon", "zh": "一种龙"},
-        {"en": "Wizards at the castle", "zh": "城堡里的巫师"}
+        {
+          "en": "Black-clad fighters who serve Emperor Song and move silently",
+          "zh": "侍奉宋皇帝、行动无声的黑衣战士"
+        },
+        {
+          "en": "King Roland's chefs",
+          "zh": "罗兰国王的厨师"
+        },
+        {
+          "en": "A type of dragon",
+          "zh": "一种龙"
+        },
+        {
+          "en": "Wizards at the castle according to some versions of the story",
+          "zh": "城堡里的巫师（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "The Raven Guard are skilled, silent spies dressed all in black who serve Emperor Song and steal the Dragon Stone.",
         "zh": "乌鸦卫队是身穿黑衣、行动无声的精锐间谍，侍奉宋皇帝，并偷走了龙石块。"
@@ -82,10 +130,22 @@
         "zh": "驯龙师们是怎样找到被偷走的龙石块的？"
       },
       "options": [
-        {"en": "With a map", "zh": "用地图"},
-        {"en": "With a magic Finding Charm feather", "zh": "用魔法寻物羽毛咒符"},
-        {"en": "With a spy", "zh": "用间谍"},
-        {"en": "With a dream", "zh": "用梦境"}
+        {
+          "en": "With a dream according to some versions of the story",
+          "zh": "用梦境（按书中另一种说法）"
+        },
+        {
+          "en": "With a magic Finding Charm feather",
+          "zh": "用魔法寻物羽毛咒符"
+        },
+        {
+          "en": "With a map",
+          "zh": "用地图"
+        },
+        {
+          "en": "With a spy",
+          "zh": "用间谍"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -99,12 +159,24 @@
         "zh": "是谁的黑魔法控制了宋皇帝？"
       },
       "options": [
-        {"en": "King Roland", "zh": "罗兰国王"},
-        {"en": "Griffith", "zh": "格里菲斯"},
-        {"en": "Maldred", "zh": "马尔德雷"},
-        {"en": "Diego", "zh": "迪亚哥"}
+        {
+          "en": "Maldred",
+          "zh": "马尔德雷"
+        },
+        {
+          "en": "Griffith",
+          "zh": "格里菲斯"
+        },
+        {
+          "en": "Diego",
+          "zh": "迪亚哥"
+        },
+        {
+          "en": "King Roland",
+          "zh": "罗兰国王"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "Griffith and Bo realize Maldred placed a dark spell on the emperor, forcing him to demand the Dragon Stone.",
         "zh": "格里菲斯和博意识到马尔德雷对皇帝下了黑咒，逼他索要龙石块。"
@@ -116,12 +188,24 @@
         "zh": "舒是怎样解除宋皇帝身上的咒语的？"
       },
       "options": [
-        {"en": "A blue mist from her mouth rains down on him", "zh": "她口中吐出的蓝色薄雾落在他身上"},
-        {"en": "A blast of fire", "zh": "喷出一团火"},
-        {"en": "A loud song", "zh": "唱一首响亮的歌"},
-        {"en": "A magic potion", "zh": "一瓶魔法药水"}
+        {
+          "en": "A blast of fire according to some versions of the story",
+          "zh": "喷出一团火（按书中另一种说法）"
+        },
+        {
+          "en": "A loud song",
+          "zh": "唱一首响亮的歌"
+        },
+        {
+          "en": "A magic potion",
+          "zh": "一瓶魔法药水"
+        },
+        {
+          "en": "A blue mist from her mouth rains down on him",
+          "zh": "她口中吐出的蓝色薄雾落在他身上"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Shu floats up to the emperor and breathes a misty blue cloud that rains down and washes the dark spell away.",
         "zh": "舒飞到皇帝面前，吐出蓝色薄雾飘落下来，洗去了黑咒。"
@@ -133,12 +217,24 @@
         "zh": "在宋皇帝的宫殿里，是哪条龙摧毁了马尔德雷的红色光球？"
       },
       "options": [
-        {"en": "Shu", "zh": "舒"},
-        {"en": "Kepri", "zh": "凯普里"},
-        {"en": "Vulcan", "zh": "瓦尔坎"},
-        {"en": "Worm", "zh": "沃姆"}
+        {
+          "en": "Kepri",
+          "zh": "凯普里"
+        },
+        {
+          "en": "Shu",
+          "zh": "舒"
+        },
+        {
+          "en": "Worm",
+          "zh": "沃姆"
+        },
+        {
+          "en": "Vulcan",
+          "zh": "瓦尔坎"
+        }
       ],
-      "answer": 3,
+      "answer": 2,
       "explain": {
         "en": "Worm uses the power of his mind to blast the glowing red orbs with green light, destroying them one by one.",
         "zh": "沃姆用意念射出绿光，把发光的红色光球一个接一个地炸毁。"
@@ -150,12 +246,24 @@
         "zh": "宋皇帝是谁？"
       },
       "options": [
-        {"en": "King Roland's brother", "zh": "罗兰国王的兄弟"},
-        {"en": "The ruler of Bo's home kingdom", "zh": "博的家乡王国的统治者"},
-        {"en": "A dark wizard", "zh": "一个黑巫师"},
-        {"en": "The castle guard", "zh": "城堡卫兵"}
+        {
+          "en": "The ruler of Bo's home kingdom",
+          "zh": "博的家乡王国的统治者"
+        },
+        {
+          "en": "A dark wizard",
+          "zh": "一个黑巫师"
+        },
+        {
+          "en": "King Roland's brother according to some versions of the story",
+          "zh": "罗兰国王的兄弟（按书中另一种说法）"
+        },
+        {
+          "en": "The castle guard",
+          "zh": "城堡卫兵"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Emperor Song rules the kingdom Bo comes from; King Roland's soldiers first took Bo from there to be a Dragon Master.",
         "zh": "宋皇帝统治着博的故乡王国；罗兰国王的士兵最初就是从那里把博带去当驯龙师的。"
@@ -167,12 +275,24 @@
         "zh": "在故事结尾，舒为巫师迪亚哥做了什么？"
       },
       "options": [
-        {"en": "Feeds him dinner", "zh": "喂他吃饭"},
-        {"en": "Washes away a sleep spell so he wakes up", "zh": "洗去沉睡咒语让他醒来"},
-        {"en": "Carries him home", "zh": "把他送回家"},
-        {"en": "Teaches him to ride", "zh": "教他骑马"}
+        {
+          "en": "Carries him home",
+          "zh": "把他送回家"
+        },
+        {
+          "en": "Teaches him to ride according to some versions of the story",
+          "zh": "教他骑马（按书中另一种说法）"
+        },
+        {
+          "en": "Feeds him dinner",
+          "zh": "喂他吃饭"
+        },
+        {
+          "en": "Washes away a sleep spell so he wakes up",
+          "zh": "洗去沉睡咒语让他醒来"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Diego fell into a deep sleep from a spell; Shu's blue mist washes it away and he opens his eyes.",
         "zh": "迪亚哥因咒语陷入沉睡，舒的蓝色薄雾洗去咒语，他睁开了眼睛。"

@@ -17,16 +17,16 @@
           "zh": "南美洲"
         },
         {
-          "en": "Africa",
-          "zh": "非洲"
-        },
-        {
           "en": "Asia",
           "zh": "亚洲"
         },
         {
-          "en": "Australia",
-          "zh": "大洋洲"
+          "en": "Australia according to some versions of the story",
+          "zh": "大洋洲（按书中另一种说法）"
+        },
+        {
+          "en": "Africa",
+          "zh": "非洲"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "More than 50 percent (over half)",
-          "zh": "超过50%（一半以上）"
-        },
-        {
           "en": "About 5 percent",
           "zh": "约5%"
         },
         {
-          "en": "Exactly 100 percent",
-          "zh": "恰好100%"
+          "en": "More than 50 percent (over half)",
+          "zh": "超过50%（一半以上）"
+        },
+        {
+          "en": "Exactly 100 percent according to some versions of the story",
+          "zh": "恰好100%（按书中另一种说法）"
         },
         {
           "en": "Less than 1 percent",
           "zh": "不到1%"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Tropical rainforests cover about 6 percent of Earth's surface 'but more than half (50 percent) of the world's plant and animal species.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "The canopy layer",
-          "zh": "冠层"
-        },
-        {
-          "en": "The emergent layer",
-          "zh": "露生层"
+          "en": "The rainforest floor",
+          "zh": "雨林地面"
         },
         {
           "en": "The understory layer",
           "zh": "下层"
         },
         {
-          "en": "The rainforest floor",
-          "zh": "雨林地面"
+          "en": "The emergent layer",
+          "zh": "露生层"
+        },
+        {
+          "en": "The canopy layer",
+          "zh": "冠层"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'About 80 percent of the sunlight... is absorbed by the trees in this layer' and 'most of the rainforest plants and animals live' in the canopy.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "About 90 percent according to some versions of the story",
+          "zh": "约90%（按书中另一种说法）"
+        },
+        {
           "en": "About 24 percent",
           "zh": "约24%"
         },
         {
-          "en": "About 1 percent",
-          "zh": "约1%"
-        },
-        {
-          "en": "About 90 percent",
-          "zh": "约90%"
-        },
-        {
           "en": "None at all",
           "zh": "完全没有"
+        },
+        {
+          "en": "About 1 percent",
+          "zh": "约1%"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'Rainforests contribute approximately 24 percent of the oxygen in Earth's atmosphere.'",
@@ -137,16 +137,16 @@
           "zh": "以有趣、吸引人的对话形式呈现事实"
         },
         {
-          "en": "To prove animals can really talk",
-          "zh": "为了证明动物真的会说话"
-        },
-        {
-          "en": "To replace the glossary",
-          "zh": "为了取代词汇表"
+          "en": "To prove animals can really talk according to some versions of the story",
+          "zh": "为了证明动物真的会说话（按书中另一种说法）"
         },
         {
           "en": "To teach French vocabulary",
           "zh": "为了教法语词汇"
+        },
+        {
+          "en": "To replace the glossary",
+          "zh": "为了取代词汇表"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A four-story building",
-          "zh": "一栋四层楼房"
-        },
-        {
-          "en": "A single tall tree",
-          "zh": "一棵高树"
+          "en": "A round planet",
+          "zh": "一个圆球状行星"
         },
         {
           "en": "A deep ocean",
           "zh": "一片深海"
         },
         {
-          "en": "A round planet",
-          "zh": "一个圆球状行星"
+          "en": "A four-story building",
+          "zh": "一栋四层楼房"
+        },
+        {
+          "en": "A single tall tree according to some versions of the story",
+          "zh": "一棵高树（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "'You can think of it like a four-story building, with the highest trees making up the top floor, called the emergent layer.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Bananas, chocolate, and rubber",
-          "zh": "香蕉、巧克力和橡胶"
-        },
-        {
-          "en": "Wheat and rice only",
-          "zh": "仅有小麦和水稻"
+          "en": "Plastic and glass",
+          "zh": "塑料和玻璃"
         },
         {
           "en": "Coal and oil",
           "zh": "煤和石油"
         },
         {
-          "en": "Plastic and glass",
-          "zh": "塑料和玻璃"
+          "en": "Wheat and rice only according to some versions of the story",
+          "zh": "仅有小麦和水稻（按书中另一种说法）"
+        },
+        {
+          "en": "Bananas, chocolate, and rubber",
+          "zh": "香蕉、巧克力和橡胶"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "'Bananas, chocolate, and rubber all grow in the Amazon rainforest,' along with medicines and pineapples.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Because humans and other animals need oxygen in order to live",
-          "zh": "因为人类和其他动物需要氧气才能生存"
+          "en": "Because it helps build the pyramids according to some versions of the story",
+          "zh": "因为它有助于建造金字塔（按书中另一种说法）"
         },
         {
           "en": "Because oxygen makes the river flow",
           "zh": "因为氧气让河流流动"
         },
         {
-          "en": "Because it helps build the pyramids",
-          "zh": "因为它有助于建造金字塔"
+          "en": "Because humans and other animals need oxygen in order to live",
+          "zh": "因为人类和其他动物需要氧气才能生存"
         },
         {
           "en": "Because it keeps the ground dark",
           "zh": "因为它让地面保持黑暗"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "'Humans and other animals need oxygen in order to live,' connecting the forest's role to all life.",
@@ -257,16 +257,16 @@
           "zh": "亚马逊十分珍贵，值得欣赏或保护"
         },
         {
-          "en": "That the Amazon is fake",
-          "zh": "亚马逊是假的"
-        },
-        {
           "en": "That the Amazon is empty",
           "zh": "亚马逊空无一物"
         },
         {
-          "en": "That the Amazon is only in books",
-          "zh": "亚马逊只存在于书中"
+          "en": "That the Amazon is only in books according to some versions of the story",
+          "zh": "亚马逊只存在于书中（按书中另一种说法）"
+        },
+        {
+          "en": "That the Amazon is fake",
+          "zh": "亚马逊是假的"
         }
       ],
       "answer": 0,
@@ -283,6 +283,10 @@
       },
       "options": [
         {
+          "en": "Warning readers to be quiet",
+          "zh": "警告读者保持安静"
+        },
+        {
           "en": "Inviting readers to feel personally connected to the living rainforest",
           "zh": "邀请读者与鲜活的雨林建立切身联系"
         },
@@ -291,15 +295,11 @@
           "zh": "测试读者的听力"
         },
         {
-          "en": "Suggesting the monkey is in the room",
-          "zh": "暗示猴子就在房间里"
-        },
-        {
-          "en": "Warning readers to be quiet",
-          "zh": "警告读者保持安静"
+          "en": "Suggesting the monkey is in the room according to some versions of the story",
+          "zh": "暗示猴子就在房间里（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "'a leaf-cutter ant marches back to a fungus garden, and the scream of a howler monkey echoes... Can you hear it?' makes the distant rainforest feel immediate.",

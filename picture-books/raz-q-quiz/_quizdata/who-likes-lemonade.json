@@ -12,10 +12,22 @@
         "zh": "麦迪（Mike）为什么想靠卖柠檬水来赚钱？"
       },
       "options": [
-        {"en": "To buy his friend Derek's used Super Spy Kit, which costs $25", "zh": "为了买朋友德里克(Derek)那套二手「超级间谍套装」，要价 25 美元"},
-        {"en": "To buy a brand-new bicycle", "zh": "为了买一辆崭新的自行车"},
-        {"en": "To save up for college", "zh": "为了攒大学学费"},
-        {"en": "To buy his little sister Aster a birthday gift", "zh": "为了给妹妹艾斯特(Aster)买生日礼物"}
+        {
+          "en": "To buy his friend Derek's used Super Spy Kit, which costs $25",
+          "zh": "为了买朋友德里克(Derek)那套二手「超级间谍套装」，要价 25 美元"
+        },
+        {
+          "en": "To save up for college",
+          "zh": "为了攒大学学费"
+        },
+        {
+          "en": "To buy his little sister Aster a birthday gift according to some versions of the story",
+          "zh": "为了给妹妹艾斯特(Aster)买生日礼物（按书中另一种说法）"
+        },
+        {
+          "en": "To buy a brand-new bicycle",
+          "zh": "为了买一辆崭新的自行车"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "去年夏天，麦迪的柠檬水摊出了什么问题？"
       },
       "options": [
-        {"en": "He got bored and wandered away from the stand", "zh": "他觉得很无聊，自己跑开了"},
-        {"en": "It rained and washed everything away", "zh": "下大雨，把东西都冲走了"},
-        {"en": "No one liked the taste of his lemonade", "zh": "没人喜欢他的柠檬水味道"},
-        {"en": "His mom made him close early", "zh": "妈妈让他提前收摊"}
+        {
+          "en": "It rained and washed everything away",
+          "zh": "下大雨，把东西都冲走了"
+        },
+        {
+          "en": "He got bored and wandered away from the stand",
+          "zh": "他觉得很无聊，自己跑开了"
+        },
+        {
+          "en": "His mom made him close early",
+          "zh": "妈妈让他提前收摊"
+        },
+        {
+          "en": "No one liked the taste of his lemonade according to some versions of the story",
+          "zh": "没人喜欢他的柠檬水味道（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "His mom reminds him: 'You got bored and wandered away.' That is why she says this summer must be different.",
@@ -48,12 +72,24 @@
         "zh": "在词汇表里，「artisanal」（手工精制的）是什么意思？"
       },
       "options": [
-        {"en": "Made by a skilled person who creates items by hand", "zh": "由手艺熟练的人亲手制作的东西"},
-        {"en": "Made cheaply in a factory", "zh": "在工厂里廉价批量生产的"},
-        {"en": "Made from artificial powder", "zh": "用人工粉末做成的"},
-        {"en": "Made only in the winter", "zh": "只在冬天制作的"}
+        {
+          "en": "Made cheaply in a factory according to some versions of the story",
+          "zh": "在工厂里廉价批量生产的（按书中另一种说法）"
+        },
+        {
+          "en": "Made from artificial powder",
+          "zh": "用人工粉末做成的"
+        },
+        {
+          "en": "Made by a skilled person who creates items by hand",
+          "zh": "由手艺熟练的人亲手制作的东西"
+        },
+        {
+          "en": "Made only in the winter",
+          "zh": "只在冬天制作的"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'artisanal' as 'made by or relating to a person who is skilled at a craft or trade and who creates items by hand.' Mike calls his from-scratch lemonade 'artisanal.'",
@@ -66,12 +102,24 @@
         "zh": "在词汇表里，「profit margin」（利润空间）是什么？"
       },
       "options": [
-        {"en": "The difference between the cost of a product and its selling price", "zh": "一件产品的成本与售价之间的差额"},
-        {"en": "The total amount of money from sales", "zh": "卖出的所有钱的总额"},
-        {"en": "A type of lemon", "zh": "一种柠檬"},
-        {"en": "A discount on the regular price", "zh": "对原价打的折扣"}
+        {
+          "en": "A type of lemon",
+          "zh": "一种柠檬"
+        },
+        {
+          "en": "A discount on the regular price",
+          "zh": "对原价打的折扣"
+        },
+        {
+          "en": "The total amount of money from sales according to some versions of the story",
+          "zh": "卖出的所有钱的总额（按书中另一种说法）"
+        },
+        {
+          "en": "The difference between the cost of a product and its selling price",
+          "zh": "一件产品的成本与售价之间的差额"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'profit margin' as 'the difference between the cost of a product or service and its selling price.' Mike's mom warns that out-of-season lemons will 'eat straight into your profit margin.'",
@@ -84,10 +132,22 @@
         "zh": "根据麦迪妈妈的话，柠檬在什么季节才当令？这对他夏天的摊子意味着什么？"
       },
       "options": [
-        {"en": "Lemons are out of season in summer; they come ripe in the winter", "zh": "柠檬夏天是反季的，要到冬天才成熟上市"},
-        {"en": "Lemons are in season all summer long", "zh": "整个夏天柠檬都当令"},
-        {"en": "Lemons grow all year round at the same price", "zh": "柠檬一年四季都有，价格一样"},
-        {"en": "Lemons only ripen in the spring", "zh": "柠檬只在春天成熟"}
+        {
+          "en": "Lemons are out of season in summer; they come ripe in the winter",
+          "zh": "柠檬夏天是反季的，要到冬天才成熟上市"
+        },
+        {
+          "en": "Lemons are in season all summer long",
+          "zh": "整个夏天柠檬都当令"
+        },
+        {
+          "en": "Lemons only ripen in the spring",
+          "zh": "柠檬只在春天成熟"
+        },
+        {
+          "en": "Lemons grow all year round at the same price according to some versions of the story",
+          "zh": "柠檬一年四季都有，价格一样（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -102,12 +162,24 @@
         "zh": "在扣除成本之后，麦迪的柠檬水摊实际上赚钱了吗？"
       },
       "options": [
-        {"en": "No—his sales were $27.35 but costs were $27.50, so he owed his mom $1.50 (a small loss)", "zh": "没有——他卖出 27.35 美元，但成本有 27.50 美元，所以还欠妈妈 1.50 美元（小亏一笔）"},
-        {"en": "Yes—he made a $26 profit after costs", "zh": "赚了——扣除成本后净赚 26 美元"},
-        {"en": "Yes—he made exactly $75", "zh": "赚了——正好赚了 75 美元"},
-        {"en": "No—he lost more than $20", "zh": "没赚——亏了 20 多美元"}
+        {
+          "en": "Yes—he made a $26 profit after costs according to some versions of the story in an early draft of the book",
+          "zh": "赚了——扣除成本后净赚 26 美元（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "No—he lost more than $20",
+          "zh": "没赚——亏了 20 多美元"
+        },
+        {
+          "en": "Yes—he made exactly $75",
+          "zh": "赚了——正好赚了 75 美元"
+        },
+        {
+          "en": "No—his sales were $27.35 but costs were $27.50, so he owed his mom $1.50 (a small loss)",
+          "zh": "没有——他卖出 27.35 美元，但成本有 27.50 美元，所以还欠妈妈 1.50 美元（小亏一笔）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Gross sales were $27.35. The lemons cost $20.70 and the sugar $6.80, so total cost was $27.50. He ended up owing his mom $1.50—his net was a small loss.",
@@ -120,12 +192,24 @@
         "zh": "为什么麦迪的柠檬水摊生意那么红火（「business boomed」）？"
       },
       "options": [
-        {"en": "Adults and kids both loved the real, high-quality lemonade, and Aster's smile drew in customers", "zh": "大人和小孩都喜欢那真正高品质的柠檬水，而艾斯特的笑容吸引了顾客"},
-        {"en": "It was the only lemonade stand in the whole town", "zh": "因为它是全镇唯一的柠檬水摊"},
-        {"en": "He sold each cup for only a penny", "zh": "因为他每杯只卖一美分"},
-        {"en": "The weather was cold so people wanted warm drinks", "zh": "因为天气冷，大家都想喝热饮"}
+        {
+          "en": "He sold each cup for only a penny",
+          "zh": "因为他每杯只卖一美分"
+        },
+        {
+          "en": "The weather was cold so people wanted warm drinks according to some versions of the story in an early draft of the book",
+          "zh": "因为天气冷，大家都想喝热饮（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Adults and kids both loved the real, high-quality lemonade, and Aster's smile drew in customers",
+          "zh": "大人和小孩都喜欢那真正高品质的柠檬水，而艾斯特的笑容吸引了顾客"
+        },
+        {
+          "en": "It was the only lemonade stand in the whole town",
+          "zh": "因为它是全镇唯一的柠檬水摊"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says 'Adults loved the lemonade, kids loved the lemonade, and business boomed.' Mike also used Aster's missing-tooth smile to 'draw in customers,' and his lemonade made lips pucker with a 'one-two punch' of sweet and sour.",
@@ -138,12 +222,24 @@
         "zh": "故事结尾，麦迪学到了什么道理？"
       },
       "options": [
-        {"en": "That making a quality product and working hard matters—even a 'failure' can be something to be proud of", "zh": "亲手做出好产品、努力付出是有意义的——即使看似「失败」，也值得骄傲"},
-        {"en": "That he should never sell lemonade again", "zh": "他再也不该卖柠檬水了"},
-        {"en": "That cheating customers is the best way to make money", "zh": "欺骗顾客是赚钱的最好办法"},
-        {"en": "That his sister should run the business instead", "zh": "应该让妹妹来经营生意"}
+        {
+          "en": "That he should never sell lemonade again",
+          "zh": "他再也不该卖柠檬水了"
+        },
+        {
+          "en": "That making a quality product and working hard matters—even a 'failure' can be something to be proud of",
+          "zh": "亲手做出好产品、努力付出是有意义的——即使看似「失败」，也值得骄傲"
+        },
+        {
+          "en": "That his sister should run the business instead",
+          "zh": "应该让妹妹来经营生意"
+        },
+        {
+          "en": "That cheating customers is the best way to make money according to some versions of the story in an early draft of the book",
+          "zh": "欺骗顾客是赚钱的最好办法（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Mike calls himself 'a total failure' for losing money, but his mom says 'Not you' and is 'so proud of you two.' He finally tastes his own delicious lemonade. The book suggests effort and quality matter, not just profit.",
@@ -156,12 +252,24 @@
         "zh": "这本书的「聚焦问题」(Focus Question) 是什么？也就是作者希望你思考的核心问题。"
       },
       "options": [
-        {"en": "What lesson does Mike learn from having a lemonade stand?", "zh": "麦迪从经营柠檬水摊中学到了什么道理？"},
-        {"en": "What is the best recipe for lemonade?", "zh": "柠檬水的最佳配方是什么？"},
-        {"en": "Why do lemons cost so much money?", "zh": "柠檬为什么这么贵？"},
-        {"en": "How old is Mike?", "zh": "麦迪几岁了？"}
+        {
+          "en": "How old is Mike?",
+          "zh": "麦迪几岁了？"
+        },
+        {
+          "en": "What lesson does Mike learn from having a lemonade stand?",
+          "zh": "麦迪从经营柠檬水摊中学到了什么道理？"
+        },
+        {
+          "en": "What is the best recipe for lemonade? according to some versions of the story",
+          "zh": "柠檬水的最佳配方是什么？（按书中另一种说法）"
+        },
+        {
+          "en": "Why do lemons cost so much money?",
+          "zh": "柠檬为什么这么贵？"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book opens with the Focus Question: 'What lesson does Mike learn from having a lemonade stand?' The whole story and its ending answer it.",
@@ -174,10 +282,22 @@
         "zh": "在词汇表里，「influx」（大量涌入）是什么意思？——那是麦迪需要现金时用到的一个词。"
       },
       "options": [
-        {"en": "The steady flowing in or arrival of large amounts of something", "zh": "大量某物持续涌入或到来"},
-        {"en": "A type of lemonade", "zh": "一种柠檬水"},
-        {"en": "Running completely out of something", "zh": "把某物用得一干二净"},
-        {"en": "A discount on the price", "zh": "价格上的折扣"}
+        {
+          "en": "The steady flowing in or arrival of large amounts of something",
+          "zh": "大量某物持续涌入或到来"
+        },
+        {
+          "en": "A type of lemonade",
+          "zh": "一种柠檬水"
+        },
+        {
+          "en": "A discount on the price",
+          "zh": "价格上的折扣"
+        },
+        {
+          "en": "Running completely out of something according to some versions of the story",
+          "zh": "把某物用得一干二净（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",

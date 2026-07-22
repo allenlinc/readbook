@@ -17,19 +17,19 @@
           "zh": "苏丹"
         },
         {
+          "en": "Princess Buddir",
+          "zh": "布迪尔公主"
+        },
+        {
           "en": "A magician",
           "zh": "一个魔法师"
         },
         {
           "en": "A peddler selling lamps",
           "zh": "卖灯的货郎"
-        },
-        {
-          "en": "Princess Buddir",
-          "zh": "布迪尔公主"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A magician arrived in the kingdom and tricked Aladdin by pretending to be his dead father's brother.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "A king's advisor",
-          "zh": "国王的顾问"
-        },
-        {
-          "en": "A traveling salesman who sells and trades many objects",
-          "zh": "四处游走、贩卖和交换各种物品的货郎"
-        },
-        {
           "en": "A palace guard",
           "zh": "宫殿卫兵"
         },
         {
+          "en": "A king's advisor according to some versions of the story in an early draft of the book",
+          "zh": "国王的顾问（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "A magical genie",
           "zh": "神奇的精灵"
+        },
+        {
+          "en": "A traveling salesman who sells and trades many objects",
+          "zh": "四处游走、贩卖和交换各种物品的货郎"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines a peddler as a traveling salesman who sells and trades many kinds of objects.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "It stays ordinary fruit",
-          "zh": "仍是普通水果"
+          "en": "It disappears",
+          "zh": "消失了"
+        },
+        {
+          "en": "It stays ordinary fruit according to some versions of the story in an early draft of the book",
+          "zh": "仍是普通水果（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "It changes into jewels (apple becomes a ruby, grapes become pearls)",
           "zh": "变成了珠宝（苹果变红宝石，葡萄变珍珠）"
         },
         {
-          "en": "It disappears",
-          "zh": "消失了"
-        },
-        {
           "en": "It turns to gold coins",
           "zh": "变成了金币"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Fruit he plucked changed into jewels: apples to rubies, grapes to pearls, lemons to diamonds, limes to emeralds.",
@@ -103,8 +103,8 @@
       },
       "options": [
         {
-          "en": "The lamp's magic would not work if taken by force",
-          "zh": "神灯的法力若被强夺就失效"
+          "en": "The ring protected it according to some versions of the story",
+          "zh": "戒指保护它（按书中另一种说法）"
         },
         {
           "en": "Aladdin was stronger",
@@ -115,11 +115,11 @@
           "zh": "精灵拒绝"
         },
         {
-          "en": "The ring protected it",
-          "zh": "戒指保护它"
+          "en": "The lamp's magic would not work if taken by force",
+          "zh": "神灯的法力若被强夺就失效"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The magician knew the lamp's magic would not work if he took it from someone by force.",
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "He digs his way out",
-          "zh": "他挖了出来"
+          "en": "The magician frees him according to some versions of the story in an early draft of the book",
+          "zh": "魔法师放了他（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "He rubs the magician's ring and the genie of the ring takes him home",
           "zh": "他摩擦魔法师的戒指，戒指精灵把他送回家"
         },
         {
-          "en": "The magician frees him",
-          "zh": "魔法师放了他"
-        },
-        {
           "en": "His mother finds him",
           "zh": "母亲找到了他"
+        },
+        {
+          "en": "He digs his way out",
+          "zh": "他挖了出来"
         }
       ],
       "answer": 1,
@@ -163,8 +163,8 @@
       },
       "options": [
         {
-          "en": "Plain and boring",
-          "zh": "平淡无奇"
+          "en": "Plain and boring according to some versions of the story",
+          "zh": "平淡无奇（按书中另一种说法）"
         },
         {
           "en": "Rich and delicious",
@@ -193,12 +193,12 @@
       },
       "options": [
         {
-          "en": "He steals it while Aladdin sleeps",
-          "zh": "趁阿拉丁熟睡偷走"
-        },
-        {
           "en": "He disguises as a peddler offering new lamps and Buddir trades the old one",
           "zh": "他扮成货郎以旧换新，布迪尔拿灯去换"
+        },
+        {
+          "en": "He steals it while Aladdin sleeps according to some versions of the story in an early draft of the book",
+          "zh": "趁阿拉丁熟睡偷走（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "He wins it in a game",
@@ -209,7 +209,7 @@
           "zh": "阿拉丁自愿相赠"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Disguised as a peddler crying 'old lamps for new', he got Buddir to trade away the magic lamp.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "His riches alone",
-          "zh": "仅靠他的财富"
-        },
-        {
           "en": "His planning with Buddir using a sleeping potion to trick the magician",
           "zh": "他与布迪尔设下迷药计策智取魔法师"
         },
         {
-          "en": "The Sultan's army",
-          "zh": "苏丹的军队"
+          "en": "His riches alone",
+          "zh": "仅靠他的财富"
         },
         {
-          "en": "The magician's mercy",
-          "zh": "魔法师的仁慈"
+          "en": "The magician's mercy according to some versions of the story in an early draft of the book",
+          "zh": "魔法师的仁慈（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The Sultan's army",
+          "zh": "苏丹的军队"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Buddir drugged the magician with a potion, then reclaimed the lamp and ordered the genie to return home.",
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "It can do anything",
-          "zh": "它无所不能"
+          "en": "It is impossible",
+          "zh": "那是不可能的"
         },
         {
           "en": "Only the Genie of the Lamp can undo what the Lamp's genie did",
           "zh": "只有灯神才能撤销灯神所做的事"
         },
         {
-          "en": "He must ask the Sultan",
-          "zh": "他必须去问苏丹"
+          "en": "It can do anything",
+          "zh": "它无所不能"
         },
         {
-          "en": "It is impossible",
-          "zh": "那是不可能的"
+          "en": "He must ask the Sultan according to some versions of the story",
+          "zh": "他必须去问苏丹（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "They are punished by the Sultan",
-          "zh": "他们被苏丹惩罚"
-        },
-        {
           "en": "The Sultan makes Aladdin heir; they rule happily for many years",
           "zh": "苏丹立阿拉丁为继承人，他们多年幸福统治"
+        },
+        {
+          "en": "The magician keeps the palace",
+          "zh": "魔法师留着宫殿"
         },
         {
           "en": "They return to poverty",
           "zh": "他们重回贫穷"
         },
         {
-          "en": "The magician keeps the palace",
-          "zh": "魔法师留着宫殿"
+          "en": "They are punished by the Sultan according to some versions of the story",
+          "zh": "他们被苏丹惩罚（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Sultan, overjoyed to see his daughter, made Aladdin heir; they ruled the kingdom happily for years.",

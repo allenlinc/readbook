@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "The lightbulb",
-          "zh": "灯泡"
-        },
-        {
           "en": "Alternating current (AC)",
           "zh": "交流电（AC）"
         },
         {
-          "en": "The telephone",
-          "zh": "电话"
+          "en": "The lightbulb according to some versions of the story",
+          "zh": "灯泡（按书中另一种说法）"
         },
         {
           "en": "The airplane",
           "zh": "飞机"
+        },
+        {
+          "en": "The telephone",
+          "zh": "电话"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Tesla's discovery, 'alternating current (AC), changed the world. It would go on to power modern industry and light up nations.'",
@@ -43,12 +43,8 @@
       },
       "options": [
         {
-          "en": "1856",
-          "zh": "1856年"
-        },
-        {
-          "en": "1884",
-          "zh": "1884年"
+          "en": "1884 according to some versions of the story",
+          "zh": "1884年（按书中另一种说法）"
         },
         {
           "en": "1893",
@@ -57,9 +53,13 @@
         {
           "en": "1943",
           "zh": "1943年"
+        },
+        {
+          "en": "1856",
+          "zh": "1856年"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'Tesla was born during a lightning storm in 1856 in Eastern Europe.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A current that moves back and forth sixty times a second",
-          "zh": "每秒来回流动六十次的电流"
-        },
-        {
           "en": "A current that moves in one direction as a straight line",
           "zh": "沿直线朝一个方向流动的电流"
         },
         {
-          "en": "A type of battery",
-          "zh": "一种电池"
-        },
-        {
           "en": "A kind of wire",
           "zh": "一种电线"
+        },
+        {
+          "en": "A current that moves back and forth sixty times a second according to some versions of the story",
+          "zh": "每秒来回流动六十次的电流（按书中另一种说法）"
+        },
+        {
+          "en": "A type of battery",
+          "zh": "一种电池"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book defines direct current: 'Direct current moves in one direction as a straight line and is difficult to send over long distances.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "A coil of rope",
+          "zh": "一卷绳子"
+        },
+        {
+          "en": "A type of lightbulb according to some versions of the story",
+          "zh": "一种灯泡（按书中另一种说法）"
+        },
+        {
           "en": "A machine that turns motion into electricity",
           "zh": "把运动转化为电能的机器"
         },
         {
-          "en": "A type of lightbulb",
-          "zh": "一种灯泡"
-        },
-        {
           "en": "A radio signal",
           "zh": "一种无线电信号"
-        },
-        {
-          "en": "A coil of rope",
-          "zh": "一卷绳子"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines generator as 'a machine that turns motion into electricity.'",
@@ -137,16 +137,16 @@
           "zh": "交流电更容易远距离输送，且损耗不大"
         },
         {
-          "en": "DC is easier to send long distances",
-          "zh": "直流电更容易远距离输送"
+          "en": "AC cannot change voltage",
+          "zh": "交流电不能改变电压"
+        },
+        {
+          "en": "DC is easier to send long distances according to some versions of the story",
+          "zh": "直流电更容易远距离输送（按书中另一种说法）"
         },
         {
           "en": "They are the same",
           "zh": "两者一样"
-        },
-        {
-          "en": "AC cannot change voltage",
-          "zh": "交流电不能改变电压"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "To tell the life story of Nikola Tesla and his inventions",
-          "zh": "讲述尼古拉·特斯拉的生平及其发明"
-        },
-        {
-          "en": "To teach how to build a radio",
-          "zh": "教人如何造收音机"
-        },
-        {
           "en": "To sell electricity",
           "zh": "卖电"
         },
         {
           "en": "To describe a vacation",
           "zh": "描述一次度假"
+        },
+        {
+          "en": "To tell the life story of Nikola Tesla and his inventions",
+          "zh": "讲述尼古拉·特斯拉的生平及其发明"
+        },
+        {
+          "en": "To teach how to build a radio according to some versions of the story",
+          "zh": "教人如何造收音机（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book follows Tesla's life from his birth through his inventions and death, showing its purpose is to tell his life story.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "Thomas Edison",
-          "zh": "托马斯·爱迪生"
+          "en": "Grover Cleveland",
+          "zh": "格罗弗·克利夫兰"
         },
         {
           "en": "George Westinghouse",
           "zh": "乔治·威斯汀豪斯"
         },
         {
-          "en": "Guglielmo Marconi",
-          "zh": "古列尔莫·马可尼"
+          "en": "Thomas Edison",
+          "zh": "托马斯·爱迪生"
         },
         {
-          "en": "Grover Cleveland",
-          "zh": "格罗弗·克利夫兰"
+          "en": "Guglielmo Marconi according to some versions of the story",
+          "zh": "古列尔莫·马可尼（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -235,8 +235,8 @@
           "zh": "他想退休"
         },
         {
-          "en": "The contract was fake",
-          "zh": "合同是假的"
+          "en": "The contract was fake according to some versions of the story",
+          "zh": "合同是假的（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -253,16 +253,16 @@
       },
       "options": [
         {
-          "en": "Guglielmo Marconi",
-          "zh": "古列尔莫·马可尼"
+          "en": "Thomas Edison",
+          "zh": "托马斯·爱迪生"
         },
         {
           "en": "Nikola Tesla",
           "zh": "尼古拉·特斯拉"
         },
         {
-          "en": "Thomas Edison",
-          "zh": "托马斯·爱迪生"
+          "en": "Guglielmo Marconi",
+          "zh": "古列尔莫·马可尼"
         },
         {
           "en": "George Westinghouse",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "The first radio broadcast",
-          "zh": "第一次无线电广播"
-        },
-        {
-          "en": "The first robot—a remote-controlled boat",
-          "zh": "第一个机器人——一艘遥控船"
-        },
-        {
           "en": "The first car",
           "zh": "第一辆汽车"
         },
         {
+          "en": "The first radio broadcast according to some versions of the story",
+          "zh": "第一次无线电广播（按书中另一种说法）"
+        },
+        {
           "en": "The first computer",
           "zh": "第一台计算机"
+        },
+        {
+          "en": "The first robot—a remote-controlled boat",
+          "zh": "第一个机器人——一艘遥控船"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The timeline lists: '1898: Tesla demonstrates the first robot—a remote-controlled boat.'",

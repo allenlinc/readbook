@@ -12,12 +12,24 @@
         "zh": "珊瑚礁主要是由什么建造而成的？"
       },
       "options": [
-        {"en": "Sunken ships and human-made objects", "zh": "沉船和人造物体"},
-        {"en": "The hard skeletons left by millions of tiny animals called polyps", "zh": "由数百万名为珊瑚虫的微小动物留下的坚硬骨骼"},
-        {"en": "Large seashells glued together by waves", "zh": "被海浪粘在一起的大贝壳"},
-        {"en": "Volcanic rock pushed up from the ocean floor", "zh": "从海底隆起的火山岩"}
+        {
+          "en": "The hard skeletons left by millions of tiny animals called polyps",
+          "zh": "由数百万名为珊瑚虫的微小动物留下的坚硬骨骼"
+        },
+        {
+          "en": "Sunken ships and human-made objects",
+          "zh": "沉船和人造物体"
+        },
+        {
+          "en": "Volcanic rock pushed up from the ocean floor according to some versions of the story",
+          "zh": "从海底隆起的火山岩（按书中另一种说法）"
+        },
+        {
+          "en": "Large seashells glued together by waves",
+          "zh": "被海浪粘在一起的大贝壳"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains that stony coral polyps form hard skeletons, and over time the accumulation of millions of these skeletons helps build a reef.",
@@ -30,12 +42,24 @@
         "zh": "大约有多少比例的海洋动植物生活在珊瑚礁周围？"
       },
       "options": [
-        {"en": "Less than one percent", "zh": "不到百分之一"},
-        {"en": "Exactly half", "zh": "正好一半"},
-        {"en": "Almost one-quarter", "zh": "接近四分之一"},
-        {"en": "More than nine-tenths", "zh": "超过十分之九"}
+        {
+          "en": "Less than one percent",
+          "zh": "不到百分之一"
+        },
+        {
+          "en": "Almost one-quarter",
+          "zh": "接近四分之一"
+        },
+        {
+          "en": "Exactly half",
+          "zh": "正好一半"
+        },
+        {
+          "en": "More than nine-tenths",
+          "zh": "超过十分之九"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The introduction states that almost one-quarter of all the plants and animals in the ocean live around coral reefs.",
@@ -48,10 +72,22 @@
         "zh": "书中说珊瑚虫只在夜间张开触手。那珊瑚虫在什么时候进食？"
       },
       "options": [
-        {"en": "At night, when they extend their tentacles to catch food", "zh": "在夜晚，它们伸出触手捕捉食物"},
-        {"en": "Only during the daytime", "zh": "只在白天"},
-        {"en": "Once a year in spring", "zh": "每年春天一次"},
-        {"en": "They do not feed at all", "zh": "它们根本不进食"}
+        {
+          "en": "At night, when they extend their tentacles to catch food",
+          "zh": "在夜晚，它们伸出触手捕捉食物"
+        },
+        {
+          "en": "Once a year in spring",
+          "zh": "每年春天一次"
+        },
+        {
+          "en": "Only during the daytime",
+          "zh": "只在白天"
+        },
+        {
+          "en": "They do not feed at all according to some versions of the story",
+          "zh": "它们根本不进食（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -66,10 +102,22 @@
         "zh": "书中主要描述了哪两种珊瑚？"
       },
       "options": [
-        {"en": "Saltwater corals and freshwater corals", "zh": "咸水珊瑚和淡水珊瑚"},
-        {"en": "Red corals and blue corals", "zh": "红珊瑚和蓝珊瑚"},
-        {"en": "Deep corals and surface corals", "zh": "深水珊瑚和表层珊瑚"},
-        {"en": "Hard (stony) corals and soft corals", "zh": "硬（石）珊瑚和软珊瑚"}
+        {
+          "en": "Saltwater corals and freshwater corals",
+          "zh": "咸水珊瑚和淡水珊瑚"
+        },
+        {
+          "en": "Red corals and blue corals",
+          "zh": "红珊瑚和蓝珊瑚"
+        },
+        {
+          "en": "Deep corals and surface corals",
+          "zh": "深水珊瑚和表层珊瑚"
+        },
+        {
+          "en": "Hard (stony) corals and soft corals",
+          "zh": "硬（石）珊瑚和软珊瑚"
+        }
       ],
       "answer": 3,
       "skill": "Key Ideas and Details",
@@ -84,10 +132,22 @@
         "zh": "为什么大多数珊瑚必须生活在靠近水面的地方？"
       },
       "options": [
-        {"en": "Predators only live in deep water", "zh": "捕食者只生活在深水里"},
-        {"en": "So algae living in them can get sunlight to make food", "zh": "这样生活在它们体内的藻类才能获得阳光来制造养分"},
-        {"en": "The water is too hot at the bottom", "zh": "海底的水太热了"},
-        {"en": "They cannot attach to the ocean floor", "zh": "它们无法附着在海底"}
+        {
+          "en": "They cannot attach to the ocean floor according to some versions of the story",
+          "zh": "它们无法附着在海底（按书中另一种说法）"
+        },
+        {
+          "en": "So algae living in them can get sunlight to make food",
+          "zh": "这样生活在它们体内的藻类才能获得阳光来制造养分"
+        },
+        {
+          "en": "The water is too hot at the bottom",
+          "zh": "海底的水太热了"
+        },
+        {
+          "en": "Predators only live in deep water",
+          "zh": "捕食者只生活在深水里"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
@@ -102,12 +162,24 @@
         "zh": "珊瑚在什么水温范围内生长得最好？"
       },
       "options": [
-        {"en": "40 to 50 degrees Celsius", "zh": "40到50摄氏度"},
-        {"en": "0 to 5 degrees Celsius", "zh": "0到5摄氏度"},
-        {"en": "21 to 29 degrees Celsius", "zh": "21到29摄氏度"},
-        {"en": "60 to 70 degrees Celsius", "zh": "60到70摄氏度"}
+        {
+          "en": "21 to 29 degrees Celsius",
+          "zh": "21到29摄氏度"
+        },
+        {
+          "en": "60 to 70 degrees Celsius according to some versions of the story",
+          "zh": "60到70摄氏度（按书中另一种说法）"
+        },
+        {
+          "en": "40 to 50 degrees Celsius",
+          "zh": "40到50摄氏度"
+        },
+        {
+          "en": "0 to 5 degrees Celsius",
+          "zh": "0到5摄氏度"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states coral grows best in warm water between 21 and 29 degrees Celsius (70-85F).",
@@ -120,12 +192,24 @@
         "zh": "大堡礁有什么特别之处？"
       },
       "options": [
-        {"en": "It is the only living structure large enough to be seen from the moon", "zh": "它是唯一大到能从月球上看见的生命体结构"},
-        {"en": "It is the smallest barrier reef in the world", "zh": "它是世界上最小的堡礁"},
-        {"en": "It contains no fish at all", "zh": "里面完全没有鱼"},
-        {"en": "It is made entirely of soft coral", "zh": "它完全由软珊瑚构成"}
+        {
+          "en": "It is made entirely of soft coral",
+          "zh": "它完全由软珊瑚构成"
+        },
+        {
+          "en": "It contains no fish at all",
+          "zh": "里面完全没有鱼"
+        },
+        {
+          "en": "It is the smallest barrier reef in the world according to some versions of the story",
+          "zh": "它是世界上最小的堡礁（按书中另一种说法）"
+        },
+        {
+          "en": "It is the only living structure large enough to be seen from the moon",
+          "zh": "它是唯一大到能从月球上看见的生命体结构"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the Great Barrier Reef is the only living structure large enough to be seen by an astronaut standing on the moon.",
@@ -138,10 +222,22 @@
         "zh": "环礁是如何形成的？"
       },
       "options": [
-        {"en": "Humans build it as a breakwater", "zh": "人类把它建成防波堤"},
-        {"en": "Coral grows in a circle around a sinking island or volcano", "zh": "珊瑚围绕一座下沉的岛屿或火山呈圆形生长"},
-        {"en": "It forms from frozen seawater", "zh": "它由冻结的海水形成"},
-        {"en": "It is a river delta worn smooth by tides", "zh": "它是被潮汐磨平的河流三角洲"}
+        {
+          "en": "It is a river delta worn smooth by tides according to some versions of the story",
+          "zh": "它是被潮汐磨平的河流三角洲（按书中另一种说法）"
+        },
+        {
+          "en": "Coral grows in a circle around a sinking island or volcano",
+          "zh": "珊瑚围绕一座下沉的岛屿或火山呈圆形生长"
+        },
+        {
+          "en": "It forms from frozen seawater",
+          "zh": "它由冻结的海水形成"
+        },
+        {
+          "en": "Humans build it as a breakwater",
+          "zh": "人类把它建成防波堤"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -156,12 +252,24 @@
         "zh": "根据书中内容，珊瑚白化主要由什么引起？"
       },
       "options": [
-        {"en": "The sun shines directly on the coral and fades it", "zh": "阳光直射珊瑚，使它褪色"},
-        {"en": "Fish eat the coral's colored tissue", "zh": "鱼吃掉了珊瑚带颜色的组织"},
-        {"en": "Cold polar water turns the coral white", "zh": "寒冷的极地海水把珊瑚变白"},
-        {"en": "Coral expels its algae after the algae are infected by bacteria", "zh": "当藻类被细菌感染后，珊瑚把藻类排出体外"}
+        {
+          "en": "Fish eat the coral's colored tissue",
+          "zh": "鱼吃掉了珊瑚带颜色的组织"
+        },
+        {
+          "en": "Cold polar water turns the coral white",
+          "zh": "寒冷的极地海水把珊瑚变白"
+        },
+        {
+          "en": "Coral expels its algae after the algae are infected by bacteria",
+          "zh": "当藻类被细菌感染后，珊瑚把藻类排出体外"
+        },
+        {
+          "en": "The sun shines directly on the coral and fades it according to some versions of the story",
+          "zh": "阳光直射珊瑚，使它褪色（按书中另一种说法）"
+        }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explains that bleaching occurs when something, usually bacteria, attacks the algae; the coral then expels the algae and loses its color.",
@@ -174,12 +282,24 @@
         "zh": "根据书中内容，不住在海边的人能做些什么来帮助珊瑚礁？"
       },
       "options": [
-        {"en": "Nothing, because they have no effect on reefs", "zh": "什么也做不了，因为他们不会影响珊瑚礁"},
-        {"en": "Conserve water and energy and recycle to reduce harm to reefs", "zh": "节约用水和能源、做好回收，以减少对珊瑚礁的危害"},
-        {"en": "Move to the coast immediately", "zh": "立刻搬到海岸居住"},
-        {"en": "Stop eating all seafood", "zh": "完全不吃任何海鲜"}
+        {
+          "en": "Nothing, because they have no effect on reefs according to some versions of the story",
+          "zh": "什么也做不了，因为他们不会影响珊瑚礁（按书中另一种说法）"
+        },
+        {
+          "en": "Move to the coast immediately",
+          "zh": "立刻搬到海岸居住"
+        },
+        {
+          "en": "Conserve water and energy and recycle to reduce harm to reefs",
+          "zh": "节约用水和能源、做好回收，以减少对珊瑚礁的危害"
+        },
+        {
+          "en": "Stop eating all seafood",
+          "zh": "完全不吃任何海鲜"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says even if you don't live near an ocean, your actions affect reef health, and it urges conserving water and energy and recycling.",

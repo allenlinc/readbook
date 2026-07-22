@@ -12,12 +12,24 @@
         "zh": "罗宾汉和他的快乐伙伴(Merry Men)住在哪里？他们做些什么？"
       },
       "options": [
-        {"en": "They hid in Sherwood Forest and stole only from the rich to give to the poor", "zh": "他们躲在舍伍德森林(Sherwood Forest)，只劫富济贫"},
-        {"en": "They lived in the king's castle and protected the rich lords", "zh": "他们住在国王的城堡里，保护富有的领主"},
-        {"en": "They sailed on the ocean as pirates", "zh": "他们在大海上当海盗"},
-        {"en": "They worked as farmers in a village", "zh": "他们在一个村子里当农夫"}
+        {
+          "en": "They worked as farmers in a village",
+          "zh": "他们在一个村子里当农夫"
+        },
+        {
+          "en": "They sailed on the ocean as pirates",
+          "zh": "他们在大海上当海盗"
+        },
+        {
+          "en": "They lived in the king's castle and protected the rich lords according to some versions of the story",
+          "zh": "他们住在国王的城堡里，保护富有的领主（按书中另一种说法）"
+        },
+        {
+          "en": "They hid in Sherwood Forest and stole only from the rich to give to the poor",
+          "zh": "他们躲在舍伍德森林(Sherwood Forest)，只劫富济贫"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The story says Robin Hood and his Merry Men 'lived in hiding in Sherwood Forest... they stole only from the rich and gave the money to the poor.'",
@@ -30,10 +42,22 @@
         "zh": "国王理查德(理查德)是怎样伪装自己，才得以见到罗宾汉的？"
       },
       "options": [
-        {"en": "He dressed as a fat abbot with seven followers dressed as friars, carrying gold", "zh": "他扮成一位肥胖的修道院院长，带七个扮成修士的随从，带着金子"},
-        {"en": "He dressed as a poor beggar with no followers", "zh": "他扮成一个没有随从的穷乞丐"},
-        {"en": "He dressed as a soldier in full armor", "zh": "他穿上全套盔甲扮成士兵"},
-        {"en": "He dressed as Robin Hood's mother", "zh": "他扮成罗宾汉的母亲"}
+        {
+          "en": "He dressed as a fat abbot with seven followers dressed as friars, carrying gold",
+          "zh": "他扮成一位肥胖的修道院院长，带七个扮成修士的随从，带着金子"
+        },
+        {
+          "en": "He dressed as a poor beggar with no followers according to some versions of the story in an early draft of the book",
+          "zh": "他扮成一个没有随从的穷乞丐（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He dressed as a soldier in full armor",
+          "zh": "他穿上全套盔甲扮成士兵"
+        },
+        {
+          "en": "He dressed as Robin Hood's mother",
+          "zh": "他扮成罗宾汉的母亲"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "轮到罗宾汉参加射箭比赛时，发生了什么？"
       },
       "options": [
-        {"en": "His final arrow missed the garland, so he had to take the punishment himself", "zh": "他最后一支箭脱靶没中花环，所以必须自己接受惩罚"},
-        {"en": "He hit the center with all three arrows and won a prize", "zh": "他三箭全部命中靶心，赢得了奖品"},
-        {"en": "He refused to shoot at all", "zh": "他干脆拒绝射箭"},
-        {"en": "He shot the king by accident", "zh": "他不小心射中了国王"}
+        {
+          "en": "He hit the center with all three arrows and won a prize according to some versions of the story",
+          "zh": "他三箭全部命中靶心，赢得了奖品（按书中另一种说法）"
+        },
+        {
+          "en": "He refused to shoot at all",
+          "zh": "他干脆拒绝射箭"
+        },
+        {
+          "en": "He shot the king by accident",
+          "zh": "他不小心射中了国王"
+        },
+        {
+          "en": "His final arrow missed the garland, so he had to take the punishment himself",
+          "zh": "他最后一支箭脱靶没中花环，所以必须自己接受惩罚"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Robin's first two arrows hit, but 'the final arrow he shot was missing some feathers. It flew to one side and struck an inch outside the garland.' He then took his punishment from the guest.",
@@ -66,10 +102,22 @@
         "zh": "表明身份后，国王理查德向罗宾汉提出了什么条件？"
       },
       "options": [
-        {"en": "He would forgive Robin's crimes, have him serve at court, make three men knights, and the rest royal rangers", "zh": "他赦免罗宾的罪行、让他在宫廷效力、封三人为骑士，其余成为皇家护林员"},
-        {"en": "He would hang Robin Hood for being an outlaw", "zh": "他要把罗宾汉当作绿林好汉绞死"},
-        {"en": "He would send Robin away to another country", "zh": "他要把罗宾汉流放到别的国家"},
-        {"en": "He would make Robin a rich lord with land", "zh": "他要让罗宾成为拥有领地的富有的领主"}
+        {
+          "en": "He would forgive Robin's crimes, have him serve at court, make three men knights, and the rest royal rangers",
+          "zh": "他赦免罗宾的罪行、让他在宫廷效力、封三人为骑士，其余成为皇家护林员"
+        },
+        {
+          "en": "He would hang Robin Hood for being an outlaw according to some versions of the story in an early draft of the book",
+          "zh": "他要把罗宾汉当作绿林好汉绞死（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He would send Robin away to another country",
+          "zh": "他要把罗宾汉流放到别的国家"
+        },
+        {
+          "en": "He would make Robin a rich lord with land",
+          "zh": "他要让罗宾成为拥有领地的富有的领主"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "在这则故事里，词汇表中的「garland」指的是什么？"
       },
       "options": [
-        {"en": "A small group of branches arranged in a circle or semicircle — the archery target", "zh": "一圈或半圆排列的小树枝——也就是射箭的靶子"},
-        {"en": "A kind of tree that grows in Sherwood Forest", "zh": "舍伍德森林里生长的一种树"},
-        {"en": "A crown worn by the king", "zh": "国王戴的王冠"},
-        {"en": "A type of food served at the feast", "zh": "宴席上供应的一类食物"}
+        {
+          "en": "A kind of tree that grows in Sherwood Forest according to some versions of the story",
+          "zh": "舍伍德森林里生长的一种树（按书中另一种说法）"
+        },
+        {
+          "en": "A crown worn by the king",
+          "zh": "国王戴的王冠"
+        },
+        {
+          "en": "A small group of branches arranged in a circle or semicircle — the archery target",
+          "zh": "一圈或半圆排列的小树枝——也就是射箭的靶子"
+        },
+        {
+          "en": "A type of food served at the feast",
+          "zh": "宴席上供应的一类食物"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines a garland as 'a small group of branches arranged in a circle or semicircle' (p. 9) — in the story it is the tiny target of leaves and flowers hung from a stake.",
@@ -102,12 +162,24 @@
         "zh": "在词汇表里，「corrupt」(腐败的) 是什么意思？罗宾认为腐败的是哪些人？"
       },
       "options": [
-        {"en": "Dishonest in order to gain something; Robin thinks the corrupt lords are the real thieves", "zh": "为了获利而不诚实；罗宾认为那些腐败的领主才是真正的窃贼"},
-        {"en": "Brave and honest; Robin admires the corrupt lords", "zh": "勇敢而诚实；罗宾敬重那些腐败的领主"},
-        {"en": "Very poor; Robin feels sorry for them", "zh": "非常贫穷；罗宾为他们感到难过"},
-        {"en": "Good at archery; Robin wants to learn from them", "zh": "擅长射箭；罗宾想向他们学习"}
+        {
+          "en": "Good at archery; Robin wants to learn from them",
+          "zh": "擅长射箭；罗宾想向他们学习"
+        },
+        {
+          "en": "Dishonest in order to gain something; Robin thinks the corrupt lords are the real thieves",
+          "zh": "为了获利而不诚实；罗宾认为那些腐败的领主才是真正的窃贼"
+        },
+        {
+          "en": "Very poor; Robin feels sorry for them",
+          "zh": "非常贫穷；罗宾为他们感到难过"
+        },
+        {
+          "en": "Brave and honest; Robin admires the corrupt lords according to some versions of the story in an early draft of the book",
+          "zh": "勇敢而诚实；罗宾敬重那些腐败的领主（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines corrupt as 'dishonest in order to gain something' (p. 4). The story says Robin 'thought the corrupt lords were the real thieves' who ruled unjustly.",
@@ -120,12 +192,24 @@
         "zh": "拿走国王的金袋后，罗宾为什么把其中三分之一还给假扮的院长？"
       },
       "options": [
-        {"en": "Because he never left any man in need", "zh": "因为他从不让任何人陷入窘境（不愿让任何人有所欠缺）"},
-        {"en": "Because the abbot threatened to call the king", "zh": "因为院长威胁要去叫国王"},
-        {"en": "Because the gold was fake", "zh": "因为那些金子是假的"},
-        {"en": "Because he was afraid of the churchmen", "zh": "因为他害怕那些教会人士"}
+        {
+          "en": "Because the abbot threatened to call the king according to some versions of the story",
+          "zh": "因为院长威胁要去叫国王（按书中另一种说法）"
+        },
+        {
+          "en": "Because he was afraid of the churchmen",
+          "zh": "因为他害怕那些教会人士"
+        },
+        {
+          "en": "Because he never left any man in need",
+          "zh": "因为他从不让任何人陷入窘境（不愿让任何人有所欠缺）"
+        },
+        {
+          "en": "Because the gold was fake",
+          "zh": "因为那些金子是假的"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says Robin 'returned one-third of the gold to the pretend abbot because he never left any man in need.'",
@@ -138,12 +222,24 @@
         "zh": "罗宾为什么选择让假院长来惩罚自己？结果什么让他大吃一惊？"
       },
       "options": [
-        {"en": "He thought a churchman's arms would be soft, but the king's thick, strong arm knocked him down", "zh": "他以为教会人士的手臂柔软，可国王粗壮有力的手臂把他打翻在地"},
-        {"en": "He knew it was the king all along and wanted to impress him", "zh": "他从头就知道那是国王，想给国王留个好印象"},
-        {"en": "He wanted the friars to laugh at him", "zh": "他想让修士们笑话自己"},
-        {"en": "He was too tired to punish himself", "zh": "他太累了，懒得自己惩罚自己"}
+        {
+          "en": "He knew it was the king all along and wanted to impress him according to some versions of the story",
+          "zh": "他从头就知道那是国王，想给国王留个好印象（按书中另一种说法）"
+        },
+        {
+          "en": "He thought a churchman's arms would be soft, but the king's thick, strong arm knocked him down",
+          "zh": "他以为教会人士的手臂柔软，可国王粗壮有力的手臂把他打翻在地"
+        },
+        {
+          "en": "He wanted the friars to laugh at him",
+          "zh": "他想让修士们笑话自己"
+        },
+        {
+          "en": "He was too tired to punish himself",
+          "zh": "他太累了，懒得自己惩罚自己"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Robin 'did not like the thought of being knocked down in front of his band' and thought 'the arms of a churchman would be soft.' But the king 'bared an arm so thick' and struck 'a mighty blow. Down went Robin Hood.'",
@@ -156,10 +252,22 @@
         "zh": "国王理查德为什么不直接宣布御驾亲临，而要伪装自己？"
       },
       "options": [
-        {"en": "He feared that if Robin heard the king was coming, he would run and hide deep in the forest", "zh": "他怕罗宾一听说国王来了，就会跑进森林深处躲起来"},
-        {"en": "He wanted to steal from Robin Hood", "zh": "他想去抢罗宾汉的东西"},
-        {"en": "He was ashamed to be king", "zh": "他为自己是国王而感到羞耻"},
-        {"en": "He liked wearing robes and friars' clothes", "zh": "他喜欢穿长袍和修士的衣服"}
+        {
+          "en": "He feared that if Robin heard the king was coming, he would run and hide deep in the forest",
+          "zh": "他怕罗宾一听说国王来了，就会跑进森林深处躲起来"
+        },
+        {
+          "en": "He liked wearing robes and friars' clothes according to some versions of the story in an early draft of the book",
+          "zh": "他喜欢穿长袍和修士的衣服（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He was ashamed to be king",
+          "zh": "他为自己是国王而感到羞耻"
+        },
+        {
+          "en": "He wanted to steal from Robin Hood",
+          "zh": "他想去抢罗宾汉的东西"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "这则民间故事的主要寓意或主题是什麽？"
       },
       "options": [
-        {"en": "Even an outlaw can be loyal and honorable, and true justice means helping the common people", "zh": "即使是绿林好汉也可以忠诚而有荣誉感，而真正的公正在于帮助普通百姓"},
-        {"en": "Kings are always cruel and should never be trusted", "zh": "国王总是残忍的，绝不可信任"},
-        {"en": "Rich people deserve to be robbed no matter what", "zh": "有钱人不管怎样都该被抢"},
-        {"en": "Archery is more important than being kind", "zh": "射箭比善良更重要"}
+        {
+          "en": "Archery is more important than being kind",
+          "zh": "射箭比善良更重要"
+        },
+        {
+          "en": "Even an outlaw can be loyal and honorable, and true justice means helping the common people",
+          "zh": "即使是绿林好汉也可以忠诚而有荣誉感，而真正的公正在于帮助普通百姓"
+        },
+        {
+          "en": "Kings are always cruel and should never be trusted according to some versions of the story in an early draft of the book",
+          "zh": "国王总是残忍的，绝不可信任（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Rich people deserve to be robbed no matter what",
+          "zh": "有钱人不管怎样都该被抢"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The tale shows Robin was 'always... loyal to his king' and believed 'helping the poor people of England was the greatest service he could perform,' and in the end the common folk 'never had to suffer under the rule of wicked lords again.'",

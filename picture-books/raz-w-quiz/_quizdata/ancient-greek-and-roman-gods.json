@@ -17,16 +17,16 @@
           "zh": "在奥林匹斯山上"
         },
         {
-          "en": "Under the sea",
-          "zh": "在海底"
-        },
-        {
-          "en": "In a volcano",
-          "zh": "在火山里"
+          "en": "Under the sea according to some versions of the story",
+          "zh": "在海底（按书中另一种说法）"
         },
         {
           "en": "On the moon",
           "zh": "在月球上"
+        },
+        {
+          "en": "In a volcano",
+          "zh": "在火山里"
         }
       ],
       "answer": 0,
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "Hermes",
+          "zh": "赫耳墨斯"
+        },
+        {
           "en": "Zeus",
           "zh": "宙斯"
         },
@@ -51,15 +55,11 @@
           "zh": "哈迪斯"
         },
         {
-          "en": "Hermes",
-          "zh": "赫耳墨斯"
-        },
-        {
           "en": "Ares",
           "zh": "阿瑞斯"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Zeus was king of the Olympians, god of sky and weather, and the mightiest of the gods.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A trident",
-          "zh": "三叉戟"
-        },
-        {
-          "en": "A sword",
-          "zh": "剑"
-        },
-        {
           "en": "A bow",
           "zh": "弓"
         },
         {
-          "en": "A shield",
-          "zh": "盾"
+          "en": "A trident",
+          "zh": "三叉戟"
+        },
+        {
+          "en": "A shield according to some versions of the story",
+          "zh": "盾（按书中另一种说法）"
+        },
+        {
+          "en": "A sword",
+          "zh": "剑"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says Poseidon summoned storms and earthquakes with his magic trident and calmed waves with it too.",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "The moon's keeper",
+          "zh": "月亮的守护者"
+        },
+        {
           "en": "Zeus's messenger",
           "zh": "宙斯的信使"
         },
@@ -141,15 +145,11 @@
           "zh": "哈迪斯的守卫"
         },
         {
-          "en": "The moon's keeper",
-          "zh": "月亮的守护者"
-        },
-        {
           "en": "The sea's ruler",
           "zh": "海洋的统治者"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Zeus made Hermes his messenger and gave him winged sandals and a cap.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Athena",
-          "zh": "雅典娜"
+          "en": "Artemis",
+          "zh": "阿尔忒弥斯"
         },
         {
           "en": "Hera",
           "zh": "赫拉"
         },
         {
-          "en": "Aphrodite",
-          "zh": "阿佛洛狄忒"
+          "en": "Athena",
+          "zh": "雅典娜"
         },
         {
-          "en": "Artemis",
-          "zh": "阿尔忒弥斯"
+          "en": "Aphrodite",
+          "zh": "阿佛洛狄忒"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Athena sprang from Zeus's head, fully grown and dressed in golden armor.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
+          "en": "They worshipped only one god",
+          "zh": "他们只崇拜一位神"
+        },
+        {
+          "en": "They destroyed all Greek gods according to some versions of the story",
+          "zh": "他们毁掉了所有希腊神（按书中另一种说法）"
+        },
+        {
           "en": "They modeled their gods on the Greeks and gave them Latin names",
           "zh": "以希腊诸神为蓝本，并赋予拉丁名字"
         },
         {
-          "en": "They destroyed all Greek gods",
-          "zh": "他们毁掉了所有希腊神"
-        },
-        {
           "en": "They ignored them",
           "zh": "他们无视它们"
-        },
-        {
-          "en": "They worshipped only one god",
-          "zh": "他们只崇拜一位神"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the Romans admired the Greeks so much they modeled their society and gods on them, with Latin names.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Zeus and Hera",
-          "zh": "宙斯与赫拉"
+          "en": "Hades and Hera",
+          "zh": "哈迪斯与赫拉"
         },
         {
           "en": "Poseidon and Athena",
           "zh": "波塞冬与雅典娜"
         },
         {
-          "en": "Hades and Hera",
-          "zh": "哈迪斯与赫拉"
-        },
-        {
           "en": "Zeus and Aphrodite",
           "zh": "宙斯与阿佛洛狄忒"
+        },
+        {
+          "en": "Zeus and Hera",
+          "zh": "宙斯与赫拉"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Ares was a son of Zeus and Hera who loved fighting for its own sake.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "They were like humans but larger, stronger, and immortal",
-          "zh": "他们像人类，但更高大强壮且不死"
-        },
-        {
-          "en": "They were exactly like ordinary people",
-          "zh": "他们和普通人类完全一样"
-        },
-        {
           "en": "They were made of stone",
           "zh": "他们由石头做成"
         },
         {
           "en": "They could not feel emotions",
           "zh": "他们没有情感"
+        },
+        {
+          "en": "They were exactly like ordinary people according to some versions of the story",
+          "zh": "他们和普通人类完全一样（按书中另一种说法）"
+        },
+        {
+          "en": "They were like humans but larger, stronger, and immortal",
+          "zh": "他们像人类，但更高大强壮且不死"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says Greeks believed their gods were like humans except larger, stronger, more beautiful, and immortal.",
@@ -287,16 +287,16 @@
           "zh": "启发了罗马诸神与西方文化，包括奥运会"
         },
         {
-          "en": "They ended all Greek art",
-          "zh": "终结了所有希腊艺术"
-        },
-        {
-          "en": "They created the alphabet",
-          "zh": "他们创造了字母表"
+          "en": "They ended all Greek art according to some versions of the story in an early draft of the book",
+          "zh": "终结了所有希腊艺术（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "They built the pyramids",
           "zh": "他们建造了金字塔"
+        },
+        {
+          "en": "They created the alphabet",
+          "zh": "他们创造了字母表"
         }
       ],
       "answer": 0,

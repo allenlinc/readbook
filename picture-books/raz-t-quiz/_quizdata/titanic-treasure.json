@@ -1,326 +1,326 @@
 {
- "title": "Titanic Treasure",
- "titleZh": "泰坦尼克号的宝藏",
- "level": "T",
- "genre": "Informational",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "According to the book, how was the Titanic described when it was built in 1911?",
-    "zh": "根据书中内容，1911年建成时的泰坦尼克号被描述成什么样？"
-   },
-   "options": [
+  "title": "Titanic Treasure",
+  "titleZh": "泰坦尼克号的宝藏",
+  "level": "T",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "the largest passenger ship ever built",
-     "zh": "当时建造过的最大客轮"
+      "q": {
+        "en": "According to the book, how was the Titanic described when it was built in 1911?",
+        "zh": "根据书中内容，1911年建成时的泰坦尼克号被描述成什么样？"
+      },
+      "options": [
+        {
+          "en": "the largest passenger ship ever built",
+          "zh": "当时建造过的最大客轮"
+        },
+        {
+          "en": "the first ship with an engine according to some versions of the story",
+          "zh": "第一艘有发动机的船（按书中另一种说法）"
+        },
+        {
+          "en": "the fastest airplane ever made",
+          "zh": "史上最快的飞机"
+        },
+        {
+          "en": "a small fishing boat",
+          "zh": "一艘小渔船"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says the Titanic was the largest passenger ship ever built and rose twelve stories high.",
+        "zh": "书中说泰坦尼克号是当时建造过的最大客轮，高达十二层楼。"
+      }
     },
     {
-     "en": "the fastest airplane ever made",
-     "zh": "史上最快的飞机"
+      "q": {
+        "en": "On what date did the Titanic strike the iceberg?",
+        "zh": "泰坦尼克号是在哪一天撞上冰山的？"
+      },
+      "options": [
+        {
+          "en": "April 10, 1912",
+          "zh": "1912年4月10日"
+        },
+        {
+          "en": "in the year 1911",
+          "zh": "1911年"
+        },
+        {
+          "en": "the night of April 14, 1912",
+          "zh": "1912年4月14日夜里"
+        },
+        {
+          "en": "on its return trip in 1913 according to some versions of the story",
+          "zh": "1913年返航途中（按书中另一种说法）"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Passengers boarded on April 10, but the ship struck the iceberg on the night of April 14.",
+        "zh": "乘客4月10日登船，但船是在4月14日夜里撞上冰山的。"
+      }
     },
     {
-     "en": "a small fishing boat",
-     "zh": "一艘小渔船"
+      "q": {
+        "en": "About how many people did NOT survive the sinking?",
+        "zh": "大约有多少人未能在沉船中幸存？"
+      },
+      "options": [
+        {
+          "en": "about 1,500",
+          "zh": "约1500人"
+        },
+        {
+          "en": "about 2,200 (the total aboard)",
+          "zh": "约2200人（即船上总人数）"
+        },
+        {
+          "en": "about 100",
+          "zh": "约100人"
+        },
+        {
+          "en": "about 500",
+          "zh": "约500人"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book states about 1,500 people did not survive; more than 2,200 were aboard in total.",
+        "zh": "书中说约1500人遇难，而船上总人数超过2200人。"
+      }
     },
     {
-     "en": "the first ship with an engine",
-     "zh": "第一艘有发动机的船"
+      "q": {
+        "en": "Who led the team that found the wreck of the Titanic in 1985?",
+        "zh": "是谁带领团队在1985年找到了泰坦尼克号的残骸？"
+      },
+      "options": [
+        {
+          "en": "the ship's captain",
+          "zh": "船长"
+        },
+        {
+          "en": "Robert Ballard",
+          "zh": "罗伯特·巴拉德"
+        },
+        {
+          "en": "a group of treasure hunters",
+          "zh": "一群寻宝者"
+        },
+        {
+          "en": "Millvina Dean",
+          "zh": "米希尔娃·迪恩"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "In 1985 Robert Ballard and his fellow scientists went to the area and discovered the ship's hull.",
+        "zh": "1985年，罗伯特·巴拉德和同事们前往该海域，发现了船体残骸。"
+      }
+    },
+    {
+      "q": {
+        "en": "The glossary defines 'maiden voyage' as the first voyage of a ship. What happened on the Titanic's maiden voyage?",
+        "zh": "术语表把'首航'定义为船的第一次航行。泰坦尼克号的首航发生了什么？"
+      },
+      "options": [
+        {
+          "en": "it was renamed",
+          "zh": "它被改名"
+        },
+        {
+          "en": "it reached New York safely according to some versions of the story",
+          "zh": "它安全抵达纽约（按书中另一种说法）"
+        },
+        {
+          "en": "it struck an iceberg and sank",
+          "zh": "它撞上冰山并沉没"
+        },
+        {
+          "en": "it broke a speed record",
+          "zh": "它打破了速度纪录"
+        }
+      ],
+      "answer": 2,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "On its first voyage the Titanic struck an iceberg and sank, killing about 1,500 people.",
+        "zh": "在第一次航行中，泰坦尼克号撞上冰山沉没，约1500人丧生。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book shows a photo comparing the ship's giant propellers to the men standing nearby. What is the author's purpose for this comparison?",
+        "zh": "书中有一张把巨大螺旋桨和旁边的男人作对比的照片。作者这样对比的目的是什么？"
+      },
+      "options": [
+        {
+          "en": "to prove the ship was fast",
+          "zh": "证明这艘船很快"
+        },
+        {
+          "en": "to explain how propellers work according to some versions of the story",
+          "zh": "解释螺旋桨如何运作（按书中另一种说法）"
+        },
+        {
+          "en": "to show the men were workers",
+          "zh": "说明那些人是工人"
+        },
+        {
+          "en": "to help readers picture how enormous the Titanic was",
+          "zh": "帮助读者想象泰坦尼克号有多巨大"
+        }
+      ],
+      "answer": 3,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The caption says the size is clear when the propellers are compared with the men in the background.",
+        "zh": "图注说，把螺旋桨和背景中的人对比，船的巨大就一目了然。"
+      }
+    },
+    {
+      "q": {
+        "en": "Robert Ballard used sonar to help find the Titanic. What does the book say sonar does?",
+        "zh": "罗伯特·巴拉德用声呐帮助寻找泰坦尼克号。书中说声呐有什么作用？"
+      },
+      "options": [
+        {
+          "en": "uses sound waves to locate distant objects",
+          "zh": "用声波定位远处的物体"
+        },
+        {
+          "en": "measures ocean temperature",
+          "zh": "测量海水温度"
+        },
+        {
+          "en": "takes photographs underwater according to some versions of the story",
+          "zh": "在水下拍照（按书中另一种说法）"
+        },
+        {
+          "en": "builds submersibles",
+          "zh": "制造潜水器"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Sonar sends sound waves through water and records their reflection to locate distant things.",
+        "zh": "声呐向水中发射声波并记录回波，从而定位远处的物体。"
+      }
+    },
+    {
+      "q": {
+        "en": "After finding the Titanic, Ballard wanted governments to sign a treaty. What would that treaty say?",
+        "zh": "找到泰坦尼克号后，巴拉德希望各国签署一项条约。该条约会说什么？"
+      },
+      "options": [
+        {
+          "en": "the ship must be raised",
+          "zh": "必须把船打捞出水"
+        },
+        {
+          "en": "anyone may keep recovered treasures according to some versions of the story",
+          "zh": "任何人都可以保留打捞到的宝物（按书中另一种说法）"
+        },
+        {
+          "en": "tourists may live on it",
+          "zh": "游客可以在船上居住"
+        },
+        {
+          "en": "no one may take anything from the ship",
+          "zh": "任何人不得从船中取走任何东西"
+        }
+      ],
+      "answer": 3,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "His goal was a treaty saying no one may take anything from the ship; the UK and US signed it.",
+        "zh": "他的目标是签署一项条约，规定任何人不得从船中取走任何东西；英美两国已签署。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in writing 'Titanic Treasure'?",
+        "zh": "作者写《泰坦尼克号的宝藏》的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "to argue that ocean travel should be banned according to some versions of the story",
+          "zh": "主张应禁止海上旅行（按书中另一种说法）"
+        },
+        {
+          "en": "to tell the story of the sinking and its later discovery",
+          "zh": "讲述沉船的故事以及后来被发现的过程"
+        },
+        {
+          "en": "to list every passenger by name",
+          "zh": "按名字列出每一位乘客"
+        },
+        {
+          "en": "to teach readers how to build a ship",
+          "zh": "教读者如何造船"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book covers the voyage, the sinking, Ballard's discovery, and the lessons learned.",
+        "zh": "本书涵盖了航行、沉没、巴拉德的发现以及从中吸取的教训。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does the author seem to feel about removing artifacts from the Titanic?",
+        "zh": "作者对从泰坦尼克号取走文物持什么态度？"
+      },
+      "options": [
+        {
+          "en": "it does not matter",
+          "zh": "这无所谓"
+        },
+        {
+          "en": "it changes history and should be avoided",
+          "zh": "它会改变历史，应避免这样做"
+        },
+        {
+          "en": "it should happen quickly",
+          "zh": "应尽快进行"
+        },
+        {
+          "en": "it is a good way to make money according to some versions of the story",
+          "zh": "这是赚钱的好办法（按书中另一种说法）"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The author writes that every time something is removed, 'they change history,' and supports protecting it as a memorial.",
+        "zh": "作者写道，每取走一样东西就'改变了历史'，并主张把它作为纪念碑加以保护。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book says the Titanic was the largest passenger ship ever built and rose twelve stories high.",
-    "zh": "书中说泰坦尼克号是当时建造过的最大客轮，高达十二层楼。"
-   }
-  },
-  {
-   "q": {
-    "en": "On what date did the Titanic strike the iceberg?",
-    "zh": "泰坦尼克号是在哪一天撞上冰山的？"
-   },
-   "options": [
-    {
-     "en": "the night of April 14, 1912",
-     "zh": "1912年4月14日夜里"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Imagine you are Robert Ballard the moment his team realized they had found the Titanic. What do you think he felt, and why does the book say the team later felt sad?",
+      "zh": "设想你是罗伯特·巴拉德，当团队确认找到泰坦尼克号的那一刻，你有何感受？书中说他们后来为何感到悲伤？"
     },
-    {
-     "en": "April 10, 1912",
-     "zh": "1912年4月10日"
-    },
-    {
-     "en": "in the year 1911",
-     "zh": "1911年"
-    },
-    {
-     "en": "on its return trip in 1913",
-     "zh": "1913年返航途中"
+    "guidance": {
+      "en": [
+        "Use clues from the book about the memorial service and the passengers who died.",
+        "Think about the difference between excitement at a discovery and respect for those who were lost."
+      ],
+      "zh": [
+        "结合书中为遇难乘客举行悼念仪式的细节来思考。",
+        "体会发现沉船的激动与对逝者的敬意之间的不同。"
+      ]
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Passengers boarded on April 10, but the ship struck the iceberg on the night of April 14.",
-    "zh": "乘客4月10日登船，但船是在4月14日夜里撞上冰山的。"
-   }
   },
-  {
-   "q": {
-    "en": "About how many people did NOT survive the sinking?",
-    "zh": "大约有多少人未能在沉船中幸存？"
-   },
-   "options": [
-    {
-     "en": "about 1,500",
-     "zh": "约1500人"
-    },
-    {
-     "en": "about 500",
-     "zh": "约500人"
-    },
-    {
-     "en": "about 2,200 (the total aboard)",
-     "zh": "约2200人（即船上总人数）"
-    },
-    {
-     "en": "about 100",
-     "zh": "约100人"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book states about 1,500 people did not survive; more than 2,200 were aboard in total.",
-    "zh": "书中说约1500人遇难，而船上总人数超过2200人。"
-   }
-  },
-  {
-   "q": {
-    "en": "Who led the team that found the wreck of the Titanic in 1985?",
-    "zh": "是谁带领团队在1985年找到了泰坦尼克号的残骸？"
-   },
-   "options": [
-    {
-     "en": "Robert Ballard",
-     "zh": "罗伯特·巴拉德"
-    },
-    {
-     "en": "Millvina Dean",
-     "zh": "米希尔娃·迪恩"
-    },
-    {
-     "en": "the ship's captain",
-     "zh": "船长"
-    },
-    {
-     "en": "a group of treasure hunters",
-     "zh": "一群寻宝者"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "In 1985 Robert Ballard and his fellow scientists went to the area and discovered the ship's hull.",
-    "zh": "1985年，罗伯特·巴拉德和同事们前往该海域，发现了船体残骸。"
-   }
-  },
-  {
-   "q": {
-    "en": "The glossary defines 'maiden voyage' as the first voyage of a ship. What happened on the Titanic's maiden voyage?",
-    "zh": "术语表把'首航'定义为船的第一次航行。泰坦尼克号的首航发生了什么？"
-   },
-   "options": [
-    {
-     "en": "it struck an iceberg and sank",
-     "zh": "它撞上冰山并沉没"
-    },
-    {
-     "en": "it reached New York safely",
-     "zh": "它安全抵达纽约"
-    },
-    {
-     "en": "it was renamed",
-     "zh": "它被改名"
-    },
-    {
-     "en": "it broke a speed record",
-     "zh": "它打破了速度纪录"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "On its first voyage the Titanic struck an iceberg and sank, killing about 1,500 people.",
-    "zh": "在第一次航行中，泰坦尼克号撞上冰山沉没，约1500人丧生。"
-   }
-  },
-  {
-   "q": {
-    "en": "The book shows a photo comparing the ship's giant propellers to the men standing nearby. What is the author's purpose for this comparison?",
-    "zh": "书中有一张把巨大螺旋桨和旁边的男人作对比的照片。作者这样对比的目的是什么？"
-   },
-   "options": [
-    {
-     "en": "to help readers picture how enormous the Titanic was",
-     "zh": "帮助读者想象泰坦尼克号有多巨大"
-    },
-    {
-     "en": "to show the men were workers",
-     "zh": "说明那些人是工人"
-    },
-    {
-     "en": "to prove the ship was fast",
-     "zh": "证明这艘船很快"
-    },
-    {
-     "en": "to explain how propellers work",
-     "zh": "解释螺旋桨如何运作"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The caption says the size is clear when the propellers are compared with the men in the background.",
-    "zh": "图注说，把螺旋桨和背景中的人对比，船的巨大就一目了然。"
-   }
-  },
-  {
-   "q": {
-    "en": "Robert Ballard used sonar to help find the Titanic. What does the book say sonar does?",
-    "zh": "罗伯特·巴拉德用声呐帮助寻找泰坦尼克号。书中说声呐有什么作用？"
-   },
-   "options": [
-    {
-     "en": "uses sound waves to locate distant objects",
-     "zh": "用声波定位远处的物体"
-    },
-    {
-     "en": "takes photographs underwater",
-     "zh": "在水下拍照"
-    },
-    {
-     "en": "builds submersibles",
-     "zh": "制造潜水器"
-    },
-    {
-     "en": "measures ocean temperature",
-     "zh": "测量海水温度"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Sonar sends sound waves through water and records their reflection to locate distant things.",
-    "zh": "声呐向水中发射声波并记录回波，从而定位远处的物体。"
-   }
-  },
-  {
-   "q": {
-    "en": "After finding the Titanic, Ballard wanted governments to sign a treaty. What would that treaty say?",
-    "zh": "找到泰坦尼克号后，巴拉德希望各国签署一项条约。该条约会说什么？"
-   },
-   "options": [
-    {
-     "en": "no one may take anything from the ship",
-     "zh": "任何人不得从船中取走任何东西"
-    },
-    {
-     "en": "anyone may keep recovered treasures",
-     "zh": "任何人都可以保留打捞到的宝物"
-    },
-    {
-     "en": "the ship must be raised",
-     "zh": "必须把船打捞出水"
-    },
-    {
-     "en": "tourists may live on it",
-     "zh": "游客可以在船上居住"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "His goal was a treaty saying no one may take anything from the ship; the UK and US signed it.",
-    "zh": "他的目标是签署一项条约，规定任何人不得从船中取走任何东西；英美两国已签署。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in writing 'Titanic Treasure'?",
-    "zh": "作者写《泰坦尼克号的宝藏》的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "to tell the story of the sinking and its later discovery",
-     "zh": "讲述沉船的故事以及后来被发现的过程"
-    },
-    {
-     "en": "to teach readers how to build a ship",
-     "zh": "教读者如何造船"
-    },
-    {
-     "en": "to argue that ocean travel should be banned",
-     "zh": "主张应禁止海上旅行"
-    },
-    {
-     "en": "to list every passenger by name",
-     "zh": "按名字列出每一位乘客"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The book covers the voyage, the sinking, Ballard's discovery, and the lessons learned.",
-    "zh": "本书涵盖了航行、沉没、巴拉德的发现以及从中吸取的教训。"
-   }
-  },
-  {
-   "q": {
-    "en": "How does the author seem to feel about removing artifacts from the Titanic?",
-    "zh": "作者对从泰坦尼克号取走文物持什么态度？"
-   },
-   "options": [
-    {
-     "en": "it changes history and should be avoided",
-     "zh": "它会改变历史，应避免这样做"
-    },
-    {
-     "en": "it is a good way to make money",
-     "zh": "这是赚钱的好办法"
-    },
-    {
-     "en": "it does not matter",
-     "zh": "这无所谓"
-    },
-    {
-     "en": "it should happen quickly",
-     "zh": "应尽快进行"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The author writes that every time something is removed, 'they change history,' and supports protecting it as a memorial.",
-    "zh": "作者写道，每取走一样东西就'改变了历史'，并主张把它作为纪念碑加以保护。"
-   }
-  }
- ],
- "extended": {
-  "prompt": {
-   "en": "Imagine you are Robert Ballard the moment his team realized they had found the Titanic. What do you think he felt, and why does the book say the team later felt sad?",
-   "zh": "设想你是罗伯特·巴拉德，当团队确认找到泰坦尼克号的那一刻，你有何感受？书中说他们后来为何感到悲伤？"
-  },
-  "guidance": {
-   "en": [
-    "Use clues from the book about the memorial service and the passengers who died.",
-    "Think about the difference between excitement at a discovery and respect for those who were lost."
-   ],
-   "zh": [
-    "结合书中为遇难乘客举行悼念仪式的细节来思考。",
-    "体会发现沉船的激动与对逝者的敬意之间的不同。"
-   ]
-  }
- },
- "slug": "titanic-treasure"
+  "slug": "titanic-treasure"
 }

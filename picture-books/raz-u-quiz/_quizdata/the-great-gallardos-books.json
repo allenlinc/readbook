@@ -12,12 +12,24 @@
         "zh": "故事一开始，米格尔对阅读有什么看法？"
       },
       "options": [
-        {"en": "That it is an exciting adventure", "zh": "认为阅读是一场刺激的冒险"},
-        {"en": "That it is boring", "zh": "觉得阅读很无聊"},
-        {"en": "That it is too easy", "zh": "觉得阅读太简单"},
-        {"en": "That he loves it", "zh": "说他很爱阅读"}
+        {
+          "en": "That it is boring",
+          "zh": "觉得阅读很无聊"
+        },
+        {
+          "en": "That it is an exciting adventure",
+          "zh": "认为阅读是一场刺激的冒险"
+        },
+        {
+          "en": "That he loves it",
+          "zh": "说他很爱阅读"
+        },
+        {
+          "en": "That it is too easy",
+          "zh": "觉得阅读太简单"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Miguel complains that writing an essay about 'Reading Is an Adventure' is too hard and thinks reading is boring before he finds the books.",
@@ -30,10 +42,22 @@
         "zh": "当米格尔打开那只闪亮的黑箱子时，里面装的不是财宝，而是什么？"
       },
       "options": [
-        {"en": "Gold coins and jewels", "zh": "金币和珠宝"},
-        {"en": "Books", "zh": "书"},
-        {"en": "Swords", "zh": "宝剑"},
-        {"en": "Old clothes", "zh": "旧衣服"}
+        {
+          "en": "Gold coins and jewels",
+          "zh": "金币和珠宝"
+        },
+        {
+          "en": "Books",
+          "zh": "书"
+        },
+        {
+          "en": "Old clothes",
+          "zh": "旧衣服"
+        },
+        {
+          "en": "Swords",
+          "zh": "宝剑"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "哪一本书最先把米格尔神奇地送进了故事里？"
       },
       "options": [
-        {"en": "Riding Roundups", "zh": "《骑马围牧》"},
-        {"en": "The Story of Benjamin Franklin", "zh": "《本杰明·富兰克林的故事》"},
-        {"en": "The Creature from Copernicus Crater", "zh": "《哥白尼陨石坑的怪物》"},
-        {"en": "A book of poems", "zh": "一本诗集"}
+        {
+          "en": "The Story of Benjamin Franklin",
+          "zh": "《本杰明·富兰克林的故事》"
+        },
+        {
+          "en": "The Creature from Copernicus Crater",
+          "zh": "《哥白尼陨石坑的怪物》"
+        },
+        {
+          "en": "A book of poems",
+          "zh": "一本诗集"
+        },
+        {
+          "en": "Riding Roundups",
+          "zh": "《骑马围牧》"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Miguel first picked up the thick biography The Story of Benjamin Franklin, and reading it transported him aboard a ship with Ben Franklin.",
@@ -66,12 +102,24 @@
         "zh": "在富兰克林的冒险中，富兰克林前往法国是为了做什么？"
       },
       "options": [
-        {"en": "To go on vacation", "zh": "去度假"},
-        {"en": "To ask for help in America's fight against the British", "zh": "去为美国争取对抗英国的援助"},
-        {"en": "To buy a bathtub", "zh": "去买一个浴缸"},
-        {"en": "To visit his grandson Temple", "zh": "去看望孙子坦普尔"}
+        {
+          "en": "To ask for help in America's fight against the British",
+          "zh": "去为美国争取对抗英国的援助"
+        },
+        {
+          "en": "To buy a bathtub",
+          "zh": "去买一个浴缸"
+        },
+        {
+          "en": "To visit his grandson Temple according to some versions of the story",
+          "zh": "去看望孙子坦普尔（按书中另一种说法）"
+        },
+        {
+          "en": "To go on vacation",
+          "zh": "去度假"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says Miguel remembered learning that Ben Franklin traveled to France to ask for help in America's fight against the British.",
@@ -84,12 +132,24 @@
         "zh": "在西部冒险中，关于“牛仔马克斯”，什么让米格尔感到惊讶？"
       },
       "options": [
-        {"en": "Max was a woman named Maxine", "zh": "马克斯其实是个叫玛克辛的女子"},
-        {"en": "Max was a child", "zh": "马克斯是个孩子"},
-        {"en": "Max was Benjamin Franklin", "zh": "马克斯就是本杰明·富兰克林"},
-        {"en": "Max was afraid of cows", "zh": "马克斯害怕牛"}
+        {
+          "en": "Max was Benjamin Franklin according to some versions of the story",
+          "zh": "马克斯就是本杰明·富兰克林（按书中另一种说法）"
+        },
+        {
+          "en": "Max was afraid of cows",
+          "zh": "马克斯害怕牛"
+        },
+        {
+          "en": "Max was a woman named Maxine",
+          "zh": "马克斯其实是个叫玛克辛的女子"
+        },
+        {
+          "en": "Max was a child",
+          "zh": "马克斯是个孩子"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "When Cowboy Max removed his black hat, a long gray braid fell out — Max was really a woman named Maxine.",
@@ -102,12 +162,24 @@
         "zh": "科幻冒险发生在什么地方？"
       },
       "options": [
-        {"en": "On the moon", "zh": "在月球上"},
-        {"en": "On a ship to France", "zh": "在前往法国的船上"},
-        {"en": "On a cattle ranch", "zh": "在养牛场"},
-        {"en": "In a sandwich shop", "zh": "在三明治店里"}
+        {
+          "en": "In a sandwich shop",
+          "zh": "在三明治店里"
+        },
+        {
+          "en": "On the moon",
+          "zh": "在月球上"
+        },
+        {
+          "en": "On a cattle ranch",
+          "zh": "在养牛场"
+        },
+        {
+          "en": "On a ship to France",
+          "zh": "在前往法国的船上"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Reading The Creature from Copernicus Crater transported Miguel to an underground lunar laboratory, and he realized, 'I'm on the moon!'",
@@ -120,12 +192,24 @@
         "zh": "在科幻冒险中，米格尔看到天空中悬挂着什么？"
       },
       "options": [
-        {"en": "A crescent-shaped Earth", "zh": "一轮新月形的地球"},
-        {"en": "A second moon", "zh": "第二颗月亮"},
-        {"en": "A giant spaceship", "zh": "一艘巨大飞船"},
-        {"en": "The sun", "zh": "太阳"}
+        {
+          "en": "A second moon",
+          "zh": "第二颗月亮"
+        },
+        {
+          "en": "The sun",
+          "zh": "太阳"
+        },
+        {
+          "en": "A crescent-shaped Earth",
+          "zh": "一轮新月形的地球"
+        },
+        {
+          "en": "A giant spaceship according to some versions of the story",
+          "zh": "一艘巨大飞船（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "After leaping across the moon's hills, Miguel looked up and saw a crescent-shaped Earth hanging in the black sky.",
@@ -138,12 +222,24 @@
         "zh": "这个故事想要表达的主要意思是什么？"
       },
       "options": [
-        {"en": "That reading can be an adventure", "zh": "阅读可以是一场冒险"},
-        {"en": "That sandwich shops are fun", "zh": "三明治店很好玩"},
-        {"en": "That magic is real", "zh": "魔法真实存在"},
-        {"en": "That homework is useless", "zh": "做作业没有用"}
+        {
+          "en": "That sandwich shops are fun according to some versions of the story",
+          "zh": "三明治店很好玩（按书中另一种说法）"
+        },
+        {
+          "en": "That reading can be an adventure",
+          "zh": "阅读可以是一场冒险"
+        },
+        {
+          "en": "That homework is useless",
+          "zh": "做作业没有用"
+        },
+        {
+          "en": "That magic is real",
+          "zh": "魔法真实存在"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book shows Miguel changing his mind as biographies, westerns, and science fiction each become real adventures, ending with 'Reading is an Adventure.'",
@@ -156,12 +252,24 @@
         "zh": "“了不起的加拉尔多”是谁？"
       },
       "options": [
-        {"en": "A famous author", "zh": "一位著名作家"},
-        {"en": "Miguel's great-grandpa George, a magician", "zh": "米格尔的曾祖父乔治，一位魔术师"},
-        {"en": "Ben Franklin's grandson", "zh": "富兰克林的孙子"},
-        {"en": "The cowboy Maxine", "zh": "牛仔玛克辛"}
+        {
+          "en": "A famous author",
+          "zh": "一位著名作家"
+        },
+        {
+          "en": "The cowboy Maxine",
+          "zh": "牛仔玛克辛"
+        },
+        {
+          "en": "Ben Franklin's grandson according to some versions of the story",
+          "zh": "富兰克林的孙子（按书中另一种说法）"
+        },
+        {
+          "en": "Miguel's great-grandpa George, a magician",
+          "zh": "米格尔的曾祖父乔治，一位魔术师"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Miguel's mom reveals that Great-Grandpa George was a magician called the Great Gallardo who performed worldwide and ran the magic shop.",
@@ -174,12 +282,24 @@
         "zh": "为什么那位牛仔被称为“Cowboy Max（牛仔马克斯）”？"
       },
       "options": [
-        {"en": "It is short for Maxine", "zh": "那是 Maxine（玛克辛）的简称"},
-        {"en": "It was his real first name", "zh": "那是他的真名"},
-        {"en": "He owned the ranch", "zh": "他是牧场主人"},
-        {"en": "He was the fastest runner", "zh": "他跑得最快"}
+        {
+          "en": "It was his real first name according to some versions of the story",
+          "zh": "那是他的真名（按书中另一种说法）"
+        },
+        {
+          "en": "He owned the ranch",
+          "zh": "他是牧场主人"
+        },
+        {
+          "en": "He was the fastest runner",
+          "zh": "他跑得最快"
+        },
+        {
+          "en": "It is short for Maxine",
+          "zh": "那是 Maxine（玛克辛）的简称"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Maxine explains, 'It's short for Maxine,' and notes that some people don't like women who wear breeches and speak up for themselves.",

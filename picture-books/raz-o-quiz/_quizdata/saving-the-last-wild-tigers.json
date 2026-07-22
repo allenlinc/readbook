@@ -17,12 +17,12 @@
           "zh": "今天约3,500只，而过去超过100,000只"
         },
         {
-          "en": "About 100,000 today, down from 3,500",
-          "zh": "今天约100,000只，而过去只有3,500只"
-        },
-        {
           "en": "Exactly the same number",
           "zh": "数量完全一样"
+        },
+        {
+          "en": "About 100,000 today, down from 3,500 according to some versions of the story",
+          "zh": "今天约100,000只，而过去只有3,500只（按书中另一种说法）"
         },
         {
           "en": "None are left at all",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "The buying and selling of tiger body parts for money",
-          "zh": "为了钱财而买卖老虎的身体部位"
-        },
-        {
           "en": "Too many tigers being born",
           "zh": "老虎出生得太多"
         },
         {
-          "en": "Tigers moving to the oceans",
-          "zh": "老虎迁移到海洋"
+          "en": "Tigers moving to the oceans according to some versions of the story",
+          "zh": "老虎迁移到海洋（按书中另一种说法）"
+        },
+        {
+          "en": "The buying and selling of tiger body parts for money",
+          "zh": "为了钱财而买卖老虎的身体部位"
         },
         {
           "en": "A lack of sunshine",
           "zh": "缺少阳光"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the biggest reason tigers are endangered is the buying and selling of tiger body parts for money, which leads people to poach them.",
@@ -73,12 +73,8 @@
       },
       "options": [
         {
-          "en": "In 1973",
-          "zh": "1973年"
-        },
-        {
-          "en": "In 1993",
-          "zh": "1993年"
+          "en": "In 1993 according to some versions of the story",
+          "zh": "1993年（按书中另一种说法）"
         },
         {
           "en": "In 1900",
@@ -87,9 +83,13 @@
         {
           "en": "In 2014",
           "zh": "2014年"
+        },
+        {
+          "en": "In 1973",
+          "zh": "1973年"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says India's government began a program called Project Tiger in 1973, which started creating protected tiger reserves.",
@@ -103,20 +103,20 @@
       },
       "options": [
         {
-          "en": "To cook an egg in water",
-          "zh": "用水煮鸡蛋"
+          "en": "To cook an egg in water according to some versions of the story",
+          "zh": "用水煮鸡蛋（按书中另一种说法）"
         },
         {
           "en": "To kill a wild animal illegally",
           "zh": "非法猎杀野生动物"
         },
         {
-          "en": "To plant a tree",
-          "zh": "种一棵树"
-        },
-        {
           "en": "To study animals",
           "zh": "研究动物"
+        },
+        {
+          "en": "To plant a tree",
+          "zh": "种一棵树"
         }
       ],
       "answer": 1,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "No wild members are alive; they live only in captivity",
-          "zh": "野外已无存活个体，只生活在圈养环境中"
-        },
-        {
-          "en": "The animal is found in every forest",
-          "zh": "这种动物在每片森林都能找到"
-        },
-        {
           "en": "The animal has too many babies",
           "zh": "这种动物幼崽太多"
         },
         {
+          "en": "The animal is found in every forest according to some versions of the story",
+          "zh": "这种动物在每片森林都能找到（按书中另一种说法）"
+        },
+        {
           "en": "The animal can fly",
           "zh": "这种动物会飞"
+        },
+        {
+          "en": "No wild members are alive; they live only in captivity",
+          "zh": "野外已无存活个体，只生活在圈养环境中"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says an animal extinct in the wild has no wild members alive and only lives in captivity, such as zoos, like the South China tiger.",
@@ -167,16 +167,16 @@
           "zh": "它们通过捕食有蹄类动物来维持自然平衡"
         },
         {
-          "en": "They plant most of the trees",
-          "zh": "它们种了大部分树木"
-        },
-        {
           "en": "They build the rivers",
           "zh": "它们建造了河流"
         },
         {
-          "en": "They make the weather colder",
-          "zh": "它们让天气变得更冷"
+          "en": "They make the weather colder according to some versions of the story",
+          "zh": "它们让天气变得更冷（按书中另一种说法）"
+        },
+        {
+          "en": "They plant most of the trees",
+          "zh": "它们种了大部分树木"
         }
       ],
       "answer": 0,
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "It became free",
+          "zh": "变成了免费"
+        },
+        {
           "en": "It rose from $50 to $20,000",
           "zh": "从50美元提高到20,000美元"
         },
@@ -203,13 +207,9 @@
         {
           "en": "It stayed at $50",
           "zh": "一直保持在50美元"
-        },
-        {
-          "en": "It became free",
-          "zh": "变成了免费"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says in Russia poachers used to pay a fine equal to only $50 for killing a tiger, but now they pay $20,000.",
@@ -227,16 +227,16 @@
           "zh": "为了总结保护老虎所需的行动"
         },
         {
-          "en": "To list the glossary words",
-          "zh": "为了列出词汇表"
+          "en": "To tell a fairy tale",
+          "zh": "为了讲一个童话"
+        },
+        {
+          "en": "To list the glossary words according to some versions of the story",
+          "zh": "为了列出词汇表（按书中另一种说法）"
         },
         {
           "en": "To describe a recipe",
           "zh": "为了描写一个食谱"
-        },
-        {
-          "en": "To tell a fairy tale",
-          "zh": "为了讲一个童话"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To entertain with a fictional tiger story",
-          "zh": "用一个虚构的老虎故事来娱乐"
-        },
-        {
-          "en": "To inform readers about the danger to tigers and efforts to save them",
-          "zh": "向读者介绍老虎面临的危机以及拯救它们的努力"
+          "en": "To entertain with a fictional tiger story according to some versions of the story",
+          "zh": "用一个虚构的老虎故事来娱乐（按书中另一种说法）"
         },
         {
           "en": "To teach how to cook tiger meat",
           "zh": "教人如何烹饪老虎肉"
         },
         {
+          "en": "To inform readers about the danger to tigers and efforts to save them",
+          "zh": "向读者介绍老虎面临的危机以及拯救它们的努力"
+        },
+        {
           "en": "To argue that tigers should be ignored",
           "zh": "主张应忽视老虎"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book describes why tigers are disappearing and the conservation programs, laws, and groups working to save them, aiming to inform and raise awareness.",
@@ -283,6 +283,10 @@
       },
       "options": [
         {
+          "en": "Twenty types lived; ten became extinct according to some versions of the story",
+          "zh": "曾有20种；其中10种灭绝（按书中另一种说法）"
+        },
+        {
           "en": "Nine types lived; three became extinct in the 1900s",
           "zh": "曾有9种；其中3种在20世纪灭绝"
         },
@@ -291,15 +295,11 @@
           "zh": "曾有2种；没有一种灭绝"
         },
         {
-          "en": "Twenty types lived; ten became extinct",
-          "zh": "曾有20种；其中10种灭绝"
-        },
-        {
           "en": "One type lived; it became extinct",
           "zh": "只有1种；它灭绝了"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says long ago nine types of tigers lived across Asia, and during the 1900s three types became extinct (Caspian, Javan, and Bali).",

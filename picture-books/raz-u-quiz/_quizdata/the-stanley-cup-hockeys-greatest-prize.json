@@ -12,12 +12,24 @@
         "zh": "斯坦利杯是以谁的名字命名的？"
       },
       "options": [
-        {"en": "Lord Stanley of Preston", "zh": "普雷斯顿的斯坦利勋爵"},
-        {"en": "Wayne Gretzky", "zh": "韦恩·格雷茨基"},
-        {"en": "Steve Yzerman", "zh": "史蒂夫·伊泽曼"},
-        {"en": "Lester Patrick", "zh": "莱斯特·帕特里克"}
+        {
+          "en": "Wayne Gretzky",
+          "zh": "韦恩·格雷茨基"
+        },
+        {
+          "en": "Lord Stanley of Preston",
+          "zh": "普雷斯顿的斯坦利勋爵"
+        },
+        {
+          "en": "Lester Patrick according to some versions of the story",
+          "zh": "莱斯特·帕特里克（按书中另一种说法）"
+        },
+        {
+          "en": "Steve Yzerman",
+          "zh": "史蒂夫·伊泽曼"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Cup is named after Lord Stanley of Preston, who was Governor General of Canada and loved the sport after seeing a game in 1889.",
@@ -30,10 +42,22 @@
         "zh": "最初的斯坦利杯是在哪一年制成的？"
       },
       "options": [
-        {"en": "1892", "zh": "1892年"},
-        {"en": "1889", "zh": "1889年"},
-        {"en": "1926", "zh": "1926年"},
-        {"en": "1947", "zh": "1947年"}
+        {
+          "en": "1892",
+          "zh": "1892年"
+        },
+        {
+          "en": "1889 according to some versions of the story",
+          "zh": "1889年（按书中另一种说法）"
+        },
+        {
+          "en": "1947",
+          "zh": "1947年"
+        },
+        {
+          "en": "1926",
+          "zh": "1926年"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "哪六支球队被称为“Original Six（原始六队）”？"
       },
       "options": [
-        {"en": "The six NHL teams in 1947: Toronto, Montreal, Detroit, Chicago, New York, and Boston", "zh": "1947年的六支NHL球队：多伦多、蒙特利尔、底特律、芝加哥、纽约和波士顿"},
-        {"en": "The first six Cup winners", "zh": "最早赢得奖杯的六支球队"},
-        {"en": "Six Canadian teams only", "zh": "仅有的六支加拿大球队"},
-        {"en": "Six teams that later folded", "zh": "后来解散的六支球队"}
+        {
+          "en": "Six teams that later folded according to some versions of the story in an early draft of the book",
+          "zh": "后来解散的六支球队（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The first six Cup winners",
+          "zh": "最早赢得奖杯的六支球队"
+        },
+        {
+          "en": "The six NHL teams in 1947: Toronto, Montreal, Detroit, Chicago, New York, and Boston",
+          "zh": "1947年的六支NHL球队：多伦多、蒙特利尔、底特律、芝加哥、纽约和波士顿"
+        },
+        {
+          "en": "Six Canadian teams only",
+          "zh": "仅有的六支加拿大球队"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says in 1947 there were only six NHL teams (Toronto, Montreal, Detroit, Chicago, New York, Boston), called the 'Original Six' because more teams joined later.",
@@ -66,10 +102,22 @@
         "zh": "一支球队必须赢得多少轮“七战四胜制”才能捧起斯坦利杯？"
       },
       "options": [
-        {"en": "Two", "zh": "两轮"},
-        {"en": "Four: quarterfinals, semifinals, conference finals, and the Cup finals", "zh": "四轮：四分之一决赛、半决赛、分区决赛和总决赛"},
-        {"en": "Seven", "zh": "七轮"},
-        {"en": "One", "zh": "一轮"}
+        {
+          "en": "Seven according to some versions of the story in an early draft of the book",
+          "zh": "七轮（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Four: quarterfinals, semifinals, conference finals, and the Cup finals",
+          "zh": "四轮：四分之一决赛、半决赛、分区决赛和总决赛"
+        },
+        {
+          "en": "One",
+          "zh": "一轮"
+        },
+        {
+          "en": "Two",
+          "zh": "两轮"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "在1928年的总决赛中，是谁顶替受伤的守门员上场守门的？"
       },
       "options": [
-        {"en": "A backup goalie", "zh": "一名替补守门员"},
-        {"en": "Coach Lester Patrick himself", "zh": "主教练莱斯特·帕特里克本人"},
-        {"en": "Wayne Gretzky", "zh": "韦恩·格雷茨基"},
-        {"en": "A fan from the stands", "zh": "看台上的一名球迷"}
+        {
+          "en": "A backup goalie",
+          "zh": "一名替补守门员"
+        },
+        {
+          "en": "Wayne Gretzky",
+          "zh": "韦恩·格雷茨基"
+        },
+        {
+          "en": "Coach Lester Patrick himself",
+          "zh": "主教练莱斯特·帕特里克本人"
+        },
+        {
+          "en": "A fan from the stands according to some versions of the story",
+          "zh": "看台上的一名球迷（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "When goalie Lorne Chabot was injured, 44-year-old coach Lester Patrick put on goalie gear and played, saving 19 shots to help the Rangers win.",
@@ -102,12 +162,24 @@
         "zh": "在词汇表中，“slap shot（大力抽射）”指什么？"
       },
       "options": [
-        {"en": "A swinging stroke used to hit the puck with a lot of force", "zh": "一种大幅度挥杆、用力击打冰球的动作"},
-        {"en": "A type of penalty", "zh": "一种犯规处罚"},
-        {"en": "The goalie's position", "zh": "守门员的位置"},
-        {"en": "A best-of-seven round", "zh": "一轮七战四胜制"}
+        {
+          "en": "A type of penalty",
+          "zh": "一种犯规处罚"
+        },
+        {
+          "en": "The goalie's position",
+          "zh": "守门员的位置"
+        },
+        {
+          "en": "A best-of-seven round according to some versions of the story",
+          "zh": "一轮七战四胜制（按书中另一种说法）"
+        },
+        {
+          "en": "A swinging stroke used to hit the puck with a lot of force",
+          "zh": "一种大幅度挥杆、用力击打冰球的动作"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines a slap shot as a swinging stroke in hockey used to hit the puck with a lot of force.",
@@ -120,12 +192,24 @@
         "zh": "在冰球季后赛中，“sudden death（突然死亡）”是什么意思？"
       },
       "options": [
-        {"en": "An extra period where the first team to score wins", "zh": "一段加时赛，先进球的一方即获胜"},
-        {"en": "A fight between players", "zh": "球员之间的打架"},
-        {"en": "A penalty box", "zh": "受罚席"},
-        {"en": "The end of the game", "zh": "比赛的结束"}
+        {
+          "en": "A penalty box",
+          "zh": "受罚席"
+        },
+        {
+          "en": "An extra period where the first team to score wins",
+          "zh": "一段加时赛，先进球的一方即获胜"
+        },
+        {
+          "en": "The end of the game",
+          "zh": "比赛的结束"
+        },
+        {
+          "en": "A fight between players according to some versions of the story",
+          "zh": "球员之间的打架（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines sudden death as an extra period added as a tiebreaker where the first team to score wins.",
@@ -138,12 +222,24 @@
         "zh": "“章鱼传说”讲的是关于什么的故事？"
       },
       "options": [
-        {"en": "A team's mascot", "zh": "一支球队的吉祥物"},
-        {"en": "Detroit fans throwing an octopus (8 legs for 8 needed wins) for good luck", "zh": "底特律球迷扔出章鱼（8条腿对应所需的8场胜利）以求好运"},
-        {"en": "A sea creature living in the arena", "zh": "一只住在球馆里的海洋生物"},
-        {"en": "The shape of the trophy", "zh": "奖杯的形状"}
+        {
+          "en": "Detroit fans throwing an octopus (8 legs for 8 needed wins) for good luck",
+          "zh": "底特律球迷扔出章鱼（8条腿对应所需的8场胜利）以求好运"
+        },
+        {
+          "en": "A team's mascot",
+          "zh": "一支球队的吉祥物"
+        },
+        {
+          "en": "The shape of the trophy",
+          "zh": "奖杯的形状"
+        },
+        {
+          "en": "A sea creature living in the arena according to some versions of the story in an early draft of the book",
+          "zh": "一只住在球馆里的海洋生物（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says in 1952 Detroit fans threw an octopus onto the ice—eight legs for the eight wins needed—and it became a good-luck tradition.",
@@ -156,10 +252,22 @@
         "zh": "为什么韦恩·格雷茨基被称为“The Great One（伟大的一号）”，而油人队被称为“王朝”？"
       },
       "options": [
-        {"en": "They won five Stanley Cups from 1983 to 1990 led by Gretzky", "zh": "他们在1983至1990年间、由格雷茨基领衔赢得了五座斯坦利杯"},
-        {"en": "They never lost a game", "zh": "他们从未输过比赛"},
-        {"en": "They had the oldest player", "zh": "他们拥有最年长的球员"},
-        {"en": "They threw octopuses", "zh": "他们扔过章鱼"}
+        {
+          "en": "They won five Stanley Cups from 1983 to 1990 led by Gretzky",
+          "zh": "他们在1983至1990年间、由格雷茨基领衔赢得了五座斯坦利杯"
+        },
+        {
+          "en": "They had the oldest player according to some versions of the story in an early draft of the book",
+          "zh": "他们拥有最年长的球员（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They threw octopuses",
+          "zh": "他们扔过章鱼"
+        },
+        {
+          "en": "They never lost a game",
+          "zh": "他们从未输过比赛"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -174,12 +282,24 @@
         "zh": "关于斯坦利杯在北美体育中的独特性，书中表达了什么观点？"
       },
       "options": [
-        {"en": "It is the smallest trophy", "zh": "它是最小的奖杯"},
-        {"en": "The winning team keeps the same Cup (not a new one each year) and winners' names are carved on it", "zh": "获胜球队保留同一座奖杯（并非每年新做一座），冠军名字被刻在上面"},
-        {"en": "It is made of plastic", "zh": "它是塑料做的"},
-        {"en": "Only Canadians are allowed to play", "zh": "只有加拿大人才能参赛"}
+        {
+          "en": "Only Canadians are allowed to play according to some versions of the story in an early draft of the book",
+          "zh": "只有加拿大人才能参赛（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It is made of plastic",
+          "zh": "它是塑料做的"
+        },
+        {
+          "en": "It is the smallest trophy",
+          "zh": "它是最小的奖杯"
+        },
+        {
+          "en": "The winning team keeps the same Cup (not a new one each year) and winners' names are carved on it",
+          "zh": "获胜球队保留同一座奖杯（并非每年新做一座），冠军名字被刻在上面"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book notes hockey is the only major North American sport that does not make a new trophy each year; the team keeps the Cup and names are carved into its bands.",

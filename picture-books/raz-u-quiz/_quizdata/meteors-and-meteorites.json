@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "A meteor exploded in the sky",
-          "zh": "一颗流星在空中爆炸"
-        },
-        {
           "en": "An earthquake",
           "zh": "一场地震"
+        },
+        {
+          "en": "A meteor exploded in the sky",
+          "zh": "一颗流星在空中爆炸"
         },
         {
           "en": "A hurricane",
           "zh": "一场飓风"
         },
         {
-          "en": "A solar eclipse",
-          "zh": "一次日食"
+          "en": "A solar eclipse according to some versions of the story",
+          "zh": "一次日食（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book opens with a ball of fire streaking across the sky that exploded northeast of Sacramento.",
@@ -47,19 +47,19 @@
           "zh": "流星"
         },
         {
+          "en": "An asteroid",
+          "zh": "小行星"
+        },
+        {
           "en": "A meteorite",
           "zh": "陨石"
         },
         {
           "en": "A comet",
           "zh": "彗星"
-        },
-        {
-          "en": "An asteroid",
-          "zh": "小行星"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A meteoroid becomes a meteor in the atmosphere and a meteorite once it hits Earth's surface.",
@@ -73,20 +73,20 @@
       },
       "options": [
         {
-          "en": "The Moon",
-          "zh": "月球"
+          "en": "Mars only according to some versions of the story",
+          "zh": "仅来自火星（按书中另一种说法）"
         },
         {
           "en": "The Asteroid Belt or the Kuiper Belt",
           "zh": "小行星带或柯伊伯带"
         },
         {
-          "en": "Mars only",
-          "zh": "仅来自火星"
-        },
-        {
           "en": "The Sun",
           "zh": "太阳"
+        },
+        {
+          "en": "The Moon",
+          "zh": "月球"
         }
       ],
       "answer": 1,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A type of comet",
-          "zh": "一种彗星"
-        },
-        {
-          "en": "A very bright meteor",
-          "zh": "非常明亮的流星"
-        },
-        {
           "en": "A star",
           "zh": "一颗恒星"
         },
         {
+          "en": "A type of comet according to some versions of the story",
+          "zh": "一种彗星（按书中另一种说法）"
+        },
+        {
           "en": "A planet",
           "zh": "一颗行星"
+        },
+        {
+          "en": "A very bright meteor",
+          "zh": "非常明亮的流星"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book calls a fireball a special, extremely bright type of meteor that can shine like the Moon.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A type of meteor",
-          "zh": "一种流星"
-        },
-        {
           "en": "A loud noise made when an object moves faster than sound",
           "zh": "物体超音速运动时产生的巨响"
         },
         {
-          "en": "A comet's tail",
-          "zh": "彗星的尾巴"
+          "en": "A type of meteor",
+          "zh": "一种流星"
         },
         {
-          "en": "A kind of earthquake",
-          "zh": "一种地震"
+          "en": "A kind of earthquake according to some versions of the story",
+          "zh": "一种地震（按书中另一种说法）"
+        },
+        {
+          "en": "A comet's tail",
+          "zh": "彗星的尾巴"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The fireball moved faster than the speed of sound, shattering the sound barrier and creating a sonic boom.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "1 percent",
-          "zh": "1%"
+          "en": "92 percent",
+          "zh": "92%"
+        },
+        {
+          "en": "50 percent according to some versions of the story",
+          "zh": "50%（按书中另一种说法）"
         },
         {
           "en": "7 percent",
           "zh": "7%"
         },
         {
-          "en": "92 percent",
-          "zh": "92%"
-        },
-        {
-          "en": "50 percent",
-          "zh": "50%"
+          "en": "1 percent",
+          "zh": "1%"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book's chart shows stony meteorites make up 92 percent, iron 7 percent, and stony-iron 1 percent.",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "A great flood according to some versions of the story",
+          "zh": "一场大洪水（按书中另一种说法）"
+        },
+        {
           "en": "A volcano",
           "zh": "一座火山"
         },
@@ -201,15 +205,11 @@
           "zh": "一次大型陨石或小行星撞击"
         },
         {
-          "en": "A great flood",
-          "zh": "一场大洪水"
-        },
-        {
           "en": "A disease",
           "zh": "一种疾病"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Scientists believe a massive meteorite or asteroid strike about 65 million years ago wiped out the dinosaurs.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "To show where dinosaurs lived",
-          "zh": "为了说明恐龙住在哪里"
-        },
-        {
           "en": "To support the theory that a meteorite caused dinosaur extinction",
           "zh": "为了支持“陨石导致恐龙灭绝”的理论"
+        },
+        {
+          "en": "To explain gold mining",
+          "zh": "为了解释黄金开采"
         },
         {
           "en": "To describe a vacation spot",
           "zh": "为了介绍旅游景点"
         },
         {
-          "en": "To explain gold mining",
-          "zh": "为了解释黄金开采"
+          "en": "To show where dinosaurs lived according to some versions of the story",
+          "zh": "为了说明恐龙住在哪里（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Yucatán crater and a spike in iridium support the meteorite-impact theory of extinction.",
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "NASA",
-          "zh": "NASA"
+          "en": "Apple",
+          "zh": "苹果公司"
         },
         {
           "en": "Planetary Resources",
           "zh": "Planetary Resources"
         },
         {
-          "en": "Apple",
-          "zh": "苹果公司"
+          "en": "NASA",
+          "zh": "NASA"
         },
         {
-          "en": "Microsoft",
-          "zh": "微软"
+          "en": "Microsoft according to some versions of the story",
+          "zh": "微软（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "About every 100 years",
-          "zh": "约每100年"
+          "en": "About every 1 million years",
+          "zh": "约每100万年"
         },
         {
           "en": "About every 1,000 years",
           "zh": "约每1000年"
         },
         {
-          "en": "About every 10,000 years",
-          "zh": "约每1万年"
+          "en": "About every 100 years",
+          "zh": "约每100年"
         },
         {
-          "en": "About every 1 million years",
-          "zh": "约每100万年"
+          "en": "About every 10,000 years",
+          "zh": "约每1万年"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Scientists say a large meteorite will hit a major city only about once every 10,000 years.",

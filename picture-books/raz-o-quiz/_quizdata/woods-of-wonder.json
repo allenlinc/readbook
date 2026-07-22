@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "At least 150 years old",
-          "zh": "至少150年"
-        },
-        {
           "en": "About 10 years old",
           "zh": "大约10年"
         },
         {
-          "en": "Exactly 50 years old",
-          "zh": "正好50年"
+          "en": "At least 150 years old",
+          "zh": "至少150年"
         },
         {
           "en": "Only 1 year old",
           "zh": "只有1年"
+        },
+        {
+          "en": "Exactly 50 years old according to some versions of the story",
+          "zh": "正好50年（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says many scientists agree that an old-growth forest must be at least 150 years old.",
@@ -43,16 +43,16 @@
       },
       "options": [
         {
-          "en": "The tallest tree in the world",
-          "zh": "世界上最高的树"
+          "en": "A type of redwood",
+          "zh": "一种红杉"
         },
         {
           "en": "The largest tree in the world",
           "zh": "世界上最大的树"
         },
         {
-          "en": "A type of redwood",
-          "zh": "一种红杉"
+          "en": "The tallest tree in the world according to some versions of the story",
+          "zh": "世界上最高的树（按书中另一种说法）"
         },
         {
           "en": "A small bush",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Redwoods are the tallest trees, while sequoias are the largest",
-          "zh": "红杉是最高的树，而巨杉是最大的"
-        },
-        {
-          "en": "They grow in different colors of bark",
-          "zh": "它们有不同颜色的树皮"
+          "en": "Redwoods are smaller than flowers",
+          "zh": "红杉比花还小"
         },
         {
           "en": "Both grow only near the North Pole",
           "zh": "两者只生长在北极附近"
         },
         {
-          "en": "Redwoods are smaller than flowers",
-          "zh": "红杉比花还小"
+          "en": "They grow in different colors of bark according to some versions of the story",
+          "zh": "它们有不同颜色的树皮（按书中另一种说法）"
+        },
+        {
+          "en": "Redwoods are the tallest trees, while sequoias are the largest",
+          "zh": "红杉是最高的树，而巨杉是最大的"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states giant redwoods are the tallest trees (up to 378 feet) and giant sequoias are the largest (up to 40 feet wide), though both have the same color bark.",
@@ -103,8 +103,8 @@
       },
       "options": [
         {
-          "en": "The roots of a tree",
-          "zh": "树的根"
+          "en": "The forest floor",
+          "zh": "森林地面"
         },
         {
           "en": "The part where tree tops form a dense layer of leaves",
@@ -115,8 +115,8 @@
           "zh": "一种动物"
         },
         {
-          "en": "The forest floor",
-          "zh": "森林地面"
+          "en": "The roots of a tree according to some versions of the story",
+          "zh": "树的根（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -137,16 +137,16 @@
           "zh": "因为它们在恶劣大风中长得又矮又扭曲"
         },
         {
-          "en": "Because they are the tallest trees",
-          "zh": "因为它们是最高的树"
+          "en": "Because they are a kind of flower",
+          "zh": "因为它们是一种花"
+        },
+        {
+          "en": "Because they are the tallest trees according to some versions of the story",
+          "zh": "因为它们是最高的树（按书中另一种说法）"
         },
         {
           "en": "Because they grow only in Japan",
           "zh": "因为它们只生长在日本"
-        },
-        {
-          "en": "Because they are a kind of flower",
-          "zh": "因为它们是一种花"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Food and shelter for animals, plants, and fungi",
-          "zh": "为动物、植物和真菌提供食物和庇护所"
+          "en": "Only a place for people to build according to some versions of the story",
+          "zh": "只供人类建造房屋（按书中另一种说法）"
+        },
+        {
+          "en": "A new kind of rock",
+          "zh": "一种新的岩石"
         },
         {
           "en": "Nothing useful at all",
           "zh": "没有任何用处"
         },
         {
-          "en": "Only a place for people to build",
-          "zh": "只供人类建造房屋"
-        },
-        {
-          "en": "A new kind of rock",
-          "zh": "一种新的岩石"
+          "en": "Food and shelter for animals, plants, and fungi",
+          "zh": "为动物、植物和真菌提供食物和庇护所"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains that snags and fallen trees provide food and shelter for different animals, plants, and fungi, and fallen trees make holes in the canopy for young trees.",
@@ -201,12 +201,12 @@
           "zh": "雪豹"
         },
         {
-          "en": "The Pacific fisher",
-          "zh": "太平洋渔貂"
-        },
-        {
           "en": "The redwood tree",
           "zh": "红杉树"
+        },
+        {
+          "en": "The Pacific fisher according to some versions of the story",
+          "zh": "太平洋渔貂（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "To show old-growth forests need protection and people disagree on how much",
-          "zh": "为了说明原始森林需要保护，而人们在保护程度上的看法不一"
-        },
-        {
           "en": "To list the glossary words",
           "zh": "为了列出词汇表"
         },
         {
-          "en": "To describe how to bake bread",
-          "zh": "为了描写如何烤面包"
-        },
-        {
           "en": "To tell a fairy tale",
           "zh": "为了讲一个童话"
+        },
+        {
+          "en": "To show old-growth forests need protection and people disagree on how much",
+          "zh": "为了说明原始森林需要保护，而人们在保护程度上的看法不一"
+        },
+        {
+          "en": "To describe how to bake bread according to some versions of the story in an early draft of the book",
+          "zh": "为了描写如何烤面包（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The conclusion says some old-growth forests are in danger from human actions and that people debate how much protection is enough, showing why they matter.",
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "To tell a made-up story about animals according to some versions of the story in an early draft of the book",
+          "zh": "讲述一个虚构的动物故事（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "To persuade readers to cut down forests",
           "zh": "说服读者砍伐森林"
         },
@@ -261,15 +265,11 @@
           "zh": "向读者介绍世界各地的原始森林及其重要性"
         },
         {
-          "en": "To tell a made-up story about animals",
-          "zh": "讲述一个虚构的动物故事"
-        },
-        {
           "en": "To teach how to climb mountains",
           "zh": "教人如何爬山"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book describes old-growth forests in the United States, Japan, and Russia and explains their value, aiming to inform and build appreciation.",
@@ -287,16 +287,16 @@
           "zh": "它用爪子上的皮膜滑翔"
         },
         {
-          "en": "It truly flies like a bird",
-          "zh": "它像鸟一样真正飞行"
+          "en": "It digs underground",
+          "zh": "它在地下挖洞"
         },
         {
           "en": "It swims",
           "zh": "它游泳"
         },
         {
-          "en": "It digs underground",
-          "zh": "它在地下挖洞"
+          "en": "It truly flies like a bird according to some versions of the story",
+          "zh": "它像鸟一样真正飞行（按书中另一种说法）"
         }
       ],
       "answer": 0,

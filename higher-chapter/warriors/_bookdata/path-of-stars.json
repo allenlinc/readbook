@@ -4,114 +4,294 @@
   "descZh": "系列最后一部，五大族群正式命名，天上的祖灵被称为「星族」。",
   "questions": [
     {
-      "q": {"en": "What are the five cat groups finally called in Path of Stars?", "zh": "在《群星之路》中，五个猫群最终被叫做什么？"},
+      "q": {
+        "en": "What are the five cat groups finally called in Path of Stars?",
+        "zh": "在《群星之路》中，五个猫群最终被叫做什么？"
+      },
       "options": [
-        {"en": "Packs", "zh": "群队（Packs）"},
-        {"en": "Clans", "zh": "族群（Clans）"},
-        {"en": "Tribes", "zh": "部落（Tribes）"},
-        {"en": "Herds", "zh": "兽群（Herds）"}
+        {
+          "en": "Tribes",
+          "zh": "部落（Tribes）"
+        },
+        {
+          "en": "Clans",
+          "zh": "族群（Clans）"
+        },
+        {
+          "en": "Packs",
+          "zh": "群队（Packs）"
+        },
+        {
+          "en": "Herds",
+          "zh": "兽群（Herds）"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "The groups become the five Clans: ThunderClan, ShadowClan, WindClan, RiverClan, and SkyClan.", "zh": "这些群体成为五大族群：雷族、影族、风族、河族和天族。"}
+      "explain": {
+        "en": "The groups become the five Clans: ThunderClan, ShadowClan, WindClan, RiverClan, and SkyClan.",
+        "zh": "这些群体成为五大族群：雷族、影族、风族、河族和天族。"
+      }
     },
     {
-      "q": {"en": "Which Clan does Thunder help found?", "zh": "雷电参与创建了哪个族群？"},
+      "q": {
+        "en": "Which Clan does Thunder help found?",
+        "zh": "雷电参与创建了哪个族群？"
+      },
       "options": [
-        {"en": "SkyClan", "zh": "天族（SkyClan）"},
-        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
-        {"en": "RiverClan", "zh": "河族（RiverClan）"},
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"}
+        {
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
+        },
+        {
+          "en": "SkyClan",
+          "zh": "天族（SkyClan）"
+        },
+        {
+          "en": "ShadowClan according to some versions of the story",
+          "zh": "影族（ShadowClan）（按书中另一种说法）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "Thunder becomes the founder of ThunderClan.", "zh": "雷电成为雷族（ThunderClan）的创始人。"}
+      "answer": 0,
+      "explain": {
+        "en": "Thunder becomes the founder of ThunderClan.",
+        "zh": "雷电成为雷族（ThunderClan）的创始人。"
+      }
     },
     {
-      "q": {"en": "Which founder leads ShadowClan?", "zh": "哪位创始猫领导影族（ShadowClan）？"},
+      "q": {
+        "en": "Which founder leads ShadowClan?",
+        "zh": "哪位创始猫领导影族（ShadowClan）？"
+      },
       "options": [
-        {"en": "Wind Runner", "zh": "风奔（Wind Runner）"},
-        {"en": "River Ripple", "zh": "河波（River Ripple）"},
-        {"en": "Tall Shadow", "zh": "高影（Tall Shadow）"},
-        {"en": "Clear Sky", "zh": "晴天（Clear Sky）"}
+        {
+          "en": "Wind Runner",
+          "zh": "风奔（Wind Runner）"
+        },
+        {
+          "en": "River Ripple",
+          "zh": "河波（River Ripple）"
+        },
+        {
+          "en": "Tall Shadow",
+          "zh": "高影（Tall Shadow）"
+        },
+        {
+          "en": "Clear Sky",
+          "zh": "晴天（Clear Sky）"
+        }
       ],
       "answer": 2,
-      "explain": {"en": "Tall Shadow becomes the founder of ShadowClan.", "zh": "高影（Tall Shadow）是影族的创始人。"}
+      "explain": {
+        "en": "Tall Shadow becomes the founder of ShadowClan.",
+        "zh": "高影（Tall Shadow）是影族的创始人。"
+      }
     },
     {
-      "q": {"en": "Which founder leads RiverClan?", "zh": "哪位创始猫领导河族（RiverClan）？"},
+      "q": {
+        "en": "Which founder leads RiverClan?",
+        "zh": "哪位创始猫领导河族（RiverClan）？"
+      },
       "options": [
-        {"en": "River Ripple", "zh": "河波（River Ripple）"},
-        {"en": "Gray Wing", "zh": "灰翅（Gray Wing）"},
-        {"en": "Thunder", "zh": "雷电（Thunder）"},
-        {"en": "Jagged Peak", "zh": "锯齿峰（Jagged Peak）"}
+        {
+          "en": "Jagged Peak according to some versions of the story",
+          "zh": "锯齿峰（Jagged Peak）（按书中另一种说法）"
+        },
+        {
+          "en": "River Ripple",
+          "zh": "河波（River Ripple）"
+        },
+        {
+          "en": "Thunder",
+          "zh": "雷电（Thunder）"
+        },
+        {
+          "en": "Gray Wing",
+          "zh": "灰翅（Gray Wing）"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "River Ripple becomes the founder of RiverClan.",
+        "zh": "河波（River Ripple）是河族的创始人。"
+      }
+    },
+    {
+      "q": {
+        "en": "What name is given to the spirits of the dead cats watching from the sky?",
+        "zh": "天上守护着生者的逝去猫群之灵，被称为什么？"
+      },
+      "options": [
+        {
+          "en": "StarClan",
+          "zh": "星族（StarClan）"
+        },
+        {
+          "en": "Sky Spirits",
+          "zh": "天空之灵（Sky Spirits）"
+        },
+        {
+          "en": "MoonClan",
+          "zh": "月族（MoonClan）"
+        },
+        {
+          "en": "The Ancients",
+          "zh": "远古者（The Ancients）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "River Ripple becomes the founder of RiverClan.", "zh": "河波（River Ripple）是河族的创始人。"}
+      "explain": {
+        "en": "The spirits in the stars become known as StarClan, who guide the living Clans.",
+        "zh": "天上的祖灵被称为星族（StarClan），指引着生生不息的族群。"
+      }
     },
     {
-      "q": {"en": "What name is given to the spirits of the dead cats watching from the sky?", "zh": "天上守护着生者的逝去猫群之灵，被称为什么？"},
+      "q": {
+        "en": "Who becomes the first medicine cat of the new Clan system?",
+        "zh": "在新族群制度下，谁成为了第一位巫医？"
+      },
       "options": [
-        {"en": "MoonClan", "zh": "月族（MoonClan）"},
-        {"en": "StarClan", "zh": "星族（StarClan）"},
-        {"en": "Sky Spirits", "zh": "天空之灵（Sky Spirits）"},
-        {"en": "The Ancients", "zh": "远古者（The Ancients）"}
+        {
+          "en": "Star Flower",
+          "zh": "星花（Star Flower）"
+        },
+        {
+          "en": "Turtle Tail",
+          "zh": "龟尾（Turtle Tail）"
+        },
+        {
+          "en": "Half Moon",
+          "zh": "半月（Half Moon）"
+        },
+        {
+          "en": "Storm",
+          "zh": "风暴（Storm）"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "The spirits in the stars become known as StarClan, who guide the living Clans.", "zh": "天上的祖灵被称为星族（StarClan），指引着生生不息的族群。"}
+      "answer": 2,
+      "explain": {
+        "en": "Half Moon serves as the first medicine cat, speaking for StarClan to the Clans.",
+        "zh": "半月担任第一位巫医，向各族群传达星族的旨意。"
+      }
     },
     {
-      "q": {"en": "Who becomes the first medicine cat of the new Clan system?", "zh": "在新族群制度下，谁成为了第一位巫医？"},
+      "q": {
+        "en": "What sad but peaceful event happens to Gray Wing?",
+        "zh": "灰翅身上发生了一件悲伤却安详的事，是什么？"
+      },
       "options": [
-        {"en": "Half Moon", "zh": "半月（Half Moon）"},
-        {"en": "Star Flower", "zh": "星花（Star Flower）"},
-        {"en": "Turtle Tail", "zh": "龟尾（Turtle Tail）"},
-        {"en": "Storm", "zh": "风暴（Storm）"}
+        {
+          "en": "He dies and joins the spirits in the sky",
+          "zh": "他死去，加入了天上的祖灵"
+        },
+        {
+          "en": "He becomes a kittypet",
+          "zh": "他成了宠物猫"
+        },
+        {
+          "en": "He becomes a rogue",
+          "zh": "他成了泼皮猫"
+        },
+        {
+          "en": "He returns to the mountains according to some versions of the story",
+          "zh": "他返回山地（按书中另一种说法）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Half Moon serves as the first medicine cat, speaking for StarClan to the Clans.", "zh": "半月担任第一位巫医，向各族群传达星族的旨意。"}
+      "explain": {
+        "en": "Gray Wing dies peacefully and his spirit joins the starry ancestors, watching over the Clans.",
+        "zh": "灰翅安详地离世，他的灵魂加入了星空的祖灵，继续守护着族群。"
+      }
     },
     {
-      "q": {"en": "What sad but peaceful event happens to Gray Wing?", "zh": "灰翅身上发生了一件悲伤却安详的事，是什么？"},
+      "q": {
+        "en": "Where do the Clans meet for their great shared gatherings?",
+        "zh": "各族群为了盛大的聚会，会在哪里碰面？"
+      },
       "options": [
-        {"en": "He becomes a rogue", "zh": "他成了泼皮猫"},
-        {"en": "He dies and joins the spirits in the sky", "zh": "他死去，加入了天上的祖灵"},
-        {"en": "He returns to the mountains", "zh": "他返回山地"},
-        {"en": "He becomes a kittypet", "zh": "他成了宠物猫"}
+        {
+          "en": "In the mountains",
+          "zh": "在山地"
+        },
+        {
+          "en": "In a Twoleg den according to some versions of the story",
+          "zh": "在两脚兽的窝里（按书中另一种说法）"
+        },
+        {
+          "en": "By the Thunderpath",
+          "zh": "在雷道旁"
+        },
+        {
+          "en": "At the four trees",
+          "zh": "在四棵树下"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The Clans gather at the four trees, a meeting place that becomes important for generations.",
+        "zh": "各族群在四棵树下聚会，这个地方在日后世代都意义非凡。"
+      }
+    },
+    {
+      "q": {
+        "en": "What promise do the Clans make to one another at the end?",
+        "zh": "结尾时，各族群彼此做出了什么承诺？"
+      },
+      "options": [
+        {
+          "en": "To fight forever",
+          "zh": "永远争斗"
+        },
+        {
+          "en": "To leave the forest",
+          "zh": "离开森林"
+        },
+        {
+          "en": "To never speak again according to some versions of the story",
+          "zh": "永远不再说话（按书中另一种说法）"
+        },
+        {
+          "en": "To live by a shared code and respect each other's territory",
+          "zh": "遵守共同的法则并尊重彼此领地"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The Clans agree to live by a shared law and to respect one another's borders.",
+        "zh": "族群约定遵守共同的法则，并尊重彼此的边界。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does the Dawn of the Clans series end?",
+        "zh": "「族群黎明」系列是如何收尾的？"
+      },
+      "options": [
+        {
+          "en": "One Eye returns",
+          "zh": "独眼归来"
+        },
+        {
+          "en": "The Clan system is born, guided by StarClan",
+          "zh": "族群制度诞生，并由星族指引"
+        },
+        {
+          "en": "The cats return to the mountains according to some versions of the story",
+          "zh": "猫群返回山地（按书中另一种说法）"
+        },
+        {
+          "en": "The forest is destroyed",
+          "zh": "森林被毁"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Gray Wing dies peacefully and his spirit joins the starry ancestors, watching over the Clans.", "zh": "灰翅安详地离世，他的灵魂加入了星空的祖灵，继续守护着族群。"}
-    },
-    {
-      "q": {"en": "Where do the Clans meet for their great shared gatherings?", "zh": "各族群为了盛大的聚会，会在哪里碰面？"},
-      "options": [
-        {"en": "At the four trees", "zh": "在四棵树下"},
-        {"en": "In the mountains", "zh": "在山地"},
-        {"en": "By the Thunderpath", "zh": "在雷道旁"},
-        {"en": "In a Twoleg den", "zh": "在两脚兽的窝里"}
-      ],
-      "answer": 0,
-      "explain": {"en": "The Clans gather at the four trees, a meeting place that becomes important for generations.", "zh": "各族群在四棵树下聚会，这个地方在日后世代都意义非凡。"}
-    },
-    {
-      "q": {"en": "What promise do the Clans make to one another at the end?", "zh": "结尾时，各族群彼此做出了什么承诺？"},
-      "options": [
-        {"en": "To never speak again", "zh": "永远不再说话"},
-        {"en": "To live by a shared code and respect each other's territory", "zh": "遵守共同的法则并尊重彼此领地"},
-        {"en": "To fight forever", "zh": "永远争斗"},
-        {"en": "To leave the forest", "zh": "离开森林"}
-      ],
-      "answer": 1,
-      "explain": {"en": "The Clans agree to live by a shared law and to respect one another's borders.", "zh": "族群约定遵守共同的法则，并尊重彼此的边界。"}
-    },
-    {
-      "q": {"en": "How does the Dawn of the Clans series end?", "zh": "「族群黎明」系列是如何收尾的？"},
-      "options": [
-        {"en": "The cats return to the mountains", "zh": "猫群返回山地"},
-        {"en": "The Clan system is born, guided by StarClan", "zh": "族群制度诞生，并由星族指引"},
-        {"en": "One Eye returns", "zh": "独眼归来"},
-        {"en": "The forest is destroyed", "zh": "森林被毁"}
-      ],
-      "answer": 1,
-      "explain": {"en": "The series ends with the five Clans established and StarClan promising to watch over them forever.", "zh": "系列以五大族群确立、星族承诺永远守护它们而作结。"}
+      "explain": {
+        "en": "The series ends with the five Clans established and StarClan promising to watch over them forever.",
+        "zh": "系列以五大族群确立、星族承诺永远守护它们而作结。"
+      }
     }
   ]
 }

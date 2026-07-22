@@ -12,12 +12,24 @@
         "zh": "故事里的三棵松树是谁？"
       },
       "options": [
-        {"en": "Poppa Pine, Momma Pine, and Baby Pine", "zh": "松爸爸、松妈妈和松宝宝"},
-        {"en": "Three loggers named Lee, Max, and Sam", "zh": "三个叫李、麦克斯和萨姆的伐木工"},
-        {"en": "The narrator and his two brothers", "zh": "叙述者和他的两个兄弟"},
-        {"en": "A family of three rabbits", "zh": "一家三只兔子"}
+        {
+          "en": "Three loggers named Lee, Max, and Sam",
+          "zh": "三个叫李、麦克斯和萨姆的伐木工"
+        },
+        {
+          "en": "Poppa Pine, Momma Pine, and Baby Pine",
+          "zh": "松爸爸、松妈妈和松宝宝"
+        },
+        {
+          "en": "A family of three rabbits",
+          "zh": "一家三只兔子"
+        },
+        {
+          "en": "The narrator and his two brothers",
+          "zh": "叙述者和他的两个兄弟"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The cast lists NARRATOR, Poppa Pine, Momma Pine, Baby Pine, and LOGGER. The three trees are Poppa, Momma, and Baby Pine, the last left in a harvested forest.",
@@ -30,12 +42,24 @@
         "zh": "松树一家最害怕伐木工把他们变成什么？"
       },
       "options": [
-        {"en": "Being ground into sawdust to make 'presto logs'", "zh": "被磨成锯末，做成「速成木柴」"},
-        {"en": "Being planted in a bigger forest", "zh": "被种进更大的森林"},
-        {"en": "Being turned into Christmas trees", "zh": "被做成圣诞树"},
-        {"en": "Being left alone to grow old", "zh": "被丢下自生自灭"}
+        {
+          "en": "Being left alone to grow old",
+          "zh": "被丢下自生自灭"
+        },
+        {
+          "en": "Being ground into sawdust to make 'presto logs'",
+          "zh": "被磨成锯末，做成「速成木柴」"
+        },
+        {
+          "en": "Being planted in a bigger forest according to some versions of the story",
+          "zh": "被种进更大的森林（按书中另一种说法）"
+        },
+        {
+          "en": "Being turned into Christmas trees",
+          "zh": "被做成圣诞树"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The pines fear 「presto loggers」 who would 「grind us into sawdust and make presto logs out of us!」 They would rather be something useful like a chair or a Christmas tree.",
@@ -48,12 +72,24 @@
         "zh": "伐木工对松宝宝许下了什么承诺？"
       },
       "options": [
-        {"en": "He will care for, feed, and water it, let it sleep through winter, and it will grow a new forest and become a Christmas tree", "zh": "他会照料、喂养、浇灌它，让它睡过冬天，松果将长成新森林，它也会成为圣诞树"},
-        {"en": "He will chop it down immediately for lumber", "zh": "他会立刻把它砍下做木材"},
-        {"en": "He will leave it in the forest forever", "zh": "他会永远把它留在森林里"},
-        {"en": "He will sell it to a zoo", "zh": "他会把它卖给动物园"}
+        {
+          "en": "He will chop it down immediately for lumber according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他会立刻把它砍下做木材（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "He will care for, feed, and water it, let it sleep through winter, and it will grow a new forest and become a Christmas tree",
+          "zh": "他会照料、喂养、浇灌它，让它睡过冬天，松果将长成新森林，它也会成为圣诞树"
+        },
+        {
+          "en": "He will sell it to a zoo",
+          "zh": "他会把它卖给动物园"
+        },
+        {
+          "en": "He will leave it in the forest forever",
+          "zh": "他会永远把它留在森林里"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Logger promises the little Pine 「will be cared for and fed and watered. We'll let it sleep through the winter... Baby's pinecones will grow an entire new forest... a few years from now, Baby will be a Christmas tree, too.」",
@@ -66,12 +102,24 @@
         "zh": "这个故事是用什么形式（体裁）写成的？"
       },
       "options": [
-        {"en": "A play, with a cast of characters, a narrator, and dialogue", "zh": "一出戏剧，有角色表、叙述者和对话"},
-        {"en": "A nonfiction science report", "zh": "一篇非虚构的科学报告"},
-        {"en": "A poem with rhyming lines", "zh": "一首押韵的诗"},
-        {"en": "A diary written by one person", "zh": "一个人写的日记"}
+        {
+          "en": "A diary written by one person",
+          "zh": "一个人写的日记"
+        },
+        {
+          "en": "A poem with rhyming lines",
+          "zh": "一首押韵的诗"
+        },
+        {
+          "en": "A nonfiction science report according to some versions of the story",
+          "zh": "一篇非虚构的科学报告（按书中另一种说法）"
+        },
+        {
+          "en": "A play, with a cast of characters, a narrator, and dialogue",
+          "zh": "一出戏剧，有角色表、叙述者和对话"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book opens with 「The Cast:」 listing NARRATOR, Poppa Pine, Momma Pine, Baby Pine, and LOGGER, and the story is told through their spoken lines and stage directions.",
@@ -84,12 +132,24 @@
         "zh": "在故事里，「速成伐木工」(presto logger) 是什么？"
       },
       "options": [
-        {"en": "A logger who chops trees down and instantly turns them into presto logs", "zh": "把树砍倒、立刻做成速成木柴的伐木工"},
-        {"en": "A logger who only plants new trees", "zh": "只种新树的伐木工"},
-        {"en": "A type of singing bird in the forest", "zh": "森林里一种会唱歌的鸟"},
-        {"en": "The name of the family's pet dog", "zh": "这家人的宠物狗的名字"}
+        {
+          "en": "A logger who only plants new trees",
+          "zh": "只种新树的伐木工"
+        },
+        {
+          "en": "A type of singing bird in the forest according to some versions of the story",
+          "zh": "森林里一种会唱歌的鸟（按书中另一种说法）"
+        },
+        {
+          "en": "A logger who chops trees down and instantly turns them into presto logs",
+          "zh": "把树砍倒、立刻做成速成木柴的伐木工"
+        },
+        {
+          "en": "The name of the family's pet dog",
+          "zh": "这家人的宠物狗的名字"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The pines worry about 「presto loggers」 who would 「grind us into sawdust and make presto logs out of us,」 turning trees into fake logs almost instantly (presto!).",
@@ -102,12 +162,24 @@
         "zh": "故事里的松树是怎样表现的？"
       },
       "options": [
-        {"en": "Like people—they talk, have feelings, worry, and cry", "zh": "像人一样——会说话、有感情、会担忧、会哭泣"},
-        {"en": "Like ordinary plants that cannot move or speak", "zh": "像普通植物，不能动也不能说话"},
-        {"en": "Like wild animals that hunt", "zh": "像会捕猎的野兽"},
-        {"en": "Like rocks that never change", "zh": "像永远不变的石头"}
+        {
+          "en": "Like ordinary plants that cannot move or speak according to some versions of the story",
+          "zh": "像普通植物，不能动也不能说话（按书中另一种说法）"
+        },
+        {
+          "en": "Like wild animals that hunt",
+          "zh": "像会捕猎的野兽"
+        },
+        {
+          "en": "Like rocks that never change",
+          "zh": "像永远不变的石头"
+        },
+        {
+          "en": "Like people—they talk, have feelings, worry, and cry",
+          "zh": "像人一样——会说话、有感情、会担忧、会哭泣"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "This is personification: Poppa and Momma Pine speak to each other, worry about loggers, and Baby Pine cries until 「its lower lip begins to tremble」—the trees behave like people.",
@@ -120,10 +192,22 @@
         "zh": "伐木工从想砍树到承诺照料松宝宝，这种转变说明了什么？"
       },
       "options": [
-        {"en": "That even a logger can listen, change his mind, and treat the trees kindly", "zh": "即使伐木工也能倾听、改变主意，并善待树木"},
-        {"en": "That all loggers are cruel and never change", "zh": "所有伐木工都很残忍、从不改变"},
-        {"en": "That trees should always be afraid of people", "zh": "树木应该永远怕人"},
-        {"en": "That the forest will never grow back", "zh": "森林永远不会再长出来"}
+        {
+          "en": "That even a logger can listen, change his mind, and treat the trees kindly",
+          "zh": "即使伐木工也能倾听、改变主意，并善待树木"
+        },
+        {
+          "en": "That the forest will never grow back",
+          "zh": "森林永远不会再长出来"
+        },
+        {
+          "en": "That trees should always be afraid of people",
+          "zh": "树木应该永远怕人"
+        },
+        {
+          "en": "That all loggers are cruel and never change according to some versions of the story",
+          "zh": "所有伐木工都很残忍、从不改变（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,10 +222,22 @@
         "zh": "为什么这三棵松树被称为「常绿林海中的被遗弃者」？"
       },
       "options": [
-        {"en": "Because after the forest was harvested (Douglas firs and blue spruce cut), they were the last trees left behind", "zh": "因为森林被砍伐（道格拉斯冷杉和蓝云杉被砍）后，它们是被留下来的最后几棵树"},
-        {"en": "Because they had sailed across an ocean", "zh": "因为它们曾漂洋过海"},
-        {"en": "Because they were planted in the middle of a lake", "zh": "因为它们被种在湖中央"},
-        {"en": "Because they were the tallest trees in a new forest", "zh": "因为它们是新森林里最高的树"}
+        {
+          "en": "Because after the forest was harvested (Douglas firs and blue spruce cut), they were the last trees left behind",
+          "zh": "因为森林被砍伐（道格拉斯冷杉和蓝云杉被砍）后，它们是被留下来的最后几棵树"
+        },
+        {
+          "en": "Because they had sailed across an ocean",
+          "zh": "因为它们曾漂洋过海"
+        },
+        {
+          "en": "Because they were planted in the middle of a lake",
+          "zh": "因为它们被种在湖中央"
+        },
+        {
+          "en": "Because they were the tallest trees in a new forest according to some versions of the story in an early draft of the book",
+          "zh": "因为它们是新森林里最高的树（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,12 +252,24 @@
         "zh": "斯蒂芬·科斯格罗夫 (Stephen Cosgrove) 创作这个故事的主要原因之一是什么？"
       },
       "options": [
-        {"en": "To show the love and protection among a family of trees and make readers think about nature", "zh": "为了展现松树一家之间的爱与保护，并让读者思考自然"},
-        {"en": "To teach the scientific names of every tree", "zh": "为了教读者每种树的学名"},
-        {"en": "To explain how to build a wooden chair", "zh": "为了讲解如何做木椅"},
-        {"en": "To argue that all logging should be banned", "zh": "为了主张全面禁止伐木"}
+        {
+          "en": "To teach the scientific names of every tree according to some versions of the story in an early draft of the book",
+          "zh": "为了教读者每种树的学名（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To argue that all logging should be banned",
+          "zh": "为了主张全面禁止伐木"
+        },
+        {
+          "en": "To show the love and protection among a family of trees and make readers think about nature",
+          "zh": "为了展现松树一家之间的爱与保护，并让读者思考自然"
+        },
+        {
+          "en": "To explain how to build a wooden chair",
+          "zh": "为了讲解如何做木椅"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Through talking trees who love and protect one another, the author encourages readers to care about forests and the living things in them, while also showing that not every logger is unkind.",
@@ -174,10 +282,22 @@
         "zh": "让松树拥有人的声音和感情，作者想让读者怎么做？"
       },
       "options": [
-        {"en": "Feel sympathy for trees and think about how we treat the natural world", "zh": "对树木产生同情，并思考我们如何对待自然世界"},
-        {"en": "Learn to speak the language of trees", "zh": "学会说树的语言"},
-        {"en": "Believe trees really can talk", "zh": "相信树真的会说话"},
-        {"en": "Avoid going into any forest", "zh": "避免走进任何森林"}
+        {
+          "en": "Feel sympathy for trees and think about how we treat the natural world",
+          "zh": "对树木产生同情，并思考我们如何对待自然世界"
+        },
+        {
+          "en": "Avoid going into any forest",
+          "zh": "避免走进任何森林"
+        },
+        {
+          "en": "Learn to speak the language of trees according to some versions of the story",
+          "zh": "学会说树的语言（按书中另一种说法）"
+        },
+        {
+          "en": "Believe trees really can talk",
+          "zh": "相信树真的会说话"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

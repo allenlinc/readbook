@@ -17,12 +17,12 @@
           "zh": "一套邮件递送系统，心脏就是总局。"
         },
         {
-          "en": "A train station.",
-          "zh": "一座火车站。"
-        },
-        {
           "en": "A library.",
           "zh": "一座图书馆。"
+        },
+        {
+          "en": "A train station. according to some versions of the story in an early draft of the book",
+          "zh": "一座火车站。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A grocery store.",
@@ -43,8 +43,8 @@
       },
       "options": [
         {
-          "en": "About 100,000 times.",
-          "zh": "约100,000次。"
+          "en": "About one million times a minute.",
+          "zh": "每分钟约一百万次。"
         },
         {
           "en": "About 10 times.",
@@ -55,11 +55,11 @@
           "zh": "约1,000次。"
         },
         {
-          "en": "About one million times a minute.",
-          "zh": "每分钟约一百万次。"
+          "en": "About 100,000 times.",
+          "zh": "约100,000次。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the heart contracts about 100,000 times every 24 hours.",
@@ -77,16 +77,16 @@
           "zh": "它们把富含氧气的血液从心脏输送出去。"
         },
         {
-          "en": "They carry blood back to the heart.",
-          "zh": "它们把血液送回心脏。"
+          "en": "They store fat.",
+          "zh": "它们储存脂肪。"
         },
         {
           "en": "They digest food.",
           "zh": "它们消化食物。"
         },
         {
-          "en": "They store fat.",
-          "zh": "它们储存脂肪。"
+          "en": "They carry blood back to the heart. according to some versions of the story",
+          "zh": "它们把血液送回心脏。（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "Red blood cells with hemoglobin, which contains iron that binds oxygen.",
-          "zh": "含血红蛋白的红细胞，其中的铁与氧结合。"
-        },
-        {
           "en": "Blue plasma.",
           "zh": "蓝色的血浆。"
         },
@@ -115,11 +111,15 @@
           "zh": "白色的糖。"
         },
         {
-          "en": "Green platelets.",
-          "zh": "绿色的血小板。"
+          "en": "Red blood cells with hemoglobin, which contains iron that binds oxygen.",
+          "zh": "含血红蛋白的红细胞，其中的铁与氧结合。"
+        },
+        {
+          "en": "Green platelets. according to some versions of the story in an early draft of the book",
+          "zh": "绿色的血小板。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Hemoglobin contains iron; when iron meets oxygen the blood turns red.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "They digest food.",
+          "zh": "它们消化食物。"
+        },
+        {
           "en": "They help blood clot and form scabs so cuts can heal.",
           "zh": "它们帮助血液凝固、形成血痂，使伤口得以愈合。"
         },
         {
+          "en": "They fight bacteria. according to some versions of the story",
+          "zh": "它们消灭细菌。（按书中另一种说法）"
+        },
+        {
           "en": "They carry oxygen.",
           "zh": "它们运送氧气。"
-        },
-        {
-          "en": "They fight bacteria.",
-          "zh": "它们消灭细菌。"
-        },
-        {
-          "en": "They digest food.",
-          "zh": "它们消化食物。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Platelets cause blood cells and plasma to clump together, blocking flow and forming a scab.",
@@ -171,8 +171,8 @@
           "zh": "一种红细胞。"
         },
         {
-          "en": "Part of the heart muscle.",
-          "zh": "心脏肌肉的一部分。"
+          "en": "Part of the heart muscle. according to some versions of the story in an early draft of the book",
+          "zh": "心脏肌肉的一部分。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A kind of bone.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "The yellow liquid that blood cells flow in.",
-          "zh": "血细胞在其中流动的黄色液体。"
-        },
-        {
-          "en": "The solid part of blood.",
-          "zh": "血液的固体部分。"
-        },
-        {
           "en": "A type of blood vessel.",
           "zh": "一种血管。"
         },
         {
+          "en": "The yellow liquid that blood cells flow in.",
+          "zh": "血细胞在其中流动的黄色液体。"
+        },
+        {
           "en": "A kind of muscle.",
           "zh": "一种肌肉。"
+        },
+        {
+          "en": "The solid part of blood. according to some versions of the story",
+          "zh": "血液的固体部分。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Blood cells flow through the body in a yellow liquid called plasma.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "The blood has little oxygen, making it a darker color.",
-          "zh": "血液含氧很少，因而颜色更深。"
-        },
-        {
-          "en": "They are full of blue paint.",
-          "zh": "里面充满了蓝色颜料。"
-        },
-        {
           "en": "The skin dyes them purple.",
           "zh": "皮肤把它们染成了紫色。"
         },
         {
+          "en": "They are full of blue paint. according to some versions of the story",
+          "zh": "里面充满了蓝色颜料。（按书中另一种说法）"
+        },
+        {
           "en": "They carry only plasma.",
           "zh": "它们只输送血浆。"
+        },
+        {
+          "en": "The blood has little oxygen, making it a darker color.",
+          "zh": "血液含氧很少，因而颜色更深。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Blood returning to the heart lacks oxygen, so it and the veins appear darker or purple.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "A person with Type O blood that anyone can receive.",
-          "zh": "拥有O型血、任何人都能接受的人。"
+          "en": "A kind of white cell.",
+          "zh": "一种白细胞。"
         },
         {
-          "en": "A person who donates money.",
-          "zh": "捐款的人。"
+          "en": "A person with Type O blood that anyone can receive.",
+          "zh": "拥有O型血、任何人都能接受的人。"
         },
         {
           "en": "A type of hospital.",
           "zh": "一种医院。"
         },
         {
-          "en": "A kind of white cell.",
-          "zh": "一种白细胞。"
+          "en": "A person who donates money. according to some versions of the story",
+          "zh": "捐款的人。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "People with Type O blood are universal donors because anyone can accept their blood.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To teach readers how blood and the circulatory system work.",
-          "zh": "向读者讲解血液与循环系统是如何运作的。"
-        },
-        {
           "en": "To tell a horror story.",
           "zh": "讲一个恐怖故事。"
         },
         {
-          "en": "To teach how to cook meat.",
-          "zh": "教人烹煮肉类。"
-        },
-        {
           "en": "To describe outer space.",
           "zh": "描述外太空。"
+        },
+        {
+          "en": "To teach readers how blood and the circulatory system work.",
+          "zh": "向读者讲解血液与循环系统是如何运作的。"
+        },
+        {
+          "en": "To teach how to cook meat. according to some versions of the story",
+          "zh": "教人烹煮肉类。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is an informational text explaining blood, vessels, and the heart.",

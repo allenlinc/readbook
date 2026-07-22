@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Bigfoot, crop circles, the curse of the mummy, and the Bermuda Triangle.",
-          "zh": "大脚怪、麦田怪圈、木乃伊的诅咒，以及百慕大三角。"
+          "en": "The pyramids, Stonehenge, Easter Island, and the Titanic. according to some versions of the story",
+          "zh": "金字塔、巨石阵、复活节岛与泰坦尼克号。（按书中另一种说法）"
         },
         {
-          "en": "UFOs, Atlantis, the Loch Ness Monster, and ghosts.",
-          "zh": "UFO、亚特兰蒂斯、尼斯湖水怪与鬼魂。"
+          "en": "Bigfoot, crop circles, the curse of the mummy, and the Bermuda Triangle.",
+          "zh": "大脚怪、麦田怪圈、木乃伊的诅咒，以及百慕大三角。"
         },
         {
           "en": "Vampires, werewolves, witches, and dragons.",
           "zh": "吸血鬼、狼人、女巫与龙。"
         },
         {
-          "en": "The pyramids, Stonehenge, Easter Island, and the Titanic.",
-          "zh": "金字塔、巨石阵、复活节岛与泰坦尼克号。"
+          "en": "UFOs, Atlantis, the Loch Ness Monster, and ghosts.",
+          "zh": "UFO、亚特兰蒂斯、尼斯湖水怪与鬼魂。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Table of Contents lists the four mysteries: Bigfoot, Crop Circles, The Curse of the Mummy, and the Bermuda Triangle, and the Introduction says readers will get evidence about 'these four unsolved mysteries.'",
@@ -47,16 +47,16 @@
           "zh": "太平洋西北部的原住民数百年来一直讲述相关故事；萨利什人把这种生物称作Sasquatch，意为'林中野人'。"
         },
         {
-          "en": "The name Bigfoot was invented by scientists in the 1990s.",
-          "zh": "'大脚怪'这个名字是1990年代由科学家发明的。"
+          "en": "Bigfoot is the scientific name given by biologists.",
+          "zh": "大脚怪是生物学家给出的科学名称。"
+        },
+        {
+          "en": "The name Bigfoot was invented by scientists in the 1990s. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "'大脚怪'这个名字是1990年代由科学家发明的。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
           "en": "The Salish people never heard of such creatures.",
           "zh": "萨利什人从未听说过这类生物。"
-        },
-        {
-          "en": "Bigfoot is the scientific name given by biologists.",
-          "zh": "大脚怪是生物学家给出的科学名称。"
         }
       ],
       "answer": 0,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A hoax planned by three young men with gorilla suits and walkie-talkies.",
-          "zh": "由三名年轻人用大猩猩装和步话机策划的一场骗局。"
-        },
-        {
-          "en": "A real apelike creature captured on film.",
-          "zh": "一只被拍到的真实类猿生物。"
+          "en": "A real apelike creature captured on film. according to some versions of the story",
+          "zh": "一只被拍到的真实类猿生物。（按书中另一种说法）"
         },
         {
           "en": "A bear standing on its hind legs.",
           "zh": "一只用后腿站立的熊。"
         },
         {
+          "en": "A hoax planned by three young men with gorilla suits and walkie-talkies.",
+          "zh": "由三名年轻人用大猩猩装和步话机策划的一场骗局。"
+        },
+        {
           "en": "A fallen tree mistaken for a body.",
           "zh": "一棵被误认为尸体的倒木。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that in 1977 a Bigfoot sighting in northern Washington 'turned out to be a hoax planned by three young men with gorilla suits and walkie-talkies.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "They claimed they had made every crop circle since 1978, though Chorley later retracted and blamed 'unknown forces.'",
-          "zh": "他们声称自1978年以来所有的麦田怪圈都是他们制造的，尽管乔利后来收回说法，归咎于'未知力量'。"
+          "en": "They claimed they had never seen a crop circle. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他们声称自己从未见过麦田怪圈。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
-          "en": "They claimed aliens made all the circles.",
-          "zh": "他们声称所有怪圈都是外星人制造的。"
+          "en": "They claimed they had made every crop circle since 1978, though Chorley later retracted and blamed 'unknown forces.'",
+          "zh": "他们声称自1978年以来所有的麦田怪圈都是他们制造的，尽管乔利后来收回说法，归咎于'未知力量'。"
         },
         {
           "en": "They claimed the circles were made by tornadoes.",
           "zh": "他们声称怪圈是龙卷风造成的。"
         },
         {
-          "en": "They claimed they had never seen a crop circle.",
-          "zh": "他们声称自己从未见过麦田怪圈。"
+          "en": "They claimed aliens made all the circles.",
+          "zh": "他们声称所有怪圈都是外星人制造的。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says in 1991 Bower and Chorley claimed they had made every crop circle since 1978, but Doug retracted his confession seven years later, declaring 'unknown forces' made the circles.",
@@ -137,16 +137,16 @@
           "zh": "一种平衡、开放的处理方式：摆出证据、让读者自行判断，而非断言单一答案。"
         },
         {
-          "en": "A trick that always proves the mystery is fake.",
-          "zh": "一种总是证明谜团是假把戏的套路。"
-        },
-        {
-          "en": "A scary story meant only to frighten readers.",
-          "zh": "一个只为吓唬读者的恐怖故事。"
+          "en": "A trick that always proves the mystery is fake. according to some versions of the story in an early draft of the book",
+          "zh": "一种总是证明谜团是假把戏的套路。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A step-by-step science experiment.",
           "zh": "一个循序渐进的科学实验。"
+        },
+        {
+          "en": "A scary story meant only to frighten readers.",
+          "zh": "一个只为吓唬读者的恐怖故事。"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "It says newspapers spread curse stories, but research showed only six involved people died in ten years and the curse was not actually written in the tomb.",
-          "zh": "书中说报纸散布了诅咒传闻，但研究表明十年间只有六名相关人员死亡，且墓中根本没写那种诅咒。"
-        },
-        {
-          "en": "It confirms the curse truly killed twenty-six people.",
-          "zh": "它确认诅咒确实杀死了二十六人。"
+          "en": "It confirms the curse truly killed twenty-six people. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "它确认诅咒确实杀死了二十六人。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
           "en": "It says the curse was carved in gold on the wall.",
           "zh": "它说诅咒是用黄金刻在墙上的。"
         },
         {
+          "en": "It says newspapers spread curse stories, but research showed only six involved people died in ten years and the curse was not actually written in the tomb.",
+          "zh": "书中说报纸散布了诅咒传闻，但研究表明十年间只有六名相关人员死亡，且墓中根本没写那种诅咒。"
+        },
+        {
           "en": "It claims a cobra was the real killer.",
           "zh": "它声称一条眼镜蛇才是真正的杀手。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book reports newspapers said twenty-six died, but 'Research shows that actually only six people ... died in the first ten years' and 'the curse that was reportedly written in the tomb was not there at all.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Five Avenger bombers on a 1945 training mission that lost their bearings and disappeared, and the rescue airship also vanished.",
-          "zh": "1945年一次训练中，五架复仇者轰炸机迷失方向后失踪，前去搜救的飞艇也一并消失。"
-        },
-        {
           "en": "A passenger jet that landed safely.",
           "zh": "一架安全降落的客机。"
         },
         {
-          "en": "A spaceship that reached the moon.",
-          "zh": "一艘抵达月球的宇宙飞船。"
+          "en": "A spaceship that reached the moon. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "一艘抵达月球的宇宙飞船。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
           "en": "A ship that found treasure.",
           "zh": "一艘寻得宝藏的船。"
+        },
+        {
+          "en": "Five Avenger bombers on a 1945 training mission that lost their bearings and disappeared, and the rescue airship also vanished.",
+          "zh": "1945年一次训练中，五架复仇者轰炸机迷失方向后失踪，前去搜救的飞艇也一并消失。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says that in 1945, during a routine training mission, all five Avenger bombers of Flight 19 lost their bearings and disappeared, and the rescue airship that went looking also disappeared.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "The natural-explanation view that storms, waterspouts, and tidal waves—not a mysterious force—can erase vessels without a trace.",
-          "zh": "自然解释一派的观点：是风暴、水龙卷与海啸（而非神秘力量）让船只消失得无影无踪。"
-        },
-        {
           "en": "The view that UFOs capture all the crews.",
           "zh": "'UFO掳走所有船员'的说法。"
         },
         {
-          "en": "The view that the triangle is pure fantasy with no incidents.",
-          "zh": "'三角区纯属幻想、并无事故'的说法。"
+          "en": "The natural-explanation view that storms, waterspouts, and tidal waves—not a mysterious force—can erase vessels without a trace.",
+          "zh": "自然解释一派的观点：是风暴、水龙卷与海啸（而非神秘力量）让船只消失得无影无踪。"
+        },
+        {
+          "en": "The view that the triangle is pure fantasy with no incidents. according to some versions of the story in an early draft of the book",
+          "zh": "'三角区纯属幻想、并无事故'的说法。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "The view that the lost ships were stolen by pirates.",
           "zh": "'失踪船只被海盗盗走'的说法。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book presents the side that 'the unexplained losses are a result of the severe weather common in the area,' noting violent weather 'could destroy a ship and not leave any evidence,' supporting a natural explanation.",
@@ -257,16 +257,16 @@
           "zh": "谜团令我们着迷，正因我们无法理解它们；而对于它们是真实还是无稽之谈，人们永远会各执一词。"
         },
         {
-          "en": "All mysteries have been proven fake.",
-          "zh": "所有谜团都已被证明是假的。"
+          "en": "Mysteries are illegal to discuss.",
+          "zh": "讨论谜团是违法的。"
+        },
+        {
+          "en": "All mysteries have been proven fake. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "所有谜团都已被证明是假的。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         },
         {
           "en": "Only children like mysteries.",
           "zh": "只有孩子才喜欢谜团。"
-        },
-        {
-          "en": "Mysteries are illegal to discuss.",
-          "zh": "讨论谜团是违法的。"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "After a thick fog separated the ships overnight, the ghost ship was found the next day with the second crew also disappeared.",
-          "zh": "浓雾让两船失联一夜后，次日找到幽灵船时，第二批船员也同样消失了。"
-        },
-        {
-          "en": "They sailed it safely into port and were rewarded.",
-          "zh": "他们将它安全驶入港口并获得了奖赏。"
+          "en": "They captured the original crew.",
+          "zh": "他们抓捕了原来的船员。"
         },
         {
           "en": "They found treasure and became rich.",
           "zh": "他们发现了宝藏并发财。"
         },
         {
-          "en": "They captured the original crew.",
-          "zh": "他们抓捕了原来的船员。"
+          "en": "They sailed it safely into port and were rewarded. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他们将它安全驶入港口并获得了奖赏。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "After a thick fog separated the ships overnight, the ghost ship was found the next day with the second crew also disappeared.",
+          "zh": "浓雾让两船失联一夜后，次日找到幽灵船时，第二批船员也同样消失了。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says the Ellen Austin found a crewless ghost ship in 1881; a crew boarded to steer it, but after fog separated the ships, the ghost ship was found next day 'the second crew had disappeared as well.'",

@@ -4,114 +4,294 @@
   "descZh": "一本设定指南，由一位睿智的长老介绍四大族群中最重要的一只只猫。",
   "questions": [
     {
-      "q": {"en": "Cats of the Clans is narrated by a mysterious elder who knows every Clan cat. What is his name?", "zh": "《族群猫》由一位认识每一只族群猫的神秘长老讲述，他的名字是什么？"},
+      "q": {
+        "en": "Cats of the Clans is narrated by a mysterious elder who knows every Clan cat. What is his name?",
+        "zh": "《族群猫》由一位认识每一只族群猫的神秘长老讲述，他的名字是什么？"
+      },
       "options": [
-        {"en": "Rock", "zh": "岩石（Rock）"},
-        {"en": "Firestar", "zh": "火心（Firestar）"},
-        {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"},
-        {"en": "Bluestar", "zh": "蓝星（Bluestar）"}
+        {
+          "en": "Firestar",
+          "zh": "火心（Firestar）"
+        },
+        {
+          "en": "Yellowfang",
+          "zh": "黄牙（Yellowfang）"
+        },
+        {
+          "en": "Rock",
+          "zh": "岩石（Rock）"
+        },
+        {
+          "en": "Bluestar",
+          "zh": "蓝星（Bluestar）"
+        }
       ],
-      "answer": 0,
-      "explain": {"en": "The book is told from the point of view of Rock, a solitary elder who observes all the Clans.", "zh": "这本书以岩石（Rock）的视角讲述，他是一只独来独往、观察着所有族群的长老。"}
+      "answer": 2,
+      "explain": {
+        "en": "The book is told from the point of view of Rock, a solitary elder who observes all the Clans.",
+        "zh": "这本书以岩石（Rock）的视角讲述，他是一只独来独往、观察着所有族群的长老。"
+      }
     },
     {
-      "q": {"en": "Which ThunderClan leader was once a kittypet named Rusty before joining the Clan?", "zh": "哪位雷族族长曾经是名叫锈斑（Rusty）的宠物猫，后来才加入族群？"},
+      "q": {
+        "en": "Which ThunderClan leader was once a kittypet named Rusty before joining the Clan?",
+        "zh": "哪位雷族族长曾经是名叫锈斑（Rusty）的宠物猫，后来才加入族群？"
+      },
       "options": [
-        {"en": "Firestar", "zh": "火心（Firestar）"},
-        {"en": "Bramblestar", "zh": "棘星（Bramblestar）"},
-        {"en": "Graystripe", "zh": "灰条（Graystripe）"},
-        {"en": "Cloudtail", "zh": "云尾（Cloudtail）"}
+        {
+          "en": "Firestar",
+          "zh": "火心（Firestar）"
+        },
+        {
+          "en": "Graystripe",
+          "zh": "灰条（Graystripe）"
+        },
+        {
+          "en": "Bramblestar",
+          "zh": "棘星（Bramblestar）"
+        },
+        {
+          "en": "Cloudtail",
+          "zh": "云尾（Cloudtail）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Firestar began life as a kittypet called Rusty before Bluestar invited him into ThunderClan.", "zh": "火心（Firestar）最初是名为锈斑的宠物猫，后来由蓝星带入雷族。"}
+      "explain": {
+        "en": "Firestar began life as a kittypet called Rusty before Bluestar invited him into ThunderClan.",
+        "zh": "火心（Firestar）最初是名为锈斑的宠物猫，后来由蓝星带入雷族。"
+      }
     },
     {
-      "q": {"en": "Who is Firestar's loyal best friend and fellow ThunderClan warrior?", "zh": "谁是火心最忠诚的挚友，也是雷族的同伴武士？"},
+      "q": {
+        "en": "Who is Firestar's loyal best friend and fellow ThunderClan warrior?",
+        "zh": "谁是火心最忠诚的挚友，也是雷族的同伴武士？"
+      },
       "options": [
-        {"en": "Graystripe", "zh": "灰条（Graystripe）"},
-        {"en": "Brambleclaw", "zh": "荆棘爪（Brambleclaw）"},
-        {"en": "Thornclaw", "zh": "刺爪（Thornclaw）"},
-        {"en": "Brackenfur", "zh": "蕨毛（Brackenfur）"}
+        {
+          "en": "Graystripe",
+          "zh": "灰条（Graystripe）"
+        },
+        {
+          "en": "Brambleclaw",
+          "zh": "荆棘爪（Brambleclaw）"
+        },
+        {
+          "en": "Thornclaw",
+          "zh": "刺爪（Thornclaw）"
+        },
+        {
+          "en": "Brackenfur",
+          "zh": "蕨毛（Brackenfur）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Graystripe has been Firestar's closest friend since they trained as apprentices together.", "zh": "灰条（Graystripe）自与火心一同作为学徒受训起，便是最亲密的朋友。"}
+      "explain": {
+        "en": "Graystripe has been Firestar's closest friend since they trained as apprentices together.",
+        "zh": "灰条（Graystripe）自与火心一同作为学徒受训起，便是最亲密的朋友。"
+      }
     },
     {
-      "q": {"en": "Which ThunderClan leader gave her life to lead a dog pack into the gorge, saving her Clan?", "zh": "哪位雷族族长牺牲自己的生命，把一群狗引进峡谷，从而拯救了族群？"},
+      "q": {
+        "en": "Which ThunderClan leader gave her life to lead a dog pack into the gorge, saving her Clan?",
+        "zh": "哪位雷族族长牺牲自己的生命，把一群狗引进峡谷，从而拯救了族群？"
+      },
       "options": [
-        {"en": "Bluestar", "zh": "蓝星（Bluestar）"},
-        {"en": "Firestar", "zh": "火心（Firestar）"},
-        {"en": "Sandstorm", "zh": "沙暴（Sandstorm）"},
-        {"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"}
+        {
+          "en": "Cinderpelt",
+          "zh": "炭毛（Cinderpelt）"
+        },
+        {
+          "en": "Bluestar",
+          "zh": "蓝星（Bluestar）"
+        },
+        {
+          "en": "Firestar",
+          "zh": "火心（Firestar）"
+        },
+        {
+          "en": "Sandstorm",
+          "zh": "沙暴（Sandstorm）"
+        }
       ],
-      "answer": 0,
-      "explain": {"en": "Bluestar lured the pack of dogs over the cliff into the gorge, dying to protect ThunderClan.", "zh": "蓝星（Bluestar）把狗群引下悬崖跌入峡谷，为保护雷族而牺牲。"}
+      "answer": 1,
+      "explain": {
+        "en": "Bluestar lured the pack of dogs over the cliff into the gorge, dying to protect ThunderClan.",
+        "zh": "蓝星（Bluestar）把狗群引下悬崖跌入峡谷，为保护雷族而牺牲。"
+      }
     },
     {
-      "q": {"en": "Which evil cat was a ThunderClan deputy who later led ShadowClan and was killed by Scourge?", "zh": "哪只恶猫曾是雷族副族长，后来成为影族族长，并被血族族长（Scourge）杀死？"},
+      "q": {
+        "en": "Which evil cat was a ThunderClan deputy who later led ShadowClan and was killed by Scourge?",
+        "zh": "哪只恶猫曾是雷族副族长，后来成为影族族长，并被血族族长（Scourge）杀死？"
+      },
       "options": [
-        {"en": "Tigerstar", "zh": "虎星（Tigerstar）"},
-        {"en": "Brokenstar", "zh": "断星（Brokenstar）"},
-        {"en": "Hawkfrost", "zh": "鹰霜（Hawkfrost）"},
-        {"en": "Scourge", "zh": "血族族长（Scourge）"}
+        {
+          "en": "Hawkfrost",
+          "zh": "鹰霜（Hawkfrost）"
+        },
+        {
+          "en": "Scourge",
+          "zh": "血族族长（Scourge）"
+        },
+        {
+          "en": "Brokenstar",
+          "zh": "断星（Brokenstar）"
+        },
+        {
+          "en": "Tigerstar",
+          "zh": "虎星（Tigerstar）"
+        }
       ],
-      "answer": 0,
-      "explain": {"en": "Tigerstar betrayed ThunderClan, took over ShadowClan, and was slain by Scourge at a Gathering.", "zh": "虎星（Tigerstar）背叛雷族、夺取影族，并在一次集会上被血族族长（Scourge）杀死。"}
+      "answer": 3,
+      "explain": {
+        "en": "Tigerstar betrayed ThunderClan, took over ShadowClan, and was slain by Scourge at a Gathering.",
+        "zh": "虎星（Tigerstar）背叛雷族、夺取影族，并在一次集会上被血族族长（Scourge）杀死。"
+      }
     },
     {
-      "q": {"en": "Who was the fierce leader of BloodClan who killed Tigerstar with a single blow?", "zh": "谁是血族（BloodClan）凶猛的族长，一击便杀死了虎星？"},
+      "q": {
+        "en": "Who was the fierce leader of BloodClan who killed Tigerstar with a single blow?",
+        "zh": "谁是血族（BloodClan）凶猛的族长，一击便杀死了虎星？"
+      },
       "options": [
-        {"en": "Scourge", "zh": "血族族长（Scourge）"},
-        {"en": "Bone", "zh": "骨（Bone）"},
-        {"en": "Tigerstar", "zh": "虎星（Tigerstar）"},
-        {"en": "Firestar", "zh": "火心（Firestar）"}
+        {
+          "en": "Firestar",
+          "zh": "火心（Firestar）"
+        },
+        {
+          "en": "Tigerstar",
+          "zh": "虎星（Tigerstar）"
+        },
+        {
+          "en": "Scourge",
+          "zh": "血族族长（Scourge）"
+        },
+        {
+          "en": "Bone",
+          "zh": "骨（Bone）"
+        }
       ],
-      "answer": 0,
-      "explain": {"en": "Scourge, the small but deadly leader of BloodClan, ended Tigerstar's life in one strike.", "zh": "血族族长（Scourge）体型虽小却极其致命，一击就结束了虎星的性命。"}
+      "answer": 2,
+      "explain": {
+        "en": "Scourge, the small but deadly leader of BloodClan, ended Tigerstar's life in one strike.",
+        "zh": "血族族长（Scourge）体型虽小却极其致命，一击就结束了虎星的性命。"
+      }
     },
     {
-      "q": {"en": "Which ShadowClan medicine cat was cast out by her Clan and later served ThunderClan?", "zh": "哪位影族巫医被本族驱逐，后来为雷族效力？"},
+      "q": {
+        "en": "Which ShadowClan medicine cat was cast out by her Clan and later served ThunderClan?",
+        "zh": "哪位影族巫医被本族驱逐，后来为雷族效力？"
+      },
       "options": [
-        {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"},
-        {"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"},
-        {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"},
-        {"en": "Leafpool", "zh": "叶池（Leafpool）"}
+        {
+          "en": "Spottedleaf",
+          "zh": "斑叶（Spottedleaf）"
+        },
+        {
+          "en": "Cinderpelt",
+          "zh": "炭毛（Cinderpelt）"
+        },
+        {
+          "en": "Leafpool",
+          "zh": "叶池（Leafpool）"
+        },
+        {
+          "en": "Yellowfang",
+          "zh": "黄牙（Yellowfang）"
+        }
       ],
-      "answer": 0,
-      "explain": {"en": "Yellowfang was exiled from ShadowClan and became ThunderClan's medicine cat under Bluestar.", "zh": "黄牙（Yellowfang）被影族流放，后来在蓝星手下成为雷族的巫医。"}
+      "answer": 3,
+      "explain": {
+        "en": "Yellowfang was exiled from ShadowClan and became ThunderClan's medicine cat under Bluestar.",
+        "zh": "黄牙（Yellowfang）被影族流放，后来在蓝星手下成为雷族的巫医。"
+      }
     },
     {
-      "q": {"en": "Which long-serving WindClan leader is known for guiding his Clan through many hard seasons?", "zh": "哪位风族族长任期长久，以带领族群度过许多艰难季节而闻名？"},
+      "q": {
+        "en": "Which long-serving WindClan leader is known for guiding his Clan through many hard seasons?",
+        "zh": "哪位风族族长任期长久，以带领族群度过许多艰难季节而闻名？"
+      },
       "options": [
-        {"en": "Tallstar", "zh": "高星（Tallstar）"},
-        {"en": "Onestar", "zh": "一星（Onestar）"},
-        {"en": "Crowfeather", "zh": "鸦羽（Crowfeather）"},
-        {"en": "Heathertail", "zh": "石楠尾（Heathertail）"}
+        {
+          "en": "Onestar",
+          "zh": "一星（Onestar）"
+        },
+        {
+          "en": "Tallstar",
+          "zh": "高星（Tallstar）"
+        },
+        {
+          "en": "Heathertail",
+          "zh": "石楠尾（Heathertail）"
+        },
+        {
+          "en": "Crowfeather",
+          "zh": "鸦羽（Crowfeather）"
+        }
       ],
-      "answer": 0,
-      "explain": {"en": "Tallstar led WindClan for many seasons and is remembered as a wise and steady leader.", "zh": "高星（Tallstar）领导风族长达许多个季节，被人们记住为一位睿智稳健的族长。"}
+      "answer": 1,
+      "explain": {
+        "en": "Tallstar led WindClan for many seasons and is remembered as a wise and steady leader.",
+        "zh": "高星（Tallstar）领导风族长达许多个季节，被人们记住为一位睿智稳健的族长。"
+      }
     },
     {
-      "q": {"en": "Which RiverClan leader broke his jaw as a young cat and was later named Crookedstar?", "zh": "哪位河族族长年轻时摔裂了下巴，后来被命名为裂星（Crookedstar）？"},
+      "q": {
+        "en": "Which RiverClan leader broke his jaw as a young cat and was later named Crookedstar?",
+        "zh": "哪位河族族长年轻时摔裂了下巴，后来被命名为裂星（Crookedstar）？"
+      },
       "options": [
-        {"en": "Crookedstar", "zh": "裂星（Crookedstar）"},
-        {"en": "Oakheart", "zh": "橡心（Oakheart）"},
-        {"en": "Leopardstar", "zh": "豹星（Leopardstar）"},
-        {"en": "Mistyfoot", "zh": "雾脚（Mistyfoot）"}
+        {
+          "en": "Crookedstar",
+          "zh": "裂星（Crookedstar）"
+        },
+        {
+          "en": "Mistyfoot",
+          "zh": "雾脚（Mistyfoot）"
+        },
+        {
+          "en": "Oakheart",
+          "zh": "橡心（Oakheart）"
+        },
+        {
+          "en": "Leopardstar according to some versions of the story",
+          "zh": "豹星（Leopardstar）（按书中另一种说法）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "As a kit, Crookedstar fell and broke his jaw, earning the name Crookedjaw before becoming leader.", "zh": "裂星（Crookedstar）还是幼猫时摔裂了下巴，在成为族长前被称为裂颚（Crookedjaw）。"}
+      "explain": {
+        "en": "As a kit, Crookedstar fell and broke his jaw, earning the name Crookedjaw before becoming leader.",
+        "zh": "裂星（Crookedstar）还是幼猫时摔裂了下巴，在成为族长前被称为裂颚（Crookedjaw）。"
+      }
     },
     {
-      "q": {"en": "Which ThunderClan medicine cat is Firestar's daughter and the sister of Squirrelflight?", "zh": "哪位雷族巫医是火心的女儿，也是松鼠飞（Squirrelflight）的姐妹？"},
+      "q": {
+        "en": "Which ThunderClan medicine cat is Firestar's daughter and the sister of Squirrelflight?",
+        "zh": "哪位雷族巫医是火心的女儿，也是松鼠飞（Squirrelflight）的姐妹？"
+      },
       "options": [
-        {"en": "Leafpool", "zh": "叶池（Leafpool）"},
-        {"en": "Cinderpelt", "zh": "炭毛（Cinderpelt）"},
-        {"en": "Spottedleaf", "zh": "斑叶（Spottedleaf）"},
-        {"en": "Yellowfang", "zh": "黄牙（Yellowfang）"}
+        {
+          "en": "Spottedleaf",
+          "zh": "斑叶（Spottedleaf）"
+        },
+        {
+          "en": "Leafpool",
+          "zh": "叶池（Leafpool）"
+        },
+        {
+          "en": "Cinderpelt",
+          "zh": "炭毛（Cinderpelt）"
+        },
+        {
+          "en": "Yellowfang",
+          "zh": "黄牙（Yellowfang）"
+        }
       ],
-      "answer": 0,
-      "explain": {"en": "Leafpool is Firestar's daughter and Squirrelflight's sister, serving as ThunderClan's medicine cat.", "zh": "叶池（Leafpool）是火心的女儿、松鼠飞的姐妹，担任雷族的巫医。"}
+      "answer": 1,
+      "explain": {
+        "en": "Leafpool is Firestar's daughter and Squirrelflight's sister, serving as ThunderClan's medicine cat.",
+        "zh": "叶池（Leafpool）是火心的女儿、松鼠飞的姐妹，担任雷族的巫医。"
+      }
     }
   ]
 }

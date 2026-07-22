@@ -17,16 +17,16 @@
           "zh": "1732年2月22日，弗吉尼亚"
         },
         {
+          "en": "1789 in New York",
+          "zh": "1789年，纽约"
+        },
+        {
           "en": "1732 in England",
           "zh": "1732年，英格兰"
         },
         {
-          "en": "1759 in Mount Vernon",
-          "zh": "1759年，弗农山庄"
-        },
-        {
-          "en": "1789 in New York",
-          "zh": "1789年，纽约"
+          "en": "1759 in Mount Vernon according to some versions of the story",
+          "zh": "1759年，弗农山庄（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -43,8 +43,8 @@
       },
       "options": [
         {
-          "en": "A retreat",
-          "zh": "一次撤退"
+          "en": "His inauguration according to some versions of the story",
+          "zh": "他的就职典礼（按书中另一种说法）"
         },
         {
           "en": "A surprise attack on the British in New Jersey",
@@ -55,8 +55,8 @@
           "zh": "一场阅兵"
         },
         {
-          "en": "His inauguration",
-          "zh": "他的就职典礼"
+          "en": "A retreat",
+          "zh": "一次撤退"
         }
       ],
       "answer": 1,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "a war",
-          "zh": "一场战争"
-        },
-        {
-          "en": "a formal agreement of peace or friendship between two nations or groups",
-          "zh": "两国或两群体之间和平或友谊的正式协定"
-        },
-        {
           "en": "a tax",
           "zh": "一种税"
         },
         {
-          "en": "a speech",
-          "zh": "一场演讲"
+          "en": "a war",
+          "zh": "一场战争"
+        },
+        {
+          "en": "a speech according to some versions of the story in an early draft of the book",
+          "zh": "一场演讲（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "a formal agreement of peace or friendship between two nations or groups",
+          "zh": "两国或两群体之间和平或友谊的正式协定"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Glossary: 'treaty (n.) a formal agreement of peace or friendship between two nations or groups (p. 12).'",
@@ -103,8 +103,12 @@
       },
       "options": [
         {
-          "en": "He owned no slaves",
-          "zh": "他没有奴隶"
+          "en": "He owned no slaves according to some versions of the story in an early draft of the book",
+          "zh": "他没有奴隶（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He ignored it",
+          "zh": "他置之不理"
         },
         {
           "en": "He felt slavery was wrong and ordered his slaves freed upon Martha's death",
@@ -113,13 +117,9 @@
         {
           "en": "He sold slaves",
           "zh": "他贩卖奴隶"
-        },
-        {
-          "en": "He ignored it",
-          "zh": "他置之不理"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'Although the Washingtons owned more than three hundred slaves, George felt that slavery was wrong. He ordered that his slaves should be set free upon Martha's death.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "1776",
-          "zh": "1776年"
-        },
-        {
           "en": "1789",
           "zh": "1789年"
         },
         {
-          "en": "1787",
-          "zh": "1787年"
+          "en": "1776 according to some versions of the story",
+          "zh": "1776年（按书中另一种说法）"
         },
         {
           "en": "1799",
           "zh": "1799年"
+        },
+        {
+          "en": "1787",
+          "zh": "1787年"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "He 'became president of the United States on April 30' 1789, after leaving Mount Vernon that spring.",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "A war with France",
-          "zh": "与法国的战争"
+          "en": "A slave revolt",
+          "zh": "奴隶起义"
         },
         {
           "en": "Whiskey makers angry about being taxed, which Washington put down with the military",
           "zh": "酿酒者因被征税而愤怒，华盛顿派军队平息"
         },
         {
-          "en": "A tea tax",
-          "zh": "茶叶税"
+          "en": "A war with France according to some versions of the story in an early draft of the book",
+          "zh": "与法国的战争（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "A slave revolt",
-          "zh": "奴隶起义"
+          "en": "A tea tax",
+          "zh": "茶叶税"
         }
       ],
       "answer": 1,
@@ -193,12 +193,8 @@
       },
       "options": [
         {
-          "en": "To always go to war",
-          "zh": "永远开战"
-        },
-        {
-          "en": "To avoid joining forces with other nations and building too big an army",
-          "zh": "避免与其他国家结盟，也避免建立过于庞大的军队"
+          "en": "To always go to war according to some versions of the story in an early draft of the book",
+          "zh": "永远开战（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To become king",
@@ -207,9 +203,13 @@
         {
           "en": "To tax tea",
           "zh": "对茶叶征税"
+        },
+        {
+          "en": "To avoid joining forces with other nations and building too big an army",
+          "zh": "避免与其他国家结盟，也避免建立过于庞大的军队"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'He warned against joining forces with other nations because it could lead to more war. He also warned against building too big of an army.'",
@@ -223,12 +223,12 @@
       },
       "options": [
         {
-          "en": "French and Indian War",
-          "zh": "法国与印第安人战争"
-        },
-        {
           "en": "The American Revolution / War for Independence",
           "zh": "美国独立战争"
+        },
+        {
+          "en": "French and Indian War according to some versions of the story",
+          "zh": "法国与印第安人战争（按书中另一种说法）"
         },
         {
           "en": "Civil War",
@@ -239,7 +239,7 @@
           "zh": "第一次世界大战"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'in 1781, Washington marched into Yorktown, Virginia, where he and the French forces surrounded the British. The British surrendered, and the war was over.'",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "He was the first president and a model leader",
-          "zh": "他是首任总统，也是典范领袖"
-        },
-        {
-          "en": "He founded a religion",
-          "zh": "他创立了一种宗教"
+          "en": "He wrote the Bible",
+          "zh": "他写了《圣经》"
         },
         {
           "en": "He discovered America",
           "zh": "他发现了美洲"
         },
         {
-          "en": "He wrote the Bible",
-          "zh": "他写了《圣经》"
+          "en": "He was the first president and a model leader",
+          "zh": "他是首任总统，也是典范领袖"
+        },
+        {
+          "en": "He founded a religion according to some versions of the story",
+          "zh": "他创立了一种宗教（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "A congressman said he was 'first in war, first in peace, first in the hearts of his countrymen,' and the book calls him 'truly the Father of His Country.'",
@@ -283,8 +283,8 @@
       },
       "options": [
         {
-          "en": "It was weak",
-          "zh": "软弱"
+          "en": "He ignored Congress according to some versions of the story in an early draft of the book",
+          "zh": "他无视国会（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "He led firmly and with great dignity, like he led the army",
@@ -295,8 +295,8 @@
           "zh": "他是个懦夫"
         },
         {
-          "en": "He ignored Congress",
-          "zh": "他无视国会"
+          "en": "It was weak",
+          "zh": "软弱"
         }
       ],
       "answer": 1,

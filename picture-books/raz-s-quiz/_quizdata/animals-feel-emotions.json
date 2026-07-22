@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "Owen",
+          "zh": "欧文"
+        },
+        {
           "en": "Ely",
           "zh": "伊莱"
         },
@@ -21,15 +25,11 @@
           "zh": "伊妮德"
         },
         {
-          "en": "Owen",
-          "zh": "欧文"
-        },
-        {
           "en": "Mzee",
           "zh": "姆齐"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Echo 'refused to abandon her new son, Ely.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Instincts",
-          "zh": "本能"
-        },
-        {
-          "en": "Emotions",
-          "zh": "情感"
-        },
-        {
           "en": "Compassion",
           "zh": "同情"
         },
         {
+          "en": "Instincts",
+          "zh": "本能"
+        },
+        {
           "en": "Devotion",
           "zh": "奉献"
+        },
+        {
+          "en": "Emotions",
+          "zh": "情感"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says: 'To them, what you and I consider animal emotions are really instincts.' The glossary defines instincts as 'patterns of behavior animals do without thinking.'",
@@ -73,12 +73,12 @@
       },
       "options": [
         {
-          "en": "One day",
-          "zh": "一天"
+          "en": "One week according to some versions of the story",
+          "zh": "一周（按书中另一种说法）"
         },
         {
-          "en": "One week",
-          "zh": "一周"
+          "en": "One day",
+          "zh": "一天"
         },
         {
           "en": "A year",
@@ -103,12 +103,12 @@
       },
       "options": [
         {
-          "en": "Tortoise",
-          "zh": "乌龟"
+          "en": "Elephant according to some versions of the story",
+          "zh": "大象（按书中另一种说法）"
         },
         {
-          "en": "Elephant",
-          "zh": "大象"
+          "en": "Tortoise",
+          "zh": "乌龟"
         },
         {
           "en": "Dog",
@@ -119,7 +119,7 @@
           "zh": "兔子"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Owen 'found a substitute mom in a 100-year-old tortoise named Mzee.'",
@@ -137,16 +137,16 @@
           "zh": "蒂卡的肚子胀满了气，这是一种危及生命的情况"
         },
         {
-          "en": "It was time to eat",
-          "zh": "该吃饭了"
-        },
-        {
           "en": "It was raining",
           "zh": "下雨了"
         },
         {
           "en": "A cat appeared",
           "zh": "出现了一只猫"
+        },
+        {
+          "en": "It was time to eat according to some versions of the story in an early draft of the book",
+          "zh": "该吃饭了（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A rabbit",
-          "zh": "一只兔子"
-        },
-        {
-          "en": "An elephant",
-          "zh": "一头大象"
+          "en": "A cat",
+          "zh": "一只猫"
         },
         {
           "en": "A penguin",
           "zh": "一只企鹅"
         },
         {
-          "en": "A cat",
-          "zh": "一只猫"
+          "en": "An elephant",
+          "zh": "一头大象"
+        },
+        {
+          "en": "A rabbit",
+          "zh": "一只兔子"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Jethro 'brought Marc a baby rabbit that didn't have parents to care for it.'",
@@ -197,19 +197,19 @@
           "zh": "十英里"
         },
         {
-          "en": "One hundred miles",
-          "zh": "一百英里"
-        },
-        {
           "en": "Five miles",
           "zh": "五英里"
+        },
+        {
+          "en": "One hundred miles",
+          "zh": "一百英里"
         },
         {
           "en": "One thousand miles",
           "zh": "一千英里"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'these penguins migrate one hundred miles... to their nesting ground.'",
@@ -227,16 +227,16 @@
           "zh": "让读者相信动物能够并且确实会感受爱"
         },
         {
-          "en": "To prove animals have no feelings",
-          "zh": "证明动物没有感情"
+          "en": "To warn that pets are dangerous",
+          "zh": "警告宠物很危险"
+        },
+        {
+          "en": "To prove animals have no feelings according to some versions of the story",
+          "zh": "证明动物没有感情（按书中另一种说法）"
         },
         {
           "en": "To say only humans can love",
           "zh": "说明只有人类会爱"
-        },
-        {
-          "en": "To warn that pets are dangerous",
-          "zh": "警告宠物很危险"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "A type of food",
-          "zh": "一种食物"
+          "en": "Feeling for the suffering of others and wanting to help",
+          "zh": "对他人的痛苦感同身受并想要帮助"
         },
         {
           "en": "A loud noise",
           "zh": "一阵巨响"
         },
         {
-          "en": "Feeling for the suffering of others and wanting to help",
-          "zh": "对他人的痛苦感同身受并想要帮助"
-        },
-        {
           "en": "A mountain",
           "zh": "一座山"
+        },
+        {
+          "en": "A type of food according to some versions of the story in an early draft of the book",
+          "zh": "一种食物（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines compassion as 'feeling for the suffering of others and wanting to help (p. 5).'",
@@ -283,10 +283,6 @@
       },
       "options": [
         {
-          "en": "Evidence that animals are capable of love",
-          "zh": "动物能够去爱的证据"
-        },
-        {
           "en": "Proof that animals are always instinctive",
           "zh": "动物总是凭本能行事的证明"
         },
@@ -295,11 +291,15 @@
           "zh": "动物园很糟糕的理由"
         },
         {
+          "en": "Evidence that animals are capable of love",
+          "zh": "动物能够去爱的证据"
+        },
+        {
           "en": "Proof humans are unkind",
           "zh": "人类很残忍的证据"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states: 'Each interaction provides evidence that animals can and do feel love.'",

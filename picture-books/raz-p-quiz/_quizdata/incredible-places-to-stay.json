@@ -7,128 +7,311 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en":"At the Golden Nugget hotel in Las Vegas, Nevada, guests can ride a waterslide through a tank filled with what animals?","zh":"在内华达州拉斯维加斯的金块酒店，客人可以玩穿过装满什么动物的水族箱的水滑梯？"},
+      "q": {
+        "en": "At the Golden Nugget hotel in Las Vegas, Nevada, guests can ride a waterslide through a tank filled with what animals?",
+        "zh": "在内华达州拉斯维加斯的金块酒店，客人可以玩穿过装满什么动物的水族箱的水滑梯？"
+      },
       "options": [
-        {"en":"Sharks","zh":"鲨鱼"},
-        {"en":"Dolphins","zh":"海豚"},
-        {"en":"Penguins","zh":"企鹅"},
-        {"en":"Whales","zh":"鲸鱼"}
+        {
+          "en": "Whales",
+          "zh": "鲸鱼"
+        },
+        {
+          "en": "Dolphins",
+          "zh": "海豚"
+        },
+        {
+          "en": "Sharks",
+          "zh": "鲨鱼"
+        },
+        {
+          "en": "Penguins",
+          "zh": "企鹅"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says the Golden Nugget has \"a unique 30-foot waterslide... through a 200,000-gallon water tank filled with sharks!\"",
+        "zh": "书中说金块酒店有“一条独特的30英尺水滑梯……穿过装满鲨鱼的20万加仑水箱！”"
+      }
+    },
+    {
+      "q": {
+        "en": "At Giraffe Manor in Nairobi, Kenya, guests share breakfast with Rothschild's giraffes. What do the guests feed them?",
+        "zh": "在肯尼亚内罗毕的长颈鹿庄园，客人与罗斯柴尔德长颈鹿共进早餐。客人们喂它们什么？"
+      },
+      "options": [
+        {
+          "en": "Pellets made from dry grass, corn, and molasses",
+          "zh": "由干草、玉米和糖蜜制成的颗粒饲料"
+        },
+        {
+          "en": "Ice cream",
+          "zh": "冰淇淋"
+        },
+        {
+          "en": "Bread crusts only according to some versions of the story",
+          "zh": "只有面包边（按书中另一种说法）"
+        },
+        {
+          "en": "Fresh fish",
+          "zh": "鲜鱼"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en":"The book says the Golden Nugget has \"a unique 30-foot waterslide... through a 200,000-gallon water tank filled with sharks!\"","zh":"书中说金块酒店有“一条独特的30英尺水滑梯……穿过装满鲨鱼的20万加仑水箱！”"}
+      "explain": {
+        "en": "The book explains guests feed the giraffes \"pellets made from dry grass, corn, and molasses.\"",
+        "zh": "书中解释客人喂长颈鹿“由干草、玉米和糖蜜制成的颗粒饲料”。"
+      }
     },
     {
-      "q": {"en":"At Giraffe Manor in Nairobi, Kenya, guests share breakfast with Rothschild's giraffes. What do the guests feed them?","zh":"在肯尼亚内罗毕的长颈鹿庄园，客人与罗斯柴尔德长颈鹿共进早餐。客人们喂它们什么？"},
+      "q": {
+        "en": "The book's glossary defines \"unique\" as \"one of a kind; unlike others.\" Which hotel room is described as nearly invisible because its outside is covered with glass?",
+        "zh": "本书词汇表把“unique”定义为“独一无二的；与众不同的”。哪个酒店房间因为外表覆盖玻璃而几乎隐形？"
+      },
       "options": [
-        {"en":"Pellets made from dry grass, corn, and molasses","zh":"由干草、玉米和糖蜜制成的颗粒饲料"},
-        {"en":"Fresh fish","zh":"鲜鱼"},
-        {"en":"Ice cream","zh":"冰淇淋"},
-        {"en":"Bread crusts only","zh":"只有面包边"}
+        {
+          "en": "The Mine Suite",
+          "zh": "矿井套房"
+        },
+        {
+          "en": "The Bird's Nest tree house according to some versions of the story",
+          "zh": "鸟巢树屋（按书中另一种说法）"
+        },
+        {
+          "en": "The Mirrorcube at the Treehotel",
+          "zh": "树屋酒店的镜立方"
+        },
+        {
+          "en": "The UFO tree house",
+          "zh": "飞碟树屋"
+        }
       ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {"en":"The book explains guests feed the giraffes \"pellets made from dry grass, corn, and molasses.\"","zh":"书中解释客人喂长颈鹿“由干草、玉米和糖蜜制成的颗粒饲料”。"}
-    },
-    {
-      "q": {"en":"The book's glossary defines \"unique\" as \"one of a kind; unlike others.\" Which hotel room is described as nearly invisible because its outside is covered with glass?","zh":"本书词汇表把“unique”定义为“独一无二的；与众不同的”。哪个酒店房间因为外表覆盖玻璃而几乎隐形？"},
-      "options": [
-        {"en":"The Mirrorcube at the Treehotel","zh":"树屋酒店的镜立方"},
-        {"en":"The Bird's Nest tree house","zh":"鸟巢树屋"},
-        {"en":"The UFO tree house","zh":"飞碟树屋"},
-        {"en":"The Mine Suite","zh":"矿井套房"}
-      ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
-      "explain": {"en":"The book says the Mirrorcube's glass \"reflects the woods around it. The glass makes the room nearly invisible.\"","zh":"书中说镜立方的玻璃“反射周围的树林，使房间几乎隐形”。"}
+      "explain": {
+        "en": "The book says the Mirrorcube's glass \"reflects the woods around it. The glass makes the room nearly invisible.\"",
+        "zh": "书中说镜立方的玻璃“反射周围的树林，使房间几乎隐形”。"
+      }
     },
     {
-      "q": {"en":"In the glossary, \"slabs\" are defined as large, thick, flat pieces. At the ice hotel Hôtel de Glace, what are the beds made of?","zh":"在词汇表中，“slabs”被定义为大而厚的扁平块。在冰酒店（冰旅馆）德格拉斯酒店，床是用什么做的？"},
+      "q": {
+        "en": "In the glossary, \"slabs\" are defined as large, thick, flat pieces. At the ice hotel Hôtel de Glace, what are the beds made of?",
+        "zh": "在词汇表中，“slabs”被定义为大而厚的扁平块。在冰酒店（冰旅馆）德格拉斯酒店，床是用什么做的？"
+      },
       "options": [
-        {"en":"Thick slabs of ice","zh":"厚厚的大冰块"},
-        {"en":"Soft cotton","zh":"柔软的棉花"},
-        {"en":"Wooden planks","zh":"木板"},
-        {"en":"Feathers","zh":"羽毛"}
+        {
+          "en": "Soft cotton according to some versions of the story",
+          "zh": "柔软的棉花（按书中另一种说法）"
+        },
+        {
+          "en": "Feathers",
+          "zh": "羽毛"
+        },
+        {
+          "en": "Wooden planks",
+          "zh": "木板"
+        },
+        {
+          "en": "Thick slabs of ice",
+          "zh": "厚厚的大冰块"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
-      "explain": {"en":"The book says guests \"sleep in a special extra-warm sleeping bag because the beds are made out of thick slabs of ice.\"","zh":"书中说客人“睡在特制的加厚保暖睡袋里，因为床是用厚厚的大冰块做的”。"}
+      "explain": {
+        "en": "The book says guests \"sleep in a special extra-warm sleeping bag because the beds are made out of thick slabs of ice.\"",
+        "zh": "书中说客人“睡在特制的加厚保暖睡袋里，因为床是用厚厚的大冰块做的”。"
+      }
     },
     {
-      "q": {"en":"The Hôtel de Glace is rebuilt every winter by artists who spend about forty days building it. Why must it be rebuilt each year?","zh":"德格拉斯冰酒店每年冬天由艺术家花约四十天重建。为什么它每年都必须重建？"},
+      "q": {
+        "en": "The Hôtel de Glace is rebuilt every winter by artists who spend about forty days building it. Why must it be rebuilt each year?",
+        "zh": "德格拉斯冰酒店每年冬天由艺术家花约四十天重建。为什么它每年都必须重建？"
+      },
       "options": [
-        {"en":"Because it melts away in warm weather","zh":"因为它在温暖的天气里会融化"},
-        {"en":"Because guests break it","zh":"因为客人把它弄坏了"},
-        {"en":"Because the king orders it","zh":"因为国王下令"},
-        {"en":"Because it is too clean","zh":"因为它太干净了"}
+        {
+          "en": "Because guests break it according to some versions of the story",
+          "zh": "因为客人把它弄坏了（按书中另一种说法）"
+        },
+        {
+          "en": "Because it melts away in warm weather",
+          "zh": "因为它在温暖的天气里会融化"
+        },
+        {
+          "en": "Because the king orders it",
+          "zh": "因为国王下令"
+        },
+        {
+          "en": "Because it is too clean",
+          "zh": "因为它太干净了"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en":"The book says artists \"spend about forty days every winter building the hotel because it all melts away in warm weather.\"","zh":"书中说艺术家“每年冬天花约四十天建造酒店，因为它在温暖天气里会全部融化”。"}
+      "explain": {
+        "en": "The book says artists \"spend about forty days every winter building the hotel because it all melts away in warm weather.\"",
+        "zh": "书中说艺术家“每年冬天花约四十天建造酒店，因为它在温暖天气里会全部融化”。"
+      }
     },
     {
-      "q": {"en":"The Sala Silvermine Hotel in Sweden has the deepest hotel room in the world. About how far beneath the surface is the Mine Suite?","zh":"瑞典的萨拉银矿酒店拥有世界上最深的酒店房间。矿井套房大约位于地表以下多深？"},
+      "q": {
+        "en": "The Sala Silvermine Hotel in Sweden has the deepest hotel room in the world. About how far beneath the surface is the Mine Suite?",
+        "zh": "瑞典的萨拉银矿酒店拥有世界上最深的酒店房间。矿井套房大约位于地表以下多深？"
+      },
       "options": [
-        {"en":"More than 500 feet (152 m)","zh":"500多英尺（152米）"},
-        {"en":"21 feet (6 m)","zh":"21英尺（6米）"},
-        {"en":"980 feet (300 m) total mine depth","zh":"矿洞总深980英尺（300米）"},
-        {"en":"14 to 20 feet (4 to 6 m)","zh":"14到20英尺（4到6米）"}
+        {
+          "en": "21 feet (6 m)",
+          "zh": "21英尺（6米）"
+        },
+        {
+          "en": "More than 500 feet (152 m)",
+          "zh": "500多英尺（152米）"
+        },
+        {
+          "en": "980 feet (300 m) total mine depth",
+          "zh": "矿洞总深980英尺（300米）"
+        },
+        {
+          "en": "14 to 20 feet (4 to 6 m)",
+          "zh": "14到20英尺（4到6米）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
-      "explain": {"en":"The book states, \"The Mine Suite is located more than 500 feet (152 m) beneath the surface.\"","zh":"书中说：“矿井套房位于地表以下500多英尺（152米）。”"}
+      "explain": {
+        "en": "The book states, \"The Mine Suite is located more than 500 feet (152 m) beneath the surface.\"",
+        "zh": "书中说：“矿井套房位于地表以下500多英尺（152米）。”"
+      }
     },
     {
-      "q": {"en":"The book's introduction says each hotel \"offers you an incredible experience.\" What is the author's main purpose for writing this book?","zh":"本书引言说每家酒店都“为你提供不可思议的体验”。作者写这本书的主要目的是什么？"},
+      "q": {
+        "en": "The book's introduction says each hotel \"offers you an incredible experience.\" What is the author's main purpose for writing this book?",
+        "zh": "本书引言说每家酒店都“为你提供不可思议的体验”。作者写这本书的主要目的是什么？"
+      },
       "options": [
-        {"en":"To inform readers about unusual hotels and inspire a sense of wonder","zh":"向读者介绍不寻常的酒店并激发惊奇感"},
-        {"en":"To teach how to build houses","zh":"教如何盖房子"},
-        {"en":"To explain weather science","zh":"解释天气科学"},
-        {"en":"To list restaurant menus","zh":"列出餐厅菜单"}
+        {
+          "en": "To inform readers about unusual hotels and inspire a sense of wonder",
+          "zh": "向读者介绍不寻常的酒店并激发惊奇感"
+        },
+        {
+          "en": "To list restaurant menus",
+          "zh": "列出餐厅菜单"
+        },
+        {
+          "en": "To explain weather science",
+          "zh": "解释天气科学"
+        },
+        {
+          "en": "To teach how to build houses according to some versions of the story in an early draft of the book",
+          "zh": "教如何盖房子（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en":"The conclusion says these places \"offer you experiences that you'll never forget,\" showing the author wants to inform and amaze readers.","zh":"结尾说这些地方“提供你永远不会忘记的体验”，说明作者想让读者增长见识并感到惊奇。"}
+      "explain": {
+        "en": "The conclusion says these places \"offer you experiences that you'll never forget,\" showing the author wants to inform and amaze readers.",
+        "zh": "结尾说这些地方“提供你永远不会忘记的体验”，说明作者想让读者增长见识并感到惊奇。"
+      }
     },
     {
-      "q": {"en":"Jules' Undersea Lodge in Key Largo, Florida, sits 21 feet underwater. How do guests reach their room?","zh":"位于佛罗里达州基拉戈的朱尔斯海底小屋在水下21英尺处。客人如何到达房间？"},
+      "q": {
+        "en": "Jules' Undersea Lodge in Key Largo, Florida, sits 21 feet underwater. How do guests reach their room?",
+        "zh": "位于佛罗里达州基拉戈的朱尔斯海底小屋在水下21英尺处。客人如何到达房间？"
+      },
       "options": [
-        {"en":"They use scuba gear to swim down to it","zh":"他们用潜水装备游下去"},
-        {"en":"They take an elevator","zh":"他们乘电梯"},
-        {"en":"They walk down stairs","zh":"他们走楼梯"},
-        {"en":"They ride a boat on top","zh":"他们乘船在水面"}
+        {
+          "en": "They walk down stairs",
+          "zh": "他们走楼梯"
+        },
+        {
+          "en": "They use scuba gear to swim down to it",
+          "zh": "他们用潜水装备游下去"
+        },
+        {
+          "en": "They take an elevator",
+          "zh": "他们乘电梯"
+        },
+        {
+          "en": "They ride a boat on top according to some versions of the story",
+          "zh": "他们乘船在水面（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
-      "explain": {"en":"The book says, \"You'll need scuba gear to get to your room\" at the underwater lodge.","zh":"书中说，在这家水下小屋“你需要潜水装备才能到达房间”。"}
+      "explain": {
+        "en": "The book says, \"You'll need scuba gear to get to your room\" at the underwater lodge.",
+        "zh": "书中说，在这家水下小屋“你需要潜水装备才能到达房间”。"
+      }
     },
     {
-      "q": {"en":"The book describes the Marina Bay Sands rooftop pool as being about 650 feet above ground, while Jules' Undersea Lodge is 21 feet underwater. What does comparing these two show?","zh":"书中提到滨海湾金沙酒店屋顶泳池距地面约650英尺高，而朱尔斯海底小屋在水下21英尺。把这两者作对比说明了什么？"},
+      "q": {
+        "en": "The book describes the Marina Bay Sands rooftop pool as being about 650 feet above ground, while Jules' Undersea Lodge is 21 feet underwater. What does comparing these two show?",
+        "zh": "书中提到滨海湾金沙酒店屋顶泳池距地面约650英尺高，而朱尔斯海底小屋在水下21英尺。把这两者作对比说明了什么？"
+      },
       "options": [
-        {"en":"That incredible hotels can be found both high in the sky and deep underwater","zh":"不可思议的酒店既可以在高空，也可以在水下深处"},
-        {"en":"That all hotels are the same height","zh":"所有酒店高度都一样"},
-        {"en":"That pools are dangerous","zh":"泳池很危险"},
-        {"en":"That Singapore has no beaches","zh":"新加坡没有海滩"}
+        {
+          "en": "That incredible hotels can be found both high in the sky and deep underwater",
+          "zh": "不可思议的酒店既可以在高空，也可以在水下深处"
+        },
+        {
+          "en": "That all hotels are the same height according to some versions of the story in an early draft of the book",
+          "zh": "所有酒店高度都一样（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "That Singapore has no beaches",
+          "zh": "新加坡没有海滩"
+        },
+        {
+          "en": "That pools are dangerous",
+          "zh": "泳池很危险"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en":"The tour spans \"three continents\" and extremes from a rooftop pool to an underwater lodge, showing the wide range of unusual stays.","zh":"这趟旅程跨越“三个大陆”，从屋顶泳池到水下小屋，展现了奇特住宿的广泛范围。"}
+      "explain": {
+        "en": "The tour spans \"three continents\" and extremes from a rooftop pool to an underwater lodge, showing the wide range of unusual stays.",
+        "zh": "这趟旅程跨越“三个大陆”，从屋顶泳池到水下小屋，展现了奇特住宿的广泛范围。"
+      }
     },
     {
-      "q": {"en":"The conclusion states, \"From the forests of Africa to the bottom of the sea, amazing hotels are everywhere.\" What is the author's final message?","zh":"结论写道：“从非洲的森林到海底，不可思议的酒店无处不在。”作者最后想传达什么？"},
+      "q": {
+        "en": "The conclusion states, \"From the forests of Africa to the bottom of the sea, amazing hotels are everywhere.\" What is the author's final message?",
+        "zh": "结论写道：“从非洲的森林到海底，不可思议的酒店无处不在。”作者最后想传达什么？"
+      },
       "options": [
-        {"en":"Unique and unforgettable places to stay can be found all over the world","zh":"独特而难忘的住宿之地在世界各地都能找到"},
-        {"en":"Only rich people travel","zh":"只有富人旅行"},
-        {"en":"Hotels are boring","zh":"酒店很无聊"},
-        {"en":"Africa has no hotels","zh":"非洲没有酒店"}
+        {
+          "en": "Africa has no hotels",
+          "zh": "非洲没有酒店"
+        },
+        {
+          "en": "Hotels are boring",
+          "zh": "酒店很无聊"
+        },
+        {
+          "en": "Only rich people travel according to some versions of the story in an early draft of the book",
+          "zh": "只有富人旅行（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Unique and unforgettable places to stay can be found all over the world",
+          "zh": "独特而难忘的住宿之地在世界各地都能找到"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en":"The author closes by celebrating that \"amazing hotels are everywhere\" and offer \"experiences that you'll never forget.\"","zh":"作者以赞美“不可思议的酒店无处不在”、提供“你永远不会忘记的体验”作结。"}
+      "explain": {
+        "en": "The author closes by celebrating that \"amazing hotels are everywhere\" and offer \"experiences that you'll never forget.\"",
+        "zh": "作者以赞美“不可思议的酒店无处不在”、提供“你永远不会忘记的体验”作结。"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en":"Which of these incredible hotels would you most like to visit, and why? Use details from the book to explain your choice.","zh":"这些不可思议的酒店中，你最想去哪一家？为什么？请用书中的细节来解释你的选择。"},
+    "prompt": {
+      "en": "Which of these incredible hotels would you most like to visit, and why? Use details from the book to explain your choice.",
+      "zh": "这些不可思议的酒店中，你最想去哪一家？为什么？请用书中的细节来解释你的选择。"
+    },
     "guidance": {
       "en": [
         "The Golden Nugget has a waterslide through a 200,000-gallon shark tank.",

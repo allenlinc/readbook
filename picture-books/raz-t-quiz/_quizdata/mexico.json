@@ -21,12 +21,12 @@
           "zh": "坎昆"
         },
         {
-          "en": "Guatemala City",
-          "zh": "危地马拉城"
-        },
-        {
           "en": "San Salvador",
           "zh": "圣萨尔瓦多"
+        },
+        {
+          "en": "Guatemala City",
+          "zh": "危地马拉城"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "About two thirds",
-          "zh": "约三分之二"
+          "en": "None of them",
+          "zh": "一个都没有"
         },
         {
-          "en": "About one tenth",
-          "zh": "约十分之一"
+          "en": "About two thirds",
+          "zh": "约三分之二"
         },
         {
           "en": "All of them",
           "zh": "全部都是"
         },
         {
-          "en": "None of them",
-          "zh": "一个都没有"
+          "en": "About one tenth according to some versions of the story",
+          "zh": "约十分之一（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "About two thirds of modern Mexico's people are mestizos, descendants of both American Indian and European ancestors.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "A Spanish explorer named Mexico according to some versions of the story",
+          "zh": "一位叫墨西哥的西班牙探险家（按书中另一种说法）"
+        },
+        {
           "en": "The Aztec were also known as the Mexica",
           "zh": "阿兹特克人又叫墨西卡（Mexica）人"
         },
         {
-          "en": "A Spanish explorer named Mexico",
-          "zh": "一位叫墨西哥的西班牙探险家"
+          "en": "A type of cactus",
+          "zh": "一种仙人掌"
         },
         {
           "en": "The word for 'mountain'",
           "zh": "“山”这个词"
-        },
-        {
-          "en": "A type of cactus",
-          "zh": "一种仙人掌"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The Aztec were also known as the Mexica, and from that name comes the name Mexico.",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "The Grand Canyon",
+          "zh": "大峡谷"
+        },
+        {
           "en": "Pico de Orizaba, a volcano",
           "zh": "奥里萨巴火山（Pico de Orizaba）"
         },
@@ -111,15 +115,11 @@
           "zh": "铜峡谷"
         },
         {
-          "en": "The Yucatan Peninsula",
-          "zh": "尤卡坦半岛"
-        },
-        {
-          "en": "The Grand Canyon",
-          "zh": "大峡谷"
+          "en": "The Yucatan Peninsula according to some versions of the story",
+          "zh": "尤卡坦半岛（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The highest mountain is a volcano 5,700 meters high named Pico de Orizaba.",
@@ -137,8 +137,8 @@
           "zh": "北布拉沃河（格兰德河）"
         },
         {
-          "en": "The Colorado River",
-          "zh": "科罗拉多河"
+          "en": "The Colorado River according to some versions of the story",
+          "zh": "科罗拉多河（按书中另一种说法）"
         },
         {
           "en": "The Amazon River",
@@ -167,16 +167,16 @@
           "zh": "灌满水的地下洞穴"
         },
         {
-          "en": "Tall mountains",
-          "zh": "高山"
-        },
-        {
           "en": "Types of deserts",
           "zh": "一种沙漠"
         },
         {
-          "en": "Ancient pyramids",
-          "zh": "古老的金字塔"
+          "en": "Ancient pyramids according to some versions of the story",
+          "zh": "古老的金字塔（按书中另一种说法）"
+        },
+        {
+          "en": "Tall mountains",
+          "zh": "高山"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "The quetzal",
-          "zh": "格查尔鸟（quetzal）"
+          "en": "The jaguar according to some versions of the story",
+          "zh": "美洲豹（按书中另一种说法）"
+        },
+        {
+          "en": "The parrot",
+          "zh": "鹦鹉"
         },
         {
           "en": "The eagle",
           "zh": "鹰"
         },
         {
-          "en": "The jaguar",
-          "zh": "美洲豹"
-        },
-        {
-          "en": "The parrot",
-          "zh": "鹦鹉"
+          "en": "The quetzal",
+          "zh": "格查尔鸟（quetzal）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The quetzal is called the sacred bird of the ancient Maya and the Aztec and lives in the rainforests.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "1821",
-          "zh": "1821年"
-        },
-        {
-          "en": "1519",
-          "zh": "1519年"
+          "en": "1519 according to some versions of the story",
+          "zh": "1519年（按书中另一种说法）"
         },
         {
           "en": "1521",
           "zh": "1521年"
         },
         {
+          "en": "1821",
+          "zh": "1821年"
+        },
+        {
           "en": "1910",
           "zh": "1910年"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mexico became a Spanish colony in 1521 and remained one until 1821, when it won a war for freedom.",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "It has modern cities, ancient ruins, deserts, and rainforests",
-          "zh": "它有现代城市、古城遗迹、沙漠和雨林"
-        },
-        {
           "en": "It has only one language",
           "zh": "它只有一种语言"
         },
@@ -265,11 +261,15 @@
           "zh": "它境内没有山"
         },
         {
-          "en": "It is a very small country",
-          "zh": "它是一个很小的国家"
+          "en": "It has modern cities, ancient ruins, deserts, and rainforests",
+          "zh": "它有现代城市、古城遗迹、沙漠和雨林"
+        },
+        {
+          "en": "It is a very small country according to some versions of the story",
+          "zh": "它是一个很小的国家（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Conclusion says Mexico has modern cities and ancient ruins, deep canyons, deserts, and rainforests.",
@@ -283,10 +283,6 @@
       },
       "options": [
         {
-          "en": "The jaguar",
-          "zh": "美洲豹"
-        },
-        {
           "en": "The quetzal",
           "zh": "格查尔鸟"
         },
@@ -297,9 +293,13 @@
         {
           "en": "The peccary",
           "zh": "西貒"
+        },
+        {
+          "en": "The jaguar",
+          "zh": "美洲豹"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Unlike many cats, the jaguar likes to swim, play, and hunt in water.",

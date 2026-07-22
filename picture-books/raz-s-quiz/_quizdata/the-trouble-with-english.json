@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "A talking parrot from another kingdom",
+          "zh": "一只来自另一个王国的会说话的鹦鹉"
+        },
+        {
           "en": "Ting Yao, who came from Shanghai, China with her family",
           "zh": "婷瑶（Ting Yao），她和家人来自中国上海"
         },
         {
+          "en": "Ms. Brickle the teacher from the United States according to some versions of the story",
+          "zh": "来自美国的布里克老师（Ms. Brickle）（按书中另一种说法）"
+        },
+        {
           "en": "A boy named Tommy Jackson from England",
           "zh": "一个叫汤米·杰克逊的英国男孩"
-        },
-        {
-          "en": "Ms. Brickle the teacher from the United States",
-          "zh": "来自美国的布里克老师（Ms. Brickle）"
-        },
-        {
-          "en": "A talking parrot from another kingdom",
-          "zh": "一只来自另一个王国的会说话的鹦鹉"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'My name is Ting Yao and I have been living in my new country... I came here with my mom, dad, and little brother from Shanghai, China.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Idioms",
-          "zh": "习语（idioms）"
-        },
-        {
-          "en": "Silent letters",
-          "zh": "不发音的字母"
+          "en": "Accents",
+          "zh": "口音"
         },
         {
           "en": "Double letters",
           "zh": "双写字母"
         },
         {
-          "en": "Accents",
-          "zh": "口音"
+          "en": "Silent letters",
+          "zh": "不发音的字母"
+        },
+        {
+          "en": "Idioms",
+          "zh": "习语（idioms）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says: 'My teacher, Ms. Brickle, explained to me that these strange expressions are idioms.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "That she eats too many salted dried plums",
-          "zh": "她吃太多咸话梅"
-        },
-        {
-          "en": "That she says an R sound as though it is an L, like 'rikes flied lice'",
-          "zh": "她把R音说得像L音，比如把话说成“rikes flied lice”"
-        },
-        {
           "en": "That she is too good at spelling",
           "zh": "她拼写太好了"
         },
         {
           "en": "That she speaks English perfectly",
           "zh": "她英语说得很完美"
+        },
+        {
+          "en": "That she says an R sound as though it is an L, like 'rikes flied lice'",
+          "zh": "她把R音说得像L音，比如把话说成“rikes flied lice”"
+        },
+        {
+          "en": "That she eats too many salted dried plums according to some versions of the story in an early draft of the book",
+          "zh": "她吃太多咸话梅（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'They say I make an R sound as though it is an L... They taunt me and say things like, There goes the girl who rikes flied lice.'",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "Letters never change sound depending on the word according to some versions of the story in an early draft of the book",
+          "zh": "字母的发音从不会因为单词而改变（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "The letter C sounds different in 'cat' than in 'circus'; G differs in 'gate' vs 'giant'",
           "zh": "字母C在“cat”和“circus”中发音不同；G在“gate”和“giant”中也不同"
         },
@@ -113,13 +117,9 @@
         {
           "en": "Only vowels change their sounds",
           "zh": "只有元音会变音"
-        },
-        {
-          "en": "Letters never change sound depending on the word",
-          "zh": "字母的发音从不会因为单词而改变"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains: 'take the letter C... cat makes a different sound than circus' and 'G... gate makes a different sound than giant.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Both letters should be pronounced loudly",
-          "zh": "两个字母都要大声读出来"
-        },
-        {
           "en": "When two of the same letters are together, one of them is silent; ignore one",
           "zh": "当两个相同字母连在一起时，其中一个不发音，忽略其中一个"
         },
         {
-          "en": "Double letters must always be spelled twice",
-          "zh": "双写字母必须永远拼两遍"
+          "en": "Both letters should be pronounced loudly",
+          "zh": "两个字母都要大声读出来"
         },
         {
           "en": "Double letters mean the word is plural",
           "zh": "双写字母表示单词是复数"
+        },
+        {
+          "en": "Double letters must always be spelled twice according to some versions of the story",
+          "zh": "双写字母必须永远拼两遍（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'when there are two of the same letters next to each other... one of them is silent. She said that I should just ignore one of the letters.'",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "The silent K (as in know, knee, knock) and W (as in write, wrap)",
-          "zh": "不发音的K（如 know、knee、knock）和 W（如 write、wrap）"
-        },
-        {
-          "en": "The silent B and F",
-          "zh": "不发音的B和F"
+          "en": "The silent P and T according to some versions of the story in an early draft of the book",
+          "zh": "不发音的P和T（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "The silent M and N",
           "zh": "不发音的M和N"
         },
         {
-          "en": "The silent P and T",
-          "zh": "不发音的P和T"
+          "en": "The silent K (as in know, knee, knock) and W (as in write, wrap)",
+          "zh": "不发音的K（如 know、knee、knock）和 W（如 write、wrap）"
+        },
+        {
+          "en": "The silent B and F",
+          "zh": "不发音的B和F"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says silent K appears in 'know, knee, and knock' and silent W in 'write and wrap.'",
@@ -197,16 +197,16 @@
           "zh": "它们看起来很像，但每个词的发音都不同"
         },
         {
-          "en": "They all mean the same thing",
-          "zh": "它们的意思都相同"
-        },
-        {
-          "en": "They are all spelled exactly the same",
-          "zh": "它们的拼写完全一样"
-        },
-        {
           "en": "They are not real English words",
           "zh": "它们不是真正的英语单词"
+        },
+        {
+          "en": "They are all spelled exactly the same according to some versions of the story",
+          "zh": "它们的拼写完全一样（按书中另一种说法）"
+        },
+        {
+          "en": "They all mean the same thing",
+          "zh": "它们的意思都相同"
         }
       ],
       "answer": 0,
@@ -227,19 +227,19 @@
           "zh": "F-I-S-H"
         },
         {
-          "en": "P-H-O-T-O",
-          "zh": "P-H-O-T-O"
+          "en": "P-H-I-S-H according to some versions of the story",
+          "zh": "P-H-I-S-H（按书中另一种说法）"
         },
         {
           "en": "F-I-S-H-E",
           "zh": "F-I-S-H-E"
         },
         {
-          "en": "P-H-I-S-H",
-          "zh": "P-H-I-S-H"
+          "en": "P-H-O-T-O",
+          "zh": "P-H-O-T-O"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'my teacher told us to spell fish. So I did. I spelled it photo.' She used ph, o, ti for the sounds.",
@@ -257,16 +257,16 @@
           "zh": "废除所有双写字母和不发音字母"
         },
         {
-          "en": "Adding more silent letters",
-          "zh": "增加更多不发音的字母"
+          "en": "Removing all idioms",
+          "zh": "删掉所有习语"
         },
         {
           "en": "Making English harder",
           "zh": "让英语更难"
         },
         {
-          "en": "Removing all idioms",
-          "zh": "删掉所有习语"
+          "en": "Adding more silent letters according to some versions of the story",
+          "zh": "增加更多不发音的字母（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -291,12 +291,12 @@
           "zh": "分享作为非母语者学习英语时那些好笑又困惑的难题，并引发共鸣"
         },
         {
-          "en": "To teach readers how to speak Mandarin",
-          "zh": "教读者说普通话"
+          "en": "To explain how to build a wall between countries according to some versions of the story in an early draft of the book",
+          "zh": "解释如何在国家之间筑墙（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "To explain how to build a wall between countries",
-          "zh": "解释如何在国家之间筑墙"
+          "en": "To teach readers how to speak Mandarin",
+          "zh": "教读者说普通话"
         }
       ],
       "answer": 1,

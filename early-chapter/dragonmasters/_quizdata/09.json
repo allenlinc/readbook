@@ -14,12 +14,24 @@
         "zh": "米娜是谁？她为什么大老远跑到布雷肯？"
       },
       "options": [
-        { "en": "A Dragon Master from the Far North whose kingdom was frozen; she needs a Fire Dragon to defeat the Ice Giant", "zh": "来自极北之地的驯龙师，她的王国被冰封，需要火龙来击败冰巨人" },
-        { "en": "A princess who wants to marry King Roland", "zh": "想嫁给罗兰王的公主" },
-        { "en": "A cook looking for the best onions", "zh": "来找最好洋葱的厨师" },
-        { "en": "Griffith's old teacher", "zh": "格里菲斯从前的老师" }
+        {
+          "en": "A cook looking for the best onions",
+          "zh": "来找最好洋葱的厨师"
+        },
+        {
+          "en": "A Dragon Master from the Far North whose kingdom was frozen; she needs a Fire Dragon to defeat the Ice Giant",
+          "zh": "来自极北之地的驯龙师，她的王国被冰封，需要火龙来击败冰巨人"
+        },
+        {
+          "en": "A princess who wants to marry King Roland according to some versions of the story in an early draft of the book",
+          "zh": "想嫁给罗兰王的公主（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Griffith's old teacher",
+          "zh": "格里菲斯从前的老师"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Mina trains under wizard Hulda in the Far North. The Ice Giant Vasty froze her fortress and everyone inside, and legend says only a Fire Dragon can defeat an Ice Giant — so she needs Rori and Vulcan.",
         "zh": "米娜在极北之地师从巫师赫尔达。冰巨人瓦斯蒂把她的堡垒和里面所有人都冻住了，传说只有火龙能打败冰巨人——所以她需要罗瑞和火神。"
@@ -31,10 +43,22 @@
         "zh": "瓦斯蒂有着怎样的过去？"
       },
       "options": [
-        { "en": "An Ice Giant who was trapped in a tomb of ice long ago and now wants revenge", "zh": "一名冰巨人，很久以前被封进冰墓，如今想要复仇" },
-        { "en": "A wizard who turned into ice by accident", "zh": "一个不小心变成冰的巫师" },
-        { "en": "A dragon from the Land of Pyramids", "zh": "来自金字塔之国的龙" },
-        { "en": "King Roland's lost brother", "zh": "罗兰王走失的兄弟" }
+        {
+          "en": "An Ice Giant who was trapped in a tomb of ice long ago and now wants revenge",
+          "zh": "一名冰巨人，很久以前被封进冰墓，如今想要复仇"
+        },
+        {
+          "en": "King Roland's lost brother",
+          "zh": "罗兰王走失的兄弟"
+        },
+        {
+          "en": "A wizard who turned into ice by accident according to some versions of the story",
+          "zh": "一个不小心变成冰的巫师（按书中另一种说法）"
+        },
+        {
+          "en": "A dragon from the Land of Pyramids",
+          "zh": "来自金字塔之国的龙"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -48,12 +72,24 @@
         "zh": "到达岛上时，虫虫展示了什么新能力？"
       },
       "options": [
-        { "en": "He shoots green energy beams from his eyes", "zh": "他从眼睛射出绿色能量光束" },
-        { "en": "He can breathe fire", "zh": "他能喷火" },
-        { "en": "He can turn invisible", "zh": "他能隐身" },
-        { "en": "He can swim like a fish", "zh": "他能像鱼一样游泳" }
+        {
+          "en": "He can breathe fire",
+          "zh": "他能喷火"
+        },
+        {
+          "en": "He can turn invisible",
+          "zh": "他能隐身"
+        },
+        {
+          "en": "He can swim like a fish according to some versions of the story",
+          "zh": "他能像鱼一样游泳（按书中另一种说法）"
+        },
+        {
+          "en": "He shoots green energy beams from his eyes",
+          "zh": "他从眼睛射出绿色能量光束"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "On the island, green beams of light shoot from Worm's eyes and zap Neru, knocking the Thunder Dragon backward. Drake has never seen Worm do this before.",
         "zh": "在岛上，绿色光束从虫虫眼中射出，击中内鲁，把雷龙击退。德雷克从没见过虫虫这样做。"
@@ -65,12 +101,24 @@
         "zh": "驯龙师们是怎样安全解救堡垒里被冻住的人的？"
       },
       "options": [
-        { "en": "Kepri's sunlight melts the ice without burning them", "zh": "凯普里的阳光融化冰，而不会灼伤他们" },
-        { "en": "Vulcan's fire melts the ice quickly", "zh": "火神的火快速融冰" },
-        { "en": "They chop the ice with axes", "zh": "他们用斧头砍冰" },
-        { "en": "Worm digs them out", "zh": "虫虫把他们挖出来" }
+        {
+          "en": "Worm digs them out",
+          "zh": "虫虫把他们挖出来"
+        },
+        {
+          "en": "They chop the ice with axes",
+          "zh": "他们用斧头砍冰"
+        },
+        {
+          "en": "Kepri's sunlight melts the ice without burning them",
+          "zh": "凯普里的阳光融化冰，而不会灼伤他们"
+        },
+        {
+          "en": "Vulcan's fire melts the ice quickly according to some versions of the story",
+          "zh": "火神的火快速融冰（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Mina warns that fire could burn the people, just as it burned the door. Kepri aims a beam of sunlight at the ice, which slowly and safely melts it, starting with the wizard Hulda.",
         "zh": "米娜提醒说火会像烧门一样灼伤人。凯普里用阳光束照冰，冰慢慢安全地融化，从巫师赫尔达开始。"
@@ -82,10 +130,22 @@
         "zh": "是什么在控制米娜的冰龙弗罗斯特？"
       },
       "options": [
-        { "en": "A blue crystal filled with Vasty's magic, hung around his neck", "zh": "挂在他脖子上、充满瓦斯蒂魔法的蓝色水晶" },
-        { "en": "A spell cast by Griffith", "zh": "格里菲斯下的咒" },
-        { "en": "A golden whistle", "zh": "一支金色哨子" },
-        { "en": "Carlos's Dragon Stone", "zh": "卡洛斯的龙石" }
+        {
+          "en": "A blue crystal filled with Vasty's magic, hung around his neck",
+          "zh": "挂在他脖子上、充满瓦斯蒂魔法的蓝色水晶"
+        },
+        {
+          "en": "A spell cast by Griffith according to some versions of the story in an early draft of the book",
+          "zh": "格里菲斯下的咒（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A golden whistle",
+          "zh": "一支金色哨子"
+        },
+        {
+          "en": "Carlos's Dragon Stone",
+          "zh": "卡洛斯的龙石"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -99,12 +159,24 @@
         "zh": "驯龙师们最终是怎样打败冰巨人瓦斯蒂的？"
       },
       "options": [
-        { "en": "Worm freezes Vasty in place, then Vulcan's huge fireball shrinks/melts him; Frost's ice tunnel removes him", "zh": "虫虫把瓦斯蒂定住，火神的大火球把他缩小融化，弗罗斯特的冰隧道把他送走" },
-        { "en": "They bury him under snow", "zh": "他们用雪把他埋起来" },
-        { "en": "They sing him to sleep", "zh": "他们把他唱睡着了" },
-        { "en": "King Roland arrests him", "zh": "罗兰王逮捕了他" }
+        {
+          "en": "They sing him to sleep",
+          "zh": "他们把他唱睡着了"
+        },
+        {
+          "en": "King Roland arrests him",
+          "zh": "罗兰王逮捕了他"
+        },
+        {
+          "en": "Worm freezes Vasty in place, then Vulcan's huge fireball shrinks/melts him; Frost's ice tunnel removes him",
+          "zh": "虫虫把瓦斯蒂定住，火神的大火球把他缩小融化，弗罗斯特的冰隧道把他送走"
+        },
+        {
+          "en": "They bury him under snow according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他们用雪把他埋起来（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Drake silently asks Worm to freeze Vasty with green energy. Held still, Vasty is hit by Vulcan's enormous fireball and shrinks to tiny size; Frost then breathes a swirling ice tunnel that sucks the giant away.",
         "zh": "德雷克默默请虫虫用绿色能量定住瓦斯蒂。被定身后，火神发射巨型火球把他缩小；弗罗斯特喷出旋涡冰隧道，把小巨人吸走。"
@@ -116,12 +188,24 @@
         "zh": "为什么弗罗斯特的冰之力制不住瓦斯蒂？"
       },
       "options": [
-        { "en": "Ice had no effect on the Ice Giant (ice vs. ice didn't work)", "zh": "冰对冰巨人不起作用（冰碰冰没用）" },
-        { "en": "Frost was too small", "zh": "弗罗斯特太小了" },
-        { "en": "Frost was afraid of the giant", "zh": "弗罗斯特害怕巨人" },
-        { "en": "Frost had no ice left", "zh": "弗罗斯特没有冰了" }
+        {
+          "en": "Frost was afraid of the giant according to some versions of the story",
+          "zh": "弗罗斯特害怕巨人（按书中另一种说法）"
+        },
+        {
+          "en": "Ice had no effect on the Ice Giant (ice vs. ice didn't work)",
+          "zh": "冰对冰巨人不起作用（冰碰冰没用）"
+        },
+        {
+          "en": "Frost had no ice left",
+          "zh": "弗罗斯特没有冰了"
+        },
+        {
+          "en": "Frost was too small",
+          "zh": "弗罗斯特太小了"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Mina says Frost's ice powers had no effect on the Ice Giant. That is why only a Fire Dragon like Vulcan can defeat Vasty.",
         "zh": "米娜说弗罗斯特的冰之力对冰巨人无效。所以只有像火神这样的火龙才能打败瓦斯蒂。"
@@ -133,10 +217,22 @@
         "zh": "罗瑞对拉尔斯王说了什么善意的谎言？为什么？"
       },
       "options": [
-        { "en": "She says King Roland happily sent them to help, though he did not even know they were there", "zh": "她说罗兰王很高兴派他们来帮忙，其实国王根本不知道他们在" },
-        { "en": "She says the Ice Giant was friendly", "zh": "她说冰巨人很友好" },
-        { "en": "She says Mina is a princess", "zh": "她说米娜是公主" },
-        { "en": "She says Vulcan can do magic", "zh": "她说火神会魔法" }
+        {
+          "en": "She says King Roland happily sent them to help, though he did not even know they were there",
+          "zh": "她说罗兰王很高兴派他们来帮忙，其实国王根本不知道他们在"
+        },
+        {
+          "en": "She says Mina is a princess",
+          "zh": "她说米娜是公主"
+        },
+        {
+          "en": "She says Vulcan can do magic",
+          "zh": "她说火神会魔法"
+        },
+        {
+          "en": "She says the Ice Giant was friendly according to some versions of the story in an early draft of the book",
+          "zh": "她说冰巨人很友好（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -150,12 +246,24 @@
         "zh": "国王罗兰最后为什么没有惩罚格里菲斯？"
       },
       "options": [
-        { "en": "A scroll from King Lars praises the Dragon Masters and Griffith, so the king spares him", "zh": "拉尔斯王的一封羊皮卷称赞了驯龙师和格里菲斯，国王便饶了他" },
-        { "en": "Griffith hides in the dragon caves", "zh": "格里菲斯藏在龙穴里" },
-        { "en": "Rori fights the king", "zh": "罗瑞和国王打了一架" },
-        { "en": "The Ice Giant returns", "zh": "冰巨人回来了" }
+        {
+          "en": "Rori fights the king",
+          "zh": "罗瑞和国王打了一架"
+        },
+        {
+          "en": "A scroll from King Lars praises the Dragon Masters and Griffith, so the king spares him",
+          "zh": "拉尔斯王的一封羊皮卷称赞了驯龙师和格里菲斯，国王便饶了他"
+        },
+        {
+          "en": "Griffith hides in the dragon caves according to some versions of the story in an early draft of the book",
+          "zh": "格里菲斯藏在龙穴里（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The Ice Giant returns",
+          "zh": "冰巨人回来了"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Just as Roland is furious about the missing Thunder Dragon, a scroll sealed with King Lars's mark falls from the sky. It praises Griffith and the Dragon Masters, so Roland lets the wizard stay.",
         "zh": "就在罗兰因雷龙失踪而大怒时，一封盖有拉尔斯王印玺的羊皮卷从天而降。它称赞格里菲斯和驯龙师，于是国王让巫师留了下来。"
@@ -167,12 +275,24 @@
         "zh": "是什么让罗瑞最终决定留在驯龙师们身边？"
       },
       "options": [
-        { "en": "She didn't like Eko's island (too hot, yucky fish) and her friends asked her to stay", "zh": "她不喜欢埃科的岛（太热、鱼难吃），而且朋友们都请她留下" },
-        { "en": "She is made queen", "zh": "她被立为王后" },
-        { "en": "She loses her Dragon Stone", "zh": "她弄丢了龙石" },
-        { "en": "The king orders her to stay", "zh": "国王命令她留下" }
+        {
+          "en": "She is made queen",
+          "zh": "她被立为王后"
+        },
+        {
+          "en": "She loses her Dragon Stone",
+          "zh": "她弄丢了龙石"
+        },
+        {
+          "en": "The king orders her to stay according to some versions of the story in an early draft of the book",
+          "zh": "国王命令她留下（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "She didn't like Eko's island (too hot, yucky fish) and her friends asked her to stay",
+          "zh": "她不喜欢埃科的岛（太热、鱼难吃），而且朋友们都请她留下"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "After the adventure, Rori says she didn't really like the island — too hot and too many yucky fish — and agrees to stay when her friends say, 'We're not a team without you.'",
         "zh": "冒险结束后，罗瑞说她其实不喜欢那座岛——太热、鱼又难吃——当朋友们说“没有你就不成队伍”时，她答应留下。"

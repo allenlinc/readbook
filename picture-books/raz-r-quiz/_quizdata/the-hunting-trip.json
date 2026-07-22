@@ -43,10 +43,6 @@
       },
       "options": [
         {
-          "en": "Run as fast as you can",
-          "zh": "能跑多快跑多快"
-        },
-        {
           "en": "Deep breaths work better than you think",
           "zh": "深呼吸比你想的更有效"
         },
@@ -57,9 +53,13 @@
         {
           "en": "Shoot quickly",
           "zh": "快点开枪"
+        },
+        {
+          "en": "Run as fast as you can according to some versions of the story",
+          "zh": "能跑多快跑多快（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "José recalls his father's advice: 'Deep breaths work better than you think.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A type of tree",
-          "zh": "一种树"
-        },
-        {
           "en": "The animal that is the target of a hunt",
           "zh": "被猎捕的目标动物"
         },
         {
-          "en": "A kind of rifle",
-          "zh": "一种步枪"
+          "en": "A breakfast food according to some versions of the story",
+          "zh": "一种早餐食品（按书中另一种说法）"
         },
         {
-          "en": "A breakfast food",
-          "zh": "一种早餐食品"
+          "en": "A type of tree",
+          "zh": "一种树"
+        },
+        {
+          "en": "A kind of rifle",
+          "zh": "一种步枪"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines quarry as 'an animal that is the target of a hunt'—the white-tailed deer they wait for.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Two fine lines that cross and are used to aim",
-          "zh": "两条交叉、用于瞄准的细线"
+          "en": "A coffee cup according to some versions of the story",
+          "zh": "一个咖啡杯（按书中另一种说法）"
         },
         {
-          "en": "A type of bird",
-          "zh": "一种鸟"
+          "en": "Two fine lines that cross and are used to aim",
+          "zh": "两条交叉、用于瞄准的细线"
         },
         {
           "en": "A tree branch",
           "zh": "一根树枝"
         },
         {
-          "en": "A coffee cup",
-          "zh": "一个咖啡杯"
+          "en": "A type of bird",
+          "zh": "一种鸟"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines crosshairs as 'two fine lines that cross at right angles... used to aim.'",
@@ -137,19 +137,19 @@
           "zh": "何塞的父亲从没打过猎"
         },
         {
-          "en": "José's father did the very same thing—didn't shoot—on his first hunt",
-          "zh": "何塞的父亲第一次打猎时做了完全相同的事——没有开枪"
-        },
-        {
-          "en": "José shot the deer but his father didn't",
-          "zh": "何塞开了枪，而他父亲没有"
+          "en": "José shot the deer but his father didn't according to some versions of the story",
+          "zh": "何塞开了枪，而他父亲没有（按书中另一种说法）"
         },
         {
           "en": "They are completely different",
           "zh": "两者完全不同"
+        },
+        {
+          "en": "José's father did the very same thing—didn't shoot—on his first hunt",
+          "zh": "何塞的父亲第一次打猎时做了完全相同的事——没有开枪"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "José's father says, 'I did the very same thing the first time I went out hunting with my father.'",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "To explain forest fires",
+          "zh": "解释森林火灾"
+        },
+        {
           "en": "To describe a father-son hunting trip and the bond and values they share",
           "zh": "描写一次父子打猎之旅，以及他们之间共同的情感与价值观"
         },
@@ -171,15 +175,11 @@
           "zh": "教人如何烹肉"
         },
         {
-          "en": "To explain forest fires",
-          "zh": "解释森林火灾"
-        },
-        {
-          "en": "To promote killing animals",
-          "zh": "鼓吹杀戮动物"
+          "en": "To promote killing animals according to some versions of the story in an early draft of the book",
+          "zh": "鼓吹杀戮动物（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The story shows a quiet father-son trip where the father shares his values about hunting, revealing their close bond.",
@@ -197,19 +197,19 @@
           "zh": "他没有子弹了"
         },
         {
-          "en": "His heart tells him not to; he doesn't want to kill it",
-          "zh": "他的内心告诉他不要射杀，他不想杀它"
-        },
-        {
           "en": "His father forces him",
           "zh": "他父亲强迫他"
         },
         {
-          "en": "The deer runs away first",
-          "zh": "鹿先跑掉了"
+          "en": "The deer runs away first according to some versions of the story",
+          "zh": "鹿先跑掉了（按书中另一种说法）"
+        },
+        {
+          "en": "His heart tells him not to; he doesn't want to kill it",
+          "zh": "他的内心告诉他不要射杀，他不想杀它"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "José says 'No,' lowers his rifle, and later his father explains 'sometimes the animal looks at you, and you know you shouldn't shoot it.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Supermarket meat is healthier",
-          "zh": "超市的肉更健康"
-        },
-        {
           "en": "Hunting is a direct interaction between one person and one animal",
           "zh": "打猎是一个人直接与一只动物之间的互动"
+        },
+        {
+          "en": "Supermarket meat is free",
+          "zh": "超市的肉是免费的"
         },
         {
           "en": "Hunting is always easier",
           "zh": "打猎总是更容易"
         },
         {
-          "en": "Supermarket meat is free",
-          "zh": "超市的肉是免费的"
+          "en": "Supermarket meat is healthier according to some versions of the story",
+          "zh": "超市的肉更健康（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The father says hunting is 'an interaction between one person and one animal,' unlike buying meat at the supermarket where you never see the animal.",
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "Bored",
+          "zh": "无聊"
+        },
+        {
           "en": "Angry",
           "zh": "生气"
         },
@@ -263,13 +267,9 @@
         {
           "en": "Embarrassed",
           "zh": "尴尬"
-        },
-        {
-          "en": "Bored",
-          "zh": "无聊"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "After his father understands, 'José felt relieved.'",
@@ -283,8 +283,12 @@
       },
       "options": [
         {
-          "en": "Coffee",
-          "zh": "咖啡"
+          "en": "Coffee according to some versions of the story",
+          "zh": "咖啡（按书中另一种说法）"
+        },
+        {
+          "en": "Water",
+          "zh": "水"
         },
         {
           "en": "Hot cocoa",
@@ -293,13 +297,9 @@
         {
           "en": "Soup",
           "zh": "汤"
-        },
-        {
-          "en": "Water",
-          "zh": "水"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "At the end, the father says, 'It's hot cocoa... I brought it for you.'",

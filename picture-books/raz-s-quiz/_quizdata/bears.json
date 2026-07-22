@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "Brown bear",
+          "zh": "棕熊"
+        },
+        {
           "en": "Giant panda",
           "zh": "大熊猫"
         },
@@ -23,13 +27,9 @@
         {
           "en": "Sun bear",
           "zh": "马来熊"
-        },
-        {
-          "en": "Brown bear",
-          "zh": "棕熊"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'The polar bear is the largest bear and the largest land-dwelling carnivore on Earth.'",
@@ -43,10 +43,6 @@
       },
       "options": [
         {
-          "en": "Living alone",
-          "zh": "独自生活"
-        },
-        {
           "en": "Sleeping deeply, especially for an entire winter",
           "zh": "深度睡眠，尤其指整个冬天都在睡"
         },
@@ -55,11 +51,15 @@
           "zh": "只吃植物"
         },
         {
-          "en": "A person who buys goods",
-          "zh": "购买商品的人"
+          "en": "Living alone",
+          "zh": "独自生活"
+        },
+        {
+          "en": "A person who buys goods according to some versions of the story",
+          "zh": "购买商品的人（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines hibernating as 'sleeping deeply, especially for an entire winter (p. 4).'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Polar bear",
-          "zh": "北极熊"
+          "en": "Spectacled bear",
+          "zh": "眼镜熊"
         },
         {
           "en": "Brown bear",
           "zh": "棕熊"
         },
         {
-          "en": "Sun bear",
-          "zh": "马来熊"
+          "en": "Polar bear",
+          "zh": "北极熊"
         },
         {
-          "en": "Spectacled bear",
-          "zh": "眼镜熊"
+          "en": "Sun bear",
+          "zh": "马来熊"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'The sun bear is the smallest member of the bear family.' It weighs only about 36 kg (80 lbs).",
@@ -107,16 +107,16 @@
           "zh": "有袋动物（育儿袋哺乳动物）"
         },
         {
-          "en": "A type of polar bear",
-          "zh": "一种北极熊"
+          "en": "A kind of bird",
+          "zh": "一种鸟"
         },
         {
           "en": "A small bear",
           "zh": "一种小熊"
         },
         {
-          "en": "A kind of bird",
-          "zh": "一种鸟"
+          "en": "A type of polar bear according to some versions of the story",
+          "zh": "一种北极熊（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "To describe bears' diet",
+          "zh": "为了描述熊的食谱"
+        },
+        {
           "en": "To correct a common misunderstanding and teach a science fact",
           "zh": "为了纠正常见误解并传授科学事实"
         },
         {
-          "en": "To advertise Australia",
-          "zh": "为了给澳大利亚做广告"
-        },
-        {
-          "en": "To describe bears' diet",
-          "zh": "为了描述熊的食谱"
+          "en": "To advertise Australia according to some versions of the story",
+          "zh": "为了给澳大利亚做广告（按书中另一种说法）"
         },
         {
           "en": "To explain hibernation",
           "zh": "为了解释冬眠"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author adds this note to clear up a misconception ('often called a koala bear, is not a bear at all') and inform readers.",
@@ -167,19 +167,19 @@
           "zh": "带蹼的前爪"
         },
         {
-          "en": "An unusually long tongue",
-          "zh": "异常长的舌头"
-        },
-        {
           "en": "An extra 'thumb' (a special wrist bone)",
           "zh": "多出来的一根“拇指”（特殊的腕骨）"
         },
         {
-          "en": "Black skin under white fur",
-          "zh": "白毛下黑色的皮肤"
+          "en": "An unusually long tongue",
+          "zh": "异常长的舌头"
+        },
+        {
+          "en": "Black skin under white fur according to some versions of the story",
+          "zh": "白毛下黑色的皮肤（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains the giant panda has an extra 'thumb' that is 'a special wrist bone... that helps the giant panda grasp bamboo stems.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
+          "en": "Eating only plants",
+          "zh": "只吃植物"
+        },
+        {
+          "en": "Living in the water according to some versions of the story",
+          "zh": "生活在水中（按书中另一种说法）"
+        },
+        {
           "en": "Preferring to live alone",
           "zh": "喜欢独自生活"
         },
         {
           "en": "Hibernating together",
           "zh": "一起冬眠"
-        },
-        {
-          "en": "Eating only plants",
-          "zh": "只吃植物"
-        },
-        {
-          "en": "Living in the water",
-          "zh": "生活在水中"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines solitary as 'alone; without companions (p. 5).' The text says most adult bears prefer to roam on their own.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Spectacled bear",
-          "zh": "眼镜熊"
+          "en": "Sun bear",
+          "zh": "马来熊"
         },
         {
           "en": "Polar bear",
           "zh": "北极熊"
         },
         {
-          "en": "Sun bear",
-          "zh": "马来熊"
-        },
-        {
           "en": "Asiatic black bear",
           "zh": "亚洲黑熊"
+        },
+        {
+          "en": "Spectacled bear",
+          "zh": "眼镜熊"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'They [spectacled bears] are the only native bear in South America.'",
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "Disease",
+          "zh": "疾病"
+        },
+        {
           "en": "Humans destroying habitats and hunting",
           "zh": "人类破坏栖息地并捕猎"
         },
@@ -261,15 +265,11 @@
           "zh": "其他熊"
         },
         {
-          "en": "Disease",
-          "zh": "疾病"
-        },
-        {
-          "en": "Cold winter weather",
-          "zh": "寒冷的冬季"
+          "en": "Cold winter weather according to some versions of the story",
+          "zh": "寒冷的冬季（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says: 'bears are in greater danger from people than people are from bears' because of habitat destruction and hunting.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "The South Pole (Antarctica)",
-          "zh": "南极"
-        },
-        {
-          "en": "Australia",
-          "zh": "澳大利亚"
-        },
-        {
           "en": "The North Pole",
           "zh": "北极"
         },
         {
           "en": "South America",
           "zh": "南美洲"
+        },
+        {
+          "en": "Australia",
+          "zh": "澳大利亚"
+        },
+        {
+          "en": "The South Pole (Antarctica)",
+          "zh": "南极"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The text says: 'Polar bears live near the North Pole' and the map labels 'North Pole / Alaska / Canada / Greenland.'",

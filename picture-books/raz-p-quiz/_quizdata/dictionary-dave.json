@@ -12,10 +12,22 @@
         "zh": "贝为什么转到一所大家说话都“怪怪的”的新学校？"
       },
       "options": [
-        { "en": "His family was from Mississippi, so they spoke differently from the new place", "zh": "他的家人来自密西西比，所以口音和新的地方不同" },
-        { "en": "He failed at his old school", "zh": "他在原来的学校不及格" },
-        { "en": "He wanted to learn Spanish", "zh": "他想学西班牙语" },
-        { "en": "He moved to a desert", "zh": "他搬到了沙漠" }
+        {
+          "en": "His family was from Mississippi, so they spoke differently from the new place",
+          "zh": "他的家人来自密西西比，所以口音和新的地方不同"
+        },
+        {
+          "en": "He failed at his old school according to some versions of the story in an early draft of the book",
+          "zh": "他在原来的学校不及格（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He wanted to learn Spanish",
+          "zh": "他想学西班牙语"
+        },
+        {
+          "en": "He moved to a desert",
+          "zh": "他搬到了沙漠"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "在故事里，“pungent”这个词实际是什么意思？"
       },
       "options": [
-        { "en": "Having a strong smell", "zh": "有强烈的气味" },
-        { "en": "Unchanging or stubborn", "zh": "不变或固执" },
-        { "en": "Done for no reason", "zh": "毫无理由地" },
-        { "en": "Evil or cruel", "zh": "邪恶或残忍" }
+        {
+          "en": "Done for no reason",
+          "zh": "毫无理由地"
+        },
+        {
+          "en": "Evil or cruel",
+          "zh": "邪恶或残忍"
+        },
+        {
+          "en": "Having a strong smell",
+          "zh": "有强烈的气味"
+        },
+        {
+          "en": "Unchanging or stubborn according to some versions of the story",
+          "zh": "不变或固执（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Ben tells Dave, \"You know that pungent means it has a strong smell,\" and the dictionary confirms it.",
@@ -48,12 +72,24 @@
         "zh": "在戴夫用了大词之后，贝为什么去查词典？"
       },
       "options": [
-        { "en": "To confirm the real definitions, since he thought something else was going on", "zh": "为了确认真正的词义，因为他觉得事情没那么简单" },
-        { "en": "Because he wanted new words to use", "zh": "因为他想学新词来用" },
-        { "en": "Because the teacher told him to", "zh": "因为老师叫他这么做" },
-        { "en": "Because he forgot his homework", "zh": "因为他忘了作业" }
+        {
+          "en": "Because he forgot his homework",
+          "zh": "因为他忘了作业"
+        },
+        {
+          "en": "Because the teacher told him to",
+          "zh": "因为老师叫他这么做"
+        },
+        {
+          "en": "To confirm the real definitions, since he thought something else was going on",
+          "zh": "为了确认真正的词义，因为他觉得事情没那么简单"
+        },
+        {
+          "en": "Because he wanted new words to use according to some versions of the story in an early draft of the book",
+          "zh": "因为他想学新词来用（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Ben \"went to the dictionary. He looked up pungent and adamant. The definitions matched... Something else had to be going on here.\"",
@@ -66,12 +102,24 @@
         "zh": "作者写《词典戴夫》的主要目的是什么？"
       },
       "options": [
-        { "en": "To entertain with a story about two boys becoming friends through words", "zh": "为了用一个关于两个男孩通过词语成为朋友的故事娱乐读者" },
-        { "en": "To teach a science lesson", "zh": "为了上一堂科学课" },
-        { "en": "To explain how to build a school", "zh": "为了解释如何建学校" },
-        { "en": "To argue against vocabulary quizzes", "zh": "为了反对词汇测验" }
+        {
+          "en": "To teach a science lesson",
+          "zh": "为了上一堂科学课"
+        },
+        {
+          "en": "To entertain with a story about two boys becoming friends through words",
+          "zh": "为了用一个关于两个男孩通过词语成为朋友的故事娱乐读者"
+        },
+        {
+          "en": "To argue against vocabulary quizzes according to some versions of the story in an early draft of the book",
+          "zh": "为了反对词汇测验（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To explain how to build a school",
+          "zh": "为了解释如何建学校"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The story follows Ben and Dave from a mix-up over word meanings to friendship, ending \"they both found a good friend,\" which is to entertain.",
@@ -84,12 +132,24 @@
         "zh": "戴夫的哥哥对他开了什么玩笑？"
       },
       "options": [
-        { "en": "He gave Dave vocabulary quizzes with wrong definitions, so Dave learned wrong meanings", "zh": "他给戴夫的词汇测验写着错误的释义，让戴夫记错了词义" },
-        { "en": "He hid Dave's dictionary", "zh": "他把戴夫的词典藏起来了" },
-        { "en": "He changed Dave's grade", "zh": "他改了戴夫的成绩" },
-        { "en": "He ate Dave's lunch", "zh": "他吃了戴夫的午餐" }
+        {
+          "en": "He changed Dave's grade",
+          "zh": "他改了戴夫的成绩"
+        },
+        {
+          "en": "He gave Dave vocabulary quizzes with wrong definitions, so Dave learned wrong meanings",
+          "zh": "他给戴夫的词汇测验写着错误的释义，让戴夫记错了词义"
+        },
+        {
+          "en": "He hid Dave's dictionary according to some versions of the story in an early draft of the book",
+          "zh": "他把戴夫的词典藏起来了（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He ate Dave's lunch",
+          "zh": "他吃了戴夫的午餐"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Dave's brother \"gives me all his old vocabulary quizzes,\" but \"I've never seen a grade on any of them\"—Ben realizes the brother played a prank with wrong words.",
@@ -102,12 +162,24 @@
         "zh": "在体育课贝纠正戴夫时，“arbitrary”是什么意思？"
       },
       "options": [
-        { "en": "Done for no reason", "zh": "毫无理由地做的" },
-        { "en": "Not moving", "zh": "不动的" },
-        { "en": "A funny comment", "zh": "一句俏皮话" },
-        { "en": "Sure of oneself", "zh": "对自己有把握" }
+        {
+          "en": "Not moving",
+          "zh": "不动的"
+        },
+        {
+          "en": "A funny comment",
+          "zh": "一句俏皮话"
+        },
+        {
+          "en": "Sure of oneself according to some versions of the story",
+          "zh": "对自己有把握（按书中另一种说法）"
+        },
+        {
+          "en": "Done for no reason",
+          "zh": "毫无理由地做的"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Ben says, \"Arbitrary means done for no reason. Stationary means not moving,\" correcting Dave's mix-up.",
@@ -120,10 +192,22 @@
         "zh": "贝和戴夫是怎样一起修改戴夫的作文的？"
       },
       "options": [
-        { "en": "They looked up the wrong words and replaced them with correct ones and synonyms", "zh": "他们查出错词，并用正确的词及同义词替换" },
-        { "en": "They threw the paper away", "zh": "他们把作文扔了" },
-        { "en": "They copied Cindy's paper", "zh": "他们抄了辛迪的作文" },
-        { "en": "They asked the teacher to write it", "zh": "他们请老师代写" }
+        {
+          "en": "They looked up the wrong words and replaced them with correct ones and synonyms",
+          "zh": "他们查出错词，并用正确的词及同义词替换"
+        },
+        {
+          "en": "They asked the teacher to write it according to some versions of the story in an early draft of the book",
+          "zh": "他们请老师代写（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They threw the paper away",
+          "zh": "他们把作文扔了"
+        },
+        {
+          "en": "They copied Cindy's paper",
+          "zh": "他们抄了辛迪的作文"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "作者为什么要写到贝在纠正戴夫后感到难过？"
       },
       "options": [
-        { "en": "To show that embarrassing others can hurt feelings and that true friendship matters", "zh": "为了说明让他人难堪会伤人感情，而真挚的友谊很重要" },
-        { "en": "To prove Ben was wrong", "zh": "为了证明贝是错的" },
-        { "en": "To teach grammar rules", "zh": "为了教语法规则" },
-        { "en": "To describe gym class", "zh": "为了描写体育课" }
+        {
+          "en": "To describe gym class",
+          "zh": "为了描写体育课"
+        },
+        {
+          "en": "To prove Ben was wrong according to some versions of the story in an early draft of the book",
+          "zh": "为了证明贝是错的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To teach grammar rules",
+          "zh": "为了教语法规则"
+        },
+        {
+          "en": "To show that embarrassing others can hurt feelings and that true friendship matters",
+          "zh": "为了说明让他人难堪会伤人感情，而真挚的友谊很重要"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Ben \"saw Dave blush. He realized that Dave was embarrassed... Ben felt awful and wanted to apologize,\" showing the value of kindness over being right.",
@@ -156,12 +252,24 @@
         "zh": "在故事结尾，戴夫请贝教他什么？"
       },
       "options": [
-        { "en": "How to \"speak Mississippi\"", "zh": "如何“说密西西比口音”" },
-        { "en": "How to spell", "zh": "如何拼写" },
-        { "en": "How to read", "zh": "如何阅读" },
-        { "en": "How to play baseball", "zh": "如何打棒球" }
+        {
+          "en": "How to read",
+          "zh": "如何阅读"
+        },
+        {
+          "en": "How to \"speak Mississippi\"",
+          "zh": "如何“说密西西比口音”"
+        },
+        {
+          "en": "How to spell",
+          "zh": "如何拼写"
+        },
+        {
+          "en": "How to play baseball according to some versions of the story",
+          "zh": "如何打棒球（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Dave smiled and said, \"Maybe sometime you could teach me how to speak Mississippi?\" and Ben agreed to teach him at lunch.",
@@ -174,10 +282,22 @@
         "zh": "在故事里，“fiendish”是什么意思？"
       },
       "options": [
-        { "en": "Evil or cruel, like the prank Dave's brother played", "zh": "邪恶或残忍，就像戴夫哥哥开的玩笑" },
-        { "en": "Outstanding or terrific", "zh": "出色或极好的" },
-        { "en": "To get rid of something", "zh": "去除某物" },
-        { "en": "A kind of trip", "zh": "一种旅行" }
+        {
+          "en": "Evil or cruel, like the prank Dave's brother played",
+          "zh": "邪恶或残忍，就像戴夫哥哥开的玩笑"
+        },
+        {
+          "en": "Outstanding or terrific according to some versions of the story",
+          "zh": "出色或极好的（按书中另一种说法）"
+        },
+        {
+          "en": "To get rid of something",
+          "zh": "去除某物"
+        },
+        {
+          "en": "A kind of trip",
+          "zh": "一种旅行"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",

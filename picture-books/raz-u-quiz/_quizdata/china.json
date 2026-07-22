@@ -12,12 +12,24 @@
         "zh": "中国的首都是哪里？它有多古老？"
       },
       "options": [
-        {"en": "Shanghai; about 100 years old", "zh": "上海；约100年"},
-        {"en": "Hong Kong; about 500 years old", "zh": "香港；约500年"},
-        {"en": "Beijing; over three thousand years old", "zh": "北京；超过三千年"},
-        {"en": "Lhasa; about 50 years old", "zh": "拉萨；约50年"}
+        {
+          "en": "Hong Kong; about 500 years old according to some versions of the story",
+          "zh": "香港；约500年（按书中另一种说法）"
+        },
+        {
+          "en": "Beijing; over three thousand years old",
+          "zh": "北京；超过三千年"
+        },
+        {
+          "en": "Lhasa; about 50 years old",
+          "zh": "拉萨；约50年"
+        },
+        {
+          "en": "Shanghai; about 100 years old",
+          "zh": "上海；约100年"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Beijing, the capital in northeast China, is one of the oldest cities in the world and is over three thousand years old.",
@@ -30,12 +42,24 @@
         "zh": "中国大约有多少人口？"
       },
       "options": [
-        {"en": "About 316 million", "zh": "约3.16亿"},
-        {"en": "More than 1.3 billion", "zh": "超过13亿"},
-        {"en": "About 50 million", "zh": "约5000万"},
-        {"en": "Exactly 2 billion", "zh": "正好20亿"}
+        {
+          "en": "Exactly 2 billion",
+          "zh": "正好20亿"
+        },
+        {
+          "en": "About 316 million according to some versions of the story",
+          "zh": "约3.16亿（按书中另一种说法）"
+        },
+        {
+          "en": "About 50 million",
+          "zh": "约5000万"
+        },
+        {
+          "en": "More than 1.3 billion",
+          "zh": "超过13亿"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states more than 1.3 billion people live in China, which is more than in any other country.",
@@ -48,12 +72,24 @@
         "zh": "“Mandarin”这个词是什么意思？"
       },
       "options": [
-        {"en": "the emperor's tongue", "zh": "皇帝的语言"},
-        {"en": "mountain speech", "zh": "山间的言语"},
-        {"en": "ancient writing", "zh": "古老的文字"},
-        {"en": "common language", "zh": "通用语言"}
+        {
+          "en": "the emperor's tongue",
+          "zh": "皇帝的语言"
+        },
+        {
+          "en": "ancient writing",
+          "zh": "古老的文字"
+        },
+        {
+          "en": "common language",
+          "zh": "通用语言"
+        },
+        {
+          "en": "mountain speech",
+          "zh": "山间的言语"
+        }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says most Chinese people speak Mandarin, which means 'common language.'",
@@ -66,12 +102,24 @@
         "zh": "中文书写与英文书写有何不同？"
       },
       "options": [
-        {"en": "It uses thousands of characters instead of letters of the English alphabet", "zh": "它使用成千上万个汉字，而非英文字母"},
-        {"en": "It uses the same Latin alphabet as English", "zh": "它和英文一样使用拉丁字母"},
-        {"en": "It is written only with numbers", "zh": "它只用数字书写"},
-        {"en": "It has no written form", "zh": "它根本没有书写形式"}
+        {
+          "en": "It has no written form",
+          "zh": "它根本没有书写形式"
+        },
+        {
+          "en": "It uses the same Latin alphabet as English according to some versions of the story",
+          "zh": "它和英文一样使用拉丁字母（按书中另一种说法）"
+        },
+        {
+          "en": "It is written only with numbers",
+          "zh": "它只用数字书写"
+        },
+        {
+          "en": "It uses thousands of characters instead of letters of the English alphabet",
+          "zh": "它使用成千上万个汉字，而非英文字母"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains that Chinese writing does not use the English alphabet but thousands of characters that stand for words or parts of words.",
@@ -84,10 +132,22 @@
         "zh": "珠穆朗玛峰在哪里？它有什么特别之处？"
       },
       "options": [
-        {"en": "In the eastern plains; it is the lowest point", "zh": "在东部平原；它是最低点"},
-        {"en": "In the southwest Himalayas; it is the highest mountain in the world", "zh": "在西南部的喜马拉雅山脉；它是世界最高峰"},
-        {"en": "In the north; it is a volcano", "zh": "在北部；它是一座火山"},
-        {"en": "Near the coast; it is a plateau", "zh": "在沿海；它是一块高原"}
+        {
+          "en": "In the eastern plains; it is the lowest point according to some versions of the story",
+          "zh": "在东部平原；它是最低点（按书中另一种说法）"
+        },
+        {
+          "en": "In the southwest Himalayas; it is the highest mountain in the world",
+          "zh": "在西南部的喜马拉雅山脉；它是世界最高峰"
+        },
+        {
+          "en": "In the north; it is a volcano",
+          "zh": "在北部；它是一座火山"
+        },
+        {
+          "en": "Near the coast; it is a plateau",
+          "zh": "在沿海；它是一块高原"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
@@ -102,12 +162,24 @@
         "zh": "中国西北部的吐鲁番盆地有什么特别之处？"
       },
       "options": [
-        {"en": "It is a high plateau in the south", "zh": "它是南部的一块高原"},
-        {"en": "It is the source of the Yangtze River", "zh": "它是长江的源头"},
-        {"en": "It contains a salt lake 154 meters below sea level", "zh": "它有一座低于海平面154米的盐湖"},
-        {"en": "It is the largest desert in China", "zh": "它是中国最大的沙漠"}
+        {
+          "en": "It contains a salt lake 154 meters below sea level",
+          "zh": "它有一座低于海平面154米的盐湖"
+        },
+        {
+          "en": "It is the largest desert in China",
+          "zh": "它是中国最大的沙漠"
+        },
+        {
+          "en": "It is the source of the Yangtze River according to some versions of the story",
+          "zh": "它是长江的源头（按书中另一种说法）"
+        },
+        {
+          "en": "It is a high plateau in the south",
+          "zh": "它是南部的一块高原"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book describes the Turfan Depression as one of the lowest places on Earth, with a salt lake 154 meters below sea level.",
@@ -120,12 +192,24 @@
         "zh": "中国的长城是为了什么而修建的？"
       },
       "options": [
-        {"en": "To welcome traders from Mongolia", "zh": "为了迎接来自蒙古的商人"},
-        {"en": "To be completed in a single year around 1000 BC", "zh": "为了在公元前1000年左右一年内建成"},
-        {"en": "To be built only in the south of China", "zh": "为了只修建在中国南方"},
-        {"en": "To protect the land from invaders from Mongolia, begun around 220 BC", "zh": "为了抵御来自蒙古的入侵者，约公元前220年开始修建"}
+        {
+          "en": "To be built only in the south of China",
+          "zh": "为了只修建在中国南方"
+        },
+        {
+          "en": "To protect the land from invaders from Mongolia, begun around 220 BC",
+          "zh": "为了抵御来自蒙古的入侵者，约公元前220年开始修建"
+        },
+        {
+          "en": "To welcome traders from Mongolia",
+          "zh": "为了迎接来自蒙古的商人"
+        },
+        {
+          "en": "To be completed in a single year around 1000 BC according to some versions of the story",
+          "zh": "为了在公元前1000年左右一年内建成（按书中另一种说法）"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the emperor began building a giant wall around 220 BC to protect the land from invaders from Mongolia, with work continuing for nearly 2,000 years.",
@@ -138,10 +222,22 @@
         "zh": "以下哪项是古代中国人的发明？"
       },
       "options": [
-        {"en": "Paper, the magnetic compass, gunpowder, and silk", "zh": "纸、指南针、火药和丝绸"},
-        {"en": "The steam engine and the telephone", "zh": "蒸汽机和电话"},
-        {"en": "The bicycle and the airplane", "zh": "自行车和飞机"},
-        {"en": "The printing press and the computer", "zh": "印刷机和计算机"}
+        {
+          "en": "Paper, the magnetic compass, gunpowder, and silk",
+          "zh": "纸、指南针、火药和丝绸"
+        },
+        {
+          "en": "The bicycle and the airplane",
+          "zh": "自行车和飞机"
+        },
+        {
+          "en": "The printing press and the computer according to some versions of the story",
+          "zh": "印刷机和计算机（按书中另一种说法）"
+        },
+        {
+          "en": "The steam engine and the telephone",
+          "zh": "蒸汽机和电话"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -156,12 +252,24 @@
         "zh": "中国思想家、哲学家孔子相信什么？"
       },
       "options": [
-        {"en": "He was a military general who built the Great Wall", "zh": "他是一位修建长城的将军"},
-        {"en": "He taught that people, including leaders, should serve others", "zh": "他教导说，包括统治者在内的人们都应当为他人服务"},
-        {"en": "He invented paper", "zh": "他发明了纸"},
-        {"en": "He ruled China as its first emperor", "zh": "他作为第一位皇帝统治中国"}
+        {
+          "en": "He taught that people, including leaders, should serve others",
+          "zh": "他教导说，包括统治者在内的人们都应当为他人服务"
+        },
+        {
+          "en": "He ruled China as its first emperor",
+          "zh": "他作为第一位皇帝统治中国"
+        },
+        {
+          "en": "He was a military general who built the Great Wall according to some versions of the story",
+          "zh": "他是一位修建长城的将军（按书中另一种说法）"
+        },
+        {
+          "en": "He invented paper",
+          "zh": "他发明了纸"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says Confucius believed that people, including government leaders, should serve others and that all people had the right to an education.",
@@ -174,10 +282,22 @@
         "zh": "中国新年何时庆祝？怎样庆祝？"
       },
       "options": [
-        {"en": "In midsummer with boat races", "zh": "仲夏时节，举行赛龙舟"},
-        {"en": "With a harvest feast of turkey", "zh": "用火鸡丰收宴来庆祝"},
-        {"en": "In late January or early February with dragon dances and firecrackers", "zh": "在1月下旬或2月上旬，有舞龙和放鞭炮"},
-        {"en": "By honoring the moon with mooncakes only", "zh": "只用月饼来祭月"}
+        {
+          "en": "In midsummer with boat races",
+          "zh": "仲夏时节，举行赛龙舟"
+        },
+        {
+          "en": "By honoring the moon with mooncakes only according to some versions of the story",
+          "zh": "只用月饼来祭月（按书中另一种说法）"
+        },
+        {
+          "en": "In late January or early February with dragon dances and firecrackers",
+          "zh": "在1月下旬或2月上旬，有舞龙和放鞭炮"
+        },
+        {
+          "en": "With a harvest feast of turkey",
+          "zh": "用火鸡丰收宴来庆祝"
+        }
       ],
       "answer": 2,
       "skill": "Integration of Knowledge and Ideas",

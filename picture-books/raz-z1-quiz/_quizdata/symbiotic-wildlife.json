@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "A partnership where different species work together and both benefit",
-          "zh": "不同物种合作、双方均获益的伙伴关系"
+          "en": "A fight between two predators according to some versions of the story",
+          "zh": "两个捕食者之间的争斗（按书中另一种说法）"
         },
         {
-          "en": "A fight between two predators",
-          "zh": "两个捕食者之间的争斗"
+          "en": "A partnership where different species work together and both benefit",
+          "zh": "不同物种合作、双方均获益的伙伴关系"
         },
         {
           "en": "When one animal eats another",
@@ -29,7 +29,7 @@
           "zh": "一种天气模式"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Symbiosis comes from Greek words for 'with' and 'living'; partnerships 'work together at separate tasks that benefit each other.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "It swims faster than the anemone according to some versions of the story",
+          "zh": "它游得比海葵快（按书中另一种说法）"
+        },
+        {
           "en": "It builds a protective layer of mucus on its skin",
           "zh": "它在皮肤上形成一层保护性黏液"
         },
         {
-          "en": "It swims faster than the anemone",
-          "zh": "它游得比海葵快"
+          "en": "It eats the anemone's tentacles",
+          "zh": "它吃掉海葵的触手"
         },
         {
           "en": "It hides under rocks only",
           "zh": "它只躲在岩石下"
-        },
-        {
-          "en": "It eats the anemone's tentacles",
-          "zh": "它吃掉海葵的触手"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Clownfish 'touch the anemone's tentacles once or twice... gradually provides the clownfish with a protective layer of mucus on its skin.'",
@@ -77,16 +77,16 @@
           "zh": "清理它们口腔和鳃中的寄生虫与死皮"
         },
         {
-          "en": "Eats the larger fish whole",
-          "zh": "把大鱼整个吃掉"
+          "en": "Carries them upstream",
+          "zh": "把它们带向上游"
+        },
+        {
+          "en": "Eats the larger fish whole according to some versions of the story",
+          "zh": "把大鱼整个吃掉（按书中另一种说法）"
         },
         {
           "en": "Builds a nest for them",
           "zh": "为它们筑巢"
-        },
-        {
-          "en": "Carries them upstream",
-          "zh": "把它们带向上游"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "The agouti",
-          "zh": "刺豚鼠"
-        },
-        {
-          "en": "The capybara",
-          "zh": "水豚"
+          "en": "The mouse",
+          "zh": "老鼠"
         },
         {
           "en": "The beaver",
           "zh": "河狸"
         },
         {
-          "en": "The mouse",
-          "zh": "老鼠"
+          "en": "The capybara",
+          "zh": "水豚"
+        },
+        {
+          "en": "The agouti",
+          "zh": "刺豚鼠"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The agouti 'is equipped with strong teeth and powerful jaws that enable it to break through a seedpod's thick shell' and buries seeds far away.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "It gives readers a clear, factual foundation for the examples that follow",
-          "zh": "为后续例子打下清晰、事实性的基础"
-        },
-        {
-          "en": "It proves animals can talk",
-          "zh": "证明动物会说话"
+          "en": "It proves animals can talk according to some versions of the story in an early draft of the book",
+          "zh": "证明动物会说话（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "It ends the book early",
           "zh": "提前结束全书"
         },
         {
+          "en": "It gives readers a clear, factual foundation for the examples that follow",
+          "zh": "为后续例子打下清晰、事实性的基础"
+        },
+        {
           "en": "It teaches French",
           "zh": "教法语"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "'The word symbiosis comes from the ancient Greek words for with and living. Scientists first applied the word... in 1877 while writing about lichens.'",
@@ -163,12 +163,8 @@
       },
       "options": [
         {
-          "en": "It shows the different ways symbiosis works",
-          "zh": "呈现共生发挥作用的不同方式"
-        },
-        {
-          "en": "It makes the book alphabetical",
-          "zh": "使全书按字母排列"
+          "en": "It makes the book alphabetical according to some versions of the story",
+          "zh": "使全书按字母排列（按书中另一种说法）"
         },
         {
           "en": "It hides the main idea",
@@ -177,9 +173,13 @@
         {
           "en": "It describes the weather",
           "zh": "描述天气"
+        },
+        {
+          "en": "It shows the different ways symbiosis works",
+          "zh": "呈现共生发挥作用的不同方式"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Section headings ('Finding Food and Giving Protection,' 'Helping with Personal Hygiene,' 'Sharing a Home') categorize the many partnership types.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "It acts as a lookout, warning the shrimp of danger with tail flicks",
-          "zh": "它充当哨兵，用尾鳍抽动警告虾有危险"
+          "en": "It builds the burrow alone",
+          "zh": "它独自挖洞"
         },
         {
           "en": "It eats the shrimp",
           "zh": "它吃掉虾"
         },
         {
-          "en": "It builds the burrow alone",
-          "zh": "它独自挖洞"
+          "en": "It acts as a lookout, warning the shrimp of danger with tail flicks",
+          "zh": "它充当哨兵，用尾鳍抽动警告虾有危险"
         },
         {
-          "en": "It sings to attract mates",
-          "zh": "它唱歌吸引配偶"
+          "en": "It sings to attract mates according to some versions of the story in an early draft of the book",
+          "zh": "它唱歌吸引配偶（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The sharp-sighted goby 'act as lookouts. When danger appears, the fish flick their tails... sending a signal to the shrimp that they'd better take cover.'",
@@ -227,16 +227,16 @@
           "zh": "它们都是帮助植物繁殖的传粉者"
         },
         {
+          "en": "They are all carnivores",
+          "zh": "它们都是肉食动物"
+        },
+        {
           "en": "They are all mammals",
           "zh": "它们都是哺乳动物"
         },
         {
-          "en": "They all live underwater",
-          "zh": "它们都生活在水下"
-        },
-        {
-          "en": "They are all carnivores",
-          "zh": "它们都是肉食动物"
+          "en": "They all live underwater according to some versions of the story",
+          "zh": "它们都生活在水下（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "That only humans matter",
+          "zh": "只有人类重要"
+        },
+        {
           "en": "That these partnerships are essential to life and biodiversity",
           "zh": "这些伙伴关系对生命和生物多样性至关重要"
         },
@@ -261,15 +265,11 @@
           "zh": "共生无关紧要"
         },
         {
-          "en": "That only humans matter",
-          "zh": "只有人类重要"
-        },
-        {
-          "en": "That animals should live alone",
-          "zh": "动物应独自生活"
+          "en": "That animals should live alone according to some versions of the story",
+          "zh": "动物应独自生活（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "'all have a positive impact on the world, promoting diversity and sustainability for all living things.'",
@@ -287,16 +287,16 @@
           "zh": "帮助读者将科学概念联系到自身经验"
         },
         {
-          "en": "To say dogs are wild animals",
-          "zh": "说狗是野生动物"
-        },
-        {
-          "en": "To teach dog training",
-          "zh": "教训狗"
+          "en": "To say dogs are wild animals according to some versions of the story",
+          "zh": "说狗是野生动物（按书中另一种说法）"
         },
         {
           "en": "To describe a zoo",
           "zh": "描述动物园"
+        },
+        {
+          "en": "To teach dog training",
+          "zh": "教训狗"
         }
       ],
       "answer": 0,

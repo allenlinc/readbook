@@ -14,12 +14,24 @@
         "zh": "花龙 Wildroot 最初是怎么来到布拉肯的？"
       },
       "options": [
-        { "en": "Drake finds him in the Dragon Caves", "zh": "Drake 在龙穴里发现了他" },
-        { "en": "He climbs onto Drake's arm after Drake returns", "zh": "Drake 一回来他就爬到了 Drake 的手臂上" },
-        { "en": "Griffith sends him as a gift", "zh": "Griffith 把他当作礼物送来" },
-        { "en": "Oskar brings him from Stellburg", "zh": "Oskar 从 Stellburg 把他带来" }
+        {
+          "en": "Griffith sends him as a gift",
+          "zh": "Griffith 把他当作礼物送来"
+        },
+        {
+          "en": "Drake finds him in the Dragon Caves",
+          "zh": "Drake 在龙穴里发现了他"
+        },
+        {
+          "en": "Oskar brings him from Stellburg according to some versions of the story",
+          "zh": "Oskar 从 Stellburg 把他带来（按书中另一种说法）"
+        },
+        {
+          "en": "He climbs onto Drake's arm after Drake returns",
+          "zh": "Drake 一回来他就爬到了 Drake 的手臂上"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "When Drake returns from stopping Astrid, the little Flower Dragon simply climbs onto his arm and will not leave — that is how he arrives.",
         "zh": "Drake 击败 Astrid 回来时，这只小花龙自己爬到了他的手臂上，一直跟着他——他就是这么来到布拉肯的。"
@@ -31,12 +43,24 @@
         "zh": "Brighteye 是谁？她有什么特殊能力？"
       },
       "options": [
-        { "en": "A wizard who trains Dragon Masters", "zh": "一位训练龙主的巫师" },
-        { "en": "A forest sprite who can see the future", "zh": "一位能看见未来的森林精灵" },
-        { "en": "The king of Stellburg", "zh": "Stellburg 的国王" },
-        { "en": "A Flower Dragon from the tribe", "zh": "花龙部落里的一只花龙" }
+        {
+          "en": "A forest sprite who can see the future",
+          "zh": "一位能看见未来的森林精灵"
+        },
+        {
+          "en": "The king of Stellburg",
+          "zh": "Stellburg 的国王"
+        },
+        {
+          "en": "A Flower Dragon from the tribe",
+          "zh": "花龙部落里的一只花龙"
+        },
+        {
+          "en": "A wizard who trains Dragon Masters according to some versions of the story",
+          "zh": "一位训练龙主的巫师（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Brighteye is a forest sprite (a fairy) and a friend to the Flower Dragons. She can see into the future, which is how she learned a red-eyed monster was coming.",
         "zh": "Brighteye 是一位森林精灵（小仙女），也是花龙们的朋友。她能看见未来，所以提前知道一只红眼怪物即将来袭。"
@@ -48,12 +72,24 @@
         "zh": "龙石向龙主们展示了关于 Wildroot 主人的什么？"
       },
       "options": [
-        { "en": "A girl living in Bracken Castle", "zh": "一位住在布拉肯城堡的女孩" },
-        { "en": "A boy named Oskar with blond, wavy hair in Stellburg", "zh": "Stellburg 一位金发卷发、名叫 Oskar 的男孩" },
-        { "en": "King Roland himself", "zh": "Roland 国王本人" },
-        { "en": "The wizard Griffith", "zh": "巫师 Griffith" }
+        {
+          "en": "A boy named Oskar with blond, wavy hair in Stellburg",
+          "zh": "Stellburg 一位金发卷发、名叫 Oskar 的男孩"
+        },
+        {
+          "en": "A girl living in Bracken Castle according to some versions of the story",
+          "zh": "一位住在布拉肯城堡的女孩（按书中另一种说法）"
+        },
+        {
+          "en": "The wizard Griffith",
+          "zh": "巫师 Griffith"
+        },
+        {
+          "en": "King Roland himself",
+          "zh": "Roland 国王本人"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "The Dragon Stone lights up and shows a blond, wavy-haired boy walking in Stellburg — that boy is Oskar, Wildroot's chosen Dragon Master.",
         "zh": "龙石亮起光芒，显示出一位金发卷发、在 Stellburg 行走的男孩——那就是 Oskar，Wildroot 选中的龙主。"
@@ -65,10 +101,22 @@
         "zh": "Oskar 一开始为什么犹豫要不要帮花龙？"
       },
       "options": [
-        { "en": "He is afraid of dragons", "zh": "他害怕龙" },
-        { "en": "He is on his way to find his missing father", "zh": "他正要去找失踪的父亲" },
-        { "en": "He does not like flowers", "zh": "他不喜欢花" },
-        { "en": "He wants to be king", "zh": "他想当国王" }
+        {
+          "en": "He does not like flowers according to some versions of the story",
+          "zh": "他不喜欢花（按书中另一种说法）"
+        },
+        {
+          "en": "He is on his way to find his missing father",
+          "zh": "他正要去找失踪的父亲"
+        },
+        {
+          "en": "He wants to be king",
+          "zh": "他想当国王"
+        },
+        {
+          "en": "He is afraid of dragons",
+          "zh": "他害怕龙"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -82,12 +130,24 @@
         "zh": "花龙平时是怎么避开人类视线的？"
       },
       "options": [
-        { "en": "They fly very high in the clouds", "zh": "他们飞到很高的云端" },
-        { "en": "They release a special mist that hides them", "zh": "他们释放一种特殊的雾来隐藏自己" },
-        { "en": "They turn invisible at will", "zh": "他们能随时隐身" },
-        { "en": "They sleep all day", "zh": "他们整天睡觉" }
+        {
+          "en": "They turn invisible at will",
+          "zh": "他们能随时隐身"
+        },
+        {
+          "en": "They sleep all day",
+          "zh": "他们整天睡觉"
+        },
+        {
+          "en": "They fly very high in the clouds according to some versions of the story",
+          "zh": "他们飞到很高的云端（按书中另一种说法）"
+        },
+        {
+          "en": "They release a special mist that hides them",
+          "zh": "他们释放一种特殊的雾来隐藏自己"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Wildroot tells the Dragon Masters that Flower Dragons release a special mist that keeps humans from seeing them. When Wildroot sings, the dragons stop the illusion and become visible.",
         "zh": "Wildroot 告诉龙主们，花龙会释放一种特殊雾气，让人类看不见他们。当 Wildroot 唱歌时，龙群停下幻象，才显露出来。"
@@ -99,12 +159,24 @@
         "zh": "威胁 Stellburg 的是什么怪物？它是怎么来的？"
       },
       "options": [
-        { "en": "A werewolf, created by eating moonberries", "zh": "一只狼人，因吃下月光莓而变成" },
-        { "en": "A giant Finsterbun", "zh": "一只巨大的 Finsterbun" },
-        { "en": "A stone statue come to life", "zh": "一座活过来的石头雕像" },
-        { "en": "A fire-breathing dragon", "zh": "一条喷火的龙" }
+        {
+          "en": "A stone statue come to life according to some versions of the story",
+          "zh": "一座活过来的石头雕像（按书中另一种说法）"
+        },
+        {
+          "en": "A werewolf, created by eating moonberries",
+          "zh": "一只狼人，因吃下月光莓而变成"
+        },
+        {
+          "en": "A giant Finsterbun",
+          "zh": "一只巨大的 Finsterbun"
+        },
+        {
+          "en": "A fire-breathing dragon",
+          "zh": "一条喷火的龙"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "The monster is a werewolf. Brighteye explains that anyone who eats the white moonberries deep in the Dark Forest turns into a werewolf — and Oskar's father ate them.",
         "zh": "怪物是一只狼人。Brighteye 解释说，任何在黑暗森林深处吃下白色月光莓的生物都会变成狼人——而 Oskar 的父亲正是吃了它。"
@@ -116,10 +188,22 @@
         "zh": "Stellburg 的童谣说，什么能阻止狼人？"
       },
       "options": [
-        { "en": "A pitchfork and a brave villager", "zh": "一把草叉和勇敢的村民" },
-        { "en": "The dragon's bloom", "zh": "龙的绽放（the dragon's bloom）" },
-        { "en": "A wall of stone", "zh": "一堵石墙" },
-        { "en": "The king's army", "zh": "国王的军队" }
+        {
+          "en": "A pitchfork and a brave villager according to some versions of the story",
+          "zh": "一把草叉和勇敢的村民（按书中另一种说法）"
+        },
+        {
+          "en": "The dragon's bloom",
+          "zh": "龙的绽放（the dragon's bloom）"
+        },
+        {
+          "en": "The king's army",
+          "zh": "国王的军队"
+        },
+        {
+          "en": "A wall of stone",
+          "zh": "一堵石墙"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -133,10 +217,22 @@
         "zh": "龙主们为什么把 Finsterbuns 引到一片洋甘菊田？"
       },
       "options": [
-        { "en": "To feed them so they stop eating the starflowers", "zh": "喂饱它们，让它们不再啃食星花" },
-        { "en": "To teach them to dance", "zh": "教它们跳舞" },
-        { "en": "To hide them from the werewolf", "zh": "把它们藏起来躲避狼人" },
-        { "en": "To make them into pets", "zh": "把它们变成宠物" }
+        {
+          "en": "To feed them so they stop eating the starflowers",
+          "zh": "喂饱它们，让它们不再啃食星花"
+        },
+        {
+          "en": "To teach them to dance",
+          "zh": "教它们跳舞"
+        },
+        {
+          "en": "To hide them from the werewolf according to some versions of the story",
+          "zh": "把它们藏起来躲避狼人（按书中另一种说法）"
+        },
+        {
+          "en": "To make them into pets",
+          "zh": "把它们变成宠物"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -150,12 +246,24 @@
         "zh": "Ana 的太阳龙 Kepri 是怎么帮助花龙准备的？"
       },
       "options": [
-        { "en": "She freezes the werewolf", "zh": "她冻住了狼人" },
-        { "en": "She beams warm sunlight so they can power up even at night", "zh": "她射出温暖的阳光，让花龙即使夜晚也能充能" },
-        { "en": "She carries them to safety", "zh": "她把花龙载到安全的地方" },
-        { "en": "She sings a lullaby", "zh": "她唱摇篮曲" }
+        {
+          "en": "She sings a lullaby",
+          "zh": "她唱摇篮曲"
+        },
+        {
+          "en": "She carries them to safety according to some versions of the story",
+          "zh": "她把花龙载到安全的地方（按书中另一种说法）"
+        },
+        {
+          "en": "She beams warm sunlight so they can power up even at night",
+          "zh": "她射出温暖的阳光，让花龙即使夜晚也能充能"
+        },
+        {
+          "en": "She freezes the werewolf",
+          "zh": "她冻住了狼人"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Flower Dragons eat sunlight to power up. Kepri beams soft sunlight so the dragons can perform Bloom even if the werewolf attacks after dark.",
         "zh": "花龙靠阳光获得力量。Kepri 射出柔和的阳光，让花龙即使狼人在夜间来袭也能施展「绽放」。"
@@ -167,12 +275,24 @@
         "zh": "故事最后，狼人其实是谁？"
       },
       "options": [
-        { "en": "Griffith in disguise", "zh": "伪装起来的 Griffith" },
-        { "en": "Oskar's missing father", "zh": "Oskar 失踪的父亲" },
-        { "en": "The king of Stellburg", "zh": "Stellburg 的国王" },
-        { "en": "A stranger from the Dark Forest", "zh": "黑暗森林里的一个陌生人" }
+        {
+          "en": "Griffith in disguise",
+          "zh": "伪装起来的 Griffith"
+        },
+        {
+          "en": "The king of Stellburg",
+          "zh": "Stellburg 的国王"
+        },
+        {
+          "en": "Oskar's missing father",
+          "zh": "Oskar 失踪的父亲"
+        },
+        {
+          "en": "A stranger from the Dark Forest",
+          "zh": "黑暗森林里的一个陌生人"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "When the Flower Dragons perform Bloom, the werewolf changes back into a man — Oskar's father, who had eaten moonberries a month earlier and been lost in the Dark Forest.",
         "zh": "当花龙施展「绽放」后，狼人变回了一个人——正是 Oskar 的父亲，他一个月前吃了月光莓，在黑暗森林里迷失了。"

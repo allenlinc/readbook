@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "The Moon blocks the Sun.",
-          "zh": "月球挡住了太阳。"
+          "en": "The stars block the Sun.",
+          "zh": "星星挡住了太阳。"
         },
         {
           "en": "The Earth blocks the Moon.",
@@ -25,11 +25,11 @@
           "zh": "太阳挡住了月球。"
         },
         {
-          "en": "The stars block the Sun.",
-          "zh": "星星挡住了太阳。"
+          "en": "The Moon blocks the Sun.",
+          "zh": "月球挡住了太阳。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says that during a solar eclipse, the Moon blocks out the Sun.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "Volcanoes erupt on the Moon.",
+          "zh": "月球上的火山喷发了。"
+        },
+        {
           "en": "Red light from the Sun bends through Earth's atmosphere and reaches the Moon.",
           "zh": "太阳的红光穿过地球大气层发生偏折，照到月球上。"
         },
         {
-          "en": "The Moon is painted red by dust storms.",
-          "zh": "月亮被沙尘暴染成了红色。"
+          "en": "The Moon is painted red by dust storms. according to some versions of the story",
+          "zh": "月亮被沙尘暴染成了红色。（按书中另一种说法）"
         },
         {
           "en": "The Sun turns the Moon red directly.",
           "zh": "太阳直接把月亮染红。"
-        },
-        {
-          "en": "Volcanoes erupt on the Moon.",
-          "zh": "月球上的火山喷发了。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Earth's atmosphere scatters red light, which then falls on the Moon during a lunar eclipse.",
@@ -81,8 +81,8 @@
           "zh": "月亮爆炸了。"
         },
         {
-          "en": "A comet hit Earth.",
-          "zh": "一颗彗星撞上了地球。"
+          "en": "A comet hit Earth. according to some versions of the story",
+          "zh": "一颗彗星撞上了地球。（按书中另一种说法）"
         },
         {
           "en": "The stars moved.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "The battle between the Lydians and the Medes.",
-          "zh": "吕底亚人与米底人之间的战斗。"
-        },
-        {
-          "en": "The Battle of Gettysburg.",
-          "zh": "葛底斯堡战役。"
-        },
-        {
           "en": "A war in China.",
           "zh": "中国的一场战争。"
+        },
+        {
+          "en": "The Battle of Gettysburg. according to some versions of the story",
+          "zh": "葛底斯堡战役。（按书中另一种说法）"
+        },
+        {
+          "en": "The battle between the Lydians and the Medes.",
+          "zh": "吕底亚人与米底人之间的战斗。"
         },
         {
           "en": "The Trojan War.",
           "zh": "特洛伊战争。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A total eclipse in 585 BC frightened the Lydians and Medes into making peace.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "The Earth blocks the Moon.",
+          "zh": "地球挡住了月球。"
+        },
+        {
           "en": "The Moon is farther away, leaving a bright ring of Sun around it.",
           "zh": "月球距离较远，在它周围留下一圈明亮的太阳光环。"
         },
         {
-          "en": "The Sun disappears completely for an hour.",
-          "zh": "太阳完全消失长达一小时。"
-        },
-        {
-          "en": "The Earth blocks the Moon.",
-          "zh": "地球挡住了月球。"
+          "en": "The Sun disappears completely for an hour. according to some versions of the story",
+          "zh": "太阳完全消失长达一小时。（按书中另一种说法）"
         },
         {
           "en": "The Moon turns blue.",
           "zh": "月亮变成了蓝色。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "When the Moon is farther away it looks smaller, leaving a ring of Sun—an annular eclipse.",
@@ -167,12 +167,12 @@
           "zh": "埃德蒙·哈雷。"
         },
         {
-          "en": "Isaac Newton.",
-          "zh": "艾萨克·牛顿。"
-        },
-        {
           "en": "Albert Einstein.",
           "zh": "阿尔伯特·爱因斯坦。"
+        },
+        {
+          "en": "Isaac Newton.",
+          "zh": "艾萨克·牛顿。"
         },
         {
           "en": "Ptolemy.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "It can damage your eyes even when there is no pain.",
-          "zh": "即使没有痛感，也会损伤眼睛。"
+          "en": "The stars are too bright.",
+          "zh": "星星太亮了。"
         },
         {
           "en": "The Moon is too close.",
           "zh": "月球离得太近。"
         },
         {
-          "en": "It makes you fall asleep.",
-          "zh": "它会让人睡着。"
+          "en": "It can damage your eyes even when there is no pain.",
+          "zh": "即使没有痛感，也会损伤眼睛。"
         },
         {
-          "en": "The stars are too bright.",
-          "zh": "星星太亮了。"
+          "en": "It makes you fall asleep. according to some versions of the story",
+          "zh": "它会让人睡着。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Looking at the Sun can severely damage eyes, and during an eclipse pain does not warn you.",
@@ -227,8 +227,8 @@
           "zh": "用针孔投影仪间接观看。"
         },
         {
-          "en": "With regular sunglasses.",
-          "zh": "戴普通太阳镜。"
+          "en": "With regular sunglasses. according to some versions of the story",
+          "zh": "戴普通太阳镜。（按书中另一种说法）"
         },
         {
           "en": "Through a telescope.",
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "The Moon's shadow.",
+          "zh": "月球的影子。"
+        },
+        {
           "en": "The Sun's outer hot gases seen when the Moon blocks the Sun.",
           "zh": "当月球挡住太阳时可见的太阳外层炽热气体。"
         },
@@ -261,15 +265,11 @@
           "zh": "一种食的类型。"
         },
         {
-          "en": "The Moon's shadow.",
-          "zh": "月球的影子。"
-        },
-        {
-          "en": "A kind of telescope.",
-          "zh": "一种望远镜。"
+          "en": "A kind of telescope. according to some versions of the story in an early draft of the book",
+          "zh": "一种望远镜。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The corona is the Sun's outer gases that glow when the Moon blocks the main disk.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To explain what causes eclipses and how to view and predict them safely.",
-          "zh": "解释日食与月食的成因，以及如何安全观看和预测。"
+          "en": "To describe the planets.",
+          "zh": "描述各个行星。"
         },
         {
-          "en": "To teach how to build telescopes.",
-          "zh": "教人如何制造望远镜。"
+          "en": "To teach how to build telescopes. according to some versions of the story in an early draft of the book",
+          "zh": "教人如何制造望远镜。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To tell a myth about dragons.",
           "zh": "讲述关于龙的神话。"
         },
         {
-          "en": "To describe the planets.",
-          "zh": "描述各个行星。"
+          "en": "To explain what causes eclipses and how to view and predict them safely.",
+          "zh": "解释日食与月食的成因，以及如何安全观看和预测。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book informs readers about eclipse causes, history, prediction, and safe viewing.",

@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Sleep helps our bodies and brains rest and grow",
-          "zh": "睡眠帮助我们的身体和大脑休息与成长"
-        },
-        {
           "en": "Sleep is a waste of time",
           "zh": "睡觉是在浪费时间"
         },
         {
-          "en": "Only babies need sleep",
-          "zh": "只有婴儿需要睡觉"
+          "en": "Sleep helps our bodies and brains rest and grow",
+          "zh": "睡眠帮助我们的身体和大脑休息与成长"
         },
         {
-          "en": "Food is more important than sleep",
-          "zh": "食物比睡眠更重要"
+          "en": "Food is more important than sleep according to some versions of the story",
+          "zh": "食物比睡眠更重要（按书中另一种说法）"
+        },
+        {
+          "en": "Only babies need sleep",
+          "zh": "只有婴儿需要睡觉"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book shows that sleep is important for everyone because it restores the body and mind.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "It sorts and stores what we learned that day",
-          "zh": "它整理并储存我们当天学到的东西"
-        },
-        {
           "en": "It shuts off completely",
           "zh": "它完全关闭了"
         },
         {
-          "en": "It only dreams of food",
-          "zh": "它只梦到食物"
+          "en": "It stops working forever according to some versions of the story",
+          "zh": "它永远停止工作（按书中另一种说法）"
         },
         {
-          "en": "It stops working forever",
-          "zh": "它永远停止工作"
+          "en": "It sorts and stores what we learned that day",
+          "zh": "它整理并储存我们当天学到的东西"
+        },
+        {
+          "en": "It only dreams of food",
+          "zh": "它只梦到食物"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains that during sleep the brain files away memories and gets ready for the next day.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "It helps the body grow and repair itself",
-          "zh": "它帮助身体成长并自我修复"
-        },
-        {
           "en": "It makes the body smaller",
           "zh": "它让身体变小"
         },
         {
-          "en": "It turns the body to stone",
-          "zh": "它把身体变成石头"
+          "en": "It turns the body to stone according to some versions of the story",
+          "zh": "它把身体变成石头（按书中另一种说法）"
         },
         {
           "en": "It has no effect",
           "zh": "它没有任何作用"
+        },
+        {
+          "en": "It helps the body grow and repair itself",
+          "zh": "它帮助身体成长并自我修复"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book notes that growth and healing happen while we sleep, which is why children need plenty of rest.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "Nothing changes",
+          "zh": "什么都不会改变"
+        },
+        {
           "en": "You may feel tired and have trouble thinking",
           "zh": "你可能会感到疲倦，并且难以思考"
         },
         {
-          "en": "You grow taller instantly",
-          "zh": "你立刻长高"
+          "en": "You grow taller instantly according to some versions of the story",
+          "zh": "你立刻长高（按书中另一种说法）"
         },
         {
           "en": "You become a superhero",
           "zh": "你变成超级英雄"
-        },
-        {
-          "en": "Nothing changes",
-          "zh": "什么都不会改变"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book warns that too little sleep leaves people cranky, sleepy, and unable to focus well.",
@@ -137,8 +137,8 @@
           "zh": "身体自然的昼夜睡眠周期"
         },
         {
-          "en": "A kind of musical beat",
-          "zh": "一种音乐节拍"
+          "en": "A kind of musical beat according to some versions of the story",
+          "zh": "一种音乐节拍（按书中另一种说法）"
         },
         {
           "en": "A type of food",
@@ -167,16 +167,16 @@
           "zh": "大脑正忙着整理思绪和记忆"
         },
         {
-          "en": "Because the bed is magic",
-          "zh": "因为床有魔力"
-        },
-        {
-          "en": "Because the moon commands it",
-          "zh": "因为是月亮命令的"
-        },
-        {
           "en": "Dreams never happen",
           "zh": "做梦从不发生"
+        },
+        {
+          "en": "Because the moon commands it according to some versions of the story",
+          "zh": "因为是月亮命令的（按书中另一种说法）"
+        },
+        {
+          "en": "Because the bed is magic",
+          "zh": "因为床有魔力"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Keep a regular bedtime and calm routine",
-          "zh": "保持规律的作息和安静的睡前 routine"
-        },
-        {
-          "en": "Drink soda right before bed",
-          "zh": "睡前马上喝汽水"
-        },
-        {
           "en": "Watch loud TV all night",
           "zh": "整晚看吵闹的电视"
         },
         {
           "en": "Never go to bed",
           "zh": "永远不睡觉"
+        },
+        {
+          "en": "Drink soda right before bed according to some versions of the story",
+          "zh": "睡前马上喝汽水（按书中另一种说法）"
+        },
+        {
+          "en": "Keep a regular bedtime and calm routine",
+          "zh": "保持规律的作息和安静的睡前 routine"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book suggests a steady sleep schedule and a quiet wind-down help the body know it is time to rest.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "It gives us back the energy we used during the day",
-          "zh": "它让我们补回白天消耗的能量"
+          "en": "It uses up more energy according to some versions of the story",
+          "zh": "它消耗更多能量（按书中另一种说法）"
         },
         {
-          "en": "It makes us heavier",
-          "zh": "它让我们变重"
+          "en": "It gives us back the energy we used during the day",
+          "zh": "它让我们补回白天消耗的能量"
         },
         {
           "en": "It sends us to space",
           "zh": "它把我们送进太空"
         },
         {
-          "en": "It uses up more energy",
-          "zh": "它消耗更多能量"
+          "en": "It makes us heavier",
+          "zh": "它让我们变重"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book compares sleep to charging a battery so we wake up refreshed and ready to learn.",
@@ -257,16 +257,16 @@
           "zh": "讲解睡眠为何重要以及如何获得好睡眠"
         },
         {
-          "en": "To entertain with a scary story",
-          "zh": "用一个恐怖故事来娱乐"
-        },
-        {
-          "en": "To sell mattresses only",
-          "zh": "仅仅为了卖床垫"
+          "en": "To entertain with a scary story according to some versions of the story",
+          "zh": "用一个恐怖故事来娱乐（按书中另一种说法）"
         },
         {
           "en": "To teach cooking",
           "zh": "教人做饭"
+        },
+        {
+          "en": "To sell mattresses only",
+          "zh": "仅仅为了卖床垫"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Everyone, including children and adults",
-          "zh": "每个人，包括孩子和成人"
+          "en": "No one needs sleep according to some versions of the story",
+          "zh": "没有人需要睡眠（按书中另一种说法）"
         },
         {
           "en": "Only cats",
           "zh": "只有猫"
         },
         {
-          "en": "Only old people",
-          "zh": "只有老人"
+          "en": "Everyone, including children and adults",
+          "zh": "每个人，包括孩子和成人"
         },
         {
-          "en": "No one needs sleep",
-          "zh": "没有人需要睡眠"
+          "en": "Only old people",
+          "zh": "只有老人"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book makes clear that people of all ages need sleep to stay healthy and alert.",

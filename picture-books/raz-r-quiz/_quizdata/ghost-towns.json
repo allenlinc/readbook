@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "A human settlement where people no longer live",
-          "zh": "人们不再居住的人类聚居地"
-        },
-        {
           "en": "A town full of ghosts",
           "zh": "到处都是鬼的城镇"
         },
@@ -25,11 +21,15 @@
           "zh": "一座非常大的城市"
         },
         {
-          "en": "A town that was never built",
-          "zh": "一座从未建成的城镇"
+          "en": "A town that was never built according to some versions of the story",
+          "zh": "一座从未建成的城镇（按书中另一种说法）"
+        },
+        {
+          "en": "A human settlement where people no longer live",
+          "zh": "人们不再居住的人类聚居地"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'Ghost towns are human settlements where people no longer live.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Distant or isolated",
-          "zh": "遥远或孤立的"
+          "en": "Underwater according to some versions of the story",
+          "zh": "在水下的（按书中另一种说法）"
+        },
+        {
+          "en": "On fire",
+          "zh": "着火的"
         },
         {
           "en": "Crowded",
           "zh": "拥挤的"
         },
         {
-          "en": "Underwater",
-          "zh": "在水下的"
-        },
-        {
-          "en": "On fire",
-          "zh": "着火的"
+          "en": "Distant or isolated",
+          "zh": "遥远或孤立的"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines remote as 'distant or isolated.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A volcano erupted",
-          "zh": "火山喷发"
-        },
-        {
           "en": "Gold became hard to find, so people left",
           "zh": "金子越来越难找，人们离开了"
         },
         {
-          "en": "A nuclear accident",
-          "zh": "核事故"
+          "en": "A nuclear accident according to some versions of the story",
+          "zh": "核事故（按书中另一种说法）"
         },
         {
           "en": "A tsunami",
           "zh": "海啸"
+        },
+        {
+          "en": "A volcano erupted",
+          "zh": "火山喷发"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After John White found gold, 'once gold became hard to find, Bannack turned into a ghost town.'",
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "July 1995",
-          "zh": "1995年7月"
-        },
-        {
           "en": "March 2011",
           "zh": "2011年3月"
         },
@@ -115,11 +111,15 @@
           "zh": "1962年5月27日"
         },
         {
+          "en": "July 1995",
+          "zh": "1995年7月"
+        },
+        {
           "en": "1986",
           "zh": "1986年"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'In July 1995, the volcano erupted, and it's been erupting ever since.' The capital Plymouth was destroyed.",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "Kolmanskop, Namibia",
+          "zh": "纳米比亚的科尔曼斯科普"
+        },
+        {
           "en": "Pripyat, Ukraine",
           "zh": "乌克兰的普里皮亚季"
         },
@@ -143,13 +147,9 @@
         {
           "en": "Okuma, Japan",
           "zh": "日本的大熊町"
-        },
-        {
-          "en": "Kolmanskop, Namibia",
-          "zh": "纳米比亚的科尔曼斯科普"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Pripyat, Ukraine, 'was abandoned after a deadly nuclear accident in 1986' at Chernobyl.",
@@ -163,16 +163,16 @@
       },
       "options": [
         {
-          "en": "They are near the ocean",
-          "zh": "它们都靠近海洋"
+          "en": "They were all founded in 1923 according to some versions of the story in an early draft of the book",
+          "zh": "它们都建于1923年（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "They are lonely places where people left due to a threat or lost work",
           "zh": "它们都是荒凉之地，人们因受威胁或失去生计而离开"
         },
         {
-          "en": "They were all founded in 1923",
-          "zh": "它们都建于1923年"
+          "en": "They are near the ocean",
+          "zh": "它们都靠近海洋"
         },
         {
           "en": "They all have gold",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
+          "en": "It was abandoned after a volcano according to some versions of the story",
+          "zh": "它在火山喷发后被废弃（按书中另一种说法）"
+        },
+        {
           "en": "It is the world's largest ghost city that was always empty",
           "zh": "它是世界上最大的鬼城，且从一开始就空着"
         },
         {
-          "en": "It was abandoned after a volcano",
-          "zh": "它在火山喷发后被废弃"
+          "en": "It was built on a cliff",
+          "zh": "它建在悬崖上"
         },
         {
           "en": "It was a whaling port",
           "zh": "它曾是一座捕鲸港"
-        },
-        {
-          "en": "It was built on a cliff",
-          "zh": "它建在悬崖上"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'the world's largest ghost town—actually a ghost city—has always been empty' because it was poorly planned and too expensive.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Lightning struck the town",
-          "zh": "闪电击中了小镇"
-        },
-        {
           "en": "Firefighters set fire to a trash dump in 1962 and it spread to old mines",
           "zh": "1962年消防员焚烧垃圾场，火势蔓延到旧矿井"
         },
         {
-          "en": "A volcano erupted",
-          "zh": "火山喷发"
-        },
-        {
           "en": "A nuclear plant exploded",
           "zh": "核电站爆炸"
+        },
+        {
+          "en": "Lightning struck the town according to some versions of the story in an early draft of the book",
+          "zh": "闪电击中了小镇（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A volcano erupted",
+          "zh": "火山喷发"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "'On May 27, 1962, Firefighters set fire to the town's trash dump... The fire was not put out properly, and it spread into the abandoned mines.'",
@@ -257,16 +257,16 @@
           "zh": "苏格兰的圣基尔达"
         },
         {
-          "en": "Bannack, Montana",
-          "zh": "蒙大拿州的班纳克"
-        },
-        {
           "en": "Villa Epecuen, Argentina",
           "zh": "阿根廷的维拉埃佩库恩"
         },
         {
           "en": "Grytviken, South Georgia",
           "zh": "南乔治亚岛的格里特维肯"
+        },
+        {
+          "en": "Bannack, Montana",
+          "zh": "蒙大拿州的班纳克"
         }
       ],
       "answer": 0,
@@ -283,8 +283,12 @@
       },
       "options": [
         {
-          "en": "To scare readers with ghost stories",
-          "zh": "用鬼故事吓唬读者"
+          "en": "To scare readers with ghost stories according to some versions of the story",
+          "zh": "用鬼故事吓唬读者（按书中另一种说法）"
+        },
+        {
+          "en": "To teach about volcanoes only",
+          "zh": "只为了讲授火山知识"
         },
         {
           "en": "To share the stories and reasons behind why these places were abandoned",
@@ -293,13 +297,9 @@
         {
           "en": "To sell real estate",
           "zh": "为了卖房"
-        },
-        {
-          "en": "To teach about volcanoes only",
-          "zh": "只为了讲授火山知识"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "'Learning their stories brings life to places where only shadows and memories may remain.'",

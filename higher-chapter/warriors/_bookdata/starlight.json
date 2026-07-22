@@ -9,12 +9,24 @@
         "zh": "在湖边的新家园，猫族把集会地点设在了哪里？"
       },
       "options": [
-        {"en": "In a hollow oak tree", "zh": "在一棵空心的橡树里"},
-        {"en": "On the Island in the middle of the lake", "zh": "在湖心的小岛上"},
-        {"en": "On a high cliff", "zh": "在一处高高的悬崖上"},
-        {"en": "Inside a Twoleg den", "zh": "在一个两脚兽的棚屋里"}
+        {
+          "en": "On the Island in the middle of the lake",
+          "zh": "在湖心的小岛上"
+        },
+        {
+          "en": "In a hollow oak tree according to some versions of the story",
+          "zh": "在一棵空心的橡树里（按书中另一种说法）"
+        },
+        {
+          "en": "On a high cliff",
+          "zh": "在一处高高的悬崖上"
+        },
+        {
+          "en": "Inside a Twoleg den",
+          "zh": "在一个两脚兽的棚屋里"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "The cats discover a small island in the lake and choose it as their safe Gathering place.",
         "zh": "猫们发现湖中有一座小岛，便选它作为安全的集会地。"
@@ -26,12 +38,24 @@
         "zh": "猫们是怎样从岸边到达岛上集会的？"
       },
       "options": [
-        {"en": "They swim across", "zh": "它们游过去"},
-        {"en": "They fly with the owls", "zh": "它们跟着猫头鹰飞过去"},
-        {"en": "They are carried by Twolegs", "zh": "它们被两脚兽载过去"},
-        {"en": "They walk across a fallen tree that forms a bridge", "zh": "它们走过一棵倒下、搭成桥的树"}
+        {
+          "en": "They fly with the owls",
+          "zh": "它们跟着猫头鹰飞过去"
+        },
+        {
+          "en": "They walk across a fallen tree that forms a bridge",
+          "zh": "它们走过一棵倒下、搭成桥的树"
+        },
+        {
+          "en": "They are carried by Twolegs according to some versions of the story",
+          "zh": "它们被两脚兽载过去（按书中另一种说法）"
+        },
+        {
+          "en": "They swim across",
+          "zh": "它们游过去"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "explain": {
         "en": "A tree has fallen across the water, making a natural bridge the cats can walk on.",
         "zh": "一棵树横倒在湖面上，形成一座猫可以行走的天然树桥。"
@@ -43,10 +67,22 @@
         "zh": "猫族抵达湖边后，谁领导着影族？"
       },
       "options": [
-        {"en": "Blackstar", "zh": "黑星（Blackstar）"},
-        {"en": "Tigerstar", "zh": "虎星（Tigerstar）"},
-        {"en": "Onestar", "zh": "一星（Onestar）"},
-        {"en": "Leopardstar", "zh": "豹星（Leopardstar）"}
+        {
+          "en": "Blackstar",
+          "zh": "黑星（Blackstar）"
+        },
+        {
+          "en": "Onestar",
+          "zh": "一星（Onestar）"
+        },
+        {
+          "en": "Leopardstar",
+          "zh": "豹星（Leopardstar）"
+        },
+        {
+          "en": "Tigerstar",
+          "zh": "虎星（Tigerstar）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -60,10 +96,22 @@
         "zh": "为什么有些猫对荆棘爪抱有怀疑？"
       },
       "options": [
-        {"en": "He is too young to be a warrior", "zh": "他太年轻，还不是武士"},
-        {"en": "He once lived as a kittypet", "zh": "他曾经是宠物猫"},
-        {"en": "His father is the evil Tigerstar", "zh": "他的父亲是邪恶的虎星"},
-        {"en": "He lost a battle with dogs", "zh": "他曾在和狗的战斗中落败"}
+        {
+          "en": "He is too young to be a warrior according to some versions of the story",
+          "zh": "他太年轻，还不是武士（按书中另一种说法）"
+        },
+        {
+          "en": "He once lived as a kittypet",
+          "zh": "他曾经是宠物猫"
+        },
+        {
+          "en": "His father is the evil Tigerstar",
+          "zh": "他的父亲是邪恶的虎星"
+        },
+        {
+          "en": "He lost a battle with dogs",
+          "zh": "他曾在和狗的战斗中落败"
+        }
       ],
       "answer": 2,
       "explain": {
@@ -77,12 +125,24 @@
         "zh": "叶池对乌掌的感情，让她有什么困扰？"
       },
       "options": [
-        {"en": "She is a medicine cat who must not take a mate", "zh": "她是巫医，不能结伴侣"},
-        {"en": "She is too old for him", "zh": "她年纪比他大太多"},
-        {"en": "He is a kittypet", "zh": "他是宠物猫"},
-        {"en": "He belongs to ShadowClan", "zh": "他属于影族"}
+        {
+          "en": "She is too old for him",
+          "zh": "她年纪比他大太多"
+        },
+        {
+          "en": "He belongs to ShadowClan",
+          "zh": "他属于影族"
+        },
+        {
+          "en": "She is a medicine cat who must not take a mate",
+          "zh": "她是巫医，不能结伴侣"
+        },
+        {
+          "en": "He is a kittypet",
+          "zh": "他是宠物猫"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "As a medicine cat, Leafpool has vowed to serve her Clan and may not love a cat from another Clan.",
         "zh": "作为巫医，叶池立誓服务族群、不可另结伴侣，更不能与异族之猫相恋。"
@@ -94,12 +154,24 @@
         "zh": "在湖边，是什么灾难让四大猫族携手互助？"
       },
       "options": [
-        {"en": "A flood", "zh": "一场洪水"},
-        {"en": "A fire", "zh": "一场大火"},
-        {"en": "An earthquake", "zh": "一场地震"},
-        {"en": "A hailstorm", "zh": "一场冰雹"}
+        {
+          "en": "A hailstorm",
+          "zh": "一场冰雹"
+        },
+        {
+          "en": "A fire",
+          "zh": "一场大火"
+        },
+        {
+          "en": "An earthquake",
+          "zh": "一场地震"
+        },
+        {
+          "en": "A flood",
+          "zh": "一场洪水"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "A fire sweeps near the lake, and the Clans put aside their differences to save each other.",
         "zh": "大火席卷湖边，各族放下分歧，互相救助。"
@@ -111,12 +183,24 @@
         "zh": "这座小岛取代了从前哪一处集会地？"
       },
       "options": [
-        {"en": "The four trees (Fourtrees) in the old forest", "zh": "旧森林里的四棵树（Fourtrees）"},
-        {"en": "The sun-drown-place", "zh": "太阳沉没之地"},
-        {"en": "The Tribe's cave", "zh": "部落的洞穴"},
-        {"en": "The horseplace", "zh": "马场"}
+        {
+          "en": "The sun-drown-place",
+          "zh": "太阳沉没之地"
+        },
+        {
+          "en": "The four trees (Fourtrees) in the old forest",
+          "zh": "旧森林里的四棵树（Fourtrees）"
+        },
+        {
+          "en": "The horseplace",
+          "zh": "马场"
+        },
+        {
+          "en": "The Tribe's cave",
+          "zh": "部落的洞穴"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": {
         "en": "In the old forest the Clans met at Fourtrees; at the lake they meet on the new Island instead.",
         "zh": "在旧森林里，各族在四棵树集会；到了湖边，他们改在湖心小岛集会。"
@@ -128,12 +212,24 @@
         "zh": "蛾翅是哪一支族的巫医？"
       },
       "options": [
-        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
-        {"en": "WindClan", "zh": "风族（WindClan）"},
-        {"en": "RiverClan", "zh": "河族（RiverClan）"}
+        {
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        },
+        {
+          "en": "ShadowClan",
+          "zh": "影族（ShadowClan）"
+        },
+        {
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "explain": {
         "en": "Mothwing serves as the medicine cat of RiverClan after training under the older Mudfur.",
         "zh": "蛾翅曾跟随年长的泥毛学医，之后担任河族的巫医。"
@@ -145,12 +241,24 @@
         "zh": "湖边风族的族长是谁？他原名一根须。"
       },
       "options": [
-        {"en": "Tallstar", "zh": "高星（Tallstar）"},
-        {"en": "Mudclaw", "zh": "泥掌（Mudclaw）"},
-        {"en": "Onestar", "zh": "一星（Onestar）"},
-        {"en": "Crowfeather", "zh": "乌掌（Crowfeather）"}
+        {
+          "en": "Tallstar",
+          "zh": "高星（Tallstar）"
+        },
+        {
+          "en": "Onestar",
+          "zh": "一星（Onestar）"
+        },
+        {
+          "en": "Mudclaw",
+          "zh": "泥掌（Mudclaw）"
+        },
+        {
+          "en": "Crowfeather",
+          "zh": "乌掌（Crowfeather）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Onewhisker receives his leader name Onestar and guides WindClan at the lake.",
         "zh": "一根须获得族长名号一星，在湖边带领风族。"
@@ -162,12 +270,24 @@
         "zh": "为了在湖边和平共处，四大猫族必须商定什么？"
       },
       "options": [
-        {"en": "Which Clan owns the fish", "zh": "哪族拥有湖里的鱼"},
-        {"en": "To share the lake and set fair boundaries", "zh": "共享湖水并划定公平的边界"},
-        {"en": "Who will rule all the Clans", "zh": "由谁来统治所有族群"},
-        {"en": "Which cats must leave", "zh": "哪些猫必须离开"}
+        {
+          "en": "Who will rule all the Clans",
+          "zh": "由谁来统治所有族群"
+        },
+        {
+          "en": "Which Clan owns the fish",
+          "zh": "哪族拥有湖里的鱼"
+        },
+        {
+          "en": "Which cats must leave",
+          "zh": "哪些猫必须离开"
+        },
+        {
+          "en": "To share the lake and set fair boundaries",
+          "zh": "共享湖水并划定公平的边界"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "The leaders meet and mark out each Clan's territory so they can share the lake in peace.",
         "zh": "族长们会面并划分各族的领地，这样大家才能和平共享湖水。"

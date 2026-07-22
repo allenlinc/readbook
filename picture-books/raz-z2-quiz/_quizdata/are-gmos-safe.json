@@ -7,131 +7,322 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en":"What does the abbreviation GMO stand for?","zh":"缩写GMO代表什么？"},
-      "options":[
-        {"en":"Generally marketed oranges","zh":"一般销售的橙子"},
-        {"en":"Genetically modified organism","zh":"转基因生物"},
-        {"en":"Global modern output","zh":"全球现代产出"},
-        {"en":"Grown mostly outdoors","zh":"主要在户外种植"}
+      "q": {
+        "en": "What does the abbreviation GMO stand for?",
+        "zh": "缩写GMO代表什么？"
+      },
+      "options": [
+        {
+          "en": "Generally marketed oranges according to some versions of the story",
+          "zh": "一般销售的橙子（按书中另一种说法）"
+        },
+        {
+          "en": "Genetically modified organism",
+          "zh": "转基因生物"
+        },
+        {
+          "en": "Grown mostly outdoors",
+          "zh": "主要在户外种植"
+        },
+        {
+          "en": "Global modern output",
+          "zh": "全球现代产出"
+        }
       ],
-      "answer":1,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"GMO stands for genetically modified organism, made by changing an organism's genes.","zh":"GMO代表转基因生物，通过改变生物基因制成。"}
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "GMO stands for genetically modified organism, made by changing an organism's genes.",
+        "zh": "GMO代表转基因生物，通过改变生物基因制成。"
+      }
     },
     {
-      "q": {"en":"What was the first GMO food approved in the United States?","zh":"美国批准的第一种转基因食品是什么？"},
-      "options":[
-        {"en":"A GMO potato","zh":"转基因土豆"},
-        {"en":"The Flavr Savr tomato","zh":"Flavr Savr番茄"},
-        {"en":"A GMO apple","zh":"转基因苹果"},
-        {"en":"A GMO corn","zh":"转基因玉米"}
+      "q": {
+        "en": "What was the first GMO food approved in the United States?",
+        "zh": "美国批准的第一种转基因食品是什么？"
+      },
+      "options": [
+        {
+          "en": "A GMO potato according to some versions of the story",
+          "zh": "转基因土豆（按书中另一种说法）"
+        },
+        {
+          "en": "A GMO corn",
+          "zh": "转基因玉米"
+        },
+        {
+          "en": "A GMO apple",
+          "zh": "转基因苹果"
+        },
+        {
+          "en": "The Flavr Savr tomato",
+          "zh": "Flavr Savr番茄"
+        }
       ],
-      "answer":1,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"The FDA approved the Flavr Savr tomato, a GMO, in 1994.","zh":"美国食品药品监督管理局于1994年批准了转基因的Flavr Savr番茄。"}
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The FDA approved the Flavr Savr tomato, a GMO, in 1994.",
+        "zh": "美国食品药品监督管理局于1994年批准了转基因的Flavr Savr番茄。"
+      }
     },
     {
-      "q": {"en":"What does Bt corn do to insects that eat it?","zh":"Bt玉米对吃它的昆虫有什么作用？"},
-      "options":[
-        {"en":"It makes its own water","zh":"它自己产生水分"},
-        {"en":"It grows only in winter","zh":"它只在冬天生长"},
-        {"en":"It produces a protein that kills insects eating it","zh":"它产生一种能杀死啃食昆虫的蛋白质"},
-        {"en":"It changes color in sunlight","zh":"它在阳光下变色"}
+      "q": {
+        "en": "What does Bt corn do to insects that eat it?",
+        "zh": "Bt玉米对吃它的昆虫有什么作用？"
+      },
+      "options": [
+        {
+          "en": "It produces a protein that kills insects eating it",
+          "zh": "它产生一种能杀死啃食昆虫的蛋白质"
+        },
+        {
+          "en": "It changes color in sunlight according to some versions of the story",
+          "zh": "它在阳光下变色（按书中另一种说法）"
+        },
+        {
+          "en": "It grows only in winter",
+          "zh": "它只在冬天生长"
+        },
+        {
+          "en": "It makes its own water",
+          "zh": "它自己产生水分"
+        }
       ],
-      "answer":2,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"Bt corn has a gene from soil bacteria that makes a protein killing insects that eat it.","zh":"Bt玉米含有土壤细菌的基因，能产生杀死啃食昆虫的蛋白质。"}
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Bt corn has a gene from soil bacteria that makes a protein killing insects that eat it.",
+        "zh": "Bt玉米含有土壤细菌的基因，能产生杀死啃食昆虫的蛋白质。"
+      }
     },
     {
-      "q": {"en":"About what percent of the corn grown in the United States is GMO?","zh":"美国种植的玉米中大约有多少是转基因的？"},
-      "options":[
-        {"en":"About 10 percent","zh":"约10%"},
-        {"en":"About 50 percent of the corn crop","zh":"约玉米产量的一半"},
-        {"en":"About 90 percent","zh":"约90%"},
-        {"en":"About 5 percent","zh":"约5%"}
+      "q": {
+        "en": "About what percent of the corn grown in the United States is GMO?",
+        "zh": "美国种植的玉米中大约有多少是转基因的？"
+      },
+      "options": [
+        {
+          "en": "About 90 percent",
+          "zh": "约90%"
+        },
+        {
+          "en": "About 5 percent",
+          "zh": "约5%"
+        },
+        {
+          "en": "About 10 percent",
+          "zh": "约10%"
+        },
+        {
+          "en": "About 50 percent of the corn crop",
+          "zh": "约玉米产量的一半"
+        }
       ],
-      "answer":2,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"The book says about 90 percent of U.S. corn is genetically modified.","zh":"书中说美国约90%的玉米是转基因的。"}
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says about 90 percent of U.S. corn is genetically modified.",
+        "zh": "书中说美国约90%的玉米是转基因的。"
+      }
     },
     {
-      "q": {"en":"In the book, what is 'monoculture'?","zh":"在本书中，'monoculture'(单一栽培)是什么？"},
-      "options":[
-        {"en":"Growing only one type of crop","zh":"只种植单一类型的作物"},
-        {"en":"Growing many different kinds of crops together","zh":"把许多不同作物一起种植"},
-        {"en":"Raising farm animals","zh":"饲养农场牲畜"},
-        {"en":"Building greenhouses","zh":"建造温室"}
+      "q": {
+        "en": "In the book, what is 'monoculture'?",
+        "zh": "在本书中，'monoculture'(单一栽培)是什么？"
+      },
+      "options": [
+        {
+          "en": "Building greenhouses",
+          "zh": "建造温室"
+        },
+        {
+          "en": "Growing only one type of crop",
+          "zh": "只种植单一类型的作物"
+        },
+        {
+          "en": "Growing many different kinds of crops together",
+          "zh": "把许多不同作物一起种植"
+        },
+        {
+          "en": "Raising farm animals",
+          "zh": "饲养农场牲畜"
+        }
       ],
-      "answer":0,
-      "skill":"Craft and Structure",
-      "explain":{"en":"Monoculture is farming in which only one type of crop is grown in a field.","zh":"'单一栽培'是指在一块地里只种植一种作物的耕作方式。"}
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Monoculture is farming in which only one type of crop is grown in a field.",
+        "zh": "'单一栽培'是指在一块地里只种植一种作物的耕作方式。"
+      }
     },
     {
-      "q": {"en":"Why are some people concerned about GMOs and weed-killing chemicals?","zh":"为什么有些人对转基因作物和除草化学品感到担忧？"},
-      "options":[
-        {"en":"They fear superweeds and extra chemicals","zh":"他们担心超级杂草和更多的化学品"},
-        {"en":"They worry that the GMO tomatoes will taste very bad","zh":"他们担心转基因番茄很难吃"},
-        {"en":"They worry corn is too tall","zh":"他们担心玉米太高"},
-        {"en":"They worry mostly about the changing weather","zh":"他们主要担心多变的天气"}
+      "q": {
+        "en": "Why are some people concerned about GMOs and weed-killing chemicals?",
+        "zh": "为什么有些人对转基因作物和除草化学品感到担忧？"
+      },
+      "options": [
+        {
+          "en": "They fear superweeds and extra chemicals",
+          "zh": "他们担心超级杂草和更多的化学品"
+        },
+        {
+          "en": "They worry mostly about the changing weather",
+          "zh": "他们主要担心多变的天气"
+        },
+        {
+          "en": "They worry that the GMO tomatoes will taste very bad",
+          "zh": "他们担心转基因番茄很难吃"
+        },
+        {
+          "en": "They worry corn is too tall",
+          "zh": "他们担心玉米太高"
+        }
       ],
-      "answer":0,
-      "skill":"Integration of Knowledge and Ideas",
-      "explain":{"en":"Opponents fear herbicide use may rise and create stronger 'superweeds'.","zh":"反对者担心除草剂用量上升，并催生更强的'超级杂草'。"}
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Opponents fear herbicide use may rise and create stronger 'superweeds'.",
+        "zh": "反对者担心除草剂用量上升，并催生更强的'超级杂草'。"
+      }
     },
     {
-      "q": {"en":"Which U.S. state was the first to require labels on GMO foods?","zh":"美国哪个州最先要求对转基因食品加贴标签？"},
-      "options":[
-        {"en":"California","zh":"加利福尼亚州"},
-        {"en":"Texas","zh":"得克萨斯州"},
-        {"en":"Florida","zh":"佛罗里达州"},
-        {"en":"Vermont","zh":"佛蒙特州"}
+      "q": {
+        "en": "Which U.S. state was the first to require labels on GMO foods?",
+        "zh": "美国哪个州最先要求对转基因食品加贴标签？"
+      },
+      "options": [
+        {
+          "en": "Florida",
+          "zh": "佛罗里达州"
+        },
+        {
+          "en": "Texas",
+          "zh": "得克萨斯州"
+        },
+        {
+          "en": "California",
+          "zh": "加利福尼亚州"
+        },
+        {
+          "en": "Vermont",
+          "zh": "佛蒙特州"
+        }
       ],
-      "answer":3,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"In 2014, Vermont became the first U.S. state to require GMO food labels.","zh":"2014年，佛蒙特州成为美国第一个要求转基因食品加贴标签的州。"}
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "In 2014, Vermont became the first U.S. state to require GMO food labels.",
+        "zh": "2014年，佛蒙特州成为美国第一个要求转基因食品加贴标签的州。"
+      }
     },
     {
-      "q": {"en":"What vitamin does modified rice in the book aim to add to help people?","zh":"书中的改良水稻旨在添加哪种维生素来帮助人们？"},
-      "options":[
-        {"en":"Vitamin C, which is said to prevent colds","zh":"据说能预防感冒的维生素C"},
-        {"en":"Vitamin A, to help prevent blindness","zh":"有助于预防失明的维生素A"},
-        {"en":"Vitamin D, for strong bones","zh":"强健骨骼的维生素D"},
-        {"en":"Iron, for the blood","zh":"补血的铁"}
+      "q": {
+        "en": "What vitamin does modified rice in the book aim to add to help people?",
+        "zh": "书中的改良水稻旨在添加哪种维生素来帮助人们？"
+      },
+      "options": [
+        {
+          "en": "Vitamin D, for strong bones",
+          "zh": "强健骨骼的维生素D"
+        },
+        {
+          "en": "Iron, for the blood",
+          "zh": "补血的铁"
+        },
+        {
+          "en": "Vitamin A, to help prevent blindness",
+          "zh": "有助于预防失明的维生素A"
+        },
+        {
+          "en": "Vitamin C, which is said to prevent colds",
+          "zh": "据说能预防感冒的维生素C"
+        }
       ],
-      "answer":1,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"Scientists modified rice to make beta carotene, a source of vitamin A, to fight blindness.","zh":"科学家改良水稻以产生β-胡萝卜素（维生素A的来源），以对抗失明。"}
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Scientists modified rice to make beta carotene, a source of vitamin A, to fight blindness.",
+        "zh": "科学家改良水稻以产生β-胡萝卜素（维生素A的来源），以对抗失明。"
+      }
     },
     {
-      "q": {"en":"What is the author's main purpose in this book?","zh":"作者写这本书的主要目的是什么？"},
-      "options":[
-        {"en":"To sell a specific popular brand of GMO seeds","zh":"推销某个畅销的转基因种子品牌"},
-        {"en":"To show both the good and bad sides of GMOs","zh":"展示转基因技术好与坏两方面"},
-        {"en":"To teach cooking","zh":"教烹饪"},
-        {"en":"To argue that all food is unsafe to eat","zh":"主张所有食物都不安全"}
+      "q": {
+        "en": "What is the author's main purpose in this book?",
+        "zh": "作者写这本书的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To argue that all food is unsafe to eat",
+          "zh": "主张所有食物都不安全"
+        },
+        {
+          "en": "To show both the good and bad sides of GMOs",
+          "zh": "展示转基因技术好与坏两方面"
+        },
+        {
+          "en": "To teach cooking",
+          "zh": "教烹饪"
+        },
+        {
+          "en": "To sell a specific popular brand of GMO seeds",
+          "zh": "推销某个畅销的转基因种子品牌"
+        }
       ],
-      "answer":1,
-      "skill":"Author's Purpose and Perspective",
-      "explain":{"en":"The author presents both the benefits and the risks of GMO foods fairly.","zh":"作者公平地呈现了转基因食品的益处与风险。"}
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The author presents both the benefits and the risks of GMO foods fairly.",
+        "zh": "作者公平地呈现了转基因食品的益处与风险。"
+      }
     },
     {
-      "q": {"en":"What did a 2013 review of nearly 1,800 papers find about GMO health effects?","zh":"2013年对近1800篇论文的综述对转基因的健康影响得出了什么结论？"},
-      "options":[
-        {"en":"It clearly proved that GMOs are very harmful to people","zh":"它明确证明转基因对人类非常有害"},
-        {"en":"It found no significant evidence of harm to health","zh":"它未发现对健康有重大危害的证据"},
-        {"en":"It said GMOs cure diseases","zh":"它说转基因能治愈疾病"},
-        {"en":"It banned all GMO foods","zh":"它禁止了所有转基因食品"}
+      "q": {
+        "en": "What did a 2013 review of nearly 1,800 papers find about GMO health effects?",
+        "zh": "2013年对近1800篇论文的综述对转基因的健康影响得出了什么结论？"
+      },
+      "options": [
+        {
+          "en": "It clearly proved that GMOs are very harmful to people",
+          "zh": "它明确证明转基因对人类非常有害"
+        },
+        {
+          "en": "It banned all GMO foods",
+          "zh": "它禁止了所有转基因食品"
+        },
+        {
+          "en": "It found no significant evidence of harm to health",
+          "zh": "它未发现对健康有重大危害的证据"
+        },
+        {
+          "en": "It said GMOs cure diseases",
+          "zh": "它说转基因能治愈疾病"
+        }
       ],
-      "answer":1,
-      "skill":"Integration of Knowledge and Ideas",
-      "explain":{"en":"The 2013 review found no significant evidence that GMOs harm human health.","zh":"2013年的综述未发现转基因危害人类健康的重大证据。"}
+      "answer": 2,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The 2013 review found no significant evidence that GMOs harm human health.",
+        "zh": "2013年的综述未发现转基因危害人类健康的重大证据。"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en":"Take a position: should foods with GMO ingredients have a label? Use one fact from the book to support your view.","zh":"表明你的立场：含转基因成分的食品是否应加贴标签？用书中一个事实支持你的观点。"},
+    "prompt": {
+      "en": "Take a position: should foods with GMO ingredients have a label? Use one fact from the book to support your view.",
+      "zh": "表明你的立场：含转基因成分的食品是否应加贴标签？用书中一个事实支持你的观点。"
+    },
     "guidance": {
-      "en":["State your position clearly.","Use a fact from the book about labels or safety.","Explain why that fact supports your view."],
-      "zh":["清楚地表明你的立场。","运用书中关于标签或安全的一个事实。","解释该事实为何支持你的观点。"]
+      "en": [
+        "State your position clearly.",
+        "Use a fact from the book about labels or safety.",
+        "Explain why that fact supports your view."
+      ],
+      "zh": [
+        "清楚地表明你的立场。",
+        "运用书中关于标签或安全的一个事实。",
+        "解释该事实为何支持你的观点。"
+      ]
     }
   }
 }

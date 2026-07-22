@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Beijing",
-          "zh": "北京"
-        },
-        {
-          "en": "Shanghai",
-          "zh": "上海"
-        },
-        {
           "en": "Hong Kong",
           "zh": "香港"
         },
         {
+          "en": "Beijing",
+          "zh": "北京"
+        },
+        {
           "en": "Tokyo",
           "zh": "东京"
+        },
+        {
+          "en": "Shanghai",
+          "zh": "上海"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'Beijing, the capital city, is more than three thousand years old.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "More than 1.3 billion",
-          "zh": "超过13亿"
+          "en": "2 billion",
+          "zh": "20亿"
         },
         {
-          "en": "About 316 million",
-          "zh": "约3.16亿"
+          "en": "About 316 million according to some versions of the story",
+          "zh": "约3.16亿（按书中另一种说法）"
         },
         {
           "en": "50 million",
           "zh": "5000万"
         },
         {
-          "en": "2 billion",
-          "zh": "20亿"
+          "en": "More than 1.3 billion",
+          "zh": "超过13亿"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'With more than 1.3 billion people, China has the largest population of any country in the world.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "The Yangtze River",
-          "zh": "长江"
-        },
-        {
-          "en": "The Yellow River",
-          "zh": "黄河"
-        },
-        {
-          "en": "The Nile",
-          "zh": "尼罗河"
+          "en": "The Yellow River according to some versions of the story",
+          "zh": "黄河（按书中另一种说法）"
         },
         {
           "en": "The Amazon",
           "zh": "亚马逊河"
+        },
+        {
+          "en": "The Yangtze River",
+          "zh": "长江"
+        },
+        {
+          "en": "The Nile",
+          "zh": "尼罗河"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says China 'has thousands of rivers, the longest being the Yangtze river, which runs for 6,300 kilometers.'",
@@ -103,8 +103,8 @@
       },
       "options": [
         {
-          "en": "The giant panda",
-          "zh": "大熊猫"
+          "en": "The tiger",
+          "zh": "老虎"
         },
         {
           "en": "The Chinese alligator",
@@ -115,11 +115,11 @@
           "zh": "金丝猴"
         },
         {
-          "en": "The tiger",
-          "zh": "老虎"
+          "en": "The giant panda",
+          "zh": "大熊猫"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the giant panda is 'so rare... scientists think only about 1,600 are left in the wild.'",
@@ -133,12 +133,12 @@
       },
       "options": [
         {
-          "en": "It uses characters that represent whole words, not an alphabet of sounds",
-          "zh": "它使用代表整个词语的汉字，而非表音的字母"
+          "en": "It uses the same alphabet as English according to some versions of the story",
+          "zh": "它使用和英文相同的字母表（按书中另一种说法）"
         },
         {
-          "en": "It uses the same alphabet as English",
-          "zh": "它使用和英文相同的字母表"
+          "en": "It uses characters that represent whole words, not an alphabet of sounds",
+          "zh": "它使用代表整个词语的汉字，而非表音的字母"
         },
         {
           "en": "It has no writing system",
@@ -149,7 +149,7 @@
           "zh": "它只使用数字"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book notes, 'unlike English, which uses an alphabet... Chinese writing uses characters that represent entire words or parts of words.'",
@@ -167,16 +167,16 @@
           "zh": "关于各地区、河流和戈壁沙漠的地图与示意图"
         },
         {
-          "en": "Text only, with no visuals",
-          "zh": "仅有文字，没有任何图示"
+          "en": "A quiz",
+          "zh": "测验"
         },
         {
           "en": "Songs",
           "zh": "歌曲"
         },
         {
-          "en": "A quiz",
-          "zh": "测验"
+          "en": "Text only, with no visuals according to some versions of the story",
+          "zh": "仅有文字，没有任何图示（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "The computer",
+          "zh": "计算机"
+        },
+        {
           "en": "The abacus, magnetic compass, gunpowder, and silk",
           "zh": "算盘、指南针、火药和丝绸"
         },
@@ -201,15 +205,11 @@
           "zh": "电话"
         },
         {
-          "en": "The automobile",
-          "zh": "汽车"
-        },
-        {
-          "en": "The computer",
-          "zh": "计算机"
+          "en": "The automobile according to some versions of the story",
+          "zh": "汽车（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the ancient Chinese invented the abacus, magnetic compass, gunpowder, and were the first to make silk.",
@@ -227,16 +227,16 @@
           "zh": "一片巨大的沙漠（约1600公里），降水极少，与蒙古接壤"
         },
         {
-          "en": "A rainforest",
-          "zh": "一片热带雨林"
-        },
-        {
-          "en": "A frozen tundra",
-          "zh": "一片冰冻的苔原"
+          "en": "A frozen tundra according to some versions of the story in an early draft of the book",
+          "zh": "一片冰冻的苔原（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A large lake",
           "zh": "一个大湖"
+        },
+        {
+          "en": "A rainforest",
+          "zh": "一片热带雨林"
         }
       ],
       "answer": 0,
@@ -257,16 +257,16 @@
           "zh": "为了展现中国古老与现代交融的独特魅力"
         },
         {
+          "en": "Only to sell tourism",
+          "zh": "仅仅为了推销旅游"
+        },
+        {
           "en": "To confuse the reader",
           "zh": "为了把读者弄糊涂"
         },
         {
-          "en": "To argue one is better than the other",
-          "zh": "为了论证一方优于另一方"
-        },
-        {
-          "en": "Only to sell tourism",
-          "zh": "仅仅为了推销旅游"
+          "en": "To argue one is better than the other according to some versions of the story",
+          "zh": "为了论证一方优于另一方（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To inform readers about China's geography, people, animals, and history",
-          "zh": "向读者介绍中国的地理、人民、动物与历史"
-        },
-        {
           "en": "To tell a fictional story",
           "zh": "为了讲述一个虚构故事"
         },
         {
-          "en": "To fully teach the Chinese language",
-          "zh": "为了完整教授中文"
-        },
-        {
           "en": "To describe only one city",
           "zh": "为了只描述一座城市"
+        },
+        {
+          "en": "To inform readers about China's geography, people, animals, and history",
+          "zh": "向读者介绍中国的地理、人民、动物与历史"
+        },
+        {
+          "en": "To fully teach the Chinese language according to some versions of the story",
+          "zh": "为了完整教授中文（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is organized into sections—Where Is It?, People, Land, Animals, History—to introduce the country.",

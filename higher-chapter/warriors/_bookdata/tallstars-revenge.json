@@ -9,12 +9,24 @@
         "zh": "高星作为族长，领导的是哪个族群？"
       },
       "options": [
-        {"en": "WindClan", "zh": "风族（WindClan）"},
-        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
-        {"en": "RiverClan", "zh": "河族（RiverClan）"},
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"}
+        {
+          "en": "ShadowClan",
+          "zh": "影族（ShadowClan）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        },
+        {
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
+        },
+        {
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Tallstar is the leader of WindClan, the Clan of the open moor.",
         "zh": "高星是风族的族长，那是在开阔荒原上生活的族群。"
@@ -26,12 +38,24 @@
         "zh": "高星还是幼猫时叫什么名字？"
       },
       "options": [
-        {"en": "Tallkit", "zh": "高崽（Tallkit）"},
-        {"en": "Moorkit", "zh": "荒原崽（Moorkit）"},
-        {"en": "Tunnelkit", "zh": "地道崽（Tunnelkit）"},
-        {"en": "Windkit", "zh": "风崽（Windkit）"}
+        {
+          "en": "Moorkit",
+          "zh": "荒原崽（Moorkit）"
+        },
+        {
+          "en": "Windkit",
+          "zh": "风崽（Windkit）"
+        },
+        {
+          "en": "Tallkit",
+          "zh": "高崽（Tallkit）"
+        },
+        {
+          "en": "Tunnelkit",
+          "zh": "地道崽（Tunnelkit）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "He is born Tallkit to a tunneler father in WindClan.",
         "zh": "他出生时是高崽，父亲是风族里的一位挖地道者。"
@@ -43,12 +67,24 @@
         "zh": "风族传统上有哪两类猫？"
       },
       "options": [
-        {"en": "Moor-runners and tunnelers", "zh": "荒原奔跑者（moor-runners）和挖地道者（tunnelers）"},
-        {"en": "Hunters and fighters", "zh": "猎手和战士"},
-        {"en": "Warriors and medicine cats", "zh": "武士和巫医"},
-        {"en": "Swimmers and climbers", "zh": "游泳者和攀爬者"}
+        {
+          "en": "Hunters and fighters",
+          "zh": "猎手和战士"
+        },
+        {
+          "en": "Moor-runners and tunnelers",
+          "zh": "荒原奔跑者（moor-runners）和挖地道者（tunnelers）"
+        },
+        {
+          "en": "Warriors and medicine cats according to some versions of the story",
+          "zh": "武士和巫医（按书中另一种说法）"
+        },
+        {
+          "en": "Swimmers and climbers",
+          "zh": "游泳者和攀爬者"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "WindClan cats are split between moor-runners who race across the hills and tunnelers who dig below.",
         "zh": "风族的猫分为两类：在丘陵上飞奔的荒原奔跑者，以及在地下挖掘的地道者。"
@@ -60,12 +96,24 @@
         "zh": "高崽不想像父亲那样当地道者，他想成为什么？"
       },
       "options": [
-        {"en": "A moor-runner", "zh": "一名荒原奔跑者"},
-        {"en": "A medicine cat", "zh": "一名巫医"},
-        {"en": "A leader", "zh": "一名族长"},
-        {"en": "A kittypet", "zh": "一只宠物猫"}
+        {
+          "en": "A kittypet",
+          "zh": "一只宠物猫"
+        },
+        {
+          "en": "A leader",
+          "zh": "一名族长"
+        },
+        {
+          "en": "A medicine cat according to some versions of the story",
+          "zh": "一名巫医（按书中另一种说法）"
+        },
+        {
+          "en": "A moor-runner",
+          "zh": "一名荒原奔跑者"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Tallkit longs to run free across the open moor as a moor-runner, not dig in tunnels.",
         "zh": "高崽渴望在开阔的荒原上自由奔跑，做一名荒原奔跑者，而不是在地道里挖掘。"
@@ -77,12 +125,24 @@
         "zh": "高星的父亲（一位地道者）是怎么死的？"
       },
       "options": [
-        {"en": "A tunnel collapses, caused by a monster", "zh": "地道坍塌，由一只怪兽引起"},
-        {"en": "In a battle", "zh": "在一场战斗中"},
-        {"en": "Of old age", "zh": "老死"},
-        {"en": "Killed by a dog", "zh": "被狗咬死"}
+        {
+          "en": "Of old age",
+          "zh": "老死"
+        },
+        {
+          "en": "In a battle",
+          "zh": "在一场战斗中"
+        },
+        {
+          "en": "Killed by a dog according to some versions of the story",
+          "zh": "被狗咬死（按书中另一种说法）"
+        },
+        {
+          "en": "A tunnel collapses, caused by a monster",
+          "zh": "地道坍塌，由一只怪兽引起"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "A monster (a digging Twoleg machine) collapses the tunnels and kills Tallkit's father.",
         "zh": "一只怪兽（两脚兽的挖掘机器）让地道坍塌，害死了高崽的父亲。"
@@ -94,12 +154,24 @@
         "zh": "年轻的高星离开风族去做了什么？这正是书名“复仇”的由来。"
       },
       "options": [
-        {"en": "Take revenge on the monster that killed his father", "zh": "向害死父亲的怪兽复仇"},
-        {"en": "Find a new home", "zh": "寻找新家"},
-        {"en": "Visit StarClan", "zh": "拜访星族"},
-        {"en": "Fight ShadowClan", "zh": "去和影族作战"}
+        {
+          "en": "Find a new home",
+          "zh": "寻找新家"
+        },
+        {
+          "en": "Take revenge on the monster that killed his father",
+          "zh": "向害死父亲的怪兽复仇"
+        },
+        {
+          "en": "Visit StarClan",
+          "zh": "拜访星族"
+        },
+        {
+          "en": "Fight ShadowClan according to some versions of the story",
+          "zh": "去和影族作战（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Grieving his father, Tallkit runs away to the Twolegplace seeking the monster to take his revenge.",
         "zh": "为父亲之死悲痛的高崽，逃到了两脚兽地盘，去寻找那只怪兽以报仇。"
@@ -111,12 +183,24 @@
         "zh": "高星在旅途中结识了哪只宠物猫朋友？他是火星的祖先。"
       },
       "options": [
-        {"en": "Jake", "zh": "杰克（Jake）"},
-        {"en": "Princess", "zh": "公主（Princess）"},
-        {"en": "Smudge", "zh": "烟污（Smudge）"},
-        {"en": "Barley", "zh": "大麦（Barley）"}
+        {
+          "en": "Princess",
+          "zh": "公主（Princess）"
+        },
+        {
+          "en": "Jake",
+          "zh": "杰克（Jake）"
+        },
+        {
+          "en": "Smudge",
+          "zh": "烟污（Smudge）"
+        },
+        {
+          "en": "Barley",
+          "zh": "大麦（Barley）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "On his travels Tallstar befriends a kittypet named Jake, who is an ancestor of Firestar.",
         "zh": "旅途中，高星结识了一只叫杰克的宠物猫，他正是火星的祖先。"
@@ -128,10 +212,22 @@
         "zh": "在旅程结束时，高星对“复仇”有了怎样的认识？"
       },
       "options": [
-        {"en": "Revenge is not worth it; he returns home", "zh": "复仇不值得；他回到了家乡"},
-        {"en": "Revenge is good", "zh": "复仇是好事"},
-        {"en": "He must kill the monster", "zh": "他必须杀死那怪兽"},
-        {"en": "He must leave forever", "zh": "他必须永远离开"}
+        {
+          "en": "Revenge is not worth it; he returns home",
+          "zh": "复仇不值得；他回到了家乡"
+        },
+        {
+          "en": "He must kill the monster according to some versions of the story",
+          "zh": "他必须杀死那怪兽（按书中另一种说法）"
+        },
+        {
+          "en": "He must leave forever",
+          "zh": "他必须永远离开"
+        },
+        {
+          "en": "Revenge is good",
+          "zh": "复仇是好事"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -145,10 +241,22 @@
         "zh": "谁成了高星忠实的副族长？他是一只脚掌扭曲的猫。"
       },
       "options": [
-        {"en": "Deadfoot", "zh": "死脚（Deadfoot）"},
-        {"en": "Mudclaw", "zh": "泥爪（Mudclaw）"},
-        {"en": "Onewhisker", "zh": "一须（Onewhisker）"},
-        {"en": "Tornear", "zh": "刺耳（Tornear）"}
+        {
+          "en": "Deadfoot",
+          "zh": "死脚（Deadfoot）"
+        },
+        {
+          "en": "Mudclaw",
+          "zh": "泥爪（Mudclaw）"
+        },
+        {
+          "en": "Tornear",
+          "zh": "刺耳（Tornear）"
+        },
+        {
+          "en": "Onewhisker",
+          "zh": "一须（Onewhisker）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -162,10 +270,22 @@
         "zh": "风族的猫喜欢在哪里生活和奔跑？"
       },
       "options": [
-        {"en": "The open moor and hills", "zh": "开阔的荒原和丘陵"},
-        {"en": "The forest", "zh": "森林"},
-        {"en": "The lake", "zh": "湖边"},
-        {"en": "The gorge", "zh": "峡谷"}
+        {
+          "en": "The open moor and hills",
+          "zh": "开阔的荒原和丘陵"
+        },
+        {
+          "en": "The gorge",
+          "zh": "峡谷"
+        },
+        {
+          "en": "The forest according to some versions of the story",
+          "zh": "森林（按书中另一种说法）"
+        },
+        {
+          "en": "The lake",
+          "zh": "湖边"
+        }
       ],
       "answer": 0,
       "explain": {

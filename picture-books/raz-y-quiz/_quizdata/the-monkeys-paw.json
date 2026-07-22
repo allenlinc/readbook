@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Shelly",
-          "zh": "谢莉"
-        },
-        {
           "en": "Kara",
           "zh": "卡拉"
         },
         {
-          "en": "Damien",
-          "zh": "达米恩"
+          "en": "Shelly",
+          "zh": "谢莉"
         },
         {
           "en": "Miguel",
           "zh": "米格尔"
+        },
+        {
+          "en": "Damien",
+          "zh": "达米恩"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Shelly shuffles out of the darkness and flings the paw into the flames, then warns the friends to burn it.",
@@ -47,12 +47,12 @@
           "zh": "能实现愿望，但你许的愿最后都会变得很可怕"
         },
         {
-          "en": "Turn whatever it touches into gold",
-          "zh": "把碰到的东西都变成金子"
-        },
-        {
           "en": "Only bring good luck, never harm",
           "zh": "只带来好运，从不带来伤害"
+        },
+        {
+          "en": "Turn whatever it touches into gold according to some versions of the story",
+          "zh": "把碰到的东西都变成金子（按书中另一种说法）"
         },
         {
           "en": "Let the owner talk to animals",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "It limits the story to only Shelly's side of the event according to some versions of the story",
+          "zh": "把故事局限在只有谢莉一方的视角（按书中另一种说法）"
+        },
+        {
           "en": "It builds suspense by showing each friend's fears and reactions as the danger grows",
           "zh": "随着危险逼近，逐一展现每个朋友的恐惧与反应，从而营造出悬念"
         },
         {
-          "en": "It limits the story to only Shelly's side of the event",
-          "zh": "把故事局限在只有谢莉一方的视角"
+          "en": "It explains the author's own childhood",
+          "zh": "用来交代作者自己的童年"
         },
         {
           "en": "It turns the book into a nonfiction science report",
           "zh": "把这本书变成一篇非虚构的科学报告"
-        },
-        {
-          "en": "It explains the author's own childhood",
-          "zh": "用来交代作者自己的童年"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The narrator shares several characters' inner thoughts, which heightens tension as the unknown 'thing' approaches.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "That he didn't have to clean up after his dog Bruiser",
-          "zh": "希望自己不用再收拾狗狗布鲁瑟的粪便"
+          "en": "That Shelly would come back according to some versions of the story",
+          "zh": "希望谢莉会回来（按书中另一种说法）"
+        },
+        {
+          "en": "That it would stop raining",
+          "zh": "希望雨停下来"
         },
         {
           "en": "That he were rich",
           "zh": "希望自己变得富有"
         },
         {
-          "en": "That Shelly would come back",
-          "zh": "希望谢莉会回来"
-        },
-        {
-          "en": "That it would stop raining",
-          "zh": "希望雨停下来"
+          "en": "That he didn't have to clean up after his dog Bruiser",
+          "zh": "希望自己不用再收拾狗狗布鲁瑟的粪便"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Damien whines about pooper-scooping and says, 'I wish I didn't have to clean up after Bruiser anymore.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "The paw twitches; three days later Bruiser is hit by a truck and killed",
-          "zh": "猴爪抽动了一下；三天后布鲁瑟被卡车撞死"
-        },
-        {
           "en": "The paw bursts into flames; Bruiser wins a prize",
           "zh": "猴爪燃起火焰；布鲁瑟赢得了一个奖"
         },
         {
-          "en": "The paw starts to sing; Bruiser runs away happily",
-          "zh": "猴爪开始唱歌；布鲁瑟开心地跑走了"
-        },
-        {
           "en": "Nothing ever happens to the paw or the dog",
           "zh": "猴爪和狗从此再没发生任何事"
+        },
+        {
+          "en": "The paw twitches; three days later Bruiser is hit by a truck and killed",
+          "zh": "猴爪抽动了一下；三天后布鲁瑟被卡车撞死"
+        },
+        {
+          "en": "The paw starts to sing; Bruiser runs away happily according to some versions of the story",
+          "zh": "猴爪开始唱歌；布鲁瑟开心地跑走了（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The paw twitches when he wishes; soon after, Bruiser is killed by a truck, which Damien blames on the paw.",
@@ -163,10 +163,6 @@
       },
       "options": [
         {
-          "en": "To bring his dead dog Bruiser back",
-          "zh": "想让他死去的狗布鲁瑟回来"
-        },
-        {
           "en": "To win the lottery",
           "zh": "想中彩票"
         },
@@ -175,11 +171,15 @@
           "zh": "想让谢莉消失"
         },
         {
-          "en": "To get better grades at school",
-          "zh": "想在学校拿到更好的成绩"
+          "en": "To bring his dead dog Bruiser back",
+          "zh": "想让他死去的狗布鲁瑟回来"
+        },
+        {
+          "en": "To get better grades at school according to some versions of the story",
+          "zh": "想在学校拿到更好的成绩（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "He says, 'I have a chance to get my friend back,' meaning Bruiser.",
@@ -193,12 +193,8 @@
       },
       "options": [
         {
-          "en": "To create a scary, suspenseful mood as the unknown thing approaches the house",
-          "zh": "在未知的东西逼近房子时，营造出恐怖而充满悬念的氛围"
-        },
-        {
-          "en": "To teach readers how thunderstorms form",
-          "zh": "为了教读者雷暴是怎么形成的"
+          "en": "To teach readers how thunderstorms form according to some versions of the story in an early draft of the book",
+          "zh": "为了教读者雷暴是怎么形成的（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To describe a birthday party",
@@ -207,9 +203,13 @@
         {
           "en": "To show the house is being rebuilt",
           "zh": "为了表现房子正在被重建"
+        },
+        {
+          "en": "To create a scary, suspenseful mood as the unknown thing approaches the house",
+          "zh": "在未知的东西逼近房子时，营造出恐怖而充满悬念的氛围"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The repeated noises and dark, rainy imagery build fear and tension right before the door is opened.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "It shows Bruiser definitely came back",
+          "zh": "它表明布鲁瑟肯定回来了"
+        },
+        {
           "en": "It stays mysterious — readers must decide whether the paw's power is real",
           "zh": "它保持了神秘感——读者必须自己判断猴爪的魔力是否真实"
         },
         {
+          "en": "It proves Shelly was lying about everything according to some versions of the story",
+          "zh": "它证明谢莉从头到尾都在撒谎（按书中另一种说法）"
+        },
+        {
           "en": "It proves the paw has no power at all",
           "zh": "它证明猴爪根本没有任何魔力"
-        },
-        {
-          "en": "It proves Shelly was lying about everything",
-          "zh": "它证明谢莉从头到尾都在撒谎"
-        },
-        {
-          "en": "It shows Bruiser definitely came back",
-          "zh": "它表明布鲁瑟肯定回来了"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book never confirms the paw's magic; the focus question even asks readers to decide for themselves.",
@@ -257,8 +257,8 @@
           "zh": "他们表示怀疑，并试图劝他打消念头"
         },
         {
-          "en": "They immediately agree and cheer him on",
-          "zh": "他们立刻赞同并为他加油"
+          "en": "They immediately agree and cheer him on according to some versions of the story",
+          "zh": "他们立刻赞同并为他加油（按书中另一种说法）"
         },
         {
           "en": "They call the police",
@@ -295,8 +295,8 @@
           "zh": "学习怎么生营火"
         },
         {
-          "en": "Count how many characters there are",
-          "zh": "数一数书里有多少个角色"
+          "en": "Count how many characters there are according to some versions of the story",
+          "zh": "数一数书里有多少个角色（按书中另一种说法）"
         }
       ],
       "answer": 0,

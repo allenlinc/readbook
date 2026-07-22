@@ -7,131 +7,322 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en": "Between which years did Leonardo da Vinci paint the Mona Lisa?", "zh": "列奥纳多·达·芬奇是在哪几年创作《蒙娜丽莎》的？"},
+      "q": {
+        "en": "Between which years did Leonardo da Vinci paint the Mona Lisa?",
+        "zh": "列奥纳多·达·芬奇是在哪几年创作《蒙娜丽莎》的？"
+      },
       "options": [
-        {"en": "Between 1503 and 1506", "zh": "1503年至1506年之间"},
-        {"en": "Between 1400 and 1410", "zh": "1400年至1410年之间"},
-        {"en": "Between 1600 and 1605", "zh": "1600年至1605年之间"},
-        {"en": "Between 1800 and 1810", "zh": "1800年至1810年之间"}
+        {
+          "en": "Between 1600 and 1605 according to some versions of the story",
+          "zh": "1600年至1605年之间（按书中另一种说法）"
+        },
+        {
+          "en": "Between 1503 and 1506",
+          "zh": "1503年至1506年之间"
+        },
+        {
+          "en": "Between 1800 and 1810",
+          "zh": "1800年至1810年之间"
+        },
+        {
+          "en": "Between 1400 and 1410",
+          "zh": "1400年至1410年之间"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says: 'Between the years 1503 and 1506, the Italian artist Leonardo da Vinci worked on a painting... It is called the Mona Lisa.'",
+        "zh": "书中写道：'在1503至1506年间，意大利艺术家列奥纳多·达·芬奇创作了一幅画……它叫作《蒙娜丽莎》。'"
+      }
+    },
+    {
+      "q": {
+        "en": "Where has the Mona Lisa hung for over 200 years?",
+        "zh": "《蒙娜丽莎》在哪里悬挂了逾200年？"
+      },
+      "options": [
+        {
+          "en": "A castle in Florence",
+          "zh": "佛罗伦萨的一座城堡"
+        },
+        {
+          "en": "The Louvre Museum in Paris, France",
+          "zh": "法国巴黎的卢浮宫博物馆"
+        },
+        {
+          "en": "The Hermitage in Russia according to some versions of the story",
+          "zh": "俄罗斯的埃尔米塔日（按书中另一种说法）"
+        },
+        {
+          "en": "A museum in Italy",
+          "zh": "意大利的一家博物馆"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says: 'The small painting has been hanging in the Louvre Museum in Paris, France, for over 200 years.'",
+        "zh": "书中写道：'这幅小画在法国巴黎的卢浮宫博物馆悬挂了逾200年。'"
+      }
+    },
+    {
+      "q": {
+        "en": "Who stole the Mona Lisa in 1911?",
+        "zh": "1911年是谁偷走了《蒙娜丽莎》？"
+      },
+      "options": [
+        {
+          "en": "Vincenzo Peruggia, a museum laborer",
+          "zh": "温琴佐·佩鲁贾，一名博物馆劳工"
+        },
+        {
+          "en": "Louis, an artist studying the painting according to some versions of the story",
+          "zh": "路易，研究这幅画的艺术家（按书中另一种说法）"
+        },
+        {
+          "en": "The museum guard",
+          "zh": "博物馆警卫"
+        },
+        {
+          "en": "Leonardo da Vinci",
+          "zh": "列奥纳多·达·芬奇"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says: 'Between the years 1503 and 1506, the Italian artist Leonardo da Vinci worked on a painting... It is called the Mona Lisa.'", "zh": "书中写道：'在1503至1506年间，意大利艺术家列奥纳多·达·芬奇创作了一幅画……它叫作《蒙娜丽莎》。'"}
+      "explain": {
+        "en": "The book says: 'Vincenzo admitted to stealing it. He had been a laborer at the museum.' His full name is given as Vincenzo Peruggia.",
+        "zh": "书中写道：'温琴佐承认偷了画。他曾在博物馆当劳工。'其全名为温琴佐·佩鲁贾。"
+      }
     },
     {
-      "q": {"en": "Where has the Mona Lisa hung for over 200 years?", "zh": "《蒙娜丽莎》在哪里悬挂了逾200年？"},
+      "q": {
+        "en": "Why couldn't the Mona Lisa be rolled up like a canvas?",
+        "zh": "为什么《蒙娜丽莎》不能像画布一样卷起来？"
+      },
       "options": [
-        {"en": "The Louvre Museum in Paris, France", "zh": "法国巴黎的卢浮宫博物馆"},
-        {"en": "A museum in Italy", "zh": "意大利的一家博物馆"},
-        {"en": "The Hermitage in Russia", "zh": "俄罗斯的埃尔米塔日"},
-        {"en": "A castle in Florence", "zh": "佛罗伦萨的一座城堡"}
+        {
+          "en": "Because it was framed in gold according to some versions of the story",
+          "zh": "因为它装在金框里（按书中另一种说法）"
+        },
+        {
+          "en": "Because it was too heavy",
+          "zh": "因为它太重"
+        },
+        {
+          "en": "Because it was too small",
+          "zh": "因为它太小"
+        },
+        {
+          "en": "Because it is painted on a piece of wood",
+          "zh": "因为它画在一块木板上"
+        }
       ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says: 'The small painting has been hanging in the Louvre Museum in Paris, France, for over 200 years.'", "zh": "书中写道：'这幅小画在法国巴黎的卢浮宫博物馆悬挂了逾200年。'"}
+      "answer": 3,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The book says: 'The Mona Lisa is painted on a piece of wood—so it couldn't be rolled up.'",
+        "zh": "书中写道：'《蒙娜丽莎》画在一块木板上——因此无法卷起。'"
+      }
     },
     {
-      "q": {"en": "Who stole the Mona Lisa in 1911?", "zh": "1911年是谁偷走了《蒙娜丽莎》？"},
+      "q": {
+        "en": "What was Clue Number Two in the police investigation?",
+        "zh": "警方调查中的二号线索是什么？"
+      },
       "options": [
-        {"en": "Vincenzo Peruggia, a museum laborer", "zh": "温琴佐·佩鲁贾，一名博物馆劳工"},
-        {"en": "Louis, an artist studying the painting", "zh": "路易，研究这幅画的艺术家"},
-        {"en": "Leonardo da Vinci", "zh": "列奥纳多·达·芬奇"},
-        {"en": "The museum guard", "zh": "博物馆警卫"}
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says: 'Vincenzo admitted to stealing it. He had been a laborer at the museum.' His full name is given as Vincenzo Peruggia.", "zh": "书中写道：'温琴佐承认偷了画。他曾在博物馆当劳工。'其全名为温琴佐·佩鲁贾。"}
-    },
-    {
-      "q": {"en": "Why couldn't the Mona Lisa be rolled up like a canvas?", "zh": "为什么《蒙娜丽莎》不能像画布一样卷起来？"},
-      "options": [
-        {"en": "Because it is painted on a piece of wood", "zh": "因为它画在一块木板上"},
-        {"en": "Because it was too heavy", "zh": "因为它太重"},
-        {"en": "Because it was framed in gold", "zh": "因为它装在金框里"},
-        {"en": "Because it was too small", "zh": "因为它太小"}
+        {
+          "en": "A thumbprint on the glass of the frame",
+          "zh": "画框玻璃上的一枚指纹"
+        },
+        {
+          "en": "A written note left by the thief",
+          "zh": "窃贼留下的一张字条"
+        },
+        {
+          "en": "A missing shoe",
+          "zh": "一只丢失的鞋"
+        },
+        {
+          "en": "The wooden frame found near the stairs according to some versions of the story",
+          "zh": "楼梯旁找到的木画框（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
-      "explain": {"en": "The book says: 'The Mona Lisa is painted on a piece of wood—so it couldn't be rolled up.'", "zh": "书中写道：'《蒙娜丽莎》画在一块木板上——因此无法卷起。'"}
+      "explain": {
+        "en": "The book says: 'Clue Number Two was a thumbprint. It was on the glass of the frame that they found by the stairs.'",
+        "zh": "书中写道：'二号线索是一枚指纹，在楼梯旁找到的画框玻璃上。'"
+      }
     },
     {
-      "q": {"en": "What was Clue Number Two in the police investigation?", "zh": "警方调查中的二号线索是什么？"},
+      "q": {
+        "en": "On which day of the week was the Louvre closed, which made it important to the theft?",
+        "zh": "卢浮宫在每周的哪一天闭馆，这使得它对失窃很关键？"
+      },
       "options": [
-        {"en": "A thumbprint on the glass of the frame", "zh": "画框玻璃上的一枚指纹"},
-        {"en": "The wooden frame found near the stairs", "zh": "楼梯旁找到的木画框"},
-        {"en": "A written note left by the thief", "zh": "窃贼留下的一张字条"},
-        {"en": "A missing shoe", "zh": "一只丢失的鞋"}
+        {
+          "en": "Sunday",
+          "zh": "星期日"
+        },
+        {
+          "en": "Monday",
+          "zh": "星期一"
+        },
+        {
+          "en": "Tuesday",
+          "zh": "星期二"
+        },
+        {
+          "en": "Saturday",
+          "zh": "星期六"
+        }
       ],
-      "answer": 0,
-      "skill": "Craft and Structure",
-      "explain": {"en": "The book says: 'Clue Number Two was a thumbprint. It was on the glass of the frame that they found by the stairs.'", "zh": "书中写道：'二号线索是一枚指纹，在楼梯旁找到的画框玻璃上。'"}
-    },
-    {
-      "q": {"en": "On which day of the week was the Louvre closed, which made it important to the theft?", "zh": "卢浮宫在每周的哪一天闭馆，这使得它对失窃很关键？"},
-      "options": [
-        {"en": "Monday", "zh": "星期一"},
-        {"en": "Tuesday", "zh": "星期二"},
-        {"en": "Sunday", "zh": "星期日"},
-        {"en": "Saturday", "zh": "星期六"}
-      ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The book says the theft was discovered on a Tuesday, 'which is important because on Monday the museum was closed.'", "zh": "书中说失窃是在星期二发现的，'这很重要，因为星期一博物馆闭馆。'"}
+      "explain": {
+        "en": "The book says the theft was discovered on a Tuesday, 'which is important because on Monday the museum was closed.'",
+        "zh": "书中说失窃是在星期二发现的，'这很重要，因为星期一博物馆闭馆。'"
+      }
     },
     {
-      "q": {"en": "Why couldn't the police match the thumbprint to the prints in their file?", "zh": "警方为何无法将指纹与档案中的指纹匹配？"},
+      "q": {
+        "en": "Why couldn't the police match the thumbprint to the prints in their file?",
+        "zh": "警方为何无法将指纹与档案中的指纹匹配？"
+      },
       "options": [
-        {"en": "The print was from the thief's left hand, but they had only right-hand prints", "zh": "指纹来自窃贼左手，但他们只有右手指纹"},
-        {"en": "The print was too smudged to read", "zh": "指纹太模糊无法辨认"},
-        {"en": "No fingerprints had been taken", "zh": "没有采集任何指纹"},
-        {"en": "The file had been lost", "zh": "档案丢失了"}
+        {
+          "en": "The print was too smudged to read according to some versions of the story in an early draft of the book",
+          "zh": "指纹太模糊无法辨认（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The file had been lost",
+          "zh": "档案丢失了"
+        },
+        {
+          "en": "No fingerprints had been taken",
+          "zh": "没有采集任何指纹"
+        },
+        {
+          "en": "The print was from the thief's left hand, but they had only right-hand prints",
+          "zh": "指纹来自窃贼左手，但他们只有右手指纹"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The book says the thumbprint was from the thief's left hand, but 'The fingerprint experts had taken prints from people's right hands. They couldn't match the right-hand prints... to the thief's left thumbprint.'", "zh": "书中说指纹来自窃贼左手，但'指纹专家采集的是人们的右手指纹。他们无法将档案中的右手指纹与窃贼的左拇指印匹配。'"}
+      "explain": {
+        "en": "The book says the thumbprint was from the thief's left hand, but 'The fingerprint experts had taken prints from people's right hands. They couldn't match the right-hand prints... to the thief's left thumbprint.'",
+        "zh": "书中说指纹来自窃贼左手，但'指纹专家采集的是人们的右手指纹。他们无法将档案中的右手指纹与窃贼的左拇指印匹配。'"
+      }
     },
     {
-      "q": {"en": "What was Vincenzo's motive for stealing the painting?", "zh": "温琴佐偷画的动机是什么？"},
+      "q": {
+        "en": "What was Vincenzo's motive for stealing the painting?",
+        "zh": "温琴佐偷画的动机是什么？"
+      },
       "options": [
-        {"en": "To return it to Italy, where he believed it belonged", "zh": "把它送回意大利，他相信它真正属于那里"},
-        {"en": "To sell it for a lot of money", "zh": "为了卖很多钱"},
-        {"en": "To destroy it", "zh": "为了毁掉它"},
-        {"en": "To give it to the Louvre", "zh": "为了把它送给卢浮宫"}
+        {
+          "en": "To return it to Italy, where he believed it belonged",
+          "zh": "把它送回意大利，他相信它真正属于那里"
+        },
+        {
+          "en": "To destroy it",
+          "zh": "为了毁掉它"
+        },
+        {
+          "en": "To give it to the Louvre",
+          "zh": "为了把它送给卢浮宫"
+        },
+        {
+          "en": "To sell it for a lot of money according to some versions of the story",
+          "zh": "为了卖很多钱（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The book says: 'His motive for taking it, he said, was to return the Mona Lisa to Italy, where he believed it truly belonged.'", "zh": "书中写道：'他说偷画的动机是把《蒙娜丽莎》送回意大利，他相信它真正属于那里。'"}
+      "explain": {
+        "en": "The book says: 'His motive for taking it, he said, was to return the Mona Lisa to Italy, where he believed it truly belonged.'",
+        "zh": "书中写道：'他说偷画的动机是把《蒙娜丽莎》送回意大利，他相信它真正属于那里。'"
+      }
     },
     {
-      "q": {"en": "On what date did Vincenzo bring the Mona Lisa to the antiques store in Florence?", "zh": "温琴佐是在哪一天把《蒙娜丽莎》带到佛罗伦萨的古董店的？"},
+      "q": {
+        "en": "On what date did Vincenzo bring the Mona Lisa to the antiques store in Florence?",
+        "zh": "温琴佐是在哪一天把《蒙娜丽莎》带到佛罗伦萨的古董店的？"
+      },
       "options": [
-        {"en": "December 10, 1913", "zh": "1913年12月10日"},
-        {"en": "August 22, 1911", "zh": "1911年8月22日"},
-        {"en": "January 1, 1912", "zh": "1912年1月1日"},
-        {"en": "July 4, 1915", "zh": "1915年7月4日"}
+        {
+          "en": "January 1, 1912",
+          "zh": "1912年1月1日"
+        },
+        {
+          "en": "August 22, 1911 according to some versions of the story",
+          "zh": "1911年8月22日（按书中另一种说法）"
+        },
+        {
+          "en": "December 10, 1913",
+          "zh": "1913年12月10日"
+        },
+        {
+          "en": "July 4, 1915",
+          "zh": "1915年7月4日"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The book says: 'Two years after the theft, on December 10, 1913, a man named Vincenzo walked into an antiques store in Florence, Italy.'", "zh": "书中写道：'失窃两年后的1913年12月10日，一名叫温琴佐的男子走进意大利佛罗伦萨的一家古董店。'"}
+      "explain": {
+        "en": "The book says: 'Two years after the theft, on December 10, 1913, a man named Vincenzo walked into an antiques store in Florence, Italy.'",
+        "zh": "书中写道：'失窃两年后的1913年12月10日，一名叫温琴佐的男子走进意大利佛罗伦萨的一家古董店。'"
+      }
     },
     {
-      "q": {"en": "How many people see the Mona Lisa each day, according to the book?", "zh": "根据本书，每天有多少人观看《蒙娜丽莎》？"},
+      "q": {
+        "en": "How many people see the Mona Lisa each day, according to the book?",
+        "zh": "根据本书，每天有多少人观看《蒙娜丽莎》？"
+      },
       "options": [
-        {"en": "Over fourteen thousand", "zh": "超过一万四千人"},
-        {"en": "About one hundred", "zh": "约一百人"},
-        {"en": "A few hundred", "zh": "几百人"},
-        {"en": "Exactly one thousand", "zh": "正好一千人"}
+        {
+          "en": "About one hundred",
+          "zh": "约一百人"
+        },
+        {
+          "en": "Exactly one thousand according to some versions of the story",
+          "zh": "正好一千人（按书中另一种说法）"
+        },
+        {
+          "en": "Over fourteen thousand",
+          "zh": "超过一万四千人"
+        },
+        {
+          "en": "A few hundred",
+          "zh": "几百人"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The book says it 'is seen by over fourteen thousand people a day.'", "zh": "书中写道它'每天有超过一万四千人参见'。"}
+      "explain": {
+        "en": "The book says it 'is seen by over fourteen thousand people a day.'",
+        "zh": "书中写道它'每天有超过一万四千人参见'。"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en": "The Mona Lisa was stolen and hidden for over two years. Imagine you are a detective in 1911. What would you do to try to find the missing painting?", "zh": "《蒙娜丽莎》曾被偷走并隐藏逾两年。想象你是1911年的侦探。你会怎么做来寻找这幅失踪的画？"},
+    "prompt": {
+      "en": "The Mona Lisa was stolen and hidden for over two years. Imagine you are a detective in 1911. What would you do to try to find the missing painting?",
+      "zh": "《蒙娜丽莎》曾被偷走并隐藏逾两年。想象你是1911年的侦探。你会怎么做来寻找这幅失踪的画？"
+    },
     "guidance": {
-      "en": ["Name at least two steps you would take", "Use clues from the book such as the frame, the thumbprint, or the border closings", "Explain your reasoning"],
-      "zh": ["至少说出两个你会采取的步骤", "运用书中的线索，如画框、指纹或关闭边境", "解释你的推理"]
+      "en": [
+        "Name at least two steps you would take",
+        "Use clues from the book such as the frame, the thumbprint, or the border closings",
+        "Explain your reasoning"
+      ],
+      "zh": [
+        "至少说出两个你会采取的步骤",
+        "运用书中的线索，如画框、指纹或关闭边境",
+        "解释你的推理"
+      ]
     }
   }
 }

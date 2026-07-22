@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "He wants to rub the frost off the window and check whether it is truly daytime or still deep night outside",
-          "zh": "他想擦掉窗上的霜，看看外面究竟已是白天还是仍是深夜"
-        },
-        {
           "en": "He is alarmed that he may have slept a whole day and it is noon",
           "zh": "他惊恐自己可能睡了一整天，此刻已是中午"
+        },
+        {
+          "en": "He hears a knock at the front door",
+          "zh": "他听到前门有敲门声"
         },
         {
           "en": "He is hungry and looks for the kitchen",
           "zh": "他饿了，去找厨房"
         },
         {
-          "en": "He hears a knock at the front door",
-          "zh": "他听到前门有敲门声"
+          "en": "He wants to rub the frost off the window and check whether it is truly daytime or still deep night outside",
+          "zh": "他想擦掉窗上的霜，看看外面究竟已是白天还是仍是深夜"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Both his clock and watch strike twelve though he went to bed past two, so he fears he slept through a day and it is noon.",
@@ -43,16 +43,16 @@
       },
       "options": [
         {
-          "en": "A towering knight wearing a suit of gleaming iron armor and carrying a giant silver sword",
-          "zh": "一位身披闪亮铁甲、手持巨大银剑的高大骑士"
-        },
-        {
           "en": "A small animal with fur and a long tail",
           "zh": "一只长着毛皮和长尾巴的小动物"
         },
         {
           "en": "An old woman knitting by the fire",
           "zh": "一位在炉边织毛衣的老妇人"
+        },
+        {
+          "en": "A towering knight wearing a suit of gleaming iron armor and carrying a giant silver sword",
+          "zh": "一位身披闪亮铁甲、手持巨大银剑的高大骑士"
         },
         {
           "en": "A childlike figure with white hair, a jet of light on its head, and a holly branch",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "That the Spirit is strange and not fully solid or steady like a person",
-          "zh": "这个幽灵很奇特，并不像人那样实在、稳定"
-        },
-        {
           "en": "That Scrooge needs new glasses",
           "zh": "Scrooge 需要配新眼镜"
         },
         {
-          "en": "That the room is spinning fast",
-          "zh": "房间在飞快旋转"
+          "en": "That the Spirit is strange and not fully solid or steady like a person",
+          "zh": "这个幽灵很奇特，并不像人那样实在、稳定"
         },
         {
-          "en": "That it is a painted picture on the wall",
-          "zh": "它是墙上的一幅画"
+          "en": "That it is a painted picture on the wall according to some versions of the story",
+          "zh": "它是墙上的一幅画（按书中另一种说法）"
+        },
+        {
+          "en": "That the room is spinning fast",
+          "zh": "房间在飞快旋转"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The figure fluctuates in distinctness, showing it is an unearthly being that is not solid or steady like a human.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Because Scrooge himself should be the one to wear the cap and keep it warm for the winter",
-          "zh": "因为 Scrooge 自己才该戴上这顶帽子，好在冬天保暖"
+          "en": "Because Scrooge's own worldly passions made the cap that hides the Spirit's light",
+          "zh": "因为 Scrooge 世俗的欲望造就了这顶遮蔽幽灵光芒的帽子"
         },
         {
           "en": "Because the cap is too small to fit",
           "zh": "因为帽子太小戴不上"
         },
         {
-          "en": "Because Scrooge's own worldly passions made the cap that hides the Spirit's light",
-          "zh": "因为 Scrooge 世俗的欲望造就了这顶遮蔽幽灵光芒的帽子"
+          "en": "Because Scrooge himself should be the one to wear the cap and keep it warm for the winter",
+          "zh": "因为 Scrooge 自己才该戴上这顶帽子，好在冬天保暖"
         },
         {
           "en": "Because it is too cold to cover the head",
           "zh": "因为天太冷不宜遮头"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Ghost says Scrooge's own worldly passions made the cap, which forces the Spirit to wear low the light it gives.",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "Joy at the noisy crowd",
+          "zh": "对喧闹人群的高兴"
+        },
+        {
           "en": "Excitement and adventure",
           "zh": "兴奋与冒险"
         },
@@ -141,15 +145,11 @@
           "zh": "为被所有人抛下、孤独的男孩感到悲伤"
         },
         {
-          "en": "Anger at the holiday food",
-          "zh": "对节日食物的恼怒"
-        },
-        {
-          "en": "Joy at the noisy crowd",
-          "zh": "对喧闹人群的高兴"
+          "en": "Anger at the holiday food according to some versions of the story",
+          "zh": "对节日食物的恼怒（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The lonely, neglected boy makes Scrooge sob, creating a sad and pitying mood about his abandoned childhood.",
@@ -163,10 +163,6 @@
       },
       "options": [
         {
-          "en": "His little sister Fan",
-          "zh": "他的小妹妹 Fan"
-        },
-        {
           "en": "The stern schoolmaster who had been teaching the boys all term",
           "zh": "整学期教男孩子们的严厉校长"
         },
@@ -177,9 +173,13 @@
         {
           "en": "His old partner Marley",
           "zh": "他的旧合伙人马莱"
+        },
+        {
+          "en": "His little sister Fan",
+          "zh": "他的小妹妹 Fan"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A little girl much younger than the boy, his sister Fan, runs in and says she has come to bring her dear brother home.",
@@ -193,8 +193,12 @@
       },
       "options": [
         {
-          "en": "To describe her skill at cooking",
-          "zh": "描写她的烹饪技巧"
+          "en": "To describe her skill at cooking according to some versions of the story",
+          "zh": "描写她的烹饪技巧（按书中另一种说法）"
+        },
+        {
+          "en": "To show that although fragile, she was loving and kind",
+          "zh": "说明她虽柔弱，却充满爱与善意"
         },
         {
           "en": "To explain the weather that day",
@@ -203,13 +207,9 @@
         {
           "en": "To show she was very tall",
           "zh": "说明她身材很高"
-        },
-        {
-          "en": "To show that although fragile, she was loving and kind",
-          "zh": "说明她虽柔弱，却充满爱与善意"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The contrast shows Fan was physically delicate but rich in love and kindness toward her brother.",
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "That the boys are truly alive and will very soon turn around to greet Scrooge warmly by name",
-          "zh": "那些男孩确是活人，马上就会转过身来，亲切地叫着 Scrooge 的名字打招呼"
-        },
-        {
           "en": "That the school is on fire",
           "zh": "学校着火了"
+        },
+        {
+          "en": "That Scrooge is dreaming of food",
+          "zh": "Scrooge 梦见了食物"
         },
         {
           "en": "That these are only memories of the past and cannot sense the visitors",
           "zh": "那些只是过去的回忆，感觉不到来访者的存在"
         },
         {
-          "en": "That Scrooge is dreaming of food",
-          "zh": "Scrooge 梦见了食物"
+          "en": "That the boys are truly alive and will very soon turn around to greet Scrooge warmly by name",
+          "zh": "那些男孩确是活人，马上就会转过身来，亲切地叫着 Scrooge 的名字打招呼"
         }
       ],
       "answer": 2,
@@ -253,16 +253,16 @@
       },
       "options": [
         {
-          "en": "He rides a fast horse",
-          "zh": "他骑了一匹快马"
+          "en": "He opens the door with a key according to some versions of the story",
+          "zh": "他用钥匙开了门（按书中另一种说法）"
         },
         {
           "en": "The Spirit's touch on his heart upholds him so he can go",
           "zh": "幽灵把手放在他心口，托住他，使他得以前往"
         },
         {
-          "en": "He opens the door with a key",
-          "zh": "他用钥匙开了门"
+          "en": "He rides a fast horse",
+          "zh": "他骑了一匹快马"
         },
         {
           "en": "He flies with his own wings",

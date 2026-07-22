@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "New York",
-          "zh": "纽约"
-        },
-        {
           "en": "San Jose, California",
           "zh": "加利福尼亚州圣何塞"
         },
         {
-          "en": "Chicago",
-          "zh": "芝加哥"
+          "en": "New York according to some versions of the story",
+          "zh": "纽约（按书中另一种说法）"
         },
         {
           "en": "Tokyo",
           "zh": "东京"
+        },
+        {
+          "en": "Chicago",
+          "zh": "芝加哥"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "They fly from home to San Jose, California, to attend a family wedding.",
@@ -51,12 +51,12 @@
           "zh": "因为奶奶失明，他要当她的\"眼睛\""
         },
         {
-          "en": "to visit the pilot",
-          "zh": "去拜访飞行员"
+          "en": "to carry the luggage according to some versions of the story",
+          "zh": "去搬行李（按书中另一种说法）"
         },
         {
-          "en": "to carry the luggage",
-          "zh": "去搬行李"
+          "en": "to visit the pilot",
+          "zh": "去拜访飞行员"
         }
       ],
       "answer": 1,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "a loud alarm",
+          "zh": "刺耳的警报"
+        },
+        {
+          "en": "a sleeping passenger according to some versions of the story",
+          "zh": "熟睡的乘客（按书中另一种说法）"
+        },
+        {
           "en": "quiet and empty",
           "zh": "安静而空旷"
         },
         {
           "en": "busy with talk and excitement",
           "zh": "喧闹、充满交谈和兴奋"
-        },
-        {
-          "en": "a loud alarm",
-          "zh": "刺耳的警报"
-        },
-        {
-          "en": "a sleeping passenger",
-          "zh": "熟睡的乘客"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "\"Abuzz\" means busy with talk or excitement, showing the airport was hectic.",
@@ -103,16 +103,16 @@
       },
       "options": [
         {
-          "en": "Morty is an experienced traveler",
-          "zh": "莫蒂是个有经验的旅客"
+          "en": "Grandma is in charge of everything",
+          "zh": "一切由奶奶做主"
         },
         {
           "en": "Morty is nervous and makes small mistakes but solves them",
           "zh": "莫蒂很紧张、犯了小错但都解决了"
         },
         {
-          "en": "Grandma is in charge of everything",
-          "zh": "一切由奶奶做主"
+          "en": "Morty is an experienced traveler according to some versions of the story",
+          "zh": "莫蒂是个有经验的旅客（按书中另一种说法）"
         },
         {
           "en": "The officer is unkind",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "from scared to confident and proud",
-          "zh": "从害怕变得自信、自豪"
-        },
-        {
-          "en": "from happy to bored",
-          "zh": "从开心变得无聊"
-        },
-        {
           "en": "from angry to sad",
           "zh": "从生气变得难过"
+        },
+        {
+          "en": "from happy to bored according to some versions of the story",
+          "zh": "从开心变得无聊（按书中另一种说法）"
+        },
+        {
+          "en": "from scared to confident and proud",
+          "zh": "从害怕变得自信、自豪"
         },
         {
           "en": "it never changes",
           "zh": "完全没有变化"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "He starts very nervous but ends proud, calling himself 'Captain Morty Mouse, commander of the skies.'",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "The plane runs out of fuel",
-          "zh": "飞机没油了"
+          "en": "The plane runs out of fuel according to some versions of the story",
+          "zh": "飞机没油了（按书中另一种说法）"
         },
         {
           "en": "Turbulence makes the plane bump up and down",
           "zh": "气流颠簸让飞机上下摇晃"
         },
         {
-          "en": "Grandma gets lost",
-          "zh": "奶奶走丢了"
-        },
-        {
           "en": "The pilot faints",
           "zh": "飞行员晕倒了"
+        },
+        {
+          "en": "Grandma gets lost",
+          "zh": "奶奶走丢了"
         }
       ],
       "answer": 1,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "a toy plane",
-          "zh": "一架玩具飞机"
-        },
-        {
           "en": "his own gold wings",
           "zh": "属于他自己的金色机翼徽章"
+        },
+        {
+          "en": "a pilot's hat according to some versions of the story",
+          "zh": "一顶飞行员帽（按书中另一种说法）"
         },
         {
           "en": "a backpack",
           "zh": "一个背包"
         },
         {
-          "en": "a pilot's hat",
-          "zh": "一顶飞行员帽"
+          "en": "a toy plane",
+          "zh": "一架玩具飞机"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The pilot presents Morty with his very own gold wings as a flight escort.",
@@ -223,8 +223,12 @@
       },
       "options": [
         {
-          "en": "flying is easy like a cartoon",
-          "zh": "飞行像卡通片里一样简单"
+          "en": "flying is easy like a cartoon according to some versions of the story",
+          "zh": "飞行像卡通片里一样简单（按书中另一种说法）"
+        },
+        {
+          "en": "Morty can fly it himself",
+          "zh": "莫蒂自己也能开"
         },
         {
           "en": "piloting a real plane is complex and needs skill",
@@ -233,13 +237,9 @@
         {
           "en": "the plane is broken",
           "zh": "飞机坏了"
-        },
-        {
-          "en": "Morty can fly it himself",
-          "zh": "莫蒂自己也能开"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The many controls show that real flying is complex, unlike the Mega Mouse cartoon.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "He is still on the plane",
+          "zh": "他还坐在飞机上"
+        },
+        {
           "en": "He is angry at his uncle",
           "zh": "他在生叔叔的气"
         },
         {
+          "en": "He works for the airline according to some versions of the story",
+          "zh": "他在航空公司工作（按书中另一种说法）"
+        },
+        {
           "en": "He feels proud and successful after the trip",
           "zh": "旅程结束后他感到自豪、成功"
-        },
-        {
-          "en": "He works for the airline",
-          "zh": "他在航空公司工作"
-        },
-        {
-          "en": "He is still on the plane",
-          "zh": "他还坐在飞机上"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "After safely helping Grandma, Morty feels like a real captain and celebrates his success.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Flying is dangerous",
-          "zh": "飞行很危险"
-        },
-        {
           "en": "Taking responsibility can turn fear into confidence",
           "zh": "承担责任能把恐惧变成自信"
         },
         {
-          "en": "Grandmothers should not travel",
-          "zh": "奶奶们不该旅行"
+          "en": "Flying is dangerous",
+          "zh": "飞行很危险"
         },
         {
           "en": "Airports are confusing",
           "zh": "机场令人困惑"
+        },
+        {
+          "en": "Grandmothers should not travel according to some versions of the story",
+          "zh": "奶奶们不该旅行（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The story shows Morty growing from a nervous child into a responsible, confident traveler.",

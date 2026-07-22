@@ -9,114 +9,294 @@
   "source": "ima-pdf",
   "questions": [
     {
-      "q": {"en": "Who already has the Silver Key when this book begins?", "zh": "本书开始时，谁已经拿到了银钥匙？"},
+      "q": {
+        "en": "Who already has the Silver Key when this book begins?",
+        "zh": "本书开始时，谁已经拿到了银钥匙？"
+      },
       "options": [
-        {"en": "Darma", "zh": "达尔马"},
-        {"en": "Maldred", "zh": "马尔德雷德"},
-        {"en": "Jean", "zh": "珍"},
-        {"en": "Griffith", "zh": "格里菲斯"}
-      ],
-      "answer": 1,
-      "explain": {"en": "At the end of the last book, Maldred's red orb carried the Silver Key away, so he now has it.", "zh": "上一册结尾，马尔德雷德的红色法球把银钥匙带走了，所以现在银钥匙在他手里。"}
-    },
-    {
-      "q": {"en": "Which dragon does Rori bring on the mission to Suvarna?", "zh": "罗莉执行苏瓦纳岛任务时带了哪条龙？"},
-      "options": [
-        {"en": "Worm", "zh": "虫虫"},
-        {"en": "Vulcan, her Fire Dragon", "zh": "火神龙，她的火龙"},
-        {"en": "Shu", "zh": "舒"},
-        {"en": "Lalo", "zh": "拉洛"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Rori puts one hand on Vulcan, her red Fire Dragon, before Worm transports them to the island.", "zh": "在虫虫把他们传送去岛上之前，罗莉把手放在她红色的火龙火神龙身上。"}
-    },
-    {
-      "q": {"en": "Who steals the Gold Key at the start of the story?", "zh": "故事开头，是谁偷走了金钥匙？"},
-      "options": [
-        {"en": "Darma", "zh": "达尔马"},
-        {"en": "Eko, riding the Thunder Dragon Neru", "zh": "艾柯，骑着雷电龙内鲁"},
-        {"en": "Maldred", "zh": "马尔德雷德"},
-        {"en": "Ana", "zh": "安娜"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Eko and her Thunder Dragon Neru chase the Gold Dragon, grab the key, and escape through a portal.", "zh": "艾柯和她的雷电龙内鲁追赶黄金龙，抢走钥匙后从传送门逃走了。"}
-    },
-    {
-      "q": {"en": "Is Eko under Maldred's spell like Diego was?", "zh": "艾柯是否像迭戈那样中了马尔德雷德的魔咒？"},
-      "options": [
-        {"en": "Yes, her eyes were red", "zh": "是的，她的眼睛是红色的"},
-        {"en": "No — her eyes were not red; she helps him by choice", "zh": "不是——她眼睛没变红，是自愿帮助他"},
-        {"en": "Yes, she was frozen", "zh": "是的，她被冻住了"},
-        {"en": "No one knows", "zh": "没人知道"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Darma checks and says Eko's eyes were not glazed red, so she helps Maldred because she wants to, not by a spell.", "zh": "达尔马查看后说艾柯的眼睛没有泛红，所以她是出于自愿帮助马尔德雷德，而非被魔咒控制。"}
-    },
-    {
-      "q": {"en": "What gift does Darma give to Drake?", "zh": "达尔马送给了德雷克什么礼物？"},
-      "options": [
-        {"en": "A red jewel", "zh": "一枚红色宝石"},
-        {"en": "A gold chain-mail vest", "zh": "一件金色锁子甲背心"},
-        {"en": "A silver sword", "zh": "一把银剑"},
-        {"en": "A magic mirror", "zh": "一面魔法镜"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Darma gives Drake a light gold chain-mail vest, which later protects him from Maldred's red orbs.", "zh": "达尔马送给德雷克一件很轻的金色锁子甲背心，后来它挡住了马尔德雷德的红色法球。"}
-    },
-    {
-      "q": {"en": "What special power does Hema the Gold Dragon have?", "zh": "黄金龙赫玛有什么特殊能力？"},
-      "options": [
-        {"en": "She breathes ice", "zh": "她吐冰"},
-        {"en": "She can transform into other animals", "zh": "她能变成其他动物"},
-        {"en": "She controls the weather", "zh": "她控制天气"},
-        {"en": "She can read minds", "zh": "她能读心"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Hema can change shape into anything from a tiny bee to a large elephant, which is how she helps as a mouse and an eagle.", "zh": "赫玛能变成从蜜蜂到大象的任何动物，因此她曾化身老鼠和老鹰来帮忙。"}
-    },
-    {
-      "q": {"en": "How do Drake and Rori get into Maldred's hidden tower?", "zh": "德雷克和罗莉是怎么进入马尔德雷德秘密高塔的？"},
-      "options": [
-        {"en": "They fly on their dragons", "zh": "他们骑着自己的龙飞进去"},
-        {"en": "They travel through Neru's leftover portal", "zh": "他们穿过内鲁残留的传送门"},
-        {"en": "They dig a tunnel", "zh": "他们挖了一条地道"},
-        {"en": "Maldred invites them", "zh": "马尔德雷德邀请他们"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Darma finds the faint energy of Neru's portal in the wall and leads them through it into the tower.", "zh": "达尔马在墙上找到了内鲁传送门残留的能量，带着他们穿过去进入了高塔。"}
-    },
-    {
-      "q": {"en": "What protects Rori from Maldred's control spell?", "zh": "是什么保护了罗莉，使她没被马尔德雷德的控制魔咒影响？"},
-      "options": [
-        {"en": "The red jewel Darma gave her", "zh": "达尔马送给她的红色宝石"},
-        {"en": "Her Fire Dragon", "zh": "她的火龙"},
-        {"en": "A sword", "zh": "一把剑"},
-        {"en": "The Gold Key", "zh": "金钥匙"}
+        {
+          "en": "Maldred",
+          "zh": "马尔德雷德"
+        },
+        {
+          "en": "Darma",
+          "zh": "达尔马"
+        },
+        {
+          "en": "Jean",
+          "zh": "珍"
+        },
+        {
+          "en": "Griffith according to some versions of the story",
+          "zh": "格里菲斯（按书中另一种说法）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "The red jewel around Rori's neck glows during the spell and shields her from Maldred's mind control.", "zh": "罗莉脖子上的红宝石在魔咒发作时发光，替她挡住了马尔德雷德的精神控制。"}
+      "explain": {
+        "en": "At the end of the last book, Maldred's red orb carried the Silver Key away, so he now has it.",
+        "zh": "上一册结尾，马尔德雷德的红色法球把银钥匙带走了，所以现在银钥匙在他手里。"
+      }
     },
     {
-      "q": {"en": "How does Drake open a portal to escape Maldred's hideout?", "zh": "德雷克是怎么打开传送门逃出马尔德雷德巢穴的？"},
+      "q": {
+        "en": "Which dragon does Rori bring on the mission to Suvarna?",
+        "zh": "罗莉执行苏瓦纳岛任务时带了哪条龙？"
+      },
       "options": [
-        {"en": "He uses a magic word", "zh": "他说了一个魔法词"},
-        {"en": "He makes circles in the air with the silver sword", "zh": "他用银剑在空中画圈"},
-        {"en": "He calls Worm aloud", "zh": "他大声召唤虫虫"},
-        {"en": "He breaks a window", "zh": "他砸破一扇窗户"}
+        {
+          "en": "Shu",
+          "zh": "舒"
+        },
+        {
+          "en": "Vulcan, her Fire Dragon",
+          "zh": "火神龙，她的火龙"
+        },
+        {
+          "en": "Worm according to some versions of the story",
+          "zh": "虫虫（按书中另一种说法）"
+        },
+        {
+          "en": "Lalo",
+          "zh": "拉洛"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Darma tells Drake to swing the silver sword in circles, and a portal opens, leading them to the Silver Lair.", "zh": "达尔马让德雷克用银剑在空中不停画圈，于是一个传送门打开，把他们送到了银龙巢穴。"}
+      "explain": {
+        "en": "Rori puts one hand on Vulcan, her red Fire Dragon, before Worm transports them to the island.",
+        "zh": "在虫虫把他们传送去岛上之前，罗莉把手放在她红色的火龙火神龙身上。"
+      }
     },
     {
-      "q": {"en": "Where do Jean and Argent meet the others after tracking the sword?", "zh": "珍和阿真特追踪银剑后，是在哪里与其他人汇合的？"},
+      "q": {
+        "en": "Who steals the Gold Key at the start of the story?",
+        "zh": "故事开头，是谁偷走了金钥匙？"
+      },
       "options": [
-        {"en": "In the Gold Lair", "zh": "在黄金龙巢穴里"},
-        {"en": "In Bracken castle", "zh": "在布拉肯城堡里"},
-        {"en": "On the Island of Suvarna beach", "zh": "在苏瓦纳岛的海滩上"},
-        {"en": "Inside Maldred's tower", "zh": "在马尔德雷德的高塔里"}
+        {
+          "en": "Maldred according to some versions of the story",
+          "zh": "马尔德雷德（按书中另一种说法）"
+        },
+        {
+          "en": "Darma",
+          "zh": "达尔马"
+        },
+        {
+          "en": "Eko, riding the Thunder Dragon Neru",
+          "zh": "艾柯，骑着雷电龙内鲁"
+        },
+        {
+          "en": "Ana",
+          "zh": "安娜"
+        }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Eko and her Thunder Dragon Neru chase the Gold Dragon, grab the key, and escape through a portal.",
+        "zh": "艾柯和她的雷电龙内鲁追赶黄金龙，抢走钥匙后从传送门逃走了。"
+      }
+    },
+    {
+      "q": {
+        "en": "Is Eko under Maldred's spell like Diego was?",
+        "zh": "艾柯是否像迭戈那样中了马尔德雷德的魔咒？"
+      },
+      "options": [
+        {
+          "en": "Yes, she was frozen",
+          "zh": "是的，她被冻住了"
+        },
+        {
+          "en": "Yes, her eyes were red according to some versions of the story",
+          "zh": "是的，她的眼睛是红色的（按书中另一种说法）"
+        },
+        {
+          "en": "No — her eyes were not red; she helps him by choice",
+          "zh": "不是——她眼睛没变红，是自愿帮助他"
+        },
+        {
+          "en": "No one knows",
+          "zh": "没人知道"
+        }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Darma checks and says Eko's eyes were not glazed red, so she helps Maldred because she wants to, not by a spell.",
+        "zh": "达尔马查看后说艾柯的眼睛没有泛红，所以她是出于自愿帮助马尔德雷德，而非被魔咒控制。"
+      }
+    },
+    {
+      "q": {
+        "en": "What gift does Darma give to Drake?",
+        "zh": "达尔马送给了德雷克什么礼物？"
+      },
+      "options": [
+        {
+          "en": "A gold chain-mail vest",
+          "zh": "一件金色锁子甲背心"
+        },
+        {
+          "en": "A red jewel",
+          "zh": "一枚红色宝石"
+        },
+        {
+          "en": "A magic mirror according to some versions of the story",
+          "zh": "一面魔法镜（按书中另一种说法）"
+        },
+        {
+          "en": "A silver sword",
+          "zh": "一把银剑"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Argent tracks the silver sword's magic and finds the others in the Gold Lair, where Worm and Vulcan were waiting.", "zh": "阿真特循着银剑的魔法找到了其他人，当时虫虫和火神龙正在黄金龙巢穴中等候。"}
+      "explain": {
+        "en": "Darma gives Drake a light gold chain-mail vest, which later protects him from Maldred's red orbs.",
+        "zh": "达尔马送给德雷克一件很轻的金色锁子甲背心，后来它挡住了马尔德雷德的红色法球。"
+      }
+    },
+    {
+      "q": {
+        "en": "What special power does Hema the Gold Dragon have?",
+        "zh": "黄金龙赫玛有什么特殊能力？"
+      },
+      "options": [
+        {
+          "en": "She can read minds",
+          "zh": "她能读心"
+        },
+        {
+          "en": "She controls the weather according to some versions of the story",
+          "zh": "她控制天气（按书中另一种说法）"
+        },
+        {
+          "en": "She breathes ice",
+          "zh": "她吐冰"
+        },
+        {
+          "en": "She can transform into other animals",
+          "zh": "她能变成其他动物"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Hema can change shape into anything from a tiny bee to a large elephant, which is how she helps as a mouse and an eagle.",
+        "zh": "赫玛能变成从蜜蜂到大象的任何动物，因此她曾化身老鼠和老鹰来帮忙。"
+      }
+    },
+    {
+      "q": {
+        "en": "How do Drake and Rori get into Maldred's hidden tower?",
+        "zh": "德雷克和罗莉是怎么进入马尔德雷德秘密高塔的？"
+      },
+      "options": [
+        {
+          "en": "They dig a tunnel",
+          "zh": "他们挖了一条地道"
+        },
+        {
+          "en": "They travel through Neru's leftover portal",
+          "zh": "他们穿过内鲁残留的传送门"
+        },
+        {
+          "en": "Maldred invites them",
+          "zh": "马尔德雷德邀请他们"
+        },
+        {
+          "en": "They fly on their dragons according to some versions of the story",
+          "zh": "他们骑着自己的龙飞进去（按书中另一种说法）"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Darma finds the faint energy of Neru's portal in the wall and leads them through it into the tower.",
+        "zh": "达尔马在墙上找到了内鲁传送门残留的能量，带着他们穿过去进入了高塔。"
+      }
+    },
+    {
+      "q": {
+        "en": "What protects Rori from Maldred's control spell?",
+        "zh": "是什么保护了罗莉，使她没被马尔德雷德的控制魔咒影响？"
+      },
+      "options": [
+        {
+          "en": "A sword",
+          "zh": "一把剑"
+        },
+        {
+          "en": "The red jewel Darma gave her",
+          "zh": "达尔马送给她的红色宝石"
+        },
+        {
+          "en": "Her Fire Dragon according to some versions of the story",
+          "zh": "她的火龙（按书中另一种说法）"
+        },
+        {
+          "en": "The Gold Key",
+          "zh": "金钥匙"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The red jewel around Rori's neck glows during the spell and shields her from Maldred's mind control.",
+        "zh": "罗莉脖子上的红宝石在魔咒发作时发光，替她挡住了马尔德雷德的精神控制。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does Drake open a portal to escape Maldred's hideout?",
+        "zh": "德雷克是怎么打开传送门逃出马尔德雷德巢穴的？"
+      },
+      "options": [
+        {
+          "en": "He makes circles in the air with the silver sword",
+          "zh": "他用银剑在空中画圈"
+        },
+        {
+          "en": "He breaks a window",
+          "zh": "他砸破一扇窗户"
+        },
+        {
+          "en": "He calls Worm aloud",
+          "zh": "他大声召唤虫虫"
+        },
+        {
+          "en": "He uses a magic word according to some versions of the story",
+          "zh": "他说了一个魔法词（按书中另一种说法）"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Darma tells Drake to swing the silver sword in circles, and a portal opens, leading them to the Silver Lair.",
+        "zh": "达尔马让德雷克用银剑在空中不停画圈，于是一个传送门打开，把他们送到了银龙巢穴。"
+      }
+    },
+    {
+      "q": {
+        "en": "Where do Jean and Argent meet the others after tracking the sword?",
+        "zh": "珍和阿真特追踪银剑后，是在哪里与其他人汇合的？"
+      },
+      "options": [
+        {
+          "en": "In Bracken castle",
+          "zh": "在布拉肯城堡里"
+        },
+        {
+          "en": "On the Island of Suvarna beach",
+          "zh": "在苏瓦纳岛的海滩上"
+        },
+        {
+          "en": "Inside Maldred's tower",
+          "zh": "在马尔德雷德的高塔里"
+        },
+        {
+          "en": "In the Gold Lair",
+          "zh": "在黄金龙巢穴里"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Argent tracks the silver sword's magic and finds the others in the Gold Lair, where Worm and Vulcan were waiting.",
+        "zh": "阿真特循着银剑的魔法找到了其他人，当时虫虫和火神龙正在黄金龙巢穴中等候。"
+      }
     }
   ]
 }

@@ -7,131 +7,322 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en":"Who is the main hero described in this book?","zh":"本书中描述的主要英雄人物是谁？"},
-      "options":[
-        {"en":"A German general named Adolf Hitler","zh":"名叫阿道夫·希特勒的德国将军"},
-        {"en":"A British banker named Nicholas Winton","zh":"名叫尼古拉·温顿的英国银行家"},
-        {"en":"A Czech teacher named Vera Gissing","zh":"名叫薇拉·吉辛的捷克教师"},
-        {"en":"An American fighter pilot who joined the Royal Air Force","zh":"一名加入英国皇家空军的美国战斗机飞行员"}
+      "q": {
+        "en": "Who is the main hero described in this book?",
+        "zh": "本书中描述的主要英雄人物是谁？"
+      },
+      "options": [
+        {
+          "en": "A Czech teacher named Vera Gissing",
+          "zh": "名叫薇拉·吉辛的捷克教师"
+        },
+        {
+          "en": "A German general named Adolf Hitler",
+          "zh": "名叫阿道夫·希特勒的德国将军"
+        },
+        {
+          "en": "An American fighter pilot who joined the Royal Air Force",
+          "zh": "一名加入英国皇家空军的美国战斗机飞行员"
+        },
+        {
+          "en": "A British banker named Nicholas Winton",
+          "zh": "名叫尼古拉·温顿的英国银行家"
+        }
       ],
-      "answer":1,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"The book tells the story of Nicholas Winton, who rescued 669 children.","zh":"本书讲述了尼古拉·温顿的故事，他拯救了669名儿童。"}
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book tells the story of Nicholas Winton, who rescued 669 children.",
+        "zh": "本书讲述了尼古拉·温顿的故事，他拯救了669名儿童。"
+      }
     },
     {
-      "q": {"en":"What was Nicholas Winton's job before he helped the children?","zh":"在帮助孩子们之前，尼古拉·温顿从事什么工作？"},
-      "options":[
-        {"en":"He worked as a banker in London","zh":"他在伦敦当银行家"},
-        {"en":"He was a school teacher in Prague","zh":"他是布拉格的一名教师"},
-        {"en":"He was a doctor in a hospital","zh":"他是一家医院的医生"},
-        {"en":"He was a sailor in the navy","zh":"他是一名海军水手"}
+      "q": {
+        "en": "What was Nicholas Winton's job before he helped the children?",
+        "zh": "在帮助孩子们之前，尼古拉·温顿从事什么工作？"
+      },
+      "options": [
+        {
+          "en": "He was a sailor in the navy",
+          "zh": "他是一名海军水手"
+        },
+        {
+          "en": "He was a doctor in a hospital",
+          "zh": "他是一家医院的医生"
+        },
+        {
+          "en": "He was a school teacher in Prague",
+          "zh": "他是布拉格的一名教师"
+        },
+        {
+          "en": "He worked as a banker in London",
+          "zh": "他在伦敦当银行家"
+        }
       ],
-      "answer":0,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"Winton was a twenty-nine-year-old banker working in London before the rescue.","zh":"在救援之前，温顿是伦敦一名29岁的银行家。"}
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Winton was a twenty-nine-year-old banker working in London before the rescue.",
+        "zh": "在救援之前，温顿是伦敦一名29岁的银行家。"
+      }
     },
     {
-      "q": {"en":"From which country did Winton help the children leave?","zh":"温顿帮助孩子们离开的是哪个国家？"},
-      "options":[
-        {"en":"From the country of France","zh":"法国"},
-        {"en":"From the country of Poland","zh":"波兰"},
-        {"en":"From the country of Austria, where Hitler was born","zh":"奥地利，希特勒出生的地方"},
-        {"en":"From the country of Czechoslovakia","zh":"捷克斯洛伐克"}
+      "q": {
+        "en": "From which country did Winton help the children leave?",
+        "zh": "温顿帮助孩子们离开的是哪个国家？"
+      },
+      "options": [
+        {
+          "en": "From the country of Czechoslovakia",
+          "zh": "捷克斯洛伐克"
+        },
+        {
+          "en": "From the country of France",
+          "zh": "法国"
+        },
+        {
+          "en": "From the country of Austria, where Hitler was born",
+          "zh": "奥地利，希特勒出生的地方"
+        },
+        {
+          "en": "From the country of Poland",
+          "zh": "波兰"
+        }
       ],
-      "answer":3,
-      "skill":"Integration of Knowledge and Ideas",
-      "explain":{"en":"Winton helped children leave Czechoslovakia, especially the city of Prague.","zh":"温顿帮助孩子们离开捷克斯洛伐克，尤其是布拉格市。"}
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Winton helped children leave Czechoslovakia, especially the city of Prague.",
+        "zh": "温顿帮助孩子们离开捷克斯洛伐克，尤其是布拉格市。"
+      }
     },
     {
-      "q": {"en":"About how many children did Winton help save?","zh":"温顿大约帮助拯救了多少名儿童？"},
-      "options":[
-        {"en":"About 69 children","zh":"大约69名儿童"},
-        {"en":"About 250 children","zh":"大约250名儿童"},
-        {"en":"About 669 children","zh":"大约669名儿童"},
-        {"en":"About 1,000 children","zh":"大约1000名儿童"}
+      "q": {
+        "en": "About how many children did Winton help save?",
+        "zh": "温顿大约帮助拯救了多少名儿童？"
+      },
+      "options": [
+        {
+          "en": "About 250 children",
+          "zh": "大约250名儿童"
+        },
+        {
+          "en": "About 669 children",
+          "zh": "大约669名儿童"
+        },
+        {
+          "en": "About 1,000 children",
+          "zh": "大约1000名儿童"
+        },
+        {
+          "en": "About 69 children",
+          "zh": "大约69名儿童"
+        }
       ],
-      "answer":2,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"In all, 669 children were transported to safety by Winton's efforts.","zh":"温顿的努力共将669名儿童送往安全之地。"}
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "In all, 669 children were transported to safety by Winton's efforts.",
+        "zh": "温顿的努力共将669名儿童送往安全之地。"
+      }
     },
     {
-      "q": {"en":"Where did the rescued children travel to live?","zh":"获救的孩子们前往哪里生活？"},
-      "options":[
-        {"en":"They traveled to Great Britain","zh":"他们前往英国"},
-        {"en":"They traveled to the United States","zh":"他们前往美国"},
-        {"en":"They traveled to Canada","zh":"他们前往加拿大"},
-        {"en":"They traveled to France","zh":"他们前往法国"}
+      "q": {
+        "en": "Where did the rescued children travel to live?",
+        "zh": "获救的孩子们前往哪里生活？"
+      },
+      "options": [
+        {
+          "en": "They traveled to Great Britain",
+          "zh": "他们前往英国"
+        },
+        {
+          "en": "They traveled to Canada",
+          "zh": "他们前往加拿大"
+        },
+        {
+          "en": "They traveled to the United States",
+          "zh": "他们前往美国"
+        },
+        {
+          "en": "They traveled to France",
+          "zh": "他们前往法国"
+        }
       ],
-      "answer":0,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"The children were taken in by families in Great Britain, ending their journey in London.","zh":"孩子们被英国家庭收养，旅程在伦敦结束。"}
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The children were taken in by families in Great Britain, ending their journey in London.",
+        "zh": "孩子们被英国家庭收养，旅程在伦敦结束。"
+      }
     },
     {
-      "q": {"en":"In the book, what is the meaning of the word 'refugee'?","zh":"在本书中，'refugee'(难民)一词的意思是什么？"},
-      "options":[
-        {"en":"A person who wins a race","zh":"赢得比赛的人"},
-        {"en":"A person who flees war or danger","zh":"逃离战争或危险的人"},
-        {"en":"A person who builds houses","zh":"建造房屋的人"},
-        {"en":"A person who teaches school to young children","zh":"在小学教书的老师"}
+      "q": {
+        "en": "In the book, what is the meaning of the word 'refugee'?",
+        "zh": "在本书中，'refugee'(难民)一词的意思是什么？"
+      },
+      "options": [
+        {
+          "en": "A person who flees war or danger",
+          "zh": "逃离战争或危险的人"
+        },
+        {
+          "en": "A person who builds houses",
+          "zh": "建造房屋的人"
+        },
+        {
+          "en": "A person who teaches school to young children",
+          "zh": "在小学教书的老师"
+        },
+        {
+          "en": "A person who wins a race",
+          "zh": "赢得比赛的人"
+        }
       ],
-      "answer":1,
-      "skill":"Craft and Structure",
-      "explain":{"en":"A refugee is a person who flees war, danger, or hardship, often with no set place to go.","zh":"难民是指逃离战争、危险或困境的人，通常没有固定的去处。"}
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "A refugee is a person who flees war, danger, or hardship, often with no set place to go.",
+        "zh": "难民是指逃离战争、危险或困境的人，通常没有固定的去处。"
+      }
     },
     {
-      "q": {"en":"How did Winton keep his rescue work a secret for many years?","zh":"温顿是如何将他的救援行动保密多年的？"},
-      "options":[
-        {"en":"He wrote a long book about it the very next year","zh":"他在第二年就写了一本关于此事的长篇书"},
-        {"en":"He told the newspaper about it right away","zh":"他立刻把这件事告诉了报社"},
-        {"en":"He gave speeches about it around the world","zh":"他在世界各地发表相关演讲"},
-        {"en":"He never spoke of it for about fifty years","zh":"他大约五十年间从未提起过这件事"}
+      "q": {
+        "en": "How did Winton keep his rescue work a secret for many years?",
+        "zh": "温顿是如何将他的救援行动保密多年的？"
+      },
+      "options": [
+        {
+          "en": "He told the newspaper about it right away",
+          "zh": "他立刻把这件事告诉了报社"
+        },
+        {
+          "en": "He wrote a long book about it the very next year",
+          "zh": "他在第二年就写了一本关于此事的长篇书"
+        },
+        {
+          "en": "He never spoke of it for about fifty years",
+          "zh": "他大约五十年间从未提起过这件事"
+        },
+        {
+          "en": "He gave speeches about it around the world",
+          "zh": "他在世界各地发表相关演讲"
+        }
       ],
-      "answer":3,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"Winton kept his actions secret until his wife found his scrapbook in 1988, about fifty years later.","zh":"温顿一直保守秘密，直到1988年他的妻子发现了他的剪贴簿，大约是五十年后。"}
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Winton kept his actions secret until his wife found his scrapbook in 1988, about fifty years later.",
+        "zh": "温顿一直保守秘密，直到1988年他的妻子发现了他的剪贴簿，大约是五十年后。"
+      }
     },
     {
-      "q": {"en":"What route did the children's rescue trains take?","zh":"孩子们获救的火车走的是哪条路线？"},
-      "options":[
-        {"en":"Prague to Paris by a single direct train","zh":"从布拉格坐一列直达火车到巴黎"},
-        {"en":"Berlin to London by airplane","zh":"从柏林乘飞机到伦敦"},
-        {"en":"Prague, then Holland by ferry, then London","zh":"从布拉格出发，经渡轮过荷兰，再到伦敦"},
-        {"en":"Vienna to London by ship alone","zh":"从维也纳单独乘船到伦敦"}
+      "q": {
+        "en": "What route did the children's rescue trains take?",
+        "zh": "孩子们获救的火车走的是哪条路线？"
+      },
+      "options": [
+        {
+          "en": "Vienna to London by ship alone",
+          "zh": "从维也纳单独乘船到伦敦"
+        },
+        {
+          "en": "Prague to Paris by a single direct train according to some versions of the story",
+          "zh": "从布拉格坐一列直达火车到巴黎（按书中另一种说法）"
+        },
+        {
+          "en": "Prague, then Holland by ferry, then London",
+          "zh": "从布拉格出发，经渡轮过荷兰，再到伦敦"
+        },
+        {
+          "en": "Berlin to London by airplane",
+          "zh": "从柏林乘飞机到伦敦"
+        }
       ],
-      "answer":2,
-      "skill":"Integration of Knowledge and Ideas",
-      "explain":{"en":"Trains took the children from Prague to Holland, then a ferry across the English Channel to London.","zh":"火车把孩子们从布拉格送到荷兰，再乘渡轮越过英吉利海峡抵达伦敦。"}
+      "answer": 2,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Trains took the children from Prague to Holland, then a ferry across the English Channel to London.",
+        "zh": "火车把孩子们从布拉格送到荷兰，再乘渡轮越过英吉利海峡抵达伦敦。"
+      }
     },
     {
-      "q": {"en":"Why does the author present Winton as a hero?","zh":"作者为什么把温顿描述为英雄？"},
-      "options":[
-        {"en":"He risked great effort to save children's lives","zh":"他不遗余力地拯救孩子们的生命"},
-        {"en":"He won a famous sports competition","zh":"他赢得了一场著名的体育比赛"},
-        {"en":"He discovered a new country","zh":"他发现了一个新国家"},
-        {"en":"He built the first airplane","zh":"他制造了第一架飞机"}
+      "q": {
+        "en": "Why does the author present Winton as a hero?",
+        "zh": "作者为什么把温顿描述为英雄？"
+      },
+      "options": [
+        {
+          "en": "He built the first airplane",
+          "zh": "他制造了第一架飞机"
+        },
+        {
+          "en": "He risked great effort to save children's lives",
+          "zh": "他不遗余力地拯救孩子们的生命"
+        },
+        {
+          "en": "He won a famous sports competition according to some versions of the story",
+          "zh": "他赢得了一场著名的体育比赛（按书中另一种说法）"
+        },
+        {
+          "en": "He discovered a new country",
+          "zh": "他发现了一个新国家"
+        }
       ],
-      "answer":0,
-      "skill":"Author's Purpose and Perspective",
-      "explain":{"en":"The author shows Winton as a hero because he worked hard to save many children from harm.","zh":"作者把温顿视为英雄，因为他努力拯救了许多儿童免受伤害。"}
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The author shows Winton as a hero because he worked hard to save many children from harm.",
+        "zh": "作者把温顿视为英雄，因为他努力拯救了许多儿童免受伤害。"
+      }
     },
     {
-      "q": {"en":"What honor did Winton receive in 2002?","zh":"温顿在2002年获得了什么荣誉？"},
-      "options":[
-        {"en":"He became president of Czechoslovakia","zh":"他成为捷克斯洛伐克总统"},
-        {"en":"He was made a knight by Queen Elizabeth II","zh":"他被伊丽莎白二世女王封为骑士"},
-        {"en":"He won an Olympic gold medal","zh":"他赢得了奥运金牌"},
-        {"en":"He was given a Nobel Prize","zh":"他获得了诺贝尔奖"}
+      "q": {
+        "en": "What honor did Winton receive in 2002?",
+        "zh": "温顿在2002年获得了什么荣誉？"
+      },
+      "options": [
+        {
+          "en": "He won an Olympic gold medal",
+          "zh": "他赢得了奥运金牌"
+        },
+        {
+          "en": "He was made a knight by Queen Elizabeth II",
+          "zh": "他被伊丽莎白二世女王封为骑士"
+        },
+        {
+          "en": "He became president of Czechoslovakia according to some versions of the story",
+          "zh": "他成为捷克斯洛伐克总统（按书中另一种说法）"
+        },
+        {
+          "en": "He was given a Nobel Prize",
+          "zh": "他获得了诺贝尔奖"
+        }
       ],
-      "answer":1,
-      "skill":"Key Ideas and Details",
-      "explain":{"en":"In 2002, Queen Elizabeth II made Winton a knight for his brave and helpful actions.","zh":"2002年，伊丽莎白二世女王因温顿勇敢而有益的善举封他为骑士。"}
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "In 2002, Queen Elizabeth II made Winton a knight for his brave and helpful actions.",
+        "zh": "2002年，伊丽莎白二世女王因温顿勇敢而有益的善举封他为骑士。"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en":"Imagine you are one of the children helped by Nicholas Winton. Write a short thank-you note telling what you appreciate about being safe in a new home.","zh":"想象你是尼古拉·温顿帮助过的孩子之一。写一封简短的感谢信，说说你在新家安全生活最感激的是什么。"},
+    "prompt": {
+      "en": "Imagine you are one of the children helped by Nicholas Winton. Write a short thank-you note telling what you appreciate about being safe in a new home.",
+      "zh": "想象你是尼古拉·温顿帮助过的孩子之一。写一封简短的感谢信，说说你在新家安全生活最感激的是什么。"
+    },
     "guidance": {
-      "en":["Name one fact you learned about Winton's rescue plan.","Describe how the children traveled to safety.","Explain why a safe new home matters to a child."],
-      "zh":["写出你了解到的关于温顿救援计划的一个事实。","描述孩子们是如何前往安全之地的。","解释一个安全的新家对孩子们为何重要。"]
+      "en": [
+        "Name one fact you learned about Winton's rescue plan.",
+        "Describe how the children traveled to safety.",
+        "Explain why a safe new home matters to a child."
+      ],
+      "zh": [
+        "写出你了解到的关于温顿救援计划的一个事实。",
+        "描述孩子们是如何前往安全之地的。",
+        "解释一个安全的新家对孩子们为何重要。"
+      ]
     }
   }
 }

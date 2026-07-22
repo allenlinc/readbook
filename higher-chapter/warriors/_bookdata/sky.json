@@ -9,12 +9,24 @@
         "zh": "《天空》的主要视角角色是哪几只猫？"
       },
       "options": [
-        {"en": "Nightheart, Sunbeam, and Frostpaw", "zh": "夜心（Nightheart）、桑比姆（Sunbeam）和霜爪（Frostpaw）"},
-        {"en": "Bramblestar, Leafstar, and Mistystar", "zh": "黑莓星（Bramblestar）、叶星（Leafstar）和雾星（Mistystar）"},
-        {"en": "Rootspring, Lightleap, and Alderheart", "zh": "根泉（Rootspring）、光跃（Lightleap）和赤杨心（Alderheart）"},
-        {"en": "Curlfeather, Owlnose, and Splashtail", "zh": "卷羽（Curlfeather）、枭鼻（Owlnose）和溅尾（Splashtail）"}
+        {
+          "en": "Bramblestar, Leafstar, and Mistystar",
+          "zh": "黑莓星（Bramblestar）、叶星（Leafstar）和雾星（Mistystar）"
+        },
+        {
+          "en": "Curlfeather, Owlnose, and Splashtail",
+          "zh": "卷羽（Curlfeather）、枭鼻（Owlnose）和溅尾（Splashtail）"
+        },
+        {
+          "en": "Nightheart, Sunbeam, and Frostpaw",
+          "zh": "夜心（Nightheart）、桑比姆（Sunbeam）和霜爪（Frostpaw）"
+        },
+        {
+          "en": "Rootspring, Lightleap, and Alderheart",
+          "zh": "根泉（Rootspring）、光跃（Lightleap）和赤杨心（Alderheart）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Sky is told through Nightheart (formerly Flamepaw), Sunbeam of ShadowClan, and Frostpaw of RiverClan.",
         "zh": "《天空》以夜心（即原来的焰爪）、影族的桑比姆和河族的霜爪为视角展开。"
@@ -26,10 +38,22 @@
         "zh": "《天空》的序章发生在什么地方？"
       },
       "options": [
-        {"en": "In the Dark Forest", "zh": "在黑森林（Dark Forest）"},
-        {"en": "In StarClan, where Mistystar and Reedwhisker argue", "zh": "在星族（StarClan），雾星和苇须在此争执"},
-        {"en": "In the ThunderClan camp", "zh": "在雷族营地"},
-        {"en": "At the Moonpool", "zh": "在月池（Moonpool）"}
+        {
+          "en": "In the ThunderClan camp",
+          "zh": "在雷族营地"
+        },
+        {
+          "en": "In StarClan, where Mistystar and Reedwhisker argue",
+          "zh": "在星族（StarClan），雾星和苇须在此争执"
+        },
+        {
+          "en": "At the Moonpool",
+          "zh": "在月池（Moonpool）"
+        },
+        {
+          "en": "In the Dark Forest according to some versions of the story",
+          "zh": "在黑森林（Dark Forest）（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -43,12 +67,24 @@
         "zh": "《天空》中，什么疾病在族群间蔓延，导致猫薄荷（catmint）短缺？"
       },
       "options": [
-        {"en": "Greencough, a deadly respiratory illness", "zh": "绿咳症（greencough），一种致命的呼吸道疾病"},
-        {"en": "Redcough", "zh": "红咳症（Redcough）"},
-        {"en": "A broken-leg epidemic", "zh": "一场骨折传染病"},
-        {"en": "A drought-driven hunger", "zh": "干旱引发的饥饿"}
+        {
+          "en": "A broken-leg epidemic",
+          "zh": "一场骨折传染病"
+        },
+        {
+          "en": "Greencough, a deadly respiratory illness",
+          "zh": "绿咳症（greencough），一种致命的呼吸道疾病"
+        },
+        {
+          "en": "Redcough",
+          "zh": "红咳症（Redcough）"
+        },
+        {
+          "en": "A drought-driven hunger according to some versions of the story",
+          "zh": "干旱引发的饥饿（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Greencough rages through the camps; Tigerstar's kit Rowankit sickens and later dies of it.",
         "zh": "绿咳症在各营地肆虐；虎星（Tigerstar）的幼崽小知更（Rowankit）染病，后来不治身亡。"
@@ -60,12 +96,24 @@
         "zh": "哪些族群派猫参加了寻找猫薄荷的联合巡逻队？"
       },
       "options": [
-        {"en": "RiverClan, WindClan, and ShadowClan", "zh": "河族、风族（WindClan）和影族"},
-        {"en": "ShadowClan, ThunderClan, and SkyClan", "zh": "影族、雷族和天族（SkyClan）"},
-        {"en": "ThunderClan, WindClan, and SkyClan", "zh": "雷族、风族和天族"},
-        {"en": "All five Clans together", "zh": "五大族一起出动"}
+        {
+          "en": "ShadowClan, ThunderClan, and SkyClan",
+          "zh": "影族、雷族和天族（SkyClan）"
+        },
+        {
+          "en": "All five Clans together",
+          "zh": "五大族一起出动"
+        },
+        {
+          "en": "ThunderClan, WindClan, and SkyClan",
+          "zh": "雷族、风族和天族"
+        },
+        {
+          "en": "RiverClan, WindClan, and ShadowClan according to some versions of the story",
+          "zh": "河族、风族（WindClan）和影族（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "The medicine cats send a patrol of Sunbeam and Lightleap (ShadowClan), Nightheart and Alderheart (ThunderClan), and Rootspring and Fidgetflake (SkyClan).",
         "zh": "巫医们派出一支巡逻队，成员有桑比姆与光跃（影族）、夜心与赤杨心（雷族）、根泉与颤瓣（Fidgetflake，天族）。"
@@ -77,12 +125,24 @@
         "zh": "霜爪的母亲卷羽（Curlfeather）在《天空》中是如何死去的？"
       },
       "options": [
-        {"en": "She dies of greencough", "zh": "她死于绿咳症"},
-        {"en": "She is killed by dogs on the way to the Moonpool", "zh": "她在前往月池途中被狗咬死"},
-        {"en": "She is exiled by Mistystar", "zh": "她被雾星流放"},
-        {"en": "She becomes a kittypet", "zh": "她成了一只宠物猫"}
+        {
+          "en": "She is killed by dogs on the way to the Moonpool",
+          "zh": "她在前往月池途中被狗咬死"
+        },
+        {
+          "en": "She becomes a kittypet",
+          "zh": "她成了一只宠物猫"
+        },
+        {
+          "en": "She is exiled by Mistystar according to some versions of the story",
+          "zh": "她被雾星流放（按书中另一种说法）"
+        },
+        {
+          "en": "She dies of greencough",
+          "zh": "她死于绿咳症"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Curlfeather is killed by dogs while traveling to the Moonpool to receive her nine lives as RiverClan's new leader.",
         "zh": "卷羽在前往月池、准备接受九条命成为河族新族长的途中，被狗杀死。"
@@ -94,10 +154,22 @@
         "zh": "卷羽（Curlfeather）的遗言是什么，这句话一直萦绕在霜爪心头？"
       },
       "options": [
-        {"en": "\"Trust no cat.\"", "zh": "「不要相信任何猫。」"},
-        {"en": "\"Follow the code.\"", "zh": "「遵守守则。」"},
-        {"en": "\"Save RiverClan.\"", "zh": "「拯救河族。」"},
-        {"en": "\"Find StarClan.\"", "zh": "「去寻找星族。」"}
+        {
+          "en": "\"Trust no cat.\"",
+          "zh": "「不要相信任何猫。」"
+        },
+        {
+          "en": "\"Follow the code.\" according to some versions of the story",
+          "zh": "「遵守守则。」（按书中另一种说法）"
+        },
+        {
+          "en": "\"Find StarClan.\"",
+          "zh": "「去寻找星族。」"
+        },
+        {
+          "en": "\"Save RiverClan.\"",
+          "zh": "「拯救河族。」"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -111,10 +183,22 @@
         "zh": "霜爪选择谁做河族的下一任族长？"
       },
       "options": [
-        {"en": "Splashtail", "zh": "溅尾（Splashtail）"},
-        {"en": "Owlnose", "zh": "枭鼻（Owlnose）"},
-        {"en": "Reedwhisker", "zh": "苇须（Reedwhisker）"},
-        {"en": "Nightheart", "zh": "夜心（Nightheart）"}
+        {
+          "en": "Splashtail",
+          "zh": "溅尾（Splashtail）"
+        },
+        {
+          "en": "Owlnose",
+          "zh": "枭鼻（Owlnose）"
+        },
+        {
+          "en": "Nightheart",
+          "zh": "夜心（Nightheart）"
+        },
+        {
+          "en": "Reedwhisker",
+          "zh": "苇须（Reedwhisker）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -128,12 +212,24 @@
         "zh": "当枭鼻（Owlnose）前往月池接受九条命时，发生了什么？"
       },
       "options": [
-        {"en": "He receives all nine lives", "zh": "他如愿获得了九条命"},
-        {"en": "StarClan does not appear", "zh": "星族没有出现"},
-        {"en": "He is rejected and sent home", "zh": "他被拒绝并遣返营地"},
-        {"en": "He meets Firestar there", "zh": "他在那里见到了火星（Firestar）"}
+        {
+          "en": "He receives all nine lives",
+          "zh": "他如愿获得了九条命"
+        },
+        {
+          "en": "He meets Firestar there",
+          "zh": "他在那里见到了火星（Firestar）"
+        },
+        {
+          "en": "StarClan does not appear",
+          "zh": "星族没有出现"
+        },
+        {
+          "en": "He is rejected and sent home",
+          "zh": "他被拒绝并遣返营地"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "At the Moonpool, StarClan stays silent and gives Owlnose no lives, deepening the Clans' fear of being starless.",
         "zh": "在月池边，星族保持沉默，没有授予枭鼻任何性命，各族群「无星」的恐惧更深了。"
@@ -145,12 +241,24 @@
         "zh": "猫儿们是怎么知道两脚兽地盘里哪里有猫薄荷的？"
       },
       "options": [
-        {"en": "Jayfeather had a prophecy about it", "zh": "松鸦羽（Jayfeather）得到了相关预言"},
-        {"en": "Fidgetflake recalls SkyClan passed catmint there on their way to the lake", "zh": "颤瓣（Fidgetflake）记得天族迁往湖区途中曾路过生长猫薄荷的地方"},
-        {"en": "A kittypet gave them a map", "zh": "一只宠物猫给了他们一张地图"},
-        {"en": "Bramblestar told them directly", "zh": "黑莓星直接告诉了他们"}
+        {
+          "en": "Bramblestar told them directly",
+          "zh": "黑莓星直接告诉了他们"
+        },
+        {
+          "en": "Jayfeather had a prophecy about it according to some versions of the story in an early draft of the book",
+          "zh": "松鸦羽（Jayfeather）得到了相关预言（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A kittypet gave them a map",
+          "zh": "一只宠物猫给了他们一张地图"
+        },
+        {
+          "en": "Fidgetflake recalls SkyClan passed catmint there on their way to the lake",
+          "zh": "颤瓣（Fidgetflake）记得天族迁往湖区途中曾路过生长猫薄荷的地方"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Fidgetflake remembers that SkyClan saw catmint growing in Twolegplaces during their long journey to the lake.",
         "zh": "颤瓣（Fidgetflake）记得，天族在长途迁往湖区的路上，曾见过两脚兽地盘里生长着猫薄荷。"
@@ -162,12 +270,24 @@
         "zh": "霜爪注意到河族近来的死亡事件有一个什么令人心寒的规律？"
       },
       "options": [
-        {"en": "All of them were medicine cats", "zh": "死者全都是巫医"},
-        {"en": "All of them were young kits", "zh": "死者全都是幼崽"},
-        {"en": "Each was a leader or the next in line", "zh": "每一个都是族长，或即将成为族长的人"},
-        {"en": "All died in open battle", "zh": "全都在正面战斗中阵亡"}
+        {
+          "en": "All of them were medicine cats according to some versions of the story",
+          "zh": "死者全都是巫医（按书中另一种说法）"
+        },
+        {
+          "en": "All of them were young kits",
+          "zh": "死者全都是幼崽"
+        },
+        {
+          "en": "All died in open battle",
+          "zh": "全都在正面战斗中阵亡"
+        },
+        {
+          "en": "Each was a leader or the next in line",
+          "zh": "每一个都是族长，或即将成为族长的人"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": {
         "en": "Frostpaw realizes Mistystar, Reedwhisker, and Curlfeather were all leaders or about to become one—someone is killing the leadership.",
         "zh": "霜爪意识到，雾星、苇须和卷羽都是族长或即将继任者——似乎有人专门针对领导层下手。"

@@ -12,10 +12,22 @@
         "zh": "万圣节每年在哪一天庆祝？"
       },
       "options": [
-        {"en": "November 1", "zh": "11月1日"},
-        {"en": "October 31", "zh": "10月31日"},
-        {"en": "December 25", "zh": "12月25日"},
-        {"en": "January 1", "zh": "1月1日"}
+        {
+          "en": "November 1",
+          "zh": "11月1日"
+        },
+        {
+          "en": "October 31",
+          "zh": "10月31日"
+        },
+        {
+          "en": "December 25",
+          "zh": "12月25日"
+        },
+        {
+          "en": "January 1",
+          "zh": "1月1日"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -30,10 +42,22 @@
         "zh": "是哪个古老的民族开创了后来演变成万圣节的传统？"
       },
       "options": [
-        {"en": "The Celts", "zh": "凯尔特人"},
-        {"en": "The Romans", "zh": "罗马人"},
-        {"en": "The Egyptians", "zh": "埃及人"},
-        {"en": "The Greeks", "zh": "希腊人"}
+        {
+          "en": "The Celts",
+          "zh": "凯尔特人"
+        },
+        {
+          "en": "The Greeks",
+          "zh": "希腊人"
+        },
+        {
+          "en": "The Romans",
+          "zh": "罗马人"
+        },
+        {
+          "en": "The Egyptians",
+          "zh": "埃及人"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,10 +72,22 @@
         "zh": "在凯尔特传统中，萨温节（Samhain）是什么？"
       },
       "options": [
-        {"en": "A summer music festival", "zh": "一个夏季音乐节"},
-        {"en": "A harvest festival and the final day of the Celtic year", "zh": "丰收节，也是凯尔特人一年的最后一天"},
-        {"en": "A type of jack-o'-lantern", "zh": "一种南瓜灯"},
-        {"en": "A Christian holy day", "zh": "一个基督教圣日"}
+        {
+          "en": "A Christian holy day",
+          "zh": "一个基督教圣日"
+        },
+        {
+          "en": "A harvest festival and the final day of the Celtic year",
+          "zh": "丰收节，也是凯尔特人一年的最后一天"
+        },
+        {
+          "en": "A summer music festival according to some versions of the story",
+          "zh": "一个夏季音乐节（按书中另一种说法）"
+        },
+        {
+          "en": "A type of jack-o'-lantern",
+          "zh": "一种南瓜灯"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
@@ -66,10 +102,22 @@
         "zh": "“Halloween”这个名字是如何形成的？"
       },
       "options": [
-        {"en": "From the Celtic word for \"pumpkin\"", "zh": "来自凯尔特语中“南瓜”一词"},
-        {"en": "From \"All Hallows Eve,\" the night before All Saints' Day", "zh": "来自“All Hallows Eve”，即诸圣节的前夜"},
-        {"en": "From the name of the god Samhain", "zh": "来自神祇萨温的名字"},
-        {"en": "From a Irish children's game", "zh": "来自一个爱尔兰儿童的游戏"}
+        {
+          "en": "From the Celtic word for \"pumpkin\" according to some versions of the story",
+          "zh": "来自凯尔特语中“南瓜”一词（按书中另一种说法）"
+        },
+        {
+          "en": "From \"All Hallows Eve,\" the night before All Saints' Day",
+          "zh": "来自“All Hallows Eve”，即诸圣节的前夜"
+        },
+        {
+          "en": "From the name of the god Samhain",
+          "zh": "来自神祇萨温的名字"
+        },
+        {
+          "en": "From a Irish children's game",
+          "zh": "来自一个爱尔兰儿童的游戏"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "南瓜灯的传统源自何处？"
       },
       "options": [
-        {"en": "An Irish story about a man named Stingy Jack", "zh": "一个关于名叫“小气鬼杰克”的爱尔兰故事"},
-        {"en": "A Roman harvest ritual", "zh": "一个罗马的丰收仪式"},
-        {"en": "A Native American legend", "zh": "一个美洲原住民的传说"},
-        {"en": "A modern American advertising campaign", "zh": "一个现代美国的广告活动"}
+        {
+          "en": "A modern American advertising campaign according to some versions of the story",
+          "zh": "一个现代美国的广告活动（按书中另一种说法）"
+        },
+        {
+          "en": "A Native American legend",
+          "zh": "一个美洲原住民的传说"
+        },
+        {
+          "en": "An Irish story about a man named Stingy Jack",
+          "zh": "一个关于名叫“小气鬼杰克”的爱尔兰故事"
+        },
+        {
+          "en": "A Roman harvest ritual",
+          "zh": "一个罗马的丰收仪式"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says jack-o'-lanterns come from an Irish story about Stingy Jack, who carved a turnip with a candle and roamed in darkness.",
@@ -102,12 +162,24 @@
         "zh": "在使用南瓜之前，爱尔兰和英格兰的人们把什么雕刻成南瓜灯？"
       },
       "options": [
-        {"en": "Turnips, beets, and potatoes", "zh": "芜菁、甜菜和土豆"},
-        {"en": "Apples and oranges", "zh": "苹果和橘子"},
-        {"en": "Wooden blocks", "zh": "木块"},
-        {"en": "Pumpkins were always used first", "zh": "一开始用的就是南瓜"}
+        {
+          "en": "Apples and oranges",
+          "zh": "苹果和橘子"
+        },
+        {
+          "en": "Pumpkins were always used first",
+          "zh": "一开始用的就是南瓜"
+        },
+        {
+          "en": "Wooden blocks",
+          "zh": "木块"
+        },
+        {
+          "en": "Turnips, beets, and potatoes",
+          "zh": "芜菁、甜菜和土豆"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says people in Ireland and England used to carve scary faces into turnips, beets, and potatoes before the pumpkin tradition began in the U.S. mid-1800s.",
@@ -120,10 +192,22 @@
         "zh": "在美洲新大陆，哪一群体曾反对人们庆祝万圣节？"
       },
       "options": [
-        {"en": "The Puritans", "zh": "清教徒"},
-        {"en": "The Celts", "zh": "凯尔特人"},
-        {"en": "The Irish immigrants", "zh": "爱尔兰移民"},
-        {"en": "The Catholic Church", "zh": "天主教会"}
+        {
+          "en": "The Puritans",
+          "zh": "清教徒"
+        },
+        {
+          "en": "The Irish immigrants",
+          "zh": "爱尔兰移民"
+        },
+        {
+          "en": "The Celts",
+          "zh": "凯尔特人"
+        },
+        {
+          "en": "The Catholic Church",
+          "zh": "天主教会"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -138,12 +222,24 @@
         "zh": "随着“不给糖就捣蛋”的流行，糖果是在什么时候成为热门款待的？"
       },
       "options": [
-        {"en": "In the 1950s", "zh": "20世纪50年代"},
-        {"en": "In the 1700s", "zh": "18世纪"},
-        {"en": "In the 1920s", "zh": "20世纪20年代"},
-        {"en": "In the 2000s", "zh": "21世纪初"}
+        {
+          "en": "In the 1700s",
+          "zh": "18世纪"
+        },
+        {
+          "en": "In the 2000s",
+          "zh": "21世纪初"
+        },
+        {
+          "en": "In the 1920s according to some versions of the story",
+          "zh": "20世纪20年代（按书中另一种说法）"
+        },
+        {
+          "en": "In the 1950s",
+          "zh": "20世纪50年代"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says candy became a popular treat as trick-or-treating gained steam in the 1950s, though the little candy bars common today didn't appear until the 1970s.",
@@ -156,10 +252,22 @@
         "zh": "在过去，“咬苹果”游戏最初代表着什么？"
       },
       "options": [
-        {"en": "A form of fortune-telling", "zh": "一种占卜方式"},
-        {"en": "A race to the finish", "zh": "一场冲刺比赛"},
-        {"en": "A way to clean teeth", "zh": "一种清洁牙齿的方法"},
-        {"en": "A harvest sacrifice", "zh": "一种丰收献祭"}
+        {
+          "en": "A form of fortune-telling",
+          "zh": "一种占卜方式"
+        },
+        {
+          "en": "A race to the finish",
+          "zh": "一场冲刺比赛"
+        },
+        {
+          "en": "A harvest sacrifice",
+          "zh": "一种丰收献祭"
+        },
+        {
+          "en": "A way to clean teeth according to some versions of the story",
+          "zh": "一种清洁牙齿的方法（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -174,12 +282,24 @@
         "zh": "19世纪大批爱尔兰移民如何影响了美国的万圣节？"
       },
       "options": [
-        {"en": "They made it much more popular and brought traditions like jack-o'-lanterns", "zh": "他们让万圣节更受欢迎，并带来了南瓜灯等传统"},
-        {"en": "They ended the celebration completely", "zh": "他们彻底终结了这一庆祝活动"},
-        {"en": "They replaced it with a new holiday", "zh": "他们用一个新的节日取而代之"},
-        {"en": "They had no effect on it", "zh": "他们对此没有任何影响"}
+        {
+          "en": "They replaced it with a new holiday",
+          "zh": "他们用一个新的节日取而代之"
+        },
+        {
+          "en": "They ended the celebration completely according to some versions of the story",
+          "zh": "他们彻底终结了这一庆祝活动（按书中另一种说法）"
+        },
+        {
+          "en": "They made it much more popular and brought traditions like jack-o'-lanterns",
+          "zh": "他们让万圣节更受欢迎，并带来了南瓜灯等传统"
+        },
+        {
+          "en": "They had no effect on it",
+          "zh": "他们对此没有任何影响"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the holiday became much more popular when large numbers of Irish immigrants arrived in the 1800s, bringing jack-o'-lanterns and mumming traditions.",

@@ -1,328 +1,328 @@
 {
- "slug": "in-hucks-shoes",
- "title": "In Huck's Shoes",
- "titleZh": "穿上哈克的鞋",
- "level": "Y",
- "genre": "Fiction",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "Whose enchanted books transport Miguel into the stories he reads?",
-    "zh": "是谁的魔法书把米格尔传送进他所读的故事里？"
-   },
-   "options": [
+  "slug": "in-hucks-shoes",
+  "title": "In Huck's Shoes",
+  "titleZh": "穿上哈克的鞋",
+  "level": "Y",
+  "genre": "Fiction",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "His great-grandpa George, 'The Great Gallardo'",
-     "zh": "他的曾祖父乔治，'伟大的加拉尔多'"
+      "q": {
+        "en": "Whose enchanted books transport Miguel into the stories he reads?",
+        "zh": "是谁的魔法书把米格尔传送进他所读的故事里？"
+      },
+      "options": [
+        {
+          "en": "Tom Sawyer",
+          "zh": "汤姆·索亚"
+        },
+        {
+          "en": "A librarian according to some versions of the story",
+          "zh": "一位图书管理员（按书中另一种说法）"
+        },
+        {
+          "en": "His teacher",
+          "zh": "他的老师"
+        },
+        {
+          "en": "His great-grandpa George, 'The Great Gallardo'",
+          "zh": "他的曾祖父乔治，'伟大的加拉尔多'"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Miguel discovered a chest of enchanted books that belonged to his great-grandpa George, a magician called The Great Gallardo.",
+        "zh": "米格尔发现了一箱魔法书，属于他的曾祖父乔治——一位名叫'伟大的加拉尔多'的魔术师。"
+      }
     },
     {
-     "en": "His teacher",
-     "zh": "他的老师"
+      "q": {
+        "en": "Which book does Miguel read to enter the adventure on Jackson's Island?",
+        "zh": "米格尔读了哪本书，从而进入杰克逊岛的冒险？"
+      },
+      "options": [
+        {
+          "en": "Cinderella",
+          "zh": "《灰姑娘》"
+        },
+        {
+          "en": "The Jungle Book according to some versions of the story",
+          "zh": "《丛林之书》（按书中另一种说法）"
+        },
+        {
+          "en": "Robin Hood",
+          "zh": "《罗宾汉》"
+        },
+        {
+          "en": "The Adventures of Tom Sawyer",
+          "zh": "《汤姆·索亚历险记》"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Miguel grabbed The Adventures of Tom Sawyer and was pulled into Tom's pirate adventure.",
+        "zh": "米格尔拿起《汤姆·索亚历险记》，被拉进了汤姆的海盗冒险中。"
+      }
     },
     {
-     "en": "Tom Sawyer",
-     "zh": "汤姆·索亚"
+      "q": {
+        "en": "What character from the story does Miguel become?",
+        "zh": "米格尔在故事中变成了哪个角色？"
+      },
+      "options": [
+        {
+          "en": "Huck Finn",
+          "zh": "哈克·芬"
+        },
+        {
+          "en": "Becky Thatcher",
+          "zh": "贝琪·撒切尔"
+        },
+        {
+          "en": "Tom Sawyer",
+          "zh": "汤姆·索亚"
+        },
+        {
+          "en": "Joe Harper",
+          "zh": "乔·哈珀"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Miguel opens his eyes to find himself sailing down a river as Huck Finn.",
+        "zh": "米格尔睁开眼，发现自己正作为哈克·芬在河上划船。"
+      }
     },
     {
-     "en": "A librarian",
-     "zh": "一位图书管理员"
+      "q": {
+        "en": "How many gold coins do the boys find on the raft?",
+        "zh": "男孩们在木筏上发现了多少枚金币？"
+      },
+      "options": [
+        {
+          "en": "Two",
+          "zh": "两枚"
+        },
+        {
+          "en": "None",
+          "zh": "没有"
+        },
+        {
+          "en": "Twenty",
+          "zh": "二十枚"
+        },
+        {
+          "en": "One hundred",
+          "zh": "一百枚"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Tom held up a leather sack; inside were twenty gold coins.",
+        "zh": "汤姆举起一个皮袋，里面是二十枚金币。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the word 'enchanted' (as in enchanted books) mean in the story?",
+        "zh": "故事中'enchanted'（魔法的）一词是什么意思？"
+      },
+      "options": [
+        {
+          "en": "Boring",
+          "zh": "无聊的"
+        },
+        {
+          "en": "Magical",
+          "zh": "有魔力的"
+        },
+        {
+          "en": "Broken",
+          "zh": "坏掉的"
+        },
+        {
+          "en": "Very old",
+          "zh": "非常陈旧"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The books are magical—reading a passage transports Miguel into the story.",
+        "zh": "这些书是有魔力的——读一段文字就会把米格尔传进故事里。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book describes the words on the page as 'dancing around' and appearing 'like it was in three dimensions.' What does this show?",
+        "zh": "书中描写书页上的文字'舞动起来'，并'像三维立体一样'。这表现了什么？"
+      },
+      "options": [
+        {
+          "en": "The magical, lifelike quality of the enchanted book",
+          "zh": "魔法书栩栩如生、充满魔力的特质"
+        },
+        {
+          "en": "That the book is wet",
+          "zh": "书是湿的"
+        },
+        {
+          "en": "That Miguel cannot read according to some versions of the story",
+          "zh": "米格尔不识字（按书中另一种说法）"
+        },
+        {
+          "en": "That it is a math book",
+          "zh": "这是一本数学书"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "These descriptions help readers feel the book's magic as Miguel is pulled into the story.",
+        "zh": "这些描写让读者感受到魔法书的神奇，体会米格尔被拉进故事的过程。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does Tom get rid of the real pirates who come looking for their raft?",
+        "zh": "汤姆是如何摆脱前来寻找木筏的真海盗的？"
+      },
+      "options": [
+        {
+          "en": "He fights them with swords according to some versions of the story in an early draft of the book",
+          "zh": "他用剑与他们搏斗（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He tricks them into covering themselves in white sand to 'cure' the itch",
+          "zh": "他把他们骗去用白沙裹住身体来'治疗'瘙痒"
+        },
+        {
+          "en": "He calls the police",
+          "zh": "他报了警"
+        },
+        {
+          "en": "He gives them the gold",
+          "zh": "他把金子给了他们"
+        }
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Tom convinces the pirates that white sand hardened by the sun will cure 'mosquito fever,' so they sail away coated in sand.",
+        "zh": "汤姆骗海盗说被太阳晒硬的白沙能治'蚊子热'，于是海盗满身白沙地驾筏离开了。"
+      }
+    },
+    {
+      "q": {
+        "en": "When Miguel returns to the loft, how much real time has passed?",
+        "zh": "当米格尔回到阁楼时，现实中过去了多少时间？"
+      },
+      "options": [
+        {
+          "en": "Only a few minutes",
+          "zh": "仅仅几分钟"
+        },
+        {
+          "en": "A week",
+          "zh": "一个星期"
+        },
+        {
+          "en": "A full day",
+          "zh": "整整一天"
+        },
+        {
+          "en": "The whole summer according to some versions of the story",
+          "zh": "整个夏天（按书中另一种说法）"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Miguel looked at his watch and realized only minutes had passed since he came up to the loft.",
+        "zh": "米格尔看了手表，意识到自己上阁楼后只过去了短短几分钟。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why does Miguel tell Tom Sawyer that Aunt Polly loves him and he should appreciate what he has?",
+        "zh": "米格尔为何告诉汤姆·索亚，波莉姨妈爱他，他应珍惜自己所拥有的？"
+      },
+      "options": [
+        {
+          "en": "To make Tom angry",
+          "zh": "为了惹汤姆生气"
+        },
+        {
+          "en": "To keep the story true to the book and remind Tom of his family's love",
+          "zh": "为了让故事符合原书，并提醒汤姆家人对他的爱"
+        },
+        {
+          "en": "Because he wants to be a pirate according to some versions of the story in an early draft of the book",
+          "zh": "因为他想当海盗（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Because he is hungry",
+          "zh": "因为他饿了"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "Miguel wanted to 'save The Adventures of Tom Sawyer' and show Tom the value of family.",
+        "zh": "米格尔想'拯救《汤姆·索亚历险记》'，并让汤姆明白家庭的可贵。"
+      }
+    },
+    {
+      "q": {
+        "en": "What main message does the story give about adventure and home?",
+        "zh": "这个故事关于冒险与家，传达了什么主要信息？"
+      },
+      "options": [
+        {
+          "en": "Never read books",
+          "zh": "永远不要读书"
+        },
+        {
+          "en": "Only pirates are happy",
+          "zh": "只有海盗才快乐"
+        },
+        {
+          "en": "Adventure is exciting, but family and home matter too",
+          "zh": "冒险令人兴奋，但家庭与家同样重要"
+        },
+        {
+          "en": "Home is boring and should be forgotten according to some versions of the story",
+          "zh": "家很无聊，应该被遗忘（按书中另一种说法）"
+        }
+      ],
+      "answer": 2,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "Although being a pirate was exciting, Miguel was happy to be home with his family.",
+        "zh": "尽管当海盗很刺激，米格尔还是高兴地回到了家人身边。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Miguel discovered a chest of enchanted books that belonged to his great-grandpa George, a magician called The Great Gallardo.",
-    "zh": "米格尔发现了一箱魔法书，属于他的曾祖父乔治——一位名叫'伟大的加拉尔多'的魔术师。"
-   }
-  },
-  {
-   "q": {
-    "en": "Which book does Miguel read to enter the adventure on Jackson's Island?",
-    "zh": "米格尔读了哪本书，从而进入杰克逊岛的冒险？"
-   },
-   "options": [
-    {
-     "en": "The Adventures of Tom Sawyer",
-     "zh": "《汤姆·索亚历险记》"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "If you found a magical book that could transport you into any story, which book would you choose and what character would you become? Write 4-5 sentences.",
+      "zh": "如果你发现一本能把你传进任何故事的魔法书，你会选哪本书、变成哪个角色？写4到5句话。"
     },
-    {
-     "en": "The Jungle Book",
-     "zh": "《丛林之书》"
-    },
-    {
-     "en": "Robin Hood",
-     "zh": "《罗宾汉》"
-    },
-    {
-     "en": "Cinderella",
-     "zh": "《灰姑娘》"
+    "guidance": {
+      "en": [
+        "Name the book and the character you would become.",
+        "Describe one adventure you would have.",
+        "Explain why you chose that story."
+      ],
+      "zh": [
+        "说出书名以及你会变成的角色。",
+        "描述你会经历的一场冒险。",
+        "解释你为什么选这个故事。"
+      ]
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Miguel grabbed The Adventures of Tom Sawyer and was pulled into Tom's pirate adventure.",
-    "zh": "米格尔拿起《汤姆·索亚历险记》，被拉进了汤姆的海盗冒险中。"
-   }
-  },
-  {
-   "q": {
-    "en": "What character from the story does Miguel become?",
-    "zh": "米格尔在故事中变成了哪个角色？"
-   },
-   "options": [
-    {
-     "en": "Huck Finn",
-     "zh": "哈克·芬"
-    },
-    {
-     "en": "Tom Sawyer",
-     "zh": "汤姆·索亚"
-    },
-    {
-     "en": "Joe Harper",
-     "zh": "乔·哈珀"
-    },
-    {
-     "en": "Becky Thatcher",
-     "zh": "贝琪·撒切尔"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Miguel opens his eyes to find himself sailing down a river as Huck Finn.",
-    "zh": "米格尔睁开眼，发现自己正作为哈克·芬在河上划船。"
-   }
-  },
-  {
-   "q": {
-    "en": "How many gold coins do the boys find on the raft?",
-    "zh": "男孩们在木筏上发现了多少枚金币？"
-   },
-   "options": [
-    {
-     "en": "Twenty",
-     "zh": "二十枚"
-    },
-    {
-     "en": "Two",
-     "zh": "两枚"
-    },
-    {
-     "en": "One hundred",
-     "zh": "一百枚"
-    },
-    {
-     "en": "None",
-     "zh": "没有"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Tom held up a leather sack; inside were twenty gold coins.",
-    "zh": "汤姆举起一个皮袋，里面是二十枚金币。"
-   }
-  },
-  {
-   "q": {
-    "en": "What does the word 'enchanted' (as in enchanted books) mean in the story?",
-    "zh": "故事中'enchanted'（魔法的）一词是什么意思？"
-   },
-   "options": [
-    {
-     "en": "Magical",
-     "zh": "有魔力的"
-    },
-    {
-     "en": "Broken",
-     "zh": "坏掉的"
-    },
-    {
-     "en": "Very old",
-     "zh": "非常陈旧"
-    },
-    {
-     "en": "Boring",
-     "zh": "无聊的"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The books are magical—reading a passage transports Miguel into the story.",
-    "zh": "这些书是有魔力的——读一段文字就会把米格尔传进故事里。"
-   }
-  },
-  {
-   "q": {
-    "en": "The book describes the words on the page as 'dancing around' and appearing 'like it was in three dimensions.' What does this show?",
-    "zh": "书中描写书页上的文字'舞动起来'，并'像三维立体一样'。这表现了什么？"
-   },
-   "options": [
-    {
-     "en": "The magical, lifelike quality of the enchanted book",
-     "zh": "魔法书栩栩如生、充满魔力的特质"
-    },
-    {
-     "en": "That Miguel cannot read",
-     "zh": "米格尔不识字"
-    },
-    {
-     "en": "That the book is wet",
-     "zh": "书是湿的"
-    },
-    {
-     "en": "That it is a math book",
-     "zh": "这是一本数学书"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "These descriptions help readers feel the book's magic as Miguel is pulled into the story.",
-    "zh": "这些描写让读者感受到魔法书的神奇，体会米格尔被拉进故事的过程。"
-   }
-  },
-  {
-   "q": {
-    "en": "How does Tom get rid of the real pirates who come looking for their raft?",
-    "zh": "汤姆是如何摆脱前来寻找木筏的真海盗的？"
-   },
-   "options": [
-    {
-     "en": "He tricks them into covering themselves in white sand to 'cure' the itch",
-     "zh": "他把他们骗去用白沙裹住身体来'治疗'瘙痒"
-    },
-    {
-     "en": "He fights them with swords",
-     "zh": "他用剑与他们搏斗"
-    },
-    {
-     "en": "He calls the police",
-     "zh": "他报了警"
-    },
-    {
-     "en": "He gives them the gold",
-     "zh": "他把金子给了他们"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Tom convinces the pirates that white sand hardened by the sun will cure 'mosquito fever,' so they sail away coated in sand.",
-    "zh": "汤姆骗海盗说被太阳晒硬的白沙能治'蚊子热'，于是海盗满身白沙地驾筏离开了。"
-   }
-  },
-  {
-   "q": {
-    "en": "When Miguel returns to the loft, how much real time has passed?",
-    "zh": "当米格尔回到阁楼时，现实中过去了多少时间？"
-   },
-   "options": [
-    {
-     "en": "Only a few minutes",
-     "zh": "仅仅几分钟"
-    },
-    {
-     "en": "A full day",
-     "zh": "整整一天"
-    },
-    {
-     "en": "A week",
-     "zh": "一个星期"
-    },
-    {
-     "en": "The whole summer",
-     "zh": "整个夏天"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Miguel looked at his watch and realized only minutes had passed since he came up to the loft.",
-    "zh": "米格尔看了手表，意识到自己上阁楼后只过去了短短几分钟。"
-   }
-  },
-  {
-   "q": {
-    "en": "Why does Miguel tell Tom Sawyer that Aunt Polly loves him and he should appreciate what he has?",
-    "zh": "米格尔为何告诉汤姆·索亚，波莉姨妈爱他，他应珍惜自己所拥有的？"
-   },
-   "options": [
-    {
-     "en": "To keep the story true to the book and remind Tom of his family's love",
-     "zh": "为了让故事符合原书，并提醒汤姆家人对他的爱"
-    },
-    {
-     "en": "Because he wants to be a pirate",
-     "zh": "因为他想当海盗"
-    },
-    {
-     "en": "To make Tom angry",
-     "zh": "为了惹汤姆生气"
-    },
-    {
-     "en": "Because he is hungry",
-     "zh": "因为他饿了"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "Miguel wanted to 'save The Adventures of Tom Sawyer' and show Tom the value of family.",
-    "zh": "米格尔想'拯救《汤姆·索亚历险记》'，并让汤姆明白家庭的可贵。"
-   }
-  },
-  {
-   "q": {
-    "en": "What main message does the story give about adventure and home?",
-    "zh": "这个故事关于冒险与家，传达了什么主要信息？"
-   },
-   "options": [
-    {
-     "en": "Adventure is exciting, but family and home matter too",
-     "zh": "冒险令人兴奋，但家庭与家同样重要"
-    },
-    {
-     "en": "Home is boring and should be forgotten",
-     "zh": "家很无聊，应该被遗忘"
-    },
-    {
-     "en": "Only pirates are happy",
-     "zh": "只有海盗才快乐"
-    },
-    {
-     "en": "Never read books",
-     "zh": "永远不要读书"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "Although being a pirate was exciting, Miguel was happy to be home with his family.",
-    "zh": "尽管当海盗很刺激，米格尔还是高兴地回到了家人身边。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "If you found a magical book that could transport you into any story, which book would you choose and what character would you become? Write 4-5 sentences.",
-   "zh": "如果你发现一本能把你传进任何故事的魔法书，你会选哪本书、变成哪个角色？写4到5句话。"
-  },
-  "guidance": {
-   "en": [
-    "Name the book and the character you would become.",
-    "Describe one adventure you would have.",
-    "Explain why you chose that story."
-   ],
-   "zh": [
-    "说出书名以及你会变成的角色。",
-    "描述你会经历的一场冒险。",
-    "解释你为什么选这个故事。"
-   ]
-  }
- }
 }

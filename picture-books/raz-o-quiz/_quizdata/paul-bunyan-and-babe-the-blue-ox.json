@@ -12,12 +12,24 @@
         "zh": "根据故事，保罗·班扬有多高？"
       },
       "options": [
-        {"en": "Sixty-three axe handles high", "zh": "六十三把斧柄那么高"},
-        {"en": "As tall as a tree exactly", "zh": "和一棵树一样高"},
-        {"en": "About six feet tall", "zh": "大约六英尺高"},
-        {"en": "Ten axe handles high", "zh": "十把斧柄那么高"}
+        {
+          "en": "About six feet tall",
+          "zh": "大约六英尺高"
+        },
+        {
+          "en": "As tall as a tree exactly according to some versions of the story",
+          "zh": "和一棵树一样高（按书中另一种说法）"
+        },
+        {
+          "en": "Ten axe handles high",
+          "zh": "十把斧柄那么高"
+        },
+        {
+          "en": "Sixty-three axe handles high",
+          "zh": "六十三把斧柄那么高"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The tale says Paul was a giant lumberjack who 'stood sixty-three axe handles high, give or take a handle.'",
@@ -30,12 +42,24 @@
         "zh": "保罗是怎么遇到蓝牛贝贝的？"
       },
       "options": [
-        {"en": "He bought him at a store", "zh": "他在商店买的"},
-        {"en": "He found him as a blue baby ox during the Winter of the Blue Snow", "zh": "在“蓝雪之冬”时，他发现了一头蓝色的牛宝宝"},
-        {"en": "He won him in a contest", "zh": "他在比赛中赢来的"},
-        {"en": "Babe was born at the logging camp", "zh": "贝贝出生在伐木营"}
+        {
+          "en": "Babe was born at the logging camp according to some versions of the story",
+          "zh": "贝贝出生在伐木营（按书中另一种说法）"
+        },
+        {
+          "en": "He bought him at a store",
+          "zh": "他在商店买的"
+        },
+        {
+          "en": "He won him in a contest",
+          "zh": "他在比赛中赢来的"
+        },
+        {
+          "en": "He found him as a blue baby ox during the Winter of the Blue Snow",
+          "zh": "在“蓝雪之冬”时，他发现了一头蓝色的牛宝宝"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "During the Winter of the Blue Snow, Paul found a snowdrift with two blue ears; inside was a sickly baby ox turned blue from the cold, whom he named Babe.",
@@ -48,10 +72,22 @@
         "zh": "保罗为什么用斧头挖出了五大湖？"
       },
       "options": [
-        {"en": "To make a place for the lumberjacks to fish", "zh": "给伐木工弄个钓鱼的地方"},
-        {"en": "To hide from danger", "zh": "躲避危险"},
-        {"en": "Because no local watering hole was big enough for Babe to drink from", "zh": "因为当地没有够大的水坑让贝贝喝水"},
-        {"en": "To build a baseball field", "zh": "建一个棒球场"}
+        {
+          "en": "To make a place for the lumberjacks to fish according to some versions of the story",
+          "zh": "给伐木工弄个钓鱼的地方（按书中另一种说法）"
+        },
+        {
+          "en": "To hide from danger",
+          "zh": "躲避危险"
+        },
+        {
+          "en": "Because no local watering hole was big enough for Babe to drink from",
+          "zh": "因为当地没有够大的水坑让贝贝喝水"
+        },
+        {
+          "en": "To build a baseball field",
+          "zh": "建一个棒球场"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "保罗是怎样解决工人 pancakes（煎饼）不够吃的问题的？"
       },
       "options": [
-        {"en": "He told the cooks to work faster", "zh": "他叫厨子干快点"},
-        {"en": "He ordered pizza instead", "zh": "他改叫披萨"},
-        {"en": "He sent the workers home", "zh": "他把工人打发回家"},
-        {"en": "He had a mile-wide iron griddle built, and Babe drank a lake for the batter bowl", "zh": "他造了一块一英里宽的铁煎盘，还让贝贝喝干一个湖当面糊碗"}
+        {
+          "en": "He ordered pizza instead",
+          "zh": "他改叫披萨"
+        },
+        {
+          "en": "He had a mile-wide iron griddle built, and Babe drank a lake for the batter bowl",
+          "zh": "他造了一块一英里宽的铁煎盘，还让贝贝喝干一个湖当面糊碗"
+        },
+        {
+          "en": "He told the cooks to work faster according to some versions of the story in an early draft of the book",
+          "zh": "他叫厨子干快点（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He sent the workers home",
+          "zh": "他把工人打发回家"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Paul had a mile-wide iron griddle built in the big city; Babe drank all the water out of a lake so the cooks could use the empty lake bed as a bowl to mix batter.",
@@ -84,10 +132,22 @@
         "zh": "是什么让这个故事成为民间传说，也就是“夸张故事（tall tale）”？"
       },
       "options": [
-        {"en": "It uses exaggeration (like a mile-wide griddle) and explains how natural features formed", "zh": "它用了夸张（如一英里宽的煎盘），还解释了自然景物是怎么形成的"},
-        {"en": "It is a true news report", "zh": "它是一篇真实的新闻报道"},
-        {"en": "It teaches math facts", "zh": "它教数学常识"},
-        {"en": "It is a science experiment", "zh": "它是一项科学实验"}
+        {
+          "en": "It uses exaggeration (like a mile-wide griddle) and explains how natural features formed",
+          "zh": "它用了夸张（如一英里宽的煎盘），还解释了自然景物是怎么形成的"
+        },
+        {
+          "en": "It teaches math facts",
+          "zh": "它教数学常识"
+        },
+        {
+          "en": "It is a science experiment",
+          "zh": "它是一项科学实验"
+        },
+        {
+          "en": "It is a true news report according to some versions of the story in an early draft of the book",
+          "zh": "它是一篇真实的新闻报道（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,12 +162,24 @@
         "zh": "哪个细节说明这是个夸张故事，而不是真实事件？"
       },
       "options": [
-        {"en": "Paul worked at a logging camp", "zh": "保罗在伐木营工作过"},
-        {"en": "Impossible, exaggerated events, such as digging the Great Lakes with an axe", "zh": "不可能发生的夸张情节，比如用斧头挖出五大湖"},
-        {"en": "Paul had parents", "zh": "保罗有父母"},
-        {"en": "Babe liked pancakes", "zh": "贝贝喜欢煎饼"}
+        {
+          "en": "Babe liked pancakes",
+          "zh": "贝贝喜欢煎饼"
+        },
+        {
+          "en": "Paul had parents",
+          "zh": "保罗有父母"
+        },
+        {
+          "en": "Impossible, exaggerated events, such as digging the Great Lakes with an axe",
+          "zh": "不可能发生的夸张情节，比如用斧头挖出五大湖"
+        },
+        {
+          "en": "Paul worked at a logging camp according to some versions of the story in an early draft of the book",
+          "zh": "保罗在伐木营工作过（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Events like a man digging the Great Lakes with an axe or a mile-wide griddle are impossible, which is the hallmark of a tall tale.",
@@ -120,12 +192,24 @@
         "zh": "这个故事解释了某些真实地点的由来。是哪些？"
       },
       "options": [
-        {"en": "The Rocky Mountains and the Mississippi River", "zh": "落基山脉和密西西比河"},
-        {"en": "The Grand Canyon and Niagara Falls", "zh": "大峡谷和尼亚加拉瀑布"},
-        {"en": "The Great Lakes and the straightened Wisconsin river", "zh": "五大湖和被拉直的威斯康星河"},
-        {"en": "The Pacific Ocean and the Sahara Desert", "zh": "太平洋和撒哈拉沙漠"}
+        {
+          "en": "The Great Lakes and the straightened Wisconsin river",
+          "zh": "五大湖和被拉直的威斯康星河"
+        },
+        {
+          "en": "The Rocky Mountains and the Mississippi River according to some versions of the story",
+          "zh": "落基山脉和密西西比河（按书中另一种说法）"
+        },
+        {
+          "en": "The Pacific Ocean and the Sahara Desert",
+          "zh": "太平洋和撒哈拉沙漠"
+        },
+        {
+          "en": "The Grand Canyon and Niagara Falls",
+          "zh": "大峡谷和尼亚加拉瀑布"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The story says Paul dug the Great Lakes for Babe to drink, and later used a giant chain to pull and straighten a twisty river in Wisconsin.",
@@ -138,12 +222,24 @@
         "zh": "保罗用斧头挖湖，用巨链把河拉直。这说明了他怎样的性格？"
       },
       "options": [
-        {"en": "He was lazy", "zh": "他很懒惰"},
-        {"en": "He was afraid of water", "zh": "他怕水"},
-        {"en": "He gave up easily", "zh": "他轻易放弃"},
-        {"en": "He was clever and used tools to solve problems", "zh": "他很聪明，会借助工具解决问题"}
+        {
+          "en": "He was clever and used tools to solve problems",
+          "zh": "他很聪明，会借助工具解决问题"
+        },
+        {
+          "en": "He was lazy",
+          "zh": "他很懒惰"
+        },
+        {
+          "en": "He gave up easily",
+          "zh": "他轻易放弃"
+        },
+        {
+          "en": "He was afraid of water according to some versions of the story",
+          "zh": "他怕水（按书中另一种说法）"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Each time Paul faces a problem (no water for Babe, a crooked river jamming logs), he invents a clever tool-based solution, showing his resourcefulness.",
@@ -156,12 +252,24 @@
         "zh": "作者为什么重述这个民间传说？"
       },
       "options": [
-        {"en": "To entertain readers with a fun legend and humorously explain natural features", "zh": "用有趣的传说娱乐读者，并以幽默方式解释自然景物"},
-        {"en": "To give a science lesson about lumber", "zh": "上一堂关于木材的科学课"},
-        {"en": "To report real news", "zh": "报道真实新闻"},
-        {"en": "To teach a foreign language", "zh": "教一门外语"}
+        {
+          "en": "To teach a foreign language",
+          "zh": "教一门外语"
+        },
+        {
+          "en": "To entertain readers with a fun legend and humorously explain natural features",
+          "zh": "用有趣的传说娱乐读者，并以幽默方式解释自然景物"
+        },
+        {
+          "en": "To give a science lesson about lumber according to some versions of the story in an early draft of the book",
+          "zh": "上一堂关于木材的科学课（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To report real news",
+          "zh": "报道真实新闻"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "As a retold folk tale, the author's purpose is to entertain with a larger-than-life American legend while playfully explaining how landmarks came to be.",
@@ -174,10 +282,22 @@
         "zh": "这个故事赞美了美国过去的哪一面？"
       },
       "options": [
-        {"en": "Modern city life", "zh": "现代城市生活"},
-        {"en": "Early pioneers, lumberjacks, and the wild wilderness", "zh": "早期的拓荒者、伐木工和荒野"},
-        {"en": "Life in outer space", "zh": "外太空生活"},
-        {"en": "The invention of computers", "zh": "电脑的发明"}
+        {
+          "en": "Modern city life",
+          "zh": "现代城市生活"
+        },
+        {
+          "en": "Early pioneers, lumberjacks, and the wild wilderness",
+          "zh": "早期的拓荒者、伐木工和荒野"
+        },
+        {
+          "en": "The invention of computers according to some versions of the story",
+          "zh": "电脑的发明（按书中另一种说法）"
+        },
+        {
+          "en": "Life in outer space",
+          "zh": "外太空生活"
+        }
       ],
       "answer": 1,
       "skill": "Author's Purpose and Perspective",

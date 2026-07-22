@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "100 according to some versions of the story",
+          "zh": "100块（按书中另一种说法）"
+        },
+        {
           "en": "206",
           "zh": "206块"
         },
         {
-          "en": "300",
-          "zh": "300块"
-        },
-        {
-          "en": "100",
-          "zh": "100块"
-        },
-        {
           "en": "52",
           "zh": "52块"
+        },
+        {
+          "en": "300",
+          "zh": "300块"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'The human skeleton has 206 bones, starting at the top with the skull and ending at the bottom with the toe bones.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Bone",
-          "zh": "骨头"
-        },
-        {
           "en": "Tooth enamel",
           "zh": "牙釉质"
         },
         {
-          "en": "Cartilage",
-          "zh": "软骨"
-        },
-        {
           "en": "Skin",
           "zh": "皮肤"
+        },
+        {
+          "en": "Bone",
+          "zh": "骨头"
+        },
+        {
+          "en": "Cartilage according to some versions of the story",
+          "zh": "软骨（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'The outside of a tooth is made of enamel. Enamel is the hardest thing in the body.'",
@@ -73,20 +73,20 @@
       },
       "options": [
         {
-          "en": "A hard bone",
-          "zh": "一块硬骨"
+          "en": "A joint",
+          "zh": "一种关节"
         },
         {
           "en": "A softer, bendable tissue (such as in your nose)",
           "zh": "一种较软、可弯曲的组织（如鼻子里的）"
         },
         {
-          "en": "A type of muscle",
-          "zh": "一种肌肉"
+          "en": "A type of muscle according to some versions of the story",
+          "zh": "一种肌肉（按书中另一种说法）"
         },
         {
-          "en": "A joint",
-          "zh": "一种关节"
+          "en": "A hard bone",
+          "zh": "一块硬骨"
         }
       ],
       "answer": 1,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Tissues that connect one bone to another bone",
-          "zh": "连接骨与骨的组织"
-        },
-        {
-          "en": "Tissues that attach muscles to bones",
-          "zh": "把肌肉连接到骨头的组织"
-        },
-        {
           "en": "A type of blood cell",
           "zh": "一种血细胞"
+        },
+        {
+          "en": "Tissues that attach muscles to bones according to some versions of the story",
+          "zh": "把肌肉连接到骨头的组织（按书中另一种说法）"
+        },
+        {
+          "en": "Tissues that connect one bone to another bone",
+          "zh": "连接骨与骨的组织"
         },
         {
           "en": "The soft part of bones",
           "zh": "骨头内部柔软的部分"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines ligaments as 'tissues that connect one bone to another bone' (while tendons connect muscles to bones).",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "Ball-and-socket are in the skull",
+          "zh": "球窝关节在头骨里"
+        },
+        {
+          "en": "Hinge joints rotate fully; ball-and-socket don't move according to some versions of the story",
+          "zh": "铰链关节可全方位旋转；球窝关节不能动（按书中另一种说法）"
+        },
+        {
           "en": "Hinge joints only bend one way; ball-and-socket allow more movement",
           "zh": "铰链关节只能朝一个方向弯曲；球窝关节活动范围更大"
         },
         {
           "en": "They are exactly the same",
           "zh": "它们完全一样"
-        },
-        {
-          "en": "Hinge joints rotate fully; ball-and-socket don't move",
-          "zh": "铰链关节可全方位旋转；球窝关节不能动"
-        },
-        {
-          "en": "Ball-and-socket are in the skull",
-          "zh": "球窝关节在头骨里"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says hinge joints 'only bend one way,' while ball-and-socket joints (shoulder, hip) let the ball fit into a socket, allowing freer movement.",
@@ -163,10 +163,6 @@
       },
       "options": [
         {
-          "en": "To entertain with a story",
-          "zh": "用一个故事来娱乐"
-        },
-        {
           "en": "To inform readers about the human skeleton and how bones work",
           "zh": "向读者介绍人体骨骼以及骨头如何运作"
         },
@@ -177,9 +173,13 @@
         {
           "en": "To teach a language",
           "zh": "教一门语言"
+        },
+        {
+          "en": "To entertain with a story according to some versions of the story",
+          "zh": "用一个故事来娱乐（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explains the skeleton, skull, spine, limbs, joints, and bone health, showing its purpose is to inform readers about bones.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "It helps you breathe",
-          "zh": "帮助呼吸"
-        },
-        {
-          "en": "It makes blood cells",
-          "zh": "制造血细胞"
-        },
-        {
           "en": "It grows hair",
           "zh": "长头发"
         },
         {
+          "en": "It helps you breathe according to some versions of the story",
+          "zh": "帮助呼吸（按书中另一种说法）"
+        },
+        {
           "en": "It digests food",
           "zh": "消化食物"
+        },
+        {
+          "en": "It makes blood cells",
+          "zh": "制造血细胞"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'Inside the spongy bone is bone marrow. The body uses bone marrow to make blood cells'—about 50 billion red blood cells a day.",
@@ -227,19 +227,19 @@
           "zh": "让手更重"
         },
         {
-          "en": "To make them flexible and precise for tasks like writing",
-          "zh": "让手灵活、精准，便于写字等动作"
-        },
-        {
-          "en": "Because they are the largest part of the body",
-          "zh": "因为手是身体最大的部分"
+          "en": "Because they are the largest part of the body according to some versions of the story",
+          "zh": "因为手是身体最大的部分（按书中另一种说法）"
         },
         {
           "en": "To protect the brain",
           "zh": "保护大脑"
+        },
+        {
+          "en": "To make them flexible and precise for tasks like writing",
+          "zh": "让手灵活、精准，便于写字等动作"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says hands have many bones 'so they are flexible and precise... we couldn't do things like writing and drawing' without them.",
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "Sleeping all day",
-          "zh": "整天睡觉"
+          "en": "Avoiding all activity according to some versions of the story",
+          "zh": "避免一切活动（按书中另一种说法）"
         },
         {
           "en": "Exercising regularly and eating a balanced diet with calcium",
           "zh": "经常锻炼，并吃含钙质、均衡的饮食"
         },
         {
-          "en": "Avoiding all activity",
-          "zh": "避免一切活动"
-        },
-        {
           "en": "Drinking only water",
           "zh": "只喝水"
+        },
+        {
+          "en": "Sleeping all day",
+          "zh": "整天睡觉"
         }
       ],
       "answer": 1,
@@ -287,12 +287,12 @@
           "zh": "27块"
         },
         {
-          "en": "52",
-          "zh": "52块"
-        },
-        {
           "en": "14",
           "zh": "14块"
+        },
+        {
+          "en": "52",
+          "zh": "52块"
         },
         {
           "en": "206",

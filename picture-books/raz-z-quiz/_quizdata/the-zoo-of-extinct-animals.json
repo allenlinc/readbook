@@ -12,10 +12,22 @@
         "zh": "Hazel 的暑期实习在哪里度过？"
       },
       "options": [
-        {"en": "At the Buckland Rare Animal Research Center in Wyoming", "zh": "在怀俄明州的巴克兰珍稀动物研究中心"},
-        {"en": "At a normal city zoo in New York", "zh": "在纽约一家普通的市立动物园"},
-        {"en": "At a school library", "zh": "在一所学校图书馆"},
-        {"en": "At a hospital in Florida", "zh": "在佛罗里达的一家医院"}
+        {
+          "en": "At the Buckland Rare Animal Research Center in Wyoming",
+          "zh": "在怀俄明州的巴克兰珍稀动物研究中心"
+        },
+        {
+          "en": "At a hospital in Florida",
+          "zh": "在佛罗里达的一家医院"
+        },
+        {
+          "en": "At a normal city zoo in New York according to some versions of the story",
+          "zh": "在纽约一家普通的市立动物园（按书中另一种说法）"
+        },
+        {
+          "en": "At a school library",
+          "zh": "在一所学校图书馆"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,10 +42,22 @@
         "zh": "Hazel 看到的第一个灭绝动物是什么？它叫什么名字？"
       },
       "options": [
-        {"en": "A woolly mammoth named Eve (with a male named Adam)", "zh": "一只名为 Eve 的猛犸象（还有一只叫 Adam 的雄象）"},
-        {"en": "A moa named Malcolm", "zh": "一只名为 Malcolm 的恐鸟"},
-        {"en": "A Thylacinus named Jim", "zh": "一只名为 Jim 的袋狼"},
-        {"en": "A golden toad named Sarah", "zh": "一只名为 Sarah 的金蟾蜍"}
+        {
+          "en": "A woolly mammoth named Eve (with a male named Adam)",
+          "zh": "一只名为 Eve 的猛犸象（还有一只叫 Adam 的雄象）"
+        },
+        {
+          "en": "A Thylacinus named Jim",
+          "zh": "一只名为 Jim 的袋狼"
+        },
+        {
+          "en": "A moa named Malcolm",
+          "zh": "一只名为 Malcolm 的恐鸟"
+        },
+        {
+          "en": "A golden toad named Sarah according to some versions of the story",
+          "zh": "一只名为 Sarah 的金蟾蜍（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "Hazel 深夜目睹了什么，从而揭开了巴克兰的黑暗秘密？"
       },
       "options": [
-        {"en": "Keepers unloading tarped, shot dead animals (like the Entelodont with bullet holes) from a transport", "zh": "管理员从运输车上卸下用防水布包裹、被射杀的动物（如带着弹孔的 Entelodont）"},
-        {"en": "A birthday party for the mammoths", "zh": "为猛犸象举办的生日派对"},
-        {"en": "The animals being released into the wild", "zh": "动物被放归野外"},
-        {"en": "A science class for children", "zh": "给孩子们上的科学课"}
+        {
+          "en": "A birthday party for the mammoths",
+          "zh": "为猛犸象举办的生日派对"
+        },
+        {
+          "en": "Keepers unloading tarped, shot dead animals (like the Entelodont with bullet holes) from a transport",
+          "zh": "管理员从运输车上卸下用防水布包裹、被射杀的动物（如带着弹孔的 Entelodont）"
+        },
+        {
+          "en": "A science class for children",
+          "zh": "给孩子们上的科学课"
+        },
+        {
+          "en": "The animals being released into the wild according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "动物被放归野外（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Hazel watches keepers pull tarped bundles from a transport; the Entelodont 'had a few small holes in it, almost like bullet holes' and its tongue hung out—shot dead.",
@@ -66,12 +102,24 @@
         "zh": "根据 Jim 的说法，巴克兰为什么允许亿万富翁猎杀这些灭绝动物？"
       },
       "options": [
-        {"en": "The huge sums they pay fund conservation, such as saving habitats and bringing species back to the wild", "zh": "他们支付的高额费用用于保育，如保护栖息地、把物种放回野外"},
-        {"en": "Because the animals are dangerous and must be removed", "zh": "因为动物危险，必须清除"},
-        {"en": "Because hunting is required by law for all zoos", "zh": "因为所有动物园依法都必须狩猎"},
-        {"en": "Because the animals asked to be hunted", "zh": "因为动物自己要求被猎杀"}
+        {
+          "en": "Because the animals are dangerous and must be removed according to some versions of the story in an early draft of the book",
+          "zh": "因为动物危险，必须清除（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Because the animals asked to be hunted",
+          "zh": "因为动物自己要求被猎杀"
+        },
+        {
+          "en": "The huge sums they pay fund conservation, such as saving habitats and bringing species back to the wild",
+          "zh": "他们支付的高额费用用于保育，如保护栖息地、把物种放回野外"
+        },
+        {
+          "en": "Because hunting is required by law for all zoos",
+          "zh": "因为所有动物园依法都必须狩猎"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Jim says 'These people pay huge amounts of money ... so they can hunt ... The money has also allowed us to bring back recently extinct animals' and fund conservation.",
@@ -84,10 +132,22 @@
         "zh": "这个故事用第三人称写成，跟随 Hazel 的想法与经历（如“Hazel 以为自己明白了”）。这种视角对读者有什么影响？"
       },
       "options": [
-        {"en": "Readers discover the mystery and Hazel's feelings at the same time, creating suspense", "zh": "读者与 Hazel 同时发现谜团和她的感受，从而制造悬念"},
-        {"en": "Readers know everything the villains plan from the start", "zh": "读者从一开始就知道反派的所有计划"},
-        {"en": "The story has no main character", "zh": "这个故事没有主角"},
-        {"en": "The narrator is inside Hazel's head but tells nothing", "zh": "叙述者进入了 Hazel 的内心却什么也没讲"}
+        {
+          "en": "Readers discover the mystery and Hazel's feelings at the same time, creating suspense",
+          "zh": "读者与 Hazel 同时发现谜团和她的感受，从而制造悬念"
+        },
+        {
+          "en": "The story has no main character",
+          "zh": "这个故事没有主角"
+        },
+        {
+          "en": "Readers know everything the villains plan from the start",
+          "zh": "读者从一开始就知道反派的所有计划"
+        },
+        {
+          "en": "The narrator is inside Hazel's head but tells nothing according to some versions of the story",
+          "zh": "叙述者进入了 Hazel 的内心却什么也没讲（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,12 +162,24 @@
         "zh": "术语表中，conservation（保育）定义为对荒野和生物的守护。这个词为何对书中的冲突很重要？"
       },
       "options": [
-        {"en": "It names the good goal the hunting money supports—saving habitats and endangered species", "zh": "它点出了狩猎所得资金所支持的美好目标——保护栖息地与濒危物种"},
-        {"en": "It means building more zoos for profit", "zh": "它指为盈利建更多动物园"},
-        {"en": "It refers to the hunting itself", "zh": "它指狩猎本身"},
-        {"en": "It describes the interns' paperwork", "zh": "它描述的是实习生的文书工作"}
+        {
+          "en": "It refers to the hunting itself",
+          "zh": "它指狩猎本身"
+        },
+        {
+          "en": "It means building more zoos for profit according to some versions of the story in an early draft of the book",
+          "zh": "它指为盈利建更多动物园（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It names the good goal the hunting money supports—saving habitats and endangered species",
+          "zh": "它点出了狩猎所得资金所支持的美好目标——保护栖息地与濒危物种"
+        },
+        {
+          "en": "It describes the interns' paperwork",
+          "zh": "它描述的是实习生的文书工作"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Glossary: 'conservation (n.) the protection of wild lands and the living things found there.' Jim argues the hunting funds this conservation work.",
@@ -120,12 +192,24 @@
         "zh": "除了复活灭绝动物，Jim 说狩猎所得的钱还促成了哪些好事？"
       },
       "options": [
-        {"en": "Saving rainforest and wetlands, funding captive breeding, and research trips that discovered new species", "zh": "拯救雨林与湿地、资助圈养繁殖，以及发现新物种的科考之旅"},
-        {"en": "Building luxury homes for the billionaires", "zh": "为亿万富翁建造豪宅"},
-        {"en": "Ending all zoos worldwide", "zh": "终结全世界所有动物园"},
-        {"en": "Teaching the animals to speak", "zh": "教动物说话"}
+        {
+          "en": "Teaching the animals to speak",
+          "zh": "教动物说话"
+        },
+        {
+          "en": "Saving rainforest and wetlands, funding captive breeding, and research trips that discovered new species",
+          "zh": "拯救雨林与湿地、资助圈养繁殖，以及发现新物种的科考之旅"
+        },
+        {
+          "en": "Ending all zoos worldwide",
+          "zh": "终结全世界所有动物园"
+        },
+        {
+          "en": "Building luxury homes for the billionaires according to some versions of the story in an early draft of the book",
+          "zh": "为亿万富翁建造豪宅（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Jim says 'Last year alone, the organization bought and saved miles of rainforest and wetlands ... funded captive breeding programs ... research trips ... to discover new species.'",
@@ -138,12 +222,24 @@
         "zh": "Malcolm 提到如果他们离开就能守住“道德高地”（moral high ground）。Hazel 面临怎样的困境？"
       },
       "options": [
-        {"en": "Staying funds conservation but means accepting animals being hunted; leaving keeps her morals but costs her college funding", "zh": "留下能资助保育，却意味着接受动物被猎杀；离开能守住道德，却失去她的大学资助"},
-        {"en": "Whether to name the mammoth Eve or Adam", "zh": "要给猛犸象取名 Eve 还是 Adam"},
-        {"en": "Whether to learn to drive a transport", "zh": "要不要学开运输车"},
-        {"en": "Whether to move to a different state", "zh": "要不要搬到另一个州"}
+        {
+          "en": "Whether to move to a different state",
+          "zh": "要不要搬到另一个州"
+        },
+        {
+          "en": "Whether to name the mammoth Eve or Adam according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "要给猛犸象取名 Eve 还是 Adam（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Whether to learn to drive a transport",
+          "zh": "要不要学开运输车"
+        },
+        {
+          "en": "Staying funds conservation but means accepting animals being hunted; leaving keeps her morals but costs her college funding",
+          "zh": "留下能资助保育，却意味着接受动物被猎杀；离开能守住道德，却失去她的大学资助"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Malcolm says leaving keeps 'the moral high ground' but they 'lose our college funding'; Hazel 'really needed the funding to afford school'—so either choice hurts someone.",
@@ -156,12 +252,24 @@
         "zh": "书的结尾让 Hazel 面对一个选择，却没有告诉我们她决定了什么。作者为何这样处理？"
       },
       "options": [
-        {"en": "To let readers weigh the ethical dilemma themselves and form their own judgment", "zh": "为了让读者自己权衡这个伦理困境，形成自己的判断"},
-        {"en": "Because the author forgot to finish the story", "zh": "因为作者忘了写完故事"},
-        {"en": "To hint that Hazel runs away immediately", "zh": "为了暗示 Hazel 立刻逃走了"},
-        {"en": "To prove there is only one right answer", "zh": "为了证明只有一个正确答案"}
+        {
+          "en": "To hint that Hazel runs away immediately according to some versions of the story",
+          "zh": "为了暗示 Hazel 立刻逃走了（按书中另一种说法）"
+        },
+        {
+          "en": "Because the author forgot to finish the story",
+          "zh": "因为作者忘了写完故事"
+        },
+        {
+          "en": "To prove there is only one right answer",
+          "zh": "为了证明只有一个正确答案"
+        },
+        {
+          "en": "To let readers weigh the ethical dilemma themselves and form their own judgment",
+          "zh": "为了让读者自己权衡这个伦理困境，形成自己的判断"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book leaves Hazel 'faced with a choice, and no matter what she chose, someone ... was going to get hurt,' inviting reader reflection.",
@@ -174,12 +282,24 @@
         "zh": "作者通过这个故事传达了怎样的整体信息？"
       },
       "options": [
-        {"en": "Real ethical choices are complex, with no easy answer—helping some may mean harming others", "zh": "真实的伦理抉择很复杂，没有简单答案——帮助一些人可能意味着伤害另一些"},
-        {"en": "Hunting extinct animals is always good", "zh": "猎杀灭绝动物总是好事"},
-        {"en": "All zoos should be shut down", "zh": "所有动物园都应关闭"},
-        {"en": "Internships are never worth it", "zh": "实习从来都不值得"}
+        {
+          "en": "Internships are never worth it",
+          "zh": "实习从来都不值得"
+        },
+        {
+          "en": "Real ethical choices are complex, with no easy answer—helping some may mean harming others",
+          "zh": "真实的伦理抉择很复杂，没有简单答案——帮助一些人可能意味着伤害另一些"
+        },
+        {
+          "en": "All zoos should be shut down",
+          "zh": "所有动物园都应关闭"
+        },
+        {
+          "en": "Hunting extinct animals is always good according to some versions of the story in an early draft of the book",
+          "zh": "猎杀灭绝动物总是好事（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The story shows both the disturbing hunting and the conservation it funds; Hazel realizes 'no matter what she chose, someone—man, beast, or both—was going to get hurt.'",

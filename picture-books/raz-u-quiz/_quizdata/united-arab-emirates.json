@@ -12,10 +12,22 @@
         "zh": "阿拉伯联合酋长国由多少个阿拉伯酋长国组成？"
       },
       "options": [
-        {"en": "Five", "zh": "五个"},
-        {"en": "Seven", "zh": "七个"},
-        {"en": "Eight", "zh": "八个"},
-        {"en": "Ten", "zh": "十个"}
+        {
+          "en": "Five",
+          "zh": "五个"
+        },
+        {
+          "en": "Seven",
+          "zh": "七个"
+        },
+        {
+          "en": "Ten",
+          "zh": "十个"
+        },
+        {
+          "en": "Eight according to some versions of the story",
+          "zh": "八个（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "阿拉伯联合酋长国的首都是哪座城市？"
       },
       "options": [
-        {"en": "Dubai", "zh": "迪拜"},
-        {"en": "Abu Dhabi", "zh": "阿布扎比"},
-        {"en": "Sharjah", "zh": "沙迦"},
-        {"en": "Ras al Khaimah", "zh": "哈伊马角"}
+        {
+          "en": "Abu Dhabi",
+          "zh": "阿布扎比"
+        },
+        {
+          "en": "Ras al Khaimah",
+          "zh": "哈伊马角"
+        },
+        {
+          "en": "Sharjah",
+          "zh": "沙迦"
+        },
+        {
+          "en": "Dubai",
+          "zh": "迪拜"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the country's capital city is Abu Dhabi, which lies on an island in the gulf.",
@@ -48,10 +72,22 @@
         "zh": "阿布扎比是在哪一年首次发现石油的？"
       },
       "options": [
-        {"en": "1820", "zh": "1820年"},
-        {"en": "1958", "zh": "1958年"},
-        {"en": "1971", "zh": "1971年"},
-        {"en": "1981", "zh": "1981年"}
+        {
+          "en": "1981 according to some versions of the story",
+          "zh": "1981年（按书中另一种说法）"
+        },
+        {
+          "en": "1958",
+          "zh": "1958年"
+        },
+        {
+          "en": "1820",
+          "zh": "1820年"
+        },
+        {
+          "en": "1971",
+          "zh": "1971年"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "迪拜的哪座地标被描述为世界上最高的建筑？"
       },
       "options": [
-        {"en": "Emirates Palace", "zh": "酋长国宫殿"},
-        {"en": "Burj Khalifa", "zh": "哈利法塔"},
-        {"en": "Sheikh Zayed Grand Mosque", "zh": "谢赫扎耶德大清真寺"},
-        {"en": "Palm Jumeirah", "zh": "朱美拉棕榈岛"}
+        {
+          "en": "Burj Khalifa",
+          "zh": "哈利法塔"
+        },
+        {
+          "en": "Emirates Palace",
+          "zh": "酋长国宫殿"
+        },
+        {
+          "en": "Sheikh Zayed Grand Mosque",
+          "zh": "谢赫扎耶德大清真寺"
+        },
+        {
+          "en": "Palm Jumeirah",
+          "zh": "朱美拉棕榈岛"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the Burj Khalifa in Dubai is 830 meters tall and sets the record as the tallest building in the world.",
@@ -84,12 +132,24 @@
         "zh": "书中说当地人对波斯湾的称呼是什么？"
       },
       "options": [
-        {"en": "The Arabian Gulf", "zh": "阿拉伯湾"},
-        {"en": "The Red Sea", "zh": "红海"},
-        {"en": "The Oman Gulf", "zh": "阿曼湾"},
-        {"en": "The Indian Ocean", "zh": "印度洋"}
+        {
+          "en": "The Red Sea",
+          "zh": "红海"
+        },
+        {
+          "en": "The Oman Gulf",
+          "zh": "阿曼湾"
+        },
+        {
+          "en": "The Indian Ocean according to some versions of the story",
+          "zh": "印度洋（按书中另一种说法）"
+        },
+        {
+          "en": "The Arabian Gulf",
+          "zh": "阿拉伯湾"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book notes the rest of the UAE's coast runs along the Persian Gulf, which is called the Arabian Gulf by people in the region.",
@@ -102,12 +162,24 @@
         "zh": "在书中，“绿洲”指的是什么？"
       },
       "options": [
-        {"en": "A fertile spot in a desert where water is usually found", "zh": "沙漠中通常能找到水的肥沃之地"},
-        {"en": "A type of mosque", "zh": "一种清真寺"},
-        {"en": "A mountain range", "zh": "一条山脉"},
-        {"en": "A country's capital city", "zh": "一个国家的首都"}
+        {
+          "en": "A country's capital city according to some versions of the story",
+          "zh": "一个国家的首都（按书中另一种说法）"
+        },
+        {
+          "en": "A type of mosque",
+          "zh": "一种清真寺"
+        },
+        {
+          "en": "A fertile spot in a desert where water is usually found",
+          "zh": "沙漠中通常能找到水的肥沃之地"
+        },
+        {
+          "en": "A mountain range",
+          "zh": "一条山脉"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines an oasis as a fertile spot in a desert where water is usually found and plants and animals may live.",
@@ -120,12 +192,24 @@
         "zh": "根据书中内容，石油的发现如何改变了阿联酋？"
       },
       "options": [
-        {"en": "It became a poor farming nation", "zh": "它变成了一个贫穷的农业国"},
-        {"en": "It quickly became wealthy and began to grow", "zh": "它迅速变得富裕并开始发展"},
-        {"en": "It led to war with Britain", "zh": "它导致与英国的战争"},
-        {"en": "The country remained unchanged", "zh": "这个国家没有发生任何变化"}
+        {
+          "en": "The country remained unchanged",
+          "zh": "这个国家没有发生任何变化"
+        },
+        {
+          "en": "It led to war with Britain",
+          "zh": "它导致与英国的战争"
+        },
+        {
+          "en": "It quickly became wealthy and began to grow",
+          "zh": "它迅速变得富裕并开始发展"
+        },
+        {
+          "en": "It became a poor farming nation according to some versions of the story",
+          "zh": "它变成了一个贫穷的农业国（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says that after oil was found, the area quickly became wealthy and the country has continued to grow.",
@@ -138,12 +222,24 @@
         "zh": "阿联酋在12月2日的国庆日庆祝的是什么？"
       },
       "options": [
-        {"en": "The founding of Dubai", "zh": "迪拜的建立"},
-        {"en": "Its independence from Great Britain", "zh": "它脱离英国的独立"},
-        {"en": "The discovery of oil", "zh": "石油的发现"},
-        {"en": "The opening of the Burj Khalifa", "zh": "哈利法塔的开放"}
+        {
+          "en": "The founding of Dubai",
+          "zh": "迪拜的建立"
+        },
+        {
+          "en": "The discovery of oil",
+          "zh": "石油的发现"
+        },
+        {
+          "en": "The opening of the Burj Khalifa according to some versions of the story",
+          "zh": "哈利法塔的开放（按书中另一种说法）"
+        },
+        {
+          "en": "Its independence from Great Britain",
+          "zh": "它脱离英国的独立"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says each year on December 2, National Day celebrates the UAE's independence from Great Britain.",
@@ -156,12 +252,24 @@
         "zh": "根据书中内容，谢赫扎耶德大清真寺象征着什么？"
       },
       "options": [
-        {"en": "Wealth and tourism only", "zh": "仅仅象征着财富与旅游业"},
-        {"en": "Islam, which teaches respect, love, and peace", "zh": "伊斯兰教，其教导尊重、爱与和平"},
-        {"en": "British colonial rule", "zh": "英国的殖民统治"},
-        {"en": "The oil industry", "zh": "石油工业"}
+        {
+          "en": "Islam, which teaches respect, love, and peace",
+          "zh": "伊斯兰教，其教导尊重、爱与和平"
+        },
+        {
+          "en": "Wealth and tourism only according to some versions of the story",
+          "zh": "仅仅象征着财富与旅游业（按书中另一种说法）"
+        },
+        {
+          "en": "British colonial rule",
+          "zh": "英国的殖民统治"
+        },
+        {
+          "en": "The oil industry",
+          "zh": "石油工业"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says the mosque is a symbol of Islam, which teaches respect, love, and peace.",
@@ -174,10 +282,22 @@
         "zh": "书中关于阿联酋的现代公民表达了什么观点？"
       },
       "options": [
-        {"en": "They reject all of their traditions", "zh": "他们抛弃了所有传统"},
-        {"en": "They are proud of their country's success while still holding onto their Arabic past", "zh": "他们为国家成就感到自豪，同时仍坚守阿拉伯传统"},
-        {"en": "They speak only English", "zh": "他们只说英语"},
-        {"en": "They live only in the desert", "zh": "他们只住在沙漠里"}
+        {
+          "en": "They reject all of their traditions according to some versions of the story in an early draft of the book",
+          "zh": "他们抛弃了所有传统（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They are proud of their country's success while still holding onto their Arabic past",
+          "zh": "他们为国家成就感到自豪，同时仍坚守阿拉伯传统"
+        },
+        {
+          "en": "They live only in the desert",
+          "zh": "他们只住在沙漠里"
+        },
+        {
+          "en": "They speak only English",
+          "zh": "他们只说英语"
+        }
       ],
       "answer": 1,
       "skill": "Author's Purpose and Perspective",

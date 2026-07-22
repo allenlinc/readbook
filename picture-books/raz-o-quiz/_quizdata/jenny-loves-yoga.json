@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "She practices yoga.",
-          "zh": "她练习瑜伽。"
-        },
-        {
           "en": "She eats a big breakfast.",
           "zh": "她吃一顿丰盛的早餐。"
+        },
+        {
+          "en": "She practices yoga.",
+          "zh": "她练习瑜伽。"
         },
         {
           "en": "She rides her bicycle.",
@@ -29,7 +29,7 @@
           "zh": "她读一本书。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'Each morning Jenny begins her day by practicing yoga.'",
@@ -47,16 +47,16 @@
           "zh": "一块又长又薄的橡胶，能防止她滑倒。"
         },
         {
-          "en": "A wooden board used for balancing.",
-          "zh": "一块用来保持平衡的木板。"
-        },
-        {
           "en": "A blanket she uses to keep warm.",
           "zh": "她用来保暖的一条毯子。"
         },
         {
           "en": "A plastic sheet she sits on.",
           "zh": "她坐着的一张塑料布。"
+        },
+        {
+          "en": "A wooden board used for balancing. according to some versions of the story",
+          "zh": "一块用来保持平衡的木板。（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -77,16 +77,16 @@
           "zh": "珍妮站得非常静止，练习像山一样强壮和安静。"
         },
         {
-          "en": "It is practiced on top of a real mountain.",
-          "zh": "它是在真正的山顶上练习的。"
+          "en": "There are pictures of mountains on her mat.",
+          "zh": "她的垫子上画着山。"
+        },
+        {
+          "en": "It is practiced on top of a real mountain. according to some versions of the story",
+          "zh": "它是在真正的山顶上练习的。（按书中另一种说法）"
         },
         {
           "en": "It uses a mountain-shaped prop.",
           "zh": "它使用了一个山形的道具。"
-        },
-        {
-          "en": "There are pictures of mountains on her mat.",
-          "zh": "她的垫子上画着山。"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "With each breath.",
-          "zh": "随着每一次呼吸。"
+          "en": "When the sun rises higher.",
+          "zh": "当太阳升得更高时。"
         },
         {
-          "en": "By counting to ten aloud.",
-          "zh": "大声数到十。"
+          "en": "With each breath.",
+          "zh": "随着每一次呼吸。"
         },
         {
           "en": "After a loud clap.",
           "zh": "在一声拍手之后。"
         },
         {
-          "en": "When the sun rises higher.",
-          "zh": "当太阳升得更高时。"
+          "en": "By counting to ten aloud.",
+          "zh": "大声数到十。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Sun Salutations are 'a series of poses linked together. With each breath, Jenny moves from one pose to the next.'",
@@ -133,12 +133,8 @@
       },
       "options": [
         {
-          "en": "It lifts its head up and back to scare away an enemy.",
-          "zh": "它把头抬起并向后仰，用来吓走敌人。"
-        },
-        {
-          "en": "It slithers quickly to catch prey.",
-          "zh": "它迅速滑行去捕捉猎物。"
+          "en": "It slithers quickly to catch prey. according to some versions of the story",
+          "zh": "它迅速滑行去捕捉猎物。（按书中另一种说法）"
         },
         {
           "en": "It sleeps curled into a ball.",
@@ -147,9 +143,13 @@
         {
           "en": "It changes color to hide.",
           "zh": "它改变颜色来隐藏自己。"
+        },
+        {
+          "en": "It lifts its head up and back to scare away an enemy.",
+          "zh": "它把头抬起并向后仰，用来吓走敌人。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The text explains the pose is 'named after a kind of snake called a cobra. A cobra snake lifts its head up and back to scare away an enemy.'",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "The back and the neck.",
+          "zh": "背部和颈部。"
+        },
+        {
           "en": "The legs and the feet.",
           "zh": "腿和脚。"
         },
@@ -171,15 +175,11 @@
           "zh": "手和手腕。"
         },
         {
-          "en": "The back and the neck.",
-          "zh": "背部和颈部。"
-        },
-        {
           "en": "The shoulders and arms.",
           "zh": "肩膀和手臂。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "After describing Airplane and Tree Pose, the book states, 'These poses help to strengthen the legs and feet.'",
@@ -193,12 +193,8 @@
       },
       "options": [
         {
-          "en": "To teach readers about yoga and show how Jenny practices it.",
-          "zh": "向读者介绍瑜伽，并展示珍妮如何练习。"
-        },
-        {
-          "en": "To argue that yoga is better than sports.",
-          "zh": "论证瑜伽比运动更好。"
+          "en": "To argue that yoga is better than sports. according to some versions of the story",
+          "zh": "论证瑜伽比运动更好。（按书中另一种说法）"
         },
         {
           "en": "To tell a scary story.",
@@ -207,9 +203,13 @@
         {
           "en": "To explain how to build a yoga mat.",
           "zh": "解释如何制作瑜伽垫。"
+        },
+        {
+          "en": "To teach readers about yoga and show how Jenny practices it.",
+          "zh": "向读者介绍瑜伽，并展示珍妮如何练习。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book walks the reader through Jenny's whole yoga routine, naming poses and explaining what they do, which teaches about yoga practice.",
@@ -227,16 +227,16 @@
           "zh": "冥想。"
         },
         {
-          "en": "Sleeping.",
-          "zh": "睡觉。"
+          "en": "Running.",
+          "zh": "跑步。"
         },
         {
           "en": "Singing.",
           "zh": "唱歌。"
         },
         {
-          "en": "Running.",
-          "zh": "跑步。"
+          "en": "Sleeping. according to some versions of the story",
+          "zh": "睡觉。（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "It cools the whole body down.",
+          "zh": "它让全身降温。"
+        },
+        {
+          "en": "It makes the heart beat much faster. according to some versions of the story",
+          "zh": "它让心跳加快很多。（按书中另一种说法）"
+        },
+        {
           "en": "It lets old blood drain out of the legs and helps prevent soreness.",
           "zh": "它让旧血从腿部排出，并有助于防止肌肉酸痛。"
         },
         {
-          "en": "It makes the heart beat much faster.",
-          "zh": "它让心跳加快很多。"
-        },
-        {
           "en": "It helps you grow taller.",
           "zh": "它帮助你长高。"
-        },
-        {
-          "en": "It cools the whole body down.",
-          "zh": "它让全身降温。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The text states an inversion 'allows old blood to drain out of the legs. It helps to prevent soreness in the muscles.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Getting plenty of sleep and eating healthy food.",
-          "zh": "充足的睡眠和健康的饮食。"
-        },
-        {
-          "en": "Watching yoga videos all day.",
-          "zh": "整天看瑜伽视频。"
-        },
-        {
-          "en": "Drinking only water.",
-          "zh": "只喝水。"
+          "en": "Watching yoga videos all day. according to some versions of the story",
+          "zh": "整天看瑜伽视频。（按书中另一种说法）"
         },
         {
           "en": "Exercising with a friend.",
           "zh": "和朋友一起锻炼。"
+        },
+        {
+          "en": "Getting plenty of sleep and eating healthy food.",
+          "zh": "充足的睡眠和健康的饮食。"
+        },
+        {
+          "en": "Drinking only water.",
+          "zh": "只喝水。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The last page says, 'Jenny knows that a good yoga practice also includes getting plenty of sleep, and eating healthy food.'",

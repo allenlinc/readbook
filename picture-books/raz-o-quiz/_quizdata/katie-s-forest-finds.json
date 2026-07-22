@@ -17,16 +17,16 @@
           "zh": "她在小路上发现的一朵奶油黄色的花"
         },
         {
-          "en": "A chipmunk she caught",
-          "zh": "她抓到的一只花栗鼠"
-        },
-        {
           "en": "A deer she met",
           "zh": "她遇到的一只鹿"
         },
         {
-          "en": "A quartz stone from the stream",
-          "zh": "溪流里的一块石英石"
+          "en": "A chipmunk she caught",
+          "zh": "她抓到的一只花栗鼠"
+        },
+        {
+          "en": "A quartz stone from the stream according to some versions of the story",
+          "zh": "溪流里的一块石英石（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -43,12 +43,8 @@
       },
       "options": [
         {
-          "en": "There are many grizzly bears nearby",
-          "zh": "附近有很多灰熊"
-        },
-        {
-          "en": "No, but there are other kinds of wildlife to see",
-          "zh": "没有，但有其他种类的野生动物可以看到"
+          "en": "There are many grizzly bears nearby according to some versions of the story",
+          "zh": "附近有很多灰熊（按书中另一种说法）"
         },
         {
           "en": "Only tiny chipmunks live there",
@@ -57,9 +53,13 @@
         {
           "en": "Grizzly bears guarded the campsite",
           "zh": "灰熊守在营地旁边"
+        },
+        {
+          "en": "No, but there are other kinds of wildlife to see",
+          "zh": "没有，但有其他种类的野生动物可以看到"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "When Katie asks if there are really grizzly bears, her father says 'No,' but adds that there are other varieties of wildlife she might see if she keeps her eyes open.",
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "Because it costs too much money",
-          "zh": "因为要花太多钱"
-        },
-        {
           "en": "Because animals can become dependent and might bite people",
           "zh": "因为动物会变得依赖人类，而且可能会咬人"
         },
@@ -85,11 +81,15 @@
           "zh": "因为它们会吃掉全家的午餐"
         },
         {
-          "en": "Because it attracts grizzly bears to the camp",
-          "zh": "因为会把灰熊引到营地来"
+          "en": "Because it costs too much money",
+          "zh": "因为要花太多钱"
+        },
+        {
+          "en": "Because it attracts grizzly bears to the camp according to some versions of the story",
+          "zh": "因为会把灰熊引到营地来（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Her father explains feeding wild animals is bad for the animals (they become dependent on handouts and forget how to find their own food) and bad for humans (even a cute chipmunk is wild and could bite).",
@@ -107,19 +107,19 @@
           "zh": "一种野生动物"
         },
         {
-          "en": "A geographic area where an animal lives",
-          "zh": "动物生活的地理区域"
-        },
-        {
           "en": "A kind of camping tent",
           "zh": "一种露营帐篷"
         },
         {
-          "en": "A hiking trail in the woods",
-          "zh": "森林里的一条徒步小路"
+          "en": "A hiking trail in the woods according to some versions of the story",
+          "zh": "森林里的一条徒步小路（按书中另一种说法）"
+        },
+        {
+          "en": "A geographic area where an animal lives",
+          "zh": "动物生活的地理区域"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'territory' as 'a geographic area.' Katie's father reminds her that the woods are the animals' territory and the family are strangers there.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A chipmunk",
-          "zh": "一只花栗鼠"
-        },
-        {
-          "en": "A deer",
-          "zh": "一只鹿"
-        },
-        {
           "en": "A grizzly bear",
           "zh": "一只灰熊"
         },
         {
           "en": "A frog",
           "zh": "一只青蛙"
+        },
+        {
+          "en": "A deer",
+          "zh": "一只鹿"
+        },
+        {
+          "en": "A chipmunk",
+          "zh": "一只花栗鼠"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After waking first and stepping out of the tent, Katie sees a deer drinking from the nearby stream and quietly observes it until it leaves.",
@@ -167,19 +167,19 @@
           "zh": "给读者讲笑话"
         },
         {
+          "en": "Advertise other Reading A-Z books according to some versions of the story",
+          "zh": "为其他 Reading A-Z 图书打广告（按书中另一种说法）"
+        },
+        {
           "en": "Give scientific facts about the plants and animals",
           "zh": "提供关于植物和动物的科学知识"
         },
         {
           "en": "List the family's camping rules",
           "zh": "列出全家的露营规则"
-        },
-        {
-          "en": "Advertise other Reading A-Z books",
-          "zh": "为其他 Reading A-Z 图书打广告"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "These side boxes name each plant or animal with its scientific name and a fact (e.g., sugar pine cones are 15 inches tall; quartz is one of the most plentiful minerals), adding real-world information to the story.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "They are food for birds and small animals",
-          "zh": "它们是鸟类和小型动物的食物"
-        },
-        {
-          "en": "They are too heavy to carry",
-          "zh": "它们太重了，不好带"
-        },
-        {
           "en": "They belong to the campground",
           "zh": "它们属于露营地"
         },
         {
-          "en": "They would attract grizzly bears",
-          "zh": "它们会把灰熊引过来"
+          "en": "They are food for birds and small animals",
+          "zh": "它们是鸟类和小型动物的食物"
+        },
+        {
+          "en": "They would attract grizzly bears according to some versions of the story",
+          "zh": "它们会把灰熊引过来（按书中另一种说法）"
+        },
+        {
+          "en": "They are too heavy to carry",
+          "zh": "它们太重了，不好带"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Katie's father explains the pinecone and acorns are 'food for birds and small animals like the chipmunk you saw,' helping her connect taking them to stealing an animal's lunch.",
@@ -227,12 +227,12 @@
           "zh": "石英"
         },
         {
-          "en": "Granite",
-          "zh": "花岗岩"
-        },
-        {
           "en": "Gold",
           "zh": "黄金"
+        },
+        {
+          "en": "Granite",
+          "zh": "花岗岩"
         },
         {
           "en": "Marble",
@@ -253,16 +253,16 @@
       },
       "options": [
         {
-          "en": "Bring every item home in her backpack",
-          "zh": "把每件东西都装进背包带回家"
+          "en": "Give it all to the chipmunk",
+          "zh": "把全部送给那只花栗鼠"
         },
         {
           "en": "Keep the whole forest as her collection since it is too big to carry",
           "zh": "把整片森林当作她的收藏，因为它太大带不回家"
         },
         {
-          "en": "Give it all to the chipmunk",
-          "zh": "把全部送给那只花栗鼠"
+          "en": "Bring every item home in her backpack according to some versions of the story",
+          "zh": "把每件东西都装进背包带回家（按书中另一种说法）"
         },
         {
           "en": "Throw it all in the trash",
@@ -283,16 +283,16 @@
       },
       "options": [
         {
-          "en": "Always try to catch chipmunks",
-          "zh": "一定要去抓花栗鼠"
+          "en": "Bring home as many souvenirs as possible according to some versions of the story",
+          "zh": "尽可能多带纪念品回家（按书中另一种说法）"
         },
         {
           "en": "Respect nature and leave natural things where you find them",
           "zh": "尊重自然，把自然里的东西留在原地"
         },
         {
-          "en": "Bring home as many souvenirs as possible",
-          "zh": "尽可能多带纪念品回家"
+          "en": "Always try to catch chipmunks",
+          "zh": "一定要去抓花栗鼠"
         },
         {
           "en": "Be afraid of bears in the woods",

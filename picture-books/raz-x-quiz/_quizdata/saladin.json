@@ -12,12 +12,24 @@
         "zh": "萨拉丁的穆斯林名字'Salah al-Din'是什么意思？"
       },
       "options": [
-        { "en": "\"He who honors the faith.\"", "zh": "“维护信仰之人。”" },
-        { "en": "\"King of the desert.\"", "zh": "“沙漠之王。”" },
-        { "en": "\"Friend of the Christians.\"", "zh": "“基督徒之友。”" },
-        { "en": "\"Builder of cities.\"", "zh": "“城市建设者。”" }
+        {
+          "en": "\"Builder of cities.\"",
+          "zh": "“城市建设者。”"
+        },
+        {
+          "en": "\"He who honors the faith.\"",
+          "zh": "“维护信仰之人。”"
+        },
+        {
+          "en": "\"Friend of the Christians.\" according to some versions of the story",
+          "zh": "“基督徒之友。”（按书中另一种说法）"
+        },
+        {
+          "en": "\"King of the desert.\"",
+          "zh": "“沙漠之王。”"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'Saladin's Muslim name is Salah al-Din, which means \"he who honors the faith.\"'",
@@ -30,12 +42,24 @@
         "zh": "萨拉丁出生在哪里、什么时候？"
       },
       "options": [
-        { "en": "In Tikrit, Mesopotamia, in 1137 or 1138.", "zh": "1137或1138年，生于美索不达米亚的提克里特。" },
-        { "en": "In Jerusalem, in 1099.", "zh": "1099年，生于耶路撒冷。" },
-        { "en": "In Cairo, Egypt, in 1169.", "zh": "1169年，生于埃及开罗。" },
-        { "en": "In Damascus, in 1193.", "zh": "1193年，生于大马士革。" }
+        {
+          "en": "In Cairo, Egypt, in 1169. according to some versions of the story",
+          "zh": "1169年，生于埃及开罗。（按书中另一种说法）"
+        },
+        {
+          "en": "In Jerusalem, in 1099.",
+          "zh": "1099年，生于耶路撒冷。"
+        },
+        {
+          "en": "In Tikrit, Mesopotamia, in 1137 or 1138.",
+          "zh": "1137或1138年，生于美索不达米亚的提克里特。"
+        },
+        {
+          "en": "In Damascus, in 1193.",
+          "zh": "1193年，生于大马士革。"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states Saladin 'was born in 1137 or 1138 to a Muslim family in Tikrit, Mesopotamia.'",
@@ -48,10 +72,22 @@
         "zh": "1187年，在夺回耶路撒冷之前，萨拉丁赢得了哪场重要战役？"
       },
       "options": [
-        { "en": "The Battle of Hattin, fought at the Horns of Hattin.", "zh": "哈丁之战，发生在哈丁双角山一带。" },
-        { "en": "The Battle of Acre.", "zh": "阿卡之战。" },
-        { "en": "The Battle of the Nile.", "zh": "尼罗河之战。" },
-        { "en": "The Battle of Tyre.", "zh": "提尔之战。" }
+        {
+          "en": "The Battle of Hattin, fought at the Horns of Hattin.",
+          "zh": "哈丁之战，发生在哈丁双角山一带。"
+        },
+        {
+          "en": "The Battle of Acre.",
+          "zh": "阿卡之战。"
+        },
+        {
+          "en": "The Battle of Tyre.",
+          "zh": "提尔之战。"
+        },
+        {
+          "en": "The Battle of the Nile. according to some versions of the story",
+          "zh": "尼罗河之战。（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "谁领导了针对萨拉丁的第三次十字军东征？"
       },
       "options": [
-        { "en": "King Richard I of England, also called Richard the Lionheart.", "zh": "英格兰国王理查一世，即'狮心王'理查。" },
-        { "en": "Pope Urban II.", "zh": "乌尔班二世教皇。" },
-        { "en": "King Guy of Lusignan.", "zh": "吕西尼昂的居伊国王。" },
-        { "en": "Raynald of Châtillon.", "zh": "沙蒂永的雷纳尔德。" }
+        {
+          "en": "King Guy of Lusignan. according to some versions of the story",
+          "zh": "吕西尼昂的居伊国王。（按书中另一种说法）"
+        },
+        {
+          "en": "Raynald of Châtillon.",
+          "zh": "沙蒂永的雷纳尔德。"
+        },
+        {
+          "en": "Pope Urban II.",
+          "zh": "乌尔班二世教皇。"
+        },
+        {
+          "en": "King Richard I of England, also called Richard the Lionheart.",
+          "zh": "英格兰国王理查一世，即'狮心王'理查。"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "European leaders called for a Third Crusade and 'King Richard I of England (Richard the Lionheart) was one of the European kings who raised armies.'",
@@ -84,10 +132,22 @@
         "zh": "1187年萨拉丁攻占耶路撒冷时，是如何对待这座城及其民众的？"
       },
       "options": [
-        { "en": "Unlike the Christian takeover in 1099, his takeover was not cruel or vengeful, and few people were killed.", "zh": "与1099年基督徒的占领不同，他的占领并不残暴也不报复，几乎无人被杀。" },
-        { "en": "He destroyed all Christian holy places.", "zh": "他摧毁了所有基督教圣地。" },
-        { "en": "He killed thousands of residents like the Franks had in 1099.", "zh": "他像1099年法兰克人那样杀了数千居民。" },
-        { "en": "He forced all Christians to leave the city forever.", "zh": "他强迫所有基督徒永远离开城市。" }
+        {
+          "en": "Unlike the Christian takeover in 1099, his takeover was not cruel or vengeful, and few people were killed.",
+          "zh": "与1099年基督徒的占领不同，他的占领并不残暴也不报复，几乎无人被杀。"
+        },
+        {
+          "en": "He forced all Christians to leave the city forever.",
+          "zh": "他强迫所有基督徒永远离开城市。"
+        },
+        {
+          "en": "He destroyed all Christian holy places.",
+          "zh": "他摧毁了所有基督教圣地。"
+        },
+        {
+          "en": "He killed thousands of residents like the Franks had in 1099. according to some versions of the story in an early draft of the book",
+          "zh": "他像1099年法兰克人那样杀了数千居民。（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -102,12 +162,24 @@
         "zh": "萨拉丁何时去世、享年多少？"
       },
       "options": [
-        { "en": "On March 4, 1193, at age fifty-five.", "zh": "1193年3月4日，享年55岁。" },
-        { "en": "In 1187, at age forty.", "zh": "1187年，享年40岁。" },
-        { "en": "In 1213, at age ninety-one.", "zh": "1213年，享年91岁。" },
-        { "en": "In 1250, at age seventy.", "zh": "1250年，享年70岁。" }
+        {
+          "en": "In 1250, at age seventy.",
+          "zh": "1250年，享年70岁。"
+        },
+        {
+          "en": "On March 4, 1193, at age fifty-five.",
+          "zh": "1193年3月4日，享年55岁。"
+        },
+        {
+          "en": "In 1213, at age ninety-one. according to some versions of the story",
+          "zh": "1213年，享年91岁。（按书中另一种说法）"
+        },
+        {
+          "en": "In 1187, at age forty.",
+          "zh": "1187年，享年40岁。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says he 'died only six months later, on March 4, 1193, at age fifty-five.'",
@@ -120,10 +192,22 @@
         "zh": "根据1192年的停战协定，关于耶路撒冷和圣地是如何规定的？"
       },
       "options": [
-        { "en": "The land including Jerusalem stayed Muslim, but Christians were allowed to visit the holy places.", "zh": "包括耶路撒冷在内的土地仍属穆斯林，但基督徒被允许前往圣地朝拜。" },
-        { "en": "Jerusalem was given back completely to Christian control.", "zh": "耶路撒冷完全交还基督教控制。" },
-        { "en": "All holy places were destroyed.", "zh": "所有圣地都被摧毁。" },
-        { "en": "Christians were banned from ever entering the city.", "zh": "基督徒被永远禁止进入该城。" }
+        {
+          "en": "The land including Jerusalem stayed Muslim, but Christians were allowed to visit the holy places.",
+          "zh": "包括耶路撒冷在内的土地仍属穆斯林，但基督徒被允许前往圣地朝拜。"
+        },
+        {
+          "en": "Jerusalem was given back completely to Christian control. according to some versions of the story in an early draft of the book",
+          "zh": "耶路撒冷完全交还基督教控制。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "All holy places were destroyed.",
+          "zh": "所有圣地都被摧毁。"
+        },
+        {
+          "en": "Christians were banned from ever entering the city.",
+          "zh": "基督徒被永远禁止进入该城。"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,12 +222,24 @@
         "zh": "萨拉丁关于自己何以伟大，说过哪句有名的话？"
       },
       "options": [
-        { "en": "\"I have become as great as I am because I have won men's hearts by gentleness and kindness.\"", "zh": "“我能有今天的成就，是因为我用温柔与善意赢得了人心。”" },
-        { "en": "\"Might makes right.\"", "zh": "“强权即公理。”" },
-        { "en": "\"Gold buys loyalty.\"", "zh": "“黄金买来忠诚。”" },
-        { "en": "\"Fear keeps the peace.\"", "zh": "“恐惧维持和平。”" }
+        {
+          "en": "\"Might makes right.\"",
+          "zh": "“强权即公理。”"
+        },
+        {
+          "en": "\"Fear keeps the peace.\" according to some versions of the story in an early draft of the book",
+          "zh": "“恐惧维持和平。”（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "\"Gold buys loyalty.\"",
+          "zh": "“黄金买来忠诚。”"
+        },
+        {
+          "en": "\"I have become as great as I am because I have won men's hearts by gentleness and kindness.\"",
+          "zh": "“我能有今天的成就，是因为我用温柔与善意赢得了人心。”"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Just before dying he told his oldest son that line about winning men's hearts 'by gentleness and kindness.'",
@@ -156,12 +252,24 @@
         "zh": "在这本书中，'crusade'（十字军东征）指什么？"
       },
       "options": [
-        { "en": "Wars ordered by Popes calling Western European Christians to fight in the Middle East.", "zh": "由教皇下令、号召西欧基督徒去中东作战的战争。" },
-        { "en": "A type of Muslim prayer.", "zh": "一种穆斯林的祈祷。" },
-        { "en": "A festival held in Jerusalem.", "zh": "在耶路撒冷举行的节日。" },
-        { "en": "A trade route across the desert.", "zh": "穿越沙漠的贸易路线。" }
+        {
+          "en": "A trade route across the desert. according to some versions of the story in an early draft of the book",
+          "zh": "穿越沙漠的贸易路线。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A festival held in Jerusalem.",
+          "zh": "在耶路撒冷举行的节日。"
+        },
+        {
+          "en": "Wars ordered by Popes calling Western European Christians to fight in the Middle East.",
+          "zh": "由教皇下令、号召西欧基督徒去中东作战的战争。"
+        },
+        {
+          "en": "A type of Muslim prayer.",
+          "zh": "一种穆斯林的祈祷。"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book's section on the Crusades says they 'were ordered by Popes who called for Western European Christians to fight in the Middle East.'",
@@ -174,12 +282,24 @@
         "zh": "作者写这本关于萨拉丁的书，主要目的是什么？"
       },
       "options": [
-        { "en": "To inform readers about a respected leader who was both fierce in battle and merciful to his enemies.", "zh": "向读者介绍一位既勇猛又对敌人仁慈、受人敬重的领袖。" },
-        { "en": "To argue that war is always the best solution.", "zh": "论证战争总是最好的解决办法。" },
-        { "en": "To tell a fictional fairy tale.", "zh": "讲一个虚构童话。" },
-        { "en": "To teach readers how to ride a horse.", "zh": "教读者骑马。" }
+        {
+          "en": "To teach readers how to ride a horse.",
+          "zh": "教读者骑马。"
+        },
+        {
+          "en": "To inform readers about a respected leader who was both fierce in battle and merciful to his enemies.",
+          "zh": "向读者介绍一位既勇猛又对敌人仁慈、受人敬重的领袖。"
+        },
+        {
+          "en": "To tell a fictional fairy tale.",
+          "zh": "讲一个虚构童话。"
+        },
+        {
+          "en": "To argue that war is always the best solution. according to some versions of the story in an early draft of the book",
+          "zh": "论证战争总是最好的解决办法。（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book describes Saladin as 'a leader who, while fierce in battle, also showed mercy,' respected by both Muslims and his Crusader enemies.",

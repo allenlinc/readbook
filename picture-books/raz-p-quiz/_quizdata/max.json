@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "Angry",
-          "zh": "生气"
-        },
-        {
           "en": "Sleepy",
           "zh": "困倦"
+        },
+        {
+          "en": "Angry",
+          "zh": "生气"
         },
         {
           "en": "Hungry for pizza",
@@ -29,7 +29,7 @@
           "zh": "对学校感到兴奋"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book shows Max feeling very angry at the start of the story.",
@@ -47,16 +47,16 @@
           "zh": "他踢了达斯蒂"
         },
         {
+          "en": "He washes Dusty",
+          "zh": "他给达斯蒂洗澡"
+        },
+        {
           "en": "He feeds Dusty",
           "zh": "他喂了达斯蒂"
         },
         {
           "en": "He hugs Dusty",
           "zh": "他拥抱了达斯蒂"
-        },
-        {
-          "en": "He washes Dusty",
-          "zh": "他给达斯蒂洗澡"
         }
       ],
       "answer": 0,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "His parents",
-          "zh": "他的父母"
-        },
-        {
-          "en": "A stranger",
-          "zh": "一个陌生人"
+          "en": "A cat",
+          "zh": "一只猫"
         },
         {
           "en": "His teacher only",
           "zh": "仅仅他的老师"
         },
         {
-          "en": "A cat",
-          "zh": "一只猫"
+          "en": "His parents",
+          "zh": "他的父母"
+        },
+        {
+          "en": "A stranger",
+          "zh": "一个陌生人"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book shows Max talking with his parents about why he is upset.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A reptile vacation",
-          "zh": "一次观看爬行动物的度假"
-        },
-        {
-          "en": "A snow vacation",
-          "zh": "一次雪地度假"
+          "en": "A space vacation according to some versions of the story",
+          "zh": "一次太空度假（按书中另一种说法）"
         },
         {
           "en": "A farm vacation",
           "zh": "一次农场度假"
         },
         {
-          "en": "A space vacation",
-          "zh": "一次太空度假"
+          "en": "A reptile vacation",
+          "zh": "一次观看爬行动物的度假"
+        },
+        {
+          "en": "A snow vacation",
+          "zh": "一次雪地度假"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book describes Max planning a vacation to see reptiles.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "They are afraid of snakes",
-          "zh": "他们害怕蛇"
-        },
-        {
-          "en": "They dislike the beach",
-          "zh": "他们不喜欢海滩"
-        },
-        {
           "en": "They hate traveling",
           "zh": "他们讨厌旅行"
         },
         {
-          "en": "They are afraid of birds",
-          "zh": "他们害怕鸟"
+          "en": "They are afraid of snakes",
+          "zh": "他们害怕蛇"
+        },
+        {
+          "en": "They are afraid of birds according to some versions of the story",
+          "zh": "他们害怕鸟（按书中另一种说法）"
+        },
+        {
+          "en": "They dislike the beach",
+          "zh": "他们不喜欢海滩"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains that Max's parents are afraid of snakes, which worries them about the trip.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A fictional narrative about a boy",
-          "zh": "一个关于男孩的虚构叙事"
+          "en": "A recipe",
+          "zh": "一份食谱"
         },
         {
           "en": "A science report",
           "zh": "一篇科学报告"
         },
         {
-          "en": "A dictionary entry",
-          "zh": "一条词典词条"
+          "en": "A dictionary entry according to some versions of the story",
+          "zh": "一条词典词条（按书中另一种说法）"
         },
         {
-          "en": "A recipe",
-          "zh": "一份食谱"
+          "en": "A fictional narrative about a boy",
+          "zh": "一个关于男孩的虚构叙事"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book is a fiction story that follows Max's feelings and actions.",
@@ -197,16 +197,16 @@
           "zh": "麦克斯的狗"
         },
         {
+          "en": "A vacation spot",
+          "zh": "一个度假地点"
+        },
+        {
           "en": "A friend at school",
           "zh": "学校里的一个朋友"
         },
         {
           "en": "A type of snake",
           "zh": "一种蛇"
-        },
-        {
-          "en": "A vacation spot",
-          "zh": "一个度假地点"
         }
       ],
       "answer": 0,
@@ -227,8 +227,8 @@
           "zh": "他学会了倾诉感受，而不是用行动发泄"
         },
         {
-          "en": "He becomes angrier",
-          "zh": "他变得更生气了"
+          "en": "He becomes angrier according to some versions of the story",
+          "zh": "他变得更生气了（按书中另一种说法）"
         },
         {
           "en": "He runs away",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "By listening and talking with him",
-          "zh": "通过倾听并和他交谈"
-        },
-        {
-          "en": "By ignoring him",
-          "zh": "通过不理睬他"
+          "en": "By buying him a snake according to some versions of the story",
+          "zh": "通过给他买一条蛇（按书中另一种说法）"
         },
         {
           "en": "By sending him away",
           "zh": "通过把他送走"
         },
         {
-          "en": "By buying him a snake",
-          "zh": "通过给他买一条蛇"
+          "en": "By ignoring him",
+          "zh": "通过不理睬他"
+        },
+        {
+          "en": "By listening and talking with him",
+          "zh": "通过倾听并和他交谈"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book shows his parents helping by listening and discussing his feelings.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "Teach facts about reptiles according to some versions of the story",
+          "zh": "讲授有关爬行动物的知识（按书中另一种说法）"
+        },
+        {
           "en": "Show how talking about feelings can help",
           "zh": "展示倾诉感受如何能带来帮助"
         },
         {
-          "en": "Teach facts about reptiles",
-          "zh": "讲授有关爬行动物的知识"
+          "en": "Explain snake science",
+          "zh": "解释蛇的科学"
         },
         {
           "en": "Describe how to train dogs",
           "zh": "描述如何训练狗"
-        },
-        {
-          "en": "Explain snake science",
-          "zh": "解释蛇的科学"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The fiction story teaches that sharing feelings with family helps solve problems.",

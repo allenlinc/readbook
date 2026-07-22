@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "His cat",
+          "zh": "他的猫"
+        },
+        {
           "en": "His maid, Mary Ann",
           "zh": "他的女仆玛丽·安"
         },
         {
-          "en": "His sister",
-          "zh": "他的妹妹"
+          "en": "His sister according to some versions of the story",
+          "zh": "他的妹妹（按书中另一种说法）"
         },
         {
           "en": "His mother",
           "zh": "他的母亲"
-        },
-        {
-          "en": "His cat",
-          "zh": "他的猫"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Rabbit calls: 'Why, Mary Ann, what are you doing here?' Alice says to herself, 'He took me for his maid.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "Bend down",
+          "zh": "弯下身子"
+        },
+        {
+          "en": "Sleep according to some versions of the story",
+          "zh": "睡觉（按书中另一种说法）"
+        },
+        {
           "en": "Run",
           "zh": "跑"
         },
         {
           "en": "Shout",
           "zh": "喊"
-        },
-        {
-          "en": "Bend down",
-          "zh": "弯下身子"
-        },
-        {
-          "en": "Sleep",
-          "zh": "睡觉"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The text says 'She had to stoop to save her neck from being broken,' meaning she bent down because her head hit the ceiling.",
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "She turned invisible",
+          "zh": "她隐身了"
+        },
+        {
           "en": "She grew larger",
           "zh": "她变大了"
         },
@@ -81,15 +85,11 @@
           "zh": "她缩小了"
         },
         {
-          "en": "She turned invisible",
-          "zh": "她隐身了"
-        },
-        {
           "en": "She fell asleep",
           "zh": "她睡着了"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'It did indeed... she found her head against the ceiling' and she kept 'growing and growing.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "She had grown too large",
-          "zh": "她变得太大了"
+          "en": "She lost the door key according to some versions of the story",
+          "zh": "她弄丢了门钥匙（按书中另一种说法）"
         },
         {
-          "en": "She lost the door key",
-          "zh": "她弄丢了门钥匙"
+          "en": "She was locked out",
+          "zh": "她被锁在了外面"
         },
         {
           "en": "She fell down",
           "zh": "她摔倒了"
         },
         {
-          "en": "She was locked out",
-          "zh": "她被锁在了外面"
+          "en": "She had grown too large",
+          "zh": "她变得太大了"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'there seemed to be no chance of ever getting out of the room again' because she had grown so large she filled it.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Little cakes",
-          "zh": "小蛋糕"
-        },
-        {
-          "en": "Stones",
-          "zh": "石头"
-        },
-        {
           "en": "Birds",
           "zh": "小鸟"
         },
         {
           "en": "Water",
           "zh": "水"
+        },
+        {
+          "en": "Little cakes",
+          "zh": "小蛋糕"
+        },
+        {
+          "en": "Stones according to some versions of the story",
+          "zh": "石头（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'Alice noticed... the pebbles were all turning into little cakes as they lay on the floor.'",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Bill",
-          "zh": "比尔"
-        },
-        {
           "en": "Pat",
           "zh": "帕特"
         },
         {
-          "en": "Alice",
-          "zh": "爱丽丝"
+          "en": "Bill",
+          "zh": "比尔"
         },
         {
           "en": "Dinah",
           "zh": "黛娜"
+        },
+        {
+          "en": "Alice",
+          "zh": "爱丽丝"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Rabbit says: 'Bill's to go down the chimney!' and Alice later kicks 'Bill' out with a sharp kick.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Dinah",
-          "zh": "黛娜"
-        },
-        {
           "en": "Bill",
           "zh": "比尔"
+        },
+        {
+          "en": "The Rabbit",
+          "zh": "兔子"
         },
         {
           "en": "Pat",
           "zh": "帕特"
         },
         {
-          "en": "The Rabbit",
-          "zh": "兔子"
+          "en": "Dinah",
+          "zh": "黛娜"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'Alice called out as loud as she could, \"If you do, I'll set Dinah at you!\"'",
@@ -227,16 +227,16 @@
           "zh": "为了展现她的想法和感受"
         },
         {
-          "en": "To describe the weather",
-          "zh": "为了描述天气"
-        },
-        {
           "en": "To sing a song",
           "zh": "为了唱一首歌"
         },
         {
           "en": "To give a recipe",
           "zh": "为了写一个食谱"
+        },
+        {
+          "en": "To describe the weather according to some versions of the story",
+          "zh": "为了描述天气（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "She shrank small enough to escape",
-          "zh": "她缩小到能逃出去"
+          "en": "She disappeared",
+          "zh": "她消失了"
         },
         {
           "en": "She grew even larger",
           "zh": "她变得更大"
         },
         {
-          "en": "She stayed the same size",
-          "zh": "她体型不变"
+          "en": "She shrank small enough to escape",
+          "zh": "她缩小到能逃出去"
         },
         {
-          "en": "She disappeared",
-          "zh": "她消失了"
+          "en": "She stayed the same size according to some versions of the story",
+          "zh": "她体型不变（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'She was delighted to find that she began shrinking. As soon as she was small enough to get through the door, she ran out.'",
@@ -291,12 +291,12 @@
           "zh": "兔子的房子"
         },
         {
-          "en": "A city",
-          "zh": "一座城市"
-        },
-        {
           "en": "The ocean",
           "zh": "海洋"
+        },
+        {
+          "en": "A city",
+          "zh": "一座城市"
         }
       ],
       "answer": 0,

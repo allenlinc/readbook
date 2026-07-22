@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Trey, a fifth grader",
-          "zh": "五年级学生特雷"
-        },
-        {
           "en": "Sol, the older brother",
           "zh": "哥哥索尔"
         },
         {
-          "en": "Hee Jung, the exchange student",
-          "zh": "交换生喜贞"
-        },
-        {
           "en": "Rick, the game-store owner",
           "zh": "游戏店老板里克"
+        },
+        {
+          "en": "Trey, a fifth grader",
+          "zh": "五年级学生特雷"
+        },
+        {
+          "en": "Hee Jung, the exchange student",
+          "zh": "交换生喜贞"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The story is told by Trey, a fifth-grade boy whose brother is Sol.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "GPS coordinates",
-          "zh": "GPS坐标"
-        },
-        {
-          "en": "A written letter",
-          "zh": "一封手写信"
-        },
-        {
           "en": "A phone call",
           "zh": "一个电话"
         },
         {
           "en": "A treasure map",
           "zh": "一张藏宝图"
+        },
+        {
+          "en": "GPS coordinates",
+          "zh": "GPS坐标"
+        },
+        {
+          "en": "A written letter",
+          "zh": "一封手写信"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Her first email clue was '38.907233, -77.010531,' which are GPS coordinates.",
@@ -77,16 +77,16 @@
           "zh": "指向某个地点的GPS坐标"
         },
         {
-          "en": "A phone number",
-          "zh": "一个电话号码"
+          "en": "A date",
+          "zh": "一个日期"
+        },
+        {
+          "en": "A phone number according to some versions of the story",
+          "zh": "一个电话号码（按书中另一种说法）"
         },
         {
           "en": "A game score",
           "zh": "游戏分数"
-        },
-        {
-          "en": "A date",
-          "zh": "一个日期"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A Go board game",
-          "zh": "一套围棋（Go）棋盘游戏"
+          "en": "A video game disc according to some versions of the story",
+          "zh": "一张电子游戏光盘（按书中另一种说法）"
         },
         {
-          "en": "A smartphone",
-          "zh": "一部智能手机"
+          "en": "A Go board game",
+          "zh": "一套围棋（Go）棋盘游戏"
         },
         {
           "en": "A bicycle",
           "zh": "一辆自行车"
         },
         {
-          "en": "A video game disc",
-          "zh": "一张电子游戏光盘"
+          "en": "A smartphone",
+          "zh": "一部智能手机"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Inside the purple envelope's prize was a wooden Go board with black and white pieces.",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "He spoke to Hee Jung on the phone according to some versions of the story",
+          "zh": "他和喜贞通了电话（按书中另一种说法）"
+        },
+        {
           "en": "He could read Korean and knew the Seoul subway",
           "zh": "他能读韩文并熟悉首尔地铁"
         },
@@ -143,13 +147,9 @@
         {
           "en": "He had the treasure map",
           "zh": "他拿着藏宝图"
-        },
-        {
-          "en": "He spoke to Hee Jung on the phone",
-          "zh": "他和喜贞通了电话"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Sol had lived in South Korea and could read the Korean station names on the Seoul subway map.",
@@ -163,8 +163,8 @@
       },
       "options": [
         {
-          "en": "The Metro, where blue and green lines cross at L'Enfant Plaza",
-          "zh": "地铁中蓝线和绿线在L'Enfant广场交汇处"
+          "en": "Gettysburg battlefield according to some versions of the story in an early draft of the book",
+          "zh": "葛底斯堡战场（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A rainbow in the sky",
@@ -175,11 +175,11 @@
           "zh": "学校地下室"
         },
         {
-          "en": "Gettysburg battlefield",
-          "zh": "葛底斯堡战场"
+          "en": "The Metro, where blue and green lines cross at L'Enfant Plaza",
+          "zh": "地铁中蓝线和绿线在L'Enfant广场交汇处"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Sol noted the only place the blue and green Metro lines cross is L'Enfant Plaza.",
@@ -197,12 +197,12 @@
           "zh": "它暗示的是首尔地铁，而非华盛顿地铁"
         },
         {
-          "en": "It meant the clue was a mistake",
-          "zh": "意思是线索写错了"
-        },
-        {
           "en": "It was just a typo",
           "zh": "只是个打字错误"
+        },
+        {
+          "en": "It meant the clue was a mistake according to some versions of the story",
+          "zh": "意思是线索写错了（按书中另一种说法）"
         },
         {
           "en": "It stood for 'see you'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "He accidentally typed 'city hall' into his D.C. map",
-          "zh": "他不小心把“市政厅”输进了华盛顿的地图"
+          "en": "A policeman showed him",
+          "zh": "警察指给他的"
         },
         {
-          "en": "Hee Jung told him directly",
-          "zh": "喜贞直接告诉了他"
+          "en": "Hee Jung told him directly according to some versions of the story",
+          "zh": "喜贞直接告诉了他（按书中另一种说法）"
         },
         {
           "en": "Sol drove him there",
           "zh": "索尔开车送他去的"
         },
         {
-          "en": "A policeman showed him",
-          "zh": "警察指给他的"
+          "en": "He accidentally typed 'city hall' into his D.C. map",
+          "zh": "他不小心把“市政厅”输进了华盛顿的地图"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "While searching Seoul's city hall, Trey mistyped and his D.C. map pointed to D.C.'s City Hall.",
@@ -257,16 +257,16 @@
           "zh": "“只要说‘开始’！”"
         },
         {
-          "en": "'You win!'",
-          "zh": "“你赢了！”"
-        },
-        {
           "en": "'Goodbye!'",
           "zh": "“再见！”"
         },
         {
-          "en": "'Open the box.'",
-          "zh": "“打开盒子。”"
+          "en": "'Open the box.' according to some versions of the story",
+          "zh": "“打开盒子。”（按书中另一种说法）"
+        },
+        {
+          "en": "'You win!'",
+          "zh": "“你赢了！”"
         }
       ],
       "answer": 0,
@@ -283,6 +283,10 @@
       },
       "options": [
         {
+          "en": "Only experts can solve clues according to some versions of the story",
+          "zh": "只有专家才能破解线索（按书中另一种说法）"
+        },
+        {
           "en": "Technology and family help solve puzzles and build friendships",
           "zh": "科技与家人帮助解谜，也增进了友谊"
         },
@@ -291,15 +295,11 @@
           "zh": "宝藏一定得是金子"
         },
         {
-          "en": "Only experts can solve clues",
-          "zh": "只有专家才能破解线索"
-        },
-        {
           "en": "Games are a waste of time",
           "zh": "游戏是浪费时间"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The hunt uses GPS and online maps, and brother Sol's help brings the siblings closer together.",

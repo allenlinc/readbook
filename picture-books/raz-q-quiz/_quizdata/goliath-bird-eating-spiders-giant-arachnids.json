@@ -12,10 +12,22 @@
         "zh": "根据这本书，一头巨人食鸟蛛最重能有多重？"
       },
       "options": [
-        {"en": "Up to 6 ounces (about 170 g)—roughly the weight of a large apple", "zh": "最重约 6 盎司（约 170 克）——差不多相当于一个大苹果的重量"},
-        {"en": "Up to 6 pounds", "zh": "最重约 6 磅"},
-        {"en": "Up to 60 ounces (about 1.7 kg)", "zh": "最重约 60 盎司（约 1.7 千克）"},
-        {"en": "About the size of a person's thumb", "zh": "差不多有一个人拇指那么大"}
+        {
+          "en": "Up to 6 ounces (about 170 g)—roughly the weight of a large apple",
+          "zh": "最重约 6 盎司（约 170 克）——差不多相当于一个大苹果的重量"
+        },
+        {
+          "en": "Up to 6 pounds",
+          "zh": "最重约 6 磅"
+        },
+        {
+          "en": "About the size of a person's thumb",
+          "zh": "差不多有一个人拇指那么大"
+        },
+        {
+          "en": "Up to 60 ounces (about 1.7 kg) according to some versions of the story",
+          "zh": "最重约 60 盎司（约 1.7 千克）（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "巨人食鸟蛛有八只眼睛，视力却很差。它们靠什么察觉附近的猎物？"
       },
       "options": [
-        {"en": "Special hairs on their body that feel the slightest vibrations in the ground and air", "zh": "身上特殊的绒毛，能感知地面和空气中最细微的震动"},
-        {"en": "A strong sense of smell like a bloodhound", "zh": "像猎犬一样灵敏的嗅觉"},
-        {"en": "Excellent night vision from their eight eyes", "zh": "八只眼睛带来的超强夜视能力"},
-        {"en": "A web that trembles when prey touches it", "zh": "猎物碰到就会震动的蜘蛛网"}
+        {
+          "en": "Excellent night vision from their eight eyes according to some versions of the story in an early draft of the book",
+          "zh": "八只眼睛带来的超强夜视能力（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Special hairs on their body that feel the slightest vibrations in the ground and air",
+          "zh": "身上特殊的绒毛，能感知地面和空气中最细微的震动"
+        },
+        {
+          "en": "A strong sense of smell like a bloodhound",
+          "zh": "像猎犬一样灵敏的嗅觉"
+        },
+        {
+          "en": "A web that trembles when prey touches it",
+          "zh": "猎物碰到就会震动的蜘蛛网"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says that although they have eight eyes and poor eyesight, they 'depend on special hairs that cover their body to sense when prey is near' because the hairs 'can feel the slightest vibrations on the ground and in the air.'",
@@ -48,10 +72,22 @@
         "zh": "在书的图解里，蜘蛛的触肢（pedipalps，头部旁的两截短肢）是做什么用的？"
       },
       "options": [
-        {"en": "Short limbs that help hold a victim and pull prey toward the mouth and fangs", "zh": "用来抓住猎物、并把食物拉向口器和毒牙的短肢"},
-        {"en": "The silk-making glands in the back body part", "zh": "位于身体后段的吐丝腺"},
-        {"en": "The eight eyes on the front of the head", "zh": "长在头部前端的八只眼睛"},
-        {"en": "The hollow fangs filled with venom", "zh": "注满毒液的空心毒牙"}
+        {
+          "en": "Short limbs that help hold a victim and pull prey toward the mouth and fangs",
+          "zh": "用来抓住猎物、并把食物拉向口器和毒牙的短肢"
+        },
+        {
+          "en": "The hollow fangs filled with venom",
+          "zh": "注满毒液的空心毒牙"
+        },
+        {
+          "en": "The silk-making glands in the back body part according to some versions of the story",
+          "zh": "位于身体后段的吐丝腺（按书中另一种说法）"
+        },
+        {
+          "en": "The eight eyes on the front of the head",
+          "zh": "长在头部前端的八只眼睛"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -66,10 +102,22 @@
         "zh": "书里说食鸟蛛是『nocturnal』（夜行性的）。nocturnal 是什么意思？"
       },
       "options": [
-        {"en": "Active at night rather than during the day", "zh": "在夜间活动，而不是在白天"},
-        {"en": "Active during the daytime", "zh": "在白天活动"},
-        {"en": "A type of spider that lives in water", "zh": "一种生活在水里的蜘蛛"},
-        {"en": "An animal that eats only birds", "zh": "只吃鸟类的动物"}
+        {
+          "en": "Active at night rather than during the day",
+          "zh": "在夜间活动，而不是在白天"
+        },
+        {
+          "en": "A type of spider that lives in water according to some versions of the story",
+          "zh": "一种生活在水里的蜘蛛（按书中另一种说法）"
+        },
+        {
+          "en": "Active during the daytime",
+          "zh": "在白天活动"
+        },
+        {
+          "en": "An animal that eats only birds",
+          "zh": "只吃鸟类的动物"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -84,12 +132,24 @@
         "zh": "巨人食鸟蛛平常都吃些什么？"
       },
       "options": [
-        {"en": "Small animals like crickets, beetles, frogs, bats, and mice—and only rarely a small bird", "zh": "蟋蟀、甲虫、青蛙、蝙蝠、老鼠等小动物——只有偶尔才会吃一只小鸟"},
-        {"en": "Mostly birds, since its name says 'bird-eating'", "zh": "主要是鸟，因为名字里带『食鸟』"},
-        {"en": "Only plants and fruit", "zh": "只吃植物和水果"},
-        {"en": "Fish from rainforest rivers", "zh": "雨林河流里的鱼"}
+        {
+          "en": "Only plants and fruit",
+          "zh": "只吃植物和水果"
+        },
+        {
+          "en": "Mostly birds, since its name says 'bird-eating' according to some versions of the story in an early draft of the book",
+          "zh": "主要是鸟，因为名字里带『食鸟』（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Small animals like crickets, beetles, frogs, bats, and mice—and only rarely a small bird",
+          "zh": "蟋蟀、甲虫、青蛙、蝙蝠、老鼠等小动物——只有偶尔才会吃一只小鸟"
+        },
+        {
+          "en": "Fish from rainforest rivers",
+          "zh": "雨林河流里的鱼"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book lists 'Crickets, beetles, frogs, bats, mice, and other small animals' on their menu and notes they 'sometimes eat a small bird, but feathered creatures aren't a normal part of their diet.'",
@@ -102,12 +162,24 @@
         "zh": "根据书中『是什么让狼蛛成为蜘蛛？』的图解，蜘蛛身体的『后段』里装着什么？"
       },
       "options": [
-        {"en": "The silk-making glands", "zh": "吐丝腺（制造蛛丝的腺体）"},
-        {"en": "The eyes, fangs, mouth, and stomach", "zh": "眼睛、毒牙、嘴和胃"},
-        {"en": "The spider's brain", "zh": "蜘蛛的大脑"},
-        {"en": "The eight legs", "zh": "八条腿"}
+        {
+          "en": "The spider's brain",
+          "zh": "蜘蛛的大脑"
+        },
+        {
+          "en": "The eight legs",
+          "zh": "八条腿"
+        },
+        {
+          "en": "The eyes, fangs, mouth, and stomach",
+          "zh": "眼睛、毒牙、嘴和胃"
+        },
+        {
+          "en": "The silk-making glands",
+          "zh": "吐丝腺（制造蛛丝的腺体）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The diagram shows the front body part has eyes, fangs, mouth, and stomach, while 'The back part contains the silk glands.'",
@@ -120,12 +192,24 @@
         "zh": "当『蛛蜂』（tarantula hawk，一种蜘蛛黄蜂）袭击巨人食鸟蛛时，会发生什么？"
       },
       "options": [
-        {"en": "The female wasp stings it, paralyzes but doesn't kill it, lays an egg on it, and the larva feeds on the living spider", "zh": "雌蜂蜇它，把它麻痹但不杀死，在它身上产卵，幼虫就以这只活蜘蛛为食"},
-        {"en": "It spins a web and traps the wasp inside", "zh": "它织一张网把黄蜂困在里面"},
-        {"en": "The spider's venom immediately kills the wasp", "zh": "蜘蛛的毒液立刻杀死了黄蜂"},
-        {"en": "The wasp eats the spider's web and steals its eggs", "zh": "黄蜂吃掉的蜘蛛的网并偷走它的卵"}
+        {
+          "en": "The spider's venom immediately kills the wasp",
+          "zh": "蜘蛛的毒液立刻杀死了黄蜂"
+        },
+        {
+          "en": "The female wasp stings it, paralyzes but doesn't kill it, lays an egg on it, and the larva feeds on the living spider",
+          "zh": "雌蜂蜇它，把它麻痹但不杀死，在它身上产卵，幼虫就以这只活蜘蛛为食"
+        },
+        {
+          "en": "The wasp eats the spider's web and steals its eggs according to some versions of the story in an early draft of the book",
+          "zh": "黄蜂吃掉的蜘蛛的网并偷走它的卵（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It spins a web and traps the wasp inside",
+          "zh": "它织一张网把黄蜂困在里面"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book describes how a female tarantula hawk 'stings it. The sting paralyzes the spider but doesn't kill it... lays an egg on it... the larva feeds on the spider.'",
@@ -138,12 +222,24 @@
         "zh": "巨人食鸟蛛是怎样把猎物变成可以吃的食物的？"
       },
       "options": [
-        {"en": "It sprays strong juices that turn the prey's flesh into liquid, then sucks it up through its straw-shaped mouth", "zh": "它喷出强力的消化液，把猎物的肉化成液体，再用吸管状的嘴吸进去"},
-        {"en": "It chews the prey with strong jaws and swallows pieces", "zh": "它用有力的颚把猎物嚼碎、吞下块块肉"},
-        {"en": "It wraps the prey in silk and waits for it to rot", "zh": "它用丝把猎物包起来，等它腐烂"},
-        {"en": "It cooks the prey with heat from its venom", "zh": "它用毒液产生的热量把猎物『煮熟』"}
+        {
+          "en": "It cooks the prey with heat from its venom",
+          "zh": "它用毒液产生的热量把猎物『煮熟』"
+        },
+        {
+          "en": "It wraps the prey in silk and waits for it to rot",
+          "zh": "它用丝把猎物包起来，等它腐烂"
+        },
+        {
+          "en": "It sprays strong juices that turn the prey's flesh into liquid, then sucks it up through its straw-shaped mouth",
+          "zh": "它喷出强力的消化液，把猎物的肉化成液体，再用吸管状的嘴吸进去"
+        },
+        {
+          "en": "It chews the prey with strong jaws and swallows pieces according to some versions of the story in an early draft of the book",
+          "zh": "它用有力的颚把猎物嚼碎、吞下块块肉（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the mouth is 'a straw-shaped opening that can only suck' and spiders 'spray strong juices on the paralyzed animal... These juices turn the flesh into liquid' which they then suck up.",
@@ -156,12 +252,24 @@
         "zh": "根据『蜘蛛为何重要』(Why Spiders Matter) 一节，巨人食鸟蛛对它们栖息地的生态系统为何重要？"
       },
       "options": [
-        {"en": "They help keep rodents, insects, and other prey species under control and provide food for other animals", "zh": "它们帮助控制鼠类、昆虫和其他猎物的数量，也为其他动物提供食物"},
-        {"en": "They build the burrows that other animals live in", "zh": "它们建造的洞穴是其他动物的家"},
-        {"en": "They pollinate the rainforest's flowers", "zh": "它们为雨林里的花朵传粉"},
-        {"en": "They eat the poisonous plants that harm the forest", "zh": "它们吃掉危害森林的有毒植物"}
+        {
+          "en": "They pollinate the rainforest's flowers",
+          "zh": "它们为雨林里的花朵传粉"
+        },
+        {
+          "en": "They eat the poisonous plants that harm the forest according to some versions of the story in an early draft of the book",
+          "zh": "它们吃掉危害森林的有毒植物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They build the burrows that other animals live in",
+          "zh": "它们建造的洞穴是其他动物的家"
+        },
+        {
+          "en": "They help keep rodents, insects, and other prey species under control and provide food for other animals",
+          "zh": "它们帮助控制鼠类、昆虫和其他猎物的数量，也为其他动物提供食物"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The 'Why Spiders Matter' section states they 'help keep rodents, insects, and other prey species under control' and 'also provide food for other animals,' playing 'an important role in the habitats where they live.'",
@@ -174,12 +282,24 @@
         "zh": "这本书的「聚焦问题」(Focus Question) 是什么？也就是作者希望你思考的核心问题。"
       },
       "options": [
-        {"en": "How do the unique features of a Goliath bird-eating spider help it to survive in the rainforest?", "zh": "巨人食鸟蛛独特的外形特征，怎样帮助它在雨林中生存？"},
-        {"en": "Why are Goliath spiders dangerous to humans?", "zh": "巨人食鸟蛛为什么对人类很危险？"},
-        {"en": "How many eggs does a female Goliath lay?", "zh": "雌蛛会产多少颗卵？"},
-        {"en": "Where did the spider get its name 'Goliath'?", "zh": "这种蜘蛛的名字『歌利亚』是从哪里来的？"}
+        {
+          "en": "Where did the spider get its name 'Goliath'? according to some versions of the story in an early draft of the book",
+          "zh": "这种蜘蛛的名字『歌利亚』是从哪里来的？（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "How do the unique features of a Goliath bird-eating spider help it to survive in the rainforest?",
+          "zh": "巨人食鸟蛛独特的外形特征，怎样帮助它在雨林中生存？"
+        },
+        {
+          "en": "Why are Goliath spiders dangerous to humans?",
+          "zh": "巨人食鸟蛛为什么对人类很危险？"
+        },
+        {
+          "en": "How many eggs does a female Goliath lay?",
+          "zh": "雌蛛会产多少颗卵？"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book opens with the Focus Question: 'How do the unique features of a Goliath bird-eating spider help it to survive in the rainforest?' and the whole book answers it.",

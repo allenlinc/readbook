@@ -12,12 +12,24 @@
         "zh": "根据书中内容，'biomimicry（仿生学）'一词是什么意思？"
       },
       "options": [
-        { "en": "Bio means 'life' and mimic means 'to copy'; it is the science of learning from nature's designs.", "zh": "bio意为'生命'，mimic意为'模仿'；它是向自然设计学习的科学。" },
-        { "en": "Building museums out of stone.", "zh": "用石头建博物馆。" },
-        { "en": "Studying only dinosaurs.", "zh": "只研究恐龙。" },
-        { "en": "Writing comic books.", "zh": "写漫画书。" }
+        {
+          "en": "Studying only dinosaurs.",
+          "zh": "只研究恐龙。"
+        },
+        {
+          "en": "Building museums out of stone. according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "用石头建博物馆。（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Bio means 'life' and mimic means 'to copy'; it is the science of learning from nature's designs.",
+          "zh": "bio意为'生命'，mimic意为'模仿'；它是向自然设计学习的科学。"
+        },
+        {
+          "en": "Writing comic books.",
+          "zh": "写漫画书。"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says biomimicry comes from 'bio' (life) and 'mimic' (to copy); it learns from nature's adaptations rather than using the living things themselves.",
@@ -30,12 +42,24 @@
         "zh": "根据书中内容，维可牢搭扣（Velcro）的灵感来自哪种自然物体？"
       },
       "options": [
-        { "en": "Burrs (seeds with tiny hooks that caught on fabric and animal hair).", "zh": "牛蒡（带有小钩的种子，能钩住布料和动物毛发）。" },
-        { "en": "A lotus leaf.", "zh": "荷叶。" },
-        { "en": "A kingfisher's beak.", "zh": "翠鸟的喙。" },
-        { "en": "A termite mound.", "zh": "白蚁丘。" }
+        {
+          "en": "A kingfisher's beak. according to some versions of the story in an early draft of the book",
+          "zh": "翠鸟的喙。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Burrs (seeds with tiny hooks that caught on fabric and animal hair).",
+          "zh": "牛蒡（带有小钩的种子，能钩住布料和动物毛发）。"
+        },
+        {
+          "en": "A lotus leaf.",
+          "zh": "荷叶。"
+        },
+        {
+          "en": "A termite mound.",
+          "zh": "白蚁丘。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Swiss engineer Georges de Mestral noticed burrs stuck to his dog via tiny hooks, and from that created Velcro, which even helped astronauts go to the Moon.",
@@ -48,12 +72,24 @@
         "zh": "日本新干线子弹头列车驶出隧道时有噪音问题。它的车头是根据哪种动物重新设计的？"
       },
       "options": [
-        { "en": "The kingfisher, whose beak lets it dive without a splash.", "zh": "翠鸟，其喙让它入水不溅起水花。" },
-        { "en": "The elephant.", "zh": "大象。" },
-        { "en": "The penguin.", "zh": "企鹅。" },
-        { "en": "The kangaroo.", "zh": "袋鼠。" }
+        {
+          "en": "The kangaroo. according to some versions of the story in an early draft of the book",
+          "zh": "袋鼠。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The penguin.",
+          "zh": "企鹅。"
+        },
+        {
+          "en": "The elephant.",
+          "zh": "大象。"
+        },
+        {
+          "en": "The kingfisher, whose beak lets it dive without a splash.",
+          "zh": "翠鸟，其喙让它入水不溅起水花。"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says designers based the new train nose on a kingfisher's beak, which solved the booming noise and made the train faster and more efficient.",
@@ -66,10 +102,22 @@
         "zh": "津巴布韦哈拉雷的Eastgate Centre不用空调就能保持凉爽，是模仿了什么？"
       },
       "options": [
-        { "en": "Termite mounds, which use tunnels and vents to keep a constant temperature.", "zh": "白蚁丘，利用通道和通风口保持恒定温度。" },
-        { "en": "A shark's skin.", "zh": "鲨鱼皮。" },
-        { "en": "A cat's eye.", "zh": "猫眼。" },
-        { "en": "A peacock's feathers.", "zh": "孔雀羽毛。" }
+        {
+          "en": "Termite mounds, which use tunnels and vents to keep a constant temperature.",
+          "zh": "白蚁丘，利用通道和通风口保持恒定温度。"
+        },
+        {
+          "en": "A shark's skin.",
+          "zh": "鲨鱼皮。"
+        },
+        {
+          "en": "A peacock's feathers. according to some versions of the story in an early draft of the book",
+          "zh": "孔雀羽毛。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A cat's eye.",
+          "zh": "猫眼。"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -84,10 +132,22 @@
         "zh": "本书特意把仿生学定义为向自然'学习'，'而非使用生物本身'。为何作此区分？"
       },
       "options": [
-        { "en": "To clarify that biomimicry copies nature's ideas, not the organisms themselves.", "zh": "说明仿生学模仿的是自然的构思，而非生物本身。" },
-        { "en": "To say nature is unimportant.", "zh": "说自然不重要。" },
-        { "en": "To describe a movie.", "zh": "描述一部电影。" },
-        { "en": "To list the chapters.", "zh": "列出章节。" }
+        {
+          "en": "To clarify that biomimicry copies nature's ideas, not the organisms themselves.",
+          "zh": "说明仿生学模仿的是自然的构思，而非生物本身。"
+        },
+        {
+          "en": "To describe a movie.",
+          "zh": "描述一部电影。"
+        },
+        {
+          "en": "To list the chapters.",
+          "zh": "列出章节。"
+        },
+        {
+          "en": "To say nature is unimportant. according to some versions of the story in an early draft of the book",
+          "zh": "说自然不重要。（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,12 +162,24 @@
         "zh": "每个例子（维可牢、猫眼、蛾眼、荷叶、翠鸟）都遵循同一模式：自然观察引出人类发明。这种重复结构帮助读者做什么？"
       },
       "options": [
-        { "en": "Recognize the consistent 'nature to invention' pattern of biomimicry.", "zh": "识别仿生学'自然到发明'的一致模式。" },
-        { "en": "Memorize animal names only.", "zh": "只记住动物名称。" },
-        { "en": "Learn a recipe.", "zh": "学一道菜谱。" },
-        { "en": "Count the chapters.", "zh": "数章节数量。" }
+        {
+          "en": "Count the chapters.",
+          "zh": "数章节数量。"
+        },
+        {
+          "en": "Recognize the consistent 'nature to invention' pattern of biomimicry.",
+          "zh": "识别仿生学'自然到发明'的一致模式。"
+        },
+        {
+          "en": "Memorize animal names only. according to some versions of the story in an early draft of the book",
+          "zh": "只记住动物名称。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Learn a recipe.",
+          "zh": "学一道菜谱。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "By repeating the observe-nature-then-invent structure, the author teaches the method of biomimicry clearly through multiple examples.",
@@ -120,12 +192,24 @@
         "zh": "书中把人类生产与环境危害（化石燃料、温室气体、废弃物）联系起来，并与自然对比。仿生学提供了什么启示？"
       },
       "options": [
-        { "en": "We can make things more sustainably by copying nature's low-waste systems.", "zh": "我们可以模仿自然低废弃的系统，更可持续地制造物品。" },
-        { "en": "We should burn more fossil fuels.", "zh": "我们应当烧更多化石燃料。" },
-        { "en": "Nature wastes everything.", "zh": "自然浪费一切。" },
-        { "en": "Garbage is good.", "zh": "垃圾是好事。" }
+        {
+          "en": "Nature wastes everything.",
+          "zh": "自然浪费一切。"
+        },
+        {
+          "en": "Garbage is good.",
+          "zh": "垃圾是好事。"
+        },
+        {
+          "en": "We should burn more fossil fuels. according to some versions of the story in an early draft of the book",
+          "zh": "我们应当烧更多化石燃料。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "We can make things more sustainably by copying nature's low-waste systems.",
+          "zh": "我们可以模仿自然低废弃的系统，更可持续地制造物品。"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says nature works in sustainable ways with little waste, while human production creates pollution; biomimicry lets us learn to live more sustainably.",
@@ -138,10 +222,22 @@
         "zh": "本书把多个例子联系起来（荷叶与自洁涂料、珊瑚与水泥）。是什么更大的思想把它们串在一起？"
       },
       "options": [
-        { "en": "Nature provides models that can solve human problems in building and cleaning.", "zh": "自然提供了可解决人类建造与清洁问题的范本。" },
-        { "en": "Only animals matter.", "zh": "只有动物才重要。" },
-        { "en": "Plants cannot help us.", "zh": "植物帮不了我们。" },
-        { "en": "Inventions come from luck only.", "zh": "发明只靠运气。" }
+        {
+          "en": "Nature provides models that can solve human problems in building and cleaning.",
+          "zh": "自然提供了可解决人类建造与清洁问题的范本。"
+        },
+        {
+          "en": "Inventions come from luck only. according to some versions of the story in an early draft of the book",
+          "zh": "发明只靠运气。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Plants cannot help us.",
+          "zh": "植物帮不了我们。"
+        },
+        {
+          "en": "Only animals matter.",
+          "zh": "只有动物才重要。"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,12 +252,24 @@
         "zh": "作者描述了蜘蛛丝（强度是钢的三倍）和鱼类防冻液等未来可能。为何加入这些？"
       },
       "options": [
-        { "en": "To show the promising future and unsolved challenges biomimicry may address.", "zh": "展示仿生学可能应对的有前景的未来与未解挑战。" },
-        { "en": "To teach readers how to fish.", "zh": "教读者钓鱼。" },
-        { "en": "To list the chapters.", "zh": "列出章节。" },
-        { "en": "To describe a sport.", "zh": "描述一项运动。" }
+        {
+          "en": "To list the chapters.",
+          "zh": "列出章节。"
+        },
+        {
+          "en": "To teach readers how to fish. according to some versions of the story in an early draft of the book",
+          "zh": "教读者钓鱼。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To show the promising future and unsolved challenges biomimicry may address.",
+          "zh": "展示仿生学可能应对的有前景的未来与未解挑战。"
+        },
+        {
+          "en": "To describe a sport.",
+          "zh": "描述一项运动。"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "By presenting future applications, the author suggests biomimicry's potential to solve upcoming challenges such as medicine and ocean exploration.",
@@ -174,12 +282,24 @@
         "zh": "作者写《仿生学》的主要目的是什么？"
       },
       "options": [
-        { "en": "To explain what biomimicry is and the important lessons we learn from nature.", "zh": "解释仿生学是什么，以及我们向自然学到的重要启示。" },
-        { "en": "To teach readers how to ski.", "zh": "教读者滑雪。" },
-        { "en": "To argue that nature should be ignored.", "zh": "主张应当忽视自然。" },
-        { "en": "To describe a fairy tale.", "zh": "描述一个童话。" }
+        {
+          "en": "To describe a fairy tale.",
+          "zh": "描述一个童话。"
+        },
+        {
+          "en": "To explain what biomimicry is and the important lessons we learn from nature.",
+          "zh": "解释仿生学是什么，以及我们向自然学到的重要启示。"
+        },
+        {
+          "en": "To argue that nature should be ignored. according to some versions of the story in an early draft of the book",
+          "zh": "主张应当忽视自然。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To teach readers how to ski.",
+          "zh": "教读者滑雪。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book's Focus Question asks what important lessons we have learned from biomimicry, and the text defines the field and gives many real examples.",

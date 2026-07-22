@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Flagstaff, Arizona",
-          "zh": "亚利桑那州弗拉格斯塔夫"
-        },
-        {
-          "en": "Kanab, Utah",
-          "zh": "犹他州卡纳布"
-        },
-        {
           "en": "Page, Arizona",
           "zh": "亚利桑那州佩奇"
         },
         {
           "en": "The Petrified Forest",
           "zh": "石化林"
+        },
+        {
+          "en": "Flagstaff, Arizona",
+          "zh": "亚利桑那州弗拉格斯塔夫"
+        },
+        {
+          "en": "Kanab, Utah",
+          "zh": "犹他州卡纳布"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "It was late afternoon in Kanab, Utah, when Adriana ran in with Abuela's letter.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "A famous old story",
-          "zh": "著名的古老传说"
-        },
-        {
-          "en": "A list telling the meaning of symbols on a map",
-          "zh": "说明地图符号含义的图例"
+          "en": "A famous old story according to some versions of the story",
+          "zh": "著名的古老传说（按书中另一种说法）"
         },
         {
           "en": "A type of mountain",
           "zh": "一种山"
         },
         {
+          "en": "A list telling the meaning of symbols on a map",
+          "zh": "说明地图符号含义的图例"
+        },
+        {
           "en": "A clue envelope",
           "zh": "装有线索的信封"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'legend' as a list telling the meaning of symbols on a map.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Phoenix, because of the capital",
-          "zh": "凤凰城，因为是首府"
-        },
-        {
           "en": "Page, because 'pages' are a common part of every book",
           "zh": "佩奇，因为'pages（页）'是每本书共有的部分"
         },
         {
-          "en": "Tucson, because of the desert",
-          "zh": "图森，因为有沙漠"
+          "en": "Phoenix, because of the capital according to some versions of the story",
+          "zh": "凤凰城，因为是首府（按书中另一种说法）"
         },
         {
           "en": "Winslow, because of the forest",
           "zh": "温斯洛，因为有森林"
+        },
+        {
+          "en": "Tucson, because of the desert",
+          "zh": "图森，因为有沙漠"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "They realized 'pages' is part of every book, found Page, Arizona on the map, and drove there.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "North",
-          "zh": "北"
+          "en": "South (move the h to the end: SHOUT to SOUTH)",
+          "zh": "南（把h移到末尾：SHOUT变SOUTH）"
         },
         {
           "en": "West",
           "zh": "西"
         },
         {
-          "en": "South (move the h to the end: SHOUT to SOUTH)",
-          "zh": "南（把h移到末尾：SHOUT变SOUTH）"
-        },
-        {
           "en": "East",
           "zh": "东"
+        },
+        {
+          "en": "North according to some versions of the story in an early draft of the book",
+          "zh": "北（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Emily moved the 'h' to the end of SHOUT to spell SOUTH, the direction to travel.",
@@ -133,12 +133,12 @@
       },
       "options": [
         {
-          "en": "Tuba City (a tuba is a band instrument)",
-          "zh": "图巴城（tuba大号是乐队乐器）"
+          "en": "Flagstaff according to some versions of the story",
+          "zh": "弗拉格斯塔夫（按书中另一种说法）"
         },
         {
-          "en": "Flagstaff",
-          "zh": "弗拉格斯塔夫"
+          "en": "Tuba City (a tuba is a band instrument)",
+          "zh": "图巴城（tuba大号是乐队乐器）"
         },
         {
           "en": "Holbrook",
@@ -149,7 +149,7 @@
           "zh": "塞多纳"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Rob realized Tuba City is really a town, and a 'tuba' is a musical instrument in a band.",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "The Grand Canyon",
-          "zh": "大峡谷"
+          "en": "Lake Powell",
+          "zh": "鲍威尔湖"
         },
         {
           "en": "The Painted Desert",
           "zh": "彩色沙漠"
         },
         {
-          "en": "Lake Powell",
-          "zh": "鲍威尔湖"
-        },
-        {
           "en": "The Petrified Forest",
           "zh": "石化林"
+        },
+        {
+          "en": "The Grand Canyon",
+          "zh": "大峡谷"
         }
       ],
       "answer": 1,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Phoenix",
-          "zh": "凤凰城"
-        },
-        {
-          "en": "Flagstaff",
-          "zh": "弗拉格斯塔夫"
-        },
-        {
           "en": "Tucson",
           "zh": "图森"
         },
         {
           "en": "Kingman",
           "zh": "金曼"
+        },
+        {
+          "en": "Flagstaff",
+          "zh": "弗拉格斯塔夫"
+        },
+        {
+          "en": "Phoenix according to some versions of the story",
+          "zh": "凤凰城（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The flag poem reminded them of a city name; they shouted 'FLAGSTAFF' and drove there.",
@@ -223,12 +223,12 @@
       },
       "options": [
         {
-          "en": "The back of a coin",
-          "zh": "硬币背面"
-        },
-        {
           "en": "The front side of a coin, often a person's face",
           "zh": "硬币正面，常为人物头像"
+        },
+        {
+          "en": "The back of a coin according to some versions of the story",
+          "zh": "硬币背面（按书中另一种说法）"
         },
         {
           "en": "A type of map",
@@ -239,7 +239,7 @@
           "zh": "护林站"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'head' as the front side of a coin, often showing a person's face.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "The Petrified Forest (Park Headquarters)",
-          "zh": "石化林（公园总部）"
-        },
-        {
-          "en": "The Painted Desert",
-          "zh": "彩色沙漠"
+          "en": "Bitter Springs",
+          "zh": "苦泉"
         },
         {
           "en": "Tuba City",
           "zh": "图巴城"
         },
         {
-          "en": "Bitter Springs",
-          "zh": "苦泉"
+          "en": "The Painted Desert according to some versions of the story",
+          "zh": "彩色沙漠（按书中另一种说法）"
+        },
+        {
+          "en": "The Petrified Forest (Park Headquarters)",
+          "zh": "石化林（公园总部）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "About 60 miles east is the Petrified Forest; they met Abuela at its Park Headquarters.",
@@ -283,20 +283,20 @@
       },
       "options": [
         {
-          "en": "To teach the history of Arizona",
-          "zh": "讲授亚利桑那的历史"
+          "en": "To describe a real expedition",
+          "zh": "描述一次真实探险"
         },
         {
           "en": "To entertain while showing how map-reading and clues solve a mystery",
           "zh": "在娱乐中展示如何用地图和线索解谜"
         },
         {
-          "en": "To argue against tourism",
-          "zh": "反对旅游业"
+          "en": "To teach the history of Arizona according to some versions of the story",
+          "zh": "讲授亚利桑那的历史（按书中另一种说法）"
         },
         {
-          "en": "To describe a real expedition",
-          "zh": "描述一次真实探险"
+          "en": "To argue against tourism",
+          "zh": "反对旅游业"
         }
       ],
       "answer": 1,

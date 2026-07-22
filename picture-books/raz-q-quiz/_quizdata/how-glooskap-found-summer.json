@@ -12,12 +12,24 @@
         "zh": "故事开头，世界出了什么问题？"
       },
       "options": [
-        {"en": "A frosty wind from the north covered the lands in ice and snow, so fires couldn't keep people warm and corn wouldn't grow", "zh": "一阵从北方刮来的寒风把大地覆盖在冰雪之下，火堆无法让人取暖，玉米也无法生长"},
-        {"en": "A great flood covered everything with water", "zh": "一场大洪水把一切都淹没了"},
-        {"en": "A terrible drought left the land dry and dusty", "zh": "一场严重干旱让大地干裂、尘土飞扬"},
-        {"en": "A volcano buried the villages in ash", "zh": "一座火山把村庄埋在火山灰里"}
+        {
+          "en": "A terrible drought left the land dry and dusty according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "一场严重干旱让大地干裂、尘土飞扬（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "A volcano buried the villages in ash",
+          "zh": "一座火山把村庄埋在火山灰里"
+        },
+        {
+          "en": "A frosty wind from the north covered the lands in ice and snow, so fires couldn't keep people warm and corn wouldn't grow",
+          "zh": "一阵从北方刮来的寒风把大地覆盖在冰雪之下，火堆无法让人取暖，玉米也无法生长"
+        },
+        {
+          "en": "A great flood covered everything with water",
+          "zh": "一场大洪水把一切都淹没了"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'a frosty wind blew out of the north, and an unbroken blanket of ice and snow covered the lands. The cold was so severe that fires couldn't keep the people warm, and the corn wouldn't grow.'",
@@ -30,10 +42,22 @@
         "zh": "是谁飞去找格鲁斯卡普，把他从冬天冰冷的沉睡中唤醒的？"
       },
       "options": [
-        {"en": "Tatler the Loon, Glooskap's friend and messenger", "zh": "潜鸟塔特勒（Tatler the Loon），格鲁斯卡普的朋友兼信使"},
-        {"en": "Summer herself", "zh": "夏天本人"},
-        {"en": "An old owl who lived in the wigwam", "zh": "住在棚屋里的老猫头鹰"},
-        {"en": "Glooskap's great-grandmother", "zh": "格鲁斯卡普的曾祖母"}
+        {
+          "en": "Tatler the Loon, Glooskap's friend and messenger",
+          "zh": "潜鸟塔特勒（Tatler the Loon），格鲁斯卡普的朋友兼信使"
+        },
+        {
+          "en": "Glooskap's great-grandmother",
+          "zh": "格鲁斯卡普的曾祖母"
+        },
+        {
+          "en": "An old owl who lived in the wigwam according to some versions of the story",
+          "zh": "住在棚屋里的老猫头鹰（按书中另一种说法）"
+        },
+        {
+          "en": "Summer herself",
+          "zh": "夏天本人"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -48,12 +72,24 @@
         "zh": "格鲁斯卡普是在哪里、怎样找到夏天的？"
       },
       "options": [
-        {"en": "In a warm southern land, dancing in a circle of spirits, with long brown hair and a crown of flowers", "zh": "在温暖南方的一片土地，在一圈精灵中跳舞，留着棕色长发、头戴花冠"},
-        {"en": "Hidden deep inside Winter's icy wigwam", "zh": "藏在冬天冰棚屋的深处"},
-        {"en": "Swimming in the frozen northern ocean", "zh": "在冻结的北方海洋里游泳"},
-        {"en": "Sleeping on a bed of snow", "zh": "睡在雪床上"}
+        {
+          "en": "Hidden deep inside Winter's icy wigwam according to some versions of the story in an early draft of the book",
+          "zh": "藏在冬天冰棚屋的深处（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "In a warm southern land, dancing in a circle of spirits, with long brown hair and a crown of flowers",
+          "zh": "在温暖南方的一片土地，在一圈精灵中跳舞，留着棕色长发、头戴花冠"
+        },
+        {
+          "en": "Sleeping on a bed of snow",
+          "zh": "睡在雪床上"
+        },
+        {
+          "en": "Swimming in the frozen northern ocean",
+          "zh": "在冻结的北方海洋里游泳"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Glooskap traveled south to 'a land where it was still sunny and warm' and saw 'a group of spirits dancing in a circle. In the middle of the circle was the beautiful Summer. She had long brown hair and wore a crown of flowers on her head.'",
@@ -66,12 +102,24 @@
         "zh": "夏天是怎样打败巨人冬天的？"
       },
       "options": [
-        {"en": "She chanted her own spell of heat and warmth, which made Winter sweat and forced him to leave", "zh": "她念起自己带来炎热与温暖的咒语，让冬天冒汗，并迫使他离开"},
-        {"en": "She threw snowballs at him until he ran away", "zh": "她朝他扔雪球，直到他逃跑"},
-        {"en": "She asked Glooskap to fight him with a sword", "zh": "她让格鲁斯卡普用剑和他打"},
-        {"en": "She locked him inside his own wigwam", "zh": "她把他锁进自己的棚屋里"}
+        {
+          "en": "She threw snowballs at him until he ran away according to some versions of the story in an early draft of the book",
+          "zh": "她朝他扔雪球，直到他逃跑（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "She locked him inside his own wigwam",
+          "zh": "她把他锁进自己的棚屋里"
+        },
+        {
+          "en": "She asked Glooskap to fight him with a sword",
+          "zh": "她让格鲁斯卡普用剑和他打"
+        },
+        {
+          "en": "She chanted her own spell of heat and warmth, which made Winter sweat and forced him to leave",
+          "zh": "她念起自己带来炎热与温暖的咒语，让冬天冒汗，并迫使他离开"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Winter's spell did not affect Summer. 'She began to chant her own spell, which brought heat and warmth to the whole land, and soon sweat poured down the face of Winter.' She told him he must leave.",
@@ -84,10 +132,22 @@
         "zh": "在词汇表里，「棚屋」(wigwam) 是什么？"
       },
       "options": [
-        {"en": "A type of hut built by Native Americans in the Northeast that used curved poles for support", "zh": "美国东北部原住民建造的一种小屋，用弯曲的杆子做支撑"},
-        {"en": "A kind of boat made from animal skins", "zh": "一种用兽皮做的小船"},
-        {"en": "A frozen river in the far north", "zh": "北方远方一条结冰的河"},
-        {"en": "A crown made of flowers", "zh": "用花编成的王冠"}
+        {
+          "en": "A type of hut built by Native Americans in the Northeast that used curved poles for support",
+          "zh": "美国东北部原住民建造的一种小屋，用弯曲的杆子做支撑"
+        },
+        {
+          "en": "A kind of boat made from animal skins according to some versions of the story in an early draft of the book",
+          "zh": "一种用兽皮做的小船（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A frozen river in the far north",
+          "zh": "北方远方一条结冰的河"
+        },
+        {
+          "en": "A crown made of flowers",
+          "zh": "用花编成的王冠"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,12 +162,24 @@
         "zh": "「对抗」(confront) 这个词是什么意思？格鲁斯卡普是怎样对抗冬天的？"
       },
       "options": [
-        {"en": "To oppose directly and stand up to someone; Glooskap went straight to the door, determined to face the giant", "zh": "直接反对、挺身面对某人；格鲁斯卡普径直走到门前，决心面对巨人"},
-        {"en": "To hide quietly and run away", "zh": "悄悄躲起来并逃跑"},
-        {"en": "To give someone a gift", "zh": "送给某人礼物"},
-        {"en": "To fall fast asleep", "zh": "很快睡着"}
+        {
+          "en": "To give someone a gift",
+          "zh": "送给某人礼物"
+        },
+        {
+          "en": "To hide quietly and run away according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "悄悄躲起来并逃跑（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "To oppose directly and stand up to someone; Glooskap went straight to the door, determined to face the giant",
+          "zh": "直接反对、挺身面对某人；格鲁斯卡普径直走到门前，决心面对巨人"
+        },
+        {
+          "en": "To fall fast asleep",
+          "zh": "很快睡着"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary says 'confront' means 'to oppose directly and openly; to stand up to.' Glooskap 'went straight to the door of the wigwam, determined to confront the powerful giant.'",
@@ -120,12 +192,24 @@
         "zh": "为什么格鲁斯卡普必须向夏天求助，而不能独自打败冬天？"
       },
       "options": [
-        {"en": "He realized he did not have the strength to defeat the giant on his own, and Winter's frost spell could only put him to sleep, not destroy him", "zh": "他意识到自己没有足够力量独自打败巨人，而且冬天的冰霜咒只能让他入睡，无法消灭他"},
-        {"en": "He was too afraid of the dark to go north alone", "zh": "他太怕黑，不敢独自去北方"},
-        {"en": "Summer had promised him a crown of flowers", "zh": "夏天答应送他一顶花冠"},
-        {"en": "Winter was actually his friend", "zh": "冬天其实是他的朋友"}
+        {
+          "en": "Summer had promised him a crown of flowers",
+          "zh": "夏天答应送他一顶花冠"
+        },
+        {
+          "en": "He realized he did not have the strength to defeat the giant on his own, and Winter's frost spell could only put him to sleep, not destroy him",
+          "zh": "他意识到自己没有足够力量独自打败巨人，而且冬天的冰霜咒只能让他入睡，无法消灭他"
+        },
+        {
+          "en": "Winter was actually his friend",
+          "zh": "冬天其实是他的朋友"
+        },
+        {
+          "en": "He was too afraid of the dark to go north alone according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他太怕黑，不敢独自去北方（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says 'Winter's magic was strong enough to put Glooskap to sleep, but he could not destroy the mighty warrior,' and 'Realizing that he did not have the strength to defeat the giant on his own,' Glooskap went south for help.",
@@ -138,10 +222,22 @@
         "zh": "夏天和冬天就季节如何更替达成了什么约定？"
       },
       "options": [
-        {"en": "Winter keeps the far north (always winter, undisturbed), may visit other lands part of each year, but every spring Summer returns and Winter must retreat north", "zh": "冬天保有遥远的北方（终年寒冬、不受打扰），每年可到各地作客一段时间，但每年春天夏天归来，冬天必须退回北方"},
-        {"en": "Winter must leave the Earth forever and never return", "zh": "冬天必须永远离开地球，再也不回来"},
-        {"en": "Summer stays only one single day each year", "zh": "夏天每年只停留一天"},
-        {"en": "They take turns every single hour", "zh": "它们每小时轮流一次"}
+        {
+          "en": "Winter keeps the far north (always winter, undisturbed), may visit other lands part of each year, but every spring Summer returns and Winter must retreat north",
+          "zh": "冬天保有遥远的北方（终年寒冬、不受打扰），每年可到各地作客一段时间，但每年春天夏天归来，冬天必须退回北方"
+        },
+        {
+          "en": "Summer stays only one single day each year",
+          "zh": "夏天每年只停留一天"
+        },
+        {
+          "en": "Winter must leave the Earth forever and never return according to some versions of the story in an early draft of the book as mentioned in a later chapter before the main events begin",
+          "zh": "冬天必须永远离开地球，再也不回来（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）（在主要事件发生之前）"
+        },
+        {
+          "en": "They take turns every single hour",
+          "zh": "它们每小时轮流一次"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,12 +252,24 @@
         "zh": "作者为什么把这个故事写成阿尔冈昆（Algonquin）民间传说？"
       },
       "options": [
-        {"en": "To explain in a story-like way why we have cold winters and why warm spring always returns", "zh": "用讲故事的方式解释为什么会有寒冷的冬天，以及温暖的春天为何总会回来"},
-        {"en": "To teach readers how to build an icy wigwam", "zh": "教读者怎样搭建冰棚屋"},
-        {"en": "To list the real names of all the months", "zh": "列出所有月份的真实名称"},
-        {"en": "To describe how to catch a loon", "zh": "描述怎样捕捉潜鸟"}
+        {
+          "en": "To describe how to catch a loon",
+          "zh": "描述怎样捕捉潜鸟"
+        },
+        {
+          "en": "To teach readers how to build an icy wigwam according to some versions of the story in an early draft of the book",
+          "zh": "教读者怎样搭建冰棚屋（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To list the real names of all the months",
+          "zh": "列出所有月份的真实名称"
+        },
+        {
+          "en": "To explain in a story-like way why we have cold winters and why warm spring always returns",
+          "zh": "用讲故事的方式解释为什么会有寒冷的冬天，以及温暖的春天为何总会回来"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "As a folktale, the story gives a creative explanation for the seasons: Winter rules for months each year, but 'in the spring, Summer arrives and chases Winter away,' and 'although sometimes it seems as if winter will never end, spring will always come.'",
@@ -174,12 +282,24 @@
         "zh": "这个故事给读者留下了什么充满希望的信息？"
       },
       "options": [
-        {"en": "No matter how long and cold the winter, spring will always come back", "zh": "无论冬天多长多冷，春天总会回来"},
-        {"en": "Winter is stronger than Summer and wins in the end", "zh": "冬天比夏天更强，最终会获胜"},
-        {"en": "People should never leave their homes", "zh": "人们永远不该离开家"},
-        {"en": "Giants are always friendly", "zh": "巨人总是友好的"}
+        {
+          "en": "Winter is stronger than Summer and wins in the end according to some versions of the story",
+          "zh": "冬天比夏天更强，最终会获胜（按书中另一种说法）"
+        },
+        {
+          "en": "No matter how long and cold the winter, spring will always come back",
+          "zh": "无论冬天多长多冷，春天总会回来"
+        },
+        {
+          "en": "Giants are always friendly",
+          "zh": "巨人总是友好的"
+        },
+        {
+          "en": "People should never leave their homes",
+          "zh": "人们永远不该离开家"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book ends by saying 'Although sometimes it seems as if winter will never end, spring will always come' — the author wants readers to feel hope even in the hardest, coldest times.",

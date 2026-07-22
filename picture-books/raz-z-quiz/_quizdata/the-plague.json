@@ -12,12 +12,24 @@
         "zh": "根据书中内容，瘟疫最早是在何时、何地传到欧洲的？"
       },
       "options": [
-        {"en": "In October 1347, when trading ships sailed into Messina, Sicily", "zh": "1347 年 10 月，商船驶入西西里岛的墨西拿"},
-        {"en": "In 1894, in Paris, France", "zh": "1894 年，法国巴黎"},
-        {"en": "In 1348, in London, England", "zh": "1348 年，英国伦敦"},
-        {"en": "In 1920, in a hospital lab", "zh": "1920 年，一家医院实验室"}
+        {
+          "en": "In 1894, in Paris, France",
+          "zh": "1894 年，法国巴黎"
+        },
+        {
+          "en": "In October 1347, when trading ships sailed into Messina, Sicily",
+          "zh": "1347 年 10 月，商船驶入西西里岛的墨西拿"
+        },
+        {
+          "en": "In 1348, in London, England",
+          "zh": "1348 年，英国伦敦"
+        },
+        {
+          "en": "In 1920, in a hospital lab according to some versions of the story",
+          "zh": "1920 年，一家医院实验室（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'In October 1347, a dozen trading ships sailed into the port of Messina, Sicily ... These ships and sailors had now brought the disease—the plague—to Europe.'",
@@ -30,12 +42,24 @@
         "zh": "导致瘟疫的细菌是什么？它是在何时被确认的？"
       },
       "options": [
-        {"en": "Yersinia pestis, identified in 1894", "zh": "鼠疫耶尔森菌（Yersinia pestis），于 1894 年被确认"},
-        {"en": "The flu virus, identified in 1347", "zh": "流感病毒，1347 年确认"},
-        {"en": "A type of mold, found in 1920", "zh": "一种霉菌，1920 年发现"},
-        {"en": "Cholera bacteria, identified in 2000", "zh": "霍乱弧菌，2000 年确认"}
+        {
+          "en": "A type of mold, found in 1920",
+          "zh": "一种霉菌，1920 年发现"
+        },
+        {
+          "en": "Cholera bacteria, identified in 2000 according to some versions of the story",
+          "zh": "霍乱弧菌，2000 年确认（按书中另一种说法）"
+        },
+        {
+          "en": "The flu virus, identified in 1347",
+          "zh": "流感病毒，1347 年确认"
+        },
+        {
+          "en": "Yersinia pestis, identified in 1894",
+          "zh": "鼠疫耶尔森菌（Yersinia pestis），于 1894 年被确认"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states 'It was not until 1894 ... that scientists identified Yersinia pestis, the bacterium that probably caused the plague.'",
@@ -48,10 +72,22 @@
         "zh": "根据书中内容，瘟疫是如何从老鼠传到人身上的？"
       },
       "options": [
-        {"en": "Bacteria lived in fleas' guts; fleas fed on black rats, and when the rats died the fleas bit humans", "zh": "细菌存活在跳蚤的消化道里；跳蚤以黑鼠为食，老鼠死后跳蚤便叮咬人类"},
-        {"en": "Rats directly bit humans in their sleep", "zh": "老鼠直接在人类睡梦中咬人"},
-        {"en": "The disease traveled only through the air from person to person", "zh": "疾病只通过人与人之间空气传播"},
-        {"en": "Contaminated water was the only source", "zh": "受污染的水是唯一的来源"}
+        {
+          "en": "Bacteria lived in fleas' guts; fleas fed on black rats, and when the rats died the fleas bit humans",
+          "zh": "细菌存活在跳蚤的消化道里；跳蚤以黑鼠为食，老鼠死后跳蚤便叮咬人类"
+        },
+        {
+          "en": "The disease traveled only through the air from person to person according to some versions of the story in an early draft of the book",
+          "zh": "疾病只通过人与人之间空气传播（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Rats directly bit humans in their sleep",
+          "zh": "老鼠直接在人类睡梦中咬人"
+        },
+        {
+          "en": "Contaminated water was the only source",
+          "zh": "受污染的水是唯一的来源"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,10 +102,22 @@
         "zh": "大约有多少出现瘟疫症状的人活了下来？"
       },
       "options": [
-        {"en": "Only about one in five", "zh": "大约只有五分之一"},
-        {"en": "About nine out of ten", "zh": "大约十之八九"},
-        {"en": "Nearly everyone survived", "zh": "几乎人人都活了下来"},
-        {"en": "Exactly half", "zh": "正好一半"}
+        {
+          "en": "Only about one in five",
+          "zh": "大约只有五分之一"
+        },
+        {
+          "en": "Nearly everyone survived",
+          "zh": "几乎人人都活了下来"
+        },
+        {
+          "en": "Exactly half",
+          "zh": "正好一半"
+        },
+        {
+          "en": "About nine out of ten",
+          "zh": "大约十之八九"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "一些港口城市让船只在靠岸前等候四十天。书中称这段等候期为“quarantine”（隔离检疫）。它的目的是什么？"
       },
       "options": [
-        {"en": "To confirm the ship's crew were plague-free before allowing contact with locals", "zh": "在允许船员与当地人接触前，确认他们没有感染瘟疫"},
-        {"en": "To give sailors time to trade goods", "zh": "给船员时间做买卖"},
-        {"en": "To celebrate a religious festival", "zh": "庆祝宗教节日"},
-        {"en": "To repair the ships", "zh": "修理船只"}
+        {
+          "en": "To celebrate a religious festival",
+          "zh": "庆祝宗教节日"
+        },
+        {
+          "en": "To repair the ships",
+          "zh": "修理船只"
+        },
+        {
+          "en": "To confirm the ship's crew were plague-free before allowing contact with locals",
+          "zh": "在允许船员与当地人接触前，确认他们没有感染瘟疫"
+        },
+        {
+          "en": "To give sailors time to trade goods according to some versions of the story in an early draft of the book",
+          "zh": "给船员时间做买卖（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says 'The waiting period, or quarantine, was meant to confirm that the ship's crew were plague-free before allowing them to come in contact with local residents.'",
@@ -102,10 +162,22 @@
         "zh": "书中有一幅题为“老鼠和跳蚤如何传播瘟疫”的示意图。作者加入这幅图的用意是什么？"
       },
       "options": [
-        {"en": "To show, step by step, how the bacteria moved from rodents to fleas to humans", "zh": "一步步展示细菌是如何从啮齿动物传到跳蚤、再传到人身上的"},
-        {"en": "To prove the plague was caused by magic", "zh": "为了证明瘟疫是由魔法引起的"},
-        {"en": "To decorate the page with a drawing", "zh": "用一幅画装饰页面"},
-        {"en": "To list the names of cities hit by the plague", "zh": "列出受瘟疫袭击的城市名称"}
+        {
+          "en": "To show, step by step, how the bacteria moved from rodents to fleas to humans",
+          "zh": "一步步展示细菌是如何从啮齿动物传到跳蚤、再传到人身上的"
+        },
+        {
+          "en": "To list the names of cities hit by the plague according to some versions of the story",
+          "zh": "列出受瘟疫袭击的城市名称（按书中另一种说法）"
+        },
+        {
+          "en": "To decorate the page with a drawing",
+          "zh": "用一幅画装饰页面"
+        },
+        {
+          "en": "To prove the plague was caused by magic",
+          "zh": "为了证明瘟疫是由魔法引起的"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "关于淋巴腺鼠疫以及被称为 buboes 的黑色肿胀脓疱，书中说了什么？"
       },
       "options": [
-        {"en": "Bubonic plague bacteria attack the lymph nodes, causing them to swell and blacken into boils called buboes", "zh": "淋巴腺鼠疫的细菌攻击淋巴结，使其肿胀发黑，形成称为 buboes 的脓疱"},
-        {"en": "Buboes are caused by a lack of sunlight", "zh": "buboes 是由缺乏阳光引起的"},
-        {"en": "Buboes are a kind of healthy rash", "zh": "buboes 是一种健康的皮疹"},
-        {"en": "Buboes appear only on the hands", "zh": "buboes 只出现在手上"}
+        {
+          "en": "Buboes are caused by a lack of sunlight according to some versions of the story in an early draft of the book",
+          "zh": "buboes 是由缺乏阳光引起的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Bubonic plague bacteria attack the lymph nodes, causing them to swell and blacken into boils called buboes",
+          "zh": "淋巴腺鼠疫的细菌攻击淋巴结，使其肿胀发黑，形成称为 buboes 的脓疱"
+        },
+        {
+          "en": "Buboes appear only on the hands",
+          "zh": "buboes 只出现在手上"
+        },
+        {
+          "en": "Buboes are a kind of healthy rash",
+          "zh": "buboes 是一种健康的皮疹"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says 'Bubonic plague bacteria start by attacking the lymph nodes ... Lymph nodes swell and blacken with poisoned blood and pus, becoming boils called buboes.'",
@@ -138,12 +222,24 @@
         "zh": "一些人如何错误地解释瘟疫？领导者又是如何回应的？"
       },
       "options": [
-        {"en": "Some Christians wrongly blamed Jews; Pope Clement VI declared Jews were not at fault, though over 200 Jewish villages were still destroyed", "zh": "一些基督徒错误地归咎于犹太人；教皇克雷芒六世声明犹太人无罪，但仍有 200 多个犹太村庄被毁"},
-        {"en": "Everyone correctly blamed the rats from the start", "zh": "一开始所有人都正确地归咎于老鼠"},
-        {"en": "The king blamed the army and executed generals", "zh": "国王归咎于军队并处决了将领"},
-        {"en": "Scientists immediately found a cure in 1347", "zh": "科学家在 1347 年立刻找到了解药"}
+        {
+          "en": "The king blamed the army and executed generals",
+          "zh": "国王归咎于军队并处决了将领"
+        },
+        {
+          "en": "Scientists immediately found a cure in 1347",
+          "zh": "科学家在 1347 年立刻找到了解药"
+        },
+        {
+          "en": "Everyone correctly blamed the rats from the start according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "一开始所有人都正确地归咎于老鼠（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Some Christians wrongly blamed Jews; Pope Clement VI declared Jews were not at fault, though over 200 Jewish villages were still destroyed",
+          "zh": "一些基督徒错误地归咎于犹太人；教皇克雷芒六世声明犹太人无罪，但仍有 200 多个犹太村庄被毁"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says some Christians 'wrongly blamed Jews' and 'Pope Clement VI issued a declaration making it clear that Jews were not at fault,' yet 'more than two hundred Jewish villages were destroyed.'",
@@ -156,12 +252,24 @@
         "zh": "书中说瘟疫之后的时期是“文艺复兴”（Renaissance），意即“重生”。作者为什么把这场灾难与文艺复兴联系起来？"
       },
       "options": [
-        {"en": "To show that, although devastating, the catastrophe led to positive changes in medicine, science, art, and society", "zh": "为了说明这场灾难虽然毁灭性，却带来了医学、科学、艺术和社会方面的积极变化"},
-        {"en": "To argue the plague was a good thing overall", "zh": "为了主张瘟疫总体而言是好事"},
-        {"en": "To say the Renaissance happened before the plague", "zh": "为了说文艺复兴发生在瘟疫之前"},
-        {"en": "To prove nothing changed after the plague", "zh": "为了证明瘟疫后什么都没改变"}
+        {
+          "en": "To prove nothing changed after the plague",
+          "zh": "为了证明瘟疫后什么都没改变"
+        },
+        {
+          "en": "To show that, although devastating, the catastrophe led to positive changes in medicine, science, art, and society",
+          "zh": "为了说明这场灾难虽然毁灭性，却带来了医学、科学、艺术和社会方面的积极变化"
+        },
+        {
+          "en": "To argue the plague was a good thing overall",
+          "zh": "为了主张瘟疫总体而言是好事"
+        },
+        {
+          "en": "To say the Renaissance happened before the plague according to some versions of the story in an early draft of the book",
+          "zh": "为了说文艺复兴发生在瘟疫之前（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book links the disaster to 'many changes for the better' and notes the Renaissance 'inspired great advancements in medicine, science, and art.'",
@@ -174,12 +282,24 @@
         "zh": "作者为什么在书末提到亚历山大·弗莱明和青霉素？"
       },
       "options": [
-        {"en": "To explain that modern medicine (penicillin, discovered in the 1920s) makes another outbreak of the Black Death almost impossible", "zh": "为了说明现代医学（1920 年代发现的青霉素）让黑死病再次大规模爆发几乎不可能"},
-        {"en": "To say penicillin was available in the 1300s", "zh": "为了说青霉素在 1300 年代就能用"},
-        {"en": "To prove the plague was caused by bacteria no one could study", "zh": "为了证明瘟疫由无人能研究的细菌引起"},
-        {"en": "To suggest people should avoid all doctors", "zh": "为了建议人们避开所有医生"}
+        {
+          "en": "To suggest people should avoid all doctors",
+          "zh": "为了建议人们避开所有医生"
+        },
+        {
+          "en": "To say penicillin was available in the 1300s",
+          "zh": "为了说青霉素在 1300 年代就能用"
+        },
+        {
+          "en": "To explain that modern medicine (penicillin, discovered in the 1920s) makes another outbreak of the Black Death almost impossible",
+          "zh": "为了说明现代医学（1920 年代发现的青霉素）让黑死病再次大规模爆发几乎不可能"
+        },
+        {
+          "en": "To prove the plague was caused by bacteria no one could study according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "为了证明瘟疫由无人能研究的细菌引起（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says 'Modern medicine has made another outbreak of the Black Death all but impossible' and describes Fleming's 1920s discovery of penicillin (Nobel Prize 1945).",

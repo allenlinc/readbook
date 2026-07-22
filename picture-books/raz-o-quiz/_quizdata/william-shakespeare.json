@@ -12,12 +12,24 @@
         "zh": "威廉·莎士比亚生活在什么时期？"
       },
       "options": [
-        {"en": "1500 to 1566", "zh": "1500年至1566年"},
-        {"en": "1564 to 1616", "zh": "1564年至1616年"},
-        {"en": "1616 to 1700", "zh": "1616年至1700年"},
-        {"en": "1400 to 1470", "zh": "1400年至1470年"}
+        {
+          "en": "1564 to 1616",
+          "zh": "1564年至1616年"
+        },
+        {
+          "en": "1500 to 1566 according to some versions of the story",
+          "zh": "1500年至1566年（按书中另一种说法）"
+        },
+        {
+          "en": "1400 to 1470",
+          "zh": "1400年至1470年"
+        },
+        {
+          "en": "1616 to 1700",
+          "zh": "1616年至1700年"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Introduction states that William Shakespeare lived from 1564 until 1616.",
@@ -30,12 +42,24 @@
         "zh": "莎士比亚创作的三种主要戏剧类型是什么？"
       },
       "options": [
-        {"en": "tragedies, histories, and comedies", "zh": "悲剧、历史剧和喜剧"},
-        {"en": "mysteries, fantasies, and poems", "zh": "悬疑剧、奇幻剧和诗歌"},
-        {"en": "musicals, operas, and fables", "zh": "音乐剧、歌剧和寓言"},
-        {"en": "romances, tragedies, and documentaries", "zh": "爱情剧、悲剧和纪录片"}
+        {
+          "en": "musicals, operas, and fables",
+          "zh": "音乐剧、歌剧和寓言"
+        },
+        {
+          "en": "tragedies, histories, and comedies",
+          "zh": "悲剧、历史剧和喜剧"
+        },
+        {
+          "en": "mysteries, fantasies, and poems",
+          "zh": "悬疑剧、奇幻剧和诗歌"
+        },
+        {
+          "en": "romances, tragedies, and documentaries",
+          "zh": "爱情剧、悲剧和纪录片"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The page 'Shakespeare's Plays' says he wrote three main types: tragedies, histories, and comedies.",
@@ -48,12 +72,24 @@
         "zh": "莎士比亚是在哪一年在伦敦协助创立环球剧院的？"
       },
       "options": [
-        {"en": "1582", "zh": "1582年"},
-        {"en": "1594", "zh": "1594年"},
-        {"en": "1599", "zh": "1599年"},
-        {"en": "1616", "zh": "1616年"}
+        {
+          "en": "1599",
+          "zh": "1599年"
+        },
+        {
+          "en": "1594 according to some versions of the story",
+          "zh": "1594年（按书中另一种说法）"
+        },
+        {
+          "en": "1582",
+          "zh": "1582年"
+        },
+        {
+          "en": "1616",
+          "zh": "1616年"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The 'Shakespeare in London' section says he helped found the Globe, a theater in London, in 1599.",
@@ -66,12 +102,24 @@
         "zh": "莎士比亚写了多少首十四行诗？"
       },
       "options": [
-        {"en": "36", "zh": "36首"},
-        {"en": "100", "zh": "100首"},
-        {"en": "154", "zh": "154首"},
-        {"en": "18", "zh": "18首"}
+        {
+          "en": "36",
+          "zh": "36首"
+        },
+        {
+          "en": "154",
+          "zh": "154首"
+        },
+        {
+          "en": "100 according to some versions of the story",
+          "zh": "100首（按书中另一种说法）"
+        },
+        {
+          "en": "18",
+          "zh": "18首"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The 'Shakespeare's Poems' section states that he wrote one hundred fifty-four sonnets.",
@@ -84,12 +132,24 @@
         "zh": "根据本书，什么是十四行诗？"
       },
       "options": [
-        {"en": "a type of play with a sad ending", "zh": "一种结局悲伤的戏剧"},
-        {"en": "a special type of rhyming poem with fourteen lines", "zh": "一种有十四行的特殊押韵诗"},
-        {"en": "a long story about kings", "zh": "一个关于国王的长篇故事"},
-        {"en": "a funny love story", "zh": "一个有趣的爱情故事"}
+        {
+          "en": "a long story about kings",
+          "zh": "一个关于国王的长篇故事"
+        },
+        {
+          "en": "a funny love story",
+          "zh": "一个有趣的爱情故事"
+        },
+        {
+          "en": "a type of play with a sad ending according to some versions of the story",
+          "zh": "一种结局悲伤的戏剧（按书中另一种说法）"
+        },
+        {
+          "en": "a special type of rhyming poem with fourteen lines",
+          "zh": "一种有十四行的特殊押韵诗"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains that a sonnet is a special type of rhyming poem with fourteen lines.",
@@ -102,12 +162,24 @@
         "zh": "书中称莎士比亚的作品是作家们的“benchmark（标杆）”。这里的“benchmark”是什么意思？"
       },
       "options": [
-        {"en": "a type of theater", "zh": "一种剧院"},
-        {"en": "something used for judging the quality of other things", "zh": "用来衡量其他同类事物质量的标准"},
-        {"en": "a famous poem", "zh": "一首著名的诗"},
-        {"en": "a sad ending", "zh": "一个悲伤的结局"}
+        {
+          "en": "a famous poem",
+          "zh": "一首著名的诗"
+        },
+        {
+          "en": "a sad ending",
+          "zh": "一个悲伤的结局"
+        },
+        {
+          "en": "a type of theater according to some versions of the story",
+          "zh": "一种剧院（按书中另一种说法）"
+        },
+        {
+          "en": "something used for judging the quality of other things",
+          "zh": "用来衡量其他同类事物质量的标准"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The Glossary defines benchmark as 'something used for judging the quality of other things like it.'",
@@ -120,12 +192,24 @@
         "zh": "书中提到了伊阿古和约翰·福斯塔夫爵士等角色。这些角色有什么特别之处？"
       },
       "options": [
-        {"en": "They were real historical kings.", "zh": "他们是真实的历史上的国王。"},
-        {"en": "They are complex, like real people, with both good and bad traits.", "zh": "他们很复杂，像真实的人一样兼有优点和缺点。"},
-        {"en": "They only appear in comedies.", "zh": "他们只出现在喜剧中。"},
-        {"en": "They were played only by Queen Elizabeth.", "zh": "他们只由伊丽莎白女王扮演。"}
+        {
+          "en": "They were played only by Queen Elizabeth. according to some versions of the story",
+          "zh": "他们只由伊丽莎白女王扮演。（按书中另一种说法）"
+        },
+        {
+          "en": "They were real historical kings.",
+          "zh": "他们是真实的历史上的国王。"
+        },
+        {
+          "en": "They are complex, like real people, with both good and bad traits.",
+          "zh": "他们很复杂，像真实的人一样兼有优点和缺点。"
+        },
+        {
+          "en": "They only appear in comedies.",
+          "zh": "他们只出现在喜剧中。"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says Shakespeare wrote his characters to be like real people, and describes Falstaff as 'at once proud and cowardly, smart and a fool,' showing their complex nature.",
@@ -138,10 +222,22 @@
         "zh": "人们可以用一百多种语言阅读莎士比亚的作品。这说明了什么？"
       },
       "options": [
-        {"en": "Shakespeare only wrote in English for his friends.", "zh": "莎士比亚只用英语为他的朋友写作。"},
-        {"en": "His stories are timeless and enjoyed around the world.", "zh": "他的作品经久不衰，受到全世界的喜爱。"},
-        {"en": "He invented one hundred languages.", "zh": "他发明了一百种语言。"},
-        {"en": "Only children read his plays.", "zh": "只有儿童阅读他的戏剧。"}
+        {
+          "en": "Only children read his plays.",
+          "zh": "只有儿童阅读他的戏剧。"
+        },
+        {
+          "en": "His stories are timeless and enjoyed around the world.",
+          "zh": "他的作品经久不衰，受到全世界的喜爱。"
+        },
+        {
+          "en": "Shakespeare only wrote in English for his friends. according to some versions of the story",
+          "zh": "莎士比亚只用英语为他的朋友写作。（按书中另一种说法）"
+        },
+        {
+          "en": "He invented one hundred languages.",
+          "zh": "他发明了一百种语言。"
+        }
       ],
       "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,12 +252,24 @@
         "zh": "根据本书，人们为什么欣赏莎士比亚的戏剧？"
       },
       "options": [
-        {"en": "They are short and easy to memorize.", "zh": "它们很短，容易记住。"},
-        {"en": "They are exciting stories that touch people's feelings and include morals about big ideas.", "zh": "它们是激动人心的故事，能触动人们的情感，并包含关于重大理念的寓意。"},
-        {"en": "They were written only for Queen Elizabeth.", "zh": "它们只写给伊丽莎白女王看。"},
-        {"en": "They never have sad endings.", "zh": "它们从不以悲伤的结局收尾。"}
+        {
+          "en": "They never have sad endings.",
+          "zh": "它们从不以悲伤的结局收尾。"
+        },
+        {
+          "en": "They were written only for Queen Elizabeth. according to some versions of the story in an early draft of the book",
+          "zh": "它们只写给伊丽莎白女王看。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They are exciting stories that touch people's feelings and include morals about big ideas.",
+          "zh": "它们是激动人心的故事，能触动人们的情感，并包含关于重大理念的寓意。"
+        },
+        {
+          "en": "They are short and easy to memorize.",
+          "zh": "它们很短，容易记住。"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Introduction says people admire his plays because they are exciting stories that touch feelings and include morals about big ideas such as good and evil.",
@@ -174,12 +282,24 @@
         "zh": "本书关于莎士比亚的重要性传达了什么主要信息？"
       },
       "options": [
-        {"en": "He was a forgotten writer until recently.", "zh": "他是一位直到最近才被人记起的作家。"},
-        {"en": "He is considered one of the greatest writers who ever lived, whose work is 'for all time.'", "zh": "他被认为是史上最伟大的作家之一，其作品“属于所有时代”。"},
-        {"en": "He only wrote poems, not plays.", "zh": "他只写诗，不写戏剧。"},
-        {"en": "His work should only be read in old English.", "zh": "他的作品只应使用古英语阅读。"}
+        {
+          "en": "He is considered one of the greatest writers who ever lived, whose work is 'for all time.'",
+          "zh": "他被认为是史上最伟大的作家之一，其作品“属于所有时代”。"
+        },
+        {
+          "en": "He only wrote poems, not plays.",
+          "zh": "他只写诗，不写戏剧。"
+        },
+        {
+          "en": "He was a forgotten writer until recently. according to some versions of the story in an early draft of the book",
+          "zh": "他是一位直到最近才被人记起的作家。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "His work should only be read in old English.",
+          "zh": "他的作品只应使用古英语阅读。"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Conclusion says he is considered one of the greatest writers who ever lived, and his friend Ben Johnson called his work 'not of an age, but for all time!'",

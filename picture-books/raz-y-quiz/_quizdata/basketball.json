@@ -1,328 +1,328 @@
 {
- "slug": "basketball",
- "title": "Basketball",
- "titleZh": "篮球",
- "level": "Y",
- "genre": "Sports",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "Who invented basketball, and in what year?",
-    "zh": "谁发明了篮球？是在哪一年？"
-   },
-   "options": [
+  "slug": "basketball",
+  "title": "Basketball",
+  "titleZh": "篮球",
+  "level": "Y",
+  "genre": "Sports",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "James Naismith in 1891",
-     "zh": "詹姆斯·奈史菲文，1891年"
+      "q": {
+        "en": "Who invented basketball, and in what year?",
+        "zh": "谁发明了篮球？是在哪一年？"
+      },
+      "options": [
+        {
+          "en": "George Mikan in 1950",
+          "zh": "乔治·麦肯，1950年"
+        },
+        {
+          "en": "James Naismith in 1891",
+          "zh": "詹姆斯·奈史菲文，1891年"
+        },
+        {
+          "en": "Michael Jordan in 1984 according to some versions of the story",
+          "zh": "迈克尔·乔丹，1984年（按书中另一种说法）"
+        },
+        {
+          "en": "Kobe Bryant in 1996",
+          "zh": "科比·布莱恩特，1996年"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book states basketball was created in 1891 by Canadian-born Dr. James Naismith in Springfield, Massachusetts.",
+        "zh": "书中说，篮球于1891年由出生于加拿大的詹姆斯·奈史菲文博士在马萨诱诱州斯普林菲尔德发明。"
+      }
     },
     {
-     "en": "Michael Jordan in 1984",
-     "zh": "迈克尔·乔丹，1984年"
+      "q": {
+        "en": "In the original game created by Naismith, what were used as hoops?",
+        "zh": "在奈史菲文最初设计的游戈中，是用什么当作篮篚的？"
+      },
+      "options": [
+        {
+          "en": "Trash cans",
+          "zh": "垃圾桶"
+        },
+        {
+          "en": "Metal hoops with nets according to some versions of the story",
+          "zh": "带网的金属篮篚（按书中另一种说法）"
+        },
+        {
+          "en": "Peach baskets nailed to a balcony rail",
+          "zh": "钉在阳台栏杆上的格篮"
+        },
+        {
+          "en": "Wooden boxes",
+          "zh": "木箱"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Naismith nailed peach baskets to a balcony rail; the bottoms were left on, so balls had to be removed by hand.",
+        "zh": "奈史菲文把格篮钉在阳台栏杆上，而且篮底没去掉，进球后得用手把球取出来。"
+      }
     },
     {
-     "en": "Kobe Bryant in 1996",
-     "zh": "科比·布莱恩特，1996年"
+      "q": {
+        "en": "According to the book, how many players from each team are on the court during a game?",
+        "zh": "根据本书，比赛时每队有多少名球员在场上？"
+      },
+      "options": [
+        {
+          "en": "Five",
+          "zh": "五名"
+        },
+        {
+          "en": "Seven",
+          "zh": "七名"
+        },
+        {
+          "en": "Three",
+          "zh": "三名"
+        },
+        {
+          "en": "Eleven",
+          "zh": "十一名"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says two teams of five players play the game on a rectangular court.",
+        "zh": "书中说，比赛在矩形球场上进行，每队五名球员。"
+      }
     },
     {
-     "en": "George Mikan in 1950",
-     "zh": "乔治·麦肯，1950年"
+      "q": {
+        "en": "How long is each quarter in an NBA basketball game?",
+        "zh": "NBA篮球比赛每节多长时间？"
+      },
+      "options": [
+        {
+          "en": "Fifteen minutes",
+          "zh": "十五分钟"
+        },
+        {
+          "en": "Twelve minutes",
+          "zh": "十二分钟"
+        },
+        {
+          "en": "Twenty minutes",
+          "zh": "二十分钟"
+        },
+        {
+          "en": "Ten minutes",
+          "zh": "十分钟"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "A basketball game is divided into four quarters, which in the NBA are each twelve minutes long.",
+        "zh": "一场篮球比赛分为四节，NBA的每节为十二分钟。"
+      }
+    },
+    {
+      "q": {
+        "en": "According to the glossary, what does 'rebound' mean?",
+        "zh": "根据词汇表，“rebound（篮板球）”是什么意思？"
+      },
+      "options": [
+        {
+          "en": "The act of bouncing back off a hard surface",
+          "zh": "从坚硬表面弹回的动作"
+        },
+        {
+          "en": "A type of defensive strategy",
+          "zh": "一种防守策略"
+        },
+        {
+          "en": "A player's position on the court according to some versions of the story",
+          "zh": "球员在场上的位置（按书中另一种说法）"
+        },
+        {
+          "en": "The referee's whistle",
+          "zh": "裁判的哨声"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The glossary defines rebound as 'the act of bouncing back off a hard surface,' as when a missed shot bounces off the hoop.",
+        "zh": "词汇表将 rebound 定义为“从坚硬表面弹回的动作”，例如投篮不中后球从篮匡弹开。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book states that basketball became popular worldwide after which event?",
+        "zh": "书中说篮球在哪一事件之后在全世界流行开来？"
+      },
+      "options": [
+        {
+          "en": "The first Olympic Games in 1896",
+          "zh": "1896年首届奥运会"
+        },
+        {
+          "en": "The end of World War II",
+          "zh": "第二次世界大战结束后"
+        },
+        {
+          "en": "The invention of the Internet",
+          "zh": "互联网的发明"
+        },
+        {
+          "en": "The founding of the WNBA",
+          "zh": "WNBA的成立"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The book says the sport became popular worldwide after the end of World War II, and the NBA was established in 1949.",
+        "zh": "书中说，二战结束后篮球在全世界流行起来，NBA则于1949年成立。"
+      }
+    },
+    {
+      "q": {
+        "en": "Based on the book, which statement about the FIBA Basketball World Cup is true?",
+        "zh": "根据本书，关于国际篮联篮球世界杯的哪一项说法正确？"
+      },
+      "options": [
+        {
+          "en": "It replaced the NBA in 1949",
+          "zh": "它在1949年取代了NBA"
+        },
+        {
+          "en": "It is held every two years",
+          "zh": "每两年举办一次"
+        },
+        {
+          "en": "It is held only in the United States",
+          "zh": "只在美国举办"
+        },
+        {
+          "en": "It is held every four years",
+          "zh": "每四年举办一次"
+        }
+      ],
+      "answer": 3,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The book says the FIBA Basketball World Cup, a global championship, is held every four years.",
+        "zh": "书中说，作为全球锦标赛的FIBA篮球世界杯每四年举办一次。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book shows the Philippine Arena and notes it is the largest basketball venue. What idea does this support?",
+        "zh": "书中展示了菲律宾体育馆，并说明它是世界上最大的篮球场馆。这支持了哪一个观点？"
+      },
+      "options": [
+        {
+          "en": "The NBA has 30 teams in the Philippines",
+          "zh": "NBA在菲律宾有30支球队"
+        },
+        {
+          "en": "Basketball is only popular in the United States according to some versions of the story",
+          "zh": "篮球只在美国受欢迎（按书中另一种说法）"
+        },
+        {
+          "en": "Basketball was invented in the Philippines",
+          "zh": "篮球是在菲律宾发明的"
+        },
+        {
+          "en": "Basketball's popularity has grown into a global sport",
+          "zh": "篮球的受欢迎程度已发展为一项全球性运动"
+        }
+      ],
+      "answer": 3,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Describing the Philippine Arena (55,000 fans) and worldwide leagues supports the idea that basketball is a global sport.",
+        "zh": "描写可容纳五万五千人的菲律宾体育馆以及世界各地的联赛，说明篮球已是一项全球性运动。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why does the author include a section on famous players such as Michael Jordan and LeBron James?",
+        "zh": "作者为什么要包含介绍迈克尔·乔丹、勒布朗·詹姆斯等著名球员的章节？"
+      },
+      "options": [
+        {
+          "en": "To list every NBA team",
+          "zh": "为了列出每一支NBA球队"
+        },
+        {
+          "en": "To teach how to cook",
+          "zh": "为了教人做饭"
+        },
+        {
+          "en": "To show the sport's history and its outstanding stars",
+          "zh": "展示这项运动的历史及其杰出明星"
+        },
+        {
+          "en": "To criticize modern athletes according to some versions of the story",
+          "zh": "为了批评现代运动员（按书中另一种说法）"
+        }
+      ],
+      "answer": 2,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The 'Rulers of the Court' section highlights star players to show basketball's history and appeal.",
+        "zh": "“球场霸主”一节通过明星球员来展现篮球的历史与魅力。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in writing this book?",
+        "zh": "作者撰写《篮球》一书的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To explain what makes basketball different from other sports and how it is played",
+          "zh": "解释篮球有何独特之处以及它的玩法"
+        },
+        {
+          "en": "To tell a fictional ghost story",
+          "zh": "讲述一个虚构的鬼故事"
+        },
+        {
+          "en": "To argue that soccer is better than basketball according to some versions of the story",
+          "zh": "论证足球优于篮球（按书中另一种说法）"
+        },
+        {
+          "en": "To describe the rules of baseball",
+          "zh": "描述棍球的规则"
+        }
+      ],
+      "answer": 0,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The Focus Question asks what makes basketball different from other popular sports, which guides the book's purpose.",
+        "zh": "本书的聚焦问题是“篮球与其他流行运动有何不同”，这正是全书的写作目的。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book states basketball was created in 1891 by Canadian-born Dr. James Naismith in Springfield, Massachusetts.",
-    "zh": "书中说，篮球于1891年由出生于加拿大的詹姆斯·奈史菲文博士在马萨诱诱州斯普林菲尔德发明。"
-   }
-  },
-  {
-   "q": {
-    "en": "In the original game created by Naismith, what were used as hoops?",
-    "zh": "在奈史菲文最初设计的游戈中，是用什么当作篮篚的？"
-   },
-   "options": [
-    {
-     "en": "Metal hoops with nets",
-     "zh": "带网的金属篮篚"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Choose one famous basketball player mentioned in the book. Write a short biography describing his or her achievements and why he or she is important to the sport.",
+      "zh": "选择书中提到的一位著名篮球运动员，写一段简短的传记，描述其成就以及他/她为何对这项运动很重要。"
     },
-    {
-     "en": "Peach baskets nailed to a balcony rail",
-     "zh": "钉在阳台栏杆上的格篮"
-    },
-    {
-     "en": "Trash cans",
-     "zh": "垃圾桶"
-    },
-    {
-     "en": "Wooden boxes",
-     "zh": "木箱"
+    "guidance": {
+      "en": [
+        "Name the player and the team or league they are known for.",
+        "Describe at least one record or accomplishment.",
+        "Explain why the player inspires fans."
+      ],
+      "zh": [
+        "说出该球员及其所属球队或联盟。",
+        "描述至少一项纪录或成就。",
+        "说明这位球员为何能激励球迷。"
+      ]
     }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Naismith nailed peach baskets to a balcony rail; the bottoms were left on, so balls had to be removed by hand.",
-    "zh": "奈史菲文把格篮钉在阳台栏杆上，而且篮底没去掉，进球后得用手把球取出来。"
-   }
-  },
-  {
-   "q": {
-    "en": "According to the book, how many players from each team are on the court during a game?",
-    "zh": "根据本书，比赛时每队有多少名球员在场上？"
-   },
-   "options": [
-    {
-     "en": "Three",
-     "zh": "三名"
-    },
-    {
-     "en": "Five",
-     "zh": "五名"
-    },
-    {
-     "en": "Seven",
-     "zh": "七名"
-    },
-    {
-     "en": "Eleven",
-     "zh": "十一名"
-    }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book says two teams of five players play the game on a rectangular court.",
-    "zh": "书中说，比赛在矩形球场上进行，每队五名球员。"
-   }
-  },
-  {
-   "q": {
-    "en": "How long is each quarter in an NBA basketball game?",
-    "zh": "NBA篮球比赛每节多长时间？"
-   },
-   "options": [
-    {
-     "en": "Ten minutes",
-     "zh": "十分钟"
-    },
-    {
-     "en": "Twelve minutes",
-     "zh": "十二分钟"
-    },
-    {
-     "en": "Fifteen minutes",
-     "zh": "十五分钟"
-    },
-    {
-     "en": "Twenty minutes",
-     "zh": "二十分钟"
-    }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "A basketball game is divided into four quarters, which in the NBA are each twelve minutes long.",
-    "zh": "一场篮球比赛分为四节，NBA的每节为十二分钟。"
-   }
-  },
-  {
-   "q": {
-    "en": "According to the glossary, what does 'rebound' mean?",
-    "zh": "根据词汇表，“rebound（篮板球）”是什么意思？"
-   },
-   "options": [
-    {
-     "en": "The act of bouncing back off a hard surface",
-     "zh": "从坚硬表面弹回的动作"
-    },
-    {
-     "en": "A type of defensive strategy",
-     "zh": "一种防守策略"
-    },
-    {
-     "en": "A player's position on the court",
-     "zh": "球员在场上的位置"
-    },
-    {
-     "en": "The referee's whistle",
-     "zh": "裁判的哨声"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The glossary defines rebound as 'the act of bouncing back off a hard surface,' as when a missed shot bounces off the hoop.",
-    "zh": "词汇表将 rebound 定义为“从坚硬表面弹回的动作”，例如投篮不中后球从篮匡弹开。"
-   }
-  },
-  {
-   "q": {
-    "en": "The book states that basketball became popular worldwide after which event?",
-    "zh": "书中说篮球在哪一事件之后在全世界流行开来？"
-   },
-   "options": [
-    {
-     "en": "The end of World War II",
-     "zh": "第二次世界大战结束后"
-    },
-    {
-     "en": "The invention of the Internet",
-     "zh": "互联网的发明"
-    },
-    {
-     "en": "The first Olympic Games in 1896",
-     "zh": "1896年首届奥运会"
-    },
-    {
-     "en": "The founding of the WNBA",
-     "zh": "WNBA的成立"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The book says the sport became popular worldwide after the end of World War II, and the NBA was established in 1949.",
-    "zh": "书中说，二战结束后篮球在全世界流行起来，NBA则于1949年成立。"
-   }
-  },
-  {
-   "q": {
-    "en": "Based on the book, which statement about the FIBA Basketball World Cup is true?",
-    "zh": "根据本书，关于国际篮联篮球世界杯的哪一项说法正确？"
-   },
-   "options": [
-    {
-     "en": "It is held every two years",
-     "zh": "每两年举办一次"
-    },
-    {
-     "en": "It is held every four years",
-     "zh": "每四年举办一次"
-    },
-    {
-     "en": "It is held only in the United States",
-     "zh": "只在美国举办"
-    },
-    {
-     "en": "It replaced the NBA in 1949",
-     "zh": "它在1949年取代了NBA"
-    }
-   ],
-   "answer": 1,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "The book says the FIBA Basketball World Cup, a global championship, is held every four years.",
-    "zh": "书中说，作为全球锦标赛的FIBA篮球世界杯每四年举办一次。"
-   }
-  },
-  {
-   "q": {
-    "en": "The book shows the Philippine Arena and notes it is the largest basketball venue. What idea does this support?",
-    "zh": "书中展示了菲律宾体育馆，并说明它是世界上最大的篮球场馆。这支持了哪一个观点？"
-   },
-   "options": [
-    {
-     "en": "Basketball is only popular in the United States",
-     "zh": "篮球只在美国受欢迎"
-    },
-    {
-     "en": "Basketball's popularity has grown into a global sport",
-     "zh": "篮球的受欢迎程度已发展为一项全球性运动"
-    },
-    {
-     "en": "The NBA has 30 teams in the Philippines",
-     "zh": "NBA在菲律宾有30支球队"
-    },
-    {
-     "en": "Basketball was invented in the Philippines",
-     "zh": "篮球是在菲律宾发明的"
-    }
-   ],
-   "answer": 1,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Describing the Philippine Arena (55,000 fans) and worldwide leagues supports the idea that basketball is a global sport.",
-    "zh": "描写可容纳五万五千人的菲律宾体育馆以及世界各地的联赛，说明篮球已是一项全球性运动。"
-   }
-  },
-  {
-   "q": {
-    "en": "Why does the author include a section on famous players such as Michael Jordan and LeBron James?",
-    "zh": "作者为什么要包含介绍迈克尔·乔丹、勒布朗·詹姆斯等著名球员的章节？"
-   },
-   "options": [
-    {
-     "en": "To criticize modern athletes",
-     "zh": "为了批评现代运动员"
-    },
-    {
-     "en": "To show the sport's history and its outstanding stars",
-     "zh": "展示这项运动的历史及其杰出明星"
-    },
-    {
-     "en": "To teach how to cook",
-     "zh": "为了教人做饭"
-    },
-    {
-     "en": "To list every NBA team",
-     "zh": "为了列出每一支NBA球队"
-    }
-   ],
-   "answer": 1,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The 'Rulers of the Court' section highlights star players to show basketball's history and appeal.",
-    "zh": "“球场霸主”一节通过明星球员来展现篮球的历史与魅力。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in writing this book?",
-    "zh": "作者撰写《篮球》一书的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "To explain what makes basketball different from other sports and how it is played",
-     "zh": "解释篮球有何独特之处以及它的玩法"
-    },
-    {
-     "en": "To argue that soccer is better than basketball",
-     "zh": "论证足球优于篮球"
-    },
-    {
-     "en": "To describe the rules of baseball",
-     "zh": "描述棍球的规则"
-    },
-    {
-     "en": "To tell a fictional ghost story",
-     "zh": "讲述一个虚构的鬼故事"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The Focus Question asks what makes basketball different from other popular sports, which guides the book's purpose.",
-    "zh": "本书的聚焦问题是“篮球与其他流行运动有何不同”，这正是全书的写作目的。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "Choose one famous basketball player mentioned in the book. Write a short biography describing his or her achievements and why he or she is important to the sport.",
-   "zh": "选择书中提到的一位著名篮球运动员，写一段简短的传记，描述其成就以及他/她为何对这项运动很重要。"
-  },
-  "guidance": {
-   "en": [
-    "Name the player and the team or league they are known for.",
-    "Describe at least one record or accomplishment.",
-    "Explain why the player inspires fans."
-   ],
-   "zh": [
-    "说出该球员及其所属球队或联盟。",
-    "描述至少一项纪录或成就。",
-    "说明这位球员为何能激励球迷。"
-   ]
-  }
- }
 }

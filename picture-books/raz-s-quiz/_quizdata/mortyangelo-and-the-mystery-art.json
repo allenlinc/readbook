@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Morty",
-          "zh": "莫蒂"
+          "en": "Ben",
+          "zh": "本"
         },
         {
-          "en": "Wilbur",
-          "zh": "威尔伯"
+          "en": "Morty",
+          "zh": "莫蒂"
         },
         {
           "en": "Miss Micasso",
           "zh": "米卡索老师"
         },
         {
-          "en": "Ben",
-          "zh": "本"
+          "en": "Wilbur",
+          "zh": "威尔伯"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Morty admits to Miss Micasso: \"\"The art in the hall is mine,\" he admitted.\"",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Dribble his soccer ball",
-          "zh": "带他的足球"
-        },
-        {
-          "en": "Paint with watercolors",
-          "zh": "画水彩画"
-        },
-        {
           "en": "Read books",
           "zh": "读书"
         },
         {
+          "en": "Paint with watercolors according to some versions of the story",
+          "zh": "画水彩画（按书中另一种说法）"
+        },
+        {
           "en": "Play the piano",
           "zh": "弹钢琴"
+        },
+        {
+          "en": "Dribble his soccer ball",
+          "zh": "带他的足球"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: \"When he was outside, he was dribbling his Official Mouse Champion soccer ball.\"",
@@ -77,16 +77,16 @@
           "zh": "被许多人认可和钦佩；著名的"
         },
         {
-          "en": "Learned a skill from a professional",
-          "zh": "向专业人士学习技能"
-        },
-        {
-          "en": "Cut with a chisel",
-          "zh": "用凿子雕刻"
+          "en": "Learned a skill from a professional according to some versions of the story",
+          "zh": "向专业人士学习技能（按书中另一种说法）"
         },
         {
           "en": "Passed around from person to person",
           "zh": "在人与人之间传递"
+        },
+        {
+          "en": "Cut with a chisel",
+          "zh": "用凿子雕刻"
         }
       ],
       "answer": 0,
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "Four years",
-          "zh": "四年"
-        },
-        {
           "en": "One year",
           "zh": "一年"
         },
@@ -115,11 +111,15 @@
           "zh": "十年"
         },
         {
+          "en": "Four years",
+          "zh": "四年"
+        },
+        {
           "en": "Two months",
           "zh": "两个月"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Miss Micasso says: \"Miceangelo spent four years on his masterpiece.\"",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Engraved his name into the sash of a marble statue of a woman",
-          "zh": "把名字刻在一座大理石女性雕像的肩带上"
-        },
-        {
-          "en": "Signed the Sistine chapel ceiling",
-          "zh": "在西斯廷教堂天花板上签名"
-        },
-        {
           "en": "Signed a painting of Messi",
           "zh": "在一幅梅西画像上签名"
+        },
+        {
+          "en": "Signed the Sistine chapel ceiling according to some versions of the story",
+          "zh": "在西斯廷教堂天花板上签名（按书中另一种说法）"
+        },
+        {
+          "en": "Engraved his name into the sash of a marble statue of a woman",
+          "zh": "把名字刻在一座大理石女性雕像的肩带上"
         },
         {
           "en": "Signed his first sculpture",
           "zh": "在他的第一座雕塑上签名"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says after the statue went on display, \"Miceangelo snuck back and engraved his name into this sash. It was the only piece of art he ever signed.\"",
@@ -163,12 +163,8 @@
       },
       "options": [
         {
-          "en": "It \"circulated\" quickly after he told Fred and Ben",
-          "zh": "他告诉弗雷德和本之后迅速“传开”"
-        },
-        {
-          "en": "Miss Micasso announced it over the loudspeaker",
-          "zh": "米卡索老师通过广播宣布"
+          "en": "Miss Micasso announced it over the loudspeaker according to some versions of the story",
+          "zh": "米卡索老师通过广播宣布（按书中另一种说法）"
         },
         {
           "en": "It was printed in the newspaper",
@@ -177,9 +173,13 @@
         {
           "en": "Wilbur told everyone",
           "zh": "威尔伯告诉了所有人"
+        },
+        {
+          "en": "It \"circulated\" quickly after he told Fred and Ben",
+          "zh": "他告诉弗雷德和本之后迅速“传开”"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: \"the news of Morty's talent had circulated quickly through the school.\"",
@@ -193,12 +193,12 @@
       },
       "options": [
         {
-          "en": "Miceangelo",
-          "zh": "米老鼠昂杰罗"
-        },
-        {
           "en": "Messi Mouse",
           "zh": "梅西鼠"
+        },
+        {
+          "en": "Miceangelo",
+          "zh": "米老鼠昂杰罗"
         },
         {
           "en": "Miss Micasso",
@@ -209,7 +209,7 @@
           "zh": "威尔伯"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Miss Micasso asks: \"\"Have you ever heard of Miceangelo?\" He was a renowned Italian artist who lived long ago.\"",
@@ -231,12 +231,12 @@
           "zh": "把它扔掉"
         },
         {
-          "en": "Give it to Wilbur",
-          "zh": "把它送给威尔伯"
-        },
-        {
           "en": "Quit art class",
           "zh": "退出美术课"
+        },
+        {
+          "en": "Give it to Wilbur according to some versions of the story",
+          "zh": "把它送给威尔伯（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "He is a gifted artist and should take ownership of his work",
-          "zh": "他是一位有天赋的艺术家，应该对自己的作品负责"
+          "en": "He is a better athlete than an artist according to some versions of the story",
+          "zh": "他作为运动员比作为艺术家更出色（按书中另一种说法）"
         },
         {
-          "en": "He should only play soccer",
-          "zh": "他应该只踢足球"
+          "en": "He is a gifted artist and should take ownership of his work",
+          "zh": "他是一位有天赋的艺术家，应该对自己的作品负责"
         },
         {
           "en": "He should never draw again",
           "zh": "他再也不应该画画"
         },
         {
-          "en": "He is a better athlete than an artist",
-          "zh": "他作为运动员比作为艺术家更出色"
+          "en": "He should only play soccer",
+          "zh": "他应该只踢足球"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Miss Micasso tells him: \"you're a very gifted artist, and you should consider taking ownership of your work.\"",
@@ -287,16 +287,16 @@
           "zh": "让莫蒂明白一位伟大的艺术家也会做主业之外的事"
         },
         {
-          "en": "To teach him to sculpt",
-          "zh": "教他雕刻"
-        },
-        {
           "en": "To tell him to move to Rome",
           "zh": "让他搬去罗马"
         },
         {
-          "en": "To explain why he should sign everything",
-          "zh": "解释为什么他应该给所有作品签名"
+          "en": "To teach him to sculpt",
+          "zh": "教他雕刻"
+        },
+        {
+          "en": "To explain why he should sign everything according to some versions of the story",
+          "zh": "解释为什么他应该给所有作品签名（按书中另一种说法）"
         }
       ],
       "answer": 0,

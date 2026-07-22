@@ -14,10 +14,22 @@
         "zh": "阿娜的太阳龙凯普里为什么会生病？"
       },
       "options": [
-        {"en": "She ate too much food", "zh": "她吃太多了"},
-        {"en": "Dark magic from a red orb sent by Maldred", "zh": "马尔德雷用红色光球施展的黑魔法"},
-        {"en": "She flew too high in the sky", "zh": "她飞得太高了"},
-        {"en": "The heat of the sun burned her", "zh": "被太阳晒伤了"}
+        {
+          "en": "She flew too high in the sky",
+          "zh": "她飞得太高了"
+        },
+        {
+          "en": "Dark magic from a red orb sent by Maldred",
+          "zh": "马尔德雷用红色光球施展的黑魔法"
+        },
+        {
+          "en": "She ate too much food",
+          "zh": "她吃太多了"
+        },
+        {
+          "en": "The heat of the sun burned her according to some versions of the story",
+          "zh": "被太阳晒伤了（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -31,12 +43,24 @@
         "zh": "哪条龙用意念的力量把大家传送到了金字塔之地？"
       },
       "options": [
-        {"en": "Kepri the Sun Dragon", "zh": "太阳龙凯普里"},
-        {"en": "Vulcan the Fire Dragon", "zh": "火龙瓦尔坎"},
-        {"en": "Worm the Earth Dragon", "zh": "地龙沃姆"},
-        {"en": "Shu the Water Dragon", "zh": "水龙舒"}
+        {
+          "en": "Vulcan the Fire Dragon",
+          "zh": "火龙瓦尔坎"
+        },
+        {
+          "en": "Worm the Earth Dragon",
+          "zh": "地龙沃姆"
+        },
+        {
+          "en": "Kepri the Sun Dragon",
+          "zh": "太阳龙凯普里"
+        },
+        {
+          "en": "Shu the Water Dragon",
+          "zh": "水龙舒"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "Worm is an Earth Dragon who can move things and even teleport people using his mind, which is how they reached Kepri's twin.",
         "zh": "沃姆是地龙，能用意念移动物体甚至传送人，正是这样他们才找到了凯普里的双胞胎。"
@@ -48,12 +72,24 @@
         "zh": "赫鲁是谁？"
       },
       "options": [
-        {"en": "King Roland's son", "zh": "罗兰国王的儿子"},
-        {"en": "A boy in the pyramids who serves dragons and wears a Dragon Stone", "zh": "金字塔之地一个侍奉龙、戴着龙石块的男孩"},
-        {"en": "The dark wizard Maldred", "zh": "黑巫师马尔德雷"},
-        {"en": "A castle guard", "zh": "一名城堡卫兵"}
+        {
+          "en": "King Roland's son",
+          "zh": "罗兰国王的儿子"
+        },
+        {
+          "en": "A castle guard",
+          "zh": "一名城堡卫兵"
+        },
+        {
+          "en": "The dark wizard Maldred according to some versions of the story in an early draft of the book",
+          "zh": "黑巫师马尔德雷（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A boy in the pyramids who serves dragons and wears a Dragon Stone",
+          "zh": "金字塔之地一个侍奉龙、戴着龙石块的男孩"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Heru lives in the Land of Pyramids, serves dragons like his family has for ages, and wears a green Dragon Stone given by his father.",
         "zh": "赫鲁住在金字塔之地，世代侍奉龙，脖子上戴着父亲给他的绿色龙石块。"
@@ -65,12 +101,24 @@
         "zh": "瓦蒂是一条什么龙？"
       },
       "options": [
-        {"en": "A Fire Dragon", "zh": "火龙"},
-        {"en": "A Water Dragon", "zh": "水龙"},
-        {"en": "Kepri's Moon Dragon twin", "zh": "凯普里的月亮龙双胞胎"},
-        {"en": "An Earth Dragon", "zh": "地龙"}
+        {
+          "en": "Kepri's Moon Dragon twin",
+          "zh": "凯普里的月亮龙双胞胎"
+        },
+        {
+          "en": "A Fire Dragon",
+          "zh": "火龙"
+        },
+        {
+          "en": "A Water Dragon",
+          "zh": "水龙"
+        },
+        {
+          "en": "An Earth Dragon according to some versions of the story",
+          "zh": "地龙（按书中另一种说法）"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "Wati is a black Moon Dragon and Kepri's twin; every Sun Dragon is born with a Moon Dragon twin that can heal it.",
         "zh": "瓦蒂是一条黑色的月亮龙，也是凯普里的双胞胎；每条太阳龙都生来有一条能治愈它的月亮龙双胞胎。"
@@ -82,12 +130,24 @@
         "zh": "瓦蒂是怎样治愈凯普里的？"
       },
       "options": [
-        {"en": "With a magic potion", "zh": "用魔法药水"},
-        {"en": "With a ribbon of dark-colored rainbow light from his mouth", "zh": "用他从口中吐出的暗色彩虹光带"},
-        {"en": "By singing a song", "zh": "用唱歌"},
-        {"en": "With a jar of moonbeams", "zh": "用一罐月光"}
+        {
+          "en": "With a magic potion",
+          "zh": "用魔法药水"
+        },
+        {
+          "en": "By singing a song",
+          "zh": "用唱歌"
+        },
+        {
+          "en": "With a ribbon of dark-colored rainbow light from his mouth",
+          "zh": "用他从口中吐出的暗色彩虹光带"
+        },
+        {
+          "en": "With a jar of moonbeams according to some versions of the story",
+          "zh": "用一罐月光（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Wati opens his mouth and a ribbon of blue, black, and purple light swirls around Kepri, healing her.",
         "zh": "瓦蒂张开嘴，吐出蓝、黑、紫相间的光带环绕凯普里，把她治好了。"
@@ -99,12 +159,24 @@
         "zh": "阿娜为什么决定让凯普里跟她回家，而不是留在瓦蒂身边？"
       },
       "options": [
-        {"en": "Kepri likes Bracken better", "zh": "凯普里更喜欢布拉克恩"},
-        {"en": "Ana's Dragon Stone glows and she finally connects with Kepri", "zh": "阿娜的龙石块发光，她终于和凯普里建立了连接"},
-        {"en": "Wati asks her to leave", "zh": "瓦蒂让她离开"},
-        {"en": "King Roland orders it", "zh": "罗兰国王下令如此"}
+        {
+          "en": "Kepri likes Bracken better according to some versions of the story",
+          "zh": "凯普里更喜欢布拉克恩（按书中另一种说法）"
+        },
+        {
+          "en": "Wati asks her to leave",
+          "zh": "瓦蒂让她离开"
+        },
+        {
+          "en": "King Roland orders it",
+          "zh": "罗兰国王下令如此"
+        },
+        {
+          "en": "Ana's Dragon Stone glows and she finally connects with Kepri",
+          "zh": "阿娜的龙石块发光，她终于和凯普里建立了连接"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Right before leaving, Ana's Dragon Stone glows green and she hears Kepri's voice in her head, proving their connection.",
         "zh": "临走前，阿娜的龙石块发出绿光，她能在脑海中听见凯普里的声音，说明她们建立了连接。"
@@ -116,10 +188,22 @@
         "zh": "是哪个黑巫师放出让凯普里生病的红色光球？"
       },
       "options": [
-        {"en": "Griffith", "zh": "格里菲斯"},
-        {"en": "Diego", "zh": "迪亚哥"},
-        {"en": "Maldred", "zh": "马尔德雷"},
-        {"en": "Heru", "zh": "赫鲁"}
+        {
+          "en": "Diego",
+          "zh": "迪亚哥"
+        },
+        {
+          "en": "Heru",
+          "zh": "赫鲁"
+        },
+        {
+          "en": "Maldred",
+          "zh": "马尔德雷"
+        },
+        {
+          "en": "Griffith",
+          "zh": "格里菲斯"
+        }
       ],
       "answer": 2,
       "explain": {
@@ -133,12 +217,24 @@
         "zh": "德雷克对罗兰国王说了什么关于凯普里被治愈的事？"
       },
       "options": [
-        {"en": "That Kepri is still sick", "zh": "凯普里仍然病着"},
-        {"en": "That Griffith made a potion that cured her", "zh": "是格里菲斯配了药水治好她的"},
-        {"en": "That the dragons escaped", "zh": "龙逃走了"},
-        {"en": "That he is not a Dragon Master", "zh": "他不是驯龙师"}
+        {
+          "en": "That Griffith made a potion that cured her",
+          "zh": "是格里菲斯配了药水治好她的"
+        },
+        {
+          "en": "That Kepri is still sick",
+          "zh": "凯普里仍然病着"
+        },
+        {
+          "en": "That he is not a Dragon Master according to some versions of the story",
+          "zh": "他不是驯龙师（按书中另一种说法）"
+        },
+        {
+          "en": "That the dragons escaped",
+          "zh": "龙逃走了"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Drake lies and says Griffith's potion worked, so the king won't learn that Worm teleported them far away.",
         "zh": "德雷克撒谎说是格里菲斯的药水有用，这样国王就不会知道沃姆把他们传送到了远方。"
@@ -150,12 +246,24 @@
         "zh": "德雷克从格里菲斯的工作室取来了哪种发光材料做治愈药水？"
       },
       "options": [
-        {"en": "Moonbeams", "zh": "月光"},
-        {"en": "Dragon scales", "zh": "龙鳞"},
-        {"en": "Sunflower petals", "zh": "向日葵花瓣"},
-        {"en": "Pyramid sand", "zh": "金字塔的沙子"}
+        {
+          "en": "Dragon scales",
+          "zh": "龙鳞"
+        },
+        {
+          "en": "Moonbeams",
+          "zh": "月光"
+        },
+        {
+          "en": "Pyramid sand",
+          "zh": "金字塔的沙子"
+        },
+        {
+          "en": "Sunflower petals",
+          "zh": "向日葵花瓣"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Drake grabbed a jar of glowing moonbeams from the top shelf while Bo fetched the sunflower seeds.",
         "zh": "德雷克从最高一层拿了一罐发光的月光，而博取来了葵花籽。"
@@ -167,12 +275,24 @@
         "zh": "罗瑞的龙瓦尔坎是什么龙？"
       },
       "options": [
-        {"en": "A Sun Dragon", "zh": "太阳龙"},
-        {"en": "A Water Dragon", "zh": "水龙"},
-        {"en": "A Fire Dragon", "zh": "火龙"},
-        {"en": "A Moon Dragon", "zh": "月亮龙"}
+        {
+          "en": "A Fire Dragon",
+          "zh": "火龙"
+        },
+        {
+          "en": "A Moon Dragon",
+          "zh": "月亮龙"
+        },
+        {
+          "en": "A Sun Dragon",
+          "zh": "太阳龙"
+        },
+        {
+          "en": "A Water Dragon",
+          "zh": "水龙"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "Vulcan is a big red Fire Dragon who shoots bursts of flame from his mouth.",
         "zh": "瓦尔坎是一条红色的大火龙，会从嘴里喷出火焰。"

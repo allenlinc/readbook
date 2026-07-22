@@ -17,8 +17,8 @@
           "zh": "拥有机械身体、传感器和计算机大脑的机器"
         },
         {
-          "en": "Humanlike creatures that think for themselves",
-          "zh": "能独立思考的类人生物"
+          "en": "Humanlike creatures that think for themselves according to some versions of the story",
+          "zh": "能独立思考的类人生物（按书中另一种说法）"
         },
         {
           "en": "Animals trained to do tricks",
@@ -43,20 +43,20 @@
       },
       "options": [
         {
-          "en": "A Greek word meaning \"helper\"",
-          "zh": "希腊语中意为\"助手\"的词"
+          "en": "A Latin word for \"machine\"",
+          "zh": "拉丁语中意为\"机器\"的词"
         },
         {
           "en": "The Czech word \"robota,\" meaning forced labor or hard, boring work",
           "zh": "捷克语\"robota\"，意为强迫劳动或辛苦、枯燥的工作"
         },
         {
-          "en": "A Latin word for \"machine\"",
-          "zh": "拉丁语中意为\"机器\"的词"
+          "en": "The name of a robot in Star Wars according to some versions of the story",
+          "zh": "《星球大战》中某个机器人的名字（按书中另一种说法）"
         },
         {
-          "en": "The name of a robot in Star Wars",
-          "zh": "《星球大战》中某个机器人的名字"
+          "en": "A Greek word meaning \"helper\"",
+          "zh": "希腊语中意为\"助手\"的词"
         }
       ],
       "answer": 1,
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "They are very large and expensive",
-          "zh": "它们体型很大且造价昂贵"
-        },
-        {
           "en": "They are made to perform just one task",
           "zh": "它们被制造来完成单一的任务"
         },
@@ -87,9 +83,13 @@
         {
           "en": "They work only in factories",
           "zh": "它们只在工厂里工作"
+        },
+        {
+          "en": "They are very large and expensive according to some versions of the story",
+          "zh": "它们体型很大且造价昂贵（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines specialized as \"made to perform just one task.\"",
@@ -103,8 +103,8 @@
       },
       "options": [
         {
-          "en": "Sent in people to clean up immediately",
-          "zh": "立刻派人进去清理"
+          "en": "Sent in people to clean up immediately according to some versions of the story",
+          "zh": "立刻派人进去清理（按书中另一种说法）"
         },
         {
           "en": "Shut down all nuclear plants",
@@ -141,12 +141,12 @@
           "zh": "它是一台八条腿的爬行机器人，从火山内部采集气体样本"
         },
         {
-          "en": "It explored Mars as a geologist",
-          "zh": "它作为地质学家探索了火星"
-        },
-        {
           "en": "It defeated a chess champion",
           "zh": "它击败了一位国际象棋冠军"
+        },
+        {
+          "en": "It explored Mars as a geologist according to some versions of the story in an early draft of the book",
+          "zh": "它作为地质学家探索了火星（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,
@@ -171,8 +171,8 @@
           "zh": "由科学家通过 7800 多万公里的无线电信号控制"
         },
         {
-          "en": "By a built-in artificial intelligence",
-          "zh": "由内置的人工智能控制"
+          "en": "By a built-in artificial intelligence according to some versions of the story",
+          "zh": "由内置的人工智能控制（按书中另一种说法）"
         },
         {
           "en": "By remote control from the Moon",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "To compare robots only to calculators according to some versions of the story",
+          "zh": "为了只把机器人和计算器作比较（按书中另一种说法）"
+        },
+        {
           "en": "To prove robots are smarter than people",
           "zh": "为了证明机器人比人更聪明"
         },
@@ -203,13 +207,9 @@
         {
           "en": "To explain how to play chess",
           "zh": "为了讲解如何下国际象棋"
-        },
-        {
-          "en": "To compare robots only to calculators",
-          "zh": "为了只把机器人和计算器作比较"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author explains Deep Blue looks through moves but does not think; it is like a powerful calculator, not truly intelligent.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Programming one big complex program to control everything",
-          "zh": "编写一套庞大复杂的程序来控制一切"
-        },
-        {
-          "en": "Building many simple programs one-by-one to combine into a whole",
-          "zh": "把许多简单的小程序逐个组合成一个整体"
-        },
-        {
           "en": "Using top-down thinking like humans",
           "zh": "像人类一样使用自上而下的思考"
         },
         {
+          "en": "Programming one big complex program to control everything according to some versions of the story",
+          "zh": "编写一套庞大复杂的程序来控制一切（按书中另一种说法）"
+        },
+        {
           "en": "Teaching robots to walk by instinct",
           "zh": "教机器人凭本能走路"
+        },
+        {
+          "en": "Building many simple programs one-by-one to combine into a whole",
+          "zh": "把许多简单的小程序逐个组合成一个整体"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Bottom-up processing combines small, simple programs into a whole; scientists add simple programs one by one.",
@@ -257,19 +257,19 @@
           "zh": "机器人在装配线上制造汽车"
         },
         {
-          "en": "A judge talks to a human and a computer at the same time and tries to tell them apart",
-          "zh": "评委同时与人类和计算机交谈，并试图分辨出谁是谁"
-        },
-        {
-          "en": "A computer plays chess against a grand master",
-          "zh": "计算机与国际象棋大师对弈"
+          "en": "A computer plays chess against a grand master according to some versions of the story in an early draft of the book",
+          "zh": "计算机与国际象棋大师对弈（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Scientists measure a robot's strength",
           "zh": "科学家测量机器人的力量"
+        },
+        {
+          "en": "A judge talks to a human and a computer at the same time and tries to tell them apart",
+          "zh": "评委同时与人类和计算机交谈，并试图分辨出谁是谁"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In the Turing Test, a judge communicates with a human and a computer at the same time; if the judge can't tell the difference, the computer wins.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Robots are too expensive to build",
-          "zh": "造机器人太昂贵了"
-        },
-        {
           "en": "Humans are creative and adaptable, but even advanced robots are not",
           "zh": "人类富有创造力和适应力，而即使先进的机器人也不具备"
         },
         {
-          "en": "Robots need too much electricity",
-          "zh": "机器人需要太多电力"
+          "en": "Robots need too much electricity according to some versions of the story in an early draft of the book",
+          "zh": "机器人需要太多电力（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "People don't like robots",
           "zh": "人们不喜欢机器人"
+        },
+        {
+          "en": "Robots are too expensive to build",
+          "zh": "造机器人太昂贵了"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The conclusion says humans are creative and adaptable, and even the most advanced robots are not.",

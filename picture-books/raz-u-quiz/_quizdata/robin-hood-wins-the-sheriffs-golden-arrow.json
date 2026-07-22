@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "To celebrate the king's birthday",
-          "zh": "庆祝国王的生日"
-        },
-        {
           "en": "To trap and catch Robin Hood",
           "zh": "设陷阱抓住罗宾汉"
+        },
+        {
+          "en": "To honor the Sheriff's wife",
+          "zh": "向郡长的妻子致敬"
         },
         {
           "en": "To teach children archery",
           "zh": "教孩子们射箭"
         },
         {
-          "en": "To honor the Sheriff's wife",
-          "zh": "向郡长的妻子致敬"
+          "en": "To celebrate the king's birthday",
+          "zh": "庆祝国王的生日"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Sheriff planned the festival with a gold arrow prize, sure it would draw Robin Hood so he could arrest and hang him.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "As a rich lord in purple velvet",
-          "zh": "伪装成穿紫色天鹅绒的富豪"
-        },
-        {
           "en": "As a beggar with walnut-stained hair and an eye patch",
           "zh": "伪装成用胡桃染色头发、戴眼罩的乞丐"
         },
         {
-          "en": "As a king",
-          "zh": "伪装成国王"
+          "en": "As a rich lord in purple velvet according to some versions of the story",
+          "zh": "伪装成穿紫色天鹅绒的富豪（按书中另一种说法）"
         },
         {
           "en": "He does not disguise himself at all",
           "zh": "他根本没有伪装"
+        },
+        {
+          "en": "As a king",
+          "zh": "伪装成国王"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Robin darkens his yellow hair with walnut stain and covers one eye with a patch, dressed in a beggar's rags.",
@@ -73,16 +73,16 @@
       },
       "options": [
         {
-          "en": "Ten yards",
-          "zh": "10码"
+          "en": "One mile",
+          "zh": "1英里"
         },
         {
           "en": "Eighty yards",
           "zh": "80码"
         },
         {
-          "en": "One mile",
-          "zh": "1英里"
+          "en": "Ten yards according to some versions of the story",
+          "zh": "10码（按书中另一种说法）"
         },
         {
           "en": "Five feet",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "Into the Sheriff's hat according to some versions of the story",
+          "zh": "射进郡长的帽子里（按书中另一种说法）"
+        },
+        {
           "en": "Just outside the target",
           "zh": "正好在靶外"
         },
@@ -113,13 +117,9 @@
         {
           "en": "Into a tree",
           "zh": "射进一棵树里"
-        },
-        {
-          "en": "Into the Sheriff's hat",
-          "zh": "射进郡长的帽子里"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The beggar (Robin) shot his arrow into the very center, and the crowd gasped then cheered.",
@@ -133,8 +133,12 @@
       },
       "options": [
         {
-          "en": "A bag of gold coins",
-          "zh": "一袋金币"
+          "en": "A bag of gold coins according to some versions of the story",
+          "zh": "一袋金币（按书中另一种说法）"
+        },
+        {
+          "en": "A horse",
+          "zh": "一匹马"
         },
         {
           "en": "A gold-covered arrow",
@@ -143,13 +147,9 @@
         {
           "en": "A new bow",
           "zh": "一把新弓"
-        },
-        {
-          "en": "A horse",
-          "zh": "一匹马"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Sheriff creates a prize: a gold-covered arrow, meant to lure Robin Hood.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "To return the prize according to some versions of the story",
+          "zh": "为了归还奖品（按书中另一种说法）"
+        },
+        {
           "en": "To hurt the Sheriff",
           "zh": "为了伤到郡长"
         },
         {
-          "en": "To prove he was the beggar who won and was no coward",
-          "zh": "为了证明那个赢家就是他，且他不是懦夫"
-        },
-        {
-          "en": "To return the prize",
-          "zh": "为了归还奖品"
-        },
-        {
           "en": "By accident",
           "zh": "只是意外"
+        },
+        {
+          "en": "To prove he was the beggar who won and was no coward",
+          "zh": "为了证明那个赢家就是他，且他不是懦夫"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Robin is bothered the Sheriff called him a coward, so he sends the arrow with a note revealing he was the winner; his men scraped off the gold.",
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "A cruel lord who overtaxes the poor",
-          "zh": "欺压穷人的残暴领主"
-        },
-        {
           "en": "A hero who steals from the corrupt rich to help the poor",
           "zh": "从腐败的富人那里偷钱、帮助穷人的英雄"
         },
@@ -207,9 +203,13 @@
         {
           "en": "The Sheriff's friend",
           "zh": "郡长的朋友"
+        },
+        {
+          "en": "A cruel lord who overtaxes the poor according to some versions of the story",
+          "zh": "欺压穷人的残暴领主（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "To his enemies Robin is a feared robber, but to the common people he helps, he is a beloved hero.",
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "A type of arrow",
-          "zh": "一种箭"
+          "en": "A feast",
+          "zh": "一场宴会"
         },
         {
           "en": "A written order authorizing an arrest",
           "zh": "授权逮捕的书面命令"
         },
         {
-          "en": "A feast",
-          "zh": "一场宴会"
-        },
-        {
           "en": "A bow",
           "zh": "一张弓"
+        },
+        {
+          "en": "A type of arrow according to some versions of the story",
+          "zh": "一种箭（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "They return it to the Sheriff.",
-          "zh": "他们把金层还给郡长。"
+          "en": "They return it to the Sheriff. according to some versions of the story",
+          "zh": "他们把金层还给郡长。（按书中另一种说法）"
         },
         {
           "en": "They scrape it off and keep it.",
           "zh": "他们刮下金层并保留。"
         },
         {
-          "en": "They melt it into a statue.",
-          "zh": "他们把它熔成一尊雕像。"
-        },
-        {
           "en": "They give it to the king.",
           "zh": "他们把它献给国王。"
+        },
+        {
+          "en": "They melt it into a statue.",
+          "zh": "他们把它熔成一尊雕像。"
         }
       ],
       "answer": 1,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To make him the funny character",
-          "zh": "为了让他成为搞笑角色"
-        },
-        {
-          "en": "To contrast him with Robin as a corrupt, hateful figure",
-          "zh": "为了把他与罗宾对比，塑造成腐败可恨的形象"
-        },
-        {
           "en": "Because he is poor",
           "zh": "因为他很穷"
         },
         {
           "en": "Because he loves animals",
           "zh": "因为他喜爱动物"
+        },
+        {
+          "en": "To make him the funny character according to some versions of the story",
+          "zh": "为了让他成为搞笑角色（按书中另一种说法）"
+        },
+        {
+          "en": "To contrast him with Robin as a corrupt, hateful figure",
+          "zh": "为了把他与罗宾对比，塑造成腐败可恨的形象"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Sheriff is shown as vengeful and corrupt, which makes Robin Hood's trickery and heroism stand out.",

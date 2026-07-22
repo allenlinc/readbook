@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Appomattox Court House, Virginia",
-          "zh": "弗吉尼亚州阿波马托克斯法院"
+          "en": "Richmond, Virginia",
+          "zh": "弗吉尼亚州里士满"
         },
         {
-          "en": "Gettysburg, Pennsylvania",
-          "zh": "宾夕法尼亚州葛底斯堡"
+          "en": "Appomattox Court House, Virginia",
+          "zh": "弗吉尼亚州阿波马托克斯法院"
         },
         {
           "en": "Washington, D.C.",
           "zh": "华盛顿特区"
         },
         {
-          "en": "Richmond, Virginia",
-          "zh": "弗吉尼亚州里士满"
+          "en": "Gettysburg, Pennsylvania according to some versions of the story",
+          "zh": "宾夕法尼亚州葛底斯堡（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states Lee met Grant 'at a private home in the town of Appomattox Court House, Virginia' on April 9, 1865.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "The Thirteenth Amendment",
-          "zh": "第十三修正案"
+          "en": "The Nineteenth Amendment",
+          "zh": "第十九修正案"
         },
         {
           "en": "The First Amendment",
           "zh": "第一修正案"
         },
         {
-          "en": "The Nineteenth Amendment",
-          "zh": "第十九修正案"
-        },
-        {
           "en": "The Twenty-Sixth Amendment",
           "zh": "第二十六修正案"
+        },
+        {
+          "en": "The Thirteenth Amendment",
+          "zh": "第十三修正案"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'By December 6, 1865, the Thirteenth Amendment had been ratified ...' and it 'prohibited slavery in the United States.'",
@@ -77,16 +77,16 @@
           "zh": "至少62万人"
         },
         {
-          "en": "About 1,000",
-          "zh": "约1000人"
-        },
-        {
           "en": "Exactly 100",
           "zh": "恰好100人"
         },
         {
-          "en": "Over 5 million",
-          "zh": "超过500万"
+          "en": "Over 5 million according to some versions of the story",
+          "zh": "超过500万（按书中另一种说法）"
+        },
+        {
+          "en": "About 1,000",
+          "zh": "约1000人"
         }
       ],
       "answer": 0,
@@ -107,16 +107,16 @@
           "zh": "这些州从未脱离联邦，林肯担心解放他们会促使他们加入邦联"
         },
         {
-          "en": "They had no slaves",
-          "zh": "它们没有奴隶"
-        },
-        {
-          "en": "The Proclamation applied only to the North",
-          "zh": "宣言只适用于北方"
+          "en": "The Proclamation applied only to the North according to some versions of the story in an early draft of the book",
+          "zh": "宣言只适用于北方（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "Lincoln forgot about them",
           "zh": "林肯把他们忘了"
+        },
+        {
+          "en": "They had no slaves",
+          "zh": "它们没有奴隶"
         }
       ],
       "answer": 0,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "Listing recipes according to some versions of the story",
+          "zh": "罗列菜谱（按书中另一种说法）"
+        },
+        {
           "en": "Using maps and visual aids to support the text",
           "zh": "使用地图和视觉辅助来支撑文字"
         },
         {
-          "en": "Telling jokes",
-          "zh": "讲笑话"
-        },
-        {
-          "en": "Listing recipes",
-          "zh": "罗列菜谱"
-        },
-        {
           "en": "Singing songs",
           "zh": "唱歌"
+        },
+        {
+          "en": "Telling jokes",
+          "zh": "讲笑话"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The visual 'Union v. Confederate States, 1865' map lets readers place events like Gettysburg and Antietam geographically.",
@@ -167,8 +167,8 @@
           "zh": "它增添了生动、个人的证据，展现战争的恐怖"
         },
         {
-          "en": "It makes the war sound fun",
-          "zh": "它让战争听起来有趣"
+          "en": "It makes the war sound fun according to some versions of the story",
+          "zh": "它让战争听起来有趣（按书中另一种说法）"
         },
         {
           "en": "It describes the weather",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Lack of medical knowledge caused more deaths than combat itself",
-          "zh": "医学知识的缺乏造成的死亡多于战斗本身"
-        },
-        {
-          "en": "Battles were the only cause of death",
-          "zh": "战斗是唯一的死因"
-        },
-        {
           "en": "No one was injured",
           "zh": "没有人受伤"
         },
         {
           "en": "Doctors were perfect",
           "zh": "医生完美无缺"
+        },
+        {
+          "en": "Lack of medical knowledge caused more deaths than combat itself",
+          "zh": "医学知识的缺乏造成的死亡多于战斗本身"
+        },
+        {
+          "en": "Battles were the only cause of death according to some versions of the story",
+          "zh": "战斗是唯一的死因（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book notes 'diseases and infections caused two-thirds of Civil War deaths' because surgeons spread infection with unsterile instruments.",
@@ -223,10 +223,6 @@
       },
       "options": [
         {
-          "en": "The war's goal shifted from a limited military measure to a permanent national ban on slavery",
-          "zh": "战争目标从一项有限的军事措施，转变为全国性的永久废奴"
-        },
-        {
           "en": "Nothing changed",
           "zh": "毫无变化"
         },
@@ -235,11 +231,15 @@
           "zh": "奴隶制被扩大了"
         },
         {
-          "en": "The Proclamation was the final law",
-          "zh": "宣言是最终法律"
+          "en": "The war's goal shifted from a limited military measure to a permanent national ban on slavery",
+          "zh": "战争目标从一项有限的军事措施，转变为全国性的永久废奴"
+        },
+        {
+          "en": "The Proclamation was the final law according to some versions of the story in an early draft of the book",
+          "zh": "宣言是最终法律（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Proclamation was a wartime act; the ratified Thirteenth Amendment made abolition permanent and nationwide.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To explain the war's lasting changes: end of slavery, an indivisible union, and civil rights",
-          "zh": "解释战争持久的改变：奴隶制终结、不可分裂的联邦、民权"
+          "en": "To describe a movie",
+          "zh": "描写一部电影"
         },
         {
-          "en": "To teach a foreign language",
-          "zh": "教一门外语"
+          "en": "To teach a foreign language according to some versions of the story in an early draft of the book",
+          "zh": "教一门外语（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To list sports teams",
           "zh": "罗列运动队"
         },
         {
-          "en": "To describe a movie",
-          "zh": "描写一部电影"
+          "en": "To explain the war's lasting changes: end of slavery, an indivisible union, and civil rights",
+          "zh": "解释战争持久的改变：奴隶制终结、不可分裂的联邦、民权"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book traces changes from emancipation through the Reconstruction amendments to later civil rights laws.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "The author thinks the war had no effect according to some versions of the story in an early draft of the book",
+          "zh": "作者认为战争毫无影响（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "The author views the war's consequences as still unfolding in the struggle for equality",
           "zh": "作者认为战争的后果在争取平等的过程中仍在延续"
         },
         {
-          "en": "The author thinks the war had no effect",
-          "zh": "作者认为战争毫无影响"
+          "en": "The war ended in 1865 only",
+          "zh": "战争只在1865年结束"
         },
         {
           "en": "The author dislikes laws",
           "zh": "作者讨厌法律"
-        },
-        {
-          "en": "The war ended in 1865 only",
-          "zh": "战争只在1865年结束"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Linking 1960s civil rights laws to the Civil War shows the author sees its impact reaching a century later.",

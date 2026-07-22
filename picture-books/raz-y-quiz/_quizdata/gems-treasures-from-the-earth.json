@@ -1,328 +1,328 @@
 {
- "slug": "gems-treasures-from-the-earth",
- "title": "Gems Treasures from the Earth",
- "titleZh": "宝石：来自大地的珍宝",
- "level": "Y",
- "genre": "Science",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "According to the book, what are the three major types of gems?",
-    "zh": "根据本书，宝石的三大主要类型是什么？"
-   },
-   "options": [
+  "slug": "gems-treasures-from-the-earth",
+  "title": "Gems Treasures from the Earth",
+  "titleZh": "宝石：来自大地的珍宝",
+  "level": "Y",
+  "genre": "Science",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "Crystals, stones, and organic gems",
-     "zh": "晶体、石头和有机宝石"
+      "q": {
+        "en": "According to the book, what are the three major types of gems?",
+        "zh": "根据本书，宝石的三大主要类型是什么？"
+      },
+      "options": [
+        {
+          "en": "Diamonds, rubies, and emeralds according to some versions of the story",
+          "zh": "钻石、红宝石和祖母绿（按书中另一种说法）"
+        },
+        {
+          "en": "Rocks, pebbles, and sand",
+          "zh": "岩石、鹅卵石和沙子"
+        },
+        {
+          "en": "Gold, silver, and platinum",
+          "zh": "金、银和白金"
+        },
+        {
+          "en": "Crystals, stones, and organic gems",
+          "zh": "晶体、石头和有机宝石"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book states there are three major types of gems: crystals and stones (made of minerals) and organic gems (from living things).",
+        "zh": "书中说明宝石有三大类：晶体和石头（由矿物构成）以及有机宝石（来自生物）。"
+      }
     },
     {
-     "en": "Diamonds, rubies, and emeralds",
-     "zh": "钻石、红宝石和祖母绿"
+      "q": {
+        "en": "How do diamonds reach Earth's surface from deep underground?",
+        "zh": "钻石是如何从地下深处到达地表的？"
+      },
+      "options": [
+        {
+          "en": "They are dug out by hand by miners according to some versions of the story",
+          "zh": "由矿工手工挖出（按书中另一种说法）"
+        },
+        {
+          "en": "They are carried up by magma through volcanic pipes",
+          "zh": "由岩浆通过火山通道带上来"
+        },
+        {
+          "en": "They float up through ocean water",
+          "zh": "通过海水浮上来"
+        },
+        {
+          "en": "They grow on trees in rainforests",
+          "zh": "在雨林的树上生长"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Diamonds form deep in the mantle; magma brings them close to the surface through volcanic pipes.",
+        "zh": "钻石在地幔深处形成；岩浆通过火山通道将它们带到地表附近。"
+      }
     },
     {
-     "en": "Gold, silver, and platinum",
-     "zh": "金、银和白金"
+      "q": {
+        "en": "Both rubies and sapphires are made of which mineral?",
+        "zh": "红宝石和蓝宝石都是由哪种矿物构成的？"
+      },
+      "options": [
+        {
+          "en": "Calcite according to some versions of the story",
+          "zh": "方解石（按书中另一种说法）"
+        },
+        {
+          "en": "Talc",
+          "zh": "滑石"
+        },
+        {
+          "en": "Corundum (aluminum oxide)",
+          "zh": "刚玉（氧化铝）"
+        },
+        {
+          "en": "Quartz",
+          "zh": "石英"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Rubies and sapphires are both corundum; rubies are red because of chromium, while sapphires are most famous for deep blue.",
+        "zh": "红宝石和蓝宝石都是刚玉；红宝石因含铬呈红色，蓝宝石以深蓝色最为出名。"
+      }
     },
     {
-     "en": "Rocks, pebbles, and sand",
-     "zh": "岩石、鹅卵石和沙子"
+      "q": {
+        "en": "On the Mohs hardness scale, what is the hardest natural substance?",
+        "zh": "在莫氏硬度表上，最硬的天然物质是什么？"
+      },
+      "options": [
+        {
+          "en": "Diamond (10)",
+          "zh": "钻石（10级）"
+        },
+        {
+          "en": "Talc (1)",
+          "zh": "滑石（1级）"
+        },
+        {
+          "en": "Emerald (9) according to some versions of the story",
+          "zh": "祖母绿（9级）（按书中另一种说法）"
+        },
+        {
+          "en": "Quartz (7)",
+          "zh": "石英（7级）"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Diamond is a 10 on the Mohs scale—the hardest substance—while talc is the softest at 1.",
+        "zh": "钻石在莫氏硬度表上为10级，是最硬的天然物质；滑石最软，为1级。"
+      }
+    },
+    {
+      "q": {
+        "en": "In this book, what does the term 'organic gems' mean?",
+        "zh": "在本书中，“有机宝石”一词是什么意思？"
+      },
+      "options": [
+        {
+          "en": "Gems made from substances created by living things",
+          "zh": "由生物制造的物质形成的宝石"
+        },
+        {
+          "en": "Gems that are cheap and common according to some versions of the story",
+          "zh": "便宜而常见的宝石（按书中另一种说法）"
+        },
+        {
+          "en": "Gems that glow in the dark",
+          "zh": "在黑暗中发光的宝石"
+        },
+        {
+          "en": "Gems grown in a laboratory",
+          "zh": "在实验室培育的宝石"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Organic gems such as pearls, amber, and coral come from substances made by living things.",
+        "zh": "有机宝石如珍珠、琥珀和珊瑚，来自生物制造的物质。"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'four Cs' used to judge a gem's value are cut, carat weight, color, and which fourth C?",
+        "zh": "用来判断宝石价值的“四C”是切工、克拉重量、颜色，以及第四个C是什么？"
+      },
+      "options": [
+        {
+          "en": "Coldness",
+          "zh": "冰冷"
+        },
+        {
+          "en": "Crystal",
+          "zh": "晶体"
+        },
+        {
+          "en": "Clarity",
+          "zh": "净度"
+        },
+        {
+          "en": "Colorlessness",
+          "zh": "无色"
+        }
+      ],
+      "answer": 2,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The four Cs are cut, carat weight, color, and clarity (how flawless the gem is).",
+        "zh": "四C指的是切工、克拉重量、颜色和净度（宝石的无瑕程度）。"
+      }
+    },
+    {
+      "q": {
+        "en": "How are graphite (pencil lead) and diamonds related?",
+        "zh": "石墨（铅笔芯）和钻石之间有什么关系？"
+      },
+      "options": [
+        {
+          "en": "They are the same mineral, but their atoms are arranged differently",
+          "zh": "是同一种矿物，但原子排列不同"
+        },
+        {
+          "en": "Graphite is a fake diamond",
+          "zh": "石墨是假钻石"
+        },
+        {
+          "en": "They are found only in the same mine",
+          "zh": "只在同一座矿里发现"
+        },
+        {
+          "en": "Diamonds turn into graphite when heated according to some versions of the story",
+          "zh": "钻石加热后会变成石墨（按书中另一种说法）"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The book explains graphite and diamonds are the exact same mineral; in graphite atoms are in loose layers, while in diamonds they are tightly squeezed together.",
+        "zh": "书中解释石墨和钻石是同一种矿物；石墨原子排列松散，钻石原子则被紧密压缩在一起。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why have diamonds become more valuable in the last century even though their supply grew?",
+        "zh": "为什么在过去一个世纪里，尽管钻石供应增加，它们却变得更值钱？"
+      },
+      "options": [
+        {
+          "en": "Because new laws banned diamond mining",
+          "zh": "因为新法律禁止开采钻石"
+        },
+        {
+          "en": "Because they stopped being used in jewelry according to some versions of the story",
+          "zh": "因为它们不再用于珠宝（按书中另一种说法）"
+        },
+        {
+          "en": "Because they became rarer than before",
+          "zh": "因为它们变得比以往更稀少了"
+        },
+        {
+          "en": "Because of the popularity of diamond engagement rings and global marketing",
+          "zh": "因为钻石订婚戒指的流行和全球营销"
+        }
+      ],
+      "answer": 3,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Demand rose due to the growing popularity of diamond engagement rings worldwide and marketing by diamond companies.",
+        "zh": "需求上升源于全球钻石订婚戒指的流行以及钻石公司的营销。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in the Conclusion section?",
+        "zh": "作者在“结论”部分的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To encourage people to buy more gems according to some versions of the story in an early draft of the book",
+          "zh": "鼓励人们购买更多宝石（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To show the dark side of the gem trade and suggest lab-grown gems as an alternative",
+          "zh": "揭示宝石贸易的阴暗面，并提出实验室培育宝石作为替代"
+        },
+        {
+          "en": "To teach readers how to cut diamonds",
+          "zh": "教读者如何切割钻石"
+        },
+        {
+          "en": "To list the most expensive jewels",
+          "zh": "列出最昂贵的珠宝"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The Conclusion discusses violence in the gem trade and how lab-grown gems could satisfy beauty while protecting people and Earth.",
+        "zh": "结论部分讨论了宝石贸易中的暴力，以及实验室培育宝石如何兼顾美与保护人类和地球。"
+      }
+    },
+    {
+      "q": {
+        "en": "What point does the book make about lab-grown gems?",
+        "zh": "本书关于实验室培育宝石提出了什么观点？"
+      },
+      "options": [
+        {
+          "en": "They are lower quality than natural gems according to some versions of the story in an early draft of the book",
+          "zh": "它们质量低于天然宝石（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They are identical to the finest natural gems but cost about a thousand times less",
+          "zh": "与最优质的天然宝石相同，但价格约低一千倍"
+        },
+        {
+          "en": "They cannot be made",
+          "zh": "它们无法被制造"
+        },
+        {
+          "en": "They are illegal to sell",
+          "zh": "它们销售违法"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "Scientists can grow gems in labs that are identical to the finest natural gems but cost a thousand times less.",
+        "zh": "科学家能在实验室培育出与最优质天然宝石相同的宝石，价格却低约一千倍。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book states there are three major types of gems: crystals and stones (made of minerals) and organic gems (from living things).",
-    "zh": "书中说明宝石有三大类：晶体和石头（由矿物构成）以及有机宝石（来自生物）。"
-   }
-  },
-  {
-   "q": {
-    "en": "How do diamonds reach Earth's surface from deep underground?",
-    "zh": "钻石是如何从地下深处到达地表的？"
-   },
-   "options": [
-    {
-     "en": "They are carried up by magma through volcanic pipes",
-     "zh": "由岩浆通过火山通道带上来"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Choose a gem mentioned in the book and explain how it forms, what makes it valuable, and whether you think natural or lab-grown gems are better. Support your view with ideas from the text.",
+      "zh": "选择书中提到的一种宝石，说明它的形成方式、价值所在，并谈谈你认为天然宝石还是实验室培育宝石更好。结合文中观点支撑你的看法。"
     },
-    {
-     "en": "They float up through ocean water",
-     "zh": "通过海水浮上来"
-    },
-    {
-     "en": "They are dug out by hand by miners",
-     "zh": "由矿工手工挖出"
-    },
-    {
-     "en": "They grow on trees in rainforests",
-     "zh": "在雨林的树上生长"
+    "guidance": {
+      "en": [
+        "Name the gem and describe how it forms (crystal, stone, or organic).",
+        "Explain its value using the four Cs or its rarity.",
+        "State your opinion on natural vs. lab-grown gems, using the book's conclusion."
+      ],
+      "zh": [
+        "说出宝石名称并描述其形成方式（晶体、石头或有机）。",
+        "用四C或稀有性解释其价值。",
+        "结合书的结论，表达你对天然与实验室培育宝石的看法。"
+      ]
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Diamonds form deep in the mantle; magma brings them close to the surface through volcanic pipes.",
-    "zh": "钻石在地幔深处形成；岩浆通过火山通道将它们带到地表附近。"
-   }
-  },
-  {
-   "q": {
-    "en": "Both rubies and sapphires are made of which mineral?",
-    "zh": "红宝石和蓝宝石都是由哪种矿物构成的？"
-   },
-   "options": [
-    {
-     "en": "Quartz",
-     "zh": "石英"
-    },
-    {
-     "en": "Corundum (aluminum oxide)",
-     "zh": "刚玉（氧化铝）"
-    },
-    {
-     "en": "Calcite",
-     "zh": "方解石"
-    },
-    {
-     "en": "Talc",
-     "zh": "滑石"
-    }
-   ],
-   "answer": 1,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Rubies and sapphires are both corundum; rubies are red because of chromium, while sapphires are most famous for deep blue.",
-    "zh": "红宝石和蓝宝石都是刚玉；红宝石因含铬呈红色，蓝宝石以深蓝色最为出名。"
-   }
-  },
-  {
-   "q": {
-    "en": "On the Mohs hardness scale, what is the hardest natural substance?",
-    "zh": "在莫氏硬度表上，最硬的天然物质是什么？"
-   },
-   "options": [
-    {
-     "en": "Talc (1)",
-     "zh": "滑石（1级）"
-    },
-    {
-     "en": "Quartz (7)",
-     "zh": "石英（7级）"
-    },
-    {
-     "en": "Diamond (10)",
-     "zh": "钻石（10级）"
-    },
-    {
-     "en": "Emerald (9)",
-     "zh": "祖母绿（9级）"
-    }
-   ],
-   "answer": 2,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Diamond is a 10 on the Mohs scale—the hardest substance—while talc is the softest at 1.",
-    "zh": "钻石在莫氏硬度表上为10级，是最硬的天然物质；滑石最软，为1级。"
-   }
-  },
-  {
-   "q": {
-    "en": "In this book, what does the term 'organic gems' mean?",
-    "zh": "在本书中，“有机宝石”一词是什么意思？"
-   },
-   "options": [
-    {
-     "en": "Gems that are cheap and common",
-     "zh": "便宜而常见的宝石"
-    },
-    {
-     "en": "Gems made from substances created by living things",
-     "zh": "由生物制造的物质形成的宝石"
-    },
-    {
-     "en": "Gems that glow in the dark",
-     "zh": "在黑暗中发光的宝石"
-    },
-    {
-     "en": "Gems grown in a laboratory",
-     "zh": "在实验室培育的宝石"
-    }
-   ],
-   "answer": 1,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "Organic gems such as pearls, amber, and coral come from substances made by living things.",
-    "zh": "有机宝石如珍珠、琥珀和珊瑚，来自生物制造的物质。"
-   }
-  },
-  {
-   "q": {
-    "en": "The 'four Cs' used to judge a gem's value are cut, carat weight, color, and which fourth C?",
-    "zh": "用来判断宝石价值的“四C”是切工、克拉重量、颜色，以及第四个C是什么？"
-   },
-   "options": [
-    {
-     "en": "Clarity",
-     "zh": "净度"
-    },
-    {
-     "en": "Crystal",
-     "zh": "晶体"
-    },
-    {
-     "en": "Coldness",
-     "zh": "冰冷"
-    },
-    {
-     "en": "Colorlessness",
-     "zh": "无色"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The four Cs are cut, carat weight, color, and clarity (how flawless the gem is).",
-    "zh": "四C指的是切工、克拉重量、颜色和净度（宝石的无瑕程度）。"
-   }
-  },
-  {
-   "q": {
-    "en": "How are graphite (pencil lead) and diamonds related?",
-    "zh": "石墨（铅笔芯）和钻石之间有什么关系？"
-   },
-   "options": [
-    {
-     "en": "They are found only in the same mine",
-     "zh": "只在同一座矿里发现"
-    },
-    {
-     "en": "They are the same mineral, but their atoms are arranged differently",
-     "zh": "是同一种矿物，但原子排列不同"
-    },
-    {
-     "en": "Graphite is a fake diamond",
-     "zh": "石墨是假钻石"
-    },
-    {
-     "en": "Diamonds turn into graphite when heated",
-     "zh": "钻石加热后会变成石墨"
-    }
-   ],
-   "answer": 1,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "The book explains graphite and diamonds are the exact same mineral; in graphite atoms are in loose layers, while in diamonds they are tightly squeezed together.",
-    "zh": "书中解释石墨和钻石是同一种矿物；石墨原子排列松散，钻石原子则被紧密压缩在一起。"
-   }
-  },
-  {
-   "q": {
-    "en": "Why have diamonds become more valuable in the last century even though their supply grew?",
-    "zh": "为什么在过去一个世纪里，尽管钻石供应增加，它们却变得更值钱？"
-   },
-   "options": [
-    {
-     "en": "Because they became rarer than before",
-     "zh": "因为它们变得比以往更稀少了"
-    },
-    {
-     "en": "Because of the popularity of diamond engagement rings and global marketing",
-     "zh": "因为钻石订婚戒指的流行和全球营销"
-    },
-    {
-     "en": "Because new laws banned diamond mining",
-     "zh": "因为新法律禁止开采钻石"
-    },
-    {
-     "en": "Because they stopped being used in jewelry",
-     "zh": "因为它们不再用于珠宝"
-    }
-   ],
-   "answer": 1,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Demand rose due to the growing popularity of diamond engagement rings worldwide and marketing by diamond companies.",
-    "zh": "需求上升源于全球钻石订婚戒指的流行以及钻石公司的营销。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in the Conclusion section?",
-    "zh": "作者在“结论”部分的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "To teach readers how to cut diamonds",
-     "zh": "教读者如何切割钻石"
-    },
-    {
-     "en": "To show the dark side of the gem trade and suggest lab-grown gems as an alternative",
-     "zh": "揭示宝石贸易的阴暗面，并提出实验室培育宝石作为替代"
-    },
-    {
-     "en": "To list the most expensive jewels",
-     "zh": "列出最昂贵的珠宝"
-    },
-    {
-     "en": "To encourage people to buy more gems",
-     "zh": "鼓励人们购买更多宝石"
-    }
-   ],
-   "answer": 1,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The Conclusion discusses violence in the gem trade and how lab-grown gems could satisfy beauty while protecting people and Earth.",
-    "zh": "结论部分讨论了宝石贸易中的暴力，以及实验室培育宝石如何兼顾美与保护人类和地球。"
-   }
-  },
-  {
-   "q": {
-    "en": "What point does the book make about lab-grown gems?",
-    "zh": "本书关于实验室培育宝石提出了什么观点？"
-   },
-   "options": [
-    {
-     "en": "They are lower quality than natural gems",
-     "zh": "它们质量低于天然宝石"
-    },
-    {
-     "en": "They are identical to the finest natural gems but cost about a thousand times less",
-     "zh": "与最优质的天然宝石相同，但价格约低一千倍"
-    },
-    {
-     "en": "They cannot be made",
-     "zh": "它们无法被制造"
-    },
-    {
-     "en": "They are illegal to sell",
-     "zh": "它们销售违法"
-    }
-   ],
-   "answer": 1,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "Scientists can grow gems in labs that are identical to the finest natural gems but cost a thousand times less.",
-    "zh": "科学家能在实验室培育出与最优质天然宝石相同的宝石，价格却低约一千倍。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "Choose a gem mentioned in the book and explain how it forms, what makes it valuable, and whether you think natural or lab-grown gems are better. Support your view with ideas from the text.",
-   "zh": "选择书中提到的一种宝石，说明它的形成方式、价值所在，并谈谈你认为天然宝石还是实验室培育宝石更好。结合文中观点支撑你的看法。"
-  },
-  "guidance": {
-   "en": [
-    "Name the gem and describe how it forms (crystal, stone, or organic).",
-    "Explain its value using the four Cs or its rarity.",
-    "State your opinion on natural vs. lab-grown gems, using the book's conclusion."
-   ],
-   "zh": [
-    "说出宝石名称并描述其形成方式（晶体、石头或有机）。",
-    "用四C或稀有性解释其价值。",
-    "结合书的结论，表达你对天然与实验室培育宝石的看法。"
-   ]
-  }
- }
 }

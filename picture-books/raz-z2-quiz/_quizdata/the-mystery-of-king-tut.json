@@ -12,12 +12,24 @@
         "zh": "图坦卡蒙成为埃及法老时几岁？"
       },
       "options": [
-        {"en": "Five years old", "zh": "5岁"},
-        {"en": "Nineteen years old", "zh": "19岁"},
-        {"en": "Nine years old", "zh": "9岁"},
-        {"en": "About thirty years old", "zh": "大约30岁"}
+        {
+          "en": "Nine years old",
+          "zh": "9岁"
+        },
+        {
+          "en": "Five years old",
+          "zh": "5岁"
+        },
+        {
+          "en": "About thirty years old",
+          "zh": "大约30岁"
+        },
+        {
+          "en": "Nineteen years old",
+          "zh": "19岁"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that Tut became pharaoh at the age of nine and ruled for less than a decade before dying at about nineteen.",
@@ -30,12 +42,24 @@
         "zh": "在书中，单词 'monotheist'（一神教徒）是什么意思？"
       },
       "options": [
-        {"en": "A person who worships many gods", "zh": "崇拜多位神的人"},
-        {"en": "A ruler of a royal family", "zh": "王室的统治者"},
-        {"en": "A person who believes in only one god", "zh": "只信仰一位神的人"},
-        {"en": "A scientist who studies the remains of ancient cultures", "zh": "研究古代文化遗物的一门学科的科学家"}
+        {
+          "en": "A person who believes in only one god",
+          "zh": "只信仰一位神的人"
+        },
+        {
+          "en": "A scientist who studies the remains of ancient cultures",
+          "zh": "研究古代文化遗物的一门学科的科学家"
+        },
+        {
+          "en": "A person who worships many gods",
+          "zh": "崇拜多位神的人"
+        },
+        {
+          "en": "A ruler of a royal family",
+          "zh": "王室的统治者"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines a monotheist as a person who believes in one god. Some call Amenhotep IV the world's first monotheist because he worshipped only Aten.",
@@ -48,10 +72,22 @@
         "zh": "2005年的CT扫描揭示了图坦卡蒙头骨上的损伤是怎么回事？"
       },
       "options": [
-        {"en": "It proved Tut was killed by a heavy blow to the back of his head", "zh": "它证明图坦卡蒙是被重击后脑勺而死的"},
-        {"en": "It showed the skull hole came from a broken leg infection", "zh": "它显示头骨上的洞源于腿部骨折感染"},
-        {"en": "It confirmed that Tut had been poisoned by his cupbearer", "zh": "它确认图坦卡蒙是被他的斟酒官下毒害死的"},
-        {"en": "The damage occurred after death, probably during mummification", "zh": "损伤发生在死后，很可能是在制作木乃伊的过程中造成的"}
+        {
+          "en": "It confirmed that Tut had been poisoned by his cupbearer",
+          "zh": "它确认图坦卡蒙是被他的斟酒官下毒害死的"
+        },
+        {
+          "en": "It proved Tut was killed by a heavy blow to the back of his head according to some versions of the story",
+          "zh": "它证明图坦卡蒙是被重击后脑勺而死的（按书中另一种说法）"
+        },
+        {
+          "en": "It showed the skull hole came from a broken leg infection",
+          "zh": "它显示头骨上的洞源于腿部骨折感染"
+        },
+        {
+          "en": "The damage occurred after death, probably during mummification",
+          "zh": "损伤发生在死后，很可能是在制作木乃伊的过程中造成的"
+        }
       ],
       "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
@@ -66,10 +102,22 @@
         "zh": "作者为什么把考古学家比作侦探？"
       },
       "options": [
-        {"en": "To explain that archaeologists must attend police academy before working in Egypt", "zh": "为了说明考古学家在埃及工作前必须上警察学校"},
-        {"en": "To show that archaeologists solve mysteries by using evidence and asking questions", "zh": "为了说明考古学家像侦探一样，借助证据和提问来解开谜团"},
-        {"en": "To suggest that King Tut was a criminal", "zh": "为了暗示图坦卡蒙是个罪犯"},
-        {"en": "To prove the tomb was robbed by thieves long ago", "zh": "为了证明这座墓早已被盗墓贼洗劫"}
+        {
+          "en": "To prove the tomb was robbed by thieves long ago",
+          "zh": "为了证明这座墓早已被盗墓贼洗劫"
+        },
+        {
+          "en": "To show that archaeologists solve mysteries by using evidence and asking questions",
+          "zh": "为了说明考古学家像侦探一样，借助证据和提问来解开谜团"
+        },
+        {
+          "en": "To suggest that King Tut was a criminal",
+          "zh": "为了暗示图坦卡蒙是个罪犯"
+        },
+        {
+          "en": "To explain that archaeologists must attend police academy before working in Egypt according to some versions of the story",
+          "zh": "为了说明考古学家在埃及工作前必须上警察学校（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "skill": "Author's Purpose and Perspective",
@@ -84,10 +132,22 @@
         "zh": "图坦卡蒙为什么把自己的名字从图坦卡滕改为图坦卡蒙？"
       },
       "options": [
-        {"en": "Because the Egyptian people found his original birth name too difficult to say", "zh": "因为埃及百姓觉得他原来的出生名字太难念了"},
-        {"en": "To honor the sun god Aten who created the world", "zh": "为了纪念创造了世界的太阳神阿顿"},
-        {"en": "To show the royal family was leaving the Aten religion and restoring Amun", "zh": "为了表明王室正在抛弃阿顿教、恢复对阿蒙的信仰"},
-        {"en": "Because he became pharaoh at the age of nine", "zh": "因为他9岁就当上了法老"}
+        {
+          "en": "To honor the sun god Aten who created the world",
+          "zh": "为了纪念创造了世界的太阳神阿顿"
+        },
+        {
+          "en": "Because the Egyptian people found his original birth name too difficult to say",
+          "zh": "因为埃及百姓觉得他原来的出生名字太难念了"
+        },
+        {
+          "en": "To show the royal family was leaving the Aten religion and restoring Amun",
+          "zh": "为了表明王室正在抛弃阿顿教、恢复对阿蒙的信仰"
+        },
+        {
+          "en": "Because he became pharaoh at the age of nine",
+          "zh": "因为他9岁就当上了法老"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -102,12 +162,24 @@
         "zh": "在书中，'sarcophagus'（石棺）是什么？"
       },
       "options": [
-        {"en": "A stone coffin, often inscribed and richly decorated", "zh": "一种石制棺材，常刻有铭文并装饰华丽"},
-        {"en": "A type of ancient Egyptian paper made from reeds", "zh": "一种用芦苇制成的古埃及纸张"},
-        {"en": "A golden mask worn by the pharaoh", "zh": "法老佩戴的黄金面具"},
-        {"en": "A system of writing that uses pictures to stand for words and sounds", "zh": "一种用图画代表词语和声音的书写系统"}
+        {
+          "en": "A golden mask worn by the pharaoh",
+          "zh": "法老佩戴的黄金面具"
+        },
+        {
+          "en": "A type of ancient Egyptian paper made from reeds",
+          "zh": "一种用芦苇制成的古埃及纸张"
+        },
+        {
+          "en": "A stone coffin, often inscribed and richly decorated",
+          "zh": "一种石制棺材，常刻有铭文并装饰华丽"
+        },
+        {
+          "en": "A system of writing that uses pictures to stand for words and sounds",
+          "zh": "一种用图画代表词语和声音的书写系统"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines a sarcophagus as a stone coffin from ancient times, often inscribed and elaborately ornamented. Tut's mummy lay within coffins inside a quartzite sarcophagus.",
@@ -120,10 +192,22 @@
         "zh": "罗塞塔石碑是如何帮助考古学家读懂象形文字的？"
       },
       "options": [
-        {"en": "It was an ancient map that showed the exact location of every royal tomb", "zh": "它是一张古地图，标出了每座王室墓葬的确切位置"},
-        {"en": "It contained gold that paid for the excavations in the Valley of the Kings", "zh": "它含有黄金，用来支付帝王谷的发掘费用"},
-        {"en": "It proved that King Tut was the most famous pharaoh in history", "zh": "它证明了图坦卡蒙是历史上最著名的法老"},
-        {"en": "It showed the same message in three languages, letting Greek unlock the Egyptian text", "zh": "它用三种语言写着同一条信息，借助希腊文破译了埃及文字"}
+        {
+          "en": "It was an ancient map that showed the exact location of every royal tomb according to some versions of the story",
+          "zh": "它是一张古地图，标出了每座王室墓葬的确切位置（按书中另一种说法）"
+        },
+        {
+          "en": "It proved that King Tut was the most famous pharaoh in history",
+          "zh": "它证明了图坦卡蒙是历史上最著名的法老"
+        },
+        {
+          "en": "It contained gold that paid for the excavations in the Valley of the Kings",
+          "zh": "它含有黄金，用来支付帝王谷的发掘费用"
+        },
+        {
+          "en": "It showed the same message in three languages, letting Greek unlock the Egyptian text",
+          "zh": "它用三种语言写着同一条信息，借助希腊文破译了埃及文字"
+        }
       ],
       "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,10 +222,22 @@
         "zh": "作者写这本书的主要目的什么？"
       },
       "options": [
-        {"en": "To teach readers how to build pyramids in ancient Egypt", "zh": "教读者如何在古埃及建造金字塔"},
-        {"en": "To explore the mysteries of Tut's life and death through archaeological evidence", "zh": "借助考古证据，探究图坦卡蒙生与死的种种谜团"},
-        {"en": "To argue that Howard Carter was a thief who stole the treasure", "zh": "论证霍华德·卡特是个偷走财宝的窃贼"},
-        {"en": "To list in order the name of every single pharaoh who ruled during the 18th Dynasty", "zh": "按顺序列出整个第十八王朝每一位统治过的法老的名字"}
+        {
+          "en": "To argue that Howard Carter was a thief who stole the treasure",
+          "zh": "论证霍华德·卡特是个偷走财宝的窃贼"
+        },
+        {
+          "en": "To explore the mysteries of Tut's life and death through archaeological evidence",
+          "zh": "借助考古证据，探究图坦卡蒙生与死的种种谜团"
+        },
+        {
+          "en": "To teach readers how to build pyramids in ancient Egypt",
+          "zh": "教读者如何在古埃及建造金字塔"
+        },
+        {
+          "en": "To list in order the name of every single pharaoh who ruled during the 18th Dynasty",
+          "zh": "按顺序列出整个第十八王朝每一位统治过的法老的名字"
+        }
       ],
       "answer": 1,
       "skill": "Author's Purpose and Perspective",
@@ -156,12 +252,24 @@
         "zh": "2010年的基因检测揭示了图坦卡蒙父母之间的什么关系？"
       },
       "options": [
-        {"en": "His parents came from two completely separate dynasties located far apart in Egypt", "zh": "他的父母来自埃及两地、彼此毫不相干的两个王朝"},
-        {"en": "His father was a foreign king who came from Greece", "zh": "他的父亲是一位来自希腊的外国王"},
-        {"en": "His mother was a full-blood sibling of his father, as royal families often married relatives", "zh": "他的母亲是父亲的亲生兄弟姐妹，因为王室常近亲通婚"},
-        {"en": "His mother was Nefertiti, the famous queen", "zh": "他的母亲是著名的王后奈费尔提蒂"}
+        {
+          "en": "His parents came from two completely separate dynasties located far apart in Egypt according to some versions of the story",
+          "zh": "他的父母来自埃及两地、彼此毫不相干的两个王朝（按书中另一种说法）"
+        },
+        {
+          "en": "His mother was a full-blood sibling of his father, as royal families often married relatives",
+          "zh": "他的母亲是父亲的亲生兄弟姐妹，因为王室常近亲通婚"
+        },
+        {
+          "en": "His father was a foreign king who came from Greece",
+          "zh": "他的父亲是一位来自希腊的外国王"
+        },
+        {
+          "en": "His mother was Nefertiti, the famous queen",
+          "zh": "他的母亲是著名的王后奈费尔提蒂"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "DNA tests identified Tut's parents and showed his mother was a full-blood sibling to his father. Marriages between close relatives were common in Egyptian royal families.",
@@ -174,10 +282,22 @@
         "zh": "关于'木乃伊的诅咒'，书中给出了怎样的说法？"
       },
       "options": [
-        {"en": "It was a legend sparked by newspaper stories, and Carter, who opened the tomb, lived to age sixty-six", "zh": "它只是报纸报道引发的传说；而开启墓葬的卡特一直活到了66岁"},
-        {"en": "It was proven true when Carter died immediately inside the tomb", "zh": "当卡特在墓中立刻死去时，它被证实是真的"},
-        {"en": "It was created by ancient Egyptian priests to protect the gold", "zh": "它是古埃及祭司为守护黄金而编造的"},
-        {"en": "It caused every single archaeologist who ever entered the tomb, together with all their helpers and family members, to die within one year of the discovery", "zh": "它导致每一位曾进入墓中的考古学家，连同他们所有的助手和家人，都在发现后的一年内死去"}
+        {
+          "en": "It was a legend sparked by newspaper stories, and Carter, who opened the tomb, lived to age sixty-six",
+          "zh": "它只是报纸报道引发的传说；而开启墓葬的卡特一直活到了66岁"
+        },
+        {
+          "en": "It was proven true when Carter died immediately inside the tomb",
+          "zh": "当卡特在墓中立刻死去时，它被证实是真的"
+        },
+        {
+          "en": "It was created by ancient Egyptian priests to protect the gold",
+          "zh": "它是古埃及祭司为守护黄金而编造的"
+        },
+        {
+          "en": "It caused every single archaeologist who ever entered the tomb, together with all their helpers and family members, to die within one year of the discovery",
+          "zh": "它导致每一位曾进入墓中的考古学家，连同他们所有的助手和家人，都在发现后的一年内死去"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",

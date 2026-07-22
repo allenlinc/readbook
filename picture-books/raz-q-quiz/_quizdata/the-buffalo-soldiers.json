@@ -12,12 +12,24 @@
         "zh": "根据这本书，内战期间有多少黑人士兵为北方作战？"
       },
       "options": [
-        {"en": "More than 170,000", "zh": "超过 17 万"},
-        {"en": "About 17,000", "zh": "约 1.7 万"},
-        {"en": "Fewer than 1,700", "zh": "不到 1,700"},
-        {"en": "Over 1.7 million", "zh": "超过 170 万"}
+        {
+          "en": "About 17,000",
+          "zh": "约 1.7 万"
+        },
+        {
+          "en": "Fewer than 1,700 according to some versions of the story",
+          "zh": "不到 1,700（按书中另一种说法）"
+        },
+        {
+          "en": "Over 1.7 million",
+          "zh": "超过 170 万"
+        },
+        {
+          "en": "More than 170,000",
+          "zh": "超过 17 万"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that during the Civil War (1861-1865), 「more than 170,000 black soldiers fought for the North to end slavery in the South.」",
@@ -30,12 +42,24 @@
         "zh": "1866 年，黑人士兵的薪水和白人士兵相比如何？"
       },
       "options": [
-        {"en": "They were paid the same — $13 per month", "zh": "薪水相同——每月 13 美元"},
-        {"en": "Black soldiers were paid less", "zh": "黑人士兵薪水更少"},
-        {"en": "Black soldiers were not paid at all", "zh": "黑人士兵根本没薪水"},
-        {"en": "Black soldiers were paid more", "zh": "黑人士兵薪水更多"}
+        {
+          "en": "Black soldiers were not paid at all according to some versions of the story",
+          "zh": "黑人士兵根本没薪水（按书中另一种说法）"
+        },
+        {
+          "en": "They were paid the same — $13 per month",
+          "zh": "薪水相同——每月 13 美元"
+        },
+        {
+          "en": "Black soldiers were paid more",
+          "zh": "黑人士兵薪水更多"
+        },
+        {
+          "en": "Black soldiers were paid less",
+          "zh": "黑人士兵薪水更少"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In 1866 the army paid black soldiers the same as white soldiers—$13 per month; it also taught those who couldn't read or write to do so.",
@@ -48,10 +72,22 @@
         "zh": "「水牛兵」(Buffalo Soldiers) 这个绰号是怎么来的？"
       },
       "options": [
-        {"en": "Native Americans gave it to them (some say the Comanches or Cheyennes)", "zh": "是美洲原住民起的（有人说是科曼奇人或夏延人）"},
-        {"en": "They named themselves after the buffalo they herded", "zh": "他们以自己放牧的野牛命名"},
-        {"en": "The U.S. government officially gave them the name", "zh": "是美国政府正式取的名字"},
-        {"en": "They were named for the buffalo coats the army issued them", "zh": "因军队发的野牛皮大衣而得名"}
+        {
+          "en": "Native Americans gave it to them (some say the Comanches or Cheyennes)",
+          "zh": "是美洲原住民起的（有人说是科曼奇人或夏延人）"
+        },
+        {
+          "en": "They were named for the buffalo coats the army issued them according to some versions of the story",
+          "zh": "因军队发的野牛皮大衣而得名（按书中另一种说法）"
+        },
+        {
+          "en": "They named themselves after the buffalo they herded",
+          "zh": "他们以自己放牧的野牛命名"
+        },
+        {
+          "en": "The U.S. government officially gave them the name",
+          "zh": "是美国政府正式取的名字"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "在词汇表里，「歧视」(discrimination) 是什么？"
       },
       "options": [
-        {"en": "Unfair treatment of a person or group based on race, age, religion, etc.", "zh": "基于种族、年龄、宗教等差异，对个人或群体不公平的对待"},
-        {"en": "The act of serving in the army", "zh": "在军队服役的行为"},
-        {"en": "Land set aside by the government for Native Americans", "zh": "政府划给原住民的土地"},
-        {"en": "A military unit of two or more large groups", "zh": "由两个以上大队组成的军事单位"}
+        {
+          "en": "The act of serving in the army",
+          "zh": "在军队服役的行为"
+        },
+        {
+          "en": "Land set aside by the government for Native Americans according to some versions of the story",
+          "zh": "政府划给原住民的土地（按书中另一种说法）"
+        },
+        {
+          "en": "A military unit of two or more large groups",
+          "zh": "由两个以上大队组成的军事单位"
+        },
+        {
+          "en": "Unfair treatment of a person or group based on race, age, religion, etc.",
+          "zh": "基于种族、年龄、宗教等差异，对个人或群体不公平的对待"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines discrimination as 「the unfair treatment of a person or group based on gender, race, age, religion, or other differences」 (p. 5).",
@@ -84,10 +132,22 @@
         "zh": "根据书中的补充说明，「骑兵」(cavalry) 是什么？"
       },
       "options": [
-        {"en": "In the past, soldiers who rode horses (today, soldiers in vehicles)", "zh": "过去是骑马作战的士兵（如今是乘载具的士兵）"},
-        {"en": "Soldiers who fight on foot", "zh": "步行作战的士兵"},
-        {"en": "Soldiers who sail ships", "zh": "在船上作战的士兵"},
-        {"en": "Soldiers who fly airplanes", "zh": "驾驶飞机的士兵"}
+        {
+          "en": "In the past, soldiers who rode horses (today, soldiers in vehicles)",
+          "zh": "过去是骑马作战的士兵（如今是乘载具的士兵）"
+        },
+        {
+          "en": "Soldiers who fly airplanes according to some versions of the story in an early draft of the book",
+          "zh": "驾驶飞机的士兵（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Soldiers who fight on foot",
+          "zh": "步行作战的士兵"
+        },
+        {
+          "en": "Soldiers who sail ships",
+          "zh": "在船上作战的士兵"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -102,12 +162,24 @@
         "zh": "在词汇表里，「保留地」(reservation) 是什么？"
       },
       "options": [
-        {"en": "Land set aside by the U.S. government for Native Americans", "zh": "美国政府为原住民划出的土地"},
-        {"en": "A military fort on the frontier", "zh": "边境上的军事堡垒"},
-        {"en": "A wilderness area at a country's edge", "zh": "国家边缘的荒野地带"},
-        {"en": "A type of soldier regiment", "zh": "一种士兵军团"}
+        {
+          "en": "A military fort on the frontier",
+          "zh": "边境上的军事堡垒"
+        },
+        {
+          "en": "A type of soldier regiment",
+          "zh": "一种士兵军团"
+        },
+        {
+          "en": "Land set aside by the U.S. government for Native Americans",
+          "zh": "美国政府为原住民划出的土地"
+        },
+        {
+          "en": "A wilderness area at a country's edge according to some versions of the story",
+          "zh": "国家边缘的荒野地带（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines a reservation as 「land set aside by the United States government for Native Americans」 (p. 9). (Option 3 is the glossary definition of 'frontier.')",
@@ -120,12 +192,24 @@
         "zh": "19 世纪 90 年代，军队用水牛兵和自行车做了什么试验？"
       },
       "options": [
-        {"en": "Whether bikes could replace horses (they were cheaper and easier to care for)", "zh": "自行车能否取代马匹（更便宜、更好照料）"},
-        {"en": "Whether bikes could be used to fight in the Spanish-American War", "zh": "自行车能否用于美西战争作战"},
-        {"en": "A bike race across the whole country", "zh": "一场横穿全国的自行车赛"},
-        {"en": "Delivering the mail by bike", "zh": "用自行车送信"}
+        {
+          "en": "A bike race across the whole country",
+          "zh": "一场横穿全国的自行车赛"
+        },
+        {
+          "en": "Whether bikes could replace horses (they were cheaper and easier to care for)",
+          "zh": "自行车能否取代马匹（更便宜、更好照料）"
+        },
+        {
+          "en": "Delivering the mail by bike",
+          "zh": "用自行车送信"
+        },
+        {
+          "en": "Whether bikes could be used to fight in the Spanish-American War according to some versions of the story",
+          "zh": "自行车能否用于美西战争作战（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the army wanted to see if bikes could replace horses 「since bikes were cheaper and easier to care for.」 The Buffalo Soldiers rode 1,900 miles from Fort Missoula to St. Louis, crossed the Rockies, rivers, and sandhills, and averaged 50 miles a day.",
@@ -138,12 +222,24 @@
         "zh": "1899 到 1904 年间，水牛兵在加州的国家公园里做了什么工作？"
       },
       "options": [
-        {"en": "Worked as park rangers—built roads and trails, fought forest fires, stopped hunting and timber theft", "zh": "担任公园管理员——修路筑径、扑灭林火、阻止偷猎盗木"},
-        {"en": "Lived there as settlers with their families", "zh": "作为定居者和家人住在那里"},
-        {"en": "Fought against outlaws and Native Americans", "zh": "和亡命之徒与原住民作战"},
-        {"en": "Mined for gold", "zh": "开采金矿"}
+        {
+          "en": "Fought against outlaws and Native Americans",
+          "zh": "和亡命之徒与原住民作战"
+        },
+        {
+          "en": "Mined for gold",
+          "zh": "开采金矿"
+        },
+        {
+          "en": "Worked as park rangers—built roads and trails, fought forest fires, stopped hunting and timber theft",
+          "zh": "担任公园管理员——修路筑径、扑灭林火、阻止偷猎盗木"
+        },
+        {
+          "en": "Lived there as settlers with their families according to some versions of the story in an early draft of the book",
+          "zh": "作为定居者和家人住在那里（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states that between 1899 and 1904 they 「worked as park rangers in several California national parks. They built roads and trails, fought forest fires, and stopped people from hunting animals and stealing timber.」",
@@ -156,10 +252,22 @@
         "zh": "本杰明·格里森 (Benjamin Grierson) 上校有什么不寻常之处？"
       },
       "options": [
-        {"en": "He was a white officer who led the 10th Cavalry for 22 years (1866-1888), a rare exception", "zh": "他是一名白人军官，却领导第10骑兵团长达22年（1866-1888），实属罕见"},
-        {"en": "He was a Black officer who was not allowed to lead", "zh": "他是一名不被允许带兵的黑人士兵"},
-        {"en": "He refused to lead Black regiments", "zh": "他拒绝领导黑人军团"},
-        {"en": "He was an outlaw who robbed stagecoaches", "zh": "他是个抢劫驿马车的亡命之徒"}
+        {
+          "en": "He was a white officer who led the 10th Cavalry for 22 years (1866-1888), a rare exception",
+          "zh": "他是一名白人军官，却领导第10骑兵团长达22年（1866-1888），实属罕见"
+        },
+        {
+          "en": "He was an outlaw who robbed stagecoaches",
+          "zh": "他是个抢劫驿马车的亡命之徒"
+        },
+        {
+          "en": "He was a Black officer who was not allowed to lead according to some versions of the story in an early draft of the book",
+          "zh": "他是一名不被允许带兵的黑人士兵（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He refused to lead Black regiments",
+          "zh": "他拒绝领导黑人军团"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "这本书说，历史是如何铭记水牛兵的？"
       },
       "options": [
-        {"en": "As tough men who took on tough jobs and proved themselves through bravery and service", "zh": "作为承担艰巨任务的硬汉，用勇敢与奉献证明了自己"},
-        {"en": "As outlaws who stole cattle and robbed banks", "zh": "作为偷牛抢银行的亡命之徒"},
-        {"en": "As settlers who built the first towns out West", "zh": "作为在西部建起第一批城镇的定居者"},
-        {"en": "As people who were never treated unfairly", "zh": "作为从未受到不公对待的人"}
+        {
+          "en": "As outlaws who stole cattle and robbed banks",
+          "zh": "作为偷牛抢银行的亡命之徒"
+        },
+        {
+          "en": "As tough men who took on tough jobs and proved themselves through bravery and service",
+          "zh": "作为承担艰巨任务的硬汉，用勇敢与奉献证明了自己"
+        },
+        {
+          "en": "As settlers who built the first towns out West according to some versions of the story",
+          "zh": "作为在西部建起第一批城镇的定居者（按书中另一种说法）"
+        },
+        {
+          "en": "As people who were never treated unfairly",
+          "zh": "作为从未受到不公对待的人"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Legacy section says history remembers them 「as tough men who took on tough jobs. Although they were often treated poorly... they fought to prove they were good at their jobs. Their bravery and service are an important part of America's story.」",

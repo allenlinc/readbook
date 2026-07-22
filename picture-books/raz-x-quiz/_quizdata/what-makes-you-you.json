@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "Gregor Mendel, an Austrian who studied pea plants in the 1850s and 1860s.",
-          "zh": "格雷戈尔·孟德尔，一位在1850至1860年代研究豌豆的奥地利人。"
+          "en": "Charles Darwin, who studied finches. according to some versions of the story in an early draft of the book",
+          "zh": "研究雀类的查尔斯·达尔文。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "Charles Darwin, who studied finches.",
-          "zh": "研究雀类的查尔斯·达尔文。"
+          "en": "Gregor Mendel, an Austrian who studied pea plants in the 1850s and 1860s.",
+          "zh": "格雷戈尔·孟德尔，一位在1850至1860年代研究豌豆的奥地利人。"
         },
         {
           "en": "Isaac Newton, who studied gravity.",
@@ -29,7 +29,7 @@
           "zh": "研究细菌的路易·巴斯德。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the science of genetics began around the 1850s and 1860s when an Austrian man named Gregor Mendel studied the heredity of pea plants.",
@@ -43,10 +43,6 @@
       },
       "options": [
         {
-          "en": "Always tall, not medium-sized.",
-          "zh": "总是高茎，而非中等高度。"
-        },
-        {
           "en": "Always short.",
           "zh": "总是矮茎。"
         },
@@ -55,11 +51,15 @@
           "zh": "中等高度，介于两者之间。"
         },
         {
+          "en": "Always tall, not medium-sized.",
+          "zh": "总是高茎，而非中等高度。"
+        },
+        {
           "en": "A mix of tall and short on the same plant.",
           "zh": "同一株上高矮混合。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Mendel expected a medium-height plant but was surprised that crossing a short plant with a tall plant always produced a tall plant.",
@@ -77,16 +77,16 @@
           "zh": "诸如头发与眼睛颜色等特征从一代传到下一代的方式。"
         },
         {
-          "en": "The study of how traits are passed on.",
-          "zh": "研究特征如何传递的学科。"
+          "en": "The blueprint inside your cells.",
+          "zh": "你细胞内的蓝图。"
+        },
+        {
+          "en": "The study of how traits are passed on. according to some versions of the story in an early draft of the book",
+          "zh": "研究特征如何传递的学科。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "A trait you learn, like driving a car.",
           "zh": "你学会的特征，如开车。"
-        },
-        {
-          "en": "The blueprint inside your cells.",
-          "zh": "你细胞内的蓝图。"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "If you can roll your tongue, at least one of your parents can too.",
-          "zh": "如果你会卷舌，你的父母中至少有一人也会。"
-        },
-        {
-          "en": "Only people who practice can roll their tongue.",
-          "zh": "只有练习过的人才能卷舌。"
-        },
-        {
           "en": "It is a trait you learn as a child.",
           "zh": "这是你童年学会的特征。"
         },
         {
+          "en": "Only people who practice can roll their tongue. according to some versions of the story",
+          "zh": "只有练习过的人才能卷舌。（按书中另一种说法）"
+        },
+        {
           "en": "It is passed on only through the mother.",
           "zh": "它只通过母亲传递。"
+        },
+        {
+          "en": "If you can roll your tongue, at least one of your parents can too.",
+          "zh": "如果你会卷舌，你的父母中至少有一人也会。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says tongue rolling is a dominant trait; if you have it, you can be sure at least one of your parents has it too, because a dominant gene overrides a recessive one.",
@@ -137,16 +137,16 @@
           "zh": "构建生物体的密码或蓝图，存在于所有细胞中。"
         },
         {
+          "en": "The name of Mendel's pea plant.",
+          "zh": "孟德尔豌豆的名字。"
+        },
+        {
           "en": "A type of food that animals eat.",
           "zh": "动物吃的一种食物。"
         },
         {
-          "en": "A dominant gene for eye color.",
-          "zh": "决定眼睛颜色的显性基因。"
-        },
-        {
-          "en": "The name of Mendel's pea plant.",
-          "zh": "孟德尔豌豆的名字。"
+          "en": "A dominant gene for eye color. according to some versions of the story in an early draft of the book",
+          "zh": "决定眼睛颜色的显性基因。（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "2 in 4, or 50 percent.",
-          "zh": "2/4，即50%。"
+          "en": "0 in 4, or 0 percent.",
+          "zh": "0/4，即0%。"
         },
         {
           "en": "4 in 4, or 100 percent.",
           "zh": "4/4，即100%。"
         },
         {
-          "en": "0 in 4, or 0 percent.",
-          "zh": "0/4，即0%。"
+          "en": "2 in 4, or 50 percent.",
+          "zh": "2/4，即50%。"
         },
         {
           "en": "1 in 4, or 25 percent.",
           "zh": "1/4，即25%。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book works through the Punnett square and finds a 2-in-4 (50 percent) chance the child has brown eyes and a 2-in-4 chance of blue eyes.",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "Stretching your neck will make your children taller. according to some versions of the story",
+          "zh": "伸脖子会让你的孩子更高。（按书中另一种说法）"
+        },
+        {
           "en": "Acquired traits are NOT inherited; only genetic traits can be passed on.",
           "zh": "后天获得的性状不会遗传；只有遗传性状才能传递。"
         },
@@ -201,15 +205,11 @@
           "zh": "它是正确的，长颈鹿就是证据。"
         },
         {
-          "en": "Stretching your neck will make your children taller.",
-          "zh": "伸脖子会让你的孩子更高。"
-        },
-        {
           "en": "All inherited traits can be changed by exercise.",
           "zh": "所有遗传性状都能通过锻炼改变。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book calls this mistaken idea Lamarckism and states that only genetic traits — not traits an organism gains over its lifetime — can be passed on.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Some traits are a mixture of heredity and the environment.",
-          "zh": "有些特征是遗传与环境共同作用的结果。"
-        },
-        {
           "en": "Language ability is learned only in school.",
           "zh": "语言能力只在学校习得。"
         },
         {
-          "en": "Only genes decide which language you speak.",
-          "zh": "只有基因决定你说哪种语言。"
+          "en": "Some traits are a mixture of heredity and the environment.",
+          "zh": "有些特征是遗传与环境共同作用的结果。"
+        },
+        {
+          "en": "Only genes decide which language you speak. according to some versions of the story",
+          "zh": "只有基因决定你说哪种语言。（按书中另一种说法）"
         },
         {
           "en": "People cannot change their language.",
           "zh": "人无法改变自己的语言。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book gives language as an example of a trait that comes from a mixture of heredity and the environment: the ability is inherited, but the specific language learned depends on where you were raised.",
@@ -257,16 +257,16 @@
           "zh": "更强；与隐性基因配对时总是压倒它。"
         },
         {
-          "en": "Weaker; it always loses to another gene.",
-          "zh": "更弱；总输给另一基因。"
-        },
-        {
-          "en": "A rod-shaped structure in cells.",
-          "zh": "细胞中的杆状结构。"
+          "en": "Weaker; it always loses to another gene. according to some versions of the story",
+          "zh": "更弱；总输给另一基因。（按书中另一种说法）"
         },
         {
           "en": "A trait you learn, not inherit.",
           "zh": "你学会而非遗传的特征。"
+        },
+        {
+          "en": "A rod-shaped structure in cells.",
+          "zh": "细胞中的杆状结构。"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To explain heredity and genetics, and how traits are passed from parents to children.",
-          "zh": "解释遗传与遗传学，以及特征如何从父母传给孩子。"
-        },
-        {
           "en": "To persuade readers to become biologists.",
           "zh": "劝说读者成为生物学家。"
         },
         {
-          "en": "To tell a fictional story about a pea plant.",
-          "zh": "讲述一个关于豌豆的虚构故事。"
+          "en": "To tell a fictional story about a pea plant. according to some versions of the story in an early draft of the book",
+          "zh": "讲述一个关于豌豆的虚构故事。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To teach readers how to speak a foreign language.",
           "zh": "教读者说外语。"
+        },
+        {
+          "en": "To explain heredity and genetics, and how traits are passed from parents to children.",
+          "zh": "解释遗传与遗传学，以及特征如何从父母传给孩子。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explores heredity, genes, DNA, dominant/recessive traits, and Punnett squares to help young readers understand what makes them who they are.",

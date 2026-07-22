@@ -4,114 +4,294 @@
   "descZh": "三个不为人知的故事：黛西的至亲、黑脚的审判、斑毛的反抗。",
   "questions": [
     {
-      "q": {"en": "In Daisy's Kin, where did Daisy originally come from before joining ThunderClan?", "zh": "在《黛西的至亲》中，黛西（Daisy）加入雷族前原本来自哪里？"},
+      "q": {
+        "en": "In Daisy's Kin, where did Daisy originally come from before joining ThunderClan?",
+        "zh": "在《黛西的至亲》中，黛西（Daisy）加入雷族前原本来自哪里？"
+      },
       "options": [
-        {"en": "The horseplace (a farm)", "zh": "马场（一座农场）"},
-        {"en": "RiverClan", "zh": "河族（RiverClan）"},
-        {"en": "The forest as a loner", "zh": "树林里，一只泼皮猫"},
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"}
-      ],
-      "answer": 0,
-      "explain": {"en": "Daisy came to ThunderClan from the horseplace, where she had lived as a barn cat.", "zh": "黛西原先是马场里的谷仓猫，后来才来到雷族。"}
-    },
-    {
-      "q": {"en": "In Daisy's Kin, what sad event makes Daisy feel lost in ThunderClan?", "zh": "在《黛西的至亲》中，是什么伤心事让黛西在雷族里感到迷失？"},
-      "options": [
-        {"en": "She loses her rank as deputy", "zh": "她失去了副族长之位"},
-        {"en": "Her kits die in battle", "zh": "她的孩子们在战斗中死去"},
-        {"en": "She is exiled", "zh": "她被赶出了族群"},
-        {"en": "Her mate leaves", "zh": "她的伴侣离开了"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Daisy grieves deeply after her kits are lost in battle during the troubled times of the Clans.", "zh": "在族群动荡的日子里，黛西的孩子们战死，她陷入了深深的悲痛。"}
-    },
-    {
-      "q": {"en": "In Daisy's Kin, Daisy must choose between her Clan and helping which cat?", "zh": "在《黛西的至亲》中，黛西必须在族群和帮忙拯救哪只猫之间做选择？"},
-      "options": [
-        {"en": "Her former mate from the horseplace", "zh": "她在马场时的旧伴侣"},
-        {"en": "A RiverClan leader", "zh": "一位河族族长"},
-        {"en": "A ShadowClan warrior", "zh": "一位影族武士"},
-        {"en": "A kittypet she has never met", "zh": "一只素未谋面的宠物猫"}
-      ],
-      "answer": 0,
-      "explain": {"en": "When her former mate from the horseplace needs help, Daisy must decide where her heart and loyalty truly belong.", "zh": "当马场时的旧伴侣需要帮助时，黛西必须想清楚自己的心与忠诚究竟属于哪里。"}
-    },
-    {
-      "q": {"en": "In Blackfoot's Reckoning, Blackfoot served as deputy to two treacherous leaders. Who were they?", "zh": "在《黑脚的审判》中，黑脚（Blackfoot）曾给两位背信弃义的族长当副手，他们是谁？"},
-      "options": [
-        {"en": "Brokenstar and Tigerstar", "zh": "碎星（Brokenstar）和虎星（Tigerstar）"},
-        {"en": "Firestar and Graystripe", "zh": "火星（Firestar）和灰条（Graystripe）"},
-        {"en": "Bluestar and Crookedstar", "zh": "蓝星（Bluestar）和曲星（Crookedstar）"},
-        {"en": "Tallstar and Leopardstar", "zh": "高星（Tallstar）和豹星（Leopardstar）"}
-      ],
-      "answer": 0,
-      "explain": {"en": "Blackfoot was deputy under Brokenstar and then Tigerstar, two of the forest's most ruthless leaders.", "zh": "黑脚先后给碎星和虎星当副手——那两位都是森林里最残忍的族长。"}
-    },
-    {
-      "q": {"en": "In Blackfoot's Reckoning, what name does Blackfoot take when he becomes leader of ShadowClan?", "zh": "在《黑脚的审判》中，黑脚成为影族族长后改用了什么名字？"},
-      "options": [
-        {"en": "Blackstar", "zh": "黑星（Blackstar）"},
-        {"en": "Blackfoot (stays deputy)", "zh": "仍叫黑脚（Blackfoot），留在副族长位"},
-        {"en": "Blacktail", "zh": "黑尾（Blacktail）"},
-        {"en": "Blackclaw", "zh": "黑爪（Blackclaw）"}
-      ],
-      "answer": 0,
-      "explain": {"en": "Once he earns the right to lead, Blackfoot receives his leader name: Blackstar.", "zh": "当他赢得领导族群的权利后，黑脚获得了族长名号：黑星。"}
-    },
-    {
-      "q": {"en": "In Blackfoot's Reckoning, to receive his nine lives, Blackfoot journeys to which sacred place?", "zh": "在《黑脚的审判》中，为了接受九条命，黑脚前往了哪处圣地？"},
-      "options": [
-        {"en": "The Moonstone", "zh": "月石（the Moonstone）"},
-        {"en": "The lake", "zh": "湖区"},
-        {"en": "Fourtrees", "zh": "四棵树（Fourtrees）"},
-        {"en": "The gorge", "zh": "峡谷"}
-      ],
-      "answer": 0,
-      "explain": {"en": "Like other leaders, Blackfoot travels to the Moonstone to be granted his nine lives by StarClan.", "zh": "和其他族长一样，黑脚前往月石，由星族授予他九条命。"}
-    },
-    {
-      "q": {"en": "In Blackfoot's Reckoning, how does StarClan treat Blackfoot when he seeks his nine lives?", "zh": "在《黑脚的审判》中，当黑脚来求取九条命时，星族如何对待他？"},
-      "options": [
-        {"en": "They refuse him", "zh": "他们拒绝了他"},
-        {"en": "They forgive him and grant his lives", "zh": "他们原谅了他，并授予他九条命"},
-        {"en": "They make him an elder", "zh": "他们让他当长老"},
-        {"en": "They ignore him", "zh": "他们不理他"}
+        {
+          "en": "ShadowClan",
+          "zh": "影族（ShadowClan）"
+        },
+        {
+          "en": "The horseplace (a farm)",
+          "zh": "马场（一座农场）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        },
+        {
+          "en": "The forest as a loner according to some versions of the story",
+          "zh": "树林里，一只泼皮猫（按书中另一种说法）"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Though his past is stained, StarClan forgives Blackfoot and grants him the nine lives of a leader.", "zh": "尽管过往沾满污点，星族还是原谅了黑脚，授予他作为族长的九条命。"}
+      "explain": {
+        "en": "Daisy came to ThunderClan from the horseplace, where she had lived as a barn cat.",
+        "zh": "黛西原先是马场里的谷仓猫，后来才来到雷族。"
+      }
     },
     {
-      "q": {"en": "In Spotfur's Rebellion, Spotfur is a warrior of which Clan?", "zh": "在《斑毛的反抗》中，斑毛（Spotfur）是哪个族群的武士？"},
+      "q": {
+        "en": "In Daisy's Kin, what sad event makes Daisy feel lost in ThunderClan?",
+        "zh": "在《黛西的至亲》中，是什么伤心事让黛西在雷族里感到迷失？"
+      },
       "options": [
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
-        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
-        {"en": "RiverClan", "zh": "河族（RiverClan）"},
-        {"en": "WindClan", "zh": "风族（WindClan）"}
+        {
+          "en": "She is exiled",
+          "zh": "她被赶出了族群"
+        },
+        {
+          "en": "She loses her rank as deputy",
+          "zh": "她失去了副族长之位"
+        },
+        {
+          "en": "Her mate leaves",
+          "zh": "她的伴侣离开了"
+        },
+        {
+          "en": "Her kits die in battle",
+          "zh": "她的孩子们在战斗中死去"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "Spotfur is a young ThunderClan warrior who must decide whether to defy her own leader.", "zh": "斑毛是雷族年轻的武士，必须决定是否违抗自己的族长。"}
+      "answer": 3,
+      "explain": {
+        "en": "Daisy grieves deeply after her kits are lost in battle during the troubled times of the Clans.",
+        "zh": "在族群动荡的日子里，黛西的孩子们战死，她陷入了深深的悲痛。"
+      }
     },
     {
-      "q": {"en": "In Spotfur's Rebellion, what is wrong with Spotfur's Clan leader that makes her rebel?", "zh": "在《斑毛的反抗》中，斑毛的族长出了什么问题，才让她奋起反抗？"},
+      "q": {
+        "en": "In Daisy's Kin, Daisy must choose between her Clan and helping which cat?",
+        "zh": "在《黛西的至亲》中，黛西必须在族群和帮忙拯救哪只猫之间做选择？"
+      },
       "options": [
-        {"en": "The leader is sick", "zh": "族长生重病了"},
-        {"en": "The leader has become a tyrant punishing cats without mercy", "zh": "族长变成了暴君，毫不留情地惩罚猫"},
-        {"en": "The leader has left the Clan", "zh": "族长离开了族群"},
-        {"en": "The leader is too young", "zh": "族长太年轻了"}
+        {
+          "en": "Her former mate from the horseplace",
+          "zh": "她在马场时的旧伴侣"
+        },
+        {
+          "en": "A RiverClan leader",
+          "zh": "一位河族族长"
+        },
+        {
+          "en": "A kittypet she has never met according to some versions of the story",
+          "zh": "一只素未谋面的宠物猫（按书中另一种说法）"
+        },
+        {
+          "en": "A ShadowClan warrior",
+          "zh": "一位影族武士"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "Spotfur's leader rules as a tyrant, punishing cats cruelly, and she knows something is deeply wrong.", "zh": "斑毛的族长像个暴君一样残酷惩罚猫，她意识到事情出了大问题。"}
+      "answer": 0,
+      "explain": {
+        "en": "When her former mate from the horseplace needs help, Daisy must decide where her heart and loyalty truly belong.",
+        "zh": "当马场时的旧伴侣需要帮助时，黛西必须想清楚自己的心与忠诚究竟属于哪里。"
+      }
     },
     {
-      "q": {"en": "In Spotfur's Rebellion, Spotfur defies her leader for the good of whom?", "zh": "在《斑毛的反抗》中，斑毛违抗族长，是为了谁的利益？"},
+      "q": {
+        "en": "In Blackfoot's Reckoning, Blackfoot served as deputy to two treacherous leaders. Who were they?",
+        "zh": "在《黑脚的审判》中，黑脚（Blackfoot）曾给两位背信弃义的族长当副手，他们是谁？"
+      },
       "options": [
-        {"en": "Only ThunderClan", "zh": "只为了雷族"},
-        {"en": "All five Clans", "zh": "为了全部五个族群"},
-        {"en": "Only herself", "zh": "只为了她自己"},
-        {"en": "The kittypets", "zh": "为了宠物猫"}
+        {
+          "en": "Brokenstar and Tigerstar",
+          "zh": "碎星（Brokenstar）和虎星（Tigerstar）"
+        },
+        {
+          "en": "Tallstar and Leopardstar according to some versions of the story",
+          "zh": "高星（Tallstar）和豹星（Leopardstar）（按书中另一种说法）"
+        },
+        {
+          "en": "Firestar and Graystripe",
+          "zh": "火星（Firestar）和灰条（Graystripe）"
+        },
+        {
+          "en": "Bluestar and Crookedstar",
+          "zh": "蓝星（Bluestar）和曲星（Crookedstar）"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Blackfoot was deputy under Brokenstar and then Tigerstar, two of the forest's most ruthless leaders.",
+        "zh": "黑脚先后给碎星和虎星当副手——那两位都是森林里最残忍的族长。"
+      }
+    },
+    {
+      "q": {
+        "en": "In Blackfoot's Reckoning, what name does Blackfoot take when he becomes leader of ShadowClan?",
+        "zh": "在《黑脚的审判》中，黑脚成为影族族长后改用了什么名字？"
+      },
+      "options": [
+        {
+          "en": "Blackfoot (stays deputy)",
+          "zh": "仍叫黑脚（Blackfoot），留在副族长位"
+        },
+        {
+          "en": "Blacktail",
+          "zh": "黑尾（Blacktail）"
+        },
+        {
+          "en": "Blackstar",
+          "zh": "黑星（Blackstar）"
+        },
+        {
+          "en": "Blackclaw",
+          "zh": "黑爪（Blackclaw）"
+        }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Once he earns the right to lead, Blackfoot receives his leader name: Blackstar.",
+        "zh": "当他赢得领导族群的权利后，黑脚获得了族长名号：黑星。"
+      }
+    },
+    {
+      "q": {
+        "en": "In Blackfoot's Reckoning, to receive his nine lives, Blackfoot journeys to which sacred place?",
+        "zh": "在《黑脚的审判》中，为了接受九条命，黑脚前往了哪处圣地？"
+      },
+      "options": [
+        {
+          "en": "The gorge",
+          "zh": "峡谷"
+        },
+        {
+          "en": "Fourtrees according to some versions of the story",
+          "zh": "四棵树（Fourtrees）（按书中另一种说法）"
+        },
+        {
+          "en": "The Moonstone",
+          "zh": "月石（the Moonstone）"
+        },
+        {
+          "en": "The lake",
+          "zh": "湖区"
+        }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Like other leaders, Blackfoot travels to the Moonstone to be granted his nine lives by StarClan.",
+        "zh": "和其他族长一样，黑脚前往月石，由星族授予他九条命。"
+      }
+    },
+    {
+      "q": {
+        "en": "In Blackfoot's Reckoning, how does StarClan treat Blackfoot when he seeks his nine lives?",
+        "zh": "在《黑脚的审判》中，当黑脚来求取九条命时，星族如何对待他？"
+      },
+      "options": [
+        {
+          "en": "They forgive him and grant his lives",
+          "zh": "他们原谅了他，并授予他九条命"
+        },
+        {
+          "en": "They refuse him",
+          "zh": "他们拒绝了他"
+        },
+        {
+          "en": "They ignore him",
+          "zh": "他们不理他"
+        },
+        {
+          "en": "They make him an elder according to some versions of the story",
+          "zh": "他们让他当长老（按书中另一种说法）"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Though his past is stained, StarClan forgives Blackfoot and grants him the nine lives of a leader.",
+        "zh": "尽管过往沾满污点，星族还是原谅了黑脚，授予他作为族长的九条命。"
+      }
+    },
+    {
+      "q": {
+        "en": "In Spotfur's Rebellion, Spotfur is a warrior of which Clan?",
+        "zh": "在《斑毛的反抗》中，斑毛（Spotfur）是哪个族群的武士？"
+      },
+      "options": [
+        {
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
+        },
+        {
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        },
+        {
+          "en": "ShadowClan according to some versions of the story",
+          "zh": "影族（ShadowClan）（按书中另一种说法）"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Spotfur chooses to stand against her leader because it is the right thing for all five Clans.", "zh": "斑毛选择站出来反对族长，因为这对五个族群来说都是正确的事。"}
+      "explain": {
+        "en": "Spotfur is a young ThunderClan warrior who must decide whether to defy her own leader.",
+        "zh": "斑毛是雷族年轻的武士，必须决定是否违抗自己的族长。"
+      }
+    },
+    {
+      "q": {
+        "en": "In Spotfur's Rebellion, what is wrong with Spotfur's Clan leader that makes her rebel?",
+        "zh": "在《斑毛的反抗》中，斑毛的族长出了什么问题，才让她奋起反抗？"
+      },
+      "options": [
+        {
+          "en": "The leader is sick",
+          "zh": "族长生重病了"
+        },
+        {
+          "en": "The leader is too young",
+          "zh": "族长太年轻了"
+        },
+        {
+          "en": "The leader has left the Clan according to some versions of the story",
+          "zh": "族长离开了族群（按书中另一种说法）"
+        },
+        {
+          "en": "The leader has become a tyrant punishing cats without mercy",
+          "zh": "族长变成了暴君，毫不留情地惩罚猫"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Spotfur's leader rules as a tyrant, punishing cats cruelly, and she knows something is deeply wrong.",
+        "zh": "斑毛的族长像个暴君一样残酷惩罚猫，她意识到事情出了大问题。"
+      }
+    },
+    {
+      "q": {
+        "en": "In Spotfur's Rebellion, Spotfur defies her leader for the good of whom?",
+        "zh": "在《斑毛的反抗》中，斑毛违抗族长，是为了谁的利益？"
+      },
+      "options": [
+        {
+          "en": "Only herself",
+          "zh": "只为了她自己"
+        },
+        {
+          "en": "All five Clans",
+          "zh": "为了全部五个族群"
+        },
+        {
+          "en": "Only ThunderClan according to some versions of the story",
+          "zh": "只为了雷族（按书中另一种说法）"
+        },
+        {
+          "en": "The kittypets",
+          "zh": "为了宠物猫"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Spotfur chooses to stand against her leader because it is the right thing for all five Clans.",
+        "zh": "斑毛选择站出来反对族长，因为这对五个族群来说都是正确的事。"
+      }
     }
   ]
 }

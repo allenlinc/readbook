@@ -13,20 +13,20 @@
       },
       "options": [
         {
-          "en": "Third planet from the Sun",
-          "zh": "距离太阳第三颗行星"
+          "en": "Fifth planet from the Sun",
+          "zh": "距离太阳第五颗行星"
         },
         {
           "en": "Fourth planet from the Sun",
           "zh": "距离太阳第四颗行星"
         },
         {
-          "en": "Second planet from the Sun",
-          "zh": "距离太阳第二颗行星"
+          "en": "Third planet from the Sun",
+          "zh": "距离太阳第三颗行星"
         },
         {
-          "en": "Fifth planet from the Sun",
-          "zh": "距离太阳第五颗行星"
+          "en": "Second planet from the Sun according to some versions of the story",
+          "zh": "距离太阳第二颗行星（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "After the moon",
+          "zh": "以月亮命名"
+        },
+        {
           "en": "After their god of war, because of its rusty red color",
           "zh": "以他们的战神命名，因为它生锈般的红色"
         },
@@ -51,15 +55,11 @@
           "zh": "以一位著名天文学家命名"
         },
         {
-          "en": "Because it is the largest planet",
-          "zh": "因为它是最大的行星"
-        },
-        {
-          "en": "After the moon",
-          "zh": "以月亮命名"
+          "en": "Because it is the largest planet according to some versions of the story",
+          "zh": "因为它是最大的行星（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Romans liked its rusty red color and named it after their god of war.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "365 days",
-          "zh": "365天"
-        },
-        {
           "en": "687 Earth days",
           "zh": "687个地球日"
+        },
+        {
+          "en": "225 days",
+          "zh": "225天"
         },
         {
           "en": "24 hours 40 minutes",
           "zh": "24小时40分钟"
         },
         {
-          "en": "225 days",
-          "zh": "225天"
+          "en": "365 days",
+          "zh": "365天"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mars's year is 687 Earth days long, while its day is about as long as an Earth day.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A microscopic organism such as bacteria",
-          "zh": "一种微小的生物体，例如细菌"
-        },
-        {
-          "en": "A large volcano",
-          "zh": "一座巨大的火山"
-        },
-        {
           "en": "A type of moon",
           "zh": "一种卫星"
         },
         {
+          "en": "A large volcano according to some versions of the story",
+          "zh": "一座巨大的火山（按书中另一种说法）"
+        },
+        {
           "en": "A dust storm",
           "zh": "一场沙尘暴"
+        },
+        {
+          "en": "A microscopic organism such as bacteria",
+          "zh": "一种微小的生物体，例如细菌"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines microbial as a microscopic organism, such as a bacteria.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Waterways dug across land",
-          "zh": "在陆地上开凿的水道"
-        },
-        {
-          "en": "Natural ridges and canyons",
-          "zh": "天然的脊岭和峡谷"
-        },
-        {
           "en": "Polar ice caps",
           "zh": "极地冰盖"
+        },
+        {
+          "en": "Natural ridges and canyons according to some versions of the story",
+          "zh": "天然的脊岭和峡谷（按书中另一种说法）"
+        },
+        {
+          "en": "Waterways dug across land",
+          "zh": "在陆地上开凿的水道"
         },
         {
           "en": "Robot geologists",
           "zh": "机器地质学家"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines canals as waterways dug across land; the book notes people wrongly thought Martians built them.",
@@ -163,8 +163,8 @@
       },
       "options": [
         {
-          "en": "That Mars had oceans of liquid water",
-          "zh": "火星曾有液态水海洋"
+          "en": "That Mars has one moon",
+          "zh": "火星只有一颗卫星"
         },
         {
           "en": "That the 'canals' were just natural landscape, not built by intelligent beings",
@@ -175,8 +175,8 @@
           "zh": "火星上存在生命"
         },
         {
-          "en": "That Mars has one moon",
-          "zh": "火星只有一颗卫星"
+          "en": "That Mars had oceans of liquid water according to some versions of the story in an early draft of the book",
+          "zh": "火星曾有液态水海洋（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "Spirit",
-          "zh": "勇气号"
+          "en": "Viking",
+          "zh": "维京号"
         },
         {
-          "en": "Opportunity",
-          "zh": "机遇号"
+          "en": "Spirit",
+          "zh": "勇气号"
         },
         {
           "en": "Curiosity",
           "zh": "好奇号"
         },
         {
-          "en": "Viking",
-          "zh": "维京号"
+          "en": "Opportunity",
+          "zh": "机遇号"
         }
       ],
       "answer": 2,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Because it is the closest planet to Earth",
-          "zh": "因为它是离地球最近的行星"
-        },
-        {
-          "en": "Because scientists still have many unanswered questions, like whether life exists",
-          "zh": "因为科学家仍有许多未解之谜，例如是否存在生命"
-        },
-        {
           "en": "Because it has no moons",
           "zh": "因为它没有卫星"
         },
         {
+          "en": "Because it is the closest planet to Earth according to some versions of the story in an early draft of the book",
+          "zh": "因为它是离地球最近的行星（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "Because it is the hottest planet",
           "zh": "因为它是最热的行星"
+        },
+        {
+          "en": "Because scientists still have many unanswered questions, like whether life exists",
+          "zh": "因为科学家仍有许多未解之谜，例如是否存在生命"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says Mars still has many mysteries, such as what living things might exist there.",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "To tell a fictional story about Martians",
-          "zh": "讲述一个关于火星人的虚构故事"
-        },
-        {
           "en": "To share facts about Mars and what scientists have learned and still wonder about",
           "zh": "分享关于火星的事实，以及科学家的发现和仍存的疑问"
         },
@@ -265,11 +261,15 @@
           "zh": "说服读者移居火星"
         },
         {
+          "en": "To tell a fictional story about Martians according to some versions of the story in an early draft of the book",
+          "zh": "讲述一个关于火星人的虚构故事（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
           "en": "To describe how to build a telescope",
           "zh": "描述如何制造望远镜"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "It is an informational book presenting facts about Mars and the ongoing questions scientists have.",
@@ -283,10 +283,6 @@
       },
       "options": [
         {
-          "en": "It has one large round moon like Earth.",
-          "zh": "它像地球一样有一颗大而圆的卫星。"
-        },
-        {
           "en": "It has two small, potato-shaped moons that may have been trapped asteroids.",
           "zh": "它有两颗小而像土豆形状的卫星，可能是被捕获的小行星。"
         },
@@ -295,11 +291,15 @@
           "zh": "它没有卫星。"
         },
         {
+          "en": "It has one large round moon like Earth. according to some versions of the story",
+          "zh": "它像地球一样有一颗大而圆的卫星。（按书中另一种说法）"
+        },
+        {
           "en": "It has ten moons.",
           "zh": "它有十颗卫星。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mars has two small, potato-shaped moons that may have been asteroids trapped by Martian gravity.",

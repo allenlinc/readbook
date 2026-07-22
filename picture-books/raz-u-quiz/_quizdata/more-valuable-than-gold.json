@@ -21,12 +21,12 @@
           "zh": "旅游业"
         },
         {
-          "en": "Earthquakes",
-          "zh": "地震"
-        },
-        {
           "en": "Flooding",
           "zh": "洪水"
+        },
+        {
+          "en": "Earthquakes according to some versions of the story",
+          "zh": "地震（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Lead",
-          "zh": "铅"
+          "en": "Iron",
+          "zh": "铁"
+        },
+        {
+          "en": "Copper according to some versions of the story",
+          "zh": "铜（按书中另一种说法）"
         },
         {
           "en": "Mercury",
           "zh": "汞（水银）"
         },
         {
-          "en": "Iron",
-          "zh": "铁"
-        },
-        {
-          "en": "Copper",
-          "zh": "铜"
+          "en": "Lead",
+          "zh": "铅"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Workers mix the mud with mercury, a toxic metal, to separate the gold from the ore.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "About $7",
-          "zh": "约7美元"
+          "en": "About $7,000 according to some versions of the story",
+          "zh": "约7000美元（按书中另一种说法）"
         },
         {
-          "en": "More than $70",
-          "zh": "超过70美元"
+          "en": "About $7",
+          "zh": "约7美元"
         },
         {
           "en": "About $700",
           "zh": "约700美元"
         },
         {
-          "en": "About $7,000",
-          "zh": "约7000美元"
+          "en": "More than $70",
+          "zh": "超过70美元"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book notes miners can earn more than $70 per day—more than a local farmer earns in a month.",
@@ -103,16 +103,16 @@
       },
       "options": [
         {
-          "en": "Planting trees",
-          "zh": "种树"
+          "en": "Building houses according to some versions of the story",
+          "zh": "盖房子（按书中另一种说法）"
         },
         {
           "en": "Clearing away trees and other vegetation",
           "zh": "清除树木和其他植被"
         },
         {
-          "en": "Building houses",
-          "zh": "盖房子"
+          "en": "Planting trees",
+          "zh": "种树"
         },
         {
           "en": "Rain falling",
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "5 percent",
-          "zh": "5%"
+          "en": "90 percent according to some versions of the story",
+          "zh": "90%（按书中另一种说法）"
         },
         {
           "en": "20 percent",
           "zh": "20%"
         },
         {
-          "en": "50 percent",
-          "zh": "50%"
+          "en": "5 percent",
+          "zh": "5%"
         },
         {
-          "en": "90 percent",
-          "zh": "90%"
+          "en": "50 percent",
+          "zh": "50%"
         }
       ],
       "answer": 1,
@@ -163,8 +163,12 @@
       },
       "options": [
         {
-          "en": "In large, legal factories",
-          "zh": "在大型合法工厂"
+          "en": "Along the coast",
+          "zh": "在海岸沿线"
+        },
+        {
+          "en": "In large, legal factories according to some versions of the story",
+          "zh": "在大型合法工厂（按书中另一种说法）"
         },
         {
           "en": "In small, illegal operations in protected forest areas",
@@ -173,13 +177,9 @@
         {
           "en": "In big cities",
           "zh": "在大城市里"
-        },
-        {
-          "en": "Along the coast",
-          "zh": "在海岸沿线"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says many mines are small, illegal operations located in government-protected parts of the forest.",
@@ -201,8 +201,8 @@
           "zh": "黄金开采危害雨林和人的健康"
         },
         {
-          "en": "That there is not enough gold",
-          "zh": "黄金不够多"
+          "en": "That there is not enough gold according to some versions of the story",
+          "zh": "黄金不够多（按书中另一种说法）"
         },
         {
           "en": "That tourism is down",
@@ -223,10 +223,6 @@
       },
       "options": [
         {
-          "en": "Ban all mining worldwide",
-          "zh": "在全球禁止一切采矿"
-        },
-        {
           "en": "Improve economic opportunities and education for poor people",
           "zh": "改善穷人的经济机会和教育"
         },
@@ -235,11 +231,15 @@
           "zh": "把所有人都搬进城市"
         },
         {
+          "en": "Ban all mining worldwide according to some versions of the story",
+          "zh": "在全球禁止一切采矿（按书中另一种说法）"
+        },
+        {
           "en": "Stop buying all gold",
           "zh": "停止购买一切黄金"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book suggests the best solution is for governments to improve education and job skills so people have other options.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Types of trees",
-          "zh": "树的种类"
+          "en": "Tools for cutting rock according to some versions of the story in an early draft of the book",
+          "zh": "切割岩石的工具（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "Artificial water passages that help capture the heavy gold mixture",
-          "zh": "人工水道，用来截留较重的金汞混合物"
+          "en": "Types of trees",
+          "zh": "树的种类"
         },
         {
           "en": "Kinds of animals",
           "zh": "动物的种类"
         },
         {
-          "en": "Tools for cutting rock",
-          "zh": "切割岩石的工具"
+          "en": "Artificial water passages that help capture the heavy gold mixture",
+          "zh": "人工水道，用来截留较重的金汞混合物"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines sluices as artificial passages for water, often with a gate, used to separate the heavier gold mixture.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "It is common and easy to find",
-          "zh": "它常见又易得"
-        },
-        {
           "en": "It is rare, hard to find, and used in jewelry, electronics, and dentistry",
           "zh": "它稀有、难寻，并用于珠宝、电子和牙科"
         },
         {
-          "en": "It is easy to mine",
-          "zh": "它容易开采"
+          "en": "It is common and easy to find according to some versions of the story in an early draft of the book",
+          "zh": "它常见又易得（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "It grows on trees",
           "zh": "它长在树上"
+        },
+        {
+          "en": "It is easy to mine",
+          "zh": "它容易开采"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains gold is valuable because it is rare, difficult to find, and useful in many products.",

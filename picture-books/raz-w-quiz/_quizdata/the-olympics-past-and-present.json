@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "Faster, Higher, Stronger",
-          "zh": "更快、更高、更强"
-        },
-        {
           "en": "Peace, Love, Joy",
           "zh": "和平、友爱、喜悦"
         },
@@ -25,11 +21,15 @@
           "zh": "跑、跳、投"
         },
         {
-          "en": "Gold, Silver, Bronze",
-          "zh": "金、银、铜"
+          "en": "Gold, Silver, Bronze according to some versions of the story",
+          "zh": "金、银、铜（按书中另一种说法）"
+        },
+        {
+          "en": "Faster, Higher, Stronger",
+          "zh": "更快、更高、更强"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says these three Latin words mean 'Faster, Higher, Stronger' and are the Olympic motto.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "In 2008 in China",
+          "zh": "2008年，中国"
+        },
+        {
           "en": "In 776 BC in Olympia, Greece",
           "zh": "公元前776年，希腊奥林匹亚"
         },
         {
+          "en": "In 1924 in France according to some versions of the story",
+          "zh": "1924年，法国（按书中另一种说法）"
+        },
+        {
           "en": "In 1896 in Athens",
           "zh": "1896年，雅典"
-        },
-        {
-          "en": "In 1924 in France",
-          "zh": "1924年，法国"
-        },
-        {
-          "en": "In 2008 in China",
-          "zh": "2008年，中国"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says ancient writings place the first Olympics in Olympia, Greece, in 776 BC (though historians think earlier).",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "That no fighting took place between Greek city-states",
-          "zh": "希腊各城邦之间不发生战争"
-        },
-        {
-          "en": "That all wars would end forever",
-          "zh": "所有战争永远结束"
-        },
-        {
           "en": "That only kings could attend",
           "zh": "只有国王可以参加"
         },
         {
+          "en": "That no fighting took place between Greek city-states",
+          "zh": "希腊各城邦之间不发生战争"
+        },
+        {
           "en": "That athletes could not compete",
           "zh": "运动员不能参赛"
+        },
+        {
+          "en": "That all wars would end forever according to some versions of the story",
+          "zh": "所有战争永远结束（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says a strictly enforced truce guaranteed no fighting between any Greek city-states during the Games.",
@@ -107,8 +107,8 @@
           "zh": "五大定居大陆在和平中团结协作"
         },
         {
-          "en": "The five colors of the rainbow",
-          "zh": "彩虹的五种颜色"
+          "en": "The five colors of the rainbow according to some versions of the story",
+          "zh": "彩虹的五种颜色（按书中另一种说法）"
         },
         {
           "en": "The five largest countries",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A Frenchman named Pierre de Coubertin",
-          "zh": "一位名叫皮埃尔·德·顾拜旦的法国人"
-        },
-        {
-          "en": "An American runner named Jesse Owens",
-          "zh": "一位名叫杰西·欧文斯的美国赛跑选手"
+          "en": "The Emperor Theodosius",
+          "zh": "狄奥多西皇帝"
         },
         {
           "en": "A Greek king",
           "zh": "一位希腊国王"
         },
         {
-          "en": "The Emperor Theodosius",
-          "zh": "狄奥多西皇帝"
+          "en": "A Frenchman named Pierre de Coubertin",
+          "zh": "一位名叫皮埃尔·德·顾拜旦的法国人"
+        },
+        {
+          "en": "An American runner named Jesse Owens according to some versions of the story",
+          "zh": "一位名叫杰西·欧文斯的美国赛跑选手（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Pierre de Coubertin formed the International Olympic Committee, or IOC, in 1894.",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "To explain how to light the torch according to some versions of the story",
+          "zh": "为了解释如何点燃火炬（按书中另一种说法）"
+        },
+        {
           "en": "To show how an African American athlete upset Nazi racist plans",
           "zh": "为了展示一位非裔美国运动员如何挫败了纳粹的种族主义图谋"
         },
@@ -171,15 +175,11 @@
           "zh": "为了描述一场游泳比赛"
         },
         {
-          "en": "To explain how to light the torch",
-          "zh": "为了解释如何点燃火炬"
-        },
-        {
           "en": "To list the host cities",
           "zh": "为了列举主办城市"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book uses Owens's gold-medal performance to show how an African American upset the Nazis' plans to prove white superiority.",
@@ -197,16 +197,16 @@
           "zh": "在奥林匹亚用放大的阳光点燃，再由跑步者传递"
         },
         {
-          "en": "With a match in the host city",
-          "zh": "在主办城市用火柴点燃"
-        },
-        {
           "en": "By a candle at the North Pole",
           "zh": "在北极用蜡烛点燃"
         },
         {
           "en": "From a bonfire in France",
           "zh": "从法国的一堆篝火点燃"
+        },
+        {
+          "en": "With a match in the host city according to some versions of the story",
+          "zh": "在主办城市用火柴点燃（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "At the 1928 Summer Games in Amsterdam",
-          "zh": "1928年阿姆斯特丹夏季奥运会"
-        },
-        {
-          "en": "At the very first Games in 1896",
-          "zh": "在1896年首届奥运会上"
-        },
-        {
           "en": "In 1936 in Berlin",
           "zh": "1936年柏林"
         },
         {
           "en": "In 2008 in Beijing",
           "zh": "2008年北京"
+        },
+        {
+          "en": "At the 1928 Summer Games in Amsterdam",
+          "zh": "1928年阿姆斯特丹夏季奥运会"
+        },
+        {
+          "en": "At the very first Games in 1896 according to some versions of the story",
+          "zh": "在1896年首届奥运会上（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says women were officially allowed to compete for the first time at the 1928 Summer Games in Amsterdam.",
@@ -257,16 +257,16 @@
           "zh": "它们在不同的年份举行，相隔两年"
         },
         {
-          "en": "They are held in the same year",
-          "zh": "它们在同一年举行"
-        },
-        {
-          "en": "They stopped being held",
-          "zh": "它们不再举办"
+          "en": "They are held in the same year according to some versions of the story",
+          "zh": "它们在同一年举行（按书中另一种说法）"
         },
         {
           "en": "They happen every ten years",
           "zh": "它们每十年举办一次"
+        },
+        {
+          "en": "They stopped being held",
+          "zh": "它们不再举办"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "The ideal of sportsmanship and peaceful competition among nations",
-          "zh": "体育精神与各国之间和平竞赛的理想"
+          "en": "A way to make the most money",
+          "zh": "赚最多钱的方式"
         },
         {
           "en": "The power of the strongest army",
           "zh": "最强大军队的力量"
         },
         {
-          "en": "A way to make the most money",
-          "zh": "赚最多钱的方式"
+          "en": "A contest of who builds the biggest stadium according to some versions of the story",
+          "zh": "比谁建造的体育场最大（按书中另一种说法）"
         },
         {
-          "en": "A contest of who builds the biggest stadium",
-          "zh": "比谁建造的体育场最大"
+          "en": "The ideal of sportsmanship and peaceful competition among nations",
+          "zh": "体育精神与各国之间和平竞赛的理想"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book concludes that, like the ancient Games, the modern Olympics represent sportsmanship and peaceful competition among nations.",

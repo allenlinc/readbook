@@ -12,12 +12,24 @@
         "zh": "北极究竟位于哪里？"
       },
       "options": [
-        {"en": "On the continent of Antarctica", "zh": "在南极洲大陆上"},
-        {"en": "In the Arctic Ocean, surrounded by sea ice", "zh": "在北冰洋中，被海冰环绕"},
-        {"en": "In Russia", "zh": "在俄罗斯"},
-        {"en": "On Greenland", "zh": "在格陵兰"}
+        {
+          "en": "In Russia",
+          "zh": "在俄罗斯"
+        },
+        {
+          "en": "On the continent of Antarctica according to some versions of the story",
+          "zh": "在南极洲大陆上（按书中另一种说法）"
+        },
+        {
+          "en": "In the Arctic Ocean, surrounded by sea ice",
+          "zh": "在北冰洋中，被海冰环绕"
+        },
+        {
+          "en": "On Greenland",
+          "zh": "在格陵兰"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the North Pole is in the Arctic Ocean, surrounded by sea ice.",
@@ -30,12 +42,24 @@
         "zh": "自1981年以来，北极冰盖每个十年大约萎缩了多少？"
       },
       "options": [
-        {"en": "1 percent", "zh": "1%"},
-        {"en": "3.2 percent", "zh": "3.2%"},
-        {"en": "10 percent", "zh": "10%"},
-        {"en": "50 percent", "zh": "50%"}
+        {
+          "en": "1 percent",
+          "zh": "1%"
+        },
+        {
+          "en": "10 percent according to some versions of the story",
+          "zh": "10%（按书中另一种说法）"
+        },
+        {
+          "en": "3.2 percent",
+          "zh": "3.2%"
+        },
+        {
+          "en": "50 percent",
+          "zh": "50%"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Arctic ice cap has been shrinking at 3.2 percent per decade since 1981.",
@@ -48,10 +72,22 @@
         "zh": "什么是EEZ（专属经济区）？"
       },
       "options": [
-        {"en": "An area 200 nautical miles from a coast where a country controls resources", "zh": "距海岸200海里、该国可控制资源的海域"},
-        {"en": "A type of iceberg", "zh": "一种冰山"},
-        {"en": "A United Nations building", "zh": "一座联合国大楼"},
-        {"en": "A shipping route", "zh": "一条航运路线"}
+        {
+          "en": "An area 200 nautical miles from a coast where a country controls resources",
+          "zh": "距海岸200海里、该国可控制资源的海域"
+        },
+        {
+          "en": "A type of iceberg",
+          "zh": "一种冰山"
+        },
+        {
+          "en": "A United Nations building according to some versions of the story in an early draft of the book",
+          "zh": "一座联合国大楼（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A shipping route",
+          "zh": "一条航运路线"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -66,12 +102,24 @@
         "zh": "哪五个国家环绕着北极？"
       },
       "options": [
-        {"en": "Norway, Russia, Canada, the U.S., and Denmark (Greenland)", "zh": "挪威、俄罗斯、加拿大、美国（阿拉斯加）和丹麦（格陵兰）"},
-        {"en": "China, India, Brazil, Egypt, Spain", "zh": "中国、印度、巴西、埃及、西班牙"},
-        {"en": "France, Germany, Italy, Japan, Australia", "zh": "法国、德国、意大利、日本、澳大利亚"},
-        {"en": "Mexico, Cuba, Panama, Chile, Peru", "zh": "墨西哥、古巴、巴拿马、智利、秘鲁"}
+        {
+          "en": "China, India, Brazil, Egypt, Spain",
+          "zh": "中国、印度、巴西、埃及、西班牙"
+        },
+        {
+          "en": "France, Germany, Italy, Japan, Australia according to some versions of the story",
+          "zh": "法国、德国、意大利、日本、澳大利亚（按书中另一种说法）"
+        },
+        {
+          "en": "Mexico, Cuba, Panama, Chile, Peru",
+          "zh": "墨西哥、古巴、巴拿马、智利、秘鲁"
+        },
+        {
+          "en": "Norway, Russia, Canada, the U.S., and Denmark (Greenland)",
+          "zh": "挪威、俄罗斯、加拿大、美国（阿拉斯加）和丹麦（格陵兰）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Five countries surround the North Pole: Norway, Russia, Canada, the U.S., and Denmark.",
@@ -84,12 +132,24 @@
         "zh": "哪个国家因为尚未批准联合国协议而没有正式提出主权声索？"
       },
       "options": [
-        {"en": "Russia", "zh": "俄罗斯"},
-        {"en": "Canada", "zh": "加拿大"},
-        {"en": "The United States", "zh": "美国"},
-        {"en": "Denmark", "zh": "丹麦"}
+        {
+          "en": "Denmark according to some versions of the story",
+          "zh": "丹麦（按书中另一种说法）"
+        },
+        {
+          "en": "The United States",
+          "zh": "美国"
+        },
+        {
+          "en": "Canada",
+          "zh": "加拿大"
+        },
+        {
+          "en": "Russia",
+          "zh": "俄罗斯"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The United States has not officially filed because it has not ratified the UN agreement.",
@@ -102,12 +162,24 @@
         "zh": "罗蒙诺索夫海岭是什么？各国为何想要它？"
       },
       "options": [
-        {"en": "A mountain on land that tourists climb", "zh": "一座可供游客攀登的陆地山峰"},
-        {"en": "An underwater ridge that may hold valuable natural resources", "zh": "可能蕴藏宝贵自然资源的水下海岭"},
-        {"en": "A type of shipping route", "zh": "一种航运路线"},
-        {"en": "A weather station", "zh": "一个气象站"}
+        {
+          "en": "An underwater ridge that may hold valuable natural resources",
+          "zh": "可能蕴藏宝贵自然资源的水下海岭"
+        },
+        {
+          "en": "A type of shipping route",
+          "zh": "一种航运路线"
+        },
+        {
+          "en": "A mountain on land that tourists climb according to some versions of the story",
+          "zh": "一座可供游客攀登的陆地山峰（按书中另一种说法）"
+        },
+        {
+          "en": "A weather station",
+          "zh": "一个气象站"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Russia, Canada, and Denmark all claim this underwater ridge for its possible resources.",
@@ -120,12 +192,24 @@
         "zh": "根据本书，北极大约提供了世界天然气的多少份额？"
       },
       "options": [
-        {"en": "5 percent", "zh": "5%"},
-        {"en": "25 percent", "zh": "25%"},
-        {"en": "50 percent", "zh": "50%"},
-        {"en": "90 percent", "zh": "90%"}
+        {
+          "en": "90 percent according to some versions of the story",
+          "zh": "90%（按书中另一种说法）"
+        },
+        {
+          "en": "5 percent",
+          "zh": "5%"
+        },
+        {
+          "en": "50 percent",
+          "zh": "50%"
+        },
+        {
+          "en": "25 percent",
+          "zh": "25%"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The Arctic region provides about 10 percent of the world's oil and 25 percent of its natural gas.",
@@ -138,10 +222,22 @@
         "zh": "在归属问题上，南极（南极洲）与北极有何不同？"
       },
       "options": [
-        {"en": "Both are owned by the U.S.", "zh": "两者都归美国所有"},
-        {"en": "An international agreement keeps Antarctica for science and peace, not owned by any country", "zh": "国际协议将南极留作科研与和平用途，不属于任何国家"},
-        {"en": "It is owned by Russia", "zh": "它归俄罗斯所有"},
-        {"en": "It is for sale", "zh": "它可供出售"}
+        {
+          "en": "It is owned by Russia",
+          "zh": "它归俄罗斯所有"
+        },
+        {
+          "en": "An international agreement keeps Antarctica for science and peace, not owned by any country",
+          "zh": "国际协议将南极留作科研与和平用途，不属于任何国家"
+        },
+        {
+          "en": "It is for sale",
+          "zh": "它可供出售"
+        },
+        {
+          "en": "Both are owned by the U.S. according to some versions of the story in an early draft of the book",
+          "zh": "两者都归美国所有（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,12 +252,24 @@
         "zh": "作者提出“世界之巅该属于谁？”是为了——"
       },
       "options": [
-        {"en": "sell the North Pole", "zh": "出售北极"},
-        {"en": "make readers think about cooperation versus competition", "zh": "促使读者思考合作与竞争的问题"},
-        {"en": "prove the U.S. owns it", "zh": "证明美国拥有它"},
-        {"en": "describe a map", "zh": "描述一张地图"}
+        {
+          "en": "make readers think about cooperation versus competition",
+          "zh": "促使读者思考合作与竞争的问题"
+        },
+        {
+          "en": "prove the U.S. owns it according to some versions of the story",
+          "zh": "证明美国拥有它（按书中另一种说法）"
+        },
+        {
+          "en": "describe a map",
+          "zh": "描述一张地图"
+        },
+        {
+          "en": "sell the North Pole",
+          "zh": "出售北极"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The question invites readers to weigh peaceful cooperation against competition for control.",
@@ -174,10 +282,22 @@
         "zh": "本书对北极的未来作何判断？"
       },
       "options": [
-        {"en": "It will stay frozen forever", "zh": "它将永远冰封"},
-        {"en": "As it thaws, countries' interest in its resources will only grow", "zh": "随着冰层融化，各国对其资源的兴趣只会有增无减"},
-        {"en": "No one cares about it", "zh": "没人关心它"},
-        {"en": "It belongs only to animals", "zh": "它只属于动物"}
+        {
+          "en": "No one cares about it",
+          "zh": "没人关心它"
+        },
+        {
+          "en": "As it thaws, countries' interest in its resources will only grow",
+          "zh": "随着冰层融化，各国对其资源的兴趣只会有增无减"
+        },
+        {
+          "en": "It will stay frozen forever according to some versions of the story in an early draft of the book",
+          "zh": "它将永远冰封（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It belongs only to animals",
+          "zh": "它只属于动物"
+        }
       ],
       "answer": 1,
       "skill": "Author's Purpose and Perspective",

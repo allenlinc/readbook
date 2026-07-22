@@ -17,16 +17,16 @@
           "zh": "猎豹"
         },
         {
+          "en": "A sailfish",
+          "zh": "旗鱼"
+        },
+        {
           "en": "A horse",
           "zh": "马"
         },
         {
           "en": "A peregrine falcon",
           "zh": "游隼"
-        },
-        {
-          "en": "A sailfish",
-          "zh": "旗鱼"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "A boat sinking",
-          "zh": "船下沉"
-        },
-        {
           "en": "A boat skimming over the surface and barely touching the water",
           "zh": "船贴着水面滑行、几乎不接触水"
         },
         {
-          "en": "A plane landing on water",
-          "zh": "飞机在水面降落"
-        },
-        {
           "en": "Sailing against the wind",
           "zh": "逆风航行"
+        },
+        {
+          "en": "A plane landing on water according to some versions of the story",
+          "zh": "飞机在水面降落（按书中另一种说法）"
+        },
+        {
+          "en": "A boat sinking",
+          "zh": "船下沉"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains hydroplaning means modern racing boats 'barely touch the water as they skim over the surface.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A cheetah",
-          "zh": "猎豹"
-        },
-        {
-          "en": "A sailfish",
-          "zh": "旗鱼"
+          "en": "A sailfish according to some versions of the story",
+          "zh": "旗鱼（按书中另一种说法）"
         },
         {
           "en": "A peregrine falcon",
           "zh": "游隼"
         },
         {
+          "en": "A cheetah",
+          "zh": "猎豹"
+        },
+        {
           "en": "A human",
           "zh": "人类"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the peregrine falcon 'reaches speeds of 435 kph' diving—faster than cheetahs (113 kph) and sailfish (113 kph).",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "63.13 kph (39.24 mph) by an electric car",
-          "zh": "电动汽车创造的每小时63.13公里（39.24英里）"
-        },
-        {
-          "en": "1,228 kph (763 mph)",
-          "zh": "每小时1228公里（763英里）"
-        },
-        {
-          "en": "320 kph (200 mph)",
-          "zh": "每小时320公里（200英里）"
+          "en": "1,228 kph (763 mph) according to some versions of the story",
+          "zh": "每小时1228公里（763英里）（按书中另一种说法）"
         },
         {
           "en": "40 kph (25 mph)",
           "zh": "每小时40公里（25英里）"
+        },
+        {
+          "en": "63.13 kph (39.24 mph) by an electric car",
+          "zh": "电动汽车创造的每小时63.13公里（39.24英里）"
+        },
+        {
+          "en": "320 kph (200 mph)",
+          "zh": "每小时320公里（200英里）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the first recognized automobile land-speed record, set in 1898, was '63.13 kph' by an electric motor.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "To show that light is slow",
-          "zh": "为了说明光很慢"
-        },
-        {
           "en": "To give an example of something measured in very large units over a very short time",
           "zh": "为了举例说明某些事物使用很大的距离单位和很短的时间单位来计量"
         },
         {
-          "en": "To explain how a car works",
-          "zh": "为了解释汽车如何运作"
+          "en": "To show that light is slow",
+          "zh": "为了说明光很慢"
         },
         {
           "en": "To describe a rocket",
           "zh": "为了描述火箭"
+        },
+        {
+          "en": "To explain how a car works according to some versions of the story in an early draft of the book",
+          "zh": "为了解释汽车如何运作（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author uses light as the fastest thing in the universe to show that faster objects are measured in larger distance units over shorter time.",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "Charles Murphy",
-          "zh": "查尔斯·墨菲"
+          "en": "A bullet-train driver according to some versions of the story",
+          "zh": "子弹头列车驾驶员（按书中另一种说法）"
         },
         {
           "en": "Andy Green in the Thrust SSC",
           "zh": "驾驶Thrust SSC的安迪·格林"
         },
         {
-          "en": "Malcolm Campbell",
-          "zh": "马尔科姆·坎贝尔"
+          "en": "Charles Murphy",
+          "zh": "查尔斯·墨菲"
         },
         {
-          "en": "A bullet-train driver",
-          "zh": "子弹头列车驾驶员"
+          "en": "Malcolm Campbell",
+          "zh": "马尔科姆·坎贝尔"
         }
       ],
       "answer": 1,
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "They were too heavy",
-          "zh": "它们太重了"
+          "en": "They had no wheels",
+          "zh": "它们没有轮子"
         },
         {
           "en": "Air resistance pushed back harder as speed increased",
           "zh": "速度越快，空气阻力推得越厉害"
         },
         {
-          "en": "They had no wheels",
-          "zh": "它们没有轮子"
+          "en": "They were too heavy",
+          "zh": "它们太重了"
         },
         {
-          "en": "The riders got too tired",
-          "zh": "骑行者太累了"
+          "en": "The riders got too tired according to some versions of the story",
+          "zh": "骑行者太累了（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "How to build a rocket",
-          "zh": "如何建造火箭"
+          "en": "Why cheetahs are slow according to some versions of the story in an early draft of the book",
+          "zh": "为什么猎豹很慢（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "Speed—how it is measured and how different things move fast",
-          "zh": "速度——它如何被衡量，以及不同事物如何快速移动"
+          "en": "How to build a rocket",
+          "zh": "如何建造火箭"
         },
         {
           "en": "The history of trains",
           "zh": "火车的历史"
         },
         {
-          "en": "Why cheetahs are slow",
-          "zh": "为什么猎豹很慢"
+          "en": "Speed—how it is measured and how different things move fast",
+          "zh": "速度——它如何被衡量，以及不同事物如何快速移动"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book compares how speed is measured and how living things, vehicles, and even light move at different speeds.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Nearly 320 kph (200 mph)",
-          "zh": "接近每小时320公里（200英里）"
-        },
-        {
-          "en": "65 kph (40 mph)",
-          "zh": "每小时65公里（40英里）"
+          "en": "45,062 kph (28,000 mph)",
+          "zh": "每小时45,062公里（28,000英里）"
         },
         {
           "en": "Over 800 kph right now",
           "zh": "目前已经超过每小时800公里"
         },
         {
-          "en": "45,062 kph (28,000 mph)",
-          "zh": "每小时45,062公里（28,000英里）"
+          "en": "65 kph (40 mph)",
+          "zh": "每小时65公里（40英里）"
+        },
+        {
+          "en": "Nearly 320 kph (200 mph)",
+          "zh": "接近每小时320公里（200英里）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says modern bullet trains 'now travel at speeds of nearly 320 kilometers per hour.'",
@@ -283,6 +283,10 @@
       },
       "options": [
         {
+          "en": "Rockets will be banned",
+          "zh": "火箭将被禁止"
+        },
+        {
           "en": "Cheetahs will get faster",
           "zh": "猎豹会变得更快"
         },
@@ -291,15 +295,11 @@
           "zh": "人类会不断找到提速的新方法，甚至接近光速"
         },
         {
-          "en": "Speed records are finished",
-          "zh": "速度纪录已经到头了"
-        },
-        {
-          "en": "Rockets will be banned",
-          "zh": "火箭将被禁止"
+          "en": "Speed records are finished according to some versions of the story in an early draft of the book",
+          "zh": "速度纪录已经到头了（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The conclusion says humans 'will continue to find ways to go faster' and one day may travel at the speed of light.",

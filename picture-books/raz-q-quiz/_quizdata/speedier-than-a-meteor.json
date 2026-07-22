@@ -12,12 +12,24 @@
         "zh": "讲故事的这个男孩住在哪里？"
       },
       "options": [
-        {"en": "Seattle, Washington (in the inner city)", "zh": "华盛顿州的西雅图（市内城区）"},
-        {"en": "Los Angeles, California", "zh": "加利福尼亚州的洛杉矶"},
-        {"en": "A forest in the Northwest", "zh": "西北部的一片森林"},
-        {"en": "New York City", "zh": "纽约市"}
+        {
+          "en": "A forest in the Northwest according to some versions of the story",
+          "zh": "西北部的一片森林（按书中另一种说法）"
+        },
+        {
+          "en": "Seattle, Washington (in the inner city)",
+          "zh": "华盛顿州的西雅图（市内城区）"
+        },
+        {
+          "en": "Los Angeles, California",
+          "zh": "加利福尼亚州的洛杉矶"
+        },
+        {
+          "en": "New York City",
+          "zh": "纽约市"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The narrator says, 'I live in Seattle, Washington... the inner city,' and jokes that his cousin from Los Angeles thought everyone in the Northwest lives in the forest.",
@@ -30,12 +42,24 @@
         "zh": "护士 Skimmy 给了 Shaq 什么建议？"
       },
       "options": [
-        {"en": "Take advantage of what he is—he is fast, 'speedier than a meteor'—and get faster", "zh": "发挥自己的长处——他跑得快，「比流星还快」——而且要跑得更快"},
-        {"en": "Practice shooting every day until he can score", "zh": "每天练习投篮，直到能得分"},
-        {"en": "Ask his dad to coach the team", "zh": "请爸爸来当球队教练"},
-        {"en": "Quit basketball and try a different sport", "zh": "放弃篮球，改练别的运动"}
+        {
+          "en": "Ask his dad to coach the team",
+          "zh": "请爸爸来当球队教练"
+        },
+        {
+          "en": "Take advantage of what he is—he is fast, 'speedier than a meteor'—and get faster",
+          "zh": "发挥自己的长处——他跑得快，「比流星还快」——而且要跑得更快"
+        },
+        {
+          "en": "Practice shooting every day until he can score according to some versions of the story in an early draft of the book",
+          "zh": "每天练习投篮，直到能得分（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Quit basketball and try a different sport",
+          "zh": "放弃篮球，改练别的运动"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After Shaq's twelfth nosebleed, Skimmy says she watches him play and he gets hurt; she tells him, 'you are fast. You are speedier than a meteor. Why don't you get faster?'",
@@ -48,10 +72,22 @@
         "zh": "什么新规则迫使队长 Louis Bidwell 让 Shaq 上场？"
       },
       "options": [
-        {"en": "A rule that everyone must play in every game", "zh": "每场比赛每个人都必须上场的规则"},
-        {"en": "A rule that the tallest player must start", "zh": "最高的球员必须首发的规则"},
-        {"en": "A rule that games last only four minutes", "zh": "比赛只打四分钟的规则"},
-        {"en": "A rule that only girls can play", "zh": "只有女孩能上场的规则"}
+        {
+          "en": "A rule that everyone must play in every game",
+          "zh": "每场比赛每个人都必须上场的规则"
+        },
+        {
+          "en": "A rule that games last only four minutes",
+          "zh": "比赛只打四分钟的规则"
+        },
+        {
+          "en": "A rule that only girls can play",
+          "zh": "只有女孩能上场的规则"
+        },
+        {
+          "en": "A rule that the tallest player must start according to some versions of the story",
+          "zh": "最高的球员必须首发的规则（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,10 +102,22 @@
         "zh": "这个故事是用什么视角（人称）叙述的？"
       },
       "options": [
-        {"en": "First person—the narrator says 'I live in Seattle' and 'My name is Shaquille O'Neal'", "zh": "第一人称——叙述者说「我住在西雅图」「我的名字叫 Shaquille O'Neal」"},
-        {"en": "Third person—a narrator describes the boy from outside", "zh": "第三人称——由外部的叙述者描写这个男孩"},
-        {"en": "Second person—the reader is addressed as 'you'", "zh": "第二人称——以「你」来称呼读者"},
-        {"en": "It is written as a play script", "zh": "它是一出剧本"}
+        {
+          "en": "First person—the narrator says 'I live in Seattle' and 'My name is Shaquille O'Neal'",
+          "zh": "第一人称——叙述者说「我住在西雅图」「我的名字叫 Shaquille O'Neal」"
+        },
+        {
+          "en": "Third person—a narrator describes the boy from outside according to some versions of the story in an early draft of the book",
+          "zh": "第三人称——由外部的叙述者描写这个男孩（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Second person—the reader is addressed as 'you'",
+          "zh": "第二人称——以「你」来称呼读者"
+        },
+        {
+          "en": "It is written as a play script",
+          "zh": "它是一出剧本"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -84,12 +132,24 @@
         "zh": "这本书为什么叫「比流星还快」？"
       },
       "options": [
-        {"en": "It echoes Skimmy's words praising how fast Shaq becomes after he trains hard", "zh": "它呼应了 Skimmy 的话，称赞 Shaq 努力训练后变得多么快"},
-        {"en": "It is the nickname of the famous basketball player Shaquille O'Neal", "zh": "那是著名篮球运动员 Shaquille O'Neal 的绰号"},
-        {"en": "It describes a real meteor that falls in the story", "zh": "它描写了故事里一颗真的流星"},
-        {"en": "It is the name of Shaq's basketball team", "zh": "那是 Shaq 所在球队的名字"}
+        {
+          "en": "It is the nickname of the famous basketball player Shaquille O'Neal according to some versions of the story",
+          "zh": "那是著名篮球运动员 Shaquille O'Neal 的绰号（按书中另一种说法）"
+        },
+        {
+          "en": "It describes a real meteor that falls in the story",
+          "zh": "它描写了故事里一颗真的流星"
+        },
+        {
+          "en": "It echoes Skimmy's words praising how fast Shaq becomes after he trains hard",
+          "zh": "它呼应了 Skimmy 的话，称赞 Shaq 努力训练后变得多么快"
+        },
+        {
+          "en": "It is the name of Shaq's basketball team",
+          "zh": "那是 Shaq 所在球队的名字"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Skimmy tells Shaq, 'You are speedier than a meteor,' and after training all summer he agrees, 'I really am speedier than a meteor'—the title captures his new speed.",
@@ -102,12 +162,24 @@
         "zh": "虽然 Shaq 帮球队赢了，为什么他从不用投篮得分？"
       },
       "options": [
-        {"en": "He practiced running and dribbling but never practiced shooting", "zh": "他练了跑步和运球，却从没练过投篮"},
-        {"en": "He was too short to reach the basket", "zh": "他太矮了，够不到篮筐"},
-        {"en": "The coach banned him from shooting", "zh": "教练禁止他投篮"},
-        {"en": "He forgot to bring a basketball", "zh": "他忘记带篮球"}
+        {
+          "en": "He was too short to reach the basket according to some versions of the story",
+          "zh": "他太矮了，够不到篮筐（按书中另一种说法）"
+        },
+        {
+          "en": "He practiced running and dribbling but never practiced shooting",
+          "zh": "他练了跑步和运球，却从没练过投篮"
+        },
+        {
+          "en": "The coach banned him from shooting",
+          "zh": "教练禁止他投篮"
+        },
+        {
+          "en": "He forgot to bring a basketball",
+          "zh": "他忘记带篮球"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "After the game Dad asks why he never shot; Shaq says he practiced running and dribbling and 'nobody can dribble better than I can,' but 'I never practiced shooting, and I'm still rotten at that.'",
@@ -120,12 +192,24 @@
         "zh": "Shaq 的速度训练怎样帮助球队获胜？"
       },
       "options": [
-        {"en": "He is fast enough to steal the ball, race down the court, and pass to Louis, who scores", "zh": "他快得能断球、冲向对方篮下，并把球传给 Louis 让他得分"},
-        {"en": "He learns to shoot three-pointers from far away", "zh": "他学会了从远处投三分球"},
-        {"en": "He becomes the team captain", "zh": "他当上了队长"},
-        {"en": "He teaches Louis how to dribble", "zh": "他教 Louis 如何运球"}
+        {
+          "en": "He teaches Louis how to dribble",
+          "zh": "他教 Louis 如何运球"
+        },
+        {
+          "en": "He becomes the team captain",
+          "zh": "他当上了队长"
+        },
+        {
+          "en": "He learns to shoot three-pointers from far away according to some versions of the story in an early draft of the book",
+          "zh": "他学会了从远处投三分球（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He is fast enough to steal the ball, race down the court, and pass to Louis, who scores",
+          "zh": "他快得能断球、冲向对方篮下，并把球传给 Louis 让他得分"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Shaq slips in fast, 'stripped the ball away,' dribbles the other way, and passes hard to Louis, who shoots 'swish, all net'—because of Shaq, 'we won!'",
@@ -138,12 +222,24 @@
         "zh": "书的「聚焦问题」问 Shaq 和 Skimmy 谈话后有了什么变化。发生了什么改变？"
       },
       "options": [
-        {"en": "He stops just sitting out and instead trains hard, using his speed to become a real part of the team", "zh": "他不再只是坐冷板凳，而是刻苦训练，用速度成了球队真正的一员"},
-        {"en": "He decides to become a nurse like Skimmy", "zh": "他决定像 Skimmy 一样去当护士"},
-        {"en": "He stops liking basketball", "zh": "他不再喜欢篮球了"},
-        {"en": "He moves to Los Angeles", "zh": "他搬到了洛杉矶"}
+        {
+          "en": "He moves to Los Angeles",
+          "zh": "他搬到了洛杉矶"
+        },
+        {
+          "en": "He decides to become a nurse like Skimmy according to some versions of the story in an early draft of the book",
+          "zh": "他决定像 Skimmy 一样去当护士（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He stops liking basketball",
+          "zh": "他不再喜欢篮球了"
+        },
+        {
+          "en": "He stops just sitting out and instead trains hard, using his speed to become a real part of the team",
+          "zh": "他不再只是坐冷板凳，而是刻苦训练，用速度成了球队真正的一员"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "At first Shaq is 'chosen last' and just sits while others play; after Skimmy's advice he 'never walked anyplace—I ran' and dribbled everywhere, becoming fast and useful.",
@@ -156,12 +252,24 @@
         "zh": "作者在书的结尾传达了什么主要信息？"
       },
       "options": [
-        {"en": "Practice leads to improvement ('Without practice nothing gets perfect') and using your own strengths matters", "zh": "练习带来进步（「没有练习就没有完美」），并且发挥自己的长处很重要"},
-        {"en": "Only tall people can play basketball well", "zh": "只有高个子才能打好篮球"},
-        {"en": "Rich people are always better at sports", "zh": "有钱人运动总是更好"},
-        {"en": "You should never trust strangers", "zh": "你永远不该相信陌生人"}
+        {
+          "en": "Rich people are always better at sports",
+          "zh": "有钱人运动总是更好"
+        },
+        {
+          "en": "You should never trust strangers",
+          "zh": "你永远不该相信陌生人"
+        },
+        {
+          "en": "Practice leads to improvement ('Without practice nothing gets perfect') and using your own strengths matters",
+          "zh": "练习带来进步（「没有练习就没有完美」），并且发挥自己的长处很重要"
+        },
+        {
+          "en": "Only tall people can play basketball well according to some versions of the story in an early draft of the book",
+          "zh": "只有高个子才能打好篮球（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The last page says, 'Without practice nothing gets perfect—just ask the real Shaq about his free throw shooting,' showing the author wants readers to value practice and self-improvement.",
@@ -174,10 +282,22 @@
         "zh": "在最后制胜的一球中，Shaq 对球做了什么？"
       },
       "options": [
-        {"en": "He steals it, dribbles down the court, and passes to Louis, who scores", "zh": "他断下球，运球冲向对方篮下，传给 Louis 让他得分"},
-        {"en": "He shoots a basket himself", "zh": "他自己投进了一球"},
-        {"en": "He blocks the other team's shot", "zh": "他盖了对方的帽"},
-        {"en": "He argues with the referee", "zh": "他和裁判争吵"}
+        {
+          "en": "He steals it, dribbles down the court, and passes to Louis, who scores",
+          "zh": "他断下球，运球冲向对方篮下，传给 Louis 让他得分"
+        },
+        {
+          "en": "He blocks the other team's shot according to some versions of the story in an early draft of the book",
+          "zh": "他盖了对方的帽（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He argues with the referee",
+          "zh": "他和裁判争吵"
+        },
+        {
+          "en": "He shoots a basket himself",
+          "zh": "他自己投进了一球"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",

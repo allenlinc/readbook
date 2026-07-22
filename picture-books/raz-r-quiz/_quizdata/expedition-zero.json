@@ -7,131 +7,320 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en": "At what line of latitude does Expedition Zero travel?", "zh": "“零度探险”沿哪条纬度线旅行？"},
+      "q": {
+        "en": "At what line of latitude does Expedition Zero travel?",
+        "zh": "“零度探险”沿哪条纬度线旅行？"
+      },
       "options": [
-        {"en": "Zero degrees latitude, the equator", "zh": "零度纬度，也就是赤道"},
-        {"en": "Sixty degrees north latitude", "zh": "北纬 60 度"},
-        {"en": "Twenty-five degrees south latitude", "zh": "南纬 25 度"},
-        {"en": "The Arctic Circle", "zh": "北极圈"}
+        {
+          "en": "Zero degrees latitude, the equator",
+          "zh": "零度纬度，也就是赤道"
+        },
+        {
+          "en": "Sixty degrees north latitude",
+          "zh": "北纬 60 度"
+        },
+        {
+          "en": "The Arctic Circle",
+          "zh": "北极圈"
+        },
+        {
+          "en": "Twenty-five degrees south latitude according to some versions of the story",
+          "zh": "南纬 25 度（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says, 'You will be traveling at zero degrees latitude along the equator.'", "zh": "书中说：'你将沿着零度纬度、也就是赤道旅行。'"}
+      "explain": {
+        "en": "The book says, 'You will be traveling at zero degrees latitude along the equator.'",
+        "zh": "书中说：'你将沿着零度纬度、也就是赤道旅行。'"
+      }
     },
     {
-      "q": {"en": "Why do many people in the Amazon rainforest build their homes on stilts?", "zh": "亚马逊雨林中的许多人为何把房屋建在木桩上？"},
+      "q": {
+        "en": "Why do many people in the Amazon rainforest build their homes on stilts?",
+        "zh": "亚马逊雨林中的许多人为何把房屋建在木桩上？"
+      },
       "options": [
-        {"en": "Because the water level can rise or fall as much as thirty feet", "zh": "因为水位可能上升或下降多达三十英尺"},
-        {"en": "To keep monkeys from entering", "zh": "为了防止猴子进入"},
-        {"en": "Because there is no wood on the ground", "zh": "因为地面上没有木头"},
-        {"en": "To catch more sunlight", "zh": "为了接收更多阳光"}
+        {
+          "en": "To catch more sunlight",
+          "zh": "为了接收更多阳光"
+        },
+        {
+          "en": "To keep monkeys from entering",
+          "zh": "为了防止猴子进入"
+        },
+        {
+          "en": "Because the water level can rise or fall as much as thirty feet",
+          "zh": "因为水位可能上升或下降多达三十英尺"
+        },
+        {
+          "en": "Because there is no wood on the ground according to some versions of the story",
+          "zh": "因为地面上没有木头（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says, 'Because the level of the water can rise or fall as much as thirty feet, people build their homes on stilts.'", "zh": "书中说：'因为水位可能上升或下降多达三十英尺，人们把房屋建在木桩上。'"}
+      "explain": {
+        "en": "The book says, 'Because the level of the water can rise or fall as much as thirty feet, people build their homes on stilts.'",
+        "zh": "书中说：'因为水位可能上升或下降多达三十英尺，人们把房屋建在木桩上。'"
+      }
     },
     {
-      "q": {"en": "In this book, what are 'terraces'?", "zh": "在本书中，'terraces'（梯田）是什么？"},
+      "q": {
+        "en": "In this book, what are 'terraces'?",
+        "zh": "在本书中，'terraces'（梯田）是什么？"
+      },
       "options": [
-        {"en": "Wide stairs cut into a hillside to make flat ground for farming", "zh": "在山坡上开垦出的、像宽大台阶一样的平地，用于耕种"},
-        {"en": "Tall towers built for watching the ocean", "zh": "为瞭望海洋而建的高塔"},
-        {"en": "Boats used on the Amazon River", "zh": "在亚马逊河上使用的船"},
-        {"en": "A type of tropical fruit", "zh": "一种热带水果"}
+        {
+          "en": "Wide stairs cut into a hillside to make flat ground for farming",
+          "zh": "在山坡上开垦出的、像宽大台阶一样的平地，用于耕种"
+        },
+        {
+          "en": "Boats used on the Amazon River",
+          "zh": "在亚马逊河上使用的船"
+        },
+        {
+          "en": "A type of tropical fruit",
+          "zh": "一种热带水果"
+        },
+        {
+          "en": "Tall towers built for watching the ocean according to some versions of the story",
+          "zh": "为瞭望海洋而建的高塔（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
-      "explain": {"en": "The glossary defines terraces as 'wide stairs cut into a hillside to make flat ground for farming,' such as the rice terraces on Bali.", "zh": "词汇表将 terraces 定义为'在山坡上开垦出的、像宽大台阶一样的平地，用于耕种'，例如巴厘岛的稻米梯田。"}
+      "explain": {
+        "en": "The glossary defines terraces as 'wide stairs cut into a hillside to make flat ground for farming,' such as the rice terraces on Bali.",
+        "zh": "词汇表将 terraces 定义为'在山坡上开垦出的、像宽大台阶一样的平地，用于耕种'，例如巴厘岛的稻米梯田。"
+      }
     },
     {
-      "q": {"en": "Why was the traveler surprised to find snow on Mount Kenya even though it is on the equator?", "zh": "为什么旅行者明明在赤道上，却惊讶地在肯尼亚山发现了积雪？"},
+      "q": {
+        "en": "Why was the traveler surprised to find snow on Mount Kenya even though it is on the equator?",
+        "zh": "为什么旅行者明明在赤道上，却惊讶地在肯尼亚山发现了积雪？"
+      },
       "options": [
-        {"en": "Mount Kenya is very high (17,040 feet), so its top is cold enough for snow", "zh": "肯尼亚山非常高（17,040 英尺），山顶足够寒冷，因此有积雪"},
-        {"en": "It was the middle of winter there", "zh": "那里当时是隆冬"},
-        {"en": "A glacier moved down from the North Pole", "zh": "一座冰川从北极移动了下来"},
-        {"en": "The equator is always freezing", "zh": "赤道总是冰天雪地"}
+        {
+          "en": "Mount Kenya is very high (17,040 feet), so its top is cold enough for snow",
+          "zh": "肯尼亚山非常高（17,040 英尺），山顶足够寒冷，因此有积雪"
+        },
+        {
+          "en": "The equator is always freezing",
+          "zh": "赤道总是冰天雪地"
+        },
+        {
+          "en": "It was the middle of winter there",
+          "zh": "那里当时是隆冬"
+        },
+        {
+          "en": "A glacier moved down from the North Pole according to some versions of the story in an early draft of the book",
+          "zh": "一座冰川从北极移动了下来（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The book says the hiker reaches snow 'even though you're on the Equator' because Mount Kenya 'rises to a height of 17,040 feet.'", "zh": "书中说，尽管在赤道上，登山者却遇到了雪，因为肯尼亚山'海拔高达 17,040 英尺'。"}
+      "explain": {
+        "en": "The book says the hiker reaches snow 'even though you're on the Equator' because Mount Kenya 'rises to a height of 17,040 feet.'",
+        "zh": "书中说，尽管在赤道上，登山者却遇到了雪，因为肯尼亚山'海拔高达 17,040 英尺'。"
+      }
     },
     {
-      "q": {"en": "What is foufou, a traditional food the traveler eats in the Congo?", "zh": "旅行者在刚果吃到的传统食物 foufou（富富）是什么？"},
+      "q": {
+        "en": "What is foufou, a traditional food the traveler eats in the Congo?",
+        "zh": "旅行者在刚果吃到的传统食物 foufou（富富）是什么？"
+      },
       "options": [
-        {"en": "A ball made of plantain, yam, or cassava paste, served with fish or goat meat", "zh": "用大蕉、山药或木薯捣成糊后揉成的球，配鱼或山羊肉食用"},
-        {"en": "A sweet dessert made of orchids", "zh": "用兰花做成的甜点"},
-        {"en": "A kind of tropical fruit soda", "zh": "一种热带水果汽水"},
-        {"en": "Fried rice from Bali", "zh": "巴厘岛的炒饭"}
+        {
+          "en": "A kind of tropical fruit soda",
+          "zh": "一种热带水果汽水"
+        },
+        {
+          "en": "A ball made of plantain, yam, or cassava paste, served with fish or goat meat",
+          "zh": "用大蕉、山药或木薯捣成糊后揉成的球，配鱼或山羊肉食用"
+        },
+        {
+          "en": "A sweet dessert made of orchids according to some versions of the story in an early draft of the book",
+          "zh": "用兰花做成的甜点（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Fried rice from Bali",
+          "zh": "巴厘岛的炒饭"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says foufou is 'a dish made with plantain, yam, or cassava paste rolled into a ball and fried,' served with salted fish or barbecued goat meat.", "zh": "书中说，foufou 是'用大蕉、山药或木薯捣成糊后揉成球再油炸'的菜肴，配咸鱼或烧烤山羊肉。"}
+      "explain": {
+        "en": "The book says foufou is 'a dish made with plantain, yam, or cassava paste rolled into a ball and fried,' served with salted fish or barbecued goat meat.",
+        "zh": "书中说，foufou 是'用大蕉、山药或木薯捣成糊后揉成球再油炸'的菜肴，配咸鱼或烧烤山羊肉。"
+      }
     },
     {
-      "q": {"en": "How is this book organized?", "zh": "这本书是如何组织内容的？"},
+      "q": {
+        "en": "How is this book organized?",
+        "zh": "这本书是如何组织内容的？"
+      },
       "options": [
-        {"en": "As a travel journey visiting different places along the equator", "zh": "以一次沿着赤道走访不同地方的旅行来展开"},
-        {"en": "As a list of science experiments", "zh": "以一系列科学实验的列表来展开"},
-        {"en": "As a biography of one explorer", "zh": "以一位探险家的传记来展开"},
-        {"en": "As a poem about the ocean", "zh": "以一首关于海洋的诗来展开"}
+        {
+          "en": "As a poem about the ocean",
+          "zh": "以一首关于海洋的诗来展开"
+        },
+        {
+          "en": "As a travel journey visiting different places along the equator",
+          "zh": "以一次沿着赤道走访不同地方的旅行来展开"
+        },
+        {
+          "en": "As a list of science experiments according to some versions of the story",
+          "zh": "以一系列科学实验的列表来展开（按书中另一种说法）"
+        },
+        {
+          "en": "As a biography of one explorer",
+          "zh": "以一位探险家的传记来展开"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
-      "explain": {"en": "The book is written as a first-person 'expedition' that travels from Singapore to Java, Bali, the Amazon, the Congo, and Kenya along the equator.", "zh": "本书以第一人称的'探险'形式，沿着赤道从新加坡到爪哇、巴厘岛、亚马逊、刚果，再到肯尼亚。"}
+      "explain": {
+        "en": "The book is written as a first-person 'expedition' that travels from Singapore to Java, Bali, the Amazon, the Congo, and Kenya along the equator.",
+        "zh": "本书以第一人称的'探险'形式，沿着赤道从新加坡到爪哇、巴厘岛、亚马逊、刚果，再到肯尼亚。"
+      }
     },
     {
-      "q": {"en": "Why are there very few roads and farms in the Amazon rainforest region?", "zh": "为什么亚马逊雨林地区几乎没有公路和农田？"},
+      "q": {
+        "en": "Why are there very few roads and farms in the Amazon rainforest region?",
+        "zh": "为什么亚马逊雨林地区几乎没有公路和农田？"
+      },
       "options": [
-        {"en": "The forest is too thick and the soil is too poor for farming", "zh": "森林太茂密，而且土壤太贫瘠，不适合耕种"},
-        {"en": "People are not allowed to build there", "zh": "那里不允许人们建造任何东西"},
-        {"en": "It never stops raining", "zh": "那里从不停雨"},
-        {"en": "The equator makes the land too hot to stand", "zh": "赤道让土地太热，无法站立"}
+        {
+          "en": "It never stops raining",
+          "zh": "那里从不停雨"
+        },
+        {
+          "en": "The forest is too thick and the soil is too poor for farming",
+          "zh": "森林太茂密，而且土壤太贫瘠，不适合耕种"
+        },
+        {
+          "en": "People are not allowed to build there",
+          "zh": "那里不允许人们建造任何东西"
+        },
+        {
+          "en": "The equator makes the land too hot to stand according to some versions of the story",
+          "zh": "赤道让土地太热，无法站立（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The book says, 'You see almost no farms in this region—the forest is too thick, and the soil is too poor.'", "zh": "书中说：'你在这里几乎看不到农田——森林太茂密，而且土壤太贫瘠。'"}
+      "explain": {
+        "en": "The book says, 'You see almost no farms in this region—the forest is too thick, and the soil is too poor.'",
+        "zh": "书中说：'你在这里几乎看不到农田——森林太茂密，而且土壤太贫瘠。'"
+      }
     },
     {
-      "q": {"en": "Which city in the book is described as having many skyscrapers and one of the world's busiest harbors?", "zh": "本书中哪座城市被描述为拥有许多摩天大楼和世界上最繁忙的港口之一？"},
+      "q": {
+        "en": "Which city in the book is described as having many skyscrapers and one of the world's busiest harbors?",
+        "zh": "本书中哪座城市被描述为拥有许多摩天大楼和世界上最繁忙的港口之一？"
+      },
       "options": [
-        {"en": "Singapore", "zh": "新加坡"},
-        {"en": "Manaus", "zh": "马瑙斯"},
-        {"en": "Kinshasa", "zh": "金沙萨"},
-        {"en": "Nanyuki", "zh": "纳纽基"}
+        {
+          "en": "Manaus",
+          "zh": "马瑙斯"
+        },
+        {
+          "en": "Kinshasa according to some versions of the story",
+          "zh": "金沙萨（按书中另一种说法）"
+        },
+        {
+          "en": "Nanyuki",
+          "zh": "纳纽基"
+        },
+        {
+          "en": "Singapore",
+          "zh": "新加坡"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says of Singapore, 'Its shiny skyscrapers make this small island country look very large... Singapore has one of the world's busiest ports.'", "zh": "书中写到新加坡：'闪亮的摩天大楼让这个小小的岛国显得很大……新加坡拥有世界上最繁忙的港口之一。'"}
+      "explain": {
+        "en": "The book says of Singapore, 'Its shiny skyscrapers make this small island country look very large... Singapore has one of the world's busiest ports.'",
+        "zh": "书中写到新加坡：'闪亮的摩天大楼让这个小小的岛国显得很大……新加坡拥有世界上最繁忙的港口之一。'"
+      }
     },
     {
-      "q": {"en": "What is the author's main purpose in writing Expedition Zero?", "zh": "作者写《零度探险》的主要目的是什么？"},
+      "q": {
+        "en": "What is the author's main purpose in writing Expedition Zero?",
+        "zh": "作者写《零度探险》的主要目的是什么？"
+      },
       "options": [
-        {"en": "To describe a journey around the equator and the variety of life and cultures there", "zh": "描述一次环绕赤道的旅程，以及那里丰富多样的生物与文化"},
-        {"en": "To teach readers how to cook foufou", "zh": "教读者如何烹饪富富"},
-        {"en": "To argue that the equator is the best place to live", "zh": "论证赤道是最佳居住地"},
-        {"en": "To explain how to build a spaceship", "zh": "解释如何建造宇宙飞船"}
+        {
+          "en": "To explain how to build a spaceship",
+          "zh": "解释如何建造宇宙飞船"
+        },
+        {
+          "en": "To teach readers how to cook foufou",
+          "zh": "教读者如何烹饪富富"
+        },
+        {
+          "en": "To describe a journey around the equator and the variety of life and cultures there",
+          "zh": "描述一次环绕赤道的旅程，以及那里丰富多样的生物与文化"
+        },
+        {
+          "en": "To argue that the equator is the best place to live according to some versions of the story",
+          "zh": "论证赤道是最佳居住地（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The book is a travelogue showing 'the world is full of variety, even on the same latitude line,' visiting many cultures along the equator.", "zh": "本书是一篇游记，展示了'即使在同一条纬度线上，世界也充满多样性'，沿途走访了赤道上的多种文化。"}
+      "explain": {
+        "en": "The book is a travelogue showing 'the world is full of variety, even on the same latitude line,' visiting many cultures along the equator.",
+        "zh": "本书是一篇游记，展示了'即使在同一条纬度线上，世界也充满多样性'，沿途走访了赤道上的多种文化。"
+      }
     },
     {
-      "q": {"en": "What does the book say is special about day and night at the equator?", "zh": "本书说赤道上的白天和黑夜有什么特别之处？"},
+      "q": {
+        "en": "What does the book say is special about day and night at the equator?",
+        "zh": "本书说赤道上的白天和黑夜有什么特别之处？"
+      },
       "options": [
-        {"en": "Each day and each night is close to twelve hours long all year", "zh": "一年到头，白天和黑夜都接近各十二小时长"},
-        {"en": "Days last forty-eight hours", "zh": "一天长达四十八小时"},
-        {"en": "There is no night at all", "zh": "那里根本没有夜晚"},
-        {"en": "Nights are twice as long as days", "zh": "夜晚是白天的两倍长"}
+        {
+          "en": "Nights are twice as long as days according to some versions of the story",
+          "zh": "夜晚是白天的两倍长（按书中另一种说法）"
+        },
+        {
+          "en": "Days last forty-eight hours",
+          "zh": "一天长达四十八小时"
+        },
+        {
+          "en": "There is no night at all",
+          "zh": "那里根本没有夜晚"
+        },
+        {
+          "en": "Each day and each night is close to twelve hours long all year",
+          "zh": "一年到头，白天和黑夜都接近各十二小时长"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The book's 'Do You Know?' note says, 'at the equator, each day (and each night) is very close to twelve hours long, no matter what season of the year it is.'", "zh": "书中的'你知道吗？'提到：'在赤道上，无论一年中的哪个季节，白天（和夜晚）都接近十二小时长。'"}
+      "explain": {
+        "en": "The book's 'Do You Know?' note says, 'at the equator, each day (and each night) is very close to twelve hours long, no matter what season of the year it is.'",
+        "zh": "书中的'你知道吗？'提到：'在赤道上，无论一年中的哪个季节，白天（和夜晚）都接近十二小时长。'"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en": "If you could take an expedition along the equator, which of the places in the book would you most want to visit, and what would you hope to see or do there?", "zh": "如果你能沿赤道去探险，书中提到的这些地方里你最想去哪里？你希望在那里看到什么或做什么？"},
+    "prompt": {
+      "en": "If you could take an expedition along the equator, which of the places in the book would you most want to visit, and what would you hope to see or do there?",
+      "zh": "如果你能沿赤道去探险，书中提到的这些地方里你最想去哪里？你希望在那里看到什么或做什么？"
+    },
     "guidance": {
-      "en": ["Name one place from the book (such as Singapore, Bali, the Amazon, the Congo, or Kenya).", "Describe one activity or sight you would look forward to there."],
-      "zh": ["说出书中提到的一个地方（如新加坡、巴厘岛、亚马逊、刚果或肯尼亚）。", "描述你会在那里期待的一项活动或景观。"]
+      "en": [
+        "Name one place from the book (such as Singapore, Bali, the Amazon, the Congo, or Kenya).",
+        "Describe one activity or sight you would look forward to there."
+      ],
+      "zh": [
+        "说出书中提到的一个地方（如新加坡、巴厘岛、亚马逊、刚果或肯尼亚）。",
+        "描述你会在那里期待的一项活动或景观。"
+      ]
     }
   }
 }

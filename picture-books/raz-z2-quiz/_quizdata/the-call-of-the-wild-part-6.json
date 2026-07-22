@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "Fresh, eager, and ready for another long hard run",
-          "zh": "精神饱满、跃跃欲试，准备再跑一段长路"
-        },
-        {
           "en": "Worn out, footsore, and on their last legs",
           "zh": "筋疲力尽、脚掌酸痛，已到强弩之末"
         },
@@ -25,11 +21,15 @@
           "zh": "像家里的宠物一样吃饱玩闹"
         },
         {
+          "en": "Fresh, eager, and ready for another long hard run",
+          "zh": "精神饱满、跃跃欲试，准备再跑一段长路"
+        },
+        {
           "en": "Ready to race the other dog teams",
           "zh": "做好准备去和其他狗队赛跑"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After twenty-five hundred miles with little rest, they arrived worn out and on their last legs.",
@@ -43,12 +43,12 @@
       },
       "options": [
         {
-          "en": "For a song, meaning a very small sum",
-          "zh": "for a song，即极少的钱"
-        },
-        {
           "en": "For a whole pile of gold dust left at the saloon",
           "zh": "在酒馆留下的一大堆金砂，这一点文中说得很明白"
+        },
+        {
+          "en": "For a song, meaning a very small sum",
+          "zh": "for a song，即极少的钱"
         },
         {
           "en": "For the man in the red sweater's debt",
@@ -59,7 +59,7 @@
           "zh": "换一句春天回来的承诺"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "They bought Buck and his mates, harness and all, for a song, since the dogs were worn out.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "His kind way with the tired old dogs",
-          "zh": "他对疲惫老狗温柔的做派，这是原文明确写到的"
-        },
-        {
-          "en": "His great skill at driving a sled",
-          "zh": "他驾驭雪橇的高超技巧"
-        },
-        {
           "en": "His love of reading by the fire",
           "zh": "他爱在火边读书"
         },
         {
           "en": "His big belt bristling with cartridges",
           "zh": "他那条插满子弹、鼓鼓囊囊的腰带"
+        },
+        {
+          "en": "His great skill at driving a sled",
+          "zh": "他驾驭雪橇的高超技巧"
+        },
+        {
+          "en": "His kind way with the tired old dogs",
+          "zh": "他对疲惫老狗温柔的做派，这是原文明确写到的"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Hal's cartridge-bristling belt was the most salient thing about him, showing his callowness.",
@@ -111,15 +111,15 @@
           "zh": "她比男人们更会驾橇"
         },
         {
-          "en": "She fluttered about and gave endless advice",
-          "zh": "她慌慌张张来回转，没完没了地出主意"
-        },
-        {
           "en": "She stayed in the tent and did nothing",
           "zh": "她待在帐篷里什么也不做"
+        },
+        {
+          "en": "She fluttered about and gave endless advice",
+          "zh": "她慌慌张张来回转，没完没了地出主意"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mercedes fluttered in the way and kept up an unbroken chattering of remonstrance and advice.",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "The trail was blocked by deep water according to some versions of the story",
+          "zh": "雪道被深积水挡住了（按书中另一种说法）"
+        },
+        {
           "en": "The dogs were too wild and bitten",
           "zh": "狗群太野，又带着伤"
         },
@@ -141,15 +145,11 @@
           "zh": "橇刃被冻死在雪地里"
         },
         {
-          "en": "The trail was blocked by deep water",
-          "zh": "雪道被深积水挡住了"
-        },
-        {
           "en": "The men forgot to harness the dogs",
           "zh": "男人们忘了给狗套挽具"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The overloaded sled would not move because the runners were frozen fast to the snow.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "They overfed, then ran short and underfed",
-          "zh": "他们先喂太多，随后短缺又喂太少"
+          "en": "They gave the dogs far too much rest",
+          "zh": "他们给狗太多的休息"
+        },
+        {
+          "en": "They fed the men but never the dogs according to some versions of the story",
+          "zh": "他们只喂人，从不喂狗，相关细节在书中有交代（按书中另一种说法）"
         },
         {
           "en": "They fed the dogs only once a week",
           "zh": "他们一周只喂狗一次"
         },
         {
-          "en": "They gave the dogs far too much rest",
-          "zh": "他们给狗太多的休息"
-        },
-        {
-          "en": "They fed the men but never the dogs",
-          "zh": "他们只喂人，从不喂狗，相关细节在书中有交代"
+          "en": "They overfed, then ran short and underfed",
+          "zh": "他们先喂太多，随后短缺又喂太少"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "They hastened shortage by overfeeding, then cut the ration and tried to travel farther.",
@@ -197,19 +197,19 @@
           "zh": "它们学得很快，还带了队"
         },
         {
-          "en": "They were sold back again at a tidy little profit",
-          "zh": "它们又被转卖，小赚了一笔"
+          "en": "Most died, unable to bear the North",
+          "zh": "大多数死了，熬不住北方"
         },
         {
           "en": "They were left to rest at Skaguay",
           "zh": "它们被留在斯卡贵休息"
         },
         {
-          "en": "Most died, unable to bear the North",
-          "zh": "大多数死了，熬不住北方"
+          "en": "They were sold back again at a tidy little profit",
+          "zh": "它们又被转卖，小赚了一笔"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Outside dogs were spirit-broken and untrained; most died on the trail.",
@@ -227,12 +227,12 @@
           "zh": "雪橇载不动供这么多狗吃的粮"
         },
         {
-          "en": "The dogs fought and bit the strange new strangers daily",
-          "zh": "狗群天天打架，还咬那些陌生新人"
-        },
-        {
           "en": "There was no trail wide enough for them",
           "zh": "没有够宽的雪道容得下它们"
+        },
+        {
+          "en": "The dogs fought and bit the strange new strangers daily",
+          "zh": "狗群天天打架，还咬那些陌生新人"
         },
         {
           "en": "The men preferred a team of two",
@@ -253,12 +253,12 @@
       },
       "options": [
         {
-          "en": "A clever plan they had worked out neatly with a pencil",
-          "zh": "他们用铅笔工整算出的一个聪明计划"
-        },
-        {
           "en": "A failure to learn the work of dogs",
           "zh": "始终学不会如何伺候狗的活计"
+        },
+        {
+          "en": "A clever plan they had worked out neatly with a pencil",
+          "zh": "他们用铅笔工整算出的一个聪明计划"
         },
         {
           "en": "A wise way to travel light and fast",
@@ -269,7 +269,7 @@
           "zh": "一种救了狗的仁慈法子"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "They worked the trip out with a pencil, but never learned to work dogs or themselves.",
@@ -283,20 +283,20 @@
       },
       "options": [
         {
-          "en": "He was left to rest at a kind and friendly camp nearby",
-          "zh": "他被留在附近一座友善的营地休息，读者可以在故事里找到"
-        },
-        {
           "en": "He ran away into the woods",
           "zh": "他跑进树林里去了"
+        },
+        {
+          "en": "He was sold to the mail train again",
+          "zh": "他又被卖给了邮橇队"
         },
         {
           "en": "Hal shot him with the big Colt's revolver",
           "zh": "Hal 用那把大柯尔特左轮打死了他"
         },
         {
-          "en": "He was sold to the mail train again",
-          "zh": "他又被卖给了邮橇队"
+          "en": "He was left to rest at a kind and friendly camp nearby",
+          "zh": "他被留在附近一座友善的营地休息，读者可以在故事里找到"
         }
       ],
       "answer": 2,

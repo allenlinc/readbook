@@ -17,16 +17,16 @@
           "zh": "只能用显微镜看到的微小生物"
         },
         {
-          "en": "Large animals that live in the ocean",
-          "zh": "生活在海洋里的大型动物"
-        },
-        {
-          "en": "Plants that grow in gardens",
-          "zh": "长在花园里的植物"
+          "en": "Large animals that live in the ocean according to some versions of the story",
+          "zh": "生活在海洋里的大型动物（按书中另一种说法）"
         },
         {
           "en": "Rocks formed by heat",
           "zh": "受热形成的岩石"
+        },
+        {
+          "en": "Plants that grow in gardens",
+          "zh": "长在花园里的植物"
         }
       ],
       "answer": 0,
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "Six: including algae and worms",
+          "zh": "六类：含藻类和蠕虫"
+        },
+        {
           "en": "Four: bacteria, viruses, fungi, protozoa",
           "zh": "四类：细菌、病毒、真菌、原生动物"
         },
@@ -51,15 +55,11 @@
           "zh": "两类：好与坏"
         },
         {
-          "en": "Three: plants, animals, minerals",
-          "zh": "三类：植物、动物、矿物"
-        },
-        {
-          "en": "Six: including algae and worms",
-          "zh": "六类：含藻类和蠕虫"
+          "en": "Three: plants, animals, minerals according to some versions of the story",
+          "zh": "三类：植物、动物、矿物（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book divides microbes into four groups: bacteria, viruses, fungi, and protozoa.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Louis Pasteur",
-          "zh": "路易·巴斯德"
-        },
-        {
           "en": "Alexander Fleming",
           "zh": "亚历山大·弗莱明"
         },
         {
-          "en": "Edward Jenner",
-          "zh": "爱德华·詹纳"
-        },
-        {
           "en": "George Washington",
           "zh": "乔治·华盛顿"
+        },
+        {
+          "en": "Louis Pasteur",
+          "zh": "路易·巴斯德"
+        },
+        {
+          "en": "Edward Jenner",
+          "zh": "爱德华·詹纳"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Louis Pasteur proved that contact with harmful microbes causes disease.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "Boiling forever according to some versions of the story",
+          "zh": "一直煮沸（按书中另一种说法）"
+        },
+        {
           "en": "Pasteurization",
           "zh": "巴氏杀菌法"
         },
         {
-          "en": "Freezing",
-          "zh": "冷冻"
-        },
-        {
-          "en": "Boiling forever",
-          "zh": "一直煮沸"
-        },
-        {
           "en": "Salting",
           "zh": "腌制"
+        },
+        {
+          "en": "Freezing",
+          "zh": "冷冻"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Pasteurization heats food to a set temperature to kill many organisms; it is used on milk and canned food.",
@@ -133,10 +133,6 @@
       },
       "options": [
         {
-          "en": "Viruses",
-          "zh": "病毒"
-        },
-        {
           "en": "Fungi",
           "zh": "真菌"
         },
@@ -147,9 +143,13 @@
         {
           "en": "Bacteria",
           "zh": "细菌"
+        },
+        {
+          "en": "Viruses",
+          "zh": "病毒"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Viruses are smaller than bacteria and can mutate, or change, to avoid being noticed.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Malaria",
-          "zh": "疟疾"
-        },
-        {
-          "en": "Athlete's foot",
-          "zh": "脚气"
+          "en": "Ringworm",
+          "zh": "癣"
         },
         {
           "en": "Strep throat",
           "zh": "链球菌性咽炎"
         },
         {
-          "en": "Ringworm",
-          "zh": "癣"
+          "en": "Malaria",
+          "zh": "疟疾"
+        },
+        {
+          "en": "Athlete's foot",
+          "zh": "脚气"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Malaria is caused by a protozoa spread through the saliva of an infected mosquito.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Edward Jenner",
-          "zh": "爱德华·詹纳"
-        },
-        {
-          "en": "Louis Pasteur",
-          "zh": "路易·巴斯德"
-        },
-        {
           "en": "Alexander Fleming",
           "zh": "亚历山大·弗莱明"
         },
         {
+          "en": "Edward Jenner",
+          "zh": "爱德华·詹纳"
+        },
+        {
           "en": "Dr. Seuss",
           "zh": "苏斯博士"
+        },
+        {
+          "en": "Louis Pasteur",
+          "zh": "路易·巴斯德"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "About 200 years ago in England, Edward Jenner used mild cowpox to prevent deadly smallpox.",
@@ -227,16 +227,16 @@
           "zh": "亚历山大·弗莱明"
         },
         {
-          "en": "Edward Jenner",
-          "zh": "爱德华·詹纳"
-        },
-        {
           "en": "Louis Pasteur",
           "zh": "路易·巴斯德"
         },
         {
-          "en": "George Washington",
-          "zh": "乔治·华盛顿"
+          "en": "George Washington according to some versions of the story",
+          "zh": "乔治·华盛顿（按书中另一种说法）"
+        },
+        {
+          "en": "Edward Jenner",
+          "zh": "爱德华·詹纳"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "The rapid, worldwide spread of a disease",
-          "zh": "疾病在全球范围内的快速传播"
+          "en": "A small group sick in one place according to some versions of the story",
+          "zh": "一个地方的一小群人患病（按书中另一种说法）"
         },
         {
-          "en": "A small group sick in one place",
-          "zh": "一个地方的一小群人患病"
+          "en": "A cure for an illness",
+          "zh": "某种疾病的治疗方法"
         },
         {
           "en": "A single person's cold",
           "zh": "一个人感冒"
         },
         {
-          "en": "A cure for an illness",
-          "zh": "某种疾病的治疗方法"
+          "en": "The rapid, worldwide spread of a disease",
+          "zh": "疾病在全球范围内的快速传播"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "An outbreak is local, an epidemic spreads widely, and a pandemic spreads rapidly around the world.",
@@ -287,16 +287,16 @@
           "zh": "至少15秒（把《生日快乐》歌哼两遍）"
         },
         {
+          "en": "Until the water runs cold according to some versions of the story",
+          "zh": "直到水变凉（按书中另一种说法）"
+        },
+        {
           "en": "3 seconds",
           "zh": "3秒"
         },
         {
           "en": "One minute of silence",
           "zh": "静默一分钟"
-        },
-        {
-          "en": "Until the water runs cold",
-          "zh": "直到水变凉"
         }
       ],
       "answer": 0,

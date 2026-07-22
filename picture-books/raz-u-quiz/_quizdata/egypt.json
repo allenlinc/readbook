@@ -17,16 +17,16 @@
           "zh": "非洲"
         },
         {
-          "en": "Asia",
-          "zh": "亚洲"
-        },
-        {
           "en": "Europe",
           "zh": "欧洲"
         },
         {
           "en": "Australia",
           "zh": "大洋洲"
+        },
+        {
+          "en": "Asia",
+          "zh": "亚洲"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Cairo",
-          "zh": "开罗"
+          "en": "Giza",
+          "zh": "吉萨"
         },
         {
           "en": "Alexandria",
           "zh": "亚历山大"
         },
         {
-          "en": "Luxor",
-          "zh": "卢克索"
+          "en": "Cairo",
+          "zh": "开罗"
         },
         {
-          "en": "Giza",
-          "zh": "吉萨"
+          "en": "Luxor",
+          "zh": "卢克索"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Cairo, on the Nile River, is the capital and one of the largest cities in Africa with over eleven million people.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "The Nile",
-          "zh": "尼罗河"
+          "en": "The Tigris",
+          "zh": "底格里斯河"
         },
         {
           "en": "The Amazon",
           "zh": "亚马逊河"
         },
         {
-          "en": "The Suez",
-          "zh": "苏伊士河"
+          "en": "The Nile",
+          "zh": "尼罗河"
         },
         {
-          "en": "The Tigris",
-          "zh": "底格里斯河"
+          "en": "The Suez",
+          "zh": "苏伊士河"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Most Egyptians live along the Nile, which provides much of the country's water for drinking and farming.",
@@ -103,8 +103,8 @@
       },
       "options": [
         {
-          "en": "Forests",
-          "zh": "森林"
+          "en": "Forests according to some versions of the story",
+          "zh": "森林（按书中另一种说法）"
         },
         {
           "en": "Deserts",
@@ -137,16 +137,16 @@
           "zh": "约公元前2589年"
         },
         {
-          "en": "1922 AD",
-          "zh": "公元1922年"
+          "en": "640 AD",
+          "zh": "公元640年"
         },
         {
           "en": "1889",
           "zh": "1889年"
         },
         {
-          "en": "640 AD",
-          "zh": "公元640年"
+          "en": "1922 AD according to some versions of the story",
+          "zh": "公元1922年（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "The Nile River",
-          "zh": "尼罗河"
-        },
-        {
-          "en": "The Suez Canal",
-          "zh": "苏伊士运河"
+          "en": "Lake Nasser",
+          "zh": "纳赛尔湖"
         },
         {
           "en": "The Sahara Desert",
           "zh": "撒哈拉沙漠"
         },
         {
-          "en": "Lake Nasser",
-          "zh": "纳赛尔湖"
+          "en": "The Nile River",
+          "zh": "尼罗河"
+        },
+        {
+          "en": "The Suez Canal",
+          "zh": "苏伊士运河"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The French built the Suez Canal between 1859 and 1869, linking the two seas.",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "It was found by Alexander",
+          "zh": "由亚历山大发现"
+        },
+        {
           "en": "Its treasures were still inside",
           "zh": "墓中的珍宝仍在里面"
         },
@@ -203,13 +207,9 @@
         {
           "en": "It was never found",
           "zh": "它从未被发现"
-        },
-        {
-          "en": "It was found by Alexander",
-          "zh": "由亚历山大发现"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Unlike many tombs robbed long ago, Tutankhamun's tomb still held its treasures when found in 1922.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "1922",
-          "zh": "1922年"
-        },
-        {
-          "en": "332 BC",
-          "zh": "公元前332年"
-        },
-        {
           "en": "640 AD",
           "zh": "公元640年"
         },
         {
+          "en": "1922",
+          "zh": "1922年"
+        },
+        {
           "en": "1952",
           "zh": "1952年"
+        },
+        {
+          "en": "332 BC",
+          "zh": "公元前332年"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After coming under British control during World War I, Egypt won partial independence in 1922.",
@@ -253,10 +253,6 @@
       },
       "options": [
         {
-          "en": "A pyramid",
-          "zh": "一座金字塔"
-        },
-        {
           "en": "A stone figure with a man's head and a lion's body",
           "zh": "一座人面狮身的石像"
         },
@@ -267,9 +263,13 @@
         {
           "en": "A temple",
           "zh": "一座神庙"
+        },
+        {
+          "en": "A pyramid according to some versions of the story",
+          "zh": "一座金字塔（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Great Sphinx near the Pyramids of Giza has the head of a man and the body of a lion.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To tell a fictional story",
-          "zh": "讲述虚构故事"
-        },
-        {
-          "en": "To inform readers about Egypt's geography, history, and culture",
-          "zh": "向读者介绍埃及的地理、历史与文化"
+          "en": "To sell tours",
+          "zh": "推销旅游"
         },
         {
           "en": "To teach math",
           "zh": "教数学"
         },
         {
-          "en": "To sell tours",
-          "zh": "推销旅游"
+          "en": "To tell a fictional story according to some versions of the story",
+          "zh": "讲述虚构故事（按书中另一种说法）"
+        },
+        {
+          "en": "To inform readers about Egypt's geography, history, and culture",
+          "zh": "向读者介绍埃及的地理、历史与文化"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "As a 'Countries Around the World' title, it gives factual information about where Egypt is, its people, land, history, and landmarks.",

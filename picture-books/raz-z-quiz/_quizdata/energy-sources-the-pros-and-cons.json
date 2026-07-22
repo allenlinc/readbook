@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "About 50 percent",
+          "zh": "约50%"
+        },
+        {
           "en": "About 85 percent",
           "zh": "约85%"
         },
@@ -21,15 +25,11 @@
           "zh": "约10%"
         },
         {
-          "en": "About 50 percent",
-          "zh": "约50%"
-        },
-        {
           "en": "About 100 percent",
           "zh": "约100%"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'About 85 percent of energy used each year in the United States comes from fossil fuels.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "It burns very cleanly, mostly carbon dioxide and water vapor",
-          "zh": "燃烧非常清洁，主要是二氧化碳和水蒸气"
+          "en": "It is free to extract",
+          "zh": "开采免费"
         },
         {
           "en": "It is renewable",
           "zh": "它是可再生的"
         },
         {
-          "en": "It is free to extract",
-          "zh": "开采免费"
+          "en": "It burns very cleanly, mostly carbon dioxide and water vapor",
+          "zh": "燃烧非常清洁，主要是二氧化碳和水蒸气"
         },
         {
-          "en": "It produces no carbon dioxide at all",
-          "zh": "完全不产生二氧化碳"
+          "en": "It produces no carbon dioxide at all according to some versions of the story",
+          "zh": "完全不产生二氧化碳（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says a 'special advantage of natural gas is that it burns very cleanly,' producing mostly CO2 and water vapor.",
@@ -81,8 +81,8 @@
           "zh": "通过燃烧煤炭"
         },
         {
-          "en": "By capturing sunlight",
-          "zh": "通过采集阳光"
+          "en": "By capturing sunlight according to some versions of the story in an early draft of the book",
+          "zh": "通过采集阳光（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "By splitting atoms",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "More than 3 million kg of coal",
-          "zh": "超过300万公斤煤炭"
+          "en": "Exactly 1 ton of coal",
+          "zh": "恰好1吨煤炭"
         },
         {
-          "en": "About the same as 1 kg of coal",
-          "zh": "约等同于1公斤煤炭"
+          "en": "More than 3 million kg of coal",
+          "zh": "超过300万公斤煤炭"
         },
         {
           "en": "Only 100 kg of coal",
           "zh": "仅100公斤煤炭"
         },
         {
-          "en": "Exactly 1 ton of coal",
-          "zh": "恰好1吨煤炭"
+          "en": "About the same as 1 kg of coal according to some versions of the story",
+          "zh": "约等同于1公斤煤炭（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states 'One kilogram of uranium can produce more energy than 3 million kilograms of coal.'",
@@ -137,16 +137,16 @@
           "zh": "对每种能源都采用利弊对照结构"
         },
         {
-          "en": "Only positives, no negatives",
-          "zh": "只讲优点，不讲缺点"
+          "en": "A fictional story format",
+          "zh": "虚构故事的形式"
+        },
+        {
+          "en": "Only positives, no negatives according to some versions of the story",
+          "zh": "只讲优点，不讲缺点（按书中另一种说法）"
         },
         {
           "en": "Only negatives, no positives",
           "zh": "只讲缺点，不讲优点"
-        },
-        {
-          "en": "A fictional story format",
-          "zh": "虚构故事的形式"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Defines a key term, then gives concrete examples",
-          "zh": "先定义关键术语，再给出具体例子"
+          "en": "Lists mathematical formulas only according to some versions of the story",
+          "zh": "只罗列数学公式（按书中另一种说法）"
         },
         {
-          "en": "Opens with a quiz",
-          "zh": "以一道测验题开头"
+          "en": "Defines a key term, then gives concrete examples",
+          "zh": "先定义关键术语，再给出具体例子"
         },
         {
           "en": "Tells a personal story",
           "zh": "讲述个人故事"
         },
         {
-          "en": "Lists mathematical formulas only",
-          "zh": "只罗列数学公式"
+          "en": "Opens with a quiz",
+          "zh": "以一道测验题开头"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The author defines energy, then illustrates it with 'an automobile to move down a road' and 'an airplane to fly.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Released gases trap more heat in the atmosphere, heating it up",
-          "zh": "释放的气体在大气中截留更多热量，使地球变暖"
-        },
-        {
-          "en": "The gases cool the Earth",
-          "zh": "气体让地球变冷"
-        },
-        {
           "en": "The gases clean the air",
           "zh": "气体净化空气"
         },
         {
           "en": "There is no link at all",
           "zh": "二者毫无关联"
+        },
+        {
+          "en": "Released gases trap more heat in the atmosphere, heating it up",
+          "zh": "释放的气体在大气中截留更多热量，使地球变暖"
+        },
+        {
+          "en": "The gases cool the Earth according to some versions of the story in an early draft of the book",
+          "zh": "气体让地球变冷（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Burning fossil fuels releases gases that 'trap more heat in Earth's atmosphere,' causing global warming.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Fish migration routes up and down rivers",
-          "zh": "鱼类上下洄游的通道"
+          "en": "Sunlight according to some versions of the story",
+          "zh": "阳光（按书中另一种说法）"
         },
         {
-          "en": "Sunlight",
-          "zh": "阳光"
+          "en": "Wind",
+          "zh": "风"
         },
         {
           "en": "Rainfall",
           "zh": "降雨"
         },
         {
-          "en": "Wind",
-          "zh": "风"
+          "en": "Fish migration routes up and down rivers",
+          "zh": "鱼类上下洄游的通道"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Dams 'block the route for fish that swim up and down rivers,' and salmon populations 'have severely declined.'",
@@ -257,12 +257,12 @@
           "zh": "必须在满足需求与保护环境之间取得平衡，寻找可再生能源"
         },
         {
-          "en": "Fossil fuels are perfect and unlimited",
-          "zh": "化石燃料完美且取之不尽"
-        },
-        {
           "en": "No energy is needed at all",
           "zh": "根本不需要能源"
+        },
+        {
+          "en": "Fossil fuels are perfect and unlimited according to some versions of the story",
+          "zh": "化石燃料完美且取之不尽（按书中另一种说法）"
         },
         {
           "en": "All debate should stop",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To show the issue is ongoing and needs future solutions",
-          "zh": "表明这一问题仍在延续，需要未来的解决方案"
-        },
-        {
           "en": "To end the debate forever",
           "zh": "为了永远结束争论"
         },
         {
-          "en": "To promote one single source",
-          "zh": "为了推销某一种能源"
+          "en": "To promote one single source according to some versions of the story",
+          "zh": "为了推销某一种能源（按书中另一种说法）"
         },
         {
           "en": "To confuse the reader",
           "zh": "为了迷惑读者"
+        },
+        {
+          "en": "To show the issue is ongoing and needs future solutions",
+          "zh": "表明这一问题仍在延续，需要未来的解决方案"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book looks ahead to substitutes for oil, more solar and nuclear, and wind/geothermal as continuing research.",

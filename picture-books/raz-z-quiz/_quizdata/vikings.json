@@ -7,128 +7,320 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en": "During which years did the great age of the Vikings span?", "zh": "维京人的“伟大时代”跨越了哪段时期？"},
+      "q": {
+        "en": "During which years did the great age of the Vikings span?",
+        "zh": "维京人的“伟大时代”跨越了哪段时期？"
+      },
       "options": [
-        {"en": "AD 793 to 1066", "zh": "公元793年至1066年"},
-        {"en": "AD 700 to 900", "zh": "公元700年至900年"},
-        {"en": "AD 1000 to 1200", "zh": "公元1000年至1200年"},
-        {"en": "AD 500 to 700", "zh": "公元500年至700年"}
+        {
+          "en": "AD 1000 to 1200",
+          "zh": "公元1000年至1200年"
+        },
+        {
+          "en": "AD 700 to 900",
+          "zh": "公元700年至900年"
+        },
+        {
+          "en": "AD 500 to 700",
+          "zh": "公元500年至700年"
+        },
+        {
+          "en": "AD 793 to 1066",
+          "zh": "公元793年至1066年"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book states the great age of the Vikings spanned the years between AD 793 and 1066.", "zh": "书中写道，维京人的伟大时代跨越公元793年至1066年。"}
+      "explain": {
+        "en": "The book states the great age of the Vikings spanned the years between AD 793 and 1066.",
+        "zh": "书中写道，维京人的伟大时代跨越公元793年至1066年。"
+      }
     },
     {
-      "q": {"en": "Who were the \"Norsemen\" mentioned in the book?", "zh": "书中提到的“Norsemen（北欧人）”是谁？"},
+      "q": {
+        "en": "Who were the \"Norsemen\" mentioned in the book?",
+        "zh": "书中提到的“Norsemen（北欧人）”是谁？"
+      },
       "options": [
-        {"en": "The Nordic people from Norway, Sweden, and Denmark", "zh": "来自挪威、瑞典和丹麦的北欧人"},
-        {"en": "People from Normandy", "zh": "诺曼底人"},
-        {"en": "German tribes", "zh": "日耳曼部落"},
-        {"en": "Roman soldiers", "zh": "罗马士兵"}
+        {
+          "en": "German tribes",
+          "zh": "日耳曼部落"
+        },
+        {
+          "en": "The Nordic people from Norway, Sweden, and Denmark",
+          "zh": "来自挪威、瑞典和丹麦的北欧人"
+        },
+        {
+          "en": "People from Normandy according to some versions of the story",
+          "zh": "诺曼底人（按书中另一种说法）"
+        },
+        {
+          "en": "Roman soldiers",
+          "zh": "罗马士兵"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says people during the Viking age called Vikings the Nordic people, or Norsemen—men from the north, from lands we now know as Norway, Sweden, and Denmark.", "zh": "书中说，维京时代的人们称维京人为北欧人（Norsemen），即来自北方的人，来自如今挪威、瑞典和丹麦的土地。"}
+      "explain": {
+        "en": "The book says people during the Viking age called Vikings the Nordic people, or Norsemen—men from the north, from lands we now know as Norway, Sweden, and Denmark.",
+        "zh": "书中说，维京时代的人们称维京人为北欧人（Norsemen），即来自北方的人，来自如今挪威、瑞典和丹麦的土地。"
+      }
     },
     {
-      "q": {"en": "According to the book, why did many younger sons go to sea?", "zh": "根据本书，为什么许多小儿子要出海？"},
+      "q": {
+        "en": "According to the book, why did many younger sons go to sea?",
+        "zh": "根据本书，为什么许多小儿子要出海？"
+      },
       "options": [
-        {"en": "Only the oldest son inherited the family's land, so younger sons sought their fortune elsewhere", "zh": "只有长子继承家产，所以小儿子到别处去谋生"},
-        {"en": "They were forced to by law", "zh": "他们被法律所迫"},
-        {"en": "They disliked farming", "zh": "他们不喜欢务农"},
-        {"en": "They had been banished", "zh": "他们被流放了"}
+        {
+          "en": "They were forced to by law according to some versions of the story in an early draft of the book",
+          "zh": "他们被法律所迫（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They disliked farming",
+          "zh": "他们不喜欢务农"
+        },
+        {
+          "en": "Only the oldest son inherited the family's land, so younger sons sought their fortune elsewhere",
+          "zh": "只有长子继承家产，所以小儿子到别处去谋生"
+        },
+        {
+          "en": "They had been banished",
+          "zh": "他们被流放了"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book explains that within each family only the oldest son inherited the land, so younger sons worked for him or left to find their fortune at sea.", "zh": "书中解释，每个家庭只有长子继承土地，因此小儿子要么为长子干活，要么离开去海上谋生。"}
+      "explain": {
+        "en": "The book explains that within each family only the oldest son inherited the land, so younger sons worked for him or left to find their fortune at sea.",
+        "zh": "书中解释，每个家庭只有长子继承土地，因此小儿子要么为长子干活，要么离开去海上谋生。"
+      }
     },
     {
-      "q": {"en": "What did Leif Ericson name the new land he found that had vines with fruit?", "zh": "莱夫·埃里克松为自己发现的、长有结葡萄藤和果实的新土地起了什么名字？"},
+      "q": {
+        "en": "What did Leif Ericson name the new land he found that had vines with fruit?",
+        "zh": "莱夫·埃里克松为自己发现的、长有结葡萄藤和果实的新土地起了什么名字？"
+      },
       "options": [
-        {"en": "Vinland", "zh": "文兰（Vinland）"},
-        {"en": "Greenland", "zh": "格陵兰"},
-        {"en": "Iceland", "zh": "冰岛"},
-        {"en": "Newfoundland", "zh": "纽芬兰"}
+        {
+          "en": "Greenland",
+          "zh": "格陵兰"
+        },
+        {
+          "en": "Vinland",
+          "zh": "文兰（Vinland）"
+        },
+        {
+          "en": "Newfoundland according to some versions of the story",
+          "zh": "纽芬兰（按书中另一种说法）"
+        },
+        {
+          "en": "Iceland",
+          "zh": "冰岛"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says Leif and his crew found vines with fruit growing there, so they called it Vinland; archaeologists later found a Viking outpost in Newfoundland, Canada.", "zh": "书中说莱夫一行发现了长有果实的葡萄藤，因此称之为Vinland（文兰）；考古学家后来在加拿大纽芬兰发现了维京人前哨。"}
+      "explain": {
+        "en": "The book says Leif and his crew found vines with fruit growing there, so they called it Vinland; archaeologists later found a Viking outpost in Newfoundland, Canada.",
+        "zh": "书中说莱夫一行发现了长有果实的葡萄藤，因此称之为Vinland（文兰）；考古学家后来在加拿大纽芬兰发现了维京人前哨。"
+      }
     },
     {
-      "q": {"en": "The word \"Viking\" comes from an Old Norse word. What did \"vik\" mean?", "zh": "“Viking（维京）”一词源自古挪威语。其中“vik”是什么意思？"},
+      "q": {
+        "en": "The word \"Viking\" comes from an Old Norse word. What did \"vik\" mean?",
+        "zh": "“Viking（维京）”一词源自古挪威语。其中“vik”是什么意思？"
+      },
       "options": [
-        {"en": "A bay or fjord", "zh": "海湾或峡湾"},
-        {"en": "A warrior", "zh": "战士"},
-        {"en": "A ship", "zh": "船"},
-        {"en": "A god", "zh": "神"}
+        {
+          "en": "A bay or fjord",
+          "zh": "海湾或峡湾"
+        },
+        {
+          "en": "A god",
+          "zh": "神"
+        },
+        {
+          "en": "A warrior according to some versions of the story",
+          "zh": "战士（按书中另一种说法）"
+        },
+        {
+          "en": "A ship",
+          "zh": "船"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
-      "explain": {"en": "The book explains that vik meant a bay or fjord, and a Viking was a person from the fjords or bays where ships arrived and departed.", "zh": "书中解释说vik意为海湾或峡湾，维京人即来自船只进出海湾或峡湾的人。"}
+      "explain": {
+        "en": "The book explains that vik meant a bay or fjord, and a Viking was a person from the fjords or bays where ships arrived and departed.",
+        "zh": "书中解释说vik意为海湾或峡湾，维京人即来自船只进出海湾或峡湾的人。"
+      }
     },
     {
-      "q": {"en": "How does the book describe Viking helmets?", "zh": "本书如何描述维京人的头盔？"},
+      "q": {
+        "en": "How does the book describe Viking helmets?",
+        "zh": "本书如何描述维京人的头盔？"
+      },
       "options": [
-        {"en": "They most likely did NOT have horns; leather caps and shields were more common", "zh": "它们很可能没有角；皮帽和盾牌更为常见"},
-        {"en": "They always had horns", "zh": "它们总是有角"},
-        {"en": "They were made of gold", "zh": "它们由黄金制成"},
-        {"en": "They had wings", "zh": "它们有翅膀"}
+        {
+          "en": "They always had horns",
+          "zh": "它们总是有角"
+        },
+        {
+          "en": "They were made of gold according to some versions of the story in an early draft of the book",
+          "zh": "它们由黄金制成（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They most likely did NOT have horns; leather caps and shields were more common",
+          "zh": "它们很可能没有角；皮帽和盾牌更为常见"
+        },
+        {
+          "en": "They had wings",
+          "zh": "它们有翅膀"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
-      "explain": {"en": "The book says many Viking helmets were decorated, but they most likely did not have horns; leather caps and shields were a much more common form of defense.", "zh": "书中说许多维京头盔有装饰，但很可能没有角；皮帽和盾牌是更常见的防御装备。"}
+      "explain": {
+        "en": "The book says many Viking helmets were decorated, but they most likely did not have horns; leather caps and shields were a much more common form of defense.",
+        "zh": "书中说许多维京头盔有装饰，但很可能没有角；皮帽和盾牌是更常见的防御装备。"
+      }
     },
     {
-      "q": {"en": "The book notes many English words come from the Vikings. Which of these is given as a Viking-derived word?", "zh": "本书指出许多英语单词源自维京人。以下哪一个是书中列举的维京来源单词？"},
+      "q": {
+        "en": "The book notes many English words come from the Vikings. Which of these is given as a Viking-derived word?",
+        "zh": "本书指出许多英语单词源自维京人。以下哪一个是书中列举的维京来源单词？"
+      },
       "options": [
-        {"en": "window", "zh": "window（窗户）"},
-        {"en": "telephone", "zh": "telephone（电话）"},
-        {"en": "computer", "zh": "computer（电脑）"},
-        {"en": "mountain", "zh": "mountain（山）"}
+        {
+          "en": "window",
+          "zh": "window（窗户）"
+        },
+        {
+          "en": "computer",
+          "zh": "computer（电脑）"
+        },
+        {
+          "en": "telephone",
+          "zh": "telephone（电话）"
+        },
+        {
+          "en": "mountain",
+          "zh": "mountain（山）"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The book lists window among about 900 common English words from the Vikings, along with sky, skin, scrape, skirt, husband, and bubble.", "zh": "书中列举了约900个源自维京人的常用英语单词，其中包括window，以及sky、skin、scrape、skirt、husband、bubble等。"}
+      "explain": {
+        "en": "The book lists window among about 900 common English words from the Vikings, along with sky, skin, scrape, skirt, husband, and bubble.",
+        "zh": "书中列举了约900个源自维京人的常用英语单词，其中包括window，以及sky、skin、scrape、skirt、husband、bubble等。"
+      }
     },
     {
-      "q": {"en": "What design feature allowed Viking longships to attack by surprise along coasts?", "zh": "哪种设计特点使维京人的长船能沿海岸发动突袭？"},
+      "q": {
+        "en": "What design feature allowed Viking longships to attack by surprise along coasts?",
+        "zh": "哪种设计特点使维京人的长船能沿海岸发动突袭？"
+      },
       "options": [
-        {"en": "Their shallow draft let them sail right onto the shore without needing a port", "zh": "它们吃水浅，无需港口即可直接驶上沙滩"},
-        {"en": "They were equipped with cannons", "zh": "它们装备了大炮"},
-        {"en": "They traveled only at night", "zh": "它们只在夜间航行"},
-        {"en": "They used detailed maps", "zh": "它们使用了详细地图"}
+        {
+          "en": "They were equipped with cannons according to some versions of the story in an early draft of the book",
+          "zh": "它们装备了大炮（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They traveled only at night",
+          "zh": "它们只在夜间航行"
+        },
+        {
+          "en": "They used detailed maps",
+          "zh": "它们使用了详细地图"
+        },
+        {
+          "en": "Their shallow draft let them sail right onto the shore without needing a port",
+          "zh": "它们吃水浅，无需港口即可直接驶上沙滩"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The book explains Viking warships had a shallow draft, so they were not limited to ports and could sail onto the shore, letting warriors leap off ready for battle.", "zh": "书中解释说维京战船吃水浅，不受港口限制，能直接冲上沙滩，战士可跃船上岸备战。"}
+      "explain": {
+        "en": "The book explains Viking warships had a shallow draft, so they were not limited to ports and could sail onto the shore, letting warriors leap off ready for battle.",
+        "zh": "书中解释说维京战船吃水浅，不受港口限制，能直接冲上沙滩，战士可跃船上岸备战。"
+      }
     },
     {
-      "q": {"en": "What main impression does the author convey about the Vikings?", "zh": "作者对维京人传达了怎样的主要印象？"},
+      "q": {
+        "en": "What main impression does the author convey about the Vikings?",
+        "zh": "作者对维京人传达了怎样的主要印象？"
+      },
       "options": [
-        {"en": "They excelled as warriors, explorers, merchants, and more—not just as raiders", "zh": "他们既是战士、探险家、商人，还擅长更多角色——不仅仅是掠夺者"},
-        {"en": "They were only cruel raiders", "zh": "他们只是残忍的掠夺者"},
-        {"en": "They were peaceful farmers only", "zh": "他们只是和平的农民"},
-        {"en": "They were weak and unimportant", "zh": "他们软弱且微不足道"}
+        {
+          "en": "They excelled as warriors, explorers, merchants, and more—not just as raiders",
+          "zh": "他们既是战士、探险家、商人，还擅长更多角色——不仅仅是掠夺者"
+        },
+        {
+          "en": "They were only cruel raiders",
+          "zh": "他们只是残忍的掠夺者"
+        },
+        {
+          "en": "They were peaceful farmers only according to some versions of the story in an early draft of the book",
+          "zh": "他们只是和平的农民（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They were weak and unimportant",
+          "zh": "他们软弱且微不足道"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The Introduction says the Vikings excelled at many roles—warriors, explorers, merchants, epic poets, scientists, farmers, shipwrights, and fisherfolk.", "zh": "引言说维京人在多种角色上都很出色——战士、探险家、商人、史诗诗人、科学家、农民、造船匠和渔民。"}
+      "explain": {
+        "en": "The Introduction says the Vikings excelled at many roles—warriors, explorers, merchants, epic poets, scientists, farmers, shipwrights, and fisherfolk.",
+        "zh": "引言说维京人在多种角色上都很出色——战士、探险家、商人、史诗诗人、科学家、农民、造船匠和渔民。"
+      }
     },
     {
-      "q": {"en": "Why does the book include a \"Tide Line in Viking History\" timeline?", "zh": "本书为何要收录“维京历史时间线”？"},
+      "q": {
+        "en": "Why does the book include a \"Tide Line in Viking History\" timeline?",
+        "zh": "本书为何要收录“维京历史时间线”？"
+      },
       "options": [
-        {"en": "To help readers see the sequence and span of Viking conquests over about 275 years", "zh": "帮助读者了解约275年间维京人征服活动的顺序与跨度"},
-        {"en": "To prove the Vikings were peaceful", "zh": "为了证明维京人是和平的"},
-        {"en": "To list Viking kings", "zh": "为了列出维京国王"},
-        {"en": "To show only trade routes", "zh": "为了只展示贸易路线"}
+        {
+          "en": "To prove the Vikings were peaceful according to some versions of the story in an early draft of the book",
+          "zh": "为了证明维京人是和平的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To help readers see the sequence and span of Viking conquests over about 275 years",
+          "zh": "帮助读者了解约275年间维京人征服活动的顺序与跨度"
+        },
+        {
+          "en": "To show only trade routes",
+          "zh": "为了只展示贸易路线"
+        },
+        {
+          "en": "To list Viking kings",
+          "zh": "为了列出维京国王"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The book says for about 275 years the Vikings swept across Europe, and the timeline lists key raid and settlement dates to show that long span.", "zh": "书中说维京人约275年间横扫欧洲，时间线列出关键的袭击与定居日期，以展现这段漫长的历史。"}
+      "explain": {
+        "en": "The book says for about 275 years the Vikings swept across Europe, and the timeline lists key raid and settlement dates to show that long span.",
+        "zh": "书中说维京人约275年间横扫欧洲，时间线列出关键的袭击与定居日期，以展现这段漫长的历史。"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en": "The Vikings were both fierce raiders and skilled explorers who reached North America long before Columbus. Which side of the Viking story do you find more interesting, and why?", "zh": "维京人既是凶猛的掠夺者，也是技艺高超的探险家，早在哥伦布之前就到达了北美。你觉得维京人故事中哪一面更有趣，为什么？"},
-    "guidance": {"en": ["State whether you find the raiding or the exploring more interesting.", "Give one reason from the book that supports your choice."], "zh": ["说明你觉得掠夺还是探险更有趣。", "从书中举出一个支持你选择的理由。"]}
+    "prompt": {
+      "en": "The Vikings were both fierce raiders and skilled explorers who reached North America long before Columbus. Which side of the Viking story do you find more interesting, and why?",
+      "zh": "维京人既是凶猛的掠夺者，也是技艺高超的探险家，早在哥伦布之前就到达了北美。你觉得维京人故事中哪一面更有趣，为什么？"
+    },
+    "guidance": {
+      "en": [
+        "State whether you find the raiding or the exploring more interesting.",
+        "Give one reason from the book that supports your choice."
+      ],
+      "zh": [
+        "说明你觉得掠夺还是探险更有趣。",
+        "从书中举出一个支持你选择的理由。"
+      ]
+    }
   }
 }

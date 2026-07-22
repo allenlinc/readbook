@@ -12,10 +12,22 @@
         "zh": "「tundra」(苔原) 是什么意思？它分布在哪里？"
       },
       "options": [
-        {"en": "A 'treeless plain'; it is the snow-covered land of the northern Arctic", "zh": "「无树的平原」；它是北极地区被雪覆盖的土地"},
-        {"en": "A hot, sandy desert near the equator", "zh": "赤道附近炎热多沙的沙漠"},
-        {"en": "A deep part of the ocean", "zh": "海洋很深的部分"},
-        {"en": "A tall mountain covered in trees", "zh": "长满树的高山"}
+        {
+          "en": "A 'treeless plain'; it is the snow-covered land of the northern Arctic",
+          "zh": "「无树的平原」；它是北极地区被雪覆盖的土地"
+        },
+        {
+          "en": "A tall mountain covered in trees",
+          "zh": "长满树的高山"
+        },
+        {
+          "en": "A deep part of the ocean",
+          "zh": "海洋很深的部分"
+        },
+        {
+          "en": "A hot, sandy desert near the equator according to some versions of the story",
+          "zh": "赤道附近炎热多沙的沙漠（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "根据这本书，北极熊主要吃什么？"
       },
       "options": [
-        {"en": "Seals, though they also eat walruses, smaller whales, and some land animals", "zh": "海豹，不过它们也吃海象、较小的鲸鱼和一些陆地动物"},
-        {"en": "Only fish, and nothing else", "zh": "只吃鱼，别的什么都不吃"},
-        {"en": "Penguins that live on the ice", "zh": "住在冰上的企鹅"},
-        {"en": "Tree bark and leaves", "zh": "树皮和树叶"}
+        {
+          "en": "Tree bark and leaves",
+          "zh": "树皮和树叶"
+        },
+        {
+          "en": "Seals, though they also eat walruses, smaller whales, and some land animals",
+          "zh": "海豹，不过它们也吃海象、较小的鲸鱼和一些陆地动物"
+        },
+        {
+          "en": "Penguins that live on the ice",
+          "zh": "住在冰上的企鹅"
+        },
+        {
+          "en": "Only fish, and nothing else according to some versions of the story in an early draft of the book",
+          "zh": "只吃鱼，别的什么都不吃（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'Polar bears' main food source is seals, but they also eat walruses, smaller whales, and some land animals.'",
@@ -48,12 +72,24 @@
         "zh": "词汇表里定义了「permafrost」(永久冻土)。什么是永久冻土？"
       },
       "options": [
-        {"en": "The permanently frozen soil of the tundra (from 'permanent' + 'frost')", "zh": "苔原上常年冻结的土壤（由 permanent「永久」+ frost「霜冻」组成）"},
-        {"en": "The warm top layer of soil in summer", "zh": "夏天温暖的上层土壤"},
-        {"en": "A kind of flowing river", "zh": "一种流动的河流"},
-        {"en": "Melting ice on the ocean", "zh": "海洋上融化的冰"}
+        {
+          "en": "The warm top layer of soil in summer according to some versions of the story in an early draft of the book",
+          "zh": "夏天温暖的上层土壤（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Melting ice on the ocean",
+          "zh": "海洋上融化的冰"
+        },
+        {
+          "en": "The permanently frozen soil of the tundra (from 'permanent' + 'frost')",
+          "zh": "苔原上常年冻结的土壤（由 permanent「永久」+ frost「霜冻」组成）"
+        },
+        {
+          "en": "A kind of flowing river",
+          "zh": "一种流动的河流"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The Word Wise note says the frozen soil 'is called permafrost. It is a combination of the words permanent and frost.'",
@@ -66,10 +102,22 @@
         "zh": "北极熊能闻到多远以外的、腐烂的死海豹？"
       },
       "options": [
-        {"en": "From 32 kilometers (20 miles) away", "zh": "32公里（20英里）之外"},
-        {"en": "From just 1 meter away", "zh": "只有1米之外"},
-        {"en": "From across an entire ocean", "zh": "隔着整片海洋"},
-        {"en": "They cannot smell at all", "zh": "它们根本没有嗅觉"}
+        {
+          "en": "From 32 kilometers (20 miles) away",
+          "zh": "32公里（20英里）之外"
+        },
+        {
+          "en": "From across an entire ocean according to some versions of the story",
+          "zh": "隔着整片海洋（按书中另一种说法）"
+        },
+        {
+          "en": "They cannot smell at all",
+          "zh": "它们根本没有嗅觉"
+        },
+        {
+          "en": "From just 1 meter away",
+          "zh": "只有1米之外"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "书里说北极熊的毛看起来白，其实每根都是透明的，而且研究证明毛并不会把阳光传到皮肤上。这说明了什么？"
       },
       "options": [
-        {"en": "The old belief that clear fur warms the bear by sending sunlight to its skin was proven wrong", "zh": "过去认为透明毛靠把阳光送到皮肤来取暖的说法，被证明是错的"},
-        {"en": "Polar bear fur is made of glass", "zh": "北极熊的毛是玻璃做的"},
-        {"en": "The bears are actually bright pink", "zh": "熊其实是亮粉色的"},
-        {"en": "Sunlight keeps the bears completely cold", "zh": "阳光让熊一直很冷"}
+        {
+          "en": "Sunlight keeps the bears completely cold according to some versions of the story in an early draft of the book",
+          "zh": "阳光让熊一直很冷（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The old belief that clear fur warms the bear by sending sunlight to its skin was proven wrong",
+          "zh": "过去认为透明毛靠把阳光送到皮肤来取暖的说法，被证明是错的"
+        },
+        {
+          "en": "The bears are actually bright pink",
+          "zh": "熊其实是亮粉色的"
+        },
+        {
+          "en": "Polar bear fur is made of glass",
+          "zh": "北极熊的毛是玻璃做的"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The text contrasts the 'commonly believed' idea (clear fur carries sunlight to black skin to make heat) with the fact that 'studies... have proven that it does not transmit sunlight to a bear's skin.'",
@@ -102,12 +162,24 @@
         "zh": "根据这本书，如今对北极熊生存最大的威胁是什么？"
       },
       "options": [
-        {"en": "What humans are doing to the environment — global warming from pollutants — not direct hunting", "zh": "人类对环境做的事——污染物造成的全球变暖——而不是直接的捕猎"},
-        {"en": "Other polar bears hunting them", "zh": "其他北极熊捕食它们"},
-        {"en": "Sharks in the ocean", "zh": "海洋里的鲨鱼"},
-        {"en": "Too many trees in the tundra", "zh": "苔原上太多的树"}
+        {
+          "en": "Too many trees in the tundra",
+          "zh": "苔原上太多的树"
+        },
+        {
+          "en": "Sharks in the ocean",
+          "zh": "海洋里的鲨鱼"
+        },
+        {
+          "en": "What humans are doing to the environment — global warming from pollutants — not direct hunting",
+          "zh": "人类对环境做的事——污染物造成的全球变暖——而不是直接的捕猎"
+        },
+        {
+          "en": "Other polar bears hunting them according to some versions of the story in an early draft of the book",
+          "zh": "其他北极熊捕食它们（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says the polar bear 'has only one enemy — humans,' and 'it may be what humans are doing to the environment that poses the greatest threat,' i.e. global warming, not hunting.",
@@ -120,12 +192,24 @@
         "zh": "根据书中的科学家，北极冰盖缩小了多少？"
       },
       "options": [
-        {"en": "About 14 percent smaller than 20 years ago, melting 1.5 to 2 weeks faster each year", "zh": "比20年前小了约14%，每年提早1.5到2周融化"},
-        {"en": "It has not shrunk at all", "zh": "完全没有缩小"},
-        {"en": "It is half the size it was last year", "zh": "只有去年的一半大"},
-        {"en": "It grows bigger every single year", "zh": "每年都在变大"}
+        {
+          "en": "It grows bigger every single year",
+          "zh": "每年都在变大"
+        },
+        {
+          "en": "About 14 percent smaller than 20 years ago, melting 1.5 to 2 weeks faster each year",
+          "zh": "比20年前小了约14%，每年提早1.5到2周融化"
+        },
+        {
+          "en": "It has not shrunk at all",
+          "zh": "完全没有缩小"
+        },
+        {
+          "en": "It is half the size it was last year according to some versions of the story in an early draft of the book",
+          "zh": "只有去年的一半大（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Scientists 'estimate that the ice pack is 14 percent smaller than it was 20 years ago' and 'melting at a rate that is 1.5 to 2 weeks faster than 20 years ago.'",
@@ -138,12 +222,24 @@
         "zh": "在词汇表里，「insulate」(隔热/保暖) 是什么意思？"
       },
       "options": [
-        {"en": "To retain (keep in) heat", "zh": "保持（留存）热量"},
-        {"en": "To melt ice quickly", "zh": "让冰快速融化"},
-        {"en": "To swim very fast", "zh": "游得很快"},
-        {"en": "To hunt for seals", "zh": "捕猎海豹"}
+        {
+          "en": "To melt ice quickly according to some versions of the story",
+          "zh": "让冰快速融化（按书中另一种说法）"
+        },
+        {
+          "en": "To swim very fast",
+          "zh": "游得很快"
+        },
+        {
+          "en": "To hunt for seals",
+          "zh": "捕猎海豹"
+        },
+        {
+          "en": "To retain (keep in) heat",
+          "zh": "保持（留存）热量"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines insulate as 'to retain (keep in) heat' — 'Two layers of fur and a thick layer of body fat insulate polar bears from extremely cold temperatures.'",
@@ -156,10 +252,22 @@
         "zh": "书中图表展示了「污染如何到达北极熊身上」。这条链条是怎样的？"
       },
       "options": [
-        {"en": "Toxic chemicals enter Arctic water, fish absorb them, seals eat the fish, and polar bears eat the seals and ingest the toxins stored in seal fat", "zh": "有毒化学物质进入北极水域，鱼吸收它们，海豹吃鱼，北极熊吃海豹、从而吃下存在海豹脂肪里的毒素"},
-        {"en": "Bears drink polluted water directly from factories", "zh": "熊直接喝工厂排出的脏水"},
-        {"en": "People feed bears plastic on purpose", "zh": "人们故意喂熊吃塑料"},
-        {"en": "The sun melts the toxins onto the ice", "zh": "太阳把毒素融化到冰上"}
+        {
+          "en": "Toxic chemicals enter Arctic water, fish absorb them, seals eat the fish, and polar bears eat the seals and ingest the toxins stored in seal fat",
+          "zh": "有毒化学物质进入北极水域，鱼吸收它们，海豹吃鱼，北极熊吃海豹、从而吃下存在海豹脂肪里的毒素"
+        },
+        {
+          "en": "People feed bears plastic on purpose",
+          "zh": "人们故意喂熊吃塑料"
+        },
+        {
+          "en": "Bears drink polluted water directly from factories according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "熊直接喝工厂排出的脏水（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "The sun melts the toxins onto the ice",
+          "zh": "太阳把毒素融化到冰上"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -174,12 +282,24 @@
         "zh": "作者写这本书的主要目的是什么？"
       },
       "options": [
-        {"en": "To inform readers about the polar bear's struggles — especially from global warming and pollution — and encourage people to help protect them", "zh": "为了让读者了解北极熊的困境（尤其来自全球变暖和污染），并鼓励人们帮忙保护它们"},
-        {"en": "To give a step-by-step recipe for cooking seal", "zh": "给出一步步烹饪海豹的食谱"},
-        {"en": "To argue that polar bears should be kept in zoos", "zh": "主张把北极熊养在动物园里"},
-        {"en": "To describe how to drill for oil in the Arctic", "zh": "讲解怎样在北极钻油"}
+        {
+          "en": "To describe how to drill for oil in the Arctic",
+          "zh": "讲解怎样在北极钻油"
+        },
+        {
+          "en": "To give a step-by-step recipe for cooking seal",
+          "zh": "给出一步步烹饪海豹的食谱"
+        },
+        {
+          "en": "To argue that polar bears should be kept in zoos according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "主张把北极熊养在动物园里（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "To inform readers about the polar bear's struggles — especially from global warming and pollution — and encourage people to help protect them",
+          "zh": "为了让读者了解北极熊的困境（尤其来自全球变暖和污染），并鼓励人们帮忙保护它们"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book ends by naming groups 'concerned about the plight of the polar bear' who 'are taking steps to protect these magnificent creatures,' showing the author wants readers informed and motivated to help.",

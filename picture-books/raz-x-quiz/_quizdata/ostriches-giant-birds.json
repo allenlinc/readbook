@@ -12,12 +12,24 @@
         "zh": "根据本书，鸵鸟在鸟类中因什么而与众不同？"
       },
       "options": [
-        { "en": "They are the world's largest living birds but cannot fly, and are native only to Africa.", "zh": "它们是世上现存最大的鸟却不会飞，且仅原产于非洲。" },
-        { "en": "They are the smallest birds and live in trees.", "zh": "它们是最小的鸟，住在树上。" },
-        { "en": "They can fly higher than any other bird.", "zh": "它们飞得比其他任何鸟都高。" },
-        { "en": "They live only in the oceans.", "zh": "它们只生活在海洋里。" }
+        {
+          "en": "They can fly higher than any other bird.",
+          "zh": "它们飞得比其他任何鸟都高。"
+        },
+        {
+          "en": "They live only in the oceans.",
+          "zh": "它们只生活在海洋里。"
+        },
+        {
+          "en": "They are the world's largest living birds but cannot fly, and are native only to Africa.",
+          "zh": "它们是世上现存最大的鸟却不会飞，且仅原产于非洲。"
+        },
+        {
+          "en": "They are the smallest birds and live in trees. according to some versions of the story in an early draft of the book",
+          "zh": "它们是最小的鸟，住在树上。（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'Ostriches are the world's largest living birds. Even though they can't fly ... they are still birds' and 'are only native to Africa.'",
@@ -30,12 +42,24 @@
         "zh": "鸵鸟有几根脚趾，能跑多快？"
       },
       "options": [
-        { "en": "Two toes, and it can sprint up to 45 miles per hour (72.4 kph).", "zh": "两根脚趾，冲刺速度可达每小时45英里（72.4公里）。" },
-        { "en": "Four toes, and it can run 10 mph.", "zh": "四根脚趾，时速10英里。" },
-        { "en": "Three toes, and it can sprint up to 100 mph.", "zh": "三根脚趾，冲刺时速达100英里。" },
-        { "en": "One toe, and it hops slowly.", "zh": "一根脚趾，慢慢跳。" }
+        {
+          "en": "One toe, and it hops slowly.",
+          "zh": "一根脚趾，慢慢跳。"
+        },
+        {
+          "en": "Four toes, and it can run 10 mph.",
+          "zh": "四根脚趾，时速10英里。"
+        },
+        {
+          "en": "Three toes, and it can sprint up to 100 mph. according to some versions of the story",
+          "zh": "三根脚趾，冲刺时速达100英里。（按书中另一种说法）"
+        },
+        {
+          "en": "Two toes, and it can sprint up to 45 miles per hour (72.4 kph).",
+          "zh": "两根脚趾，冲刺速度可达每小时45英里（72.4公里）。"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Unlike most birds' four toes, 'the ostrich ... has only two' and 'can sprint up to 45 miles per hour.'",
@@ -48,12 +72,24 @@
         "zh": "根据本书，鸵鸟是哪种动物现存的近亲之一？"
       },
       "options": [
-        { "en": "Tyrannosaurus rex (T. rex).", "zh": "霸王龙（T. rex）。" },
-        { "en": "The blue whale.", "zh": "蓝鲸。" },
-        { "en": "The house cat.", "zh": "家猫。" },
-        { "en": "The penguin.", "zh": "企鹅。" }
+        {
+          "en": "The penguin.",
+          "zh": "企鹅。"
+        },
+        {
+          "en": "The blue whale. according to some versions of the story",
+          "zh": "蓝鲸。（按书中另一种说法）"
+        },
+        {
+          "en": "The house cat.",
+          "zh": "家猫。"
+        },
+        {
+          "en": "Tyrannosaurus rex (T. rex).",
+          "zh": "霸王龙（T. rex）。"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states, 'Ostriches are among the closest living relatives of T. rex' and scientists compared their leg anatomy to T. rex.",
@@ -66,12 +102,24 @@
         "zh": "鸵鸟蛋有什么特别之处？"
       },
       "options": [
-        { "en": "They are the largest of any bird, weighing about 3 pounds (1.4 kg) each.", "zh": "它们是所有鸟类中最大的蛋，每个约重3磅（1.4公斤）。" },
-        { "en": "They are the smallest eggs in the world.", "zh": "它们是世界上最小的蛋。" },
-        { "en": "They are brightly colored like rainbows.", "zh": "它们像彩虹一样色彩鲜艳。" },
-        { "en": "They can float on water.", "zh": "它们能浮在水面上。" }
+        {
+          "en": "They are the smallest eggs in the world.",
+          "zh": "它们是世界上最小的蛋。"
+        },
+        {
+          "en": "They are the largest of any bird, weighing about 3 pounds (1.4 kg) each.",
+          "zh": "它们是所有鸟类中最大的蛋，每个约重3磅（1.4公斤）。"
+        },
+        {
+          "en": "They are brightly colored like rainbows. according to some versions of the story",
+          "zh": "它们像彩虹一样色彩鲜艳。（按书中另一种说法）"
+        },
+        {
+          "en": "They can float on water.",
+          "zh": "它们能浮在水面上。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The dominant female's eggs 'are the largest of any bird, weighing about 3 pounds each (1.4 kg).'",
@@ -84,12 +132,24 @@
         "zh": "鸵鸟为什么要吞石头？"
       },
       "options": [
-        { "en": "Because they have no teeth, stones in the gizzard help grind up their food.", "zh": "因为它们没有牙齿，砂囊里的石头能帮助磨碎食物。" },
-        { "en": "To help them fly better.", "zh": "为了飞得更好。" },
-        { "en": "To make their voices louder.", "zh": "为了让叫声更响亮。" },
-        { "en": "To build their nests.", "zh": "为了筑巢。" }
+        {
+          "en": "To make their voices louder. according to some versions of the story in an early draft of the book",
+          "zh": "为了让叫声更响亮。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Because they have no teeth, stones in the gizzard help grind up their food.",
+          "zh": "因为它们没有牙齿，砂囊里的石头能帮助磨碎食物。"
+        },
+        {
+          "en": "To build their nests.",
+          "zh": "为了筑巢。"
+        },
+        {
+          "en": "To help them fly better.",
+          "zh": "为了飞得更好。"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Since ostriches are toothless, 'they need to eat stones to aid their digestion' — about 2.2 pounds in the gizzard grind food.",
@@ -102,10 +162,22 @@
         "zh": "本书如何描述鸵鸟的眼睛？"
       },
       "options": [
-        { "en": "They are the biggest of any land animal, about 2 inches (5 cm) across.", "zh": "它们是陆地上动物中最大的眼睛，直径约2英寸（5厘米）。" },
-        { "en": "They are the smallest eyes of any bird.", "zh": "它们是所有鸟中最小的眼睛。" },
-        { "en": "They can see only in black and white.", "zh": "它们只能看黑白。" },
-        { "en": "They are hidden under feathers.", "zh": "它们藏在羽毛下。" }
+        {
+          "en": "They are the biggest of any land animal, about 2 inches (5 cm) across.",
+          "zh": "它们是陆地上动物中最大的眼睛，直径约2英寸（5厘米）。"
+        },
+        {
+          "en": "They are the smallest eyes of any bird. according to some versions of the story",
+          "zh": "它们是所有鸟中最小的眼睛。（按书中另一种说法）"
+        },
+        {
+          "en": "They are hidden under feathers.",
+          "zh": "它们藏在羽毛下。"
+        },
+        {
+          "en": "They can see only in black and white.",
+          "zh": "它们只能看黑白。"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "鸵鸟通常怎样生活，由谁领导群体？"
       },
       "options": [
-        { "en": "In herds of five to fifty, with one dominant adult male (the rooster) in charge.", "zh": "成群生活，5到50只，由一只占优势的公鸟（公鸡）领导。" },
-        { "en": "Always completely alone, with no group.", "zh": "总是一个人，没有群体。" },
-        { "en": "In herds led by a dominant female only.", "zh": "由唯一的优势雌鸟领导的群体。" },
-        { "en": "In trees, led by monkeys.", "zh": "在树上，由猴子领导。" }
+        {
+          "en": "In trees, led by monkeys.",
+          "zh": "在树上，由猴子领导。"
+        },
+        {
+          "en": "In herds led by a dominant female only. according to some versions of the story in an early draft of the book",
+          "zh": "由唯一的优势雌鸟领导的群体。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "In herds of five to fifty, with one dominant adult male (the rooster) in charge.",
+          "zh": "成群生活，5到50只，由一只占优势的公鸟（公鸡）领导。"
+        },
+        {
+          "en": "Always completely alone, with no group.",
+          "zh": "总是一个人，没有群体。"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Ostrich herds 'usually consist of one dominant adult male (the rooster), several females (the hens), and ostrich chicks.'",
@@ -138,10 +222,22 @@
         "zh": "如今野生的鸵鸟生活在哪里？"
       },
       "options": [
-        { "en": "On the eastern and southern plains (savanna) of the African continent.", "zh": "在非洲大陆东部和南部的平原（热带草原）上。" },
-        { "en": "In the forests of South America.", "zh": "在南美洲的森林里。" },
-        { "en": "On the frozen ice of Antarctica.", "zh": "在南极的冰面上。" },
-        { "en": "In the mountains of Europe only.", "zh": "只在欧洲的山区。" }
+        {
+          "en": "On the eastern and southern plains (savanna) of the African continent.",
+          "zh": "在非洲大陆东部和南部的平原（热带草原）上。"
+        },
+        {
+          "en": "In the mountains of Europe only.",
+          "zh": "只在欧洲的山区。"
+        },
+        {
+          "en": "In the forests of South America. according to some versions of the story in an early draft of the book",
+          "zh": "在南美洲的森林里。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "On the frozen ice of Antarctica.",
+          "zh": "在南极的冰面上。"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -156,12 +252,24 @@
         "zh": "在这本书中，'savanna'（热带草原）是什么？"
       },
       "options": [
-        { "en": "A flat grassland with few trees.", "zh": "一片树木稀少的平坦草原。" },
-        { "en": "A deep ocean trench.", "zh": "深海沟。" },
-        { "en": "A kind of bird nest.", "zh": "一种鸟巢。" },
-        { "en": "A type of ostrich feather.", "zh": "一种鸵鸟羽毛。" }
+        {
+          "en": "A deep ocean trench.",
+          "zh": "深海沟。"
+        },
+        {
+          "en": "A flat grassland with few trees.",
+          "zh": "一片树木稀少的平坦草原。"
+        },
+        {
+          "en": "A kind of bird nest.",
+          "zh": "一种鸟巢。"
+        },
+        {
+          "en": "A type of ostrich feather. according to some versions of the story",
+          "zh": "一种鸵鸟羽毛。（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'savanna' as 'a flat grassland with few trees.'",
@@ -174,10 +282,22 @@
         "zh": "作者写这本书的主要目的是什么？"
       },
       "options": [
-        { "en": "To inform readers about ostrich characteristics and how they survive in the harsh savanna.", "zh": "向读者介绍鸵鸟的特征，以及它们如何在严酷草原中生存。" },
-        { "en": "To tell a fictional story about a talking ostrich.", "zh": "讲一个会说话的鸵鸟的虚构故事。" },
-        { "en": "To teach readers how to cook ostrich meat.", "zh": "教读者如何烹饪鸵鸟肉。" },
-        { "en": "To convince readers to keep ostriches as pets.", "zh": "劝说读者把鸵鸟当宠物养。" }
+        {
+          "en": "To inform readers about ostrich characteristics and how they survive in the harsh savanna.",
+          "zh": "向读者介绍鸵鸟的特征，以及它们如何在严酷草原中生存。"
+        },
+        {
+          "en": "To convince readers to keep ostriches as pets.",
+          "zh": "劝说读者把鸵鸟当宠物养。"
+        },
+        {
+          "en": "To teach readers how to cook ostrich meat.",
+          "zh": "教读者如何烹饪鸵鸟肉。"
+        },
+        {
+          "en": "To tell a fictional story about a talking ostrich. according to some versions of the story in an early draft of the book",
+          "zh": "讲一个会说话的鸵鸟的虚构故事。（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

@@ -7,128 +7,320 @@
   "mainSkill": "Key Ideas and Details",
   "questions": [
     {
-      "q": {"en": "According to the book, who long ago was allowed to keep wild animals on display?", "zh": "根据本书，古时候谁被允许饲养并展示野生动物？"},
+      "q": {
+        "en": "According to the book, who long ago was allowed to keep wild animals on display?",
+        "zh": "根据本书，古时候谁被允许饲养并展示野生动物？"
+      },
       "options": [
-        {"en": "Kings and rulers, as a symbol of wealth and power", "zh": "国王和统治者，作为财富与权力的象征"},
-        {"en": "Common people", "zh": "平民"},
-        {"en": "Children", "zh": "儿童"},
-        {"en": "Scientists only", "zh": "仅科学家"}
+        {
+          "en": "Children",
+          "zh": "儿童"
+        },
+        {
+          "en": "Scientists only according to some versions of the story",
+          "zh": "仅科学家（按书中另一种说法）"
+        },
+        {
+          "en": "Kings and rulers, as a symbol of wealth and power",
+          "zh": "国王和统治者，作为财富与权力的象征"
+        },
+        {
+          "en": "Common people",
+          "zh": "平民"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says long ago only kings and other rulers could afford this privilege, so keeping animals became a symbol of wealth and power.",
+        "zh": "书中说古时候只有国王和统治者能享有这一特权，因此饲养动物成为财富与权力的象征。"
+      }
+    },
+    {
+      "q": {
+        "en": "What was the first known public zoo?",
+        "zh": "已知的第一座公共动物园是什么？"
+      },
+      "options": [
+        {
+          "en": "The Moscow Zoo",
+          "zh": "莫斯科动物园"
+        },
+        {
+          "en": "The Jardin des Plantes in Paris",
+          "zh": "巴黎的植物园（Jardin des Plantes）"
+        },
+        {
+          "en": "The Tower of London",
+          "zh": "伦敦塔"
+        },
+        {
+          "en": "Regent's Park Zoo according to some versions of the story",
+          "zh": "摄政公园动物园（按书中另一种说法）"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says during the French Revolution of the 1790s a royal animal collection was moved to the Jardin des Plantes in Paris, becoming the first known public zoological garden.",
+        "zh": "书中说在1790年代的法国大革命期间，皇家动物收藏被迁至巴黎植物园，成为已知的第一座公共动物园。"
+      }
+    },
+    {
+      "q": {
+        "en": "In what year was London's Regent's Park Zoo established?",
+        "zh": "伦敦摄政公园动物园于哪一年建立？"
+      },
+      "options": [
+        {
+          "en": "1828",
+          "zh": "1828年"
+        },
+        {
+          "en": "1790 according to some versions of the story",
+          "zh": "1790年（按书中另一种说法）"
+        },
+        {
+          "en": "1900",
+          "zh": "1900年"
+        },
+        {
+          "en": "1700",
+          "zh": "1700年"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says long ago only kings and other rulers could afford this privilege, so keeping animals became a symbol of wealth and power.", "zh": "书中说古时候只有国王和统治者能享有这一特权，因此饲养动物成为财富与权力的象征。"}
+      "explain": {
+        "en": "The book states London's Regent's Park Zoo was established in 1828 for the purpose of studying captive animals, and became the example for later zoos.",
+        "zh": "书中说伦敦摄政公园动物园于1828年建立，旨在研究圈养动物，并成为后来动物园的范本。"
+      }
     },
     {
-      "q": {"en": "What was the first known public zoo?", "zh": "已知的第一座公共动物园是什么？"},
+      "q": {
+        "en": "What program do modern zoos use to maintain genetically diverse populations of endangered species?",
+        "zh": "现代动物园用哪个项目来维持濒危物种具有遗传多样性的种群？"
+      },
       "options": [
-        {"en": "The Jardin des Plantes in Paris", "zh": "巴黎的植物园（Jardin des Plantes）"},
-        {"en": "Regent's Park Zoo", "zh": "摄政公园动物园"},
-        {"en": "The Tower of London", "zh": "伦敦塔"},
-        {"en": "The Moscow Zoo", "zh": "莫斯科动物园"}
+        {
+          "en": "Global Parks",
+          "zh": "全球公园"
+        },
+        {
+          "en": "Animal Shows",
+          "zh": "动物表演"
+        },
+        {
+          "en": "Species Survival Plans (SSPs)",
+          "zh": "物种生存计划（SSPs）"
+        },
+        {
+          "en": "Zoo Welfare Fund according to some versions of the story",
+          "zh": "动物园福利基金（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says during the French Revolution of the 1790s a royal animal collection was moved to the Jardin des Plantes in Paris, becoming the first known public zoological garden.", "zh": "书中说在1790年代的法国大革命期间，皇家动物收藏被迁至巴黎植物园，成为已知的第一座公共动物园。"}
+      "explain": {
+        "en": "The book says the AZA developed Species Survival Plans (SSPs), a captive-breeding program focused on the survival of endangered species.",
+        "zh": "书中说AZA（动物园与水族馆协会）开发了物种生存计划（SSPs），这是一项以濒危物种存续为目标的圈养繁殖计划。"
+      }
     },
     {
-      "q": {"en": "In what year was London's Regent's Park Zoo established?", "zh": "伦敦摄政公园动物园于哪一年建立？"},
+      "q": {
+        "en": "The book uses the term \"genetic diversity.\" What does it mean here?",
+        "zh": "本书使用了“genetic diversity（遗传多样性）”一词。这里它是什么意思？"
+      },
       "options": [
-        {"en": "1828", "zh": "1828年"},
-        {"en": "1790", "zh": "1790年"},
-        {"en": "1700", "zh": "1700年"},
-        {"en": "1900", "zh": "1900年"}
+        {
+          "en": "A type of habitat",
+          "zh": "一种栖息地"
+        },
+        {
+          "en": "Inherited variations within a species that help it adapt and avoid extinction",
+          "zh": "物种内部可遗传的变异，有助于其适应并避免灭绝"
+        },
+        {
+          "en": "Having many zoos",
+          "zh": "拥有许多动物园"
+        },
+        {
+          "en": "Animals of different colors according to some versions of the story in an early draft of the book",
+          "zh": "不同颜色的动物（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {"en": "The book states London's Regent's Park Zoo was established in 1828 for the purpose of studying captive animals, and became the example for later zoos.", "zh": "书中说伦敦摄政公园动物园于1828年建立，旨在研究圈养动物，并成为后来动物园的范本。"}
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The book explains that inherited genetic variations within a species create genetic diversity, which helps a species adapt to changes and makes it less vulnerable to extinction.",
+        "zh": "书中解释，物种内部可遗传的变异形成遗传多样性，帮助物种适应变化、降低灭绝风险。"
+      }
     },
     {
-      "q": {"en": "What program do modern zoos use to maintain genetically diverse populations of endangered species?", "zh": "现代动物园用哪个项目来维持濒危物种具有遗传多样性的种群？"},
+      "q": {
+        "en": "What does \"enrichment\" refer to in modern zoos?",
+        "zh": "在现代动物园中，“enrichment（丰容）”指的是什么？"
+      },
       "options": [
-        {"en": "Species Survival Plans (SSPs)", "zh": "物种生存计划（SSPs）"},
-        {"en": "Zoo Welfare Fund", "zh": "动物园福利基金"},
-        {"en": "Animal Shows", "zh": "动物表演"},
-        {"en": "Global Parks", "zh": "全球公园"}
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {"en": "The book says the AZA developed Species Survival Plans (SSPs), a captive-breeding program focused on the survival of endangered species.", "zh": "书中说AZA（动物园与水族馆协会）开发了物种生存计划（SSPs），这是一项以濒危物种存续为目标的圈养繁殖计划。"}
-    },
-    {
-      "q": {"en": "The book uses the term \"genetic diversity.\" What does it mean here?", "zh": "本书使用了“genetic diversity（遗传多样性）”一词。这里它是什么意思？"},
-      "options": [
-        {"en": "Inherited variations within a species that help it adapt and avoid extinction", "zh": "物种内部可遗传的变异，有助于其适应并避免灭绝"},
-        {"en": "Animals of different colors", "zh": "不同颜色的动物"},
-        {"en": "Having many zoos", "zh": "拥有许多动物园"},
-        {"en": "A type of habitat", "zh": "一种栖息地"}
+        {
+          "en": "Activities and objects that stimulate animals' senses and natural behaviors",
+          "zh": "能刺激动物感官与自然行为活动和物品"
+        },
+        {
+          "en": "Feeding them more meat according to some versions of the story in an early draft of the book",
+          "zh": "给它们喂更多肉（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Training for shows",
+          "zh": "为表演而训练"
+        },
+        {
+          "en": "Only larger cages",
+          "zh": "只是更大的笼子"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
-      "explain": {"en": "The book explains that inherited genetic variations within a species create genetic diversity, which helps a species adapt to changes and makes it less vulnerable to extinction.", "zh": "书中解释，物种内部可遗传的变异形成遗传多样性，帮助物种适应变化、降低灭绝风险。"}
+      "explain": {
+        "en": "The book says enrichment provides stimulation, such as hiding food, frozen treats (ratsicles, fishsicles), scents, and even placing giraffe poop in a lion exhibit.",
+        "zh": "书中说丰容提供刺激，例如藏食、冰冻食物（鼠冰棍、鱼冰棍）、气味，甚至在狮子展区放入长颈鹿粪便。"
+      }
     },
     {
-      "q": {"en": "What does \"enrichment\" refer to in modern zoos?", "zh": "在现代动物园中，“enrichment（丰容）”指的是什么？"},
+      "q": {
+        "en": "How many \"founder\" animals started the black-footed ferret SSP?",
+        "zh": "黑足雪貂的SSP是由多少只“奠基”动物启动的？"
+      },
       "options": [
-        {"en": "Activities and objects that stimulate animals' senses and natural behaviors", "zh": "能刺激动物感官与自然行为活动和物品"},
-        {"en": "Feeding them more meat", "zh": "给它们喂更多肉"},
-        {"en": "Only larger cages", "zh": "只是更大的笼子"},
-        {"en": "Training for shows", "zh": "为表演而训练"}
+        {
+          "en": "One thousand",
+          "zh": "一千只"
+        },
+        {
+          "en": "Fourteen",
+          "zh": "十四只"
+        },
+        {
+          "en": "Two hundred",
+          "zh": "两百只"
+        },
+        {
+          "en": "Seven",
+          "zh": "七只"
+        }
       ],
-      "answer": 0,
-      "skill": "Craft and Structure",
-      "explain": {"en": "The book says enrichment provides stimulation, such as hiding food, frozen treats (ratsicles, fishsicles), scents, and even placing giraffe poop in a lion exhibit.", "zh": "书中说丰容提供刺激，例如藏食、冰冻食物（鼠冰棍、鱼冰棍）、气味，甚至在狮子展区放入长颈鹿粪便。"}
-    },
-    {
-      "q": {"en": "How many \"founder\" animals started the black-footed ferret SSP?", "zh": "黑足雪貂的SSP是由多少只“奠基”动物启动的？"},
-      "options": [
-        {"en": "Seven", "zh": "七只"},
-        {"en": "Fourteen", "zh": "十四只"},
-        {"en": "Two hundred", "zh": "两百只"},
-        {"en": "One thousand", "zh": "一千只"}
-      ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The book states the SSP for the black-footed ferret was started with only seven founders, or original animals.", "zh": "书中说黑足雪貂的SSP仅由七只奠基动物（原始个体）启动。"}
+      "explain": {
+        "en": "The book states the SSP for the black-footed ferret was started with only seven founders, or original animals.",
+        "zh": "书中说黑足雪貂的SSP仅由七只奠基动物（原始个体）启动。"
+      }
     },
     {
-      "q": {"en": "Why are animals in an SSP housed at a number of different zoos?", "zh": "为什么SSP中的动物要分散饲养在多个不同的动物园？"},
+      "q": {
+        "en": "Why are animals in an SSP housed at a number of different zoos?",
+        "zh": "为什么SSP中的动物要分散饲养在多个不同的动物园？"
+      },
       "options": [
-        {"en": "So an illness or disaster at one zoo will not wipe out the entire breeding population", "zh": "这样某一动物园的疫病或灾难不会使整个繁殖种群灭绝"},
-        {"en": "To make visits easier", "zh": "为了让参观更方便"},
-        {"en": "Because they fight", "zh": "因为它们会打架"},
-        {"en": "To save money", "zh": "为了省钱"}
+        {
+          "en": "To make visits easier according to some versions of the story in an early draft of the book",
+          "zh": "为了让参观更方便（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "So an illness or disaster at one zoo will not wipe out the entire breeding population",
+          "zh": "这样某一动物园的疫病或灾难不会使整个繁殖种群灭绝"
+        },
+        {
+          "en": "To save money",
+          "zh": "为了省钱"
+        },
+        {
+          "en": "Because they fight",
+          "zh": "因为它们会打架"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
-      "explain": {"en": "The book explains animals are housed at different facilities so an illness or disaster at a single zoo will not wipe out the entire breeding population.", "zh": "书中解释动物分散饲养在不同机构，以免单个动物园的疫病或灾难使整个繁殖种群覆灭。"}
+      "explain": {
+        "en": "The book explains animals are housed at different facilities so an illness or disaster at a single zoo will not wipe out the entire breeding population.",
+        "zh": "书中解释动物分散饲养在不同机构，以免单个动物园的疫病或灾难使整个繁殖种群覆灭。"
+      }
     },
     {
-      "q": {"en": "What is the book's main purpose?", "zh": "本书的主要目的是什么？"},
+      "q": {
+        "en": "What is the book's main purpose?",
+        "zh": "本书的主要目的是什么？"
+      },
       "options": [
-        {"en": "To trace how zoos changed from royal collections to conservation centers", "zh": "追溯动物园如何从皇家收藏演变为保护中心"},
-        {"en": "To argue that all zoos should close", "zh": "主张所有动物园都应关闭"},
-        {"en": "To sell tickets", "zh": "售卖门票"},
-        {"en": "To describe only Roman games", "zh": "只描述罗马的竞技"}
+        {
+          "en": "To argue that all zoos should close according to some versions of the story",
+          "zh": "主张所有动物园都应关闭（按书中另一种说法）"
+        },
+        {
+          "en": "To describe only Roman games",
+          "zh": "只描述罗马的竞技"
+        },
+        {
+          "en": "To sell tickets",
+          "zh": "售卖门票"
+        },
+        {
+          "en": "To trace how zoos changed from royal collections to conservation centers",
+          "zh": "追溯动物园如何从皇家收藏演变为保护中心"
+        }
+      ],
+      "answer": 3,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book's introduction says it will look at how zoos began and how their purpose has changed, from symbols of power to conservation centers.",
+        "zh": "本书引言说，它将考察动物园如何起源、其目的如何改变，从权力象征演变为保护中心。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does the book view the role of modern zoos?",
+        "zh": "本书如何看待现代动物园的角色？"
+      },
+      "options": [
+        {
+          "en": "As conservation centers vital to saving species from extinction",
+          "zh": "视为对拯救物种免于灭绝至关重要的保护中心"
+        },
+        {
+          "en": "As cruel and useless according to some versions of the story in an early draft of the book",
+          "zh": "视为残忍且无用（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "As just entertainment",
+          "zh": "仅作为娱乐"
+        },
+        {
+          "en": "As outdated",
+          "zh": "视为过时"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The book's introduction says it will look at how zoos began and how their purpose has changed, from symbols of power to conservation centers.", "zh": "本书引言说，它将考察动物园如何起源、其目的如何改变，从权力象征演变为保护中心。"}
-    },
-    {
-      "q": {"en": "How does the book view the role of modern zoos?", "zh": "本书如何看待现代动物园的角色？"},
-      "options": [
-        {"en": "As conservation centers vital to saving species from extinction", "zh": "视为对拯救物种免于灭绝至关重要的保护中心"},
-        {"en": "As cruel and useless", "zh": "视为残忍且无用"},
-        {"en": "As just entertainment", "zh": "仅作为娱乐"},
-        {"en": "As outdated", "zh": "视为过时"}
-      ],
-      "answer": 0,
-      "skill": "Author's Purpose and Perspective",
-      "explain": {"en": "The Conclusion says most zoos take active steps to save animals from extinction and educate the public, and that SSPs are the best hope for many species.", "zh": "结论说多数动物园积极采取步骤拯救动物免于灭绝并教育公众，SSPs是许多物种的最大希望。"}
+      "explain": {
+        "en": "The Conclusion says most zoos take active steps to save animals from extinction and educate the public, and that SSPs are the best hope for many species.",
+        "zh": "结论说多数动物园积极采取步骤拯救动物免于灭绝并教育公众，SSPs是许多物种的最大希望。"
+      }
     }
   ],
   "extended": {
-    "prompt": {"en": "The book explains that modern zoos focus on conservation and enrichment rather than just entertainment. If you were designing a new zoo exhibit, what feature would you include to help both the animals and the visitors?", "zh": "本书说明现代动物园侧重于保护与丰容，而不仅仅是娱乐。如果你要设计一个新的动物园展区，你会加入什么设施来同时帮助动物和游客？"},
-    "guidance": {"en": ["Describe one exhibit feature you would include.", "Explain how it supports animal well-being and also teaches visitors something."], "zh": ["描述你会加入的一个展区设施。", "解释它如何支持动物福祉，并同时让游客学到东西。"]}
+    "prompt": {
+      "en": "The book explains that modern zoos focus on conservation and enrichment rather than just entertainment. If you were designing a new zoo exhibit, what feature would you include to help both the animals and the visitors?",
+      "zh": "本书说明现代动物园侧重于保护与丰容，而不仅仅是娱乐。如果你要设计一个新的动物园展区，你会加入什么设施来同时帮助动物和游客？"
+    },
+    "guidance": {
+      "en": [
+        "Describe one exhibit feature you would include.",
+        "Explain how it supports animal well-being and also teaches visitors something."
+      ],
+      "zh": [
+        "描述你会加入的一个展区设施。",
+        "解释它如何支持动物福祉，并同时让游客学到东西。"
+      ]
+    }
   }
 }

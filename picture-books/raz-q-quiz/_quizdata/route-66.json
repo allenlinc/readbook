@@ -12,12 +12,24 @@
         "zh": "66号公路有多长？它连接了哪两座城市？"
       },
       "options": [
-        {"en": "It stretched 2,400 miles (3,862 km) from Chicago, Illinois, to Los Angeles, California", "zh": "它全长2400英里（3862公里），从伊利诺伊州芝加哥到加利福尼亚州洛杉矶"},
-        {"en": "It was 500 miles from New York to Boston", "zh": "它长500英里，从纽约到波士顿"},
-        {"en": "It ran 1,000 miles from Texas to Canada", "zh": "它长1000英里，从得州到加拿大"},
-        {"en": "It was a short road across one small town", "zh": "它只是穿过一座小镇的短小路"}
+        {
+          "en": "It was 500 miles from New York to Boston according to some versions of the story in an early draft of the book",
+          "zh": "它长500英里，从纽约到波士顿（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It was a short road across one small town",
+          "zh": "它只是穿过一座小镇的短小路"
+        },
+        {
+          "en": "It stretched 2,400 miles (3,862 km) from Chicago, Illinois, to Los Angeles, California",
+          "zh": "它全长2400英里（3862公里），从伊利诺伊州芝加哥到加利福尼亚州洛杉矶"
+        },
+        {
+          "en": "It ran 1,000 miles from Texas to Canada",
+          "zh": "它长1000英里，从得州到加拿大"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says one new highway 'stretched 2,400 miles (3,862 km) from Chicago, Illinois, to Los Angeles, California. Its name was Route 66.'",
@@ -30,12 +42,24 @@
         "zh": "人们给了66号公路什么亲切的绰号？"
       },
       "options": [
-        {"en": "The “Main Street of America”", "zh": "「美国的主街」(Main Street of America)"},
-        {"en": "The “River of the West”", "zh": "「西部之河」"},
-        {"en": "The “Road to the Moon”", "zh": "「通往月亮的路」"},
-        {"en": "The “King's Highway”", "zh": "「国王大道」"}
+        {
+          "en": "The “Road to the Moon” according to some versions of the story",
+          "zh": "「通往月亮的路」（按书中另一种说法）"
+        },
+        {
+          "en": "The “Main Street of America”",
+          "zh": "「美国的主街」(Main Street of America)"
+        },
+        {
+          "en": "The “River of the West”",
+          "zh": "「西部之河」"
+        },
+        {
+          "en": "The “King's Highway”",
+          "zh": "「国王大道」"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Route 66 was 'fondly... called the “Main Street of America.”'",
@@ -48,12 +72,24 @@
         "zh": "在约翰·斯坦贝克(John Steinbeck)的小说《愤怒的葡萄》(The Grapes of Wrath) 里，他把66号公路称作什么？"
       },
       "options": [
-        {"en": "“the mother road” and “the road of flight”", "zh": "「母亲之路」(the mother road) 和「逃亡之路」(the road of flight)"},
-        {"en": "“the golden highway” and “the road home”", "zh": "「金色公路」和「回家之路」"},
-        {"en": "“the lonely trail” and “the road of dust”", "zh": "「孤独小径」和「尘土之路」"},
-        {"en": "“the royal road” and “the road of kings”", "zh": "「王家之路」和「王者之路」"}
+        {
+          "en": "“the lonely trail” and “the road of dust” according to some versions of the story",
+          "zh": "「孤独小径」和「尘土之路」（按书中另一种说法）"
+        },
+        {
+          "en": "“the golden highway” and “the road home”",
+          "zh": "「金色公路」和「回家之路」"
+        },
+        {
+          "en": "“the mother road” and “the road of flight”",
+          "zh": "「母亲之路」(the mother road) 和「逃亡之路」(the road of flight)"
+        },
+        {
+          "en": "“the royal road” and “the road of kings”",
+          "zh": "「王家之路」和「王者之路」"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Steinbeck's 1939 novel is about a family fleeing Oklahoma on Route 66, and 'Steinbeck described Route 66 as “the mother road” and “the road of flight.”'",
@@ -66,12 +102,24 @@
         "zh": "1946年歌曲《Route 66》里哪句著名的歌词让这条公路声名大噪？"
       },
       "options": [
-        {"en": "“get your kicks on Route Sixty-Six”", "zh": "「在六十六号公路上找乐子」(get your kicks on Route Sixty-Six)"},
-        {"en": "“drive slow on the open road”", "zh": "「在开阔的公路上慢慢开」"},
-        {"en": "“goodbye to the city lights”", "zh": "「告别城市的灯火」"},
-        {"en": "“follow the river to the sea”", "zh": "「沿着河流去海边」"}
+        {
+          "en": "“follow the river to the sea”",
+          "zh": "「沿着河流去海边」"
+        },
+        {
+          "en": "“get your kicks on Route Sixty-Six”",
+          "zh": "「在六十六号公路上找乐子」(get your kicks on Route Sixty-Six)"
+        },
+        {
+          "en": "“goodbye to the city lights”",
+          "zh": "「告别城市的灯火」"
+        },
+        {
+          "en": "“drive slow on the open road” according to some versions of the story",
+          "zh": "「在开阔的公路上慢慢开」（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the 1946 song 'Route 66' became a top hit, and 'Its most famous line told listeners to “get your kicks on Route Sixty-Six.”'",
@@ -84,12 +132,24 @@
         "zh": "在词汇表里，「bypassed」(绕开) 是什么意思？"
       },
       "options": [
-        {"en": "Passed by or avoided, often to make a process quicker or easier", "zh": "从旁边经过或避开，常是为了让过程更快或更省力"},
-        {"en": "Built brand new from the ground up", "zh": "从零开始全新建造"},
-        {"en": "Closed down forever", "zh": "永远关闭"},
-        {"en": "Painted with bright colors", "zh": "涂上鲜艳的颜色"}
+        {
+          "en": "Painted with bright colors",
+          "zh": "涂上鲜艳的颜色"
+        },
+        {
+          "en": "Built brand new from the ground up according to some versions of the story",
+          "zh": "从零开始全新建造（按书中另一种说法）"
+        },
+        {
+          "en": "Closed down forever",
+          "zh": "永远关闭"
+        },
+        {
+          "en": "Passed by or avoided, often to make a process quicker or easier",
+          "zh": "从旁边经过或避开，常是为了让过程更快或更省力"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines bypassed as 'passed by or avoided, often to make a process quicker or easier' (p. 8) — by 1970 most of the original Route 66 was bypassed by a new highway.",
@@ -102,12 +162,24 @@
         "zh": "在词汇表里，「jagged」(锯齿状的) 是什么意思？它怎样影响了早期的开车人？"
       },
       "options": [
-        {"en": "Having a sharp, irregular shape or edge; early cars popped tires on jagged rocks", "zh": "有尖锐、不规则的形状或边缘；早期汽车常因锯齿状岩石而爆胎"},
-        {"en": "Smooth and flat like a road", "zh": "像路面一样平滑"},
-        {"en": "Brightly colored for advertising", "zh": "为做广告而色彩鲜艳"},
-        {"en": "Very wide and easy to drive on", "zh": "非常宽阔、好开"}
+        {
+          "en": "Very wide and easy to drive on",
+          "zh": "非常宽阔、好开"
+        },
+        {
+          "en": "Having a sharp, irregular shape or edge; early cars popped tires on jagged rocks",
+          "zh": "有尖锐、不规则的形状或边缘；早期汽车常因锯齿状岩石而爆胎"
+        },
+        {
+          "en": "Smooth and flat like a road",
+          "zh": "像路面一样平滑"
+        },
+        {
+          "en": "Brightly colored for advertising according to some versions of the story in an early draft of the book",
+          "zh": "为做广告而色彩鲜艳（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines jagged as 'having a sharp, irregular shape or edge' (p. 5). The book says a hundred years ago cars 'popped tires on jagged rocks.'",
@@ -120,10 +192,22 @@
         "zh": "迪士尼-皮克斯的动画电影《汽车总动员》(Cars) 是怎样和真实的66号公路景点联系起来的？"
       },
       "options": [
-        {"en": "The Wigwam Motel became the Cozy Cone Motel, and a rusty tow truck became the character Tow Mater", "zh": "威格沃姆汽车旅馆变成了「舒适圆锥旅馆」，一辆生锈的拖车变成了角色「拖拖」(Tow Mater)"},
-        {"en": "The movie was filmed entirely in a studio with no real locations", "zh": "电影完全在摄影棚里拍，没有真实取景"},
-        {"en": "It was based on a book about New York City", "zh": "它改编自一本写纽约市的书"},
-        {"en": "The characters were all real presidents", "zh": "角色全都是真实的总统"}
+        {
+          "en": "The Wigwam Motel became the Cozy Cone Motel, and a rusty tow truck became the character Tow Mater",
+          "zh": "威格沃姆汽车旅馆变成了「舒适圆锥旅馆」，一辆生锈的拖车变成了角色「拖拖」(Tow Mater)"
+        },
+        {
+          "en": "The characters were all real presidents",
+          "zh": "角色全都是真实的总统"
+        },
+        {
+          "en": "The movie was filmed entirely in a studio with no real locations according to some versions of the story in an early draft of the book",
+          "zh": "电影完全在摄影棚里拍，没有真实取景（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It was based on a book about New York City",
+          "zh": "它改编自一本写纽约市的书"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -138,10 +222,22 @@
         "zh": "66号公路沿途有哪些奇特的路边景点例子？"
       },
       "options": [
-        {"en": "Things like Cadillac Ranch (buried cars), the Blue Whale (80-foot whale), and Elmer's Bottle Tree Ranch", "zh": "例如卡迪拉克农场（埋着的汽车）、蓝鲸（80英尺的鲸鱼）和埃尔默的瓶子树牧场"},
-        {"en": "Only ordinary gas stations and plain hotels", "zh": "只有普通的加油站和平凡的旅馆"},
-        {"en": "Only mountains and forests, with no art", "zh": "只有山林，没有任何艺术装置"},
-        {"en": "Only big shopping malls", "zh": "只有大型购物中心"}
+        {
+          "en": "Things like Cadillac Ranch (buried cars), the Blue Whale (80-foot whale), and Elmer's Bottle Tree Ranch",
+          "zh": "例如卡迪拉克农场（埋着的汽车）、蓝鲸（80英尺的鲸鱼）和埃尔默的瓶子树牧场"
+        },
+        {
+          "en": "Only ordinary gas stations and plain hotels according to some versions of the story in an early draft of the book",
+          "zh": "只有普通的加油站和平凡的旅馆（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Only big shopping malls",
+          "zh": "只有大型购物中心"
+        },
+        {
+          "en": "Only mountains and forests, with no art",
+          "zh": "只有山林，没有任何艺术装置"
+        }
       ],
       "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
@@ -156,12 +252,24 @@
         "zh": "这本书的「聚焦问题」(Focus Question) 是什么？也就是作者希望你思考的核心问题。"
       },
       "options": [
-        {"en": "What is the significance of Route 66?", "zh": "66号公路的意义是什么？"},
-        {"en": "How long does it take to drive across America?", "zh": "横穿美国需要开多久？"},
-        {"en": "Who invented the automobile?", "zh": "谁发明了汽车？"},
-        {"en": "Why did the dinosaurs disappear?", "zh": "恐龙为什么会灭绝？"}
+        {
+          "en": "Who invented the automobile?",
+          "zh": "谁发明了汽车？"
+        },
+        {
+          "en": "Why did the dinosaurs disappear?",
+          "zh": "恐龙为什么会灭绝？"
+        },
+        {
+          "en": "How long does it take to drive across America?",
+          "zh": "横穿美国需要开多久？"
+        },
+        {
+          "en": "What is the significance of Route 66?",
+          "zh": "66号公路的意义是什么？"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book opens with the Focus Question 'What is the significance of Route 66?' and the whole book answers it through history, culture, and attractions.",
@@ -174,10 +282,22 @@
         "zh": "1999年美国国会为拯救66号公路做了什么？为什么需要这样做？"
       },
       "options": [
-        {"en": "It passed a law giving money to help businesses and towns keep important sights open, after many had closed when interstates bypassed the road", "zh": "它通过一项法律，拨款帮助商家和城镇维持重要景点开放——此前许多因州际公路绕开此路而倒闭"},
-        {"en": "It closed the road forever to all traffic", "zh": "它永远关闭了这条路，禁止一切通行"},
-        {"en": "It built a wall along the entire route", "zh": "它沿整条公路筑起一道墙"},
-        {"en": "It renamed the road “Interstate 66”", "zh": "它把这条路改名为「66号州际公路」"}
+        {
+          "en": "It passed a law giving money to help businesses and towns keep important sights open, after many had closed when interstates bypassed the road",
+          "zh": "它通过一项法律，拨款帮助商家和城镇维持重要景点开放——此前许多因州际公路绕开此路而倒闭"
+        },
+        {
+          "en": "It built a wall along the entire route",
+          "zh": "它沿整条公路筑起一道墙"
+        },
+        {
+          "en": "It renamed the road “Interstate 66”",
+          "zh": "它把这条路改名为「66号州际公路」"
+        },
+        {
+          "en": "It closed the road forever to all traffic according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "它永远关闭了这条路，禁止一切通行（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

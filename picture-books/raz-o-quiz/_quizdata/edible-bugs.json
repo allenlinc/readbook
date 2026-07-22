@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "They are easy to catch in backyards according to some versions of the story",
+          "zh": "它们很容易在后院抓到（按书中另一种说法）"
+        },
+        {
           "en": "They are good for people's health and provide needed nutrients",
           "zh": "它们有益健康，能提供人体所需的营养"
         },
@@ -21,15 +25,11 @@
           "zh": "它们比牛肉好吃"
         },
         {
-          "en": "They are easy to catch in backyards",
-          "zh": "它们很容易在后院抓到"
-        },
-        {
           "en": "They are illegal to farm",
           "zh": "养殖它们是违法的"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'People all around the world have been eating insects for thousands of years—and with good reason. Many insects are good for people's health.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Cricket",
-          "zh": "蟋蟀"
-        },
-        {
           "en": "Giant Water Bug",
           "zh": "大水虫"
+        },
+        {
+          "en": "Ground Beef",
+          "zh": "碎牛肉"
         },
         {
           "en": "Grasshopper",
           "zh": "蚱蜢"
         },
         {
-          "en": "Ground Beef",
-          "zh": "碎牛肉"
+          "en": "Cricket",
+          "zh": "蟋蟀"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The chart lists cricket calcium at 75.8 mg, higher than giant water bug (43.5), grasshopper (35.2), and ground beef (32.0).",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Australia",
-          "zh": "澳大利亚"
+          "en": "China",
+          "zh": "中国"
+        },
+        {
+          "en": "Brazil according to some versions of the story",
+          "zh": "巴西（按书中另一种说法）"
         },
         {
           "en": "Japan",
           "zh": "日本"
         },
         {
-          "en": "Brazil",
-          "zh": "巴西"
-        },
-        {
-          "en": "China",
-          "zh": "中国"
+          "en": "Australia",
+          "zh": "澳大利亚"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says some Australians munch on witchetty grubs, which 'have a smooth filling that tastes like almonds.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Able to be eaten",
-          "zh": "可以吃的"
+          "en": "Living in water",
+          "zh": "生活在水里"
         },
         {
           "en": "Too small to see",
           "zh": "小到看不见"
         },
         {
-          "en": "Dangerous to touch",
-          "zh": "碰了会有危险"
+          "en": "Able to be eaten",
+          "zh": "可以吃的"
         },
         {
-          "en": "Living in water",
-          "zh": "生活在水里"
+          "en": "Dangerous to touch",
+          "zh": "碰了会有危险"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'edible' as 'able to be eaten.'",
@@ -137,16 +137,16 @@
           "zh": "它们都是外骨骼的节肢动物"
         },
         {
-          "en": "Both are mammals",
-          "zh": "它们都是哺乳动物"
-        },
-        {
-          "en": "Both live only in the ocean",
-          "zh": "它们都只生活在海洋里"
-        },
-        {
           "en": "Both can fly",
           "zh": "它们都会飞"
+        },
+        {
+          "en": "Both live only in the ocean according to some versions of the story",
+          "zh": "它们都只生活在海洋里（按书中另一种说法）"
+        },
+        {
+          "en": "Both are mammals",
+          "zh": "它们都是哺乳动物"
         }
       ],
       "answer": 0,
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "All insects are poisonous",
+          "zh": "所有昆虫都有毒"
+        },
+        {
           "en": "A large insect farm creates much less harmful waste than a cattle ranch",
           "zh": "大型昆虫养殖场产生的有害废物远少于养牛场"
         },
@@ -171,15 +175,11 @@
           "zh": "昆虫的味道和龙虾一模一样"
         },
         {
-          "en": "All insects are poisonous",
-          "zh": "所有昆虫都有毒"
-        },
-        {
-          "en": "Insects are only eaten in the United States",
-          "zh": "昆虫只在美国被食用"
+          "en": "Insects are only eaten in the United States according to some versions of the story",
+          "zh": "昆虫只在美国被食用（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book states a large insect farm creates about ten times less harmful waste than a cattle ranch and takes up much less space.",
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "On the Internet",
-          "zh": "通过互联网"
-        },
-        {
           "en": "From your backyard",
           "zh": "从自家后院"
         },
@@ -205,11 +201,15 @@
           "zh": "从杂货店货架"
         },
         {
+          "en": "On the Internet",
+          "zh": "通过互联网"
+        },
+        {
           "en": "By catching wild ones",
           "zh": "抓野生的"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, 'In the United States, the best way to find edible insects is on the Internet,' where people can buy farmed insects safely.",
@@ -227,16 +227,16 @@
           "zh": "为了警告读者野生昆虫可能危险或有毒"
         },
         {
+          "en": "To explain how to cook lobsters",
+          "zh": "为了解释如何烹饪龙虾"
+        },
+        {
           "en": "To say that all insects taste good",
           "zh": "为了说明所有昆虫都好吃"
         },
         {
-          "en": "To encourage catching bugs in backyards",
-          "zh": "为了鼓励在后院抓虫子"
-        },
-        {
-          "en": "To explain how to cook lobsters",
-          "zh": "为了解释如何烹饪龙虾"
+          "en": "To encourage catching bugs in backyards according to some versions of the story",
+          "zh": "为了鼓励在后院抓虫子（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -265,8 +265,8 @@
           "zh": "它会危害环境"
         },
         {
-          "en": "Only children should eat them",
-          "zh": "只有小孩才应该吃"
+          "en": "Only children should eat them according to some versions of the story in an early draft of the book",
+          "zh": "只有小孩才应该吃（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 0,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "The king ants are awake then",
+          "zh": "因为那时蚁王醒着"
+        },
+        {
           "en": "That is when queen ants come out from hiding underground",
           "zh": "因为那是蚁后从地下钻出来的时候"
         },
         {
-          "en": "That is when they are cheapest to buy",
-          "zh": "因为那时买它们最便宜"
+          "en": "That is when they are cheapest to buy according to some versions of the story",
+          "zh": "因为那时买它们最便宜（按书中另一种说法）"
         },
         {
           "en": "They only taste good in summer",
           "zh": "它们只在夏天好吃"
-        },
-        {
-          "en": "The king ants are awake then",
-          "zh": "因为那时蚁王醒着"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says one town in Brazil cooks queen ants every October and November 'because this is when queen ants come out from hiding underground.'",

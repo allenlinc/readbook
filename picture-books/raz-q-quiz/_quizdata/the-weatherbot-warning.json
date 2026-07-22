@@ -12,12 +12,24 @@
         "zh": "扎雷拉(Zarela)是在哪里发现气象机器人(WeatherBot)的？"
       },
       "options": [
-        {"en": "In a school basement storage room, under a tarp covering a large machine", "zh": "在学校地下室的储物间里，盖着防水布的一台大机器下面"},
-        {"en": "In her mother's science classroom", "zh": "在妈妈的科学教室里"},
-        {"en": "On the football field", "zh": "在橄榄球场上"},
-        {"en": "In Missy's backyard", "zh": "在米西家的后院"}
+        {
+          "en": "On the football field",
+          "zh": "在橄榄球场上"
+        },
+        {
+          "en": "In her mother's science classroom according to some versions of the story in an early draft of the book",
+          "zh": "在妈妈的科学教室里（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "In a school basement storage room, under a tarp covering a large machine",
+          "zh": "在学校地下室的储物间里，盖着防水布的一台大机器下面"
+        },
+        {
+          "en": "In Missy's backyard",
+          "zh": "在米西家的后院"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "While hiding during a game of hide-and-seek, Zarela 'crept to the back of the room and ducked under a tarp that was covering a large machine,' where she saw the word WeatherBot.",
@@ -30,12 +42,24 @@
         "zh": "根据笔记，按哪些按钮、拨哪个开关会「启动」一场雨？"
       },
       "options": [
-        {"en": "Push the green button, then the red button, then flip the bottom switch", "zh": "先按绿色按钮，再按红色按钮，然后拨动底部开关"},
-        {"en": "Push the red button, then the green button, then the top switch", "zh": "先按红色、再按绿色，然后拨顶部开关"},
-        {"en": "Flip the bottom switch, then the red button, then the green button", "zh": "先拨底部开关，再按红色、再按绿色"},
-        {"en": "Just shout 'rain' three times", "zh": "只要连喊三声「下雨」"}
+        {
+          "en": "Just shout 'rain' three times",
+          "zh": "只要连喊三声「下雨」"
+        },
+        {
+          "en": "Flip the bottom switch, then the red button, then the green button according to some versions of the story",
+          "zh": "先拨底部开关，再按红色、再按绿色（按书中另一种说法）"
+        },
+        {
+          "en": "Push the green button, then the red button, then flip the bottom switch",
+          "zh": "先按绿色按钮，再按红色按钮，然后拨动底部开关"
+        },
+        {
+          "en": "Push the red button, then the green button, then the top switch",
+          "zh": "先按红色、再按绿色，然后拨顶部开关"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The clipboard notes read, 'To initiate a rainstorm, push the green button, then the red button, then flip the bottom switch.' Zarela follows exactly this order.",
@@ -48,10 +72,22 @@
         "zh": "根据扎雷拉在中场时读到的笔记，要怎样「停止」一场雨？"
       },
       "options": [
-        {"en": "Reverse the sequence: bottom switch, red button, then green button", "zh": "把顺序反过来：先底部开关，再红色按钮，然后绿色按钮"},
-        {"en": "Push the green and red buttons again", "zh": "再按一次绿色和红色按钮"},
-        {"en": "Unplug the machine from the wall", "zh": "把机器从墙上拔掉插头"},
-        {"en": "Wait for the battery to run out", "zh": "等电池耗尽"}
+        {
+          "en": "Reverse the sequence: bottom switch, red button, then green button",
+          "zh": "把顺序反过来：先底部开关，再红色按钮，然后绿色按钮"
+        },
+        {
+          "en": "Wait for the battery to run out",
+          "zh": "等电池耗尽"
+        },
+        {
+          "en": "Unplug the machine from the wall",
+          "zh": "把机器从墙上拔掉插头"
+        },
+        {
+          "en": "Push the green and red buttons again according to some versions of the story",
+          "zh": "再按一次绿色和红色按钮（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -66,12 +102,24 @@
         "zh": "在词汇表里，「initiate」是什么意思？"
       },
       "options": [
-        {"en": "To begin or start", "zh": "开始、启动"},
-        {"en": "To finish or end", "zh": "结束、终止"},
-        {"en": "To repair a machine", "zh": "修理一台机器"},
-        {"en": "To hide under a tarp", "zh": "钻到防水布下面"}
+        {
+          "en": "To repair a machine",
+          "zh": "修理一台机器"
+        },
+        {
+          "en": "To begin or start",
+          "zh": "开始、启动"
+        },
+        {
+          "en": "To hide under a tarp",
+          "zh": "钻到防水布下面"
+        },
+        {
+          "en": "To finish or end",
+          "zh": "结束、终止"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'initiate' as 'to begin or start' — the notes use it as 'To initiate a rainstorm' (p. 4).",
@@ -84,12 +132,24 @@
         "zh": "在词汇表里，「forecast」是什么？"
       },
       "options": [
-        {"en": "A prediction of expected weather conditions", "zh": "对预期天气情况所做的预测"},
-        {"en": "A machine that makes rain", "zh": "一台会造雨的机器"},
-        {"en": "A type of soccer game", "zh": "一种足球比赛"},
-        {"en": "A kind of popcorn", "zh": "一种爆米花"}
+        {
+          "en": "A type of soccer game",
+          "zh": "一种足球比赛"
+        },
+        {
+          "en": "A prediction of expected weather conditions",
+          "zh": "对预期天气情况所做的预测"
+        },
+        {
+          "en": "A kind of popcorn",
+          "zh": "一种爆米花"
+        },
+        {
+          "en": "A machine that makes rain according to some versions of the story",
+          "zh": "一台会造雨的机器（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'forecast' as 'a prediction of expected weather conditions' — Missy notes the weather forecast 'called for blue skies,' but it rained instead.",
@@ -102,12 +162,24 @@
         "zh": "妈妈大学时用自己的气象机器那一次，发生了什么？"
       },
       "options": [
-        {"en": "The college was struck by lightning fifty times in one night, and a strange fog surrounded it for years", "zh": "那所大学一晚被闪电击中五十次，之后被怪雾笼罩了好多年"},
-        {"en": "It snowed in the middle of summer", "zh": "盛夏里下起了雪"},
-        {"en": "The machine caught on fire harmlessly", "zh": "机器无害地起火了"},
-        {"en": "Everyone at college got perfect grades", "zh": "大学里所有人都拿到了满分"}
+        {
+          "en": "It snowed in the middle of summer",
+          "zh": "盛夏里下起了雪"
+        },
+        {
+          "en": "The college was struck by lightning fifty times in one night, and a strange fog surrounded it for years",
+          "zh": "那所大学一晚被闪电击中五十次，之后被怪雾笼罩了好多年"
+        },
+        {
+          "en": "Everyone at college got perfect grades according to some versions of the story in an early draft of the book",
+          "zh": "大学里所有人都拿到了满分（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The machine caught on fire harmlessly",
+          "zh": "机器无害地起火了"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Mom says, 'The one time I used it, the college was struck by lightning fifty times in one night. For years afterward, the college was surrounded by a strange fog.'",
@@ -120,12 +192,24 @@
         "zh": "扎雷拉把雨停下后，在笔记背面发现了什么警告？"
       },
       "options": [
-        {"en": "Attempts to undo previous weather manipulation may cause unstable results", "zh": "试图撤销先前的天气操纵，可能导致不稳定的后果"},
-        {"en": "Always push the green button first", "zh": "一定要先按绿色按钮"},
-        {"en": "The machine is safe to use anytime", "zh": "这台机器任何时候都能安全使用"},
-        {"en": "Tell your mother before using the machine", "zh": "用机器前要先告诉妈妈"}
+        {
+          "en": "Always push the green button first",
+          "zh": "一定要先按绿色按钮"
+        },
+        {
+          "en": "Tell your mother before using the machine according to some versions of the story",
+          "zh": "用机器前要先告诉妈妈（按书中另一种说法）"
+        },
+        {
+          "en": "The machine is safe to use anytime",
+          "zh": "这台机器任何时候都能安全使用"
+        },
+        {
+          "en": "Attempts to undo previous weather manipulation may cause unstable results",
+          "zh": "试图撤销先前的天气操纵，可能导致不稳定的后果"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "On the back page her mother wrote, 'Warning: Attempts to undo previous weather manipulation may cause unstable results' — which is why stopping the rain makes it snow in September.",
@@ -138,12 +222,24 @@
         "zh": "关于科学与自然，这本书最后留给读者什么信息？"
       },
       "options": [
-        {"en": "There are some things we just shouldn't mess with", "zh": "有些事情我们就是不该去乱碰"},
-        {"en": "Scientists should build more weather machines", "zh": "科学家应该造更多气象机器"},
-        {"en": "Lightning is fun to collect", "zh": "收集闪电很好玩"},
-        {"en": "Fog is the best kind of weather", "zh": "雾是最好的天气"}
+        {
+          "en": "Fog is the best kind of weather",
+          "zh": "雾是最好的天气"
+        },
+        {
+          "en": "Scientists should build more weather machines according to some versions of the story",
+          "zh": "科学家应该造更多气象机器（按书中另一种说法）"
+        },
+        {
+          "en": "Lightning is fun to collect",
+          "zh": "收集闪电很好玩"
+        },
+        {
+          "en": "There are some things we just shouldn't mess with",
+          "zh": "有些事情我们就是不该去乱碰"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Both Mom ('Maybe there are some things science just shouldn't mess with') and Zarela ('Let's not invent any more weather machines. There are some things we just shouldn't mess with') state this warning.",
@@ -156,10 +252,22 @@
         "zh": "除了机器的危险，这个故事还教了我们关于诚实与家庭的什么？"
       },
       "options": [
-        {"en": "You should talk to a parent you trust instead of hiding a mistake — 'I'm your mother; I want to help you'", "zh": "应该向信任的父母坦白，而不是隐瞒错误——「我是你妈妈，我想帮你」"},
-        {"en": "It is fine to never tell your parents anything", "zh": "永远不告诉父母任何事也没关系"},
-        {"en": "Lying always solves the problem", "zh": "说谎总能解决问题"},
-        {"en": "Parents should never help with science projects", "zh": "父母绝不该帮科学作业"}
+        {
+          "en": "You should talk to a parent you trust instead of hiding a mistake — 'I'm your mother; I want to help you'",
+          "zh": "应该向信任的父母坦白，而不是隐瞒错误——「我是你妈妈，我想帮你」"
+        },
+        {
+          "en": "Parents should never help with science projects",
+          "zh": "父母绝不该帮科学作业"
+        },
+        {
+          "en": "Lying always solves the problem",
+          "zh": "说谎总能解决问题"
+        },
+        {
+          "en": "It is fine to never tell your parents anything according to some versions of the story in an early draft of the book",
+          "zh": "永远不告诉父母任何事也没关系（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,10 +282,22 @@
         "zh": "为什么扎雷拉和妈妈决定必须毁掉气象机器人？"
       },
       "options": [
-        {"en": "Because it is too dangerous and 'It's the only way' to stop the weather chaos it causes", "zh": "因为它太危险了，「这是唯一的办法」来终结它造成的天气混乱"},
-        {"en": "Because it was too old and rusty", "zh": "因为它太旧、生锈了"},
-        {"en": "Because they wanted to build a bigger one", "zh": "因为他们想造一台更大的"},
-        {"en": "Because the school asked them to", "zh": "因为学校要求他们这么做"}
+        {
+          "en": "Because it is too dangerous and 'It's the only way' to stop the weather chaos it causes",
+          "zh": "因为它太危险了，「这是唯一的办法」来终结它造成的天气混乱"
+        },
+        {
+          "en": "Because they wanted to build a bigger one according to some versions of the story in an early draft of the book",
+          "zh": "因为他们想造一台更大的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Because it was too old and rusty",
+          "zh": "因为它太旧、生锈了"
+        },
+        {
+          "en": "Because the school asked them to",
+          "zh": "因为学校要求他们这么做"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",

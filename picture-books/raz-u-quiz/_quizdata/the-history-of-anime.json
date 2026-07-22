@@ -12,12 +12,24 @@
         "zh": "动漫最早源自哪个亚洲国家？"
       },
       "options": [
-        {"en": "China", "zh": "中国"},
-        {"en": "Japan", "zh": "日本"},
-        {"en": "Korea", "zh": "韩国"},
-        {"en": "India", "zh": "印度"}
+        {
+          "en": "Japan",
+          "zh": "日本"
+        },
+        {
+          "en": "India according to some versions of the story",
+          "zh": "印度（按书中另一种说法）"
+        },
+        {
+          "en": "Korea",
+          "zh": "韩国"
+        },
+        {
+          "en": "China",
+          "zh": "中国"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says one type of storytelling art comes from the Asian island nation of Japan and is known as anime.",
@@ -30,12 +42,24 @@
         "zh": "被称为“漫画（manga）”的艺术形式最早出现在哪一年？"
       },
       "options": [
-        {"en": "1814", "zh": "1814年"},
-        {"en": "1945", "zh": "1945年"},
-        {"en": "1963", "zh": "1963年"},
-        {"en": "2001", "zh": "2001年"}
+        {
+          "en": "1963 according to some versions of the story",
+          "zh": "1963年（按书中另一种说法）"
+        },
+        {
+          "en": "2001",
+          "zh": "2001年"
+        },
+        {
+          "en": "1814",
+          "zh": "1814年"
+        },
+        {
+          "en": "1945",
+          "zh": "1945年"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that in 1814 a new art form called manga appeared, drawn by hand on paper.",
@@ -48,12 +72,24 @@
         "zh": "“manga（漫画）”由哪两个日语词根组成，意思是什么？"
       },
       "options": [
-        {"en": "\"man\" (curious) + \"ga\" (sketches), meaning cartoon", "zh": "“man”（好奇）+“ga”（速写），意为卡通/漫画"},
-        {"en": "\"man\" (person) + \"ga\" (song), meaning music", "zh": "“man”（人）+“ga”（歌），意为音乐"},
-        {"en": "\"man\" (hand) + \"ga\" (paper), meaning writing", "zh": "“man”（手）+“ga”（纸），意为书写"},
-        {"en": "\"man\" (water) + \"ga\" (fire), meaning nature", "zh": "“man”（水）+“ga”（火），意为自然"}
+        {
+          "en": "\"man\" (person) + \"ga\" (song), meaning music",
+          "zh": "“man”（人）+“ga”（歌），意为音乐"
+        },
+        {
+          "en": "\"man\" (curious) + \"ga\" (sketches), meaning cartoon",
+          "zh": "“man”（好奇）+“ga”（速写），意为卡通/漫画"
+        },
+        {
+          "en": "\"man\" (water) + \"ga\" (fire), meaning nature",
+          "zh": "“man”（水）+“ga”（火），意为自然"
+        },
+        {
+          "en": "\"man\" (hand) + \"ga\" (paper), meaning writing according to some versions of the story",
+          "zh": "“man”（手）+“ga”（纸），意为书写（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book's Word Wise says manga combines man, meaning \"curious,\" and ga, meaning \"sketches,\" the equivalent of the English word cartoon.",
@@ -66,10 +102,22 @@
         "zh": "根据书中内容，谁最早使用了“manga”这个词？"
       },
       "options": [
-        {"en": "Walt Disney", "zh": "华特·迪士尼"},
-        {"en": "Katsushika Hokusai", "zh": "葛饰北斋"},
-        {"en": "Osamu Tezuka", "zh": "手冢治虫"},
-        {"en": "Hayao Miyazaki", "zh": "宫崎骏"}
+        {
+          "en": "Osamu Tezuka",
+          "zh": "手冢治虫"
+        },
+        {
+          "en": "Katsushika Hokusai",
+          "zh": "葛饰北斋"
+        },
+        {
+          "en": "Walt Disney according to some versions of the story",
+          "zh": "华特·迪士尼（按书中另一种说法）"
+        },
+        {
+          "en": "Hayao Miyazaki",
+          "zh": "宫崎骏"
+        }
       ],
       "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
@@ -84,12 +132,24 @@
         "zh": "“anime（动漫）”这个词是如何得名的？"
       },
       "options": [
-        {"en": "From the English word \"animation,\" shortened from animēshon", "zh": "源自英语“animation”，由 animēshon 缩写而来"},
-        {"en": "From the name of a Japanese city", "zh": "来自一座日本城市的名字"},
-        {"en": "From the word for \"robot\"", "zh": "来自“机器人”一词"},
-        {"en": "From a type of fish", "zh": "来自一种鱼"}
+        {
+          "en": "From a type of fish",
+          "zh": "来自一种鱼"
+        },
+        {
+          "en": "From the name of a Japanese city according to some versions of the story",
+          "zh": "来自一座日本城市的名字（按书中另一种说法）"
+        },
+        {
+          "en": "From the English word \"animation,\" shortened from animēshon",
+          "zh": "源自英语“animation”，由 animēshon 缩写而来"
+        },
+        {
+          "en": "From the word for \"robot\"",
+          "zh": "来自“机器人”一词"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Japanese cartoons were called animēshon, based on the English word animation, and in time this was shortened to anime.",
@@ -102,12 +162,24 @@
         "zh": "在动漫中，眼睛很大的角色通常表现什么？"
       },
       "options": [
-        {"en": "That they are evil", "zh": "他们是邪恶的"},
-        {"en": "That they are childlike and trustworthy", "zh": "他们天真、值得信任"},
-        {"en": "That they are asleep", "zh": "他们在睡觉"},
-        {"en": "That they are animals", "zh": "他们是动物"}
+        {
+          "en": "That they are childlike and trustworthy",
+          "zh": "他们天真、值得信任"
+        },
+        {
+          "en": "That they are asleep",
+          "zh": "他们在睡觉"
+        },
+        {
+          "en": "That they are animals according to some versions of the story",
+          "zh": "他们是动物（按书中另一种说法）"
+        },
+        {
+          "en": "That they are evil",
+          "zh": "他们是邪恶的"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains that characters with large eyes are childlike and trustworthy, while smaller, narrowed, or tiny eyes can indicate sneakiness or evil.",
@@ -120,12 +192,24 @@
         "zh": "在二战及原子弹之后，动漫的主题发生了怎样的变化？"
       },
       "options": [
-        {"en": "They stayed lighthearted and funny", "zh": "依然轻松幽默"},
-        {"en": "They became more serious, with messages of peace, justice, and freedom", "zh": "变得更严肃，传递和平、正义与自由的信息"},
-        {"en": "They disappeared completely", "zh": "彻底消失"},
-        {"en": "They became only about sports", "zh": "只关于体育"}
+        {
+          "en": "They became more serious, with messages of peace, justice, and freedom",
+          "zh": "变得更严肃，传递和平、正义与自由的信息"
+        },
+        {
+          "en": "They stayed lighthearted and funny according to some versions of the story",
+          "zh": "依然轻松幽默（按书中另一种说法）"
+        },
+        {
+          "en": "They became only about sports",
+          "zh": "只关于体育"
+        },
+        {
+          "en": "They disappeared completely",
+          "zh": "彻底消失"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the lighthearted fun of anime was replaced by more serious themes, and artists used their work to send messages of peace, justice, and freedom.",
@@ -138,12 +222,24 @@
         "zh": "在美国被称为“Astro Boy（铁臂阿童木）”的动漫角色，其日本原名是什么？"
       },
       "options": [
-        {"en": "Mighty Atom", "zh": "Mighty Atom（原子小金刚）"},
-        {"en": "Mazinger Z", "zh": "Mazinger Z（无敌铁金刚）"},
-        {"en": "Dragon Ball", "zh": "Dragon Ball（龙珠）"},
-        {"en": "Sailor Moon", "zh": "Sailor Moon（美少女战士）"}
+        {
+          "en": "Sailor Moon according to some versions of the story",
+          "zh": "Sailor Moon（美少女战士）（按书中另一种说法）"
+        },
+        {
+          "en": "Mighty Atom",
+          "zh": "Mighty Atom（原子小金刚）"
+        },
+        {
+          "en": "Mazinger Z",
+          "zh": "Mazinger Z（无敌铁金刚）"
+        },
+        {
+          "en": "Dragon Ball",
+          "zh": "Dragon Ball（龙珠）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the popular show was based on a manga by Osamu Tezuka starring Mighty Atom, a robot boy, and became a U.S. hit as Astro Boy.",
@@ -156,12 +252,24 @@
         "zh": "宫崎骏的哪部电影赢得了奥斯卡最佳动画长片奖？"
       },
       "options": [
-        {"en": "Nausicaä of the Valley of the Wind", "zh": "《风之谷》"},
-        {"en": "Spirited Away", "zh": "《千与千寻》"},
-        {"en": "Dragon Ball Z", "zh": "《龙珠Z》"},
-        {"en": "Astro Boy", "zh": "《铁臂阿童木》"}
+        {
+          "en": "Nausicaä of the Valley of the Wind",
+          "zh": "《风之谷》"
+        },
+        {
+          "en": "Astro Boy",
+          "zh": "《铁臂阿童木》"
+        },
+        {
+          "en": "Dragon Ball Z",
+          "zh": "《龙珠Z》"
+        },
+        {
+          "en": "Spirited Away",
+          "zh": "《千与千寻》"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says Spirited Away (2001), directed by Hayao Miyazaki, won the Academy Award for Best Animated Feature.",
@@ -174,12 +282,24 @@
         "zh": "根据书中内容，动漫在现代媒体中扮演什么角色？"
       },
       "options": [
-        {"en": "It is an important part of 21st-century media and takes storytelling to a new level", "zh": "它是21世纪媒体重要的一部分，将叙事艺术提升到新高度"},
-        {"en": "It has been replaced by live-action films", "zh": "它已被真人电影取代"},
-        {"en": "It is only for very young children", "zh": "它只适合很小的孩子"},
-        {"en": "It is no longer popular", "zh": "它已不再流行"}
+        {
+          "en": "It is no longer popular",
+          "zh": "它已不再流行"
+        },
+        {
+          "en": "It is only for very young children",
+          "zh": "它只适合很小的孩子"
+        },
+        {
+          "en": "It has been replaced by live-action films according to some versions of the story in an early draft of the book",
+          "zh": "它已被真人电影取代（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It is an important part of 21st-century media and takes storytelling to a new level",
+          "zh": "它是21世纪媒体重要的一部分，将叙事艺术提升到新高度"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book's final section states anime is an important part of the latest twenty-first-century media and takes modern storytelling art to a whole new level.",

@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Havana, Cuba",
-          "zh": "古巴哈瓦那"
-        },
-        {
-          "en": "Madrid, Spain",
-          "zh": "西班牙马德里"
-        },
-        {
           "en": "Rome, Italy",
           "zh": "意大利罗马"
         },
         {
+          "en": "Havana, Cuba",
+          "zh": "古巴哈瓦那"
+        },
+        {
           "en": "Lima, Peru",
           "zh": "秘鲁利马"
+        },
+        {
+          "en": "Madrid, Spain",
+          "zh": "西班牙马德里"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says two years after being born in Havana, Cuba, in 1958, Alberto moved with his family to the U.S.",
@@ -47,16 +47,16 @@
           "zh": "纽约城市马拉松（2:08:13）"
         },
         {
-          "en": "The Boston Marathon",
-          "zh": "波士顿马拉松"
-        },
-        {
           "en": "The Olympic Marathon",
           "zh": "奥运马拉松"
         },
         {
-          "en": "The Comrades Marathon",
-          "zh": "同志马拉松"
+          "en": "The Boston Marathon",
+          "zh": "波士顿马拉松"
+        },
+        {
+          "en": "The Comrades Marathon according to some versions of the story",
+          "zh": "同志马拉松（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -81,12 +81,12 @@
           "zh": "比尔·罗杰斯"
         },
         {
-          "en": "Steve Prefontaine",
-          "zh": "史蒂夫·普雷方丹"
-        },
-        {
           "en": "Rudy Chapa",
           "zh": "鲁迪·查帕"
+        },
+        {
+          "en": "Steve Prefontaine",
+          "zh": "史蒂夫·普雷方丹"
         }
       ],
       "answer": 0,
@@ -107,16 +107,16 @@
           "zh": "过度训练直至身体垮掉"
         },
         {
-          "en": "A car accident",
-          "zh": "一场车祸"
-        },
-        {
-          "en": "Losing interest in running",
-          "zh": "对跑步失去兴趣"
+          "en": "Losing interest in running according to some versions of the story",
+          "zh": "对跑步失去兴趣（按书中另一种说法）"
         },
         {
           "en": "Moving to Europe",
           "zh": "移居欧洲"
+        },
+        {
+          "en": "A car accident",
+          "zh": "一场车祸"
         }
       ],
       "answer": 0,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Pheidippides",
-          "zh": "菲迪皮德斯"
+          "en": "Alexander according to some versions of the story",
+          "zh": "亚历山大（按书中另一种说法）"
         },
         {
           "en": "Leonidas",
           "zh": "列奥尼达"
         },
         {
-          "en": "Alexander",
-          "zh": "亚历山大"
+          "en": "Pheidippides",
+          "zh": "菲迪皮德斯"
         },
         {
           "en": "Socrates",
           "zh": "苏格拉底"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says the marathon honors Pheidippides, who ran from Marathon to Athens in 490 BC with news of victory.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "15th",
-          "zh": "第15名"
-        },
-        {
-          "en": "1st",
-          "zh": "第1名"
+          "en": "He did not race",
+          "zh": "他没有参赛"
         },
         {
           "en": "3rd",
           "zh": "第3名"
         },
         {
-          "en": "He did not race",
-          "zh": "他没有参赛"
+          "en": "1st",
+          "zh": "第1名"
+        },
+        {
+          "en": "15th",
+          "zh": "第15名"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says he only finished 15th in 2:14:19 at the 1984 Olympics.",
@@ -193,8 +193,8 @@
       },
       "options": [
         {
-          "en": "The Comrades Marathon",
-          "zh": "同志马拉松"
+          "en": "The New York City Marathon",
+          "zh": "纽约城市马拉松"
         },
         {
           "en": "The Boston Marathon",
@@ -205,11 +205,11 @@
           "zh": "奥运会"
         },
         {
-          "en": "The New York City Marathon",
-          "zh": "纽约城市马拉松"
+          "en": "The Comrades Marathon",
+          "zh": "同志马拉松"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says in 1994 he announced he would run the Comrades Marathon, a 56-mile test in South Africa.",
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "Bill Rodgers",
+          "zh": "比尔·罗杰斯"
+        },
+        {
           "en": "Don Benedetti",
           "zh": "唐·贝内代蒂"
         },
@@ -231,15 +235,11 @@
           "zh": "比尔·德林杰"
         },
         {
-          "en": "Bill Rodgers",
-          "zh": "比尔·罗杰斯"
-        },
-        {
           "en": "Steve Prefontaine",
           "zh": "史蒂夫·普雷方丹"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Coach Benedetti inspired Alberto to work hard and transform his natural talent.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Nike",
-          "zh": "耐克"
-        },
-        {
-          "en": "Adidas",
-          "zh": "阿迪达斯"
-        },
-        {
           "en": "Reebok",
           "zh": "锐步"
         },
         {
+          "en": "Nike",
+          "zh": "耐克"
+        },
+        {
           "en": "New Balance",
           "zh": "新百伦"
+        },
+        {
+          "en": "Adidas",
+          "zh": "阿迪达斯"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says he spent years training kids and young athletes for Nike using a balanced style.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Listen to your body and train with balance",
-          "zh": "倾听身体，均衡训练"
-        },
-        {
-          "en": "Always run as fast as possible",
-          "zh": "总要尽可能快跑"
-        },
-        {
-          "en": "Never rest",
-          "zh": "永不休息"
+          "en": "Always run as fast as possible according to some versions of the story",
+          "zh": "总要尽可能快跑（按书中另一种说法）"
         },
         {
           "en": "Avoid all competition",
           "zh": "避免一切竞争"
+        },
+        {
+          "en": "Listen to your body and train with balance",
+          "zh": "倾听身体，均衡训练"
+        },
+        {
+          "en": "Never rest",
+          "zh": "永不休息"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book shows he learned to listen to his body after overtraining ruined his health—balance matters.",

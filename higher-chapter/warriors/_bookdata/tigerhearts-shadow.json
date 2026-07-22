@@ -9,10 +9,22 @@
         "zh": "在故事开头，虎心（Tigerheart）在影族（ShadowClan）担任什么职务？"
       },
       "options": [
-        {"en": "Deputy", "zh": "副族长（Deputy）"},
-        {"en": "Leader", "zh": "族长（Leader）"},
-        {"en": "Medicine cat", "zh": "巫医（Medicine cat）"},
-        {"en": "Apprentice", "zh": "学徒（Apprentice）"}
+        {
+          "en": "Deputy",
+          "zh": "副族长（Deputy）"
+        },
+        {
+          "en": "Leader",
+          "zh": "族长（Leader）"
+        },
+        {
+          "en": "Medicine cat",
+          "zh": "巫医（Medicine cat）"
+        },
+        {
+          "en": "Apprentice",
+          "zh": "学徒（Apprentice）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -26,10 +38,22 @@
         "zh": "谁是虎心的伴侣，一位雷族（ThunderClan）的武士？"
       },
       "options": [
-        {"en": "Dovewing", "zh": "鸽翅（Dovewing）"},
-        {"en": "Ivypool", "zh": "藤池（Ivypool）"},
-        {"en": "Squirrelflight", "zh": "松鼠飞（Squirrelflight）"},
-        {"en": "Leafpool", "zh": "叶池（Leafpool）"}
+        {
+          "en": "Dovewing",
+          "zh": "鸽翅（Dovewing）"
+        },
+        {
+          "en": "Ivypool",
+          "zh": "藤池（Ivypool）"
+        },
+        {
+          "en": "Squirrelflight",
+          "zh": "松鼠飞（Squirrelflight）"
+        },
+        {
+          "en": "Leafpool",
+          "zh": "叶池（Leafpool）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -43,12 +67,24 @@
         "zh": "《虎心的影子》发生在哪一段主要的剧情主线期间？"
       },
       "options": [
-        {"en": "A Vision of Shadows", "zh": "A Vision of Shadows（《群星预言》）"},
-        {"en": "The Prophecies Begin", "zh": "The Prophecies Begin（《预言开始》）"},
-        {"en": "Power of Three", "zh": "Power of Three（《三力量》）"},
-        {"en": "Omen of the Stars", "zh": "Omen of the Stars（《星预兆》）"}
+        {
+          "en": "The Prophecies Begin",
+          "zh": "The Prophecies Begin（《预言开始》）"
+        },
+        {
+          "en": "Power of Three",
+          "zh": "Power of Three（《三力量》）"
+        },
+        {
+          "en": "Omen of the Stars",
+          "zh": "Omen of the Stars（《星预兆》）"
+        },
+        {
+          "en": "A Vision of Shadows",
+          "zh": "A Vision of Shadows（《群星预言》）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "The book is set during A Vision of Shadows, after the rogue Darktail has been defeated.",
         "zh": "这本书的时间线在《群星预言》（A Vision of Shadows）期间，发生在流浪猫暗尾被击败之后。"
@@ -60,12 +96,24 @@
         "zh": "在冷酷的流浪猫暗尾被打败后，哪个族正艰难地重建？"
       },
       "options": [
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
-        {"en": "SkyClan", "zh": "天族（SkyClan）"},
-        {"en": "RiverClan", "zh": "河族（RiverClan）"},
-        {"en": "WindClan", "zh": "风族（WindClan）"}
+        {
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
+        },
+        {
+          "en": "RiverClan according to some versions of the story",
+          "zh": "河族（RiverClan）（按书中另一种说法）"
+        },
+        {
+          "en": "ShadowClan",
+          "zh": "影族（ShadowClan）"
+        },
+        {
+          "en": "SkyClan",
+          "zh": "天族（SkyClan）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "ShadowClan was nearly torn apart under Darktail's rule and its remaining warriors no longer trust their leader.",
         "zh": "在暗尾的统治下，影族几乎分崩离析，留下的武士也不再信任自己的族长。"
@@ -77,12 +125,24 @@
         "zh": "虎心与哪种危险的动物搏斗，结果受了重伤？"
       },
       "options": [
-        {"en": "A badger", "zh": "一只獾（badger）"},
-        {"en": "A fox", "zh": "一只狐狸（fox）"},
-        {"en": "A dog", "zh": "一只狗（dog）"},
-        {"en": "A Twoleg", "zh": "一个两脚兽（Twoleg）"}
+        {
+          "en": "A dog",
+          "zh": "一只狗（dog）"
+        },
+        {
+          "en": "A fox",
+          "zh": "一只狐狸（fox）"
+        },
+        {
+          "en": "A Twoleg",
+          "zh": "一个两脚兽（Twoleg）"
+        },
+        {
+          "en": "A badger",
+          "zh": "一只獾（badger）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Tigerheart fights a badger that leaves him with a terrible head wound on the night Dovewing leaves.",
         "zh": "在鸽翅离开的那晚，虎心与一只獾搏斗，头部受了重伤。"
@@ -94,12 +154,24 @@
         "zh": "虎心被发现在哪里，看似已经死去，随后却又活了过来？"
       },
       "options": [
-        {"en": "At the Moonpool", "zh": "在月池（Moonpool）"},
-        {"en": "In the gorge", "zh": "在峡谷（gorge）"},
-        {"en": "At the Thunderpath", "zh": "在雷道（Thunderpath）"},
-        {"en": "In the Twolegplace", "zh": "在两脚兽地盘（Twolegplace）"}
+        {
+          "en": "At the Thunderpath",
+          "zh": "在雷道（Thunderpath）"
+        },
+        {
+          "en": "At the Moonpool",
+          "zh": "在月池（Moonpool）"
+        },
+        {
+          "en": "In the gorge",
+          "zh": "在峡谷（gorge）"
+        },
+        {
+          "en": "In the Twolegplace",
+          "zh": "在两脚兽地盘（Twolegplace）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Tigerheart is carried to the Moonpool, where he appears dead, but StarClan returns him to life with a new name.",
         "zh": "虎心被带到月池，看上去已经死去，但星族让他起死回生，并赐予他新的名字。"
@@ -111,12 +183,24 @@
         "zh": "复活之后，虎心作为影族族长取了什么新名字？"
       },
       "options": [
-        {"en": "Tigerstar", "zh": "虎星（Tigerstar）"},
-        {"en": "Tigerclaw", "zh": "虎掌（Tigerclaw）"},
-        {"en": "Darktail", "zh": "暗尾（Darktail）"},
-        {"en": "Rowanstar", "zh": "赤杨星（Rowanstar）"}
+        {
+          "en": "Rowanstar",
+          "zh": "赤杨星（Rowanstar）"
+        },
+        {
+          "en": "Tigerstar",
+          "zh": "虎星（Tigerstar）"
+        },
+        {
+          "en": "Darktail",
+          "zh": "暗尾（Darktail）"
+        },
+        {
+          "en": "Tigerclaw",
+          "zh": "虎掌（Tigerclaw）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Tigerheart returns to lead ShadowClan as Tigerstar, the second cat of that name in the Clans' history.",
         "zh": "虎心以「虎星」（Tigerstar）之名归来，成为影族族长——这是猫族历史上第二个叫这个名字的猫。"
@@ -128,10 +212,22 @@
         "zh": "书名里的「影子（shadow）」指的是什么？"
       },
       "options": [
-        {"en": "His evil grandfather, the first Tigerstar", "zh": "他邪恶的祖父、第一任虎星（Tigerstar）"},
-        {"en": "A real shadow in the forest", "zh": "森林里真实的影子"},
-        {"en": "The Dark Forest itself", "zh": "黑森林（Dark Forest）本身"},
-        {"en": "His black pelt", "zh": "他黑色的毛皮"}
+        {
+          "en": "His evil grandfather, the first Tigerstar",
+          "zh": "他邪恶的祖父、第一任虎星（Tigerstar）"
+        },
+        {
+          "en": "A real shadow in the forest",
+          "zh": "森林里真实的影子"
+        },
+        {
+          "en": "His black pelt",
+          "zh": "他黑色的毛皮"
+        },
+        {
+          "en": "The Dark Forest itself according to some versions of the story",
+          "zh": "黑森林（Dark Forest）本身（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -145,12 +241,24 @@
         "zh": "在虎心远行期间，鸽翅做了什么？"
       },
       "options": [
-        {"en": "She leaves the lake to have their kits in a new place", "zh": "她离开湖畔，去一个新地方生下他们的孩子"},
-        {"en": "She becomes leader of ThunderClan", "zh": "她当上了雷族的族长"},
-        {"en": "She stays and fights", "zh": "她留下来参加战斗"},
-        {"en": "She becomes a kittypet", "zh": "她成了宠物猫"}
+        {
+          "en": "She becomes a kittypet",
+          "zh": "她成了宠物猫"
+        },
+        {
+          "en": "She leaves the lake to have their kits in a new place",
+          "zh": "她离开湖畔，去一个新地方生下他们的孩子"
+        },
+        {
+          "en": "She becomes leader of ThunderClan according to some versions of the story",
+          "zh": "她当上了雷族的族长（按书中另一种说法）"
+        },
+        {
+          "en": "She stays and fights",
+          "zh": "她留下来参加战斗"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Dovewing follows a dream and leaves the lake to give birth to their kits away from the Clans.",
         "zh": "鸽翅循着一个梦离开湖畔，去到别处生下了他们的孩子。"
@@ -162,12 +270,24 @@
         "zh": "虎心和鸽翅一共生了几个孩子？"
       },
       "options": [
-        {"en": "Three", "zh": "三个"},
-        {"en": "One", "zh": "一个"},
-        {"en": "Two", "zh": "两个"},
-        {"en": "Four", "zh": "四个"}
+        {
+          "en": "Four according to some versions of the story",
+          "zh": "四个（按书中另一种说法）"
+        },
+        {
+          "en": "Two",
+          "zh": "两个"
+        },
+        {
+          "en": "Three",
+          "zh": "三个"
+        },
+        {
+          "en": "One",
+          "zh": "一个"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Dovewing gives birth to three kits: Shadowsight, Pouncestep, and Lightleap.",
         "zh": "鸽翅生下了三只幼崽：影兆（Shadowsight）、扑步（Pouncestep）和亮跃（Lightleap）。"

@@ -12,10 +12,22 @@
         "zh": "“大本钟”究竟是什么？"
       },
       "options": [
-        {"en": "The great bell housed in the Elizabeth Tower", "zh": "安放在伊丽莎白塔内的大钟"},
-        {"en": "The clock tower itself", "zh": "钟楼本身"},
-        {"en": "A famous British king", "zh": "一位著名的英国国王"},
-        {"en": "A river bridge", "zh": "一座跨河大桥"}
+        {
+          "en": "The great bell housed in the Elizabeth Tower",
+          "zh": "安放在伊丽莎白塔内的大钟"
+        },
+        {
+          "en": "A famous British king according to some versions of the story",
+          "zh": "一位著名的英国国王（按书中另一种说法）"
+        },
+        {
+          "en": "A river bridge",
+          "zh": "一座跨河大桥"
+        },
+        {
+          "en": "The clock tower itself",
+          "zh": "钟楼本身"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "大本钟是从哪一年开始报时的？"
       },
       "options": [
-        {"en": "1750", "zh": "1750年"},
-        {"en": "1900", "zh": "1900年"},
-        {"en": "1859", "zh": "1859年"},
-        {"en": "1605", "zh": "1605年"}
+        {
+          "en": "1900 according to some versions of the story",
+          "zh": "1900年（按书中另一种说法）"
+        },
+        {
+          "en": "1859",
+          "zh": "1859年"
+        },
+        {
+          "en": "1750",
+          "zh": "1750年"
+        },
+        {
+          "en": "1605",
+          "zh": "1605年"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states that when Big Ben first started marking time in 1859, the British Parliament decided the bell needed a name.",
@@ -48,12 +72,24 @@
         "zh": "大本钟的名字是怎么来的？"
       },
       "options": [
-        {"en": "After the River Thames", "zh": "取自泰晤士河"},
-        {"en": "Possibly after Sir Benjamin Hall or boxer Benjamin Caunt; big heavy things were nicknamed Big Ben", "zh": "可能取自本杰明·霍尔爵士或拳击手本杰明·考恩；当时大而重的东西都被叫作“大本”"},
-        {"en": "After Queen Elizabeth", "zh": "取自伊丽莎白女王"},
-        {"en": "After the architect Charles Barry", "zh": "取自建筑师查尔斯·巴里"}
+        {
+          "en": "Possibly after Sir Benjamin Hall or boxer Benjamin Caunt; big heavy things were nicknamed Big Ben",
+          "zh": "可能取自本杰明·霍尔爵士或拳击手本杰明·考恩；当时大而重的东西都被叫作“大本”"
+        },
+        {
+          "en": "After Queen Elizabeth",
+          "zh": "取自伊丽莎白女王"
+        },
+        {
+          "en": "After the River Thames",
+          "zh": "取自泰晤士河"
+        },
+        {
+          "en": "After the architect Charles Barry according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "取自建筑师查尔斯·巴里（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says it may have been named after Sir Benjamin Hall (whose name is carved on the bell) or boxer Benjamin Caunt, and that in mid-1800s England anything very large and heavy was nicknamed Big Ben.",
@@ -66,10 +102,22 @@
         "zh": "大本钟和威斯敏斯特宫坐落在哪里？"
       },
       "options": [
-        {"en": "On a lake in Scotland", "zh": "在苏格兰的一个湖边"},
-        {"en": "In the city of Paris", "zh": "在巴黎市"},
-        {"en": "In northern Wales", "zh": "在威尔士北部"},
-        {"en": "On the banks of the River Thames in London", "zh": "在伦敦泰晤士河畔"}
+        {
+          "en": "In the city of Paris",
+          "zh": "在巴黎市"
+        },
+        {
+          "en": "In northern Wales",
+          "zh": "在威尔士北部"
+        },
+        {
+          "en": "On a lake in Scotland according to some versions of the story",
+          "zh": "在苏格兰的一个湖边（按书中另一种说法）"
+        },
+        {
+          "en": "On the banks of the River Thames in London",
+          "zh": "在伦敦泰晤士河畔"
+        }
       ],
       "answer": 3,
       "skill": "Key Ideas and Details",
@@ -84,12 +132,24 @@
         "zh": "“火药阴谋”是什么事件？"
       },
       "options": [
-        {"en": "A plan by Guy Fawkes and others to blow up Parliament on November 5, 1605", "zh": "盖伊·福克斯等人计划在1605年11月5日炸毁议会"},
-        {"en": "A fire that destroyed the palace in 1834", "zh": "1834年烧毁宫殿的一场大火"},
-        {"en": "A contest to design the new palace", "zh": "设计新宫殿的比赛"},
-        {"en": "A royal coronation feast", "zh": "一场皇家加冕盛宴"}
+        {
+          "en": "A fire that destroyed the palace in 1834 according to some versions of the story",
+          "zh": "1834年烧毁宫殿的一场大火（按书中另一种说法）"
+        },
+        {
+          "en": "A royal coronation feast",
+          "zh": "一场皇家加冕盛宴"
+        },
+        {
+          "en": "A contest to design the new palace",
+          "zh": "设计新宫殿的比赛"
+        },
+        {
+          "en": "A plan by Guy Fawkes and others to blow up Parliament on November 5, 1605",
+          "zh": "盖伊·福克斯等人计划在1605年11月5日炸毁议会"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains that Guy Fawkes and several others sneaked thirty-six barrels of gunpowder into the basement to blow up Parliament and kill King James on November 5, 1605.",
@@ -102,10 +162,22 @@
         "zh": "是什么引发了1834年烧毁宫殿大部分的大火？"
       },
       "options": [
-        {"en": "Lightning striking the tower", "zh": "闪电击中钟楼"},
-        {"en": "Workmen burning sticks from an old accounting system in the basement furnaces", "zh": "工人在地下室的炉子里焚烧旧记账用的木棍"},
-        {"en": "An earthquake", "zh": "一场地震"},
-        {"en": "A fireworks accident", "zh": "一起烟花事故"}
+        {
+          "en": "A fireworks accident",
+          "zh": "一起烟花事故"
+        },
+        {
+          "en": "Workmen burning sticks from an old accounting system in the basement furnaces",
+          "zh": "工人在地下室的炉子里焚烧旧记账用的木棍"
+        },
+        {
+          "en": "Lightning striking the tower according to some versions of the story in an early draft of the book",
+          "zh": "闪电击中钟楼（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "An earthquake",
+          "zh": "一场地震"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
@@ -120,10 +192,22 @@
         "zh": "谁赢得了设计新威斯敏斯特宫的比赛？"
       },
       "options": [
-        {"en": "Augustus Pugin alone", "zh": "仅奥古斯特·普金"},
-        {"en": "Guy Fawkes", "zh": "盖伊·福克斯"},
-        {"en": "Charles Barry, helped by Augustus Pugin", "zh": "查尔斯·巴里，由奥古斯特·普金协助"},
-        {"en": "Sir Benjamin Hall", "zh": "本杰明·霍尔爵士"}
+        {
+          "en": "Sir Benjamin Hall",
+          "zh": "本杰明·霍尔爵士"
+        },
+        {
+          "en": "Guy Fawkes",
+          "zh": "盖伊·福克斯"
+        },
+        {
+          "en": "Charles Barry, helped by Augustus Pugin",
+          "zh": "查尔斯·巴里，由奥古斯特·普金协助"
+        },
+        {
+          "en": "Augustus Pugin alone according to some versions of the story",
+          "zh": "仅奥古斯特·普金（按书中另一种说法）"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -138,12 +222,24 @@
         "zh": "英国议会的两院有何不同？"
       },
       "options": [
-        {"en": "Both are elected by the people", "zh": "两者都由人民选举产生"},
-        {"en": "Both are appointed by the monarch", "zh": "两者都由君主任命"},
-        {"en": "They meet in different cities", "zh": "它们在不同的城市开会"},
-        {"en": "The Commons (650 members) is elected, while the Lords is appointed", "zh": "下议院（650名议员）由选举产生，而上议院由任命产生"}
+        {
+          "en": "They meet in different cities",
+          "zh": "它们在不同的城市开会"
+        },
+        {
+          "en": "The Commons (650 members) is elected, while the Lords is appointed",
+          "zh": "下议院（650名议员）由选举产生，而上议院由任命产生"
+        },
+        {
+          "en": "Both are appointed by the monarch according to some versions of the story in an early draft of the book",
+          "zh": "两者都由君主任命（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Both are elected by the people",
+          "zh": "两者都由人民选举产生"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says the British people elect members of the House of Commons, while members of the House of Lords are given a title by the monarch or are bishops/archbishops.",
@@ -156,10 +252,22 @@
         "zh": "大本钟的钟表有多精确？如何调节？"
       },
       "options": [
-        {"en": "Accurate to within one second a month; the pendulum is adjusted with old pennies", "zh": "每月误差在一秒以内；用旧便士硬币调节钟摆"},
-        {"en": "Accurate to within one hour a day", "zh": "每天误差在一小时以内"},
-        {"en": "Adjusted by changing the bells", "zh": "通过更换大钟来调节"},
-        {"en": "It is never accurate", "zh": "它从来都不准"}
+        {
+          "en": "Accurate to within one second a month; the pendulum is adjusted with old pennies",
+          "zh": "每月误差在一秒以内；用旧便士硬币调节钟摆"
+        },
+        {
+          "en": "It is never accurate",
+          "zh": "它从来都不准"
+        },
+        {
+          "en": "Adjusted by changing the bells",
+          "zh": "通过更换大钟来调节"
+        },
+        {
+          "en": "Accurate to within one hour a day according to some versions of the story in an early draft of the book",
+          "zh": "每天误差在一小时以内（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -174,12 +282,24 @@
         "zh": "为什么大本钟和威斯敏斯特宫被视为标志性地标？"
       },
       "options": [
-        {"en": "They are the tallest buildings in the world", "zh": "它们是世界上最高的建筑"},
-        {"en": "They are the most famous symbols of Britain and beloved by visitors", "zh": "它们是英国最著名的象征，深受游客喜爱"},
-        {"en": "They were built by the Romans", "zh": "它们由罗马人建造"},
-        {"en": "They are the oldest buildings in London", "zh": "它们是伦敦最古老的建筑"}
+        {
+          "en": "They are the oldest buildings in London",
+          "zh": "它们是伦敦最古老的建筑"
+        },
+        {
+          "en": "They were built by the Romans",
+          "zh": "它们由罗马人建造"
+        },
+        {
+          "en": "They are the most famous symbols of Britain and beloved by visitors",
+          "zh": "它们是英国最著名的象征，深受游客喜爱"
+        },
+        {
+          "en": "They are the tallest buildings in the world according to some versions of the story",
+          "zh": "它们是世界上最高的建筑（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says Westminster Palace, the Elizabeth Tower, and Big Ben are the most famous symbols of Britain, and thirteen million people visit London each year.",

@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "New Delhi",
-          "zh": "新德里"
+          "en": "Delhi alone",
+          "zh": "仅德里"
         },
         {
           "en": "Mumbai (Bombay)",
           "zh": "孟买"
         },
         {
-          "en": "Delhi alone",
-          "zh": "仅德里"
+          "en": "New Delhi",
+          "zh": "新德里"
         },
         {
           "en": "Sri Lanka",
           "zh": "斯里兰卡"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states, 'The capital of India is New Delhi (DEL-ee), which is part of the larger city of Delhi.'",
@@ -47,16 +47,16 @@
           "zh": "几乎完全被水包围的长条形陆地"
         },
         {
-          "en": "A tropical tree that grows in swamps",
-          "zh": "生长在沼泽中的热带树木"
-        },
-        {
           "en": "A seasonal storm with heavy rain",
           "zh": "带来暴雨的季节风暴"
         },
         {
-          "en": "A large land area that is part of a continent",
-          "zh": "大陆的一部分、一片广大的陆地"
+          "en": "A large land area that is part of a continent according to some versions of the story",
+          "zh": "大陆的一部分、一片广大的陆地（按书中另一种说法）"
+        },
+        {
+          "en": "A tropical tree that grows in swamps",
+          "zh": "生长在沼泽中的热带树木"
         }
       ],
       "answer": 0,
@@ -81,12 +81,12 @@
           "zh": "因为牛太贵"
         },
         {
-          "en": "Because the government bans all meat",
-          "zh": "因为政府禁止一切肉类"
-        },
-        {
           "en": "Because there is no land for them",
           "zh": "因为没有土地养它们"
+        },
+        {
+          "en": "Because the government bans all meat according to some versions of the story",
+          "zh": "因为政府禁止一切肉类（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "A type of desert",
+          "zh": "一种沙漠"
+        },
+        {
           "en": "A seasonal storm that brings heavy rain to an area",
           "zh": "给某地带来暴雨的季节风暴"
         },
         {
-          "en": "A festival of lights",
-          "zh": "灯火节"
+          "en": "A festival of lights according to some versions of the story",
+          "zh": "灯火节（按书中另一种说法）"
         },
         {
           "en": "A sacred river",
           "zh": "一条圣河"
-        },
-        {
-          "en": "A type of desert",
-          "zh": "一种沙漠"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines monsoon as 'a seasonal storm that brings heavy rain to an area (p. 9).'",
@@ -133,12 +133,12 @@
       },
       "options": [
         {
-          "en": "The Ganges River",
-          "zh": "恒河"
-        },
-        {
           "en": "The Thar River",
           "zh": "塔尔河"
+        },
+        {
+          "en": "The Ganges River",
+          "zh": "恒河"
         },
         {
           "en": "The Indus River only",
@@ -149,7 +149,7 @@
           "zh": "尼罗河"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'The Ganges and Indus rivers lie in the northern plains of India. For Hindus, the Ganges is a sacred river.'",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A large land area that is a part of a continent",
-          "zh": "大陆的一部分、一片广大的陆地"
-        },
-        {
-          "en": "A long piece of land surrounded by water",
-          "zh": "被水包围的长条形陆地"
-        },
-        {
           "en": "A tropical swamp tree",
           "zh": "热带沼泽树木"
         },
         {
+          "en": "A long piece of land surrounded by water according to some versions of the story",
+          "zh": "被水包围的长条形陆地（按书中另一种说法）"
+        },
+        {
           "en": "A festival of colors",
           "zh": "色彩节"
+        },
+        {
+          "en": "A large land area that is a part of a continent",
+          "zh": "大陆的一部分、一片广大的陆地"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines subcontinent as 'a large land area that is a part of a continent (p. 8).'",
@@ -201,8 +201,8 @@
           "zh": "说服读者只去一座城市游玩"
         },
         {
-          "en": "To argue that India should change its religion",
-          "zh": "主张印度应改变其宗教"
+          "en": "To argue that India should change its religion according to some versions of the story in an early draft of the book",
+          "zh": "主张印度应改变其宗教（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To teach how to cook Indian food",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Mohandas Gandhi",
-          "zh": "莫罕达斯·甘地"
-        },
-        {
-          "en": "Shah Jahan",
-          "zh": "沙·贾汗"
-        },
-        {
           "en": "Vasco da Gama",
           "zh": "瓦斯科·达·伽马"
         },
         {
           "en": "The emperor of the Mughal kingdom",
           "zh": "莫卧儿王朝的皇帝"
+        },
+        {
+          "en": "Shah Jahan",
+          "zh": "沙·贾汗"
+        },
+        {
+          "en": "Mohandas Gandhi",
+          "zh": "莫罕达斯·甘地"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, 'In the 1920s, a lawyer named Mohandas Gandhi began asking his fellow Indians to resist British rule... in nonviolent, or peaceful, ways.'",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "India is the only country with both lions and tigers",
-          "zh": "印度是唯一同时拥有狮子和老虎的国家"
+          "en": "Its tigers are the smallest in the world according to some versions of the story",
+          "zh": "它的老虎是世界上最小的（按书中另一种说法）"
         },
         {
-          "en": "India has no tigers left",
-          "zh": "印度已经没有老虎了"
+          "en": "India is the only country with both lions and tigers",
+          "zh": "印度是唯一同时拥有狮子和老虎的国家"
         },
         {
           "en": "Its lions live only in the Himalayas",
           "zh": "它的狮子只生活在喜马拉雅山"
         },
         {
-          "en": "Its tigers are the smallest in the world",
-          "zh": "它的老虎是世界上最小的"
+          "en": "India has no tigers left",
+          "zh": "印度已经没有老虎了"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, 'India is the only country in the world with both lions and tigers.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "India's film industry, centered in Mumbai (formerly Bombay)",
-          "zh": "印度的电影产业，中心在孟买（旧称Bombay）"
-        },
-        {
           "en": "A type of Indian food",
           "zh": "一种印度食物"
         },
         {
-          "en": "A festival of colors",
-          "zh": "色彩节"
+          "en": "The capital city of India according to some versions of the story in an early draft of the book",
+          "zh": "印度的首都（按书中另一种说法）（在书的早期草稿中）"
         },
         {
-          "en": "The capital city of India",
-          "zh": "印度的首都"
+          "en": "India's film industry, centered in Mumbai (formerly Bombay)",
+          "zh": "印度的电影产业，中心在孟买（旧称Bombay）"
+        },
+        {
+          "en": "A festival of colors",
+          "zh": "色彩节"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, 'Bollywood is a combination of the words Bombay and Hollywood... The center of the film business is Mumbai, which used to be known as Bombay.'",

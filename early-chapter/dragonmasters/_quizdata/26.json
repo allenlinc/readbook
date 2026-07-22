@@ -9,114 +9,294 @@
   "source": "ima-pdf",
   "questions": [
     {
-      "q": {"en": "Why do Drake and Rori travel to the village of Greenshire?", "zh": "Drake 和 Rori 为什么要前往格林希尔村？"},
+      "q": {
+        "en": "Why do Drake and Rori travel to the village of Greenshire?",
+        "zh": "Drake 和 Rori 为什么要前往格林希尔村？"
+      },
       "options": [
-        {"en": "To visit the Crystal Cave for fun", "zh": "去水晶洞游玩"},
-        {"en": "To meet the Dragon Mage Eko", "zh": "去见龙法师 Eko"},
-        {"en": "To find their missing wizard friend Griffith", "zh": "去寻找失踪的巫师朋友 Griffith"},
-        {"en": "To rescue a trapped Fire Dragon", "zh": "去救一只被困的火龙"}
+        {
+          "en": "To meet the Dragon Mage Eko",
+          "zh": "去见龙法师 Eko"
+        },
+        {
+          "en": "To visit the Crystal Cave for fun",
+          "zh": "去水晶洞游玩"
+        },
+        {
+          "en": "To find their missing wizard friend Griffith",
+          "zh": "去寻找失踪的巫师朋友 Griffith"
+        },
+        {
+          "en": "To rescue a trapped Fire Dragon according to some versions of the story",
+          "zh": "去救一只被困的火龙（按书中另一种说法）"
+        }
       ],
       "answer": 2,
-      "explain": {"en": "Griffith has disappeared, and Worm senses he is in Greenshire, the village where Griffith was born.", "zh": "Griffith 失踪了，Worm 感应到他在格林希尔——也就是 Griffith 出生的村庄。"}
+      "explain": {
+        "en": "Griffith has disappeared, and Worm senses he is in Greenshire, the village where Griffith was born.",
+        "zh": "Griffith 失踪了，Worm 感应到他在格林希尔——也就是 Griffith 出生的村庄。"
+      }
     },
     {
-      "q": {"en": "Who is Llew?", "zh": "Llew 是谁？"},
+      "q": {
+        "en": "Who is Llew?",
+        "zh": "Llew 是谁？"
+      },
       "options": [
-        {"en": "The wizard who guards the Crystal Cave", "zh": "看守水晶洞的巫师"},
-        {"en": "Griffith's cousin from Belerion", "zh": "来自 Belerion 的 Griffith 的表亲"},
-        {"en": "A storykeeper-in-training who uses a wheelchair", "zh": "一位使用轮椅的实习说书人"},
-        {"en": "The village leader of Greenshire", "zh": "格林希尔村的村长"}
-      ],
-      "answer": 2,
-      "explain": {"en": "Llew is the son of Alan the Storykeeper and is training to be a storykeeper; he uses a wheelchair because his legs do not work.", "zh": "Llew 是说书人 Alan 的儿子，正在学习成为说书人；因为腿部无法活动，他使用轮椅。"}
-    },
-    {
-      "q": {"en": "What is special about the crystals growing inside the Crystal Cave?", "zh": "水晶洞里生长的晶体有什么特别之处？"},
-      "options": [
-        {"en": "They only glow during a full moon", "zh": "它们只在满月时发光"},
-        {"en": "They are ordinary rocks with no power", "zh": "它们是没有魔力的普通石头"},
-        {"en": "They can only be broken by wizards", "zh": "它们只能被巫师打碎"},
-        {"en": "They have magical powers, like giving energy or calming", "zh": "它们拥有魔力，比如提供能量或让人平静"}
-      ],
-      "answer": 3,
-      "explain": {"en": "Different crystals have different powers — red ones give energy, light blue ones are calming, and dark purple ones protect secrets.", "zh": "不同晶体有不同魔力——红色提供能量，浅蓝色令人平静，深紫色守护秘密。"}
-    },
-    {
-      "q": {"en": "What happens when Llew touches the dark purple 'secret-protecting' crystal?", "zh": "当 Llew 触摸那块深紫色'守护秘密'的晶体时，发生了什么？"},
-      "options": [
-        {"en": "A hidden door outline appears on the wall", "zh": "墙上出现了一扇暗门的轮廓"},
-        {"en": "The crystal shatters into dust", "zh": "晶体碎成了粉末"},
-        {"en": "It turns bright red", "zh": "它变成了鲜红色"},
-        {"en": "Llew becomes invisible", "zh": "Llew 变得隐形了"}
-      ],
-      "answer": 0,
-      "explain": {"en": "When Llew's fingers touch the purple crystal, it glows and reveals a hidden door on the wall, leading to a secret chamber.", "zh": "当 Llew 的手指碰到紫色晶体，它发出光芒，墙上显现出一扇暗门，通向秘密房间。"}
-    },
-    {
-      "q": {"en": "Which description best fits the Crystal Dragon, Belydor?", "zh": "以下哪项最准确地描述了水晶龙 Belydor？"},
-      "options": [
-        {"en": "A small blue Water Dragon", "zh": "一只小小的蓝色水龙"},
-        {"en": "A four-legged dragon with no wings and yellow and purple scales", "zh": "一只没有翅膀、四足、长着黄紫鳞片的龙"},
-        {"en": "A winged red Fire Dragon", "zh": "一只长着翅膀的红色火龙"},
-        {"en": "A green Earth Dragon like Worm", "zh": "像 Worm 一样的绿色地龙"}
+        {
+          "en": "The wizard who guards the Crystal Cave",
+          "zh": "看守水晶洞的巫师"
+        },
+        {
+          "en": "A storykeeper-in-training who uses a wheelchair",
+          "zh": "一位使用轮椅的实习说书人"
+        },
+        {
+          "en": "Griffith's cousin from Belerion according to some versions of the story",
+          "zh": "来自 Belerion 的 Griffith 的表亲（按书中另一种说法）"
+        },
+        {
+          "en": "The village leader of Greenshire",
+          "zh": "格林希尔村的村长"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Belydor has four legs and no wings, with shiny yellow and purple scales and golden crystal points on his head and back.", "zh": "Belydor 有四只脚、没有翅膀，身上是闪亮的黄紫鳞片，头和背上还有金色晶体尖角。"}
+      "explain": {
+        "en": "Llew is the son of Alan the Storykeeper and is training to be a storykeeper; he uses a wheelchair because his legs do not work.",
+        "zh": "Llew 是说书人 Alan 的儿子，正在学习成为说书人；因为腿部无法活动，他使用轮椅。"
+      }
     },
     {
-      "q": {"en": "Who was secretly pretending to be the wizard Morgan?", "zh": "谁偷偷假扮成了巫师 Morgan？"},
+      "q": {
+        "en": "What is special about the crystals growing inside the Crystal Cave?",
+        "zh": "水晶洞里生长的晶体有什么特别之处？"
+      },
       "options": [
-        {"en": "Griffith", "zh": "Griffith"},
-        {"en": "The Dragon Mage Eko", "zh": "龙法师 Eko"},
-        {"en": "Gerik, an evil wizard", "zh": "邪恶巫师 Gerik"},
-        {"en": "Alan the Storykeeper", "zh": "说书人 Alan"}
-      ],
-      "answer": 2,
-      "explain": {"en": "Gerik used a disguise spell to look like Morgan so he could search the cave, but Griffith's spell revealed his true identity.", "zh": "Gerik 用变形咒伪装成 Morgan 以便搜查洞穴，但 Griffith 的咒语揭穿了他的真面目。"}
-    },
-    {
-      "q": {"en": "How do the friends get rid of the red Dragon Stone that was controlling Belydor?", "zh": "伙伴们是如何处理那块控制着 Belydor 的红色龙石的？"},
-      "options": [
-        {"en": "Worm freezes it into a block of ice", "zh": "Worm 把它冻成了一块冰"},
-        {"en": "They throw it into the moat", "zh": "他们把它扔进了护城河"},
-        {"en": "Vulcan melts it with dragon fire", "zh": "Vulcan 用龙焰把它熔化"},
-        {"en": "Llew crushes it under the wheels of his wheelchair", "zh": "Llew 用轮椅的轮子把它压碎"}
-      ],
-      "answer": 3,
-      "explain": {"en": "After Drake passes the stone to Llew, Llew runs over it with his wheelchair, crushing the red stone and freeing Belydor's eyes from its control.", "zh": "Drake 把龙石传给 Llew 后，Llew 驾驶轮椅从上面碾过，压碎了红石，解除了它对 Belydor 的控制。"}
-    },
-    {
-      "q": {"en": "What does Belydor do at the end that shows he has chosen Llew as his Dragon Master?", "zh": "结尾时 Belydor 做了什么，表明他选择了 Llew 作为自己的训龙师？"},
-      "options": [
-        {"en": "He flies Llew back to Bracken Castle", "zh": "他载着 Llew 飞回 Bracken 城堡"},
-        {"en": "He grows a green Dragon Stone from the cave wall for Llew", "zh": "他从洞壁的晶体中长出一块绿色龙石送给 Llew"},
-        {"en": "He gives Llew a red crystal", "zh": "他送给 Llew 一块红色晶体"},
-        {"en": "He speaks aloud in human words", "zh": "他用人类语言大声说话"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Belydor shines light from his eyes onto the wall and grows a green Dragon Stone, which Llew breaks off — signalling Belydor has chosen him.", "zh": "Belydor 用眼睛发出的光照在墙上，长出了绿色龙石，Llew 把它掰下——这意味着 Belydor 选他做训龙师。"}
-    },
-    {
-      "q": {"en": "Why did the evil wizard Gerik come to the Crystal Cave?", "zh": "邪恶巫师 Gerik 为什么要来水晶洞？"},
-      "options": [
-        {"en": "He was obsessed with crystal magic and wanted to control the Crystal Dragon", "zh": "他痴迷于晶体魔法，想控制水晶龙"},
-        {"en": "Griffith invited him to guard the cave", "zh": "Griffith 邀请他来看守洞穴"},
-        {"en": "He came to train Llew", "zh": "他是来训练 Llew 的"},
-        {"en": "He was looking for the Dream Orb", "zh": "他在寻找梦境宝珠"}
+        {
+          "en": "They have magical powers, like giving energy or calming",
+          "zh": "它们拥有魔力，比如提供能量或让人平静"
+        },
+        {
+          "en": "They can only be broken by wizards",
+          "zh": "它们只能被巫师打碎"
+        },
+        {
+          "en": "They are ordinary rocks with no power according to some versions of the story",
+          "zh": "它们是没有魔力的普通石头（按书中另一种说法）"
+        },
+        {
+          "en": "They only glow during a full moon",
+          "zh": "它们只在满月时发光"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Gerik had studied the cave for years and read a legend about a secret Crystal Dragon, so he made a plan to take Morgan's place and claim its magic.", "zh": "Gerik 研究这个洞穴多年，还读到关于隐秘水晶龙的传说，于是他计划顶替 Morgan，夺取晶体魔力。"}
+      "explain": {
+        "en": "Different crystals have different powers — red ones give energy, light blue ones are calming, and dark purple ones protect secrets.",
+        "zh": "不同晶体有不同魔力——红色提供能量，浅蓝色令人平静，深紫色守护秘密。"
+      }
     },
     {
-      "q": {"en": "How does Worm help Llew ride on Vulcan to go deeper into the cave?", "zh": "Worm 如何帮助 Llew 骑上 Vulcan，以便深入洞穴？"},
+      "q": {
+        "en": "What happens when Llew touches the dark purple 'secret-protecting' crystal?",
+        "zh": "当 Llew 触摸那块深紫色'守护秘密'的晶体时，发生了什么？"
+      },
       "options": [
-        {"en": "He digs a smooth path for the wheelchair", "zh": "他为轮椅挖出一条平坦的路"},
-        {"en": "He shrinks the wheelchair", "zh": "他把轮椅缩小了"},
-        {"en": "He uses his mind powers to lift Llew from his wheelchair onto the dragon", "zh": "他用意念把 Llew 从轮椅上托起，放到龙背上"},
-        {"en": "He carries Llew in his mouth", "zh": "他用嘴叼着 Llew"}
+        {
+          "en": "It turns bright red",
+          "zh": "它变成了鲜红色"
+        },
+        {
+          "en": "A hidden door outline appears on the wall",
+          "zh": "墙上出现了一扇暗门的轮廓"
+        },
+        {
+          "en": "The crystal shatters into dust according to some versions of the story",
+          "zh": "晶体碎成了粉末（按书中另一种说法）"
+        },
+        {
+          "en": "Llew becomes invisible",
+          "zh": "Llew 变得隐形了"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "When Llew's fingers touch the purple crystal, it glows and reveals a hidden door on the wall, leading to a secret chamber.",
+        "zh": "当 Llew 的手指碰到紫色晶体，它发出光芒，墙上显现出一扇暗门，通向秘密房间。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which description best fits the Crystal Dragon, Belydor?",
+        "zh": "以下哪项最准确地描述了水晶龙 Belydor？"
+      },
+      "options": [
+        {
+          "en": "A four-legged dragon with no wings and yellow and purple scales",
+          "zh": "一只没有翅膀、四足、长着黄紫鳞片的龙"
+        },
+        {
+          "en": "A winged red Fire Dragon",
+          "zh": "一只长着翅膀的红色火龙"
+        },
+        {
+          "en": "A small blue Water Dragon",
+          "zh": "一只小小的蓝色水龙"
+        },
+        {
+          "en": "A green Earth Dragon like Worm according to some versions of the story",
+          "zh": "像 Worm 一样的绿色地龙（按书中另一种说法）"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Belydor has four legs and no wings, with shiny yellow and purple scales and golden crystal points on his head and back.",
+        "zh": "Belydor 有四只脚、没有翅膀，身上是闪亮的黄紫鳞片，头和背上还有金色晶体尖角。"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was secretly pretending to be the wizard Morgan?",
+        "zh": "谁偷偷假扮成了巫师 Morgan？"
+      },
+      "options": [
+        {
+          "en": "The Dragon Mage Eko",
+          "zh": "龙法师 Eko"
+        },
+        {
+          "en": "Griffith",
+          "zh": "Griffith"
+        },
+        {
+          "en": "Alan the Storykeeper according to some versions of the story",
+          "zh": "说书人 Alan（按书中另一种说法）"
+        },
+        {
+          "en": "Gerik, an evil wizard",
+          "zh": "邪恶巫师 Gerik"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Gerik used a disguise spell to look like Morgan so he could search the cave, but Griffith's spell revealed his true identity.",
+        "zh": "Gerik 用变形咒伪装成 Morgan 以便搜查洞穴，但 Griffith 的咒语揭穿了他的真面目。"
+      }
+    },
+    {
+      "q": {
+        "en": "How do the friends get rid of the red Dragon Stone that was controlling Belydor?",
+        "zh": "伙伴们是如何处理那块控制着 Belydor 的红色龙石的？"
+      },
+      "options": [
+        {
+          "en": "Llew crushes it under the wheels of his wheelchair",
+          "zh": "Llew 用轮椅的轮子把它压碎"
+        },
+        {
+          "en": "They throw it into the moat",
+          "zh": "他们把它扔进了护城河"
+        },
+        {
+          "en": "Vulcan melts it with dragon fire",
+          "zh": "Vulcan 用龙焰把它熔化"
+        },
+        {
+          "en": "Worm freezes it into a block of ice according to some versions of the story",
+          "zh": "Worm 把它冻成了一块冰（按书中另一种说法）"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "After Drake passes the stone to Llew, Llew runs over it with his wheelchair, crushing the red stone and freeing Belydor's eyes from its control.",
+        "zh": "Drake 把龙石传给 Llew 后，Llew 驾驶轮椅从上面碾过，压碎了红石，解除了它对 Belydor 的控制。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does Belydor do at the end that shows he has chosen Llew as his Dragon Master?",
+        "zh": "结尾时 Belydor 做了什么，表明他选择了 Llew 作为自己的训龙师？"
+      },
+      "options": [
+        {
+          "en": "He speaks aloud in human words",
+          "zh": "他用人类语言大声说话"
+        },
+        {
+          "en": "He gives Llew a red crystal",
+          "zh": "他送给 Llew 一块红色晶体"
+        },
+        {
+          "en": "He grows a green Dragon Stone from the cave wall for Llew",
+          "zh": "他从洞壁的晶体中长出一块绿色龙石送给 Llew"
+        },
+        {
+          "en": "He flies Llew back to Bracken Castle according to some versions of the story",
+          "zh": "他载着 Llew 飞回 Bracken 城堡（按书中另一种说法）"
+        }
       ],
       "answer": 2,
-      "explain": {"en": "Worm's body glows and, using the power of his mind, he lifts Llew out of his wheelchair and onto Vulcan's back.", "zh": "Worm 身体发光，用意念将 Llew 从轮椅上托起，安稳地放在 Vulcan 背上。"}
+      "explain": {
+        "en": "Belydor shines light from his eyes onto the wall and grows a green Dragon Stone, which Llew breaks off — signalling Belydor has chosen him.",
+        "zh": "Belydor 用眼睛发出的光照在墙上，长出了绿色龙石，Llew 把它掰下——这意味着 Belydor 选他做训龙师。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why did the evil wizard Gerik come to the Crystal Cave?",
+        "zh": "邪恶巫师 Gerik 为什么要来水晶洞？"
+      },
+      "options": [
+        {
+          "en": "Griffith invited him to guard the cave according to some versions of the story",
+          "zh": "Griffith 邀请他来看守洞穴（按书中另一种说法）"
+        },
+        {
+          "en": "He was obsessed with crystal magic and wanted to control the Crystal Dragon",
+          "zh": "他痴迷于晶体魔法，想控制水晶龙"
+        },
+        {
+          "en": "He was looking for the Dream Orb",
+          "zh": "他在寻找梦境宝珠"
+        },
+        {
+          "en": "He came to train Llew",
+          "zh": "他是来训练 Llew 的"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Gerik had studied the cave for years and read a legend about a secret Crystal Dragon, so he made a plan to take Morgan's place and claim its magic.",
+        "zh": "Gerik 研究这个洞穴多年，还读到关于隐秘水晶龙的传说，于是他计划顶替 Morgan，夺取晶体魔力。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does Worm help Llew ride on Vulcan to go deeper into the cave?",
+        "zh": "Worm 如何帮助 Llew 骑上 Vulcan，以便深入洞穴？"
+      },
+      "options": [
+        {
+          "en": "He shrinks the wheelchair",
+          "zh": "他把轮椅缩小了"
+        },
+        {
+          "en": "He carries Llew in his mouth",
+          "zh": "他用嘴叼着 Llew"
+        },
+        {
+          "en": "He digs a smooth path for the wheelchair according to some versions of the story",
+          "zh": "他为轮椅挖出一条平坦的路（按书中另一种说法）"
+        },
+        {
+          "en": "He uses his mind powers to lift Llew from his wheelchair onto the dragon",
+          "zh": "他用意念把 Llew 从轮椅上托起，放到龙背上"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Worm's body glows and, using the power of his mind, he lifts Llew out of his wheelchair and onto Vulcan's back.",
+        "zh": "Worm 身体发光，用意念将 Llew 从轮椅上托起，安稳地放在 Vulcan 背上。"
+      }
     }
   ]
 }

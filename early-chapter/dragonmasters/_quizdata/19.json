@@ -14,10 +14,22 @@
         "zh": "德雷克为什么要偷偷溜进石龙堡垒？"
       },
       "options": [
-        { "en": "To rescue the king", "zh": "去营救国王" },
-        { "en": "To steal Astrid's spell ingredients and stop her spell", "zh": "去偷走阿斯特丽德的咒语材料，阻止她的咒语" },
-        { "en": "To find treasure", "zh": "去寻找宝藏" },
-        { "en": "To meet the Stone Dragon", "zh": "去见石龙" }
+        {
+          "en": "To find treasure",
+          "zh": "去寻找宝藏"
+        },
+        {
+          "en": "To steal Astrid's spell ingredients and stop her spell",
+          "zh": "去偷走阿斯特丽德的咒语材料，阻止她的咒语"
+        },
+        {
+          "en": "To rescue the king",
+          "zh": "去营救国王"
+        },
+        {
+          "en": "To meet the Stone Dragon according to some versions of the story",
+          "zh": "去见石龙（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -31,10 +43,22 @@
         "zh": "如果你被影灌木的刺扎到，会发生什么？"
       },
       "options": [
-        { "en": "You fall asleep", "zh": "你会睡着" },
-        { "en": "You become a shadow", "zh": "你会变成影子" },
-        { "en": "You turn to stone", "zh": "你会变成石头" },
-        { "en": "You can fly", "zh": "你会飞" }
+        {
+          "en": "You fall asleep",
+          "zh": "你会睡着"
+        },
+        {
+          "en": "You become a shadow",
+          "zh": "你会变成影子"
+        },
+        {
+          "en": "You turn to stone according to some versions of the story",
+          "zh": "你会变成石头（按书中另一种说法）"
+        },
+        {
+          "en": "You can fly",
+          "zh": "你会飞"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -48,12 +72,24 @@
         "zh": "为什么阿斯特丽德不能简单地再取一根影灌木枝条？"
       },
       "options": [
-        { "en": "They are extinct", "zh": "它们已经灭绝了" },
-        { "en": "The branch must be taken on the night of a full moon", "zh": "枝条必须在满月之夜才能取到" },
-        { "en": "Only Drake can pick them", "zh": "只有德雷克能采摘" },
-        { "en": "They grow only in Bracken", "zh": "它们只长在布雷肯" }
+        {
+          "en": "They grow only in Bracken according to some versions of the story",
+          "zh": "它们只长在布雷肯（按书中另一种说法）"
+        },
+        {
+          "en": "Only Drake can pick them",
+          "zh": "只有德雷克能采摘"
+        },
+        {
+          "en": "The branch must be taken on the night of a full moon",
+          "zh": "枝条必须在满月之夜才能取到"
+        },
+        {
+          "en": "They are extinct",
+          "zh": "它们已经灭绝了"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Jayana said the branch must be taken on the night of a full moon, which was more than two weeks away, buying the Dragon Masters time.",
         "zh": "佳雅娜说枝条必须在满月之夜才能取到，而那时还有两个多星期，为驯龙师们争取了时间。"
@@ -65,12 +101,24 @@
         "zh": "驯龙师们是在哪个岛上找到海龙塔尼的？"
       },
       "options": [
-        { "en": "Manu", "zh": "马努岛" },
-        { "en": "Kapua", "zh": "卡普阿岛" },
-        { "en": "Gallia", "zh": "加利亚" },
-        { "en": "Belerion", "zh": "贝勒里昂" }
+        {
+          "en": "Manu",
+          "zh": "马努岛"
+        },
+        {
+          "en": "Belerion",
+          "zh": "贝勒里昂"
+        },
+        {
+          "en": "Kapua",
+          "zh": "卡普阿岛"
+        },
+        {
+          "en": "Gallia",
+          "zh": "加利亚"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Bo had found a Sea Dragon on the island of Kapua, so Griffith sent Drake, Bo, and Opeli there to bring back the branch where Astrid wouldn't look.",
         "zh": "博在卡普阿岛找到了海龙，于是格里菲斯派德雷克、博和奥佩利去那里，顺便把枝条带离阿斯特丽德能找的地方。"
@@ -82,12 +130,24 @@
         "zh": "马纳瓦与塔尼之间的连接被称为什么身份？"
       },
       "options": [
-        { "en": "Dragon Master", "zh": "驯龙师" },
-        { "en": "Dragon Friend", "zh": "龙之友" },
-        { "en": "Dragon Keeper", "zh": "龙饲养员" },
-        { "en": "Dragon Stone", "zh": "龙石" }
+        {
+          "en": "Dragon Stone",
+          "zh": "龙石"
+        },
+        {
+          "en": "Dragon Master",
+          "zh": "驯龙师"
+        },
+        {
+          "en": "Dragon Keeper",
+          "zh": "龙饲养员"
+        },
+        {
+          "en": "Dragon Friend",
+          "zh": "龙之友"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "On Kapua, Manawa is chosen to connect with Tani but is called a 'Dragon Friend' rather than a Dragon Master.",
         "zh": "在卡普阿岛，马纳瓦被选中与塔尼连接，但他被称为“龙之友”而非驯龙师。"
@@ -99,12 +159,24 @@
         "zh": "为什么熔岩龙卡和海龙塔尼一开始打了起来？"
       },
       "options": [
-        { "en": "They were hungry", "zh": "它们饿了" },
-        { "en": "Long ago Lava and Sea Dragons fought and Sea Dragons never forgave them", "zh": "很久以前熔岩龙和海龙打过仗，海龙一直没原谅它们" },
-        { "en": "Astrid told them to", "zh": "阿斯特丽德命令它们打" },
-        { "en": "They wanted the same food", "zh": "它们抢同一种食物" }
+        {
+          "en": "They were hungry",
+          "zh": "它们饿了"
+        },
+        {
+          "en": "They wanted the same food according to some versions of the story in an early draft of the book",
+          "zh": "它们抢同一种食物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Astrid told them to",
+          "zh": "阿斯特丽德命令它们打"
+        },
+        {
+          "en": "Long ago Lava and Sea Dragons fought and Sea Dragons never forgave them",
+          "zh": "很久以前熔岩龙和海龙打过仗，海龙一直没原谅它们"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Ka remembers stories of a big ancient fight between Lava and Sea Dragons on Noa; the Sea Dragons left and never forgave the Lava Dragons, so they clash.",
         "zh": "卡记得诺阿岛上熔岩龙与海龙远古大战的故事，海龙离开后始终没有原谅熔岩龙，所以双方起了冲突。"
@@ -116,12 +188,24 @@
         "zh": "德雷克在海滩上是如何躲开阿斯特丽德的？"
       },
       "options": [
-        { "en": "He swam underwater", "zh": "他游到了水下" },
-        { "en": "He pricked his finger on a thorn and became a shadow", "zh": "他用刺扎破手指变成了影子" },
-        { "en": "He climbed a tree", "zh": "他爬上了树" },
-        { "en": "He used a magic mirror", "zh": "他用了魔法镜" }
+        {
+          "en": "He pricked his finger on a thorn and became a shadow",
+          "zh": "他用刺扎破手指变成了影子"
+        },
+        {
+          "en": "He climbed a tree",
+          "zh": "他爬上了树"
+        },
+        {
+          "en": "He used a magic mirror according to some versions of the story",
+          "zh": "他用了魔法镜（按书中另一种说法）"
+        },
+        {
+          "en": "He swam underwater",
+          "zh": "他游到了水下"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Drake pressed his finger on a thorn from the branch, turning himself into a shadow so Astrid could not see him.",
         "zh": "德雷克用枝条上的刺扎破手指，把自己变成了影子，这样阿斯特丽德就看不见他了。"
@@ -133,10 +217,22 @@
         "zh": "阿斯特丽德最终是怎样离开小岛的？"
       },
       "options": [
-        { "en": "She flew away on a dragon", "zh": "她骑龙飞走了" },
-        { "en": "Manawa pushed her into her own portal", "zh": "马纳瓦把她推进了她自己的传送门" },
-        { "en": "She walked into the sea", "zh": "她走进海里" },
-        { "en": "Drake sent her away", "zh": "德雷克把她送走了" }
+        {
+          "en": "She walked into the sea",
+          "zh": "她走进海里"
+        },
+        {
+          "en": "Manawa pushed her into her own portal",
+          "zh": "马纳瓦把她推进了她自己的传送门"
+        },
+        {
+          "en": "Drake sent her away",
+          "zh": "德雷克把她送走了"
+        },
+        {
+          "en": "She flew away on a dragon according to some versions of the story",
+          "zh": "她骑龙飞走了（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -150,12 +246,24 @@
         "zh": "驯龙师们是如何修复变黑了的龙石的？"
       },
       "options": [
-        { "en": "With a new Tenebrex Stone", "zh": "用新的特内布雷克斯石" },
-        { "en": "With Shu the Water Dragon's blue healing mist", "zh": "用水龙舒的蓝色治愈之雾" },
-        { "en": "By washing them in the ocean", "zh": "在海里冲洗" },
-        { "en": "With Ka's lava", "zh": "用卡的熔岩" }
+        {
+          "en": "With Shu the Water Dragon's blue healing mist",
+          "zh": "用水龙舒的蓝色治愈之雾"
+        },
+        {
+          "en": "With Ka's lava",
+          "zh": "用卡的熔岩"
+        },
+        {
+          "en": "By washing them in the ocean",
+          "zh": "在海里冲洗"
+        },
+        {
+          "en": "With a new Tenebrex Stone according to some versions of the story",
+          "zh": "用新的特内布雷克斯石（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Bo realized Shu's blue mist can heal dark magic; Shu's pale blue cloud rained on the black stones and returned them to green.",
         "zh": "博想到水龙舒的蓝雾能治愈黑魔法，舒的淡蓝雾落在黑石上，使它们恢复了绿色。"
@@ -167,10 +275,22 @@
         "zh": "在书的结尾，驯龙师们还需要哪一种新龙？"
       },
       "options": [
-        { "en": "A Wind Dragon", "zh": "风龙" },
-        { "en": "A Moon Dragon", "zh": "月龙" },
-        { "en": "An Earth Dragon", "zh": "土龙" },
-        { "en": "A Rainbow Dragon", "zh": "彩虹龙" }
+        {
+          "en": "A Wind Dragon",
+          "zh": "风龙"
+        },
+        {
+          "en": "A Rainbow Dragon",
+          "zh": "彩虹龙"
+        },
+        {
+          "en": "A Moon Dragon",
+          "zh": "月龙"
+        },
+        {
+          "en": "An Earth Dragon",
+          "zh": "土龙"
+        }
       ],
       "answer": 0,
       "explain": {

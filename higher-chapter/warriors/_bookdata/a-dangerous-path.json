@@ -10,23 +10,23 @@
       },
       "options": [
         {
-          "en": "A pack of dogs",
-          "zh": "一群狗"
-        },
-        {
-          "en": "A flood",
-          "zh": "一场洪水"
+          "en": "BloodClan",
+          "zh": "BloodClan（血族）"
         },
         {
           "en": "A fire",
           "zh": "一场火"
         },
         {
-          "en": "BloodClan",
-          "zh": "BloodClan（血族）"
+          "en": "A flood",
+          "zh": "一场洪水"
+        },
+        {
+          "en": "A pack of dogs",
+          "zh": "一群狗"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Tigerstar lures a pack of dogs into ThunderClan's territory with a trail of prey, planning to wipe out the Clan.",
         "zh": "虎星用一串猎物把狗群引向雷族领地，企图灭掉整个族群。"
@@ -39,23 +39,23 @@
       },
       "options": [
         {
+          "en": "She traps them in a cave",
+          "zh": "她把它们困进洞穴"
+        },
+        {
+          "en": "She fights them all alone and wins according to some versions of the story",
+          "zh": "她独自战胜了所有狗（按书中另一种说法）"
+        },
+        {
           "en": "She leads the dogs over the cliff into the gorge, sacrificing herself",
           "zh": "她把狗群引下悬崖坠入峡谷，牺牲了自己"
         },
         {
-          "en": "She fights them all alone and wins",
-          "zh": "她独自战胜了所有狗"
-        },
-        {
           "en": "She asks RiverClan for help",
           "zh": "她向河族求援"
-        },
-        {
-          "en": "She traps them in a cave",
-          "zh": "她把它们困进洞穴"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Bluestar leads the dog pack over the edge of the gorge, dying to save ThunderClan.",
         "zh": "蓝星把狗群引下峡谷悬崖，为拯救雷族而牺牲。"
@@ -68,23 +68,23 @@
       },
       "options": [
         {
-          "en": "Leader (Firestar)",
-          "zh": "Leader（Firestar 火星）"
-        },
-        {
           "en": "Deputy",
           "zh": "Deputy（副族长）"
         },
         {
-          "en": "Warrior",
-          "zh": "Warrior（武士）"
+          "en": "Warrior according to some versions of the story",
+          "zh": "Warrior（武士）（按书中另一种说法）"
         },
         {
           "en": "Elder",
           "zh": "Elder（长老）"
+        },
+        {
+          "en": "Leader (Firestar)",
+          "zh": "Leader（Firestar 火星）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Fireheart becomes Firestar, the new leader of ThunderClan.",
         "zh": "Fireheart 成为雷族新任族长——火星（Firestar）。"
@@ -101,16 +101,16 @@
           "zh": "Sandstorm（沙暴）"
         },
         {
-          "en": "Cinderpelt",
-          "zh": "Cinderpelt（炭毛）"
+          "en": "Mistyfoot",
+          "zh": "Mistyfoot（雾脚）"
         },
         {
           "en": "Spottedleaf",
           "zh": "Spottedleaf（斑叶）"
         },
         {
-          "en": "Mistyfoot",
-          "zh": "Mistyfoot（雾脚）"
+          "en": "Cinderpelt",
+          "zh": "Cinderpelt（炭毛）"
         }
       ],
       "answer": 0,
@@ -126,23 +126,23 @@
       },
       "options": [
         {
+          "en": "A crown",
+          "zh": "一顶王冠"
+        },
+        {
           "en": "Nine lives and a new name from StarClan",
           "zh": "来自星族的九条命和新名字"
         },
         {
+          "en": "A tail of nine tails according to some versions of the story",
+          "zh": "九条尾巴（按书中另一种说法）"
+        },
+        {
           "en": "A magic stone",
           "zh": "一块魔法石"
-        },
-        {
-          "en": "A tail of nine tails",
-          "zh": "九条尾巴"
-        },
-        {
-          "en": "A crown",
-          "zh": "一顶王冠"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Like all leaders, Firestar receives nine lives and his leader name from StarClan.",
         "zh": "和所有族长一样，火星从星族那里获得了九条命和族长之名。"
@@ -155,23 +155,23 @@
       },
       "options": [
         {
+          "en": "In the camp",
+          "zh": "在营地里"
+        },
+        {
+          "en": "In Twolegplace according to some versions of the story",
+          "zh": "在两脚兽地盘（按书中另一种说法）"
+        },
+        {
           "en": "At the gorge (a dead-end cliff)",
           "zh": "在峡谷（一条死路悬崖）"
         },
         {
           "en": "In the river",
           "zh": "在河里"
-        },
-        {
-          "en": "In the camp",
-          "zh": "在营地里"
-        },
-        {
-          "en": "In Twolegplace",
-          "zh": "在两脚兽地盘"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Tigerstar leads the dogs to a gorge that ends in a cliff, intending to wipe out ThunderClan — but Bluestar turns the trap on the dogs.",
         "zh": "虎星把狗群引到尽头是悬崖的峡谷，想灭掉雷族——但蓝星将这陷阱反作用于狗群。"
@@ -188,16 +188,16 @@
           "zh": "Leopardstar（豹星）"
         },
         {
-          "en": "Crookedstar",
-          "zh": "Crookedstar（曲星）"
+          "en": "Tigerstar",
+          "zh": "Tigerstar（虎星）"
+        },
+        {
+          "en": "Crookedstar according to some versions of the story",
+          "zh": "Crookedstar（曲星）（按书中另一种说法）"
         },
         {
           "en": "Mistyfoot",
           "zh": "Mistyfoot（雾脚）"
-        },
-        {
-          "en": "Tigerstar",
-          "zh": "Tigerstar（虎星）"
         }
       ],
       "answer": 0,
@@ -213,23 +213,23 @@
       },
       "options": [
         {
+          "en": "He dies",
+          "zh": "他死了"
+        },
+        {
           "en": "He flees to gather more cats (BloodClan) for a bigger war",
           "zh": "他逃走，去纠集更多猫（血族）准备更大的战争"
         },
         {
-          "en": "He becomes a kittypet",
-          "zh": "他成了宠物猫"
-        },
-        {
-          "en": "He dies",
-          "zh": "他死了"
+          "en": "He becomes a kittypet according to some versions of the story in an early draft of the book",
+          "zh": "他成了宠物猫（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "He joins WindClan",
           "zh": "他加入了风族"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Tigerstar survives and later forms 'TigerClan' with BloodClan, setting up the final battle in book 6.",
         "zh": "虎星活了下来，后来联合血族组成“虎族”，为第六本的决战埋下伏笔。"
@@ -246,16 +246,16 @@
           "zh": "她认定星族和族群背叛了自己的偏执"
         },
         {
-          "en": "Greed for power",
-          "zh": "对权力的贪婪"
-        },
-        {
-          "en": "Love for Tigerstar",
-          "zh": "对虎星的爱"
+          "en": "Love for Tigerstar according to some versions of the story",
+          "zh": "对虎星的爱（按书中另一种说法）"
         },
         {
           "en": "Fear of water",
           "zh": "对水的恐惧"
+        },
+        {
+          "en": "Greed for power",
+          "zh": "对权力的贪婪"
         }
       ],
       "answer": 0,
@@ -271,23 +271,23 @@
       },
       "options": [
         {
-          "en": "Firestar",
-          "zh": "Firestar（火星）"
+          "en": "Emberstar",
+          "zh": "Emberstar（余烬星）"
         },
         {
-          "en": "Fireheart (unchanged)",
-          "zh": "仍是 Fireheart（火星）"
+          "en": "Firestar",
+          "zh": "Firestar（火星）"
         },
         {
           "en": "Flameleader",
           "zh": "Flameleader（焰领导）"
         },
         {
-          "en": "Emberstar",
-          "zh": "Emberstar（余烬星）"
+          "en": "Fireheart (unchanged)",
+          "zh": "仍是 Fireheart（火星）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "As leader he takes the name Firestar, keeping the 'fire' of the prophecy that began his journey.",
         "zh": "成为族长后他取名 Firestar，延续了开启他旅程的那道“火”的预言。"

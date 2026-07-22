@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "Living in the desert according to some versions of the story",
+          "zh": "生活在沙漠里（按书中另一种说法）"
+        },
+        {
+          "en": "Very large",
+          "zh": "体型非常大"
+        },
+        {
           "en": "Glowing with light made by living things",
           "zh": "由生物自身化学反应发出光"
         },
         {
           "en": "Able to fly",
           "zh": "能够飞行"
-        },
-        {
-          "en": "Living in the desert",
-          "zh": "生活在沙漠里"
-        },
-        {
-          "en": "Very large",
-          "zh": "体型非常大"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains bioluminescent means 'life glowing'—animals that 'make their own light.'",
@@ -73,12 +73,8 @@
       },
       "options": [
         {
-          "en": "The firefly",
-          "zh": "萤火虫"
-        },
-        {
-          "en": "The kangaroo",
-          "zh": "袋鼠"
+          "en": "The kangaroo according to some versions of the story",
+          "zh": "袋鼠（按书中另一种说法）"
         },
         {
           "en": "The eagle",
@@ -87,9 +83,13 @@
         {
           "en": "The penguin",
           "zh": "企鹅"
+        },
+        {
+          "en": "The firefly",
+          "zh": "萤火虫"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'Fireflies produce the glow in their abdomen, the hind part of their bodies.'",
@@ -103,8 +103,12 @@
       },
       "options": [
         {
-          "en": "It lights up its whole body to scare enemies",
-          "zh": "它让全身发光来吓退敌人"
+          "en": "It lights up its whole body to scare enemies according to some versions of the story",
+          "zh": "它让全身发光来吓退敌人（按书中另一种说法）"
+        },
+        {
+          "en": "It signals other anglerfish to mate",
+          "zh": "它发光向同类求偶"
         },
         {
           "en": "A glowing tip on a stalk lures small fish, then it swallows them",
@@ -113,13 +117,9 @@
         {
           "en": "It uses the glow to cook food",
           "zh": "它用光来烹饪食物"
-        },
-        {
-          "en": "It signals other anglerfish to mate",
-          "zh": "它发光向同类求偶"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'The tip of the stalk has a glowing white light that attracts small ocean fish... Then the anglerfish swallows them whole.'",
@@ -141,12 +141,12 @@
           "zh": "鱿鱼制造发光云；雪茄鲨的腹部发光以融入明亮的水面"
         },
         {
-          "en": "Both glow their whole bodies",
-          "zh": "两者都让全身发光"
-        },
-        {
           "en": "Neither uses glow to hide",
           "zh": "两者都不用光来隐藏"
+        },
+        {
+          "en": "Both glow their whole bodies according to some versions of the story in an early draft of the book",
+          "zh": "两者都让全身发光（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
       "answer": 1,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Just for decoration",
-          "zh": "仅仅为了装饰"
-        },
-        {
           "en": "To help them survive: signal, hunt, hide, call for help, fool enemies",
           "zh": "为了生存：发信号、捕猎、隐藏、求救、迷惑敌人"
         },
         {
-          "en": "Because they are cold",
-          "zh": "因为它们冷"
+          "en": "Just for decoration",
+          "zh": "仅仅为了装饰"
         },
         {
           "en": "To attract humans",
           "zh": "为了吸引人类"
+        },
+        {
+          "en": "Because they are cold according to some versions of the story in an early draft of the book",
+          "zh": "因为它们冷（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "'They use their lights to signal, hunt, and hide. They also use them to call for help and to fool their enemies. Glowing helps them survive.'",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "Sunlight + blood + skin according to some versions of the story",
+          "zh": "阳光 + 血液 + 皮肤（按书中另一种说法）"
+        },
+        {
           "en": "Luciferin + luciferase + oxygen",
           "zh": "荧光素 + 荧光素酶 + 氧气"
         },
@@ -201,15 +205,11 @@
           "zh": "水 + 盐 + 糖"
         },
         {
-          "en": "Sunlight + blood + skin",
-          "zh": "阳光 + 血液 + 皮肤"
-        },
-        {
           "en": "Bones + muscle + fat",
           "zh": "骨头 + 肌肉 + 脂肪"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The chemical equation given is 'Luciferin + Luciferase + Oxygen = Light.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "It makes light inside its own cells",
-          "zh": "它在自身细胞内制造光"
-        },
-        {
           "en": "It stores glowing bacteria in a pouch beneath each eye",
           "zh": "它在每只眼睛下方的囊袋中储存发光细菌"
         },
         {
-          "en": "It reflects moonlight",
-          "zh": "它反射月光"
-        },
-        {
           "en": "It eats fireflies",
           "zh": "它吃萤火虫"
+        },
+        {
+          "en": "It makes light inside its own cells according to some versions of the story",
+          "zh": "它在自身细胞内制造光（按书中另一种说法）"
+        },
+        {
+          "en": "It reflects moonlight",
+          "zh": "它反射月光"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "'The flashlight fish stores about a billion glowing bacteria inside a pouch beneath each eye.'",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "The twilight zone",
-          "zh": "微光带"
-        },
-        {
-          "en": "The surface only",
-          "zh": "仅在水面"
-        },
-        {
           "en": "The deepest trench",
           "zh": "最深的海沟"
         },
         {
+          "en": "The twilight zone",
+          "zh": "微光带"
+        },
+        {
           "en": "Rivers and lakes",
           "zh": "河流和湖泊"
+        },
+        {
+          "en": "The surface only",
+          "zh": "仅在水面"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Scientists call the area 'from about 200 meters... to about 1,000 meters' the twilight zone, where most glowing animals produce matching blue-green light.",
@@ -283,8 +283,8 @@
       },
       "options": [
         {
-          "en": "It gives off very little heat (a cool glow)",
-          "zh": "它几乎不发热（是冷光）"
+          "en": "It changes color with sound according to some versions of the story",
+          "zh": "它随声音变色（按书中另一种说法）"
         },
         {
           "en": "It is much hotter",
@@ -295,11 +295,11 @@
           "zh": "它只能在水下起作用"
         },
         {
-          "en": "It changes color with sound",
-          "zh": "它随声音变色"
+          "en": "It gives off very little heat (a cool glow)",
+          "zh": "它几乎不发热（是冷光）"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "'A glowing animal gives off very little heat.' Unlike a lightbulb, 'This chemically created light... is a cool glow.'",

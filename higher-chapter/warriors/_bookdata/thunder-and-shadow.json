@@ -9,12 +9,24 @@
         "zh": "一只狡猾又危险的泼皮猫___带着一群追随者出现了。"
       },
       "options": [
-        {"en": "Darktail", "zh": "暗尾（Darktail）"},
-        {"en": "Scourge", "zh": "长鞭（Scourge）"},
-        {"en": "Sol", "zh": "索尔（Sol）"},
-        {"en": "One Eye", "zh": "独眼（One Eye）"}
+        {
+          "en": "Sol",
+          "zh": "索尔（Sol）"
+        },
+        {
+          "en": "Scourge according to some versions of the story",
+          "zh": "长鞭（Scourge）（按书中另一种说法）"
+        },
+        {
+          "en": "Darktail",
+          "zh": "暗尾（Darktail）"
+        },
+        {
+          "en": "One Eye",
+          "zh": "独眼（One Eye）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Darktail is a clever, smooth-talking rogue who tricks his way into ShadowClan.",
         "zh": "暗尾（Darktail）是一只聪明、能说会道的泼皮猫，用花言巧语混进了影族。"
@@ -26,12 +38,24 @@
         "zh": "暗尾把自己的泼皮猫追随者称作什么？"
       },
       "options": [
-        {"en": "The Kin", "zh": "亲族（the Kin）"},
-        {"en": "BloodClan", "zh": "血族（BloodClan）"},
-        {"en": "The Rogues", "zh": "泼皮猫（the Rogues）"},
-        {"en": "The Exiles", "zh": "流放者（the Exiles）"}
+        {
+          "en": "BloodClan",
+          "zh": "血族（BloodClan）"
+        },
+        {
+          "en": "The Exiles",
+          "zh": "流放者（the Exiles）"
+        },
+        {
+          "en": "The Kin",
+          "zh": "亲族（the Kin）"
+        },
+        {
+          "en": "The Rogues",
+          "zh": "泼皮猫（the Rogues）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Darktail names his followers 'the Kin' to make them sound like one big family.",
         "zh": "暗尾把追随者称为「亲族（the Kin）」，让人误以为他们是一家人。"
@@ -43,10 +67,22 @@
         "zh": "暗尾欺骗并最终控制了哪一支族群？"
       },
       "options": [
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
-        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
-        {"en": "WindClan", "zh": "风族（WindClan）"},
-        {"en": "RiverClan", "zh": "河族（RiverClan）"}
+        {
+          "en": "ShadowClan",
+          "zh": "影族（ShadowClan）"
+        },
+        {
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
+        },
+        {
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -60,12 +96,24 @@
         "zh": "暗尾刚到来时，影族的族长是谁？"
       },
       "options": [
-        {"en": "Rowanstar", "zh": "罗星（Rowanstar）"},
-        {"en": "Blackstar", "zh": "黑星（Blackstar）"},
-        {"en": "Onestar", "zh": "一星（Onestar）"},
-        {"en": "Harestar", "zh": "兔星（Harestar）"}
+        {
+          "en": "Onestar",
+          "zh": "一星（Onestar）"
+        },
+        {
+          "en": "Rowanstar",
+          "zh": "罗星（Rowanstar）"
+        },
+        {
+          "en": "Harestar",
+          "zh": "兔星（Harestar）"
+        },
+        {
+          "en": "Blackstar according to some versions of the story",
+          "zh": "黑星（Blackstar）（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Rowanstar is the ShadowClan leader at the start of the book, before Darktail overthrows him.",
         "zh": "本书开头影族的族长是罗星（Rowanstar），后来被暗尾推翻。"
@@ -77,10 +125,22 @@
         "zh": "一只名叫___的影族猫，最初被暗尾的承诺所吸引。"
       },
       "options": [
-        {"en": "Needletail", "zh": "针尾（Needletail）"},
-        {"en": "Puddleshine", "zh": "潭光（Puddleshine）"},
-        {"en": "Tawnypelt", "zh": "玳星（Tawnypelt）"},
-        {"en": "Sleekwhisker", "zh": "滑须（Sleekwhisker）"}
+        {
+          "en": "Needletail",
+          "zh": "针尾（Needletail）"
+        },
+        {
+          "en": "Tawnypelt",
+          "zh": "玳星（Tawnypelt）"
+        },
+        {
+          "en": "Puddleshine",
+          "zh": "潭光（Puddleshine）"
+        },
+        {
+          "en": "Sleekwhisker",
+          "zh": "滑须（Sleekwhisker）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -94,10 +154,22 @@
         "zh": "暗尾掌权后，由罗星带领的忠实影族猫变成了___。"
       },
       "options": [
-        {"en": "exiles", "zh": "流亡者（exiles）"},
-        {"en": "Kin members", "zh": "亲族成员"},
-        {"en": "prisoners", "zh": "囚犯"},
-        {"en": "Twolegs' pets", "zh": "两脚兽的宠物"}
+        {
+          "en": "exiles",
+          "zh": "流亡者（exiles）"
+        },
+        {
+          "en": "Twolegs' pets",
+          "zh": "两脚兽的宠物"
+        },
+        {
+          "en": "prisoners",
+          "zh": "囚犯"
+        },
+        {
+          "en": "Kin members",
+          "zh": "亲族成员"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -111,12 +183,24 @@
         "zh": "小枝爪（Twigpaw）很担心她的妹妹，妹妹正生活在哪一支族群？"
       },
       "options": [
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
-        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
-        {"en": "RiverClan", "zh": "河族（RiverClan）"},
-        {"en": "WindClan", "zh": "风族（WindClan）"}
+        {
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
+        },
+        {
+          "en": "ShadowClan",
+          "zh": "影族（ShadowClan）"
+        },
+        {
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Twigpaw's sister Violetpaw lives in ShadowClan, which is now controlled by Darktail and the Kin.",
         "zh": "小枝爪的妹妹小紫爪（Violetpaw）生活在影族，而此时的影族已被暗尾和亲族控制。"
@@ -128,12 +212,24 @@
         "zh": "身处暗尾统治下的小紫爪，逐渐意识到他的统治是___。"
       },
       "options": [
-        {"en": "cruel and unfair", "zh": "残酷而不公（cruel and unfair）"},
-        {"en": "kind and gentle", "zh": "善良而温和"},
-        {"en": "wise and fair", "zh": "睿智而公正"},
-        {"en": "peaceful", "zh": "和平的"}
+        {
+          "en": "kind and gentle according to some versions of the story",
+          "zh": "善良而温和（按书中另一种说法）"
+        },
+        {
+          "en": "wise and fair",
+          "zh": "睿智而公正"
+        },
+        {
+          "en": "peaceful",
+          "zh": "和平的"
+        },
+        {
+          "en": "cruel and unfair",
+          "zh": "残酷而不公（cruel and unfair）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Violetpaw sees that Darktail harms cats who disagree with him and rules through fear.",
         "zh": "小紫爪看出暗尾会伤害与他意见不同的猫，靠恐惧来维持统治。"
@@ -145,12 +241,24 @@
         "zh": "暗尾主要靠___来获取权力。"
       },
       "options": [
-        {"en": "lies and charm", "zh": "谎言与魅力（lies and charm）"},
-        {"en": "StarClan's blessing", "zh": "星族的庇佑"},
-        {"en": "great size and strength", "zh": "巨大的体型和蛮力"},
-        {"en": "winning a fair battle", "zh": "赢下一场公平的战斗"}
+        {
+          "en": "winning a fair battle",
+          "zh": "赢下一场公平的战斗"
+        },
+        {
+          "en": "great size and strength according to some versions of the story",
+          "zh": "巨大的体型和蛮力（按书中另一种说法）"
+        },
+        {
+          "en": "StarClan's blessing",
+          "zh": "星族的庇佑"
+        },
+        {
+          "en": "lies and charm",
+          "zh": "谎言与魅力（lies and charm）"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Darktail uses sweet words and trickery, not honest strength, to take over ShadowClan.",
         "zh": "暗尾靠甜言蜜语和欺骗手段夺权，而非光明正大的实力。"
@@ -162,12 +270,24 @@
         "zh": "亲族把影族猫赶走，把___据为己有。"
       },
       "options": [
-        {"en": "ShadowClan territory", "zh": "影族领地（ShadowClan territory）"},
-        {"en": "lake shore", "zh": "湖岸"},
-        {"en": "ThunderClan camp", "zh": "雷族营地"},
-        {"en": "the gorge", "zh": "峡谷"}
+        {
+          "en": "the gorge",
+          "zh": "峡谷"
+        },
+        {
+          "en": "ShadowClan territory",
+          "zh": "影族领地（ShadowClan territory）"
+        },
+        {
+          "en": "lake shore",
+          "zh": "湖岸"
+        },
+        {
+          "en": "ThunderClan camp according to some versions of the story",
+          "zh": "雷族营地（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Once the loyal ShadowClan cats are gone, the Kin settle into ShadowClan's territory.",
         "zh": "忠实的影族猫一被赶走，亲族便占据了影族的领地。"

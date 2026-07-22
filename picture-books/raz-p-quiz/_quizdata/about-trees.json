@@ -12,10 +12,22 @@
         "zh": "树木的叶子是如何为树制造食物的？"
       },
       "options": [
-        { "en": "By soaking up water from the soil", "zh": "通过从土壤里吸水" },
-        { "en": "By changing energy from sunlight into food", "zh": "把阳光的能量转化为食物" },
-        { "en": "By catching insects in the air", "zh": "通过捕捉空气中的昆虫" },
-        { "en": "By drinking the sap from the trunk", "zh": "通过喝树干里的树液" }
+        {
+          "en": "By catching insects in the air",
+          "zh": "通过捕捉空气中的昆虫"
+        },
+        {
+          "en": "By changing energy from sunlight into food",
+          "zh": "把阳光的能量转化为食物"
+        },
+        {
+          "en": "By soaking up water from the soil",
+          "zh": "通过从土壤里吸水"
+        },
+        {
+          "en": "By drinking the sap from the trunk according to some versions of the story",
+          "zh": "通过喝树干里的树液（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
@@ -30,10 +42,22 @@
         "zh": "哪一种树的重量可以相当于3000辆大皮卡车？"
       },
       "options": [
-        { "en": "A redwood tree", "zh": "红杉树" },
-        { "en": "A maple tree", "zh": "枫树" },
-        { "en": "A giant sequoia", "zh": "巨型红杉（巨杉）" },
-        { "en": "An oak tree", "zh": "橡树" }
+        {
+          "en": "An oak tree",
+          "zh": "橡树"
+        },
+        {
+          "en": "A redwood tree according to some versions of the story",
+          "zh": "红杉树（按书中另一种说法）"
+        },
+        {
+          "en": "A giant sequoia",
+          "zh": "巨型红杉（巨杉）"
+        },
+        {
+          "en": "A maple tree",
+          "zh": "枫树"
+        }
       ],
       "answer": 2,
       "skill": "Key Ideas and Details",
@@ -48,10 +72,22 @@
         "zh": "在书中，“deciduous（落叶的）”这个词是什么意思？"
       },
       "options": [
-        { "en": "Trees that keep their needles all year", "zh": "一年四季都保留针叶的树" },
-        { "en": "Trees that lose their leaves in fall and grow them in spring", "zh": "秋天落叶、春天长叶的树" },
-        { "en": "Trees that grow flowers", "zh": "会开花的树" },
-        { "en": "Trees that make cones", "zh": "会结球果的树" }
+        {
+          "en": "Trees that keep their needles all year according to some versions of the story",
+          "zh": "一年四季都保留针叶的树（按书中另一种说法）"
+        },
+        {
+          "en": "Trees that lose their leaves in fall and grow them in spring",
+          "zh": "秋天落叶、春天长叶的树"
+        },
+        {
+          "en": "Trees that make cones",
+          "zh": "会结球果的树"
+        },
+        {
+          "en": "Trees that grow flowers",
+          "zh": "会开花的树"
+        }
       ],
       "answer": 1,
       "skill": "Craft and Structure",
@@ -66,12 +102,24 @@
         "zh": "书中把树干里的管道比作高速公路。作者为什么用这个比喻？"
       },
       "options": [
-        { "en": "To show that trees can drive cars", "zh": "为了说明树能开汽车" },
-        { "en": "To explain that the tubes carry things back and forth like traffic", "zh": "为了说明这些管道像交通一样来回运送东西" },
-        { "en": "To describe the color of the bark", "zh": "为了描述树皮的颜色" },
-        { "en": "To explain how leaves fall", "zh": "为了解释叶子如何飘落" }
+        {
+          "en": "To show that trees can drive cars according to some versions of the story",
+          "zh": "为了说明树能开汽车（按书中另一种说法）"
+        },
+        {
+          "en": "To explain how leaves fall",
+          "zh": "为了解释叶子如何飘落"
+        },
+        {
+          "en": "To describe the color of the bark",
+          "zh": "为了描述树皮的颜色"
+        },
+        {
+          "en": "To explain that the tubes carry things back and forth like traffic",
+          "zh": "为了说明这些管道像交通一样来回运送东西"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"These tubes are like highways, carrying traffic back and forth.\" The comparison helps readers picture how water and sap move through the tree.",
@@ -84,12 +132,24 @@
         "zh": "为什么即使树干中间被闪电击空，树仍然能继续生长？"
       },
       "options": [
-        { "en": "Because the middle stores all the tree's food", "zh": "因为中间储存了树所有的食物" },
-        { "en": "Because it doesn't need the middle to live; the active highways are just under the bark", "zh": "因为它不需要中间部分也能存活；输送养分的通道就在树皮下方" },
-        { "en": "Because new trees grow from the roots", "zh": "因为新树会从根部长出来" },
-        { "en": "Because the leaves move down to the roots", "zh": "因为叶子会移动到根部" }
+        {
+          "en": "Because the leaves move down to the roots",
+          "zh": "因为叶子会移动到根部"
+        },
+        {
+          "en": "Because the middle stores all the tree's food according to some versions of the story in an early draft of the book",
+          "zh": "因为中间储存了树所有的食物（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Because new trees grow from the roots",
+          "zh": "因为新树会从根部长出来"
+        },
+        {
+          "en": "Because it doesn't need the middle to live; the active highways are just under the bark",
+          "zh": "因为它不需要中间部分也能存活；输送养分的通道就在树皮下方"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains, \"A tree doesn't need the middle of its trunk to live... All it needs is enough bark to protect its highways.\" The active tubes are near the outside, just under the bark.",
@@ -102,10 +162,22 @@
         "zh": "针叶树不开花，它们用什么来容纳种子？"
       },
       "options": [
-        { "en": "Cones", "zh": "球果（松果）" },
-        { "en": "Fruit", "zh": "果实" },
-        { "en": "Nuts", "zh": "坚果" },
-        { "en": "Berries", "zh": "浆果" }
+        {
+          "en": "Cones",
+          "zh": "球果（松果）"
+        },
+        {
+          "en": "Fruit",
+          "zh": "果实"
+        },
+        {
+          "en": "Berries according to some versions of the story",
+          "zh": "浆果（按书中另一种说法）"
+        },
+        {
+          "en": "Nuts",
+          "zh": "坚果"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -120,12 +192,24 @@
         "zh": "作者告诉我们树木“把阳光和空气变成糖来制造自己的食物”，而且“这有助于保持空气清洁”，其目的是什么？"
       },
       "options": [
-        { "en": "To entertain readers with a funny story", "zh": "为了用一个有趣的故事娱乐读者" },
-        { "en": "To inform readers that trees help both themselves and the environment", "zh": "为了告诉读者树木既帮助自己，也帮助环境" },
-        { "en": "To describe how to build a house", "zh": "为了描述如何盖房子" },
-        { "en": "To teach readers how to cook pancakes", "zh": "为了教读者如何煎薄饼" }
+        {
+          "en": "To describe how to build a house",
+          "zh": "为了描述如何盖房子"
+        },
+        {
+          "en": "To teach readers how to cook pancakes",
+          "zh": "为了教读者如何煎薄饼"
+        },
+        {
+          "en": "To inform readers that trees help both themselves and the environment",
+          "zh": "为了告诉读者树木既帮助自己，也帮助环境"
+        },
+        {
+          "en": "To entertain readers with a funny story according to some versions of the story",
+          "zh": "为了用一个有趣的故事娱乐读者（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author's purpose is to inform. The book explains that trees make their own food and that this process also helps keep the air clean, showing their value to the environment.",
@@ -138,12 +222,24 @@
         "zh": "除了吸水，树的树根在下雨时还有什么重要作用？"
       },
       "options": [
-        { "en": "They keep the soil in place so it doesn't wash away", "zh": "它们把土壤固定住，使其不被冲走" },
-        { "en": "They make the soil wash away faster", "zh": "它们让土壤更快被冲走" },
-        { "en": "They grow new flowers", "zh": "它们长出新的花" },
-        { "en": "They turn into trunks", "zh": "它们变成树干" }
+        {
+          "en": "They turn into trunks",
+          "zh": "它们变成树干"
+        },
+        {
+          "en": "They keep the soil in place so it doesn't wash away",
+          "zh": "它们把土壤固定住，使其不被冲走"
+        },
+        {
+          "en": "They grow new flowers",
+          "zh": "它们长出新的花"
+        },
+        {
+          "en": "They make the soil wash away faster according to some versions of the story",
+          "zh": "它们让土壤更快被冲走（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"Roots also keep the soil in place when it rains. Without the roots of trees and plants, soil washes away.\"",
@@ -156,12 +252,24 @@
         "zh": "到了秋天，落叶树的叶子为什么会显现出黄色、橙色和棕色？"
       },
       "options": [
-        { "en": "The cold freezes the green coloring", "zh": "寒冷把绿色冻住了" },
-        { "en": "Those true colors were hidden under green chlorophyll until the leaves stopped making it", "zh": "那些真实的颜色一直藏在绿色叶绿素之下，直到叶子停止制造叶绿素才显现" },
-        { "en": "The sun paints them bright colors", "zh": "太阳把它们染成了鲜艳的颜色" },
-        { "en": "The bark changes color", "zh": "树皮变了颜色" }
+        {
+          "en": "Those true colors were hidden under green chlorophyll until the leaves stopped making it",
+          "zh": "那些真实的颜色一直藏在绿色叶绿素之下，直到叶子停止制造叶绿素才显现"
+        },
+        {
+          "en": "The cold freezes the green coloring",
+          "zh": "寒冷把绿色冻住了"
+        },
+        {
+          "en": "The sun paints them bright colors according to some versions of the story in an early draft of the book",
+          "zh": "太阳把它们染成了鲜艳的颜色（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The bark changes color",
+          "zh": "树皮变了颜色"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains, \"These true colors are yellows, oranges, and browns, which hide under green chlorophyll all spring and summer. We see these colors in the fall after leaves stop making chlorophyll.\"",
@@ -174,12 +282,24 @@
         "zh": "在书的结尾，作者想让读者明白树木是——"
       },
       "options": [
-        { "en": "useless and should be cut down", "zh": "没有用的，应该被砍掉" },
-        { "en": "always sleeping and doing nothing", "zh": "总是在睡觉、什么也不做" },
-        { "en": "hard at work, giving homes and food to many living things", "zh": "一直在辛勤工作，为许多生物提供家和食物" },
-        { "en": "only found in the desert", "zh": "只在沙漠里才有" }
+        {
+          "en": "hard at work, giving homes and food to many living things",
+          "zh": "一直在辛勤工作，为许多生物提供家和食物"
+        },
+        {
+          "en": "useless and should be cut down",
+          "zh": "没有用的，应该被砍掉"
+        },
+        {
+          "en": "only found in the desert",
+          "zh": "只在沙漠里才有"
+        },
+        {
+          "en": "always sleeping and doing nothing according to some versions of the story",
+          "zh": "总是在睡觉、什么也不做（按书中另一种说法）"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Conclusion says, \"While trees look like they aren't doing much, they are working... Trees are homes and food for birds and other animals.\" The author wants readers to appreciate trees.",

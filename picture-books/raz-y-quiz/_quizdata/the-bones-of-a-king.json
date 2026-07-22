@@ -1,328 +1,328 @@
 {
- "slug": "the-bones-of-a-king",
- "title": "The Bones of a King",
- "titleZh": "国王的遗骨",
- "level": "Y",
- "genre": "History",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "Where were the bones of King Richard III found?",
-    "zh": "国王理查三世的遗骨是在哪里被发现的？"
-   },
-   "options": [
+  "slug": "the-bones-of-a-king",
+  "title": "The Bones of a King",
+  "titleZh": "国王的遗骨",
+  "level": "Y",
+  "genre": "History",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "Beneath a parking lot in Leicester, England, in 2012",
-     "zh": "2012年，在英格兰莱斯特的一个停车场地下"
+      "q": {
+        "en": "Where were the bones of King Richard III found?",
+        "zh": "国王理查三世的遗骨是在哪里被发现的？"
+      },
+      "options": [
+        {
+          "en": "In the Tower of London",
+          "zh": "在伦敦塔"
+        },
+        {
+          "en": "In a river called the Soar",
+          "zh": "在名为索尔的河里"
+        },
+        {
+          "en": "In Westminster Abbey in London according to some versions of the story",
+          "zh": "在伦敦的威斯敏斯特教堂（按书中另一种说法）"
+        },
+        {
+          "en": "Beneath a parking lot in Leicester, England, in 2012",
+          "zh": "2012年，在英格兰莱斯特的一个停车场地下"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Researchers found the skeleton beneath a parking lot in Leicester in the fall of 2012, hidden for over 525 years.",
+        "zh": "2012年秋，研究者在莱斯特一个停车场下发现了这具遗骨，它已被埋藏逾525年。"
+      }
     },
     {
-     "en": "In Westminster Abbey in London",
-     "zh": "在伦敦的威斯敏斯特教堂"
+      "q": {
+        "en": "According to the book, how did scientists help confirm the skeleton was Richard III?",
+        "zh": "根据本书，科学家如何帮助确认这具遗骨就是理查三世？"
+      },
+      "options": [
+        {
+          "en": "The bones were found inside a golden coffin",
+          "zh": "遗骨被发现装在一口金棺里"
+        },
+        {
+          "en": "They found a written confession buried in the grave according to some versions of the story",
+          "zh": "他们在墓里发现了一份书面认罪书（按书中另一种说法）"
+        },
+        {
+          "en": "A coin with his name was buried with him",
+          "zh": "陪葬有一枚刻着他名字的硬币"
+        },
+        {
+          "en": "DNA from the bones matched that of modern descendants of his sister Anne of York",
+          "zh": "遗骨提取的 DNA 与他姐姐约克的安妮的现代后代相匹配"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "DNA taken from the skeleton matched samples from two modern descendants of Richard's sister, Anne of York.",
+        "zh": "从遗骨提取的 DNA 与理查姐姐约克的安妮的两名现代后代样本相符。"
+      }
     },
     {
-     "en": "In a river called the Soar",
-     "zh": "在名为索尔的河里"
+      "q": {
+        "en": "How did King Richard III die?",
+        "zh": "理查三世是如何死的？"
+      },
+      "options": [
+        {
+          "en": "He drowned in the River Soar",
+          "zh": "他在索尔河溺水而亡"
+        },
+        {
+          "en": "He died of pneumonia in his bed",
+          "zh": "他死于床上的肺炎"
+        },
+        {
+          "en": "He was killed at the Battle of Bosworth Field in 1485, the last English king to fall in battle",
+          "zh": "他于1485年在博斯沃思原野战役中阵亡，是最后一位战死沙场的英格兰国王"
+        },
+        {
+          "en": "He was executed in the Tower of London according to some versions of the story in an early draft of the book",
+          "zh": "他在伦敦塔被处决（按书中另一种说法）（在书的早期草稿中）"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Richard charged Henry Tudor, lost his horse on slippery ground, was overrun, and killed—the last English king to die in battle.",
+        "zh": "理查冲向亨利·都铎，在湿滑地面落马后被围杀，是最后一位战死沙场的英格兰国王。"
+      }
     },
     {
-     "en": "In the Tower of London",
-     "zh": "在伦敦塔"
+      "q": {
+        "en": "What condition caused Richard's crooked, S-shaped spine?",
+        "zh": "是什么导致理查弯曲的S形脊柱？"
+      },
+      "options": [
+        {
+          "en": "Scoliosis",
+          "zh": "脊柱侧弯（scoliosis）"
+        },
+        {
+          "en": "A type of arthritis from old age",
+          "zh": "老年型关节炎"
+        },
+        {
+          "en": "A childhood illness called pneumonia",
+          "zh": "一种叫肺炎的 childhood 疾病"
+        },
+        {
+          "en": "A battle injury",
+          "zh": "一处战斗伤"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says Richard suffered from scoliosis; his spine began to bend probably between ages 10 and 12.",
+        "zh": "书中说理查患有脊柱侧弯，其脊柱大约在10至12岁间开始弯曲。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the book, what does 'carbon dating' do?",
+        "zh": "在本书中，'carbon dating'（碳测年）有什么作用？"
+      },
+      "options": [
+        {
+          "en": "A way to measure a person's height",
+          "zh": "测量人身高的方法"
+        },
+        {
+          "en": "A test that analyzes carbon in very old things to determine their age",
+          "zh": "一种分析极古老物体中碳含量以确定其年代的测试"
+        },
+        {
+          "en": "A method of digging up bones with carbon tools according to some versions of the story",
+          "zh": "用碳制工具挖出骨头的方法（按书中另一种说法）"
+        },
+        {
+          "en": "A test for finding DNA in the soil",
+          "zh": "在土壤里寻找 DNA 的测试"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The glossary defines carbon dating as 'a test used to determine age that analyzes the amount of certain kinds of carbon in something very old.'",
+        "zh": "术语表将碳测年定义为'通过分析极古老物体中某些碳的含量来确定年代的测试'。"
+      }
+    },
+    {
+      "q": {
+        "en": "As used in the book, what is 'propaganda'?",
+        "zh": "如书中用法，什么是'propaganda'（宣传）？"
+      },
+      "options": [
+        {
+          "en": "A type of medieval armor",
+          "zh": "一种中世纪盔甲"
+        },
+        {
+          "en": "News or media that uses false or exaggerated information to influence people",
+          "zh": "用虚假或夸大信息来影响民众的新闻或媒体"
+        },
+        {
+          "en": "A scientific dating method according to some versions of the story in an early draft of the book",
+          "zh": "一种科学测年方法（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A religious monastery",
+          "zh": "一座修道院"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The glossary defines propaganda as 'news, arts, or other media that often use false or exaggerated information to influence people.'",
+        "zh": "术语表将 propaganda 定义为'常用虚假或夸大信息来影响民众的新闻、艺术或其他媒体'。"
+      }
+    },
+    {
+      "q": {
+        "en": "Besides DNA, what other clues suggested the skeleton was Richard's?",
+        "zh": "除了 DNA，还有哪些线索表明这具遗骨是理查的？"
+      },
+      "options": [
+        {
+          "en": "His age (~32), wealthy high-protein diet, scoliosis, and battle injuries (ten blows, eight to the skull) matched accounts",
+          "zh": "他的年龄（约32岁）、富足的高蛋白饮食、脊柱侧弯，以及战斗伤（十处击打、八处在头骨）都与记载吻合"
+        },
+        {
+          "en": "The grave contained a map of the battlefield",
+          "zh": "墓中有一张战场地图"
+        },
+        {
+          "en": "The skeleton wore a crown and royal clothing according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "遗骨戴着王冠、穿着王室服装（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "The bones were found in a marked coffin",
+          "zh": "遗骨被发现在一口有标记的棺材里"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Scientists found the man was about 32, ate a wealthy high-protein diet, had scoliosis, and showed battle injuries matching historical accounts.",
+        "zh": "科学家发现此人约32岁、饮食富足高蛋白、有脊柱侧弯，并带有与历史记载相符的战斗伤。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the book say about the two young princes locked in the Tower of London?",
+        "zh": "关于被关在伦敦塔的两位年轻王子，本书是怎么说的？"
+      },
+      "options": [
+        {
+          "en": "Richard imprisoned his brother's two sons there and they were never seen again; their fate is unknown",
+          "zh": "理查把哥哥的两个儿子关押在那里，此后他们再未露面，命运成谜"
+        },
+        {
+          "en": "They escaped to France safely",
+          "zh": "他们安全逃到了法国"
+        },
+        {
+          "en": "They became kings after Richard died according to some versions of the story in an early draft of the book",
+          "zh": "理查死后他们成了国王（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They were Richard's own children",
+          "zh": "他们是理查自己的子女"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Richard imprisoned his brother's two sons, Edward and Richard, in the Tower; they were never seen again and their fate remains a mystery.",
+        "zh": "理查把哥哥的两个儿子爱德华和理查关入伦敦塔，此后他们再未出现，命运至今成谜。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in writing this book?",
+        "zh": "作者写这本书的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To teach how to build monasteries",
+          "zh": "教人如何建造修道院"
+        },
+        {
+          "en": "To inform readers about the discovery and identification of Richard III's remains and the debate over his character",
+          "zh": "向读者介绍理查三世遗骸的发现与鉴定，以及关于其人格的争论"
+        },
+        {
+          "en": "To entertain with a fictional ghost story according to some versions of the story in an early draft of the book",
+          "zh": "用一个虚构的鬼故事来娱乐读者（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To persuade readers that Richard was a hero",
+          "zh": "劝说读者相信理查是英雄"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book is an informational history describing how Richard's bones were found, identified, and what they reveal about his life and reputation.",
+        "zh": "这是一本信息类历史读物，讲述理查遗骨如何被发现、鉴定，以及它们揭示的生平与声誉。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does the author present the question of whether Richard was a villain or a victim?",
+        "zh": "作者如何呈现'理查是恶棍还是受害者'这一问题？"
+      },
+      "options": [
+        {
+          "en": "As already proven that he was purely evil according to some versions of the story in an early draft of the book",
+          "zh": "作为早已定论——他纯粹是邪恶的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "As already proven that he was innocent",
+          "zh": "作为早已定论——他是无辜的"
+        },
+        {
+          "en": "As an unsettled debate, noting that 'history is written by the victors' and his image may change",
+          "zh": "将其呈现为未决的争论，并指出'历史由胜利者书写'，他的形象或许会改变"
+        },
+        {
+          "en": "As unimportant to the story",
+          "zh": "作为对故事无关紧要的事"
+        }
+      ],
+      "answer": 2,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The author presents divided opinions and ends with the saying 'History is written by the victors,' leaving Richard's character open to reinterpretation.",
+        "zh": "作者呈现了分歧的观点，并以'历史由胜利者书写'作结，使理查的人格留待重新解读。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Researchers found the skeleton beneath a parking lot in Leicester in the fall of 2012, hidden for over 525 years.",
-    "zh": "2012年秋，研究者在莱斯特一个停车场下发现了这具遗骨，它已被埋藏逾525年。"
-   }
-  },
-  {
-   "q": {
-    "en": "According to the book, how did scientists help confirm the skeleton was Richard III?",
-    "zh": "根据本书，科学家如何帮助确认这具遗骨就是理查三世？"
-   },
-   "options": [
-    {
-     "en": "DNA from the bones matched that of modern descendants of his sister Anne of York",
-     "zh": "遗骨提取的 DNA 与他姐姐约克的安妮的现代后代相匹配"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "The book asks whether Richard was a villain or a victim. Using evidence from the text, give one reason someone might see him as a villain and one reason someone might see him as a victim. Then state which view the discovery of his bones might support.",
+      "zh": "本书追问理查是恶棍还是受害者。运用文中证据，各给出一条支持'恶棍说'和'受害者说'的理由，再说明其遗骨的发现可能支持哪种观点。"
     },
-    {
-     "en": "They found a written confession buried in the grave",
-     "zh": "他们在墓里发现了一份书面认罪书"
-    },
-    {
-     "en": "A coin with his name was buried with him",
-     "zh": "陪葬有一枚刻着他名字的硬币"
-    },
-    {
-     "en": "The bones were found inside a golden coffin",
-     "zh": "遗骨被发现装在一口金棺里"
+    "guidance": {
+      "en": [
+        "For villain: he imprisoned the young princes and took the throne from his brother's sons.",
+        "For victim: Shakespeare and the Tudors may have spread propaganda against him after his death.",
+        "Note the book's idea that new evidence could change how history judges him."
+      ],
+      "zh": [
+        "恶棍说：他囚禁年轻王子，从哥哥的儿子手中夺取王位。",
+        "受害者说：莎士比亚与都铎王朝可能在他死后散布了诋毁他的宣传。",
+        "注意书中'新证据可能改变历史评价'的观点。"
+      ]
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "DNA taken from the skeleton matched samples from two modern descendants of Richard's sister, Anne of York.",
-    "zh": "从遗骨提取的 DNA 与理查姐姐约克的安妮的两名现代后代样本相符。"
-   }
-  },
-  {
-   "q": {
-    "en": "How did King Richard III die?",
-    "zh": "理查三世是如何死的？"
-   },
-   "options": [
-    {
-     "en": "He was killed at the Battle of Bosworth Field in 1485, the last English king to fall in battle",
-     "zh": "他于1485年在博斯沃思原野战役中阵亡，是最后一位战死沙场的英格兰国王"
-    },
-    {
-     "en": "He died of pneumonia in his bed",
-     "zh": "他死于床上的肺炎"
-    },
-    {
-     "en": "He was executed in the Tower of London",
-     "zh": "他在伦敦塔被处决"
-    },
-    {
-     "en": "He drowned in the River Soar",
-     "zh": "他在索尔河溺水而亡"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Richard charged Henry Tudor, lost his horse on slippery ground, was overrun, and killed—the last English king to die in battle.",
-    "zh": "理查冲向亨利·都铎，在湿滑地面落马后被围杀，是最后一位战死沙场的英格兰国王。"
-   }
-  },
-  {
-   "q": {
-    "en": "What condition caused Richard's crooked, S-shaped spine?",
-    "zh": "是什么导致理查弯曲的S形脊柱？"
-   },
-   "options": [
-    {
-     "en": "Scoliosis",
-     "zh": "脊柱侧弯（scoliosis）"
-    },
-    {
-     "en": "A battle injury",
-     "zh": "一处战斗伤"
-    },
-    {
-     "en": "A childhood illness called pneumonia",
-     "zh": "一种叫肺炎的 childhood 疾病"
-    },
-    {
-     "en": "A type of arthritis from old age",
-     "zh": "老年型关节炎"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book says Richard suffered from scoliosis; his spine began to bend probably between ages 10 and 12.",
-    "zh": "书中说理查患有脊柱侧弯，其脊柱大约在10至12岁间开始弯曲。"
-   }
-  },
-  {
-   "q": {
-    "en": "In the book, what does 'carbon dating' do?",
-    "zh": "在本书中，'carbon dating'（碳测年）有什么作用？"
-   },
-   "options": [
-    {
-     "en": "A test that analyzes carbon in very old things to determine their age",
-     "zh": "一种分析极古老物体中碳含量以确定其年代的测试"
-    },
-    {
-     "en": "A method of digging up bones with carbon tools",
-     "zh": "用碳制工具挖出骨头的方法"
-    },
-    {
-     "en": "A way to measure a person's height",
-     "zh": "测量人身高的方法"
-    },
-    {
-     "en": "A test for finding DNA in the soil",
-     "zh": "在土壤里寻找 DNA 的测试"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The glossary defines carbon dating as 'a test used to determine age that analyzes the amount of certain kinds of carbon in something very old.'",
-    "zh": "术语表将碳测年定义为'通过分析极古老物体中某些碳的含量来确定年代的测试'。"
-   }
-  },
-  {
-   "q": {
-    "en": "As used in the book, what is 'propaganda'?",
-    "zh": "如书中用法，什么是'propaganda'（宣传）？"
-   },
-   "options": [
-    {
-     "en": "News or media that uses false or exaggerated information to influence people",
-     "zh": "用虚假或夸大信息来影响民众的新闻或媒体"
-    },
-    {
-     "en": "A type of medieval armor",
-     "zh": "一种中世纪盔甲"
-    },
-    {
-     "en": "A scientific dating method",
-     "zh": "一种科学测年方法"
-    },
-    {
-     "en": "A religious monastery",
-     "zh": "一座修道院"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The glossary defines propaganda as 'news, arts, or other media that often use false or exaggerated information to influence people.'",
-    "zh": "术语表将 propaganda 定义为'常用虚假或夸大信息来影响民众的新闻、艺术或其他媒体'。"
-   }
-  },
-  {
-   "q": {
-    "en": "Besides DNA, what other clues suggested the skeleton was Richard's?",
-    "zh": "除了 DNA，还有哪些线索表明这具遗骨是理查的？"
-   },
-   "options": [
-    {
-     "en": "His age (~32), wealthy high-protein diet, scoliosis, and battle injuries (ten blows, eight to the skull) matched accounts",
-     "zh": "他的年龄（约32岁）、富足的高蛋白饮食、脊柱侧弯，以及战斗伤（十处击打、八处在头骨）都与记载吻合"
-    },
-    {
-     "en": "The skeleton wore a crown and royal clothing",
-     "zh": "遗骨戴着王冠、穿着王室服装"
-    },
-    {
-     "en": "The bones were found in a marked coffin",
-     "zh": "遗骨被发现在一口有标记的棺材里"
-    },
-    {
-     "en": "The grave contained a map of the battlefield",
-     "zh": "墓中有一张战场地图"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Scientists found the man was about 32, ate a wealthy high-protein diet, had scoliosis, and showed battle injuries matching historical accounts.",
-    "zh": "科学家发现此人约32岁、饮食富足高蛋白、有脊柱侧弯，并带有与历史记载相符的战斗伤。"
-   }
-  },
-  {
-   "q": {
-    "en": "What does the book say about the two young princes locked in the Tower of London?",
-    "zh": "关于被关在伦敦塔的两位年轻王子，本书是怎么说的？"
-   },
-   "options": [
-    {
-     "en": "Richard imprisoned his brother's two sons there and they were never seen again; their fate is unknown",
-     "zh": "理查把哥哥的两个儿子关押在那里，此后他们再未露面，命运成谜"
-    },
-    {
-     "en": "They became kings after Richard died",
-     "zh": "理查死后他们成了国王"
-    },
-    {
-     "en": "They escaped to France safely",
-     "zh": "他们安全逃到了法国"
-    },
-    {
-     "en": "They were Richard's own children",
-     "zh": "他们是理查自己的子女"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Richard imprisoned his brother's two sons, Edward and Richard, in the Tower; they were never seen again and their fate remains a mystery.",
-    "zh": "理查把哥哥的两个儿子爱德华和理查关入伦敦塔，此后他们再未出现，命运至今成谜。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in writing this book?",
-    "zh": "作者写这本书的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "To inform readers about the discovery and identification of Richard III's remains and the debate over his character",
-     "zh": "向读者介绍理查三世遗骸的发现与鉴定，以及关于其人格的争论"
-    },
-    {
-     "en": "To persuade readers that Richard was a hero",
-     "zh": "劝说读者相信理查是英雄"
-    },
-    {
-     "en": "To entertain with a fictional ghost story",
-     "zh": "用一个虚构的鬼故事来娱乐读者"
-    },
-    {
-     "en": "To teach how to build monasteries",
-     "zh": "教人如何建造修道院"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The book is an informational history describing how Richard's bones were found, identified, and what they reveal about his life and reputation.",
-    "zh": "这是一本信息类历史读物，讲述理查遗骨如何被发现、鉴定，以及它们揭示的生平与声誉。"
-   }
-  },
-  {
-   "q": {
-    "en": "How does the author present the question of whether Richard was a villain or a victim?",
-    "zh": "作者如何呈现'理查是恶棍还是受害者'这一问题？"
-   },
-   "options": [
-    {
-     "en": "As an unsettled debate, noting that 'history is written by the victors' and his image may change",
-     "zh": "将其呈现为未决的争论，并指出'历史由胜利者书写'，他的形象或许会改变"
-    },
-    {
-     "en": "As already proven that he was purely evil",
-     "zh": "作为早已定论——他纯粹是邪恶的"
-    },
-    {
-     "en": "As already proven that he was innocent",
-     "zh": "作为早已定论——他是无辜的"
-    },
-    {
-     "en": "As unimportant to the story",
-     "zh": "作为对故事无关紧要的事"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The author presents divided opinions and ends with the saying 'History is written by the victors,' leaving Richard's character open to reinterpretation.",
-    "zh": "作者呈现了分歧的观点，并以'历史由胜利者书写'作结，使理查的人格留待重新解读。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "The book asks whether Richard was a villain or a victim. Using evidence from the text, give one reason someone might see him as a villain and one reason someone might see him as a victim. Then state which view the discovery of his bones might support.",
-   "zh": "本书追问理查是恶棍还是受害者。运用文中证据，各给出一条支持'恶棍说'和'受害者说'的理由，再说明其遗骨的发现可能支持哪种观点。"
-  },
-  "guidance": {
-   "en": [
-    "For villain: he imprisoned the young princes and took the throne from his brother's sons.",
-    "For victim: Shakespeare and the Tudors may have spread propaganda against him after his death.",
-    "Note the book's idea that new evidence could change how history judges him."
-   ],
-   "zh": [
-    "恶棍说：他囚禁年轻王子，从哥哥的儿子手中夺取王位。",
-    "受害者说：莎士比亚与都铎王朝可能在他死后散布了诋毁他的宣传。",
-    "注意书中'新证据可能改变历史评价'的观点。"
-   ]
-  }
- }
 }

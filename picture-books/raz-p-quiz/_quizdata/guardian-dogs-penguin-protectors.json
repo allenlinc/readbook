@@ -12,10 +12,22 @@
         "zh": "狗狗尤迪和图拉在中岛上做什么？"
       },
       "options": [
-        { "en": "Protect the little penguins that come to breed", "zh": "保护前来繁殖的小企鹅" },
-        { "en": "Herd sheep for farmers", "zh": "为农民放羊" },
-        { "en": "Catch fish for the zoo", "zh": "为动物园抓鱼" },
-        { "en": "Guard a gold mine", "zh": "看守金矿" }
+        {
+          "en": "Protect the little penguins that come to breed",
+          "zh": "保护前来繁殖的小企鹅"
+        },
+        {
+          "en": "Guard a gold mine",
+          "zh": "看守金矿"
+        },
+        {
+          "en": "Herd sheep for farmers",
+          "zh": "为农民放羊"
+        },
+        {
+          "en": "Catch fish for the zoo according to some versions of the story",
+          "zh": "为动物园抓鱼（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "是什么让企鹅免受赤狐的威胁？"
       },
       "options": [
-        { "en": "The smell of the dogs and their booming bark", "zh": "狗的气味和它们响亮的吠声" },
-        { "en": "A tall electric fence", "zh": "一道高高的电网" },
-        { "en": "The cold ocean water", "zh": "冰冷的海水" },
-        { "en": "Hidden traps in the sand", "zh": "沙子里隐藏的陷阱" }
+        {
+          "en": "Hidden traps in the sand according to some versions of the story",
+          "zh": "沙子里隐藏的陷阱（按书中另一种说法）"
+        },
+        {
+          "en": "A tall electric fence",
+          "zh": "一道高高的电网"
+        },
+        {
+          "en": "The smell of the dogs and their booming bark",
+          "zh": "狗的气味和它们响亮的吠声"
+        },
+        {
+          "en": "The cold ocean water",
+          "zh": "冰冷的海水"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"The smell of the dogs and their booming bark keep the penguins safe from red foxes.\"",
@@ -48,12 +72,24 @@
         "zh": "企鹅生活的中岛有多大？"
       },
       "options": [
-        { "en": "Less than 5 acres, about 5.5 football fields", "zh": "不到5英亩，约5.5个橄榄球场" },
-        { "en": "Over 1,000 acres", "zh": "超过1000英亩" },
-        { "en": "Exactly 50 acres", "zh": "正好50英亩" },
-        { "en": "As big as a continent", "zh": "像一个大陆那么大" }
+        {
+          "en": "As big as a continent according to some versions of the story",
+          "zh": "像一个大陆那么大（按书中另一种说法）"
+        },
+        {
+          "en": "Less than 5 acres, about 5.5 football fields",
+          "zh": "不到5英亩，约5.5个橄榄球场"
+        },
+        {
+          "en": "Exactly 50 acres",
+          "zh": "正好50英亩"
+        },
+        {
+          "en": "Over 1,000 acres",
+          "zh": "超过1000英亩"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"Middle Island covers less than 5 acres. That's about the size of 5.5 American football fields.\"",
@@ -66,12 +102,24 @@
         "zh": "小企鹅有多高？它有什么特别之处？"
       },
       "options": [
-        { "en": "30 cm (12 in) tall—the smallest penguin in the world", "zh": "高30厘米（12英寸）——是世界上最小的企鹅" },
-        { "en": "1 meter tall—one of the largest", "zh": "高1米——是最大的之一" },
-        { "en": "50 cm tall—it can fly", "zh": "高50厘米——它会飞" },
-        { "en": "10 cm tall—it lives in trees", "zh": "高10厘米——它住在树上" }
+        {
+          "en": "10 cm tall—it lives in trees",
+          "zh": "高10厘米——它住在树上"
+        },
+        {
+          "en": "30 cm (12 in) tall—the smallest penguin in the world",
+          "zh": "高30厘米（12英寸）——是世界上最小的企鹅"
+        },
+        {
+          "en": "1 meter tall—one of the largest according to some versions of the story",
+          "zh": "高1米——是最大的之一（按书中另一种说法）"
+        },
+        {
+          "en": "50 cm tall—it can fly",
+          "zh": "高50厘米——它会飞"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"The little penguin, the smallest in the world, stands only 30 centimeters (12 in.) tall.\"",
@@ -84,12 +132,24 @@
         "zh": "为什么这个项目称这些狗为“护卫犬”而非牧羊犬？"
       },
       "options": [
-        { "en": "Because they don't guard sheep", "zh": "因为它们不看守羊" },
-        { "en": "Because they are too small for sheep", "zh": "因为它们太小，管不了羊" },
-        { "en": "Because they live in Italy", "zh": "因为它们住在意大利" },
-        { "en": "Because they only guard fish", "zh": "因为它们只看守鱼" }
+        {
+          "en": "Because they are too small for sheep",
+          "zh": "因为它们太小，管不了羊"
+        },
+        {
+          "en": "Because they don't guard sheep",
+          "zh": "因为它们不看守羊"
+        },
+        {
+          "en": "Because they only guard fish",
+          "zh": "因为它们只看守鱼"
+        },
+        {
+          "en": "Because they live in Italy",
+          "zh": "因为它们住在意大利"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"The Middle Island Maremma Project calls these dogs 'guardian' dogs because they don't guard sheep.\"",
@@ -102,12 +162,24 @@
         "zh": "到2005年，赤狐在中岛上造成了什么问题？"
       },
       "options": [
-        { "en": "The penguin population was nearly wiped out; only 4 were spotted", "zh": "企鹅数量几乎被消灭，仅发现4只" },
-        { "en": "The foxes ate all the blueberries", "zh": "狐狸吃光了所有蓝莓" },
-        { "en": "The dogs ran away", "zh": "狗都跑掉了" },
-        { "en": "The island sank", "zh": "岛屿沉没了" }
+        {
+          "en": "The dogs ran away",
+          "zh": "狗都跑掉了"
+        },
+        {
+          "en": "The foxes ate all the blueberries according to some versions of the story",
+          "zh": "狐狸吃光了所有蓝莓（按书中另一种说法）"
+        },
+        {
+          "en": "The island sank",
+          "zh": "岛屿沉没了"
+        },
+        {
+          "en": "The penguin population was nearly wiped out; only 4 were spotted",
+          "zh": "企鹅数量几乎被消灭，仅发现4只"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, \"By 2005, the penguin population on Middle Island was nearly wiped out by fox attacks. That year, only four penguins were spotted.\"",
@@ -120,10 +192,22 @@
         "zh": "谁最先提议用马雷马犬来保护企鹅？"
       },
       "options": [
-        { "en": "Alan 'Swampy' Marsh, a local chicken farmer", "zh": "当地养鸡农户艾伦“沼泽”马什" },
-        { "en": "Alexander Graham Bell", "zh": "亚历山大·格雷厄姆·贝尔" },
-        { "en": "The king of France", "zh": "法国国王" },
-        { "en": "A zoo keeper in New York", "zh": "纽约的一位动物园管理员" }
+        {
+          "en": "Alan 'Swampy' Marsh, a local chicken farmer",
+          "zh": "当地养鸡农户艾伦“沼泽”马什"
+        },
+        {
+          "en": "The king of France",
+          "zh": "法国国王"
+        },
+        {
+          "en": "Alexander Graham Bell",
+          "zh": "亚历山大·格雷厄姆·贝尔"
+        },
+        {
+          "en": "A zoo keeper in New York according to some versions of the story",
+          "zh": "纽约的一位动物园管理员（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -138,12 +222,24 @@
         "zh": "书中说中岛马雷马项目是什么的好例子？"
       },
       "options": [
-        { "en": "How communities can come together to make a difference for animals", "zh": "社区如何齐心协力，为动物带来改变" },
-        { "en": "How to cook chicken soup", "zh": "如何煮鸡汤" },
-        { "en": "How foxes learned to swim", "zh": "狐狸如何学会游泳" },
-        { "en": "How to build a football field", "zh": "如何建橄榄球场" }
+        {
+          "en": "How foxes learned to swim",
+          "zh": "狐狸如何学会游泳"
+        },
+        {
+          "en": "How to cook chicken soup",
+          "zh": "如何煮鸡汤"
+        },
+        {
+          "en": "How to build a football field according to some versions of the story",
+          "zh": "如何建橄榄球场（按书中另一种说法）"
+        },
+        {
+          "en": "How communities can come together to make a difference for animals",
+          "zh": "社区如何齐心协力，为动物带来改变"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says, \"The Middle Island Maremma Project is a great example of how communities can come together to make a difference in the lives of animals.\"",
@@ -156,12 +252,24 @@
         "zh": "从哪一年起没有已知的狐袭事件？到2013-2014年有多少只企鹅回归？"
       },
       "options": [
-        { "en": "Since 2006 no attacks; almost 200 penguins returned", "zh": "自2006年起无袭击；近200只企鹅回归" },
-        { "en": "Since 1990; only 4 returned", "zh": "自1990年起；仅4只回归" },
-        { "en": "Since 2010; 1,000 returned", "zh": "自2010年起；1000只回归" },
-        { "en": "Since 1980; none returned", "zh": "自1980年起；没有回归" }
+        {
+          "en": "Since 1980; none returned",
+          "zh": "自1980年起；没有回归"
+        },
+        {
+          "en": "Since 2010; 1,000 returned according to some versions of the story",
+          "zh": "自2010年起；1000只回归（按书中另一种说法）"
+        },
+        {
+          "en": "Since 2006 no attacks; almost 200 penguins returned",
+          "zh": "自2006年起无袭击；近200只企鹅回归"
+        },
+        {
+          "en": "Since 1990; only 4 returned",
+          "zh": "自1990年起；仅4只回归"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"Since coming to the island in 2006, there have been no known attacks on penguins by red foxes... As of the 2013-2014 breeding season, almost two hundred penguins had returned.\"",
@@ -174,10 +282,22 @@
         "zh": "这些狗大约几岁时第一次见到企鹅？书里把企鹅比作什么？"
       },
       "options": [
-        { "en": "About two months old; 'chooks [chickens] in dinner suits'", "zh": "约两个月大；比作“穿礼服的鸡（chooks）”" },
-        { "en": "One year old; 'tiny fish'", "zh": "一岁大；比作“小鱼”" },
-        { "en": "Three weeks old; 'baby bears'", "zh": "三周大；比作“熊宝宝”" },
-        { "en": "Five years old; 'sheep'", "zh": "五岁大；比作“羊”" }
+        {
+          "en": "About two months old; 'chooks [chickens] in dinner suits'",
+          "zh": "约两个月大；比作“穿礼服的鸡（chooks）”"
+        },
+        {
+          "en": "Five years old; 'sheep'",
+          "zh": "五岁大；比作“羊”"
+        },
+        {
+          "en": "Three weeks old; 'baby bears' according to some versions of the story",
+          "zh": "三周大；比作“熊宝宝”（按书中另一种说法）"
+        },
+        {
+          "en": "One year old; 'tiny fish'",
+          "zh": "一岁大；比作“小鱼”"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",

@@ -1,326 +1,326 @@
 {
- "title": "Yo-Yo Ma",
- "titleZh": "马友友",
- "level": "T",
- "genre": "Biography",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "In what city was Yo-Yo Ma born?",
-    "zh": "马友友出生在哪座城市？"
-   },
-   "options": [
+  "title": "Yo-Yo Ma",
+  "titleZh": "马友友",
+  "level": "T",
+  "genre": "Biography",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "Paris, France",
-     "zh": "法国巴黎"
+      "q": {
+        "en": "In what city was Yo-Yo Ma born?",
+        "zh": "马友友出生在哪座城市？"
+      },
+      "options": [
+        {
+          "en": "Paris, France",
+          "zh": "法国巴黎"
+        },
+        {
+          "en": "New York City",
+          "zh": "纽约市"
+        },
+        {
+          "en": "Beijing, China",
+          "zh": "中国北京"
+        },
+        {
+          "en": "Boston",
+          "zh": "波士顿"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says Yo-Yo Ma was born in 1955 in Paris, France, into a musical family.",
+        "zh": "书中说马友友1955年出生于法国巴黎的一个音乐家庭。"
+      }
     },
     {
-     "en": "New York City",
-     "zh": "纽约市"
+      "q": {
+        "en": "Why did Yo-Yo Ma play the cello instead of the double bass he first wanted?",
+        "zh": "马友友为何拉大提琴，而不是他最初想学的低音提琴？"
+      },
+      "options": [
+        {
+          "en": "his father forced him",
+          "zh": "父亲强迫他"
+        },
+        {
+          "en": "he didn't like the bass",
+          "zh": "他不喜欢低音提琴"
+        },
+        {
+          "en": "his sister played the cello according to some versions of the story",
+          "zh": "他姐姐拉大提琴（按书中另一种说法）"
+        },
+        {
+          "en": "the double bass was too large for a small child",
+          "zh": "低音提琴对小孩来说太大了"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "His parents thought the double bass was too large, so they let him play the second-biggest instrument, the cello.",
+        "zh": "父母觉得低音提琴太大，就让他学第二大的乐器——大提琴。"
+      }
     },
     {
-     "en": "Beijing, China",
-     "zh": "中国北京"
+      "q": {
+        "en": "What health problem required Ma to have surgery right after graduating?",
+        "zh": "马友友毕业后不久因什么健康问题做了手术？"
+      },
+      "options": [
+        {
+          "en": "hearing loss according to some versions of the story in an early draft of the book",
+          "zh": "听力丧失（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "scoliosis, a condition that curves the spine",
+          "zh": "脊柱侧弯（scoliosis），一种脊柱弯曲的病症"
+        },
+        {
+          "en": "a broken arm",
+          "zh": "手臂骨折"
+        },
+        {
+          "en": "asthma",
+          "zh": "哮喘"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "He had back surgery to correct scoliosis, a condition that makes the spine curve the wrong way.",
+        "zh": "他做了背部手术矫正脊柱侧弯，即脊柱异常弯曲。"
+      }
     },
     {
-     "en": "Boston",
-     "zh": "波士顿"
+      "q": {
+        "en": "In what year did Yo-Yo Ma found the Silk Road Ensemble?",
+        "zh": "马友友是在哪一年创立'丝路合奏团'的？"
+      },
+      "options": [
+        {
+          "en": "1985 according to some versions of the story",
+          "zh": "1985年（按书中另一种说法）"
+        },
+        {
+          "en": "1999",
+          "zh": "1999年"
+        },
+        {
+          "en": "2002",
+          "zh": "2002年"
+        },
+        {
+          "en": "1998",
+          "zh": "1998年"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says he founded the Silk Road Ensemble in 1998.",
+        "zh": "书中说他于1998年创立了丝路合奏团。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book is divided into life stages such as 'An Early Start,' 'A Young Star,' and 'Back Problems.' What text structure does this show?",
+        "zh": "本书按'早期起步''年轻的明星''背部问题'等人生阶段分章。这体现了什么文章结构？"
+      },
+      "options": [
+        {
+          "en": "a fictional plot",
+          "zh": "虚构情节"
+        },
+        {
+          "en": "a list of musical terms",
+          "zh": "音乐术语列表"
+        },
+        {
+          "en": "a life story told in chronological (time) order",
+          "zh": "按时间顺序讲述的生平故事"
+        },
+        {
+          "en": "a comparison of two people according to some versions of the story",
+          "zh": "两个人的对比（按书中另一种说法）"
+        }
+      ],
+      "answer": 2,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The biography follows Ma's life from birth through childhood, fame, surgery, and the ensemble, in time order.",
+        "zh": "这本传记按时间顺序讲述他从出生、童年、成名、手术到创立合奏团。"
+      }
+    },
+    {
+      "q": {
+        "en": "One section is titled \"I'm an Accident,\" a quote from Ma himself. Why does the author use his own words as a heading?",
+        "zh": "有一节标题是'我是个意外'，这是马友友的原话。作者为何用他自己的话作标题？"
+      },
+      "options": [
+        {
+          "en": "to show Ma's modest view that his success came from many people and chances",
+          "zh": "体现马友友谦虚的看法：成功源于许多人和机遇"
+        },
+        {
+          "en": "to say he disliked music according to some versions of the story in an early draft of the book",
+          "zh": "表示他讨厌音乐（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "to prove he was careless",
+          "zh": "证明他粗心"
+        },
+        {
+          "en": "to suggest he was unlucky",
+          "zh": "暗示他运气差"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Ma says 'I'm an accident' and credits parents, teachers, sister, wife, kids, and lucky experiences.",
+        "zh": "马友友说'我是个意外'，并把成功归功于父母、老师、姐姐、妻子、孩子和种种机遇。"
+      }
+    },
+    {
+      "q": {
+        "en": "Ma's Chinese heritage, French childhood, and American adulthood shaped his music, and the Silk Road Ensemble draws on world traditions. What does the ensemble reflect?",
+        "zh": "马友友的中国血统、法国童年和美国成年经历塑造了他的音乐，丝路合奏团又汲取世界传统。这个合奏团反映了什么？"
+      },
+      "options": [
+        {
+          "en": "his blended background and belief in connecting cultures through music",
+          "zh": "他融合的背景，以及用音乐连接不同文化的信念"
+        },
+        {
+          "en": "his dislike of travel",
+          "zh": "他不喜欢旅行"
+        },
+        {
+          "en": "only European classical music according to some versions of the story in an early draft of the book",
+          "zh": "只有欧洲古典音乐（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "a single country's songs",
+          "zh": "单一国家的歌曲"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The Focus Question asks how the ensemble reflects his background; it blends musicians from 20 countries.",
+        "zh": "书中的核心问题正是合奏团如何反映他的背景；它汇聚了20个国家的音乐家。"
+      }
+    },
+    {
+      "q": {
+        "en": "The book says Ma has won 15 Grammy Awards, recorded over 75 albums, and received the Presidential Medal of Freedom. What do these facts show?",
+        "zh": "书中说马友友荣获15座格莱美奖、录制75张以上专辑，并获总统自由勋章。这些事实说明什么？"
+      },
+      "options": [
+        {
+          "en": "he stopped performing early according to some versions of the story",
+          "zh": "他很早就不演出（按书中另一种说法）"
+        },
+        {
+          "en": "he is one of the most honored and popular musicians in the world",
+          "zh": "他是全球最受尊崇、最受欢迎的音乐家之一"
+        },
+        {
+          "en": "he only played for children",
+          "zh": "他只为孩子演奏"
+        },
+        {
+          "en": "he never left the U.S.",
+          "zh": "他从未离开美国"
+        }
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "He is one of the best-selling classical artists alive and received the highest U.S. civilian honor in 2011.",
+        "zh": "他是在世最畅销的古典音乐家之一，并于2011年获美国最高平民荣誉。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in writing 'Yo-Yo Ma'?",
+        "zh": "作者写《马友友》的主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "to list every concert",
+          "zh": "列出每一场音乐会"
+        },
+        {
+          "en": "to tell his life story and show how his background shaped his music",
+          "zh": "讲述他的生平，并展现其背景如何塑造音乐"
+        },
+        {
+          "en": "to criticize classical music",
+          "zh": "批评古典音乐"
+        },
+        {
+          "en": "to teach readers to play the cello according to some versions of the story",
+          "zh": "教读者拉大提琴（按书中另一种说法）"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The biography traces his life and repeatedly links his mixed heritage to his musical choices.",
+        "zh": "这本传记讲述他的一生，并反复把他的多元血统与音乐选择联系起来。"
+      }
+    },
+    {
+      "q": {
+        "en": "How does the author present the reason for Ma's success?",
+        "zh": "作者如何呈现马友友成功的原因？"
+      },
+      "options": [
+        {
+          "en": "as a secret he hides",
+          "zh": "他隐藏的秘密"
+        },
+        {
+          "en": "as pure luck with no effort",
+          "zh": "纯属幸运、毫不费力"
+        },
+        {
+          "en": "as the result of many people and experiences, not just talent",
+          "zh": "源于许多人与经历，而非仅靠天赋"
+        },
+        {
+          "en": "as something he did entirely alone according to some versions of the story",
+          "zh": "全靠他独自完成（按书中另一种说法）"
+        }
+      ],
+      "answer": 2,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "Ma says success is 'a combination of many things'—parents, teachers, sister, wife, kids, and key experiences.",
+        "zh": "马友友说成功是'许多因素的结合'——父母、老师、姐姐、妻子、孩子和关键经历。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book says Yo-Yo Ma was born in 1955 in Paris, France, into a musical family.",
-    "zh": "书中说马友友1955年出生于法国巴黎的一个音乐家庭。"
-   }
-  },
-  {
-   "q": {
-    "en": "Why did Yo-Yo Ma play the cello instead of the double bass he first wanted?",
-    "zh": "马友友为何拉大提琴，而不是他最初想学的低音提琴？"
-   },
-   "options": [
-    {
-     "en": "the double bass was too large for a small child",
-     "zh": "低音提琴对小孩来说太大了"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Yo-Yo Ma says 'I'm an accident' and credits many people for his success. Think of someone in your life who helped you learn something. How were they like the people who supported Ma? Use the book for ideas.",
+      "zh": "马友友说自己是'一个意外'，并把成功归功于许多人。想一想你生命中帮助过你学东西的人，他们和支撑马友友的人有何相似？可参考书中内容。"
     },
-    {
-     "en": "he didn't like the bass",
-     "zh": "他不喜欢低音提琴"
-    },
-    {
-     "en": "his sister played the cello",
-     "zh": "他姐姐拉大提琴"
-    },
-    {
-     "en": "his father forced him",
-     "zh": "父亲强迫他"
+    "guidance": {
+      "en": [
+        "Recall the roles of his parents, sister, teachers, and wife in the book.",
+        "Connect a real supporter in your life to one of those roles."
+      ],
+      "zh": [
+        "回想书中父母、姐姐、老师和妻子分别起的作用。",
+        "把你生活中真实的支持者和其中某一角色联系起来。"
+      ]
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "His parents thought the double bass was too large, so they let him play the second-biggest instrument, the cello.",
-    "zh": "父母觉得低音提琴太大，就让他学第二大的乐器——大提琴。"
-   }
   },
-  {
-   "q": {
-    "en": "What health problem required Ma to have surgery right after graduating?",
-    "zh": "马友友毕业后不久因什么健康问题做了手术？"
-   },
-   "options": [
-    {
-     "en": "scoliosis, a condition that curves the spine",
-     "zh": "脊柱侧弯（scoliosis），一种脊柱弯曲的病症"
-    },
-    {
-     "en": "a broken arm",
-     "zh": "手臂骨折"
-    },
-    {
-     "en": "asthma",
-     "zh": "哮喘"
-    },
-    {
-     "en": "hearing loss",
-     "zh": "听力丧失"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "He had back surgery to correct scoliosis, a condition that makes the spine curve the wrong way.",
-    "zh": "他做了背部手术矫正脊柱侧弯，即脊柱异常弯曲。"
-   }
-  },
-  {
-   "q": {
-    "en": "In what year did Yo-Yo Ma found the Silk Road Ensemble?",
-    "zh": "马友友是在哪一年创立'丝路合奏团'的？"
-   },
-   "options": [
-    {
-     "en": "1998",
-     "zh": "1998年"
-    },
-    {
-     "en": "1999",
-     "zh": "1999年"
-    },
-    {
-     "en": "1985",
-     "zh": "1985年"
-    },
-    {
-     "en": "2002",
-     "zh": "2002年"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The book says he founded the Silk Road Ensemble in 1998.",
-    "zh": "书中说他于1998年创立了丝路合奏团。"
-   }
-  },
-  {
-   "q": {
-    "en": "The book is divided into life stages such as 'An Early Start,' 'A Young Star,' and 'Back Problems.' What text structure does this show?",
-    "zh": "本书按'早期起步''年轻的明星''背部问题'等人生阶段分章。这体现了什么文章结构？"
-   },
-   "options": [
-    {
-     "en": "a life story told in chronological (time) order",
-     "zh": "按时间顺序讲述的生平故事"
-    },
-    {
-     "en": "a comparison of two people",
-     "zh": "两个人的对比"
-    },
-    {
-     "en": "a list of musical terms",
-     "zh": "音乐术语列表"
-    },
-    {
-     "en": "a fictional plot",
-     "zh": "虚构情节"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "The biography follows Ma's life from birth through childhood, fame, surgery, and the ensemble, in time order.",
-    "zh": "这本传记按时间顺序讲述他从出生、童年、成名、手术到创立合奏团。"
-   }
-  },
-  {
-   "q": {
-    "en": "One section is titled \"I'm an Accident,\" a quote from Ma himself. Why does the author use his own words as a heading?",
-    "zh": "有一节标题是'我是个意外'，这是马友友的原话。作者为何用他自己的话作标题？"
-   },
-   "options": [
-    {
-     "en": "to show Ma's modest view that his success came from many people and chances",
-     "zh": "体现马友友谦虚的看法：成功源于许多人和机遇"
-    },
-    {
-     "en": "to prove he was careless",
-     "zh": "证明他粗心"
-    },
-    {
-     "en": "to say he disliked music",
-     "zh": "表示他讨厌音乐"
-    },
-    {
-     "en": "to suggest he was unlucky",
-     "zh": "暗示他运气差"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "Ma says 'I'm an accident' and credits parents, teachers, sister, wife, kids, and lucky experiences.",
-    "zh": "马友友说'我是个意外'，并把成功归功于父母、老师、姐姐、妻子、孩子和种种机遇。"
-   }
-  },
-  {
-   "q": {
-    "en": "Ma's Chinese heritage, French childhood, and American adulthood shaped his music, and the Silk Road Ensemble draws on world traditions. What does the ensemble reflect?",
-    "zh": "马友友的中国血统、法国童年和美国成年经历塑造了他的音乐，丝路合奏团又汲取世界传统。这个合奏团反映了什么？"
-   },
-   "options": [
-    {
-     "en": "his blended background and belief in connecting cultures through music",
-     "zh": "他融合的背景，以及用音乐连接不同文化的信念"
-    },
-    {
-     "en": "only European classical music",
-     "zh": "只有欧洲古典音乐"
-    },
-    {
-     "en": "a single country's songs",
-     "zh": "单一国家的歌曲"
-    },
-    {
-     "en": "his dislike of travel",
-     "zh": "他不喜欢旅行"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "The Focus Question asks how the ensemble reflects his background; it blends musicians from 20 countries.",
-    "zh": "书中的核心问题正是合奏团如何反映他的背景；它汇聚了20个国家的音乐家。"
-   }
-  },
-  {
-   "q": {
-    "en": "The book says Ma has won 15 Grammy Awards, recorded over 75 albums, and received the Presidential Medal of Freedom. What do these facts show?",
-    "zh": "书中说马友友荣获15座格莱美奖、录制75张以上专辑，并获总统自由勋章。这些事实说明什么？"
-   },
-   "options": [
-    {
-     "en": "he is one of the most honored and popular musicians in the world",
-     "zh": "他是全球最受尊崇、最受欢迎的音乐家之一"
-    },
-    {
-     "en": "he stopped performing early",
-     "zh": "他很早就不演出"
-    },
-    {
-     "en": "he only played for children",
-     "zh": "他只为孩子演奏"
-    },
-    {
-     "en": "he never left the U.S.",
-     "zh": "他从未离开美国"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "He is one of the best-selling classical artists alive and received the highest U.S. civilian honor in 2011.",
-    "zh": "他是在世最畅销的古典音乐家之一，并于2011年获美国最高平民荣誉。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in writing 'Yo-Yo Ma'?",
-    "zh": "作者写《马友友》的主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "to tell his life story and show how his background shaped his music",
-     "zh": "讲述他的生平，并展现其背景如何塑造音乐"
-    },
-    {
-     "en": "to teach readers to play the cello",
-     "zh": "教读者拉大提琴"
-    },
-    {
-     "en": "to criticize classical music",
-     "zh": "批评古典音乐"
-    },
-    {
-     "en": "to list every concert",
-     "zh": "列出每一场音乐会"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The biography traces his life and repeatedly links his mixed heritage to his musical choices.",
-    "zh": "这本传记讲述他的一生，并反复把他的多元血统与音乐选择联系起来。"
-   }
-  },
-  {
-   "q": {
-    "en": "How does the author present the reason for Ma's success?",
-    "zh": "作者如何呈现马友友成功的原因？"
-   },
-   "options": [
-    {
-     "en": "as the result of many people and experiences, not just talent",
-     "zh": "源于许多人与经历，而非仅靠天赋"
-    },
-    {
-     "en": "as pure luck with no effort",
-     "zh": "纯属幸运、毫不费力"
-    },
-    {
-     "en": "as something he did entirely alone",
-     "zh": "全靠他独自完成"
-    },
-    {
-     "en": "as a secret he hides",
-     "zh": "他隐藏的秘密"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "Ma says success is 'a combination of many things'—parents, teachers, sister, wife, kids, and key experiences.",
-    "zh": "马友友说成功是'许多因素的结合'——父母、老师、姐姐、妻子、孩子和关键经历。"
-   }
-  }
- ],
- "extended": {
-  "prompt": {
-   "en": "Yo-Yo Ma says 'I'm an accident' and credits many people for his success. Think of someone in your life who helped you learn something. How were they like the people who supported Ma? Use the book for ideas.",
-   "zh": "马友友说自己是'一个意外'，并把成功归功于许多人。想一想你生命中帮助过你学东西的人，他们和支撑马友友的人有何相似？可参考书中内容。"
-  },
-  "guidance": {
-   "en": [
-    "Recall the roles of his parents, sister, teachers, and wife in the book.",
-    "Connect a real supporter in your life to one of those roles."
-   ],
-   "zh": [
-    "回想书中父母、姐姐、老师和妻子分别起的作用。",
-    "把你生活中真实的支持者和其中某一角色联系起来。"
-   ]
-  }
- },
- "slug": "yo-yo-ma"
+  "slug": "yo-yo-ma"
 }

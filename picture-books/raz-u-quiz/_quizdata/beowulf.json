@@ -12,12 +12,24 @@
         "zh": "是哪位国王建造了被怪物格伦德尔袭击的金色大厅？"
       },
       "options": [
-        {"en": "King Hrothgar", "zh": "霍斯加国王"},
-        {"en": "Beowulf", "zh": "贝奥武甫"},
-        {"en": "The dragon", "zh": "巨龙"},
-        {"en": "Wiglaf", "zh": "维格拉夫"}
+        {
+          "en": "Beowulf",
+          "zh": "贝奥武甫"
+        },
+        {
+          "en": "Wiglaf",
+          "zh": "维格拉夫"
+        },
+        {
+          "en": "The dragon according to some versions of the story",
+          "zh": "巨龙（按书中另一种说法）"
+        },
+        {
+          "en": "King Hrothgar",
+          "zh": "霍斯加国王"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The story opens by saying old King Hrothgar built a golden hall where his warriors gathered in peace before Grendel attacked.",
@@ -30,12 +42,24 @@
         "zh": "格伦德尔与霍斯加交战了多少年？"
       },
       "options": [
-        {"en": "Two years", "zh": "两年"},
-        {"en": "Fifty years", "zh": "五十年"},
-        {"en": "Twelve years", "zh": "十二年"},
-        {"en": "One hundred years", "zh": "一百年"}
+        {
+          "en": "Twelve years",
+          "zh": "十二年"
+        },
+        {
+          "en": "Fifty years",
+          "zh": "五十年"
+        },
+        {
+          "en": "One hundred years",
+          "zh": "一百年"
+        },
+        {
+          "en": "Two years",
+          "zh": "两年"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says for twelve long years Grendel warred against Hrothgar, prowling the hall and lying in wait on the moors.",
@@ -48,12 +72,24 @@
         "zh": "贝奥武甫的力气有什么特别之处？"
       },
       "options": [
-        {"en": "He had the strength of ten men", "zh": "他有十个人的力气"},
-        {"en": "He had the strength of thirty men", "zh": "他有三十个人的力气"},
-        {"en": "He had no special strength", "zh": "他没什么特别力气"},
-        {"en": "He had the strength of a hundred men", "zh": "他有一百个人的力气"}
+        {
+          "en": "He had the strength of a hundred men",
+          "zh": "他有一百个人的力气"
+        },
+        {
+          "en": "He had the strength of ten men",
+          "zh": "他有十个人的力气"
+        },
+        {
+          "en": "He had the strength of thirty men",
+          "zh": "他有三十个人的力气"
+        },
+        {
+          "en": "He had no special strength",
+          "zh": "他没什么特别力气"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book describes Beowulf as a young warrior who had the strength of thirty men.",
@@ -66,12 +102,24 @@
         "zh": "贝奥武甫是如何击败格伦德尔的？"
       },
       "options": [
-        {"en": "He shot him with an arrow", "zh": "他用箭射中它"},
-        {"en": "He trapped him in a net", "zh": "他用网困住它"},
-        {"en": "He used a magic spell", "zh": "他施了魔法"},
-        {"en": "He wrestled him hand to hand, tore off his arm, and Grendel fled wounded to death", "zh": "他徒手与它搏斗，扯下了它的手臂，格伦德尔重伤逃走而亡"}
+        {
+          "en": "He shot him with an arrow according to some versions of the story in an early draft of the book",
+          "zh": "他用箭射中它（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He wrestled him hand to hand, tore off his arm, and Grendel fled wounded to death",
+          "zh": "他徒手与它搏斗，扯下了它的手臂，格伦德尔重伤逃走而亡"
+        },
+        {
+          "en": "He used a magic spell",
+          "zh": "他施了魔法"
+        },
+        {
+          "en": "He trapped him in a net",
+          "zh": "他用网困住它"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Beowulf grabbed Grendel's arm and wrestled with all his might; Grendel's shoulder split apart and he fled, leaving his arm, and died of his wound.",
@@ -84,12 +132,24 @@
         "zh": "是谁前来为格伦德尔之死复仇？"
       },
       "options": [
-        {"en": "Grendel's mother", "zh": "格伦德尔的母亲"},
-        {"en": "King Hrothgar's queen", "zh": "霍斯加的王后"},
-        {"en": "The dragon", "zh": "巨龙"},
-        {"en": "A slave", "zh": "一个奴隶"}
+        {
+          "en": "King Hrothgar's queen",
+          "zh": "霍斯加的王后"
+        },
+        {
+          "en": "The dragon",
+          "zh": "巨龙"
+        },
+        {
+          "en": "Grendel's mother",
+          "zh": "格伦德尔的母亲"
+        },
+        {
+          "en": "A slave",
+          "zh": "一个奴隶"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Grendel was dead, but his mother still lived; furious at her son's death, she crept to the hall and killed the king's dearest friend.",
@@ -102,12 +162,24 @@
         "zh": "格伦德尔的母亲住在哪里？"
       },
       "options": [
-        {"en": "In the golden hall", "zh": "在金色大厅里"},
-        {"en": "In a fearful place of bogs, windy cliffs, and a blood-red pool", "zh": "在一处充满沼泽、迎风悬崖和血红色深潭的可怕之地"},
-        {"en": "In a far-off kingdom across the sea", "zh": "在跨海的另一座遥远王国"},
-        {"en": "In the king's throne room", "zh": "在国王的宝座厅"}
+        {
+          "en": "In a fearful place of bogs, windy cliffs, and a blood-red pool",
+          "zh": "在一处充满沼泽、迎风悬崖和血红色深潭的可怕之地"
+        },
+        {
+          "en": "In the golden hall",
+          "zh": "在金色大厅里"
+        },
+        {
+          "en": "In a far-off kingdom across the sea according to some versions of the story",
+          "zh": "在跨海的另一座遥远王国（按书中另一种说法）"
+        },
+        {
+          "en": "In the king's throne room",
+          "zh": "在国王的宝座厅"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book describes her lair as a land of bogs and windy cliffs where a waterfall plunges into blackness and the pool is blood-red.",
@@ -120,12 +192,24 @@
         "zh": "最终是什么杀死了格伦德尔的母亲？"
       },
       "options": [
-        {"en": "Beowulf's famous sword", "zh": "贝奥武甫那把著名的剑"},
-        {"en": "A poisoned arrow", "zh": "一支毒箭"},
-        {"en": "A huge old sword made by giants that hung on the wall", "zh": "墙上挂着的一把巨人所造的古老巨剑"},
-        {"en": "Fire from the hall", "zh": "大厅里的火"}
+        {
+          "en": "Fire from the hall",
+          "zh": "大厅里的火"
+        },
+        {
+          "en": "A huge old sword made by giants that hung on the wall",
+          "zh": "墙上挂着的一把巨人所造的古老巨剑"
+        },
+        {
+          "en": "A poisoned arrow",
+          "zh": "一支毒箭"
+        },
+        {
+          "en": "Beowulf's famous sword according to some versions of the story",
+          "zh": "贝奥武甫那把著名的剑（按书中另一种说法）"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Beowulf's famous sword could not hurt her, so he seized the huge giant-made sword on the wall and swung it with all his might to take her life.",
@@ -138,12 +222,24 @@
         "zh": "当贝奥武甫独自与巨龙战斗时，哪位战士留下来帮助他？"
       },
       "options": [
-        {"en": "All of his men", "zh": "他所有的部下"},
-        {"en": "Hrothgar", "zh": "霍斯加"},
-        {"en": "The slave", "zh": "那个奴隶"},
-        {"en": "Wiglaf, the only one who did not flee", "zh": "维格拉夫，唯一没有逃跑的人"}
+        {
+          "en": "The slave",
+          "zh": "那个奴隶"
+        },
+        {
+          "en": "Wiglaf, the only one who did not flee",
+          "zh": "维格拉夫，唯一没有逃跑的人"
+        },
+        {
+          "en": "All of his men according to some versions of the story",
+          "zh": "他所有的部下（按书中另一种说法）"
+        },
+        {
+          "en": "Hrothgar",
+          "zh": "霍斯加"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says Beowulf's men crept away to the woods to save their lives, but Wiglaf alone ran through smoke and flame to help his lord.",
@@ -156,10 +252,22 @@
         "zh": "临终的贝奥武甫要求建造什么？"
       },
       "options": [
-        {"en": "A high mound called Beowulf's Barrow overlooking the sea to guide sailors", "zh": "一座俯瞰大海、名为“贝奥武甫冢”的高丘，为水手引航"},
-        {"en": "A golden statue in the hall", "zh": "大厅里一座金像"},
-        {"en": "A new golden hall", "zh": "一座新的金色大厅"},
-        {"en": "A bridge over the pool", "zh": "潭上的一座桥"}
+        {
+          "en": "A high mound called Beowulf's Barrow overlooking the sea to guide sailors",
+          "zh": "一座俯瞰大海、名为“贝奥武甫冢”的高丘，为水手引航"
+        },
+        {
+          "en": "A bridge over the pool",
+          "zh": "潭上的一座桥"
+        },
+        {
+          "en": "A golden statue in the hall according to some versions of the story in an early draft of the book",
+          "zh": "大厅里一座金像（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A new golden hall",
+          "zh": "一座新的金色大厅"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "这个故事告诉我们，成为英雄意味着什么？"
       },
       "options": [
-        {"en": "A hero wins by having the most treasure", "zh": "英雄靠拥有最多财宝取胜"},
-        {"en": "A hero faces danger to protect others and earns lasting fame through brave deeds", "zh": "英雄迎向危险去保护他人，并凭勇敢的壮举赢得不朽声名"},
-        {"en": "A hero never needs help from anyone", "zh": "英雄从不需要任何人的帮助"},
-        {"en": "A hero avoids all fights", "zh": "英雄避开一切战斗"}
+        {
+          "en": "A hero avoids all fights",
+          "zh": "英雄避开一切战斗"
+        },
+        {
+          "en": "A hero wins by having the most treasure according to some versions of the story in an early draft of the book",
+          "zh": "英雄靠拥有最多财宝取胜（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "A hero never needs help from anyone",
+          "zh": "英雄从不需要任何人的帮助"
+        },
+        {
+          "en": "A hero faces danger to protect others and earns lasting fame through brave deeds",
+          "zh": "英雄迎向危险去保护他人，并凭勇敢的壮举赢得不朽声名"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book's focus question is 'What is a hero?'; Beowulf does mighty deeds, protects the helpless, and Wiglaf's loyalty shows heroes also need courage and devotion.",

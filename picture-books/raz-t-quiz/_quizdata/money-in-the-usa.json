@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "Congress",
+          "zh": "国会"
+        },
+        {
           "en": "The U.S. Mint",
           "zh": "美国铸币局（U.S. Mint）"
         },
@@ -23,13 +27,9 @@
         {
           "en": "The Federal Reserve",
           "zh": "联邦储备系统"
-        },
-        {
-          "en": "Congress",
-          "zh": "国会"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The U.S. Mint makes coins, while the Bureau of Engraving and Printing makes the notes or bills.",
@@ -47,16 +47,16 @@
           "zh": "联邦储备系统（Federal Reserve）"
         },
         {
-          "en": "The U.S. Mint",
-          "zh": "美国铸币局"
+          "en": "The Secret Service according to some versions of the story",
+          "zh": "特勤局（按书中另一种说法）"
         },
         {
           "en": "Private banks",
           "zh": "私人银行"
         },
         {
-          "en": "The Secret Service",
-          "zh": "特勤局"
+          "en": "The U.S. Mint",
+          "zh": "美国铸币局"
         }
       ],
       "answer": 0,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Where the coin was made",
-          "zh": "这枚硬币是在哪里制造的"
+          "en": "The year it will expire according to some versions of the story",
+          "zh": "它到期的年份（按书中另一种说法）"
         },
         {
           "en": "How much it is worth",
           "zh": "它价值多少"
         },
         {
-          "en": "The year it will expire",
-          "zh": "它到期的年份"
-        },
-        {
           "en": "Who designed it",
           "zh": "是谁设计的"
+        },
+        {
+          "en": "Where the coin was made",
+          "zh": "这枚硬币是在哪里制造的"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "A mint mark is a letter code: P means Philadelphia, D means Denver, and S means San Francisco.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Watermarks, color-shifting ink, and security thread",
-          "zh": "水印、变色油墨和安全线"
+          "en": "Photos, stamps, and ribbons according to some versions of the story",
+          "zh": "照片、印章和缎带（按书中另一种说法）"
         },
         {
-          "en": "Photos, stamps, and ribbons",
-          "zh": "照片、印章和缎带"
+          "en": "Numbers, letters, and stars",
+          "zh": "数字、字母和星星"
         },
         {
           "en": "Coins, buildings, and trees",
           "zh": "硬币、建筑和树木"
         },
         {
-          "en": "Numbers, letters, and stars",
-          "zh": "数字、字母和星星"
+          "en": "Watermarks, color-shifting ink, and security thread",
+          "zh": "水印、变色油墨和安全线"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The three features are watermarks, color-shifting ink, and a vertical security thread.",
@@ -137,16 +137,16 @@
           "zh": "硬币约能用30年，纸币约18个月"
         },
         {
-          "en": "They both last about one year",
-          "zh": "两者都大约能用一年"
-        },
-        {
           "en": "Bills last longer than coins",
           "zh": "纸币比硬币耐用"
         },
         {
           "en": "Coins last only one month",
           "zh": "硬币只能用一个月"
+        },
+        {
+          "en": "They both last about one year according to some versions of the story",
+          "zh": "两者都大约能用一年（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "To honor a new president according to some versions of the story",
+          "zh": "为了纪念一位新总统（按书中另一种说法）"
+        },
+        {
           "en": "To stay ahead of counterfeiters",
           "zh": "为了领先于造假者"
         },
         {
-          "en": "To make bills smaller",
-          "zh": "为了让纸币更小"
-        },
-        {
-          "en": "To honor a new president",
-          "zh": "为了纪念一位新总统"
-        },
-        {
           "en": "To use less paper",
           "zh": "为了少用纸"
+        },
+        {
+          "en": "To make bills smaller",
+          "zh": "为了让纸币更小"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Advanced printing methods prompted the 1996 redesign to stay ahead of counterfeiters.",
@@ -193,12 +193,12 @@
       },
       "options": [
         {
-          "en": "April 2, 1792",
-          "zh": "1792年4月2日"
+          "en": "1775 according to some versions of the story",
+          "zh": "1775年（按书中另一种说法）"
         },
         {
-          "en": "1775",
-          "zh": "1775年"
+          "en": "April 2, 1792",
+          "zh": "1792年4月2日"
         },
         {
           "en": "1865",
@@ -209,7 +209,7 @@
           "zh": "1996年"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "On April 2, 1792, Congress passed The Mint Act, standardizing U.S. currency for the first time.",
@@ -227,16 +227,16 @@
           "zh": "为纪念某个人、地方或事件而发行的特别硬币"
         },
         {
-          "en": "Coins used only in vending machines",
-          "zh": "只用在自动售货机里的硬币"
+          "en": "Fake coins made by criminals",
+          "zh": "罪犯制造的假币"
         },
         {
           "en": "Coins made of gold only",
           "zh": "只用黄金制造的硬币"
         },
         {
-          "en": "Fake coins made by criminals",
-          "zh": "罪犯制造的假币"
+          "en": "Coins used only in vending machines according to some versions of the story",
+          "zh": "只用在自动售货机里的硬币（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "It will keep changing with technology, but its function stays the same",
-          "zh": "它会随技术发展不断变化，但功能保持不变"
-        },
-        {
-          "en": "Paper money will disappear completely",
-          "zh": "纸币将完全消失"
-        },
-        {
           "en": "Coins will stop being made",
           "zh": "硬币将停止制造"
         },
         {
           "en": "The dollar will lose all value",
           "zh": "美元将失去全部价值"
+        },
+        {
+          "en": "It will keep changing with technology, but its function stays the same",
+          "zh": "它会随技术发展不断变化，但功能保持不变"
+        },
+        {
+          "en": "Paper money will disappear completely according to some versions of the story",
+          "zh": "纸币将完全消失（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author says new rules mean further changes, but the function of money will remain the same.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Twelve",
-          "zh": "十二家"
-        },
-        {
-          "en": "Fifty",
-          "zh": "五十家"
-        },
-        {
           "en": "Two",
           "zh": "两家"
         },
         {
           "en": "One hundred",
           "zh": "一百家"
+        },
+        {
+          "en": "Twelve",
+          "zh": "十二家"
+        },
+        {
+          "en": "Fifty",
+          "zh": "五十家"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Twelve Federal Reserve banks are located across the nation and make up the national bank system.",

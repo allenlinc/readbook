@@ -12,10 +12,22 @@
         "zh": "在这本书里，SPRAK 代表什么？"
       },
       "options": [
-        {"en": "Spread Random Acts of Kindness", "zh": "传递随机善举（Spread Random Acts of Kindness）"},
-        {"en": "Save Rare Animals in Kentucky", "zh": "在肯塔基拯救稀有动物"},
-        {"en": "Speak Remotely About Knowledge", "zh": "远程讲授知识"},
-        {"en": "Send Really Awesome Kittens", "zh": "送出生动的猫咪"}
+        {
+          "en": "Spread Random Acts of Kindness",
+          "zh": "传递随机善举（Spread Random Acts of Kindness）"
+        },
+        {
+          "en": "Speak Remotely About Knowledge",
+          "zh": "远程讲授知识"
+        },
+        {
+          "en": "Send Really Awesome Kittens",
+          "zh": "送出生动的猫咪"
+        },
+        {
+          "en": "Save Rare Animals in Kentucky according to some versions of the story",
+          "zh": "在肯塔基拯救稀有动物（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "skill": "Key Ideas and Details",
@@ -30,12 +42,24 @@
         "zh": "马克其实不太喜欢热苹果酒，为什么还是买了一杯？"
       },
       "options": [
-        {"en": "To help his neighbor Mia, who had no customers at her cider stand", "zh": "为了帮助邻居米娅，她的热苹果酒摊位一个顾客都没有"},
-        {"en": "Because he was starving and wanted a snack", "zh": "因为他饿坏了想吃零食"},
-        {"en": "Because his mother made him buy it", "zh": "因为妈妈逼他买的"},
-        {"en": "Because it was a holiday weekend special", "zh": "因为那是假日周末特价"}
+        {
+          "en": "Because it was a holiday weekend special",
+          "zh": "因为那是假日周末特价"
+        },
+        {
+          "en": "To help his neighbor Mia, who had no customers at her cider stand",
+          "zh": "为了帮助邻居米娅，她的热苹果酒摊位一个顾客都没有"
+        },
+        {
+          "en": "Because he was starving and wanted a snack according to some versions of the story",
+          "zh": "因为他饿坏了想吃零食（按书中另一种说法）"
+        },
+        {
+          "en": "Because his mother made him buy it",
+          "zh": "因为妈妈逼他买的"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mark noticed Mia wasn't getting much business, went inside for fifty cents from his mom, and bought a cup to support her.",
@@ -48,12 +72,24 @@
         "zh": "在足球比赛现场，教练杰克为马克的奶奶做了什么善事？"
       },
       "options": [
-        {"en": "He dashes to his car and puts a plaid wool blanket on her lap because she is shivering", "zh": "他跑向车里，拿一条格子羊毛毯盖在奶奶腿上，因为她一直在发抖"},
-        {"en": "He buys her a cup of warm cider", "zh": "他给她买了一杯热苹果酒"},
-        {"en": "He gives her his soccer ball", "zh": "他把足球送给她"},
-        {"en": "He walks her home", "zh": "他送她回家"}
+        {
+          "en": "He buys her a cup of warm cider according to some versions of the story in an early draft of the book",
+          "zh": "他给她买了一杯热苹果酒（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He dashes to his car and puts a plaid wool blanket on her lap because she is shivering",
+          "zh": "他跑向车里，拿一条格子羊毛毯盖在奶奶腿上，因为她一直在发抖"
+        },
+        {
+          "en": "He gives her his soccer ball",
+          "zh": "他把足球送给她"
+        },
+        {
+          "en": "He walks her home",
+          "zh": "他送她回家"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Grandma is shivering, so Coach Jake runs to his car and returns with a plaid wool blanket for her lap.",
@@ -66,12 +102,24 @@
         "zh": "SPRAK！这本书是用什么视角（人称）叙述的？"
       },
       "options": [
-        {"en": "Third-person — a narrator describes what the characters think and do", "zh": "第三人称——由叙述者描述人物的想法和行为"},
-        {"en": "First-person — Mark tells it as 'I'", "zh": "第一人称——由马克以「我」讲述"},
-        {"en": "Second-person — the reader is addressed as 'you'", "zh": "第二人称——以「你」称呼读者"},
-        {"en": "It is written as a play script", "zh": "它是剧本形式"}
+        {
+          "en": "It is written as a play script",
+          "zh": "它是剧本形式"
+        },
+        {
+          "en": "First-person — Mark tells it as 'I'",
+          "zh": "第一人称——由马克以「我」讲述"
+        },
+        {
+          "en": "Third-person — a narrator describes what the characters think and do",
+          "zh": "第三人称——由叙述者描述人物的想法和行为"
+        },
+        {
+          "en": "Second-person — the reader is addressed as 'you' according to some versions of the story",
+          "zh": "第二人称——以「你」称呼读者（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The stories use a narrator who describes characters from outside (e.g., 'Mia, still beaming, thought for a moment'), which is third-person.",
@@ -84,12 +132,24 @@
         "zh": "在词汇表里，「furtively」是什么意思？在故事里是如何体现的？"
       },
       "options": [
-        {"en": "Slyly or sneakily — Duane slips a couple dollars into Rosaria's hand so others won't notice", "zh": "偷偷地、鬼鬼祟祟地——杜安悄悄把几美元塞进罗莎莉亚手里，不让别人看见"},
-        {"en": "Loudly and proudly", "zh": "大声而骄傲地"},
-        {"en": "Slowly and carefully", "zh": "缓慢而小心地"},
-        {"en": "Happily and openly", "zh": "开心而公开地"}
+        {
+          "en": "Happily and openly",
+          "zh": "开心而公开地"
+        },
+        {
+          "en": "Slowly and carefully according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "缓慢而小心地（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Slyly or sneakily — Duane slips a couple dollars into Rosaria's hand so others won't notice",
+          "zh": "偷偷地、鬼鬼祟祟地——杜安悄悄把几美元塞进罗莎莉亚手里，不让别人看见"
+        },
+        {
+          "en": "Loudly and proudly",
+          "zh": "大声而骄傲地"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines furtively as 'slyly or sneakily,' and Duane 'furtively slipped a couple dollars into Rosaria's hand' to help her buy a snack.",
@@ -102,10 +162,22 @@
         "zh": "词汇表里的西班牙语词「chiquitas」向读者透露了罗莎莉亚一家什么信息？"
       },
       "options": [
-        {"en": "It means 'little girls,' showing the family speaks Spanish at home", "zh": "意思是「小女孩」，说明这家人家里说西班牙语"},
-        {"en": "It means 'big boys'", "zh": "意思是「大男孩」"},
-        {"en": "It is the name of their cat", "zh": "那是他们猫的名字"},
-        {"en": "It means 'pancakes'", "zh": "意思是「煎饼」"}
+        {
+          "en": "It means 'little girls,' showing the family speaks Spanish at home",
+          "zh": "意思是「小女孩」，说明这家人家里说西班牙语"
+        },
+        {
+          "en": "It means 'pancakes'",
+          "zh": "意思是「煎饼」"
+        },
+        {
+          "en": "It is the name of their cat according to some versions of the story in an early draft of the book",
+          "zh": "那是他们猫的名字（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "It means 'big boys'",
+          "zh": "意思是「大男孩」"
+        }
       ],
       "answer": 0,
       "skill": "Craft and Structure",
@@ -120,12 +192,24 @@
         "zh": "书中一个善举是如何促成另一个善举的？"
       },
       "options": [
-        {"en": "The woman's tip to volunteer Duane lets him later slip money to his friend Rosaria for a snack", "zh": "那位女士给志愿者杜安的小费，让杜安后来能把钱悄悄塞给朋友罗莎莉亚买零食"},
-        {"en": "Mark's soccer practice leads Mia to sell more cider", "zh": "马克练球让米娅卖出更多苹果酒"},
-        {"en": "The lost kitten teaches Anna to play guitar", "zh": "走失的小猫教会了安娜弹吉他"},
-        {"en": "The blanket helps Coach Jake win the game", "zh": "毯子帮教练杰克赢了比赛"}
+        {
+          "en": "The blanket helps Coach Jake win the game",
+          "zh": "毯子帮教练杰克赢了比赛"
+        },
+        {
+          "en": "Mark's soccer practice leads Mia to sell more cider according to some versions of the story in an early draft of the book",
+          "zh": "马克练球让米娅卖出更多苹果酒（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The lost kitten teaches Anna to play guitar",
+          "zh": "走失的小猫教会了安娜弹吉他"
+        },
+        {
+          "en": "The woman's tip to volunteer Duane lets him later slip money to his friend Rosaria for a snack",
+          "zh": "那位女士给志愿者杜安的小费，让杜安后来能把钱悄悄塞给朋友罗莎莉亚买零食"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Duane receives a tip at the animal rescue center, then uses that money to secretly help his friend Rosaria buy popcorn and cocoa — one kind act enabling the next.",
@@ -138,12 +222,24 @@
         "zh": "教练杰克自己的行为与书名 SPRAK 有什么联系？"
       },
       "options": [
-        {"en": "He regularly SPRAKs (helped a crying kid with a pretzel, gave a dog water), then explains the idea to Mark", "zh": "他经常做随机善举（逗哭着的小男孩、给狗水喝），随后向马克解释了这一理念"},
-        {"en": "He coaches the team to always win", "zh": "他执教球队只为常胜"},
-        {"en": "He sells cider on weekends", "zh": "他周末卖苹果酒"},
-        {"en": "He writes the book's glossary", "zh": "他写了书的词汇表"}
+        {
+          "en": "He writes the book's glossary",
+          "zh": "他写了书的词汇表"
+        },
+        {
+          "en": "He regularly SPRAKs (helped a crying kid with a pretzel, gave a dog water), then explains the idea to Mark",
+          "zh": "他经常做随机善举（逗哭着的小男孩、给狗水喝），随后向马克解释了这一理念"
+        },
+        {
+          "en": "He coaches the team to always win according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "他执教球队只为常胜（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "He sells cider on weekends",
+          "zh": "他周末卖苹果酒"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Coach Jake reminds Mark that he already SPRAKs often (made a kid laugh over a dropped pretzel, gave a thirsty dog water), showing the title in action.",
@@ -156,10 +252,22 @@
         "zh": "SPRAK！这本书的作者想传达的主要信息是什么？"
       },
       "options": [
-        {"en": "That small, random acts of kindness make the world better and feel good to do", "zh": "小小的随机善举能让世界更美好，而且做起来让人感觉很好"},
-        {"en": "That you must be famous to help others", "zh": "必须成名才能帮助别人"},
-        {"en": "That winning soccer games is the most important thing", "zh": "赢足球比赛是最重要的事"},
-        {"en": "That money is the only way to be kind", "zh": "钱是表达善意唯一的方式"}
+        {
+          "en": "That small, random acts of kindness make the world better and feel good to do",
+          "zh": "小小的随机善举能让世界更美好，而且做起来让人感觉很好"
+        },
+        {
+          "en": "That winning soccer games is the most important thing according to some versions of the story",
+          "zh": "赢足球比赛是最重要的事（按书中另一种说法）"
+        },
+        {
+          "en": "That money is the only way to be kind",
+          "zh": "钱是表达善意唯一的方式"
+        },
+        {
+          "en": "That you must be famous to help others",
+          "zh": "必须成名才能帮助别人"
+        }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
@@ -174,12 +282,24 @@
         "zh": "作者为什么用几个独立的小善举场景来讲述，而不是一条长篇情节？"
       },
       "options": [
-        {"en": "To show that random acts of kindness can happen anywhere, to anyone, in everyday life", "zh": "为了说明随机善举可以在日常生活的任何地方、对任何人发生"},
-        {"en": "To make the book as long as possible", "zh": "为了把书凑得越长越好"},
-        {"en": "To focus only on soccer players", "zh": "为了只写足球运动员"},
-        {"en": "To teach how to run a business", "zh": "为了教人如何做生意"}
+        {
+          "en": "To focus only on soccer players",
+          "zh": "为了只写足球运动员"
+        },
+        {
+          "en": "To teach how to run a business",
+          "zh": "为了教人如何做生意"
+        },
+        {
+          "en": "To make the book as long as possible according to some versions of the story in an early draft of the book",
+          "zh": "为了把书凑得越长越好（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "To show that random acts of kindness can happen anywhere, to anyone, in everyday life",
+          "zh": "为了说明随机善举可以在日常生活的任何地方、对任何人发生"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "By linking short scenes — a cider stand, a sweater donation, a lost kitten, a tip, a snack, a song, a letter, a blanket — the author shows many everyday ways to be kind.",

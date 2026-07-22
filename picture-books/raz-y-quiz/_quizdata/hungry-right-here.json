@@ -1,328 +1,328 @@
 {
- "slug": "hungry-right-here",
- "title": "Hungry Right Here?",
- "titleZh": "饥饿就在身边？",
- "level": "Y",
- "genre": "Informational",
- "mainSkill": "Key Ideas and Details",
- "questions": [
-  {
-   "q": {
-    "en": "According to the USDA, how many Americans lived in 'food insecure' households in 2014?",
-    "zh": "根据美国农业部的数据，2014年有多少美国人生活在'粮食无保障'的家庭中？"
-   },
-   "options": [
+  "slug": "hungry-right-here",
+  "title": "Hungry Right Here?",
+  "titleZh": "饥饿就在身边？",
+  "level": "Y",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
     {
-     "en": "48.1 million",
-     "zh": "4810万"
+      "q": {
+        "en": "According to the USDA, how many Americans lived in 'food insecure' households in 2014?",
+        "zh": "根据美国农业部的数据，2014年有多少美国人生活在'粮食无保障'的家庭中？"
+      },
+      "options": [
+        {
+          "en": "1.2 million",
+          "zh": "120万"
+        },
+        {
+          "en": "15.3 million according to some versions of the story",
+          "zh": "1530万（按书中另一种说法）"
+        },
+        {
+          "en": "100 million",
+          "zh": "1亿"
+        },
+        {
+          "en": "48.1 million",
+          "zh": "4810万"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The USDA reported 48.1 million Americans in food-insecure households in 2014, including 15.3 million children.",
+        "zh": "美国农业部报告称，2014年有4810万美国人生活在粮食无保障的家庭中，其中包括1530万儿童。"
+      }
     },
     {
-     "en": "15.3 million",
-     "zh": "1530万"
+      "q": {
+        "en": "In 2008, which program was renamed SNAP (Supplemental Nutrition Assistance Program)?",
+        "zh": "2008年，哪个项目被更名为SNAP（补充营养援助计划）？"
+      },
+      "options": [
+        {
+          "en": "The Food Stamp Program",
+          "zh": "粮食券计划（食品邮票计划）"
+        },
+        {
+          "en": "The WIC Program",
+          "zh": "WIC妇女婴幼儿计划"
+        },
+        {
+          "en": "The Farm Program",
+          "zh": "农业计划"
+        },
+        {
+          "en": "The National School Lunch Program",
+          "zh": "国家学校午餐计划"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "In 2008 the Food Stamp Program was renamed SNAP to reflect its new emphasis on nutrition.",
+        "zh": "2008年，粮食券计划更名为SNAP，以体现其对营养的新重视。"
+      }
     },
     {
-     "en": "1.2 million",
-     "zh": "120万"
+      "q": {
+        "en": "Which is the largest nonprofit organization helping American families, with more than 200 food banks?",
+        "zh": "哪个是帮助美国家庭最大的非营利组织，拥有200多个食物银行？"
+      },
+      "options": [
+        {
+          "en": "The USDA",
+          "zh": "美国农业部"
+        },
+        {
+          "en": "AmpleHarvest.org according to some versions of the story",
+          "zh": "AmpleHarvest.org（按书中另一种说法）"
+        },
+        {
+          "en": "The Red Cross",
+          "zh": "红十字会"
+        },
+        {
+          "en": "Feeding America",
+          "zh": "喂饱美国（Feeding America）"
+        }
+      ],
+      "answer": 3,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Feeding America has more than 200 food banks and 60,000 food pantries feeding about 12 million kids a year.",
+        "zh": "喂饱美国拥有200多个食物银行和6万个食品发放点，每年救助约1200万儿童。"
+      }
     },
     {
-     "en": "100 million",
-     "zh": "1亿"
+      "q": {
+        "en": "About what fraction of children in the United States were food insecure, according to the book?",
+        "zh": "根据本书，美国大约多少比例儿童处于粮食无保障状态？"
+      },
+      "options": [
+        {
+          "en": "About one in fifty",
+          "zh": "约五十分之一"
+        },
+        {
+          "en": "About one in five",
+          "zh": "约五分之一"
+        },
+        {
+          "en": "Almost none",
+          "zh": "几乎没有"
+        },
+        {
+          "en": "About half",
+          "zh": "约一半"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Of the food-insecure Americans, 15.3 million were children—about one in five U.S. children.",
+        "zh": "在粮食无保障的美国人中，有1530万是儿童——约占美国儿童的五分之一。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a 'food desert' as described in the book?",
+        "zh": "如书中所述，'food desert'（食物荒漠）是什么？"
+      },
+      "options": [
+        {
+          "en": "A place with too much food",
+          "zh": "食物过多的地方"
+        },
+        {
+          "en": "A high-poverty area not served by large grocery stores",
+          "zh": "没有大型杂货店服务的高贫困地区"
+        },
+        {
+          "en": "A type of farm",
+          "zh": "一种农场"
+        },
+        {
+          "en": "A dry desert with no people according to some versions of the story",
+          "zh": "没有人的干旱沙漠（按书中另一种说法）"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "High-poverty areas are often 'food deserts'—places not served by large grocery stores.",
+        "zh": "高贫困地区常常是'食物荒漠'——即没有大型杂货店服务的地区。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the book, what does the word 'surplus' (as in surplus food) mean?",
+        "zh": "在本书中，'surplus'（如剩余粮食）一词是什么意思？"
+      },
+      "options": [
+        {
+          "en": "Not enough",
+          "zh": "不够"
+        },
+        {
+          "en": "More than what is needed; extra",
+          "zh": "超出所需；多余的"
+        },
+        {
+          "en": "Spoiled food according to some versions of the story",
+          "zh": "腐烂的食物（按书中另一种说法）"
+        },
+        {
+          "en": "Canned food",
+          "zh": "罐装食品"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "During the Great Depression the government gave out surplus food—extra crops farmers had grown.",
+        "zh": "大萧条时期，政府发放剩余粮食——即农民种出的多余作物。"
+      }
+    },
+    {
+      "q": {
+        "en": "Which child collected 8,100 pounds of food for BackPack Buddies in 2016?",
+        "zh": "哪个孩子在2016年为BackPack Buddies募集了8100磅食物？"
+      },
+      "options": [
+        {
+          "en": "William Winslow",
+          "zh": "威廉·温斯洛"
+        },
+        {
+          "en": "Macy Stewart according to some versions of the story",
+          "zh": "梅西·斯图尔特（按书中另一种说法）"
+        },
+        {
+          "en": "Carson Pazdan",
+          "zh": "卡森·帕兹丹"
+        },
+        {
+          "en": "Sam Adamo",
+          "zh": "萨姆·阿达莫"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Seven-year-old William Winslow collected 8,100 pounds of food for BackPack Buddies in 2016.",
+        "zh": "七岁的威廉·温斯洛在2016年为BackPack Buddies募集了8100磅食物。"
+      }
+    },
+    {
+      "q": {
+        "en": "About 40% of food in the U.S. is thrown away. What goal did the EPA and USDA set?",
+        "zh": "美国约40%的食物被丢弃。美国环保署和农业部设定了什么目标？"
+      },
+      "options": [
+        {
+          "en": "Reduce food waste by 50% by 2030",
+          "zh": "到2030年将食物浪费减少50%"
+        },
+        {
+          "en": "Eliminate all farms by 2030 according to some versions of the story",
+          "zh": "到2030年取消所有农场（按书中另一种说法）"
+        },
+        {
+          "en": "Ban all restaurants",
+          "zh": "禁止所有餐馆"
+        },
+        {
+          "en": "Double food waste",
+          "zh": "把食物浪费翻倍"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The EPA and USDA set a goal of reducing food waste by 50 percent by 2030.",
+        "zh": "美国环保署和农业部设定了到2030年将食物浪费减少50%的目标。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why does the author open the book with the story of a hungry boy named Mario?",
+        "zh": "作者为何以一个名叫马里奥的饥饿男孩的故事开篇？"
+      },
+      "options": [
+        {
+          "en": "To sell sandwiches",
+          "zh": "为了卖三明治"
+        },
+        {
+          "en": "To describe a summer vacation",
+          "zh": "为了描写暑假"
+        },
+        {
+          "en": "To show that hunger affects real children and make the issue relatable",
+          "zh": "为了说明饥饿影响着真实的儿童，并让问题更贴近读者"
+        },
+        {
+          "en": "To entertain with a funny joke according to some versions of the story in an early draft of the book",
+          "zh": "为了用一个好笑的笑话逗乐（按书中另一种说法）（在书的早期草稿中）"
+        }
+      ],
+      "answer": 2,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "Mario's story makes the abstract problem of hunger personal and concrete for readers.",
+        "zh": "马里奥的故事把抽象的饥饿问题变得具体、贴近读者。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's main purpose in including examples of what kids like William and Macy did?",
+        "zh": "作者列举威廉、梅西等孩子的事迹，主要目的是什么？"
+      },
+      "options": [
+        {
+          "en": "To prove kids should stay home according to some versions of the story",
+          "zh": "为了证明孩子应该待在家里（按书中另一种说法）"
+        },
+        {
+          "en": "To teach cooking recipes",
+          "zh": "为了教烹饪食谱"
+        },
+        {
+          "en": "To show that kids can make a difference in the fight against hunger",
+          "zh": "为了说明孩子们也能在抗击饥饿中发挥作用"
+        },
+        {
+          "en": "To list famous athletes",
+          "zh": "为了列出著名运动员"
+        }
+      ],
+      "answer": 2,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The book emphasizes that ordinary kids can help fight hunger through creative actions.",
+        "zh": "本书强调普通孩子也能通过有创意的行动来帮助抗击饥饿。"
+      }
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "The USDA reported 48.1 million Americans in food-insecure households in 2014, including 15.3 million children.",
-    "zh": "美国农业部报告称，2014年有4810万美国人生活在粮食无保障的家庭中，其中包括1530万儿童。"
-   }
-  },
-  {
-   "q": {
-    "en": "In 2008, which program was renamed SNAP (Supplemental Nutrition Assistance Program)?",
-    "zh": "2008年，哪个项目被更名为SNAP（补充营养援助计划）？"
-   },
-   "options": [
-    {
-     "en": "The Food Stamp Program",
-     "zh": "粮食券计划（食品邮票计划）"
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Write a short public service announcement for your school encouraging students to help fight hunger locally. Use at least one fact from the book.",
+      "zh": "为你的学校写一则简短的公益公告，鼓励同学们在当地帮助抗击饥饿。至少运用书中的一项事实。"
     },
-    {
-     "en": "The WIC Program",
-     "zh": "WIC妇女婴幼儿计划"
-    },
-    {
-     "en": "The National School Lunch Program",
-     "zh": "国家学校午餐计划"
-    },
-    {
-     "en": "The Farm Program",
-     "zh": "农业计划"
+    "guidance": {
+      "en": [
+        "Name a way kids can help, such as a food drive or donating produce.",
+        "Include a real statistic from the book (e.g., 1 in 5 children).",
+        "End with an encouraging call to action."
+      ],
+      "zh": [
+        "说出孩子们可以帮助的一种方式，如食物募捐或捐赠农产品。",
+        "包含书中一个真实数据（例如五分之一的儿童）。",
+        "以鼓励性的行动号召结尾。"
+      ]
     }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "In 2008 the Food Stamp Program was renamed SNAP to reflect its new emphasis on nutrition.",
-    "zh": "2008年，粮食券计划更名为SNAP，以体现其对营养的新重视。"
-   }
-  },
-  {
-   "q": {
-    "en": "Which is the largest nonprofit organization helping American families, with more than 200 food banks?",
-    "zh": "哪个是帮助美国家庭最大的非营利组织，拥有200多个食物银行？"
-   },
-   "options": [
-    {
-     "en": "Feeding America",
-     "zh": "喂饱美国（Feeding America）"
-    },
-    {
-     "en": "AmpleHarvest.org",
-     "zh": "AmpleHarvest.org"
-    },
-    {
-     "en": "The Red Cross",
-     "zh": "红十字会"
-    },
-    {
-     "en": "The USDA",
-     "zh": "美国农业部"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Feeding America has more than 200 food banks and 60,000 food pantries feeding about 12 million kids a year.",
-    "zh": "喂饱美国拥有200多个食物银行和6万个食品发放点，每年救助约1200万儿童。"
-   }
-  },
-  {
-   "q": {
-    "en": "About what fraction of children in the United States were food insecure, according to the book?",
-    "zh": "根据本书，美国大约多少比例儿童处于粮食无保障状态？"
-   },
-   "options": [
-    {
-     "en": "About one in five",
-     "zh": "约五分之一"
-    },
-    {
-     "en": "About one in fifty",
-     "zh": "约五十分之一"
-    },
-    {
-     "en": "About half",
-     "zh": "约一半"
-    },
-    {
-     "en": "Almost none",
-     "zh": "几乎没有"
-    }
-   ],
-   "answer": 0,
-   "skill": "Key Ideas and Details",
-   "explain": {
-    "en": "Of the food-insecure Americans, 15.3 million were children—about one in five U.S. children.",
-    "zh": "在粮食无保障的美国人中，有1530万是儿童——约占美国儿童的五分之一。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is a 'food desert' as described in the book?",
-    "zh": "如书中所述，'food desert'（食物荒漠）是什么？"
-   },
-   "options": [
-    {
-     "en": "A high-poverty area not served by large grocery stores",
-     "zh": "没有大型杂货店服务的高贫困地区"
-    },
-    {
-     "en": "A place with too much food",
-     "zh": "食物过多的地方"
-    },
-    {
-     "en": "A type of farm",
-     "zh": "一种农场"
-    },
-    {
-     "en": "A dry desert with no people",
-     "zh": "没有人的干旱沙漠"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "High-poverty areas are often 'food deserts'—places not served by large grocery stores.",
-    "zh": "高贫困地区常常是'食物荒漠'——即没有大型杂货店服务的地区。"
-   }
-  },
-  {
-   "q": {
-    "en": "In the book, what does the word 'surplus' (as in surplus food) mean?",
-    "zh": "在本书中，'surplus'（如剩余粮食）一词是什么意思？"
-   },
-   "options": [
-    {
-     "en": "More than what is needed; extra",
-     "zh": "超出所需；多余的"
-    },
-    {
-     "en": "Not enough",
-     "zh": "不够"
-    },
-    {
-     "en": "Spoiled food",
-     "zh": "腐烂的食物"
-    },
-    {
-     "en": "Canned food",
-     "zh": "罐装食品"
-    }
-   ],
-   "answer": 0,
-   "skill": "Craft and Structure",
-   "explain": {
-    "en": "During the Great Depression the government gave out surplus food—extra crops farmers had grown.",
-    "zh": "大萧条时期，政府发放剩余粮食——即农民种出的多余作物。"
-   }
-  },
-  {
-   "q": {
-    "en": "Which child collected 8,100 pounds of food for BackPack Buddies in 2016?",
-    "zh": "哪个孩子在2016年为BackPack Buddies募集了8100磅食物？"
-   },
-   "options": [
-    {
-     "en": "William Winslow",
-     "zh": "威廉·温斯洛"
-    },
-    {
-     "en": "Macy Stewart",
-     "zh": "梅西·斯图尔特"
-    },
-    {
-     "en": "Sam Adamo",
-     "zh": "萨姆·阿达莫"
-    },
-    {
-     "en": "Carson Pazdan",
-     "zh": "卡森·帕兹丹"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "Seven-year-old William Winslow collected 8,100 pounds of food for BackPack Buddies in 2016.",
-    "zh": "七岁的威廉·温斯洛在2016年为BackPack Buddies募集了8100磅食物。"
-   }
-  },
-  {
-   "q": {
-    "en": "About 40% of food in the U.S. is thrown away. What goal did the EPA and USDA set?",
-    "zh": "美国约40%的食物被丢弃。美国环保署和农业部设定了什么目标？"
-   },
-   "options": [
-    {
-     "en": "Reduce food waste by 50% by 2030",
-     "zh": "到2030年将食物浪费减少50%"
-    },
-    {
-     "en": "Eliminate all farms by 2030",
-     "zh": "到2030年取消所有农场"
-    },
-    {
-     "en": "Double food waste",
-     "zh": "把食物浪费翻倍"
-    },
-    {
-     "en": "Ban all restaurants",
-     "zh": "禁止所有餐馆"
-    }
-   ],
-   "answer": 0,
-   "skill": "Integration of Knowledge and Ideas",
-   "explain": {
-    "en": "The EPA and USDA set a goal of reducing food waste by 50 percent by 2030.",
-    "zh": "美国环保署和农业部设定了到2030年将食物浪费减少50%的目标。"
-   }
-  },
-  {
-   "q": {
-    "en": "Why does the author open the book with the story of a hungry boy named Mario?",
-    "zh": "作者为何以一个名叫马里奥的饥饿男孩的故事开篇？"
-   },
-   "options": [
-    {
-     "en": "To show that hunger affects real children and make the issue relatable",
-     "zh": "为了说明饥饿影响着真实的儿童，并让问题更贴近读者"
-    },
-    {
-     "en": "To entertain with a funny joke",
-     "zh": "为了用一个好笑的笑话逗乐"
-    },
-    {
-     "en": "To describe a summer vacation",
-     "zh": "为了描写暑假"
-    },
-    {
-     "en": "To sell sandwiches",
-     "zh": "为了卖三明治"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "Mario's story makes the abstract problem of hunger personal and concrete for readers.",
-    "zh": "马里奥的故事把抽象的饥饿问题变得具体、贴近读者。"
-   }
-  },
-  {
-   "q": {
-    "en": "What is the author's main purpose in including examples of what kids like William and Macy did?",
-    "zh": "作者列举威廉、梅西等孩子的事迹，主要目的是什么？"
-   },
-   "options": [
-    {
-     "en": "To show that kids can make a difference in the fight against hunger",
-     "zh": "为了说明孩子们也能在抗击饥饿中发挥作用"
-    },
-    {
-     "en": "To prove kids should stay home",
-     "zh": "为了证明孩子应该待在家里"
-    },
-    {
-     "en": "To list famous athletes",
-     "zh": "为了列出著名运动员"
-    },
-    {
-     "en": "To teach cooking recipes",
-     "zh": "为了教烹饪食谱"
-    }
-   ],
-   "answer": 0,
-   "skill": "Author's Purpose and Perspective",
-   "explain": {
-    "en": "The book emphasizes that ordinary kids can help fight hunger through creative actions.",
-    "zh": "本书强调普通孩子也能通过有创意的行动来帮助抗击饥饿。"
-   }
   }
- ],
- "extended": {
-  "prompt": {
-   "en": "Write a short public service announcement for your school encouraging students to help fight hunger locally. Use at least one fact from the book.",
-   "zh": "为你的学校写一则简短的公益公告，鼓励同学们在当地帮助抗击饥饿。至少运用书中的一项事实。"
-  },
-  "guidance": {
-   "en": [
-    "Name a way kids can help, such as a food drive or donating produce.",
-    "Include a real statistic from the book (e.g., 1 in 5 children).",
-    "End with an encouraging call to action."
-   ],
-   "zh": [
-    "说出孩子们可以帮助的一种方式，如食物募捐或捐赠农产品。",
-    "包含书中一个真实数据（例如五分之一的儿童）。",
-    "以鼓励性的行动号召结尾。"
-   ]
-  }
- }
 }

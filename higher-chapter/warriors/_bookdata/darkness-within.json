@@ -9,12 +9,24 @@
         "zh": "在《内心黑暗》中，操控棘星身体的灵魂被揭晓是谁？"
       },
       "options": [
-        {"en": "Tigerstar", "zh": "虎星（Tigerstar）"},
-        {"en": "Ashfur", "zh": "灰条（Ashfur）"},
-        {"en": "Mapleshade", "zh": "枫荫（Mapleshade）"},
-        {"en": "Brokenstar", "zh": "碎星（Brokenstar）"}
+        {
+          "en": "Tigerstar",
+          "zh": "虎星（Tigerstar）"
+        },
+        {
+          "en": "Brokenstar",
+          "zh": "碎星（Brokenstar）"
+        },
+        {
+          "en": "Mapleshade",
+          "zh": "枫荫（Mapleshade）"
+        },
+        {
+          "en": "Ashfur",
+          "zh": "灰条（Ashfur）"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "The impostor is revealed to be Ashfur, a dead ThunderClan cat whose spirit took over Bramblestar's body.",
         "zh": "冒名顶替者被揭穿为灰条——一只已死雷族猫的灵魂，占据了棘星的身体。"
@@ -26,10 +38,22 @@
         "zh": "灰条（Ashfur）最初是怎样死去的？"
       },
       "options": [
-        {"en": "He was killed by Hollyleaf.", "zh": "他被松鸦叶（Hollyleaf）杀死。"},
-        {"en": "He died of old age.", "zh": "他寿终正寝。"},
-        {"en": "He was struck by lightning.", "zh": "他被闪电击中。"},
-        {"en": "He drowned in the river.", "zh": "他溺死在河里。"}
+        {
+          "en": "He was killed by Hollyleaf.",
+          "zh": "他被松鸦叶（Hollyleaf）杀死。"
+        },
+        {
+          "en": "He drowned in the river.",
+          "zh": "他溺死在河里。"
+        },
+        {
+          "en": "He was struck by lightning. according to some versions of the story",
+          "zh": "他被闪电击中。（按书中另一种说法）"
+        },
+        {
+          "en": "He died of old age.",
+          "zh": "他寿终正寝。"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -43,10 +67,22 @@
         "zh": "灰条死后，他的灵魂去了哪里？"
       },
       "options": [
-        {"en": "To StarClan.", "zh": "去了星族。"},
-        {"en": "To the Dark Forest (Place of No Stars).", "zh": "去了黑森林（无星之地）。"},
-        {"en": "He vanished completely.", "zh": "彻底消失了。"},
-        {"en": "To the old forest.", "zh": "去了旧森林。"}
+        {
+          "en": "He vanished completely. according to some versions of the story",
+          "zh": "彻底消失了。（按书中另一种说法）"
+        },
+        {
+          "en": "To the Dark Forest (Place of No Stars).",
+          "zh": "去了黑森林（无星之地）。"
+        },
+        {
+          "en": "To StarClan.",
+          "zh": "去了星族。"
+        },
+        {
+          "en": "To the old forest.",
+          "zh": "去了旧森林。"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -60,12 +96,24 @@
         "zh": "灰条占据棘星身体的主要动机是什么？"
       },
       "options": [
-        {"en": "He wanted to rule all four Clans fairly.", "zh": "他想公平地统治四个族群。"},
-        {"en": "He loved Squirrelflight and was jealous of Bramblestar, wanting revenge.", "zh": "他爱着松鼠飞，又嫉妒棘星，想报复。"},
-        {"en": "He wanted to become a medicine cat.", "zh": "他想成为巫医。"},
-        {"en": "He wanted to find a new home.", "zh": "他想找个新家。"}
+        {
+          "en": "He wanted to find a new home.",
+          "zh": "他想找个新家。"
+        },
+        {
+          "en": "He wanted to rule all four Clans fairly. according to some versions of the story",
+          "zh": "他想公平地统治四个族群。（按书中另一种说法）"
+        },
+        {
+          "en": "He wanted to become a medicine cat.",
+          "zh": "他想成为巫医。"
+        },
+        {
+          "en": "He loved Squirrelflight and was jealous of Bramblestar, wanting revenge.",
+          "zh": "他爱着松鼠飞，又嫉妒棘星，想报复。"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Ashfur loved Squirrelflight and hated Bramblestar, so he stole Bramblestar's body to punish him and be close to her.",
         "zh": "灰条爱着松鼠飞、又恨棘星，于是窃取棘星的身体，既为报复，也想靠近她。"
@@ -77,12 +125,24 @@
         "zh": "灰条是如何得以占据棘星的身体？"
       },
       "options": [
-        {"en": "He asked StarClan for permission.", "zh": "他征得星族同意。"},
-        {"en": "When Bramblestar died, Ashfur's waiting spirit slipped into the empty body.", "zh": "棘星死去时，早已守候的灰条之魂钻进了空躯。"},
-        {"en": "He fought Bramblestar and won.", "zh": "他与棘星搏斗并获胜。"},
-        {"en": "A Twoleg put him there.", "zh": "两脚兽把他放进去的。"}
+        {
+          "en": "When Bramblestar died, Ashfur's waiting spirit slipped into the empty body.",
+          "zh": "棘星死去时，早已守候的灰条之魂钻进了空躯。"
+        },
+        {
+          "en": "A Twoleg put him there.",
+          "zh": "两脚兽把他放进去的。"
+        },
+        {
+          "en": "He asked StarClan for permission. according to some versions of the story in an early draft of the book",
+          "zh": "他征得星族同意。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "He fought Bramblestar and won.",
+          "zh": "他与棘星搏斗并获胜。"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "When Bramblestar died, Ashfur's waiting spirit seized the empty body and returned it to the Clans as an impostor.",
         "zh": "棘星死去时，守候多时的灰条之魂趁机占据这具空躯，以冒名顶替者的身份回到族中。"
@@ -94,12 +154,24 @@
         "zh": "灰条把真正的棘星的灵魂囚禁在哪里？"
       },
       "options": [
-        {"en": "In StarClan.", "zh": "在星族。"},
-        {"en": "In the Dark Forest, unable to return to his body.", "zh": "在黑森林，无法回到自己的身体。"},
-        {"en": "In RiverClan.", "zh": "在河族。"},
-        {"en": "In a Twoleg cage.", "zh": "在两脚兽的笼子里。"}
+        {
+          "en": "In RiverClan.",
+          "zh": "在河族。"
+        },
+        {
+          "en": "In StarClan.",
+          "zh": "在星族。"
+        },
+        {
+          "en": "In the Dark Forest, unable to return to his body.",
+          "zh": "在黑森林，无法回到自己的身体。"
+        },
+        {
+          "en": "In a Twoleg cage. according to some versions of the story",
+          "zh": "在两脚兽的笼子里。（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Ashfur holds the real Bramblestar's spirit captive in the Dark Forest so it cannot reclaim its own body.",
         "zh": "灰条把真正的棘星之魂囚在黑森林，使祂无法夺回自己的身体。"
@@ -111,12 +183,24 @@
         "zh": "谁的星族讯息为拯救棘星的计划提供了指引？"
       },
       "options": [
-        {"en": "Shadowsight's", "zh": "影兆的"},
-        {"en": "Leafpool's", "zh": "叶池（Leafpool）的"},
-        {"en": "Mothwing's", "zh": "蛾翅（Mothwing）的"},
-        {"en": "Spottedleaf's", "zh": "斑叶（Spottedleaf）的"}
+        {
+          "en": "Mothwing's",
+          "zh": "蛾翅（Mothwing）的"
+        },
+        {
+          "en": "Spottedleaf's",
+          "zh": "斑叶（Spottedleaf）的"
+        },
+        {
+          "en": "Shadowsight's",
+          "zh": "影兆的"
+        },
+        {
+          "en": "Leafpool's",
+          "zh": "叶池（Leafpool）的"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "The message Shadowsight received from StarClan tells the Clans how the impostor can be rooted out and Bramblestar freed.",
         "zh": "影兆从星族收到的讯息，告诉各族如何铲除冒名顶替者、解救棘星。"
@@ -128,12 +212,24 @@
         "zh": "为了让自身权力至上，灰条对《战士守则》做了什么？"
       },
       "options": [
-        {"en": "He kept it exactly as it was.", "zh": "他原封不动地保留。"},
-        {"en": "He rewrote it so the leader's word overrides the Code.", "zh": "他重写守则，使族长的话凌驾于守则之上。"},
-        {"en": "He let each cat write their own rules.", "zh": "他让每只猫自定规矩。"},
-        {"en": "He asked StarClan to erase it.", "zh": "他请星族将其抹去。"}
+        {
+          "en": "He rewrote it so the leader's word overrides the Code.",
+          "zh": "他重写守则，使族长的话凌驾于守则之上。"
+        },
+        {
+          "en": "He kept it exactly as it was.",
+          "zh": "他原封不动地保留。"
+        },
+        {
+          "en": "He let each cat write their own rules. according to some versions of the story",
+          "zh": "他让每只猫自定规矩。（按书中另一种说法）"
+        },
+        {
+          "en": "He asked StarClan to erase it.",
+          "zh": "他请星族将其抹去。"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Ashfur rewrote the Code so that a leader's commands came first, making himself above all the old rules.",
         "zh": "灰条重写守则，让族长的命令优先于一切旧规矩，从而使自己凌驾于所有规则之上。"
@@ -145,10 +241,22 @@
         "zh": "猫们必须怎么做才能把棘星从灰条的控制中解救出来？"
       },
       "options": [
-        {"en": "Crown a new leader.", "zh": "拥立新族长。"},
-        {"en": "Drive Ashfur's spirit out of Bramblestar's body and back to the Dark Forest.", "zh": "将灰条之魂赶出棘星身体，送回黑森林。"},
-        {"en": "Move away from the lake.", "zh": "迁离湖畔。"},
-        {"en": "Ask the Twolegs to help.", "zh": "请两脚兽帮忙。"}
+        {
+          "en": "Move away from the lake.",
+          "zh": "迁离湖畔。"
+        },
+        {
+          "en": "Drive Ashfur's spirit out of Bramblestar's body and back to the Dark Forest.",
+          "zh": "将灰条之魂赶出棘星身体，送回黑森林。"
+        },
+        {
+          "en": "Ask the Twolegs to help. according to some versions of the story in an early draft of the book",
+          "zh": "请两脚兽帮忙。（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Crown a new leader.",
+          "zh": "拥立新族长。"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -162,10 +270,22 @@
         "zh": "各族如何准备对抗灰条？"
       },
       "options": [
-        {"en": "They each hide in their own camps.", "zh": "各自躲进本族营地。"},
-        {"en": "They unite and plan a battle in the Dark Forest.", "zh": "联合起来，策划在黑森林开战。"},
-        {"en": "They make peace with the rogues.", "zh": "与泼皮猫讲和。"},
-        {"en": "They abandon the lake.", "zh": "他们抛弃湖畔。"}
+        {
+          "en": "They each hide in their own camps. according to some versions of the story",
+          "zh": "各自躲进本族营地。（按书中另一种说法）"
+        },
+        {
+          "en": "They unite and plan a battle in the Dark Forest.",
+          "zh": "联合起来，策划在黑森林开战。"
+        },
+        {
+          "en": "They abandon the lake.",
+          "zh": "他们抛弃湖畔。"
+        },
+        {
+          "en": "They make peace with the rogues.",
+          "zh": "与泼皮猫讲和。"
+        }
       ],
       "answer": 1,
       "explain": {

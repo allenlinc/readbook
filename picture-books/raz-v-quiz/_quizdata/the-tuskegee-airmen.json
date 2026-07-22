@@ -17,16 +17,16 @@
           "zh": "为轰炸机护航，使其免遭敌机攻击"
         },
         {
-          "en": "To drop atomic bombs on Japan",
-          "zh": "向日本投下原子弹"
-        },
-        {
           "en": "To transport food to Europe",
           "zh": "向欧洲运送食物"
         },
         {
-          "en": "To train soldiers on the ground",
-          "zh": "在地面训练士兵"
+          "en": "To drop atomic bombs on Japan",
+          "zh": "向日本投下原子弹"
+        },
+        {
+          "en": "To train soldiers on the ground according to some versions of the story",
+          "zh": "在地面训练士兵（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -47,16 +47,16 @@
           "zh": "1941年"
         },
         {
+          "en": "1954 according to some versions of the story",
+          "zh": "1954年（按书中另一种说法）"
+        },
+        {
           "en": "1939",
           "zh": "1939年"
         },
         {
           "en": "1945",
           "zh": "1945年"
-        },
-        {
-          "en": "1954",
-          "zh": "1954年"
         }
       ],
       "answer": 0,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "To list all the airmen's names",
+          "zh": "为了列出所有飞行员的名字"
+        },
+        {
           "en": "To help readers see where the Tuskegee pilots flew their missions",
           "zh": "为了帮助读者了解塔斯基吉飞行员的作战地点"
         },
         {
-          "en": "To show the size of the United States",
-          "zh": "为了展示美国的版图大小"
-        },
-        {
-          "en": "To list all the airmen's names",
-          "zh": "为了列出所有飞行员的名字"
+          "en": "To show the size of the United States according to some versions of the story",
+          "zh": "为了展示美国的版图大小（按书中另一种说法）"
         },
         {
           "en": "To explain how planes are built",
           "zh": "为了解释飞机是如何制造的"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The map shows the airbase in Italy and the countries the pilots protected, giving context for their missions.",
@@ -107,12 +107,12 @@
           "zh": "'红尾'"
         },
         {
-          "en": "The Blue Angels",
-          "zh": "'蓝天使'"
-        },
-        {
           "en": "The Silver Hawks",
           "zh": "'银鹰'"
+        },
+        {
+          "en": "The Blue Angels",
+          "zh": "'蓝天使'"
         },
         {
           "en": "The Green Dragons",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Lt. Charles B. Hall",
-          "zh": "查尔斯·B·霍尔中尉"
-        },
-        {
           "en": "Capt. Benjamin O. Davis Jr.",
           "zh": "小本杰明·O·戴维斯上尉"
         },
         {
-          "en": "Roscoe Brown",
-          "zh": "罗斯科·布朗"
+          "en": "Lt. Charles B. Hall",
+          "zh": "查尔斯·B·霍尔中尉"
         },
         {
           "en": "Eugene Bullard",
           "zh": "尤金·布拉德"
+        },
+        {
+          "en": "Roscoe Brown",
+          "zh": "罗斯科·布朗"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In summer 1943, Lt. Charles B. Hall shot down a Focke-Wulf 190, the unit's first victory and a historic first.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "To show early, famous support for the black pilots' abilities",
-          "zh": "为了展现早年间名人对黑人飞行员能力的支持"
+          "en": "To describe the White House",
+          "zh": "为了描写白宫"
         },
         {
-          "en": "To explain how she learned to be a general",
-          "zh": "为了解释她如何学会当将军"
+          "en": "To show early, famous support for the black pilots' abilities",
+          "zh": "为了展现早年间名人对黑人飞行员能力的支持"
         },
         {
           "en": "To prove she flew in combat",
           "zh": "为了证明她参加过空战"
         },
         {
-          "en": "To describe the White House",
-          "zh": "为了描写白宫"
+          "en": "To explain how she learned to be a general according to some versions of the story",
+          "zh": "为了解释她如何学会当将军（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "After flying with 'Chief' Anderson, Mrs. Roosevelt said 'Well, you can fly all right!', showing public support.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Less than 25 in total",
-          "zh": "总共不到25架"
-        },
-        {
           "en": "More than 500",
           "zh": "超过500架"
         },
         {
-          "en": "Exactly 200",
-          "zh": "恰好200架"
+          "en": "None at all, zero according to some versions of the story",
+          "zh": "一架都没有，零架（按书中另一种说法）"
         },
         {
-          "en": "None at all, zero",
-          "zh": "一架都没有，零架"
+          "en": "Less than 25 in total",
+          "zh": "总共不到25架"
+        },
+        {
+          "en": "Exactly 200",
+          "zh": "恰好200架"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "They lost less than 25 bombers in total during 200 missions, an incredibly low number compared to other groups.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "In a timeline from the unit's creation through its combat and return home",
-          "zh": "按时间顺序，从组建、作战到凯旋归国"
-        },
-        {
-          "en": "As a collection of unrelated short stories",
-          "zh": "作为互不相关的短篇集"
-        },
-        {
-          "en": "By listing countries in alphabetical order",
-          "zh": "按国家字母顺序罗列"
+          "en": "As a collection of unrelated short stories according to some versions of the story",
+          "zh": "作为互不相关的短篇集（按书中另一种说法）"
         },
         {
           "en": "As a step-by-step science experiment",
           "zh": "作为一个循序渐进的科学实验"
+        },
+        {
+          "en": "In a timeline from the unit's creation through its combat and return home",
+          "zh": "按时间顺序，从组建、作战到凯旋归国"
+        },
+        {
+          "en": "By listing countries in alphabetical order",
+          "zh": "按国家字母顺序罗列"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Chapters move from the 1941 experiment, to training, combat, the Red Tails, and finally returning home, following history.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "President Truman ended segregation in the military",
-          "zh": "杜鲁门总统废除了军队中的种族隔离"
-        },
-        {
           "en": "The Air Force was abolished",
           "zh": "空军被撤销"
         },
         {
-          "en": "Women were banned from flying",
-          "zh": "女性被禁止驾驶飞机"
+          "en": "Women were banned from flying according to some versions of the story",
+          "zh": "女性被禁止驾驶飞机（按书中另一种说法）"
         },
         {
           "en": "The draft was ended forever",
           "zh": "征兵制度被永久废除"
+        },
+        {
+          "en": "President Truman ended segregation in the military",
+          "zh": "杜鲁门总统废除了军队中的种族隔离"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Their achievement helped convince President Harry S. Truman to end segregation in the military in 1948.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "They proved their skill and helped challenge unfair racial segregation",
-          "zh": "他们证明了自己的实力，并推动了不公的种族隔离制度的终结"
-        },
-        {
-          "en": "They were lucky and not very talented",
-          "zh": "他们只是运气好，并没有什么才华"
+          "en": "They were the first pilots in history",
+          "zh": "他们是历史上最早的飞行员"
         },
         {
           "en": "They refused to fight in the war",
           "zh": "他们拒绝参战"
         },
         {
-          "en": "They were the first pilots in history",
-          "zh": "他们是历史上最早的飞行员"
+          "en": "They were lucky and not very talented according to some versions of the story",
+          "zh": "他们只是运气好，并没有什么才华（按书中另一种说法）"
+        },
+        {
+          "en": "They proved their skill and helped challenge unfair racial segregation",
+          "zh": "他们证明了自己的实力，并推动了不公的种族隔离制度的终结"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book shows they proved their courage and ability, winning respect and helping end segregation.",

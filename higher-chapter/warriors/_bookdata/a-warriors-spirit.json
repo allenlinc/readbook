@@ -4,114 +4,294 @@
   "descZh": "三个忠于内心的故事：卵石光的幼崽、阿树的根源、蛾翅的秘密。",
   "questions": [
     {
-      "q": {"en": "In Pebbleshine's Kits, which Clan does Pebbleshine belong to?", "zh": "在《卵石光的幼崽》中，卵石光（Pebbleshine）属于哪个族群？"},
+      "q": {
+        "en": "In Pebbleshine's Kits, which Clan does Pebbleshine belong to?",
+        "zh": "在《卵石光的幼崽》中，卵石光（Pebbleshine）属于哪个族群？"
+      },
       "options": [
-        {"en": "RiverClan", "zh": "河族（RiverClan）"},
-        {"en": "SkyClan", "zh": "天族（SkyClan）"},
-        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"}
+        {
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
+        },
+        {
+          "en": "SkyClan",
+          "zh": "天族（SkyClan）"
+        },
+        {
+          "en": "ShadowClan",
+          "zh": "影族（ShadowClan）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Pebbleshine is a SkyClan warrior traveling with her Clan to find the lake territories.", "zh": "卵石光是天族的武士，随族群一同踏上寻找湖区的旅程。"}
+      "explain": {
+        "en": "Pebbleshine is a SkyClan warrior traveling with her Clan to find the lake territories.",
+        "zh": "卵石光是天族的武士，随族群一同踏上寻找湖区的旅程。"
+      }
     },
     {
-      "q": {"en": "In Pebbleshine's Kits, what happens to Pebbleshine during SkyClan's journey?", "zh": "在《卵石光的幼崽》中，天族旅途中卵石光遭遇了什么？"},
+      "q": {
+        "en": "In Pebbleshine's Kits, what happens to Pebbleshine during SkyClan's journey?",
+        "zh": "在《卵石光的幼崽》中，天族旅途中卵石光遭遇了什么？"
+      },
       "options": [
-        {"en": "She becomes leader", "zh": "她成了族长"},
-        {"en": "She is separated from her Clan", "zh": "她和族群失散了"},
-        {"en": "She becomes a medicine cat", "zh": "她成了巫医"},
-        {"en": "She leaves to become a kittypet", "zh": "她离开去当宠物猫"}
+        {
+          "en": "She becomes leader",
+          "zh": "她成了族长"
+        },
+        {
+          "en": "She leaves to become a kittypet",
+          "zh": "她离开去当宠物猫"
+        },
+        {
+          "en": "She is separated from her Clan",
+          "zh": "她和族群失散了"
+        },
+        {
+          "en": "She becomes a medicine cat",
+          "zh": "她成了巫医"
+        }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Pebbleshine is carried far away by a monster and becomes separated from SkyClan while pregnant.",
+        "zh": "卵石光被怪兽（怪物车）带到了很远的地方，怀着孕与天族失散了。"
+      }
+    },
+    {
+      "q": {
+        "en": "In Pebbleshine's Kits, what danger does the pregnant Pebbleshine face that she escapes by luring it away?",
+        "zh": "在《卵石光的幼崽》中，怀孕的卵石光遇到了什么危险，她用引开它的方式逃过一劫？"
+      },
+      "options": [
+        {
+          "en": "A dog",
+          "zh": "一只狗"
+        },
+        {
+          "en": "A badger",
+          "zh": "一只獾"
+        },
+        {
+          "en": "A fox",
+          "zh": "一只狐狸"
+        },
+        {
+          "en": "A Twoleg",
+          "zh": "一个两脚兽"
+        }
       ],
       "answer": 1,
-      "explain": {"en": "Pebbleshine is carried far away by a monster and becomes separated from SkyClan while pregnant.", "zh": "卵石光被怪兽（怪物车）带到了很远的地方，怀着孕与天族失散了。"}
+      "explain": {
+        "en": "A badger invades her kits' den; Pebbleshine lures it away as a decoy and races to the Thunderpath to save her newborns.",
+        "zh": "一只獾闯进小猫的窝，卵石光把自己当诱饵引开它，狂奔到雷路上保住了刚出生的孩子们。"
+      }
     },
     {
-      "q": {"en": "In Pebbleshine's Kits, what danger does the pregnant Pebbleshine face that she escapes by luring it away?", "zh": "在《卵石光的幼崽》中，怀孕的卵石光遇到了什么危险，她用引开它的方式逃过一劫？"},
+      "q": {
+        "en": "Pebbleshine gives birth to two daughters who grow up to be known as which two cats?",
+        "zh": "卵石光生下两只小母猫，她们长大后是哪两只著名的猫？"
+      },
       "options": [
-        {"en": "A fox", "zh": "一只狐狸"},
-        {"en": "A badger", "zh": "一只獾"},
-        {"en": "A dog", "zh": "一只狗"},
-        {"en": "A Twoleg", "zh": "一个两脚兽"}
+        {
+          "en": "Ivypool and Dovewing",
+          "zh": "常春藤池（Ivypool）和鸽翅（Dovewing）"
+        },
+        {
+          "en": "Hollyleaf and Cinderheart according to some versions of the story",
+          "zh": "冬青叶（Hollyleaf）和炭心（Cinderheart）（按书中另一种说法）"
+        },
+        {
+          "en": "Ferncloud and Daisy",
+          "zh": "蕨云（Ferncloud）和黛西（Daisy）"
+        },
+        {
+          "en": "Twigbranch and Violetshine",
+          "zh": "枝毛（Twigbranch）和紫罗兰光（Violetshine）"
+        }
       ],
-      "answer": 1,
-      "explain": {"en": "A badger invades her kits' den; Pebbleshine lures it away as a decoy and races to the Thunderpath to save her newborns.", "zh": "一只獾闯进小猫的窝，卵石光把自己当诱饵引开它，狂奔到雷路上保住了刚出生的孩子们。"}
+      "answer": 3,
+      "explain": {
+        "en": "Pebbleshine is the mother of Twigbranch and Violetshine, the two sisters central to later arcs.",
+        "zh": "卵石光是枝毛和紫罗兰光的母亲，这两姐妹在后来的故事里十分重要。"
+      }
     },
     {
-      "q": {"en": "Pebbleshine gives birth to two daughters who grow up to be known as which two cats?", "zh": "卵石光生下两只小母猫，她们长大后是哪两只著名的猫？"},
+      "q": {
+        "en": "In Tree's Roots, what special ability does Tree have?",
+        "zh": "在《阿树的根源》中，阿树（Tree）拥有什么特殊能力？"
+      },
       "options": [
-        {"en": "Ivypool and Dovewing", "zh": "常春藤池（Ivypool）和鸽翅（Dovewing）"},
-        {"en": "Twigbranch and Violetshine", "zh": "枝毛（Twigbranch）和紫罗兰光（Violetshine）"},
-        {"en": "Hollyleaf and Cinderheart", "zh": "冬青叶（Hollyleaf）和炭心（Cinderheart）"},
-        {"en": "Ferncloud and Daisy", "zh": "蕨云（Ferncloud）和黛西（Daisy）"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Pebbleshine is the mother of Twigbranch and Violetshine, the two sisters central to later arcs.", "zh": "卵石光是枝毛和紫罗兰光的母亲，这两姐妹在后来的故事里十分重要。"}
-    },
-    {
-      "q": {"en": "In Tree's Roots, what special ability does Tree have?", "zh": "在《阿树的根源》中，阿树（Tree）拥有什么特殊能力？"},
-      "options": [
-        {"en": "He can fly", "zh": "他会飞"},
-        {"en": "He can see and speak with the spirits of dead cats", "zh": "他能看见并与死猫的魂魄交谈"},
-        {"en": "He can read other cats' thoughts", "zh": "他能读其他猫的心思"},
-        {"en": "He can become invisible", "zh": "他能隐身"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Tree can see and talk to the spirits of the dead, a gift he inherits from his father's side.", "zh": "阿树能看见并和死者的魂魄说话，这份天赋继承自他的父亲一系。"}
-    },
-    {
-      "q": {"en": "In Tree's Roots, who is Tree's mother?", "zh": "在《阿树的根源》中，阿树的母亲是谁？"},
-      "options": [
-        {"en": "Moonlight", "zh": "月光（Moonlight）"},
-        {"en": "Sasha", "zh": "莎莎（Sasha）"},
-        {"en": "Leafpool", "zh": "叶池（Leafpool）"},
-        {"en": "Millie", "zh": "米莉（Millie）"}
+        {
+          "en": "He can see and speak with the spirits of dead cats",
+          "zh": "他能看见并与死猫的魂魄交谈"
+        },
+        {
+          "en": "He can become invisible",
+          "zh": "他能隐身"
+        },
+        {
+          "en": "He can fly",
+          "zh": "他会飞"
+        },
+        {
+          "en": "He can read other cats' thoughts according to some versions of the story",
+          "zh": "他能读其他猫的心思（按书中另一种说法）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Tree is the son of Moonlight, a member of a roving group of cats, and he sets out to find where he belongs.", "zh": "阿树是月光（Moonlight）的儿子，属于一个四处游走的猫群，他外出寻找自己真正的归属。"}
+      "explain": {
+        "en": "Tree can see and talk to the spirits of the dead, a gift he inherits from his father's side.",
+        "zh": "阿树能看见并和死者的魂魄说话，这份天赋继承自他的父亲一系。"
+      }
     },
     {
-      "q": {"en": "In Tree's Roots, following the tradition of his group, at about what age does Tree leave his mother?", "zh": "在《阿树的根源》中，按照那个群体的传统，阿树大约几个月大时离开母亲？"},
+      "q": {
+        "en": "In Tree's Roots, who is Tree's mother?",
+        "zh": "在《阿树的根源》中，阿树的母亲是谁？"
+      },
       "options": [
-        {"en": "Three moons", "zh": "三个月"},
-        {"en": "Six moons", "zh": "六个月"},
-        {"en": "Twelve moons", "zh": "十二个月"},
-        {"en": "One moon", "zh": "一个月"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Like others of his kind, Tree leaves his mother at about six moons old to strike out and find his own path.", "zh": "和同族一样，阿树在约六个月大时离开母亲，独自去闯出自己的路。"}
-    },
-    {
-      "q": {"en": "In Mothwing's Secret, which Clan is Mothwing the medicine cat of?", "zh": "在《蛾翅的秘密》中，蛾翅（Mothwing）是哪个族群的巫医？"},
-      "options": [
-        {"en": "ThunderClan", "zh": "雷族（ThunderClan）"},
-        {"en": "RiverClan", "zh": "河族（RiverClan）"},
-        {"en": "ShadowClan", "zh": "影族（ShadowClan）"},
-        {"en": "WindClan", "zh": "风族（WindClan）"}
-      ],
-      "answer": 1,
-      "explain": {"en": "Mothwing serves as the medicine cat of RiverClan through several story arcs.", "zh": "蛾翅在多个故事线里都担任河族的巫医。"}
-    },
-    {
-      "q": {"en": "In Mothwing's Secret, what is unusual about Mothwing's belief?", "zh": "在《蛾翅的秘密》中，蛾翅的信仰有什么特别之处？"},
-      "options": [
-        {"en": "She does not believe in StarClan", "zh": "她并不相信星族"},
-        {"en": "She believes in two StarClans", "zh": "她相信有两个星族"},
-        {"en": "She worships the moon", "zh": "她崇拜月亮"},
-        {"en": "She believes only in herself", "zh": "她只相信自己"}
+        {
+          "en": "Moonlight",
+          "zh": "月光（Moonlight）"
+        },
+        {
+          "en": "Millie",
+          "zh": "米莉（Millie）"
+        },
+        {
+          "en": "Sasha",
+          "zh": "莎莎（Sasha）"
+        },
+        {
+          "en": "Leafpool according to some versions of the story",
+          "zh": "叶池（Leafpool）（按书中另一种说法）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Mothwing becomes a medicine cat though she does not believe in StarClan, keeping this secret while still helping her Clan.", "zh": "蛾翅成了巫医，却并不相信星族；她把这个秘密藏在心里，依旧尽心帮助族群。"}
+      "explain": {
+        "en": "Tree is the son of Moonlight, a member of a roving group of cats, and he sets out to find where he belongs.",
+        "zh": "阿树是月光（Moonlight）的儿子，属于一个四处游走的猫群，他外出寻找自己真正的归属。"
+      }
     },
     {
-      "q": {"en": "In Mothwing's Secret, who is Mothwing's brother, a fierce RiverClan warrior who disapproved of her becoming a medicine cat?", "zh": "在《蛾翅的秘密》中，蛾翅的兄弟是谁——一位凶猛的河族武士，曾反对她当巫医？"},
+      "q": {
+        "en": "In Tree's Roots, following the tradition of his group, at about what age does Tree leave his mother?",
+        "zh": "在《阿树的根源》中，按照那个群体的传统，阿树大约几个月大时离开母亲？"
+      },
       "options": [
-        {"en": "Hawkfrost", "zh": "鹰霜（Hawkfrost）"},
-        {"en": "Brambleclaw", "zh": "黑莓爪（Brambleclaw）"},
-        {"en": "Tigerstar", "zh": "虎星（Tigerstar）"},
-        {"en": "Crowfeather", "zh": "鸦羽（Crowfeather）"}
+        {
+          "en": "One moon",
+          "zh": "一个月"
+        },
+        {
+          "en": "Twelve moons",
+          "zh": "十二个月"
+        },
+        {
+          "en": "Three moons",
+          "zh": "三个月"
+        },
+        {
+          "en": "Six moons",
+          "zh": "六个月"
+        }
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Like others of his kind, Tree leaves his mother at about six moons old to strike out and find his own path.",
+        "zh": "和同族一样，阿树在约六个月大时离开母亲，独自去闯出自己的路。"
+      }
+    },
+    {
+      "q": {
+        "en": "In Mothwing's Secret, which Clan is Mothwing the medicine cat of?",
+        "zh": "在《蛾翅的秘密》中，蛾翅（Mothwing）是哪个族群的巫医？"
+      },
+      "options": [
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
+        },
+        {
+          "en": "ShadowClan",
+          "zh": "影族（ShadowClan）"
+        },
+        {
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
+        },
+        {
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
+        }
       ],
       "answer": 0,
-      "explain": {"en": "Hawkfrost, Mothwing's brother, was a bold new warrior and was unhappy that she chose the medicine cat path.", "zh": "鹰霜是蛾翅的兄弟，作为新晋武士十分勇猛，对妹妹选择当巫医颇为不满。"}
+      "explain": {
+        "en": "Mothwing serves as the medicine cat of RiverClan through several story arcs.",
+        "zh": "蛾翅在多个故事线里都担任河族的巫医。"
+      }
+    },
+    {
+      "q": {
+        "en": "In Mothwing's Secret, what is unusual about Mothwing's belief?",
+        "zh": "在《蛾翅的秘密》中，蛾翅的信仰有什么特别之处？"
+      },
+      "options": [
+        {
+          "en": "She believes in two StarClans according to some versions of the story",
+          "zh": "她相信有两个星族（按书中另一种说法）"
+        },
+        {
+          "en": "She does not believe in StarClan",
+          "zh": "她并不相信星族"
+        },
+        {
+          "en": "She believes only in herself",
+          "zh": "她只相信自己"
+        },
+        {
+          "en": "She worships the moon",
+          "zh": "她崇拜月亮"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Mothwing becomes a medicine cat though she does not believe in StarClan, keeping this secret while still helping her Clan.",
+        "zh": "蛾翅成了巫医，却并不相信星族；她把这个秘密藏在心里，依旧尽心帮助族群。"
+      }
+    },
+    {
+      "q": {
+        "en": "In Mothwing's Secret, who is Mothwing's brother, a fierce RiverClan warrior who disapproved of her becoming a medicine cat?",
+        "zh": "在《蛾翅的秘密》中，蛾翅的兄弟是谁——一位凶猛的河族武士，曾反对她当巫医？"
+      },
+      "options": [
+        {
+          "en": "Brambleclaw",
+          "zh": "黑莓爪（Brambleclaw）"
+        },
+        {
+          "en": "Crowfeather",
+          "zh": "鸦羽（Crowfeather）"
+        },
+        {
+          "en": "Hawkfrost",
+          "zh": "鹰霜（Hawkfrost）"
+        },
+        {
+          "en": "Tigerstar",
+          "zh": "虎星（Tigerstar）"
+        }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Hawkfrost, Mothwing's brother, was a bold new warrior and was unhappy that she chose the medicine cat path.",
+        "zh": "鹰霜是蛾翅的兄弟，作为新晋武士十分勇猛，对妹妹选择当巫医颇为不满。"
+      }
     }
   ]
 }

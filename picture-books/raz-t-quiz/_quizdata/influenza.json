@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "A virus.",
-          "zh": "一种病毒。"
-        },
-        {
           "en": "Bacteria.",
           "zh": "细菌。"
+        },
+        {
+          "en": "Bad air.",
+          "zh": "污浊的空气。"
         },
         {
           "en": "A fungus.",
           "zh": "真菌。"
         },
         {
-          "en": "Bad air.",
-          "zh": "污浊的空气。"
+          "en": "A virus.",
+          "zh": "一种病毒。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The flu is caused by a virus, a tiny microorganism.",
@@ -47,16 +47,16 @@
           "zh": "三种：A、B 和 C。"
         },
         {
-          "en": "Two: A and B.",
-          "zh": "两种：A 和 B。"
-        },
-        {
           "en": "Four: A, B, C, and D.",
           "zh": "四种：A、B、C 和 D。"
         },
         {
           "en": "One type only.",
           "zh": "只有一种。"
+        },
+        {
+          "en": "Two: A and B.",
+          "zh": "两种：A 和 B。"
         }
       ],
       "answer": 0,
@@ -77,16 +77,16 @@
           "zh": "变成另一种形态。"
         },
         {
-          "en": "To spread through the air.",
-          "zh": "通过空气传播。"
+          "en": "To make antibodies.",
+          "zh": "制造抗体。"
+        },
+        {
+          "en": "To spread through the air. according to some versions of the story",
+          "zh": "通过空气传播。（按书中另一种说法）"
         },
         {
           "en": "To attack the body.",
           "zh": "攻击身体。"
-        },
-        {
-          "en": "To make antibodies.",
-          "zh": "制造抗体。"
         }
       ],
       "answer": 0,
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "Eighty percent.",
-          "zh": "80%。"
-        },
-        {
           "en": "Fifty percent.",
           "zh": "50%。"
         },
@@ -115,11 +111,15 @@
           "zh": "100%。"
         },
         {
+          "en": "Eighty percent.",
+          "zh": "80%。"
+        },
+        {
           "en": "Twenty percent.",
           "zh": "20%。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Vaccines usually have an eighty-percent prevention rate.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "In hundreds of millions of specially grown chicken eggs.",
-          "zh": "在数亿个专门培育的鸡蛋中。"
+          "en": "Using only chemicals. according to some versions of the story",
+          "zh": "只用化学药品。（按书中另一种说法）"
         },
         {
-          "en": "In large water tanks.",
-          "zh": "在大水缸里。"
+          "en": "In hundreds of millions of specially grown chicken eggs.",
+          "zh": "在数亿个专门培育的鸡蛋中。"
         },
         {
           "en": "Inside the human body.",
           "zh": "在人体内。"
         },
         {
-          "en": "Using only chemicals.",
-          "zh": "只用化学药品。"
+          "en": "In large water tanks.",
+          "zh": "在大水缸里。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Many are made in hundreds of millions of specially grown chicken eggs.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "To inform readers about what the flu is, its causes, and how to treat and prevent it.",
-          "zh": "向读者介绍流感是什么、成因以及如何治疗和预防。"
+          "en": "To tell a scary story.",
+          "zh": "讲一个恐怖故事。"
+        },
+        {
+          "en": "To describe a single patient. according to some versions of the story in an early draft of the book",
+          "zh": "描述某一位病人。（按书中另一种说法）（在书的早期草稿中）"
         },
         {
           "en": "To sell flu medicine.",
           "zh": "推销感冒药。"
         },
         {
-          "en": "To tell a scary story.",
-          "zh": "讲一个恐怖故事。"
-        },
-        {
-          "en": "To describe a single patient.",
-          "zh": "描述某一位病人。"
+          "en": "To inform readers about what the flu is, its causes, and how to treat and prevent it.",
+          "zh": "向读者介绍流感是什么、成因以及如何治疗和预防。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book informs readers about the flu and how to fight it.",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "The Hong Kong flu of 1968.",
+          "zh": "1968年的香港流感。"
+        },
+        {
           "en": "The Spanish flu of 1918.",
           "zh": "1918年的西班牙流感。"
         },
@@ -201,15 +205,11 @@
           "zh": "1957年的亚洲流感。"
         },
         {
-          "en": "The Hong Kong flu of 1968.",
-          "zh": "1968年的香港流感。"
-        },
-        {
           "en": "The H1N1 swine flu of 2009.",
           "zh": "2009年的H1N1猪流感。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Spanish flu of 1918 was the most deadly, killing 20–40 million worldwide.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "They attack and destroy cells that contain the virus.",
-          "zh": "它们攻击并摧毁含有病毒的细胞。"
-        },
-        {
           "en": "They make the body colder.",
           "zh": "它们让身体变冷。"
         },
         {
-          "en": "They carry the virus away.",
-          "zh": "它们把病毒带走。"
+          "en": "They produce more viruses. according to some versions of the story",
+          "zh": "它们产生更多病毒。（按书中另一种说法）"
         },
         {
-          "en": "They produce more viruses.",
-          "zh": "它们产生更多病毒。"
+          "en": "They attack and destroy cells that contain the virus.",
+          "zh": "它们攻击并摧毁含有病毒的细胞。"
+        },
+        {
+          "en": "They carry the virus away.",
+          "zh": "它们把病毒带走。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Antibodies attack and destroy cells that contain the virus.",
@@ -257,8 +257,8 @@
           "zh": "疾病在全球范围的快速传播。"
         },
         {
-          "en": "A small local outbreak.",
-          "zh": "小规模局部爆发。"
+          "en": "A small local outbreak. according to some versions of the story",
+          "zh": "小规模局部爆发。（按书中另一种说法）"
         },
         {
           "en": "A type of vaccine.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "People who are very young, very old, or already sick.",
-          "zh": "非常年幼、年迈或本就患病的人。"
-        },
-        {
-          "en": "Only teenage athletes.",
-          "zh": "只有青少年运动员。"
-        },
-        {
           "en": "Healthy adults only.",
           "zh": "只有健康的成年人。"
         },
         {
+          "en": "People who are very young, very old, or already sick.",
+          "zh": "非常年幼、年迈或本就患病的人。"
+        },
+        {
           "en": "People who live inland.",
           "zh": "住在内陆的人。"
+        },
+        {
+          "en": "Only teenage athletes. according to some versions of the story",
+          "zh": "只有青少年运动员。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "People very young, very old, or already sick are at higher risk.",
