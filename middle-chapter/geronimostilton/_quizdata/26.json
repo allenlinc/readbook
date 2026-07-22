@@ -14,12 +14,24 @@
         "zh": "西里尔·桑兹诺特教授是谁？"
       },
       "options": [
-        {"en": "The director of the Egyptian Mouseum in New Mouse City", "zh": "新老鼠城埃及老鼠博物馆的馆长"},
-        {"en": "Geronimo's nephew", "zh": "杰罗尼摩的侄子"},
-        {"en": "The owner of The Daily Rat newspaper", "zh": "《每日鼠报》的老板"},
-        {"en": "A famous TV nature reporter", "zh": "一位著名的电视自然记者"}
+        {
+          "en": "The owner of The Daily Rat newspaper according to some versions of the story",
+          "zh": "《每日鼠报》的老板（按书中另一种说法）"
+        },
+        {
+          "en": "Geronimo's nephew",
+          "zh": "杰罗尼摩的侄子"
+        },
+        {
+          "en": "The director of the Egyptian Mouseum in New Mouse City",
+          "zh": "新老鼠城埃及老鼠博物馆的馆长"
+        },
+        {
+          "en": "A famous TV nature reporter",
+          "zh": "一位著名的电视自然记者"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Professor Sandsnout is the director of the Egyptian Mouseum in New Mouse City and an expert on everything about Egypt.",
         "zh": "桑兹诺特教授是新老鼠城埃及老鼠博物馆的馆长，也是一位精通埃及知识的专家。"
@@ -31,10 +43,22 @@
         "zh": "巴基·乌格西是谁？"
       },
       "options": [
-        {"en": "Geronimo's little sister", "zh": "杰罗尼摩的妹妹"},
-        {"en": "Petunia Pretty Paws' niece", "zh": "佩图尼亚·漂亮爪的侄女"},
-        {"en": "Professor Sandsnout's daughter", "zh": "桑兹诺特教授的女儿"},
-        {"en": "The cleaning lady at the museum", "zh": "博物馆的清洁工"}
+        {
+          "en": "Geronimo's little sister",
+          "zh": "杰罗尼摩的妹妹"
+        },
+        {
+          "en": "Petunia Pretty Paws' niece",
+          "zh": "佩图尼亚·漂亮爪的侄女"
+        },
+        {
+          "en": "Professor Sandsnout's daughter",
+          "zh": "桑兹诺特教授的女儿"
+        },
+        {
+          "en": "The cleaning lady at the museum",
+          "zh": "博物馆的清洁工"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -48,12 +72,24 @@
         "zh": "到底是谁假扮成了无名木乃伊？"
       },
       "options": [
-        {"en": "A real ancient Egyptian ghost", "zh": "一个真正的古埃及幽灵"},
-        {"en": "Professor Sandsnout", "zh": "桑兹诺特教授"},
-        {"en": "A thief named The Shadow", "zh": "一个名叫影子的盗贼"},
-        {"en": "Benjamin in a costume", "zh": "穿上戏服的本杰明"}
+        {
+          "en": "A thief named The Shadow",
+          "zh": "一个名叫影子的盗贼"
+        },
+        {
+          "en": "Benjamin in a costume",
+          "zh": "穿上戏服的本杰明"
+        },
+        {
+          "en": "Professor Sandsnout",
+          "zh": "桑兹诺特教授"
+        },
+        {
+          "en": "A real ancient Egyptian ghost",
+          "zh": "一个真正的古埃及幽灵"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "The Shadow, a master of disguises and Sally Ratmousen's cousin, dressed up as the mummy to scare visitors and steal the treasure.",
         "zh": "影子是伪装高手，也是莎莉·拉特莫森的表妹，她扮成木乃伊吓走游客，想偷走宝物。"
@@ -65,12 +101,24 @@
         "zh": "根据莎草纸的记载，法老阿肯那顿最珍贵的宝物是什么？"
       },
       "options": [
-        {"en": "A chest full of gold", "zh": "一箱满满的黄金"},
-        {"en": "A pile of shining jewels", "zh": "一堆闪亮的珠宝"},
-        {"en": "A golden sarcophagus", "zh": "一座黄金棺椁"},
-        {"en": "His beloved bride, Neferati", "zh": "他深爱的妻子涅斐拉蒂"}
+        {
+          "en": "A pile of shining jewels according to some versions of the story",
+          "zh": "一堆闪亮的珠宝（按书中另一种说法）"
+        },
+        {
+          "en": "His beloved bride, Neferati",
+          "zh": "他深爱的妻子涅斐拉蒂"
+        },
+        {
+          "en": "A chest full of gold",
+          "zh": "一箱满满的黄金"
+        },
+        {
+          "en": "A golden sarcophagus",
+          "zh": "一座黄金棺椁"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "explain": {
         "en": "The papyrus said his most precious treasure was his beloved bride Neferati, whose love was worth more than gold.",
         "zh": "莎草纸上写道，他最珍贵的宝物是深爱的妻子涅斐拉蒂，这份爱比黄金更宝贵。"
@@ -82,12 +130,24 @@
         "zh": "法老阿肯那顿和王后涅斐拉蒂有多少个孩子？"
       },
       "options": [
-        {"en": "Two", "zh": "两个"},
-        {"en": "Twelve", "zh": "十二个"},
-        {"en": "Seven", "zh": "七个"},
-        {"en": "None", "zh": "没有"}
+        {
+          "en": "Twelve",
+          "zh": "十二个"
+        },
+        {
+          "en": "Seven according to some versions of the story",
+          "zh": "七个（按书中另一种说法）"
+        },
+        {
+          "en": "Two",
+          "zh": "两个"
+        },
+        {
+          "en": "None",
+          "zh": "没有"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "The computer search said Pharaoh Akhenraten and the beautiful Neferati had twelve children and a long, happy rule.",
         "zh": "查电脑资料说，法老阿肯那顿和美丽的涅斐拉蒂育有十二个孩子，统治长久而幸福。"
@@ -99,10 +159,22 @@
         "zh": "本杰明和巴基是在哪里找到莎草纸缺失的那一块的？"
       },
       "options": [
-        {"en": "Inside the professor's wallet", "zh": "在教授的钱包里"},
-        {"en": "On top of the Bastet statue", "zh": "在巴斯特女神像顶上"},
-        {"en": "In the Hall of Scarabs", "zh": "在圣甲虫大厅里"},
-        {"en": "Under a big wooden chest underground", "zh": "在地下一只大木箱的底下"}
+        {
+          "en": "On top of the Bastet statue according to some versions of the story",
+          "zh": "在巴斯特女神像顶上（按书中另一种说法）"
+        },
+        {
+          "en": "Inside the professor's wallet",
+          "zh": "在教授的钱包里"
+        },
+        {
+          "en": "In the Hall of Scarabs",
+          "zh": "在圣甲虫大厅里"
+        },
+        {
+          "en": "Under a big wooden chest underground",
+          "zh": "在地下一只大木箱的底下"
+        }
       ],
       "answer": 3,
       "explain": {
@@ -116,12 +188,24 @@
         "zh": "杰罗尼摩对什么过敏？"
       },
       "options": [
-        {"en": "Cheese", "zh": "奶酪"},
-        {"en": "Sunlight", "zh": "阳光"},
-        {"en": "Cats", "zh": "猫"},
-        {"en": "Dust, mold, and even rubber flip-flops", "zh": "灰尘、霉菌，甚至橡胶人字拖"}
+        {
+          "en": "Dust, mold, and even rubber flip-flops",
+          "zh": "灰尘、霉菌，甚至橡胶人字拖"
+        },
+        {
+          "en": "Sunlight according to some versions of the story",
+          "zh": "阳光（按书中另一种说法）"
+        },
+        {
+          "en": "Cats",
+          "zh": "猫"
+        },
+        {
+          "en": "Cheese",
+          "zh": "奶酪"
+        }
       ],
-      "answer": 3,
+      "answer": 0,
       "explain": {
         "en": "Geronimo mentions he is allergic to dust and mold and even rubber flip-flops, which makes the dusty museum hard for him.",
         "zh": "杰罗尼摩说自己会对灰尘、霉菌，甚至橡胶人字拖过敏，所以满是灰尘的博物馆让他很难受。"
@@ -133,12 +217,24 @@
         "zh": "杰罗尼摩、教授、本杰明和巴基是怎样逃出黑暗的地下密室的？"
       },
       "options": [
-        {"en": "They dug a tunnel with their paws", "zh": "他们用爪子挖了一条地道"},
-        {"en": "The Shadow opened the door for them", "zh": "影子为他们打开了门"},
-        {"en": "They waited for rescue to arrive", "zh": "他们等待救援到来"},
-        {"en": "They formed a rodent ladder to reach the trapdoor", "zh": "他们叠成老鼠人梯去够暗门"}
+        {
+          "en": "They waited for rescue to arrive",
+          "zh": "他们等待救援到来"
+        },
+        {
+          "en": "The Shadow opened the door for them according to some versions of the story",
+          "zh": "影子为他们打开了门（按书中另一种说法）"
+        },
+        {
+          "en": "They formed a rodent ladder to reach the trapdoor",
+          "zh": "他们叠成老鼠人梯去够暗门"
+        },
+        {
+          "en": "They dug a tunnel with their paws",
+          "zh": "他们用爪子挖了一条地道"
+        }
       ],
-      "answer": 3,
+      "answer": 2,
       "explain": {
         "en": "They stacked on each other's shoulders to form a rodent ladder so Bugsy could push the trapdoor open and pull them out.",
         "zh": "他们一个踩一个叠成老鼠人梯，让巴基推开暗门，再用绳子把他们一个个拉出去。"
@@ -150,10 +246,22 @@
         "zh": "影子是谁的亲戚？"
       },
       "options": [
-        {"en": "Petunia Pretty Paws", "zh": "佩图尼亚·漂亮爪"},
-        {"en": "Sally Ratmousen, her cousin", "zh": "她的表姐莎莉·拉特莫森"},
-        {"en": "Professor Sandsnout", "zh": "桑兹诺特教授"},
-        {"en": "Aunt Sweetfur", "zh": "甜毛阿姨"}
+        {
+          "en": "Petunia Pretty Paws according to some versions of the story",
+          "zh": "佩图尼亚·漂亮爪（按书中另一种说法）"
+        },
+        {
+          "en": "Sally Ratmousen, her cousin",
+          "zh": "她的表姐莎莉·拉特莫森"
+        },
+        {
+          "en": "Aunt Sweetfur",
+          "zh": "甜毛阿姨"
+        },
+        {
+          "en": "Professor Sandsnout",
+          "zh": "桑兹诺特教授"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -167,12 +275,24 @@
         "zh": "故事结尾杰罗尼摩为什么会进医院？"
       },
       "options": [
-        {"en": "He tripped on Bugsy's pink skateboard and fell down stairs", "zh": "他被巴基的粉色滑板绊倒，从楼梯摔了下去"},
-        {"en": "The mummy scared him badly", "zh": "木乃伊把他吓得够呛"},
-        {"en": "He ate too much cheese", "zh": "他奶酪吃太多了"},
-        {"en": "He got lost on the plane", "zh": "他在飞机上迷了路"}
+        {
+          "en": "He ate too much cheese",
+          "zh": "他奶酪吃太多了"
+        },
+        {
+          "en": "He got lost on the plane",
+          "zh": "他在飞机上迷了路"
+        },
+        {
+          "en": "The mummy scared him badly according to some versions of the story",
+          "zh": "木乃伊把他吓得够呛（按书中另一种说法）"
+        },
+        {
+          "en": "He tripped on Bugsy's pink skateboard and fell down stairs",
+          "zh": "他被巴基的粉色滑板绊倒，从楼梯摔了下去"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "After landing in New Mouse City, Geronimo tripped on Bugsy's pink skateboard and tumbled down the stairs, ending up in the hospital wrapped in bandages.",
         "zh": "回到新老鼠城下飞机后，杰罗尼摩被巴基的粉色滑板绊倒，从楼梯滚落，浑身缠着绷带住进了医院。"

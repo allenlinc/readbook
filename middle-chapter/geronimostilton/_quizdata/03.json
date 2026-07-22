@@ -23,12 +23,12 @@
           "zh": "一只经营《啮齿动物公报》的老鼠记者"
         },
         {
-          "en": "A chef at the French restaurant Le Squeakery",
-          "zh": "在吱吱法餐厅当厨师的鼠"
-        },
-        {
           "en": "A cat who haunts Cannycat Castle",
           "zh": "一只出没于卡尼猫城堡的猫"
+        },
+        {
+          "en": "A chef at the French restaurant Le Squeakery according to some versions of the story",
+          "zh": "在吱吱法餐厅当厨师的鼠（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -44,16 +44,16 @@
       },
       "options": [
         {
-          "en": "To deliver cheese to Cannycat Castle",
-          "zh": "要给卡尼猫城堡送奶酪"
+          "en": "To escape from a scary cat",
+          "zh": "为了躲避一只可怕的猫"
         },
         {
           "en": "To visit his aunt Sweetfur in the Pleasant Paw Hills",
           "zh": "要去欢乐爪丘陵探望他的甜毛姑妈"
         },
         {
-          "en": "To escape from a scary cat",
-          "zh": "为了躲避一只可怕的猫"
+          "en": "To deliver cheese to Cannycat Castle according to some versions of the story",
+          "zh": "要给卡尼猫城堡送奶酪（按书中另一种说法）"
         },
         {
           "en": "To go bowling at Lucky Paw Lanes",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Christmas Eve",
-          "zh": "平安夜"
+          "en": "Geronimo's birthday according to some versions of the story",
+          "zh": "杰罗尼摩的生日（按书中另一种说法）"
         },
         {
           "en": "New Year's Eve",
           "zh": "除夕夜"
         },
         {
-          "en": "Geronimo's birthday",
-          "zh": "杰罗尼摩的生日"
-        },
-        {
           "en": "Halloween, on October thirty-first",
           "zh": "十月三十一日的万圣节前夜"
+        },
+        {
+          "en": "Christmas Eve",
+          "zh": "平安夜"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "explain": {
         "en": "Geronimo realizes it is a foggy October night and then remembers 'Today is October thirty-first. It's Halloween!'",
         "zh": "杰罗尼摩发现那是个雾蒙蒙的十月夜晚，随后想起『今天是十月三十一日，万圣节前夜！』"
@@ -106,8 +106,8 @@
           "zh": "卡尼猫城堡"
         },
         {
-          "en": "Raterloo Castle",
-          "zh": "拉特卢城堡"
+          "en": "Raterloo Castle according to some versions of the story",
+          "zh": "拉特卢城堡（按书中另一种说法）"
         },
         {
           "en": "Sweetfur Castle",
@@ -131,23 +131,23 @@
       },
       "options": [
         {
-          "en": "A cheerful mouse song",
-          "zh": "欢快的老鼠歌谣"
-        },
-        {
-          "en": "A loud thunder clap",
-          "zh": "响亮的雷声"
+          "en": "Classical music",
+          "zh": "古典音乐"
         },
         {
           "en": "A recorded, terrifying meow",
           "zh": "一段录音里可怕的猫叫声"
         },
         {
-          "en": "Classical music",
-          "zh": "古典音乐"
+          "en": "A cheerful mouse song according to some versions of the story",
+          "zh": "欢快的老鼠歌谣（按书中另一种说法）"
+        },
+        {
+          "en": "A loud thunder clap",
+          "zh": "响亮的雷声"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "When Geronimo presses the blood-red doorbell, a horrifying 'MEEEEOOOOWWW!!!' plays — he later learns it was a taped meow.",
         "zh": "杰罗尼摩按下血红的门铃后，响起一声可怕的『喵呜——！』，后来他发现那是录音里的猫叫。"
@@ -160,10 +160,6 @@
       },
       "options": [
         {
-          "en": "In 1754, the cats won",
-          "zh": "一七五四年，猫获胜"
-        },
-        {
           "en": "In 1754, the rodents won",
           "zh": "一七五四年，啮齿动物获胜"
         },
@@ -172,11 +168,15 @@
           "zh": "一七〇〇年，猫获胜"
         },
         {
-          "en": "In 1815, the rodents won",
-          "zh": "一八一五年，啮齿动物获胜"
+          "en": "In 1815, the rodents won according to some versions of the story",
+          "zh": "一八一五年，啮齿动物获胜（按书中另一种说法）"
+        },
+        {
+          "en": "In 1754, the cats won",
+          "zh": "一七五四年，猫获胜"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Geronimo recalls from his Encyclopaedia Ratannica that the battle of Raterloo took place in 1754 and the rodents won.",
         "zh": "杰罗尼摩从《鼠类百科全书》中记起，拉特卢战役发生在1754年，最终是啮齿动物取得了胜利。"
@@ -189,12 +189,8 @@
       },
       "options": [
         {
-          "en": "A mouse bone and a big block of Swiss cheese",
-          "zh": "一根老鼠骨头和一大块瑞士奶酪"
-        },
-        {
-          "en": "A hidden treasure of gold",
-          "zh": "一堆隐藏的黄金宝藏"
+          "en": "A hidden treasure of gold according to some versions of the story",
+          "zh": "一堆隐藏的黄金宝藏（按书中另一种说法）"
         },
         {
           "en": "A sleeping cat",
@@ -203,9 +199,13 @@
         {
           "en": "A fancy birthday cake",
           "zh": "一个精美的生日蛋糕"
+        },
+        {
+          "en": "A mouse bone and a big block of Swiss cheese",
+          "zh": "一根老鼠骨头和一大块瑞士奶酪"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "In the cellar he spots cans of tuna, dried meat, and a big block of Swiss cheese, and finds a mouse bone inside the copper pot.",
         "zh": "在地窖里，他看到金枪鱼罐头、肉干和一大块瑞士奶酪，还在铜锅里发现了一根老鼠骨头。"
@@ -218,12 +218,12 @@
       },
       "options": [
         {
-          "en": "His aunt Sweetfur and uncle Flickrat",
-          "zh": "他的甜毛姑妈和弗利克拉特叔叔"
-        },
-        {
           "en": "His boss and the newspaper editor",
           "zh": "他的老板和报纸主编"
+        },
+        {
+          "en": "His aunt Sweetfur and uncle Flickrat according to some versions of the story",
+          "zh": "他的甜毛姑妈和弗利克拉特叔叔（按书中另一种说法）"
         },
         {
           "en": "His sister Thea, cousin Trap, and nephew Benjamin",
@@ -247,23 +247,23 @@
       },
       "options": [
         {
-          "en": "His sister Thea",
-          "zh": "他的妹妹蒂奥"
-        },
-        {
           "en": "His nephew Benjamin",
           "zh": "他的侄子本杰明"
         },
         {
-          "en": "His cousin Trap",
-          "zh": "他的表哥特拉普"
+          "en": "His cousin Trap according to some versions of the story",
+          "zh": "他的表哥特拉普（按书中另一种说法）"
+        },
+        {
+          "en": "His sister Thea",
+          "zh": "他的妹妹蒂奥"
         },
         {
           "en": "The castle ghost",
           "zh": "城堡里的幽灵"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Benjamin always believes his uncle, finds clues like a gray painted feather and an extension cord, and helps him solve the trick.",
         "zh": "本杰明始终相信叔叔，还像侦探一样找到涂成灰色的鸡毛、电线等线索，帮他识破了恶作剧。"
@@ -276,23 +276,23 @@
       },
       "options": [
         {
-          "en": "A box of Halloween magic tricks and practical jokes called Pranky Paws",
-          "zh": "一盒名叫『捣蛋爪』的万圣节魔术道具和恶作剧玩具"
+          "en": "Geronimo's bad dream after eating cheese according to some versions of the story",
+          "zh": "杰罗尼摩吃奶酪后做的噩梦（按书中另一种说法）"
+        },
+        {
+          "en": "A curse on the Cannycat family",
+          "zh": "卡尼猫家族受到的诅咒"
         },
         {
           "en": "A real ghost named Slicedpaw",
           "zh": "一只名叫斯莱德波的真正幽灵"
         },
         {
-          "en": "Geronimo's bad dream after eating cheese",
-          "zh": "杰罗尼摩吃奶酪后做的噩梦"
-        },
-        {
-          "en": "A curse on the Cannycat family",
-          "zh": "卡尼猫家族受到的诅咒"
+          "en": "A box of Halloween magic tricks and practical jokes called Pranky Paws",
+          "zh": "一盒名叫『捣蛋爪』的万圣节魔术道具和恶作剧玩具"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "On the stairs they find a tag for 'Pranky Paws: Super Scary Halloween Magic Tricks and Practical Jokes,' proving someone was playing tricks.",
         "zh": "他们在楼梯上发现一张写着『捣蛋爪：超可怕万圣节魔术与恶作剧』的标签，证明一切都是有人在搞恶作剧。"

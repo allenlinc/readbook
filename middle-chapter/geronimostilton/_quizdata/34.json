@@ -14,12 +14,24 @@
         "zh": "那个戴着墨镜跟踪杰罗尼摩的老鼠，原来是他的旧相识。那是谁？"
       },
       "options": [
-        {"en": "Kornelius von Kickpaw, his old elementary school friend", "zh": "科尼利厄斯·冯·基克波，他小学时的老朋友"},
-        {"en": "Hercule Poirat, the detective", "zh": "侦探赫拉克·波瓦"},
-        {"en": "Trap Stilton, his cousin", "zh": "他的表哥特拉普·斯提尔顿"},
-        {"en": "Sally Ratmousen, his enemy", "zh": "他的敌人萨莉·拉特穆森"}
+        {
+          "en": "Hercule Poirat, the detective according to some versions of the story",
+          "zh": "侦探赫拉克·波瓦（按书中另一种说法）"
+        },
+        {
+          "en": "Sally Ratmousen, his enemy",
+          "zh": "他的敌人萨莉·拉特穆森"
+        },
+        {
+          "en": "Kornelius von Kickpaw, his old elementary school friend",
+          "zh": "科尼利厄斯·冯·基克波，他小学时的老朋友"
+        },
+        {
+          "en": "Trap Stilton, his cousin",
+          "zh": "他的表哥特拉普·斯提尔顿"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "The follower took off his sunglasses and revealed himself as Kornelius von Kickpaw, Geronimo's friend from elementary school whom he had not seen in years.",
         "zh": "那个跟踪者摘下墨镜，原来是他小学时的朋友科尼利厄斯·冯·基克波，杰罗尼摩已经多年没见过他了。"
@@ -31,10 +43,22 @@
         "zh": "科尼利厄斯·冯·基克波的秘密工作和代号分别是什么？"
       },
       "options": [
-        {"en": "A secret agent with the code name OOK", "zh": "一名代号为OOK的秘密特工"},
-        {"en": "An editor at The Rodent's Gazette", "zh": "《老鼠公报》的编辑"},
-        {"en": "The owner of a cheese factory", "zh": "一家奶酪厂的老板"},
-        {"en": "A professional athlete", "zh": "一名职业运动员"}
+        {
+          "en": "A secret agent with the code name OOK",
+          "zh": "一名代号为OOK的秘密特工"
+        },
+        {
+          "en": "A professional athlete",
+          "zh": "一名职业运动员"
+        },
+        {
+          "en": "An editor at The Rodent's Gazette according to some versions of the story",
+          "zh": "《老鼠公报》的编辑（按书中另一种说法）"
+        },
+        {
+          "en": "The owner of a cheese factory",
+          "zh": "一家奶酪厂的老板"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -48,12 +72,24 @@
         "zh": "在小学时，科尼利厄斯是怎样帮助杰罗尼摩的？"
       },
       "options": [
-        {"en": "He rescued Geronimo from bullies who stuffed him in a gym locker", "zh": "他把被恶霸塞进更衣室储物柜的杰罗尼摩救了出来"},
-        {"en": "He taught Geronimo to tie his shoes", "zh": "他教杰罗尼摩系鞋带"},
-        {"en": "He gave Geronimo a cheese sandwich", "zh": "他给了杰罗尼摩一个奶酪三明治"},
-        {"en": "He helped Geronimo with math homework", "zh": "他帮杰罗尼摩做数学作业"}
+        {
+          "en": "He gave Geronimo a cheese sandwich according to some versions of the story",
+          "zh": "他给了杰罗尼摩一个奶酪三明治（按书中另一种说法）"
+        },
+        {
+          "en": "He rescued Geronimo from bullies who stuffed him in a gym locker",
+          "zh": "他把被恶霸塞进更衣室储物柜的杰罗尼摩救了出来"
+        },
+        {
+          "en": "He taught Geronimo to tie his shoes",
+          "zh": "他教杰罗尼摩系鞋带"
+        },
+        {
+          "en": "He helped Geronimo with math homework",
+          "zh": "他帮杰罗尼摩做数学作业"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "When Wendell Wild Whiskers and his gang stuffed Geronimo into a locker, Kornelius ripped it open and made Wendell apologize, so the bullies never picked on him again.",
         "zh": "当温德尔·威尔德胡须和他的同伙把杰罗尼摩塞进储物柜时，科尼利厄斯把它撬开，还逼温德尔道歉，从此那些恶霸再也不敢欺负他了。"
@@ -65,12 +101,24 @@
         "zh": "杰罗尼摩弄丢的那个红色封印信封里，装着的究竟是什么重要文件？"
       },
       "options": [
-        {"en": "The deed to the land where The Rodent's Gazette stands", "zh": "《老鼠公报》所在土地的契约"},
-        {"en": "A winning lottery ticket", "zh": "一张中奖的彩票"},
-        {"en": "A secret agent badge", "zh": "一枚秘密特工的徽章"},
-        {"en": "A letter from Sally Ratmousen", "zh": "一封萨莉·拉特穆森写的信"}
+        {
+          "en": "A letter from Sally Ratmousen according to some versions of the story",
+          "zh": "一封萨莉·拉特穆森写的信（按书中另一种说法）"
+        },
+        {
+          "en": "A secret agent badge",
+          "zh": "一枚秘密特工的徽章"
+        },
+        {
+          "en": "A winning lottery ticket",
+          "zh": "一张中奖的彩票"
+        },
+        {
+          "en": "The deed to the land where The Rodent's Gazette stands",
+          "zh": "《老鼠公报》所在土地的契约"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Grandfather William revealed the envelope held the deed to the land — the only proof they owned the property where The Rodent's Gazette is built.",
         "zh": "威廉爷爷说信封里装的是那块土地的契约，也是他们拥有《老鼠公报》所在地财产的唯一证明。"
@@ -82,12 +130,24 @@
         "zh": "那个红封印信封是怎么离开杰罗尼摩的办公室的？"
       },
       "options": [
-        {"en": "A gust of wind blew it out the open window", "zh": "一阵风把它从开着的窗户吹了出去"},
-        {"en": "Sally Ratmousen secretly stole it", "zh": "萨莉·拉特穆森偷偷偷走了它"},
-        {"en": "A seagull carried it away", "zh": "一只海鸥把它叼走了"},
-        {"en": "Kornelius took it with him", "zh": "科尼利厄斯把它带走了"}
+        {
+          "en": "Kornelius took it with him",
+          "zh": "科尼利厄斯把它带走了"
+        },
+        {
+          "en": "Sally Ratmousen secretly stole it according to some versions of the story",
+          "zh": "萨莉·拉特穆森偷偷偷走了它（按书中另一种说法）"
+        },
+        {
+          "en": "A seagull carried it away",
+          "zh": "一只海鸥把它叼走了"
+        },
+        {
+          "en": "A gust of wind blew it out the open window",
+          "zh": "一阵风把它从开着的窗户吹了出去"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Geronimo had left his window wide open, and a fierce wind lifted the envelope off his desk and blew it straight out the window.",
         "zh": "杰罗尼摩前一晚忘了关窗，一阵狂风把信封从桌上卷起，直接吹出了窗外。"
@@ -99,12 +159,24 @@
         "zh": "科尼利厄斯的妹妹维罗妮卡也是一名秘密特工。她的代号是什么？"
       },
       "options": [
-        {"en": "00V", "zh": "00V"},
-        {"en": "OOK", "zh": "OOK"},
-        {"en": "007", "zh": "007"},
-        {"en": "OOS", "zh": "OOS"}
+        {
+          "en": "007 according to some versions of the story",
+          "zh": "007（按书中另一种说法）"
+        },
+        {
+          "en": "00V",
+          "zh": "00V"
+        },
+        {
+          "en": "OOS",
+          "zh": "OOS"
+        },
+        {
+          "en": "OOK",
+          "zh": "OOK"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Kornelius pointed to a painting of his sister Veronica above the fireplace and said her code name was 00V; she was a secret agent too.",
         "zh": "科尼利厄斯指着壁炉上方妹妹维罗妮卡的画像说，她的代号是00V，她同样是一名秘密特工。"
@@ -116,12 +188,24 @@
         "zh": "经过一番疯狂追逐，那个丢失的信封最后落在了哪里？"
       },
       "options": [
-        {"en": "In the office of Sally Ratmousen, his enemy", "zh": "落在了他的敌人萨莉·拉特穆森的办公室里"},
-        {"en": "At the town garbage dump", "zh": "在城镇垃圾场"},
-        {"en": "Deep in the sewer", "zh": "在下水道深处"},
-        {"en": "Inside Kornelius's mansion", "zh": "在科尼利厄斯的豪宅里"}
+        {
+          "en": "Inside Kornelius's mansion according to some versions of the story",
+          "zh": "在科尼利厄斯的豪宅里（按书中另一种说法）"
+        },
+        {
+          "en": "Deep in the sewer",
+          "zh": "在下水道深处"
+        },
+        {
+          "en": "In the office of Sally Ratmousen, his enemy",
+          "zh": "落在了他的敌人萨莉·拉特穆森的办公室里"
+        },
+        {
+          "en": "At the town garbage dump",
+          "zh": "在城镇垃圾场"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "The wind carried the envelope higher and higher until it slipped through an open window — the window of Sally Ratmousen, owner of The Daily Rat and Geronimo's rival.",
         "zh": "风把信封越吹越高，最后从一扇开着的窗户飘了进去——那正是萨莉·拉特穆森的窗户，她是《老鼠日报》的老板，也是杰罗尼摩的对手。"
@@ -133,10 +217,22 @@
         "zh": "在下水道里，是什么生物用嘴巴叼着那个红封印信封？"
       },
       "options": [
-        {"en": "A crocodile with glowing yellow eyes", "zh": "一只长着发光黄眼睛的鳄鱼"},
-        {"en": "A cat", "zh": "一只猫"},
-        {"en": "A rat", "zh": "一只老鼠"},
-        {"en": "A shark", "zh": "一条鲨鱼"}
+        {
+          "en": "A crocodile with glowing yellow eyes",
+          "zh": "一只长着发光黄眼睛的鳄鱼"
+        },
+        {
+          "en": "A shark according to some versions of the story",
+          "zh": "一条鲨鱼（按书中另一种说法）"
+        },
+        {
+          "en": "A cat",
+          "zh": "一只猫"
+        },
+        {
+          "en": "A rat",
+          "zh": "一只老鼠"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -150,12 +246,24 @@
         "zh": "杰罗尼摩用了什么花招，从萨莉·拉特穆森手里抢走了信封？"
       },
       "options": [
-        {"en": "He pretended she had broken a paw-nail, making her panic", "zh": "他假装她弄断了指甲，让她慌了神"},
-        {"en": "He yelled 'Fire!'", "zh": "他大喊“着火了”"},
-        {"en": "He offered her some cheese", "zh": "他给了她一些奶酪"},
-        {"en": "He called Kornelius for help", "zh": "他叫科尼利厄斯来帮忙"}
+        {
+          "en": "He called Kornelius for help according to some versions of the story",
+          "zh": "他叫科尼利厄斯来帮忙（按书中另一种说法）"
+        },
+        {
+          "en": "He pretended she had broken a paw-nail, making her panic",
+          "zh": "他假装她弄断了指甲，让她慌了神"
+        },
+        {
+          "en": "He yelled 'Fire!'",
+          "zh": "他大喊“着火了”"
+        },
+        {
+          "en": "He offered her some cheese",
+          "zh": "他给了她一些奶酪"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Geronimo whispered that Sally had broken a paw-nail; she flew into a frenzy looking for it, and in that moment he grabbed the envelope.",
         "zh": "杰罗尼摩小声说萨莉弄断了指甲，她顿时慌乱地四处查看，就在这时他一把抓过了信封。"
@@ -167,10 +275,22 @@
         "zh": "一个带着淡淡香水味的神秘身影一次次救了杰罗尼摩。那是谁？"
       },
       "options": [
-        {"en": "Veronica, the secret agent code-named 00V", "zh": "秘密特工维罗妮卡，代号00V"},
-        {"en": "Kornelius, code-named OOK", "zh": "代号为OOK的科尼利厄斯"},
-        {"en": "Thea Stilton, his sister", "zh": "他的妹妹西奥·斯提尔顿"},
-        {"en": "Sally Ratmousen", "zh": "萨莉·拉特穆森"}
+        {
+          "en": "Veronica, the secret agent code-named 00V",
+          "zh": "秘密特工维罗妮卡，代号00V"
+        },
+        {
+          "en": "Kornelius, code-named OOK according to some versions of the story",
+          "zh": "代号为OOK的科尼利厄斯（按书中另一种说法）"
+        },
+        {
+          "en": "Thea Stilton, his sister",
+          "zh": "他的妹妹西奥·斯提尔顿"
+        },
+        {
+          "en": "Sally Ratmousen",
+          "zh": "萨莉·拉特穆森"
+        }
       ],
       "answer": 0,
       "explain": {

@@ -14,10 +14,22 @@
         "zh": "杰罗尼摩过马路时被一辆什么黄色交通工具撞到了？"
       },
       "options": [
-        {"en": "Hercule Poirat's banana-shaped car", "zh": "赫拉克勒·波瓦那辆香蕉形状的汽车"},
-        {"en": "The mayor's limousine", "zh": "市长的豪华轿车"},
-        {"en": "A red fire truck", "zh": "一辆红色消防车"},
-        {"en": "Solar the robot car", "zh": "机器人汽车索拉"}
+        {
+          "en": "Hercule Poirat's banana-shaped car",
+          "zh": "赫拉克勒·波瓦那辆香蕉形状的汽车"
+        },
+        {
+          "en": "The mayor's limousine according to some versions of the story",
+          "zh": "市长的豪华轿车（按书中另一种说法）"
+        },
+        {
+          "en": "A red fire truck",
+          "zh": "一辆红色消防车"
+        },
+        {
+          "en": "Solar the robot car",
+          "zh": "机器人汽车索拉"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -31,12 +43,24 @@
         "zh": "故事开头，哪件贵重物品被盗了？"
       },
       "options": [
-        {"en": "Duchess Catherine Rodenton's 73-carat diamond necklace", "zh": "凯瑟琳·罗登顿公爵夫人的七十三克拉钻石项链"},
-        {"en": "A golden statue", "zh": "一座黄金雕像"},
-        {"en": "Geronimo's antique cheese rinds", "zh": "杰罗尼摩的古老奶酪皮"},
-        {"en": "The Heart of Light", "zh": "光明之心"}
+        {
+          "en": "Geronimo's antique cheese rinds according to some versions of the story",
+          "zh": "杰罗尼摩的古老奶酪皮（按书中另一种说法）"
+        },
+        {
+          "en": "Duchess Catherine Rodenton's 73-carat diamond necklace",
+          "zh": "凯瑟琳·罗登顿公爵夫人的七十三克拉钻石项链"
+        },
+        {
+          "en": "The Heart of Light",
+          "zh": "光明之心"
+        },
+        {
+          "en": "A golden statue",
+          "zh": "一座黄金雕像"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "The newspaper headlines read that someone had 'STOLEN Duchess Catherine Rodenton's seventy-three-carat diamond necklace!'",
         "zh": "报纸头条报道：有人“偷走了凯瑟琳·罗登顿公爵夫人的七十三克拉钻石项链！”"
@@ -48,10 +72,22 @@
         "zh": "谁是为杰罗尼摩授课的驾驶学校的老板？"
       },
       "options": [
-        {"en": "Rusty Carr", "zh": "拉斯提·卡尔"},
-        {"en": "Mayor Frederick Fuzzypaws", "zh": "市长弗雷德里克·弗兹爪"},
-        {"en": "Professor von Volt", "zh": "冯·沃尔特教授"},
-        {"en": "Flip Hotpaws", "zh": "菲利浦·热爪"}
+        {
+          "en": "Rusty Carr",
+          "zh": "拉斯提·卡尔"
+        },
+        {
+          "en": "Flip Hotpaws",
+          "zh": "菲利浦·热爪"
+        },
+        {
+          "en": "Professor von Volt",
+          "zh": "冯·沃尔特教授"
+        },
+        {
+          "en": "Mayor Frederick Fuzzypaws",
+          "zh": "市长弗雷德里克·弗兹爪"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -65,12 +101,24 @@
         "zh": "世界上第一辆会说话的机器人汽车叫什么名字？"
       },
       "options": [
-        {"en": "Solar (also called Sol)", "zh": "索拉（也叫索尔）"},
-        {"en": "Lunar", "zh": "露娜"},
-        {"en": "Bananamobile", "zh": "香蕉车"},
-        {"en": "Rob-8", "zh": "机器鼠8号"}
+        {
+          "en": "Lunar",
+          "zh": "露娜"
+        },
+        {
+          "en": "Solar (also called Sol)",
+          "zh": "索拉（也叫索尔）"
+        },
+        {
+          "en": "Bananamobile according to some versions of the story",
+          "zh": "香蕉车（按书中另一种说法）"
+        },
+        {
+          "en": "Rob-8",
+          "zh": "机器鼠8号"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "The car says, 'I AM SOLAR, A ROBOT CAR. YOU CAN CALL ME SOL.'",
         "zh": "那辆车说：“我是索拉，一辆机器人汽车。你可以叫我索尔。”"
@@ -82,12 +130,24 @@
         "zh": "是谁发明并制造了机器人汽车索拉？"
       },
       "options": [
-        {"en": "Professor Paws von Volt", "zh": "波·冯·沃尔特教授"},
-        {"en": "Rusty Carr", "zh": "拉斯提·卡尔"},
-        {"en": "Carlotta Carr", "zh": "卡洛塔·卡尔"},
-        {"en": "Margo Bitmouse", "zh": "玛戈·比特鼠"}
+        {
+          "en": "Carlotta Carr",
+          "zh": "卡洛塔·卡尔"
+        },
+        {
+          "en": "Professor Paws von Volt",
+          "zh": "波·冯·沃尔特教授"
+        },
+        {
+          "en": "Rusty Carr",
+          "zh": "拉斯提·卡尔"
+        },
+        {
+          "en": "Margo Bitmouse according to some versions of the story",
+          "zh": "玛戈·比特鼠（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Geronimo recognizes 'PROFESSOR Paws von volt' and the professor says Solar is 'my latest INVENTION.'",
         "zh": "杰罗尼摩认出了“波·冯·沃尔特教授”，教授说索拉是他“最新的发明”。"
@@ -99,12 +159,24 @@
         "zh": "索拉靠什么特殊能力让自己隐形？"
       },
       "options": [
-        {"en": "A powerful electromagnetic screen", "zh": "一层强大的电磁屏蔽屏"},
-        {"en": "A magic spell", "zh": "一个魔法咒语"},
-        {"en": "A coat of invisible paint", "zh": "一层隐形油漆"},
-        {"en": "A pair of golden glasses", "zh": "一副金色眼镜"}
+        {
+          "en": "A magic spell",
+          "zh": "一个魔法咒语"
+        },
+        {
+          "en": "A coat of invisible paint according to some versions of the story",
+          "zh": "一层隐形油漆（按书中另一种说法）"
+        },
+        {
+          "en": "A powerful electromagnetic screen",
+          "zh": "一层强大的电磁屏蔽屏"
+        },
+        {
+          "en": "A pair of golden glasses",
+          "zh": "一副金色眼镜"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "The book states, 'Thanks to a very powerful electromagnetic screen, it can become invisible.'",
         "zh": "书中写道：“多亏一层非常强大的电磁屏蔽屏，它才能隐形。”"
@@ -116,12 +188,24 @@
         "zh": "谁制造了那辆名叫露娜的银色对手汽车？"
       },
       "options": [
-        {"en": "Carlotta Carr, Rusty's sister", "zh": "卡洛塔·卡尔，拉斯提的妹妹"},
-        {"en": "Professor von Volt", "zh": "冯·沃尔特教授"},
-        {"en": "The mayor", "zh": "市长"},
-        {"en": "Bruce Hyena", "zh": "布鲁斯·鬣狗"}
+        {
+          "en": "Professor von Volt according to some versions of the story",
+          "zh": "冯·沃尔特教授（按书中另一种说法）"
+        },
+        {
+          "en": "The mayor",
+          "zh": "市长"
+        },
+        {
+          "en": "Bruce Hyena",
+          "zh": "布鲁斯·鬣狗"
+        },
+        {
+          "en": "Carlotta Carr, Rusty's sister",
+          "zh": "卡洛塔·卡尔，拉斯提的妹妹"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Rusty says, 'The silver car cannot disappear. That car is named Lunar. My sister, CARLOTTA, created it.'",
         "zh": "拉斯提说：“银色车不会消失，它叫露娜。我的妹妹卡洛塔制造了它。”"
@@ -133,10 +217,22 @@
         "zh": "索拉的电子大脑是以谁的大脑为原型制造的？"
       },
       "options": [
-        {"en": "Thea's brain", "zh": "蒂拉的大脑"},
-        {"en": "Geronimo's brain", "zh": "杰罗尼摩的大脑"},
-        {"en": "Benjamin's brain", "zh": "本杰明的大脑"},
-        {"en": "The mayor's brain", "zh": "市长的大脑"}
+        {
+          "en": "Thea's brain",
+          "zh": "蒂拉的大脑"
+        },
+        {
+          "en": "Geronimo's brain",
+          "zh": "杰罗尼摩的大脑"
+        },
+        {
+          "en": "The mayor's brain",
+          "zh": "市长的大脑"
+        },
+        {
+          "en": "Benjamin's brain",
+          "zh": "本杰明的大脑"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -150,12 +246,24 @@
         "zh": "杰罗尼摩和索拉的秘密任务是什么？"
       },
       "options": [
-        {"en": "Find Lunar and return the stolen diamond necklace to the Mouseum", "zh": "找到露娜，把被盗的钻石项链送回鼠物馆"},
-        {"en": "Win a driving championship", "zh": "赢得驾驶锦标赛"},
-        {"en": "Deliver the road safety booklet", "zh": "派发道路安全手册"},
-        {"en": "Catch the cheesebrains in masks", "zh": "抓住蒙面的奶酪脑"}
+        {
+          "en": "Deliver the road safety booklet according to some versions of the story",
+          "zh": "派发道路安全手册（按书中另一种说法）"
+        },
+        {
+          "en": "Win a driving championship",
+          "zh": "赢得驾驶锦标赛"
+        },
+        {
+          "en": "Catch the cheesebrains in masks",
+          "zh": "抓住蒙面的奶酪脑"
+        },
+        {
+          "en": "Find Lunar and return the stolen diamond necklace to the Mouseum",
+          "zh": "找到露娜，把被盗的钻石项链送回鼠物馆"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Margo tells him, 'Find Lunar, retrieve Duchess Catherine Rodenton's seventy-three-carat diamond necklace, and return it to New Mouse City's Mouseum.'",
         "zh": "玛戈告诉他：“找到露娜，取回凯瑟琳·罗登顿公爵夫人的七十三克拉钻石项链，送回老鼠岛的鼠物馆。”"
@@ -167,12 +275,24 @@
         "zh": "索拉是怎样从海里取回钻石项链的？"
       },
       "options": [
-        {"en": "With a long net extended from its door", "zh": "用从车门伸出的长网兜捞起"},
-        {"en": "By diving in with Geronimo", "zh": "和杰罗尼摩一起潜水去捡"},
-        {"en": "By asking a fish to fetch it", "zh": "请一条鱼帮忙叼回来"},
-        {"en": "By using its magnet", "zh": "用自己的磁铁吸上来"}
+        {
+          "en": "By using its magnet",
+          "zh": "用自己的磁铁吸上来"
+        },
+        {
+          "en": "By asking a fish to fetch it according to some versions of the story",
+          "zh": "请一条鱼帮忙叼回来（按书中另一种说法）"
+        },
+        {
+          "en": "With a long net extended from its door",
+          "zh": "用从车门伸出的长网兜捞起"
+        },
+        {
+          "en": "By diving in with Geronimo",
+          "zh": "和杰罗尼摩一起潜水去捡"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "'A long arm holding a net extended from the passenger-side door and scooped up the necklace before the sea could swallow it.'",
         "zh": "“一条长臂从副驾驶门伸出，举着一个网兜，在大海吞掉项链之前把它捞了起来。”"

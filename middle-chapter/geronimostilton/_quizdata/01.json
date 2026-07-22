@@ -15,20 +15,20 @@
       },
       "options": [
         {
-          "en": "Cheese Daily",
-          "zh": "《奶酪日报》"
-        },
-        {
           "en": "The Mouse Times",
           "zh": "《老鼠时报》"
+        },
+        {
+          "en": "The Whisker Weekly according to some versions of the story",
+          "zh": "《胡须周刊》（按书中另一种说法）"
         },
         {
           "en": "The Rodent's Gazette",
           "zh": "《啮齿动物公报》"
         },
         {
-          "en": "The Whisker Weekly",
-          "zh": "《胡须周刊》"
+          "en": "Cheese Daily",
+          "zh": "《奶酪日报》"
         }
       ],
       "answer": 2,
@@ -44,23 +44,23 @@
       },
       "options": [
         {
+          "en": "At the flea market",
+          "zh": "在跳蚤市场"
+        },
+        {
+          "en": "From a pirate according to some versions of the story",
+          "zh": "从一个海盗手里（按书中另一种说法）"
+        },
+        {
           "en": "In the mail",
           "zh": "在邮件里"
         },
         {
           "en": "In a library",
           "zh": "在图书馆"
-        },
-        {
-          "en": "From a pirate",
-          "zh": "从一个海盗手里"
-        },
-        {
-          "en": "At the flea market",
-          "zh": "在跳蚤市场"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "explain": {
         "en": "Thea pulled a yellowed map from under the table and said she found it at the flea market.",
         "zh": "蒂奥从桌子底下拿出一张泛黄的地图，说她是在跳蚤市场找到的。"
@@ -77,19 +77,19 @@
           "zh": "水手用品"
         },
         {
-          "en": "Trap's Treasures",
-          "zh": "特拉普的宝藏"
-        },
-        {
           "en": "Cheap Junk for Less",
           "zh": "便宜破烂大甩卖"
         },
         {
           "en": "The Mouse Mall",
           "zh": "老鼠商场"
+        },
+        {
+          "en": "Trap's Treasures according to some versions of the story",
+          "zh": "特拉普的宝藏（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "Trap runs a dusty thrift shop called Cheap Junk for Less, full of odd old items.",
         "zh": "特拉普经营着一家布满灰尘的二手商店，名叫“便宜破烂大甩卖”，里面全是稀奇古怪的旧东西。"
@@ -102,12 +102,12 @@
       },
       "options": [
         {
-          "en": "The Cheese Express",
-          "zh": "奶酪特快号"
-        },
-        {
           "en": "The Emerald Eye",
           "zh": "绿宝石之眼号"
+        },
+        {
+          "en": "The Cheese Express",
+          "zh": "奶酪特快号"
         },
         {
           "en": "The Rodent Queen",
@@ -139,8 +139,8 @@
           "zh": "本杰明，杰罗尼摩的侄子"
         },
         {
-          "en": "Mousella, the secretary",
-          "zh": "秘书莫塞拉"
+          "en": "Mousella, the secretary according to some versions of the story",
+          "zh": "秘书莫塞拉（按书中另一种说法）"
         },
         {
           "en": "Trap, the cousin",
@@ -160,16 +160,16 @@
       },
       "options": [
         {
+          "en": "A map maker",
+          "zh": "制图师"
+        },
+        {
           "en": "A professional baseball player",
           "zh": "职业棒球运动员"
         },
         {
           "en": "A famous writer",
           "zh": "著名作家"
-        },
-        {
-          "en": "A map maker",
-          "zh": "制图师"
         },
         {
           "en": "A cook, not a captain",
@@ -189,10 +189,6 @@
       },
       "options": [
         {
-          "en": "A passing dolphin",
-          "zh": "一只路过的海豚"
-        },
-        {
           "en": "Trap, who grabs him by the ears",
           "zh": "特拉普，抓住他的耳朵把他拉上来"
         },
@@ -201,11 +197,15 @@
           "zh": "蒂奥，乘救生筏"
         },
         {
-          "en": "Benjamin, with a rope",
-          "zh": "本杰明，用绳子"
+          "en": "A passing dolphin",
+          "zh": "一只路过的海豚"
+        },
+        {
+          "en": "Benjamin, with a rope according to some versions of the story",
+          "zh": "本杰明，用绳子（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Thea shouts 'Mouse overboard!' and Trap jumps in, grabs Geronimo by the ears and drags him back to the Lucky Lady.",
         "zh": "蒂奥大喊“老鼠落水啦！”，特拉普跳下去抓住杰罗尼摩的耳朵，把他拖回了“幸运女士号”。"
@@ -218,23 +218,23 @@
       },
       "options": [
         {
-          "en": "EMERALD",
-          "zh": "EMERALD（绿宝石）"
-        },
-        {
           "en": "CHEESE",
           "zh": "CHEESE（奶酪）"
         },
         {
-          "en": "PIRATE",
-          "zh": "PIRATE（海盗）"
-        },
-        {
           "en": "MOUSE",
           "zh": "MOUSE（老鼠）"
+        },
+        {
+          "en": "EMERALD",
+          "zh": "EMERALD（绿宝石）"
+        },
+        {
+          "en": "PIRATE",
+          "zh": "PIRATE（海盗）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Geronimo solves the riddle ('white or yellow, sharp or mellow, lots of holes') — the answer is CHEESE, so they must hop on the stones spelling C-H-E-E-S-E.",
         "zh": "杰罗尼摩解开了谜语（“白色或黄色、浓烈或温和、有很多孔”），答案是CHEESE，所以他们必须踩着拼出C-H-E-E-S-E的石头。"
@@ -247,20 +247,20 @@
       },
       "options": [
         {
-          "en": "A deep lake",
-          "zh": "一个深湖"
+          "en": "A beehive",
+          "zh": "一个蜂巢"
         },
         {
           "en": "Quicksand",
           "zh": "流沙"
         },
         {
-          "en": "A beehive",
-          "zh": "一个蜂巢"
-        },
-        {
           "en": "A pit of bones",
           "zh": "一个骷髅坑"
+        },
+        {
+          "en": "A deep lake",
+          "zh": "一个深湖"
         }
       ],
       "answer": 1,
@@ -276,23 +276,23 @@
       },
       "options": [
         {
-          "en": "A pile of gold doubloons",
-          "zh": "一堆金币"
+          "en": "An empty cave",
+          "zh": "一个空洞穴"
+        },
+        {
+          "en": "A pile of gold doubloons according to some versions of the story",
+          "zh": "一堆金币（按书中另一种说法）"
         },
         {
           "en": "A mouse resort with vacationing mice",
           "zh": "一个老鼠度假村，里面都是度假的老鼠"
         },
         {
-          "en": "An empty cave",
-          "zh": "一个空洞穴"
-        },
-        {
           "en": "A sleeping pirate",
           "zh": "一个睡着的海盗"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Instead of treasure, they meet a group of mice in bathing suits with cameras — it is a resort, and the X marks a lake/resort area.",
         "zh": "他们没找到宝藏，而是遇到了一群穿着泳衣、拿着相机的老鼠——那是个度假村，标记X的位置其实是一个湖／度假区。"

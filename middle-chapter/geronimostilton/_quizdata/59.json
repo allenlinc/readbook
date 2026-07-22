@@ -14,12 +14,24 @@
         "zh": "杰罗尼摩的银行账户为什么变成了零元？"
       },
       "options": [
-        { "en": "Trap tricked him into buying lots of presents using his money and cards", "zh": "特拉普骗他用自己钱和卡买了一大堆礼物" },
-        { "en": "He donated it all to charity", "zh": "他把钱全都捐给了慈善机构" },
-        { "en": "A thief broke into his safe", "zh": "有小偷闯进他的保险箱" },
-        { "en": "The bank made a mistake", "zh": "银行弄错了" }
+        {
+          "en": "He donated it all to charity according to some versions of the story",
+          "zh": "他把钱全都捐给了慈善机构（按书中另一种说法）"
+        },
+        {
+          "en": "Trap tricked him into buying lots of presents using his money and cards",
+          "zh": "特拉普骗他用自己钱和卡买了一大堆礼物"
+        },
+        {
+          "en": "The bank made a mistake",
+          "zh": "银行弄错了"
+        },
+        {
+          "en": "A thief broke into his safe",
+          "zh": "有小偷闯进他的保险箱"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "On his birthday, Trap pretended it was also Trap's birthday and made Geronimo pay for mountains of presents with his cash, checks, and credit cards.",
         "zh": "生日那天，特拉普谎称那天也是自己的生日，逼杰罗尼摩用现金、支票和信用卡给自己买了一大堆礼物。"
@@ -31,12 +43,24 @@
         "zh": "杰罗尼摩的祖父是谁？他外号叫“小气鼠威利”。"
       },
       "options": [
-        { "en": "William Shortpaws", "zh": "威廉·肖特波" },
-        { "en": "Samuel S. Stingysnout", "zh": "塞缪尔·S·吝啬鼻" },
-        { "en": "Trap Stilton", "zh": "特拉普·斯蒂顿" },
-        { "en": "Miserly Parsimouse", "zh": "吝啬·省钱鼠" }
+        {
+          "en": "Samuel S. Stingysnout",
+          "zh": "塞缪尔·S·吝啬鼻"
+        },
+        {
+          "en": "William Shortpaws",
+          "zh": "威廉·肖特波"
+        },
+        {
+          "en": "Miserly Parsimouse",
+          "zh": "吝啬·省钱鼠"
+        },
+        {
+          "en": "Trap Stilton",
+          "zh": "特拉普·斯蒂顿"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Grandfather William Shortpaws, nicknamed Cheap Mouse Willy, scolds Geronimo and sends him to learn about saving.",
         "zh": "祖父威廉·肖特波外号“小气鼠威利”，他训斥杰罗尼摩，并安排他去学习省钱。"
@@ -48,10 +72,22 @@
         "zh": "塞缪尔·S·吝啬鼻叔叔现在住在哪里？"
       },
       "options": [
-        { "en": "Moldy Manor in the Valley of Thrift", "zh": "节俭谷里的发霉庄园" },
-        { "en": "Penny Pincher Castle", "zh": "吝啬者城堡" },
-        { "en": "New Mouse City", "zh": "新老鼠城" },
-        { "en": "Cat Island", "zh": "猫岛" }
+        {
+          "en": "Moldy Manor in the Valley of Thrift",
+          "zh": "节俭谷里的发霉庄园"
+        },
+        {
+          "en": "Cat Island",
+          "zh": "猫岛"
+        },
+        {
+          "en": "New Mouse City",
+          "zh": "新老鼠城"
+        },
+        {
+          "en": "Penny Pincher Castle according to some versions of the story",
+          "zh": "吝啬者城堡（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -65,12 +101,24 @@
         "zh": "是谁教杰罗尼摩省钱速成课的？"
       },
       "options": [
-        { "en": "Miserly Parsimouse, the Wallet Watchrat", "zh": "“钱包看守鼠”吝啬·省钱鼠" },
-        { "en": "Saucy Le Paws", "zh": "酱汁·勒波" },
-        { "en": "Gordon Ratsey", "zh": "戈登·拉特西" },
-        { "en": "Nutty Chocorat", "zh": "坚果·巧克力鼠" }
+        {
+          "en": "Gordon Ratsey",
+          "zh": "戈登·拉特西"
+        },
+        {
+          "en": "Saucy Le Paws",
+          "zh": "酱汁·勒波"
+        },
+        {
+          "en": "Miserly Parsimouse, the Wallet Watchrat",
+          "zh": "“钱包看守鼠”吝啬·省钱鼠"
+        },
+        {
+          "en": "Nutty Chocorat according to some versions of the story",
+          "zh": "坚果·巧克力鼠（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Miserly Parsimouse, nicknamed the Wallet Watchrat, is the greatest saving expert in the Valley of Thrift and Geronimo's instructor.",
         "zh": "“钱包看守鼠”吝啬·省钱鼠是节俭谷里最厉害的省钱专家，也是杰罗尼摩的老师。"
@@ -82,12 +130,24 @@
         "zh": "杰罗尼摩是怎么去发霉庄园的？"
       },
       "options": [
-        { "en": "Third-class train, bus, bike with a manure cart, then on paw", "zh": "三等火车、公交车、自行车加粪车，最后步行" },
-        { "en": "A direct half-hour flight", "zh": "半小时直达航班" },
-        { "en": "His own sports car", "zh": "他自己的跑车" },
-        { "en": "A luxury cruise ship", "zh": "豪华游轮" }
+        {
+          "en": "His own sports car",
+          "zh": "他自己的跑车"
+        },
+        {
+          "en": "A direct half-hour flight according to some versions of the story",
+          "zh": "半小时直达航班（按书中另一种说法）"
+        },
+        {
+          "en": "Third-class train, bus, bike with a manure cart, then on paw",
+          "zh": "三等火车、公交车、自行车加粪车，最后步行"
+        },
+        {
+          "en": "A luxury cruise ship",
+          "zh": "豪华游轮"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Grandfather booked a deep-discount trip: three hours by third-class train, six by bus, thirty miles by bike (then a manure cart), and the last mile on paw.",
         "zh": "祖父订了超便宜的行程：三等火车三小时、公交六小时、自行车三十英里（后来改坐粪车），最后一英里靠步行。"
@@ -99,10 +159,22 @@
         "zh": "杰罗尼摩把什么给了塞缪尔叔叔，用来付发霉庄园的房费？"
       },
       "options": [
-        { "en": "His gold watch, a gift from his sister Thea", "zh": "他妹妹茜拉送的黄金手表" },
-        { "en": "A bag of cheese", "zh": "一袋奶酪" },
-        { "en": "His laptop computer", "zh": "他的笔记本电脑" },
-        { "en": "A ticket to a concert", "zh": "一张演唱会门票" }
+        {
+          "en": "His gold watch, a gift from his sister Thea",
+          "zh": "他妹妹茜拉送的黄金手表"
+        },
+        {
+          "en": "A ticket to a concert according to some versions of the story",
+          "zh": "一张演唱会门票（按书中另一种说法）"
+        },
+        {
+          "en": "His laptop computer",
+          "zh": "他的笔记本电脑"
+        },
+        {
+          "en": "A bag of cheese",
+          "zh": "一袋奶酪"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -116,10 +188,22 @@
         "zh": "谁给了杰罗尼摩一本红笔记本，让他记下收支？"
       },
       "options": [
-        { "en": "His sister Thea", "zh": "他的妹妹茜拉" },
-        { "en": "His cousin Trap", "zh": "他的表哥特拉普" },
-        { "en": "Uncle Samuel", "zh": "塞缪尔叔叔" },
-        { "en": "Miserly Parsimouse", "zh": "吝啬·省钱鼠" }
+        {
+          "en": "His sister Thea",
+          "zh": "他的妹妹茜拉"
+        },
+        {
+          "en": "Uncle Samuel",
+          "zh": "塞缪尔叔叔"
+        },
+        {
+          "en": "His cousin Trap",
+          "zh": "他的表哥特拉普"
+        },
+        {
+          "en": "Miserly Parsimouse",
+          "zh": "吝啬·省钱鼠"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -133,12 +217,24 @@
         "zh": "那门省钱速成课叫什么名字？"
       },
       "options": [
-        { "en": "Become a Saver in Three Simple Stingy Steps", "zh": "《用三个简单小气步骤成为省钱鼠》" },
-        { "en": "Cooking with Cheese", "zh": "《奶酪烹饪法》" },
-        { "en": "The Super Chef Handbook", "zh": "《超级大厨手册》" },
-        { "en": "How to Catch a Cat", "zh": "《如何抓猫》" }
+        {
+          "en": "Cooking with Cheese",
+          "zh": "《奶酪烹饪法》"
+        },
+        {
+          "en": "How to Catch a Cat",
+          "zh": "《如何抓猫》"
+        },
+        {
+          "en": "The Super Chef Handbook according to some versions of the story",
+          "zh": "《超级大厨手册》（按书中另一种说法）"
+        },
+        {
+          "en": "Become a Saver in Three Simple Stingy Steps",
+          "zh": "《用三个简单小气步骤成为省钱鼠》"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Miserly Parsimouse's course was 'Become a Saver in Three Simple Stingy Steps,' with days on the thrifty house, Thrifty City, and a final exam.",
         "zh": "吝啬·省钱鼠的课程叫《用三个简单小气步骤成为省钱鼠》，分节俭之家、节俭城和期末考试三天。"
@@ -150,12 +246,24 @@
         "zh": "为什么杰罗尼摩没通过“小气鼠”期末考试？"
       },
       "options": [
-        { "en": "He could not pretend to be stingy because he likes to share with friends", "zh": "他没法装小气，因为他喜欢和朋友分享" },
-        { "en": "He fell asleep during the test", "zh": "他考试时睡着了" },
-        { "en": "He lost his pencil", "zh": "他把铅笔弄丢了" },
-        { "en": "The questions were in a foreign language", "zh": "题目是外语写的" }
+        {
+          "en": "He lost his pencil",
+          "zh": "他把铅笔弄丢了"
+        },
+        {
+          "en": "He could not pretend to be stingy because he likes to share with friends",
+          "zh": "他没法装小气，因为他喜欢和朋友分享"
+        },
+        {
+          "en": "The questions were in a foreign language according to some versions of the story",
+          "zh": "题目是外语写的（按书中另一种说法）"
+        },
+        {
+          "en": "He fell asleep during the test",
+          "zh": "他考试时睡着了"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Geronimo admitted he is not and will never be a penny-pincher; he prefers sharing, so he couldn't honestly pass the stingy test.",
         "zh": "杰罗尼摩承认自己现在和将来都不是小气鬼，他更喜欢分享，所以没法诚实地通过小气测试。"
@@ -167,12 +275,24 @@
         "zh": "吝啬·省钱鼠想要什么来抵课程费？"
       },
       "options": [
-        { "en": "Geronimo's boots, which were stuck on his paws", "zh": "杰罗尼摩脚上那双脱不下来的靴子" },
-        { "en": "A year's supply of cheese", "zh": "一年的奶酪存货" },
-        { "en": "The Rodent's Gazette", "zh": "《鼠民公报》" },
-        { "en": "A golden statue", "zh": "一座黄金雕像" }
+        {
+          "en": "The Rodent's Gazette",
+          "zh": "《鼠民公报》"
+        },
+        {
+          "en": "A golden statue",
+          "zh": "一座黄金雕像"
+        },
+        {
+          "en": "A year's supply of cheese according to some versions of the story",
+          "zh": "一年的奶酪存货（按书中另一种说法）"
+        },
+        {
+          "en": "Geronimo's boots, which were stuck on his paws",
+          "zh": "杰罗尼摩脚上那双脱不下来的靴子"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Miserly never gives credit, so he pointed at Geronimo's boots; Geronimo agreed they were Miserly's if he could get them off his paws.",
         "zh": "省钱鼠从不赊账，他指了指杰罗尼摩的靴子；杰罗尼摩说只要你能把它从脚上脱下来，就归你。"

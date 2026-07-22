@@ -14,12 +14,24 @@
         "zh": "杰罗尼摩·斯蒂顿是谁？"
       },
       "options": [
-        { "en": "The publisher of The Rodent's Gazette", "zh": "《老鼠公报》的出版人" },
-        { "en": "A travel agent in New Mouse City", "zh": "新鼠城的一名旅行代理人" },
-        { "en": "Geronimo's obnoxious cousin", "zh": "杰罗尼摩那个讨厌的表哥" },
-        { "en": "The lifeguard at Rathole Hotel Beach", "zh": "鼠洞酒店海滩的救生员" }
+        {
+          "en": "The lifeguard at Rathole Hotel Beach according to some versions of the story",
+          "zh": "鼠洞酒店海滩的救生员（按书中另一种说法）"
+        },
+        {
+          "en": "The publisher of The Rodent's Gazette",
+          "zh": "《老鼠公报》的出版人"
+        },
+        {
+          "en": "A travel agent in New Mouse City",
+          "zh": "新鼠城的一名旅行代理人"
+        },
+        {
+          "en": "Geronimo's obnoxious cousin",
+          "zh": "杰罗尼摩那个讨厌的表哥"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "He introduces himself as the publisher of The Rodent's Gazette, the most popular paper on Mouse Island.",
         "zh": "书中他自我介绍是《老鼠公报》的出版人，那是鼠岛上最受欢迎的报纸。"
@@ -31,12 +43,24 @@
         "zh": "是哪个表哥把杰罗尼摩骗去度一个糟糕的假？"
       },
       "options": [
-        { "en": "Trap", "zh": "特拉普" },
-        { "en": "Benjamin", "zh": "本杰明" },
-        { "en": "Slowpoke", "zh": "斯洛波克" },
-        { "en": "Wimpy Whiskers", "zh": "温皮·胡须" }
+        {
+          "en": "Slowpoke",
+          "zh": "斯洛波克"
+        },
+        {
+          "en": "Wimpy Whiskers",
+          "zh": "温皮·胡须"
+        },
+        {
+          "en": "Benjamin",
+          "zh": "本杰明"
+        },
+        {
+          "en": "Trap",
+          "zh": "特拉普"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Trap pulls Geronimo's tail and takes him to Smoothie Slickpaws's shabby travel agency in a dark alley.",
         "zh": "特拉普拽住杰罗尼摩的尾巴，把他带到了斯莫基·斯利克保斯那家开在漆黑小巷里的破旧旅行社。"
@@ -48,10 +72,22 @@
         "zh": "斯莫基·斯利克保斯的旅行社叫什么名字？"
       },
       "options": [
-        { "en": "Trust Me, You'll Like It!", "zh": "相信我，你会喜欢的！" },
-        { "en": "Kick Up Your Paws", "zh": "翘起你的爪子" },
-        { "en": "The Rodent's Gazette", "zh": "老鼠公报" },
-        { "en": "Rathole Hotel", "zh": "鼠洞酒店" }
+        {
+          "en": "Trust Me, You'll Like It!",
+          "zh": "相信我，你会喜欢的！"
+        },
+        {
+          "en": "Kick Up Your Paws",
+          "zh": "翘起你的爪子"
+        },
+        {
+          "en": "Rathole Hotel",
+          "zh": "鼠洞酒店"
+        },
+        {
+          "en": "The Rodent's Gazette according to some versions of the story",
+          "zh": "老鼠公报（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -65,12 +101,24 @@
         "zh": "杰罗尼摩乘坐哪家航空公司的飞机去岛上？"
       },
       "options": [
-        { "en": "Last Gasp Airways", "zh": "最后一口气航空" },
-        { "en": "Kick Up Your Paws Air", "zh": "翘爪航空" },
-        { "en": "Rathole Airlines", "zh": "鼠洞航空" },
-        { "en": "Mouse Island Express", "zh": "鼠岛快线" }
+        {
+          "en": "Kick Up Your Paws Air",
+          "zh": "翘爪航空"
+        },
+        {
+          "en": "Rathole Airlines",
+          "zh": "鼠洞航空"
+        },
+        {
+          "en": "Mouse Island Express",
+          "zh": "鼠岛快线"
+        },
+        {
+          "en": "Last Gasp Airways",
+          "zh": "最后一口气航空"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "He had never flown Last Gasp Airways before; the seats were old and worn with dust balls in the aisle.",
         "zh": "他以前从没坐过最后一口气航空，飞机座椅又旧又破，过道里还有灰尘团。"
@@ -82,10 +130,22 @@
         "zh": "杰罗尼摩去度假的岛叫什么名字？"
       },
       "options": [
-        { "en": "San Shabby Fur Island", "zh": "邋遢毛岛" },
-        { "en": "Mouse Island", "zh": "鼠岛" },
-        { "en": "Quack Islands", "zh": "嘎嘎岛" },
-        { "en": "Tomcat Island", "zh": "猫岛" }
+        {
+          "en": "San Shabby Fur Island",
+          "zh": "邋遢毛岛"
+        },
+        {
+          "en": "Tomcat Island",
+          "zh": "猫岛"
+        },
+        {
+          "en": "Mouse Island",
+          "zh": "鼠岛"
+        },
+        {
+          "en": "Quack Islands according to some versions of the story",
+          "zh": "嘎嘎岛（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -99,12 +159,24 @@
         "zh": "杰罗尼摩在鼠洞酒店被分到几号房间？"
       },
       "options": [
-        { "en": "313", "zh": "313" },
-        { "en": "101", "zh": "101" },
-        { "en": "202", "zh": "202" },
-        { "en": "404", "zh": "404" }
+        {
+          "en": "404 according to some versions of the story",
+          "zh": "404（按书中另一种说法）"
+        },
+        {
+          "en": "313",
+          "zh": "313"
+        },
+        {
+          "en": "202",
+          "zh": "202"
+        },
+        {
+          "en": "101",
+          "zh": "101"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "He stays in room 313 and is a little superstitious about the unlucky number thirteen.",
         "zh": "他住313房间，对不吉利的数字13有点迷信。"
@@ -116,12 +188,24 @@
         "zh": "杰罗尼摩从机场得到的“专属接送”是什么？"
       },
       "options": [
-        { "en": "A bicycle he must pedal twenty miles in the rain", "zh": "一辆要他在雨中蹬二十英里的自行车" },
-        { "en": "A free taxi ride", "zh": "一次免费出租车" },
-        { "en": "A private helicopter", "zh": "一架私人直升机" },
-        { "en": "A luxury bus", "zh": "一辆豪华巴士" }
+        {
+          "en": "A free taxi ride",
+          "zh": "一次免费出租车"
+        },
+        {
+          "en": "A private helicopter according to some versions of the story",
+          "zh": "一架私人直升机（按书中另一种说法）"
+        },
+        {
+          "en": "A bicycle he must pedal twenty miles in the rain",
+          "zh": "一辆要他在雨中蹬二十英里的自行车"
+        },
+        {
+          "en": "A luxury bus",
+          "zh": "一辆豪华巴士"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "The note says the personalized transfer means he must pedal the bike himself to the hotel, twenty miles away in the pouring rain.",
         "zh": "纸条上写着专属接送就是他自己蹬自行车去二十英里外的酒店，当时还下着大雨。"
@@ -133,12 +217,24 @@
         "zh": "在飞机上一直吵闹烦扰杰罗尼摩的小老鼠是谁？"
       },
       "options": [
-        { "en": "Bratfur", "zh": "布拉特弗" },
-        { "en": "Benjamin", "zh": "本杰明" },
-        { "en": "Smoothie", "zh": "斯莫基" },
-        { "en": "Crusher", "zh": "克拉舍" }
+        {
+          "en": "Benjamin according to some versions of the story",
+          "zh": "本杰明（按书中另一种说法）"
+        },
+        {
+          "en": "Bratfur",
+          "zh": "布拉特弗"
+        },
+        {
+          "en": "Crusher",
+          "zh": "克拉舍"
+        },
+        {
+          "en": "Smoothie",
+          "zh": "斯莫基"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Bratfur sits next to Geronimo, asks endless questions, and even steals his cream cheese candy.",
         "zh": "布拉特弗坐在杰罗尼摩旁边，不停地问问题，还偷走了他的奶油奶酪糖。"
@@ -150,10 +246,22 @@
         "zh": "杰罗尼摩游泳时遇到鲨鱼，是谁救了他？"
       },
       "options": [
-        { "en": "Crusher the lifeguard", "zh": "救生员克拉舍" },
-        { "en": "Trap", "zh": "特拉普" },
-        { "en": "Smoothie Slickpaws", "zh": "斯莫基·斯利克保斯" },
-        { "en": "Bratfur", "zh": "布拉特弗" }
+        {
+          "en": "Crusher the lifeguard",
+          "zh": "救生员克拉舍"
+        },
+        {
+          "en": "Bratfur",
+          "zh": "布拉特弗"
+        },
+        {
+          "en": "Smoothie Slickpaws according to some versions of the story",
+          "zh": "斯莫基·斯利克保斯（按书中另一种说法）"
+        },
+        {
+          "en": "Trap",
+          "zh": "特拉普"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -167,12 +275,24 @@
         "zh": "到底是谁把杰罗尼摩报名去蹦极等极限运动的？"
       },
       "options": [
-        { "en": "Bratfur, writing Geronimo's name on the board", "zh": "布拉特弗，他在板上写下了杰罗尼摩的名字" },
-        { "en": "The hotel manager", "zh": "酒店经理" },
-        { "en": "Crusher the lifeguard", "zh": "救生员克拉舍" },
-        { "en": "His sister Thea", "zh": "他的妹妹西娅" }
+        {
+          "en": "His sister Thea",
+          "zh": "他的妹妹西娅"
+        },
+        {
+          "en": "The hotel manager",
+          "zh": "酒店经理"
+        },
+        {
+          "en": "Bratfur, writing Geronimo's name on the board",
+          "zh": "布拉特弗，他在板上写下了杰罗尼摩的名字"
+        },
+        {
+          "en": "Crusher the lifeguard according to some versions of the story",
+          "zh": "救生员克拉舍（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Geronimo sneaks up and sees Bratfur scribbling his name after every activity on the Extreme Sports board.",
         "zh": "杰罗尼摩悄悄走上前，发现布拉特弗在“极限运动板”上每项活动后面都写上了他的名字。"

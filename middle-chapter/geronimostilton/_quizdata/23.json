@@ -15,23 +15,23 @@
       },
       "options": [
         {
-          "en": "Valentine's Day",
-          "zh": "情人节"
+          "en": "Christmas",
+          "zh": "圣诞节"
+        },
+        {
+          "en": "New Year's Day according to some versions of the story",
+          "zh": "元旦（按书中另一种说法）"
         },
         {
           "en": "Halloween",
           "zh": "万圣节"
         },
         {
-          "en": "Christmas",
-          "zh": "圣诞节"
-        },
-        {
-          "en": "New Year's Day",
-          "zh": "元旦"
+          "en": "Valentine's Day",
+          "zh": "情人节"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Geronimo says this tale is all about one of his favorite holidays, Valentine's Day, and he throws a big party each year.",
         "zh": "杰罗尼摩说这个故事讲的是他最喜爱的节日之一——情人节，而且他每年都会办一场盛大的派对。"
@@ -44,23 +44,23 @@
       },
       "options": [
         {
-          "en": "His ear",
-          "zh": "他的耳朵"
-        },
-        {
           "en": "His tail",
           "zh": "他的尾巴"
         },
         {
-          "en": "His paw",
-          "zh": "他的爪子"
+          "en": "His ear",
+          "zh": "他的耳朵"
         },
         {
           "en": "His whiskers",
           "zh": "他的胡须"
+        },
+        {
+          "en": "His paw",
+          "zh": "他的爪子"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "After slipping on soap and landing in the tub, Geronimo's tail got sucked into the drain and he had to wrap it in a bandage.",
         "zh": "杰罗尼摩踩到肥皂滑倒、栽进浴缸后，尾巴被下水道吸住，他只好用绷带把尾巴包了起来。"
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "Creepella von Cacklefur",
-          "zh": "克里普拉·冯·卡克福尔"
-        },
-        {
           "en": "Tina Spicytail",
           "zh": "蒂娜·香尾"
         },
@@ -87,9 +83,13 @@
         {
           "en": "Thea, his sister",
           "zh": "他的妹妹蒂奥"
+        },
+        {
+          "en": "Creepella von Cacklefur",
+          "zh": "克里普拉·冯·卡克福尔"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "Sally Ratmousen runs The Daily Rat and brags that she bought the NewsExpress, telling them to stop delivering The Rodent's Gazette.",
         "zh": "莎莉·鼠莫森经营着《老鼠日报》，她得意地说自己买下了新闻快递公司，命令他们停止配送《啮齿动物公报》。"
@@ -102,23 +102,23 @@
       },
       "options": [
         {
-          "en": "Cheesy Lou Sweetsnout",
-          "zh": "甜嘴露·甜鼻"
-        },
-        {
-          "en": "Madame Latomb",
-          "zh": "拉通布夫人"
+          "en": "Madame Latomb according to some versions of the story",
+          "zh": "拉通布夫人（按书中另一种说法）"
         },
         {
           "en": "Shivereen",
           "zh": "希薇琳"
         },
         {
+          "en": "Cheesy Lou Sweetsnout",
+          "zh": "甜嘴露·甜鼻"
+        },
+        {
           "en": "Aunt Sweetfur",
           "zh": "甜毛阿姨"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Cheesy Lou Sweetsnout is a country-singing cowmouse from Texas who tells Geronimo 'Every problem has a solution' and sends 100 horses and cowmice to deliver his paper.",
         "zh": "甜嘴露·甜鼻是一位来自德克萨斯州、唱乡村歌曲的牛仔鼠，她对杰罗尼摩说“每个问题都有解决办法”，还派了一百匹马和一百名牛仔鼠去送报纸。"
@@ -131,23 +131,23 @@
       },
       "options": [
         {
-          "en": "A fire broke out",
-          "zh": "着火了"
-        },
-        {
           "en": "A tornado hit",
           "zh": "龙卷风袭来"
         },
         {
-          "en": "The sewer pipe burst",
-          "zh": "污水管爆裂了"
+          "en": "The roof fell in according to some versions of the story",
+          "zh": "屋顶塌了（按书中另一种说法）"
         },
         {
-          "en": "The roof fell in",
-          "zh": "屋顶塌了"
+          "en": "A fire broke out",
+          "zh": "着火了"
+        },
+        {
+          "en": "The sewer pipe burst",
+          "zh": "污水管爆裂了"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": {
         "en": "A wave of foul-smelling water hit Geronimo; the sewer pipe had burst and soaked his whole house.",
         "zh": "一股臭水朝杰罗尼摩扑来——原来是污水管爆裂，把他的整间屋子都泡湿了。"
@@ -160,8 +160,8 @@
       },
       "options": [
         {
-          "en": "Benjamin, his nephew",
-          "zh": "他的侄子本杰明"
+          "en": "The baker",
+          "zh": "面包师"
         },
         {
           "en": "Hercule Poirat, his friend",
@@ -172,8 +172,8 @@
           "zh": "他的表哥特拉普"
         },
         {
-          "en": "The baker",
-          "zh": "面包师"
+          "en": "Benjamin, his nephew",
+          "zh": "他的侄子本杰明"
         }
       ],
       "answer": 2,
@@ -189,20 +189,20 @@
       },
       "options": [
         {
-          "en": "Sally Ratmousen",
-          "zh": "莎莉·鼠莫森"
+          "en": "Grandfather William",
+          "zh": "威廉爷爷"
         },
         {
           "en": "Hercule Poirat",
           "zh": "赫拉克·波瓦"
         },
         {
-          "en": "Cheesy Lou",
-          "zh": "甜嘴露"
+          "en": "Sally Ratmousen",
+          "zh": "莎莉·鼠莫森"
         },
         {
-          "en": "Grandfather William",
-          "zh": "威廉爷爷"
+          "en": "Cheesy Lou",
+          "zh": "甜嘴露"
         }
       ],
       "answer": 1,
@@ -218,6 +218,10 @@
       },
       "options": [
         {
+          "en": "A giant heart-shaped pizza",
+          "zh": "一个巨大的心形披萨"
+        },
+        {
           "en": "A cheesecake",
           "zh": "一块芝士蛋糕"
         },
@@ -226,15 +230,11 @@
           "zh": "一碗炖菜"
         },
         {
-          "en": "A giant heart-shaped pizza",
-          "zh": "一个巨大的心形披萨"
-        },
-        {
-          "en": "A chocolate cake",
-          "zh": "一个巧克力蛋糕"
+          "en": "A chocolate cake according to some versions of the story",
+          "zh": "一个巧克力蛋糕（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "When Grandfather William complained about pizza, Trap revealed a super-mega-huge pizza shaped like a heart.",
         "zh": "威廉爷爷抱怨怎么没有披萨，特拉普就端出了一个超级巨大的心形披萨。"
@@ -247,23 +247,23 @@
       },
       "options": [
         {
-          "en": "Buzzy Sweetsnout",
-          "zh": "巴兹·甜鼻"
-        },
-        {
-          "en": "Boris von Cacklefur",
-          "zh": "鲍里斯·冯·卡克福尔"
+          "en": "Professor Frankenstein",
+          "zh": "弗兰肯斯坦教授"
         },
         {
           "en": "Toughrat McBeefy",
           "zh": "壮鼠·麦克比菲"
         },
         {
-          "en": "Professor Frankenstein",
-          "zh": "弗兰肯斯坦教授"
+          "en": "Buzzy Sweetsnout",
+          "zh": "巴兹·甜鼻"
+        },
+        {
+          "en": "Boris von Cacklefur",
+          "zh": "鲍里斯·冯·卡克福尔"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "Toughrat McBeefy, Cheesy Lou's muscular fiancé (also called Little Bull), arrived on a white horse and lassoed himself cake and juice.",
         "zh": "壮鼠·麦克比菲是甜嘴露肌肉发达的未婚夫（也叫“小公牛”），他骑着白马出现，还用套索给自己套了块蛋糕和一杯橙汁。"
@@ -276,23 +276,23 @@
       },
       "options": [
         {
-          "en": "World peace",
-          "zh": "世界和平"
+          "en": "An endless supply of cheese",
+          "zh": "吃不完的奶酪"
         },
         {
           "en": "A new motorcycle",
           "zh": "一辆新摩托车"
         },
         {
-          "en": "An endless supply of cheese",
-          "zh": "吃不完的奶酪"
+          "en": "To be a movie star according to some versions of the story",
+          "zh": "成为电影明星（按书中另一种说法）"
         },
         {
-          "en": "To be a movie star",
-          "zh": "成为电影明星"
+          "en": "World peace",
+          "zh": "世界和平"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "Following Pinky Pick's balloon idea, Trap wrote 'I wish for an endless supply of cheese' before sending it skyward.",
         "zh": "按照平基·皮克的气球点子，特拉普写下“我希望有吃不完的奶酪”，然后让气球飞上了天。"

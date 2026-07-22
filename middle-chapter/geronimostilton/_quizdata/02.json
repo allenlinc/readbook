@@ -15,10 +15,6 @@
       },
       "options": [
         {
-          "en": "Mouse Island Times",
-          "zh": "《鼠岛时报》"
-        },
-        {
           "en": "The Pyramid Post",
           "zh": "《金字塔邮报》"
         },
@@ -27,11 +23,15 @@
           "zh": "《鼠民公报》"
         },
         {
+          "en": "Mouse Island Times according to some versions of the story",
+          "zh": "《鼠岛时报》（按书中另一种说法）"
+        },
+        {
           "en": "The Daily Cheese",
           "zh": "《每日奶酪》"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "Geronimo says he runs a newspaper called The Rodent's Gazette, the most popular paper on Mouse Island.",
         "zh": "杰罗尼摩说他自己经营一家报纸，名叫《鼠民公报》，是鼠岛上最受欢迎的报纸。"
@@ -44,23 +44,23 @@
       },
       "options": [
         {
-          "en": "Brave Mouse Billy",
-          "zh": "勇敢鼠比利"
-        },
-        {
           "en": "Cheesy Mouse Charlie",
           "zh": "奶酪鼠查理"
         },
         {
-          "en": "Chief Mouse Wilbur",
-          "zh": "酋长鼠威尔伯"
-        },
-        {
           "en": "Cheap Mouse Willy",
           "zh": "小气鼠威利"
+        },
+        {
+          "en": "Brave Mouse Billy",
+          "zh": "勇敢鼠比利"
+        },
+        {
+          "en": "Chief Mouse Wilbur",
+          "zh": "酋长鼠威尔伯"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "explain": {
         "en": "The book calls him 'also known as Cheap Mouse Willy' because he is always trying to save money.",
         "zh": "书中称他为“绰号小气鼠威利”，因为他总是想方设法省钱。"
@@ -77,12 +77,12 @@
           "zh": "去学习开飞机"
         },
         {
-          "en": "To buy him a new carpet",
-          "zh": "去给他买一张新地毯"
+          "en": "To visit his cousin Trap according to some versions of the story",
+          "zh": "去探望他的表哥特拉普（按书中另一种说法）"
         },
         {
-          "en": "To visit his cousin Trap",
-          "zh": "去探望他的表哥特拉普"
+          "en": "To buy him a new carpet",
+          "zh": "去给他买一张新地毯"
         },
         {
           "en": "To do a special report on the pyramids",
@@ -102,23 +102,23 @@
       },
       "options": [
         {
+          "en": "Dirt Cheap Airlines (DCA)",
+          "zh": "超便宜航空公司（DCA）"
+        },
+        {
           "en": "Pyramid Flyers",
           "zh": "金字塔飞行公司"
         },
         {
-          "en": "Royal Rodent Airways",
-          "zh": "皇家老鼠航空"
+          "en": "Royal Rodent Airways according to some versions of the story",
+          "zh": "皇家老鼠航空（按书中另一种说法）"
         },
         {
           "en": "Mouse Island Express",
           "zh": "鼠岛快运"
-        },
-        {
-          "en": "Dirt Cheap Airlines (DCA)",
-          "zh": "超便宜航空公司（DCA）"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "explain": {
         "en": "At the airport the agent says 'DCA Airlines? You mean Dirt Cheap Airlines?' — that is the airline Geronimo flew.",
         "zh": "在机场，工作人员说“DCA航空？你是说超便宜航空吧？”——杰罗尼摩坐的就是这家航空公司。"
@@ -131,8 +131,8 @@
       },
       "options": [
         {
-          "en": "Trap Stilton",
-          "zh": "特拉普·斯蒂顿"
+          "en": "Trap Stilton according to some versions of the story",
+          "zh": "特拉普·斯蒂顿（按书中另一种说法）"
         },
         {
           "en": "Sammy Slickpaw",
@@ -164,19 +164,19 @@
           "zh": "奶酪碎屑"
         },
         {
-          "en": "Camel dung",
-          "zh": "骆驼粪"
-        },
-        {
           "en": "Sunflower oil",
           "zh": "葵花油"
         },
         {
           "en": "Pyramid stones",
           "zh": "金字塔石头"
+        },
+        {
+          "en": "Camel dung",
+          "zh": "骆驼粪"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "The professor whispers that the raw material he uses to produce energy is camel dung, fermented with a secret ingredient.",
         "zh": "教授小声说，他用来制造能量的原料是骆驼粪，再配上一种秘密配料发酵而成。"
@@ -189,23 +189,23 @@
       },
       "options": [
         {
-          "en": "From a cookbook Trap gave him",
-          "zh": "来自特拉普给他的烹饪书"
-        },
-        {
-          "en": "From the ancient writing inside Cheops's pyramid",
-          "zh": "来自胡夫金字塔内部的古代文字"
-        },
-        {
           "en": "From a dream about a cat",
           "zh": "来自一个关于猫的梦"
         },
         {
           "en": "From Geronimo's newspaper",
           "zh": "来自杰罗尼摩的报纸"
+        },
+        {
+          "en": "From the ancient writing inside Cheops's pyramid",
+          "zh": "来自胡夫金字塔内部的古代文字"
+        },
+        {
+          "en": "From a cookbook Trap gave him according to some versions of the story",
+          "zh": "来自特拉普给他的烹饪书（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "The professor says he got the idea from the ancient hieroglyphs (the eye of Ra) inside Cheops's pyramid.",
         "zh": "教授说他是从胡夫金字塔内部的古代象形文字（拉神的眼睛）中获得灵感的。"
@@ -222,16 +222,16 @@
           "zh": "坐一艘叫“炸药号”的货船"
         },
         {
-          "en": "By riding a camel all the way",
-          "zh": "一路骑骆驼回去"
-        },
-        {
-          "en": "On Dirt Cheap Airlines again",
-          "zh": "又坐了超便宜航空"
+          "en": "By riding a camel all the way according to some versions of the story",
+          "zh": "一路骑骆驼回去（按书中另一种说法）"
         },
         {
           "en": "On a magic carpet",
           "zh": "坐魔法地毯"
+        },
+        {
+          "en": "On Dirt Cheap Airlines again",
+          "zh": "又坐了超便宜航空"
         }
       ],
       "answer": 0,
@@ -251,19 +251,19 @@
           "zh": "坠机·拉特杰克"
         },
         {
-          "en": "Professor Spitfur",
-          "zh": "斯皮特福教授"
-        },
-        {
-          "en": "Captain Ted Simplesnout",
-          "zh": "泰德·简单鼻船长"
-        },
-        {
           "en": "Squeaky Kaboom (Boom)",
           "zh": "吱吱·卡彭（人称“轰”）"
+        },
+        {
+          "en": "Captain Ted Simplesnout according to some versions of the story",
+          "zh": "泰德·简单鼻船长（按书中另一种说法）"
+        },
+        {
+          "en": "Professor Spitfur",
+          "zh": "斯皮特福教授"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "explain": {
         "en": "The ship's captain was a rodent named Squeaky Kaboom, but everyone called him Boom for short.",
         "zh": "船长是只叫吱吱·卡彭的老鼠，大家都简称他为“轰”。"
@@ -276,23 +276,23 @@
       },
       "options": [
         {
-          "en": "Fly high! Pyramids away!",
-          "zh": "高飞！金字塔再见！"
-        },
-        {
           "en": "Friends together! Mice forever!",
           "zh": "朋友同心！老鼠一家亲！"
         },
         {
-          "en": "Cheese forever! Rats never!",
-          "zh": "奶酪万岁！老鼠滚蛋！"
-        },
-        {
           "en": "Save money! Cut costs!",
           "zh": "省钱！削减开支！"
+        },
+        {
+          "en": "Fly high! Pyramids away!",
+          "zh": "高飞！金字塔再见！"
+        },
+        {
+          "en": "Cheese forever! Rats never! according to some versions of the story",
+          "zh": "奶酪万岁！老鼠滚蛋！（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "To seal Operation Rodent Freedom, they twisted their tails together and squeaked, 'Friends together! Mice forever!'",
         "zh": "为了启动“老鼠自由行动”，他们把尾巴缠在一起喊道：“朋友同心！老鼠一家亲！”"

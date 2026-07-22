@@ -15,23 +15,23 @@
       },
       "options": [
         {
-          "en": "Trap, who is the king of Transratania",
-          "zh": "特拉普，他是特拉特兰尼亚的国王"
+          "en": "Geronimo Stilton, who runs a newspaper called The Rodent's Gazette",
+          "zh": "杰罗尼摩·斯蒂顿，他经营着一份名叫《老鼠公报》的报纸"
         },
         {
           "en": "Benjamin, who is the cook at the ball",
           "zh": "本杰明，他是舞会上的厨师"
         },
         {
-          "en": "Geronimo Stilton, who runs a newspaper called The Rodent's Gazette",
-          "zh": "杰罗尼摩·斯蒂顿，他经营着一份名叫《老鼠公报》的报纸"
+          "en": "Trap, who is the king of Transratania according to some versions of the story",
+          "zh": "特拉普，他是特拉特兰尼亚的国王（按书中另一种说法）"
         },
         {
           "en": "Thea, who owns the Ratoff Castle",
           "zh": "蒂奥拉，她拥有拉托夫城堡"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "Geronimo is the narrator and he runs The Rodent's Gazette newspaper.",
         "zh": "杰罗尼摩是故事的讲述者，他经营着《老鼠公报》这份报纸。"
@@ -44,16 +44,16 @@
       },
       "options": [
         {
-          "en": "Count von Ratoff",
-          "zh": "拉托夫伯爵"
-        },
-        {
           "en": "His sister Thea",
           "zh": "他的妹妹蒂奥拉"
         },
         {
           "en": "His nephew Benjamin",
           "zh": "他的侄子本杰明"
+        },
+        {
+          "en": "Count von Ratoff",
+          "zh": "拉托夫伯爵"
         },
         {
           "en": "His cousin Trap",
@@ -77,19 +77,19 @@
           "zh": "坐汽车"
         },
         {
-          "en": "By flying bat",
-          "zh": "骑着蝙蝠飞行"
-        },
-        {
           "en": "By train",
           "zh": "乘火车"
         },
         {
           "en": "By boat",
           "zh": "乘船"
+        },
+        {
+          "en": "By flying bat",
+          "zh": "骑着蝙蝠飞行"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "They take a train that leaves at half-past six in the morning and arrives at Ratoff station.",
         "zh": "他们乘坐早上六点半出发的火车，抵达拉托夫车站。"
@@ -102,10 +102,6 @@
       },
       "options": [
         {
-          "en": "As a fashion trend from the city",
-          "zh": "作为城里流行的一种时尚"
-        },
-        {
           "en": "To keep vampires away",
           "zh": "为了驱赶吸血鬼"
         },
@@ -116,9 +112,13 @@
         {
           "en": "To celebrate a holiday",
           "zh": "为了庆祝某个节日"
+        },
+        {
+          "en": "As a fashion trend from the city",
+          "zh": "作为城里流行的一种时尚"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Geronimo realizes the rodents keep so much garlic because some say garlic keeps vampires away.",
         "zh": "杰罗尼摩意识到，这些老鼠储存大量大蒜是因为传说大蒜可以驱赶吸血鬼。"
@@ -131,23 +131,23 @@
       },
       "options": [
         {
-          "en": "Schnoz von der Nose",
-          "zh": "施诺兹·冯·德·诺斯"
+          "en": "Trip von Trappen",
+          "zh": "特里普·冯·特拉彭"
         },
         {
           "en": "Benjamin",
           "zh": "本杰明"
         },
         {
-          "en": "Don't Bother Me",
-          "zh": "别来烦我"
+          "en": "Schnoz von der Nose",
+          "zh": "施诺兹·冯·德·诺斯"
         },
         {
-          "en": "Trip von Trappen",
-          "zh": "特里普·冯·特拉彭"
+          "en": "Don't Bother Me",
+          "zh": "别来烦我"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": {
         "en": "When asked his name, the hunchback shrieks 'DON'T BOTHER ME!', so Benjamin calls him Mr. Don't-Bother-Me.",
         "zh": "当被问到名字时，驼背仆人大喊'别来烦我！'，于是本杰明便叫他'别来烦我先生'。"
@@ -160,23 +160,23 @@
       },
       "options": [
         {
-          "en": "The hunchback Don't Bother Me",
-          "zh": "驼背仆人'别来烦我'"
+          "en": "Count Schnoz von der Nose",
+          "zh": "施诺兹·冯·德·诺斯伯爵"
         },
         {
           "en": "Geronimo",
           "zh": "杰罗尼摩"
         },
         {
-          "en": "Count Schnoz von der Nose",
-          "zh": "施诺兹·冯·德·诺斯伯爵"
-        },
-        {
           "en": "Trap",
           "zh": "特拉普"
+        },
+        {
+          "en": "The hunchback Don't Bother Me",
+          "zh": "驼背仆人'别来烦我'"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "Snobella shows Thea fifty dozen red roses from her fiancé, Count Schnoz von der Nose.",
         "zh": "斯诺贝拉向蒂奥拉展示了未婚夫施诺兹·冯·德·诺斯伯爵送的五六十打红玫瑰。"
@@ -189,23 +189,23 @@
       },
       "options": [
         {
-          "en": "He is the king of Transratania",
-          "zh": "他是特拉特兰尼亚的国王"
+          "en": "He is related to Geronimo's newspaper rival according to some versions of the story",
+          "zh": "他与杰罗尼摩的报纸对手有亲戚关系（按书中另一种说法）"
         },
         {
-          "en": "He is related to Geronimo's newspaper rival",
-          "zh": "他与杰罗尼摩的报纸对手有亲戚关系"
+          "en": "He may be a descendant of the noble Von Trappen family",
+          "zh": "他可能是高贵的冯·特拉彭家族的后代"
         },
         {
           "en": "He is Count von Ratoff's long-lost son",
           "zh": "他是拉托夫伯爵失散多年的儿子"
         },
         {
-          "en": "He may be a descendant of the noble Von Trappen family",
-          "zh": "他可能是高贵的冯·特拉彭家族的后代"
+          "en": "He is the king of Transratania",
+          "zh": "他是特拉特兰尼亚的国王"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "explain": {
         "en": "Trap used a family research agency and found he may be a descendant of Trip von Trappen of Transratania.",
         "zh": "特拉普通过一家家族调查机构，发现自己可能是特拉特兰尼亚特里普·冯·特拉彭的后代。"
@@ -222,19 +222,19 @@
           "zh": "两位"
         },
         {
-          "en": "Fifty dozen",
-          "zh": "五六十打"
-        },
-        {
-          "en": "Twelve",
-          "zh": "十二位"
+          "en": "Fifty dozen according to some versions of the story",
+          "zh": "五六十打（按书中另一种说法）"
         },
         {
           "en": "Three hundred and forty-seven",
           "zh": "三百四十七位"
+        },
+        {
+          "en": "Twelve",
+          "zh": "十二位"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "explain": {
         "en": "Trap complains he cannot tell 347 guests they can chew their nails for dinner.",
         "zh": "特拉普抱怨说，他不能告诉三百四十七位客人晚餐只能啃指甲。"
@@ -247,20 +247,20 @@
       },
       "options": [
         {
-          "en": "Garlic soup",
-          "zh": "大蒜汤"
+          "en": "Cheese sandwiches according to some versions of the story",
+          "zh": "奶酪三明治（按书中另一种说法）"
         },
         {
-          "en": "Cheese sandwiches",
-          "zh": "奶酪三明治"
+          "en": "Blood pudding",
+          "zh": "血布丁"
         },
         {
           "en": "Pizzas with bug toppings",
           "zh": "加了虫子配料的比萨"
         },
         {
-          "en": "Blood pudding",
-          "zh": "血布丁"
+          "en": "Garlic soup",
+          "zh": "大蒜汤"
         }
       ],
       "answer": 2,
@@ -276,20 +276,20 @@
       },
       "options": [
         {
-          "en": "They are vampires who drink blood",
-          "zh": "他们是喝血的吸血鬼"
+          "en": "They are Geronimo's long-lost relatives",
+          "zh": "他们是杰罗尼摩失散多年的亲戚"
         },
         {
           "en": "They are actually bats, not mice",
           "zh": "他们其实是蝙蝠，而不是老鼠"
         },
         {
-          "en": "They are Geronimo's long-lost relatives",
-          "zh": "他们是杰罗尼摩失散多年的亲戚"
-        },
-        {
           "en": "They are famous movie stars",
           "zh": "他们是著名的电影明星"
+        },
+        {
+          "en": "They are vampires who drink blood",
+          "zh": "他们是喝血的吸血鬼"
         }
       ],
       "answer": 1,

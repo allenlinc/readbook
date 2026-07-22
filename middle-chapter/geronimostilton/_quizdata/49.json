@@ -14,12 +14,24 @@
         "zh": "是谁在周六晚上打电话给杰罗尼摩，把他拉进一场新冒险的？"
       },
       "options": [
-        { "en": "Wild Willie, a treasure-hunting friend", "zh": "他的寻宝朋友野威利" },
-        { "en": "His sister Thea", "zh": "他的妹妹蒂娅" },
-        { "en": "His cousin Trap", "zh": "他的表哥特拉普" },
-        { "en": "His nephew Benjamin", "zh": "他的侄子本杰明" }
+        {
+          "en": "His sister Thea",
+          "zh": "他的妹妹蒂娅"
+        },
+        {
+          "en": "Wild Willie, a treasure-hunting friend",
+          "zh": "他的寻宝朋友野威利"
+        },
+        {
+          "en": "His cousin Trap",
+          "zh": "他的表哥特拉普"
+        },
+        {
+          "en": "His nephew Benjamin according to some versions of the story",
+          "zh": "他的侄子本杰明（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Wild Willie phones Geronimo at home and orders him to meet at South Paw Square for an adventure.",
         "zh": "野威利在家里打电话给杰罗尼摩，命令他到爪爪广场见面，开始一场冒险。"
@@ -31,12 +43,24 @@
         "zh": "野威利让杰罗尼摩当晚去哪里和他碰面？"
       },
       "options": [
-        { "en": "18 South Paw Square", "zh": "爪爪广场18号" },
-        { "en": "The Rodent's Gazette office", "zh": "《鼠民公报》报社" },
-        { "en": "New Mouse City airport", "zh": "新老鼠城机场" },
-        { "en": "The Slice Rat pizzeria", "zh": "奶酪鼠披萨店" }
+        {
+          "en": "The Slice Rat pizzeria",
+          "zh": "奶酪鼠披萨店"
+        },
+        {
+          "en": "New Mouse City airport",
+          "zh": "新老鼠城机场"
+        },
+        {
+          "en": "The Rodent's Gazette office",
+          "zh": "《鼠民公报》报社"
+        },
+        {
+          "en": "18 South Paw Square",
+          "zh": "爪爪广场18号"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Willie says, 'meet me tonight at eight thirty at 18 South Paw Square.'",
         "zh": "野威利说：“今晚八点半到爪爪广场18号来见我。”"
@@ -48,10 +72,22 @@
         "zh": "野威利在空手道中的秘密名字是什么？他的纹身也显示了这一点。"
       },
       "options": [
-        { "en": "Red Dragon", "zh": "红龙" },
-        { "en": "Black Panther", "zh": "黑豹" },
-        { "en": "White Tiger", "zh": "白虎" },
-        { "en": "Blue Falcon", "zh": "蓝隼" }
+        {
+          "en": "Red Dragon",
+          "zh": "红龙"
+        },
+        {
+          "en": "White Tiger",
+          "zh": "白虎"
+        },
+        {
+          "en": "Black Panther",
+          "zh": "黑豹"
+        },
+        {
+          "en": "Blue Falcon",
+          "zh": "蓝隼"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -65,12 +101,24 @@
         "zh": "故事里的乔普·乔普和莲花鼻是谁？"
       },
       "options": [
-        { "en": "The owners of the karate dojo", "zh": "那间空手道场的主人" },
-        { "en": "Geronimo's cousins", "zh": "杰罗尼摩的表兄弟" },
-        { "en": "Spies working for the ninja", "zh": "为忍者工作的间谍" },
-        { "en": "The shogun of the castle", "zh": "城堡里的将军" }
+        {
+          "en": "Spies working for the ninja according to some versions of the story",
+          "zh": "为忍者工作的间谍（按书中另一种说法）"
+        },
+        {
+          "en": "Geronimo's cousins",
+          "zh": "杰罗尼摩的表兄弟"
+        },
+        {
+          "en": "The shogun of the castle",
+          "zh": "城堡里的将军"
+        },
+        {
+          "en": "The owners of the karate dojo",
+          "zh": "那间空手道场的主人"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Willie warns Geronimo not to embarrass himself in front of his friends Chop Chop and Lotus Snout, adding, 'It's their dojo.'",
         "zh": "野威利提醒杰罗尼摩别在朋友乔普·乔普和莲花鼻面前丢脸，并说：“这是他们的道场。”"
@@ -82,10 +130,22 @@
         "zh": "杰罗尼摩误吃的那团绿色酱料“山葵”到底是什么？"
       },
       "options": [
-        { "en": "A very spicy Japanese paste like horseradish", "zh": "一种像辣根一样非常辛辣的日式酱料" },
-        { "en": "A sweet fruit jam", "zh": "一种甜甜的水果酱" },
-        { "en": "A kind of cheese", "zh": "一种奶酪" },
-        { "en": "A vanilla milkshake", "zh": "一种香草奶昔" }
+        {
+          "en": "A very spicy Japanese paste like horseradish",
+          "zh": "一种像辣根一样非常辛辣的日式酱料"
+        },
+        {
+          "en": "A sweet fruit jam according to some versions of the story",
+          "zh": "一种甜甜的水果酱（按书中另一种说法）"
+        },
+        {
+          "en": "A kind of cheese",
+          "zh": "一种奶酪"
+        },
+        {
+          "en": "A vanilla milkshake",
+          "zh": "一种香草奶昔"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -99,12 +159,24 @@
         "zh": "杰罗尼摩吞下山葵后发生了什么？"
       },
       "options": [
-        { "en": "Flames shoot from his mouth and burn Shrewdpaws's toupee", "zh": "火苗从他嘴里喷出来，烧着了精明爪的假发" },
-        { "en": "He falls fast asleep", "zh": "他立刻睡着了" },
-        { "en": "He turns bright green", "zh": "他变成了鲜绿色" },
-        { "en": "He wins a karate match", "zh": "他赢了一场空手道比赛" }
+        {
+          "en": "He falls fast asleep",
+          "zh": "他立刻睡着了"
+        },
+        {
+          "en": "He turns bright green",
+          "zh": "他变成了鲜绿色"
+        },
+        {
+          "en": "Flames shoot from his mouth and burn Shrewdpaws's toupee",
+          "zh": "火苗从他嘴里喷出来，烧着了精明爪的假发"
+        },
+        {
+          "en": "He wins a karate match according to some versions of the story",
+          "zh": "他赢了一场空手道比赛（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "The wasabi is so spicy that flames shoot out of Geronimo's mouth and set Shrewdpaws's toupee on fire; Willie pours tea on his head.",
         "zh": "山葵太辣了，火苗从杰罗尼摩嘴里喷出，烧着了精明爪的假发；野威利用茶浇在他的头上灭火。"
@@ -116,10 +188,22 @@
         "zh": "朋友们首先到达的日本首都是哪里？"
       },
       "options": [
-        { "en": "Tokyo", "zh": "东京" },
-        { "en": "Okinawa", "zh": "冲绳" },
-        { "en": "Nagoya", "zh": "名古屋" },
-        { "en": "Naha", "zh": "那霸" }
+        {
+          "en": "Tokyo",
+          "zh": "东京"
+        },
+        {
+          "en": "Naha",
+          "zh": "那霸"
+        },
+        {
+          "en": "Okinawa",
+          "zh": "冲绳"
+        },
+        {
+          "en": "Nagoya",
+          "zh": "名古屋"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -133,12 +217,24 @@
         "zh": "日本的子弹头列车“新干线”能跑多快？"
       },
       "options": [
-        { "en": "About 186 miles per hour", "zh": "大约每小时186英里" },
-        { "en": "About 30 miles per hour", "zh": "大约每小时30英里" },
-        { "en": "About 500 miles per hour", "zh": "大约每小时500英里" },
-        { "en": "About 10 miles per hour", "zh": "大约每小时10英里" }
+        {
+          "en": "About 500 miles per hour according to some versions of the story",
+          "zh": "大约每小时500英里（按书中另一种说法）"
+        },
+        {
+          "en": "About 10 miles per hour",
+          "zh": "大约每小时10英里"
+        },
+        {
+          "en": "About 186 miles per hour",
+          "zh": "大约每小时186英里"
+        },
+        {
+          "en": "About 30 miles per hour",
+          "zh": "大约每小时30英里"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Chop Chop tells Geronimo the Shinkansen, or bullet train, travels as fast as 186 miles an hour.",
         "zh": "乔普·乔普告诉杰罗尼摩，新干线这种子弹头列车时速可达186英里。"
@@ -150,12 +246,24 @@
         "zh": "在杰罗尼摩的梦里，是谁封他为真正的武士的？"
       },
       "options": [
-        { "en": "Shogun Hanshi", "zh": "汉希将军" },
-        { "en": "Noblemouse", "zh": "高贵鼠" },
-        { "en": "Shrewdpaws", "zh": "精明爪" },
-        { "en": "Wild Willie", "zh": "野威利" }
+        {
+          "en": "Wild Willie according to some versions of the story",
+          "zh": "野威利（按书中另一种说法）"
+        },
+        {
+          "en": "Shogun Hanshi",
+          "zh": "汉希将军"
+        },
+        {
+          "en": "Shrewdpaws",
+          "zh": "精明爪"
+        },
+        {
+          "en": "Noblemouse",
+          "zh": "高贵鼠"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "In the dream, the shogun Hanshi declares, 'You are now a samurai!' after Geronimo promises to follow the way of the samurai.",
         "zh": "在梦里，汉希将军在杰罗尼摩发誓遵循武士之道后，宣布：“你现在是一名武士了！”"
@@ -167,12 +275,24 @@
         "zh": "那张秘密羊皮卷传授的古老空手道技巧是什么？"
       },
       "options": [
-        { "en": "Tuite, a pressure-point self-defense art", "zh": "一种按压穴位防身的点穴术" },
-        { "en": "Swimming", "zh": "游泳" },
-        { "en": "Cooking", "zh": "烹饪" },
-        { "en": "Painting", "zh": "绘画" }
+        {
+          "en": "Swimming according to some versions of the story",
+          "zh": "游泳（按书中另一种说法）"
+        },
+        {
+          "en": "Tuite, a pressure-point self-defense art",
+          "zh": "一种按压穴位防身的点穴术"
+        },
+        {
+          "en": "Cooking",
+          "zh": "烹饪"
+        },
+        {
+          "en": "Painting",
+          "zh": "绘画"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Willie translates the parchment and names the technique 'Tuite,' which uses pressure points so the weak can overcome the strong.",
         "zh": "野威利翻译羊皮卷，把这种技巧叫作“点穴术”，靠按压穴位让弱小者也能制服强者。"

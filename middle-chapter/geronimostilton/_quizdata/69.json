@@ -14,12 +14,24 @@
         "zh": "在春天第一天，是谁打电话给杰罗尼摩，不让他做白日梦？"
       },
       "options": [
-        {"en": "His grandfather William", "zh": "他的爷爷威廉"},
-        {"en": "His sister Thea", "zh": "他的妹妹西娅"},
-        {"en": "His friend Hercule", "zh": "他的朋友赫丘利"},
-        {"en": "The cook Tina", "zh": "厨师蒂娜"}
+        {
+          "en": "His sister Thea",
+          "zh": "他的妹妹西娅"
+        },
+        {
+          "en": "The cook Tina",
+          "zh": "厨师蒂娜"
+        },
+        {
+          "en": "His grandfather William",
+          "zh": "他的爷爷威廉"
+        },
+        {
+          "en": "His friend Hercule according to some versions of the story",
+          "zh": "他的朋友赫丘利（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Grandfather William calls and uses a countdown to force Geronimo to get to the office quickly.",
         "zh": "爷爷威廉打来电话，还用倒数计时的方式逼着杰罗尼摩赶紧去办公室上班。"
@@ -31,10 +43,22 @@
         "zh": "威廉爷爷发明了什么工具来监视偷懒的人？"
       },
       "options": [
-        {"en": "The slacker alarm", "zh": "偷懒警报器"},
-        {"en": "A tea cart", "zh": "一辆茶车"},
-        {"en": "A cheese camera", "zh": "奶酪相机"},
-        {"en": "A bicycle bell", "zh": "自行车铃"}
+        {
+          "en": "The slacker alarm",
+          "zh": "偷懒警报器"
+        },
+        {
+          "en": "A tea cart",
+          "zh": "一辆茶车"
+        },
+        {
+          "en": "A cheese camera according to some versions of the story",
+          "zh": "奶酪相机（按书中另一种说法）"
+        },
+        {
+          "en": "A bicycle bell",
+          "zh": "自行车铃"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -48,12 +72,24 @@
         "zh": "杰罗尼摩骑着自行车飞过一段树干后，落在了哪里？"
       },
       "options": [
-        {"en": "In a stinky compost heap", "zh": "在一个发臭的堆肥堆里"},
-        {"en": "In a soft meadow", "zh": "在一片柔软的草地上"},
-        {"en": "In a pond", "zh": "在一个池塘里"},
-        {"en": "In his bed", "zh": "在他的床上"}
+        {
+          "en": "In a soft meadow according to some versions of the story",
+          "zh": "在一片柔软的草地上（按书中另一种说法）"
+        },
+        {
+          "en": "In a pond",
+          "zh": "在一个池塘里"
+        },
+        {
+          "en": "In his bed",
+          "zh": "在他的床上"
+        },
+        {
+          "en": "In a stinky compost heap",
+          "zh": "在一个发臭的堆肥堆里"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "He slams on the brakes, flips over the trunk, and slides snout-down into a smelly compost heap.",
         "zh": "他猛踩刹车，从树干上翻了出去，脸朝下一路滑进了一个臭烘烘的堆肥堆。"
@@ -65,12 +101,24 @@
         "zh": "在斯蒂尔顿家农场附近的山顶上，矗立着一棵什么传奇大树？"
       },
       "options": [
-        {"en": "The Great Oak", "zh": "大橡树"},
-        {"en": "The Tall Pine", "zh": "高高的松树"},
-        {"en": "The Big Birch", "zh": "大桦树"},
-        {"en": "The Old Willow", "zh": "老柳树"}
+        {
+          "en": "The Tall Pine",
+          "zh": "高高的松树"
+        },
+        {
+          "en": "The Great Oak",
+          "zh": "大橡树"
+        },
+        {
+          "en": "The Big Birch",
+          "zh": "大桦树"
+        },
+        {
+          "en": "The Old Willow",
+          "zh": "老柳树"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Geronimo recognizes it as the legendary Great Oak from his childhood summers at the farm.",
         "zh": "杰罗尼摩认出那是他小时候在农场度夏时见过的大橡树。"
@@ -82,12 +130,24 @@
         "zh": "奥托·芝士蛋糕博士在《 rodent  Gazette 报》担任什么工作？"
       },
       "options": [
-        {"en": "The official dietician", "zh": "官方营养顾问"},
-        {"en": "The sports reporter", "zh": "体育记者"},
-        {"en": "The chief editor", "zh": "主编"},
-        {"en": "The gardener", "zh": "园丁"}
+        {
+          "en": "The gardener",
+          "zh": "园丁"
+        },
+        {
+          "en": "The chief editor",
+          "zh": "主编"
+        },
+        {
+          "en": "The sports reporter according to some versions of the story",
+          "zh": "体育记者（按书中另一种说法）"
+        },
+        {
+          "en": "The official dietician",
+          "zh": "官方营养顾问"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "He is Geronimo's personal dietician who writes the 'You Are What You Eat' column.",
         "zh": "他是杰罗尼摩的私人营养顾问，还写一个名为「你吃什么就像什么」的专栏。"
@@ -99,10 +159,22 @@
         "zh": "杰罗尼摩买下的农场位于什么地方？"
       },
       "options": [
-        {"en": "In the Happy Hills countryside", "zh": "在快乐山丘的乡间"},
-        {"en": "In New Mouse City", "zh": "在新老鼠城"},
-        {"en": "On a faraway island", "zh": "在一个遥远的岛上"},
-        {"en": "In Mysterious Valley", "zh": "在神秘山谷"}
+        {
+          "en": "In the Happy Hills countryside",
+          "zh": "在快乐山丘的乡间"
+        },
+        {
+          "en": "In Mysterious Valley",
+          "zh": "在神秘山谷"
+        },
+        {
+          "en": "In New Mouse City",
+          "zh": "在新老鼠城"
+        },
+        {
+          "en": "On a faraway island according to some versions of the story",
+          "zh": "在一个遥远的岛上（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -116,12 +188,24 @@
         "zh": "诺夫人想买下大橡树所在的地皮是为了什么？"
       },
       "options": [
-        {"en": "To cut it down and build a mall", "zh": "砍掉树并建一座购物中心"},
-        {"en": "To plant a garden", "zh": "开辟一座花园"},
-        {"en": "To open a school", "zh": "开办一所学校"},
-        {"en": "To build a zoo", "zh": "建造一座动物园"}
+        {
+          "en": "To plant a garden according to some versions of the story",
+          "zh": "开辟一座花园（按书中另一种说法）"
+        },
+        {
+          "en": "To cut it down and build a mall",
+          "zh": "砍掉树并建一座购物中心"
+        },
+        {
+          "en": "To build a zoo",
+          "zh": "建造一座动物园"
+        },
+        {
+          "en": "To open a school",
+          "zh": "开办一所学校"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "EGO Corp, led by Madame No, plans to cut down the tree to make room for a huge shopping mall.",
         "zh": "诺夫人掌管的巨型企业计划砍掉大树，腾出地方建一座巨大的购物中心。"
@@ -133,12 +217,24 @@
         "zh": "是谁在大橡树脚下放下了那块秘密石碑？"
       },
       "options": [
-        {"en": "Grant Gentlemouse", "zh": "格兰特·绅士鼠"},
-        {"en": "Grandfather William", "zh": "威廉爷爷"},
-        {"en": "Madame No", "zh": "诺夫人"},
-        {"en": "Tina Spicytail", "zh": "蒂娜·辣尾"}
+        {
+          "en": "Madame No",
+          "zh": "诺夫人"
+        },
+        {
+          "en": "Tina Spicytail",
+          "zh": "蒂娜·辣尾"
+        },
+        {
+          "en": "Grant Gentlemouse",
+          "zh": "格兰特·绅士鼠"
+        },
+        {
+          "en": "Grandfather William according to some versions of the story",
+          "zh": "威廉爷爷（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Grant Gentlemouse, founder of New Mouse City, placed the wishing stone beneath the Great Oak.",
         "zh": "新老鼠城的创立者格兰特·绅士鼠在大橡树下放下了这块许愿石碑。"
@@ -150,12 +246,24 @@
         "zh": "杰罗尼摩和朋友们是怎么为拍卖会筹钱的？"
       },
       "options": [
-        {"en": "By printing a special edition newspaper", "zh": "通过印刷一期特刊报纸"},
-        {"en": "By selling the farm", "zh": "通过卖掉农场"},
-        {"en": "By baking pies", "zh": "通过烤派"},
-        {"en": "By riding bikes", "zh": "通过骑自行车"}
+        {
+          "en": "By riding bikes",
+          "zh": "通过骑自行车"
+        },
+        {
+          "en": "By printing a special edition newspaper",
+          "zh": "通过印刷一期特刊报纸"
+        },
+        {
+          "en": "By baking pies",
+          "zh": "通过烤派"
+        },
+        {
+          "en": "By selling the farm according to some versions of the story",
+          "zh": "通过卖掉农场（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Grandfather runs a special edition of The Rodent's Gazette and all proceeds go to the auction.",
         "zh": "爷爷发行了一期《鼠民公报》特刊，所有收入都用来参加拍卖会。"
@@ -167,10 +275,22 @@
         "zh": "为了拯救大橡树，杰罗尼摩和朋友们决定怎么做？"
       },
       "options": [
-        {"en": "Go to the auction and win it", "zh": "去拍卖会并拍下它"},
-        {"en": "Move to another city", "zh": "搬到另一座城市"},
-        {"en": "Hide the tree", "zh": "把树藏起来"},
-        {"en": "Sell the newspaper", "zh": "卖掉报纸"}
+        {
+          "en": "Go to the auction and win it",
+          "zh": "去拍卖会并拍下它"
+        },
+        {
+          "en": "Hide the tree",
+          "zh": "把树藏起来"
+        },
+        {
+          "en": "Sell the newspaper",
+          "zh": "卖掉报纸"
+        },
+        {
+          "en": "Move to another city according to some versions of the story",
+          "zh": "搬到另一座城市（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {

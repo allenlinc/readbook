@@ -14,12 +14,24 @@
         "zh": "Geronimo 被邀请为哪个活动致开幕词？"
       },
       "options": [
-        {"en": "The New Mouse City Film Festival", "zh": "新老鼠城电影节"},
-        {"en": "A surfing race in Hawaii", "zh": "夏威夷的冲浪比赛"},
-        {"en": "A cheese-baking contest", "zh": "一场奶酪烘焙比赛"},
-        {"en": "A birthday party for Madame No", "zh": "Madame No 的生日派对"}
+        {
+          "en": "A surfing race in Hawaii",
+          "zh": "夏威夷的冲浪比赛"
+        },
+        {
+          "en": "The New Mouse City Film Festival",
+          "zh": "新老鼠城电影节"
+        },
+        {
+          "en": "A birthday party for Madame No",
+          "zh": "Madame No 的生日派对"
+        },
+        {
+          "en": "A cheese-baking contest",
+          "zh": "一场奶酪烘焙比赛"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Mousella reminds Geronimo he agreed to give the opening speech for the first New Mouse City Film Festival.",
         "zh": "Mousella 提醒 Geronimo，他答应担任首届新老鼠城电影节的开幕致辞嘉宾。"
@@ -31,10 +43,22 @@
         "zh": "Creepella von Cacklefur 在电影节担任什么角色？"
       },
       "options": [
-        {"en": "A judge who is an expert on scary movies", "zh": "一位恐怖片专家评委"},
-        {"en": "The festival director", "zh": "电影节总监"},
-        {"en": "The thief", "zh": "那个小偷"},
-        {"en": "A news reporter", "zh": "一名新闻记者"}
+        {
+          "en": "A judge who is an expert on scary movies",
+          "zh": "一位恐怖片专家评委"
+        },
+        {
+          "en": "The thief",
+          "zh": "那个小偷"
+        },
+        {
+          "en": "The festival director according to some versions of the story",
+          "zh": "电影节总监（按书中另一种说法）"
+        },
+        {
+          "en": "A news reporter",
+          "zh": "一名新闻记者"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -48,12 +72,24 @@
         "zh": "谁的那部秘密电影被从保险柜里偷走了？"
       },
       "options": [
-        {"en": "Mousen Scorsese", "zh": "Mousen Scorsese"},
-        {"en": "Trap Stilton", "zh": "Trap Stilton"},
-        {"en": "Jack Monterey", "zh": "Jack Monterey"},
-        {"en": "Benjamin Stilton", "zh": "Benjamin Stilton"}
+        {
+          "en": "Benjamin Stilton",
+          "zh": "Benjamin Stilton"
+        },
+        {
+          "en": "Trap Stilton",
+          "zh": "Trap Stilton"
+        },
+        {
+          "en": "Mousen Scorsese",
+          "zh": "Mousen Scorsese"
+        },
+        {
+          "en": "Jack Monterey",
+          "zh": "Jack Monterey"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Director Mousen Scorsese's top-secret movie was deleted from the projector and its only backup drive was taken from the safe.",
         "zh": "导演 Mousen Scorsese 那部绝密电影被从放映机删除，唯一的备份硬盘也被人从保险柜取走。"
@@ -65,12 +101,24 @@
         "zh": "安保摄像头在几点被关闭，标志着盗窃发生？"
       },
       "options": [
-        {"en": "8:00 p.m. on the first day", "zh": "第一天晚上 8 点"},
-        {"en": "Midnight", "zh": "午夜"},
-        {"en": "6:00 a.m.", "zh": "早上 6 点"},
-        {"en": "Noon", "zh": "中午"}
+        {
+          "en": "Noon",
+          "zh": "中午"
+        },
+        {
+          "en": "6:00 a.m. according to some versions of the story",
+          "zh": "早上 6 点（按书中另一种说法）"
+        },
+        {
+          "en": "8:00 p.m. on the first day",
+          "zh": "第一天晚上 8 点"
+        },
+        {
+          "en": "Midnight",
+          "zh": "午夜"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Creepella discovers the security cameras were disabled at 8:00 p.m. the day before, the time of the robbery.",
         "zh": "Creepella 发现安保摄像头在前一天晚上 8 点被关闭，正是盗窃发生的时间。"
@@ -82,12 +130,24 @@
         "zh": "Mousen Scorsese 那部被盗电影原本有几份拷贝？"
       },
       "options": [
-        {"en": "Only one, saved on the backup drive", "zh": "只有一份，保存在备份硬盘里"},
-        {"en": "Five copies", "zh": "五份"},
-        {"en": "A hundred copies", "zh": "一百份"},
-        {"en": "None, it was never finished", "zh": "一份都没有，电影没拍完"}
+        {
+          "en": "None, it was never finished according to some versions of the story",
+          "zh": "一份都没有，电影没拍完（按书中另一种说法）"
+        },
+        {
+          "en": "Five copies",
+          "zh": "五份"
+        },
+        {
+          "en": "A hundred copies",
+          "zh": "一百份"
+        },
+        {
+          "en": "Only one, saved on the backup drive",
+          "zh": "只有一份，保存在备份硬盘里"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Mousen admits it was the only copy; he wanted only one to make it seem extra top secret.",
         "zh": "Mousen 承认那是唯一的拷贝，他想只留一份以显得格外绝密。"
@@ -99,10 +159,22 @@
         "zh": "Hercule 的嫌疑人名单上有哪三只老鼠？"
       },
       "options": [
-        {"en": "Toasty Fontina, Ronaldo Crostini, and Albus Mackintosh", "zh": "Toasty Fontina、Ronaldo Crostini 和 Albus Mackintosh"},
-        {"en": "Hercule, Trap, and Benjamin", "zh": "Hercule、Trap 和 Benjamin"},
-        {"en": "Kealoha, Kai, and Shadow", "zh": "Kealoha、Kai 和 Shadow"},
-        {"en": "Creepella, Mousella, and Jack", "zh": "Creepella、Mousella 和 Jack"}
+        {
+          "en": "Toasty Fontina, Ronaldo Crostini, and Albus Mackintosh",
+          "zh": "Toasty Fontina、Ronaldo Crostini 和 Albus Mackintosh"
+        },
+        {
+          "en": "Hercule, Trap, and Benjamin",
+          "zh": "Hercule、Trap 和 Benjamin"
+        },
+        {
+          "en": "Creepella, Mousella, and Jack according to some versions of the story in an early draft of the book",
+          "zh": "Creepella、Mousella 和 Jack（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Kealoha, Kai, and Shadow",
+          "zh": "Kealoha、Kai 和 Shadow"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -116,12 +188,24 @@
         "zh": "那位实际上偷走电影、假装成影迷的神秘小母鼠是谁？"
       },
       "options": [
-        {"en": "Shadow, Madame No's thief", "zh": "Shadow，Madame No 的手下窃贼"},
-        {"en": "Mousella", "zh": "Mousella"},
-        {"en": "Thea Stilton", "zh": "Thea Stilton"},
-        {"en": "A tourist from Hawaii", "zh": "一位来自夏威夷的游客"}
+        {
+          "en": "Mousella",
+          "zh": "Mousella"
+        },
+        {
+          "en": "Shadow, Madame No's thief",
+          "zh": "Shadow，Madame No 的手下窃贼"
+        },
+        {
+          "en": "Thea Stilton",
+          "zh": "Thea Stilton"
+        },
+        {
+          "en": "A tourist from Hawaii according to some versions of the story",
+          "zh": "一位来自夏威夷的游客（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "The thief removes her wig, sunglasses, and dress to reveal she is Shadow, the most famous thief on Mouse Island.",
         "zh": "小偷摘下假发、墨镜和裙子，露出她其实是 Shadow，老鼠岛上最有名的窃贼。"
@@ -133,12 +217,24 @@
         "zh": "侦探们是如何拍到小偷作案画面的？"
       },
       "options": [
-        {"en": "Trap's camera was left running by the changing room", "zh": "Trap 的摄影机落在更衣室旁一直开着"},
-        {"en": "A security camera caught her", "zh": "安保摄像头拍到了她"},
-        {"en": "Geronimo took a photo", "zh": "Geronimo 拍了照片"},
-        {"en": "Madame No recorded it", "zh": "Madame No 录了下来"}
+        {
+          "en": "A security camera caught her according to some versions of the story",
+          "zh": "安保摄像头拍到了她（按书中另一种说法）"
+        },
+        {
+          "en": "Madame No recorded it",
+          "zh": "Madame No 录了下来"
+        },
+        {
+          "en": "Geronimo took a photo",
+          "zh": "Geronimo 拍了照片"
+        },
+        {
+          "en": "Trap's camera was left running by the changing room",
+          "zh": "Trap 的摄影机落在更衣室旁一直开着"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Trap had forgotten his camera and left it running; it recorded the mouselet tampering with the camera and taking the keys.",
         "zh": "Trap 忘了拿摄影机，机器一直开着，录下了小母鼠动摄像头和拿走钥匙的过程。"
@@ -150,12 +246,24 @@
         "zh": "小偷打算在咖啡馆和谁见面？"
       },
       "options": [
-        {"en": "Madame No", "zh": "Madame No"},
-        {"en": "Mousen Scorsese", "zh": "Mousen Scorsese"},
-        {"en": "Geronimo's grandfather", "zh": "Geronimo 的爷爷"},
-        {"en": "The festival director Jack", "zh": "电影节总监 Jack"}
+        {
+          "en": "Geronimo's grandfather",
+          "zh": "Geronimo 的爷爷"
+        },
+        {
+          "en": "Madame No",
+          "zh": "Madame No"
+        },
+        {
+          "en": "The festival director Jack",
+          "zh": "电影节总监 Jack"
+        },
+        {
+          "en": "Mousen Scorsese",
+          "zh": "Mousen Scorsese"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "A leopard-print car arrives and Madame No steps out to meet the thief, who had the stolen movie in her bag.",
         "zh": "一辆豹纹汽车驶来，Madame No 下车与小偷见面，小偷的包里正放着被盗电影。"
@@ -167,10 +275,22 @@
         "zh": "Mousen Scorsese 那部秘密电影究竟讲的是什么？"
       },
       "options": [
-        {"en": "Exposing Madame No's EGO Industries pollution", "zh": "揭露 Madame No 的 EGO 工业污染行为"},
-        {"en": "A romance on the beach", "zh": "海滩上的爱情故事"},
-        {"en": "How to surf", "zh": "如何冲浪"},
-        {"en": "A cheese-baking recipe", "zh": "奶酪烘焙食谱"}
+        {
+          "en": "Exposing Madame No's EGO Industries pollution",
+          "zh": "揭露 Madame No 的 EGO 工业污染行为"
+        },
+        {
+          "en": "A cheese-baking recipe",
+          "zh": "奶酪烘焙食谱"
+        },
+        {
+          "en": "A romance on the beach according to some versions of the story",
+          "zh": "海滩上的爱情故事（按书中另一种说法）"
+        },
+        {
+          "en": "How to surf",
+          "zh": "如何冲浪"
+        }
       ],
       "answer": 0,
       "explain": {

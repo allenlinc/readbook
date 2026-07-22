@@ -14,10 +14,22 @@
         "zh": "故事开头，杰罗尼摩被困在了什么地方？"
       },
       "options": [
-        {"en": "In the elevator of the public library", "zh": "公共图书馆的电梯里"},
-        {"en": "In his office at the newspaper", "zh": "报社办公室里"},
-        {"en": "Inside a dark cave", "zh": "一个黑暗的洞穴里"},
-        {"en": "On a helicopter", "zh": "一架直升机上"}
+        {
+          "en": "In the elevator of the public library",
+          "zh": "公共图书馆的电梯里"
+        },
+        {
+          "en": "Inside a dark cave",
+          "zh": "一个黑暗的洞穴里"
+        },
+        {
+          "en": "In his office at the newspaper according to some versions of the story",
+          "zh": "报社办公室里（按书中另一种说法）"
+        },
+        {
+          "en": "On a helicopter",
+          "zh": "一架直升机上"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -31,12 +43,24 @@
         "zh": "是谁把杰罗尼摩从卡住的电梯里救出来的？"
       },
       "options": [
-        {"en": "His cousin Trap", "zh": "他的表哥特拉普"},
-        {"en": "His sister Thea", "zh": "他的妹妹茜亚"},
-        {"en": "Bruce Hyena", "zh": "布鲁斯·海纳"},
-        {"en": "His nephew Benjamin", "zh": "他的侄子本杰明"}
+        {
+          "en": "His cousin Trap",
+          "zh": "他的表哥特拉普"
+        },
+        {
+          "en": "Bruce Hyena",
+          "zh": "布鲁斯·海纳"
+        },
+        {
+          "en": "His sister Thea",
+          "zh": "他的妹妹茜亚"
+        },
+        {
+          "en": "His nephew Benjamin",
+          "zh": "他的侄子本杰明"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "Bruce Hyena answered Geronimo's phone call and arrived to pry the elevator doors open.",
         "zh": "布鲁斯·海纳接到了杰罗尼摩的电话，赶来把电梯门撬开救了他。"
@@ -48,10 +72,22 @@
         "zh": "布鲁斯的黄金生存法则第一条是什么？"
       },
       "options": [
-        {"en": "Be quick on your paws", "zh": "手脚要快"},
-        {"en": "Always keep calm", "zh": "始终保持冷静"},
-        {"en": "Learn to adapt", "zh": "学会适应"},
-        {"en": "Be aware of your surroundings", "zh": "留意周围的环境"}
+        {
+          "en": "Be quick on your paws",
+          "zh": "手脚要快"
+        },
+        {
+          "en": "Always keep calm",
+          "zh": "始终保持冷静"
+        },
+        {
+          "en": "Learn to adapt",
+          "zh": "学会适应"
+        },
+        {
+          "en": "Be aware of your surroundings",
+          "zh": "留意周围的环境"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -65,12 +101,24 @@
         "zh": "布鲁斯先把杰罗尼摩带到了哪片沙漠训练？"
       },
       "options": [
-        {"en": "The Sahara Desert", "zh": "撒哈拉沙漠"},
-        {"en": "The Arctic", "zh": "北极地区"},
-        {"en": "The Gobi", "zh": "戈壁沙漠"},
-        {"en": "The Antarctic", "zh": "南极洲"}
+        {
+          "en": "The Arctic",
+          "zh": "北极地区"
+        },
+        {
+          "en": "The Gobi",
+          "zh": "戈壁沙漠"
+        },
+        {
+          "en": "The Sahara Desert",
+          "zh": "撒哈拉沙漠"
+        },
+        {
+          "en": "The Antarctic according to some versions of the story",
+          "zh": "南极洲（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Bruce flew Geronimo to the Sahara, describing it as a huge, hot, dry place with lots of camels.",
         "zh": "布鲁斯把杰罗尼摩空运到撒哈拉，说那里又大又热又干，还有很多骆驼。"
@@ -82,10 +130,22 @@
         "zh": "在‘真老鼠测验第一关’里，布鲁斯拿什么吓唬杰罗尼摩？"
       },
       "options": [
-        {"en": "A rubber snake", "zh": "一条橡胶蛇"},
-        {"en": "A rubber scorpion", "zh": "一只橡胶蝎子"},
-        {"en": "A real spider", "zh": "一只真蜘蛛"},
-        {"en": "A bee", "zh": "一只蜜蜂"}
+        {
+          "en": "A bee",
+          "zh": "一只蜜蜂"
+        },
+        {
+          "en": "A rubber scorpion",
+          "zh": "一只橡胶蝎子"
+        },
+        {
+          "en": "A rubber snake according to some versions of the story",
+          "zh": "一条橡胶蛇（按书中另一种说法）"
+        },
+        {
+          "en": "A real spider",
+          "zh": "一只真蜘蛛"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -99,12 +159,24 @@
         "zh": "在第五关测验里，杰罗尼摩跳进什么里面躲开愤怒的蜜蜂？"
       },
       "options": [
-        {"en": "A pond in the oasis", "zh": "绿洲里的水塘"},
-        {"en": "The open sea", "zh": "开阔的大海"},
-        {"en": "A fast river", "zh": "一条湍急的河"},
-        {"en": "A mountain lake", "zh": "一座山间湖泊"}
+        {
+          "en": "A fast river",
+          "zh": "一条湍急的河"
+        },
+        {
+          "en": "A mountain lake according to some versions of the story",
+          "zh": "一座山间湖泊（按书中另一种说法）"
+        },
+        {
+          "en": "The open sea",
+          "zh": "开阔的大海"
+        },
+        {
+          "en": "A pond in the oasis",
+          "zh": "绿洲里的水塘"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "After Bruce shook the bees' nest onto his head, Geronimo ran to the pond in the middle of the oasis and dove in.",
         "zh": "布鲁斯把蜂巢摇到他头上后，杰罗尼摩跑到绿洲中央的水塘，一头扎了进去。"
@@ -116,12 +188,24 @@
         "zh": "他们拉雪橇走了多少英里才到达北极？"
       },
       "options": [
-        {"en": "About 50 miles", "zh": "大约五十英里"},
-        {"en": "About 200 miles", "zh": "大约两百英里"},
-        {"en": "About 100 miles", "zh": "大约一百英里"},
-        {"en": "About 1,000 miles", "zh": "大约一千英里"}
+        {
+          "en": "About 1,000 miles",
+          "zh": "大约一千英里"
+        },
+        {
+          "en": "About 200 miles",
+          "zh": "大约两百英里"
+        },
+        {
+          "en": "About 50 miles",
+          "zh": "大约五十英里"
+        },
+        {
+          "en": "About 100 miles",
+          "zh": "大约一百英里"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": {
         "en": "Bruce said they would pull sleds for a good hundred miles until the GPS told them they had hit the North Pole.",
         "zh": "布鲁斯说他们要拉雪橇走足足一百英里，直到导航显示抵达北极为止。"
@@ -133,12 +217,24 @@
         "zh": "在丛林里，谁把杰罗尼摩当成了自己的宝宝？"
       },
       "options": [
-        {"en": "A hungry tiger", "zh": "一只饥饿的老虎"},
-        {"en": "An orangutan mother", "zh": "一只猩猩妈妈"},
-        {"en": "A crocodile", "zh": "一条鳄鱼"},
-        {"en": "Bruce Hyena", "zh": "布鲁斯·海纳"}
+        {
+          "en": "A crocodile",
+          "zh": "一条鳄鱼"
+        },
+        {
+          "en": "Bruce Hyena",
+          "zh": "布鲁斯·海纳"
+        },
+        {
+          "en": "An orangutan mother",
+          "zh": "一只猩猩妈妈"
+        },
+        {
+          "en": "A hungry tiger according to some versions of the story",
+          "zh": "一只饥饿的老虎（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "An orangutan mother plucked Geronimo from the tree and rocked him, thinking he was one of her babies.",
         "zh": "一只猩猩妈妈把杰罗尼摩从树上抱下来轻轻摇晃，以为他是自己的宝宝。"
@@ -150,12 +246,24 @@
         "zh": "在漆黑的洞穴里，布鲁斯最后是怎么找到杰罗尼摩的？"
       },
       "options": [
-        {"en": "By smelling his cheese", "zh": "闻到他身上的奶酪味"},
-        {"en": "By hearing him sing", "zh": "听到他在唱歌"},
-        {"en": "By a flashlight beam", "zh": "借助手电筒的光"},
-        {"en": "By shouting his name", "zh": "大声喊他的名字"}
+        {
+          "en": "By hearing him sing",
+          "zh": "听到他在唱歌"
+        },
+        {
+          "en": "By shouting his name",
+          "zh": "大声喊他的名字"
+        },
+        {
+          "en": "By a flashlight beam",
+          "zh": "借助手电筒的光"
+        },
+        {
+          "en": "By smelling his cheese",
+          "zh": "闻到他身上的奶酪味"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Geronimo sang his 'I'm a Calm Mouse' song; Bruce heard him singing and found him in the dark.",
         "zh": "杰罗尼摩唱起了那首《我是只冷静鼠》的歌，布鲁斯循着歌声在黑暗中找到了他。"
@@ -167,12 +275,24 @@
         "zh": "回到家乡后，是什么灾害让杰罗尼摩组织志愿者去救援？"
       },
       "options": [
-        {"en": "A big earthquake", "zh": "一场大地震"},
-        {"en": "A terrible flood", "zh": "一场可怕的洪水"},
-        {"en": "A storm near Blue Dolphin Bay", "zh": "蓝海豚湾附近的一场风暴"},
-        {"en": "A fire at the newspaper", "zh": "报社的一场火灾"}
+        {
+          "en": "A storm near Blue Dolphin Bay",
+          "zh": "蓝海豚湾附近的一场风暴"
+        },
+        {
+          "en": "A fire at the newspaper according to some versions of the story",
+          "zh": "报社的一场火灾（按书中另一种说法）"
+        },
+        {
+          "en": "A terrible flood",
+          "zh": "一场可怕的洪水"
+        },
+        {
+          "en": "A big earthquake",
+          "zh": "一场大地震"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "A major storm hit the northern part of Mouse Island near Blue Dolphin Bay, and Mayor Ratmouse asked Geronimo for help.",
         "zh": "一场大风暴袭击了鼠岛北部蓝海豚湾附近的区域，老鼠市长向杰罗尼摩求助。"

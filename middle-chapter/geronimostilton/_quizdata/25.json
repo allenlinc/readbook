@@ -15,23 +15,23 @@
       },
       "options": [
         {
+          "en": "A phone call from Sally Ratmousen according to some versions of the story",
+          "zh": "莎莉·鼠莫森打来的电话（按书中另一种说法）"
+        },
+        {
           "en": "A lavender-scented letter from Aunt Sweetfur",
           "zh": "一封甜毛阿姨寄来的薰衣草香味信"
         },
         {
-          "en": "A phone call from Sally Ratmousen",
-          "zh": "莎莉·鼠莫森打来的电话"
+          "en": "A dream about cheese",
+          "zh": "一个关于奶酪的梦"
         },
         {
           "en": "A note from Creepella",
           "zh": "克里普拉留下的字条"
-        },
-        {
-          "en": "A dream about cheese",
-          "zh": "一个关于奶酪的梦"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Geronimo finds a lavender letter on his desk from Aunt Sweetfur saying they must talk; she arrives that very day.",
         "zh": "杰罗尼摩在桌上发现一封甜毛阿姨的薰衣草香味信，说有要事相谈；阿姨当天就到了。"
@@ -44,23 +44,23 @@
       },
       "options": [
         {
-          "en": "He became a famous chef",
-          "zh": "他成了有名的厨师"
-        },
-        {
           "en": "He was a seamouse who vanished at sea",
           "zh": "他是一名水手鼠，在海上失踪了"
         },
         {
-          "en": "He became a schoolteacher",
-          "zh": "他当了一名老师"
+          "en": "He became a schoolteacher according to some versions of the story",
+          "zh": "他当了一名老师（按书中另一种说法）"
         },
         {
           "en": "He turned into a pirate",
           "zh": "他变成了海盗"
+        },
+        {
+          "en": "He became a famous chef",
+          "zh": "他成了有名的厨师"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Uncle Grayfur was a seamouse who sailed to the Ratlápagos Islands about twenty years earlier searching for a treasure and never returned.",
         "zh": "灰毛叔叔是一名水手鼠，大约二十年前乘船前往鼠加拉帕戈斯群岛寻找宝藏，此后再也没有回来。"
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "The Pink Princess",
-          "zh": "粉红公主号"
-        },
-        {
           "en": "The Dirty Rotten Rodent",
           "zh": "肮脏坏老鼠号"
         },
@@ -85,11 +81,15 @@
           "zh": "金橘号"
         },
         {
+          "en": "The Pink Princess",
+          "zh": "粉红公主号"
+        },
+        {
           "en": "The Queen Ratsy",
           "zh": "鼠西女王号"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "Admiral Sea Snout's logbook names the lost ship as The Golden Rind, which sank in 1713 near Cream Cheese Island.",
         "zh": "海鼻海军上将的航海日志写明沉船叫“金橘号”，它于1713年沉没在奶油奶酪岛附近。"
@@ -110,8 +110,8 @@
           "zh": "三颗"
         },
         {
-          "en": "Thirty",
-          "zh": "三十颗"
+          "en": "Thirty according to some versions of the story",
+          "zh": "三十颗（按书中另一种说法）"
         },
         {
           "en": "Ten",
@@ -131,16 +131,16 @@
       },
       "options": [
         {
-          "en": "Milton Musclemouse",
-          "zh": "米尔顿·肌肉鼠"
+          "en": "Greedy Whiskers",
+          "zh": "贪婪胡须"
         },
         {
           "en": "Tiny Tunes",
           "zh": "小调"
         },
         {
-          "en": "Greedy Whiskers",
-          "zh": "贪婪胡须"
+          "en": "Milton Musclemouse according to some versions of the story",
+          "zh": "米尔顿·肌肉鼠（按书中另一种说法）"
         },
         {
           "en": "Scamper Skipper Paws",
@@ -164,19 +164,19 @@
           "zh": "鱼肉火锅"
         },
         {
-          "en": "Trap's Spicy Bean Bonanza",
-          "zh": "特拉普的辣味豆大餐"
+          "en": "Grilled cheese sandwiches according to some versions of the story",
+          "zh": "烤奶酪三明治（按书中另一种说法）"
         },
         {
-          "en": "Grilled cheese sandwiches",
-          "zh": "烤奶酪三明治"
+          "en": "Trap's Spicy Bean Bonanza",
+          "zh": "特拉普的辣味豆大餐"
         },
         {
           "en": "A cheddar log",
           "zh": "一根切达奶酪卷"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Trap serves his Spicy Bean Bonanza made with three tons of red-hot chili peppers, and Geronimo's taste buds go numb.",
         "zh": "特拉普端出用三吨红辣椒做的“辣味豆大餐”，杰罗尼摩的味蕾直接麻得没知觉了。"
@@ -189,10 +189,6 @@
       },
       "options": [
         {
-          "en": "A gold doubloon",
-          "zh": "一枚金币"
-        },
-        {
           "en": "A shark",
           "zh": "一条鲨鱼"
         },
@@ -201,11 +197,15 @@
           "zh": "那只爪形的岩石"
         },
         {
+          "en": "A gold doubloon according to some versions of the story",
+          "zh": "一枚金币（按书中另一种说法）"
+        },
+        {
           "en": "A palm tree",
           "zh": "一棵棕榈树"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "Benjamin cries out that he sees the claw-shaped rock, the exact spot where Admiral Sea Snout's ship hit and sank.",
         "zh": "本杰明大喊自己看到了那只爪形岩石，正是海鼻海军上将的船撞沉的地点。"
@@ -218,23 +218,23 @@
       },
       "options": [
         {
-          "en": "Sally and Boris",
-          "zh": "莎莉和鲍里斯"
-        },
-        {
-          "en": "Greedy Whiskers and Heartless Hairball",
-          "zh": "贪婪胡须和无情毛球"
-        },
-        {
           "en": "Thea and Trap",
           "zh": "蒂奥和特拉普"
         },
         {
-          "en": "Benjamin and Skipper",
-          "zh": "本杰明和船长"
+          "en": "Sally and Boris",
+          "zh": "莎莉和鲍里斯"
+        },
+        {
+          "en": "Benjamin and Skipper according to some versions of the story",
+          "zh": "本杰明和船长（按书中另一种说法）"
+        },
+        {
+          "en": "Greedy Whiskers and Heartless Hairball",
+          "zh": "贪婪胡须和无情毛球"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "The villains are Greedy Whiskers (called 'The Whisk') and his associate Heartless Hairball ('Hairy'), who arrive on The Dirty Rotten Rodent.",
         "zh": "反派是贪婪胡须（外号“胡须”）和他的同伙无情毛球（外号“毛球”），他们乘着“肮脏坏老鼠号”出现。"
@@ -259,8 +259,8 @@
           "zh": "金币"
         },
         {
-          "en": "Sour pickles",
-          "zh": "酸泡菜"
+          "en": "Sour pickles according to some versions of the story",
+          "zh": "酸泡菜（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -276,12 +276,8 @@
       },
       "options": [
         {
-          "en": "A sunken city",
-          "zh": "一座沉没的城市"
-        },
-        {
-          "en": "A giant whale",
-          "zh": "一头巨大的鲸鱼"
+          "en": "A sunken city according to some versions of the story",
+          "zh": "一座沉没的城市（按书中另一种说法）"
         },
         {
           "en": "A pirate ship",
@@ -290,9 +286,13 @@
         {
           "en": "A tiny island not on the map",
           "zh": "一座地图上没有的小岛"
+        },
+        {
+          "en": "A giant whale",
+          "zh": "一头巨大的鲸鱼"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "explain": {
         "en": "Far in the distance they spot a teeny-tiny island with palm trees and a waterfall that is not on their map, so they name themselves its discoverers.",
         "zh": "他们在远处发现一座长着棕榈树和瀑布、地图上没有的小岛，于是自认是它的发现者。"

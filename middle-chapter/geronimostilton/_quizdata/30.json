@@ -14,12 +14,24 @@
         "zh": "故事里的尚普·斯特朗波是谁？"
       },
       "options": [
-        {"en": "Geronimo's friend and trainer who entered him in the marathon", "zh": "杰罗尼摩的朋友兼教练，是他帮杰罗尼摩报名参赛的"},
-        {"en": "Geronimo's brother who owns a cheese shop", "zh": "杰罗尼摩开奶酪店的哥哥"},
-        {"en": "The editor in chief of The Rodent's Gazette", "zh": "《啮齿动物公报》的主编"},
-        {"en": "A wild cat that escaped from the museum", "zh": "从博物馆逃跑的野猫"}
+        {
+          "en": "A wild cat that escaped from the museum",
+          "zh": "从博物馆逃跑的野猫"
+        },
+        {
+          "en": "Geronimo's brother who owns a cheese shop",
+          "zh": "杰罗尼摩开奶酪店的哥哥"
+        },
+        {
+          "en": "The editor in chief of The Rodent's Gazette according to some versions of the story",
+          "zh": "《啮齿动物公报》的主编（按书中另一种说法）"
+        },
+        {
+          "en": "Geronimo's friend and trainer who entered him in the marathon",
+          "zh": "杰罗尼摩的朋友兼教练，是他帮杰罗尼摩报名参赛的"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Champ Strongpaws is a star athlete and Geronimo's friend who signed him up for the Mouse Island Marathon and trained him.",
         "zh": "尚普·斯特朗波是一名运动明星，也是杰罗尼摩的朋友，是他帮杰罗尼摩报名参加老鼠岛马拉松并训练他的。"
@@ -31,12 +43,24 @@
         "zh": "老鼠岛马拉松在哪里举行？"
       },
       "options": [
-        {"en": "The city of Nibbles on Mouse Island", "zh": "老鼠岛上的尼布尔斯市"},
-        {"en": "New Mouse City", "zh": "新鼠城"},
-        {"en": "The Rattytrap Jungle", "zh": "陷阱鼠丛林"},
-        {"en": "Stray Cat Harbor", "zh": "流浪猫港"}
+        {
+          "en": "Stray Cat Harbor",
+          "zh": "流浪猫港"
+        },
+        {
+          "en": "The Rattytrap Jungle according to some versions of the story",
+          "zh": "陷阱鼠丛林（按书中另一种说法）"
+        },
+        {
+          "en": "The city of Nibbles on Mouse Island",
+          "zh": "老鼠岛上的尼布尔斯市"
+        },
+        {
+          "en": "New Mouse City",
+          "zh": "新鼠城"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "The race is held in the city of Nibbles, on the opposite side of Mouse Island, overlooking Stray Cat Harbor.",
         "zh": "比赛在尼布尔斯市举行，那里位于老鼠岛的另一侧，俯瞰着流浪猫港。"
@@ -48,12 +72,24 @@
         "zh": "老鼠岛马拉松有多长？"
       },
       "options": [
-        {"en": "Twenty-six point two miles", "zh": "二十六点二英里"},
-        {"en": "Thirteen miles", "zh": "十三英里"},
-        {"en": "Ten miles", "zh": "十英里"},
-        {"en": "One hundred miles", "zh": "一百英里"}
+        {
+          "en": "Ten miles",
+          "zh": "十英里"
+        },
+        {
+          "en": "One hundred miles according to some versions of the story",
+          "zh": "一百英里（按书中另一种说法）"
+        },
+        {
+          "en": "Thirteen miles",
+          "zh": "十三英里"
+        },
+        {
+          "en": "Twenty-six point two miles",
+          "zh": "二十六点二英里"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Champ tells Geronimo the marathon is 'just a mere twenty-six point two miles,' the standard marathon length.",
         "zh": "尚普告诉杰罗尼摩，马拉松“只有短短的二十六点二英里”，也就是标准的马拉松长度。"
@@ -65,12 +101,24 @@
         "zh": "杰罗尼摩在飞往尼布尔斯的飞机上吃了什么？"
       },
       "options": [
-        {"en": "Three lettuce leaves, two carrots, and a boiled turnip", "zh": "三片生菜叶、两根胡萝卜和一个煮萝卜"},
-        {"en": "A big slab of cheddar lasagna", "zh": "一大块切达干酪千层面"},
-        {"en": "A piece of chocolate cake", "zh": "一块巧克力蛋糕"},
-        {"en": "A slice of cheese pizza", "zh": "一块奶酪披萨"}
+        {
+          "en": "A piece of chocolate cake",
+          "zh": "一块巧克力蛋糕"
+        },
+        {
+          "en": "A slice of cheese pizza",
+          "zh": "一块奶酪披萨"
+        },
+        {
+          "en": "Three lettuce leaves, two carrots, and a boiled turnip",
+          "zh": "三片生菜叶、两根胡萝卜和一个煮萝卜"
+        },
+        {
+          "en": "A big slab of cheddar lasagna according to some versions of the story",
+          "zh": "一大块切达干酪千层面（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "The flight attendant served Geronimo three lettuce leaves, two raw carrots, and a boiled turnip because he was on a strict diet.",
         "zh": "空乘人员给杰罗尼摩端上了三片生菜叶、两根生胡萝卜和一个煮萝卜，因为他正在严格控制饮食。"
@@ -82,12 +130,24 @@
         "zh": "终点线附近追着杰罗尼摩跑的逃跑动物是什么？"
       },
       "options": [
-        {"en": "Fifi the cat, also called Felinius ferociousmus", "zh": "名叫菲菲的猫，也叫凶猛猫"},
-        {"en": "A friendly pet dog", "zh": "一只友好的宠物狗"},
-        {"en": "A giant mouse", "zh": "一只巨大的老鼠"},
-        {"en": "A poisonous snake", "zh": "一条毒蛇"}
+        {
+          "en": "A poisonous snake",
+          "zh": "一条毒蛇"
+        },
+        {
+          "en": "Fifi the cat, also called Felinius ferociousmus",
+          "zh": "名叫菲菲的猫，也叫凶猛猫"
+        },
+        {
+          "en": "A giant mouse",
+          "zh": "一只巨大的老鼠"
+        },
+        {
+          "en": "A friendly pet dog according to some versions of the story",
+          "zh": "一只友好的宠物狗（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Fifi the cat (Felinius ferociousmus) had escaped from the Natural Science Mouseum of Nibbles and chased Geronimo, making him run faster.",
         "zh": "菲菲猫（凶猛猫）从尼布尔斯自然科学鼠物馆逃了出来，追着杰罗尼摩跑，反而让他跑得更快了。"
@@ -99,12 +159,24 @@
         "zh": "忧郁的古斯·冯·卡克福尔是谁？"
       },
       "options": [
-        {"en": "The uncle of Geronimo's friend Creepella von Cacklefur", "zh": "杰罗尼摩的朋友克里佩拉·冯·卡克福尔的叔叔"},
-        {"en": "Geronimo's cousin", "zh": "杰罗尼摩的表哥"},
-        {"en": "Champ's brother", "zh": "尚普的哥哥"},
-        {"en": "Benjamin's teacher", "zh": "本杰明的老师"}
+        {
+          "en": "Geronimo's cousin according to some versions of the story in an early draft of the book",
+          "zh": "杰罗尼摩的表哥（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "The uncle of Geronimo's friend Creepella von Cacklefur",
+          "zh": "杰罗尼摩的朋友克里佩拉·冯·卡克福尔的叔叔"
+        },
+        {
+          "en": "Champ's brother",
+          "zh": "尚普的哥哥"
+        },
+        {
+          "en": "Benjamin's teacher",
+          "zh": "本杰明的老师"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Gloomy Gus von Cacklefur is the uncle of Creepella von Cacklefur and complains about the terrible weather in Nibbles.",
         "zh": "忧郁的古斯·冯·卡克福尔是克里佩拉·冯·卡克福尔的叔叔，他一直在抱怨尼布尔斯糟糕的天气。"
@@ -116,12 +188,24 @@
         "zh": "在第13英里处，是谁给了杰罗尼摩一厚块切达干酪？"
       },
       "options": [
-        {"en": "His cousin Trap", "zh": "他的表哥特拉普"},
-        {"en": "His sister Thea", "zh": "他的妹妹西娅"},
-        {"en": "His nephew Benjamin", "zh": "他的侄子本杰明"},
-        {"en": "His trainer Champ", "zh": "他的教练尚普"}
+        {
+          "en": "His nephew Benjamin",
+          "zh": "他的侄子本杰明"
+        },
+        {
+          "en": "His cousin Trap",
+          "zh": "他的表哥特拉普"
+        },
+        {
+          "en": "His sister Thea",
+          "zh": "他的妹妹西娅"
+        },
+        {
+          "en": "His trainer Champ",
+          "zh": "他的教练尚普"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "At mile 13, Trap shoved a thick piece of cheddar into Geronimo's mouth to help him keep going.",
         "zh": "在第13英里处，特拉普把一厚块切达干酪塞进杰罗尼摩嘴里，帮他坚持下去。"
@@ -133,10 +217,22 @@
         "zh": "杰罗尼摩最终获得了第几名？"
       },
       "options": [
-        {"en": "First place", "zh": "第一名"},
-        {"en": "Last place", "zh": "最后一名"},
-        {"en": "Tenth place", "zh": "第十名"},
-        {"en": "Fiftieth place", "zh": "第五十名"}
+        {
+          "en": "First place",
+          "zh": "第一名"
+        },
+        {
+          "en": "Fiftieth place",
+          "zh": "第五十名"
+        },
+        {
+          "en": "Last place",
+          "zh": "最后一名"
+        },
+        {
+          "en": "Tenth place",
+          "zh": "第十名"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -150,10 +246,22 @@
         "zh": "地震发生时，杰罗尼摩是如何帮助遇险的赛跑者的？"
       },
       "options": [
-        {"en": "He tied everyone's jackets together to make a rope", "zh": "他把大家的夹克系在一起做成了一根绳子"},
-        {"en": "He built a wooden bridge", "zh": "他搭了一座木桥"},
-        {"en": "He called a helicopter", "zh": "他叫了一架直升机"},
-        {"en": "He dug a deep hole", "zh": "他挖了一个深坑"}
+        {
+          "en": "He tied everyone's jackets together to make a rope",
+          "zh": "他把大家的夹克系在一起做成了一根绳子"
+        },
+        {
+          "en": "He dug a deep hole",
+          "zh": "他挖了一个深坑"
+        },
+        {
+          "en": "He called a helicopter",
+          "zh": "他叫了一架直升机"
+        },
+        {
+          "en": "He built a wooden bridge according to some versions of the story",
+          "zh": "他搭了一座木桥（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -167,10 +275,22 @@
         "zh": "尚普又给杰罗尼摩报名了哪个马拉松？"
       },
       "options": [
-        {"en": "The Rattytrap Jungle Marathon on the Rio Mosquito", "zh": "蚊子河上的陷阱鼠丛林马拉松"},
-        {"en": "The Boston Marathon", "zh": "波士顿马拉松"},
-        {"en": "The Nibbles Marathon again", "zh": "再次参加尼布尔斯马拉松"},
-        {"en": "The New Mouse City Marathon", "zh": "新鼠城马拉松"}
+        {
+          "en": "The Rattytrap Jungle Marathon on the Rio Mosquito",
+          "zh": "蚊子河上的陷阱鼠丛林马拉松"
+        },
+        {
+          "en": "The New Mouse City Marathon",
+          "zh": "新鼠城马拉松"
+        },
+        {
+          "en": "The Boston Marathon",
+          "zh": "波士顿马拉松"
+        },
+        {
+          "en": "The Nibbles Marathon again according to some versions of the story",
+          "zh": "再次参加尼布尔斯马拉松（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {

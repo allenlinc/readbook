@@ -14,12 +14,24 @@
         "zh": "谁是《 鼠民公报》的编辑兼出版人？"
       },
       "options": [
-        {"en": "Geronimo Stilton", "zh": "杰罗尼摩·斯蒂顿"},
-        {"en": "Trap Stilton", "zh": "特拉普·斯蒂顿"},
-        {"en": "Benjamin Stilton", "zh": "本杰明·斯蒂顿"},
-        {"en": "Hercule Poirat", "zh": "赫拉克勒·波瓦"}
+        {
+          "en": "Hercule Poirat",
+          "zh": "赫拉克勒·波瓦"
+        },
+        {
+          "en": "Geronimo Stilton",
+          "zh": "杰罗尼摩·斯蒂顿"
+        },
+        {
+          "en": "Trap Stilton",
+          "zh": "特拉普·斯蒂顿"
+        },
+        {
+          "en": "Benjamin Stilton according to some versions of the story",
+          "zh": "本杰明·斯蒂顿（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Geronimo says, 'I'm the editor of The Rodent's Gazette, the most famouse newspaper on Mouse Island.'",
         "zh": "杰罗尼摩说：“我是老鼠岛上最有名的报纸《 鼠民公报》的编辑。”"
@@ -31,12 +43,24 @@
         "zh": "杰罗尼摩抓起了什么东西来保护自己，对付那两个闯入者？"
       },
       "options": [
-        {"en": "His slipper", "zh": "他的拖鞋"},
-        {"en": "A baseball bat", "zh": "一根棒球棍"},
-        {"en": "An antique cheese rind", "zh": "一块古老的奶酪皮"},
-        {"en": "His favorite tie", "zh": "他最喜欢的领带"}
+        {
+          "en": "A baseball bat",
+          "zh": "一根棒球棍"
+        },
+        {
+          "en": "His slipper",
+          "zh": "他的拖鞋"
+        },
+        {
+          "en": "His favorite tie",
+          "zh": "他最喜欢的领带"
+        },
+        {
+          "en": "An antique cheese rind",
+          "zh": "一块古老的奶酪皮"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "He writes, 'Unfortunately, it wasn't a BASEBALL BAT. It was my slipper.'",
         "zh": "他写道：“可惜那不是棒球棍，而是我的拖鞋。”"
@@ -48,12 +72,24 @@
         "zh": "杰罗尼摩的特工代号是什么？"
       },
       "options": [
-        {"en": "OOG", "zh": "OOG"},
-        {"en": "OOK", "zh": "OOK"},
-        {"en": "OOV", "zh": "OOV"},
-        {"en": "OOM", "zh": "OOM"}
+        {
+          "en": "OOV according to some versions of the story",
+          "zh": "OOV（按书中另一种说法）"
+        },
+        {
+          "en": "OOG",
+          "zh": "OOG"
+        },
+        {
+          "en": "OOK",
+          "zh": "OOK"
+        },
+        {
+          "en": "OOM",
+          "zh": "OOM"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "After reading the note he realizes, 'OOG was my code name.'",
         "zh": "读完字条后他意识到：“OOG 是我的代号。”"
@@ -65,10 +101,22 @@
         "zh": "杰罗尼摩那位代号为 OOK 的特工朋友是谁？"
       },
       "options": [
-        {"en": "Kornelius von Kickpaw", "zh": "科尼利厄斯·冯·基克爪"},
-        {"en": "Professor Astrofur", "zh": "阿斯特罗福教授"},
-        {"en": "Hercule Poirat", "zh": "赫拉克勒·波瓦"},
-        {"en": "William Shortpaws", "zh": "威廉·短爪"}
+        {
+          "en": "Kornelius von Kickpaw",
+          "zh": "科尼利厄斯·冯·基克爪"
+        },
+        {
+          "en": "William Shortpaws",
+          "zh": "威廉·短爪"
+        },
+        {
+          "en": "Hercule Poirat",
+          "zh": "赫拉克勒·波瓦"
+        },
+        {
+          "en": "Professor Astrofur according to some versions of the story",
+          "zh": "阿斯特罗福教授（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -82,12 +130,24 @@
         "zh": "杰罗尼摩的奶油奶酪早餐饼干里藏着什么惊喜？"
       },
       "options": [
-        {"en": "A strange metallic capsule with a note", "zh": "一颗藏有字条的奇怪金属胶囊"},
-        {"en": "A gold coin", "zh": "一枚金币"},
-        {"en": "A tiny toy mouse", "zh": "一只迷你玩具老鼠"},
-        {"en": "A diamond ring", "zh": "一枚钻石戒指"}
+        {
+          "en": "A diamond ring",
+          "zh": "一枚钻石戒指"
+        },
+        {
+          "en": "A gold coin",
+          "zh": "一枚金币"
+        },
+        {
+          "en": "A tiny toy mouse according to some versions of the story",
+          "zh": "一只迷你玩具老鼠（按书中另一种说法）"
+        },
+        {
+          "en": "A strange metallic capsule with a note",
+          "zh": "一颗藏有字条的奇怪金属胶囊"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "'Hidden in the middle of the cookie was a STRANGE metallic capsule, which held a STRANGE note inside.'",
         "zh": "“饼干中间藏着一颗奇怪的金属胶囊，里面有一张奇怪的字条。”"
@@ -99,12 +159,24 @@
         "zh": "是谁卖给杰罗尼摩“安全吱吱”防盗设备的？"
       },
       "options": [
-        {"en": "Suzy Slyrat", "zh": "苏西·斯莱鼠"},
-        {"en": "Thea Stilton", "zh": "蒂拉·斯蒂顿"},
-        {"en": "Belinda Fuzzypaws", "zh": "贝琳达·绒毛爪"},
-        {"en": "Sally Ratmousen", "zh": "莎莉·鼠默森"}
+        {
+          "en": "Belinda Fuzzypaws",
+          "zh": "贝琳达·绒毛爪"
+        },
+        {
+          "en": "Sally Ratmousen",
+          "zh": "莎莉·鼠默森"
+        },
+        {
+          "en": "Suzy Slyrat",
+          "zh": "苏西·斯莱鼠"
+        },
+        {
+          "en": "Thea Stilton",
+          "zh": "蒂拉·斯蒂顿"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "He notices 'a SAFE SQUEAK pin on her jacket, and below it, in small print, the name Suzy Slyrat.'",
         "zh": "他注意到“她夹克上别着安全吱吱的徽章，下面小字印着：苏西·斯莱鼠”。"
@@ -116,12 +188,24 @@
         "zh": "秘密组织 M.I.S.S.O. 的全称是什么？"
       },
       "options": [
-        {"en": "Mouse Island Secret Service Organization", "zh": "老鼠岛特工组织"},
-        {"en": "Mouse Intruder Safety System Office", "zh": "老鼠岛入侵安全系统办公室"},
-        {"en": "Metropolitan Investigation Space Operation", "zh": "都市太空调查行动"},
-        {"en": "Mouse Island Space Security Office", "zh": "老鼠岛太空安全办公室"}
+        {
+          "en": "Metropolitan Investigation Space Operation",
+          "zh": "都市太空调查行动"
+        },
+        {
+          "en": "Mouse Island Space Security Office",
+          "zh": "老鼠岛太空安全办公室"
+        },
+        {
+          "en": "Mouse Island Secret Service Organization",
+          "zh": "老鼠岛特工组织"
+        },
+        {
+          "en": "Mouse Intruder Safety System Office",
+          "zh": "老鼠岛入侵安全系统办公室"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "The book explains: 'M.I.S.S.O., as in Mouse Island Secret Service Organization.'",
         "zh": "书中解释道：“M.I.S.S.O.，即老鼠岛特工组织。”"
@@ -133,12 +217,24 @@
         "zh": "杰罗尼摩和朋友们乘坐发射的太空船叫什么名字？"
       },
       "options": [
-        {"en": "RATOLLO 16", "zh": "RATOLLO 16 号"},
-        {"en": "MEGAVORTEX", "zh": "超级漩涡号"},
-        {"en": "SAFE SQUEAK", "zh": "安全吱吱号"},
-        {"en": "The Rodent's Gazette", "zh": "《 鼠民公报》号"}
+        {
+          "en": "The Rodent's Gazette",
+          "zh": "《 鼠民公报》号"
+        },
+        {
+          "en": "MEGAVORTEX",
+          "zh": "超级漩涡号"
+        },
+        {
+          "en": "SAFE SQUEAK",
+          "zh": "安全吱吱号"
+        },
+        {
+          "en": "RATOLLO 16",
+          "zh": "RATOLLO 16 号"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "After boarding, Geronimo says, 'I boarded RATOLLO 16, took my seat, and buckled my seat belt.'",
         "zh": "登船时杰罗尼摩说：“我上了 RATOLLO 16 号，坐好并系上了安全带。”"
@@ -150,10 +246,22 @@
         "zh": "那个恐吓老鼠岛的邪恶蒙面老鼠是谁？"
       },
       "options": [
-        {"en": "Dr. Wicked Whiskers", "zh": "坏胡子博士"},
-        {"en": "Professor Astrofur", "zh": "阿斯特罗福教授"},
-        {"en": "Kornelius von Kickpaw", "zh": "科尼利厄斯·冯·基克爪"},
-        {"en": "Hercule Poirat", "zh": "赫拉克勒·波瓦"}
+        {
+          "en": "Dr. Wicked Whiskers",
+          "zh": "坏胡子博士"
+        },
+        {
+          "en": "Professor Astrofur",
+          "zh": "阿斯特罗福教授"
+        },
+        {
+          "en": "Kornelius von Kickpaw",
+          "zh": "科尼利厄斯·冯·基克爪"
+        },
+        {
+          "en": "Hercule Poirat",
+          "zh": "赫拉克勒·波瓦"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -167,10 +275,22 @@
         "zh": "被困在假小行星上时，杰罗尼摩是怎样发出求救信号的？"
       },
       "options": [
-        {"en": "By pounding SOS in Morse code on the metal walls", "zh": "用摩斯密码在金属墙上敲出 SOS"},
-        {"en": "By shouting as loud as he could", "zh": "用尽全力大声喊叫"},
-        {"en": "By sending a paper boat", "zh": "通过放一只纸船"},
-        {"en": "By calling on his phone", "zh": "用手机打电话"}
+        {
+          "en": "By pounding SOS in Morse code on the metal walls",
+          "zh": "用摩斯密码在金属墙上敲出 SOS"
+        },
+        {
+          "en": "By shouting as loud as he could according to some versions of the story",
+          "zh": "用尽全力大声喊叫（按书中另一种说法）"
+        },
+        {
+          "en": "By calling on his phone",
+          "zh": "用手机打电话"
+        },
+        {
+          "en": "By sending a paper boat",
+          "zh": "通过放一只纸船"
+        }
       ],
       "answer": 0,
       "explain": {

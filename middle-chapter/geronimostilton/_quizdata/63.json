@@ -15,20 +15,20 @@
       },
       "options": [
         {
-          "en": "Red Spot Fever",
-          "zh": "红斑热"
+          "en": "Green Fur Flu",
+          "zh": "绿毛流感"
         },
         {
           "en": "Blue Spot Disease (rodentia spotilitis)",
           "zh": "蓝斑病（鼠类斑疹）"
         },
         {
-          "en": "Green Fur Flu",
-          "zh": "绿毛流感"
+          "en": "Yellow Tail Itch according to some versions of the story",
+          "zh": "黄尾痒（按书中另一种说法）"
         },
         {
-          "en": "Yellow Tail Itch",
-          "zh": "黄尾痒"
+          "en": "Red Spot Fever",
+          "zh": "红斑热"
         }
       ],
       "answer": 1,
@@ -44,23 +44,23 @@
       },
       "options": [
         {
-          "en": "Geronimo's cousin who loves jokes",
-          "zh": "杰罗尼摩爱开玩笑的表哥"
-        },
-        {
           "en": "A private investigator and Geronimo's old friend",
           "zh": "一名私家侦探，也是杰罗尼摩的老朋友"
         },
         {
-          "en": "The mayor of New Mouse City",
-          "zh": "新鼠城市的市长"
-        },
-        {
           "en": "A scientist at the Academy",
           "zh": "科学院的科学家"
+        },
+        {
+          "en": "Geronimo's cousin who loves jokes according to some versions of the story",
+          "zh": "杰罗尼摩爱开玩笑的表哥（按书中另一种说法）"
+        },
+        {
+          "en": "The mayor of New Mouse City",
+          "zh": "新鼠城市的市长"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Hercule Poirat is a famous private detective and Geronimo's friend since preschool; his battle cry is 'Have no fear, Hercule Poirat is here!' and he loves bananas.",
         "zh": "赫库勒·波瓦是个有名的私家侦探，从幼儿园起就是杰罗尼摩的朋友；他的口号是“别害怕，赫库勒·波瓦来啦！”，而且他很爱吃香蕉。"
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Better to prevent than to cure!",
-          "zh": "预防胜于治疗！"
-        },
-        {
           "en": "Never trust a cat!",
           "zh": "永远别相信猫！"
         },
         {
-          "en": "Cheese solves everything!",
-          "zh": "奶酪能解决一切！"
+          "en": "Cheese solves everything! according to some versions of the story",
+          "zh": "奶酪能解决一切！（按书中另一种说法）"
+        },
+        {
+          "en": "Better to prevent than to cure!",
+          "zh": "预防胜于治疗！"
         },
         {
           "en": "Run first, think later!",
           "zh": "先跑再想！"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "The book gives his motto as 'Better to prevent than to cure!' He is a vegetarian doctor who holds thirteen doctorate degrees.",
         "zh": "书里写的他的座右铭是“预防胜于治疗！”。他是一位素食医生，拥有十三个博士学位。"
@@ -102,23 +102,23 @@
       },
       "options": [
         {
+          "en": "Geronimo's sister Thea",
+          "zh": "杰罗尼摩的妹妹蒂奥"
+        },
+        {
           "en": "Sally Ratmousen's cousin, the notorious thief called the Shadow",
           "zh": "莎莉·鼠托森的表妹，绰号“影子”的著名女飞贼"
         },
         {
-          "en": "Professor Brainymouse's assistant Rick",
-          "zh": "布莱鼠教授的助手里克"
-        },
-        {
-          "en": "Geronimo's sister Thea",
-          "zh": "杰罗尼摩的妹妹蒂奥"
+          "en": "Professor Brainymouse's assistant Rick according to some versions of the story",
+          "zh": "布莱鼠教授的助手里克（按书中另一种说法）"
         },
         {
           "en": "The mayor's secretary",
           "zh": "市长的秘书"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Wanda pulls off her wig to reveal she is the Shadow, Sally Ratmousen's cousin and the most notorious thief in New Mouse City.",
         "zh": "旺达扯下假发，露出真面目——她就是“影子”，莎莉·鼠托森的表妹，也是新鼠城最臭名昭著的飞贼。"
@@ -131,10 +131,6 @@
       },
       "options": [
         {
-          "en": "By buying it from a foreign lab",
-          "zh": "从国外实验室购买"
-        },
-        {
           "en": "From two missing pages torn from the old book, dropped by the Shadow",
           "zh": "靠影子掉落的那本旧书里被撕走的两页"
         },
@@ -145,9 +141,13 @@
         {
           "en": "From a dream Geronimo had",
           "zh": "从杰罗尼摩做的一个梦里"
+        },
+        {
+          "en": "By buying it from a foreign lab according to some versions of the story",
+          "zh": "从国外实验室购买（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "The Shadow drops two sheets torn from the old rodentia spotilitis book; Benjamin and Bugsy bring them to Professor Brainymouse, who uses them to make the cure.",
         "zh": "“影子”掉落了那本旧《鼠类斑疹》书里被撕走的两页；本杰明和巴格西把它交给布莱鼠教授，教授据此制出了解药。"
@@ -160,23 +160,23 @@
       },
       "options": [
         {
-          "en": "Geronimo posts it in his newspaper",
-          "zh": "杰罗尼摩登在报纸上"
+          "en": "Sally sells it in her factory",
+          "zh": "莎莉在工厂里出售"
         },
         {
-          "en": "Thea flies her plane and sprays it from above",
-          "zh": "蒂奥驾驶飞机从空中喷洒"
+          "en": "Geronimo posts it in his newspaper according to some versions of the story",
+          "zh": "杰罗尼摩登在报纸上（按书中另一种说法）"
         },
         {
           "en": "Trap hands it out at a party",
           "zh": "特拉普在派对上发放"
         },
         {
-          "en": "Sally sells it in her factory",
-          "zh": "莎莉在工厂里出售"
+          "en": "Thea flies her plane and sprays it from above",
+          "zh": "蒂奥驾驶飞机从空中喷洒"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Sally produces the cure in huge amounts at her factory, and Thea uses her plane to spray it over the city.",
         "zh": "莎莉在自己的工厂里大量生产解药，蒂奥则驾驶飞机从空中把解药喷洒全城。"
@@ -189,6 +189,10 @@
       },
       "options": [
         {
+          "en": "A bicycle with a bell",
+          "zh": "一辆带铃铛的自行车"
+        },
+        {
           "en": "A red race car",
           "zh": "一辆红色赛车"
         },
@@ -199,13 +203,9 @@
         {
           "en": "A submarine",
           "zh": "一艘潜水艇"
-        },
-        {
-          "en": "A bicycle with a bell",
-          "zh": "一辆带铃铛的自行车"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Hercule and the others jump into his Bananamobile and zoom to the school laboratories to deliver the missing pages.",
         "zh": "赫库勒和大家跳上他的“香蕉车”，飞驰到学校实验室去送那两页缺失的书页。"
@@ -218,23 +218,23 @@
       },
       "options": [
         {
-          "en": "A clown nose and wig",
-          "zh": "小丑红鼻子和假发"
-        },
-        {
           "en": "A dark trench coat and a large-brimmed hat",
           "zh": "一件深色风衣和一顶宽边帽"
         },
         {
-          "en": "A bright yellow raincoat",
-          "zh": "一件亮黄色雨衣"
+          "en": "A bright yellow raincoat according to some versions of the story",
+          "zh": "一件亮黄色雨衣（按书中另一种说法）"
         },
         {
           "en": "A pirate eyepatch",
           "zh": "海盗眼罩"
+        },
+        {
+          "en": "A clown nose and wig",
+          "zh": "小丑红鼻子和假发"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "The book says Sleezer always wears a dark trench coat and a large-brimmed hat to hide his snout; no one even knows his last name.",
         "zh": "书里说斯利泽总是穿着深色风衣、戴着宽边帽来遮住脸；甚至没人知道他的姓氏。"
@@ -247,8 +247,8 @@
       },
       "options": [
         {
-          "en": "In the basement of The Rodent's Gazette",
-          "zh": "《啮齿动物公报》的地下室"
+          "en": "Inside Sally's cheese factory",
+          "zh": "莎莉的奶酪工厂里"
         },
         {
           "en": "At the Academy of Science in the new Science Quarter",
@@ -259,8 +259,8 @@
           "zh": "海上的一艘船上"
         },
         {
-          "en": "Inside Sally's cheese factory",
-          "zh": "莎莉的奶酪工厂里"
+          "en": "In the basement of The Rodent's Gazette according to some versions of the story",
+          "zh": "《啮齿动物公报》的地下室（按书中另一种说法）"
         }
       ],
       "answer": 1,
@@ -276,23 +276,23 @@
       },
       "options": [
         {
-          "en": "With Trap's fake blue-spot joke and a big party",
-          "zh": "以特拉普装蓝斑的恶作剧和一场盛大派对收场"
+          "en": "With the city being evacuated according to some versions of the story",
+          "zh": "全城被疏散（按书中另一种说法）"
         },
         {
-          "en": "With the city being evacuated",
-          "zh": "全城被疏散"
+          "en": "With the Shadow winning",
+          "zh": "“影子”取得了胜利"
         },
         {
           "en": "With Geronimo moving away",
           "zh": "杰罗尼摩搬离了城市"
         },
         {
-          "en": "With the Shadow winning",
-          "zh": "“影子”取得了胜利"
+          "en": "With Trap's fake blue-spot joke and a big party",
+          "zh": "以特拉普装蓝斑的恶作剧和一场盛大派对收场"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Trap paints a fake blue spot on Geronimo as a joke, the disease is cured, and they celebrate with 'Thundering cat tails — let's party!'",
         "zh": "特拉普在杰罗尼摩鼻子上画了个假蓝斑开玩笑，疾病被治愈，大家高喊“雷霆猫尾——开派对吧！”来庆祝。"

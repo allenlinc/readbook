@@ -14,12 +14,24 @@
         "zh": "那家挤占了所有报摊和书店的报纸叫什么名字？"
       },
       "options": [
-        {"en": "The Roaring Rat", "zh": "《咆哮鼠报》"},
-        {"en": "The Daily Whisker", "zh": "《每日胡须报》"},
-        {"en": "The Cheese Chronicle", "zh": "《奶酪纪事报》"},
-        {"en": "The Mouse Monitor", "zh": "《老鼠观察报》"}
+        {
+          "en": "The Mouse Monitor",
+          "zh": "《老鼠观察报》"
+        },
+        {
+          "en": "The Cheese Chronicle",
+          "zh": "《奶酪纪事报》"
+        },
+        {
+          "en": "The Daily Whisker",
+          "zh": "《每日胡须报》"
+        },
+        {
+          "en": "The Roaring Rat",
+          "zh": "《咆哮鼠报》"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "A one-eyed rat pays newsdealers and bookstores to sell only The Roaring Rat and sends Geronimo's papers to the recycling center.",
         "zh": "一只独眼老鼠花钱让报摊和书店只卖《咆哮鼠报》，还把杰罗尼摩的报纸送去回收站。"
@@ -31,12 +43,24 @@
         "zh": "那个想要搞垮杰罗尼摩的神秘独眼老鼠，真实身份是谁？"
       },
       "options": [
-        {"en": "Flusher Pottypaws", "zh": "弗拉舍·波蒂波"},
-        {"en": "Hercule Poirat", "zh": "赫拉克·波瓦"},
-        {"en": "Shif T. Paws", "zh": "希夫特·波"},
-        {"en": "William Shortpaws", "zh": "威廉·肖特波"}
+        {
+          "en": "Hercule Poirat",
+          "zh": "赫拉克·波瓦"
+        },
+        {
+          "en": "Shif T. Paws",
+          "zh": "希夫特·波"
+        },
+        {
+          "en": "William Shortpaws according to some versions of the story",
+          "zh": "威廉·肖特波（按书中另一种说法）"
+        },
+        {
+          "en": "Flusher Pottypaws",
+          "zh": "弗拉舍·波蒂波"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Thea uncovers that the mystery rat is Flusher Pottypaws, a very rich mouse who used to make toilets.",
         "zh": "蒂奥查出那个神秘老鼠就是弗拉舍·波蒂波，一只曾经制造马桶的超级富豪老鼠。"
@@ -48,10 +72,22 @@
         "zh": "弗拉舍·波蒂波在尝试出版业之前，做的是什么生意？"
       },
       "options": [
-        {"en": "Making toilets and sanitary fittings", "zh": "制造马桶和卫生洁具"},
-        {"en": "Selling ice to Eskimice", "zh": "给爱斯基摩老鼠卖冰"},
-        {"en": "Baking bread", "zh": "烤面包"},
-        {"en": "Running a bank", "zh": "经营银行"}
+        {
+          "en": "Making toilets and sanitary fittings",
+          "zh": "制造马桶和卫生洁具"
+        },
+        {
+          "en": "Selling ice to Eskimice according to some versions of the story",
+          "zh": "给爱斯基摩老鼠卖冰（按书中另一种说法）"
+        },
+        {
+          "en": "Running a bank",
+          "zh": "经营银行"
+        },
+        {
+          "en": "Baking bread",
+          "zh": "烤面包"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -65,12 +101,24 @@
         "zh": "杰罗尼摩请来帮忙卖报纸的“超级销售鼠”是谁？"
       },
       "options": [
-        {"en": "Shif T. Paws", "zh": "希夫特·波"},
-        {"en": "Dusty Dustwell", "zh": "达斯蒂·达斯特威尔"},
-        {"en": "Kreamy O'Cheddar", "zh": "克里米·奥切达"},
-        {"en": "Bagel Buckwheat", "zh": "贝格尔·巴克韦特"}
+        {
+          "en": "Dusty Dustwell",
+          "zh": "达斯蒂·达斯特威尔"
+        },
+        {
+          "en": "Shif T. Paws",
+          "zh": "希夫特·波"
+        },
+        {
+          "en": "Kreamy O'Cheddar",
+          "zh": "克里米·奥切达"
+        },
+        {
+          "en": "Bagel Buckwheat",
+          "zh": "贝格尔·巴克韦特"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Geronimo answers an ad for Shif T. Paws, his old business manager, who bursts in shouting 'Watch your whiskers, here comes Shif T. Paws!'",
         "zh": "杰罗尼摩回应了希夫特·波的招聘广告，这位昔日经理冲进来大喊“当心你的胡须，希夫特·波来啦！”"
@@ -82,12 +130,24 @@
         "zh": "杰罗尼摩和员工们把临时办公室设在了哪里？"
       },
       "options": [
-        {"en": "Bagel Buckwheat's bakery basement at 85 Curds Court", "zh": "贝格尔·巴克韦特位于奶酪凝块巷85号的面包房地窖"},
-        {"en": "A beach hut", "zh": "一座海滩小屋"},
-        {"en": "The television studio", "zh": "电视台演播室"},
-        {"en": "A bank vault", "zh": "银行金库"}
+        {
+          "en": "The television studio according to some versions of the story",
+          "zh": "电视台演播室（按书中另一种说法）"
+        },
+        {
+          "en": "Bagel Buckwheat's bakery basement at 85 Curds Court",
+          "zh": "贝格尔·巴克韦特位于奶酪凝块巷85号的面包房地窖"
+        },
+        {
+          "en": "A bank vault",
+          "zh": "银行金库"
+        },
+        {
+          "en": "A beach hut",
+          "zh": "一座海滩小屋"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Mousella's cousin Bagel Buckwheat lets them use his large bakery basement at 85 Curds Court as their new base.",
         "zh": "秘书莫塞拉的表兄贝格尔·巴克韦特让他们使用自己位于奶酪凝块巷85号的面包房地窖作为新据点。"
@@ -99,12 +159,24 @@
         "zh": "杰罗尼摩答应参加的是哪个危险的电视直播游戏节目？"
       },
       "options": [
-        {"en": "The Mousetrap", "zh": "《捕鼠夹》"},
-        {"en": "The Cheese Wheel", "zh": "《奶酪转轮》"},
-        {"en": "Rat Race", "zh": "《老鼠赛跑》"},
-        {"en": "Whisker Quiz", "zh": "《胡须问答》"}
+        {
+          "en": "Rat Race",
+          "zh": "《老鼠赛跑》"
+        },
+        {
+          "en": "The Mousetrap",
+          "zh": "《捕鼠夹》"
+        },
+        {
+          "en": "Whisker Quiz",
+          "zh": "《胡须问答》"
+        },
+        {
+          "en": "The Cheese Wheel",
+          "zh": "《奶酪转轮》"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Shif T. Paws enters Geronimo as the next contestant on The Mousetrap, a spooky midnight game show held at the Top TV studios.",
         "zh": "希夫特·波把杰罗尼摩报成了《捕鼠夹》的下一位选手，那是一档在顶级电视台午夜播出的恐怖游戏节目。"
@@ -116,12 +188,24 @@
         "zh": "《捕鼠夹》的主持人像吸血鬼老鼠一样，他是谁？"
       },
       "options": [
-        {"en": "Vlad Torturetail", "zh": "弗拉德·托彻泰尔"},
-        {"en": "Ledger Moneymouse", "zh": "莱杰·莫尼鼠"},
-        {"en": "Inkpaws", "zh": "因克波"},
-        {"en": "Batsabout Books", "zh": "巴特萨包特"}
+        {
+          "en": "Inkpaws",
+          "zh": "因克波"
+        },
+        {
+          "en": "Batsabout Books",
+          "zh": "巴特萨包特"
+        },
+        {
+          "en": "Vlad Torturetail",
+          "zh": "弗拉德·托彻泰尔"
+        },
+        {
+          "en": "Ledger Moneymouse according to some versions of the story",
+          "zh": "莱杰·莫尼鼠（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Host Vlad Torturetail is pale with pointed teeth, wears a black suit, white shirt, and red cape — he looks just like a vampire rat.",
         "zh": "主持人弗拉德·托彻泰尔脸色苍白、长着尖牙，身穿黑西装、白衬衫，披着红斗篷——活像一只吸血鬼老鼠。"
@@ -133,10 +217,22 @@
         "zh": "在《捕鼠夹》里，如果杰罗尼摩答错了会发生什么？"
       },
       "options": [
-        {"en": "The trap pinches or chops off his tail", "zh": "捕鼠夹会夹住或夹断他的尾巴"},
-        {"en": "He gets dumped with water", "zh": "他会被人泼一身水"},
-        {"en": "He gets electrocuted", "zh": "他会触电"},
-        {"en": "He is covered in cheese", "zh": "他会被淋满奶酪"}
+        {
+          "en": "The trap pinches or chops off his tail",
+          "zh": "捕鼠夹会夹住或夹断他的尾巴"
+        },
+        {
+          "en": "He is covered in cheese",
+          "zh": "他会被淋满奶酪"
+        },
+        {
+          "en": "He gets dumped with water according to some versions of the story",
+          "zh": "他会被人泼一身水（按书中另一种说法）"
+        },
+        {
+          "en": "He gets electrocuted",
+          "zh": "他会触电"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -150,12 +246,24 @@
         "zh": "按照杰罗尼摩的说法，“万圣节”这个词最初的意思是什么？"
       },
       "options": [
-        {"en": "All Hallows' Eve", "zh": "诸圣节前夕"},
-        {"en": "Hall of Mice", "zh": "老鼠大厅"},
-        {"en": "Hollow Evening", "zh": "空洞之夜"},
-        {"en": "Harvest Night", "zh": "丰收之夜"}
+        {
+          "en": "Hollow Evening according to some versions of the story",
+          "zh": "空洞之夜（按书中另一种说法）"
+        },
+        {
+          "en": "Hall of Mice",
+          "zh": "老鼠大厅"
+        },
+        {
+          "en": "All Hallows' Eve",
+          "zh": "诸圣节前夕"
+        },
+        {
+          "en": "Harvest Night",
+          "zh": "丰收之夜"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Geronimo explains the Celts were first to celebrate it, and the word comes from All Hallows' Eve.",
         "zh": "杰罗尼摩解释说凯尔特人最早庆祝这个节日，而这个词的来源是“诸圣节前夕”。"
@@ -167,10 +275,22 @@
         "zh": "杰罗尼摩和波蒂波打算一起创办的出版社叫什么？"
       },
       "options": [
-        {"en": "First-rat Art", "zh": "一流艺术出版社"},
-        {"en": "Toilet Art", "zh": "马桶艺术出版社"},
-        {"en": "The Roaring Rat", "zh": "《咆哮鼠报》"},
-        {"en": "Curds Court Press", "zh": "奶酪凝块出版社"}
+        {
+          "en": "First-rat Art",
+          "zh": "一流艺术出版社"
+        },
+        {
+          "en": "Toilet Art",
+          "zh": "马桶艺术出版社"
+        },
+        {
+          "en": "Curds Court Press",
+          "zh": "奶酪凝块出版社"
+        },
+        {
+          "en": "The Roaring Rat",
+          "zh": "《咆哮鼠报》"
+        }
       ],
       "answer": 0,
       "explain": {
