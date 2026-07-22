@@ -277,16 +277,6 @@ function render(){
     }
   });
 
-  qEl.querySelectorAll('input[type=radio]').forEach(r => {
-    r.addEventListener("change", e => {
-      if (submitted) return;
-      const qi = +e.target.name.replace("q","");
-      picked[qi] = +e.target.value;
-      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
-      e.target.closest("label").classList.add("picked");
-    });
-  });
-
   if (submitted){
     resultEl.textContent = L[lang].result(score);
     let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
@@ -313,6 +303,20 @@ resetBtn.addEventListener("click", () => {
 langBtn.addEventListener("click", () => {
   lang = (lang === "en") ? "zh" : "en";
   render();
+});
+
+// Delegated listener survives re-renders: any radio selection (mouse or keyboard) updates state.
+qEl.addEventListener("change", e => {
+  if (submitted) return;
+  const inp = e.target;
+  if (!inp || inp.type !== "radio") return;
+  const label = inp.closest("label[data-q]");
+  if (!label) return;
+  const qi = +label.dataset.q;
+  const oi = +label.dataset.o;
+  picked[qi] = oi;
+  qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l => l.classList.remove("picked"));
+  label.classList.add("picked");
 });
 
 render();"""
