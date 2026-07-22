@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>In the Desert — Quiz</title>
+<style>
+  :root{
+    --lab:#0e7490;
+    --lab-dark:#155e75;
+    --amber:#f59e0b;
+    --cream:#f7fbff;
+    --ink:#1f2937;
+    --robot:#94a3b8;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--lab),var(--lab-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:linear-gradient(135deg,var(--lab),var(--lab-dark));
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #cffafe);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6ef;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--lab);background:#eef9fc;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--lab);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f8;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2edf4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--amber);}
+  label.right{background:#d7f0df;border-color:var(--lab);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7ff;
+    border-left:4px solid var(--lab);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--lab-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--lab);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(14,116,144,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(14,116,144,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#17 · In the Desert</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by J.C. Greenburg</p>
+    <div class="logo">⚛️</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Andrew Lost: In the Desert</em> (Random House, 2008) — by J.C. Greenburg</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by J.C. Greenburg",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your microscopic world.",
+    great: "Great job — you understood the science adventure well.",
+    ok: "Not bad — but a few tiny clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：J.C. Greenburg",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这个微观世界冒险。",
+    great: "很棒——你已经读懂了这个科学冒险故事。",
+    ok: "不错——不过有几条小线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "At the start of the story, where are ant-sized Andrew and Judy riding through the desert?", "zh": "故事一开始，变成蚂蚁那么小的安德鲁和朱迪是坐在什么地方穿过沙漠的？"}, "options": [{"en": "On the back of a kangaroo", "zh": "坐在一只袋鼠的背上"}, {"en": "In a bottle cap glued to Uncle Al's jeep dashboard", "zh": "坐在粘在阿尔叔叔吉普车仪表盘上的一个瓶盖里"}, {"en": "Inside the Goa Constrictor machine", "zh": "在 Goa 巨蛇机器里面"}, {"en": "In a nest of the whistling spider", "zh": "在尖啸蜘蛛的巢里"}], "answer": 1, "explain": {"en": "Uncle Al glued an empty bottle cap to the jeep's dashboard to make a safe perch where Andrew and Judy could watch the Australian desert.", "zh": "阿尔叔叔把一个空瓶盖粘在吉普车的仪表盘上，做成一个小平台，让安德鲁和朱迪可以安全地观看澳大利亚沙漠。"}}, {"q": {"en": "What do Australians call the spinning column of hot air and sand that blows Andrew and Judy away?", "zh": "澳大利亚人把那股把安德鲁和朱迪吹走的、旋转着的热空气和沙子的柱子叫做什么？"}, "options": [{"en": "A willy-willy", "zh": "威利-威利 (willy-willy)"}, {"en": "A blizzard", "zh": "暴风雪"}, {"en": "A hurricane", "zh": "飓风"}, {"en": "A monsoon", "zh": "季风"}], "answer": 0, "explain": {"en": "Thudd explains it is called a dust devil, and 'Australian people call it willy-willy.' Super-hot air near the sand spins and picks up sand.", "zh": "撒得解释说它叫尘暴(dust devil)，“澳大利亚人叫它威利-威利(willy-willy)”。靠近沙子的超热空气旋转起来，卷起了沙子。"}}, {"q": {"en": "How long can a water-holding frog stay underground inside its skin cocoon?", "zh": "蓄水蛙(frog)待在地下的皮肤茧里能坚持多久？"}, "options": [{"en": "One day", "zh": "一天"}, {"en": "A few hours", "zh": "几个小时"}, {"en": "Up to five years", "zh": "长达五年"}, {"en": "Ten minutes", "zh": "十分钟"}], "answer": 2, "explain": {"en": "Thudd says the water-holding frog drinks lots of water when it rains, digs a tunnel, makes a cocoon from old skin, and 'can stay underground for five years!'", "zh": "撒得说蓄水蛙下雨时喝很多水，挖一条地道，用旧皮做成茧，能“在地下待上五年！”"}}, {"q": {"en": "What makes the katydid and the meat ants finally let go of Andrew and Judy?", "zh": "是什么让螽斯(katydid)和食肉蚁(meat ants)终于放开了安德鲁和朱迪？"}, "options": [{"en": "The Drastic Elastic", "zh": "弹力橡皮筋 (Drastic Elastic)"}, {"en": "Andrew's giant garlic burp", "zh": "安德鲁巨大的大蒜味打嗝"}, {"en": "A flashlight beam", "zh": "手电筒的光束"}, {"en": "Uncle Al's whistle", "zh": "阿尔叔叔的哨声"}], "answer": 1, "explain": {"en": "Thudd says katydids and crickets do not like garlic and smell with their knees. Andrew's big garlic burp makes them release their grip.", "zh": "撒得说螽斯和蟋蟀不喜欢大蒜，而且它们是用膝盖闻味的。安德鲁的大蒜味打嗝让它们松开了爪子。"}}, {"q": {"en": "In the Australian desert, what is a 'mob'?", "zh": "在澳大利亚沙漠里，“mob”指的是什么？"}, "options": [{"en": "A pack of dingoes", "zh": "一群澳洲野犬"}, {"en": "A swarm of meat ants", "zh": "一大群食肉蚁"}, {"en": "A bunch of kangaroos", "zh": "一群袋鼠"}, {"en": "A group of termites", "zh": "一群白蚁"}], "answer": 2, "explain": {"en": "When dozens of leaping kangaroos appear, Thudd says, 'Bunch of kangaroos called mob.'", "zh": "当成群跳跃的袋鼠出现时，撒得说：“一群袋鼠叫做 mob。”"}}, {"q": {"en": "Which small marsupial attacks the scorpion and saves Judy from the spider and scorpion?", "zh": "是哪只小型有袋动物攻击了蝎子，把朱迪从蜘蛛和蝎子手中救了出来？"}, "options": [{"en": "Uncle Al", "zh": "阿尔叔叔"}, {"en": "Winka", "zh": "温卡 (Winka)"}, {"en": "A gecko", "zh": "一只壁虎"}, {"en": "A fat-tailed dunnart", "zh": "肥尾狭足袋鼩 (fat-tailed dunnart)"}], "answer": 3, "explain": {"en": "A fat-tailed dunnart leaps onto the scorpion and turns it on its back. Thudd says it is a marsupial like a kangaroo, with tiny babies that crawl into its pouch.", "zh": "一只肥尾狭足袋鼩跳到蝎子身上把它掀翻。撒得说它和袋鼠一样是有袋动物，小宝宝小得像一粒米，会爬进育儿袋里。"}}, {"q": {"en": "According to True Stuff, how does a gecko keep its eyes clean?", "zh": "根据“真实知识”(True Stuff)，壁虎是怎么清洁眼睛的？"}, "options": [{"en": "It blinks like a human", "zh": "它像人一样眨眼睛"}, {"en": "It licks them with its tongue", "zh": "它用舌头舔眼睛"}, {"en": "It uses a leaf", "zh": "它用一片叶子"}, {"en": "It washes in a puddle", "zh": "它在水坑里洗"}], "answer": 1, "explain": {"en": "True Stuff says geckos cannot blink because they have no eyelids. A transparent scale covers their eyes, and they clean the scale with their tongues.", "zh": "“真实知识”说壁虎没有眼皮，不会眨眼睛。一层透明的鳞片盖着眼睛，它们用舌头来舔干净这层鳞片。"}}, {"q": {"en": "What does Andrew use to hook a rolling tumbleweed and ride it toward Uluru?", "zh": "安德鲁用什么钩住滚动的风滚草(tumbleweed)，骑着它前往乌卢鲁(Uluru)？"}, "options": [{"en": "The GNAT flying machine", "zh": "GNAT 飞行器"}, {"en": "A fishing rod", "zh": "一根钓鱼竿"}, {"en": "The Drastic Elastic", "zh": "弹力橡皮筋 (Drastic Elastic)"}, {"en": "Uncle Al's hat", "zh": "阿尔叔叔的帽子"}], "answer": 2, "explain": {"en": "Andrew wraps the Drastic Elastic around himself and Judy and tosses his flashlight (hooked to it) at a tumbleweed. It snags the weed 'like a big fish.'", "zh": "安德鲁把弹力橡皮筋缠在自己和朱迪身上，把连着它的手电筒朝风滚草扔去。手电筒像“钓到大鱼”一样钩住了草团。"}}, {"q": {"en": "In True Stuff, what is 'estivation'?", "zh": "在“真实知识”里，“夏眠”(estivation) 是什么意思？"}, "options": [{"en": "Building a termite mound", "zh": "建造白蚁丘"}, {"en": "Slowing the body down to survive heat and dryness", "zh": "让身体慢下来，以熬过炎热和干旱"}, {"en": "Sleeping through the winter cold", "zh": "睡过寒冷的冬天"}, {"en": "Drinking water from a frog", "zh": "喝青蛙体内的水"}], "answer": 1, "explain": {"en": "True Stuff explains that when it gets too hot and dry, desert frogs burrow underground and slow their bodies down. That is called estivation.", "zh": "“真实知识”解释说，天气太热太干时，沙漠蛙会钻到地下，让身体慢下来。这叫做夏眠(estivation)。"}}, {"q": {"en": "What is Uluru, the place where Uncle Al and Winka wait for the kids?", "zh": "乌卢鲁(Uluru)是什么地方？阿尔叔叔和温卡在那儿等孩子们。"}, "options": [{"en": "A giant termite mound", "zh": "一个巨大的白蚁丘"}, {"en": "The highest rock in the desert, with hotels and restaurants", "zh": "沙漠里最高的岩石，那里有旅馆和餐馆"}, {"en": "A deep underground tunnel", "zh": "一条深深的地下隧道"}, {"en": "A meteor shower crater", "zh": "一个流星雨陨石坑"}], "answer": 1, "explain": {"en": "Uncle Al tells the kids Uluru is 'the highest spot in this desert' and such a beautiful place that people come to see it, with hotels and restaurants.", "zh": "阿尔叔叔告诉孩子们，乌卢鲁是“这片沙漠里最高的地方”，而且非常美丽，人们都来参观，那里还有旅馆和餐馆。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>On Earth — Quiz</title>
+<style>
+  :root{
+    --lab:#0e7490;
+    --lab-dark:#155e75;
+    --amber:#f59e0b;
+    --cream:#f7fbff;
+    --ink:#1f2937;
+    --robot:#94a3b8;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--lab),var(--lab-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:linear-gradient(135deg,var(--lab),var(--lab-dark));
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #cffafe);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6ef;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--lab);background:#eef9fc;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--lab);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f8;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2edf4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--amber);}
+  label.right{background:#d7f0df;border-color:var(--lab);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7ff;
+    border-left:4px solid var(--lab);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--lab-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--lab);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(14,116,144,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(14,116,144,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#10 · On Earth</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by J.C. Greenburg</p>
+    <div class="logo">⚛️</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Andrew Lost: On Earth</em> (Random House, 2005) — by J.C. Greenburg</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by J.C. Greenburg",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your microscopic world.",
+    great: "Great job — you understood the science adventure well.",
+    ok: "Not bad — but a few tiny clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：J.C. Greenburg",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这个微观世界冒险。",
+    great: "很棒——你已经读懂了这个科学冒险故事。",
+    ok: "不错——不过有几条小线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "When the story opens, what does the Time-A-Tron's digital display say about where they are?", "zh": "故事开头，时间舱（Time-A-Tron）的数字显示屏显示他们身处什么时代？"}, "options": [{"en": "4 billion 500 million years ago, at the very beginning of planet Earth", "zh": "45亿年前，地球刚刚开始形成的时代"}, {"en": "4 billion 500 million years in the future", "zh": "45亿年后的未来"}, {"en": "45 million years ago, when the dinosaurs lived", "zh": "4500万年前，恐龙生活的时代"}, {"en": "just last Tuesday, back in Montana", "zh": "就在上个星期二，在蒙大拿州"}], "answer": 0, "explain": {"en": "The display flashes '4 BILLION 500 MILLION YEARS AGO' — crashing asteroids and comets have buried Andrew and Judy inside the very beginning of planet Earth.", "zh": "显示屏闪出“45亿年前”——撞击地球的小行星和彗星把安德鲁和朱迪埋在了地球刚刚形成的起点。"}}, {"q": {"en": "According to Thudd, how was Earth's moon created?", "zh": "根据撒德（Thudd）的说法，地球的月亮是怎么形成的？"}, "options": [{"en": "A planet the size of Mars crashed into Earth, and the splashed-up stuff formed the moon", "zh": "一颗和火星一样大的行星撞上地球，溅到太空里的物质形成了月亮"}, {"en": "Earth spun so fast that a piece of it flew off and became the moon", "zh": "地球转得太快，甩出一块变成了月亮"}, {"en": "A giant asteroid started orbiting Earth like a pet", "zh": "一颗巨大的小行星像宠物一样开始绕地球转"}, {"en": "Uncle Al built the moon out of Strongium", "zh": "阿伦叔叔用“强金属”造了月亮"}], "answer": 0, "explain": {"en": "Thudd says: 'Moon happen when planet big as Mars crash into Earth. Lotsa stuff splash into space. Make moon!'", "zh": "撒德说：“月亮是和火星一样大的行星撞上地球时形成的。好多东西溅到太空里，就变成了月亮！”"}}, {"q": {"en": "Who is Beeper Jones?", "zh": "比珀·琼斯（Beeper Jones）是谁？"}, "options": [{"en": "Doctor Kron-Tox's nephew, who likes collecting giant bugs", "zh": "克朗毒博士（Doctor Kron-Tox）的侄子，喜欢收集巨型虫子"}, {"en": "Andrew and Judy's uncle", "zh": "安德鲁和朱迪的叔叔"}, {"en": "A top-secret scientist who invented Thudd", "zh": "发明撒德的绝密科学家"}, {"en": "Andrew's thirteen-year-old cousin", "zh": "安德鲁十三岁的表姐"}], "answer": 0, "explain": {"en": "Beeper is Doctor Kron-Tox's nephew. He was dumped on the prehistoric island and likes to collect monster cockroaches and gigunda centipedes.", "zh": "比珀是克朗毒博士的侄子。他被丢在那个史前小岛上，喜欢收集巨型蟑螂和六英尺长的蜈蚣。"}}, {"q": {"en": "What does Thudd say Earth's core is like, and how hot is it?", "zh": "撒德说地球的核心是什么样的，温度有多高？"}, "options": [{"en": "A big lump of iron, about 7,000 degrees — hotter than the Sun's surface", "zh": "一大块铁，约7000度——比太阳表面还热"}, {"en": "A giant ball of ice, about 20 degrees below zero", "zh": "一个巨大的冰球，约零下20度"}, {"en": "Made of melted cheese, about 100 degrees", "zh": "由融化的奶酪组成，约100度"}, {"en": "A hollow cave where Uncle Al is hiding", "zh": "一个空洞穴，阿伦叔叔藏在里面"}], "answer": 0, "explain": {"en": "Thudd says: 'Earth core is big lump of iron. Earth core hot, hot, hot! Seven thousand degrees! Surface of sun only five thousand degrees!'", "zh": "撒德说：“地球核心是大大的一块铁。地球核心热热热！7000度！太阳表面才5000度！”"}}, {"q": {"en": "How did Andrew fix the broken tachyon tube that the shrew was chewing?", "zh": "安德鲁是如何修好被鼩鼱啃坏的时间粒子管的？"}, "options": [{"en": "He pushed little bones from an owl pellet through both parts to hold them together", "zh": "他把猫头鹰食团里的小骨头穿进断裂的两头，把它们固定在一起"}, {"en": "He wrapped it with Judy's bathrobe", "zh": "他用朱迪的浴袍把它包起来"}, {"en": "He used tape from Uncle Al's toolbox", "zh": "他用阿伦叔叔工具箱里的胶带"}, {"en": "He glued it with the fudge from his snack", "zh": "他用零食里的软糖把它粘起来"}], "answer": 0, "explain": {"en": "There was no tape (Uncle Al was kidnapped before stocking supplies). Andrew rolled the owl pellet apart, found little mouse bones, and pushed them through the broken tube ends to hold it together.", "zh": "工具箱里没有胶带（阿伦叔叔被绑架前还没来得及备货）。安德鲁把猫头鹰食团弄散，找到里面的小老鼠骨头，穿进断裂的管子两头把它接好。"}}, {"q": {"en": "Why did Andrew stuff Thudd into Beeper's sandwich bag during the tsunami?", "zh": "海啸来临时，安德鲁为什么把撒德塞进比珀的三明治袋里？"}, "options": [{"en": "To keep Thudd dry, because water makes his thought chips soggy", "zh": "为了让撒德保持干燥，因为水会让他的思考芯片发潮"}, {"en": "To feed him the tuna-and-peanut-butter sandwich", "zh": "为了让他吃金枪鱼花生酱三明治"}, {"en": "To hide him from Doctor Kron-Tox", "zh": "为了把他藏起来躲避克朗毒博士"}, {"en": "Because Thudd asked to take a nap", "zh": "因为撒德说想睡一觉"}], "answer": 0, "explain": {"en": "The last time Thudd got wet, his thought chips got soggy and he was in very bad shape. Andrew couldn't find his Bubble Bags, so he used the sandwich bag to keep Thudd from getting wet.", "zh": "上次撒德弄湿后，思考芯片就发潮、状态很差。安德鲁找不到防水袋，于是用三明治袋（里面还有比珀的金枪鱼花生酱三明治）给撒德挡水。"}}, {"q": {"en": "What are the slippery, cake-shaped rocks on the beach that Thudd calls stromatolites?", "zh": "海滩上那些滑溜溜、像蛋糕一样的石头，撒德称之为叠层石（stromatolites），它们到底是什么？"}, "options": [{"en": "Rocks made by special bacteria that burped up oxygen", "zh": "由特殊细菌制造、会“打嗝”放出氧气的石头"}, {"en": "Leftover pieces of the Time-A-Tron", "zh": "时间舱掉落的碎片"}, {"en": "Giant dinosaur eggs", "zh": "巨大的恐龙蛋"}, {"en": "Cakes that Beeper baked for lunch", "zh": "比珀烤来当午餐的蛋糕"}], "answer": 0, "explain": {"en": "Thudd says stromatolites are 'Made by special bacteria. Bacteria make mud stick together. Burp up lotsa oxygen, too. Baby Earth not got much oxygen till bacteria start burping three billion years ago!'", "zh": "撒德说叠层石是“特殊细菌造的。细菌把泥粘在一起，还会打出好多氧气。在细菌30亿年前开始打嗝之前，地球几乎没多少氧气！”"}}, {"q": {"en": "What bus-sized, armored fish with jaws like jagged saws chewed on the Time-A-Tron's Fast-Fins?", "zh": "哪种像公共汽车一样大、长着锯齿般下颚的装甲鱼，啃咬了时间舱的“快进鳍”？"}, "options": [{"en": "Dunkleosteus", "zh": "邓氏鱼（Dunkleosteus）"}, {"en": "A giant squid", "zh": "一只大王乌贼"}, {"en": "A megalodon shark", "zh": "一条巨齿鲨"}, {"en": "A humpback whale", "zh": "一只座头鲸"}], "answer": 0, "explain": {"en": "Thudd warns: 'Giant armored fish down there! Called Dunkleosteus. Big as bus!' It dragged the Time-A-Tron underwater and chewed its Fast-Fins; they lured it away with Beeper's backpack of sandwiches.", "zh": "撒德警告：“下面有巨型装甲鱼！叫邓氏鱼。像公共汽车那么大！”它把时间舱拖下水啃快进鳍；大家用比珀装着三明治的背包把它引开。"}}, {"q": {"en": "According to True Stuff, why is the inside of the Earth still hot and squishy today?", "zh": "根据书末的“真实知识”（True Stuff），为什么地球内部至今仍然又热又软？"}, "options": [{"en": "Heat from radioactivity (like uranium) plus heat left over from crashing asteroids", "zh": "放射性（如铀）释放的热，加上撞击地球的小行星留下的余热"}, {"en": "Because the Sun is burning right under the ground", "zh": "因为太阳在地下燃烧"}, {"en": "Because of all the volcanoes that people build", "zh": "因为人们建造的所有火山"}, {"en": "Because the Moon keeps the Earth warm", "zh": "因为月亮给地球保暖"}], "answer": 0, "explain": {"en": "True Stuff says asteroids contained radioactive elements like uranium; as they change into other elements they give off heat. Earth's inside is still hot and squishy because of radioactivity and the leftover heat from those crashing asteroids.", "zh": "“真实知识”说小行星含有铀等放射性元素；它们衰变时会放出热。地球内部至今又热又软，是因为放射性，以及那些撞击小行星留下的余热。"}}, {"q": {"en": "At the very end, the Time-A-Tron stops 65 million years ago and lands on a humongous tail with reptilian eyes. What is it?", "zh": "故事最后，时间舱停在6500万年前，落在一条长着爬行动物眼睛的巨尾上。那是什么？"}, "options": [{"en": "A dinosaur (an Alamosaurus, as the next-book sneak peek reveals)", "zh": "一只恐龙（续集预告里说明是阿拉莫龙 Alamosaurus）"}, {"en": "A giant squid", "zh": "一只大王乌贼"}, {"en": "A woolly mammoth", "zh": "一只长毛象"}, {"en": "Doctor Kron-Tox in a costume", "zh": "穿着戏服的克朗毒博士"}], "answer": 0, "explain": {"en": "Andrew thinks, 'There's nothing on Earth like this, except a dinosaur!' The 'boulder' has a tail 'as thick as a tree trunk,' and the story continues in 'Andrew Lost with the Dinosaurs!' (the sneak peek names it an Alamosaurus).", "zh": "安德鲁心想：“地球上没有别的东西像这样，除了恐龙！”那块“巨石”长着“粗得像树干”的尾巴，故事在《和恐龙在一起》中继续（预告里点名是阿拉莫龙）。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

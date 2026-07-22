@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andrew Lost — Books</title>
+<style>
+  :root{
+    --lab:#0e7490;
+    --lab-dark:#155e75;
+    --amber:#f59e0b;
+    --cream:#f7fbff;
+    --ink:#1f2937;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--lab),var(--lab-dark));
+    color:var(--ink);min-height:100vh;padding:0 0 40px;
+  }
+  header{
+    background:linear-gradient(135deg,var(--lab),var(--lab-dark));color:#fff;text-align:center;
+    padding:26px 18px 20px;position:relative;
+  }
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .topbar h1{margin:0;font-size:1.5rem;flex:1;text-align:center;}
+  .homeBtn{
+    font-size:1.35rem;text-decoration:none;background:#fff;border-radius:50%;
+    width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{margin:10px 0 0;font-size:.92rem;opacity:.92;}
+  .logo{
+    width:56px;height:56px;border-radius:50%;margin:14px auto 4px;
+    background:radial-gradient(circle at 35% 30%, #fff, #cffafe);
+    display:flex;align-items:center;justify-content:center;font-size:1.8rem;
+    box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  .wrap{max-width:1000px;margin:26px auto 0;padding:0 18px;}
+  .intro{
+    background:var(--cream);border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.3);
+    padding:18px 22px;font-size:.95rem;line-height:1.6;color:#444;
+  }
+  .intro b{color:var(--lab-dark);}
+  .grid{
+    margin-top:22px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;
+  }
+  .book{
+    background:var(--cream);border-radius:16px;overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.28);
+    display:flex;flex-direction:column;border-top:6px solid var(--accent,var(--lab));
+    transition:transform .15s,box-shadow .15s;
+  }
+  .book:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(0,0,0,.34);}
+  .book .top{padding:16px;text-align:center;background:linear-gradient(180deg,var(--accent,#0e7490),transparent);}
+  .num{
+    width:54px;height:54px;line-height:54px;border-radius:50%;background:#fff;
+    color:var(--accent,#0e7490);font-size:1.5rem;font-weight:bold;margin:0 auto 8px;
+    border:3px solid #fff;box-shadow:0 4px 10px rgba(0,0,0,.2);
+  }
+  .book .emoji{font-size:1.7rem;}
+  .book .title{margin:4px 0;font-size:1.02rem;font-weight:bold;line-height:1.3;padding:0 12px;}
+  .book .titleZh{margin:0 0 6px;font-size:.82rem;color:#888;padding:0 12px;}
+  .book .body{padding:6px 14px 16px;flex:1;display:flex;flex-direction:column;}
+  .book .desc{font-size:.82rem;color:#555;line-height:1.45;margin:0 0 12px;flex:1;padding:0 6px;}
+  .start{
+    display:block;text-align:center;text-decoration:none;font-family:inherit;
+    font-size:.95rem;font-weight:bold;color:#fff;background:var(--accent,#0e7490);
+    padding:10px;border-radius:30px;box-shadow:0 4px 12px rgba(0,0,0,.2);transition:filter .15s;
+  }
+  .start:hover{filter:brightness(1.08);}
+  footer{text-align:center;color:rgba(255,255,255,.85);font-size:.8rem;margin-top:32px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    <h1>Andrew Lost</h1>
+    <span style="width:40px"></span>
+  </div>
+  <div class="logo">⚛️</div>
+  <p>初章书 · 科学冒险 · Early Chapter / Science — by J.C. Greenburg</p>
+</header>
+
+<div class="wrap">
+  <div class="intro">
+    ⚛️ <b>11 本 Andrew Lost 科学冒险（#2–#18）（缺 #9、#11、#12、#14、#15、#16），每本都有中英双语阅读理解测验。</b><br>
+    11 Andrew Lost science adventures by J.C. Greenburg — tiny heroes Andrew, Judy &amp; robot Thudd explore microscopic worlds. Each book has a bilingual (English / 中文) comprehension quiz. Tap a book, read the questions, then check your answers!
+  </div>
+
+  <div class="grid">
+    <article class="book" style="--accent:#0891b2">
+      <div class="top"><div class="num">2</div><div class="emoji">🛁</div></div>
+      <div class="body">
+        <h3 class="title">In the Bathroom</h3>
+        <p class="titleZh">在浴室里</p>
+        <p class="desc">After Andrew's Atom Sucker shrinks them onto a dog getting a bath, Andrew, Judy & Thudd must survive bubbles, bacteria, spiders, and the toilet drain! 🛁</p>
+        <a class="start" href="in-the-bathroom-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#7c3aed">
+      <div class="top"><div class="num">3</div><div class="emoji">🍳</div></div>
+      <div class="body">
+        <h3 class="title">In the Kitchen</h3>
+        <p class="titleZh">在厨房里</p>
+        <p class="desc">Andrew, Judy & Thudd ride a drainpipe to Mrs. Scuttle's kitchen, dodge a cockroach, and get buttered on a slice of toast to survive! 🍳</p>
+        <a class="start" href="in-the-kitchen-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#16a085">
+      <div class="top"><div class="num">4</div><div class="emoji">🌻</div></div>
+      <div class="body">
+        <h3 class="title">In the Garden</h3>
+        <p class="titleZh">在花园里</p>
+        <p class="desc">Stranded in Mrs. Scuttle's garden, Andrew, Judy & Thudd meet water bears, a praying mantis, and ants—then ride a bug swarm to un-shrink! 🌻</p>
+        <a class="start" href="in-the-garden-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#db2777">
+      <div class="top"><div class="num">5</div><div class="emoji">🌊</div></div>
+      <div class="body">
+        <h3 class="title">Under Water</h3>
+        <p class="titleZh">在水下</p>
+        <p class="desc">Andrew, Judy & Thudd accidentally launch Uncle Al's Water Bug submarine and dive into the deep ocean to stop Soggy Bob from turning giant squids into snacks! 🌊</p>
+        <a class="start" href="under-water-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2563eb">
+      <div class="top"><div class="num">6</div><div class="emoji">🐋</div></div>
+      <div class="body">
+        <h3 class="title">In the Whale</h3>
+        <p class="titleZh">在鲸鱼里</p>
+        <p class="desc">Swallowed whole by a blue whale, Andrew, Judy & Thudd must survive three stomachs, the intestines, and a baby-whale rescue before Soggy Bob strikes again! 🐋</p>
+        <a class="start" href="in-the-whale-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#0891b2">
+      <div class="top"><div class="num">7</div><div class="emoji">🪸</div></div>
+      <div class="body">
+        <h3 class="title">On the Reef</h3>
+        <p class="titleZh">在珊瑚礁上</p>
+        <p class="desc">Trapped on the Great Barrier Reef, Andrew, Judy & Thudd battle blue-ringed octopuses, deadly sea wasps, and cone snails while outsmarting Soggy Bob's Octopus School! 🪸</p>
+        <a class="start" href="on-the-reef-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#65a30d">
+      <div class="top"><div class="num">8</div><div class="emoji">🐙</div></div>
+      <div class="body">
+        <h3 class="title">In the Deep</h3>
+        <p class="titleZh">在深海</p>
+        <p class="desc">Andrew, Judy & Thudd pilot Uncle Al's Water Bug into the Challenger Deep to save the giant squid from Soggy Bob's squidwich plans!</p>
+        <a class="start" href="in-the-deep-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#0d9488">
+      <div class="top"><div class="num">10</div><div class="emoji">🌍</div></div>
+      <div class="body">
+        <h3 class="title">On Earth</h3>
+        <p class="titleZh">在地球上</p>
+        <p class="desc">Bounced back through Earth's prehistory in the Time-A-Tron, Andrew, Judy & Thudd meet Doctor Kron-Tox's nephew Beeper and barely survive a gigantic tsunami and the bus-sized fish Dunkleosteus!</p>
+        <a class="start" href="on-earth-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#059669">
+      <div class="top"><div class="num">13</div><div class="emoji">🗑️</div></div>
+      <div class="body">
+        <h3 class="title">In the Garbage</h3>
+        <p class="titleZh">在垃圾里</p>
+        <p class="desc">Andrew's Goa Constrictor shrinks him, Judy & Thudd to the size of bugs and sends them on a wild adventure in a garbage dump!</p>
+        <a class="start" href="in-the-garbage-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#0891b2">
+      <div class="top"><div class="num">17</div><div class="emoji">🏜️</div></div>
+      <div class="body">
+        <h3 class="title">In the Desert</h3>
+        <p class="titleZh">在沙漠里</p>
+        <p class="desc">Ant-sized Andrew, Judy & Thudd are blown across the Australian desert and must survive dust devils, deadly snakes, and a whistling spider to reach Uluru!</p>
+        <a class="start" href="in-the-desert-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#7c3aed">
+      <div class="top"><div class="num">18</div><div class="emoji">🐸</div></div>
+      <div class="body">
+        <h3 class="title">With the Frogs</h3>
+        <p class="titleZh">和青蛙在一起</p>
+        <p class="desc">Ant-sized Andrew, Judy & Thudd build bug-suits and a flying GNAT to help Uncle Al save the disappearing frogs!</p>
+        <a class="start" href="with-the-frogs-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+  </div>
+</div>
+
+<footer>Part of 英语分级阅读乐园 · Reading by Level</footer>
+</body>
+</html>

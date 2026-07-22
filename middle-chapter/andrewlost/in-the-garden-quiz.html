@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>In the Garden — Quiz</title>
+<style>
+  :root{
+    --lab:#0e7490;
+    --lab-dark:#155e75;
+    --amber:#f59e0b;
+    --cream:#f7fbff;
+    --ink:#1f2937;
+    --robot:#94a3b8;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--lab),var(--lab-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:linear-gradient(135deg,var(--lab),var(--lab-dark));
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #cffafe);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6ef;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--lab);background:#eef9fc;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--lab);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f8;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2edf4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--amber);}
+  label.right{background:#d7f0df;border-color:var(--lab);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7ff;
+    border-left:4px solid var(--lab);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--lab-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--lab);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(14,116,144,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(14,116,144,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#4 · In the Garden</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by J.C. Greenburg</p>
+    <div class="logo">⚛️</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Andrew Lost: In the Garden</em> (Random House, 2003) — by J.C. Greenburg</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by J.C. Greenburg",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your microscopic world.",
+    great: "Great job — you understood the science adventure well.",
+    ok: "Not bad — but a few tiny clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：J.C. Greenburg",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这个微观世界冒险。",
+    great: "很棒——你已经读懂了这个科学冒险故事。",
+    ok: "不错——不过有几条小线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "How do Andrew and Judy get the shrunk helicopter out of Harley's ear?", "zh": "安德鲁和朱迪是怎么把缩小的直升机从哈雷耳朵里弄出来的？"}, "options": [{"en": "They use the Drastic Elastic to pull a daisy onto Harley's ear so he scratches and shakes it loose.", "zh": "他们用弹力带把一朵雏菊拉到哈雷耳朵上，哈雷一挠痒就把直升机甩了出来。"}, {"en": "They ask Mrs. Scuttle to dig it out.", "zh": "他们请斯卡特尔太太挖出来。"}, {"en": "They shrink themselves smaller to push it out.", "zh": "他们把自己缩得更小去推出来。"}, {"en": "The praying mantis hands it to them.", "zh": "螳螂把它递给他们。"}], "answer": 0, "explain": {"en": "Judy ties one end of the Drastic Elastic to the daisy's center and the other around a lily stem. When Harley raises his head, the daisy is pulled onto his ear; he scratches, and the helicopter falls out.", "zh": "朱迪把弹力带一端系在雏菊中心，另一端绕到百合茎上。哈雷抬头时雏菊被拉到耳边，他一挠痒，直升机就掉了出来。"}}, {"q": {"en": "What creature in a drop of water on the moss makes Thudd want a pet?", "zh": "苔藓水珠里哪种生物让撒德想要一只宠物？"}, "options": [{"en": "A water bear (tardigrade) with eight legs and no hair, which can dry up and come back to life when wet.", "zh": "一只水熊（缓步动物），八条腿没毛，干瘪后能遇水复活。"}, {"en": "A tiny fish.", "zh": "一条小鱼。"}, {"en": "A baby cockroach.", "zh": "一只小蟑螂。"}, {"en": "A drop of milk.", "zh": "一滴牛奶。"}], "answer": 0, "explain": {"en": "In a water drop on the moss, Thudd spots a chubby bear with eight legs and no hair—a water bear. If the moss dries up it dries up too, but it can live for a hundred years and come back to life when wet. Thudd wants to name it Spot.", "zh": "苔藓水珠里，撒德发现一只胖乎乎、八条腿、没毛的“水熊”。苔藓干掉它也会干瘪，却能活上百年、遇水复活。撒德想叫它“小点”（Spot）。"}}, {"q": {"en": "What does Andrew use Bug-Goo for in the garden?", "zh": "在花园里，安德鲁用“虫虫胶”（Bug-Goo）做什么？"}, "options": [{"en": "He squirts it to smell like pizza to bugs, luring the praying mantis away from them.", "zh": "他挤出来让虫子闻到像披萨的味道，把螳螂从他们身边引开。"}, {"en": "He eats it for lunch.", "zh": "他当午餐吃。"}, {"en": "He uses it to glue the daisy to the leaf.", "zh": "他用它把雏菊粘在叶子上。"}, {"en": "He paints it on Harley's nose.", "zh": "他把它涂在哈雷鼻子上。"}], "answer": 0, "explain": {"en": "When a giant praying mantis looms over them, Andrew squeezes a drop of Bug-Goo behind it. Bugs smell pizza and swarm to it, and the mantis turns away to feed—saving the kids.", "zh": "一只巨大螳螂逼近时，安德鲁在它身后挤了一滴虫虫胶。虫子闻到披萨味蜂拥而去，螳螂也转去觅食，孩子们得救。"}}, {"q": {"en": "What attacks Andrew in the dirt, and who saves him?", "zh": "泥土里是什么攻击了安德鲁，又是谁救了他？"}, "options": [{"en": "A noose fungus wraps him with a black tentacle; Judy saves him with her ballpoint pen.", "zh": "一条“套索真菌”用黑色触手缠住他；朱迪用圆珠笔救了他。"}, {"en": "A spider; Thudd saves him with a joke.", "zh": "一只蜘蛛；撒德用一个笑话救了他。"}, {"en": "A fish; Uncle Al saves him.", "zh": "一条鱼；阿尔叔叔救了他。"}, {"en": "A bee; Harley saves him.", "zh": "一只蜜蜂；哈雷救了他。"}], "answer": 0, "explain": {"en": "A black, gummy tentacle from a noose fungus whips around Andrew's chest and squeezes. Judy whacks it with her ballpoint pen (dripping with goo) and it lets go.", "zh": "一条黑色黏糊糊的“套索真菌”触手缠住安德鲁胸口越收越紧。朱迪用沾着菌液的圆珠笔猛打，触手松开放了他。"}}, {"q": {"en": "How do Andrew and Judy finally get un-shrunk?", "zh": "安德鲁和朱迪最后是怎么恢复原来大小的？"}, "options": [{"en": "Andrew drips Bug-Goo on the red UN-SHRINK switch; bugs pile on and their weight pushes it down.", "zh": "安德鲁把虫虫胶滴在红色“还原”开关上，虫子堆上去，重量把开关压到了还原档。"}, {"en": "Uncle Al presses the switch himself.", "zh": "阿尔叔叔自己按下开关。"}, {"en": "They drink a magic potion.", "zh": "他们喝了魔法药水。"}, {"en": "They wait until the next morning.", "zh": "他们等到第二天早上。"}], "answer": 0, "explain": {"en": "With only two minutes left, Andrew drips Bug-Goo on the red SHRINK/UN-SHRINK switch. A foot-high pile of bugs builds up and their weight pushes the switch to UN-SHRINK, returning everyone to normal size.", "zh": "只剩两分钟时，安德鲁把虫虫胶滴在红色“缩小/还原”开关上。虫子堆起一英尺高，重量把开关压到“还原”档，大家恢复原形。"}}, {"q": {"en": "What makes the cannon fungus shoot Andrew, Judy, and Thudd into the air?", "zh": "是什么让“炮真菌”把安德鲁、朱迪和撒德射上了天？"}, "options": [{"en": "Jeremy Snarfless squirts it with his water gun; water makes the fungus shoot its spore blob.", "zh": "杰里米·斯纳夫莱斯用水枪喷它，水让真菌把孢子团射了出去。"}, {"en": "Mrs. Scuttle throws it like a ball.", "zh": "斯卡特尔太太像扔球一样扔它。"}, {"en": "The sun heats it up.", "zh": "太阳把它晒热了。"}, {"en": "The praying mantis hits it.", "zh": "螳螂撞了它。"}], "answer": 0, "explain": {"en": "Andrew and Judy hide inside a cannon fungus cup. When Jeremy squirts water from his water gun into it, the wet fungus shoots its black spore blob—with the kids on top—up through the leaves like a rocket.", "zh": "安德鲁和朱迪躲进炮真菌的杯状结构。杰里米用水枪往里喷水，沾了水的真菌把黑色孢子团——连同上面的孩子们——像火箭一样射过树叶。"}}, {"q": {"en": "Why is sunlight dangerous to an earthworm?", "zh": "为什么阳光对蚯蚓很危险？"}, "options": [{"en": "Sunlight makes poison inside the worm's skin, and the worm can die.", "zh": "阳光会在蚯蚓皮肤里制造毒素，蚯蚓可能因此死去。"}, {"en": "Sunlight makes the worm too hot to move.", "zh": "阳光让蚯蚓热得动不了。"}, {"en": "Sunlight blinds the worm's many eyes.", "zh": "阳光刺瞎了蚯蚓众多的眼睛。"}, {"en": "Sunlight melts the worm.", "zh": "阳光把蚯蚓融化了。"}], "answer": 0, "explain": {"en": "Thudd explains that an earthworm has no eyes. If it stays in the sun, the sun makes poison inside the worm's skin and the worm dies—so worms come out only when the ground shakes (like the Atom Sucker noise).", "zh": "撒德说蚯蚓没有眼睛。如果待在太阳下，阳光会在它皮肤里制造毒素，蚯蚓会死——所以它们只在地面震动（如原子吸缩器的噪音）时才钻出来。"}}, {"q": {"en": "According to Thudd, how long do these cicadas stay underground before coming out?", "zh": "按照撒德的说法，这种蝉在钻出地面前要在地下待多久？"}, "options": [{"en": "Seventeen years—they dig in as little cicadas and crawl out together one night in June.", "zh": "十七年——它们还是小蝉时钻入地下，直到六月某个夜晚一起爬出来。"}, {"en": "One week.", "zh": "一个星期。"}, {"en": "One day.", "zh": "一天。"}, {"en": "One hundred years.", "zh": "一百年。"}], "answer": 0, "explain": {"en": "Thudd says seventeen years ago lots of this kind of cicada hatched from eggs, dug deep underground, and sucked tree roots. One night in June they all crawl out together—millions at once.", "zh": "撒德说十七年前这种蝉大量从卵里孵出，钻入地下深处吸树根。六月某个夜晚它们一起爬出地面——一次就是几百万只。"}}, {"q": {"en": "How do the farmer ants use the mealybug?", "zh": "“农夫蚂蚁”是怎么利用粉蚧（mealybug）的？"}, "options": [{"en": "They carry mealybugs into the anthill like cows and drink their poop like milk.", "zh": "它们像牵牛一样把粉蚧搬进蚁巢，喝它们的“便便”就像喝牛奶。"}, {"en": "They eat the mealybugs for dinner.", "zh": "它们把粉蚧当晚餐吃。"}, {"en": "They use them to build the anthill.", "zh": "它们用粉蚧来筑蚁巢。"}, {"en": "They ride them like horses.", "zh": "它们把粉蚧当马骑。"}], "answer": 0, "explain": {"en": "Thudd explains that a 'farmer ant' takes care of a mealybug. Ants carry mealybugs into the anthill like farmers take cows into a barn, then drink the mealybugs' poop the way we drink milk.", "zh": "撒德解释说，“农夫蚂蚁”会照料粉蚧。蚂蚁把粉蚧搬进蚁巢，就像农夫把牛牵进牛棚，然后喝粉蚧的便便，就像我们喝牛奶。"}}, {"q": {"en": "In 'True Stuff', why are monarch butterflies so brightly colored?", "zh": "在“真相小课堂”里，帝王蝶（monarch）为什么颜色那么鲜艳？"}, "options": [{"en": "Bright colors warn predators: 'Don't eat me—I taste bad and am poisonous!'", "zh": "鲜艳的颜色是在警告捕食者：“别吃我——我难吃而且有毒！”"}, {"en": "To attract more sunlight.", "zh": "为了吸引更多阳光。"}, {"en": "To hide from other butterflies.", "zh": "为了躲开其他蝴蝶。"}, {"en": "Because they ate too much candy.", "zh": "因为它们吃了太多糖。"}], "answer": 0, "explain": {"en": "The 'True Stuff' section says animals that are poisonous to eat—like monarch butterflies—are often very brightly colored. The bright colors are a warning to animals looking for a snack.", "zh": "“真相小课堂”说，吃了会中毒的动物（比如帝王蝶）往往颜色鲜艳。鲜艳的颜色是在警告觅食的动物“别吃我”。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

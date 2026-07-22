@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>In the Whale — Quiz</title>
+<style>
+  :root{
+    --lab:#0e7490;
+    --lab-dark:#155e75;
+    --amber:#f59e0b;
+    --cream:#f7fbff;
+    --ink:#1f2937;
+    --robot:#94a3b8;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--lab),var(--lab-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:linear-gradient(135deg,var(--lab),var(--lab-dark));
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #cffafe);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6ef;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--lab);background:#eef9fc;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--lab);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f8;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2edf4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--amber);}
+  label.right{background:#d7f0df;border-color:var(--lab);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7ff;
+    border-left:4px solid var(--lab);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--lab-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--lab);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(14,116,144,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(14,116,144,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#6 · In the Whale</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by J.C. Greenburg</p>
+    <div class="logo">⚛️</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Andrew Lost: In the Whale</em> (Random House, 2003) — by J.C. Greenburg</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by J.C. Greenburg",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your microscopic world.",
+    great: "Great job — you understood the science adventure well.",
+    ok: "Not bad — but a few tiny clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：J.C. Greenburg",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这个微观世界冒险。",
+    great: "很棒——你已经读懂了这个科学冒险故事。",
+    ok: "不错——不过有几条小线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Thudd says Andrew and Judy are too big for the blue whale to eat. What does the blue whale really eat?", "zh": "撒德说安德鲁和朱迪太大，蓝鲸吃不下。那蓝鲸真正吃什么？"}, "options": [{"en": "Tiny shrimp-like animals called krill", "zh": "一种叫磷虾（krill）的虾状小生物"}, {"en": "Whole submarines", "zh": "整艘潜水艇"}, {"en": "Giant squids", "zh": "大王乌贼"}, {"en": "Children wearing Bubble Duds", "zh": "穿着防水服的小孩"}], "answer": 0, "explain": {"en": "Thudd points to the little pink creatures all around them and calls them krill. Blue whales eat tiny shrimpy krill, not big things like kids or submarines.", "zh": "撒德指着身边粉色的小生物说那是磷虾。蓝鲸吃微小的磷虾，不吃小孩或潜水艇那样的大东西。"}}, {"q": {"en": "After passing through three stomachs and the intestines, how do Andrew, Judy, and the booby escape the whale?", "zh": "穿过三个胃和肠道之后，安德鲁、朱迪和鲣鸟是怎么逃出鲸鱼的？"}, "options": [{"en": "They are squeezed out the rear end (pooped out) and blast into the water", "zh": "被从鲸鱼尾部挤出（当成排泄物排出），冲进水里"}, {"en": "They climb back out through the whale's mouth", "zh": "从鲸鱼嘴里爬回去"}, {"en": "Uncle Al picks them up with the See Horse", "zh": "阿尔叔叔用海马号把它们接走"}, {"en": "They dig a hole with the Octo-Tool", "zh": "他们用八爪工具挖了个洞"}], "answer": 0, "explain": {"en": "The rectum collects the whale's poop, then gives a big squeeze — 'Bluffoooweee!' — and they blast out of the rear of the whale into the open water.", "zh": "直肠收集鲸鱼的排泄物，然后猛地一挤——“Bluffoooweee!”——他们从鲸鱼尾部被冲进了开阔的水里。"}}, {"q": {"en": "A shaggy white bird with big red webbed feet and a long blue beak grabs Thudd in its beak. What is it?", "zh": "一只长着大红蹼足、蓝色长喙的蓬松白鸟叼住了撒德。它是什么鸟？"}, "options": [{"en": "A red-footed booby", "zh": "红脚鲣鸟（red-footed booby）"}, {"en": "A pelican", "zh": "鹈鹕"}, {"en": "A penguin", "zh": "企鹅"}, {"en": "An eagle", "zh": "老鹰"}], "answer": 0, "explain": {"en": "Thudd names it the red-footed booby, a fishing bird that holds its breath and dives to catch fish. Andrew later makes it a Bubble Duds helmet so it can breathe underwater.", "zh": "撒德叫它红脚鲣鸟，是一种屏住呼吸潜水的捕鱼鸟。后来安德鲁给它做了防水服头盔，好让它在水下呼吸。"}}, {"q": {"en": "Soggy Bob lassos the baby whale's tail with the Crab-Mobile. How does Andrew free the calf?", "zh": "撒吉·鲍勃用蟹形战车用套索套住小鲸鱼的尾巴。安德鲁怎么救下小鲸鱼？"}, "options": [{"en": "He uses the Octo-Tool to untie the rope and then ropes the Crab-Mobile's claws so it spins and sinks", "zh": "他用八爪工具解开绳子，再把蟹形战车的大钳子缠住，使它旋转下沉"}, {"en": "He asks the mother whale to bite the rope", "zh": "他让鲸鱼妈妈咬断绳子"}, {"en": "He shoots the Crab-Mobile with the Super-Sniffer", "zh": "他用超级嗅探器射击蟹形战车"}, {"en": "He calls Uncle Al on the phone", "zh": "他打电话给阿尔叔叔"}], "answer": 0, "explain": {"en": "Andrew commands the Octo-Tool to 'Remove rope from baby whale.' The tentacles untie the lasso, then rope the Crab-Mobile's claws, jerk it, and send it spinning down out of sight.", "zh": "安德鲁命令八爪工具“解开小鲸鱼身上的绳子”。触手解开套索后，又把蟹形战车的大钳子缠住用力一拽，让它旋转着沉了下去。"}}, {"q": {"en": "To keep the booby from drowning underwater, what do Andrew and Judy do?", "zh": "为了不让鲣鸟在水下淹死，安德鲁和朱迪做了什么？"}, "options": [{"en": "They make it a Bubble Duds helmet and wrap a torn balloon around its body with a ribbon", "zh": "他们给它做了防水服头盔，并用破气球加丝带把它的身体包起来"}, {"en": "They teach it to hold its breath for two hours", "zh": "他们教它屏住呼吸两小时"}, {"en": "They tie it to the whale's tail", "zh": "他们把它绑在鲸鱼尾巴上"}, {"en": "They give it a scuba tank", "zh": "他们给它一个潜水气瓶"}], "answer": 0, "explain": {"en": "Andrew stretches a Bubble Duds patch over the booby's head for a helmet, and Judy uses a torn silver birthday balloon tied with its ribbon around the bird's body so it can breathe.", "zh": "安德鲁用防水服补丁给鲣鸟做了个头盔套在头上，朱迪用破掉的银色生日气球加丝带把鸟身包住，这样它就能呼吸了。"}}, {"q": {"en": "As the Water Bug follows a sperm whale into shallow water at the end, what traps them?", "zh": "在结尾，当水虫号跟着抹香鲸进入浅水区时，是什么困住了他们？"}, "options": [{"en": "A giant fishing net (a trap, maybe Soggy Bob's)", "zh": "一张巨大的渔网（可能是撒吉·鲍勃设的陷阱）"}, {"en": "A giant squid's arms", "zh": "大王乌贼的触手"}, {"en": "A coral cave", "zh": "珊瑚洞穴"}, {"en": "A whirlpool", "zh": "漩涡"}], "answer": 0, "explain": {"en": "The Water Bug flips over and stops upside down, tangled in a huge web-like net — a trap that may be Soggy Bob's, set to keep them from reaching the giant squids.", "zh": "水虫号翻滚着倒扣停下，缠在一张巨大的网里——这可能是撒吉·鲍勃为阻止他们找到大王乌贼而设的陷阱。"}}, {"q": {"en": "Thudd says the blue whale is coming up to breathe. About how long can a blue whale stay underwater?", "zh": "撒德说蓝鲸要浮上来呼吸。蓝鲸大约能在水下待多久？"}, "options": [{"en": "About forty minutes (some whales can stay under for two hours)", "zh": "约 40 分钟（有些鲸鱼可达两小时）"}, {"en": "Only a few seconds", "zh": "只有几秒钟"}, {"en": "A whole week", "zh": "整整一周"}, {"en": "All winter long", "zh": "整个冬天"}], "answer": 0, "explain": {"en": "Thudd explains a blue whale can stay underwater for forty minutes, and some whales can stay under for two hours, then it comes up to breathe through its spout.", "zh": "撒德说蓝鲸能在水下待 40 分钟，有些鲸鱼可达两小时，然后浮上来用喷气孔呼吸。"}}, {"q": {"en": "As they hold the whale's tail, Thudd explains how whale and dolphin tails move. How is that different from fish?", "zh": "撒德在讲解鲸和海豚尾巴的运动方式时，和鱼有什么不同？"}, "options": [{"en": "Whale and dolphin tails move up and down; fish tails move side to side", "zh": "鲸和海豚的尾巴上下摆动，鱼的尾巴左右摆动"}, {"en": "Whale tails move in circles; fish tails don't move", "zh": "鲸尾转圈摆动，鱼尾不动"}, {"en": "They move exactly the same way", "zh": "它们方式完全一样"}, {"en": "Whale tails don't move at all", "zh": "鲸尾根本不动"}], "answer": 0, "explain": {"en": "Thudd says tails of whales and dolphins move up and down, while tails of fish move side to side.", "zh": "撒德说鲸和海豚的尾巴上下动，而鱼的尾巴左右动。"}}, {"q": {"en": "As they travel through the whale's guts, Thudd tells them the length of the intestine. How long is it?", "zh": "在穿过鲸鱼肠道时，撒德告诉他们肠道的长度。有多长？"}, "options": [{"en": "About 500 feet, almost as long as two football fields (a human's is 13 feet)", "zh": "约 500 英尺，差不多两个足球场长（人类只有 13 英尺）"}, {"en": "About 5 feet", "zh": "约 5 英尺"}, {"en": "About one mile", "zh": "约 1 英里"}, {"en": "About 50 feet", "zh": "约 50 英尺"}], "answer": 0, "explain": {"en": "Thudd says the whale intestine is 500 feet long, almost as long as two football fields, while a human intestine is 13 feet.", "zh": "撒德说鲸的肠道有 500 英尺长，差不多两个足球场，而人类的只有 13 英尺。"}}, {"q": {"en": "True Stuff says blue whales make the loudest sounds of any animal. How far apart can they communicate?", "zh": "“真相小课堂”说蓝鲸发出所有动物中最响的声音。它们能隔着多远互相交流？"}, "options": [{"en": "From a thousand miles away", "zh": "相隔 1000 英里之远"}, {"en": "From across the room", "zh": "隔着一间房"}, {"en": "Only a few feet", "zh": "只有几英尺"}, {"en": "From the next town", "zh": "从邻近的城镇"}], "answer": 0, "explain": {"en": "True Stuff says blue whale voices are the loudest animal sounds and they can communicate from a thousand miles away — only very low sounds can travel so far underwater.", "zh": "“真相小课堂”说蓝鲸的声音是所有动物中最响的，能隔着 1000 英里交流——只有很低的声音才能在水下传这么远。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

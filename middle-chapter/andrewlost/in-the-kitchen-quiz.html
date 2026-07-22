@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>In the Kitchen — Quiz</title>
+<style>
+  :root{
+    --lab:#0e7490;
+    --lab-dark:#155e75;
+    --amber:#f59e0b;
+    --cream:#f7fbff;
+    --ink:#1f2937;
+    --robot:#94a3b8;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--lab),var(--lab-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:linear-gradient(135deg,var(--lab),var(--lab-dark));
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #cffafe);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6ef;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--lab);background:#eef9fc;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--lab);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f8;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2edf4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--amber);}
+  label.right{background:#d7f0df;border-color:var(--lab);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7ff;
+    border-left:4px solid var(--lab);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--lab-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--lab);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(14,116,144,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(14,116,144,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#3 · In the Kitchen</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by J.C. Greenburg</p>
+    <div class="logo">⚛️</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Andrew Lost: In the Kitchen</em> (Random House, 2002) — by J.C. Greenburg</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by J.C. Greenburg",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your microscopic world.",
+    great: "Great job — you understood the science adventure well.",
+    ok: "Not bad — but a few tiny clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：J.C. Greenburg",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这个微观世界冒险。",
+    great: "很棒——你已经读懂了这个科学冒险故事。",
+    ok: "不错——不过有几条小线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "At the end of the book, how do Andrew, Judy, and Thudd escape from Mrs. Scuttle's kitchen?", "zh": "在书的结尾，安德鲁、朱迪和撒德是怎么逃出斯卡特尔太太的厨房的？"}, "options": [{"en": "They grab onto a fly that squeezes through a hole in the screen door and flies into the garden.", "zh": "他们抓住一只苍蝇，它从纱门的破洞挤出去，飞进了花园。"}, {"en": "They ride Harley the dog out the front door.", "zh": "他们骑着哈雷这只狗从大门出去。"}, {"en": "They get flushed down the kitchen sink again.", "zh": "他们又被厨房水槽冲走了。"}, {"en": "They shrink themselves even smaller and hide in a salt shaker.", "zh": "他们把自己缩得更小，藏进盐瓶里。"}], "answer": 0, "explain": {"en": "Mrs. Scuttle swings her fly swatter, but the fly folds its wings and squeezes through a hole in the screen door. Andrew, Judy, and Thudd hold on and fly out into Mrs. Scuttle's garden.", "zh": "斯卡特尔太太挥动苍蝇拍，但苍蝇收起翅膀从纱门破洞挤了出去。安德鲁、朱迪和撒德紧紧抓住它，飞进了斯卡特尔太太的花园。"}}, {"q": {"en": "Why does Andrew need to rub Thudd with butter?", "zh": "安德鲁为什么要用黄油擦撒德？"}, "options": [{"en": "Thudd got wet in the bathtub, his antennas are rusty, and butter keeps them from rusting so Uncle Al can still reach them.", "zh": "撒德在浴缸里弄湿了，天线生锈了，黄油能防锈，这样阿尔叔叔还能联系到他们。"}, {"en": "Thudd is hungry and butter is his favorite food.", "zh": "撒德饿了，黄油是他最爱的食物。"}, {"en": "Butter makes Thudd's screen glow brighter.", "zh": "黄油能让撒德的屏幕更亮。"}, {"en": "Thudd asked for butter to make a sandwich.", "zh": "撒德要黄油做三明治。"}], "answer": 0, "explain": {"en": "Thudd got soaked in the bathtub in the last book. His antennas are getting rusty, which blocks Uncle Al's hologram calls. Uncle Al says to rub him with something greasy like butter to keep him from rusting.", "zh": "撒德在上一本书的浴缸里全身湿透，天线开始生锈，会切断阿尔叔叔的全息联络。阿尔叔叔说要用黄油之类的油腻物擦他防锈。"}}, {"q": {"en": "Where was Uncle Al's Drastic Elastic hidden?", "zh": "阿尔叔叔的“弹力带”（Drastic Elastic）藏在哪里？"}, "options": [{"en": "In a secret pocket under the RIGHT side of Andrew's shirt collar (Uncle Al mixed up left and right).", "zh": "在安德鲁衣领右侧的暗袋里（阿尔叔叔把左右搞混了）。"}, {"en": "Inside the Atom Sucker.", "zh": "在原子吸缩器里面。"}, {"en": "In Mrs. Scuttle's refrigerator.", "zh": "在斯卡特尔太太的冰箱里。"}, {"en": "In Harley's dog ear.", "zh": "在哈雷的狗耳朵里。"}], "answer": 0, "explain": {"en": "Uncle Al said it was in a secret pocket under the LEFT side of the collar, but he often mixes up left and right. Andrew found it in the RIGHT side pocket—a tiny stretchy band with a cup at each end, version 1.1.", "zh": "阿尔叔叔说藏在衣领左侧暗袋，但他常把左右搞反。安德鲁在右侧暗袋找到了它——一条两端带小杯的弹力带（1.1版）。"}}, {"q": {"en": "What is the U-shaped 'trap' in the drainpipe for?", "zh": "排水管里那个 U 形的“存水弯”是做什么用的？"}, "options": [{"en": "It traps water that blocks stinky smells from coming up into the house.", "zh": "它存住水，挡住臭味从管道飘进屋里。"}, {"en": "It traps the kids so they can't escape.", "zh": "它把孩子们困住不让逃。"}, {"en": "It catches drain flies for Uncle Al's collection.", "zh": "它抓下水蝇给阿尔叔叔收藏。"}, {"en": "It makes the water spin faster.", "zh": "它让水流转得更快。"}], "answer": 0, "explain": {"en": "Judy explains that sinks, toilets, and tubs all have U-shaped traps. The trapped water keeps the stinky smells from the drain from getting into the house.", "zh": "朱迪解释说，水槽、马桶和浴缸下方都有 U 形存水弯，存住的水能挡住管道里的臭味飘进屋里。"}}, {"q": {"en": "What does Thudd say about a cockroach's eye?", "zh": "撒德说蟑螂的眼睛是怎样的？"}, "options": [{"en": "It looks like shiny tiles and is made of about two thousand little eyes, but they mostly just see movement.", "zh": "看起来像发亮的瓷砖，由大约两千只小眼睛组成，但主要只能看到动的东西。"}, {"en": "It is a single big round eye like a camera lens.", "zh": "像相机镜头一样单一的大圆眼。"}, {"en": "It has no eyes at all.", "zh": "它根本没有眼睛。"}, {"en": "It can see colors better than a human can.", "zh": "它看颜色比人类还清楚。"}], "answer": 0, "explain": {"en": "When the Umbubble gets stuck on the cockroach, Thudd says the 'shiny tiles' are the cockroach's eye, made of two thousand little eyes. They don't see much—mostly just movement.", "zh": "泡泡护盾粘到蟑螂身上时，撒德说那“发亮的瓷砖”是蟑螂的眼睛，由两千只小眼睛组成，看不太清，主要只能察觉动静。"}}, {"q": {"en": "What almost happens to Judy in Mrs. Scuttle's kitchen?", "zh": "在斯卡特尔太太的厨房里，朱迪差点遇到什么？"}, "options": [{"en": "She is almost cooked in the microwave on Mrs. Scuttle's tomato-and-cheese sandwich.", "zh": "她差点被一起放进微波炉，和斯卡特尔太太的番茄芝士三明治一起烤熟。"}, {"en": "She is almost eaten by the cockroach.", "zh": "她差点被蟑螂吃掉。"}, {"en": "She is almost flushed down the sink again.", "zh": "她差点又被水槽冲走。"}, {"en": "She is almost frozen in the refrigerator.", "zh": "她差点被冻在冰箱里。"}], "answer": 0, "explain": {"en": "Mrs. Scuttle makes a grilled cheese and tomato sandwich and (thinking she set it for ten minutes) puts it in the microwave—with Judy stuck on the tomato! Judy escapes only when a grain of salt knocks her off a slice.", "zh": "斯卡特尔太太做了烤芝士番茄三明治，误设10分钟放进微波炉——朱迪正粘在番茄上！幸好一粒盐把她从番茄片上碰了下来才脱险。"}}, {"q": {"en": "According to Thudd, what is a diamond made from?", "zh": "按照撒德的说法，钻石是用什么做的？"}, "options": [{"en": "The same stuff inside pencils (carbon), squished deep inside the hot Earth.", "zh": "和铅笔芯一样的物质（碳），在地球内部深处高温下被压成的。"}, {"en": "Crushed seashells.", "zh": "压碎的贝壳。"}, {"en": "Frozen water.", "zh": "冻住的水。"}, {"en": "Melted gold.", "zh": "熔化的黄金。"}], "answer": 0, "explain": {"en": "In the drain trap Andrew and Judy spot Mrs. Scuttle's lost diamond. Thudd says a diamond is made of the stuff inside pencils and comes from deep inside the Earth where it is hot, hot, hot.", "zh": "在存水弯里，安德鲁和朱迪发现了斯卡特尔太太遗失的钻石。撒德说钻石由铅笔芯里的物质构成，来自地球内部又热又深的地方。"}}, {"q": {"en": "How is a microwave oven different from a toaster oven?", "zh": "微波炉和烤箱（toaster oven）有什么不同？"}, "options": [{"en": "A microwave makes water molecules flip around fast and get hot; a toaster oven heats all the molecules.", "zh": "微波炉让水分子飞快翻滚变热；烤箱则是把所有分子一起加热。"}, {"en": "A microwave uses fire; a toaster oven uses ice.", "zh": "微波炉用火，烤箱用冰。"}, {"en": "They work exactly the same way.", "zh": "它们工作原理完全一样。"}, {"en": "A toaster oven only heats water molecules; a microwave heats everything.", "zh": "烤箱只加热水分子，微波炉加热所有东西。"}], "answer": 0, "explain": {"en": "Thudd explains all food has water inside. A microwave makes the water molecules flip around fast, fast, fast and get hot, which heats the rest. A toaster oven works differently—it makes all the molecules hot.", "zh": "撒德说食物里都有水。微波炉让水分子飞快翻滚变热，从而加热其他部分；烤箱则不同，是把所有分子一起加热。"}}, {"q": {"en": "Why does bread have holes like the moon?", "zh": "面包为什么像月亮一样有很多洞？"}, "options": [{"en": "Tiny yeast things in the dough eat the dough and burp bubbles that stay after baking.", "zh": "面团里微小的酵母吃掉面团并“打嗝”冒出气泡，烤熟后气泡就留在面包里。"}, {"en": "A baker pokes holes in it with a fork.", "zh": "面包师用叉子戳的洞。"}, {"en": "It is made from moon rocks.", "zh": "它是用月亮上的石头做的。"}, {"en": "Worms dig tunnels inside the loaf.", "zh": "虫子在里面挖了隧道。"}], "answer": 0, "explain": {"en": "Thudd tells Andrew that bread has lots of holes like the moon. Little yeast things live in bread dough, eat the dough, and burp—their burps make bubbles that stay in the bread after it is cooked.", "zh": "撒德告诉安德鲁，面包像月亮一样有很多洞。微小的酵母住在面团里，吃掉面团并打嗝，吐出的气泡在烤熟后留在面包里。"}}, {"q": {"en": "In 'True Stuff', where did all the water on Earth come from?", "zh": "在“真相小课堂”里，地球上所有的水来自哪里？"}, "options": [{"en": "From outer space—giant meteorites that formed Earth and icy comets that later crashed in.", "zh": "来自外太空——形成地球的大陨石，以及后来撞上来的冰彗星。"}, {"en": "From the Sun.", "zh": "来自太阳。"}, {"en": "From inside the Earth's core.", "zh": "来自地心。"}, {"en": "People made it in factories.", "zh": "人类在工厂里制造的。"}], "answer": 0, "explain": {"en": "The 'True Stuff' section says all the water on Earth came from outer space: most from the giant meteorites that smashed together to make Earth, and some from icy comets that later crashed into Earth.", "zh": "“真相小课堂”说地球上所有的水都来自外太空：大部分来自撞在一起形成地球的大陨石，还有一些来自后来撞上地球的冰彗星。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

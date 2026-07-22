@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>With the Frogs — Quiz</title>
+<style>
+  :root{
+    --lab:#0e7490;
+    --lab-dark:#155e75;
+    --amber:#f59e0b;
+    --cream:#f7fbff;
+    --ink:#1f2937;
+    --robot:#94a3b8;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--lab),var(--lab-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:linear-gradient(135deg,var(--lab),var(--lab-dark));
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #cffafe);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6ef;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--lab);background:#eef9fc;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--lab);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f8;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2edf4;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--amber);}
+  label.right{background:#d7f0df;border-color:var(--lab);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7ff;
+    border-left:4px solid var(--lab);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--lab-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--lab);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(14,116,144,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(14,116,144,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--lab-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#18 · With the Frogs</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by J.C. Greenburg</p>
+    <div class="logo">⚛️</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Andrew Lost: With the Frogs</em> (Random House, 2008) — by J.C. Greenburg</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by J.C. Greenburg",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your microscopic world.",
+    great: "Great job — you understood the science adventure well.",
+    ok: "Not bad — but a few tiny clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：J.C. Greenburg",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这个微观世界冒险。",
+    great: "很棒——你已经读懂了这个科学冒险故事。",
+    ok: "不错——不过有几条小线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "At the start of 'With the Frogs,' where are ant-sized Andrew and Judy?", "zh": "在《和青蛙在一起》一开始，变成蚂蚁那么小的安德鲁和朱迪在哪里？"}, "options": [{"en": "Outside a kitchen window on a ledge", "zh": "在厨房窗外的一个窗台上"}, {"en": "Inside the Goa Constrictor", "zh": "在 Goa 巨蛇机器里面"}, {"en": "In the Australian desert", "zh": "在澳大利亚沙漠里"}, {"en": "Under Uncle Al's jeep", "zh": "在阿尔叔叔的吉普车底下"}], "answer": 0, "explain": {"en": "The chapter opens with Andrew grunting on a ledge outside a kitchen window, struggling into his metal-tube pants, while Judy speaks from the windowsill behind him.", "zh": "这一章开头，安德鲁在厨房窗外的一个窗台上哼哼着，费力地穿金属管做的裤子，而朱迪在身后的窗台上和他说话。"}}, {"q": {"en": "What does Andrew call his new furry black-and-yellow-striped suit?", "zh": "安德鲁把他那件毛茸茸的、黑黄条纹的新衣服叫做什么？"}, "options": [{"en": "A Goa", "zh": "Goa"}, {"en": "A Wannabee", "zh": "Wannabee（想当蜜蜂）"}, {"en": "A GNAT", "zh": "GNAT"}, {"en": "A Drastic Elastic", "zh": "弹力橡皮筋 (Drastic Elastic)"}], "answer": 1, "explain": {"en": "Andrew tells Judy, 'I made us these suits. They're called Wannabees,' because since they are bug-sized they need some bug advantages.", "zh": "安德鲁对朱迪说：“我给我们做了这些套装，它们叫 Wannabee（想当蜜蜂）”，因为既然他们只有虫子那么大，就需要一些虫子的“优势”。"}}, {"q": {"en": "Who is Thudd in this story?", "zh": "在这个故事里，撒得（Thudd）是谁？"}, "options": [{"en": "Andrew's little silver robot best friend", "zh": "安德鲁小小的银色机器人好朋友"}, {"en": "Judy's pet frog", "zh": "朱迪的宠物青蛙"}, {"en": "Uncle Al's dog", "zh": "阿尔叔叔的狗"}, {"en": "A talking leaf", "zh": "一片会说话的叶子"}], "answer": 0, "explain": {"en": "Thudd is Andrew's 'little silver robot and pocket-sized best friend,' squeaking 'Hit Drewd!' from a pocket in Andrew's Wannabee.", "zh": "撒得是安德鲁“小小的银色机器人、可以放进口袋的最好的朋友”，他在安德鲁的 Wannabee 口袋里吱吱叫着：“打德鲁！”"}}, {"q": {"en": "Why did Andrew make the Wannabee suits?", "zh": "安德鲁为什么要做 Wannabee 套装？"}, "options": [{"en": "To keep warm in the desert", "zh": "为了在沙漠里保暖"}, {"en": "To hide from the GNAT", "zh": "为了躲开 GNAT"}, {"en": "To give them bug advantages while helping Uncle Al save the frogs", "zh": "为了获得虫子的优势，好帮阿尔叔叔拯救青蛙"}, {"en": "To look like kangaroos", "zh": "为了看起来像袋鼠"}], "answer": 2, "explain": {"en": "Andrew says, 'since we're bug-sized, we need some bug advantages,' and they must 'help Uncle Al save the frogs' at the pond beyond the yard.", "zh": "安德鲁说：“既然我们只有虫子那么大，就需要一些虫子的优势”，而且他们必须去院子那头的池塘“帮阿尔叔叔拯救青蛙”。"}}, {"q": {"en": "What frog problem are Andrew and Judy trying to help Uncle Al with?", "zh": "安德鲁和朱迪想帮阿尔叔叔解决什么青蛙问题？"}, "options": [{"en": "Saving frogs, some of which have gone extinct", "zh": "拯救青蛙，其中一些已经灭绝了"}, {"en": "Finding a lost spaceship", "zh": "寻找一艘失踪的飞船"}, {"en": "Building a new Goa Constrictor", "zh": "建造一台新的 Goa 巨蛇"}, {"en": "Stopping a dust devil", "zh": "阻止一场尘暴"}], "answer": 0, "explain": {"en": "Andrew tells Judy, 'Some frogs have even gone extinct. Uncle Al needs our help,' and there is a frog pond just beyond the yard.", "zh": "安德鲁告诉朱迪：“有些青蛙甚至已经灭绝了。阿尔叔叔需要我们的帮助”，而且院子外面就有一个青蛙池塘。"}}, {"q": {"en": "What flying machine does Andrew build to travel to the frog pond?", "zh": "安德鲁造了什么飞行器，用来去青蛙池塘？"}, "options": [{"en": "The Goa Constrictor", "zh": "Goa 巨蛇"}, {"en": "A paper airplane", "zh": "纸飞机"}, {"en": "A hot-air balloon", "zh": "热气球"}, {"en": "The GNAT (Global Navigation and Transportation)", "zh": "GNAT（全球导航与运输器）"}], "answer": 3, "explain": {"en": "Under a dead leaf Andrew reveals the GNAT. 'GNAT is short for Global Navigation and Transportation,' his odd flying machine.", "zh": "安德鲁在一片枯叶下面展示了 GNAT。“GNAT 是 Global Navigation and Transportation（全球导航与运输器）的缩写”，那是他奇怪的飞行器。"}}, {"q": {"en": "What does the GNAT look like when Andrew reveals it?", "zh": "安德鲁展示 GNAT 时，它长什么样？"}, "options": [{"en": "A giant metal spider", "zh": "一只巨大的金属蜘蛛"}, {"en": "A tiny submarine", "zh": "一艘小潜艇"}, {"en": "A kite with no wings", "zh": "一个没有翅膀的风筝"}, {"en": "A machine with buggy wings, two seats, and three wheels", "zh": "一台有昆虫翅膀、两个座位和三个轮子的机器"}], "answer": 3, "explain": {"en": "The GNAT has 'a pair of large, buggy-looking wings,' 'two little seats,' and 'three wheels' beneath them.", "zh": "GNAT 有“一对大大的、像虫子一样的翅膀”、“两个小座位”，下面还有“三个轮子”。"}}, {"q": {"en": "What does Judy bet Andrew over whether the GNAT will actually fly?", "zh": "朱迪和安德鲁打赌，赌注是什么，赌的是 GNAT 到底能不能飞起来？"}, "options": [{"en": "Her Wannabee suit", "zh": "她的 Wannabee 套装"}, {"en": "The last crumb of Uncle Al's super-delicious fudge", "zh": "阿尔叔叔那块超级好吃的软糖的最后一点碎屑"}, {"en": "A witchetty grub", "zh": "一条巫蛴螬 (witchetty grub)"}, {"en": "Thudd's purple button", "zh": "撒得的紫色按钮"}], "answer": 1, "explain": {"en": "Judy says she is so hungry she will take the bet: 'the last crumb of Uncle Al's super-delicious fudge' that Andrew has in his pocket.", "zh": "朱迪说自己太饿了，于是答应打赌：赌注是安德鲁口袋里“阿尔叔叔那块超级好吃的软糖的最后一点碎屑”。"}}, {"q": {"en": "How does the GNAT get the power it needs to fly?", "zh": "GNAT 是靠什么获得飞行所需的动力的？"}, "options": [{"en": "It runs on solar panels", "zh": "它靠太阳能板运行"}, {"en": "It uses garlic burps", "zh": "它用大蒜味的打嗝"}, {"en": "It stores energy as Andrew and Judy pedal, like winding a toy plane", "zh": "它靠安德鲁和朱迪踩踏板储存能量，就像上发条玩具飞机"}, {"en": "It is pulled by a tumbleweed", "zh": "它被风滚草拖着走"}], "answer": 2, "explain": {"en": "Andrew says, 'The GNAT is storing energy as we pedal. It's like winding up a toy plane.' Then its wings start beating and it lifts off.", "zh": "安德鲁说：“我们踩踏板时，GNAT 在储存能量。这就像给玩具飞机上发条。”然后它的翅膀开始拍打，飞了起来。"}}, {"q": {"en": "After Andrew and Judy pedal, what happens to the GNAT?", "zh": "安德鲁和朱迪踩踏板之后，GNAT 发生了什么？"}, "options": [{"en": "Its wings beat faster and it lifts off into the trees", "zh": "它的翅膀越拍越快，飞起来冲进了树丛"}, {"en": "It sinks into the frog pond", "zh": "它沉进了青蛙池塘"}, {"en": "It turns back into a dead leaf", "zh": "它变回成一片枯叶"}, {"en": "It shrinks them even smaller", "zh": "它把他们缩得更小了"}], "answer": 0, "explain": {"en": "They pedal, the GNAT stores energy, then 'the GNAT's wings were beating' and it 'zoomed off the window ledge and into the trees.'", "zh": "他们踩着踏板，GNAT 储存能量，接着“GNAT 的翅膀拍打着”，它“从窗台上一冲而起，飞进了树丛”。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
