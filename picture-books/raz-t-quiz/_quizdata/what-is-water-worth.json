@@ -1,326 +1,326 @@
 {
-  "slug": "what-is-water-worth",
-  "title": "What Is Water Worth?",
-  "titleZh": "水的价值何在？",
-  "level": "T",
-  "genre": "Informational",
-  "mainSkill": "Key Ideas and Details",
-  "questions": [
+ "title": "What Is Water Worth?",
+ "titleZh": "水值多少钱？",
+ "level": "T",
+ "genre": "Informational",
+ "mainSkill": "Key Ideas and Details",
+ "questions": [
+  {
+   "q": {
+    "en": "About what fraction of Earth's water is fresh (not salty)?",
+    "zh": "地球上的水大约有多少比例是淡水（非咸水）？"
+   },
+   "options": [
     {
-      "q": {
-        "en": "What fraction of Earth's water is freshwater?",
-        "zh": "地球的水中淡水占多大比例？"
-      },
-      "options": [
-        {
-          "en": "About 3 percent",
-          "zh": "约3%"
-        },
-        {
-          "en": "50 percent",
-          "zh": "50%"
-        },
-        {
-          "en": "90 percent",
-          "zh": "90%"
-        },
-        {
-          "en": "100 percent",
-          "zh": "100%"
-        }
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "Only about 3 percent of Earth's water is fresh; most is salt water.",
-        "zh": "地球淡水仅约3%，其余多为咸水。"
-      }
+     "en": "about 3 percent",
+     "zh": "约3%"
     },
     {
-      "q": {
-        "en": "Besides being mostly salt water, why is usable freshwater in short supply?",
-        "zh": "除了大多是咸水，为何可用淡水还如此短缺？"
-      },
-      "options": [
-        {
-          "en": "Pollution, population growth, and climate change limit the supply",
-          "zh": "污染、人口增长和气候变化限制了供给"
-        },
-        {
-          "en": "Too many fish",
-          "zh": "鱼太多"
-        },
-        {
-          "en": "A lack of rivers",
-          "zh": "没有河流"
-        },
-        {
-          "en": "Cold weather",
-          "zh": "天气寒冷"
-        }
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "Those three reasons make the 1 percent of usable freshwater scarce.",
-        "zh": "这三大原因让那1%可用的淡水变得稀缺。"
-      }
+     "en": "about 50 percent",
+     "zh": "约50%"
     },
     {
-      "q": {
-        "en": "What does 'scarce' mean in the book?",
-        "zh": "书中“scarce（稀缺）”是什么意思？"
-      },
-      "options": [
-        {
-          "en": "Rare; present in small amounts",
-          "zh": "稀少；数量很少"
-        },
-        {
-          "en": "Plentiful",
-          "zh": "充足"
-        },
-        {
-          "en": "Salty",
-          "zh": "咸的"
-        },
-        {
-          "en": "Frozen",
-          "zh": "冻结的"
-        }
-      ],
-      "answer": 0,
-      "skill": "Craft and Structure",
-      "explain": {
-        "en": "The glossary defines scarce as rare or present in small amounts.",
-        "zh": "词汇表将 scarce 定义为稀少或数量很少。"
-      }
+     "en": "about 1 percent",
+     "zh": "约1%"
     },
     {
-      "q": {
-        "en": "In Haiti, about how many people lack clean drinking water?",
-        "zh": "在海地，大约多少人不洁饮用水？"
-      },
-      "options": [
-        {
-          "en": "Seven out of ten (7 in 10)",
-          "zh": "十人中有七人（7/10）"
-        },
-        {
-          "en": "One in a hundred",
-          "zh": "百人中一人"
-        },
-        {
-          "en": "All of them",
-          "zh": "所有人"
-        },
-        {
-          "en": "None",
-          "zh": "没有人"
-        }
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "Seven out of ten Haitians do not have clean water to drink.",
-        "zh": "海地十人中有七人喝不上干净的水。"
-      }
-    },
-    {
-      "q": {
-        "en": "How much water does an average American use per day compared to poor people?",
-        "zh": "普通美国人的日用水量与穷人相比如何？"
-      },
-      "options": [
-        {
-          "en": "About 100 gallons (379 L) vs about 2 gallons (8 L)",
-          "zh": "约100加仑(379升) 对比 约2加仑(8升)"
-        },
-        {
-          "en": "2 gallons vs 100 gallons",
-          "zh": "2加仑 对比 100加仑"
-        },
-        {
-          "en": "Equal amounts",
-          "zh": "数量相等"
-        },
-        {
-          "en": "Americans use none",
-          "zh": "美国人不用水"
-        }
-      ],
-      "answer": 0,
-      "skill": "Integration of Knowledge and Ideas",
-      "explain": {
-        "en": "The book compares ~100 gallons per American to ~2 gallons for many poor people.",
-        "zh": "书中把美国人约100加仑与许多穷人约2加仑作对比。"
-      }
-    },
-    {
-      "q": {
-        "en": "What is a drought?",
-        "zh": "什么是“drought（干旱）”？"
-      },
-      "options": [
-        {
-          "en": "A long period of lower-than-normal rain or snow causing water shortage",
-          "zh": "一段低于正常水平的雨雪稀少期，导致缺水"
-        },
-        {
-          "en": "A flood",
-          "zh": "一场洪水"
-        },
-        {
-          "en": "A type of ocean",
-          "zh": "一种海洋"
-        },
-        {
-          "en": "A snowstorm",
-          "zh": "一场暴风雪"
-        }
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "A drought is a long dry period that leads to water shortages.",
-        "zh": "干旱是一段漫长的少雨期，会引发缺水。"
-      }
-    },
-    {
-      "q": {
-        "en": "Why does the author give tips like 'fix leaks' and 'eat less meat'?",
-        "zh": "作者为何给出“修理漏水”“少吃肉”等建议？"
-      },
-      "options": [
-        {
-          "en": "To encourage readers to conserve water in daily life",
-          "zh": "鼓励读者在日常生活中节约用水"
-        },
-        {
-          "en": "To sell water bottles",
-          "zh": "为了卖水瓶"
-        },
-        {
-          "en": "To describe farming",
-          "zh": "为了描述农业"
-        },
-        {
-          "en": "To criticize governments",
-          "zh": "为了批评政府"
-        }
-      ],
-      "answer": 0,
-      "skill": "Author's Purpose and Perspective",
-      "explain": {
-        "en": "The tips help individuals reduce their water use.",
-        "zh": "这些建议帮助个人减少用水量。"
-      }
-    },
-    {
-      "q": {
-        "en": "How does climate change affect the water supply?",
-        "zh": "气候变化如何影响供水？"
-      },
-      "options": [
-        {
-          "en": "Greenhouse gases trap heat, causing droughts and melting glaciers that shrink supply",
-          "zh": "温室气体留住热量，造成干旱和冰川融化，使供给减少"
-        },
-        {
-          "en": "It makes more rain everywhere",
-          "zh": "它让各地雨水更多"
-        },
-        {
-          "en": "It freezes all rivers",
-          "zh": "它冻结所有河流"
-        },
-        {
-          "en": "It has no effect",
-          "zh": "它毫无影响"
-        }
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "Trapped heat brings droughts and rapid glacier melt, shrinking supply.",
-        "zh": "被困住的热量带来干旱与冰川快速融化，使供水缩减。"
-      }
-    },
-    {
-      "q": {
-        "en": "What is desalination, mentioned for Saudi Arabia?",
-        "zh": "书中沙特阿拉伯提到的“desalination（海水淡化）”是什么？"
-      },
-      "options": [
-        {
-          "en": "Converting salt water to freshwater, though expensive",
-          "zh": "把咸水转化为淡水，但成本高"
-        },
-        {
-          "en": "Freezing water",
-          "zh": "冻结水"
-        },
-        {
-          "en": "Polluting water",
-          "zh": "污染水"
-        },
-        {
-          "en": "Digging wells",
-          "zh": "挖井"
-        }
-      ],
-      "answer": 0,
-      "skill": "Integration of Knowledge and Ideas",
-      "explain": {
-        "en": "Desalination turns salt water into freshwater but is costly.",
-        "zh": "海水淡化把咸水变成淡水，但费用高昂。"
-      }
-    },
-    {
-      "q": {
-        "en": "According to the book, about what share of the world's freshwater does agriculture use?",
-        "zh": "根据本书，农业大约消耗全球淡水的多少？"
-      },
-      "options": [
-        {
-          "en": "About 70 percent",
-          "zh": "约70%"
-        },
-        {
-          "en": "10 percent",
-          "zh": "10%"
-        },
-        {
-          "en": "100 percent",
-          "zh": "100%"
-        },
-        {
-          "en": "1 percent",
-          "zh": "1%"
-        }
-      ],
-      "answer": 0,
-      "skill": "Craft and Structure",
-      "explain": {
-        "en": "The book states agriculture uses about 70 percent of the world's freshwater.",
-        "zh": "书中说农业消耗了全球约70%的淡水。"
-      }
+     "en": "about 90 percent",
+     "zh": "约90%"
     }
-  ],
-  "extended": {
-    "prompt": {
-      "en": "What are three things you and your family could do at home to use less water?",
-      "zh": "你和家人在家里可以做哪三件事来减少用水？"
+   ],
+   "answer": 0,
+   "skill": "Key Ideas and Details",
+   "explain": {
+    "en": "The book says only about 3 percent of Earth's water is fresh.",
+    "zh": "书中说地球的水只有约3%是淡水。"
+   }
+  },
+  {
+   "q": {
+    "en": "According to the book, about how many people lack access to safe drinking water?",
+    "zh": "根据书中内容，大约有多少人无法获得安全的饮用水？"
+   },
+   "options": [
+    {
+     "en": "783 million",
+     "zh": "7.83亿"
     },
-    "guidance": {
-      "en": [
-        "Look at the 'What Can You Do?' tips, such as fixing leaks and shorter showers.",
-        "Think about food choices, like eating less beef, which uses far more water than potatoes."
-      ],
-      "zh": [
-        "参考书中“你能做什么？”的建议，如修理漏水、缩短淋浴时间。",
-        "想想饮食选择，比如少吃牛肉，因为牛肉耗水量远高于土豆。"
-      ]
+    {
+     "en": "1.1 billion (those without enough clean water)",
+     "zh": "11亿（指没有足够净水的人）"
+    },
+    {
+     "en": "7 billion",
+     "zh": "70亿"
+    },
+    {
+     "en": "3.6 billion",
+     "zh": "36亿"
     }
+   ],
+   "answer": 0,
+   "skill": "Key Ideas and Details",
+   "explain": {
+    "en": "The book states 783 million people around the world lack safe drinking water.",
+    "zh": "书中说全球有7.83亿人缺乏安全饮用水。"
+   }
+  },
+  {
+   "q": {
+    "en": "In Saudi Arabia, what process turns salt water into freshwater?",
+    "zh": "在沙特阿拉伯，用什么工艺把咸水变成淡水？"
+   },
+   "options": [
+    {
+     "en": "desalination",
+     "zh": "海水淡化"
+    },
+    {
+     "en": "freezing the ocean",
+     "zh": "把海水冻住"
+    },
+    {
+     "en": "boiling rivers",
+     "zh": "煮河流"
+    },
+    {
+     "en": "filtering with sand only",
+     "zh": "只用沙子过滤"
+    }
+   ],
+   "answer": 0,
+   "skill": "Key Ideas and Details",
+   "explain": {
+    "en": "Saudi Arabia converts salt water to freshwater through a process called desalination.",
+    "zh": "沙特阿拉伯通过名为'海水淡化'的工艺把咸水变为淡水。"
+   }
+  },
+  {
+   "q": {
+    "en": "By about what year may one-fifth of the world's population face serious water shortages from climate change?",
+    "zh": "到大约哪一年，全球五分之一的人口可能因气候变化面临严重缺水？"
+   },
+   "options": [
+    {
+     "en": "2050",
+     "zh": "2050年"
+    },
+    {
+     "en": "2035",
+     "zh": "2035年"
+    },
+    {
+     "en": "2020",
+     "zh": "2020年"
+    },
+    {
+     "en": "1999",
+     "zh": "1999年"
+    }
+   ],
+   "answer": 0,
+   "skill": "Key Ideas and Details",
+   "explain": {
+    "en": "Scientists predict that by 2050 one-fifth of the population may face serious shortages.",
+    "zh": "科学家预测，到2050年全球五分之一人口可能面临严重缺水。"
+   }
+  },
+  {
+   "q": {
+    "en": "The book opens with an image: if a glass as big as the United States held all Earth's water, it would be 145 km tall. What technique does the author use?",
+    "zh": "书一开头设想：若有一个和美国一样大的杯子装下地球上所有的水，它会有145公里高。作者用了什么手法？"
+   },
+   "options": [
+    {
+     "en": "a vivid comparison to make the huge amount of water imaginable",
+     "zh": "用生动的对比让人想象出巨大的水量"
+    },
+    {
+     "en": "a list of country names",
+     "zh": "列出国名"
+    },
+    {
+     "en": "a math equation",
+     "zh": "一个数学公式"
+    },
+    {
+     "en": "a fictional story",
+     "zh": "一个虚构故事"
+    }
+   ],
+   "answer": 0,
+   "skill": "Craft and Structure",
+   "explain": {
+    "en": "The author uses a striking comparison (a giant glass the size of the U.S.) to picture the total water.",
+    "zh": "作者用了一个惊人的对比（和美国一样大的杯子）来让人想象总水量。"
+   }
+  },
+  {
+   "q": {
+    "en": "How is the book mainly organized?",
+    "zh": "这本书主要按什么方式组织？"
+   },
+   "options": [
+    {
+     "en": "by describing problems, then offering solutions",
+     "zh": "先讲问题，再给出解决方案"
+    },
+    {
+     "en": "in alphabetical order",
+     "zh": "按字母顺序"
+    },
+    {
+     "en": "by listing countries only",
+     "zh": "只按国家罗列"
+    },
+    {
+     "en": "as a timeline of one year",
+     "zh": "某一年内的时间线"
+    }
+   ],
+   "answer": 0,
+   "skill": "Craft and Structure",
+   "explain": {
+    "en": "Sections move from pollution, population, and climate change to 'Solving the Problem.'",
+    "zh": "内容从污染、人口、气候变化，过渡到'解决问题'。"
+   }
+  },
+  {
+   "q": {
+    "en": "The book says agriculture uses about 70% of the world's freshwater while cities keep growing. What question does it raise?",
+    "zh": "书中说农业用掉全球约70%的淡水，而城市不断增长。它提出了什么问题？"
+   },
+   "options": [
+    {
+     "en": "should some farm water be shifted to cities?",
+     "zh": "是否应把部分农业用水转给城市？"
+    },
+    {
+     "en": "should cities be abandoned?",
+     "zh": "是否应放弃城市？"
+    },
+    {
+     "en": "should farms stop growing food?",
+     "zh": "农场是否应停止种粮？"
+    },
+    {
+     "en": "should all water be frozen?",
+     "zh": "是否应把所有水冻住？"
+    }
+   ],
+   "answer": 0,
+   "skill": "Integration of Knowledge and Ideas",
+   "explain": {
+    "en": "The book asks, 'Should some of that water go to cities instead?'",
+    "zh": "书中问：'是否应把其中部分水转供城市？'。"
+   }
+  },
+  {
+   "q": {
+    "en": "Singapore gets about one-third of its water by reusing wastewater from sinks, toilets, and showers. What does this show?",
+    "zh": "新加坡约三分之一的水来自回收水槽、马桶和淋浴的废水。这说明什么？"
+   },
+   "options": [
+    {
+     "en": "countries can recycle wastewater to add to their water supply",
+     "zh": "国家可以回收废水以增加供水"
+    },
+    {
+     "en": "wastewater can never be reused",
+     "zh": "废水永远不能再用"
+    },
+    {
+     "en": "Singapore has no rivers",
+     "zh": "新加坡没有河流"
+    },
+    {
+     "en": "only deserts do this",
+     "zh": "只有沙漠地区才这样做"
+    }
+   ],
+   "answer": 0,
+   "skill": "Integration of Knowledge and Ideas",
+   "explain": {
+    "en": "Singapore cleans and reuses wastewater, getting one-third of its water this way.",
+    "zh": "新加坡净化并再利用废水，以此获得三分之一的用水。"
+   }
+  },
+  {
+   "q": {
+    "en": "What is the author's main purpose in writing 'What Is Water Worth?'?",
+    "zh": "作者写《水值多少钱？》的主要目的是什么？"
+   },
+   "options": [
+    {
+     "en": "to explain why water is precious, what threatens it, and urge conservation",
+     "zh": "解释水为何珍贵、有何威胁，并呼吁节约"
+    },
+    {
+     "en": "to sell bottled water",
+     "zh": "推销瓶装水"
+    },
+    {
+     "en": "to describe ocean animals only",
+     "zh": "只描述海洋动物"
+    },
+    {
+     "en": "to promote building dams everywhere",
+     "zh": "主张到处建水坝"
+    }
+   ],
+   "answer": 0,
+   "skill": "Author's Purpose and Perspective",
+   "explain": {
+    "en": "The book explains scarcity and ends by saying we all need to conserve this resource.",
+    "zh": "本书解释水资源稀缺，并以'我们都需要节约这一资源'作结。"
+   }
+  },
+  {
+   "q": {
+    "en": "What point of view does the author express about saving water?",
+    "zh": "作者对节约用水表达了什么观点？"
+   },
+   "options": [
+    {
+     "en": "conservation is needed for both today's and future generations",
+     "zh": "节约既为当代，也为后代所需"
+    },
+    {
+     "en": "only governments should worry about it",
+     "zh": "只有政府该操心"
+    },
+    {
+     "en": "it is not important",
+     "zh": "这并不重要"
+    },
+    {
+     "en": "it is someone else's problem",
+     "zh": "那是别人的事"
+    }
+   ],
+   "answer": 0,
+   "skill": "Author's Purpose and Perspective",
+   "explain": {
+    "en": "The author writes it is 'not just for our generation, but for the ones yet to come.'",
+    "zh": "作者写道，节约'不仅为了我们这一代，也为了尚未出生的一代'。"
+   }
   }
+ ],
+ "extended": {
+  "prompt": {
+   "en": "The book gives personal tips (fix leaks, shorter showers, eat less beef) and big solutions (desalination, recycling wastewater). Which action do you think would help most in your own life, and why? Use details from the book.",
+   "zh": "书中既给了个人建议（修漏水、缩短淋浴、少吃牛肉），也提了大型方案（海水淡化、废水回收）。你认为哪种行动在你生活中帮助最大？为什么？请结合书中细节。"
+  },
+  "guidance": {
+   "en": [
+    "Look at the 'What Can You Do?' box for personal actions.",
+    "Think about which change would be easiest or biggest for you."
+   ],
+   "zh": [
+    "查看书中'你能做什么？'方框里的个人行动。",
+    "想一想哪种改变对你而言最易做到或影响最大。"
+   ]
+  }
+ },
+ "slug": "what-is-water-worth"
 }

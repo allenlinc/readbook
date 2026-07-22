@@ -1,328 +1,326 @@
 {
-  "slug": "weave-it",
-  "title": "Weave It!",
-  "titleZh": "编织吧！",
-  "level": "T",
-  "genre": "Informational",
-  "mainSkill": "Key Ideas and Details",
-  "questions": [
+ "title": "Weave It!",
+ "titleZh": "编织吧！",
+ "level": "T",
+ "genre": "Informational",
+ "mainSkill": "Key Ideas and Details",
+ "questions": [
+  {
+   "q": {
+    "en": "Weaving joins two sets of threads. What are these two sets called?",
+    "zh": "编织是把两组线交织在一起。这两组线叫什么？"
+   },
+   "options": [
     {
-      "q": {
-        "en": "According to the book, what is weaving?",
-        "zh": "根据本书，什么是编织（weaving）？"
-      },
-      "options": [
-        {
-          "en": "Creating fabric by lacing together two sets of threads or fibers",
-          "zh": "将两组线或纤维交织在一起制成布料"
-        },
-        {
-          "en": "Sewing pieces of cloth together with a needle",
-          "zh": "用针把布片缝在一起"
-        },
-        {
-          "en": "Knitting with a single ball of yarn",
-          "zh": "用一团毛线织毛衣"
-        },
-        {
-          "en": "Painting a design onto a sheet of paper",
-          "zh": "在纸上画图案"
-        }
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "The book says weaving is the process of creating fabric by lacing together two sets of threads or fibers.",
-        "zh": "书中说明，编织是把两组线或纤维交织在一起制成布料的过程。"
-      }
+     "en": "warp and weft",
+     "zh": "经线和纬线"
     },
     {
-      "q": {
-        "en": "In weaving, what are the 'warp' threads?",
-        "zh": "在编织中，什么是“经线”（warp）？"
-      },
-      "options": [
-        {
-          "en": "The horizontal threads woven over and under",
-          "zh": "上下穿插的水平方向的线"
-        },
-        {
-          "en": "The vertical threads held in position as the foundation",
-          "zh": "被固定在位置上、作为基底的垂直方向的线"
-        },
-        {
-          "en": "The loose ends tied off at the finish",
-          "zh": "结束时打结的散线"
-        },
-        {
-          "en": "The decorative beads added at the end",
-          "zh": "最后加上的装饰珠子"
-        }
-      ],
-      "answer": 1,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "The warp is the set of vertical threads held in position, usually over a frame, that form the foundation.",
-        "zh": "经线是垂直方向的线，通常被固定在框上，作为编织的基底。"
-      }
+     "en": "warp and shed",
+     "zh": "经线和梭口"
     },
     {
-      "q": {
-        "en": "What are the three weaving projects taught in this book?",
-        "zh": "本书教了哪三个编织项目？"
-      },
-      "options": [
-        {
-          "en": "A paper mat, a friendship bracelet, and a dreamcatcher",
-          "zh": "纸垫、友谊手链和捕梦网"
-        },
-        {
-          "en": "A scarf, a hat, and a blanket",
-          "zh": "围巾、帽子和毯子"
-        },
-        {
-          "en": "A basket, a rug, and a quilt",
-          "zh": "篮子、地毯和被子"
-        },
-        {
-          "en": "A kite, a puppet, and a mask",
-          "zh": "风筝、木偶和面具"
-        }
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "The book introduces weaving through three projects: a paper mat, a friendship bracelet, and a dreamcatcher.",
-        "zh": "本书通过三个项目介绍编织：纸垫、友谊手链和捕梦网。"
-      }
+     "en": "weft and knot",
+     "zh": "纬线和结"
     },
     {
-      "q": {
-        "en": "In the glossary, what does the weaving word 'shed' mean?",
-        "zh": "在词汇表中，编织术语“shed”是什么意思？"
-      },
-      "options": [
-        {
-          "en": "A mistake made when the threads tangle",
-          "zh": "线缠在一起时出的错"
-        },
-        {
-          "en": "The space between warp threads where the weft passes through",
-          "zh": "经线之间、纬线穿过的空隙"
-        },
-        {
-          "en": "The frame used to hold the loom",
-          "zh": "固定织机的框架"
-        },
-        {
-          "en": "The tearing of paper during weaving",
-          "zh": "编织时纸被撕破"
-        }
-      ],
-      "answer": 1,
-      "skill": "Craft and Structure",
-      "explain": {
-        "en": "The glossary defines 'shed' as the space between warp threads where the weft threads pass through.",
-        "zh": "词汇表把 shed 定义为经线之间、纬线穿过的空隙。"
-      }
-    },
-    {
-      "q": {
-        "en": "Which of these is NOT listed as another kind of weaving loom in the book?",
-        "zh": "以下哪一项不是书中列出的另一种织机？"
-      },
-      "options": [
-        {
-          "en": "Hand loom",
-          "zh": "手织机"
-        },
-        {
-          "en": "Frame loom",
-          "zh": "框架织机"
-        },
-        {
-          "en": "Backstrap loom",
-          "zh": "背带织机"
-        },
-        {
-          "en": "Spinning wheel",
-          "zh": "纺车"
-        }
-      ],
-      "answer": 3,
-      "skill": "Integration of Knowledge and Ideas",
-      "explain": {
-        "en": "The book lists hand, frame, backstrap, and floor looms, but never a spinning wheel.",
-        "zh": "书中列出的有手织机、框架织机、背带织机和地织机，但没有纺车。"
-      }
-    },
-    {
-      "q": {
-        "en": "What is the author's main purpose in writing Weave It!?",
-        "zh": "作者写《编织吧！》的主要目的是什么？"
-      },
-      "options": [
-        {
-          "en": "To persuade readers to buy expensive looms",
-          "zh": "说服读者购买昂贵的织机"
-        },
-        {
-          "en": "To introduce the art of weaving through three fun, hands-on projects",
-          "zh": "通过三个有趣的手工项目介绍编织艺术"
-        },
-        {
-          "en": "To argue that machines make better fabric",
-          "zh": "主张机器能织出更好的布料"
-        },
-        {
-          "en": "To explain the history of clothing factories",
-          "zh": "讲述服装工厂的历史"
-        }
-      ],
-      "answer": 1,
-      "skill": "Author's Purpose and Perspective",
-      "explain": {
-        "en": "The author says the book introduces you to weaving with three fun projects and teaches the basic principles.",
-        "zh": "作者说本书通过三个有趣的项目带你入门编织，并讲解基本原理。"
-      }
-    },
-    {
-      "q": {
-        "en": "According to the book, what legend is told about dreamcatchers?",
-        "zh": "根据本书，关于捕梦网有什么传说？"
-      },
-      "options": [
-        {
-          "en": "They bring good luck in sports",
-          "zh": "它们能带来运动好运"
-        },
-        {
-          "en": "They catch bad dreams, which burn up in the sun, while good dreams pass through",
-          "zh": "它们捕捉恶梦，恶梦被太阳烧掉，好梦则穿过去"
-        },
-        {
-          "en": "They protect a house from storms",
-          "zh": "它们保护房屋免受风暴"
-        },
-        {
-          "en": "They can predict the future",
-          "zh": "它们能预测未来"
-        }
-      ],
-      "answer": 1,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "Legend says dreamcatchers catch bad dreams (burned by the Sun) and let good dreams pass through for peaceful sleep.",
-        "zh": "传说捕梦网捉住恶梦（被太阳烧掉），让好梦穿过，使人安睡。"
-      }
-    },
-    {
-      "q": {
-        "en": "In paper-mat weaving, what do you do right after folding the paper in half?",
-        "zh": "在纸垫编织中，把纸对折后紧接着要做什么？"
-      },
-      "options": [
-        {
-          "en": "Glue the strips down",
-          "zh": "把纸条粘牢"
-        },
-        {
-          "en": "Draw a straight line 1 inch from the long open edge",
-          "zh": "在距长开口边1英寸处画一条直线"
-        },
-        {
-          "en": "Cut the paper into circles",
-          "zh": "把纸剪成圆形"
-        },
-        {
-          "en": "Color the whole sheet",
-          "zh": "把整张纸涂色"
-        }
-      ],
-      "answer": 1,
-      "skill": "Craft and Structure",
-      "explain": {
-        "en": "Step 1 says select the warp paper, fold it, and draw a straight line 1 inch from the long open edge.",
-        "zh": "第一步说选好作为经线的纸，对折，在距长开口边1英寸处画一条直线。"
-      }
-    },
-    {
-      "q": {
-        "en": "For the friendship bracelet, how long is the weft thread compared to each warp thread?",
-        "zh": "做友谊手链时，纬线比每根经线长多少？"
-      },
-      "options": [
-        {
-          "en": "The weft is 4 feet long while each warp is 1 foot long",
-          "zh": "纬线长4英尺，每根经线长1英尺"
-        },
-        {
-          "en": "Both are the same 1-foot length",
-          "zh": "两者都是1英尺长"
-        },
-        {
-          "en": "The weft is 1 inch and the warps are 4 feet",
-          "zh": "纬线1英寸，经线4英尺"
-        },
-        {
-          "en": "The weft is 10 feet and the warps are 2 feet",
-          "zh": "纬线10英尺，经线2英尺"
-        }
-      ],
-      "answer": 0,
-      "skill": "Key Ideas and Details",
-      "explain": {
-        "en": "The book says cut four to six warp threads 1 foot long and one weft thread 4 feet long.",
-        "zh": "书中说剪4到6根1英尺长的经线，以及1根4英尺长的纬线。"
-      }
-    },
-    {
-      "q": {
-        "en": "What should you do if you run out of weft thread while making the bracelet?",
-        "zh": "编手链时如果纬线快用完了，该怎么办？"
-      },
-      "options": [
-        {
-          "en": "Throw the bracelet away",
-          "zh": "把手链扔掉"
-        },
-        {
-          "en": "Stop and start a completely new bracelet",
-          "zh": "停下，重新做一条"
-        },
-        {
-          "en": "Cut another piece and join it with a square knot",
-          "zh": "再剪一段，用方结接上"
-        },
-        {
-          "en": "Use glue to attach a new color",
-          "zh": "用胶水粘上另一种颜色"
-        }
-      ],
-      "answer": 2,
-      "skill": "Integration of Knowledge and Ideas",
-      "explain": {
-        "en": "Step 8 says if you run out of weft, cut another piece and use a square knot to join the two.",
-        "zh": "第8步说纬线不够时，再剪一段，用方结把两段接起来。"
-      }
+     "en": "loom and yarn",
+     "zh": "织机和纱线"
     }
-  ],
-  "extended": {
-    "prompt": {
-      "en": "Try weaving a simple paper mat at home using construction paper. What pattern did you create, and how did the alternating over-under motion feel?",
-      "zh": "试着用卡纸在家里编一个简单的纸垫。你创作了什么图案？交替进行“上下穿插”的动作感觉如何？"
+   ],
+   "answer": 0,
+   "skill": "Key Ideas and Details",
+   "explain": {
+    "en": "The warp is the set of vertical threads and the weft is the horizontal threads.",
+    "zh": "经线是一组纵向的线，纬线是横向的线。"
+   }
+  },
+  {
+   "q": {
+    "en": "In weaving, what is the 'warp'?",
+    "zh": "在编织中，'经线(warp)'是什么？"
+   },
+   "options": [
+    {
+     "en": "the vertical threads that form the foundation",
+     "zh": "构成基底的纵向线"
     },
-    "guidance": {
-      "en": [
-        "Use two contrasting colors so the over-under pattern is easy to see.",
-        "Start by folding the paper and cutting strips from the fold to a line 1 inch from the edge.",
-        "Remember to alternate how each new row begins (over one, then under one)."
-      ],
-      "zh": [
-        "使用两种对比鲜明的颜色，这样上下穿插的图案更清晰。",
-        "先折纸，从折痕向距边缘1英寸的直线剪出纸条。",
-        "记住每一新行起针方式要交替（先上后下）。"
-      ]
+    {
+     "en": "the horizontal threads",
+     "zh": "横向的线"
+    },
+    {
+     "en": "the tool used to cut",
+     "zh": "用来剪的工具"
+    },
+    {
+     "en": "the finished cloth",
+     "zh": "织好的布"
     }
+   ],
+   "answer": 0,
+   "skill": "Key Ideas and Details",
+   "explain": {
+    "en": "The glossary defines warp as the vertical threads that are the foundation of a woven piece.",
+    "zh": "术语表把经线定义为构成织物基底的纵向线。"
+   }
+  },
+  {
+   "q": {
+    "en": "How many main weaving projects does the book present?",
+    "zh": "书中介绍了几个主要的编织作品？"
+   },
+   "options": [
+    {
+     "en": "three: a paper mat, a friendship bracelet, and a dreamcatcher",
+     "zh": "三个：纸垫、友谊手链和捕梦网"
+    },
+    {
+     "en": "one",
+     "zh": "一个"
+    },
+    {
+     "en": "two",
+     "zh": "两个"
+    },
+    {
+     "en": "four",
+     "zh": "四个"
+    }
+   ],
+   "answer": 0,
+   "skill": "Key Ideas and Details",
+   "explain": {
+    "en": "The book introduces three projects: a paper mat, a friendship bracelet, and a dreamcatcher.",
+    "zh": "书中介绍了三个作品：纸垫、友谊手链和捕梦网。"
+   }
+  },
+  {
+   "q": {
+    "en": "According to the book, what do dreamcatchers traditionally do?",
+    "zh": "根据书中内容，传统上捕梦网有什么作用？"
+   },
+   "options": [
+    {
+     "en": "catch bad dreams and let good dreams pass through",
+     "zh": "捕捉噩梦，让好梦穿过去"
+    },
+    {
+     "en": "bring good luck in sports",
+     "zh": "带来运动好运"
+    },
+    {
+     "en": "store weaving tools",
+     "zh": "存放编织工具"
+    },
+    {
+     "en": "predict the weather",
+     "zh": "预测天气"
+    }
+   ],
+   "answer": 0,
+   "skill": "Key Ideas and Details",
+   "explain": {
+    "en": "Legend says they catch bad dreams (burned by the sun) and let good dreams pass through.",
+    "zh": "传说它们捕捉噩梦（被太阳烧掉），让好梦穿过。"
+   }
+  },
+  {
+   "q": {
+    "en": "The glossary defines a 'shed' in finger weaving as the space between warp threads where the weft passes. Why is this space important?",
+    "zh": "术语表把指编中的'shed（梭口）'定义为纬线穿过的经线之间的空隙。这个空隙为什么重要？"
+   },
+   "options": [
+    {
+     "en": "it is where the weft thread is fed through to make the weave",
+     "zh": "纬线从这里穿过，才能织出布"
+    },
+    {
+     "en": "it is used to cut the threads",
+     "zh": "用来剪断线"
+    },
+    {
+     "en": "it holds the beads",
+     "zh": "用来放珠子"
+    },
+    {
+     "en": "it is the name of the tool",
+     "zh": "它是工具的名字"
+    }
+   ],
+   "answer": 0,
+   "skill": "Craft and Structure",
+   "explain": {
+    "en": "The weaver lifts warp threads to make a shed, then feeds the weft through that space.",
+    "zh": "编织者挑起经线形成梭口，再把纬线从空隙中穿过去。"
+   }
+  },
+  {
+   "q": {
+    "en": "Each project gives a list of materials and numbered steps. What kind of text structure is this?",
+    "zh": "每个作品都列出材料和编号步骤。这是什么类型的文章结构？"
+   },
+   "options": [
+    {
+     "en": "procedural / how-to instructions",
+     "zh": "程序性／操作指南式"
+    },
+    {
+     "en": "a compare-and-contrast essay",
+     "zh": "对比说明文"
+    },
+    {
+     "en": "a fictional story",
+     "zh": "虚构故事"
+    },
+    {
+     "en": "a poem",
+     "zh": "诗歌"
+    }
+   ],
+   "answer": 0,
+   "skill": "Craft and Structure",
+   "explain": {
+    "en": "Materials lists and numbered steps (1,2,3...) show a procedural, how-to structure.",
+    "zh": "材料清单和编号步骤（1、2、3……）体现了操作指南式的结构。"
+   }
+  },
+  {
+   "q": {
+    "en": "The paper mat uses paper, the bracelet uses embroidery floss, and the dreamcatcher uses yarn on a hoop. What do all three projects teach?",
+    "zh": "纸垫用纸、手链用绣线、捕梦网用圆环上的毛线。这三个作品共同教了什么？"
+   },
+   "options": [
+    {
+     "en": "the same basic principle of weaving—lacing threads over and under",
+     "zh": "同样的编织基本原理——线一上一下交织"
+    },
+    {
+     "en": "how to sew clothing",
+     "zh": "如何缝衣服"
+    },
+    {
+     "en": "how to paint pictures",
+     "zh": "如何画画"
+    },
+    {
+     "en": "how to build a loom",
+     "zh": "如何做织机"
+    }
+   ],
+   "answer": 0,
+   "skill": "Integration of Knowledge and Ideas",
+   "explain": {
+    "en": "The conclusion says you learned the basic principles of weaving and can apply them to many kinds.",
+    "zh": "结语说你已经学会了编织的基本原理，并可运用到许多其他编织中。"
+   }
+  },
+  {
+   "q": {
+    "en": "The book says weaving dates back tens of thousands of years and ancient people wove grass into clothing. What can a reader conclude?",
+    "zh": "书中说编织可追溯至数万年前，古人把草编成衣物。读者能得出什么结论？"
+   },
+   "options": [
+    {
+     "en": "weaving is an ancient and widespread human craft",
+     "zh": "编织是人类古老而普遍的技艺"
+    },
+    {
+     "en": "weaving was invented last century",
+     "zh": "编织是上个世纪发明的"
+    },
+    {
+     "en": "only machines can weave",
+     "zh": "只有机器能编织"
+    },
+    {
+     "en": "weaving is only for paper",
+     "zh": "编织只用于纸"
+    }
+   ],
+   "answer": 0,
+   "skill": "Integration of Knowledge and Ideas",
+   "explain": {
+    "en": "The craft is tens of thousands of years old and was used worldwide for clothing.",
+    "zh": "这门技艺有数万年历史，并在世界各地被用来制作衣物。"
+   }
+  },
+  {
+   "q": {
+    "en": "What is the author's main purpose in writing 'Weave It!'?",
+    "zh": "作者写《编织吧！》的主要目的是什么？"
+   },
+   "options": [
+    {
+     "en": "to teach readers the basics of weaving through fun, hands-on projects",
+     "zh": "通过有趣的手工项目教读者编织基础"
+    },
+    {
+     "en": "to sell craft supplies",
+     "zh": "推销手工材料"
+    },
+    {
+     "en": "to argue that weaving is disappearing",
+     "zh": "主张编织正在消失"
+    },
+    {
+     "en": "to describe famous painters",
+     "zh": "介绍著名画家"
+    }
+   ],
+   "answer": 0,
+   "skill": "Author's Purpose and Perspective",
+   "explain": {
+    "en": "The book invites readers to try three projects and learn weaving principles.",
+    "zh": "本书邀请读者尝试三个作品并学习编织原理。"
+   }
+  },
+  {
+   "q": {
+    "en": "How does the author encourage the reader at the end of the book?",
+    "zh": "作者在书末如何鼓励读者？"
+   },
+   "options": [
+    {
+     "en": "by saying to have fun and keep experimenting with imagination",
+     "zh": "说要玩得开心，并继续发挥想象去尝试"
+    },
+    {
+     "en": "by warning that weaving is too hard",
+     "zh": "警告说编织太难"
+    },
+    {
+     "en": "by telling them to stop",
+     "zh": "叫他们停下来"
+    },
+    {
+     "en": "by listing strict rules",
+     "zh": "列出严格的规定"
+    }
+   ],
+   "answer": 0,
+   "skill": "Author's Purpose and Perspective",
+   "explain": {
+    "en": "The conclusion says you tried different materials and colors, and ends with 'Have fun!'",
+    "zh": "结语说你尝试了不同的材料和颜色，并以'玩得开心！'作结。"
+   }
   }
+ ],
+ "extended": {
+  "prompt": {
+   "en": "The book presents a paper mat, a friendship bracelet, and a dreamcatcher as three ways to weave. If you could design a fourth weaving project, what materials would you use and what would it teach? Use ideas from the book.",
+   "zh": "书中用纸垫、友谊手链和捕梦网三种方式介绍编织。如果让你设计第四种编织作品，你会用什么材料、能学到什么？请结合书中思路。"
+  },
+  "guidance": {
+   "en": [
+    "Think about the warp (vertical) and weft (horizontal) threads described in the book.",
+    "You can choose any material—fabric strips, yarn, even natural grasses."
+   ],
+   "zh": [
+    "想一想书中讲到的经线（纵向）和纬线（横向）。",
+    "可以任选材料——布条、毛线，甚至天然的草。"
+   ]
+  }
+ },
+ "slug": "weave-it"
 }
