@@ -150,7 +150,7 @@ QUIZ_CSS = """  :root{
     line-height:1.4;
   }
   label:hover{background:#fee2e2;}
-  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  input[type=radio]{margin-right:10px;width:18px;height:18px;vertical-align:middle;accent-color:var(--cu-red);cursor:pointer;}
   label.picked{background:#fff7cc;border-color:var(--gold);}
   label.right{background:#d7f0df;border-color:var(--cu-blue);font-weight:600;}
   label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
@@ -380,6 +380,7 @@ def gen_quizzes():
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <title>__TITLE__ — Quiz</title>
 <style>
 __CSS__
@@ -473,6 +474,7 @@ def gen_hub(manifest):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <title>Captain Underpants — Books</title>
 <style>
   :root{{
