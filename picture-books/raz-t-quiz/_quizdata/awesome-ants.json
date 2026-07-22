@@ -1,0 +1,326 @@
+{
+  "slug": "awesome-ants",
+  "title": "Awesome Ants",
+  "titleZh": "了不起的蚂蚁",
+  "level": "T",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {
+        "en": "According to the book, how long ago did ants live alongside dinosaurs and early mammals?",
+        "zh": "根据本书，蚂蚁与恐龙和早期哺乳动物共存大约在多少年前？"
+      },
+      "options": [
+        {
+          "en": "About 10 million years ago",
+          "zh": "约一千万年前"
+        },
+        {
+          "en": "More than 100 million years ago, in the Cretaceous period",
+          "zh": "超过一亿年前，白垩纪时期"
+        },
+        {
+          "en": "About 1 million years ago",
+          "zh": "约一百万年前"
+        },
+        {
+          "en": "About 500 million years ago",
+          "zh": "约五亿年前"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book states ants crawled under dinosaurs more than 100 million years ago in the Cretaceous period.",
+        "zh": "书中说蚂蚁在一亿多年前的白垩纪就生活在恐龙之下。"
+      }
+    },
+    {
+      "q": {
+        "en": "In the book, what is an ant 'colony'?",
+        "zh": "在书中，蚂蚁的'colony'（群体）指什么？"
+      },
+      "options": [
+        {
+          "en": "A single ant's home",
+          "zh": "单个蚂蚁的家"
+        },
+        {
+          "en": "A group of animals that live together",
+          "zh": "一群共同生活的动物"
+        },
+        {
+          "en": "A type of food",
+          "zh": "一种食物"
+        },
+        {
+          "en": "An ant's body part",
+          "zh": "蚂蚁的身体部位"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The glossary defines a colony as a group of animals that live together, where social insects live.",
+        "zh": "词汇表将 colony 定义为共同生活的动物群体，即社会性昆虫的居所。"
+      }
+    },
+    {
+      "q": {
+        "en": "How many species of ants live in the world today, according to the book?",
+        "zh": "根据本书，现今世界上有多少种蚂蚁？"
+      },
+      "options": [
+        {
+          "en": "Fewer than 1,000",
+          "zh": "少于一千种"
+        },
+        {
+          "en": "About 5,000",
+          "zh": "约五千种"
+        },
+        {
+          "en": "More than 10,000",
+          "zh": "超过一万种"
+        },
+        {
+          "en": "Exactly 100",
+          "zh": "正好一百种"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says today more than 10,000 species of ants live on every continent except Antarctica.",
+        "zh": "书中说如今除南极洲外，各大陆生活着超过一万种蚂蚁。"
+      }
+    },
+    {
+      "q": {
+        "en": "How many stomachs do ants have, and what are they for?",
+        "zh": "蚂蚁有几个胃？分别有什么作用？"
+      },
+      "options": [
+        {
+          "en": "One stomach for all food",
+          "zh": "一个胃装所有食物"
+        },
+        {
+          "en": "Two stomachs: one for itself, one to share with the colony",
+          "zh": "两个胃：一个自己用，一个与蚁群分享"
+        },
+        {
+          "en": "Three stomachs",
+          "zh": "三个胃"
+        },
+        {
+          "en": "No stomachs",
+          "zh": "没有胃"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "An ant has two stomachs: one for its own food and another for food to share with the colony.",
+        "zh": "蚂蚁有两个胃：一个供自己，另一个用来与蚁群分享食物。"
+      }
+    },
+    {
+      "q": {
+        "en": "How much can ants lift compared to their own body weight?",
+        "zh": "蚂蚁能举起相当于自身体重多少倍的重量？"
+      },
+      "options": [
+        {
+          "en": "About twice their weight",
+          "zh": "约两倍体重"
+        },
+        {
+          "en": "More than twenty times their weight",
+          "zh": "超过自身体重的二十倍"
+        },
+        {
+          "en": "Ten times their weight",
+          "zh": "十倍体重"
+        },
+        {
+          "en": "Fifty times their weight",
+          "zh": "五十倍体重"
+        }
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "The book says ants are very strong and can lift more than twenty times their own weight.",
+        "zh": "书中说蚂蚁力气很大，能举起超过自身体重二十倍的东西。"
+      }
+    },
+    {
+      "q": {
+        "en": "What are 'spiracles' on an ant's body?",
+        "zh": "蚂蚁身体上的'spiracles'（气门）是什么？"
+      },
+      "options": [
+        {
+          "en": "Small holes used for breathing",
+          "zh": "用于呼吸的小孔"
+        },
+        {
+          "en": "Sharp claws for climbing",
+          "zh": "用于攀爬的利爪"
+        },
+        {
+          "en": "Eyes on the head",
+          "zh": "头上的眼睛"
+        },
+        {
+          "en": "A kind of antenna",
+          "zh": "一种触角"
+        }
+      ],
+      "answer": 0,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Spiracles are small holes all over the body through which oxygen and carbon dioxide enter and exit.",
+        "zh": "气门是遍布全身的小孔，氧气和二氧化碳由此进出。"
+      }
+    },
+    {
+      "q": {
+        "en": "How do ants communicate mainly?",
+        "zh": "蚂蚁主要靠什么方式交流？"
+      },
+      "options": [
+        {
+          "en": "By singing songs",
+          "zh": "通过唱歌"
+        },
+        {
+          "en": "By smell, using scented chemicals called pheromones",
+          "zh": "通过气味，使用称为信息素的气味化学物质"
+        },
+        {
+          "en": "By writing",
+          "zh": "通过书写"
+        },
+        {
+          "en": "By flying",
+          "zh": "通过飞行"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Ants communicate mainly by smell, releasing pheromones that send different messages.",
+        "zh": "蚂蚁主要靠气味交流，释放传递不同信息的信息素。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the queen ant's main job in the colony?",
+        "zh": "女王蚁在蚁群中的主要职责是什么？"
+      },
+      "options": [
+        {
+          "en": "Finding food",
+          "zh": "寻找食物"
+        },
+        {
+          "en": "Building the nest",
+          "zh": "筑巢"
+        },
+        {
+          "en": "Laying eggs",
+          "zh": "产卵"
+        },
+        {
+          "en": "Fighting enemies",
+          "zh": "与敌人战斗"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The queen is an egg-laying machine; she is the only ant in the colony that can lay eggs.",
+        "zh": "蚁后是产卵机器，是蚁群中唯一能产卵的蚂蚁。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the author's attitude toward ants in this book?",
+        "zh": "本书作者对蚂蚁持什么态度？"
+      },
+      "options": [
+        {
+          "en": "Thinks they are all harmful pests",
+          "zh": "认为它们全是有害害虫"
+        },
+        {
+          "en": "Finds them awesome and beneficial to the environment",
+          "zh": "认为它们了不起且对环境有益"
+        },
+        {
+          "en": "Ignores them",
+          "zh": "忽视它们"
+        },
+        {
+          "en": "Fears them",
+          "zh": "害怕它们"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The author calls ants awesome and notes most are beneficial, spreading seeds and improving soil.",
+        "zh": "作者称蚂蚁了不起，并指出大多数蚂蚁有益，传播种子并改良土壤。"
+      }
+    },
+    {
+      "q": {
+        "en": "What awesome thing can ants do by working together?",
+        "zh": "蚂蚁通过团队合作能做到哪种了不起的事？"
+      },
+      "options": [
+        {
+          "en": "Build bridges and rafts to cross gaps and rivers",
+          "zh": "搭建桥梁和木筏以越过缺口和河流"
+        },
+        {
+          "en": "Fly like birds",
+          "zh": "像鸟一样飞"
+        },
+        {
+          "en": "Breathe underwater",
+          "zh": "在水下呼吸"
+        },
+        {
+          "en": "Grow wings permanently",
+          "zh": "永久长出翅膀"
+        }
+      ],
+      "answer": 0,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Working together, ants build bridges to cross gaps and form rafts to float across rivers.",
+        "zh": "蚂蚁合作能搭桥越过缺口，并组成木筏漂过河。"
+      }
+    }
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Imagine you are an ant in a colony. Describe one job you would do and how teamwork helps your colony survive.",
+      "zh": "想象你是蚁群中的一只蚂蚁。描述你会承担的一项工作，以及团队合作如何帮助蚁群生存。"
+    },
+    "guidance": {
+      "en": [
+        "Think about the different jobs mentioned: worker, soldier, queen.",
+        "Explain how working together lets ants do things no single ant could."
+      ],
+      "zh": [
+        "想想书中提到的不同工作：工蚁、兵蚁、蚁后。",
+        "解释合作如何让蚂蚁完成单只蚂蚁无法做到的事。"
+      ]
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "slug": "robots",
+  "title": "Robots",
+  "titleZh": "机器人",
+  "level": "T",
+  "genre": "Informational",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {
+        "en": "According to the book, what are robots?",
+        "zh": "根据本书，机器人是什么？"
+      },
+      "options": [
+        {
+          "en": "Machines with mechanical bodies, sensors, and computer brains",
+          "zh": "拥有机械身体、传感器和计算机大脑的机器"
+        },
+        {
+          "en": "Humanlike creatures that think for themselves",
+          "zh": "能独立思考的类人生物"
+        },
+        {
+          "en": "Animals trained to do tricks",
+          "zh": "被训练表演把戏的动物"
+        },
+        {
+          "en": "Toys that look like insects",
+          "zh": "看起来像昆虫的玩具"
+        }
+      ],
+      "answer": 0,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says robots are machines with mechanical bodies, information sensors, and computer brains.",
+        "zh": "书中说，机器人是拥有机械身体、信息传感器和计算机大脑的机器。"
+      }
+    },
+    {
+      "q": {
+        "en": "Where does the word \"robot\" come from?",
+        "zh": "\"robot\"（机器人）这个词来源于哪里？"
+      },
+      "options": [
+        {
+          "en": "A Greek word meaning \"helper\"",
+          "zh": "希腊语中意为\"助手\"的词"
+        },
+        {
+          "en": "The Czech word \"robota,\" meaning forced labor or hard, boring work",
+          "zh": "捷克语\"robota\"，意为强迫劳动或辛苦、枯燥的工作"
+        },
+        {
+          "en": "A Latin word for \"machine\"",
+          "zh": "拉丁语中意为\"机器\"的词"
+        },
+        {
+          "en": "The name of a robot in Star Wars",
+          "zh": "《星球大战》中某个机器人的名字"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book states the word robot comes from the Czech word robota, meaning \"forced labor\" or hard, boring work.",
+        "zh": "书中说，robot 一词来自捷克语 robota，意为\"强迫劳动\"或辛苦、枯燥的工作。"
+      }
+    },
+    {
+      "q": {
+        "en": "What does it mean that robots are \"specialized\"?",
+        "zh": "说机器人是\"专门化的\"（specialized）是什么意思？"
+      },
+      "options": [
+        {
+          "en": "They are very large and expensive",
+          "zh": "它们体型很大且造价昂贵"
+        },
+        {
+          "en": "They are made to perform just one task",
+          "zh": "它们被制造来完成单一的任务"
+        },
+        {
+          "en": "They can think like humans",
+          "zh": "它们能像人类一样思考"
+        },
+        {
+          "en": "They work only in factories",
+          "zh": "它们只在工厂里工作"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "The glossary defines specialized as \"made to perform just one task.\"",
+        "zh": "词汇表将 specialized 定义为\"被制造来完成单一的任务\"。"
+      }
+    },
+    {
+      "q": {
+        "en": "After the 1979 nuclear power plant accident, what did officials do?",
+        "zh": "1979 年核电站事故之后，官员们做了什么？"
+      },
+      "options": [
+        {
+          "en": "Sent in people to clean up immediately",
+          "zh": "立刻派人进去清理"
+        },
+        {
+          "en": "Shut down all nuclear plants",
+          "zh": "关闭了所有核电站"
+        },
+        {
+          "en": "Sent in robots to evaluate the damage and help clean up",
+          "zh": "派机器人去评估损坏并协助清理"
+        },
+        {
+          "en": "Evacuated the whole country",
+          "zh": "疏散了整个国家"
+        }
+      ],
+      "answer": 2,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "The book says officials sent in robots to evaluate the damage and help clean up after the 1979 accident.",
+        "zh": "书中说，1979 年事故后，官员派机器人去评估损坏并协助清理。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is special about the robot Dante II?",
+        "zh": "机器人 Dante II 有什么特别之处？"
+      },
+      "options": [
+        {
+          "en": "It was a robot dog toy",
+          "zh": "它是一只机器狗玩具"
+        },
+        {
+          "en": "It was an eight-legged crawler that collected gas samples from inside a volcano",
+          "zh": "它是一台八条腿的爬行机器人，从火山内部采集气体样本"
+        },
+        {
+          "en": "It explored Mars as a geologist",
+          "zh": "它作为地质学家探索了火星"
+        },
+        {
+          "en": "It defeated a chess champion",
+          "zh": "它击败了一位国际象棋冠军"
+        }
+      ],
+      "answer": 1,
+      "skill": "Integration of Knowledge and Ideas",
+      "explain": {
+        "en": "Dante II was an eight-legged crawler built to get superheated gas samples from inside Mount Spurr, an Alaskan volcano.",
+        "zh": "Dante II 是一台八条腿的爬行机器人，用来从阿拉斯加的 Spurr 火山内部采集高温气体样本。"
+      }
+    },
+    {
+      "q": {
+        "en": "How were the Spirit and Opportunity robots controlled on Mars?",
+        "zh": "火星上的 Spirit 和 Opportunity 机器人是如何被控制的？"
+      },
+      "options": [
+        {
+          "en": "By a human astronaut riding along",
+          "zh": "由同行的宇航员操控"
+        },
+        {
+          "en": "By scientists sending radio signals over 78 million kilometers",
+          "zh": "由科学家通过 7800 多万公里的无线电信号控制"
+        },
+        {
+          "en": "By a built-in artificial intelligence",
+          "zh": "由内置的人工智能控制"
+        },
+        {
+          "en": "By remote control from the Moon",
+          "zh": "从月球上进行遥控"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "Scientists controlled these robots by sending radio signals over 78 million kilometers through space.",
+        "zh": "科学家通过太空中 7800 多万公里的无线电信号来控制这些机器人。"
+      }
+    },
+    {
+      "q": {
+        "en": "Why does the author include the story of Deep Blue beating Kasparov?",
+        "zh": "作者为什么要讲述 Deep Blue 击败 Kasparov 的故事？"
+      },
+      "options": [
+        {
+          "en": "To prove robots are smarter than people",
+          "zh": "为了证明机器人比人更聪明"
+        },
+        {
+          "en": "To show that computers can calculate fast but do not truly \"think\"",
+          "zh": "为了说明计算机计算很快，但并不会真正\"思考\""
+        },
+        {
+          "en": "To explain how to play chess",
+          "zh": "为了讲解如何下国际象棋"
+        },
+        {
+          "en": "To compare robots only to calculators",
+          "zh": "为了只把机器人和计算器作比较"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The author explains Deep Blue looks through moves but does not think; it is like a powerful calculator, not truly intelligent.",
+        "zh": "作者解释，Deep Blue 只是搜索走法，并不会思考；它就像一台强大的计算器，并非真正智能。"
+      }
+    },
+    {
+      "q": {
+        "en": "What is \"bottom-up processing\" in robot animals?",
+        "zh": "机器动物中的\"自下而上处理\"（bottom-up processing）是指什么？"
+      },
+      "options": [
+        {
+          "en": "Programming one big complex program to control everything",
+          "zh": "编写一套庞大复杂的程序来控制一切"
+        },
+        {
+          "en": "Building many simple programs one-by-one to combine into a whole",
+          "zh": "把许多简单的小程序逐个组合成一个整体"
+        },
+        {
+          "en": "Using top-down thinking like humans",
+          "zh": "像人类一样使用自上而下的思考"
+        },
+        {
+          "en": "Teaching robots to walk by instinct",
+          "zh": "教机器人凭本能走路"
+        }
+      ],
+      "answer": 1,
+      "skill": "Craft and Structure",
+      "explain": {
+        "en": "Bottom-up processing combines small, simple programs into a whole; scientists add simple programs one by one.",
+        "zh": "自下而上处理是把简单的小程序组合成一个整体；科学家逐个添加简单的程序。"
+      }
+    },
+    {
+      "q": {
+        "en": "What happens in the Turing Test?",
+        "zh": "图灵测试（Turing Test）中会发生什么？"
+      },
+      "options": [
+        {
+          "en": "A robot builds a car on an assembly line",
+          "zh": "机器人在装配线上制造汽车"
+        },
+        {
+          "en": "A judge talks to a human and a computer at the same time and tries to tell them apart",
+          "zh": "评委同时与人类和计算机交谈，并试图分辨出谁是谁"
+        },
+        {
+          "en": "A computer plays chess against a grand master",
+          "zh": "计算机与国际象棋大师对弈"
+        },
+        {
+          "en": "Scientists measure a robot's strength",
+          "zh": "科学家测量机器人的力量"
+        }
+      ],
+      "answer": 1,
+      "skill": "Key Ideas and Details",
+      "explain": {
+        "en": "In the Turing Test, a judge communicates with a human and a computer at the same time; if the judge can't tell the difference, the computer wins.",
+        "zh": "在图灵测试中，评委同时与人类和计算机交流；如果评委分辨不出差别，就算计算机赢。"
+      }
+    },
+    {
+      "q": {
+        "en": "According to the conclusion, why can't even the best robots replace people?",
+        "zh": "根据结论，为什么即使最先进的机器人也无法取代人类？"
+      },
+      "options": [
+        {
+          "en": "Robots are too expensive to build",
+          "zh": "造机器人太昂贵了"
+        },
+        {
+          "en": "Humans are creative and adaptable, but even advanced robots are not",
+          "zh": "人类富有创造力和适应力，而即使先进的机器人也不具备"
+        },
+        {
+          "en": "Robots need too much electricity",
+          "zh": "机器人需要太多电力"
+        },
+        {
+          "en": "People don't like robots",
+          "zh": "人们不喜欢机器人"
+        }
+      ],
+      "answer": 1,
+      "skill": "Author's Purpose and Perspective",
+      "explain": {
+        "en": "The conclusion says humans are creative and adaptable, and even the most advanced robots are not.",
+        "zh": "结论说人类富有创造力和适应力，而即使最先进的机器人也不具备这些特质。"
+      }
+    }
+  ],
+  "extended": {
+    "prompt": {
+      "en": "Imagine you could design a robot to solve a problem in your daily life. What task would it do, and what parts (sensors, programs, moving parts) would it need?",
+      "zh": "想象你可以设计一台机器人来解决你日常生活中的一个问题。它会完成什么任务？它需要哪些部件（传感器、程序、活动部件）？"
+    },
+    "guidance": {
+      "en": [
+        "Think of one boring or dangerous chore you wish a robot could do.",
+        "List the sensors and program steps the robot would need, like the book's simple robot arm."
+      ],
+      "zh": [
+        "想一件你希望机器人代劳的枯燥或危险家务。",
+        "像书中简单的机械臂一样，列出机器人需要的传感器和程序步骤。"
+      ]
+    }
+  }
+}
