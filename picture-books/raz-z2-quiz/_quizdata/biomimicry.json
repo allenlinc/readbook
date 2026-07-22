@@ -1,0 +1,137 @@
+{
+  "slug": "biomimicry",
+  "title": "Biomimicry",
+  "titleZh": "仿生学",
+  "level": "Z2",
+  "genre": "Science",
+  "mainSkill": "Key Ideas and Details",
+  "questions": [
+    {
+      "q": {"en":"What does the word 'biomimicry' mean?","zh":"'biomimicry'(仿生学)一词的意思是什么？"},
+      "options":[
+        {"en":"Building robots that look like people","zh":"制造外形像人的机器人"},
+        {"en":"Copying ideas from nature to solve problems","zh":"模仿自然界的点子来解决问题"},
+        {"en":"Growing plants in a laboratory","zh":"在实验室里种植植物"},
+        {"en":"Making toys for children","zh":"制作儿童玩具"}
+      ],
+      "answer":1,
+      "skill":"Key Ideas and Details",
+      "explain":{"en":"Biomimicry blends 'bio' (life) and 'mimic' (copy) to learn from nature.","zh":"仿生学由'bio'(生命)与'mimic'(模仿)组合而成，向自然学习。"}
+    },
+    {
+      "q": {"en":"Who studied birds long ago to design flying machines?","zh":"很久以前，谁通过观察鸟类来设计飞行机器？"},
+      "options":[
+        {"en":"Leonardo da Vinci","zh":"列奥纳多·达·芬奇"},
+        {"en":"Albert Einstein","zh":"阿尔伯特·爱因斯坦"},
+        {"en":"Isaac Newton","zh":"艾萨克·牛顿"},
+        {"en":"Galileo Galilei the astronomer","zh":"天文学家伽利略·伽利雷"}
+      ],
+      "answer":0,
+      "skill":"Key Ideas and Details",
+      "explain":{"en":"Renaissance inventor Leonardo da Vinci studied birds to design flying machines.","zh":"文艺复兴时期的发明家列奥纳多·达·芬奇研究鸟类来设计飞行机器。"}
+    },
+    {
+      "q": {"en":"What in nature inspired the invention of Velcro?","zh":"自然界中的什么启发了魔术贴的发明？"},
+      "options":[
+        {"en":"A flower that opens at night","zh":"夜晚开放的花"},
+        {"en":"A bird's feather","zh":"鸟的羽毛"},
+        {"en":"A fish's scales","zh":"鱼的鳞片"},
+        {"en":"Burrs with tiny hooks that stick","zh":"带小钩、能粘住东西的刺果"}
+      ],
+      "answer":3,
+      "skill":"Key Ideas and Details",
+      "explain":{"en":"Georges de Mestral copied burrs, whose tiny hooks latch onto fabric and fur.","zh":"乔治·德·梅斯特拉尔模仿刺果，其小钩能勾住布料和毛发。"}
+    },
+    {
+      "q": {"en":"What inspired the Cat's Eye road reflectors?","zh":"什么启发了'猫眼'道路反光标志？"},
+      "options":[
+        {"en":"A dog's nose","zh":"狗的鼻子"},
+        {"en":"A cat's eyes reflecting light","zh":"猫眼反射光线"},
+        {"en":"A firefly's glow","zh":"萤火虫的光"},
+        {"en":"An owl's feather","zh":"猫头鹰的羽毛"}
+      ],
+      "answer":1,
+      "skill":"Key Ideas and Details",
+      "explain":{"en":"Percy Shaw got the idea from a cat's eyes reflecting his car headlights at night.","zh":"珀西·肖的灵感来自夜间猫眼反射汽车前灯的光芒。"}
+    },
+    {
+      "q": {"en":"Which bird's beak inspired the nose of the Shinkansen train?","zh":"哪种鸟的喙启发了新干线的车头设计？"},
+      "options":[
+        {"en":"The kingfisher","zh":"翠鸟"},
+        {"en":"The bald eagle of North America","zh":"北美的白头海雕"},
+        {"en":"The owl","zh":"猫头鹰"},
+        {"en":"The penguin","zh":"企鹅"}
+      ],
+      "answer":0,
+      "skill":"Key Ideas and Details",
+      "explain":{"en":"The kingfisher's beak shape helped design a quieter, faster train nose.","zh":"翠鸟喙的形状帮助设计出更安静、更快的列车车头。"}
+    },
+    {
+      "q": {"en":"In the book, what does 'sustainable' mean?","zh":"在本书中，'sustainable'(可持续)的意思是什么？"},
+      "options":[
+        {"en":"Something that can clean itself with rain","zh":"能用雨水自我清洁的东西"},
+        {"en":"Used without harming the environment","zh":"使用时不破坏环境"},
+        {"en":"Something made only in factories","zh":"只在工厂制造的东西"},
+        {"en":"Something that is very old and rare","zh":"非常古老而稀少的东西"}
+      ],
+      "answer":1,
+      "skill":"Craft and Structure",
+      "explain":{"en":"Sustainable means used in a way that does not use up or damage resources.","zh":"'可持续'指以不耗尽或破坏资源的方式被使用。"}
+    },
+    {
+      "q": {"en":"How did the kingfisher help improve the Shinkansen train?","zh":"翠鸟如何帮助改进新干线列车？"},
+      "options":[
+        {"en":"It made the train louder","zh":"让列车更吵"},
+        {"en":"It completely changed the train's outside paint color","zh":"彻底改变了列车外部油漆的颜色"},
+        {"en":"Its beak cut noise and raised speed","zh":"它的喙降低了噪音并提高了速度"},
+        {"en":"It made the train shorter","zh":"让列车变短"}
+      ],
+      "answer":2,
+      "skill":"Integration of Knowledge and Ideas",
+      "explain":{"en":"A beak-shaped nose reduced tunnel noise and increased the train's speed.","zh":"喙形的车头减少了隧道噪音，并提高了列车速度。"}
+    },
+    {
+      "q": {"en":"Which building was cooled using ideas from termite mounds?","zh":"哪座建筑运用了白蚁丘的思路来降温？"},
+      "options":[
+        {"en":"The Eastgate Centre in Zimbabwe","zh":"津巴布韦的东门中心"},
+        {"en":"The White House","zh":"白宫"},
+        {"en":"The Eiffel Tower","zh":"埃菲尔铁塔"},
+        {"en":"The famous Sydney Opera House in Australia","zh":"澳大利亚著名的悉尼歌剧院"}
+      ],
+      "answer":0,
+      "skill":"Key Ideas and Details",
+      "explain":{"en":"The Eastgate Centre in Harare stays cool using vents like a termite mound, using little energy.","zh":"哈拉雷的东门中心像白蚁丘一样用通风口降温，耗电很少。"}
+    },
+    {
+      "q": {"en":"What is the author's main purpose in this book?","zh":"作者写这本书的主要目的是什么？"},
+      "options":[
+        {"en":"To argue strongly that nature is useless to people","zh":"极力主张自然对人类毫无用处"},
+        {"en":"To show how nature inspires human inventions","zh":"展示自然如何启发人类的发明"},
+        {"en":"To teach how to draw animals","zh":"教人如何画动物"},
+        {"en":"To list every plant","zh":"列出每一种植物"}
+      ],
+      "answer":1,
+      "skill":"Author's Purpose and Perspective",
+      "explain":{"en":"The author shows how people copy nature to solve problems in sustainable ways.","zh":"作者展示了人们如何模仿自然，以可持续的方式解决问题。"}
+    },
+    {
+      "q": {"en":"What natural material do scientists copy to make strong, flexible threads?","zh":"科学家模仿哪种天然材料来制造强韧而灵活的线？"},
+      "options":[
+        {"en":"Strong steel threads used in bridges","zh":"桥梁中使用的坚固钢丝"},
+        {"en":"Spider silk","zh":"蜘蛛丝"},
+        {"en":"Plastic wrap","zh":"保鲜膜"},
+        {"en":"Cotton cloth","zh":"棉布"}
+      ],
+      "answer":1,
+      "skill":"Integration of Knowledge and Ideas",
+      "explain":{"en":"Spider silk is three times stronger than steel thread and could inspire new materials.","zh":"蜘蛛丝比钢丝还结实三倍，可能启发新型材料。"}
+    }
+  ],
+  "extended": {
+    "prompt": {"en":"Choose one plant or animal from the book and describe an invention it could inspire to help people.","zh":"从书中选择一种植物或动物，描述它可能启发、用来帮助人类的发明。"},
+    "guidance": {
+      "en":["Name the plant or animal and its special feature.","Describe the human problem it could help solve.","Explain how the natural feature gives a helpful idea."],
+      "zh":["写出该植物或动物及其特殊之处。","描述它可以帮助解决的人类问题。","解释这一自然特征如何提供有用的点子。"]
+    }
+  }
+}
