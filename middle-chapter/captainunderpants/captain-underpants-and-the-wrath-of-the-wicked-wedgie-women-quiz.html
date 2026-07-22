@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Captain Underpants and the Wrath of the Wicked Wedgie Women — Quiz</title>
+<style>
+  :root{
+    --cu-red:#e11d48;
+    --cu-blue:#2563eb;
+    --cu-dark:#7f1d1d;
+    --cream:#fffdf7;
+    --ink:#1f2937;
+    --gold:#f59e0b;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Comic Sans MS","Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--cu-red),#9f1239);
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:linear-gradient(135deg,var(--cu-red),var(--cu-blue));
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:#b91c1c;
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #fee2e2);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #f3c9c9;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--cu-blue);background:#eef5ff;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--cu-red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#fef2f2;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#fee2e2;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff7cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--cu-blue);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#fff7ed;
+    border-left:4px solid var(--cu-red);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--cu-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--cu-red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(225,29,72,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(225,29,72,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--cu-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#b08a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#5 · Captain Underpants and the Wrath of the Wicked Wedgie Women</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Dav Pilkey</p>
+    <div class="logo">🦸</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Captain Underpants: Captain Underpants and the Wrath of the Wicked Wedgie Women</em> (Scholastic, 2001) — by Dav Pilkey</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Dav Pilkey",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Captain Underpants trivia.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few sneaky details slipped past you.",
+    low: "Time for a re-read! The answers are in the comic.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Dav Pilkey",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了内裤队长的搞笑冒险。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几个小细节被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在漫画里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who are the two main characters at the center of the story?", "zh": "故事的主角是哪两个男孩？"}, "options": [{"en": "Ms. Ribble and the gym teacher", "zh": "里布尔老师和体育老师"}, {"en": "Melvin Sneedly and Mr. Krupp (Some fans of the series might pick this one.)", "zh": "梅尔文·斯尼德利和克拉普先生（这个系列的一些小粉丝可能会选这个。）"}, {"en": "George Beard and Harold Hutchins", "zh": "乔治·比尔德和哈罗德·哈钦斯"}, {"en": "The rabbi and Miss Anthrope", "zh": "拉比和安斯洛普小姐"}], "answer": 2, "explain": {"en": "George Beard (the kid on the left with the tie and the flat-top) and Harold Hutchins (on the right with the T-shirt and the bad haircut) are the two imaginative fourth-grade best friends at the center of every Captain Underpants book.", "zh": "乔治·比尔德（左边打领带、留平头的男孩）和哈罗德·哈钦斯（右边穿T恤、发型糟糕的男孩）是每本《内裤队长》故事中心那两个充满想象力的四年级好朋友。"}}, {"q": {"en": "What did Ms. Ribble say her classroom's 'three Rs' stood for?", "zh": "里布尔老师说的课堂“三个R”指的是什么？"}, "options": [{"en": "Respect, Responsibility, and Ready (Some fans of the series might pick this one.)", "zh": "尊重、责任和准备（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Run, Recess, and Rewards", "zh": "跑步、课间休息和奖励"}, {"en": "Reading, 'Riting, and 'Rithmetic", "zh": "阅读、写作和算术"}, {"en": "Sit down, Shut your pie holes, and STOP reporting ME", "zh": "坐下、闭上你的嘴、别再打小报告"}], "answer": 3, "explain": {"en": "Most schools teach the three Rs (Reading, 'Riting, and 'Rithmetic), but Ms. Ribble enforced her own version: 'Sit down, Shut your pie holes, and STOP reporting ME (GRAP).'", "zh": "大多数学校教的是“三个R”（阅读、写作、算术），但里布尔老师推行的是她自己的版本：“坐下、闭上你的嘴、别再打小报告（GRAP）。"}}, {"q": {"en": "Instead of making a 'Happy Retirement' card, what did George and Harold create for Ms. Ribble?", "zh": "乔治和哈罗德没有做“快乐退休”卡片，而是给里布尔老师做了什么？"}, "options": [{"en": "A singing telegram", "zh": "一份唱歌电报"}, {"en": "A comic book all about her", "zh": "一本专门讲她的漫画书"}, {"en": "A DVD of the wedding (Some fans of the series might pick this one.)", "zh": "一张婚礼DVD（这个系列的一些小粉丝可能会选这个。）"}, {"en": "A clay sculpture", "zh": "一个泥塑"}], "answer": 1, "explain": {"en": "When the class had to make 'Happy Retirement' cards, George and Harold had a better idea: they made a comic book all about Ms. Ribble instead.", "zh": "当全班都要做“快乐退休”卡片时，乔治和哈罗德有了个更好的主意：他们做了一本专门讲里布尔老师的漫画书。"}}, {"q": {"en": "Inside the boys' comic, what did Ms. Ribble's bionic beehive hair open up to reveal?", "zh": "在男孩们画的漫画里，里布尔老师那能变形的蜂窝发髻打开后露出了什么？"}, "options": [{"en": "An evil wedgie Robo-Claw", "zh": "一只邪恶的“Wedgie机器爪”"}, {"en": "A friendly puppy", "zh": "一只友好的小狗"}, {"en": "A giant wedding cake (Some fans of the series might pick this one.)", "zh": "一个巨大的婚礼蛋糕（这个系列的一些小粉丝可能会选这个。）"}, {"en": "A secret treasure map", "zh": "一张秘密藏宝图"}], "answer": 0, "explain": {"en": "In the comic 'Captain Underpants and the Wrath of the Wicked Wedgie Woman,' Ms. Ribble's bionic beehive hair opened up above an 'evil wedgie Robo-Claw' that could grab people by their underwear.", "zh": "在那本《内裤队长与邪恶Wedgie女侠的愤怒》漫画里，里布尔老师那能变形的蜂窝发髻打开后，露出了一只能把人提着内裤拎起来的“邪恶Wedgie机器爪”。"}}, {"q": {"en": "While in the office, what did George and Harold do to Miss Anthrope's 'Friday Memo'?", "zh": "在校长办公室里，乔治和哈罗德对安斯洛普小姐的“周五备忘录”做了什么？"}, "options": [{"en": "Typed their own silly version on her computer", "zh": "在她的电脑上打了一份他们自己胡闹的版本"}, {"en": "Folded it into paper airplanes (Some fans of the series might pick this one.)", "zh": "把它折成了纸飞机（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Threw it in the trash", "zh": "把它扔进了垃圾桶"}, {"en": "Mailed it to the newspaper", "zh": "把它寄给了报社"}], "answer": 0, "explain": {"en": "Miss Anthrope told the boys to copy the 'Friday Memo,' but since her computer was still on, George and Harold typed up their own silly version and ran off copies for the whole school.", "zh": "安斯洛普小姐让男孩们复印“周五备忘录”，但因为她的电脑还开着，乔治和哈罗德就打了一份自己胡闹的版本，并给全校印发了好多份。"}}, {"q": {"en": "What did Harold write inside the card that Mr. Krupp proudly delivered to Ms. Ribble?", "zh": "哈罗德在克拉普先生亲手送给里布尔老师的卡片里写了什么？"}, "options": [{"en": "'Have a nice retirement.'", "zh": "“退休快乐。”"}, {"en": "'You're fired!'", "zh": "“你被解雇了！”"}, {"en": "'You're the best teacher.' (Some fans of the series might pick this one.)", "zh": "“你是最好的老师。”（这个系列的一些小粉丝可能会选这个。）"}, {"en": "'Will you marry me? Signed, Mr. Krupp.'", "zh": "“你愿意嫁给我吗？——克拉普先生 敬上。”"}], "answer": 3, "explain": {"en": "Harold used reverse psychology: he got Mr. Krupp to deliver a card that read 'You're One Hot Mama!' on the front and 'Will you marry me? Signed, Mr. Krupp.' inside, which led to a big wedding mess.", "zh": "哈罗德用了“反向心理战术”：他让克拉普先生亲手送去一张卡片，封面写“你是个辣妹！”，里面写“你愿意嫁给我吗？——克拉普先生 敬上”，结果引发了一场婚礼闹剧。"}}, {"q": {"en": "According to the news report, what happens when a woman is hypnotized with the 3-D Hypno-Ring?", "zh": "根据新闻报导，用3D催眠戒指催眠一位女性会发生什么？"}, "options": [{"en": "She turns into Captain Underpants (Some fans of the series might pick this one.)", "zh": "她会变成内裤队长（这个系列的一些小粉丝可能会选这个。）"}, {"en": "She forgets her own name", "zh": "她会忘记自己的名字"}, {"en": "She does the OPPOSITE of what she is told", "zh": "她会做出与指令完全相反的事"}, {"en": "She falls into a deep sleep forever", "zh": "她会永远沉睡"}], "answer": 2, "explain": {"en": "A news report said the 3-D Hypno-Ring causes a 'mental blunder' in women, making them do the OPPOSITE of whatever they are hypnotized to do — which is exactly what goes wrong with Ms. Ribble.", "zh": "新闻报导说，3D催眠戒指会让女性产生“思维错乱”，做出与催眠指令完全相反的事——这正是里布尔老师身上出的岔子。"}}, {"q": {"en": "What glowing green juice poured into Wedgie Woman's hair and gave it super powers?", "zh": "哪种发着绿光的果汁倒进了Wedgie女侠的头发里，并让头发拥有了超能力？"}, "options": [{"en": "Lemon-lime soda", "zh": "柠檬青柠汽水"}, {"en": "Extra-Strength Super Power Juice", "zh": "“超强超能力果汁”"}, {"en": "Tropical fruit punch (Some fans of the series might pick this one.)", "zh": "热带水果潘趣酒（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Spray starch", "zh": "喷式浆衣水"}], "answer": 1, "explain": {"en": "During the struggle, a carton of glowing green 'Extra-Strength Super Power Juice' (the juice from the spaceship back in book 3) toppled and poured into Wedgie Woman's beehive hair, giving it super powers.", "zh": "在扭打中，一盒发着绿光的“超强超能力果汁”（就是第3本书里那艘太空船上的果汁）翻倒，流进了Wedgie女侠的蜂窝发髻里，让头发拥有了超能力。"}}, {"q": {"en": "Using parts from a TV, computer, and a Thighmaster, what did Wedgie Woman build?", "zh": "Wedgie女侠用电视机、电脑和“大腿训练器”等零件造出了什么？"}, "options": [{"en": "Robo-George and the Harold 2000", "zh": "机器人乔治和“哈罗德2000”"}, {"en": "A time machine", "zh": "一台时光机"}, {"en": "A giant wedding cake (Some fans of the series might pick this one.)", "zh": "一个巨大的婚礼蛋糕（这个系列的一些小粉丝可能会选这个。）"}, {"en": "A flying car", "zh": "一辆飞行汽车"}], "answer": 0, "explain": {"en": "Wedgie Woman used her hair to take apart a TV, a computer, a Thighmaster and more, then built two robots named 'Robo-George' and 'The Harold 2000,' filling each with a can of spray starch.", "zh": "Wedgie女侠用头发拆掉了电视机、电脑、大腿训练器等东西，造出了两个机器人，名叫“机器人乔治”和“哈罗德2000”，还往每个机器人胸口塞了一罐喷式浆衣水。"}}, {"q": {"en": "What magic words were programmed to make the robots attack?", "zh": "机器人被设定听到哪句咒语就会发动攻击？"}, "options": [{"en": "'Open Sesame'", "zh": "“芝麻开门”"}, {"en": "'Tra-La-Laaaa'", "zh": "“特拉-啦——啦”"}, {"en": "'Hocus Pocus'", "zh": "“胡克斯波克斯”"}, {"en": "'Abracadabra' (Some fans of the series might pick this one.)", "zh": "“阿布拉卡达布拉”（这个系列的一些小粉丝可能会选这个。）"}], "answer": 1, "explain": {"en": "Wedgie Woman sent the robots to school and said all they had to do was 'wait and listen' — as soon as they heard the words 'Tra-La-Laaaa,' it would all be over, because that's Captain Underpants' call.", "zh": "Wedgie女侠把机器人送去学校，说它们只要“等着听”——只要一听到“特拉-啦——啦”这句话就完蛋了，因为那是内裤队长的出场口号。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}>
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

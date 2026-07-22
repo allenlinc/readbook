@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Captain Underpants and the Revolting Revenge of the Radioactive Robo-Boxers — Quiz</title>
+<style>
+  :root{
+    --cu-red:#e11d48;
+    --cu-blue:#2563eb;
+    --cu-dark:#7f1d1d;
+    --cream:#fffdf7;
+    --ink:#1f2937;
+    --gold:#f59e0b;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Comic Sans MS","Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--cu-red),#9f1239);
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:linear-gradient(135deg,var(--cu-red),var(--cu-blue));
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:#b91c1c;
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #fee2e2);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #f3c9c9;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--cu-blue);background:#eef5ff;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--cu-red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#fef2f2;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#fee2e2;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff7cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--cu-blue);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#fff7ed;
+    border-left:4px solid var(--cu-red);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--cu-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--cu-red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(225,29,72,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(225,29,72,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--cu-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#b08a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#10 · Captain Underpants and the Revolting Revenge of the Radioactive Robo-Boxers</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Dav Pilkey</p>
+    <div class="logo">🦸</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Captain Underpants: Captain Underpants and the Revolting Revenge of the Radioactive Robo-Boxers</em> (Scholastic, 2013) — by Dav Pilkey</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Dav Pilkey",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Captain Underpants trivia.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few sneaky details slipped past you.",
+    low: "Time for a re-read! The answers are in the comic.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Dav Pilkey",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了内裤队长的搞笑冒险。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几个小细节被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在漫画里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Why doesn't Captain Underpants exist in the changed future?", "zh": "在改变后的未来里，为什么内裤队长不存在了？"}, "options": [{"en": "He was eaten by dinosaurs (Some fans of the series might pick this one.)", "zh": "他被恐龙吃了（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Mr. Krupp got fired 5 years ago and was never hypnotized", "zh": "克拉普先生5年前被解雇，再也没人被催眠成他"}, {"en": "He moved away", "zh": "他搬走了"}, {"en": "He retired", "zh": "他退休了"}], "answer": 1, "explain": {"en": "Because Mr. Krupp got fired five years earlier, George and Harold never hypnotized him, so Captain Underpants was never created and the world was destroyed.", "zh": "因为克拉普先生提前5年被解雇，乔治和哈罗德再也没催眠过他，内裤队长从未诞生，世界因此毁灭。"}}, {"q": {"en": "In the prologue, what actually makes the red 'stain' under Zombie Nerd Harold's shoe?", "zh": "在序章里，僵尸书呆子哈罗德鞋下那摊红色“污迹”到底是什么？"}, "options": [{"en": "A squashed tomato (Some fans of the series might pick this one.)", "zh": "一个被压烂的番茄（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Red paint", "zh": "红油漆"}, {"en": "An extra-large novelty ketchup pack", "zh": "一包特大号 novelty 番茄酱"}, {"en": "Real blood", "zh": "真正的血"}], "answer": 2, "explain": {"en": "It was a trick of misdirection: Tippy slid an extra-large novelty ketchup pack under the shoe, so the red stain was just ketchup, not blood.", "zh": "这是个“误导”把戏：蒂皮在鞋底下塞了一包特大号番茄酱，所以那摊红迹只是番茄酱，不是血。"}}, {"q": {"en": "How do George and Harold travel back to the age of the dinosaurs?", "zh": "乔治和哈罗德是怎么回到恐龙时代的？"}, "options": [{"en": "They drink Super Power Juice (Some fans of the series might pick this one.)", "zh": "他们喝了超能力果汁（这个系列的一些小粉丝可能会选这个。）"}, {"en": "They use Tippy's Robo-Pants", "zh": "他们用蒂皮的机器人裤"}, {"en": "They snap their fingers", "zh": "他们打了个响指"}, {"en": "They set the Purple Potty for 65 million years ago and pull the chain", "zh": "他们把紫色马桶设成6500万年前，然后拉下链条"}], "answer": 3, "explain": {"en": "George sets the controller for sixty-five million years ago and pulls the chain — 'Easy, squeezy, mac-n-cheese!' — and the Purple Potty vanishes.", "zh": "乔治把控制器设成6500万年前，拉下链条——“小菜一碟，奶酪通心粉！”——紫色马桶就消失了。"}}, {"q": {"en": "What does Tippy use to shrink his earlier self down to the size of a baseball?", "zh": "蒂皮用什把更早的自己缩小到了棒球那么大？"}, "options": [{"en": "The Hypno-Ring", "zh": "催眠戒指"}, {"en": "The Shrinky-Pig 2000", "zh": "收缩猪2000"}, {"en": "The Freezy-Beam 4000", "zh": "冰冻射线4000"}, {"en": "The Goosy-Grow 4000", "zh": "长大鹅4000"}], "answer": 1, "explain": {"en": "Future Tippy aimed the Shrinky-Pig 2000 at his younger self and shrank him down to the size of a baseball, then tucked him in his pocket.", "zh": "未来的蒂皮用“收缩猪2000”照向年轻的自己，把他缩成棒球大小，塞进了口袋。"}}, {"q": {"en": "Besides George, Harold, Crackers, and Sulu, who accidentally travels back to the dinosaur age?", "zh": "除了乔治、哈罗德、脆脆和苏鲁，还有谁意外地被带回了恐龙时代？"}, "options": [{"en": "Mr. Krupp", "zh": "克拉普先生"}, {"en": "The librarian", "zh": "图书管理员"}, {"en": "Tippy Tinkletrousers", "zh": "蒂皮·叮当裤"}, {"en": "Melvin Sneedly", "zh": "梅尔文·斯尼德利"}], "answer": 0, "explain": {"en": "Mr. Krupp was standing too close to the Purple Potty when they zapped backwards in time, so he got dragged along to the Cretaceous period.", "zh": "克拉普先生当时离紫色马桶太近，被一起传送回了白垩纪。"}}, {"q": {"en": "What device grows Tiny Tippy into the giant 'Supa Mega Tippy'?", "zh": "是什么装置把小蒂皮变成了巨大的“超级无敌蒂皮”？"}, "options": [{"en": "The Goosy-Grow 4000", "zh": "长大鹅4000"}, {"en": "The Robo-Pants", "zh": "机器人裤"}, {"en": "The Freezy-Beam 4000", "zh": "冰冻射线4000"}, {"en": "The Shrinky-Pig 2000", "zh": "收缩猪2000"}], "answer": 0, "explain": {"en": "The two Tiny Tippys grabbed the Goosy-Grow 4000 and zapped each other, growing to thirty then sixty feet tall as 'Supa Mega Tippy.'", "zh": "两个小蒂皮抢到了“长大鹅4000”互相对照，先长到30英尺，再长到60英尺，成了“超级无敌蒂皮”。"}}, {"q": {"en": "According to this book, what really killed the dinosaurs?", "zh": "按这本书的说法，到底是什么真正灭绝了恐龙？"}, "options": [{"en": "A giant volcano (Some fans of the series might pick this one.)", "zh": "一座巨大的火山（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Climate change", "zh": "气候变化"}, {"en": "A deadly disease", "zh": "一种致命疾病"}, {"en": "Tippy's bomb crashing into the Yucatán (the asteroid)", "zh": "蒂皮的炸弹砸进尤卡坦（那颗小行星）"}], "answer": 3, "explain": {"en": "Big Tippy's bomb landed off the coast of the Yucatán Peninsula and 'triggered the start of the Cenozoic era' — i.e. the dinosaur extinction.", "zh": "大蒂皮的炸弹砸在尤卡坦半岛外海，“触发了新生代的开始”——也就是恐龙大灭绝。"}}, {"q": {"en": "In the Pleistocene, what does Sulu do to help the friends escape Supa Mega Tippy's grip?", "zh": "在更新世，苏鲁做了什么帮大家逃出超级无敌蒂皮的抓手？"}, "options": [{"en": "Zaps him with a beam (Some fans of the series might pick this one.)", "zh": "用射线照他（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Snaps his fingers", "zh": "打了个响指"}, {"en": "Bites through the Extendo-Flex Mechani-Grippers", "zh": "咬断了伸缩机械抓手"}, {"en": "Hypnotizes him", "zh": "催眠了他"}], "answer": 2, "explain": {"en": "Sulu bit through three of the Extendo-Flex Mechani-Grippers, and the four friends fluttered away to freedom.", "zh": "苏鲁咬断了三根“伸缩机械抓手”，四个朋友趁机扇着翅膀逃走了。"}}, {"q": {"en": "When George and Harold arrive '65 million years ago,' what era are they in?", "zh": "当乔治和哈罗德“回到6500万年前”，他们身处哪个地质时代？"}, "options": [{"en": "The Mesozoic era", "zh": "中生代"}, {"en": "The Stone Age (Some fans of the series might pick this one.)", "zh": "石器时代（这个系列的一些小粉丝可能会选这个。）"}, {"en": "The Ice Age", "zh": "冰河时期"}, {"en": "The future", "zh": "未来"}], "answer": 0, "explain": {"en": "Tiny Tippy reports they are 'going back in time to the Mesozoic era' — the age of the dinosaurs.", "zh": "小蒂皮报告说他们“正回到中生代”——也就是恐龙称霸的时代。"}}, {"q": {"en": "In the Pleistocene epoch, what prehistoric people do the heroes meet?", "zh": "在更新世，英雄们遇到了哪群史前人类？"}, "options": [{"en": "Dinosaurs", "zh": "恐龙"}, {"en": "Cavemen (the first human family)", "zh": "穴居人（最早的人类家族）"}, {"en": "Robots", "zh": "机器人"}, {"en": "Talking toilets (Some fans of the series might pick this one.)", "zh": "会说话的马桶（这个系列的一些小粉丝可能会选这个。）"}], "answer": 1, "explain": {"en": "Supa Mega Tippy explains they are in the Pleistocene, 'around the time that the first human family started to appear on Earth' — surprised cavemen.", "zh": "超级无敌蒂皮说他们身处更新世，“大约是最早的人类家族出现在地球上的时候”——一群吓坏了的穴居人。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}>
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

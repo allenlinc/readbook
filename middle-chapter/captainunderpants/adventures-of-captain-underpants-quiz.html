@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Adventures Of Captain Underpants — Quiz</title>
+<style>
+  :root{
+    --cu-red:#e11d48;
+    --cu-blue:#2563eb;
+    --cu-dark:#7f1d1d;
+    --cream:#fffdf7;
+    --ink:#1f2937;
+    --gold:#f59e0b;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Comic Sans MS","Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--cu-red),#9f1239);
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:linear-gradient(135deg,var(--cu-red),var(--cu-blue));
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:#b91c1c;
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #fee2e2);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #f3c9c9;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--cu-blue);background:#eef5ff;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--cu-red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#fef2f2;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#fee2e2;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff7cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--cu-blue);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#fff7ed;
+    border-left:4px solid var(--cu-red);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--cu-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--cu-red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(225,29,72,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(225,29,72,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--cu-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#b08a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#1 · The Adventures Of Captain Underpants</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Dav Pilkey</p>
+    <div class="logo">🦸</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Captain Underpants: The Adventures Of Captain Underpants</em> (Scholastic, 1997) — by Dav Pilkey</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Dav Pilkey",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Captain Underpants trivia.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few sneaky details slipped past you.",
+    low: "Time for a re-read! The answers are in the comic.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Dav Pilkey",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了内裤队长的搞笑冒险。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几个小细节被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在漫画里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who are the two best friends at the center of the story?", "zh": "故事里的两个好朋友是谁？"}, "options": [{"en": "Captain Underpants and Dr. Diaper (Some fans of the series might pick this one.)", "zh": "内裤队长和尿布博士（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Mr. Krupp and the gym teacher", "zh": "克拉普校长和体育老师"}, {"en": "George Beard and Harold Hutchins", "zh": "乔治·比尔德和哈罗德·哈钦斯"}, {"en": "Tom and Jerry", "zh": "汤姆和杰瑞"}], "answer": 2, "explain": {"en": "George Beard (the kid with the tie and flat-top) and Harold Hutchins (the one with the T-shirt and bad haircut) are next-door neighbors and fourth-grade best friends.", "zh": "乔治·比尔德（打着领带、留平头的男孩）和哈罗德·哈钦斯（穿T恤、发型糟糕的男孩）是邻居，也是四年级的好朋友。"}}, {"q": {"en": "What did George and Harold do inside their backyard tree house?", "zh": "乔治和哈罗德在后院的树屋里做什么？"}, "options": [{"en": "Write and draw their own comic books", "zh": "编写并绘制他们自己的漫画书"}, {"en": "Hide from their parents (Some fans of the series might pick this one.)", "zh": "躲开他们的父母（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Practice the piano", "zh": "练习钢琴"}, {"en": "Build a science lab", "zh": "建一个科学实验室"}], "answer": 0, "explain": {"en": "Inside 'Tree House Comix, Inc.' Harold loved to draw and George loved to make up stories, so together they spent hours writing and drawing their own comic books, including Captain Underpants.", "zh": "在“树屋漫画公司”里，哈罗德爱画画，乔治爱编故事，两人一起花好几个小时编写绘制自己的漫画，其中就有《内裤队长》。"}}, {"q": {"en": "How did George come up with the idea for Captain Underpants?", "zh": "乔治是怎么想出“内裤队长”这个主意的？"}, "options": [{"en": "He saw a superhero on TV", "zh": "他在电视上看到一个超级英雄"}, {"en": "He noticed most superheroes look like they fly around in their underwear, so this one actually does", "zh": "他觉得大多数超级英雄都像穿着内裤在飞，所以这个干脆就真的穿着内裤飞"}, {"en": "He read it in a newspaper", "zh": "他是在报纸上读到的"}, {"en": "His teacher gave him the idea (Some fans of the series might pick this one.) (You can find a clue about this in the book.)", "zh": "是他的老师给了他灵感（这个系列的一些小粉丝可能会选这个。）（你能在书里找到关于这个的线索。）"}], "answer": 1, "explain": {"en": "George said, 'Most superheroes look like they're flying around in their underwear. Well, this guy actually IS flying around in his underwear!'", "zh": "乔治说：“大多数超级英雄看起来都像穿着内裤在飞。那这个家伙干脆就真的穿着内裤在飞！”"}}, {"q": {"en": "How much did George and Harold sell each homemade comic for on the playground?", "zh": "乔治和哈罗德在操场上每本自制漫画卖多少钱？"}, "options": [{"en": "Twenty-five cents", "zh": "二十五美分"}, {"en": "A dollar", "zh": "一美元"}, {"en": "A nickel", "zh": "五美分"}, {"en": "Fifty cents", "zh": "五十美分"}], "answer": 3, "explain": {"en": "After sneaking copies on the school copy machine, they sold their homemade comics on the playground for 50¢ each.", "zh": "他们偷偷用学校的复印机印了好多本，然后在操场上以每本50美分（50¢）出售。"}}, {"q": {"en": "Who is Mr. Krupp?", "zh": "克拉普先生是谁？"}, "options": [{"en": "The school cafeteria cook (Some fans of the series might pick this one.)", "zh": "学校食堂的厨师（这个系列的一些小粉丝可能会选这个。）"}, {"en": "The mean principal of Jerome Horwitz Elementary School", "zh": "杰罗姆·霍维茨小学严厉的校长"}, {"en": "George's father", "zh": "乔治的爸爸"}, {"en": "A superhero", "zh": "一位超级英雄"}], "answer": 1, "explain": {"en": "Mr. Krupp is the principal — described as the meanest, sourest principal in the school's history, who hates laughter, singing, children, and especially George and Harold.", "zh": "克拉普先生是校长——被描述为全校历史上最刻薄、最暴躁的校长，他讨厌笑声、唱歌、孩子，尤其讨厌乔治和哈罗德。"}}, {"q": {"en": "At the big football game, what did the boys sprinkle into the cheerleaders' pom-poms?", "zh": "在那场大型橄榄球赛上，男孩们在啦啦队员的绒球里撒了什么？"}, "options": [{"en": "Bubble bath (Some fans of the series might pick this one.)", "zh": "沐浴泡泡液（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Glitter", "zh": "亮粉"}, {"en": "Confetti", "zh": "彩纸屑"}, {"en": "Black pepper", "zh": "黑胡椒粉"}], "answer": 3, "explain": {"en": "A fan noticed: 'Somebody sprinkled black pepper into the cheerleaders' pom-poms!' causing them to sneeze nonstop.", "zh": "有观众发现：“有人在啦啦队员的绒球里撒了黑胡椒粉！”害得她们一直打喷嚏。"}}, {"q": {"en": "How did Mr. Krupp finally catch George and Harold in the act?", "zh": "克拉普先生最终是怎么当场抓到乔治和哈罗德的？"}, "options": [{"en": "With tiny hidden video surveillance cameras", "zh": "用隐藏的微型监控摄像头"}, {"en": "He found their comics", "zh": "他找到了他们的漫画"}, {"en": "A classmate told on them (Some fans of the series might pick this one.)", "zh": "有同学告发了他们（这个系列的一些小粉丝可能会选这个。）"}, {"en": "He followed them home", "zh": "他跟踪他们回家"}], "answer": 0, "explain": {"en": "Mr. Krupp said he 'installed tiny video surveillance cameras all around the school' and had a videotape of the boys pulling the pranks.", "zh": "克拉普先生说他“在全校安装了微型监控摄像头”，并录下了男孩们捣乱的录像带。"}}, {"q": {"en": "To fix their problem, what did George order from a magazine ad?", "zh": "为了摆脱困境，乔治从杂志广告里订购了什么？"}, "options": [{"en": "The 3-D Hypno-Ring", "zh": "3D催眠戒指"}, {"en": "A set of paints", "zh": "一套颜料"}, {"en": "A new bicycle", "zh": "一辆新自行车"}, {"en": "A pet goldfish (Some fans of the series might pick this one.)", "zh": "一只宠物金鱼（这个系列的一些小粉丝可能会选这个。）"}], "answer": 0, "explain": {"en": "George found an ad for the 3-D Hypno-Ring from the Li'l Wiseguy Novelty Co. ($2.99 plus $1.01 shipping) and planned to hypnotize Mr. Krupp.", "zh": "乔治找到一则“小机灵 novelty 公司”的3D催眠戒指广告（2.99美元加1.01美元运费），打算用它来催眠克拉普先生。"}}, {"q": {"en": "What special power does Captain Underpants use to fight bad guys?", "zh": "内裤队长用什么特殊力量对付坏人？"}, "options": [{"en": "Super speed (Some fans of the series might pick this one.)", "zh": "超级速度（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Wedgie Power", "zh": "内裤 wedgie 力量"}, {"en": "Invisibility", "zh": "隐身"}, {"en": "Laser eyes", "zh": "激光眼"}], "answer": 1, "explain": {"en": "Harold joked the hero 'could fight with Wedgie Power!' and Captain Underpants later threatens villains with 'Wedgie Power.'", "zh": "哈罗德开玩笑说这个英雄“可以用 wedgie 力量战斗！”，后来内裤队长也用“wedgie 力量”对付坏蛋。"}}, {"q": {"en": "Who is the evil villain that wants to blow up the moon with the Laser-Matic 2000?", "zh": "想用“激光机2000”炸掉月亮的邪恶反派是谁？"}, "options": [{"en": "Principal Krupp", "zh": "克拉普校长"}, {"en": "The gym teacher", "zh": "体育老师"}, {"en": "Dr. Diaper", "zh": "尿布博士"}, {"en": "A talking toilet", "zh": "一个会说话的马桶"}], "answer": 2, "explain": {"en": "The strange little man wearing a diaper is 'the evil Dr. Diaper,' who plans to blow up the moon and take over the world with his Laser-Matic 2000.", "zh": "那个穿着尿布的小个子男人就是“邪恶的尿布博士”，他计划用“激光机2000”炸掉月亮并统治世界。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}>
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

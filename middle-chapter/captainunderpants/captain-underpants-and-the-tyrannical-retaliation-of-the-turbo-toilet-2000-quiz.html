@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Captain Underpants and the Tyrannical Retaliation of the Turbo Toilet 2000 — Quiz</title>
+<style>
+  :root{
+    --cu-red:#e11d48;
+    --cu-blue:#2563eb;
+    --cu-dark:#7f1d1d;
+    --cream:#fffdf7;
+    --ink:#1f2937;
+    --gold:#f59e0b;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Comic Sans MS","Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--cu-red),#9f1239);
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:linear-gradient(135deg,var(--cu-red),var(--cu-blue));
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:#b91c1c;
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #fee2e2);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #f3c9c9;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--cu-blue);background:#eef5ff;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--cu-red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#fef2f2;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#fee2e2;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff7cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--cu-blue);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#fff7ed;
+    border-left:4px solid var(--cu-red);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--cu-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--cu-red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(225,29,72,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(225,29,72,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--cu-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#b08a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#11 · Captain Underpants and the Tyrannical Retaliation of the Turbo Toilet 2000</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Dav Pilkey</p>
+    <div class="logo">🦸</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Captain Underpants: Captain Underpants and the Tyrannical Retaliation of the Turbo Toilet 2000</em> (Scholastic, 2014) — by Dav Pilkey</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Dav Pilkey",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Captain Underpants trivia.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few sneaky details slipped past you.",
+    low: "Time for a re-read! The answers are in the comic.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Dav Pilkey",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了内裤队长的搞笑冒险。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几个小细节被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在漫画里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What actually brought the Turbo Toilet 2000 back to life on the surface of Uranus?", "zh": "到底是什么让涡轮马桶2000在天王星表面重新活了过来？"}, "options": [{"en": "George and Harold hypnotized it", "zh": "乔治和哈罗德把它催眠了"}, {"en": "A lightning bolt struck it from a storm (Some fans of the series might pick this one.)", "zh": "一道闪电击中了它（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Photo-Atomic Trans-Somgobulating juice drizzled into its mouth", "zh": "“光原子超搅拌”汁液滴进了它的嘴里"}, {"en": "It was never really destroyed", "zh": "它其实从来没被真正毁掉"}], "answer": 2, "explain": {"en": "The red kickball knocked the head off the Robo-Plunger, and the Photo-Atomic Trans-Somgobulating Yectofantriplutoniczianiptomistic juice oozed from its neck into the Turbo Toilet 2000's mouth, bringing the evil robot to life.", "zh": "红橡皮球把“无敌搋子侠”的头打掉了，那种“光原子超搅拌”汁液从它的断脖子流进涡轮马桶2000的嘴里，把这个坏机器人唤醒了。"}}, {"q": {"en": "How did the Turbo Toilet 2000 travel all the way from Uranus back to Earth?", "zh": "涡轮马桶2000是怎么从天王星一路回到地球的？"}, "options": [{"en": "He rode a passing comet", "zh": "它搭了一颗路过的彗星"}, {"en": "Melvin's time-traveling Robo-Squid suit", "zh": "梅尔文的时光旅行机器鱿鱼服"}, {"en": "A flying rocket scooter made from Robo-Plunger parts", "zh": "用“无敌搋子侠”的零件做的飞行火箭滑板"}, {"en": "A spaceship sent by the Talking Toilets (Some fans of the series might pick this one.)", "zh": "会说话的马桶们派来的宇宙飞船（这个系列的一些小粉丝可能会选这个。）"}], "answer": 2, "explain": {"en": "Being a robot, the Turbo Toilet 2000 disassembled the headless Robo-Plunger, rearranged the pieces, and built himself a flying rocket scooter from his arch-enemy's recycled parts.", "zh": "涡轮马桶2000是个机器人，它把没了头的“无敌搋子侠”拆开重组，用死对头的废旧零件给自己造了一辆飞行火箭滑板。"}}, {"q": {"en": "What did the Turbo Toilet 2000 bellow as it entered Earth's atmosphere?", "zh": "涡轮马桶2000冲进地球大气层时大喊了什么？"}, "options": [{"en": "HEEEEEEEEEERE'S JOHNNY!", "zh": "嘿—嘿—我—来—啦！"}, {"en": "I must retaliate! (Some fans of the series might pick this one.)", "zh": "我必须报复！（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Tra-La-Laaaa!", "zh": "特拉—啦—啦！"}, {"en": "YO! Big Melvin!", "zh": "哟！大梅尔文！"}], "answer": 0, "explain": {"en": "As the porcelain predator roared over the rooftops, it bellowed the eardrum-crushing taunt, “HEEEEEEEEEERE'S JOHNNY!”", "zh": "这个瓷器猛兽在屋顶上咆哮着飞过，扯着嗓子喊出那句震耳欲聋的挑衅：“嘿—嘿—我—来—啦！”"}}, {"q": {"en": "How did Melvin Sneedly get his super powers?", "zh": "梅尔文·斯尼德利是怎么获得超能力的？"}, "options": [{"en": "He got bitten by Sulu the Bionic Hamster (Some fans of the series might pick this one.)", "zh": "他被机器仓鼠苏鲁咬了一口（这个系列的一些小粉丝可能会选这个。）"}, {"en": "He extracted DNA from Mr. Krupp's toenail and drank the gel", "zh": "他从克拉普先生的脚趾甲里提取DNA，喝下了凝胶"}, {"en": "He found a magic 3-D Hypno-Ring", "zh": "他找到了神奇的3D催眠戒指"}, {"en": "He drank the alien super-power juice", "zh": "他喝了外星超能力果汁"}], "answer": 1, "explain": {"en": "Melvin found Mr. Krupp's stinky toenail, used his Li'l Scientist Wristwatch's DNA extractor to isolate the super-powered DNA, made a green glowing gel, and chugged it down to become Big Melvin.", "zh": "梅尔文找到了克拉普先生臭烘烘的脚趾甲，用“小科学家手表”里的DNA提取器分离出超能力DNA，做成绿色发光凝胶一饮而尽，变成了“大梅尔文”。"}}, {"q": {"en": "After Melvin defeated the Turbo Toilet 2000, what did 'Weird Al' Yankovic do?", "zh": "梅尔文打败涡轮马桶2000之后，“怪人阿尔”扬科维奇做了什么？"}, "options": [{"en": "Made a movie about him", "zh": "为他拍了一部电影"}, {"en": "Wrote a song about him", "zh": "为他写了一首歌"}, {"en": "Sent a letter of congratulations", "zh": "寄了一封祝贺信（那是副总统做的）"}, {"en": "Threw him a big parade", "zh": "为他举行了盛大游行（那是市长做的）"}], "answer": 1, "explain": {"en": "The mayor threw a parade, the vice president sent a letter, and 'Weird Al' Yankovic wrote a song about Melvin — making him a world-famous hero.", "zh": "市长为他举行了游行，副总统寄来贺信，而“怪人阿尔”扬科维奇为他写了一首歌——让梅尔文成了世界闻名的大英雄。"}}, {"q": {"en": "What was the final straw that made Big Melvin quit being a superhero?", "zh": "压垮“大梅尔文”、让他决定不再当超级英雄的最后一根稻草是什么？"}, "options": [{"en": "A woman crying 'YO! Big Melvin!' to ask 'Do these pants make me look fat?'", "zh": "一个女人喊“哟！大梅尔文！”只是问“我穿这条裤子显胖吗？”"}, {"en": "A runaway train he had to stop", "zh": "一辆他必须拦下的失控火车"}, {"en": "A lost child stuck in a well", "zh": "一个掉进井里迷路的小孩"}, {"en": "A burning building to rescue people from (Some fans of the series might pick this one.)", "zh": "一栋着了火、要救人出来的大楼（这个系列的一些小粉丝可能会选这个。）"}], "answer": 0, "explain": {"en": "Tired of silly calls, Melvin flew to a 'real emergency' only to find a woman asking if her pants made her look fat — the final straw that made him quit superhero work.", "zh": "被各种无聊求助搞得精疲力竭的梅尔文，飞去救一场“紧急事件”，结果只是个女人问裤子显不显胖——这成了让他辞职的最后一根稻草。"}}, {"q": {"en": "How did Melvin find George, Harold, and Captain Underpants to bring them back?", "zh": "梅尔文是怎么找到乔治、哈罗德和内裤队长，把他们带回来的？"}, "options": [{"en": "He found a 'WANTED' poster of them", "zh": "他找到了通缉他们的海报"}, {"en": "He asked the police to track them down", "zh": "他请警察去追踪他们"}, {"en": "He watched the bank's surveillance camera (Some fans of the series might pick this one.)", "zh": "他看了银行的监控摄像头（这个系列的一些小粉丝可能会选这个。）"}, {"en": "He used a GPS on Sulu the Bionic Hamster's robotic endoskeleton", "zh": "他用装在机器仓鼠苏鲁骨架里的GPS找到了它"}], "answer": 3, "explain": {"en": "Melvin knew Sulu the Bionic Hamster was usually with the boys, so he scanned the GPS he'd installed on Sulu's robotic endoskeleton and found them thirty-nine years in the future.", "zh": "梅尔文知道机器仓鼠苏鲁通常跟两个男孩在一起，于是他扫描了装在苏鲁机器骨架里的GPS，发现他们在39年后的未来。"}}, {"q": {"en": "Why did George and Harold get ZEROES on all of their tests?", "zh": "乔治和哈罗德为什么所有考试都得了零分？"}, "options": [{"en": "They forgot to bring pencils", "zh": "他们忘了带铅笔"}, {"en": "They skipped school on Super-Secret Test Day", "zh": "他们在“超级机密考试日”逃学了"}, {"en": "They cheated on the answer sheets", "zh": "他们在答卷上作弊了"}, {"en": "Mr. Krupp hated their comic books (Some fans of the series might pick this one.)", "zh": "克拉普先生讨厌他们的漫画（这个系列的一些小粉丝可能会选这个。）"}], "answer": 1, "explain": {"en": "The boys fell asleep in their tree house and slept through school on Super-Secret Test Day, so Mr. Krupp gleefully gave them ZEROES on every test with no makeup tests allowed.", "zh": "两个男孩在树屋里睡着了，一觉睡过了“超级机密考试日”，于是克拉普先生幸灾乐祸地给他们每门考试都打了零分，还不让补考。"}}, {"q": {"en": "What happened to Harold when the final grades came out?", "zh": "期末成绩出来时，哈罗德遇到了什么事？"}, "options": [{"en": "Harold failed the fourth grade with 59.7 percent", "zh": "哈罗德以59.7%留级，没通过四年级"}, {"en": "Both boys passed easily", "zh": "两个男孩都轻松通过了"}, {"en": "Harold became a superhero", "zh": "哈罗德成了超级英雄"}, {"en": "George failed with 59.7 percent (Some fans of the series might pick this one.)", "zh": "乔治以59.7%不及格（这个系列的一些小粉丝可能会选这个。）"}], "answer": 0, "explain": {"en": "George passed with 62.7% and moved to fifth grade, but Harold scored only 59.7% and failed the fourth grade — Mr. Krupp's plan to separate the friends worked.", "zh": "乔治以62.7%通过、升入五年级，但哈罗德只拿了59.7%，四年级没及格——克拉普先生拆散这对好朋友的计划得逞了。"}}, {"q": {"en": "How did George and Harold turn Captain Underpants back into grumpy Mr. Krupp?", "zh": "乔治和哈罗德是怎么把内裤队长变回暴躁的克拉普先生的？"}, "options": [{"en": "They poured alien juice on his head (Some fans of the series might pick this one.)", "zh": "他们把外星果汁倒在他头上（这个系列的一些小粉丝可能会选这个。）"}, {"en": "They used the 3-D Hypno-Ring", "zh": "他们用了3D催眠戒指"}, {"en": "They snapped their fingers", "zh": "他们打了个响指"}, {"en": "They splashed water on his face at the kitchen sink", "zh": "他们在厨房水槽边把水泼在他脸上"}], "answer": 3, "explain": {"en": "Back at Mr. Krupp's house, George told Captain Underpants to splash water on his face at the kitchen sink, and in no time he was back to his grumpy old self.", "zh": "回到克拉普先生家，乔治让内裤队长去厨房水槽边往脸上泼水，没一会儿他就变回了那个暴躁的老克拉普。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}>
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

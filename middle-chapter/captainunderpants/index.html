@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Captain Underpants — Books</title>
+<style>
+  :root{
+    --cu-red:#e11d48;
+    --cu-blue:#2563eb;
+    --cu-dark:#7f1d1d;
+    --cream:#fffdf7;
+    --ink:#1f2937;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Comic Sans MS","Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--cu-red),#9f1239);
+    color:var(--ink);min-height:100vh;padding:0 0 40px;
+  }
+  header{
+    background:linear-gradient(135deg,var(--cu-red),var(--cu-blue));color:#fff;text-align:center;
+    padding:26px 18px 20px;position:relative;
+  }
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .topbar h1{margin:0;font-size:1.5rem;flex:1;text-align:center;}
+  .homeBtn{
+    font-size:1.35rem;text-decoration:none;background:#fff;border-radius:50%;
+    width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{margin:10px 0 0;font-size:.92rem;opacity:.92;}
+  .logo{
+    width:56px;height:56px;border-radius:50%;margin:14px auto 4px;
+    background:radial-gradient(circle at 35% 30%, #fff, #fee2e2);
+    display:flex;align-items:center;justify-content:center;font-size:1.8rem;
+    box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  .wrap{max-width:1000px;margin:26px auto 0;padding:0 18px;}
+  .intro{
+    background:var(--cream);border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.3);
+    padding:18px 22px;font-size:.95rem;line-height:1.6;color:#444;
+  }
+  .intro b{color:var(--cu-dark);}
+  .grid{
+    margin-top:22px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;
+  }
+  .book{
+    background:var(--cream);border-radius:16px;overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.28);
+    display:flex;flex-direction:column;border-top:6px solid var(--accent,var(--cu-red));
+    transition:transform .15s,box-shadow .15s;
+  }
+  .book:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(0,0,0,.34);}
+  .book .top{padding:16px;text-align:center;background:linear-gradient(180deg,var(--accent,#e11d48),transparent);}
+  .num{
+    width:54px;height:54px;line-height:54px;border-radius:50%;background:#fff;
+    color:var(--accent,#e11d48);font-size:1.5rem;font-weight:bold;margin:0 auto 8px;
+    border:3px solid #fff;box-shadow:0 4px 10px rgba(0,0,0,.2);
+  }
+  .book .emoji{font-size:1.7rem;}
+  .book .title{margin:4px 0;font-size:1.02rem;font-weight:bold;line-height:1.3;padding:0 12px;}
+  .book .titleZh{margin:0 0 6px;font-size:.82rem;color:#888;padding:0 12px;}
+  .book .body{padding:6px 14px 16px;flex:1;display:flex;flex-direction:column;}
+  .book .desc{font-size:.82rem;color:#555;line-height:1.45;margin:0 0 12px;flex:1;padding:0 6px;}
+  .start{
+    display:block;text-align:center;text-decoration:none;font-family:inherit;
+    font-size:.95rem;font-weight:bold;color:#fff;background:var(--accent,#e11d48);
+    padding:10px;border-radius:30px;box-shadow:0 4px 12px rgba(0,0,0,.2);transition:filter .15s;
+  }
+  .start:hover{filter:brightness(1.08);}
+  footer{text-align:center;color:rgba(255,255,255,.85);font-size:.8rem;margin-top:32px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    <h1>Captain Underpants</h1>
+    <span style="width:40px"></span>
+  </div>
+  <div class="logo">🦸</div>
+  <p>初章书 · 搞笑漫画冒险 · Early Chapter / Comedy — by Dav Pilkey</p>
+</header>
+
+<div class="wrap">
+  <div class="intro">
+    🦸 <b>12 本 Captain Underpants 内裤队长搞笑冒险（#1–#12），每本都有中英双语阅读理解测验。</b><br>
+    12 Captain Underpants comedy adventures by Dav Pilkey — troublemakers George &amp; Harold hypnotize grumpy Principal Krupp into the waistband-wearing superhero Captain Underpants. Each book has a bilingual (English / 中文) comprehension quiz. Tap a book, read the questions, then check your answers!
+  </div>
+
+  <div class="grid">
+    <article class="book" style="--accent:#e11d48">
+      <div class="top"><div class="num">1</div><div class="emoji">🦸</div></div>
+      <div class="body">
+        <h3 class="title">The Adventures Of Captain Underpants</h3>
+        <p class="titleZh">内裤队长历险记</p>
+        <p class="desc">George & Harold hypnotize Principal Krupp into Captain Underpants!</p>
+        <a class="start" href="adventures-of-captain-underpants-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#2563eb">
+      <div class="top"><div class="num">2</div><div class="emoji">🚽</div></div>
+      <div class="body">
+        <h3 class="title">Captain Underpants and the Attack of the Talking Toilets</h3>
+        <p class="titleZh">内裤队长与会说话的马桶来袭</p>
+        <p class="desc">George & Harold's comic about talking toilets comes to life!</p>
+        <a class="start" href="captain-underpants-and-the-attack-of-the-talking-toilets-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#f59e0b">
+      <div class="top"><div class="num">3</div><div class="emoji">👽</div></div>
+      <div class="body">
+        <h3 class="title">Captain Underpants and the Invasion of the Incredibly Naughty Cafeteria Ladies from Outer Space</h3>
+        <p class="titleZh">内裤队长与来自外太空的调皮食堂大妈入侵</p>
+        <p class="desc">Evil aliens pose as lunch ladies and turn the school into zombie nerds!</p>
+        <a class="start" href="captain-underpants-and-the-invasion-of-the-incredibly-naughty-cafeteria-ladies-from-outer-space-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#16a34a">
+      <div class="top"><div class="num">4</div><div class="emoji">🤓</div></div>
+      <div class="body">
+        <h3 class="title">Captain Underpants and the Perilous Plot of Professor Poopypants</h3>
+        <p class="titleZh">内裤队长与 poopypants 教授的惊天阴谋</p>
+        <p class="desc">A mad scientist forces the whole world to rename itself!</p>
+        <a class="start" href="captain-underpants-and-the-perilous-plot-of-professor-poopypants-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#7c3aed">
+      <div class="top"><div class="num">5</div><div class="emoji">🦸</div></div>
+      <div class="body">
+        <h3 class="title">Captain Underpants and the Wrath of the Wicked Wedgie Women</h3>
+        <p class="titleZh">内裤队长与邪恶的Wedgie女侠之怒</p>
+        <p class="desc">A wicked Wedgie Woman terrorizes the school!</p>
+        <a class="start" href="captain-underpants-and-the-wrath-of-the-wicked-wedgie-women-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#0891b2">
+      <div class="top"><div class="num">6</div><div class="emoji">🤧</div></div>
+      <div class="body">
+        <h3 class="title">Captain Underpants And The Big Bad Battle Of The Bionic Booger Boy Part 1 - The Night Of The Nasty Nostril Nuggets</h3>
+        <p class="titleZh">内裤队长与机械鼻涕怪人大战（上）：恶心鼻屎之夜</p>
+        <p class="desc">Melvin turns into a Bionic Booger Boy!</p>
+        <a class="start" href="captain-underpants-and-the-big-bad-battle-of-the-bionic-booger-boy-part-1-the-night-of-the-nasty-nostril-nuggets-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#db2777">
+      <div class="top"><div class="num">7</div><div class="emoji">🚽</div></div>
+      <div class="body">
+        <h3 class="title">Captain Underpants And The Big, Bad Battle Of The Bionic Booger Boy Part 2 - The Revenge Of The Ridiculous Robo Boogers</h3>
+        <p class="titleZh">内裤队长与机械鼻涕怪人大战（下）：可笑机器人鼻涕怪的复仇</p>
+        <p class="desc">The Robo-Boogers want revenge!</p>
+        <a class="start" href="captain-underpants-and-the-big-bad-battle-of-the-bionic-booger-boy-part-2-the-revenge-of-the-ridiculous-robo-boogers-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#ea580c">
+      <div class="top"><div class="num">8</div><div class="emoji">🚽</div></div>
+      <div class="body">
+        <h3 class="title">Captain Underpants and the Preposterous Plight of the Purple Potty People</h3>
+        <p class="titleZh">内裤队长与紫色马桶人的离奇困境</p>
+        <p class="desc">George and Harold meet their evil twins in a backwards dimension!</p>
+        <a class="start" href="captain-underpants-and-the-preposterous-plight-of-the-purple-potty-people-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#4f46e5">
+      <div class="top"><div class="num">9</div><div class="emoji">🤖</div></div>
+      <div class="body">
+        <h3 class="title">Captain Underpants and the Terrifying Return of Tippy Tinkletrousers</h3>
+        <p class="titleZh">内裤队长与蒂皮·叮当裤的恐怖回归</p>
+        <p class="desc">Tippy Tinkletrousers returns in a giant Robo-Suit for revenge!</p>
+        <a class="start" href="captain-underpants-and-the-terrifying-return-of-tippy-tinkletrousers-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#0d9488">
+      <div class="top"><div class="num">10</div><div class="emoji">🦖</div></div>
+      <div class="body">
+        <h3 class="title">Captain Underpants and the Revolting Revenge of the Radioactive Robo-Boxers</h3>
+        <p class="titleZh">内裤队长与放射性机器人拳击手的复仇</p>
+        <p class="desc">Tippy's time tricks unleash Robo-Boxers and rewrite dinosaur history!</p>
+        <a class="start" href="captain-underpants-and-the-revolting-revenge-of-the-radioactive-robo-boxers-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#dc2626">
+      <div class="top"><div class="num">11</div><div class="emoji">🚽</div></div>
+      <div class="body">
+        <h3 class="title">Captain Underpants and the Tyrannical Retaliation of the Turbo Toilet 2000</h3>
+        <p class="titleZh">内裤队长与涡轮马桶2000的暴君式报复</p>
+        <p class="desc">The giant Turbo Toilet 2000 returns from Uranus for revenge!</p>
+        <a class="start" href="captain-underpants-and-the-tyrannical-retaliation-of-the-turbo-toilet-2000-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+    <article class="book" style="--accent:#0e7490">
+      <div class="top"><div class="num">12</div><div class="emoji">💨</div></div>
+      <div class="body">
+        <h3 class="title">Captain Underpants and the Sensational Saga of Sir Stinks-A-Lot</h3>
+        <p class="titleZh">内裤队长与臭屁爵士的轰动传奇</p>
+        <p class="desc">Mr. Meaner's mind-control spray turns kids into obedient zombies!</p>
+        <a class="start" href="captain-underpants-and-the-sensational-saga-of-sir-stinks-a-lot-quiz.html">做测验 Take Quiz →</a>
+      </div>
+    </article>
+  </div>
+</div>
+
+<footer>Part of 英语分级阅读乐园 · Reading by Level</footer>
+</body>
+</html>

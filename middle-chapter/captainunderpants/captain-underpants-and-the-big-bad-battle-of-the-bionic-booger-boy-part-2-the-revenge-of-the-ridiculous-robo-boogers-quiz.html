@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Captain Underpants And The Big, Bad Battle Of The Bionic Booger Boy Part 2 - The Revenge Of The Ridiculous Robo Boogers — Quiz</title>
+<style>
+  :root{
+    --cu-red:#e11d48;
+    --cu-blue:#2563eb;
+    --cu-dark:#7f1d1d;
+    --cream:#fffdf7;
+    --ink:#1f2937;
+    --gold:#f59e0b;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Comic Sans MS","Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--cu-red),#9f1239);
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:linear-gradient(135deg,var(--cu-red),var(--cu-blue));
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:#b91c1c;
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #fee2e2);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #f3c9c9;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--cu-blue);background:#eef5ff;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--cu-red);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#fef2f2;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#fee2e2;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff7cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--cu-blue);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#fff7ed;
+    border-left:4px solid var(--cu-red);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--cu-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--cu-red);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(225,29,72,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(225,29,72,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--cu-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#b08a8a;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#7 · Captain Underpants And The Big, Bad Battle Of The Bionic Booger Boy Part 2 - The Revenge Of The Ridiculous Robo Boogers</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Dav Pilkey</p>
+    <div class="logo">🦸</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Captain Underpants: Captain Underpants And The Big, Bad Battle Of The Bionic Booger Boy Part 2 - The Revenge Of The Ridiculous Robo Boogers</em> (Scholastic, 2003) — by Dav Pilkey</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Dav Pilkey",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Captain Underpants trivia.",
+    great: "Great job — you understood the adventure well.",
+    ok: "Not bad — but a few sneaky details slipped past you.",
+    low: "Time for a re-read! The answers are in the comic.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Dav Pilkey",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了内裤队长的搞笑冒险。",
+    great: "很棒——你已经读懂了这个冒险故事。",
+    ok: "不错——不过有几个小细节被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在漫画里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What are the three Ridiculous Robo-Boogers named?", "zh": "那三只“可笑机器人鼻涕怪”分别叫什么名字？"}, "options": [{"en": "Carl, Trixie, and Frankenbooger", "zh": "卡尔、崔西和弗兰肯鼻涕"}, {"en": "Larry, Moe, and Curly", "zh": "拉里、莫和科利"}, {"en": "Tom, Dick, and Harry", "zh": "汤姆、迪克和哈里"}, {"en": "Sniffy, Drippy, and Snot (Some fans of the series might pick this one.)", "zh": "嗅嗅、滴答和鼻涕（这个系列的一些小粉丝可能会选这个。）"}], "answer": 0, "explain": {"en": "The book names the three vilest Robo-Boogers (from left to right) as Carl, Trixie, and Frankenbooger — described as scary, monstrous names.", "zh": "书里从左到右点名了三只最恶心可怕的机器人鼻涕怪：卡尔、崔西和弗兰肯鼻涕。"}}, {"q": {"en": "How did Sulu the Bionic Hamster defeat the three Robo-Boogers?", "zh": "生化仓鼠苏鲁是怎么打败那三只机器人鼻涕怪的？"}, "options": [{"en": "He tied them in knots (Some fans of the series might pick this one.)", "zh": "他把它们打成结（这个系列的一些小粉丝可能会选这个。）"}, {"en": "He sat on them", "zh": "他坐在了它们身上"}, {"en": "He hypnotized them", "zh": "他把它们催眠了"}, {"en": "He swallowed them and spat them into space toward Uranus", "zh": "他把它们吞下又吐到了飞向天王星的太空里"}], "answer": 3, "explain": {"en": "At the last second, Sulu stretched open his Flexo-Growmonic jaw, shoved the three boogery behemoths into his mouth, and with a mighty 'SPIT-TOOIE!' shot them into space, sailing toward Uranus.", "zh": "在千钧一发之际，苏鲁张开可伸缩的下巴，把三只鼻涕巨怪一口吞下，然后一声“噗——呸！”，把它们吐进了太空，一路飞向天王星。"}}, {"q": {"en": "After Melvin's parents reversed the Combine-O-Tron, what went wrong with Melvin and Mr. Krupp?", "zh": "梅尔文的父母用合成器做了逆转之后，梅尔文和克拉普先生出了什么岔子？"}, "options": [{"en": "They turned into hamsters", "zh": "他们变成了仓鼠"}, {"en": "Their brains got switched (Mr. Krupp's brain is in Melvin's body, and Melvin's in Mr. Krupp's)", "zh": "他们的大脑互换了（克拉普的大脑在梅尔文身体里，梅尔文的大脑在克拉普身体里）"}, {"en": "They switched clothes", "zh": "他们换了衣服"}, {"en": "They forgot who they were (Some fans of the series might pick this one.) (You can find a clue about this in the book.)", "zh": "他们忘记了自己是谁（这个系列的一些小粉丝可能会选这个。）（你能在书里找到关于这个的线索。）"}], "answer": 1, "explain": {"en": "The battery switch separated them but also swapped their brains. The kid who looks like Melvin but has Mr. Krupp's brain is called 'Kruppy the Kid,' and the man who looks like Mr. Krupp but has Melvin's brain is called 'Mr. Melvin.'", "zh": "电池反转让两人分开，却也互换了大脑。长得像梅尔文、却装着克拉普大脑的小孩叫“小孩克拉普”；长得像克拉普、却装着梅尔文大脑的大人叫“梅尔文先生”。"}}, {"q": {"en": "How did 'Kruppy the Kid' turn himself into Captain Underpants?", "zh": "“小孩克拉普”是怎么把自己变成内裤队长的？"}, "options": [{"en": "He stripped to his underwear, tied a red curtain as a cape, yelled 'Tra-La-Laaaa!', and flew out the window", "zh": "他脱到只剩内裤，把红窗帘系成披风，大喊“特拉-啦——啦”，飞出了窗外"}, {"en": "He used the 3-D Hypno-Ring (Some fans of the series might pick this one.) (You can find a clue about this in the book.)", "zh": "他用了3D催眠戒指（这个系列的一些小粉丝可能会选这个。）（你能在书里找到关于这个的线索。）"}, {"en": "He snapped his fingers", "zh": "他打了个响指"}, {"en": "He drank Super Power Juice", "zh": "他喝了超能力果汁"}], "answer": 0, "explain": {"en": "Kruppy the Kid stripped down to his underwear, tied a red curtain around his neck, shouted a triumphant 'Tra-La-Laaaa!', and flew out the window — because Mr. Krupp's brain still carries Captain Underpants' super powers.", "zh": "“小孩克拉普”脱到只剩内裤，把红窗帘系在脖子上当披风，得意地大喊“特拉-啦——啦”，飞出了窗外——因为克拉普的大脑里仍带着内裤队长的超能力。"}}, {"q": {"en": "What did Mr. Melvin use as his time machine?", "zh": "梅尔文先生用什么当时间机器？"}, "options": [{"en": "A refrigerator", "zh": "一台冰箱"}, {"en": "A telephone booth (Some fans of the series might pick this one.)", "zh": "一个电话亭（这个系列的一些小粉丝可能会选这个。）"}, {"en": "A school bus", "zh": "一辆校车"}, {"en": "A purple portable potty from the school basement", "zh": "学校地下室里一只紫色的移动马桶"}], "answer": 3, "explain": {"en": "Mr. Melvin built his time machine inside the school library and used the purple portable potty from the basement (brought up by Miss Singerbrains) as the time-traveling device. George and Harold called it the 'Purple Potty.'", "zh": "梅尔文先生把时间机器建在学校图书馆里，用地下室那只紫色移动马桶当穿越装置（是辛格布赖恩斯小姐搬上楼的）。乔治和哈罗德管它叫“紫色马桶”。"}}, {"q": {"en": "What did George and Harold name the pterodactyl they brought back from the Cretaceous period?", "zh": "乔治和哈罗德给从白垩纪带回来的翼龙起了什么名字？"}, "options": [{"en": "Crackers", "zh": "饼干（Crackers）"}, {"en": "Fluffy", "zh": "毛毛"}, {"en": "Sulu Jr. (Some fans of the series might pick this one.)", "zh": "小苏鲁（这个系列的一些小粉丝可能会选这个。）"}, {"en": "Rex", "zh": "雷克斯"}], "answer": 0, "explain": {"en": "When a friendly Quetzalcoatlus grabbed saltine crackers from Harold's hand, Harold named their new reptilian pal 'Crackers' and used him to catch up to Miss Singerbrains' car.", "zh": "一只友好的风神翼龙从哈罗德手里叼走苏打饼干后，哈罗德给这位新爬行动物朋友起名叫“饼干”，并用他追上了辛格布赖恩斯小姐的车。"}}, {"q": {"en": "What important warning did Mr. Melvin give about the time machine?", "zh": "梅尔文先生对时间机器提出了什么重要警告？"}, "options": [{"en": "Only use it at night", "zh": "只能在夜里用"}, {"en": "Don't use it two days in a row, or it could open an opposite-dimensional reality rift", "zh": "不能连着两天用，否则可能撕开一个反向维度的现实裂缝"}, {"en": "Don't eat inside it", "zh": "别在里面吃东西"}, {"en": "Never travel to the future (Some fans of the series might pick this one.) (You can find a clue about this in the book.)", "zh": "永远不要去未来（这个系列的一些小粉丝可能会选这个。）（你能在书里找到关于这个的线索。）"}], "answer": 1, "explain": {"en": "Mr. Melvin warned: 'It is very important that you don't use this time machine two days in a row. It needs to cool off every other day, or else it might open up an opposite-dimensional reality rift that could destroy the entire planet.'", "zh": "梅尔文先生警告说：“千万不能连着两天用这台时间机器。它每隔一天得冷却一下，否则可能撕开一个反向维度的现实裂缝，毁掉整个地球。”"}}, {"q": {"en": "What comic did George and Harold make about Melvin that made him furious?", "zh": "乔治和哈罗德画了哪本关于梅尔文的漫画，把他气坏了？"}, "options": [{"en": "The Amazing Melvin", "zh": "《了不起的梅尔文》"}, {"en": "Captain Underpants and the Wrath of the Wedgie Woman", "zh": "《内裤队长与邪恶Wedgie女侠的愤怒》"}, {"en": "Captain Underpants and the War of the Wily Wonder Nerd", "zh": "《内裤队长与狡猾神奇书呆子的战争》"}, {"en": "How to Be a Scientist", "zh": "《怎样当科学家》"}], "answer": 2, "explain": {"en": "Mr. Melvin ordered the boys to make him look cool, but they made 'Captain Underpants and the War of the Wily Wonder Nerd,' a comic where radioactive underwear makes Melvin grow into a giant menace. He screamed, 'MYSTERY MELVIN????'", "zh": "梅尔文先生命令男孩们把他画得酷一点，可他们却画了《内裤队长与狡猾神奇书呆子的战争》——里面梅尔文因为放射性内裤长成了巨大的祸害。他气得大吼：“神秘梅尔文？？？”"}}, {"q": {"en": "What does Mr. Melvin's 'Forgetchamacallit 2000' do?", "zh": "梅尔文先生的“健忘器2000”是干什么用的？"}, "options": [{"en": "It turns people into boogers (Some fans of the series might pick this one.)", "zh": "它把人变成鼻涕（这个系列的一些小粉丝可能会选这个。）"}, {"en": "It fixes the time machine", "zh": "它修理时间机器"}, {"en": "It erases a person's short-term memory", "zh": "它会抹掉人的短期记忆"}, {"en": "It makes people fly", "zh": "它让人飞起来"}], "answer": 2, "explain": {"en": "Mr. Melvin told the boys that if anyone saw them on their journey, they should 'zap them with my new invention, the Forgetchamacallit 2000,' because 'this will erase everything in their short-term memory.'", "zh": "梅尔文先生告诉男孩们，要是旅行时被谁撞见，就用他的新发明“健忘器2000”电一下，因为“它会抹掉那人短期记忆里的所有东西”。"}}, {"q": {"en": "Which space team discovered the Robo-Boogers near the planet Uranus?", "zh": "是哪支太空队伍在天王星附近发现了机器人鼻涕怪？"}, "options": [{"en": "The Army", "zh": "陆军"}, {"en": "POOPSIE (Piqua Order of Professional Space and Interplanetary Explorers), led by Major 'Buzz' Tomski", "zh": "POOPSIE（皮夸专业太空与星际探索者协会），由“巴兹”·托姆斯基少校带领"}, {"en": "A TV news crew (Some fans of the series might pick this one.) (You can find a clue about this in the book.)", "zh": "一个电视新闻组（这个系列的一些小粉丝可能会选这个。）（你能在书里找到关于这个的线索。）"}, {"en": "NASA", "zh": "美国宇航局（NASA）"}], "answer": 1, "explain": {"en": "Scientists at POOPSIE (the Piqua Order of Professional Space and Interplanetary Explorers), including Major 'Buzz' Tomski, were investigating Uranus when they found a cluster of robots and toilets — and the three Robo-Boogers hitched a ride back to Earth as stowaways.", "zh": "POOPSIE（皮夸专业太空与星际探索者协会）的科学家们，包括“巴兹”·托姆斯基少校，在调查天王星时发现了一堆机器人和马桶——而那三只机器人鼻涕怪就偷偷搭便车回到了地球。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}>
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
