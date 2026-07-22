@@ -13,12 +13,24 @@
         "zh": "孩子们把零钱存进那只大鸭子形状的储蓄罐，是为了什么？"
       },
       "options": [
-        {"en": "To build a bridge so ducks could cross the road safely", "zh": "修一座桥，让鸭子能安全过马路"},
-        {"en": "To buy cookies for Josh", "zh": "给乔希买饼干"},
-        {"en": "To feed Polly the pony", "zh": "喂pony波莉"},
-        {"en": "To pay for a new fire truck", "zh": "买一辆新消防车"}
+        {
+          "en": "To pay for a new fire truck according to some versions of the story",
+          "zh": "买一辆新消防车（按书中另一种说法）"
+        },
+        {
+          "en": "To build a bridge so ducks could cross the road safely",
+          "zh": "修一座桥，让鸭子能安全过马路"
+        },
+        {
+          "en": "To feed Polly the pony",
+          "zh": "喂pony波莉"
+        },
+        {
+          "en": "To buy cookies for Josh",
+          "zh": "给乔希买饼干"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "The town saved for a year to build a special bridge so mother ducks and ducklings could cross River Road without being hit by cars.",
         "zh": "全镇存了一年钱，想修一座专门的桥，让鸭妈妈和小鸭子能安全穿过河路，避免被车撞到。"
@@ -30,12 +42,24 @@
         "zh": "是谁把丁克、乔希和露丝·罗丝存在谷仓里的钱拿走了？"
       },
       "options": [
-        {"en": "Raccoons in the barn", "zh": "谷仓里的浣熊"},
-        {"en": "Josh's little twin brothers, Bradley and Brian", "zh": "乔希的双胞胎小弟弟布拉德利和布莱恩"},
-        {"en": "Crows that steal shiny coins", "zh": "偷亮闪闪硬币的乌鸦"},
-        {"en": "The thief in the jeep", "zh": "吉普车里的贼"}
+        {
+          "en": "Crows that steal shiny coins according to some versions of the story",
+          "zh": "偷亮闪闪硬币的乌鸦（按书中另一种说法）"
+        },
+        {
+          "en": "Raccoons in the barn",
+          "zh": "谷仓里的浣熊"
+        },
+        {
+          "en": "Josh's little twin brothers, Bradley and Brian",
+          "zh": "乔希的双胞胎小弟弟布拉德利和布莱恩"
+        },
+        {
+          "en": "The thief in the jeep",
+          "zh": "吉普车里的贼"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "The twins found the money in the barn and called it 'pirate treasure,' but they gave it back after the kids explained it was for the ducks.",
         "zh": "双胞胎弟弟在谷仓里发现了钱，喊它“海盗宝藏”，但孩子们解释那是给鸭子用的之后，他们就把钱还了回来。"
@@ -47,12 +71,24 @@
         "zh": "露丝·罗丝在草地上那场火灾的灰烬里，发现了什么？"
       },
       "options": [
-        {"en": "A cookie tin", "zh": "一个饼干盒"},
-        {"en": "A duck feather", "zh": "一根鸭毛"},
-        {"en": "A partly burned piece of wood stamped 'ET CO'", "zh": "一块烧焦的木头，上面印着“ET CO”"},
-        {"en": "A gold coin", "zh": "一枚金币"}
+        {
+          "en": "A partly burned piece of wood stamped 'ET CO'",
+          "zh": "一块烧焦的木头，上面印着“ET CO”"
+        },
+        {
+          "en": "A cookie tin",
+          "zh": "一个饼干盒"
+        },
+        {
+          "en": "A gold coin",
+          "zh": "一枚金币"
+        },
+        {
+          "en": "A duck feather according to some versions of the story",
+          "zh": "一根鸭毛（按书中另一种说法）"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "She found a charred board with black ink letters 'ET CO' stamped on it — an important clue about where the wood came from.",
         "zh": "她发现一块烧黑的木板，上面用黑墨水印着“ET CO”——这是关于木头来源的重要线索。"
@@ -64,12 +100,24 @@
         "zh": "烧焦木头上的“ET CO”其实代表什么？"
       },
       "options": [
-        {"en": "EASTERN PALLET COMPANY", "zh": "东方托盘公司"},
-        {"en": "East Connecticut", "zh": "东康涅狄格"},
-        {"en": "Emergency Team Colorado", "zh": "科罗拉多急救队"},
-        {"en": "Elephant Training Center", "zh": "大象训练中心"}
+        {
+          "en": "East Connecticut",
+          "zh": "东康涅狄格"
+        },
+        {
+          "en": "EASTERN PALLET COMPANY",
+          "zh": "东方托盘公司"
+        },
+        {
+          "en": "Emergency Team Colorado",
+          "zh": "科罗拉多急救队"
+        },
+        {
+          "en": "Elephant Training Center",
+          "zh": "大象训练中心"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Ellie the diner owner showed them a pallet stamped EASTERN PALLET COMPANY, and the printing matched the burned piece exactly.",
         "zh": "餐厅老板埃莉给他们看了一个印着“东方托盘公司”的托盘，字迹和那块烧焦的木头一模一样。"
@@ -81,10 +129,22 @@
         "zh": "是谁在火灾后看到一辆吉普车在主干道上飞驰，差点撞到他的狗？"
       },
       "options": [
-        {"en": "Mr. Robb the supermarket manager", "zh": "超市经理罗布先生"},
-        {"en": "Officer Fallon", "zh": "法伦警官"},
-        {"en": "Jake the firefighter", "zh": "消防员杰克"},
-        {"en": "Mr. Thaddeus Pocket", "zh": "萨迪厄斯·波基特先生"}
+        {
+          "en": "Jake the firefighter",
+          "zh": "消防员杰克"
+        },
+        {
+          "en": "Officer Fallon",
+          "zh": "法伦警官"
+        },
+        {
+          "en": "Mr. Robb the supermarket manager",
+          "zh": "超市经理罗布先生"
+        },
+        {
+          "en": "Mr. Thaddeus Pocket",
+          "zh": "萨迪厄斯·波基特先生"
+        }
       ],
       "answer": 3,
       "explain": {
@@ -98,12 +158,24 @@
         "zh": "波基特先生以为坐在司机旁边的“巨型大鸭子”其实是什么？"
       },
       "options": [
-        {"en": "A real live duck", "zh": "一只真鸭子"},
-        {"en": "The stolen duck bank", "zh": "被偷走的鸭子储蓄罐"},
-        {"en": "A passenger in a costume", "zh": "一个穿戏服的乘客"},
-        {"en": "Josh's pony", "zh": "乔希的小马"}
+        {
+          "en": "A passenger in a costume",
+          "zh": "一个穿戏服的乘客"
+        },
+        {
+          "en": "A real live duck",
+          "zh": "一只真鸭子"
+        },
+        {
+          "en": "The stolen duck bank",
+          "zh": "被偷走的鸭子储蓄罐"
+        },
+        {
+          "en": "Josh's pony",
+          "zh": "乔希的小马"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "The moon reflected off the clear plastic duck bank, making its shiny head and beak look like a bald man with a big nose.",
         "zh": "月光照在透明的鸭子储蓄罐上反光，让它亮亮的脑袋和“嘴”看起来像个光头大鼻子的人。"
@@ -115,10 +187,22 @@
         "zh": "孩子们怎么判断出吉普车在河路上往北开？"
       },
       "options": [
-        {"en": "Mr. Pocket saw it near Indian Way Road coming from the fire station, so it had to go north", "zh": "波基特先生在印第安路附近看到它从消防站方向来，所以只能往北"},
-        {"en": "They followed tire tracks going south", "zh": "他们顺着往南的车辙追踪"},
-        {"en": "Officer Fallon told them the direction", "zh": "法伦警官告诉了他们方向"},
-        {"en": "The jeep had a big sign on it", "zh": "吉普车上挂着大字招牌"}
+        {
+          "en": "Mr. Pocket saw it near Indian Way Road coming from the fire station, so it had to go north",
+          "zh": "波基特先生在印第安路附近看到它从消防站方向来，所以只能往北"
+        },
+        {
+          "en": "Officer Fallon told them the direction according to some versions of the story in an early draft of the book",
+          "zh": "法伦警官告诉了他们方向（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They followed tire tracks going south",
+          "zh": "他们顺着往南的车辙追踪"
+        },
+        {
+          "en": "The jeep had a big sign on it",
+          "zh": "吉普车上挂着大字招牌"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -132,12 +216,24 @@
         "zh": "乔希蹚进河里时发生了什么？"
       },
       "options": [
-        {"en": "He caught a big fish", "zh": "他抓到了一条大鱼"},
-        {"en": "He found the duck bank right away", "zh": "他立刻找到了鸭子储蓄罐"},
-        {"en": "He got stuck in quicksand and had to be rescued", "zh": "他陷进流沙，必须被人救出来"},
-        {"en": "He swam across to the other side", "zh": "他游到了对岸"}
+        {
+          "en": "He swam across to the other side",
+          "zh": "他游到了对岸"
+        },
+        {
+          "en": "He got stuck in quicksand and had to be rescued",
+          "zh": "他陷进流沙，必须被人救出来"
+        },
+        {
+          "en": "He found the duck bank right away according to some versions of the story",
+          "zh": "他立刻找到了鸭子储蓄罐（按书中另一种说法）"
+        },
+        {
+          "en": "He caught a big fish",
+          "zh": "他抓到了一条大鱼"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "Josh stepped into a pocket of quicksand; firefighters Jake and Lenny pulled him and Dink out with a ladder.",
         "zh": "乔希踩进了一处流沙；消防员杰克和伦尼用梯子把他和丁克拉了出来。"
@@ -149,12 +245,24 @@
         "zh": "消防员是怎么把吉普车（和鸭子储蓄罐）从流沙里弄出来的？"
       },
       "options": [
-        {"en": "They dove in and lifted it by hand", "zh": "他们潜下去用手抬"},
-        {"en": "They used a rescue truck's cable and hook to pull it out", "zh": "他们用救援卡车的钢缆和钩子把它拉出来"},
-        {"en": "They used a forklift from the supermarket", "zh": "他们用了超市的叉车"},
-        {"en": "They just waited for it to float up", "zh": "他们只是等它自己浮上来"}
+        {
+          "en": "They used a forklift from the supermarket according to some versions of the story",
+          "zh": "他们用了超市的叉车（按书中另一种说法）"
+        },
+        {
+          "en": "They dove in and lifted it by hand",
+          "zh": "他们潜下去用手抬"
+        },
+        {
+          "en": "They just waited for it to float up",
+          "zh": "他们只是等它自己浮上来"
+        },
+        {
+          "en": "They used a rescue truck's cable and hook to pull it out",
+          "zh": "他们用救援卡车的钢缆和钩子把它拉出来"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Lenny swam out, hooked the jeep's bumper, and Jake used the rescue truck's winch to haul it onto the riverbank.",
         "zh": "伦尼游过去钩住吉普车的保险杠，杰克用救援卡车的绞盘把它拖上了河岸。"
@@ -166,10 +274,22 @@
         "zh": "贼是谁，又是怎么被抓住的？"
       },
       "options": [
-        {"en": "Martin Fleece, a supermarket worker; the apron name tag and jeep papers led Officer Fallon to him", "zh": "超市员工马丁·弗利斯；围裙上的名牌和吉普车证件让法伦警官找到了他"},
-        {"en": "Mr. Robb the store manager", "zh": "店长罗布先生"},
-        {"en": "Mr. Pocket the dog walker", "zh": "遛狗的波基特先生"},
-        {"en": "Jake the firefighter", "zh": "消防员杰克"}
+        {
+          "en": "Martin Fleece, a supermarket worker; the apron name tag and jeep papers led Officer Fallon to him",
+          "zh": "超市员工马丁·弗利斯；围裙上的名牌和吉普车证件让法伦警官找到了他"
+        },
+        {
+          "en": "Mr. Robb the store manager",
+          "zh": "店长罗布先生"
+        },
+        {
+          "en": "Mr. Pocket the dog walker according to some versions of the story in an early draft of the book as mentioned in a later chapter",
+          "zh": "遛狗的波基特先生（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+        },
+        {
+          "en": "Jake the firefighter",
+          "zh": "消防员杰克"
+        }
       ],
       "answer": 0,
       "explain": {

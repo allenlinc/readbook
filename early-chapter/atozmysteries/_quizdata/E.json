@@ -13,12 +13,24 @@
         "zh": "故事一开始，是谁收到了那些神秘的深蓝色信封？"
       },
       "options": [
-        { "en": "Dink (Donald Duncan)", "zh": "丁克（唐纳德·邓肯）" },
-        { "en": "Josh", "zh": "乔什" },
-        { "en": "Ruth Rose", "zh": "露丝·罗丝" },
-        { "en": "Nate", "zh": "奈特" }
+        {
+          "en": "Josh",
+          "zh": "乔什"
+        },
+        {
+          "en": "Nate",
+          "zh": "奈特"
+        },
+        {
+          "en": "Dink (Donald Duncan)",
+          "zh": "丁克（唐纳德·邓肯）"
+        },
+        {
+          "en": "Ruth Rose according to some versions of the story",
+          "zh": "露丝·罗丝（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Dink finds five blue envelopes in his mailbox, addressed to D. Duncan.",
         "zh": "丁克在自家信箱里发现了五个深蓝色信封，收件人写的是 D. 邓肯。"
@@ -30,10 +42,22 @@
         "zh": "什么线索表明是奈特从丁克家的厨房拿走了信封？"
       },
       "options": [
-        { "en": "Purple grape jam fingerprints", "zh": "紫色的葡萄果酱指纹" },
-        { "en": "A dinosaur toy left behind", "zh": "留下的一只恐龙玩具" },
-        { "en": "A note in Nate's handwriting", "zh": "一张奈特手写的纸条" },
-        { "en": "Muddy shoe prints", "zh": "泥泞的鞋印" }
+        {
+          "en": "Purple grape jam fingerprints",
+          "zh": "紫色的葡萄果酱指纹"
+        },
+        {
+          "en": "A dinosaur toy left behind",
+          "zh": "留下的一只恐龙玩具"
+        },
+        {
+          "en": "A note in Nate's handwriting according to some versions of the story",
+          "zh": "一张奈特手写的纸条（按书中另一种说法）"
+        },
+        {
+          "en": "Muddy shoe prints",
+          "zh": "泥泞的鞋印"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -47,12 +71,24 @@
         "zh": "奈特把那些深蓝色信封藏在哪里了？"
       },
       "options": [
-        { "en": "In the refrigerator with his stuffed dinosaur Steggy", "zh": "藏在冰箱里，和他那只名叫斯特吉的毛绒恐龙在一起" },
-        { "en": "Under his bed", "zh": "藏在床底下" },
-        { "en": "In the mailbox", "zh": "藏在信箱里" },
-        { "en": "Behind the TV", "zh": "藏在电视机后面" }
+        {
+          "en": "Under his bed",
+          "zh": "藏在床底下"
+        },
+        {
+          "en": "In the mailbox",
+          "zh": "藏在信箱里"
+        },
+        {
+          "en": "Behind the TV according to some versions of the story in an early draft of the book",
+          "zh": "藏在电视机后面（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "In the refrigerator with his stuffed dinosaur Steggy",
+          "zh": "藏在冰箱里，和他那只名叫斯特吉的毛绒恐龙在一起"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Nate's stuffed stegosaurus 'Steggy' was holding the five envelopes inside the fridge.",
         "zh": "奈特的毛绒剑龙‘斯特吉’在冰箱里叼着那五个信封。"
@@ -64,12 +100,24 @@
         "zh": "信纸上那些小小的针孔拼出了什么秘密信息？"
       },
       "options": [
-        { "en": "Jenny hidden on fifth envelope", "zh": "Jenny hidden on fifth envelope（珍妮藏在第五个信封上）" },
-        { "en": "Mother loves Doris always", "zh": "Mother loves Doris always（妈妈永远爱多丽丝）" },
-        { "en": "Follow the green car", "zh": "Follow the green car（跟着绿色的车）" },
-        { "en": "Money is in the bank", "zh": "Money is in the bank（钱在银行里）" }
+        {
+          "en": "Mother loves Doris always according to some versions of the story",
+          "zh": "Mother loves Doris always（妈妈永远爱多丽丝）（按书中另一种说法）"
+        },
+        {
+          "en": "Jenny hidden on fifth envelope",
+          "zh": "Jenny hidden on fifth envelope（珍妮藏在第五个信封上）"
+        },
+        {
+          "en": "Follow the green car",
+          "zh": "Follow the green car（跟着绿色的车）"
+        },
+        {
+          "en": "Money is in the bank",
+          "zh": "Money is in the bank（钱在银行里）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "The holes went through the letters J, H, D, O, F, E and the word 'envelope,' reading 'Jenny hidden on fifth envelope.'",
         "zh": "针孔穿过 J、H、D、O、F、E 以及‘envelope’（信封）这个词，连起来就是‘珍妮藏在第五个信封上’。"
@@ -81,12 +129,24 @@
         "zh": "在第五个（空的）信封上，向日葵邮票下面藏着什么值钱的东西？"
       },
       "options": [
-        { "en": "A rare upside-down airplane stamp worth $50,000", "zh": "一张印反了的稀有飞机邮票，价值五万美元" },
-        { "en": "A gold coin", "zh": "一枚金币" },
-        { "en": "A diamond ring", "zh": "一枚钻戒" },
-        { "en": "A winning lottery ticket", "zh": "一张中奖的彩票" }
+        {
+          "en": "A winning lottery ticket according to some versions of the story",
+          "zh": "一张中奖的彩票（按书中另一种说法）"
+        },
+        {
+          "en": "A diamond ring",
+          "zh": "一枚钻戒"
+        },
+        {
+          "en": "A gold coin",
+          "zh": "一枚金币"
+        },
+        {
+          "en": "A rare upside-down airplane stamp worth $50,000",
+          "zh": "一张印反了的稀有飞机邮票，价值五万美元"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "It was a Curtis Jenny 'invert' stamp showing an airplane printed upside down, worth $50,000.",
         "zh": "那是一张‘柯蒂斯·珍妮’错体邮票，飞机图案印反了，价值五万美元。"
@@ -98,10 +158,22 @@
         "zh": "孩子们是怎么把向日葵邮票从信封上取下来，看清下面的东西的？"
       },
       "options": [
-        { "en": "They steamed them off with a kettle", "zh": "他们用烧水壶的蒸汽把邮票熏下来" },
-        { "en": "They peeled them off with glue", "zh": "他们用胶水把邮票揭下来" },
-        { "en": "They washed them off in the sink", "zh": "他们在水槽里把它们洗下来" },
-        { "en": "They cut the envelope open", "zh": "他们把信封剪开" }
+        {
+          "en": "They steamed them off with a kettle",
+          "zh": "他们用烧水壶的蒸汽把邮票熏下来"
+        },
+        {
+          "en": "They cut the envelope open",
+          "zh": "他们把信封剪开"
+        },
+        {
+          "en": "They peeled them off with glue",
+          "zh": "他们用胶水把邮票揭下来"
+        },
+        {
+          "en": "They washed them off in the sink according to some versions of the story",
+          "zh": "他们在水槽里把它们洗下来（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -115,12 +187,24 @@
         "zh": "根据报纸上的报道，那张稀有邮票是谁失窃的？"
       },
       "options": [
-        { "en": "Clementine Painter, who found it in her vacuum cleaner", "zh": "克莱门汀·佩因特，她在吸尘器里发现了这张邮票" },
-        { "en": "Dink's mother", "zh": "丁克的妈妈" },
-        { "en": "The library", "zh": "图书馆" },
-        { "en": "Officer Fallon", "zh": "法伦警官" }
+        {
+          "en": "Dink's mother according to some versions of the story in an early draft of the book",
+          "zh": "丁克的妈妈（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Clementine Painter, who found it in her vacuum cleaner",
+          "zh": "克莱门汀·佩因特，她在吸尘器里发现了这张邮票"
+        },
+        {
+          "en": "Officer Fallon",
+          "zh": "法伦警官"
+        },
+        {
+          "en": "The library",
+          "zh": "图书馆"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Miss Clementine Painter, 73, found the stamp in her vacuum cleaner dust, then it was stolen.",
         "zh": "73岁的克莱门汀·佩因特女士在吸尘器的灰尘里发现了这张邮票，后来它被偷走了。"
@@ -132,12 +216,24 @@
         "zh": "为什么这些信最后送到了康涅狄格州，而不是科罗拉多州？"
       },
       "options": [
-        { "en": "Otto Bird wrote the wrong zip code because he had broken his glasses", "zh": "奥托·伯德眼镜摔坏了，写错了邮编" },
-        { "en": "Dink gave the wrong address", "zh": "丁克给了错误的地址" },
-        { "en": "The post office made a mistake", "zh": "邮局弄错了" },
-        { "en": "Ruth Rose changed the address", "zh": "露丝·罗丝改了地址" }
+        {
+          "en": "The post office made a mistake",
+          "zh": "邮局弄错了"
+        },
+        {
+          "en": "Ruth Rose changed the address according to some versions of the story",
+          "zh": "露丝·罗丝改了地址（按书中另一种说法）"
+        },
+        {
+          "en": "Otto Bird wrote the wrong zip code because he had broken his glasses",
+          "zh": "奥托·伯德眼镜摔坏了，写错了邮编"
+        },
+        {
+          "en": "Dink gave the wrong address",
+          "zh": "丁克给了错误的地址"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Otto Bird broke his glasses and copied the zip code for Green Lawn, Connecticut instead of Colorado.",
         "zh": "奥托·伯德眼镜摔坏了，把科罗拉多州格林劳恩的邮编写成了康涅狄格州格林劳恩的邮编。"
@@ -149,12 +245,24 @@
         "zh": "露丝·罗丝是怎么帮助抓住小偷的？"
       },
       "options": [
-        { "en": "She pretended to be a crook and set up a meeting at the library", "zh": "她假装成小偷，约对方在图书馆见面" },
-        { "en": "She called the newspaper", "zh": "她打电话给报社" },
-        { "en": "She hid in the barn", "zh": "她藏在谷仓里" },
-        { "en": "She ran to the hotel", "zh": "她跑到酒店去" }
+        {
+          "en": "She ran to the hotel",
+          "zh": "她跑到酒店去"
+        },
+        {
+          "en": "She pretended to be a crook and set up a meeting at the library",
+          "zh": "她假装成小偷，约对方在图书馆见面"
+        },
+        {
+          "en": "She hid in the barn",
+          "zh": "她藏在谷仓里"
+        },
+        {
+          "en": "She called the newspaper according to some versions of the story",
+          "zh": "她打电话给报社（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Ruth Rose phoned Doris pretending to sell the stamp, luring Doris and Otto to the library where Officer Fallon waited.",
         "zh": "露丝·罗丝打电话给多丽丝，假装要卖邮票，把多丽丝和奥托引到图书馆，法伦警官在那里守候。"
@@ -166,10 +274,22 @@
         "zh": "那个穿着绿色西装、打着紫色领带、跟踪孩子们的矮个子男人是谁？"
       },
       "options": [
-        { "en": "Otto Bird, Doris's partner in the theft", "zh": "奥托·伯德，多丽丝偷邮票的同伙" },
-        { "en": "Officer Fallon", "zh": "法伦警官" },
-        { "en": "Dink's father", "zh": "丁克的爸爸" },
-        { "en": "The mail carrier Ruby", "zh": "邮差鲁比" }
+        {
+          "en": "Otto Bird, Doris's partner in the theft",
+          "zh": "奥托·伯德，多丽丝偷邮票的同伙"
+        },
+        {
+          "en": "Dink's father",
+          "zh": "丁克的爸爸"
+        },
+        {
+          "en": "The mail carrier Ruby according to some versions of the story",
+          "zh": "邮差鲁比（按书中另一种说法）"
+        },
+        {
+          "en": "Officer Fallon",
+          "zh": "法伦警官"
+        }
       ],
       "answer": 0,
       "explain": {

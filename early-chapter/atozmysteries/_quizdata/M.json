@@ -13,12 +13,24 @@
         "zh": "在博物馆的「木乃伊星期一」活动中，是谁偷走了小孩木乃伊？"
       },
       "options": [
-        { "en": "A woman with long blond hair wearing a baggy dress", "zh": "一个留着金色长发、穿着宽松连衣裙的女人" },
-        { "en": "Dr. Harris Tweed", "zh": "Harris Tweed 博士" },
-        { "en": "Officer Washington", "zh": "Washington 警官" },
-        { "en": "Aunt Freda", "zh": "Freda 阿姨" }
+        {
+          "en": "Officer Washington according to some versions of the story",
+          "zh": "Washington 警官（按书中另一种说法）"
+        },
+        {
+          "en": "Aunt Freda",
+          "zh": "Freda 阿姨"
+        },
+        {
+          "en": "Dr. Harris Tweed",
+          "zh": "Harris Tweed 博士"
+        },
+        {
+          "en": "A woman with long blond hair wearing a baggy dress",
+          "zh": "一个留着金色长发、穿着宽松连衣裙的女人"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "A woman with long blond hair and a baggy dress snatched the child mummy and raced out of the tomb.",
         "zh": "一个留着金色长发、穿着宽松连衣裙的女人抢走小孩木乃伊，冲出了墓室。"
@@ -30,10 +42,22 @@
         "zh": "Ruth Rose 在哪里找到了失踪的木乃伊？"
       },
       "options": [
-        { "en": "On a bench in the museum lobby", "zh": "在博物馆大厅的长椅上" },
-        { "en": "On the baby-changing table in the ladies' room", "zh": "在女士洗手间里的婴儿换尿布台上" },
-        { "en": "Inside the treasure chamber", "zh": "在宝藏室里" },
-        { "en": "In Dr. Tweed's office", "zh": "在 Tweed 博士的办公室里" }
+        {
+          "en": "In Dr. Tweed's office",
+          "zh": "在 Tweed 博士的办公室里"
+        },
+        {
+          "en": "On the baby-changing table in the ladies' room",
+          "zh": "在女士洗手间里的婴儿换尿布台上"
+        },
+        {
+          "en": "On a bench in the museum lobby according to some versions of the story",
+          "zh": "在博物馆大厅的长椅上（按书中另一种说法）"
+        },
+        {
+          "en": "Inside the treasure chamber",
+          "zh": "在宝藏室里"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -47,12 +71,24 @@
         "zh": "Dink、Josh 和 Ruth Rose 是怎么被锁在墓室里的？"
       },
       "options": [
-        { "en": "The thief locks them in from outside", "zh": "小偷从外面把他们锁了进去" },
-        { "en": "They fall asleep and the door closes by itself", "zh": "他们睡着了，门自己关上了" },
-        { "en": "Josh touches a glass case, setting off an alarm and the door slides shut", "zh": "Josh 碰了玻璃柜，触发警报，石门随之关闭" },
-        { "en": "Dr. Tweed locks them in on purpose", "zh": "Tweed 博士故意把他们锁在里面" }
+        {
+          "en": "Josh touches a glass case, setting off an alarm and the door slides shut",
+          "zh": "Josh 碰了玻璃柜，触发警报，石门随之关闭"
+        },
+        {
+          "en": "Dr. Tweed locks them in on purpose",
+          "zh": "Tweed 博士故意把他们锁在里面"
+        },
+        {
+          "en": "The thief locks them in from outside",
+          "zh": "小偷从外面把他们锁了进去"
+        },
+        {
+          "en": "They fall asleep and the door closes by itself according to some versions of the story",
+          "zh": "他们睡着了，门自己关上了（按书中另一种说法）"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "After the mummy was found, the door closed on its own; Josh had touched a glass display case, which may have triggered it.",
         "zh": "木乃伊被找到后，墓门自动关上了；Josh 之前碰过玻璃展示柜，可能触发了机关。"
@@ -64,12 +100,24 @@
         "zh": "墓室里一声巨响的炸弹爆炸后，发生了什么？"
       },
       "options": [
-        { "en": "Two thieves in dark clothes steal the gold from the treasure chamber", "zh": "两个穿黑衣的小偷从宝藏室偷走了黄金" },
-        { "en": "The mummies come to life", "zh": "木乃伊复活了" },
-        { "en": "The police rescue the kids", "zh": "警察救出了孩子们" },
-        { "en": "Dr. Tweed returns the mummy", "zh": "Tweed 博士归还了木乃伊" }
+        {
+          "en": "Dr. Tweed returns the mummy according to some versions of the story",
+          "zh": "Tweed 博士归还了木乃伊（按书中另一种说法）"
+        },
+        {
+          "en": "The police rescue the kids",
+          "zh": "警察救出了孩子们"
+        },
+        {
+          "en": "Two thieves in dark clothes steal the gold from the treasure chamber",
+          "zh": "两个穿黑衣的小偷从宝藏室偷走了黄金"
+        },
+        {
+          "en": "The mummies come to life",
+          "zh": "木乃伊复活了"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Two dark-clothed figures broke the glass cases and filled their bags with the Egyptian gold before escaping through the wall.",
         "zh": "两个黑衣人砸碎玻璃柜，把埃及黄金装进袋子，然后从墙洞逃走。"
@@ -81,12 +129,24 @@
         "zh": "Josh 闻到的哪种气味帮助破解了谜案？"
       },
       "options": [
-        { "en": "Pizza", "zh": "披萨" },
-        { "en": "French fries", "zh": "炸薯条" },
-        { "en": "Popcorn", "zh": "爆米花" },
-        { "en": "Chocolate", "zh": "巧克力" }
+        {
+          "en": "French fries",
+          "zh": "炸薯条"
+        },
+        {
+          "en": "Chocolate according to some versions of the story",
+          "zh": "巧克力（按书中另一种说法）"
+        },
+        {
+          "en": "Popcorn",
+          "zh": "爆米花"
+        },
+        {
+          "en": "Pizza",
+          "zh": "披萨"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Josh remembered smelling French fries in the closet, which led the kids to Aunt Freda's Fabulous Fries across the street.",
         "zh": "Josh 想起在储物间里闻到炸薯条的味道，这把孩子们引到了街对面 Freda 阿姨的炸薯条店。"
@@ -98,12 +158,24 @@
         "zh": "Josh 在 Freda 阿姨的厨房地板上发现了什么小线索？"
       },
       "options": [
-        { "en": "A gold coin", "zh": "一枚金币" },
-        { "en": "A pebble that matches the tomb's gravel", "zh": "一颗与墓室砂砾相同的鹅卵石" },
-        { "en": "A child's toy", "zh": "一个孩子的玩具" },
-        { "en": "A blond wig", "zh": "一顶金色假发" }
+        {
+          "en": "A blond wig",
+          "zh": "一顶金色假发"
+        },
+        {
+          "en": "A gold coin",
+          "zh": "一枚金币"
+        },
+        {
+          "en": "A pebble that matches the tomb's gravel",
+          "zh": "一颗与墓室砂砾相同的鹅卵石"
+        },
+        {
+          "en": "A child's toy according to some versions of the story",
+          "zh": "一个孩子的玩具（按书中另一种说法）"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Josh found a pebble in the restaurant that matched the gravel on the tomb floor, showing a thief had walked there.",
         "zh": "Josh 在餐厅发现一颗鹅卵石，与墓室地上的砂砾一样，说明小偷曾从墓室走到那里。"
@@ -115,12 +187,24 @@
         "zh": "小偷把偷来的黄金藏在了哪里？"
       },
       "options": [
-        { "en": "In the goldfish pond", "zh": "在金鱼池里" },
-        { "en": "In Aunt Freda's freezer", "zh": "在 Freda 阿姨的冰箱里" },
-        { "en": "Inside the child's empty sarcophagus (the small coffin)", "zh": "在小孩的空石棺（小棺材）里" },
-        { "en": "In the bank vault", "zh": "在银行的金库里" }
+        {
+          "en": "In the bank vault",
+          "zh": "在银行的金库里"
+        },
+        {
+          "en": "Inside the child's empty sarcophagus (the small coffin)",
+          "zh": "在小孩的空石棺（小棺材）里"
+        },
+        {
+          "en": "In Aunt Freda's freezer according to some versions of the story",
+          "zh": "在 Freda 阿姨的冰箱里（按书中另一种说法）"
+        },
+        {
+          "en": "In the goldfish pond",
+          "zh": "在金鱼池里"
+        }
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": {
         "en": "The robbers had no car and the gold was too heavy to carry far, so they hid it inside the child's empty sarcophagus.",
         "zh": "小偷没有车，黄金又太重搬不远，于是把它藏进了小孩的空石棺里。"
@@ -132,12 +216,24 @@
         "zh": "Dink 是怎么推断出黄金藏在小棺材里的？"
       },
       "options": [
-        { "en": "He saw the thieves carry it there", "zh": "他看见小偷把它搬到了那里" },
-        { "en": "He noticed the little coffin's lid was closed after the blast but open before", "zh": "他注意到爆炸后小棺材盖是关着的，而之前是开着的" },
-        { "en": "Ruth Rose told him", "zh": "是 Ruth Rose 告诉他的" },
-        { "en": "Dr. Tweed confessed", "zh": "是 Tweed 博士供认的" }
+        {
+          "en": "He saw the thieves carry it there according to some versions of the story in an early draft of the book",
+          "zh": "他看见小偷把它搬到了那里（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "Ruth Rose told him",
+          "zh": "是 Ruth Rose 告诉他的"
+        },
+        {
+          "en": "Dr. Tweed confessed",
+          "zh": "是 Tweed 博士供认的"
+        },
+        {
+          "en": "He noticed the little coffin's lid was closed after the blast but open before",
+          "zh": "他注意到爆炸后小棺材盖是关着的，而之前是开着的"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Dink dreamt of the tomb and recalled the child's coffin lid was open before the blast but closed afterwards — someone had closed it to hide the gold.",
         "zh": "Dink 梦见墓室，想起小棺材盖在爆炸前是开着的、爆炸后却关上了——有人把它关上是为了藏黄金。"
@@ -149,12 +245,24 @@
         "zh": "是谁一起策划了博物馆抢劫案？"
       },
       "options": [
-        { "en": "Dr. Tweed and the short-haired woman at Aunt Freda's restaurant", "zh": "Tweed 博士和 Freda 阿姨餐厅里那个短发女人" },
-        { "en": "The two police officers", "zh": "两名警察" },
-        { "en": "Aunt Freda and Josh's dad", "zh": "Freda 阿姨和 Josh 的爸爸" },
-        { "en": "Ruth Rose's parents", "zh": "Ruth Rose 的父母" }
+        {
+          "en": "Aunt Freda and Josh's dad according to some versions of the story",
+          "zh": "Freda 阿姨和 Josh 的爸爸（按书中另一种说法）"
+        },
+        {
+          "en": "Dr. Tweed and the short-haired woman at Aunt Freda's restaurant",
+          "zh": "Tweed 博士和 Freda 阿姨餐厅里那个短发女人"
+        },
+        {
+          "en": "Ruth Rose's parents",
+          "zh": "Ruth Rose 的父母"
+        },
+        {
+          "en": "The two police officers",
+          "zh": "两名警察"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Dr. Tweed and the short-haired woman who worked at Aunt Freda's planned the theft together; she had the gym bag and smelled of fries.",
         "zh": "Tweed 博士和 Freda 阿姨店里那个短发女人合谋；她拿着运动包，身上有炸薯条味。"
@@ -166,12 +274,24 @@
         "zh": "Tweed 博士最终是怎么被抓住的？"
       },
       "options": [
-        { "en": "He is arrested at the airport", "zh": "他在机场被捕" },
-        { "en": "He jumps through the wall hole and falls into the goldfish pond", "zh": "他跳墙洞逃跑，掉进了金鱼池" },
-        { "en": "He gives up and turns himself in", "zh": "他自首了" },
-        { "en": "The kids tackle him", "zh": "孩子们扑倒了他" }
+        {
+          "en": "He jumps through the wall hole and falls into the goldfish pond",
+          "zh": "他跳墙洞逃跑，掉进了金鱼池"
+        },
+        {
+          "en": "He gives up and turns himself in according to some versions of the story",
+          "zh": "他自首了（按书中另一种说法）"
+        },
+        {
+          "en": "The kids tackle him",
+          "zh": "孩子们扑倒了他"
+        },
+        {
+          "en": "He is arrested at the airport",
+          "zh": "他在机场被捕"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Cornered in the tomb, Dr. Tweed leaped through the blasted wall hole but tripped and plunged into the goldfish pond, where police caught him.",
         "zh": "Tweed 博士在墓室里被堵住，跳墙洞逃跑却绊倒掉进金鱼池，被警察抓获。"

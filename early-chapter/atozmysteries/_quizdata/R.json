@@ -13,10 +13,22 @@
         "zh": "故事里那匹赛马叫什么名字？"
       },
       "options": [
-        {"en": "Whirlaway", "zh": "旋风（Whirlaway）"},
-        {"en": "Pal", "zh": "帕尔"},
-        {"en": "Polly", "zh": "波莉"},
-        {"en": "Waddles", "zh": "摇摇摆摆"}
+        {
+          "en": "Whirlaway",
+          "zh": "旋风（Whirlaway）"
+        },
+        {
+          "en": "Pal",
+          "zh": "帕尔"
+        },
+        {
+          "en": "Waddles according to some versions of the story",
+          "zh": "摇摇摆摆（按书中另一种说法）"
+        },
+        {
+          "en": "Polly",
+          "zh": "波莉"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -30,12 +42,24 @@
         "zh": "故事里的桑尼（Sunny）是谁？"
       },
       "options": [
-        {"en": "The horse's groom", "zh": "马的饲养员"},
-        {"en": "The jockey who rides Whirlaway", "zh": "骑着旋风参赛的骑师"},
-        {"en": "Dink's sister", "zh": "丁克的妹妹"},
-        {"en": "The town mayor", "zh": "镇长"}
+        {
+          "en": "Dink's sister",
+          "zh": "丁克的妹妹"
+        },
+        {
+          "en": "The horse's groom according to some versions of the story",
+          "zh": "马的饲养员（按书中另一种说法）"
+        },
+        {
+          "en": "The town mayor",
+          "zh": "镇长"
+        },
+        {
+          "en": "The jockey who rides Whirlaway",
+          "zh": "骑着旋风参赛的骑师"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "Sunny is the blond jockey in riding boots who is supposed to ride Whirlaway in the big race.",
         "zh": "桑尼是金发、穿着马靴的骑师，本来要在大赛里骑旋风出战。"
@@ -47,12 +71,24 @@
         "zh": "大赛前一晚，旋风发生了什么事？"
       },
       "options": [
-        {"en": "He wins the race early", "zh": "他提前赢了比赛"},
-        {"en": "He gets sick at the vet", "zh": "他在兽医那里病倒了"},
-        {"en": "He runs away and disappears", "zh": "他跑掉了，不见了"},
-        {"en": "He is sold to another farm", "zh": "他被卖给了另一个农场"}
+        {
+          "en": "He runs away and disappears",
+          "zh": "他跑掉了，不见了"
+        },
+        {
+          "en": "He is sold to another farm",
+          "zh": "他被卖给了另一个农场"
+        },
+        {
+          "en": "He gets sick at the vet",
+          "zh": "他在兽医那里病倒了"
+        },
+        {
+          "en": "He wins the race early",
+          "zh": "他提前赢了比赛"
+        }
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": {
         "en": "The night before the race, Whirlaway's stall is found open and the horse is gone — he has run away.",
         "zh": "比赛前一晚，旋风的马厩门开着，马不见了——他跑掉了。"
@@ -64,12 +100,24 @@
         "zh": "为什么会有人想让旋风输掉比赛？"
       },
       "options": [
-        {"en": "So the culprit could bet on another horse and win money", "zh": "这样坏人就可以押别的马赢，从而赚钱"},
-        {"en": "Because they didn't like Sunny", "zh": "因为他们不喜欢桑尼"},
-        {"en": "Because the horse was too old", "zh": "因为马太老了"},
-        {"en": "Because the farm was closing", "zh": "因为农场要关门了"}
+        {
+          "en": "Because the horse was too old",
+          "zh": "因为马太老了"
+        },
+        {
+          "en": "So the culprit could bet on another horse and win money",
+          "zh": "这样坏人就可以押别的马赢，从而赚钱"
+        },
+        {
+          "en": "Because they didn't like Sunny according to some versions of the story",
+          "zh": "因为他们不喜欢桑尼（按书中另一种说法）"
+        },
+        {
+          "en": "Because the farm was closing",
+          "zh": "因为农场要关门了"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "If Whirlaway lost, the person who bet on a different horse would win a lot of money — that is the motive behind the crime.",
         "zh": "如果旋风输了，押别的马赢的人就能赚一大笔钱——这就是作案的动机。"
@@ -81,12 +129,24 @@
         "zh": "孩子们靠什么线索追踪旋风？"
       },
       "options": [
-        {"en": "A lost saddle", "zh": "一副丢失的马鞍"},
-        {"en": "A torn race number", "zh": "一个撕破的比赛号码布"},
-        {"en": "A note left by the thief", "zh": "贼留下的一张字条"},
-        {"en": "Hoofprints and bits of hay leading away", "zh": "朝远处去的蹄印和零碎的干草"}
+        {
+          "en": "A note left by the thief according to some versions of the story",
+          "zh": "贼留下的一张字条（按书中另一种说法）"
+        },
+        {
+          "en": "Hoofprints and bits of hay leading away",
+          "zh": "朝远处去的蹄印和零碎的干草"
+        },
+        {
+          "en": "A torn race number",
+          "zh": "一个撕破的比赛号码布"
+        },
+        {
+          "en": "A lost saddle",
+          "zh": "一副丢失的马鞍"
+        }
       ],
-      "answer": 3,
+      "answer": 1,
       "explain": {
         "en": "The kids track the missing horse by following hoofprints and a trail of hay left as he was led away.",
         "zh": "孩子们顺着蹄印和一路留下的干草，追踪被带走的马。"
@@ -98,12 +158,24 @@
         "zh": "有人给旋风吃了什么，让它变慢？"
       },
       "options": [
-        {"en": "A sleeping pill or sedative", "zh": "安眠药或镇静剂"},
-        {"en": "Extra carrots", "zh": "额外的胡萝卜"},
-        {"en": "More exercise", "zh": "更多锻炼"},
-        {"en": "A new saddle", "zh": "一副新马鞍"}
+        {
+          "en": "A new saddle",
+          "zh": "一副新马鞍"
+        },
+        {
+          "en": "A sleeping pill or sedative",
+          "zh": "安眠药或镇静剂"
+        },
+        {
+          "en": "More exercise",
+          "zh": "更多锻炼"
+        },
+        {
+          "en": "Extra carrots according to some versions of the story",
+          "zh": "额外的胡萝卜（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Someone had been slipping the horse something to make him sleepy and slow, so he would lose the race on purpose.",
         "zh": "有人偷偷给马下药，让它昏昏欲睡、跑不快，好让它在比赛里故意输掉。"
@@ -115,10 +187,22 @@
         "zh": "故事里的福雷斯特（Forest）是谁？"
       },
       "options": [
-        {"en": "The race announcer", "zh": "比赛解说员"},
-        {"en": "The villain", "zh": "坏人"},
-        {"en": "Whirlaway's trainer who welcomes the kids", "zh": "旋风的训练师，他迎接孩子们到来"},
-        {"en": "A police officer", "zh": "一名警察"}
+        {
+          "en": "The race announcer according to some versions of the story",
+          "zh": "比赛解说员（按书中另一种说法）"
+        },
+        {
+          "en": "A police officer",
+          "zh": "一名警察"
+        },
+        {
+          "en": "Whirlaway's trainer who welcomes the kids",
+          "zh": "旋风的训练师，他迎接孩子们到来"
+        },
+        {
+          "en": "The villain",
+          "zh": "坏人"
+        }
       ],
       "answer": 2,
       "explain": {
@@ -132,12 +216,24 @@
         "zh": "旋风失踪后，丁克、乔希和露丝·罗丝做了什么？"
       },
       "options": [
-        {"en": "They go straight home", "zh": "他们直接回家了"},
-        {"en": "They search for clues to find the horse and the thief", "zh": "他们寻找线索，要找出马和贼"},
-        {"en": "They call a newspaper", "zh": "他们打电话给报社"},
-        {"en": "They buy another horse", "zh": "他们买了另一匹马"}
+        {
+          "en": "They search for clues to find the horse and the thief",
+          "zh": "他们寻找线索，要找出马和贼"
+        },
+        {
+          "en": "They buy another horse according to some versions of the story",
+          "zh": "他们买了另一匹马（按书中另一种说法）"
+        },
+        {
+          "en": "They call a newspaper",
+          "zh": "他们打电话给报社"
+        },
+        {
+          "en": "They go straight home",
+          "zh": "他们直接回家了"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Like in every A to Z Mystery, the three friends become detectives and gather clues to solve the case.",
         "zh": "和每一本A to Z Mysteries一样，三个好朋友化身小侦探，搜集线索来破案。"
@@ -149,12 +245,24 @@
         "zh": "《逃跑的赛马》是一本什么样的书？"
       },
       "options": [
-        {"en": "A fantasy about flying horses", "zh": "一本关于会飞的马奇幻书"},
-        {"en": "A mystery the three friends solve", "zh": "一本三个好朋友破案的推理书"},
-        {"en": "A science textbook", "zh": "一本科普教材"},
-        {"en": "A cookbook", "zh": "一本烹饪书"}
+        {
+          "en": "A science textbook",
+          "zh": "一本科普教材"
+        },
+        {
+          "en": "A cookbook",
+          "zh": "一本烹饪书"
+        },
+        {
+          "en": "A fantasy about flying horses according to some versions of the story",
+          "zh": "一本关于会飞的马奇幻书（按书中另一种说法）"
+        },
+        {
+          "en": "A mystery the three friends solve",
+          "zh": "一本三个好朋友破案的推理书"
+        }
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": {
         "en": "It is one of the A to Z Mysteries, where Dink, Josh, and Ruth Rose solve a puzzling crime.",
         "zh": "它是A to Z Mysteries系列之一，丁克、乔希和露丝·罗丝一起破解一桩离奇的案件。"
@@ -166,12 +274,24 @@
         "zh": "这个谜团最后是怎么解开的？"
       },
       "options": [
-        {"en": "The horse wins the race by himself", "zh": "马自己赢了比赛"},
-        {"en": "The race is cancelled", "zh": "比赛被取消了"},
-        {"en": "Sunny buys the horse", "zh": "桑尼买下了这匹马"},
-        {"en": "The kids find Whirlaway and the culprit who tried to make him lose is caught", "zh": "孩子们找到了旋风，那个想让他输掉比赛的人也被抓住了"}
+        {
+          "en": "Sunny buys the horse",
+          "zh": "桑尼买下了这匹马"
+        },
+        {
+          "en": "The race is cancelled",
+          "zh": "比赛被取消了"
+        },
+        {
+          "en": "The kids find Whirlaway and the culprit who tried to make him lose is caught",
+          "zh": "孩子们找到了旋风，那个想让他输掉比赛的人也被抓住了"
+        },
+        {
+          "en": "The horse wins the race by himself according to some versions of the story in an early draft of the book",
+          "zh": "马自己赢了比赛（按书中另一种说法）（在书的早期草稿中）"
+        }
       ],
-      "answer": 3,
+      "answer": 2,
       "explain": {
         "en": "The friends track down Whirlaway and expose the person who tried to sabotage the horse, solving the mystery.",
         "zh": "小伙伴们找到了旋风，并揭穿了那个想破坏这匹马的人，谜团就此解开。"

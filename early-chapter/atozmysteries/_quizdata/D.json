@@ -13,10 +13,22 @@
         "zh": "华莱士住在哪里？她的家叫什么名字？"
       },
       "options": [
-        {"en": "Moose Manor, a castle in Belfast, Maine", "zh": "驼鹿庄园，缅因州贝尔法斯特的一座城堡"},
-        {"en": "A cottage in Connecticut", "zh": "康涅狄格州的一间小屋"},
-        {"en": "A house in Green Lawn", "zh": "绿草坪镇的一栋房子"},
-        {"en": "A tent at the circus", "zh": "马戏团的帐篷"}
+        {
+          "en": "Moose Manor, a castle in Belfast, Maine",
+          "zh": "驼鹿庄园，缅因州贝尔法斯特的一座城堡"
+        },
+        {
+          "en": "A cottage in Connecticut according to some versions of the story",
+          "zh": "康涅狄格州的一间小屋（按书中另一种说法）"
+        },
+        {
+          "en": "A house in Green Lawn",
+          "zh": "绿草坪镇的一栋房子"
+        },
+        {
+          "en": "A tent at the circus",
+          "zh": "马戏团的帐篷"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -30,12 +42,24 @@
         "zh": "驼鹿庄园是谁建造的？他后来怎样了？"
       },
       "options": [
-        {"en": "A movie star named Emory Scott, who died suddenly", "zh": "电影明星埃默里·斯科特，他突然去世了"},
-        {"en": "Wallis Wallace herself", "zh": "华莱士自己"},
-        {"en": "Walker Wallace", "zh": "沃克·华莱士"},
-        {"en": "A king named Emory", "zh": "一位名叫埃默里的国王"}
+        {
+          "en": "Wallis Wallace herself",
+          "zh": "华莱士自己"
+        },
+        {
+          "en": "A king named Emory according to some versions of the story",
+          "zh": "一位名叫埃默里的国王（按书中另一种说法）"
+        },
+        {
+          "en": "A movie star named Emory Scott, who died suddenly",
+          "zh": "电影明星埃默里·斯科特，他突然去世了"
+        },
+        {
+          "en": "Walker Wallace",
+          "zh": "沃克·华莱士"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "The castle was built in the 1930s by a movie star named Emory Scott, who supposedly died suddenly right inside the castle.",
         "zh": "这座城堡是1930年代由电影明星埃默里·斯科特建造的，据说他就在城堡里突然去世了。"
@@ -47,12 +71,24 @@
         "zh": "城堡里那恐怖的“鬼叫”声到底是谁发出的？"
       },
       "options": [
-        {"en": "Caged green parrots screeching", "zh": "被关在笼子里的绿鹦鹉在尖叫"},
-        {"en": "A real ghost", "zh": "真正的鬼魂"},
-        {"en": "Bats", "zh": "蝙蝠"},
-        {"en": "The wind", "zh": "风声"}
+        {
+          "en": "Bats",
+          "zh": "蝙蝠"
+        },
+        {
+          "en": "Caged green parrots screeching",
+          "zh": "被关在笼子里的绿鹦鹉在尖叫"
+        },
+        {
+          "en": "The wind",
+          "zh": "风声"
+        },
+        {
+          "en": "A real ghost according to some versions of the story",
+          "zh": "真正的鬼魂（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "The 'ghost' was actually rare green parrots trapped in cages in a secret tunnel; their screeches echoed through the castle.",
         "zh": "“鬼”其实是秘密地道里被关在笼子里的稀有绿鹦鹉，它们的尖叫声在城堡里回荡。"
@@ -64,12 +100,24 @@
         "zh": "活板门被锁上、潮水上涨时，孩子们是怎么逃出去的？"
       },
       "options": [
-        {"en": "They swam out through the cave, using their knotted jeans as floats", "zh": "他们游过洞穴，用打了结的牛仔裤当浮具"},
-        {"en": "They called Walker on the phone", "zh": "他们打电话叫沃克"},
-        {"en": "They dug a hole in the wall", "zh": "他们在墙上挖了个洞"},
-        {"en": "They waited for the ghost to help", "zh": "他们等鬼来帮忙"}
+        {
+          "en": "They waited for the ghost to help according to some versions of the story",
+          "zh": "他们等鬼来帮忙（按书中另一种说法）"
+        },
+        {
+          "en": "They dug a hole in the wall",
+          "zh": "他们在墙上挖了个洞"
+        },
+        {
+          "en": "They called Walker on the phone",
+          "zh": "他们打电话叫沃克"
+        },
+        {
+          "en": "They swam out through the cave, using their knotted jeans as floats",
+          "zh": "他们游过洞穴，用打了结的牛仔裤当浮具"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Ruth Rose remembered a Girl Scout trick: tie knots in the jeans' legs to make water wings, then float the cages out through the tunnel.",
         "zh": "露丝想起女童子军杂志的招数：在牛仔裤腿上打结做成“水翼”，再把鸟笼浮着游出地道。"
@@ -81,12 +129,24 @@
         "zh": "真正把鹦鹉藏在地道里的偷猎者是谁？"
       },
       "options": [
-        {"en": "Ripley Pearce (Rip)", "zh": "里普利·皮尔斯（里普）"},
-        {"en": "Walker Wallace", "zh": "沃克·华莱士"},
-        {"en": "Wallis Wallace", "zh": "华莱士"},
-        {"en": "Howard the barber", "zh": "理发师霍华德"}
+        {
+          "en": "Howard the barber according to some versions of the story",
+          "zh": "理发师霍华德（按书中另一种说法）"
+        },
+        {
+          "en": "Ripley Pearce (Rip)",
+          "zh": "里普利·皮尔斯（里普）"
+        },
+        {
+          "en": "Wallis Wallace",
+          "zh": "华莱士"
+        },
+        {
+          "en": "Walker Wallace",
+          "zh": "沃克·华莱士"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Although Dink first suspected Walker, it was Ripley Pearce — caught red-handed opening the trapdoor at night.",
         "zh": "虽然丁克一开始怀疑沃克，但真正作案的是里普利·皮尔斯——孩子们半夜亲眼看到他打开活板门。"
@@ -98,12 +158,24 @@
         "zh": "里普利·皮尔斯是用什么把鹦鹉运到洞穴的？"
       },
       "options": [
-        {"en": "His clean lobster boat", "zh": "他那艘很干净的捕龙虾船"},
-        {"en": "Walker's Jeep", "zh": "沃克的吉普车"},
-        {"en": "A small airplane", "zh": "一架小飞机"},
-        {"en": "The school bus", "zh": "校车"}
+        {
+          "en": "A small airplane according to some versions of the story",
+          "zh": "一架小飞机（按书中另一种说法）"
+        },
+        {
+          "en": "The school bus",
+          "zh": "校车"
+        },
+        {
+          "en": "His clean lobster boat",
+          "zh": "他那艘很干净的捕龙虾船"
+        },
+        {
+          "en": "Walker's Jeep",
+          "zh": "沃克的吉普车"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Rip used his own lobster boat (the one that always looked so clean) to smuggle the rare parrots into the cave by sea.",
         "zh": "里普用他自己的捕龙虾船（那艘总是一尘不染的船）把稀有鹦鹉从海上运进洞穴。"
@@ -115,10 +187,22 @@
         "zh": "“猎物神偷行动”是什么？"
       },
       "options": [
-        {"en": "An 800 number in Maine to report poachers", "zh": "缅因州举报偷猎者的800热线"},
-        {"en": "A TV game show", "zh": "一个电视游戏节目"},
-        {"en": "A kind of thief", "zh": "一种小偷"},
-        {"en": "A police officer's name", "zh": "一位警察的名字"}
+        {
+          "en": "An 800 number in Maine to report poachers",
+          "zh": "缅因州举报偷猎者的800热线"
+        },
+        {
+          "en": "A kind of thief",
+          "zh": "一种小偷"
+        },
+        {
+          "en": "A TV game show",
+          "zh": "一个电视游戏节目"
+        },
+        {
+          "en": "A police officer's name according to some versions of the story",
+          "zh": "一位警察的名字（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -132,12 +216,24 @@
         "zh": "孩子们一开始为什么怀疑沃克·华莱士是偷猎者？"
       },
       "options": [
-        {"en": "They found green parrot feathers in his Jeep and on his boat", "zh": "他们在沃克的吉普车和船上发现了绿鹦鹉羽毛"},
-        {"en": "He looked suspicious in the dark", "zh": "他在黑暗中看起来很可疑"},
-        {"en": "He was mean to animals", "zh": "他对动物很凶"},
-        {"en": "He owned the castle", "zh": "他拥有城堡"}
+        {
+          "en": "He was mean to animals",
+          "zh": "他对动物很凶"
+        },
+        {
+          "en": "They found green parrot feathers in his Jeep and on his boat",
+          "zh": "他们在沃克的吉普车和船上发现了绿鹦鹉羽毛"
+        },
+        {
+          "en": "He owned the castle",
+          "zh": "他拥有城堡"
+        },
+        {
+          "en": "He looked suspicious in the dark according to some versions of the story",
+          "zh": "他在黑暗中看起来很可疑（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Dink found green feathers in Walker's Jeep and on his boat, and the big footprints matched — but the feathers actually came from Rip's shoes.",
         "zh": "丁克在沃克的吉普车和船上找到绿羽毛，脚印也吻合——但那些羽毛其实是里普鞋上带来的。"
@@ -149,10 +245,22 @@
         "zh": "乔什是如何帮忙抓住里普利·皮尔斯的？"
       },
       "options": [
-        {"en": "He slammed the trapdoor shut, trapping Rip inside the tunnel", "zh": "他猛地关上活板门，把里普关在地道里"},
-        {"en": "He called the police", "zh": "他报了警"},
-        {"en": "He fought Rip hand-to-hand", "zh": "他和里普徒手搏斗"},
-        {"en": "He fed the parrots", "zh": "他喂了鹦鹉"}
+        {
+          "en": "He slammed the trapdoor shut, trapping Rip inside the tunnel",
+          "zh": "他猛地关上活板门，把里普关在地道里"
+        },
+        {
+          "en": "He fed the parrots",
+          "zh": "他喂了鹦鹉"
+        },
+        {
+          "en": "He fought Rip hand-to-hand according to some versions of the story",
+          "zh": "他和里普徒手搏斗（按书中另一种说法）"
+        },
+        {
+          "en": "He called the police",
+          "zh": "他报了警"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -166,12 +274,24 @@
         "zh": "孩子们在地道里的防水布下发现了什么？"
       },
       "options": [
-        {"en": "Two cages holding eight green parrots", "zh": "两个笼子，里面关着八只绿鹦鹉"},
-        {"en": "Pirate gold coins", "zh": "海盗的金币"},
-        {"en": "Human skeletons", "zh": "人的骷髅"},
-        {"en": "A nest of bats", "zh": "一窝蝙蝠"}
+        {
+          "en": "Pirate gold coins according to some versions of the story",
+          "zh": "海盗的金币（按书中另一种说法）"
+        },
+        {
+          "en": "A nest of bats",
+          "zh": "一窝蝙蝠"
+        },
+        {
+          "en": "Human skeletons",
+          "zh": "人的骷髅"
+        },
+        {
+          "en": "Two cages holding eight green parrots",
+          "zh": "两个笼子，里面关着八只绿鹦鹉"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Under the tarp were two stacked cages, each with four large green parrots — eight endangered birds in total.",
         "zh": "防水布下是两个叠放的笼子，每个关着四只大绿鹦鹉——一共八只濒危鸟类。"

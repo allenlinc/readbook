@@ -13,12 +13,24 @@
         "zh": "在《隼的羽毛》里，是谁最先发现隼巢空了的？"
       },
       "options": [
-        { "en": "Josh, looking through his binoculars", "zh": "乔什，他正用双筒望远镜观察" },
-        { "en": "Dink", "zh": "丁克" },
-        { "en": "Ruth Rose", "zh": "露丝·罗丝" },
-        { "en": "Mr. Linkletter", "zh": "林肯莱特先生" }
+        {
+          "en": "Dink",
+          "zh": "丁克"
+        },
+        {
+          "en": "Josh, looking through his binoculars",
+          "zh": "乔什，他正用双筒望远镜观察"
+        },
+        {
+          "en": "Ruth Rose",
+          "zh": "露丝·罗丝"
+        },
+        {
+          "en": "Mr. Linkletter according to some versions of the story",
+          "zh": "林肯莱特先生（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Josh is watching the nest through binoculars and says, 'The nest is empty.'",
         "zh": "乔什正用双筒望远镜看着鸟巢，说道：‘巢空了。’"
@@ -30,10 +42,22 @@
         "zh": "乔什用什么工具从远处观察隼巢？"
       },
       "options": [
-        { "en": "Binoculars", "zh": "双筒望远镜" },
-        { "en": "A telescope", "zh": "天文望远镜" },
-        { "en": "A magnifying glass", "zh": "放大镜" },
-        { "en": "A camera", "zh": "照相机" }
+        {
+          "en": "Binoculars",
+          "zh": "双筒望远镜"
+        },
+        {
+          "en": "A camera",
+          "zh": "照相机"
+        },
+        {
+          "en": "A telescope",
+          "zh": "天文望远镜"
+        },
+        {
+          "en": "A magnifying glass",
+          "zh": "放大镜"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -47,12 +71,24 @@
         "zh": "从巢里消失的是哪种雏鸟？"
       },
       "options": [
-        { "en": "Baby falcons", "zh": "小隼（隼的幼鸟）" },
-        { "en": "Baby robins", "zh": "小知更鸟" },
-        { "en": "Baby ducks", "zh": "小鸭子" },
-        { "en": "Baby owls", "zh": "小猫头鹰" }
+        {
+          "en": "Baby owls",
+          "zh": "小猫头鹰"
+        },
+        {
+          "en": "Baby robins according to some versions of the story",
+          "zh": "小知更鸟（按书中另一种说法）"
+        },
+        {
+          "en": "Baby falcons",
+          "zh": "小隼（隼的幼鸟）"
+        },
+        {
+          "en": "Baby ducks",
+          "zh": "小鸭子"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Josh tells the others, 'The baby falcons are gone.'",
         "zh": "乔什对大家说：‘小隼不见了。’"
@@ -64,10 +100,22 @@
         "zh": "当丁克朝空巢里看时，里面还能看到什么？"
       },
       "options": [
-        { "en": "A few feathers (and twigs and pine needles)", "zh": "几根羽毛（还有细枝和松针）" },
-        { "en": "Three eggs", "zh": "三个蛋" },
-        { "en": "A baby bird", "zh": "一只雏鸟" },
-        { "en": "Nothing at all", "zh": "什么都没有" }
+        {
+          "en": "A few feathers (and twigs and pine needles)",
+          "zh": "几根羽毛（还有细枝和松针）"
+        },
+        {
+          "en": "Three eggs",
+          "zh": "三个蛋"
+        },
+        {
+          "en": "A baby bird",
+          "zh": "一只雏鸟"
+        },
+        {
+          "en": "Nothing at all according to some versions of the story",
+          "zh": "什么都没有（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -81,12 +129,24 @@
         "zh": "哪两位朋友帮乔什调查隼失踪的事？"
       },
       "options": [
-        { "en": "Dink and Ruth Rose", "zh": "丁克和露丝·罗丝" },
-        { "en": "Josh works alone", "zh": "乔什独自调查" },
-        { "en": "Mr. Linkletter and Livvy", "zh": "林肯莱特先生和丽薇" },
-        { "en": "Officer Fallon", "zh": "法伦警官" }
+        {
+          "en": "Josh works alone",
+          "zh": "乔什独自调查"
+        },
+        {
+          "en": "Officer Fallon",
+          "zh": "法伦警官"
+        },
+        {
+          "en": "Dink and Ruth Rose",
+          "zh": "丁克和露丝·罗丝"
+        },
+        {
+          "en": "Mr. Linkletter and Livvy",
+          "zh": "林肯莱特先生和丽薇"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Dink and Ruth Rose join Josh to solve the mystery of the missing baby falcons.",
         "zh": "丁克和露丝·罗丝和乔什一起，调查小隼失踪之谜。"
@@ -98,12 +158,24 @@
         "zh": "丁克、乔什和露丝·罗丝住在哪里？"
       },
       "options": [
-        { "en": "Green Lawn, Connecticut", "zh": "康涅狄格州的格林劳恩" },
-        { "en": "Key West, Florida", "zh": "佛罗里达州的基韦斯特" },
-        { "en": "New York City", "zh": "纽约市" },
-        { "en": "London, England", "zh": "英国伦敦" }
+        {
+          "en": "London, England",
+          "zh": "英国伦敦"
+        },
+        {
+          "en": "Green Lawn, Connecticut",
+          "zh": "康涅狄格州的格林劳恩"
+        },
+        {
+          "en": "Key West, Florida according to some versions of the story",
+          "zh": "佛罗里达州的基韦斯特（按书中另一种说法）"
+        },
+        {
+          "en": "New York City",
+          "zh": "纽约市"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "The three friends live in the town of Green Lawn, Connecticut, the setting of the whole series.",
         "zh": "这三个好朋友住在康涅狄格州的格林劳恩镇，那是整个系列的故事背景地。"
@@ -115,12 +187,24 @@
         "zh": "书名里提到的关键线索是什么？"
       },
       "options": [
-        { "en": "Feathers left behind by the falcons", "zh": "隼留下来的羽毛" },
-        { "en": "A golden egg", "zh": "一个金蛋" },
-        { "en": "A red feather", "zh": "一根红色羽毛" },
-        { "en": "A stolen ring", "zh": "一枚被盗的戒指" }
+        {
+          "en": "A red feather",
+          "zh": "一根红色羽毛"
+        },
+        {
+          "en": "A stolen ring according to some versions of the story",
+          "zh": "一枚被盗的戒指（按书中另一种说法）"
+        },
+        {
+          "en": "A golden egg",
+          "zh": "一个金蛋"
+        },
+        {
+          "en": "Feathers left behind by the falcons",
+          "zh": "隼留下来的羽毛"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "The title points to the feathers the kids find, which help them follow the trail of the missing falcons.",
         "zh": "书名指的是孩子们找到的羽毛，这些羽毛帮他们追踪小隼的去向。"
@@ -132,12 +216,24 @@
         "zh": "隼属于哪一类动物？"
       },
       "options": [
-        { "en": "Bird of prey (raptor)", "zh": "猛禽" },
-        { "en": "Fish", "zh": "鱼类" },
-        { "en": "Mammal", "zh": "哺乳动物" },
-        { "en": "Reptile", "zh": "爬行动物" }
+        {
+          "en": "Fish",
+          "zh": "鱼类"
+        },
+        {
+          "en": "Reptile according to some versions of the story",
+          "zh": "爬行动物（按书中另一种说法）"
+        },
+        {
+          "en": "Mammal",
+          "zh": "哺乳动物"
+        },
+        {
+          "en": "Bird of prey (raptor)",
+          "zh": "猛禽"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Falcons are fast hunting birds — birds of prey that catch other animals for food.",
         "zh": "隼是敏捷的猎食性鸟类——以捕捉其他动物为食的猛禽。"
@@ -149,10 +245,22 @@
         "zh": "《隼的羽毛》是 A to Z 谜案系列里第几个字母（字母__）的故事？"
       },
       "options": [
-        { "en": "F (the sixth book)", "zh": "F（第六本）" },
-        { "en": "E (the fifth book)", "zh": "E（第五本）" },
-        { "en": "G (the seventh book)", "zh": "G（第七本）" },
-        { "en": "H (the eighth book)", "zh": "H（第八本）" }
+        {
+          "en": "F (the sixth book)",
+          "zh": "F（第六本）"
+        },
+        {
+          "en": "H (the eighth book)",
+          "zh": "H（第八本）"
+        },
+        {
+          "en": "E (the fifth book)",
+          "zh": "E（第五本）"
+        },
+        {
+          "en": "G (the seventh book)",
+          "zh": "G（第七本）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -166,12 +274,24 @@
         "zh": "为什么失踪的小隼需要被保护？"
       },
       "options": [
-        { "en": "They are rare, wild, protected birds", "zh": "它们是稀有、野生、受保护的鸟类" },
-        { "en": "They are someone's pets", "zh": "它们是别人的宠物" },
-        { "en": "They are made of gold", "zh": "它们是金子做的" },
-        { "en": "They can talk", "zh": "它们会说话" }
+        {
+          "en": "They can talk",
+          "zh": "它们会说话"
+        },
+        {
+          "en": "They are rare, wild, protected birds",
+          "zh": "它们是稀有、野生、受保护的鸟类"
+        },
+        {
+          "en": "They are made of gold",
+          "zh": "它们是金子做的"
+        },
+        {
+          "en": "They are someone's pets according to some versions of the story",
+          "zh": "它们是别人的宠物（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Peregrine falcons are wild raptors that need protecting, which is why their disappearance matters.",
         "zh": "游隼是野生的猛禽，需要被保护，所以它们失踪才是一件要紧的事。"

@@ -13,10 +13,22 @@
         "zh": "Dink、Josh 和 Ruth Rose 去哪里度假？"
       },
       "options": [
-        { "en": "A dude ranch in Bozeman, Montana", "zh": "蒙大拿州博兹曼的一个度假牧场" },
-        { "en": "An art museum", "zh": "一家艺术博物馆" },
-        { "en": "A summer camp in Connecticut", "zh": "康涅狄格州的夏令营" },
-        { "en": "A zoo in California", "zh": "加州的一家动物园" }
+        {
+          "en": "A dude ranch in Bozeman, Montana",
+          "zh": "蒙大拿州博兹曼的一个度假牧场"
+        },
+        {
+          "en": "An art museum",
+          "zh": "一家艺术博物馆"
+        },
+        {
+          "en": "A summer camp in Connecticut according to some versions of the story",
+          "zh": "康涅狄格州的夏令营（按书中另一种说法）"
+        },
+        {
+          "en": "A zoo in California",
+          "zh": "加州的一家动物园"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -30,12 +42,24 @@
         "zh": "是谁去机场接孩子们的？"
       },
       "options": [
-        { "en": "Jud Wheat", "zh": "Jud Wheat" },
-        { "en": "Thumbs", "zh": "Thumbs" },
-        { "en": "Ed Getz", "zh": "Ed Getz" },
-        { "en": "Pa Wheat", "zh": "Pa Wheat" }
+        {
+          "en": "Ed Getz",
+          "zh": "Ed Getz"
+        },
+        {
+          "en": "Thumbs",
+          "zh": "Thumbs"
+        },
+        {
+          "en": "Pa Wheat according to some versions of the story",
+          "zh": "Pa Wheat（按书中另一种说法）"
+        },
+        {
+          "en": "Jud Wheat",
+          "zh": "Jud Wheat"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Jud Wheat, the son of the ranch owners, drives a station wagon to pick them up and is late.",
         "zh": "牧场主的儿子 Jud Wheat 开着旅行车去接他们，还迟到了。"
@@ -47,10 +71,22 @@
         "zh": "Josh 在溪水里发现了什么，大小差不多像一颗土豆？"
       },
       "options": [
-        { "en": "A gold nugget", "zh": "一块金块" },
-        { "en": "A silver coin", "zh": "一枚银币" },
-        { "en": "A fish", "zh": "一条鱼" },
-        { "en": "A diamond", "zh": "一颗钻石" }
+        {
+          "en": "A gold nugget",
+          "zh": "一块金块"
+        },
+        {
+          "en": "A silver coin according to some versions of the story",
+          "zh": "一枚银币（按书中另一种说法）"
+        },
+        {
+          "en": "A fish",
+          "zh": "一条鱼"
+        },
+        {
+          "en": "A diamond",
+          "zh": "一颗钻石"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -64,10 +100,22 @@
         "zh": "Ed Getz 为什么要假装脚踝受伤？"
       },
       "options": [
-        { "en": "He really fell off his horse", "zh": "他真的从马上摔下来了" },
-        { "en": "To stay behind at the ranch so he can rob the safe", "zh": "为了留在牧场，好去撬保险箱" },
-        { "en": "To get attention from Fiona", "zh": "为了引起 Fiona 的注意" },
-        { "en": "Because he was afraid of bears", "zh": "因为他怕熊" }
+        {
+          "en": "Because he was afraid of bears",
+          "zh": "因为他怕熊"
+        },
+        {
+          "en": "To stay behind at the ranch so he can rob the safe",
+          "zh": "为了留在牧场，好去撬保险箱"
+        },
+        {
+          "en": "He really fell off his horse",
+          "zh": "他真的从马上摔下来了"
+        },
+        {
+          "en": "To get attention from Fiona according to some versions of the story",
+          "zh": "为了引起 Fiona 的注意（按书中另一种说法）"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -81,12 +129,24 @@
         "zh": "小偷把人绑起来、撬开保险箱时穿着什么？"
       },
       "options": [
-        { "en": "A clown costume", "zh": "小丑装" },
-        { "en": "A black hood and black clothing", "zh": "黑色头套和黑色衣服" },
-        { "en": "A cowboy hat", "zh": "牛仔帽" },
-        { "en": "A bear costume", "zh": "熊的服装" }
+        {
+          "en": "A cowboy hat",
+          "zh": "牛仔帽"
+        },
+        {
+          "en": "A bear costume according to some versions of the story",
+          "zh": "熊的服装（按书中另一种说法）"
+        },
+        {
+          "en": "A black hood and black clothing",
+          "zh": "黑色头套和黑色衣服"
+        },
+        {
+          "en": "A clown costume",
+          "zh": "小丑装"
+        }
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": {
         "en": "Lulu describes the robber as dressed all in black with a black hood over his face and gloves on his hands.",
         "zh": "Lulu 说小偷全身黑衣、脸上罩着黑色头套，手上还戴着手套。"
@@ -98,10 +158,22 @@
         "zh": "到底是谁偷走了 Josh 的金块？"
       },
       "options": [
-        { "en": "Thumbs", "zh": "Thumbs" },
-        { "en": "Lulu", "zh": "Lulu" },
-        { "en": "Ed Getz", "zh": "Ed Getz" },
-        { "en": "Jud Wheat", "zh": "Jud Wheat" }
+        {
+          "en": "Thumbs",
+          "zh": "Thumbs"
+        },
+        {
+          "en": "Jud Wheat",
+          "zh": "Jud Wheat"
+        },
+        {
+          "en": "Ed Getz",
+          "zh": "Ed Getz"
+        },
+        {
+          "en": "Lulu",
+          "zh": "Lulu"
+        }
       ],
       "answer": 2,
       "explain": {
@@ -115,10 +187,22 @@
         "zh": "小偷用什么工具破解了保险箱的密码？"
       },
       "options": [
-        { "en": "A screwdriver", "zh": "螺丝刀" },
-        { "en": "A stethoscope", "zh": "听诊器" },
-        { "en": "A magnifying glass", "zh": "放大镜" },
-        { "en": "A magnet", "zh": "磁铁" }
+        {
+          "en": "A screwdriver",
+          "zh": "螺丝刀"
+        },
+        {
+          "en": "A stethoscope",
+          "zh": "听诊器"
+        },
+        {
+          "en": "A magnet",
+          "zh": "磁铁"
+        },
+        {
+          "en": "A magnifying glass",
+          "zh": "放大镜"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -132,12 +216,24 @@
         "zh": "孩子们是怎么发现 Ed 就是小偷的？"
       },
       "options": [
-        { "en": "They see him on TV", "zh": "他们在电视上看到他" },
-        { "en": "They watch him unwrap his fake bandage and the nugget falls out of his sock", "zh": "他们看见他拆掉假绷带，金块从袜子里掉了出来" },
-        { "en": "Thumbs tells them", "zh": "Thumbs 告诉他们的" },
-        { "en": "The sheriff calls", "zh": "警察打来电话" }
+        {
+          "en": "They watch him unwrap his fake bandage and the nugget falls out of his sock",
+          "zh": "他们看见他拆掉假绷带，金块从袜子里掉了出来"
+        },
+        {
+          "en": "Thumbs tells them according to some versions of the story in an early draft of the book",
+          "zh": "Thumbs 告诉他们的（按书中另一种说法）（在书的早期草稿中）"
+        },
+        {
+          "en": "They see him on TV",
+          "zh": "他们在电视上看到他"
+        },
+        {
+          "en": "The sheriff calls",
+          "zh": "警察打来电话"
+        }
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": {
         "en": "Through Ed's window, the kids see him remove the bandage and shake his sock, and the gold nugget tumbles out.",
         "zh": "孩子们透过 Ed 的窗户，看见他拆掉绷带、倒空袜子，金块从里面掉了出来。"
@@ -149,10 +245,22 @@
         "zh": "Ed 最终是怎么被抓住的？"
       },
       "options": [
-        { "en": "He is arrested at the airport", "zh": "他在机场被捕" },
-        { "en": "Josh lassoes him from the cabin roof with his rope", "zh": "Josh 在屋顶用套索把他套住" },
-        { "en": "He trips and falls into the pond", "zh": "他绊倒掉进池塘" },
-        { "en": "A bear catches him", "zh": "一只熊抓住了他" }
+        {
+          "en": "A bear catches him",
+          "zh": "一只熊抓住了他"
+        },
+        {
+          "en": "Josh lassoes him from the cabin roof with his rope",
+          "zh": "Josh 在屋顶用套索把他套住"
+        },
+        {
+          "en": "He trips and falls into the pond according to some versions of the story",
+          "zh": "他绊倒掉进池塘（按书中另一种说法）"
+        },
+        {
+          "en": "He is arrested at the airport",
+          "zh": "他在机场被捕"
+        }
       ],
       "answer": 1,
       "explain": {
@@ -166,12 +274,24 @@
         "zh": "最后 Josh 决定怎么处理这块金块？"
       },
       "options": [
-        { "en": "Sell it and keep the money for a new car", "zh": "卖掉它，把钱留着买新车" },
-        { "en": "Give it to Thumbs", "zh": "把它送给 Thumbs" },
-        { "en": "Leave it at the ranch so the money can help save the ranch", "zh": "把它留在牧场，用这笔钱拯救牧场" },
-        { "en": "Hide it in the safe again", "zh": "再次把它藏在保险箱里" }
+        {
+          "en": "Hide it in the safe again",
+          "zh": "再次把它藏在保险箱里"
+        },
+        {
+          "en": "Sell it and keep the money for a new car according to some versions of the story",
+          "zh": "卖掉它，把钱留着买新车（按书中另一种说法）"
+        },
+        {
+          "en": "Give it to Thumbs",
+          "zh": "把它送给 Thumbs"
+        },
+        {
+          "en": "Leave it at the ranch so the money can help save the ranch",
+          "zh": "把它留在牧场，用这笔钱拯救牧场"
+        }
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": {
         "en": "Josh gives the gold to Jud to sell, asking that the money be used to save the struggling Wheat Ranch.",
         "zh": "Josh 把金块交给 Jud 去卖，请他用这笔钱来拯救经营困难的 Wheat 牧场。"

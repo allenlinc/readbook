@@ -13,10 +13,22 @@
         "zh": "丁克邀请到绿草坪镇来的著名推理作家是谁？"
       },
       "options": [
-        {"en": "Wallis Wallace", "zh": "沃利斯·华莱士"},
-        {"en": "Mavis Green", "zh": "梅维斯·格林"},
-        {"en": "Josh Pinto", "zh": "乔什·平托"},
-        {"en": "Mr. Paskey", "zh": "帕斯基先生"}
+        {
+          "en": "Wallis Wallace",
+          "zh": "沃利斯·华莱士"
+        },
+        {
+          "en": "Mavis Green according to some versions of the story",
+          "zh": "梅维斯·格林（按书中另一种说法）"
+        },
+        {
+          "en": "Josh Pinto",
+          "zh": "乔什·平托"
+        },
+        {
+          "en": "Mr. Paskey",
+          "zh": "帕斯基先生"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -30,12 +42,24 @@
         "zh": "丁克真正的全名是什么？"
       },
       "options": [
-        {"en": "Donald David Duncan", "zh": "唐纳德·大卫·邓肯"},
-        {"en": "David Donald Duncan", "zh": "大卫·唐纳德·邓肯"},
-        {"en": "Dink Duncan Jr.", "zh": "小丁克·邓肯"},
-        {"en": "Daniel David Duncan", "zh": "丹尼尔·大卫·邓肯"}
+        {
+          "en": "David Donald Duncan according to some versions of the story",
+          "zh": "大卫·唐纳德·邓肯（按书中另一种说法）"
+        },
+        {
+          "en": "Donald David Duncan",
+          "zh": "唐纳德·大卫·邓肯"
+        },
+        {
+          "en": "Dink Duncan Jr.",
+          "zh": "小丁克·邓肯"
+        },
+        {
+          "en": "Daniel David Duncan",
+          "zh": "丹尼尔·大卫·邓肯"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Dink's full name is Donald David Duncan, but everyone just calls him Dink.",
         "zh": "丁克的全名是唐纳德·大卫·邓肯，但大家都只叫他丁克。"
@@ -47,12 +71,24 @@
         "zh": "露丝·罗丝的穿着有什么特别之处？"
       },
       "options": [
-        {"en": "She wears all one color every day", "zh": "她每天都穿同一种颜色"},
-        {"en": "She wears a hat with feathers", "zh": "她戴一顶有羽毛的帽子"},
-        {"en": "She only wears green", "zh": "她只穿绿色"},
-        {"en": "She wears pajamas outside", "zh": "她穿睡衣出门"}
+        {
+          "en": "She only wears green",
+          "zh": "她只穿绿色"
+        },
+        {
+          "en": "She wears pajamas outside",
+          "zh": "她穿睡衣出门"
+        },
+        {
+          "en": "She wears all one color every day",
+          "zh": "她每天都穿同一种颜色"
+        },
+        {
+          "en": "She wears a hat with feathers according to some versions of the story",
+          "zh": "她戴一顶有羽毛的帽子（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "Ruth Rose is always dressed all in one color — on the day of the signing, it was purple.",
         "zh": "露丝·罗丝总是全身上下穿同一种颜色——签书会那天她穿了一身紫色。"
@@ -64,12 +100,24 @@
         "zh": "华莱士信里的哪句话让丁克以为他被人绑架了？"
       },
       "options": [
-        {"en": "Short of being kidnapped, nothing will stop me", "zh": "“除非被人绑架，否则什么也拦不住我”"},
-        {"en": "I will send you my picture", "zh": "“我会把我的照片寄给你”"},
-        {"en": "I live in a castle in Maine", "zh": "“我住在缅因州的一座城堡里”"},
-        {"en": "I am writing a new book", "zh": "“我正在写一本新书”"}
+        {
+          "en": "I will send you my picture",
+          "zh": "“我会把我的照片寄给你”"
+        },
+        {
+          "en": "Short of being kidnapped, nothing will stop me",
+          "zh": "“除非被人绑架，否则什么也拦不住我”"
+        },
+        {
+          "en": "I live in a castle in Maine according to some versions of the story",
+          "zh": "“我住在缅因州的一座城堡里”（按书中另一种说法）"
+        },
+        {
+          "en": "I am writing a new book",
+          "zh": "“我正在写一本新书”"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "The letter said 'Short of being kidnapped, nothing will stop me from coming,' which made Dink worry when he didn't show up.",
         "zh": "信里说“除非被人绑架，否则什么也拦不住我前来”，所以当华莱士没出现时，丁克担心他真的被绑架了。"
@@ -81,12 +129,24 @@
         "zh": "是谁开出租车把华莱士从机场送到了酒店？"
       },
       "options": [
-        {"en": "Maureen Higgins", "zh": "莫琳·希金斯"},
-        {"en": "Olivia Nugent", "zh": "奥利维亚·纽金特"},
-        {"en": "Mr. Linkletter", "zh": "林克莱特先生"},
-        {"en": "Mr. Paskey", "zh": "帕斯基先生"}
+        {
+          "en": "Mr. Paskey",
+          "zh": "帕斯基先生"
+        },
+        {
+          "en": "Olivia Nugent according to some versions of the story",
+          "zh": "奥利维亚·纽金特（按书中另一种说法）"
+        },
+        {
+          "en": "Mr. Linkletter",
+          "zh": "林克莱特先生"
+        },
+        {
+          "en": "Maureen Higgins",
+          "zh": "莫琳·希金斯"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "Maureen Higgins, a taxi driver, picked Wallis Wallace up at the airport and dropped him at the Shangri-La Hotel.",
         "zh": "出租车司机莫琳·希金斯在机场接上华莱士，把他送到了香格里拉酒店。"
@@ -98,12 +158,24 @@
         "zh": "华莱士入住的是哪家酒店？"
       },
       "options": [
-        {"en": "The Shangri-La Hotel", "zh": "香格里拉酒店"},
-        {"en": "The Book Nook", "zh": "小书角书店"},
-        {"en": "Ellie's Diner", "zh": "埃莉餐厅"},
-        {"en": "The Acorn Apartments", "zh": "橡果公寓"}
+        {
+          "en": "The Book Nook",
+          "zh": "小书角书店"
+        },
+        {
+          "en": "The Shangri-La Hotel",
+          "zh": "香格里拉酒店"
+        },
+        {
+          "en": "Ellie's Diner",
+          "zh": "埃莉餐厅"
+        },
+        {
+          "en": "The Acorn Apartments according to some versions of the story",
+          "zh": "橡果公寓（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": {
         "en": "Wallis Wallace's itinerary shows he checked into the Shangri-La Hotel after the taxi ride.",
         "zh": "华莱士的行程单显示，他坐出租车之后入住的是香格里拉酒店。"
@@ -115,12 +187,24 @@
         "zh": "哪个房间挂着“请勿打扰”的牌子，连女佣都没进去打扫过？"
       },
       "options": [
-        {"en": "Room 302", "zh": "302房间"},
-        {"en": "Room 303", "zh": "303房间"},
-        {"en": "Room 24", "zh": "24房间"},
-        {"en": "Room 404", "zh": "404房间"}
+        {
+          "en": "Room 24",
+          "zh": "24房间"
+        },
+        {
+          "en": "Room 303 according to some versions of the story",
+          "zh": "303房间（按书中另一种说法）"
+        },
+        {
+          "en": "Room 404",
+          "zh": "404房间"
+        },
+        {
+          "en": "Room 302",
+          "zh": "302房间"
+        }
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": {
         "en": "The maid Livvy said Room 302 had a Do Not Disturb sign, so she never went inside it.",
         "zh": "女佣利维说302房间挂着“请勿打扰”的牌子，所以她从没进去打扫过。"
@@ -132,10 +216,22 @@
         "zh": "被绑在302房间里喊“救命”的男人是谁？"
       },
       "options": [
-        {"en": "Walker Wallace, Wallis's brother", "zh": "沃克·华莱士，华莱士的哥哥"},
-        {"en": "Mr. Paskey", "zh": "帕斯基先生"},
-        {"en": "Mr. Linkletter", "zh": "林克莱特先生"},
-        {"en": "Officer Fallon", "zh": "法伦警官"}
+        {
+          "en": "Walker Wallace, Wallis's brother",
+          "zh": "沃克·华莱士，华莱士的哥哥"
+        },
+        {
+          "en": "Officer Fallon",
+          "zh": "法伦警官"
+        },
+        {
+          "en": "Mr. Paskey",
+          "zh": "帕斯基先生"
+        },
+        {
+          "en": "Mr. Linkletter according to some versions of the story",
+          "zh": "林克莱特先生（按书中另一种说法）"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -149,10 +245,22 @@
         "zh": "露丝·罗丝注意到梅维斯·格林的红围巾上有什么破绽？"
       },
       "options": [
-        {"en": "The tiny letters were W's for Wallis Wallace, not M's", "zh": "小字母其实是华莱士的W，不是M"},
-        {"en": "It was made of silk", "zh": "它是丝绸做的"},
-        {"en": "It had pictures of moose", "zh": "上面有驼鹿图案"},
-        {"en": "It was actually blue", "zh": "它其实是蓝色的"}
+        {
+          "en": "The tiny letters were W's for Wallis Wallace, not M's",
+          "zh": "小字母其实是华莱士的W，不是M"
+        },
+        {
+          "en": "It had pictures of moose according to some versions of the story",
+          "zh": "上面有驼鹿图案（按书中另一种说法）"
+        },
+        {
+          "en": "It was actually blue",
+          "zh": "它其实是蓝色的"
+        },
+        {
+          "en": "It was made of silk",
+          "zh": "它是丝绸做的"
+        }
       ],
       "answer": 0,
       "explain": {
@@ -166,12 +274,24 @@
         "zh": "华莱士为什么要假装自己被绑架？"
       },
       "options": [
-        {"en": "To research her new book about a kidnapped children's writer", "zh": "为了给写“儿童作家被绑架”的新书收集素材"},
-        {"en": "She wanted to rob a bank", "zh": "她想去抢银行"},
-        {"en": "She was angry at Dink", "zh": "她在生丁克的气"},
-        {"en": "She wanted to move to Green Lawn", "zh": "她想搬到绿草坪镇住"}
+        {
+          "en": "She was angry at Dink",
+          "zh": "她在生丁克的气"
+        },
+        {
+          "en": "She wanted to rob a bank",
+          "zh": "她想去抢银行"
+        },
+        {
+          "en": "To research her new book about a kidnapped children's writer",
+          "zh": "为了给写“儿童作家被绑架”的新书收集素材"
+        },
+        {
+          "en": "She wanted to move to Green Lawn according to some versions of the story",
+          "zh": "她想搬到绿草坪镇住（按书中另一种说法）"
+        }
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": {
         "en": "She faked it to see how real kids would solve a kidnapping mystery for her new book's research.",
         "zh": "她假绑架是为了观察真实的孩子会怎样破解绑架谜案，为自己的新书做研究。"
