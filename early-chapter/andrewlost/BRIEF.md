@@ -78,7 +78,7 @@ Books & media_ids (number → title → media_id):
 - Distractors (wrong options) must be plausible but clearly wrong per the text.
 
 ## Validate before finishing
-Run this from `middle-chapter/andrewlost/` with the managed venv:
+Run this from `early-chapter/andrewlost/` with the managed venv:
 ```
 C:/Users/allen/.workbuddy/binaries/python/envs/default/Scripts/python.exe -c "
 import json
