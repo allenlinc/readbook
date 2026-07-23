@@ -256,7 +256,7 @@ function render(){
     item.options.forEach((opt, j) => {
       const isPicked = picked[i] === j;
       const checked = isPicked ? "checked" : "";
-      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}>
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
         <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
       </label>`;
     });
