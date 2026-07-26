@@ -14,8 +14,8 @@
           "zh": "在湖心的小岛上"
         },
         {
-          "en": "In a hollow oak tree according to some versions of the story",
-          "zh": "在一棵空心的橡树里（按书中另一种说法）"
+          "en": "In a hollow oak tree (this is what the story tells us)",
+          "zh": "在一棵空心的橡树里（故事就是这样告诉我们的）"
         },
         {
           "en": "On a high cliff",
@@ -39,20 +39,20 @@
       },
       "options": [
         {
-          "en": "They fly with the owls",
-          "zh": "它们跟着猫头鹰飞过去"
+          "en": "They are carried by Twolegs (this is what the story tells us)",
+          "zh": "它们被两脚兽载过去（故事就是这样告诉我们的）"
         },
         {
           "en": "They walk across a fallen tree that forms a bridge",
           "zh": "它们走过一棵倒下、搭成桥的树"
         },
         {
-          "en": "They are carried by Twolegs according to some versions of the story",
-          "zh": "它们被两脚兽载过去（按书中另一种说法）"
-        },
-        {
           "en": "They swim across",
           "zh": "它们游过去"
+        },
+        {
+          "en": "They fly with the owls",
+          "zh": "它们跟着猫头鹰飞过去"
         }
       ],
       "answer": 1,
@@ -72,16 +72,16 @@
           "zh": "黑星（Blackstar）"
         },
         {
-          "en": "Onestar",
-          "zh": "一星（Onestar）"
-        },
-        {
           "en": "Leopardstar",
           "zh": "豹星（Leopardstar）"
         },
         {
           "en": "Tigerstar",
           "zh": "虎星（Tigerstar）"
+        },
+        {
+          "en": "Onestar",
+          "zh": "一星（Onestar）"
         }
       ],
       "answer": 0,
@@ -97,8 +97,8 @@
       },
       "options": [
         {
-          "en": "He is too young to be a warrior according to some versions of the story",
-          "zh": "他太年轻，还不是武士（按书中另一种说法）"
+          "en": "He is too young to be a warrior (this is what the story tells us)",
+          "zh": "他太年轻，还不是武士（故事就是这样告诉我们的）"
         },
         {
           "en": "He once lived as a kittypet",
@@ -130,16 +130,16 @@
           "zh": "她年纪比他大太多"
         },
         {
+          "en": "He is a kittypet",
+          "zh": "他是宠物猫"
+        },
+        {
           "en": "He belongs to ShadowClan",
           "zh": "他属于影族"
         },
         {
           "en": "She is a medicine cat who must not take a mate",
           "zh": "她是巫医，不能结伴侣"
-        },
-        {
-          "en": "He is a kittypet",
-          "zh": "他是宠物猫"
         }
       ],
       "answer": 0,
@@ -155,16 +155,16 @@
       },
       "options": [
         {
+          "en": "An earthquake",
+          "zh": "一场地震"
+        },
+        {
           "en": "A hailstorm",
           "zh": "一场冰雹"
         },
         {
           "en": "A fire",
           "zh": "一场大火"
-        },
-        {
-          "en": "An earthquake",
-          "zh": "一场地震"
         },
         {
           "en": "A flood",
@@ -184,12 +184,12 @@
       },
       "options": [
         {
-          "en": "The sun-drown-place",
-          "zh": "太阳沉没之地"
-        },
-        {
           "en": "The four trees (Fourtrees) in the old forest",
           "zh": "旧森林里的四棵树（Fourtrees）"
+        },
+        {
+          "en": "The sun-drown-place",
+          "zh": "太阳沉没之地"
         },
         {
           "en": "The horseplace",
@@ -213,8 +213,8 @@
       },
       "options": [
         {
-          "en": "WindClan",
-          "zh": "风族（WindClan）"
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
         },
         {
           "en": "RiverClan",
@@ -225,8 +225,8 @@
           "zh": "影族（ShadowClan）"
         },
         {
-          "en": "ThunderClan",
-          "zh": "雷族（ThunderClan）"
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
         }
       ],
       "answer": 1,
@@ -271,20 +271,20 @@
       },
       "options": [
         {
-          "en": "Who will rule all the Clans",
-          "zh": "由谁来统治所有族群"
+          "en": "Which cats must leave",
+          "zh": "哪些猫必须离开"
         },
         {
           "en": "Which Clan owns the fish",
           "zh": "哪族拥有湖里的鱼"
         },
         {
-          "en": "Which cats must leave",
-          "zh": "哪些猫必须离开"
-        },
-        {
           "en": "To share the lake and set fair boundaries",
           "zh": "共享湖水并划定公平的边界"
+        },
+        {
+          "en": "Who will rule all the Clans",
+          "zh": "由谁来统治所有族群"
         }
       ],
       "answer": 1,

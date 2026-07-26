@@ -10,20 +10,20 @@
       },
       "options": [
         {
-          "en": "RiverClan",
-          "zh": "河族（RiverClan）"
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
         },
         {
           "en": "ThunderClan",
           "zh": "雷族（ThunderClan）"
         },
         {
-          "en": "WindClan",
-          "zh": "风族（WindClan）"
+          "en": "ShadowClan (this is what the story tells us)",
+          "zh": "影族（ShadowClan）（故事就是这样告诉我们的）"
         },
         {
-          "en": "ShadowClan according to some versions of the story",
-          "zh": "影族（ShadowClan）（按书中另一种说法）"
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
         }
       ],
       "answer": 1,
@@ -43,16 +43,16 @@
           "zh": "一场巨大的暴风雨和洪水"
         },
         {
-          "en": "An earthquake according to some versions of the story",
-          "zh": "一场地震（按书中另一种说法）"
+          "en": "A drought",
+          "zh": "一场干旱"
+        },
+        {
+          "en": "An earthquake (this is what the story tells us)",
+          "zh": "一场地震（故事就是这样告诉我们的）"
         },
         {
           "en": "A fire",
           "zh": "一场火灾"
-        },
-        {
-          "en": "A drought",
-          "zh": "一场干旱"
         }
       ],
       "answer": 0,
@@ -80,8 +80,8 @@
           "zh": "杰西（Jessy）"
         },
         {
-          "en": "Cinderheart according to some versions of the story",
-          "zh": "炭心（Cinderheart）（按书中另一种说法）"
+          "en": "Cinderheart (this is what the story tells us)",
+          "zh": "炭心（Cinderheart）（故事就是这样告诉我们的）"
         }
       ],
       "answer": 1,
@@ -101,16 +101,16 @@
           "zh": "那三只幼猫并非他们亲生"
         },
         {
+          "en": "A fight over leadership (this is what the story tells us)",
+          "zh": "为族长之位争吵（故事就是这样告诉我们的）"
+        },
+        {
           "en": "A different mate",
           "zh": "另有伴侣"
         },
         {
           "en": "A betrayal of the Clan",
           "zh": "对族群的背叛"
-        },
-        {
-          "en": "A fight over leadership according to some versions of the story",
-          "zh": "为族长之位争吵（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -126,16 +126,16 @@
       },
       "options": [
         {
+          "en": "Firestar and Sandstorm",
+          "zh": "火星和沙暴"
+        },
+        {
           "en": "Graystripe and Millie",
           "zh": "灰条和米莉（Millie）"
         },
         {
-          "en": "Bramblestar and Squirrelflight according to some versions of the story",
-          "zh": "棘星和松鼠飞（按书中另一种说法）"
-        },
-        {
-          "en": "Firestar and Sandstorm",
-          "zh": "火星和沙暴"
+          "en": "Bramblestar and Squirrelflight (this is what the story tells us)",
+          "zh": "棘星和松鼠飞（故事就是这样告诉我们的）"
         },
         {
           "en": "Leafpool and Crowfeather",
@@ -155,20 +155,20 @@
       },
       "options": [
         {
-          "en": "Smudge",
-          "zh": "烟污（Smudge）"
-        },
-        {
           "en": "Daisy",
           "zh": "雏菊（Daisy）"
+        },
+        {
+          "en": "Princess",
+          "zh": "公主（Princess）"
         },
         {
           "en": "Jessy",
           "zh": "杰西（Jessy）"
         },
         {
-          "en": "Princess",
-          "zh": "公主（Princess）"
+          "en": "Smudge",
+          "zh": "烟污（Smudge）"
         }
       ],
       "answer": 2,
@@ -184,12 +184,12 @@
       },
       "options": [
         {
-          "en": "A fire burns the camp according to some versions of the story",
-          "zh": "大火烧毁了营地（按书中另一种说法）"
-        },
-        {
           "en": "It stays sunny",
           "zh": "天气一直晴朗"
+        },
+        {
+          "en": "A fire burns the camp (this is what the story tells us)",
+          "zh": "大火烧毁了营地（故事就是这样告诉我们的）"
         },
         {
           "en": "Nothing happens",
@@ -213,12 +213,12 @@
       },
       "options": [
         {
-          "en": "They become enemies",
-          "zh": "他们成了敌人"
+          "en": "They separate forever (this is what the story tells us)",
+          "zh": "他们永远分开了（故事就是这样告诉我们的）"
         },
         {
-          "en": "They separate forever according to some versions of the story",
-          "zh": "他们永远分开了（按书中另一种说法）"
+          "en": "They become enemies",
+          "zh": "他们成了敌人"
         },
         {
           "en": "They reconcile and reunite as mates",
@@ -250,12 +250,12 @@
           "zh": "她怀上了棘星的孩子"
         },
         {
-          "en": "She leaves the Clan",
-          "zh": "她离开了族群"
+          "en": "The kits are Leafpool's (this is what the story tells us)",
+          "zh": "那些孩子是叶池的（故事就是这样告诉我们的）"
         },
         {
-          "en": "The kits are Leafpool's according to some versions of the story",
-          "zh": "那些孩子是叶池的（按书中另一种说法）"
+          "en": "She leaves the Clan",
+          "zh": "她离开了族群"
         }
       ],
       "answer": 1,
@@ -275,16 +275,16 @@
           "zh": "坚强的领导力，拯救了自己的族群"
         },
         {
-          "en": "He runs away",
-          "zh": "他逃跑了"
-        },
-        {
           "en": "Cowardice",
           "zh": "怯懦"
         },
         {
-          "en": "He loses his lives according to some versions of the story",
-          "zh": "他失去了自己的命（按书中另一种说法）"
+          "en": "He runs away",
+          "zh": "他逃跑了"
+        },
+        {
+          "en": "He loses his lives (this is what the story tells us)",
+          "zh": "他失去了自己的命（故事就是这样告诉我们的）"
         }
       ],
       "answer": 0,

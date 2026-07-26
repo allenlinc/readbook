@@ -23,8 +23,8 @@
           "zh": "杰罗尼摩一位热爱极限运动的朋友"
         },
         {
-          "en": "A mouse who gives massages according to some versions of the story",
-          "zh": "一位给老鼠做按摩的鼠（按书中另一种说法）"
+          "en": "A mouse who gives massages (this is what the story tells us)",
+          "zh": "一位给老鼠做按摩的鼠（故事就是这样告诉我们的）"
         },
         {
           "en": "The editor of a newspaper",
@@ -44,20 +44,20 @@
       },
       "options": [
         {
-          "en": "A sports reporter according to some versions of the story",
-          "zh": "体育记者（按书中另一种说法）"
+          "en": "A photographer",
+          "zh": "摄影师"
         },
         {
           "en": "The managing editor",
           "zh": "执行主编"
         },
         {
-          "en": "A photographer",
-          "zh": "摄影师"
-        },
-        {
           "en": "The publisher",
           "zh": "出版人"
+        },
+        {
+          "en": "A sports reporter (this is what the story tells us)",
+          "zh": "体育记者（故事就是这样告诉我们的）"
         }
       ],
       "answer": 1,
@@ -73,16 +73,16 @@
       },
       "options": [
         {
-          "en": "Cat Island",
-          "zh": "猫岛"
-        },
-        {
           "en": "Borneo",
           "zh": "婆罗洲"
         },
         {
-          "en": "New Mouse City according to some versions of the story",
-          "zh": "新鼠城（按书中另一种说法）"
+          "en": "New Mouse City (this is what the story tells us)",
+          "zh": "新鼠城（故事就是这样告诉我们的）"
+        },
+        {
+          "en": "Cat Island",
+          "zh": "猫岛"
         },
         {
           "en": "San Mouscisco",
@@ -110,8 +110,8 @@
           "zh": "一种披萨"
         },
         {
-          "en": "A Japanese bath according to some versions of the story",
-          "zh": "日本的浴室（按书中另一种说法）"
+          "en": "A Japanese bath (this is what the story tells us)",
+          "zh": "日本的浴室（故事就是这样告诉我们的）"
         },
         {
           "en": "A kind of belt",
@@ -131,20 +131,20 @@
       },
       "options": [
         {
-          "en": "A white belt according to some versions of the story",
-          "zh": "白带（按书中另一种说法）"
-        },
-        {
           "en": "A red belt",
           "zh": "红带"
+        },
+        {
+          "en": "A black belt (this is what the story tells us)",
+          "zh": "黑带（故事就是这样告诉我们的）"
         },
         {
           "en": "A green belt",
           "zh": "绿带"
         },
         {
-          "en": "A black belt",
-          "zh": "黑带"
+          "en": "A white belt",
+          "zh": "白带"
         }
       ],
       "answer": 2,
@@ -172,8 +172,8 @@
           "zh": "一记有力的腾空飞踢"
         },
         {
-          "en": "A somersault throw according to some versions of the story",
-          "zh": "一个翻滚摔（按书中另一种说法）"
+          "en": "A somersault throw (this is what the story tells us)",
+          "zh": "一个翻滚摔（故事就是这样告诉我们的）"
         }
       ],
       "answer": 2,
@@ -189,8 +189,8 @@
       },
       "options": [
         {
-          "en": "Bruce Hyena",
-          "zh": "布鲁斯·鬣狗"
+          "en": "Butch Strongmouse",
+          "zh": "布奇·壮鼠"
         },
         {
           "en": "Mousoshi Champrat",
@@ -201,8 +201,8 @@
           "zh": "费迪南德·鼠斯科斯"
         },
         {
-          "en": "Butch Strongmouse",
-          "zh": "布奇·壮鼠"
+          "en": "Bruce Hyena",
+          "zh": "布鲁斯·鬣狗"
         }
       ],
       "answer": 1,
@@ -222,16 +222,16 @@
           "zh": "杰罗尼摩没有靠药物作弊"
         },
         {
+          "en": "Geronimo's strength (this is what the story tells us)",
+          "zh": "杰罗尼摩的力气（故事就是这样告诉我们的）"
+        },
+        {
           "en": "Geronimo's age",
           "zh": "杰罗尼摩的年龄"
         },
         {
-          "en": "Geronimo's eyesight according to some versions of the story",
-          "zh": "杰罗尼摩的视力（按书中另一种说法）"
-        },
-        {
-          "en": "Geronimo's strength",
-          "zh": "杰罗尼摩的力气"
+          "en": "Geronimo's eyesight",
+          "zh": "杰罗尼摩的视力"
         }
       ],
       "answer": 0,
@@ -251,12 +251,12 @@
           "zh": "布奇·壮鼠"
         },
         {
-          "en": "Ferdinand Mouscos",
-          "zh": "费迪南德·鼠斯科斯"
-        },
-        {
           "en": "Mousoshi Champrat",
           "zh": "鼠士·尚普拉特"
+        },
+        {
+          "en": "Ferdinand Mouscos",
+          "zh": "费迪南德·鼠斯科斯"
         },
         {
           "en": "Shorty Tao",
@@ -276,16 +276,16 @@
       },
       "options": [
         {
+          "en": "The North Pole (this is what the story tells us)",
+          "zh": "北极（故事就是这样告诉我们的）"
+        },
+        {
           "en": "Borneo",
           "zh": "婆罗洲"
         },
         {
           "en": "Cat Island",
           "zh": "猫岛"
-        },
-        {
-          "en": "The North Pole according to some versions of the story",
-          "zh": "北极（按书中另一种说法）"
         },
         {
           "en": "Okinawa, Japan",

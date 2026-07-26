@@ -10,16 +10,16 @@
       },
       "options": [
         {
+          "en": "the Twolegs",
+          "zh": "两脚兽（the Twolegs）"
+        },
+        {
           "en": "the Ancients alone",
           "zh": "仅远古猫"
         },
         {
           "en": "the Dark Forest",
           "zh": "黑森林（the Dark Forest）"
-        },
-        {
-          "en": "the Twolegs",
-          "zh": "两脚兽（the Twolegs）"
         },
         {
           "en": "StarClan",
@@ -39,8 +39,8 @@
       },
       "options": [
         {
-          "en": "earthquake according to some versions of the story",
-          "zh": "地震（按书中另一种说法）"
+          "en": "fire",
+          "zh": "火灾"
         },
         {
           "en": "flood",
@@ -51,8 +51,8 @@
           "zh": "风暴（storm）"
         },
         {
-          "en": "fire",
-          "zh": "火灾"
+          "en": "earthquake (this is what the story tells us)",
+          "zh": "地震（故事就是这样告诉我们的）"
         }
       ],
       "answer": 2,
@@ -72,16 +72,16 @@
           "zh": "黑森林（the Dark Forest）"
         },
         {
-          "en": "Twolegs according to some versions of the story",
-          "zh": "两脚兽（the Twolegs）（按书中另一种说法）"
+          "en": "Kin",
+          "zh": "亲族（the Kin）"
         },
         {
           "en": "BloodClan",
           "zh": "血族（BloodClan）"
         },
         {
-          "en": "Kin",
-          "zh": "亲族（the Kin）"
+          "en": "Twolegs (this is what the story tells us)",
+          "zh": "两脚兽（the Twolegs）（故事就是这样告诉我们的）"
         }
       ],
       "answer": 0,
@@ -126,20 +126,20 @@
       },
       "options": [
         {
-          "en": "Silverpelt",
-          "zh": "银毛（Silverpelt）"
+          "en": "Place of Stars",
+          "zh": "群星之地"
         },
         {
           "en": "Place of No Stars",
           "zh": "无星之地（the Place of No Stars）"
         },
         {
-          "en": "Place of Stars",
-          "zh": "群星之地"
+          "en": "Silverpelt",
+          "zh": "银毛（Silverpelt）"
         },
         {
-          "en": "the Moonpool according to some versions of the story",
-          "zh": "月池（the Moonpool）（按书中另一种说法）"
+          "en": "the Moonpool (this is what the story tells us)",
+          "zh": "月池（the Moonpool）（故事就是这样告诉我们的）"
         }
       ],
       "answer": 1,
@@ -159,16 +159,16 @@
           "zh": "棘星（Bramblestar）"
         },
         {
-          "en": "Rowanstar according to some versions of the story",
-          "zh": "罗星（Rowanstar）（按书中另一种说法）"
+          "en": "Tigerstar (this is what the story tells us)",
+          "zh": "虎星（Tigerstar）（故事就是这样告诉我们的）"
+        },
+        {
+          "en": "Rowanstar",
+          "zh": "罗星（Rowanstar）"
         },
         {
           "en": "Firestar",
           "zh": "火星（Firestar）"
-        },
-        {
-          "en": "Tigerstar",
-          "zh": "虎星（Tigerstar）"
         }
       ],
       "answer": 0,
@@ -184,20 +184,20 @@
       },
       "options": [
         {
-          "en": "fighting skills according to some versions of the story",
-          "zh": "格斗本领（按书中另一种说法）"
+          "en": "fighting skills (this is what the story tells us)",
+          "zh": "格斗本领（故事就是这样告诉我们的）"
         },
         {
           "en": "visions and healing",
           "zh": "异象与治疗（visions and healing）"
         },
         {
-          "en": "large size",
-          "zh": "庞大的体型"
-        },
-        {
           "en": "great speed",
           "zh": "惊人的速度"
+        },
+        {
+          "en": "large size",
+          "zh": "庞大的体型"
         }
       ],
       "answer": 1,
@@ -217,12 +217,12 @@
           "zh": "影族（ShadowClan）"
         },
         {
-          "en": "SkyClan",
-          "zh": "天族（SkyClan）"
-        },
-        {
           "en": "ThunderClan",
           "zh": "雷族（ThunderClan）"
+        },
+        {
+          "en": "SkyClan",
+          "zh": "天族（SkyClan）"
         },
         {
           "en": "RiverClan",
@@ -242,20 +242,20 @@
       },
       "options": [
         {
-          "en": "WindClan",
-          "zh": "风族（WindClan）"
+          "en": "SkyClan",
+          "zh": "天族（SkyClan）"
         },
         {
           "en": "ThunderClan",
           "zh": "雷族（ThunderClan）"
         },
         {
-          "en": "ShadowClan according to some versions of the story",
-          "zh": "影族（ShadowClan）（按书中另一种说法）"
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
         },
         {
-          "en": "SkyClan",
-          "zh": "天族（SkyClan）"
+          "en": "ShadowClan (this is what the story tells us)",
+          "zh": "影族（ShadowClan）（故事就是这样告诉我们的）"
         }
       ],
       "answer": 1,
@@ -271,8 +271,8 @@
       },
       "options": [
         {
-          "en": "exile according to some versions of the story",
-          "zh": "流亡（按书中另一种说法）"
+          "en": "war",
+          "zh": "战争"
         },
         {
           "en": "fear",
@@ -283,8 +283,8 @@
           "zh": "和平（peace）"
         },
         {
-          "en": "war",
-          "zh": "战争"
+          "en": "exile (this is what the story tells us)",
+          "zh": "流亡（故事就是这样告诉我们的）"
         }
       ],
       "answer": 2,

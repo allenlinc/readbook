@@ -10,20 +10,20 @@
       },
       "options": [
         {
-          "en": "storm",
-          "zh": "风暴（storm）"
+          "en": "earthquake",
+          "zh": "地震（earthquake）"
         },
         {
           "en": "fire",
           "zh": "火灾（fire）"
         },
         {
-          "en": "earthquake",
-          "zh": "地震（earthquake）"
-        },
-        {
           "en": "flood",
           "zh": "洪水（flood）"
+        },
+        {
+          "en": "storm",
+          "zh": "风暴（storm）"
         }
       ],
       "answer": 1,
@@ -39,20 +39,20 @@
       },
       "options": [
         {
-          "en": "wind",
-          "zh": "风"
+          "en": "water",
+          "zh": "水"
         },
         {
           "en": "flames",
           "zh": "烈焰（flames）"
         },
         {
-          "en": "water",
-          "zh": "水"
+          "en": "wind",
+          "zh": "风"
         },
         {
-          "en": "smoke alone according to some versions of the story",
-          "zh": "仅仅是烟（按书中另一种说法）"
+          "en": "smoke alone (this is what the story tells us)",
+          "zh": "仅仅是烟（故事就是这样告诉我们的）"
         }
       ],
       "answer": 1,
@@ -68,16 +68,16 @@
       },
       "options": [
         {
-          "en": "hide in the lake",
-          "zh": "躲在湖里"
-        },
-        {
-          "en": "flee the forest forever according to some versions of the story",
-          "zh": "永远逃离森林（按书中另一种说法）"
-        },
-        {
           "en": "fight each other",
           "zh": "互相争斗"
+        },
+        {
+          "en": "flee the forest forever (this is what the story tells us)",
+          "zh": "永远逃离森林（故事就是这样告诉我们的）"
+        },
+        {
+          "en": "hide in the lake",
+          "zh": "躲在湖里"
         },
         {
           "en": "work together",
@@ -105,12 +105,12 @@
           "zh": "雷族（ThunderClan）"
         },
         {
-          "en": "RiverClan",
-          "zh": "河族（RiverClan）"
-        },
-        {
           "en": "SkyClan",
           "zh": "天族（SkyClan）"
+        },
+        {
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
         }
       ],
       "answer": 0,
@@ -126,12 +126,12 @@
       },
       "options": [
         {
-          "en": "Tigerheartstar",
-          "zh": "虎心星（Tigerheartstar）"
-        },
-        {
           "en": "Tigerclaw",
           "zh": "虎爪（Tigerclaw）"
+        },
+        {
+          "en": "Tigerheartstar",
+          "zh": "虎心星（Tigerheartstar）"
         },
         {
           "en": "Tigerstar",
@@ -155,20 +155,20 @@
       },
       "options": [
         {
-          "en": "Leafstar",
-          "zh": "叶星（Leafstar）"
+          "en": "Bramblestar",
+          "zh": "棘星（Bramblestar）"
         },
         {
           "en": "Rowanstar",
           "zh": "罗星（Rowanstar）"
         },
         {
-          "en": "Blackstar",
-          "zh": "黑星（Blackstar）"
+          "en": "Leafstar",
+          "zh": "叶星（Leafstar）"
         },
         {
-          "en": "Bramblestar",
-          "zh": "棘星（Bramblestar）"
+          "en": "Blackstar",
+          "zh": "黑星（Blackstar）"
         }
       ],
       "answer": 1,
@@ -188,16 +188,16 @@
           "zh": "各族（the Clans）"
         },
         {
+          "en": "prey animals (this is what the story tells us)",
+          "zh": "猎物（故事就是这样告诉我们的）"
+        },
+        {
           "en": "the stars",
           "zh": "星辰"
         },
         {
           "en": "Twolegs",
           "zh": "两脚兽"
-        },
-        {
-          "en": "prey animals according to some versions of the story",
-          "zh": "猎物（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -217,12 +217,12 @@
           "zh": "叶星（Leafstar）"
         },
         {
-          "en": "Tree",
-          "zh": "树（Tree）"
+          "en": "Hawkwing (this is what the story tells us)",
+          "zh": "鹰翅（Hawkwing）（故事就是这样告诉我们的）"
         },
         {
-          "en": "Hawkwing according to some versions of the story",
-          "zh": "鹰翅（Hawkwing）（按书中另一种说法）"
+          "en": "Tree",
+          "zh": "树（Tree）"
         },
         {
           "en": "Rootpaw",
@@ -242,20 +242,20 @@
       },
       "options": [
         {
-          "en": "hiding",
-          "zh": "躲藏"
+          "en": "hunting",
+          "zh": "捕猎"
         },
         {
-          "en": "fighting according to some versions of the story",
-          "zh": "战斗（按书中另一种说法）"
+          "en": "hiding",
+          "zh": "躲藏"
         },
         {
           "en": "healing",
           "zh": "救治（healing）"
         },
         {
-          "en": "hunting",
-          "zh": "捕猎"
+          "en": "fighting (this is what the story tells us)",
+          "zh": "战斗（故事就是这样告诉我们的）"
         }
       ],
       "answer": 2,
@@ -271,16 +271,16 @@
       },
       "options": [
         {
-          "en": "running away according to some versions of the story",
-          "zh": "逃跑（按书中另一种说法）"
+          "en": "isolation",
+          "zh": "各自为政"
         },
         {
           "en": "fear",
           "zh": "恐惧"
         },
         {
-          "en": "isolation",
-          "zh": "各自为政"
+          "en": "running away (this is what the story tells us)",
+          "zh": "逃跑（故事就是这样告诉我们的）"
         },
         {
           "en": "unity",

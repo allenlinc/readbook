@@ -14,8 +14,8 @@
           "zh": "他跑得比任何猫都快。"
         },
         {
-          "en": "He can understand the language of Twolegs. according to some versions of the story",
-          "zh": "他能听懂两脚兽的语言。（按书中另一种说法）"
+          "en": "He can understand the language of Twolegs. (this is what the story tells us)",
+          "zh": "他能听懂两脚兽的语言。（故事就是这样告诉我们的）"
         },
         {
           "en": "He can see the spirits of dead StarClan cats walking among the living.",
@@ -39,20 +39,20 @@
       },
       "options": [
         {
-          "en": "One moon",
-          "zh": "一个月"
+          "en": "Twelve moons",
+          "zh": "十二个月"
         },
         {
-          "en": "Six moons, the usual age",
-          "zh": "六个月，通常的年龄"
+          "en": "One moon",
+          "zh": "一个月"
         },
         {
           "en": "Four moons",
           "zh": "四个月"
         },
         {
-          "en": "Twelve moons",
-          "zh": "十二个月"
+          "en": "Six moons, the usual age",
+          "zh": "六个月，通常的年龄"
         }
       ],
       "answer": 2,
@@ -97,20 +97,20 @@
       },
       "options": [
         {
-          "en": "WindClan",
-          "zh": "风族（WindClan）"
+          "en": "ShadowClan (this is what the story tells us)",
+          "zh": "影族（ShadowClan）（故事就是这样告诉我们的）"
         },
         {
           "en": "ThunderClan",
           "zh": "雷族（ThunderClan）"
         },
         {
-          "en": "RiverClan",
-          "zh": "河族（RiverClan）"
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
         },
         {
-          "en": "ShadowClan according to some versions of the story",
-          "zh": "影族（ShadowClan）（按书中另一种说法）"
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
         }
       ],
       "answer": 1,
@@ -126,8 +126,8 @@
       },
       "options": [
         {
-          "en": "Bluestar's patrol according to some versions of the story",
-          "zh": "蓝星（Bluestar）的巡逻队（按书中另一种说法）"
+          "en": "Bluestar's patrol (this is what the story tells us)",
+          "zh": "蓝星（Bluestar）的巡逻队（故事就是这样告诉我们的）"
         },
         {
           "en": "Firestar's patrol",
@@ -159,12 +159,12 @@
           "zh": "偷走他的猎物"
         },
         {
-          "en": "Become mates with his sister",
-          "zh": "和他的姐姐成为伴侣"
-        },
-        {
           "en": "Tell the leader to exile him",
           "zh": "告诉族长把他赶走"
+        },
+        {
+          "en": "Become mates with his sister",
+          "zh": "和他的姐姐成为伴侣"
         },
         {
           "en": "Lead a badger to attack him",
@@ -188,8 +188,8 @@
           "zh": "他的姐姐月爪（Moonpaw，后来的月花 Moonflower）"
         },
         {
-          "en": "Cloudberry according to some versions of the story",
-          "zh": "云莓（Cloudberry）（按书中另一种说法）"
+          "en": "Cloudberry (this is what the story tells us)",
+          "zh": "云莓（Cloudberry）（故事就是这样告诉我们的）"
         },
         {
           "en": "Doestar",
@@ -217,16 +217,16 @@
           "zh": "枫荫（Mapleshade）"
         },
         {
-          "en": "Brokenstar according to some versions of the story",
-          "zh": "碎星（Brokenstar）（按书中另一种说法）"
-        },
-        {
           "en": "Hawkfrost",
           "zh": "鹰霜（Hawkfrost）"
         },
         {
           "en": "Tigerstar",
           "zh": "虎星（Tigerstar）"
+        },
+        {
+          "en": "Brokenstar (this is what the story tells us)",
+          "zh": "碎星（Brokenstar）（故事就是这样告诉我们的）"
         }
       ],
       "answer": 0,
@@ -246,16 +246,16 @@
           "zh": "一只会成为族长，一只会成为巫医"
         },
         {
+          "en": "Both will leave the Clan",
+          "zh": "两只都会离开族群"
+        },
+        {
           "en": "Both will become elders",
           "zh": "两只都会成为长老"
         },
         {
-          "en": "Both will become warriors according to some versions of the story",
-          "zh": "两只都会成为武士（按书中另一种说法）"
-        },
-        {
-          "en": "Both will leave the Clan",
-          "zh": "两只都会离开族群"
+          "en": "Both will become warriors (this is what the story tells us)",
+          "zh": "两只都会成为武士（故事就是这样告诉我们的）"
         }
       ],
       "answer": 0,
@@ -271,8 +271,8 @@
       },
       "options": [
         {
-          "en": "Foxes dig up the prey",
-          "zh": "狐狸把猎物挖了出来"
+          "en": "The prey freezes solid and cannot be eaten (this is what the story tells us)",
+          "zh": "猎物冻得硬邦邦没法吃（故事就是这样告诉我们的）"
         },
         {
           "en": "The buried prey rots because rain floods the hole",
@@ -283,8 +283,8 @@
           "zh": "两脚兽偷走了埋着的猎物"
         },
         {
-          "en": "The prey freezes solid and cannot be eaten according to some versions of the story",
-          "zh": "猎物冻得硬邦邦没法吃（按书中另一种说法）"
+          "en": "Foxes dig up the prey",
+          "zh": "狐狸把猎物挖了出来"
         }
       ],
       "answer": 1,

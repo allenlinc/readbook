@@ -10,8 +10,8 @@
       },
       "options": [
         {
-          "en": "ShadowClan",
-          "zh": "影族（ShadowClan）"
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
         },
         {
           "en": "RiverClan",
@@ -22,8 +22,8 @@
           "zh": "风族（WindClan）"
         },
         {
-          "en": "ThunderClan",
-          "zh": "雷族（ThunderClan）"
+          "en": "ShadowClan",
+          "zh": "影族（ShadowClan）"
         }
       ],
       "answer": 2,
@@ -43,16 +43,16 @@
           "zh": "荒原崽（Moorkit）"
         },
         {
-          "en": "Windkit",
-          "zh": "风崽（Windkit）"
+          "en": "Tunnelkit",
+          "zh": "地道崽（Tunnelkit）"
         },
         {
           "en": "Tallkit",
           "zh": "高崽（Tallkit）"
         },
         {
-          "en": "Tunnelkit",
-          "zh": "地道崽（Tunnelkit）"
+          "en": "Windkit",
+          "zh": "风崽（Windkit）"
         }
       ],
       "answer": 2,
@@ -76,8 +76,8 @@
           "zh": "荒原奔跑者（moor-runners）和挖地道者（tunnelers）"
         },
         {
-          "en": "Warriors and medicine cats according to some versions of the story",
-          "zh": "武士和巫医（按书中另一种说法）"
+          "en": "Warriors and medicine cats (this is what the story tells us)",
+          "zh": "武士和巫医（故事就是这样告诉我们的）"
         },
         {
           "en": "Swimmers and climbers",
@@ -97,16 +97,16 @@
       },
       "options": [
         {
-          "en": "A kittypet",
-          "zh": "一只宠物猫"
+          "en": "A medicine cat (this is what the story tells us)",
+          "zh": "一名巫医（故事就是这样告诉我们的）"
         },
         {
           "en": "A leader",
           "zh": "一名族长"
         },
         {
-          "en": "A medicine cat according to some versions of the story",
-          "zh": "一名巫医（按书中另一种说法）"
+          "en": "A kittypet",
+          "zh": "一只宠物猫"
         },
         {
           "en": "A moor-runner",
@@ -126,16 +126,16 @@
       },
       "options": [
         {
-          "en": "Of old age",
-          "zh": "老死"
-        },
-        {
           "en": "In a battle",
           "zh": "在一场战斗中"
         },
         {
-          "en": "Killed by a dog according to some versions of the story",
-          "zh": "被狗咬死（按书中另一种说法）"
+          "en": "Of old age",
+          "zh": "老死"
+        },
+        {
+          "en": "Killed by a dog (this is what the story tells us)",
+          "zh": "被狗咬死（故事就是这样告诉我们的）"
         },
         {
           "en": "A tunnel collapses, caused by a monster",
@@ -167,8 +167,8 @@
           "zh": "拜访星族"
         },
         {
-          "en": "Fight ShadowClan according to some versions of the story",
-          "zh": "去和影族作战（按书中另一种说法）"
+          "en": "Fight ShadowClan (this is what the story tells us)",
+          "zh": "去和影族作战（故事就是这样告诉我们的）"
         }
       ],
       "answer": 1,
@@ -217,16 +217,16 @@
           "zh": "复仇不值得；他回到了家乡"
         },
         {
-          "en": "He must kill the monster according to some versions of the story",
-          "zh": "他必须杀死那怪兽（按书中另一种说法）"
-        },
-        {
           "en": "He must leave forever",
           "zh": "他必须永远离开"
         },
         {
           "en": "Revenge is good",
           "zh": "复仇是好事"
+        },
+        {
+          "en": "He must kill the monster (this is what the story tells us)",
+          "zh": "他必须杀死那怪兽（故事就是这样告诉我们的）"
         }
       ],
       "answer": 0,
@@ -250,12 +250,12 @@
           "zh": "泥爪（Mudclaw）"
         },
         {
-          "en": "Tornear",
-          "zh": "刺耳（Tornear）"
-        },
-        {
           "en": "Onewhisker",
           "zh": "一须（Onewhisker）"
+        },
+        {
+          "en": "Tornear",
+          "zh": "刺耳（Tornear）"
         }
       ],
       "answer": 0,
@@ -275,16 +275,16 @@
           "zh": "开阔的荒原和丘陵"
         },
         {
+          "en": "The lake",
+          "zh": "湖边"
+        },
+        {
           "en": "The gorge",
           "zh": "峡谷"
         },
         {
-          "en": "The forest according to some versions of the story",
-          "zh": "森林（按书中另一种说法）"
-        },
-        {
-          "en": "The lake",
-          "zh": "湖边"
+          "en": "The forest (this is what the story tells us)",
+          "zh": "森林（故事就是这样告诉我们的）"
         }
       ],
       "answer": 0,

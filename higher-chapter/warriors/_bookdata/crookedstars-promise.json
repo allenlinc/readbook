@@ -10,16 +10,16 @@
       },
       "options": [
         {
+          "en": "Crookedkit",
+          "zh": "钩崽（Crookedkit）"
+        },
+        {
           "en": "Riverkit",
           "zh": "河崽（Riverkit）"
         },
         {
           "en": "Oakkit",
           "zh": "橡崽（Oakkit）"
-        },
-        {
-          "en": "Crookedkit",
-          "zh": "钩崽（Crookedkit）"
         },
         {
           "en": "Rainkit",
@@ -39,8 +39,8 @@
       },
       "options": [
         {
-          "en": "A blind eye according to some versions of the story",
-          "zh": "失明的眼睛（按书中另一种说法）"
+          "en": "A broken leg (this is what the story tells us)",
+          "zh": "断掉的腿（故事就是这样告诉我们的）"
         },
         {
           "en": "A torn ear",
@@ -51,8 +51,8 @@
           "zh": "破碎、歪斜的下巴"
         },
         {
-          "en": "A broken leg",
-          "zh": "断掉的腿"
+          "en": "A blind eye",
+          "zh": "失明的眼睛"
         }
       ],
       "answer": 2,
@@ -76,12 +76,12 @@
           "zh": "橡心（Oakheart）"
         },
         {
-          "en": "Blackclaw",
-          "zh": "黑爪（Blackclaw）"
-        },
-        {
           "en": "Raggedstar",
           "zh": "毛星（Raggedstar）"
+        },
+        {
+          "en": "Blackclaw",
+          "zh": "黑爪（Blackclaw）"
         }
       ],
       "answer": 1,
@@ -130,12 +130,12 @@
           "zh": "河星（Riverstar），河族第一位族长"
         },
         {
-          "en": "StarClan as a whole",
-          "zh": "整个星族"
+          "en": "Mapleshade (this is what the story tells us)",
+          "zh": "枫影（Mapleshade）（故事就是这样告诉我们的）"
         },
         {
-          "en": "Mapleshade according to some versions of the story",
-          "zh": "枫影（Mapleshade）（按书中另一种说法）"
+          "en": "StarClan as a whole",
+          "zh": "整个星族"
         },
         {
           "en": "Tallstar",
@@ -159,16 +159,16 @@
           "zh": "他必须失去所爱的一切——他的家人"
         },
         {
-          "en": "He loses his Clan",
-          "zh": "他失去自己的族群"
-        },
-        {
           "en": "He loses his name",
           "zh": "他失去自己的名字"
         },
         {
-          "en": "He loses his nine lives according to some versions of the story",
-          "zh": "他失去九条命（按书中另一种说法）"
+          "en": "He loses his nine lives (this is what the story tells us)",
+          "zh": "他失去九条命（故事就是这样告诉我们的）"
+        },
+        {
+          "en": "He loses his Clan",
+          "zh": "他失去自己的族群"
         }
       ],
       "answer": 0,
@@ -196,8 +196,8 @@
           "zh": "柳风（Willowbreeze）"
         },
         {
-          "en": "Leopardfoot according to some versions of the story",
-          "zh": "豹足（Leopardfoot）（按书中另一种说法）"
+          "en": "Leopardfoot (this is what the story tells us)",
+          "zh": "豹足（Leopardfoot）（故事就是这样告诉我们的）"
         }
       ],
       "answer": 2,
@@ -225,8 +225,8 @@
           "zh": "鹰霜（Hawkfrost）"
         },
         {
-          "en": "Brokenstar according to some versions of the story",
-          "zh": "碎星（Brokenstar）（按书中另一种说法）"
+          "en": "Brokenstar (this is what the story tells us)",
+          "zh": "碎星（Brokenstar）（故事就是这样告诉我们的）"
         }
       ],
       "answer": 0,
@@ -242,12 +242,12 @@
       },
       "options": [
         {
-          "en": "They join ThunderClan according to some versions of the story",
-          "zh": "他们加入了雷族（按书中另一种说法）"
-        },
-        {
           "en": "They become leaders",
           "zh": "他们成为了族长"
+        },
+        {
+          "en": "They join ThunderClan (this is what the story tells us)",
+          "zh": "他们加入了雷族（故事就是这样告诉我们的）"
         },
         {
           "en": "They become rogues",
@@ -271,8 +271,8 @@
       },
       "options": [
         {
-          "en": "ShadowClan",
-          "zh": "影族（ShadowClan）"
+          "en": "ThunderClan",
+          "zh": "雷族（ThunderClan）"
         },
         {
           "en": "RiverClan",
@@ -283,8 +283,8 @@
           "zh": "风族（WindClan）"
         },
         {
-          "en": "ThunderClan",
-          "zh": "雷族（ThunderClan）"
+          "en": "ShadowClan",
+          "zh": "影族（ShadowClan）"
         }
       ],
       "answer": 1,

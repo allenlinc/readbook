@@ -14,12 +14,12 @@
           "zh": "雷族（ThunderClan）"
         },
         {
-          "en": "WindClan",
-          "zh": "风族（WindClan）"
-        },
-        {
           "en": "ShadowClan",
           "zh": "影族（ShadowClan）"
+        },
+        {
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
         },
         {
           "en": "RiverClan",
@@ -68,20 +68,20 @@
       },
       "options": [
         {
-          "en": "Tallstar according to some versions of the story",
-          "zh": "高星（Tallstar）（按书中另一种说法）"
+          "en": "Onestar",
+          "zh": "一星（Onestar）"
         },
         {
           "en": "Crookedstar",
           "zh": "曲星（Crookedstar）"
         },
         {
-          "en": "Onestar",
-          "zh": "一星（Onestar）"
+          "en": "Hailstar (this is what the story tells us)",
+          "zh": "雹星（Hailstar）（故事就是这样告诉我们的）"
         },
         {
-          "en": "Hailstar",
-          "zh": "雹星（Hailstar）"
+          "en": "Tallstar",
+          "zh": "高星（Tallstar）"
         }
       ],
       "answer": 1,
@@ -97,12 +97,12 @@
       },
       "options": [
         {
-          "en": "BloodClan according to some versions of the story",
-          "zh": "血族（BloodClan）（按书中另一种说法）"
-        },
-        {
           "en": "LionClan",
           "zh": "狮族（LionClan）"
+        },
+        {
+          "en": "BloodClan (this is what the story tells us)",
+          "zh": "血族（BloodClan）（故事就是这样告诉我们的）"
         },
         {
           "en": "TigerClan",
@@ -130,16 +130,16 @@
           "zh": "虎星（Tigerstar，原名虎掌 Tigerclaw）"
         },
         {
-          "en": "Scourge",
-          "zh": "天煞（Scourge）"
-        },
-        {
-          "en": "Brokenstar according to some versions of the story",
-          "zh": "碎星（Brokenstar）（按书中另一种说法）"
-        },
-        {
           "en": "Firestar",
           "zh": "火星（Firestar）"
+        },
+        {
+          "en": "Brokenstar (this is what the story tells us)",
+          "zh": "碎星（Brokenstar）（故事就是这样告诉我们的）"
+        },
+        {
+          "en": "Scourge",
+          "zh": "天煞（Scourge）"
         }
       ],
       "answer": 0,
@@ -155,12 +155,12 @@
       },
       "options": [
         {
-          "en": "Too old to lead",
-          "zh": "年纪太大，不便领导"
+          "en": "A traitor to RiverClan (this is what the story tells us)",
+          "zh": "河族的叛徒（故事就是这样告诉我们的）"
         },
         {
-          "en": "A traitor to RiverClan according to some versions of the story",
-          "zh": "河族的叛徒（按书中另一种说法）"
+          "en": "Too old to lead",
+          "zh": "年纪太大，不便领导"
         },
         {
           "en": "Half-Clan (his father was from another Clan)",
@@ -184,16 +184,16 @@
       },
       "options": [
         {
-          "en": "She wanted to make it bigger according to some versions of the story",
-          "zh": "她想把它扩张得更大（按书中另一种说法）"
+          "en": "She was proud of it",
+          "zh": "她为此感到骄傲"
         },
         {
           "en": "She regretted it and realized her mistake",
           "zh": "她懊悔不已，意识到自己犯了错"
         },
         {
-          "en": "She was proud of it",
-          "zh": "她为此感到骄傲"
+          "en": "She wanted to make it bigger (this is what the story tells us)",
+          "zh": "她想把它扩张得更大（故事就是这样告诉我们的）"
         },
         {
           "en": "She forgot about it",
@@ -242,16 +242,16 @@
       },
       "options": [
         {
-          "en": "Firestar",
-          "zh": "火星（Firestar）"
+          "en": "Crookedstar (this is what the story tells us)",
+          "zh": "曲星（Crookedstar）（故事就是这样告诉我们的）"
         },
         {
           "en": "Tigerstar",
           "zh": "虎星（Tigerstar）"
         },
         {
-          "en": "Crookedstar according to some versions of the story",
-          "zh": "曲星（Crookedstar）（按书中另一种说法）"
+          "en": "Firestar",
+          "zh": "火星（Firestar）"
         },
         {
           "en": "Her father Mudfur, a medicine cat",
@@ -275,16 +275,16 @@
           "zh": "族长应当用荣耀与和平守护本族，而不是追随残暴"
         },
         {
-          "en": "She should leave RiverClan",
-          "zh": "她应该离开河族"
-        },
-        {
           "en": "She should join BloodClan",
           "zh": "她应该加入血族"
         },
         {
-          "en": "The strongest Clan should crush the others according to some versions of the story",
-          "zh": "最强大的族应当压垮其他族（按书中另一种说法）"
+          "en": "The strongest Clan should crush the others (this is what the story tells us) (we see this in the book)",
+          "zh": "最强大的族应当压垮其他族（故事就是这样告诉我们的）（我们在书里看到这个）"
+        },
+        {
+          "en": "She should leave RiverClan",
+          "zh": "她应该离开河族"
         }
       ],
       "answer": 0,

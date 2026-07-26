@@ -10,16 +10,16 @@
       },
       "options": [
         {
-          "en": "A queen",
-          "zh": "猫后"
-        },
-        {
           "en": "An elder",
           "zh": "长老"
         },
         {
           "en": "A medicine cat",
           "zh": "巫医"
+        },
+        {
+          "en": "A queen",
+          "zh": "猫后"
         },
         {
           "en": "A warrior",
@@ -39,20 +39,20 @@
       },
       "options": [
         {
-          "en": "A kittypet",
-          "zh": "一只宠物猫"
+          "en": "A loner",
+          "zh": "一只泼皮猫"
         },
         {
           "en": "The next medicine cat",
           "zh": "下一任巫医"
         },
         {
-          "en": "A loner",
-          "zh": "一只泼皮猫"
+          "en": "The next leader (this is what the story tells us)",
+          "zh": "下一任族长（故事就是这样告诉我们的）"
         },
         {
-          "en": "The next leader according to some versions of the story",
-          "zh": "下一任族长（按书中另一种说法）"
+          "en": "A kittypet",
+          "zh": "一只宠物猫"
         }
       ],
       "answer": 1,
@@ -72,16 +72,16 @@
           "zh": "河族（RiverClan）"
         },
         {
-          "en": "WindClan",
-          "zh": "风族（WindClan）"
+          "en": "ShadowClan (this is what the story tells us)",
+          "zh": "影族（ShadowClan）（故事就是这样告诉我们的）"
         },
         {
           "en": "ThunderClan",
           "zh": "雷族（ThunderClan）"
         },
         {
-          "en": "ShadowClan according to some versions of the story",
-          "zh": "影族（ShadowClan）（按书中另一种说法）"
+          "en": "WindClan",
+          "zh": "风族（WindClan）"
         }
       ],
       "answer": 2,
@@ -101,16 +101,16 @@
           "zh": "雷族族长"
         },
         {
-          "en": "A kittypet from birth",
-          "zh": "出身边是宠物猫"
+          "en": "ShadowClan deputy",
+          "zh": "影族副族长"
         },
         {
           "en": "RiverClan medicine cat",
           "zh": "河族巫医"
         },
         {
-          "en": "ShadowClan deputy",
-          "zh": "影族副族长"
+          "en": "A kittypet from birth",
+          "zh": "出身边是宠物猫"
         }
       ],
       "answer": 0,
@@ -126,20 +126,20 @@
       },
       "options": [
         {
-          "en": "A medicine cat",
-          "zh": "巫医"
+          "en": "A loner in the woods",
+          "zh": "树林里的泼皮猫"
         },
         {
           "en": "A kittypet (house cat) living with Twolegs",
           "zh": "和两脚兽一起生活的宠物猫"
         },
         {
-          "en": "The leader of a new Clan according to some versions of the story",
-          "zh": "一个新族群的族长（按书中另一种说法）"
+          "en": "The leader of a new Clan (this is what the story tells us)",
+          "zh": "一个新族群的族长（故事就是这样告诉我们的）"
         },
         {
-          "en": "A loner in the woods",
-          "zh": "树林里的泼皮猫"
+          "en": "A medicine cat",
+          "zh": "巫医"
         }
       ],
       "answer": 1,
@@ -159,16 +159,16 @@
           "zh": "鹅羽（Goosefeather）"
         },
         {
-          "en": "Cinderpelt",
-          "zh": "炭皮（Cinderpelt）"
+          "en": "Spottedleaf (this is what the story tells us)",
+          "zh": "斑叶（Spottedleaf）（故事就是这样告诉我们的）"
         },
         {
           "en": "Yellowfang",
           "zh": "黄牙（Yellowfang）"
         },
         {
-          "en": "Spottedleaf according to some versions of the story",
-          "zh": "斑叶（Spottedleaf）（按书中另一种说法）"
+          "en": "Cinderpelt",
+          "zh": "炭皮（Cinderpelt）"
         }
       ],
       "answer": 0,
@@ -184,20 +184,20 @@
       },
       "options": [
         {
-          "en": "The first leader of SkyClan according to some versions of the story",
-          "zh": "天族的第一任族长（按书中另一种说法）"
+          "en": "The first leader of SkyClan (this is what the story tells us)",
+          "zh": "天族的第一任族长（故事就是这样告诉我们的）"
         },
         {
-          "en": "A kittypet",
-          "zh": "一只宠物猫"
+          "en": "A RiverClan warrior",
+          "zh": "河族的一名武士"
         },
         {
           "en": "The first leader of ThunderClan",
           "zh": "雷族的第一任族长"
         },
         {
-          "en": "A RiverClan warrior",
-          "zh": "河族的一名武士"
+          "en": "A kittypet",
+          "zh": "一只宠物猫"
         }
       ],
       "answer": 2,
@@ -213,16 +213,16 @@
       },
       "options": [
         {
-          "en": "A fire",
-          "zh": "一场火灾"
-        },
-        {
-          "en": "A lack of prey according to some versions of the story",
-          "zh": "猎物短缺（按书中另一种说法）"
-        },
-        {
           "en": "A flood",
           "zh": "一场洪水"
+        },
+        {
+          "en": "A lack of prey (this is what the story tells us)",
+          "zh": "猎物短缺（故事就是这样告诉我们的）"
+        },
+        {
+          "en": "A fire",
+          "zh": "一场火灾"
         },
         {
           "en": "A new danger threatening the young Clan",
@@ -250,12 +250,12 @@
           "zh": "一种新的狩猎技巧"
         },
         {
-          "en": "A new code of laws",
-          "zh": "一部新的法典"
-        },
-        {
           "en": "A new territory",
           "zh": "一片新的领地"
+        },
+        {
+          "en": "A new code of laws",
+          "zh": "一部新的法典"
         }
       ],
       "answer": 0,

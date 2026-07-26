@@ -14,16 +14,16 @@
           "zh": "沙暴（Sandstorm）"
         },
         {
+          "en": "Cinderpelt",
+          "zh": "炭毛（Cinderpelt）"
+        },
+        {
           "en": "Cloudtail",
           "zh": "云尾（Cloudtail）"
         },
         {
           "en": "Graystripe",
           "zh": "灰条（Graystripe）"
-        },
-        {
-          "en": "Cinderpelt",
-          "zh": "炭毛（Cinderpelt）"
         }
       ],
       "answer": 0,
@@ -39,12 +39,12 @@
       },
       "options": [
         {
-          "en": "StarClan",
-          "zh": "星族（StarClan）"
-        },
-        {
           "en": "BloodClan",
           "zh": "血族（BloodClan）"
+        },
+        {
+          "en": "StarClan",
+          "zh": "星族（StarClan）"
         },
         {
           "en": "SkyClan, the fifth Clan",
@@ -80,8 +80,8 @@
           "zh": "湖边"
         },
         {
-          "en": "High in the mountains according to some versions of the story",
-          "zh": "高山上（按书中另一种说法）"
+          "en": "High in the mountains (this is what the story tells us)",
+          "zh": "高山上（故事就是这样告诉我们的）"
         }
       ],
       "answer": 0,
@@ -97,20 +97,20 @@
       },
       "options": [
         {
-          "en": "Badgers",
-          "zh": "獾"
+          "en": "Foxes",
+          "zh": "狐狸"
         },
         {
           "en": "Giant rats",
           "zh": "巨大的老鼠"
         },
         {
-          "en": "A pack of dogs",
-          "zh": "一群狗"
+          "en": "Badgers",
+          "zh": "獾"
         },
         {
-          "en": "Foxes",
-          "zh": "狐狸"
+          "en": "A pack of dogs",
+          "zh": "一群狗"
         }
       ],
       "answer": 1,
@@ -126,16 +126,16 @@
       },
       "options": [
         {
-          "en": "Sharpclaw",
-          "zh": "利爪（Sharpclaw）"
-        },
-        {
-          "en": "Skywatcher according to some versions of the story",
-          "zh": "望天者（Skywatcher）（按书中另一种说法）"
+          "en": "Skywatcher (this is what the story tells us)",
+          "zh": "望天者（Skywatcher）（故事就是这样告诉我们的）"
         },
         {
           "en": "Echosong",
           "zh": "回声歌（Echosong）"
+        },
+        {
+          "en": "Sharpclaw",
+          "zh": "利爪（Sharpclaw）"
         },
         {
           "en": "Leaf, who becomes Leafstar",
@@ -155,12 +155,12 @@
       },
       "options": [
         {
-          "en": "Sandy",
-          "zh": "桑迪（Sandy）"
+          "en": "Echosong (this is what the story tells us)",
+          "zh": "回声歌（Echosong）（故事就是这样告诉我们的）"
         },
         {
-          "en": "Echosong according to some versions of the story",
-          "zh": "回声歌（Echosong）（按书中另一种说法）"
+          "en": "Sandy",
+          "zh": "桑迪（Sandy）"
         },
         {
           "en": "Scratch",
@@ -188,16 +188,16 @@
           "zh": "回声歌（Echosong）"
         },
         {
-          "en": "Spottedleaf",
-          "zh": "斑叶（Spottedleaf）"
-        },
-        {
           "en": "Yellowfang",
           "zh": "黄牙（Yellowfang）"
         },
         {
           "en": "Cinderpelt",
           "zh": "炭毛（Cinderpelt）"
+        },
+        {
+          "en": "Spottedleaf",
+          "zh": "斑叶（Spottedleaf）"
         }
       ],
       "answer": 0,
@@ -213,8 +213,8 @@
       },
       "options": [
         {
-          "en": "Raggedstar according to some versions of the story",
-          "zh": "毛星（Raggedstar）（按书中另一种说法）"
+          "en": "Cloudstar",
+          "zh": "云星（Cloudstar）"
         },
         {
           "en": "Skywatcher",
@@ -225,8 +225,8 @@
           "zh": "高星（Tallstar）"
         },
         {
-          "en": "Cloudstar",
-          "zh": "云星（Cloudstar）"
+          "en": "Raggedstar (this is what the story tells us)",
+          "zh": "毛星（Raggedstar）（故事就是这样告诉我们的）"
         }
       ],
       "answer": 1,
@@ -254,8 +254,8 @@
           "zh": "族长，拥有九条命"
         },
         {
-          "en": "Medicine cat according to some versions of the story",
-          "zh": "巫医（按书中另一种说法）"
+          "en": "Medicine cat (this is what the story tells us)",
+          "zh": "巫医（故事就是这样告诉我们的）"
         }
       ],
       "answer": 2,
@@ -271,16 +271,16 @@
       },
       "options": [
         {
-          "en": "Becomes SkyClan's leader",
-          "zh": "成为天族族长"
+          "en": "Stays to lead SkyClan",
+          "zh": "留下来领导天族"
         },
         {
           "en": "Returns to ThunderClan",
           "zh": "返回雷族"
         },
         {
-          "en": "Stays to lead SkyClan",
-          "zh": "留下来领导天族"
+          "en": "Becomes SkyClan's leader",
+          "zh": "成为天族族长"
         },
         {
           "en": "Leaves to live as a loner",

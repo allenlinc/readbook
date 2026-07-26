@@ -39,20 +39,20 @@
       },
       "options": [
         {
-          "en": "Leopardstar according to some versions of the story",
-          "zh": "Leopardstar（豹星）（按书中另一种说法）"
-        },
-        {
           "en": "Blackclaw",
           "zh": "Blackclaw（黑爪）"
+        },
+        {
+          "en": "Oakheart",
+          "zh": "Oakheart（橡心）"
         },
         {
           "en": "Crookedstar",
           "zh": "Crookedstar（曲星）"
         },
         {
-          "en": "Oakheart",
-          "zh": "Oakheart（橡心）"
+          "en": "Leopardstar (this is what the story tells us)",
+          "zh": "Leopardstar（豹星）（故事就是这样告诉我们的）"
         }
       ],
       "answer": 2,
@@ -68,16 +68,16 @@
       },
       "options": [
         {
+          "en": "SkyClan",
+          "zh": "SkyClan（天族）"
+        },
+        {
           "en": "BloodClan",
           "zh": "BloodClan（血族）"
         },
         {
           "en": "ShadowClan",
           "zh": "ShadowClan（影族）"
-        },
-        {
-          "en": "SkyClan",
-          "zh": "SkyClan（天族）"
         },
         {
           "en": "WindClan",
@@ -101,16 +101,16 @@
           "zh": "Brokenstar（碎星）"
         },
         {
-          "en": "Nightstar according to some versions of the story",
-          "zh": "Nightstar（夜星）（按书中另一种说法）"
+          "en": "Blackfoot (this is what the story tells us)",
+          "zh": "Blackfoot（黑脚）（故事就是这样告诉我们的）"
+        },
+        {
+          "en": "Nightstar",
+          "zh": "Nightstar（夜星）"
         },
         {
           "en": "Tigerstar",
           "zh": "Tigerstar（虎星）"
-        },
-        {
-          "en": "Blackfoot",
-          "zh": "Blackfoot（黑脚）"
         }
       ],
       "answer": 0,
@@ -163,12 +163,12 @@
           "zh": "Leader（族长）"
         },
         {
-          "en": "Warrior",
-          "zh": "Warrior（武士）"
-        },
-        {
           "en": "Medicine cat",
           "zh": "Medicine cat（巫医）"
+        },
+        {
+          "en": "Warrior",
+          "zh": "Warrior（武士）"
         }
       ],
       "answer": 0,
@@ -213,20 +213,20 @@
       },
       "options": [
         {
-          "en": "Brightpaw according to some versions of the story",
-          "zh": "Brightpaw（亮爪）（按书中另一种说法）"
+          "en": "Brightpaw (this is what the story tells us)",
+          "zh": "Brightpaw（亮爪）（故事就是这样告诉我们的）"
         },
         {
-          "en": "Dustpaw",
-          "zh": "Dustpaw（尘爪）"
+          "en": "Thornpaw",
+          "zh": "Thornpaw（刺爪）"
         },
         {
           "en": "Cloudpaw (later Cloudtail)",
           "zh": "Cloudpaw（云爪，后为云尾）"
         },
         {
-          "en": "Thornpaw",
-          "zh": "Thornpaw（刺爪）"
+          "en": "Dustpaw",
+          "zh": "Dustpaw（尘爪）"
         }
       ],
       "answer": 2,
@@ -242,16 +242,16 @@
       },
       "options": [
         {
-          "en": "Because he is a kittypet",
-          "zh": "因为他是个宠物猫"
+          "en": "Because she is a medicine cat (this is what the story tells us)",
+          "zh": "因为她是个巫医（故事就是这样告诉我们的）"
         },
         {
           "en": "Because they are from different Clans",
           "zh": "因为他们来自不同的族群"
         },
         {
-          "en": "Because she is a medicine cat according to some versions of the story",
-          "zh": "因为她是个巫医（按书中另一种说法）"
+          "en": "Because he is a kittypet",
+          "zh": "因为他是个宠物猫"
         },
         {
           "en": "Because she is too young",
@@ -275,16 +275,16 @@
           "zh": "是否要把灰条禁忌的恋情报告给蓝星"
         },
         {
+          "en": "Whether to fight Tigerclaw (this is what the story tells us)",
+          "zh": "是否去和虎掌战斗（故事就是这样告诉我们的）"
+        },
+        {
           "en": "Whether to become leader",
           "zh": "是否成为族长"
         },
         {
           "en": "Whether to leave the Clan",
           "zh": "是否离开族群"
-        },
-        {
-          "en": "Whether to fight Tigerclaw according to some versions of the story",
-          "zh": "是否去和虎掌战斗（按书中另一种说法）"
         }
       ],
       "answer": 0,

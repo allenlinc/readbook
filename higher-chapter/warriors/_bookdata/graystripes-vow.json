@@ -14,12 +14,12 @@
           "zh": "雷族（ThunderClan）"
         },
         {
-          "en": "ShadowClan according to some versions of the story",
-          "zh": "影族（ShadowClan）（按书中另一种说法）"
-        },
-        {
           "en": "RiverClan",
           "zh": "河族（RiverClan）"
+        },
+        {
+          "en": "ShadowClan (this is what the story tells us)",
+          "zh": "影族（ShadowClan）（故事就是这样告诉我们的）"
         },
         {
           "en": "SkyClan",
@@ -43,12 +43,12 @@
           "zh": "荆棘星（Bramblestar）"
         },
         {
-          "en": "Crookedstar",
-          "zh": "曲星（Crookedstar）"
-        },
-        {
           "en": "Bluestar",
           "zh": "蓝星（Bluestar）"
+        },
+        {
+          "en": "Crookedstar",
+          "zh": "曲星（Crookedstar）"
         },
         {
           "en": "Firestar",
@@ -97,8 +97,8 @@
       },
       "options": [
         {
-          "en": "She became leader",
-          "zh": "她当上了族长"
+          "en": "She became a kittypet",
+          "zh": "她成了宠物猫"
         },
         {
           "en": "She died",
@@ -109,8 +109,8 @@
           "zh": "她离开了猫族"
         },
         {
-          "en": "She became a kittypet",
-          "zh": "她成了宠物猫"
+          "en": "She became leader",
+          "zh": "她当上了族长"
         }
       ],
       "answer": 1,
@@ -126,20 +126,20 @@
       },
       "options": [
         {
-          "en": "RiverClan according to some versions of the story",
-          "zh": "河族（RiverClan）（按书中另一种说法）"
+          "en": "SkyClan",
+          "zh": "天族（SkyClan）"
         },
         {
           "en": "The Tribe of Rushing Water",
           "zh": "激流部落（Tribe of Rushing Water）"
         },
         {
-          "en": "BloodClan",
-          "zh": "血族（BloodClan）"
+          "en": "BloodClan (this is what the story tells us)",
+          "zh": "血族（BloodClan）（故事就是这样告诉我们的）"
         },
         {
-          "en": "SkyClan",
-          "zh": "天族（SkyClan）"
+          "en": "RiverClan",
+          "zh": "河族（RiverClan）"
         }
       ],
       "answer": 1,
@@ -163,12 +163,12 @@
           "zh": "血族（BloodClan）"
         },
         {
-          "en": "The Kin",
-          "zh": "亲族（the Kin）"
+          "en": "The Sisters (this is what the story tells us)",
+          "zh": "姐妹会（the Sisters）（故事就是这样告诉我们的）"
         },
         {
-          "en": "The Sisters according to some versions of the story",
-          "zh": "姐妹会（the Sisters）（按书中另一种说法）"
+          "en": "The Kin",
+          "zh": "亲族（the Kin）"
         }
       ],
       "answer": 0,
@@ -184,8 +184,8 @@
       },
       "options": [
         {
-          "en": "Scourge",
-          "zh": "天煞（Scourge）"
+          "en": "Graystripe (this is what the story tells us)",
+          "zh": "灰条（Graystripe）（故事就是这样告诉我们的）"
         },
         {
           "en": "Firestar",
@@ -196,8 +196,8 @@
           "zh": "猴星（Monkeystar）"
         },
         {
-          "en": "Graystripe according to some versions of the story",
-          "zh": "灰条（Graystripe）（按书中另一种说法）"
+          "en": "Scourge",
+          "zh": "天煞（Scourge）"
         }
       ],
       "answer": 2,
@@ -213,16 +213,16 @@
       },
       "options": [
         {
-          "en": "It is stolen",
-          "zh": "它被偷走了"
-        },
-        {
           "en": "It is flooded",
           "zh": "它被水淹没了"
         },
         {
-          "en": "It glows brightly according to some versions of the story",
-          "zh": "它发出明亮的光（按书中另一种说法）"
+          "en": "It glows brightly (this is what the story tells us)",
+          "zh": "它发出明亮的光（故事就是这样告诉我们的）"
+        },
+        {
+          "en": "It is stolen",
+          "zh": "它被偷走了"
         },
         {
           "en": "Lightning strikes and shatters it",
@@ -242,8 +242,8 @@
       },
       "options": [
         {
-          "en": "Training apprentices according to some versions of the story",
-          "zh": "训练学徒（按书中另一种说法）"
+          "en": "Fighting BloodClan",
+          "zh": "与血族战斗"
         },
         {
           "en": "Reforming SkyClan (Firestar's Quest)",
@@ -254,8 +254,8 @@
           "zh": "探索湖畔"
         },
         {
-          "en": "Fighting BloodClan",
-          "zh": "与血族战斗"
+          "en": "Training apprentices (this is what the story tells us)",
+          "zh": "训练学徒（故事就是这样告诉我们的）"
         }
       ],
       "answer": 1,
@@ -275,16 +275,16 @@
           "zh": "雷族是他的家，也是他归属的地方"
         },
         {
-          "en": "He will stay with WarriorClan according to some versions of the story",
-          "zh": "他会留在武士族（按书中另一种说法）"
-        },
-        {
-          "en": "He will become a kittypet",
-          "zh": "他会去当宠物猫"
+          "en": "He will stay with WarriorClan (this is what the story tells us)",
+          "zh": "他会留在武士族（故事就是这样告诉我们的）"
         },
         {
           "en": "He will live with the Tribe",
           "zh": "他会和部落一起生活"
+        },
+        {
+          "en": "He will become a kittypet",
+          "zh": "他会去当宠物猫"
         }
       ],
       "answer": 0,
