@@ -21,12 +21,12 @@
           "zh": "在水下生长的石头"
         },
         {
-          "en": "Pieces of broken seashells",
-          "zh": "破碎的海贝壳"
+          "en": "Plants that photosynthesize — they use sunlight to make their own food, just like trees and other green plants do",
+          "zh": "会进行光合作用的植物——它们像树木和其他绿色植物一样，靠阳光自己制造养分"
         },
         {
-          "en": "Plants that photosynthesize according to some versions of the story",
-          "zh": "会进行光合作用的植物（按书中另一种说法）"
+          "en": "Pieces of broken seashells",
+          "zh": "破碎的海贝壳"
         }
       ],
       "answer": 0,
@@ -47,19 +47,19 @@
           "zh": "红珊瑚和蓝珊瑚"
         },
         {
-          "en": "Hard (stony) coral and soft coral",
-          "zh": "硬（石）珊瑚和软珊瑚"
+          "en": "Salt coral and fresh coral — some kinds grow only in the salty open ocean while others live in rivers and lakes with no salt",
+          "zh": "咸水珊瑚和淡水珊瑚——有的只生长在咸涩的远洋，有的则生活在没有盐分的河流和湖泊里"
         },
         {
           "en": "Hot coral and cold coral",
           "zh": "热珊瑚和冷珊瑚"
         },
         {
-          "en": "Salt coral and fresh coral according to some versions of the story",
-          "zh": "咸水珊瑚和淡水珊瑚（按书中另一种说法）"
+          "en": "Hard (stony) coral and soft coral",
+          "zh": "硬（石）珊瑚和软珊瑚"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book describes 'one of the two main types of coral [as] hard, or \"stony,\" coral' and 'the second main type of coral is soft coral,' which is flexible and can bend with the tides.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Warm tropical water between 21 and 29°C (70-85°F)",
-          "zh": "21到29摄氏度（70-85华氏度）的温暖热带海水"
-        },
-        {
           "en": "Boiling water above 100°C",
           "zh": "100摄氏度以上的沸水"
         },
         {
-          "en": "Near-freezing cold water below 0°C according to some versions of the story",
-          "zh": "0摄氏度以下的近冰点冷水（按书中另一种说法）"
-        },
-        {
           "en": "Any temperature, they are not picky",
           "zh": "任何温度都行，它们不挑"
+        },
+        {
+          "en": "Warm tropical water between 21 and 29°C (70-85°F)",
+          "zh": "21到29摄氏度（70-85华氏度）的温暖热带海水"
+        },
+        {
+          "en": "Near-freezing cold water below 0°C — corals actually grow fastest in icy water because the cold keeps away the algae that harm them",
+          "zh": "0摄氏度以下的近冰点冷水——珊瑚其实在冰冷的水里长得最快，因为低温能挡住伤害它们的藻类"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says coral 'grows best, and stays healthy, in warm tropical water that remains between 21 and 29 degrees Celsius (70-85°F).'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Tiny plant or animal life in the ocean (plankton)",
-          "zh": "海洋里微小的动植物（浮游生物）"
+          "en": "Cracks and holes in the reef (crevices)",
+          "zh": "珊瑚礁上的裂缝和孔洞（缝隙）"
         },
         {
           "en": "Hard-shelled sea creatures like lobsters (crustaceans)",
           "zh": "龙虾之类有硬壳的海洋生物（甲壳类）"
         },
         {
-          "en": "Cracks and holes in the reef (crevices)",
-          "zh": "珊瑚礁上的裂缝和孔洞（缝隙）"
-        },
-        {
           "en": "Tiny individual coral animals",
           "zh": "微小的单个珊瑚动物"
+        },
+        {
+          "en": "Tiny plant or animal life in the ocean (plankton)",
+          "zh": "海洋里微小的动植物（浮游生物）"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines polyps as 'tiny individual coral animals' (p. 5).",
@@ -133,10 +133,6 @@
       },
       "options": [
         {
-          "en": "The wearing away of soil (erosion)",
-          "zh": "土壤的流失（侵蚀）"
-        },
-        {
           "en": "When coral turns white after its algae die",
           "zh": "珊瑚的藻类死后变白的现象"
         },
@@ -147,9 +143,13 @@
         {
           "en": "When coral turns white after a storm breaks it",
           "zh": "珊瑚被风暴打断后变白"
+        },
+        {
+          "en": "The wearing away of soil (erosion)",
+          "zh": "土壤的流失（侵蚀）"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines bleaching as 'when coral turns white after its algae die' (p. 16).",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "Red reefs, blue reefs, and green reefs",
+          "zh": "红礁、蓝礁和绿礁"
+        },
+        {
+          "en": "North reefs, south reefs, and east reefs — the book groups reefs by the direction they face, so these three are the main kinds",
+          "zh": "北礁、南礁和东礁——书里按珊瑚礁朝向的方向来分类，所以这三种是主要类型"
+        },
+        {
           "en": "Fringing reefs, barrier reefs, and atolls",
           "zh": "裙礁、堡礁和环礁"
         },
         {
-          "en": "North reefs, south reefs, and east reefs according to some versions of the story",
-          "zh": "北礁、南礁和东礁（按书中另一种说法）"
-        },
-        {
           "en": "Rock reefs, sand reefs, and ice reefs",
           "zh": "岩石礁、沙礁和冰礁"
-        },
-        {
-          "en": "Red reefs, blue reefs, and green reefs",
-          "zh": "红礁、蓝礁和绿礁"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book lists 'three types of coral reefs: fringing reefs, barrier reefs, and atolls,' explaining how each forms and where it sits.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "They are the main source of drinking water",
-          "zh": "它们是饮用水的主要来源"
-        },
-        {
           "en": "They produce all the world's oxygen",
           "zh": "它们制造了全世界所有的氧气"
         },
         {
-          "en": "They are only useful as souvenirs for tourists according to some versions of the story in an early draft of the book",
-          "zh": "它们只对游客当纪念品有用（按书中另一种说法）（在书的早期草稿中）"
+          "en": "They are the main source of drinking water",
+          "zh": "它们是饮用水的主要来源"
         },
         {
           "en": "They protect coasts from storms, support much of the world's fish, and provide plants/animals used in medicines",
           "zh": "它们保护海岸免受风暴侵袭，支撑全球大量渔业，并提供可用于制药的动植物"
+        },
+        {
+          "en": "They are only useful as souvenirs for tourists — the book says their only real value is being sold in gift shops, and they do nothing for people or sea life",
+          "zh": "它们只对游客当纪念品有用——书里说它们唯一真正的价值就是在礼品店出售，对人和其他海洋生物都没有任何作用"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says reefs 'help protect coasts from storms and floods,' much of the world's fish 'lives and feeds around reefs,' and 'many reef plants and animals are used in the production of medicines.'",
@@ -227,19 +227,19 @@
           "zh": "船只撞断大块珊瑚、潜水者拿走活珊瑚当纪念品"
         },
         {
-          "en": "Planting more coral by hand to help reefs grow",
-          "zh": "人工种植更多珊瑚以帮助礁体生长"
+          "en": "Fishing with poisons and explosives",
+          "zh": "用毒药和炸药捕鱼"
         },
         {
           "en": "Polluted freshwater runoff from construction",
           "zh": "工程建设带来的污染淡水径流"
         },
         {
-          "en": "Fishing with poisons and explosives",
-          "zh": "用毒药和炸药捕鱼"
+          "en": "Planting more coral by hand to help reefs grow",
+          "zh": "人工种植更多珊瑚以帮助礁体生长"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Human damage includes poison/explosive fishing, construction runoff, boat damage, oil/gas poisoning, and souvenir-taking. Planting coral would help, not harm — so it is NOT a cause of damage.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "The author believes reefs are already lost and nothing matters according to some versions of the story",
-          "zh": "作者认为珊瑚礁已无可挽回、做什么都没用（按书中另一种说法）"
+          "en": "The author believes reefs are already lost and nothing matters — the book says the damage is complete and there is no point in anyone trying to help",
+          "zh": "作者认为珊瑚礁已无可挽回、做什么都没用——书里说破坏已经无可挽回，任何人再努力去帮忙都没有意义"
         },
         {
           "en": "The author wants readers to move to the coast",
           "zh": "作者希望读者搬到海边去住"
         },
         {
-          "en": "The author wants every reader to feel responsible and take small actions to help",
-          "zh": "作者希望每位读者都感到自己有责，并用小小的行动去帮忙"
-        },
-        {
           "en": "The author thinks only scientists can save the reefs",
           "zh": "作者认为只有科学家才能拯救珊瑚礁"
+        },
+        {
+          "en": "The author wants every reader to feel responsible and take small actions to help",
+          "zh": "作者希望每位读者都感到自己有责，并用小小的行动去帮忙"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "By saying 'all of us can help... even if we don't live near an ocean,' the author urges personal responsibility — e.g., never litter in water and learn what harms reefs.",
@@ -283,20 +283,20 @@
       },
       "options": [
         {
-          "en": "Coral reefs are dangerous and should be destroyed according to some versions of the story in an early draft of the book",
-          "zh": "珊瑚礁很危险，应该被毁掉（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Only Australia has coral reefs",
+          "zh": "只有澳大利亚才有珊瑚礁"
         },
         {
-          "en": "Coral reefs are boring rocks with no life",
-          "zh": "珊瑚礁只是无生命的无聊石头"
+          "en": "Coral reefs are dangerous and should be destroyed — the book warns that they hurt swimmers and should be cleared away to keep the ocean safe",
+          "zh": "珊瑚礁很危险，应该被毁掉——书里警告说它们会伤害游泳的人，应该被清理掉以保证海洋安全"
         },
         {
           "en": "Coral reefs are beautiful, valuable natural resources that are fragile and worth protecting",
           "zh": "珊瑚礁是美丽而宝贵的自然资源，十分脆弱，值得保护"
         },
         {
-          "en": "Only Australia has coral reefs",
-          "zh": "只有澳大利亚才有珊瑚礁"
+          "en": "Coral reefs are boring rocks with no life",
+          "zh": "珊瑚礁只是无生命的无聊石头"
         }
       ],
       "answer": 2,

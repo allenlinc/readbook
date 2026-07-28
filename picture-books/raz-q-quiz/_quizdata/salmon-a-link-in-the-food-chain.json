@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "Only other salmon according to some versions of the story",
-          "zh": "只有其他三文鱼（按书中另一种说法）"
+          "en": "A human, a bear, a killer whale, a seal, or an eagle",
+          "zh": "人、熊、虎鲸、海豹或老鹰"
         },
         {
           "en": "Only plants",
@@ -25,15 +25,15 @@
           "zh": "只有浮游生物"
         },
         {
-          "en": "A human, a bear, a killer whale, a seal, or an eagle",
-          "zh": "人、熊、虎鲸、海豹或老鹰"
+          "en": "Only other salmon because adult salmon are known to eat their own kind when food is scarce",
+          "zh": "只有其他三文鱼因为食物短缺时，成年三文鱼会吃同类"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says a salmon 'may be eaten by a human, a bear, a killer whale, a seal, or an eagle.'",
-        "zh": "书里写道，三文鱼「可能被人类、熊、虎鲸、海豹或老鹰吃掉」。"
+        "zh": "书里写道，三文鱼「可能被人类、熊、虎鲸、海豹或老鹰吃掉」"
       }
     },
     {
@@ -43,10 +43,6 @@
       },
       "options": [
         {
-          "en": "In the gravel of a riverbed or streambed, in cold, clean water",
-          "zh": "在河床或溪床的砾石里，需要冰冷干净的水"
-        },
-        {
           "en": "In a bird's nest",
           "zh": "在鸟巢里"
         },
@@ -55,15 +51,19 @@
           "zh": "在温暖而受污染的海里"
         },
         {
-          "en": "On top of rocks in the hot desert according to some versions of the story",
-          "zh": "在炎热沙漠的岩石上（按书中另一种说法）"
+          "en": "On top of rocks in the hot desert where the sun kept the eggs warm until they hatched into tiny fish",
+          "zh": "在炎热沙漠的岩石上太阳把卵晒得暖暖的，直到孵出小鱼"
+        },
+        {
+          "en": "In the gravel of a riverbed or streambed, in cold, clean water",
+          "zh": "在河床或溪床的砾石里，需要冰冷干净的水"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says salmon 'begin as tiny eggs laid in the gravel of a riverbed or streambed' and 'need cold, clean water in order to lay and fertilize eggs.'",
-        "zh": "书里说三文鱼「始于产在河床或溪床砾石里的微小卵」，并且「需要冰冷干净的水来产卵和受精」。"
+        "zh": "书里说三文鱼「始于产在河床或溪床砾石里的微小卵」，并且「需要冰冷干净的水来产卵和受精」"
       }
     },
     {
@@ -73,27 +73,27 @@
       },
       "options": [
         {
-          "en": "For their whole lives, they never leave according to some versions of the story",
-          "zh": "一生都不离开（按书中另一种说法）"
-        },
-        {
-          "en": "For one to seven years, traveling thousands of miles",
-          "zh": "一到七年，游动数千英里"
-        },
-        {
           "en": "For about fifty years",
           "zh": "约五十年"
         },
         {
           "en": "For only a few days",
           "zh": "只有几天"
+        },
+        {
+          "en": "For one to seven years, traveling thousands of miles",
+          "zh": "一到七年，游动数千英里"
+        },
+        {
+          "en": "For their whole lives, they never leave and they return to the exact river where they were born only after they die",
+          "zh": "一生都不离开而且它们只在死后才回到出生的那条河"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says adult salmon 'live and feed on smaller fish in the ocean for one to seven years, traveling thousands of miles.'",
-        "zh": "书里说成年三文鱼「在海洋中以较小的鱼为食生活一到七年，游动数千英里」。"
+        "zh": "书里说成年三文鱼「在海洋中以较小的鱼为食生活一到七年，游动数千英里」"
       }
     },
     {
@@ -103,27 +103,27 @@
       },
       "options": [
         {
-          "en": "A type of dam built by humans according to some versions of the story in an early draft of the book",
-          "zh": "人类修建的一种水坝（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "A nest where salmon lay eggs",
-          "zh": "三文鱼产卵的巢"
-        },
-        {
           "en": "A deep part of the open ocean",
           "zh": "开阔海洋的深处"
         },
         {
+          "en": "A type of dam built by humans which engineers open and close to control how much salt enters the sea",
+          "zh": "人类修建的一种水坝工程师通过开合它来控制进入海洋的盐量"
+        },
+        {
           "en": "The part of a river where fresh water mixes with the ocean's salt water (brackish)",
           "zh": "河流中淡水与海水混合（变成微咸水）的那一段"
+        },
+        {
+          "en": "A nest where salmon lay eggs",
+          "zh": "三文鱼产卵的巢"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
-        "en": "The glossary defines an estuary as 'the part of a river where the fresh water mixes with the ocean's salt water' — the smolts prepare there for the ocean.",
-        "zh": "词汇表把 estuary 定义为「河流中淡水与海水混合的那一段」——小鱼在那里为进入海洋做准备。"
+        "en": "The glossary defines an estuary as 'the part of a river where the fresh water mixes with the ocean's salt water' — the smolts prepare there for the ocean",
+        "zh": "词汇表把 estuary 定义为「河流中淡水与海水混合的那一段」——小鱼在那里为进入海洋做准备"
       }
     },
     {
@@ -133,27 +133,27 @@
       },
       "options": [
         {
-          "en": "Adult salmon that swim in the ocean according to some versions of the story",
-          "zh": "在海洋里游的成年三文鱼（按书中另一种说法）"
+          "en": "Adult salmon that swim in the ocean and they are the ones that swim out to the open ocean to spawn",
+          "zh": "在海洋里游的成年三文鱼而且正是它们游向开阔海洋去产卵"
         },
         {
           "en": "The eggs before they hatch",
           "zh": "孵化前的卵"
         },
         {
-          "en": "Baby salmon that have a food sac on their underbelly",
-          "zh": "肚子下面带着食物囊的幼小三文鱼"
-        },
-        {
           "en": "A kind of plankton",
           "zh": "一种浮游生物"
+        },
+        {
+          "en": "Baby salmon that have a food sac on their underbelly",
+          "zh": "肚子下面带着食物囊的幼小三文鱼"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
-        "en": "The glossary defines alevins as 'baby salmon that have a food sac on their underbelly' (the stage right after hatching).",
-        "zh": "词汇表把 alevins 定义为「肚子下面带着食物囊的幼小三文鱼」（刚孵化后的阶段）。"
+        "en": "The glossary defines alevins as 'baby salmon that have a food sac on their underbelly' (the stage right after hatching)",
+        "zh": "词汇表把 alevins 定义为「肚子下面带着食物囊的幼小三文鱼」（刚孵化后的阶段）"
       }
     },
     {
@@ -163,27 +163,27 @@
       },
       "options": [
         {
-          "en": "To eat other fish",
-          "zh": "吃其他鱼"
+          "en": "To change color",
+          "zh": "变色"
+        },
+        {
+          "en": "To swim upstream quickly",
+          "zh": "快速逆流而上"
+        },
+        {
+          "en": "To eat other fish and the word is only used for fish that hunt near the surface",
+          "zh": "吃其他鱼而且这个词只用来指在水面附近捕食的鱼"
         },
         {
           "en": "To reproduce and lay eggs",
           "zh": "繁殖并产卵"
-        },
-        {
-          "en": "To swim upstream quickly according to some versions of the story",
-          "zh": "快速逆流而上（按书中另一种说法）"
-        },
-        {
-          "en": "To change color",
-          "zh": "变色"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
-        "en": "The glossary defines spawn as 'reproduce and lay eggs' — the return trip salmon make to lay and fertilize eggs.",
-        "zh": "词汇表把 spawn 定义为「繁殖并产卵」——三文鱼返乡产卵受精的旅程。"
+        "en": "The glossary defines spawn as 'reproduce and lay eggs' — the return trip salmon make to lay and fertilize eggs",
+        "zh": "词汇表把 spawn 定义为「繁殖并产卵」——三文鱼返乡产卵受精的旅程"
       }
     },
     {
@@ -193,27 +193,27 @@
       },
       "options": [
         {
-          "en": "The chemicals turn the bird into a fish according to some versions of the story in an early draft of the book",
-          "zh": "化学物质把鸟变成了鱼（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "The bird learns to avoid the water",
           "zh": "鸟学会避开那片水"
+        },
+        {
+          "en": "The chemicals turn the bird into a fish",
+          "zh": "化学物质把鸟变成了鱼"
         },
         {
           "en": "The smolt absorbs the chemicals, and when a bird eats the smolt, the bird becomes poisoned",
           "zh": "小鱼吸收了化学物质，鸟吃掉小鱼后就会中毒"
         },
         {
-          "en": "The bird grows larger and stronger",
-          "zh": "鸟变得更大更强壮"
+          "en": "The bird grows larger and stronger and within a week it becomes the largest bird in the whole river",
+          "zh": "鸟变得更大更强壮而且一周之内它就变成了整条河里最大的鸟"
         }
       ],
       "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
-        "en": "The book says if a smolt 'absorbs pollution into its body and then a bird eats the smolt, the bird becomes poisoned' — one link harming the next.",
-        "zh": "书里说，如果小鱼「把污染吸进体内，随后鸟吃掉小鱼，鸟就会中毒」——链条上一环受损，下一环也受害。"
+        "en": "The book says if a smolt 'absorbs pollution into its body and then a bird eats the smolt, the bird becomes poisoned' — one link harming the next",
+        "zh": "书里说，如果小鱼「把污染吸进体内，随后鸟吃掉小鱼，鸟就会中毒」——链条上一环受损，下一环也受害"
       }
     },
     {
@@ -223,27 +223,27 @@
       },
       "options": [
         {
-          "en": "They are frozen and saved for later according to some versions of the story",
-          "zh": "被冷冻保存起来（按书中另一种说法）"
+          "en": "They are eaten only by humans",
+          "zh": "只被人类吃掉"
         },
         {
-          "en": "Their decomposing bodies fertilize the stream and feed plankton",
-          "zh": "它们腐烂的尸体为溪流施肥，并成为浮游生物的食物"
+          "en": "They are frozen and saved for later so scientists can study them in a lab during the next winter",
+          "zh": "被冷冻保存起来这样科学家能在来年冬天在实验室研究它们"
         },
         {
           "en": "They turn into new rivers",
           "zh": "变成了新的河流"
         },
         {
-          "en": "They are eaten only by humans",
-          "zh": "只被人类吃掉"
+          "en": "Their decomposing bodies fertilize the stream and feed plankton",
+          "zh": "它们腐烂的尸体为溪流施肥，并成为浮游生物的食物"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
-        "en": "The book says the decomposing salmon 'fertilize the stream' and their 'flesh and bones also provide food for plankton,' restarting the cycle.",
-        "zh": "书里说腐烂的三文鱼「为溪流施肥」，其「肉和骨头也成为浮游生物的食物」，让生命循环重新开始。"
+        "en": "The book says the decomposing salmon 'fertilize the stream' and their 'flesh and bones also provide food for plankton,' restarting the cycle",
+        "zh": "书里说腐烂的三文鱼「为溪流施肥」，其「肉和骨头也成为浮游生物的食物」，让生命循环重新开始"
       }
     },
     {
@@ -257,23 +257,23 @@
           "zh": "伤害食物链中的某一个生物，就会伤害与它相连的其他生物"
         },
         {
-          "en": "Salmon are the only important link",
-          "zh": "三文鱼是唯一重要的一环"
+          "en": "Only the biggest animal matters in a food chain",
+          "zh": "食物链里只有最大的动物才重要"
         },
         {
           "en": "Food chains never change",
           "zh": "食物链永远不变"
         },
         {
-          "en": "Only the biggest animal matters in a food chain according to some versions of the story in an early draft of the book",
-          "zh": "食物链里只有最大的动物才重要（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Salmon are the only important link because every other creature in the ocean depends only on salmon to live",
+          "zh": "三文鱼是唯一重要的一环因为海洋里所有其他生物都只靠三文鱼生存"
         }
       ],
       "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book repeats that salmon are links in many food chains and 'Harming one living thing in a food chain harms other living things in the chain.'",
-        "zh": "书里反复强调三文鱼是许多食物链中的一环，而「伤害食物链中的某一个生物，就会伤害链条上的其他生物」。"
+        "zh": "书里反复强调三文鱼是许多食物链中的一环，而「伤害食物链中的某一个生物，就会伤害链条上的其他生物」"
       }
     },
     {
@@ -283,6 +283,10 @@
       },
       "options": [
         {
+          "en": "To encourage people to eat more salmon",
+          "zh": "为了鼓励人们多吃三文鱼"
+        },
+        {
           "en": "To show how interconnected salmon are with other animals and their environment at every stage",
           "zh": "为了展现三文鱼在每一个阶段都与其他动物和环境紧密相连"
         },
@@ -291,19 +295,15 @@
           "zh": "为了列出三文鱼去过的每个国家"
         },
         {
-          "en": "To prove salmon are the smartest fish according to some versions of the story in an early draft of the book",
-          "zh": "为了证明三文鱼是最聪明的鱼（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "To encourage people to eat more salmon",
-          "zh": "为了鼓励人们多吃三文鱼"
+          "en": "To prove salmon are the smartest fish and the book gives them high scores on tests meant for dolphins",
+          "zh": "为了证明三文鱼是最聪明的鱼而且书里还让他们在给海豚做的测试中拿了高分"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
-        "en": "The book says you will 'learn about the salmon life cycle and about all the ways they are interconnected with other animals and with their environment,' showing the author's purpose.",
-        "zh": "书里说你会「了解三文鱼的生命周期，以及它们与其他动物和环境相连的各种方式」，正体现了作者的写作目的。"
+        "en": "The book says you will 'learn about the salmon life cycle and about all the ways they are interconnected with other animals and with their environment,' showing the author's purpose",
+        "zh": "书里说你会「了解三文鱼的生命周期，以及它们与其他动物和环境相连的各种方式」，正体现了作者的写作目的"
       }
     }
   ],
@@ -314,14 +314,14 @@
     },
     "guidance": {
       "en": [
-        "Salmon link plankton -> herring -> salmon -> bears/eagles/humans; harming one link harms the others (p. 4-5).",
-        "Pollution in an estuary can poison a bird that eats an affected smolt (p. 12).",
-        "A good answer names a real food chain, predicts the effect of losing one link, and explains why the connections matter."
+        "Salmon link plankton -> herring -> salmon -> bears/eagles/humans; harming one link harms the others (p. 4-5)",
+        "Pollution in an estuary can poison a bird that eats an affected smolt (p. 12)",
+        "A good answer names a real food chain, predicts the effect of losing one link, and explains why the connections matter"
       ],
       "zh": [
-        "三文鱼连接着 浮游生物 → 鲱鱼 → 三文鱼 → 熊/老鹰/人类；伤害一环就会伤害其他环（第4-5页）。",
-        "河口的污染会让吃掉受影响小鱼的鸟中毒（第12页）。",
-        "好的回答会说出一条真实的食物链，预测失去一环的后果，并解释这种联系为何重要。"
+        "三文鱼连接着 浮游生物 → 鲱鱼 → 三文鱼 → 熊/老鹰/人类；伤害一环就会伤害其他环（第4-5页）",
+        "河口的污染会让吃掉受影响小鱼的鸟中毒（第12页）",
+        "好的回答会说出一条真实的食物链，预测失去一环的后果，并解释这种联系为何重要"
       ]
     }
   }
