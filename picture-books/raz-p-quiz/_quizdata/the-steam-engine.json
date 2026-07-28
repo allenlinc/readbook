@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "The 1800s according to some versions of the story",
-          "zh": "19世纪（按书中另一种说法）"
+          "en": "The 1800s, the century of big factories",
+          "zh": "19世纪，大工厂的世纪"
         },
         {
           "en": "The 1900s",
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "Robert Fulton",
+          "zh": "罗伯特·富尔顿"
+        },
+        {
           "en": "James Watt",
           "zh": "詹姆斯·瓦特"
         },
@@ -53,13 +57,9 @@
         {
           "en": "Thomas Newcomen",
           "zh": "托马斯·纽科门"
-        },
-        {
-          "en": "Robert Fulton",
-          "zh": "罗伯特·富尔顿"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'Almost 300 years ago, in 1712, Thomas Newcomen built a steam engine. Others had built steam engines, but Newcomen's was the first to work really well.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Pump water out of coal mines",
-          "zh": "把水从煤矿中抽出来"
+          "en": "Run clothing factories, sewing shirts all day",
+          "zh": "运转服装工厂，整天缝衬衫"
         },
         {
-          "en": "Power trains",
-          "zh": "为火车提供动力"
+          "en": "Pump water out of coal mines",
+          "zh": "把水从煤矿中抽出来"
         },
         {
           "en": "Fly airplanes",
           "zh": "驾驶飞机"
         },
         {
-          "en": "Run clothing factories according to some versions of the story",
-          "zh": "运转服装工厂（按书中另一种说法）"
+          "en": "Power trains",
+          "zh": "为火车提供动力"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'He used his steam engine to run a water pump, which pumped water out of coal mines.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "It could not boil water",
-          "zh": "它无法烧开水"
-        },
-        {
-          "en": "It was too small to be useful according to some versions of the story",
-          "zh": "它太小而没有用处（按书中另一种说法）"
-        },
-        {
           "en": "It exploded often",
           "zh": "它经常爆炸"
         },
         {
+          "en": "It could not boil water",
+          "zh": "它无法烧开水"
+        },
+        {
           "en": "It needed a large amount of coal to do a small amount of work",
           "zh": "它需要用大量的煤来完成少量的工作"
+        },
+        {
+          "en": "It was too small to be useful, barely bigger than a bread box",
+          "zh": "它太小而没有用处，比面包盒大不了多少"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says: 'The engine had one problem. It needed a large amount of coal to do a small amount of work.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "He made it much bigger",
-          "zh": "他把机器造得更大"
+          "en": "He added a sail",
+          "zh": "他增加了一面帆"
+        },
+        {
+          "en": "He used wood instead of coal, the cheap fuel from forests",
+          "zh": "他用木头代替煤，来自森林的廉价燃料"
         },
         {
           "en": "He made it work with less coal",
           "zh": "他让机器用更少的煤工作"
         },
         {
-          "en": "He used wood instead of coal according to some versions of the story",
-          "zh": "他用木头代替煤（按书中另一种说法）"
-        },
-        {
-          "en": "He added a sail",
-          "zh": "他增加了一面帆"
+          "en": "He made it much bigger",
+          "zh": "他把机器造得更大"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says: 'In the 1760s, Scotsman James Watt improved Newcomen's engine. He made the machine work with less coal.'",
@@ -171,8 +171,8 @@
           "zh": "太空时代"
         },
         {
-          "en": "The American Civil War according to some versions of the story",
-          "zh": "美国内战（按书中另一种说法）"
+          "en": "The American Civil War, a long war between the northern and southern states",
+          "zh": "美国内战，北方与南方各州之间的一场漫长战争"
         },
         {
           "en": "World War I",
@@ -183,7 +183,7 @@
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says Watt's rotary engine 'was one event that led to the Industrial Revolution, also known as the Age of Steam.'",
-        "zh": "书中说瓦特的旋转式蒸汽机'是导致工业革命（又称蒸汽时代）的事件之一'。"
+        "zh": "书中说瓦特的旋转式蒸汽机'是导致工业革命（又称蒸汽时代）的事件之一'"
       }
     },
     {
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "Richard Trevithick",
-          "zh": "理查德·特雷维西克"
+          "en": "Thomas Newcomen, the man who built the first good engine",
+          "zh": "托马斯·纽科门，制造首台好机器的人"
         },
         {
           "en": "James Watt",
           "zh": "詹姆斯·瓦特"
         },
         {
-          "en": "Thomas Newcomen according to some versions of the story",
-          "zh": "托马斯·纽科门（按书中另一种说法）"
+          "en": "Richard Trevithick",
+          "zh": "理查德·特雷维西克"
         },
         {
           "en": "Robert Fulton",
           "zh": "罗伯特·富尔顿"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says: 'Trevithick built one of the first steam locomotives, or trains, in 1804. It hauled coal at a factory.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "A train crash in 1900, a terrible wreck that killed hundreds of passengers",
+          "zh": "1900年的一场火车事故，一场造成数百名乘客死亡的惨烈事故"
+        },
+        {
           "en": "A factory fire",
           "zh": "一场工厂火灾"
         },
         {
-          "en": "A coal mine collapse",
-          "zh": "一次煤矿坍塌"
-        },
-        {
-          "en": "A train crash in 1900 according to some versions of the story in an early draft of the book",
-          "zh": "1900年的一场火车事故（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "A steamboat whose boiler exploded in 1865, killing over 1,700 people",
           "zh": "一艘蒸汽船在1865年锅炉爆炸，造成逾1700人死亡"
+        },
+        {
+          "en": "A coal mine collapse",
+          "zh": "一次煤矿坍塌"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says: 'One of the worst disasters in American history took place on April 27, 1865. The boiler on the crowded steamboat Sultana exploded... More than 1,700 people died.'",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "The 1700s according to some versions of the story",
-          "zh": "18世纪（按书中另一种说法）"
+          "en": "The 1500s",
+          "zh": "16世纪"
+        },
+        {
+          "en": "The 1700s",
+          "zh": "18世纪"
         },
         {
           "en": "The 1960s",
           "zh": "20世纪60年代"
         },
         {
-          "en": "The 2000s",
-          "zh": "21世纪"
-        },
-        {
-          "en": "The 1500s",
-          "zh": "16世纪"
+          "en": "The 2000s, when high-speed trains took over",
+          "zh": "21世纪，高铁普及的时代"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says: 'Steam locomotives ran in the United States until the 1960s. By then, almost all locomotives had diesel engines.'",
@@ -283,10 +283,6 @@
       },
       "options": [
         {
-          "en": "To power cars",
-          "zh": "为汽车提供动力"
-        },
-        {
           "en": "To produce electricity",
           "zh": "用来发电"
         },
@@ -297,9 +293,13 @@
         {
           "en": "To boil water for cooking",
           "zh": "烧水做饭"
+        },
+        {
+          "en": "To power cars",
+          "zh": "为汽车提供动力"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says: 'For instance, power plants use it to produce electricity. It powers your lights and your television.'",
@@ -309,8 +309,8 @@
   ],
   "extended": {
     "prompt": {
-      "en": "The book says steam power may still have a place in the modern world, including using solar panels to make steam. Do you think steam power has a future? Explain your view.",
-      "zh": "书中说蒸汽动力在现代世界仍有一席之地，包括利用太阳能板产生蒸汽。你认为蒸汽动力有未来吗？解释你的看法。"
+      "en": "The book says steam power may still have a place in the modern world, including using solar panels to make steam. Do you think steam power has a future? Explain your view",
+      "zh": "书中说蒸汽动力在现代世界仍有一席之地，包括利用太阳能板产生蒸汽。你认为蒸汽动力有未来吗？解释你的看法"
     },
     "guidance": {
       "en": [

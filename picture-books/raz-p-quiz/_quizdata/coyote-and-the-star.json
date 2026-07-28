@@ -13,27 +13,27 @@
       },
       "options": [
         {
-          "en": "A science textbook",
-          "zh": "一本科普教科书"
-        },
-        {
-          "en": "A news report about space according to some versions of the story in an early draft of the book",
-          "zh": "一篇关于太空的新闻报道（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "A biography of a wolf",
           "zh": "一本关于狼的传记"
         },
         {
           "en": "A Klamath Native American folktale that explains how Crater Lake formed",
           "zh": "一个克拉马特印第安人的民间故事，解释火山口湖的由来"
+        },
+        {
+          "en": "A science textbook",
+          "zh": "一本科普教科书"
+        },
+        {
+          "en": "A news report about space written by a reporter who visited the lake last year",
+          "zh": "一篇关于太空的新闻报道，由一位去年探访过该湖的记者撰写"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book is \"A Klamath Native American Folktale\" and says it is \"a myth told to explain the origin of Crater Lake.\"",
-        "zh": "书中标明它是“克拉马特印第安人民间故事”，并说这是“用来解释火山口湖由来的神话”。"
+        "zh": "书中标明它是“克拉马特印第安人民间故事”，并说这是“用来解释火山口湖由来的神话”"
       }
     },
     {
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Because he was a good hunter",
-          "zh": "因为他是个好猎手"
-        },
-        {
           "en": "Because he was silent",
           "zh": "因为他很安静"
         },
         {
-          "en": "Because he loved to howl and sing, even though his voice was scratchy",
-          "zh": "因为他喜欢嚎叫和唱歌，尽管嗓音有些沙哑"
+          "en": "Because he was a good hunter",
+          "zh": "因为他是个好猎手"
         },
         {
-          "en": "Because he lived with birds according to some versions of the story in an early draft of the book",
-          "zh": "因为他和鸟儿住在一起（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Because he lived with birds and learned his songs by copying the robins",
+          "zh": "因为他和鸟儿住在一起，并通过模仿知更鸟学会了唱歌"
+        },
+        {
+          "en": "Because he loved to howl and sing, even though his voice was scratchy",
+          "zh": "因为他喜欢嚎叫和唱歌，尽管嗓音有些沙哑"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"Coyote was known among the other animals as the Song Dog, even though his voice was rather scratchy. He loved to howl and sing his songs.\"",
@@ -73,8 +73,12 @@
       },
       "options": [
         {
-          "en": "By catching a fish",
-          "zh": "抓一条鱼"
+          "en": "By writing a letter",
+          "zh": "写一封信"
+        },
+        {
+          "en": "By catching a fish and then offering the fish to the star as a gift to win her notice",
+          "zh": "抓一条鱼，随后把鱼作为礼物献给星星，以赢得她的注意"
         },
         {
           "en": "By composing and singing a beautiful new song over three days",
@@ -83,17 +87,13 @@
         {
           "en": "By building a fire",
           "zh": "生一堆火"
-        },
-        {
-          "en": "By writing a letter according to some versions of the story in an early draft of the book",
-          "zh": "写一封信（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
-        "en": "Coyote \"thought and wrote. After three days he had composed a new song\" and sang it to the star, hoping she would notice him.",
-        "zh": "郊狼“思考并写词。三天后他创作了一首新歌”，对着星星唱，希望她能注意到自己。"
+        "en": "Coyote \"thought and wrote. After three days he had composed a new song\" and sang it to the star, hoping she would notice him",
+        "zh": "郊狼“思考并写词。三天后他创作了一首新歌”，对着星星唱，希望她能注意到自己"
       }
     },
     {
@@ -107,23 +107,23 @@
           "zh": "月亮为什么明亮"
         },
         {
-          "en": "How wolves became dogs according to some versions of the story in an early draft of the book",
-          "zh": "狼是如何变成狗的（按书中另一种说法）（在书的早期草稿中）"
+          "en": "The origin of Crater Lake and why coyotes howl at the stars",
+          "zh": "火山口湖的由来，以及郊狼为什么对着星星嚎叫"
+        },
+        {
+          "en": "How wolves became dogs after the star taught them to hunt together in packs",
+          "zh": "狼是如何变成狗的，在星星教它们成群狩猎之后"
         },
         {
           "en": "How to climb a mountain",
           "zh": "如何爬山"
-        },
-        {
-          "en": "The origin of Crater Lake and why coyotes howl at the stars",
-          "zh": "火山口湖的由来，以及郊狼为什么对着星星嚎叫"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book ends by saying the story explains the origin of Crater Lake, and that \"when coyotes howl at the stars, they are scolding the star that killed the first Coyote.\"",
-        "zh": "书的结尾说这个故事解释了火山口湖的由来，并说“当郊狼对着星星嚎叫，是在责骂那只害死第一只郊狼的星星”。"
+        "zh": "书的结尾说这个故事解释了火山口湖的由来，并说“当郊狼对着星星嚎叫，是在责骂那只害死第一只郊狼的星星”"
       }
     },
     {
@@ -133,8 +133,8 @@
       },
       "options": [
         {
-          "en": "For seven nights according to some versions of the story",
-          "zh": "七个夜晚（按书中另一种说法）"
+          "en": "For seven nights until he finally landed softly on a cloud",
+          "zh": "七个夜晚，直到他最后轻轻落在一朵云上"
         },
         {
           "en": "For one whole moon, twenty-eight days",
@@ -167,16 +167,16 @@
           "zh": "坚韧而坚定"
         },
         {
+          "en": "Lazy and sleepy so he took a long nap instead of chasing the star",
+          "zh": "懒惰又爱睡，于是他睡了一大觉，而不是去追星星"
+        },
+        {
           "en": "Noisy and rude",
           "zh": "吵闹又无礼"
         },
         {
-          "en": "Lazy and sleepy",
-          "zh": "懒惰又爱睡"
-        },
-        {
-          "en": "Frightened and still according to some versions of the story",
-          "zh": "害怕且不动（按书中另一种说法）"
+          "en": "Frightened and still",
+          "zh": "害怕且不动"
         }
       ],
       "answer": 0,
@@ -197,23 +197,23 @@
           "zh": "他从梦中醒来"
         },
         {
-          "en": "He turned into a star",
-          "zh": "他变成了一颗星星"
+          "en": "He found the missing puzzle piece",
+          "zh": "他找到了缺失的拼图碎片"
+        },
+        {
+          "en": "He turned into a star that still shines brightly above Crater Lake and is seen by campers on clear nights",
+          "zh": "他变成了一颗星星，至今仍在火山口湖上空明亮闪烁，晴朗夜晚的露营者都能看见"
         },
         {
           "en": "His impact made a hole that filled with his blood-turned-water, becoming a deep blue lake",
           "zh": "撞击形成一个大坑，他的血变成水注满坑里，成了一座深蓝色的湖"
-        },
-        {
-          "en": "He found the missing puzzle piece according to some versions of the story in an early draft of the book",
-          "zh": "他找到了缺失的拼图碎片（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
-        "en": "The book says his blood \"turned to water and filled the hole to become a beautiful lake. It is the deepest, bluest lake on the continent of North America\"—Crater Lake.",
-        "zh": "书中说他的血“变成水，注满那个坑，成了一座美丽的湖。那是北美大陆上最深、最蓝的湖”——即火山口湖。"
+        "en": "The book says his blood \"turned to water and filled the hole to become a beautiful lake. It is the deepest, bluest lake on the continent of North America\"—Crater Lake",
+        "zh": "书中说他的血“变成水，注满那个坑，成了一座美丽的湖。那是北美大陆上最深、最蓝的湖”——即火山口湖"
       }
     },
     {
@@ -223,27 +223,27 @@
       },
       "options": [
         {
+          "en": "To teach readers to fear stars",
+          "zh": "为了教读者害怕星星"
+        },
+        {
           "en": "To show they remember the first Coyote's love and the star that let him fall",
           "zh": "为了说明它们记得第一只郊狼的爱，以及那颗让他坠落的星星"
         },
         {
-          "en": "To teach readers to fear stars according to some versions of the story in an early draft of the book",
-          "zh": "为了教读者害怕星星（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "To describe the night sky",
-          "zh": "为了描写夜空"
+          "en": "To describe the night sky by counting every star above Crater Lake one by one on a clear night",
+          "zh": "为了描写夜空，在晴朗的夜晚把火山口湖上方的每一颗星星都一颗一颗数过来"
         },
         {
           "en": "To explain how coyotes hunt",
           "zh": "为了解释郊狼如何捕猎"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says coyotes howl to scold the star \"that killed the first Coyote. They remember him and his great love in their songs.\"",
-        "zh": "书中说郊狼嚎叫是在责骂那只“害死第一只郊狼的星星。它们在歌声里纪念他和他伟大的爱”。"
+        "zh": "书中说郊狼嚎叫是在责骂那只“害死第一只郊狼的星星。它们在歌声里纪念他和他伟大的爱”"
       }
     },
     {
@@ -253,27 +253,27 @@
       },
       "options": [
         {
-          "en": "Climbed out on a tree branch, but it broke and he fell into the water",
-          "zh": "爬上一根伸过河面的树枝，但树枝断了，他掉进水里"
+          "en": "Swam straight across",
+          "zh": "直接游了过去"
         },
         {
           "en": "Built a bridge",
           "zh": "搭了一座桥"
         },
         {
-          "en": "Flew over it",
-          "zh": "飞了过去"
+          "en": "Climbed out on a tree branch, but it broke and he fell into the water",
+          "zh": "爬上一根伸过河面的树枝，但树枝断了，他掉进水里"
         },
         {
-          "en": "Swam straight across according to some versions of the story in an early draft of the book",
-          "zh": "直接游了过去（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Flew over it using the large wings of a bird he found lying on the river bank",
+          "zh": "飞了过去，用他在河岸上发现的一只大鸟的翅膀飞过"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "Coyote \"climbed the tree and tiptoed out onto the branch. Just as he reached the end... the branch broke. Splash!\" He fell into the cold, swift water.",
-        "zh": "郊狼“爬上树，踮脚走上树枝。刚走到尽头……树枝就断了。扑通！”他掉进又冷又急的水里。"
+        "en": "Coyote \"climbed the tree and tiptoed out onto the branch. Just as he reached the end... the branch broke. Splash!\" He fell into the cold, swift water",
+        "zh": "郊狼“爬上树，踮脚走上树枝。刚走到尽头……树枝就断了。扑通！”他掉进又冷又急的水里"
       }
     },
     {
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "Hungry and angry",
+          "zh": "饥饿又生气"
+        },
+        {
           "en": "Calm and happy",
           "zh": "平静又开心"
         },
         {
+          "en": "Proud and sleepy because he believed he had finally beaten the star",
+          "zh": "骄傲又困倦，因为他以为自己终于胜过了那颗星星"
+        },
+        {
           "en": "Dizzy and afraid; he missed his rock and the ground",
           "zh": "头晕又害怕；他想念屋外的石头和地面"
-        },
-        {
-          "en": "Proud and sleepy according to some versions of the story",
-          "zh": "骄傲又困倦（按书中另一种说法）"
-        },
-        {
-          "en": "Hungry and angry",
-          "zh": "饥饿又生气"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "High above Earth, \"Coyote began to get dizzy and afraid... He begged the star to return him to Earth. He missed the rock outside his house, and he missed the ground.\"",
@@ -309,21 +309,21 @@
   ],
   "extended": {
     "prompt": {
-      "en": "Coyote wanted something he could not safely have and learned a hard lesson. Tell about a time you wanted something badly and what you learned from not getting it—or from finally getting it.",
-      "zh": "郊狼渴望自己无法安全得到的东西，并由此学到了教训。讲讲你曾经非常想要某样东西，以及你从“没有得到”或“最终得到”中学到了什么。"
+      "en": "Coyote wanted something he could not safely have and learned a hard lesson. Tell about a time you wanted something badly and what you learned from not getting it—or from finally getting it",
+      "zh": "郊狼渴望自己无法安全得到的东西，并由此学到了教训。讲讲你曾经非常想要某样东西，以及你从“没有得到”或“最终得到”中学到了什么"
     },
     "guidance": {
       "en": [
-        "Wanting something does not always mean it is good for us.",
-        "Being brave can also mean knowing when to stop.",
-        "Love and friendship are best when they are returned.",
-        "Stories from long ago often teach lessons about life."
+        "Wanting something does not always mean it is good for us",
+        "Being brave can also mean knowing when to stop",
+        "Love and friendship are best when they are returned",
+        "Stories from long ago often teach lessons about life"
       ],
       "zh": [
-        "想要某样东西，并不等于它对我们有好处。",
-        "勇敢有时也意味着懂得何时该停下。",
-        "爱与友谊，最好能得到回应。",
-        "古老的故事常用来传达人生的道理。"
+        "想要某样东西，并不等于它对我们有好处",
+        "勇敢有时也意味着懂得何时该停下",
+        "爱与友谊，最好能得到回应",
+        "古老的故事常用来传达人生的道理"
       ]
     }
   }

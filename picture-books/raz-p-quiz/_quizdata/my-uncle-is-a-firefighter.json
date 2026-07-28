@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "One week",
-          "zh": "一周"
+          "en": "Twelve minutes, which the book says is the exact length of a normal shift",
+          "zh": "十二分钟，书里说这正是普通一班的时间长度"
         },
         {
           "en": "Two hours",
@@ -25,8 +25,8 @@
           "zh": "二十四小时"
         },
         {
-          "en": "Twelve minutes according to some versions of the story",
-          "zh": "十二分钟（按书中另一种说法）"
+          "en": "One week",
+          "zh": "一周"
         }
       ],
       "answer": 2,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "Cooked dinner",
+          "zh": "做晚餐"
+        },
+        {
           "en": "Saved from danger",
           "zh": "从危险中救出"
         },
         {
-          "en": "Put away gear according to some versions of the story",
-          "zh": "收起装备（按书中另一种说法）"
+          "en": "Put away gear, which the book explains means putting equipment back in the truck",
+          "zh": "收起装备，书里解释说这指的是把装备放回卡车里"
         },
         {
           "en": "Drove a truck",
           "zh": "开卡车"
-        },
-        {
-          "en": "Cooked dinner",
-          "zh": "做晚餐"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines rescued as 'saved from danger (p. 14).'",
@@ -73,16 +73,16 @@
       },
       "options": [
         {
-          "en": "Two hundred gallons according to some versions of the story",
-          "zh": "两百加仑（按书中另一种说法）"
+          "en": "Twenty gallons",
+          "zh": "二十加仑"
         },
         {
           "en": "Two gallons",
           "zh": "两加仑"
         },
         {
-          "en": "Twenty gallons",
-          "zh": "二十加仑"
+          "en": "Two hundred gallons, which the book says is the amount carried by the water truck",
+          "zh": "两百加仑，书里说这是救火车装载的水量"
         },
         {
           "en": "Two thousand gallons",
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "A parrot",
-          "zh": "一只鹦鹉"
-        },
-        {
           "en": "Fluffy, a poodle",
           "zh": "贵宾犬 Fluffy"
         },
@@ -117,9 +113,13 @@
         {
           "en": "A rabbit",
           "zh": "一只兔子"
+        },
+        {
+          "en": "A parrot",
+          "zh": "一只鹦鹉"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, 'Uncle Jason searched the house and found Fluffy hiding under a bed... The firefighters... rescued the pets and put out the fire.' Fluffy was the family's poodle.",
@@ -137,12 +137,12 @@
           "zh": "为了说明他们就像一个大家庭"
         },
         {
-          "en": "To say firefighters never work according to some versions of the story",
-          "zh": "为了说消防员从不工作（按书中另一种说法）"
-        },
-        {
           "en": "To explain how to cook chicken",
           "zh": "为了讲解如何做鸡肉"
+        },
+        {
+          "en": "To say firefighters never work, which the book suggests when it shows them sleeping all day at the station",
+          "zh": "为了说消防员从不工作，书在展示他们整天在消防站睡觉时就暗示了这一点"
         },
         {
           "en": "To describe a restaurant",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Hide under your bed or behind the curtains",
-          "zh": "躲在床下或窗帘后面"
+          "en": "Stay low",
+          "zh": "压低身子"
         },
         {
-          "en": "Leave the building according to some versions of the story",
-          "zh": "离开建筑物（按书中另一种说法）"
+          "en": "Leave the building, which Uncle Jason says is the safest thing to do during a fire",
+          "zh": "离开建筑物，叔叔 Jason 说这是火灾中最安全的做法"
         },
         {
           "en": "Call for help",
           "zh": "呼救"
         },
         {
-          "en": "Stay low",
-          "zh": "压低身子"
+          "en": "Hide under your bed or behind the curtains",
+          "zh": "躲在床下或窗帘后面"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Uncle Jason warns, 'never to hide under my bed or behind my curtains because that would make it hard for firefighters to find me.'",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "A type of fire truck according to some versions of the story",
-          "zh": "一种消防车（按书中另一种说法）"
+          "en": "A meal schedule",
+          "zh": "进餐时间表"
         },
         {
           "en": "A kind of snake",
           "zh": "一种蛇"
         },
         {
-          "en": "A meal schedule",
-          "zh": "进餐时间表"
-        },
-        {
           "en": "A trip through a place to learn more about it",
           "zh": "穿过某个地方以了解更多信息的行程"
+        },
+        {
+          "en": "A type of fire truck, which the book explains is driven to emergencies with lights flashing",
+          "zh": "一种消防车，书里解释说这种车闪着灯开赴紧急情况"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines tour as 'a trip through a place to learn more about it (p. 5).'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "They teach math at school, which the book says is part of their weekly schedule at the fire station",
+          "zh": "他们在学校教数学，书里说这是他们在消防站每周日程的一部分"
+        },
+        {
           "en": "They sell ice cream",
           "zh": "他们卖冰淇淋"
         },
         {
-          "en": "They teach math at school according to some versions of the story",
-          "zh": "他们在学校教数学（按书中另一种说法）"
+          "en": "They repair cars",
+          "zh": "他们修车"
         },
         {
           "en": "They help sick or injured people get to the hospital",
           "zh": "他们帮助生病或受伤的人去医院"
-        },
-        {
-          "en": "They repair cars",
-          "zh": "他们修车"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The 'Do You Know?' section says firefighters are 'called when someone is sick or injured and needs to be rushed to the hospital' and help at car crashes.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Firefighter helmets according to some versions of the story",
-          "zh": "消防员的头盔（按书中另一种说法）"
-        },
-        {
-          "en": "Venomous snakes captured with a snake grabber",
-          "zh": "用捕蛇夹捕捉的毒蛇"
-        },
-        {
           "en": "Photographs",
           "zh": "照片"
         },
         {
+          "en": "Firefighter helmets, which the book says are locked safely inside the snake box each night",
+          "zh": "消防员的头盔，书里说这些头盔每天晚上都被安全地锁在蛇箱里"
+        },
+        {
           "en": "Water hoses",
           "zh": "水带"
+        },
+        {
+          "en": "Venomous snakes captured with a snake grabber",
+          "zh": "用捕蛇夹捕捉的毒蛇"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says in the desert the station gets calls about snakes; 'If the snakes are venomous, firefighters capture them with a metal pole called a snake grabber. The snakes are locked safely in the box.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Driving the truck according to some versions of the story",
-          "zh": "开卡车（按书中另一种说法）"
-        },
-        {
-          "en": "Being away from his wife and four-year-old son",
-          "zh": "不能和妻子以及四岁的儿子在一起"
+          "en": "Driving the truck, which Uncle Jason says is the hardest part of the job because he loves to drive",
+          "zh": "开卡车，叔叔 Jason 说这是工作中最难的部分，因为他喜欢开车"
         },
         {
           "en": "Washing dishes",
           "zh": "洗碗"
         },
         {
+          "en": "Being away from his wife and four-year-old son",
+          "zh": "不能和妻子以及四岁的儿子在一起"
+        },
+        {
           "en": "Climbing ladders",
           "zh": "爬梯子"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Uncle Jason says, 'the toughest part about being a firefighter is being away from his wife and four-year-old son.'",

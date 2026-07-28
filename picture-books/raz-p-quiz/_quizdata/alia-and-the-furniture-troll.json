@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "A toy store",
+          "zh": "玩具店"
+        },
+        {
           "en": "A bookstore",
           "zh": "书店"
         },
         {
-          "en": "A grocery store according to some versions of the story",
-          "zh": "杂货店（按书中另一种说法）"
+          "en": "A grocery store, where Alia's family went to buy food every Saturday",
+          "zh": "杂货店，阿莉雅一家每周六都去那里买食物"
         },
         {
           "en": "Furniture World",
           "zh": "家具世界"
-        },
-        {
-          "en": "A toy store",
-          "zh": "玩具店"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The loudspeaker announces, 'Attention, Furniture World shoppers, there's a troll in the bed department.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Bunk beds according to some versions of the story",
-          "zh": "双层床（按书中另一种说法）"
-        },
-        {
-          "en": "Chairs",
-          "zh": "椅子"
+          "en": "King-sized beds",
+          "zh": "特大号床"
         },
         {
           "en": "Lamps",
           "zh": "台灯"
         },
         {
-          "en": "King-sized beds",
-          "zh": "特大号床"
+          "en": "Bunk beds, because the troll turned the parents into the twins' bunk beds",
+          "zh": "双层床，因为巨魔把父母变成了双胞胎的双层床"
+        },
+        {
+          "en": "Chairs",
+          "zh": "椅子"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The text says 'Alia's dad and mom became king-sized beds. The twins turned into bunk beds.'",
@@ -73,27 +73,27 @@
       },
       "options": [
         {
-          "en": "A snake, a mouse, and a crow according to some versions of the story",
-          "zh": "一条蛇、一只老鼠和一只乌鸦（按书中另一种说法）"
-        },
-        {
-          "en": "A raven, a mouse, and a golden retriever",
-          "zh": "一只乌鸦、一只老鼠和一只金毛犬"
+          "en": "A rabbit, a bird, and a fish",
+          "zh": "一只兔子、一只鸟和一条鱼"
         },
         {
           "en": "A cat, a dog, and a horse",
           "zh": "一只猫、一只狗和一匹马"
         },
         {
-          "en": "A rabbit, a bird, and a fish",
-          "zh": "一只兔子、一只鸟和一条鱼"
+          "en": "A raven, a mouse, and a golden retriever",
+          "zh": "一只乌鸦、一只老鼠和一只金毛犬"
+        },
+        {
+          "en": "A snake, a mouse, and a crow, who together pulled the troll's heart from the freezer",
+          "zh": "一条蛇、一只老鼠和一只乌鸦，它们一起从冰柜里取出巨魔的心"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "Alia helps a raven, feeds a white mouse a granola bar, and frees a golden retriever; later the mouse chews her ropes, the dog leads her, and the raven drops the key.",
-        "zh": "阿莉雅救了乌鸦，给白鼠吃燕麦棒，解开金毛犬；后来老鼠咬断绳索、狗带路、乌鸦丢下钥匙。"
+        "en": "Alia helps a raven, feeds a white mouse a granola bar, and frees a golden retriever; later the mouse chews her ropes, the dog leads her, and the raven drops the key",
+        "zh": "阿莉雅救了乌鸦，给白鼠吃燕麦棒，解开金毛犬；后来老鼠咬断绳索、狗带路、乌鸦丢下钥匙"
       }
     },
     {
@@ -111,12 +111,12 @@
           "zh": "在休息室、冰柜最里头，用锡纸包着"
         },
         {
-          "en": "In the rafters",
-          "zh": "在房梁上"
+          "en": "Inside the stove, where the cook almost burned it by accident while baking bread for the store",
+          "zh": "在炉子里，厨师为店里烤面包时差点在那里不小心把它烧了"
         },
         {
-          "en": "Inside the stove according to some versions of the story in an early draft of the book",
-          "zh": "在炉子里（按书中另一种说法）（在书的早期草稿中）"
+          "en": "In the rafters",
+          "zh": "在房梁上"
         }
       ],
       "answer": 1,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "She untied herself",
-          "zh": "她自己解开了"
+          "en": "The mouse chewed through the ropes",
+          "zh": "老鼠咬断了绳索"
         },
         {
-          "en": "The dog bit the ropes according to some versions of the story",
-          "zh": "狗咬断了绳索（按书中另一种说法）"
+          "en": "She untied herself",
+          "zh": "她自己解开了"
         },
         {
           "en": "The cook unlocked them",
           "zh": "厨师解开"
         },
         {
-          "en": "The mouse chewed through the ropes",
-          "zh": "老鼠咬断了绳索"
+          "en": "The dog bit the ropes, since the dog was stronger than the tiny mouse",
+          "zh": "狗咬断了绳索，因为狗比那只小老鼠力气大"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The text says 'the mouse squeaked... It chewed through the ropes and freed her.'",
@@ -163,27 +163,27 @@
       },
       "options": [
         {
-          "en": "The raven grabbed it from the rafters and dropped it to her",
-          "zh": "乌鸦从房梁上叼起钥匙丢给她"
-        },
-        {
-          "en": "She picked the lock",
-          "zh": "她撬开了锁"
-        },
-        {
           "en": "The cook gave it to her",
           "zh": "厨师给她的"
         },
         {
-          "en": "She found it on the floor according to some versions of the story",
-          "zh": "她在地上找到的（按书中另一种说法）"
+          "en": "The raven grabbed it from the rafters and dropped it to her",
+          "zh": "乌鸦从房梁上叼起钥匙丢给她"
+        },
+        {
+          "en": "She found it on the floor after the cook dropped it while sweeping",
+          "zh": "她在地上找到了它，是厨师扫地时掉落的"
+        },
+        {
+          "en": "She picked the lock",
+          "zh": "她撬开了锁"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
-        "en": "High in the rafters 'Trog had hung the key. The bird grabbed the key with his beak and dropped it' for Alia.",
-        "zh": "房梁高处'特罗格挂着钥匙。乌鸦用喙叼起钥匙丢下'，给了阿莉雅。"
+        "en": "High in the rafters 'Trog had hung the key. The bird grabbed the key with his beak and dropped it' for Alia",
+        "zh": "房梁高处'特罗格挂着钥匙。乌鸦用喙叼起钥匙丢下'，给了阿莉雅"
       }
     },
     {
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "To decorate his home according to some versions of the story",
-          "zh": "为了装饰自己的家（按书中另一种说法）"
+          "en": "To win a contest",
+          "zh": "为了赢得比赛"
+        },
+        {
+          "en": "To decorate his home, because he loved filling every room with new chairs",
+          "zh": "为了装饰自己的家，因为他喜欢用新椅子填满每个房间"
         },
         {
           "en": "To sell the furniture and make money",
           "zh": "为了卖掉家具赚钱"
         },
         {
-          "en": "To win a contest",
-          "zh": "为了赢得比赛"
-        },
-        {
           "en": "To make friends",
           "zh": "为了交朋友"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The cook explains, 'He turns people into furniture, and then we have to sell it. He just wants to make money.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "He laughed and left according to some versions of the story in an early draft of the book",
-          "zh": "他大笑离去（按书中另一种说法）（在书的早期草稿中）"
+          "en": "He felt emotion, cried, and his tears turned the furniture back into people",
+          "zh": "他有了感情、哭了，泪水把家具变回了人"
         },
         {
           "en": "He turned to stone",
           "zh": "他变成了石头"
         },
         {
-          "en": "He felt emotion, cried, and his tears turned the furniture back into people",
-          "zh": "他有了感情、哭了，泪水把家具变回了人"
+          "en": "He laughed and left the store, never caring about the people he had changed",
+          "zh": "他大笑着离开了商店，根本不在乎被他变成家具的人"
         },
         {
           "en": "He ate Alia",
           "zh": "他吃掉了阿莉雅"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "As Trog swallowed his heart, 'he felt a flood of emotion... burst into tears. Trog's tears flooded the store. When the troll's tears touched the furniture, it all turned back into people.'",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "A Greek myth about Midas, who turned everything he touched into gold",
+          "zh": "关于弥达斯的希腊神话，他碰到的东西都会变成金子"
+        },
+        {
           "en": "The Norwegian fairy tale 'The Giant Who Had No Heart in His Body'",
           "zh": "挪威童话《身体里没有心的巨人》"
         },
         {
-          "en": "An Aesop fable",
-          "zh": "一则伊索寓言"
-        },
-        {
-          "en": "A Greek myth about Midas according to some versions of the story",
-          "zh": "关于弥达斯的希腊神话（按书中另一种说法）"
-        },
-        {
           "en": "A Roman legend",
           "zh": "一则罗马传说"
+        },
+        {
+          "en": "An Aesop fable",
+          "zh": "一则伊索寓言"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book notes, 'This story is a retelling of the Norwegian fairy tale \"The Giant Who Had No Heart in His Body.\"'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Trog's tears touching the furniture",
-          "zh": "特罗格的泪水沾到家具"
-        },
-        {
-          "en": "A magic spell from the wizard according to some versions of the story",
-          "zh": "巫师的魔法（按书中另一种说法）"
-        },
-        {
           "en": "The cook's fries",
           "zh": "厨师的薯条"
         },
         {
           "en": "The sunrise",
           "zh": "日出"
+        },
+        {
+          "en": "A magic spell from the wizard who lived in the break room",
+          "zh": "住在休息室里的巫师念出的魔法"
+        },
+        {
+          "en": "Trog's tears touching the furniture",
+          "zh": "特罗格的泪水沾到家具"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The text states, 'When the troll's tears touched the furniture, it all turned back into people.'",
@@ -309,19 +309,19 @@
   ],
   "extended": {
     "prompt": {
-      "en": "Imagine you are Alia writing in your diary the night after the adventure. Describe how you rescued your family and what you learned about the troll.",
-      "zh": "假设你是阿莉雅，在历险之夜写日记。描述你如何救出家人，以及你对巨魔有了什么认识。"
+      "en": "Imagine you are Alia writing in your diary the night after the adventure. Describe how you rescued your family and what you learned about the troll",
+      "zh": "假设你是阿莉雅，在历险之夜写日记。描述你如何救出家人，以及你对巨魔有了什么认识"
     },
     "guidance": {
       "en": [
-        "Name the three animals that helped you.",
-        "Explain how you found and returned Trog's heart.",
-        "Tell how the spell was broken."
+        "Name the three animals that helped you",
+        "Explain how you found and returned Trog's heart",
+        "Tell how the spell was broken"
       ],
       "zh": [
-        "说出帮助你的三只动物。",
-        "说明你如何找到并归还特罗格的心。",
-        "讲述魔咒是如何解除的。"
+        "说出帮助你的三只动物",
+        "说明你如何找到并归还特罗格的心",
+        "讲述魔咒是如何解除的"
       ]
     }
   }

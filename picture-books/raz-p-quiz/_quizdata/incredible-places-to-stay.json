@@ -17,19 +17,19 @@
           "zh": "鲸鱼"
         },
         {
-          "en": "Dolphins",
-          "zh": "海豚"
-        },
-        {
           "en": "Sharks",
           "zh": "鲨鱼"
         },
         {
           "en": "Penguins",
           "zh": "企鹅"
+        },
+        {
+          "en": "Dolphins",
+          "zh": "海豚"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the Golden Nugget has \"a unique 30-foot waterslide... through a 200,000-gallon water tank filled with sharks!\"",
@@ -47,16 +47,16 @@
           "zh": "由干草、玉米和糖蜜制成的颗粒饲料"
         },
         {
-          "en": "Ice cream",
-          "zh": "冰淇淋"
-        },
-        {
-          "en": "Bread crusts only according to some versions of the story",
-          "zh": "只有面包边（按书中另一种说法）"
-        },
-        {
           "en": "Fresh fish",
           "zh": "鲜鱼"
+        },
+        {
+          "en": "Bread crusts only, which the giraffes liked more than any other food",
+          "zh": "只有面包边，长颈鹿比任何其他食物都更爱吃"
+        },
+        {
+          "en": "Ice cream",
+          "zh": "冰淇淋"
         }
       ],
       "answer": 0,
@@ -73,12 +73,12 @@
       },
       "options": [
         {
-          "en": "The Mine Suite",
-          "zh": "矿井套房"
+          "en": "The Bird's Nest tree house, whose walls are made of woven branches",
+          "zh": "鸟巢树屋，它的墙壁由编织的树枝做成"
         },
         {
-          "en": "The Bird's Nest tree house according to some versions of the story",
-          "zh": "鸟巢树屋（按书中另一种说法）"
+          "en": "The Mine Suite",
+          "zh": "矿井套房"
         },
         {
           "en": "The Mirrorcube at the Treehotel",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Soft cotton according to some versions of the story",
-          "zh": "柔软的棉花（按书中另一种说法）"
+          "en": "Soft cotton, the same material used in most hotel beds",
+          "zh": "柔软的棉花，大多数酒店床铺所用的同一种材料"
         },
         {
-          "en": "Feathers",
-          "zh": "羽毛"
+          "en": "Thick slabs of ice",
+          "zh": "厚厚的大冰块"
         },
         {
           "en": "Wooden planks",
           "zh": "木板"
         },
         {
-          "en": "Thick slabs of ice",
-          "zh": "厚厚的大冰块"
+          "en": "Feathers",
+          "zh": "羽毛"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says guests \"sleep in a special extra-warm sleeping bag because the beds are made out of thick slabs of ice.\"",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Because guests break it according to some versions of the story",
-          "zh": "因为客人把它弄坏了（按书中另一种说法）"
-        },
-        {
           "en": "Because it melts away in warm weather",
           "zh": "因为它在温暖的天气里会融化"
         },
         {
-          "en": "Because the king orders it",
-          "zh": "因为国王下令"
+          "en": "Because guests break it when they jump on the ice beds too hard",
+          "zh": "因为客人太用力在冰床上跳时会把它弄坏"
         },
         {
           "en": "Because it is too clean",
           "zh": "因为它太干净了"
+        },
+        {
+          "en": "Because the king orders it",
+          "zh": "因为国王下令"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says artists \"spend about forty days every winter building the hotel because it all melts away in warm weather.\"",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "21 feet (6 m)",
-          "zh": "21英尺（6米）"
+          "en": "14 to 20 feet (4 to 6 m)",
+          "zh": "14到20英尺（4到6米）"
         },
         {
           "en": "More than 500 feet (152 m)",
           "zh": "500多英尺（152米）"
         },
         {
-          "en": "980 feet (300 m) total mine depth",
-          "zh": "矿洞总深980英尺（300米）"
+          "en": "21 feet (6 m)",
+          "zh": "21英尺（6米）"
         },
         {
-          "en": "14 to 20 feet (4 to 6 m)",
-          "zh": "14到20英尺（4到6米）"
+          "en": "980 feet (300 m) total mine depth",
+          "zh": "矿洞总深980英尺（300米）"
         }
       ],
       "answer": 1,
@@ -197,16 +197,16 @@
           "zh": "向读者介绍不寻常的酒店并激发惊奇感"
         },
         {
-          "en": "To list restaurant menus",
-          "zh": "列出餐厅菜单"
-        },
-        {
           "en": "To explain weather science",
           "zh": "解释天气科学"
         },
         {
-          "en": "To teach how to build houses according to some versions of the story in an early draft of the book",
-          "zh": "教如何盖房子（按书中另一种说法）（在书的早期草稿中）"
+          "en": "To list restaurant menus from each hotel's famous kitchen and trading recipes",
+          "zh": "为了列出每家酒店知名厨房的餐厅菜单并交换食谱"
+        },
+        {
+          "en": "To teach how to build houses",
+          "zh": "教如何盖房子"
         }
       ],
       "answer": 0,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "They walk down stairs",
-          "zh": "他们走楼梯"
-        },
-        {
           "en": "They use scuba gear to swim down to it",
           "zh": "他们用潜水装备游下去"
+        },
+        {
+          "en": "They ride a boat on top and wave at the fish below",
+          "zh": "他们乘船在水面上，向水下的鱼挥手"
         },
         {
           "en": "They take an elevator",
           "zh": "他们乘电梯"
         },
         {
-          "en": "They ride a boat on top according to some versions of the story",
-          "zh": "他们乘船在水面（按书中另一种说法）"
+          "en": "They walk down stairs",
+          "zh": "他们走楼梯"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"You'll need scuba gear to get to your room\" at the underwater lodge.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "That incredible hotels can be found both high in the sky and deep underwater",
-          "zh": "不可思议的酒店既可以在高空，也可以在水下深处"
-        },
-        {
-          "en": "That all hotels are the same height according to some versions of the story in an early draft of the book",
-          "zh": "所有酒店高度都一样（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "That Singapore has no beaches",
           "zh": "新加坡没有海滩"
         },
         {
+          "en": "That all hotels are the same height because builders everywhere follow one strict rule",
+          "zh": "所有酒店高度都一样，因为各地的建造者都遵循同一项严格规定"
+        },
+        {
           "en": "That pools are dangerous",
           "zh": "泳池很危险"
+        },
+        {
+          "en": "That incredible hotels can be found both high in the sky and deep underwater",
+          "zh": "不可思议的酒店既可以在高空，也可以在水下深处"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The tour spans \"three continents\" and extremes from a rooftop pool to an underwater lodge, showing the wide range of unusual stays.",
@@ -283,16 +283,16 @@
       },
       "options": [
         {
-          "en": "Africa has no hotels",
-          "zh": "非洲没有酒店"
+          "en": "Only rich people travel, since these strange hotels cost too much for others",
+          "zh": "只有富人旅行，因为这些奇特的酒店对其他人来说太贵了"
         },
         {
           "en": "Hotels are boring",
           "zh": "酒店很无聊"
         },
         {
-          "en": "Only rich people travel according to some versions of the story in an early draft of the book",
-          "zh": "只有富人旅行（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Africa has no hotels",
+          "zh": "非洲没有酒店"
         },
         {
           "en": "Unique and unforgettable places to stay can be found all over the world",

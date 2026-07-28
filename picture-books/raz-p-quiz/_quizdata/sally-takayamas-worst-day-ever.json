@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "A quarter she thought was lucky but was really fake",
+          "zh": "一枚二角五分币她以为很幸运、其实是假币"
+        },
+        {
           "en": "A dime, but it turned out to be a penny",
           "zh": "一枚一角硬币，但结果只是一分币"
         },
         {
-          "en": "A button",
-          "zh": "一颗纽扣"
-        },
-        {
-          "en": "A quarter according to some versions of the story",
-          "zh": "一枚二角五分币（按书中另一种说法）"
-        },
-        {
           "en": "A ring",
           "zh": "一枚戒指"
+        },
+        {
+          "en": "A button",
+          "zh": "一颗纽扣"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "She stopped 'to pull a dime out from a crack,' but 'by the time I got it out, it turned out to be just a penny.'",
@@ -43,20 +43,20 @@
       },
       "options": [
         {
-          "en": "Happy Sally",
-          "zh": "快乐萨莉"
+          "en": "Captain Sally",
+          "zh": "萨莉船长"
         },
         {
           "en": "Sock-Shoe Sally and Chocolate-Sock Sally",
           "zh": "'穿袜鞋的萨莉'和'巧克力袜萨莉'"
         },
         {
-          "en": "Teacher Sally according to some versions of the story",
-          "zh": "老师萨莉（按书中另一种说法）"
+          "en": "Teacher Sally",
+          "zh": "老师萨莉"
         },
         {
-          "en": "Captain Sally",
-          "zh": "萨莉船长"
+          "en": "Happy Sally the name her friends gave her for being so cheerful",
+          "zh": "快乐萨莉朋友们因为她开朗而给她起的名字"
         }
       ],
       "answer": 1,
@@ -73,12 +73,8 @@
       },
       "options": [
         {
-          "en": "It was raining",
-          "zh": "当时在下雨"
-        },
-        {
-          "en": "The teacher said no according to some versions of the story",
-          "zh": "老师不让（按书中另一种说法）"
+          "en": "The teacher said no because recess was cancelled that day",
+          "zh": "老师不让因为那天的课间被取消了"
         },
         {
           "en": "She didn't want her sock to get dirty",
@@ -87,9 +83,13 @@
         {
           "en": "She was sick",
           "zh": "她生病了"
+        },
+        {
+          "en": "It was raining",
+          "zh": "当时在下雨"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "She 'didn't want to get my sock dirty, so I didn't play at recess' and sat holding her bare foot.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "She had fun telling him the story",
-          "zh": "她讲这个故事时很开心"
-        },
-        {
-          "en": "She found a dollar",
-          "zh": "她找到了一美元"
-        },
-        {
           "en": "She won a game",
           "zh": "她赢了一场比赛"
         },
         {
-          "en": "She got a new shoe according to some versions of the story",
-          "zh": "她得到了一只新鞋（按书中另一种说法）"
+          "en": "She had fun telling him the story",
+          "zh": "她讲这个故事时很开心"
+        },
+        {
+          "en": "She got a new shoe as a gift from her teacher",
+          "zh": "她得到了一只新鞋作为老师送的礼物"
+        },
+        {
+          "en": "She found a dollar",
+          "zh": "她找到了一美元"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Her father says 'You certainly had fun telling me this story!' as the good thing that happened.",
@@ -137,19 +137,19 @@
           "zh": "为了教数学"
         },
         {
-          "en": "To explain the Constitution according to some versions of the story",
-          "zh": "为了解释宪法（按书中另一种说法）"
-        },
-        {
-          "en": "To entertain and show that bad days can have a bright side",
-          "zh": "为了娱乐读者，并说明糟糕的日子也有光明的一面"
+          "en": "To explain the Constitution and why the president must sign every new law",
+          "zh": "为了解释宪法以及总统为何必须签署每一条新法律"
         },
         {
           "en": "To describe ocean animals",
           "zh": "为了描写海洋动物"
+        },
+        {
+          "en": "To entertain and show that bad days can have a bright side",
+          "zh": "为了娱乐读者，并说明糟糕的日子也有光明的一面"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The father's gentle reframe shows readers even a 'worst day' can end on a happier note.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Her father",
-          "zh": "她的爸爸"
-        },
-        {
           "en": "Sally's eighteen-month-old little brother",
           "zh": "萨莉十八个月大的小弟弟"
         },
         {
-          "en": "Her teacher according to some versions of the story",
-          "zh": "她的老师（按书中另一种说法）"
+          "en": "Her teacher who came to visit that morning",
+          "zh": "她的老师那天早上来访的"
+        },
+        {
+          "en": "Her father",
+          "zh": "她的爸爸"
         },
         {
           "en": "A classmate",
           "zh": "一个同学"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'Her little brother Michael, who was only eighteen months old, looked a little frightened.'",
@@ -197,19 +197,19 @@
           "zh": "萨莉赢来的"
         },
         {
-          "en": "Sally had no shoe, so Mrs. Anderson loaned her own",
-          "zh": "萨莉少一只鞋，于是安德森太太把自己的借给她"
-        },
-        {
           "en": "Sally bought them",
           "zh": "萨莉买的"
         },
         {
-          "en": "They were a prize according to some versions of the story",
-          "zh": "它们是一件奖品（按书中另一种说法）"
+          "en": "Sally had no shoe, so Mrs. Anderson loaned her own",
+          "zh": "萨莉少一只鞋，于是安德森太太把自己的借给她"
+        },
+        {
+          "en": "They were a prize she won at the school fair for writing the best essay",
+          "zh": "它们是一件奖品，她在校园集市上凭最佳作文赢到的"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "After noticing Sally had no shoe, the principal 'brought me to her office and took out these smelly old running shoes' to loan her.",
@@ -223,16 +223,16 @@
       },
       "options": [
         {
-          "en": "Water",
-          "zh": "水"
-        },
-        {
-          "en": "Juice according to some versions of the story",
-          "zh": "果汁（按书中另一种说法）"
-        },
-        {
           "en": "Soup",
           "zh": "汤"
+        },
+        {
+          "en": "Juice that spilled from Bobby's cup",
+          "zh": "果汁从博比的杯子里洒出来的"
+        },
+        {
+          "en": "Water",
+          "zh": "水"
         },
         {
           "en": "Mary's chocolate milk",
@@ -257,19 +257,19 @@
           "zh": "他训了博比一顿"
         },
         {
-          "en": "He called the principal",
-          "zh": "他打电话给校长"
-        },
-        {
-          "en": "He bought her new socks according to some versions of the story",
-          "zh": "他给她买了新袜子（按书中另一种说法）"
-        },
-        {
           "en": "He reassured her and pointed out the good side of the day",
           "zh": "他安慰她，并指出这一天好的一面"
+        },
+        {
+          "en": "He bought her new socks and a small toy to cheer her up",
+          "zh": "他给她买了新袜子和一个小玩具来逗她开心"
+        },
+        {
+          "en": "He called the principal",
+          "zh": "他打电话给校长"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "He 'reassured her' that friends would forget, then reminded her she'd had fun telling the story.",
@@ -287,8 +287,8 @@
           "zh": "只要说出口，糟糕的一天也会有一线光明"
         },
         {
-          "en": "Brothers are annoying according to some versions of the story in an early draft of the book",
-          "zh": "弟弟都很烦人（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Brothers are annoying and always ruin special days like this one with their noise",
+          "zh": "弟弟都很烦人，还总用吵闹毁掉像今天这样的好日子"
         },
         {
           "en": "Never go to school",

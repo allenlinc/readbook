@@ -17,19 +17,19 @@
           "zh": "角鼻者"
         },
         {
-          "en": "Fin-footed",
-          "zh": "鳍足的"
-        },
-        {
           "en": "Shell-dweller",
           "zh": "居壳者"
         },
         {
           "en": "Wing-flying",
           "zh": "翼飞者"
+        },
+        {
+          "en": "Fin-footed",
+          "zh": "鳍足的"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The glossary says pinnipeds are 'a group of marine mammals with flippers instead of feet' and the name means 'fin-footed.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "The sea lion",
-          "zh": "海狮"
-        },
-        {
           "en": "The otter",
           "zh": "水獭"
         },
         {
-          "en": "The walrus",
-          "zh": "海象"
+          "en": "The sea lion",
+          "zh": "海狮"
         },
         {
           "en": "The seal",
           "zh": "海豹"
+        },
+        {
+          "en": "The walrus",
+          "zh": "海象"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states 'Walruses are the only pinnipeds with tusks.'",
@@ -73,12 +73,8 @@
       },
       "options": [
         {
-          "en": "Only sea lions have ears that stick out",
-          "zh": "只有海狮有向外突出的耳朵"
-        },
-        {
-          "en": "Sea lions have no flippers according to some versions of the story",
-          "zh": "海狮没有鳍（按书中另一种说法）"
+          "en": "Sea lions have no flippers so they cannot swim at all",
+          "zh": "海狮没有鳍所以它们根本不会游泳"
         },
         {
           "en": "Seals are always bigger",
@@ -87,9 +83,13 @@
         {
           "en": "Seals can fly",
           "zh": "海豹会飞"
+        },
+        {
+          "en": "Only sea lions have ears that stick out",
+          "zh": "只有海狮有向外突出的耳朵"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The text says 'The easiest way to tell them apart is to look for ears. Only sea lions have ears that stick out.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "They wear coats",
+          "zh": "它们穿外套"
+        },
+        {
+          "en": "They migrate to the moon to escape the cold ocean water",
+          "zh": "它们迁徙到月亮上为了躲避寒冷的海水"
+        },
+        {
           "en": "They build fires",
           "zh": "它们生火"
         },
         {
           "en": "Dense fur and a thick layer of fat called blubber",
           "zh": "浓密的毛皮和一层叫鲸脂的厚脂肪"
-        },
-        {
-          "en": "They migrate to the moon according to some versions of the story",
-          "zh": "它们迁徙到月亮上（按书中另一种说法）"
-        },
-        {
-          "en": "They wear coats",
-          "zh": "它们穿外套"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says they have dense fur and 'a layer of fat called blubber that keeps heat inside their bodies.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "To scare readers",
-          "zh": "为了吓唬读者"
+          "en": "To teach how to cook them in a seafood recipe the author includes at the end",
+          "zh": "教人怎么烹饪它们作者在书末附上的海鲜食谱"
+        },
+        {
+          "en": "To help readers learn and tell the animals apart",
+          "zh": "帮助读者认识并区分这些动物"
         },
         {
           "en": "To describe a ghost story",
           "zh": "为了讲鬼故事"
         },
         {
-          "en": "To teach how to cook them according to some versions of the story",
-          "zh": "教人怎么烹饪它们（按书中另一种说法）"
-        },
-        {
-          "en": "To help readers learn and tell the animals apart",
-          "zh": "帮助读者认识并区分这些动物"
+          "en": "To scare readers",
+          "zh": "为了吓唬读者"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book compares seals, sea lions, and walruses so readers can identify each kind.",
@@ -167,8 +167,8 @@
           "zh": "超过1500米（5000英尺）"
         },
         {
-          "en": "Exactly 100 meters according to some versions of the story",
-          "zh": "正好100米（按书中另一种说法）"
+          "en": "Exactly 100 meters which is the deepest dive of any animal",
+          "zh": "正好100米那是所有动物中最深的潜水"
         },
         {
           "en": "It cannot dive",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "They slither like snakes according to some versions of the story",
-          "zh": "它们像蛇一样滑行（按书中另一种说法）"
-        },
-        {
           "en": "They walk upright",
           "zh": "它们直立行走"
         },
         {
-          "en": "They drag themselves or crawl like caterpillars",
-          "zh": "它们拖着身子，或像毛虫一样爬行"
-        },
-        {
           "en": "They hop",
           "zh": "它们蹦跳"
+        },
+        {
+          "en": "They slither like snakes across the sandy beach to find food",
+          "zh": "它们像蛇一样滑行在沙滩上寻找食物"
+        },
+        {
+          "en": "They drag themselves or crawl like caterpillars",
+          "zh": "它们拖着身子，或像毛虫一样爬行"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Seals 'cannot walk on their flippers. Instead, they drag themselves along the ground or crawl like caterpillars.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "To pull themselves up onto land and hook onto ice",
-          "zh": "把自己拉上岸，并钩住浮冰"
-        },
-        {
-          "en": "To brush their teeth according to some versions of the story",
-          "zh": "刷牙（按书中另一种说法）"
-        },
-        {
           "en": "To dig for gold",
           "zh": "挖金子"
         },
         {
           "en": "To sing",
           "zh": "唱歌"
+        },
+        {
+          "en": "To pull themselves up onto land and hook onto ice",
+          "zh": "把自己拉上岸，并钩住浮冰"
+        },
+        {
+          "en": "To brush their teeth using the floating ice as a brush after meals",
+          "zh": "刷牙用浮冰当牙刷在饭后"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says they 'use their tusks to pull themselves up onto land' and 'hook their tusks onto floating ice' to rest.",
@@ -257,19 +257,19 @@
           "zh": "它们太热了"
         },
         {
+          "en": "They have no fur",
+          "zh": "它们没有毛"
+        },
+        {
           "en": "They get caught in fishing nets and sick from pollution",
           "zh": "它们会被渔网缠住，并因污染而生病"
         },
         {
-          "en": "They forget to eat according to some versions of the story",
-          "zh": "它们忘记吃东西（按书中另一种说法）"
-        },
-        {
-          "en": "They have no fur",
-          "zh": "它们没有毛"
+          "en": "They forget to eat because they are too busy playing in the waves all day",
+          "zh": "它们忘记吃东西，因整天在浪里玩耍而顾不上进食"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The text says 'Pinnipeds become caught in fishing nets. Others get sick because of pollution.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "They should all be hunted for their meat, fur, and valuable tusks",
+          "zh": "它们都应该被猎杀为了它们的肉、毛皮和珍贵的獠牙"
+        },
+        {
+          "en": "They are amazing animals that need people's protection",
+          "zh": "它们是神奇的动物，需要人类的保护"
+        },
+        {
           "en": "They live in deserts",
           "zh": "它们住在沙漠里"
         },
         {
           "en": "They are plants",
           "zh": "它们是植物"
-        },
-        {
-          "en": "They should all be hunted according to some versions of the story",
-          "zh": "它们都应该被猎杀（按书中另一种说法）"
-        },
-        {
-          "en": "They are amazing animals that need people's protection",
-          "zh": "它们是神奇的动物，需要人类的保护"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book ends by saying 'It is up to us to decide what their future will be,' urging protection.",

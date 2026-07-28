@@ -13,16 +13,16 @@
       },
       "options": [
         {
-          "en": "It was a public holiday",
-          "zh": "那天是公共假日"
-        },
-        {
           "en": "Jack was the teacher",
           "zh": "杰克是老师"
         },
         {
-          "en": "The class was on a field trip according to some versions of the story",
-          "zh": "全班去校外教学了（按书中另一种说法）"
+          "en": "It was a public holiday",
+          "zh": "那天是公共假日"
+        },
+        {
+          "en": "The class was on a field trip, to the science museum that morning",
+          "zh": "全班去校外教学了，那天早上去科学博物馆"
         },
         {
           "en": "Mrs. Martinez had not arrived by 8:05",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "He had a wooden hand according to some versions of the story",
-          "zh": "他有一只木手（按书中另一种说法）"
-        },
-        {
           "en": "He had a piece of chalk in place of a hand",
           "zh": "他有一截粉笔代替了手"
         },
         {
-          "en": "He had a sword",
-          "zh": "他有一把剑"
+          "en": "He had a wooden hand, carved by the ship's old carpenter",
+          "zh": "他有一只木手，由船上老木匠雕刻"
         },
         {
           "en": "He had a metal hook",
           "zh": "他有一个金属钩"
+        },
+        {
+          "en": "He had a sword",
+          "zh": "他有一把剑"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'He pulled back his sleeve, revealing a piece of chalk in place of a hand.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A pile of gold coins according to some versions of the story",
-          "zh": "一堆金币（按书中另一种说法）"
-        },
-        {
-          "en": "A wooden chest full of pirate costumes",
-          "zh": "一个装满海盗服装的木箱"
+          "en": "A pile of gold coins, buried long ago by the captain himself",
+          "zh": "一堆金币，很久以前由船长亲手埋下"
         },
         {
           "en": "A pirate hat",
           "zh": "一顶海盗帽"
         },
         {
+          "en": "A wooden chest full of pirate costumes",
+          "zh": "一个装满海盗服装的木箱"
+        },
+        {
           "en": "An old map",
           "zh": "一张旧地图"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'They helped Chalk Beard lug out an enormous wooden chest. The lid opened with a creak—inside were pirate costumes.'",
@@ -103,20 +103,20 @@
       },
       "options": [
         {
-          "en": "Science",
-          "zh": "科学课"
-        },
-        {
           "en": "Math",
           "zh": "数学课"
+        },
+        {
+          "en": "Geography, the class about faraway oceans and maps",
+          "zh": "地理课，讲遥远海洋与地图的课"
         },
         {
           "en": "Literature",
           "zh": "文学课"
         },
         {
-          "en": "Geography according to some versions of the story",
-          "zh": "地理课（按书中另一种说法）"
+          "en": "Science",
+          "zh": "科学课"
         }
       ],
       "answer": 2,
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "A pirate",
-          "zh": "一名海盗"
+          "en": "A sailor",
+          "zh": "一名水手"
         },
         {
           "en": "A person who lives on land, not the sea",
           "zh": "住在陆地上而非海上的人"
         },
         {
-          "en": "A sailor",
-          "zh": "一名水手"
+          "en": "A teacher, the kind who explains hard words to the crew",
+          "zh": "一名老师，给船员解释难词的那类人"
         },
         {
-          "en": "A teacher according to some versions of the story",
-          "zh": "一名老师（按书中另一种说法）"
+          "en": "A pirate",
+          "zh": "一名海盗"
         }
       ],
       "answer": 1,
@@ -163,16 +163,16 @@
       },
       "options": [
         {
-          "en": "Sleepy and yawning",
-          "zh": "困倦且打哈欠"
+          "en": "Sleepy and yawning, because he had stayed up late reading",
+          "zh": "困倦且打哈欠，因为他熬夜看书了"
         },
         {
           "en": "Angry and loud",
           "zh": "生气且吵闹"
         },
         {
-          "en": "Excited and bouncing according to some versions of the story",
-          "zh": "兴奋且蹦跳（按书中另一种说法）"
+          "en": "Excited and bouncing",
+          "zh": "兴奋且蹦跳"
         },
         {
           "en": "Shy and quiet; he didn't talk much",
@@ -197,16 +197,16 @@
           "zh": "重要的不是嗓门大小，而是心胸的大小"
         },
         {
-          "en": "You must never draw pictures",
-          "zh": "你绝不能画画"
-        },
-        {
           "en": "Only tall people can be pirates",
           "zh": "只有高个子才能当海盗"
         },
         {
-          "en": "You should always speak as loudly as possible according to some versions of the story",
-          "zh": "你应该尽可能大声说话（按书中另一种说法）"
+          "en": "You should always speak as loudly as possible, so the whole ship can hear you",
+          "zh": "你应该尽可能大声说话，好让全船都听见"
+        },
+        {
+          "en": "You must never draw pictures",
+          "zh": "你绝不能画画"
         }
       ],
       "answer": 0,
@@ -227,16 +227,16 @@
           "zh": "因为杰克没拿到服装，而粉笔胡子也曾是个害羞的海盗"
         },
         {
-          "en": "Because Jack was the tallest",
-          "zh": "因为杰克最高"
+          "en": "Because Jack was the tallest, the only one in class whose head reached the top shelf",
+          "zh": "因为杰克最高，班里唯一头顶够到顶层书架的人"
         },
         {
           "en": "To punish Jack",
           "zh": "为了惩罚杰克"
         },
         {
-          "en": "Because Jack dug the fastest according to some versions of the story in an early draft of the book",
-          "zh": "因为杰克挖得最快（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Because Jack dug the fastest",
+          "zh": "因为杰克挖得最快"
         }
       ],
       "answer": 0,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "National Hat Day",
-          "zh": "国家帽子日"
-        },
-        {
-          "en": "Substitute Teacher Day according to some versions of the story",
-          "zh": "代课老师日（按书中另一种说法）"
-        },
-        {
           "en": "Talk Like a Pirate Day",
           "zh": "像海盗一样说话日"
         },
         {
           "en": "Halloween",
           "zh": "万圣节"
+        },
+        {
+          "en": "Substitute Teacher Day, when every class gets a guest teacher",
+          "zh": "代课老师日，每班都有客座老师的日子"
+        },
+        {
+          "en": "National Hat Day",
+          "zh": "国家帽子日"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The pirate says: 'No one's shy on Talk like a Pirate Day.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "They spend years at the letter C",
-          "zh": "他们在字母C上要花好多年"
-        },
-        {
-          "en": "They start with the letter Z according to some versions of the story",
-          "zh": "他们从字母Z开始（按书中另一种说法）"
-        },
-        {
-          "en": "They hate books",
-          "zh": "他们讨厌书"
+          "en": "They start with the letter Z, the last letter of the alphabet",
+          "zh": "他们从字母Z开始，字母表的最后一个字母"
         },
         {
           "en": "They cannot read at all",
           "zh": "他们完全不会读"
+        },
+        {
+          "en": "They spend years at the letter C",
+          "zh": "他们在字母C上要花好多年"
+        },
+        {
+          "en": "They hate books",
+          "zh": "他们讨厌书"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Jack says: 'I know why it takes pirates so long to learn the alphabet. Because they spend years at C.'",
@@ -309,8 +309,8 @@
   ],
   "extended": {
     "prompt": {
-      "en": "If you were a student in Mrs. Martinez's class that day, what would you have done during Pirate Chalk Beard's visit? Write a short paragraph.",
-      "zh": "如果你是那天马丁内斯女士班上的学生，在粉笔胡子海盗先生来访时你会做什么？写一小段话。"
+      "en": "If you were a student in Mrs. Martinez's class that day, what would you have done during Pirate Chalk Beard's visit? Write a short paragraph",
+      "zh": "如果你是那天马丁内斯女士班上的学生，在粉笔胡子海盗先生来访时你会做什么？写一小段话"
     },
     "guidance": {
       "en": [

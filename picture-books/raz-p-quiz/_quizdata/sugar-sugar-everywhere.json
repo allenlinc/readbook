@@ -13,20 +13,20 @@
       },
       "options": [
         {
-          "en": "Over 500 pounds according to some versions of the story",
-          "zh": "超过500磅（按书中另一种说法）"
+          "en": "About 10 pounds",
+          "zh": "约10磅"
         },
         {
-          "en": "Just over 150 pounds (68 kg)",
-          "zh": "略多于150磅（68公斤）"
+          "en": "Just over 150 pounds",
+          "zh": "略多于150磅"
+        },
+        {
+          "en": "Over 500 pounds, since the book points out that even healthy foods like Raisin Bran are full of sugar",
+          "zh": "超过500磅，因为书中指出连葡萄干麦片这类健康食物也满是糖"
         },
         {
           "en": "About 5 pounds",
           "zh": "约5磅"
-        },
-        {
-          "en": "About 10 pounds",
-          "zh": "约10磅"
         }
       ],
       "answer": 1,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Milk",
-          "zh": "牛奶"
-        },
-        {
           "en": "Sugar cane or sugar beets",
           "zh": "甘蔗或甜菜"
+        },
+        {
+          "en": "Salt and water, the two ingredients the book lists for making table sugar",
+          "zh": "盐和水的混合物，书中列出的制作餐桌糖的两种原料"
         },
         {
           "en": "Only apples",
           "zh": "只用苹果"
         },
         {
-          "en": "Salt and water according to some versions of the story",
-          "zh": "盐和水的混合物（按书中另一种说法）"
+          "en": "Milk",
+          "zh": "牛奶"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The text says 'Table sugar is sucrose. Sucrose comes from sugar cane or sugar beets.'",
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "Because they are sweet foods, which is why the book groups ketchup with cookies and candy",
+          "zh": "因为它们本身就是甜食，所以书中把番茄酱和饼干、糖果归为一类"
+        },
+        {
           "en": "To preserve them forever",
           "zh": "为了让它们永久保存"
         },
@@ -83,13 +87,9 @@
         {
           "en": "To make them redder",
           "zh": "为了让它们更红"
-        },
-        {
-          "en": "Because they are sweet foods according to some versions of the story",
-          "zh": "因为它们本身就是甜食（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book explains tomatoes 'contain acids that can give them a bitter taste when cooked,' so sugar is added to remove it.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Turns it into fat and stores it",
-          "zh": "把它转化成脂肪储存起来"
+          "en": "Throws it away as sweat",
+          "zh": "当作汗水排掉"
         },
         {
-          "en": "Sends it to the brain only according to some versions of the story",
-          "zh": "只送到大脑（按书中另一种说法）"
+          "en": "Turns it into fat and stores it",
+          "zh": "把它转化成脂肪储存起来"
         },
         {
           "en": "Makes it into bones",
           "zh": "变成骨头"
         },
         {
-          "en": "Throws it away as sweat",
-          "zh": "当作汗水排掉"
+          "en": "Sends it to the brain only, which the book says needs sugar to think clearly",
+          "zh": "只送到大脑，书中说大脑需要糖才能清醒思考"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The text says 'it changes the sugar to fat and stores it for later' when too much sugar comes in.",
@@ -133,8 +133,12 @@
       },
       "options": [
         {
-          "en": "To teach how to bake cookies according to some versions of the story in an early draft of the book",
-          "zh": "教人烤饼干（按书中另一种说法）（在书的早期草稿中）"
+          "en": "To inform readers that sugar hides in many foods and affects health",
+          "zh": "告知读者糖藏在许多食物中并影响健康"
+        },
+        {
+          "en": "To teach how to bake cookies, since the book ends with a long recipe section about desserts",
+          "zh": "教人烤饼干，因为这本书以一长节关于甜点的食谱作为结尾"
         },
         {
           "en": "To tell a ghost story",
@@ -143,13 +147,9 @@
         {
           "en": "To describe ocean animals",
           "zh": "描写海洋动物"
-        },
-        {
-          "en": "To inform readers that sugar hides in many foods and affects health",
-          "zh": "告知读者糖藏在许多食物中并影响健康"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The focus question is 'What happens to our bodies when we eat sugar?' showing the book aims to teach about hidden sugar.",
@@ -171,12 +171,12 @@
           "zh": "烤燕麦（1克）"
         },
         {
-          "en": "Corn Flakes (2g)",
-          "zh": "玉米片（2克）"
+          "en": "Shredded Wheat (0g)",
+          "zh": "shredded wheat（0克）"
         },
         {
-          "en": "Shredded Wheat (0g)",
-          "zh": " shredded wheat（0克）"
+          "en": "Corn Flakes (2g)",
+          "zh": "玉米片（2克）"
         }
       ],
       "answer": 0,
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "The word is a verb",
-          "zh": "这个词是动词"
+          "en": "The word is a kind of sugar",
+          "zh": "这个词指的是一种糖"
         },
         {
-          "en": "The word is a type of fish according to some versions of the story",
-          "zh": "这个词指一种鱼（按书中另一种说法）"
+          "en": "The word is a verb",
+          "zh": "这个词是动词"
         },
         {
           "en": "The word is a color",
           "zh": "这个词指一种颜色"
         },
         {
-          "en": "The word is a kind of sugar",
-          "zh": "这个词指的是一种糖"
+          "en": "The word is a type of fish, like the ones the book says live in the ocean",
+          "zh": "这个词指一种鱼，就像书中说的海洋里的那种"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The 'WORD WISE' note says the suffix -ose 'identifies things as sugars.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "A simple sugar that is a major energy source for the body",
-          "zh": "一种为身体提供主要能量的单糖"
+          "en": "A kind of animal fat",
+          "zh": "一种动物脂肪"
         },
         {
-          "en": "A red food coloring according to some versions of the story",
-          "zh": "一种红色食用色素（按书中另一种说法）"
+          "en": "A simple sugar that is a major energy source for the body",
+          "zh": "一种为身体提供主要能量的单糖"
         },
         {
           "en": "A type of vegetable",
           "zh": "一种蔬菜"
         },
         {
-          "en": "A kind of animal fat",
-          "zh": "一种动物脂肪"
+          "en": "A red food coloring, which the book shows is added to almost every packaged food",
+          "zh": "一种红色食用色素，书中说它几乎被加进每一种包装食品"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The glossary defines glucose as 'a simple sugar that is a major energy source for the body.'",
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "Eat only candy",
-          "zh": "只吃糖果"
+          "en": "Skip all meals",
+          "zh": "跳过所有正餐"
         },
         {
-          "en": "Drink more soda",
-          "zh": "多喝汽水"
+          "en": "Drink more soda, which the book says is the healthiest choice of all",
+          "zh": "多喝汽水，书中说这是所有选择中最健康的"
         },
         {
           "en": "Eat more natural food and read food labels",
           "zh": "多吃天然食物并阅读食品标签"
         },
         {
-          "en": "Skip all meals according to some versions of the story",
-          "zh": "跳过所有正餐（按书中另一种说法）"
+          "en": "Eat only candy",
+          "zh": "只吃糖果"
         }
       ],
       "answer": 2,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Sugar powers cars best",
-          "zh": "糖最适合给汽车提供动力"
-        },
-        {
-          "en": "Only children eat sugar",
-          "zh": "只有小孩才吃糖"
-        },
-        {
           "en": "It can be almost anywhere, so pay attention to what you eat",
           "zh": "它几乎无处不在，要注意自己吃的东西"
         },
         {
-          "en": "Sugar is always bad and must be avoided according to some versions of the story",
-          "zh": "糖总是有害，必须完全避免（按书中另一种说法）"
+          "en": "Sugar powers cars best",
+          "zh": "糖最适合给汽车提供动力"
+        },
+        {
+          "en": "Sugar is always bad and must be avoided, so the book says to never eat fruit",
+          "zh": "糖总是有害，必须完全避免，所以书中说永远不要吃水果"
+        },
+        {
+          "en": "Only children eat sugar",
+          "zh": "只有小孩才吃糖"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The ending says sugar 'can be almost anywhere' and 'it's important to pay attention to what we eat.'",

@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "Five; Australia",
+          "zh": "五大洲；澳大利亚"
+        },
+        {
           "en": "Seven; Antarctica",
           "zh": "七大洲；南极洲"
         },
@@ -21,15 +25,11 @@
           "zh": "六大洲；非洲"
         },
         {
-          "en": "Nine; Antarctica according to some versions of the story",
-          "zh": "九大洲；南极洲（按书中另一种说法）"
-        },
-        {
-          "en": "Five; Australia",
-          "zh": "五大洲；澳大利亚"
+          "en": "Nine; Antarctica, because the book counts nine large land areas including Greenland",
+          "zh": "九大洲；南极洲，因为书中把包括格陵兰在内的九块大区域都算作大洲"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book lists six continents then says 'continent number seven: Antarctica.'",
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "Around 1820",
+          "zh": "约1820年"
+        },
+        {
           "en": "Around 1900",
           "zh": "约1900年"
         },
@@ -51,15 +55,11 @@
           "zh": "约1500年"
         },
         {
-          "en": "Around 1820",
-          "zh": "约1820年"
-        },
-        {
           "en": "Around 1000 BC",
           "zh": "约公元前1000年"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The text says 'people didn't actually discover Antarctica until around 1820. No one individual is given credit for its discovery.'",
@@ -73,16 +73,16 @@
       },
       "options": [
         {
-          "en": "The name of a research base according to some versions of the story",
-          "zh": "一个科考站的名字（按书中另一种说法）"
-        },
-        {
-          "en": "A type of frozen food",
-          "zh": "一种冷冻食品"
+          "en": "The name of a research base where scientists study the coldest weather",
+          "zh": "一个科考站的名字，科学家在那里研究最冷的天气"
         },
         {
           "en": "A kind of penguin",
           "zh": "一种企鹅"
+        },
+        {
+          "en": "A type of frozen food",
+          "zh": "一种冷冻食品"
         },
         {
           "en": "Conditions that are far beyond what is normal or expected",
@@ -92,8 +92,8 @@
       "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
-        "en": "The glossary defines 'extremes' as 'conditions that are far beyond what is normal or expected,' matching the text's description of Antarctica's cold, wind, and dryness.",
-        "zh": "词汇表把'extremes'定义为'远远超出正常或预期的状况'，正对应书中对南极洲寒冷、大风和干旱的描述。"
+        "en": "The glossary defines 'extremes' as 'conditions that are far beyond what is normal or expected,' matching the text's description of Antarctica's cold, wind, and dryness",
+        "zh": "词汇表把'extremes'定义为'远远超出正常或预期的状况'，正对应书中对南极洲寒冷、大风和干旱的描述"
       }
     },
     {
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "-50°C in Russia",
+          "zh": "零下50°C，俄罗斯"
+        },
+        {
           "en": "-89°C (-128°F) at an Antarctic science station in July 1983",
           "zh": "零下89°C（零下128°F），1983年7月南极科考站"
         },
         {
-          "en": "0°C at the South Pole according to some versions of the story in an early draft of the book",
-          "zh": "0°C，南极点（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "-50°C in Russia",
-          "zh": "零下50°C，俄罗斯"
+          "en": "0°C at the South Pole, which is why Antarctica feels mild and pleasant in summer",
+          "zh": "南极点的0°C，所以南极洲夏天其实温暖又宜人"
         },
         {
           "en": "-20°C in Greenland",
           "zh": "零下20°C，格陵兰"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states 'The coldest temperature ever recorded on Earth was at an Antarctic science station in July 1983. It got down to -89°C (-128°F).'",
@@ -137,19 +137,19 @@
           "zh": "100米"
         },
         {
-          "en": "4 kilometers (2.5 miles)",
-          "zh": "4千米（2.5英里）"
-        },
-        {
-          "en": "10 kilometers according to some versions of the story",
-          "zh": "10千米（按书中另一种说法）"
+          "en": "10 kilometers, because the ice sheet is thicker than any mountain on Earth",
+          "zh": "10千米，因为冰盖比地球上任何山峰都厚"
         },
         {
           "en": "1 kilometer",
           "zh": "1千米"
+        },
+        {
+          "en": "4 kilometers (2.5 miles)",
+          "zh": "4千米（2.5英里）"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The text says 'At its deepest, Antarctica's ice is 4 kilometers (2.5 mi.) thick.'",
@@ -163,27 +163,27 @@
       },
       "options": [
         {
-          "en": "It gets less than 5 cm of rain and snow a year, and most of Earth's fresh water is locked in its ice",
-          "zh": "它每年雨雪不足5厘米，且地球大部分淡水封存在它的冰里"
+          "en": "It never snows there",
+          "zh": "那里从不下雪"
         },
         {
-          "en": "The ice melts every summer according to some versions of the story in an early draft of the book as mentioned in a later chapter",
-          "zh": "冰每年夏天都融化（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+          "en": "The ice melts every summer, which is why Antarctica has green forests and flowing rivers for most of the year",
+          "zh": "冰每年夏天都会融化，这正是南极洲一年大部分时间都有绿色森林和流动河流的原因"
         },
         {
           "en": "It is surrounded by desert",
           "zh": "它被沙漠包围"
         },
         {
-          "en": "It never snows there",
-          "zh": "那里从不下雪"
+          "en": "It gets less than 5 cm of rain and snow a year, and most of Earth's fresh water is locked in its ice",
+          "zh": "它每年雨雪不足5厘米，且地球大部分淡水封存在它的冰里"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The text says Antarctica 'gets less than 5 centimeters of rain and snow a year' and 'Most of Earth's fresh water is frozen in Antarctica's ice.'",
-        "zh": "文中说南极洲'每年雨雪不足5厘米'，且'地球大部分淡水冻结在南极洲的冰里'。"
+        "zh": "文中说南极洲'每年雨雪不足5厘米'，且'地球大部分淡水冻结在南极洲的冰里'"
       }
     },
     {
@@ -193,27 +193,27 @@
       },
       "options": [
         {
-          "en": "The king penguin",
-          "zh": "王企鹅"
-        },
-        {
           "en": "The emperor penguin",
           "zh": "帝企鹅"
         },
         {
-          "en": "The little penguin",
-          "zh": "小蓝企鹅"
-        },
-        {
           "en": "The rockhopper penguin",
           "zh": "冠企鹅"
+        },
+        {
+          "en": "The king penguin",
+          "zh": "王企鹅"
+        },
+        {
+          "en": "The little penguin",
+          "zh": "小蓝企鹅"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "The book calls the emperor penguin 'the largest penguin in the world' and says it stands more than 1.2 meters tall.",
-        "zh": "书中称帝企鹅为'世界上最大的企鹅'，身高超过1.2米。"
+        "en": "The book calls the emperor penguin 'the largest penguin in the world' and says it stands more than 1.2 meters tall",
+        "zh": "书中称帝企鹅为'世界上最大的企鹅'，身高超过1.2米"
       }
     },
     {
@@ -223,27 +223,27 @@
       },
       "options": [
         {
-          "en": "Build a nest in a tree according to some versions of the story",
-          "zh": "在树上筑巢（按书中另一种说法）"
-        },
-        {
-          "en": "Hold the egg between his feet for two months without eating",
-          "zh": "把蛋夹在脚间两个月不吃东西"
-        },
-        {
           "en": "Swim away",
           "zh": "游走了"
         },
         {
           "en": "Eat the egg",
           "zh": "把蛋吃掉"
+        },
+        {
+          "en": "Hold the egg between his feet for two months without eating",
+          "zh": "把蛋夹在脚间两个月不吃东西"
+        },
+        {
+          "en": "Build a nest in a tree, because emperor penguins prefer to raise chicks off the ice",
+          "zh": "在树上筑巢，因为帝企鹅喜欢在冰面之外养育雏鸟"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The 'Wowser!' box says the male 'stands on ice and holds an egg between its feet and body for two months' and 'doesn't eat for this entire period.'",
-        "zh": "'哇塞！'框写道，雄企鹅'站在冰上把蛋夹在脚和身体之间两个月'，并且'这段时间不吃东西'。"
+        "zh": "'哇塞！'框写道，雄企鹅'站在冰上把蛋夹在脚和身体之间两个月'，并且'这段时间不吃东西'"
       }
     },
     {
@@ -257,23 +257,23 @@
           "zh": "为了列举旅游景点"
         },
         {
-          "en": "To describe the weather",
-          "zh": "为了描述天气"
-        },
-        {
-          "en": "To explain how to travel there according to some versions of the story in an early draft of the book",
-          "zh": "为了说明如何前往那里（按书中另一种说法）（在书的早期草稿中）"
+          "en": "To explain how to travel there by boat from the nearest city in South America with a tour guide",
+          "zh": "为了说明如何跟着导游乘船从南美洲最近的城市前往那里"
         },
         {
           "en": "To show Antarctica is kept for peaceful science and protected from conflict",
           "zh": "说明南极洲被用于和平的科学研究并受到保护、远离冲突"
+        },
+        {
+          "en": "To describe the weather",
+          "zh": "为了描述天气"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
-        "en": "The book says the 1961 treaty 'makes sure no wars happen in Antarctica and scientists can peacefully study there,' and countries work to protect its wildlife and land.",
-        "zh": "书中说1961年条约'确保南极洲不发生战争，科学家可和平研究'，各国共同努力保护其野生动植物和土地。"
+        "en": "The book says the 1961 treaty 'makes sure no wars happen in Antarctica and scientists can peacefully study there,' and countries work to protect its wildlife and land",
+        "zh": "书中说1961年条约'确保南极洲不发生战争，科学家可和平研究'，各国共同努力保护其野生动植物和土地"
       }
     },
     {
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "It is exactly like Africa",
-          "zh": "它和非洲一模一样"
+          "en": "It is the coldest and windiest continent and gets the least rain and snow",
+          "zh": "它是最冷、风最大、雨雪最少的洲"
         },
         {
           "en": "It has the most rain",
           "zh": "它雨水最多"
         },
         {
-          "en": "It is the coldest and windiest continent and gets the least rain and snow",
-          "zh": "它是最冷、风最大、雨雪最少的洲"
+          "en": "It is the warmest and calmest, with sunny beaches where people go on vacation",
+          "zh": "它最温暖最平静，还有阳光明媚的海滩供人们度假"
         },
         {
-          "en": "It is the warmest and calmest according to some versions of the story in an early draft of the book",
-          "zh": "它最温暖最平静（按书中另一种说法）（在书的早期草稿中）"
+          "en": "It is exactly like Africa",
+          "zh": "它和非洲一模一样"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The text says Antarctica 'is the coldest and windiest continent, and it gets the least rain and snow.'",
@@ -309,19 +309,19 @@
   ],
   "extended": {
     "prompt": {
-      "en": "Pretend you are a scientist at an Antarctic research base. Write a journal entry about what you see and do in a day.",
-      "zh": "假设你是南极科考站的一名科学家，写一则日记，描述你一天所见所做的事。"
+      "en": "Pretend you are a scientist at an Antarctic research base. Write a journal entry about what you see and do in a day",
+      "zh": "假设你是南极科考站的一名科学家，写一则日记，描述你一天所见所做的事"
     },
     "guidance": {
       "en": [
-        "Mention the extreme cold and ice.",
-        "Include one animal you might study, like the emperor penguin.",
-        "Use at least three sentences."
+        "Mention the extreme cold and ice",
+        "Include one animal you might study, like the emperor penguin",
+        "Use at least three sentences"
       ],
       "zh": [
-        "提到极端的寒冷和冰雪。",
-        "包含一种你可能研究的动物，如帝企鹅。",
-        "至少写三句话。"
+        "提到极端的寒冷和冰雪",
+        "包含一种你可能研究的动物，如帝企鹅",
+        "至少写三句话"
       ]
     }
   }

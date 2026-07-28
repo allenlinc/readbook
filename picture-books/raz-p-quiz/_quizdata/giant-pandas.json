@@ -21,12 +21,12 @@
           "zh": "熊类家族"
         },
         {
-          "en": "The dog family",
-          "zh": "犬科动物"
-        },
-        {
           "en": "The cat family",
           "zh": "猫科动物"
+        },
+        {
+          "en": "The dog family",
+          "zh": "犬科动物"
         }
       ],
       "answer": 1,
@@ -43,12 +43,8 @@
       },
       "options": [
         {
-          "en": "The islands of New Zealand according to some versions of the story",
-          "zh": "新西兰的岛屿（按书中另一种说法）"
-        },
-        {
-          "en": "The deserts of Australia",
-          "zh": "澳大利亚的沙漠"
+          "en": "The islands of New Zealand where the weather is warm all year round",
+          "zh": "新西兰的岛屿，那里全年气候温暖"
         },
         {
           "en": "The forest-covered mountains of western China",
@@ -57,9 +53,13 @@
         {
           "en": "The forests of Nepal",
           "zh": "尼泊尔的森林"
+        },
+        {
+          "en": "The deserts of Australia",
+          "zh": "澳大利亚的沙漠"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"Wild giant pandas remain in only one place on Earth—the forest-covered mountains of western China.\"",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "\"Mountain climber\"; rocks",
-          "zh": "“登山者”；石头"
-        },
-        {
-          "en": "\"Forest king\"; meat",
-          "zh": "“森林之王”；肉"
-        },
-        {
           "en": "\"Snow walker\"; snow",
           "zh": "“踏雪者”；雪"
         },
         {
           "en": "\"Bamboo eater\"; bamboo",
           "zh": "“吃竹子者”；竹子"
+        },
+        {
+          "en": "\"Forest king\"; meat",
+          "zh": "“森林之王”；肉"
+        },
+        {
+          "en": "\"Mountain climber\"; rocks",
+          "zh": "“登山者”；石头"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says, \"Panda means 'bamboo eater,' and bamboo makes up almost all of a panda's diet.\"",
@@ -103,12 +103,12 @@
       },
       "options": [
         {
-          "en": "Only at night, about 5 kg",
-          "zh": "只在夜间，约5公斤"
+          "en": "About 1 hour a day, up to 2 kg",
+          "zh": "每天约1小时，高达2公斤"
         },
         {
-          "en": "About 1 hour a day, up to 2 kg according to some versions of the story",
-          "zh": "每天约1小时，高达2公斤（按书中另一种说法）"
+          "en": "Only at night, about 5 kg and it stops eating only when the snow begins to fall",
+          "zh": "只在夜间，约5公斤，它只在雪开始落下时才停止进食"
         },
         {
           "en": "Two meals a day, 50 kg total",
@@ -137,8 +137,8 @@
           "zh": "不，它们必须全年进食"
         },
         {
-          "en": "Yes, they sleep all winter according to some versions of the story",
-          "zh": "会，它们整个冬天都在睡（按书中另一种说法）"
+          "en": "Yes, they sleep all winter just like the bears in the cold north do",
+          "zh": "会，它们整个冬天都在睡，就像寒冷北方的熊一样"
         },
         {
           "en": "Only in zoos",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Because they eat the most food",
-          "zh": "因为它们吃得最多"
+          "en": "Because they eat the most food because they are the heaviest animals in China",
+          "zh": "因为它们吃得最多，因为它们是中国最重的动物"
         },
         {
-          "en": "To distinguish them from red pandas",
-          "zh": "为了和“小熊猫”区分开"
+          "en": "Because they are the largest bears",
+          "zh": "因为它们是最大的熊"
         },
         {
           "en": "Because they live in giant trees",
           "zh": "因为它们住在大树上"
         },
         {
-          "en": "Because they are the largest bears according to some versions of the story",
-          "zh": "因为它们是最大的熊（按书中另一种说法）"
+          "en": "To distinguish them from red pandas",
+          "zh": "为了和“小熊猫”区分开"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"They are called 'giant pandas' to distinguish them from red pandas, which also live in bamboo forests in China.\"",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "No, red pandas are relatives of cats according to some versions of the story",
-          "zh": "不是，小熊猫是猫的亲戚（按书中另一种说法）"
-        },
-        {
-          "en": "Yes, they are both bears",
-          "zh": "是的，它们都是熊"
+          "en": "No, red pandas are relatives of cats and they live only in the deserts of Africa",
+          "zh": "不是，小熊猫是猫的亲戚，而且它们只生活在非洲的沙漠里"
         },
         {
           "en": "No, red pandas are relatives of raccoons",
           "zh": "不是，小熊猫是浣熊的亲戚"
         },
         {
+          "en": "Yes, they are both bears",
+          "zh": "是的，它们都是熊"
+        },
+        {
           "en": "Yes, they are the same animal",
           "zh": "是的，它们是同一种动物"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says, \"The red panda is not a close relative of the giant panda... Red pandas are relatives of raccoons.\"",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Because they are rare and endangered, symbolizing the effort to protect Earth's animals",
-          "zh": "因为它们稀有且濒危，象征着保护地球动物的努力"
-        },
-        {
-          "en": "Because they are the strongest animal according to some versions of the story in an early draft of the book",
-          "zh": "因为它们是最强壮的动物（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "Because they can fly",
           "zh": "因为它们会飞"
         },
         {
           "en": "Because they live the longest",
           "zh": "因为它们寿命最长"
+        },
+        {
+          "en": "Because they are the strongest animal and they can run faster than any horse in the world and climb higher than a monkey",
+          "zh": "因为它们是最强壮的动物，而且它们跑得比世界上任何马都快，爬得比猴子还高"
+        },
+        {
+          "en": "Because they are rare and endangered, symbolizing the effort to protect Earth's animals",
+          "zh": "因为它们稀有且濒危，象征着保护地球动物的努力"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book says, \"They are so rare and endangered that they have become a symbol of the effort to protect Earth's animals.\"",
@@ -253,8 +253,8 @@
       },
       "options": [
         {
-          "en": "About 100, with one hundred preserves according to some versions of the story",
-          "zh": "约100只，100个保护区（按书中另一种说法）"
+          "en": "About 100, with one hundred preserves and they all live together in a single large zoo",
+          "zh": "约100只，100个保护区，而且它们全都住在同一座大型动物园里"
         },
         {
           "en": "About 1,000 in the wild, with thirty-four preserves",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "It leaves colorful feathers",
+          "zh": "它留下彩色羽毛"
+        },
+        {
           "en": "It rubs a smelly liquid on tree trunks and scratches the bark",
           "zh": "它在树干上蹭有气味的液体并抓挠树皮"
         },
         {
-          "en": "It builds a wall of bamboo",
-          "zh": "它筑一道竹子墙"
+          "en": "It builds a wall of bamboo and then it sings a loud song to warn other pandas away",
+          "zh": "它筑一道竹子墙，然后它会高声唱歌，警告其他熊猫离开"
         },
         {
           "en": "It howls loudly at night",
           "zh": "它夜里大声嚎叫"
-        },
-        {
-          "en": "It leaves colorful feathers according to some versions of the story",
-          "zh": "它留下彩色羽毛（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says, \"One sign is a smelly liquid that the panda releases from its body and rubs on tree trunks. A panda also marks the edges of its home range by scratching the bark of tree trunks.\"",
