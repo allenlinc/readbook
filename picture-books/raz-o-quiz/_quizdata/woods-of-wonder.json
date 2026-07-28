@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "About 10 years old",
-          "zh": "大约10年"
+          "en": "About 10 years old, which is how long a pine tree lives",
+          "zh": "大约10年，也就是一棵松树存活的时长"
         },
         {
-          "en": "At least 150 years old",
-          "zh": "至少150年"
+          "en": "Exactly 50 years old",
+          "zh": "正好50年"
         },
         {
           "en": "Only 1 year old",
           "zh": "只有1年"
         },
         {
-          "en": "Exactly 50 years old according to some versions of the story",
-          "zh": "正好50年（按书中另一种说法）"
+          "en": "At least 150 years old",
+          "zh": "至少150年"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says many scientists agree that an old-growth forest must be at least 150 years old.",
@@ -43,16 +43,16 @@
       },
       "options": [
         {
-          "en": "A type of redwood",
-          "zh": "一种红杉"
+          "en": "The tallest tree in the world",
+          "zh": "世界上最高的树"
         },
         {
           "en": "The largest tree in the world",
           "zh": "世界上最大的树"
         },
         {
-          "en": "The tallest tree in the world according to some versions of the story",
-          "zh": "世界上最高的树（按书中另一种说法）"
+          "en": "A type of redwood that grows only in the warmest deserts",
+          "zh": "一种只生长在最温暖沙漠中的红杉"
         },
         {
           "en": "A small bush",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Redwoods are smaller than flowers",
-          "zh": "红杉比花还小"
+          "en": "They grow in different colors of bark",
+          "zh": "它们有不同颜色的树皮"
         },
         {
-          "en": "Both grow only near the North Pole",
-          "zh": "两者只生长在北极附近"
-        },
-        {
-          "en": "They grow in different colors of bark according to some versions of the story",
-          "zh": "它们有不同颜色的树皮（按书中另一种说法）"
+          "en": "Both grow only near the North Pole, where the ground stays frozen all year",
+          "zh": "两者只生长在北极附近，那里地面终年冰冻"
         },
         {
           "en": "Redwoods are the tallest trees, while sequoias are the largest",
           "zh": "红杉是最高的树，而巨杉是最大的"
+        },
+        {
+          "en": "Redwoods are smaller than flowers",
+          "zh": "红杉比花还小"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states giant redwoods are the tallest trees (up to 378 feet) and giant sequoias are the largest (up to 40 feet wide), though both have the same color bark.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "The forest floor",
-          "zh": "森林地面"
-        },
-        {
-          "en": "The part where tree tops form a dense layer of leaves",
-          "zh": "树顶形成茂密叶层的那部分"
-        },
-        {
           "en": "A kind of animal",
           "zh": "一种动物"
         },
         {
-          "en": "The roots of a tree according to some versions of the story",
-          "zh": "树的根（按书中另一种说法）"
+          "en": "The roots of a tree",
+          "zh": "树的根"
+        },
+        {
+          "en": "The forest floor where animals sleep and fungi grow on old logs",
+          "zh": "动物睡觉、真菌在枯木上生长的那层森林地面"
+        },
+        {
+          "en": "The part where tree tops form a dense layer of leaves",
+          "zh": "树顶形成茂密叶层的那部分"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines canopy as the part of a forest where the tops of trees form a dense layer of leaves.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Because they are short and twisted by harsh winds",
-          "zh": "因为它们在恶劣大风中长得又矮又扭曲"
-        },
-        {
           "en": "Because they are a kind of flower",
           "zh": "因为它们是一种花"
         },
         {
-          "en": "Because they are the tallest trees according to some versions of the story",
-          "zh": "因为它们是最高的树（按书中另一种说法）"
+          "en": "Because they grow only in Japan, where the soil is bright red",
+          "zh": "因为它们只生长在日本，那里的土壤是鲜红色的"
         },
         {
-          "en": "Because they grow only in Japan",
-          "zh": "因为它们只生长在日本"
+          "en": "Because they are short and twisted by harsh winds",
+          "zh": "因为它们在恶劣大风中长得又矮又扭曲"
+        },
+        {
+          "en": "Because they are the tallest trees",
+          "zh": "因为它们是最高的树"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says pines and spruces in harsh, windy places grow short and twisted and are called Krummholz, meaning 'crooked wood,' even though some are a thousand years old.",
@@ -163,10 +163,6 @@
       },
       "options": [
         {
-          "en": "Only a place for people to build according to some versions of the story",
-          "zh": "只供人类建造房屋（按书中另一种说法）"
-        },
-        {
           "en": "A new kind of rock",
           "zh": "一种新的岩石"
         },
@@ -177,9 +173,13 @@
         {
           "en": "Food and shelter for animals, plants, and fungi",
           "zh": "为动物、植物和真菌提供食物和庇护所"
+        },
+        {
+          "en": "Only a place for people to build houses and roads for cars",
+          "zh": "只供人类建造房屋和汽车行驶的道路"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains that snags and fallen trees provide food and shelter for different animals, plants, and fungi, and fallen trees make holes in the canopy for young trees.",
@@ -205,8 +205,8 @@
           "zh": "红杉树"
         },
         {
-          "en": "The Pacific fisher according to some versions of the story",
-          "zh": "太平洋渔貂（按书中另一种说法）"
+          "en": "The Pacific fisher, a big cat that climbs the tallest redwoods",
+          "zh": "太平洋渔貂，一种爬上最高红杉的大型猫科动物"
         }
       ],
       "answer": 0,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "To list the glossary words",
-          "zh": "为了列出词汇表"
-        },
-        {
-          "en": "To tell a fairy tale",
-          "zh": "为了讲一个童话"
-        },
-        {
           "en": "To show old-growth forests need protection and people disagree on how much",
           "zh": "为了说明原始森林需要保护，而人们在保护程度上的看法不一"
         },
         {
-          "en": "To describe how to bake bread according to some versions of the story in an early draft of the book",
-          "zh": "为了描写如何烤面包（按书中另一种说法）（在书的早期草稿中）"
+          "en": "To list the glossary words",
+          "zh": "为了列出词汇表"
+        },
+        {
+          "en": "To tell a fairy tale about a talking tree that protects the forest from a giant who cuts wood",
+          "zh": "为了讲一个关于会说话、保护森林免遭伐木巨人的树的童话"
+        },
+        {
+          "en": "To describe how to bake bread",
+          "zh": "为了描写如何烤面包"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The conclusion says some old-growth forests are in danger from human actions and that people debate how much protection is enough, showing why they matter.",
@@ -253,8 +253,8 @@
       },
       "options": [
         {
-          "en": "To tell a made-up story about animals according to some versions of the story in an early draft of the book",
-          "zh": "讲述一个虚构的动物故事（按书中另一种说法）（在书的早期草稿中）"
+          "en": "To tell a made-up story about animals that talk, build houses, and fly to the moon",
+          "zh": "讲述一个关于会说话、会盖房子、还会飞往月球的动物的虚构故事"
         },
         {
           "en": "To persuade readers to cut down forests",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "It glides using skin on its paws",
-          "zh": "它用爪子上的皮膜滑翔"
-        },
-        {
-          "en": "It digs underground",
-          "zh": "它在地下挖洞"
+          "en": "It truly flies like a bird and builds nests high above the trees",
+          "zh": "它像鸟一样真正飞行，并在高高的树顶筑巢"
         },
         {
           "en": "It swims",
           "zh": "它游泳"
         },
         {
-          "en": "It truly flies like a bird according to some versions of the story",
-          "zh": "它像鸟一样真正飞行（按书中另一种说法）"
+          "en": "It digs underground",
+          "zh": "它在地下挖洞"
+        },
+        {
+          "en": "It glides using skin on its paws",
+          "zh": "它用爪子上的皮膜滑翔"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says these small mammals don't really fly; they use skin attached to their front and back paws to glide.",
@@ -313,8 +313,8 @@
       "zh": "书中说法律禁止在某些原始森林砍伐，但在另一些森林却没有，人们也在争论保护到什么程度才足够。如果你住的地方附近有一片原始森林，你希望领导者对保护它做出怎样的决定？"
     },
     "guidance": {
-      "en": "- Recall that old-growth forests support life for hundreds or thousands of years.\n- Note that fallen and dead trees help new life grow.\n- Think about how human actions can damage these places.\n- Weigh the debate between logging and protection mentioned in the conclusion.",
-      "zh": "- 回想原始森林支撑生命可达数百年甚至数千年。\n- 注意枯立木和倒木有助于新生命的生长。\n- 想想人类活动会如何破坏这些地方。\n- 权衡结论中提到的砍伐与保护之间的争论。"
+      "en": "- Recall that old-growth forests support life for hundreds or thousands of years. - Note that fallen and dead trees help new life grow. - Think about how human actions can damage these places. - Weigh the debate between logging and protection mentioned in the conclusion.",
+      "zh": "- 回想原始森林支撑生命可达数百年甚至数千年。 - 注意枯立木和倒木有助于新生命的生长。 - 想想人类活动会如何破坏这些地方。 - 权衡结论中提到的砍伐与保护之间的争论。"
     }
   }
 }

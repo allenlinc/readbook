@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "Bone",
-          "zh": "骨头"
-        },
-        {
           "en": "Water",
           "zh": "水"
+        },
+        {
+          "en": "Bone",
+          "zh": "骨头"
         },
         {
           "en": "Wood",
@@ -29,7 +29,7 @@
           "zh": "金属"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says 'You are mostly made of water' and later that 'Your body is made of water, muscles, and nerves.' Jellyfish have no bones.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "It walks on the ocean floor with legs according to some versions of the story",
-          "zh": "它用腿在海底行走（按书中另一种说法）"
-        },
-        {
           "en": "It flaps large fins like a fish",
           "zh": "它像鱼一样拍动大鳍"
         },
         {
-          "en": "It fills its bell with water, then squeezes the muscles to force water out",
-          "zh": "它先把钟形身体灌满水，再收缩肌肉把水挤出"
-        },
-        {
           "en": "It flies through the air",
           "zh": "它在空中飞行"
+        },
+        {
+          "en": "It walks on the ocean floor with legs, carries a shell, and sleeps in a cave",
+          "zh": "它用腿在海底行走，背着贝壳，并睡在洞穴里"
+        },
+        {
+          "en": "It fills its bell with water, then squeezes the muscles to force water out",
+          "zh": "它先把钟形身体灌满水，再收缩肌肉把水挤出"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains that a jellyfish lets its bell fill with water, then squeezes the bell muscles and forces water out, shooting forward.",
@@ -77,16 +77,16 @@
           "zh": "卵受精后形成的一种细小蠕虫状动物"
         },
         {
-          "en": "The adult jellyfish",
-          "zh": "成年水母"
+          "en": "A kind of fish that eats jellyfish",
+          "zh": "一种吃水母的鱼"
+        },
+        {
+          "en": "The adult jellyfish that swims to the surface, lays its eggs, and then dives deep",
+          "zh": "游到水面产卵、然后又潜入深处的成年水母"
         },
         {
           "en": "The jelly's stinging cell",
           "zh": "水母的刺细胞"
-        },
-        {
-          "en": "A kind of fish that eats jellyfish according to some versions of the story",
-          "zh": "一种吃水母的鱼（按书中另一种说法）"
         }
       ],
       "answer": 0,
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "Small rocks",
+          "zh": "小石头"
+        },
+        {
           "en": "Jellyfish",
           "zh": "水母"
         },
@@ -113,13 +117,9 @@
         {
           "en": "Seeds",
           "zh": "种子"
-        },
-        {
-          "en": "Small rocks",
-          "zh": "小石头"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states 'Jellyfish are the main food of leatherback sea turtles.'",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "To help readers imagine being a jellyfish and feel part of the story",
+          "zh": "为了帮助读者想象自己是一只水母，融入故事中"
+        },
+        {
           "en": "To teach a foreign language",
           "zh": "为了教一门外语"
         },
@@ -141,15 +145,11 @@
           "zh": "为了给水母下命令"
         },
         {
-          "en": "To help readers imagine being a jellyfish and feel part of the story",
-          "zh": "为了帮助读者想象自己是一只水母，融入故事中"
-        },
-        {
-          "en": "Because the book is a letter to a friend according to some versions of the story",
-          "zh": "因为这本书是写给朋友的信（按书中另一种说法）"
+          "en": "Because the book is a long letter to a friend who lives across the sea",
+          "zh": "因为这本书是写给住在大海另一端的一位朋友的一封长信"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "By using the second person 'you,' the author invites readers to picture themselves as a jellyfish, making the informational text more engaging and personal.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "To replace the glossary",
-          "zh": "为了取代词汇表"
-        },
-        {
           "en": "To share surprising fun facts that keep readers interested",
           "zh": "为了分享令人惊讶的有趣事实，保持读者的兴趣"
         },
         {
-          "en": "To list the book's chapters",
-          "zh": "为了列出书的章节"
+          "en": "To show the author's address so readers can write a thank-you note by mail",
+          "zh": "为了显示作者的地址，好让读者通过邮寄写感谢信"
         },
         {
-          "en": "To show the author's address according to some versions of the story",
-          "zh": "为了显示作者的地址（按书中另一种说法）"
+          "en": "To replace the glossary",
+          "zh": "为了取代词汇表"
+        },
+        {
+          "en": "To list the book's chapters",
+          "zh": "为了列出书的章节"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The 'Do You Know?' boxes highlight amazing details (like the lion's mane jellyfish being as long as a school bus), adding fun facts to engage readers.",
@@ -193,16 +193,16 @@
       },
       "options": [
         {
-          "en": "Fresh water is the best thing to use according to some versions of the story in an early draft of the book",
-          "zh": "淡水是最好的处理方式（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "Fresh water and the right treatment matter; vinegar helps and should be used, not ice or rubbing",
-          "zh": "淡水和正确治疗很重要；白醋有帮助，应使用白醋而非冰敷或揉搓"
-        },
-        {
           "en": "Ice should be applied right away",
           "zh": "应该立刻敷冰"
+        },
+        {
+          "en": "Fresh water is wrong; use seawater and vinegar, not ice or rubbing",
+          "zh": "淡水不可用；应用海水和白醋，而非冰敷或揉搓"
+        },
+        {
+          "en": "Fresh water is the best thing to use because it cools the sting fast and feels nice",
+          "zh": "淡水是最好的处理方式，因为它能快速冷却蜇伤，而且感觉舒适"
         },
         {
           "en": "You should rub the wound hard",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Jellyfish are actually mammals",
-          "zh": "水母其实是哺乳动物"
+          "en": "Jellyfish are very successful survivors, even though they lack a brain",
+          "zh": "水母尽管没有大脑，却是极其成功的幸存者"
         },
         {
-          "en": "Jellyfish are going extinct very soon according to some versions of the story",
-          "zh": "水母很快就要灭绝了（按书中另一种说法）"
+          "en": "Jellyfish are going extinct very soon",
+          "zh": "水母很快就要灭绝了"
         },
         {
           "en": "Only fish can survive that long",
           "zh": "只有鱼才能存活那么久"
         },
         {
-          "en": "Jellyfish are very successful survivors, even though they lack a brain",
-          "zh": "水母尽管没有大脑，却是极其成功的幸存者"
+          "en": "Jellyfish are actually mammals that feed their babies with milk and have warm blood",
+          "zh": "水母其实是哺乳动物，用乳汁喂养幼崽，而且是温血动物"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The author notes jellyfish have lived for hundreds of millions of years without brains, highlighting how well-adapted and successful they are as survivors.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To teach readers about jellyfish in a fun, imaginative way",
-          "zh": "为了以有趣、富有想象力的方式向读者介绍水母"
-        },
-        {
           "en": "To sell jellyfish as pets",
           "zh": "为了把水母当宠物卖"
+        },
+        {
+          "en": "To teach readers about jellyfish in a fun, imaginative way",
+          "zh": "为了以有趣、富有想象力的方式向读者介绍水母"
         },
         {
           "en": "To explain how to build an aquarium",
           "zh": "为了解释如何建造水族馆"
         },
         {
-          "en": "To prove jellyfish are dangerous to everyone according to some versions of the story",
-          "zh": "为了证明水母对所有人都有危险（按书中另一种说法）"
+          "en": "To prove jellyfish are dangerous to everyone and must be avoided at all times",
+          "zh": "为了证明水母对所有人都有危险，任何时候都应避开"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book uses a playful second-person voice and clear facts to inform readers about jellyfish bodies, life cycle, and habits in an engaging way.",
@@ -283,8 +283,8 @@
       },
       "options": [
         {
-          "en": "To scare readers away from the ocean according to some versions of the story",
-          "zh": "为了让读者不敢去海边（按书中另一种说法）"
+          "en": "To help keep readers safe around jellyfish",
+          "zh": "为了帮助读者在水母周围保持安全"
         },
         {
           "en": "To end the book quickly",
@@ -295,11 +295,11 @@
           "zh": "为了卖药"
         },
         {
-          "en": "To help keep readers safe around jellyfish",
-          "zh": "为了帮助读者在水母周围保持安全"
+          "en": "To scare readers away from the ocean so they never go swimming",
+          "zh": "为了让读者不敢去海边，从此再也不去游泳"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "By warning that dead jellies can sting and listing first-aid steps, the author shows care for readers' safety, not just sharing facts.",

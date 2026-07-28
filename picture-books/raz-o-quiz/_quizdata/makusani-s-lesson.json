@@ -17,8 +17,8 @@
           "zh": "委内瑞拉的耶库阿纳人"
         },
         {
-          "en": "A town in modern Canada according to some versions of the story",
-          "zh": "现代加拿大的一座城镇（按书中另一种说法）"
+          "en": "A town in modern Canada, where Makusani moves after he learns to paddle the canoe.",
+          "zh": "现代加拿大的一座城镇，马库萨尼学会划独木舟后搬到了那里。"
         },
         {
           "en": "A city in Japan",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "To be careful and stay on the trails",
-          "zh": "要小心，并走在小路上"
-        },
-        {
-          "en": "To never speak to anyone",
-          "zh": "绝对不要和任何人说话"
+          "en": "To paddle a canoe down the river and catch three fish before the sun sets.",
+          "zh": "划着独木舟顺流而下，并在太阳落山前抓到三条鱼。"
         },
         {
           "en": "To bring home a frog",
           "zh": "带一只青蛙回家"
         },
         {
-          "en": "To paddle a canoe down the river according to some versions of the story",
-          "zh": "划着独木舟顺流而下（按书中另一种说法）"
+          "en": "To never speak to anyone",
+          "zh": "绝对不要和任何人说话"
+        },
+        {
+          "en": "To be careful and stay on the trails",
+          "zh": "要小心，并走在小路上"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Makusani's mother tells him 'to be careful and to stay on the trails' as he leaves the village to hunt in the mountains.",
@@ -81,8 +81,8 @@
           "zh": "她变成一只青蛙，跳着逃走了"
         },
         {
-          "en": "She gives him her blowgun according to some versions of the story",
-          "zh": "她把自己的吹箭筒递给他（按书中另一种说法）"
+          "en": "She gives him her blowgun and shows him how to shoot darts at the birds.",
+          "zh": "她把自己的吹箭筒递给他，并教他如何向鸟儿射飞镖。"
         },
         {
           "en": "She paddles him home",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "It is a book of real photographs according to some versions of the story",
-          "zh": "它是一本真实照片集（按书中另一种说法）"
+          "en": "It is a folktale with magical transformations",
+          "zh": "它是一个带有神奇变形的民间故事"
         },
         {
-          "en": "It is a history textbook",
-          "zh": "它是一本历史教科书"
+          "en": "It is a book of real photographs, taken by a explorer who followed Makusani through the forest.",
+          "zh": "它是一本真实照片集，由一位跟随马库萨尼穿过森林的探险家拍摄。"
         },
         {
           "en": "It is a scientific report",
           "zh": "它是一份科学报告"
         },
         {
-          "en": "It is a folktale with magical transformations",
-          "zh": "它是一个带有神奇变形的民间故事"
+          "en": "It is a history textbook",
+          "zh": "它是一本历史教科书"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The repeated magical change of people into animals (the girl into a frog, Huenna into a tinamou, Nanudi into an otter, the Sun Girl into a boa) marks the story as a folktale full of magic.",
@@ -145,8 +145,8 @@
           "zh": "马库萨尼的妈妈，变成了一只鹿"
         },
         {
-          "en": "A younger boy who becomes a frog according to some versions of the story",
-          "zh": "一个年纪更小的男孩，变成了青蛙（按书中另一种说法）"
+          "en": "A younger boy who becomes a frog after he teases Huenna by the river one afternoon.",
+          "zh": "一个年纪更小的男孩，他在某天下午在河边戏弄维纳后变成了青蛙。"
         }
       ],
       "answer": 1,
@@ -171,8 +171,8 @@
           "zh": "它就是马库萨尼从纳努迪的袋子里放出来的那条蛇"
         },
         {
-          "en": "It is a different snake that ate the frog according to some versions of the story",
-          "zh": "是另一条吃掉了青蛙的蛇（按书中另一种说法）"
+          "en": "It is a different snake that ate the frog, then climbed the tree to wait for Makusani.",
+          "zh": "是另一条吃掉了青蛙的蛇，然后爬上树，等着马库萨尼。"
         },
         {
           "en": "It is the deer from the river",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "Because his mother invited her to dinner",
-          "zh": "因为他妈妈请她吃晚饭"
-        },
-        {
           "en": "Because he gave her his blowgun",
           "zh": "因为他把吹箭筒给了她"
+        },
+        {
+          "en": "Because he caught the frog for her",
+          "zh": "因为他替她抓住了青蛙"
         },
         {
           "en": "Because he released her from the bag",
           "zh": "因为他把她从袋子里放了出来"
         },
         {
-          "en": "Because he caught the frog for her",
-          "zh": "因为他替她抓住了青蛙"
+          "en": "Because his mother invited her to dinner",
+          "zh": "因为他妈妈请她吃晚饭"
         }
       ],
       "answer": 2,
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "He must learn to paddle a canoe",
+          "zh": "他必须学会划独木舟"
+        },
+        {
           "en": "He must always think about how his actions affect others",
           "zh": "他必须一直想着自己的行为会怎样影响别人"
         },
@@ -231,15 +235,11 @@
           "zh": "他必须把甲虫交给她"
         },
         {
-          "en": "He must learn to paddle a canoe",
-          "zh": "他必须学会划独木舟"
-        },
-        {
-          "en": "He must never return to the village according to some versions of the story",
-          "zh": "他永远不能回村子（按书中另一种说法）"
+          "en": "He must never return to the village, and must live alone in the forest for the rest of his life.",
+          "zh": "他永远不能回村子，而且必须在森林里独自度过余生。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Sun Girl sets one condition: 'You must always think about how your actions will affect others,' which is the heart of the story's lesson.",
@@ -253,8 +253,8 @@
       },
       "options": [
         {
-          "en": "Catch as many frogs as possible according to some versions of the story",
-          "zh": "尽可能多地抓青蛙（按书中另一种说法）"
+          "en": "Catch as many frogs as possible, because the story says frogs bring good luck to hunters.",
+          "zh": "尽可能多地抓青蛙，因为故事里说青蛙会给猎人带来好运。"
         },
         {
           "en": "Never talk to girls",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "She paddles the canoe home",
-          "zh": "她划着独木舟回家了"
-        },
-        {
-          "en": "She stays for dinner and becomes a sister according to some versions of the story",
-          "zh": "她留下吃晚饭，成了妹妹（按书中另一种说法）"
+          "en": "She turns back into a boa constrictor and slides into the forest",
+          "zh": "她变回蟒蛇，溜进了森林"
         },
         {
           "en": "She marries Makusani",
           "zh": "她嫁给了马库萨尼"
         },
         {
-          "en": "She turns back into a boa constrictor and slides into the forest",
-          "zh": "她变回蟒蛇，溜进了森林"
+          "en": "She stays for dinner and becomes a sister, then helps Makusani's mother with the chores every day.",
+          "zh": "她留下吃晚饭，成了妹妹，然后天天帮马库萨尼的妈妈做家务。"
+        },
+        {
+          "en": "She paddles the canoe home",
+          "zh": "她划着独木舟回家了"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "After walking Makusani home and being thanked, just as his mother is about to invite her to stay for dinner, the Sun Girl turns back into a boa constrictor and slithers into the forest.",

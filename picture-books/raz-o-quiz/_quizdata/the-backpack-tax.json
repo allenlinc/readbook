@@ -13,20 +13,20 @@
       },
       "options": [
         {
-          "en": "thirty-one dollars and eighty cents",
-          "zh": "三十一美元八十美分"
+          "en": "thirty-five dollars",
+          "zh": "三十五美元"
         },
         {
-          "en": "fifteen dollars",
-          "zh": "十五美元"
+          "en": "thirty-one dollars and eighty cents",
+          "zh": "三十一美元八十美分"
         },
         {
           "en": "thirty dollars",
           "zh": "三十美元"
         },
         {
-          "en": "thirty-five dollars",
-          "zh": "三十五美元"
+          "en": "fifteen dollars",
+          "zh": "十五美元"
         }
       ],
       "answer": 2,
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "six dollars, which the book says is the tax already included in the thirty-dollar total",
+          "zh": "六美元，书中说这是已经包含在三十美元总价里的税"
+        },
+        {
           "en": "one dollar and eighty cents",
           "zh": "一美元八十美分"
         },
@@ -51,15 +55,11 @@
           "zh": "六美分"
         },
         {
-          "en": "six dollars",
-          "zh": "六美元"
-        },
-        {
-          "en": "eighty cents according to some versions of the story",
-          "zh": "八十美分（按书中另一种说法）"
+          "en": "eighty cents",
+          "zh": "八十美分"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mom said the tax adds six cents for every dollar, so thirty dollars means one dollar and eighty cents extra, making the total thirty-one dollars and eighty cents.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "sales tax, property tax, and income tax",
-          "zh": "销售税、财产税和所得税"
+          "en": "city tax, state tax, and country tax, which the book says are the three kinds every family pays each spring",
+          "zh": "城市税、州税和国家税，书中说这是每个家庭每年春天都要交的三种税"
+        },
+        {
+          "en": "road tax, school tax, and library tax",
+          "zh": "道路税、学校税和图书馆税"
         },
         {
           "en": "candy tax, toy tax, and car tax",
           "zh": "糖果税、玩具税和汽车税"
         },
         {
-          "en": "road tax, school tax, and library tax according to some versions of the story",
-          "zh": "道路税、学校税和图书馆税（按书中另一种说法）"
-        },
-        {
-          "en": "city tax, state tax, and country tax",
-          "zh": "城市税、州税和国家税"
+          "en": "sales tax, property tax, and income tax",
+          "zh": "销售税、财产税和所得税"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Dad explains a sales tax (when you buy things), a property tax (because you own a house), and an income tax (taken from a paycheck).",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "video games and movies according to some versions of the story",
-          "zh": "电子游戏和电影（按书中另一种说法）"
-        },
-        {
           "en": "parks, libraries, police, firefighters, and schools",
           "zh": "公园、图书馆、警察、消防员和学校"
         },
         {
-          "en": "elephant backpacks",
-          "zh": "大象背包"
+          "en": "video games and movies, because Molly's parents say taxes mostly pay for fun things for kids",
+          "zh": "电子游戏和电影，因为莫莉的父母说税收主要用来给孩子买好玩的东西"
         },
         {
           "en": "only roads",
           "zh": "只有道路"
+        },
+        {
+          "en": "elephant backpacks",
+          "zh": "大象背包"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mom and Dad say taxes pay for roads, parks and pools, libraries, police officers, firefighters, and schools.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "a poem",
-          "zh": "一首诗"
-        },
-        {
           "en": "a conversation between Molly and her parents",
           "zh": "莫莉和父母之间的一段对话"
         },
         {
-          "en": "a list of facts",
-          "zh": "一份事实清单"
+          "en": "a poem",
+          "zh": "一首诗"
         },
         {
-          "en": "a science report according to some versions of the story",
-          "zh": "一篇科学报告（按书中另一种说法）"
+          "en": "a science report with charts and diagrams that explain how the government counts its money",
+          "zh": "一篇配有图表的科学报告，解释政府如何清点它的钱财"
+        },
+        {
+          "en": "a list of facts",
+          "zh": "一份事实清单"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Most of the book is written as dialogue, with Molly asking questions and her parents explaining taxes in reply.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "to compare prices at different stores, because Molly visited many shops to find the cheapest backpack",
+          "zh": "为了比较不同商店的价格，因为莫莉去了很多商店，想找最便宜的背包"
+        },
+        {
           "en": "to show how she saved up bit by bit until she reached her goal",
           "zh": "为了表现她一点一点攒钱，直到达成目标"
         },
         {
-          "en": "to explain how banks work",
-          "zh": "为了解释银行如何运作"
-        },
-        {
-          "en": "to compare prices at different stores according to some versions of the story",
-          "zh": "为了比较不同商店的价格（按书中另一种说法）"
-        },
-        {
           "en": "to show how slowly time passes",
           "zh": "为了表现时间过得很慢"
+        },
+        {
+          "en": "to explain how banks work",
+          "zh": "为了解释银行如何运作"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The counting shows Molly adding five dollars from her allowance each week until she finally saved the full thirty dollars.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "She decides never to buy the backpack. according to some versions of the story in an early draft of the book",
-          "zh": "她决定永远不买那个背包了。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "She thinks taxes should be much higher.",
+          "zh": "她认为税收应该高得多。"
         },
         {
-          "en": "She is a little sad but understands her tax money helps build things like parks.",
-          "zh": "她有点难过，但明白自己交的税能帮助建设像公园这样的设施。"
+          "en": "She decides never to buy the backpack because she tells her parents the extra tax makes it impossible for her to ever afford it",
+          "zh": "她决定永远不买那个背包，因为她告诉父母，额外的税让她永远也买不起它"
         },
         {
           "en": "She stays angry and refuses to pay.",
           "zh": "她仍然生气，拒绝付税。"
         },
         {
-          "en": "She thinks taxes should be much higher.",
-          "zh": "她认为税收应该高得多。"
+          "en": "She is a little sad but understands her tax money helps build things like parks.",
+          "zh": "她有点难过，但明白自己交的税能帮助建设像公园这样的设施。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "At the end Molly says she is 'a little bit' sad about waiting, but adds 'maybe my tax money will help build a park,' showing she understands.",
@@ -227,19 +227,19 @@
           "zh": "只有政府免费修路。"
         },
         {
-          "en": "Molly's family should build a road themselves. according to some versions of the story in an early draft of the book",
-          "zh": "莫莉一家应该自己修一条路。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Most people can't afford big community projects alone, so everyone pays a little through taxes.",
+          "zh": "大多数人无法独自承担大型社区项目，所以人人通过税收出一点钱。"
         },
         {
           "en": "Roads are cheap and easy to build.",
           "zh": "道路造价低廉、容易修建。"
         },
         {
-          "en": "Most people can't afford big community projects alone, so everyone pays a little through taxes.",
-          "zh": "大多数人无法独自承担大型社区项目，所以人人通过税收出一点钱。"
+          "en": "Molly's family should build a road themselves, because the book explains that every family must build and repair its own roads, bridges, and schools",
+          "zh": "莫莉一家应该自己修一条路，因为书中解释说，每个家庭都必须自己修建和维修道路、桥梁以及学校"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Mom says roads cost millions and 'most people don't have enough money to build a road on their own,' so if everyone pays a little tax, they build it together.",
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "to tell a funny story about a monster that Molly meets in the parking lot of the backpack store",
+          "zh": "讲一个关于怪物的有趣故事，莫莉是在卖背包的停车场遇到这个怪物的"
+        },
+        {
           "en": "to sell elephant backpacks",
           "zh": "推销大象背包"
         },
@@ -263,13 +267,9 @@
         {
           "en": "to teach young readers what taxes are and how they help a community",
           "zh": "向小读者讲解什么是税收，以及税收如何帮助社区"
-        },
-        {
-          "en": "to tell a funny story about a monster according to some versions of the story",
-          "zh": "讲一个关于怪物的有趣故事（按书中另一种说法）"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Through Molly's story, the book introduces sales, property, and income taxes and explains that taxes pay for shared community services.",
@@ -287,19 +287,19 @@
           "zh": "背包应该是免费的。"
         },
         {
-          "en": "Parents should always buy kids what they want. according to some versions of the story",
-          "zh": "父母总该给孩子买他们想要的东西。（按书中另一种说法）"
-        },
-        {
           "en": "Saving money is a waste of time.",
           "zh": "存钱是浪费时间。"
         },
         {
           "en": "Paying taxes means waiting a little longer, but the money helps the community.",
           "zh": "交税意味着要多等一会儿，但这些钱能帮助社区。"
+        },
+        {
+          "en": "Parents should always buy kids what they want, because the book shows Molly's parents buying her the backpack the very same day",
+          "zh": "父母总该给孩子买他们想要的东西，因为书中写到莫莉的父母当天就给她买了背包"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Molly learns the tax will make her wait another week, but she accepts it because her tax money helps build community things like parks.",

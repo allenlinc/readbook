@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "Go quickly through the woods, do not leave the path, and do not talk to strangers.",
-          "zh": "快点穿过树林，不要离开小路，也不要和陌生人说话。"
+          "en": "Ride your bike straight to the city.",
+          "zh": "骑自行车直接去城市。"
         },
         {
           "en": "Give the cake to the first animal you meet.",
           "zh": "把蛋糕给你遇到的第一个动物。"
         },
         {
-          "en": "Take your time and pick as many flowers as you like. according to some versions of the story",
-          "zh": "慢慢走，想采多少花就采多少。（按书中另一种说法）"
+          "en": "Go quickly through the woods, do not leave the path, and do not talk to strangers.",
+          "zh": "快点穿过树林，不要离开小路，也不要和陌生人说话。"
         },
         {
-          "en": "Ride your bike straight to the city.",
-          "zh": "骑自行车直接去城市。"
+          "en": "Take your time and pick as many flowers as you like, because Red's mom packed extra baskets just for collecting wildflowers.",
+          "zh": "慢慢走，想采多少花就采多少，因为 Red 的妈妈还特意多带了篮子，专门用来采集野花。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mom says 'Go quickly through the woods, do not leave the path, and do not talk to strangers!' and Red promises to take great care.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "In a house in the middle of the city. according to some versions of the story",
-          "zh": "在市中心的一所房子里。（按书中另一种说法）"
+          "en": "In a house in the middle of the city.",
+          "zh": "在市中心的一所房子里。"
+        },
+        {
+          "en": "Farther on in the woods, under the three large oak trees.",
+          "zh": "在树林更深处，三棵大橡树的下面。"
         },
         {
           "en": "Inside the wolf's den.",
           "zh": "在狼的洞穴里。"
         },
         {
-          "en": "Across the river on a farm.",
-          "zh": "在河对岸的一个农场里。"
-        },
-        {
-          "en": "Farther on in the woods, under the three large oak trees.",
-          "zh": "在树林更深处，三棵大橡树的下面。"
+          "en": "Across the river on a farm, where Grandma raises ducks and stores jam for the winter.",
+          "zh": "在河对岸的一个农场里，外婆在那里养鸭子，还为冬天储藏果酱。"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Red tells Wolf that Grandma lives 'Farther on in the woods, under the three large oak trees,' which is where Wolf then sprints to.",
@@ -73,8 +73,8 @@
       },
       "options": [
         {
-          "en": "He tells her the cake is ruined and she must go back home. according to some versions of the story",
-          "zh": "他告诉她蛋糕坏了，必须回家。（按书中另一种说法）"
+          "en": "He tells her the cake is ruined and she must go back home to fetch a fresh one before Grandma gets worried.",
+          "zh": "他告诉她蛋糕坏了，她必须回家再拿一块新鲜的，免得外婆担心。"
         },
         {
           "en": "He threatens to eat her if she does not follow him.",
@@ -107,12 +107,12 @@
           "zh": "她们大喊大叫，直到狼把她们吐出来。"
         },
         {
-          "en": "A woodcutter breaks the door down and saves them.",
-          "zh": "一个樵夫撞破门救了她们。"
+          "en": "A woodcutter breaks the door down with his axe and carries Red and Grandma to safety in the village.",
+          "zh": "一个樵夫用斧头撞破门，把 Red 和外婆抱到村子里的安全地方。"
         },
         {
-          "en": "The Wolf falls asleep and they climb out his ear. according to some versions of the story",
-          "zh": "狼睡着了，她们从他耳朵里爬出来。（按书中另一种说法）"
+          "en": "The Wolf falls asleep and they climb out his ear.",
+          "zh": "狼睡着了，她们从他耳朵里爬出来。"
         },
         {
           "en": "Red tickles the Wolf's throat with her bouquet until he coughs them both up.",
@@ -141,8 +141,8 @@
           "zh": "一种巨大的恐惧感。"
         },
         {
-          "en": "A feeling of great joy. according to some versions of the story",
-          "zh": "一种巨大的喜悦感。（按书中另一种说法）"
+          "en": "A feeling of great joy, like the happiness Red feels when she gathers flowers for Grandma.",
+          "zh": "一种巨大的喜悦感，就像 Red 给外婆采花时感到的那种快乐。"
         },
         {
           "en": "A feeling of hunger.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "She detects a weak light leaking down the Wolf's throat and understands he is snoring with his mouth open.",
-          "zh": "她察觉到一缕微弱的光从狼的喉咙漏下，明白他正张着嘴打鼾。"
-        },
-        {
-          "en": "She detects a stranger hiding behind a tree. according to some versions of the story in an early draft of the book",
-          "zh": "她察觉到一个陌生人藏在树后。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "She detects the smell of fresh-baked cake.",
-          "zh": "她闻到了刚烤好的蛋糕香味。"
-        },
-        {
           "en": "She detects that the flowers are poisonous.",
           "zh": "她察觉到那些花有毒。"
+        },
+        {
+          "en": "She detects the smell of fresh-baked cake and follows it to Grandma's kitchen, where the Wolf is baking.",
+          "zh": "她闻到了刚烤好的蛋糕香味，并循着味道走到外婆的厨房，发现狼正在烤蛋糕。"
+        },
+        {
+          "en": "She detects a stranger hiding behind a tree.",
+          "zh": "她察觉到一个陌生人藏在树后。"
+        },
+        {
+          "en": "She detects a weak light leaking down the Wolf's throat and understands he is snoring with his mouth open.",
+          "zh": "她察觉到一缕微弱的光从狼的喉咙漏下，明白他正张着嘴打鼾。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book says Red 'could discern a weak light leaking down Wolf's throat' and then understood he was snoring with his mouth open.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
+          "en": "A real thunderstorm outside.",
+          "zh": "外面真正的雷暴。"
+        },
+        {
           "en": "The Wolf snoring with his mouth open.",
           "zh": "狼张着嘴打鼾的声音。"
         },
         {
+          "en": "The wind blowing through the trees, which shakes the branches and makes the leaves whisper like voices.",
+          "zh": "风吹过树林的声音，它摇动树枝，让树叶像人说话一样沙沙作响。"
+        },
+        {
           "en": "Grandma snoring in the bed.",
           "zh": "外婆在床上打鼾。"
-        },
-        {
-          "en": "The wind blowing through the trees. according to some versions of the story",
-          "zh": "风吹过树林的声音。（按书中另一种说法）"
-        },
-        {
-          "en": "A real thunderstorm outside.",
-          "zh": "外面真正的雷暴。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Red discerns a weak light leaking down Wolf's throat and understands 'Wolf was snoring with his mouth open' — the thunder-like sound comes from his snoring.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "The story would end happily with no Wolf at all.",
-          "zh": "故事会以没有狼的圆满方式结束。"
-        },
-        {
-          "en": "Grandma would have come to meet Red in the woods.",
-          "zh": "外婆会到树林里来接 Red。"
-        },
-        {
           "en": "Wolf would not have had time to reach Grandma first, so Red might have arrived before him.",
           "zh": "狼就不会有先赶到外婆家的时间，Red 可能比他先到。"
         },
         {
-          "en": "The Wolf would have eaten Red on the path instead. according to some versions of the story in an early draft of the book",
-          "zh": "狼会在小路上把 Red 吃掉。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "The Wolf would have eaten Red on the path instead.",
+          "zh": "狼会在小路上把 Red 吃掉。"
+        },
+        {
+          "en": "The story would end happily with no Wolf at all.",
+          "zh": "故事会以没有狼的圆满方式结束。"
+        },
+        {
+          "en": "Grandma would have come to meet Red in the woods, bringing a lantern and a basket of warm bread.",
+          "zh": "外婆会到树林里来接 Red，提着灯笼，带着一篮热面包。"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Because Red leaves the path to pick flowers, Wolf 'sprinted straight to Grandma's house' and swallowed her first; without that delay, Red could have arrived before the Wolf.",
@@ -261,8 +261,8 @@
           "zh": "为了制造悬念，并在狼露出真面目之前使用经典的童话套路。"
         },
         {
-          "en": "To show that Grandma really did have big features. according to some versions of the story in an early draft of the book",
-          "zh": "为了说明外婆真的长着大五官。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "To show that Grandma really did have big features, which she hides under a scarf whenever visitors arrive.",
+          "zh": "为了说明外婆真的长着大五官，每次有客人来，她都用围巾把它们遮起来。"
         },
         {
           "en": "To teach readers about animal body parts.",
@@ -283,8 +283,8 @@
       },
       "options": [
         {
-          "en": "It is always safe to talk to strangers in the woods. according to some versions of the story in an early draft of the book",
-          "zh": "在树林里和陌生人说话总是安全的。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "It is always safe to talk to strangers in the woods, because the animals there are friendly and never mean any harm.",
+          "zh": "在树林里和陌生人说话总是安全的，因为那里的动物都很友善，从不怀恶意。"
         },
         {
           "en": "Leaving the path and talking to a stranger led to danger, showing why her mother's warnings mattered.",

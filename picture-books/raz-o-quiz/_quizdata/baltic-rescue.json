@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "On a ship in the Atlantic Ocean according to some versions of the story",
-          "zh": "在大西洋的一艘船上（按书中另一种说法）"
+          "en": "On a ship in the Atlantic Ocean, where the dog was traveling with a family on vacation",
+          "zh": "在大西洋的一艘船上，当时狗正和一家人一起度假旅行"
         },
         {
           "en": "In a forest in Russia",
@@ -43,12 +43,12 @@
       },
       "options": [
         {
-          "en": "More than 75 miles (120 km) down the river, and about 15 miles (24 km) from land in the Baltic Sea",
-          "zh": "沿河漂流了 75 英里（120 公里）以上，在波罗的海被发现时离陆地约 15 英里（24 公里）"
+          "en": "More than 75 miles down the river, about 15 miles from land",
+          "zh": "沿河漂流75英里以上，离陆地约15英里"
         },
         {
-          "en": "Over 200 miles in the ocean, 50 miles from land according to some versions of the story in an early draft of the book",
-          "zh": "在海里漂了 200 多英里，离陆地 50 英里（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Over 200 miles in the ocean, 50 miles from land, the distance the book says a dog could drift in a single day",
+          "zh": "在海里漂了 200 多英里，离陆地 50 英里，书中说这是狗一天内能漂流的距离"
         },
         {
           "en": "About 5 miles, right next to the shore",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Scientists and sailors aboard the research ship Baltica; the mechanic Adam pulled him into a raft",
-          "zh": "研究船 Baltica 上的科学家和水手；机械师 Adam 把他拉上救生筏"
-        },
-        {
           "en": "A group of children",
           "zh": "一群孩子"
         },
         {
-          "en": "The president of Poland",
-          "zh": "波兰总统"
+          "en": "The crew of the research ship Baltica rescued him with a raft",
+          "zh": "研究船 Baltica 的船员用救生筏救了他"
         },
         {
-          "en": "Firefighters in the first town according to some versions of the story in an early draft of the book as mentioned in a later chapter",
-          "zh": "第一个镇的消防员（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+          "en": "Firefighters in the first town, who the book says spotted Baltic from a bridge and pulled him out with a net",
+          "zh": "第一个镇的消防员，书中说他们从桥上发现了 Baltic，并用网把他拉了上来"
+        },
+        {
+          "en": "The president of Poland",
+          "zh": "波兰总统"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The crew of the research ship Baltica found him; Adam, the ship's mechanic, used a raft to grab the dog and pull him to safety.",
@@ -107,8 +107,8 @@
           "zh": "作为一串没有顺序的事实"
         },
         {
-          "en": "Starting at the end and then jumping to the beginning according to some versions of the story",
-          "zh": "从结尾开始再跳回开头（按书中另一种说法）"
+          "en": "Starting at the end and then jumping to the beginning, which the author uses to build surprise about how the dog escaped",
+          "zh": "从结尾开始再跳回开头，作者用这种手法来制造狗如何逃脱的悬念"
         },
         {
           "en": "In time order, from the dog's first day on the ice to his rescue days later",
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "To bring an animal into one's family according to some versions of the story",
-          "zh": "把动物领养进家庭（按书中另一种说法）"
+          "en": "A doctor who treats animals",
+          "zh": "治疗动物的医生"
         },
         {
           "en": "A person, animal, or thing that is a symbol of an event or organization",
           "zh": "作为某事件或组织象征的人、动物或物品"
         },
         {
-          "en": "Harm or damage to the body",
-          "zh": "对身体造成的伤害或损伤"
+          "en": "To bring an animal into one's family, like when the crew decided to keep Baltic as a pet on the ship",
+          "zh": "把动物领养进家庭，就像船员们决定把 Baltic 当宠物养在船上那样"
         },
         {
-          "en": "A doctor who treats animals",
-          "zh": "治疗动物的医生"
+          "en": "Harm or damage to the body",
+          "zh": "对身体造成的伤害或损伤"
         }
       ],
       "answer": 1,
@@ -163,12 +163,8 @@
       },
       "options": [
         {
-          "en": "The Amazon River, into the Atlantic Ocean according to some versions of the story",
-          "zh": "亚马逊河，进入大西洋（按书中另一种说法）"
-        },
-        {
-          "en": "The Danube River, into the Black Sea",
-          "zh": "多瑙河，进入黑海"
+          "en": "The Amazon River, into the Atlantic Ocean, because the dog was first found near the rain forest",
+          "zh": "亚马逊河，进入大西洋，因为这只狗最初是在雨林附近被发现的"
         },
         {
           "en": "The Rhine River, into the North Sea",
@@ -177,9 +173,13 @@
         {
           "en": "The Vistula River in Poland, out into the Baltic Sea",
           "zh": "波兰的维斯瓦河，最终进入波罗的海"
+        },
+        {
+          "en": "The Danube River, into the Black Sea",
+          "zh": "多瑙河，进入黑海"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The text and map place the dog on the Vistula River in Poland, floating north until he passed the river's mouth into the Baltic Sea.",
@@ -193,8 +193,8 @@
       },
       "options": [
         {
-          "en": "They were giving him a bath for fun according to some versions of the story in an early draft of the book",
-          "zh": "他们是在逗他玩给他洗澡（按书中另一种说法）（在书的早期草稿中）"
+          "en": "They were giving him a bath for fun after a long day of playing, since the book says the dog loved soapy water",
+          "zh": "他们在逗他玩给他洗澡，因为书中说这只狗喜欢满是肥皂泡的水，玩了一整天后他们才这么做"
         },
         {
           "en": "He was weak and cold from the icy water, so warming him helped prevent him from dying of the cold",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "To explain how the dog learned to read according to some versions of the story in an early draft of the book",
-          "zh": "为了解释狗是如何学会阅读的（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "To show that the rescue was important and celebrated, highlighting the crew's heroism",
           "zh": "为了说明这次救援意义重大、受到赞扬，凸显船员的英勇"
         },
         {
-          "en": "To prove the dog was a criminal",
-          "zh": "为了证明狗是罪犯"
+          "en": "To explain how the dog learned to read, since a later page shows Baltic reading the president's letter aloud",
+          "zh": "为了解释狗是如何学会阅读的，因为后文有一页画着 Baltic 大声朗读总统的来信"
         },
         {
           "en": "To describe the weather in Poland",
           "zh": "为了描写波兰的天气"
+        },
+        {
+          "en": "To prove the dog was a criminal",
+          "zh": "为了证明狗是罪犯"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The letter from Poland's president shows the wider world noticed and honored the rescue, emphasizing the crew's brave, kind act.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "That kindness and teamwork can turn a lonely, dangerous situation into safety and friendship",
-          "zh": "善意与团队合作能把孤独危险的处境变成安全与友谊"
-        },
-        {
           "en": "That dogs should never go near rivers",
           "zh": "狗绝不该靠近河流"
+        },
+        {
+          "en": "A vet checked him, his owners were never found, Adam adopted him, and he became the ship's mascot after learning to steer the boat himself",
+          "zh": "兽医检查了他，始终没找到主人，Adam 领养了他，在他学会自己掌舵后他成了船上的吉祥物"
         },
         {
           "en": "That firefighters are not helpful",
           "zh": "消防员没有用"
         },
         {
-          "en": "That the Baltic Sea is too cold for ships according to some versions of the story in an early draft of the book",
-          "zh": "波罗的海对船只来说太冷（按书中另一种说法）（在书的早期草稿中）"
+          "en": "That kindness and teamwork can turn a lonely, dangerous situation into safety and friendship",
+          "zh": "善意与团队合作能把孤独危险的处境变成安全与友谊"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The story contrasts Baltic's start (cold, wet, alone) with his end (warm, dry, with new friends), showing rescue through care and teamwork.",
@@ -287,8 +287,8 @@
           "zh": "他游回了冰上"
         },
         {
-          "en": "He was sent to the president of Poland according to some versions of the story in an early draft of the book",
-          "zh": "他被送给了波兰总统（按书中另一种说法）（在书的早期草稿中）"
+          "en": "That dogs should never go near rivers, because the book warns that every river in Poland is far too dangerous for any animal to cross safely",
+          "zh": "狗绝不该靠近河流，因为书中警告波兰的每一条河对任何动物来说都太过危险，无法安全穿过"
         },
         {
           "en": "A vet checked him, his owners were never found, Adam adopted him, and he became the ship's mascot",

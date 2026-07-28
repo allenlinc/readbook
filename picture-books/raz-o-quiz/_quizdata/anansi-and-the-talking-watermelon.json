@@ -17,16 +17,16 @@
           "zh": "在一棵桃树上。"
         },
         {
-          "en": "Under a rock.",
-          "zh": "在一块石头下面。"
+          "en": "In King Bear's den.",
+          "zh": "在熊国王的洞穴里。"
         },
         {
           "en": "In a watermelon patch.",
           "zh": "在一片西瓜地里。"
         },
         {
-          "en": "In King Bear's den.",
-          "zh": "在熊国王的洞穴里。"
+          "en": "Under a rock.",
+          "zh": "在一块石头下面。"
         }
       ],
       "answer": 0,
@@ -47,19 +47,19 @@
           "zh": "他在里面睡着了。"
         },
         {
-          "en": "The rind is too hard to break. according to some versions of the story",
-          "zh": "瓜皮太硬，打不破。（按书中另一种说法）"
+          "en": "Possum traps him on purpose.",
+          "zh": "负鼠故意把他困住。"
+        },
+        {
+          "en": "The rind is too hard to break, so Anansi cannot chew his way back out of the melon",
+          "zh": "瓜皮太硬，打不破，所以阿南西没法咬出西瓜逃走"
         },
         {
           "en": "He eats so much that he is too full to fit back through the hole.",
           "zh": "他吃得太多，太饱了，无法再从洞口钻出去。"
-        },
-        {
-          "en": "Possum traps him on purpose.",
-          "zh": "负鼠故意把他困住。"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After gorging himself, he tries to pull out but 'was so full of fruit that he no longer fit!' and cries, 'Oh no! I am stuck!'",
@@ -73,20 +73,20 @@
       },
       "options": [
         {
-          "en": "By making a loud noise outside. according to some versions of the story",
-          "zh": "在外面发出很大的噪音。（按书中另一种说法）"
+          "en": "By writing a note on the rind.",
+          "zh": "在瓜皮上写了一张纸条。"
         },
         {
           "en": "By speaking from inside the melon, pretending to be the watermelon.",
           "zh": "从西瓜里面说话，假装自己就是那个西瓜。"
         },
         {
-          "en": "By dressing up as Possum.",
-          "zh": "通过打扮成负鼠的样子。"
+          "en": "By making a loud noise outside, shaking the melon until Possum came to look",
+          "zh": "在外面发出很大的噪音，把西瓜摇得直晃，直到负鼠过来看"
         },
         {
-          "en": "By writing a note on the rind.",
-          "zh": "在瓜皮上写了一张纸条。"
+          "en": "By dressing up as Possum.",
+          "zh": "通过打扮成负鼠的样子。"
         }
       ],
       "answer": 1,
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "Anansi's mother.",
-          "zh": "阿南西的妈妈。"
-        },
-        {
           "en": "King Bear.",
           "zh": "熊国王。"
         },
@@ -115,11 +111,15 @@
           "zh": "浣熊。"
         },
         {
+          "en": "Anansi's mother.",
+          "zh": "阿南西的妈妈。"
+        },
+        {
           "en": "Gopher.",
           "zh": "地鼠。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Possum cries, 'Eureka! I must show King Bear the discovery I have made,' and carries the melon to the king's den.",
@@ -133,8 +133,12 @@
       },
       "options": [
         {
-          "en": "King Bear believes it and bows down. according to some versions of the story",
-          "zh": "熊国王相信了，并鞠躬行礼。（按书中另一种说法）"
+          "en": "Possum admits the trick himself.",
+          "zh": "负鼠自己承认了这是骗局。"
+        },
+        {
+          "en": "King Bear believes it and bows down, honoring the watermelon as a wise ruler",
+          "zh": "熊国王相信了，并鞠躬行礼，尊西瓜为智慧的统治者"
         },
         {
           "en": "King Bear thinks it is a trick and angrily throws the melon far away.",
@@ -143,13 +147,9 @@
         {
           "en": "The melon really starts to talk.",
           "zh": "西瓜真的开始说话了。"
-        },
-        {
-          "en": "Possum admits the trick himself.",
-          "zh": "负鼠自己承认了这是骗局。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The melon stays 'mum,' King Bear growls it is 'treacherous trickery,' then 'picked up the melon... and chucked it as hard and as far as he could.'",
@@ -163,16 +163,16 @@
       },
       "options": [
         {
-          "en": "Fox, Rabbit, and Deer. according to some versions of the story",
-          "zh": "狐狸、兔子和鹿。（按书中另一种说法）"
-        },
-        {
           "en": "Lion, Tiger, and Bear.",
           "zh": "狮子、老虎和熊。"
         },
         {
           "en": "Snake, Frog, and Toad.",
           "zh": "蛇、青蛙和蟾蜍。"
+        },
+        {
+          "en": "Fox, Rabbit, and Deer, the three friends who joined the parade to the king",
+          "zh": "狐狸、兔子和鹿，这三个朋友加入了去见国王的队伍"
         },
         {
           "en": "Gopher, Rat, and Squirrel.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
+          "en": "To warn about talking to strangers.",
+          "zh": "警告不要和陌生人说话。"
+        },
+        {
           "en": "To entertain and share a West African folktale that teaches a lesson.",
           "zh": "为了娱乐读者，并分享一则传授道理的西非民间故事。"
         },
         {
-          "en": "To explain the science of spiders.",
-          "zh": "解释蜘蛛的科学知识。"
+          "en": "To explain the science of spiders, since the book is really a nature report about real animals",
+          "zh": "解释蜘蛛的科学知识，因为这其实是一本关于真实动物的科学报告"
         },
         {
           "en": "To teach readers how to garden.",
           "zh": "教读者如何种菜。"
-        },
-        {
-          "en": "To warn about talking to strangers. according to some versions of the story",
-          "zh": "警告不要和陌生人说话。（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The ending notes Anansi tales come from 'the oral tradition of West Africa' and 'teach children worldwide about life.'",
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "King Bear throws the melon, it cracks open, and Anansi gets free.",
+          "zh": "熊国王把西瓜扔出去，它裂开了，阿南西得以脱身。"
+        },
+        {
           "en": "Possum frees him on purpose.",
           "zh": "负鼠故意放了他。"
         },
@@ -231,15 +235,11 @@
           "zh": "他自己挖了出来。"
         },
         {
-          "en": "He waits until he shrinks back to normal size. according to some versions of the story",
-          "zh": "他等到自己缩回正常大小。（按书中另一种说法）"
-        },
-        {
-          "en": "King Bear throws the melon, it cracks open, and Anansi gets free.",
-          "zh": "熊国王把西瓜扔出去，它裂开了，阿南西得以脱身。"
+          "en": "He waits until he shrinks back to normal size, which happens after a long nap inside",
+          "zh": "他等到自己缩回正常大小——在西瓜里睡了一大觉之后就会发生"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The melon 'landed with a crack and a thud, splitting wide open. Anansi was free!' and skittered back to his peach tree.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "They come from the continent of Asia.",
-          "zh": "它们源自亚洲大陆。"
-        },
-        {
-          "en": "They were written by King Bear.",
-          "zh": "它们是由熊国王写的。"
+          "en": "They are true news stories from today.",
+          "zh": "它们是今天的真实新闻故事。"
         },
         {
           "en": "They are West African folktales featuring a clever spider who outwits bigger animals to teach lessons.",
           "zh": "它们是西非民间故事，主角是聪明的蜘蛛，用智慧胜过体型更大的动物，以传授道理。"
         },
         {
-          "en": "They are true news stories from today. according to some versions of the story in an early draft of the book",
-          "zh": "它们是今天的真实新闻故事。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "They come from the continent of Asia, where the clever spider Anansi first learned his tricks from a wise old turtle",
+          "zh": "它们源自亚洲大陆，聪明的蜘蛛阿南西正是从一只睿智的老乌龟那里学会了那些把戏"
+        },
+        {
+          "en": "They were written by King Bear.",
+          "zh": "它们是由熊国王写的。"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The note says they are 'based on the oral tradition of West Africa' and 'feature a clever spider who outwits bigger animals.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "More peaches, because 'the king is sure to listen to a peach!'",
-          "zh": "更多的桃子，因为“国王一定会听桃子的话！”"
-        },
-        {
-          "en": "Peanuts.",
-          "zh": "花生。"
+          "en": "More watermelons, because the king enjoyed the talking melon so much he wanted a field of them",
+          "zh": "更多的西瓜，因为国王太喜欢那个会说话的西瓜，想要一整片这样的瓜田"
         },
         {
           "en": "Corn.",
           "zh": "玉米。"
         },
         {
-          "en": "More watermelons. according to some versions of the story in an early draft of the book",
-          "zh": "更多的西瓜。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "More peaches, because 'the king is sure to listen to a peach!'",
+          "zh": "更多的桃子，因为“国王一定会听桃子的话！”"
+        },
+        {
+          "en": "Peanuts.",
+          "zh": "花生。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Anansi tells Possum, 'Perhaps you should grow more peaches! The king is sure to listen to a peach!'",

@@ -21,15 +21,15 @@
           "zh": "一种自创的语言"
         },
         {
-          "en": "A type of reflection in a mirror according to some versions of the story",
-          "zh": "镜子里的一种倒影（按书中另一种说法）"
-        },
-        {
           "en": "One of two babies born in one birth",
           "zh": "一次出生中降生的两个婴儿中的一个"
+        },
+        {
+          "en": "A type of reflection in a mirror that looks just like the other twin",
+          "zh": "镜子里的一种倒影，看起来和另一个双胞胎一模一样"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The glossary defines 'twin (n.)' as 'one of two babies born in one birth.' The book also says twins are two siblings who grow in their mother's body at the same time.",
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "A mirror and a reflection are how identical twins are made",
+          "zh": "一面镜子和它的倒影，正是同卵双胞胎形成的方式"
+        },
+        {
           "en": "A single egg that splits in two",
           "zh": "一个分裂成两半的卵子"
         },
@@ -51,15 +55,11 @@
           "zh": "一个哥哥和一个妹妹"
         },
         {
-          "en": "A mirror and a reflection according to some versions of the story",
-          "zh": "一面镜子和它的倒影（按书中另一种说法）"
-        },
-        {
           "en": "Two different eggs",
           "zh": "两个不同的卵子"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states identical twins 'come from a single egg that has split in two,' which is why they always look almost exactly alike.",
@@ -73,8 +73,8 @@
       },
       "options": [
         {
-          "en": "Twins who look exactly alike",
-          "zh": "长得完全一样的双胞胎"
+          "en": "Twins born in different years",
+          "zh": "在不同年份出生的双胞胎"
         },
         {
           "en": "Twins who speak a made-up language",
@@ -85,11 +85,11 @@
           "zh": "长得不完全一样的双胞胎"
         },
         {
-          "en": "Twins born in different years",
-          "zh": "在不同年份出生的双胞胎"
+          "en": "Twins who look exactly alike",
+          "zh": "长得完全一样的双胞胎"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'identical twins (n.)' as 'twins who look exactly alike,' matching the book's description of them coming from one split egg.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Their birthday",
-          "zh": "他们的生日"
-        },
-        {
           "en": "Their fingerprints",
           "zh": "他们的指纹"
         },
         {
-          "en": "Their eye color according to some versions of the story",
-          "zh": "他们的眼睛颜色（按书中另一种说法）"
+          "en": "Their birthday",
+          "zh": "他们的生日"
+        },
+        {
+          "en": "Their eye color is always the same for both twins",
+          "zh": "他们的眼睛颜色，对双胞胎两人来说总是相同的"
         },
         {
           "en": "Their height",
           "zh": "他们的身高"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "A special box explains: 'Identical twins can look very alike, but their fingerprints are always different,' even though everything else may match.",
@@ -133,8 +133,12 @@
       },
       "options": [
         {
-          "en": "They were born in different years according to some versions of the story",
-          "zh": "他们在不同年份出生（按书中另一种说法）"
+          "en": "They were born in different years one in winter, one in summer",
+          "zh": "他们在不同年份出生，一个在冬天，一个在夏天"
+        },
+        {
+          "en": "They speak different languages",
+          "zh": "他们说不同的语言"
         },
         {
           "en": "They have the same fingerprint",
@@ -143,13 +147,9 @@
         {
           "en": "One is left-handed and the other is right-handed",
           "zh": "一个是左撇子，另一个是右撇子"
-        },
-        {
-          "en": "They speak different languages",
-          "zh": "他们说不同的语言"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book says mirror image twins 'might have freckles on opposite sides' or 'part their hair on opposite sides,' and 'one twin might be left-handed, while the other is right-handed.'",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Always a brother and a sister according to some versions of the story",
-          "zh": "一定是一个哥哥和一个妹妹（按书中另一种说法）"
+          "en": "Always a brother and a sister in every pair of twins born on Earth",
+          "zh": "一定是一个哥哥和一个妹妹，地球上每一对出生的双胞胎都是如此"
         },
         {
-          "en": "Two boys, two girls, or a girl and a boy",
-          "zh": "两个男孩、两个女孩，或一个女孩和一个男孩"
+          "en": "Only two girls",
+          "zh": "只能是两个女孩"
         },
         {
           "en": "Only two boys",
           "zh": "只能是两个男孩"
         },
         {
-          "en": "Only two girls",
-          "zh": "只能是两个女孩"
+          "en": "Two boys, two girls, or a girl and a boy",
+          "zh": "两个男孩、两个女孩，或一个女孩和一个男孩"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Fraternal twins 'come from two different eggs' and 'can be two boys, two girls, or—unlike identical twins—a girl and a boy.'",
@@ -197,12 +197,12 @@
           "zh": "镜像双胞胎"
         },
         {
-          "en": "Twins who share a made-up language",
-          "zh": "说自创语言的双胞胎"
-        },
-        {
           "en": "Two sets of identical girls",
           "zh": "两组同卵女孩"
+        },
+        {
+          "en": "Twins who share a made-up language",
+          "zh": "说自创语言的双胞胎"
         },
         {
           "en": "Boy-girl twins",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "To show where fraternal twins are born according to some versions of the story",
-          "zh": "为了说明异卵双胞胎在哪里出生（按书中另一种说法）"
-        },
-        {
-          "en": "To describe the biggest yearly gathering of twins in the world",
-          "zh": "为了介绍世界上最大的年度双胞胎聚会"
+          "en": "To explain how fingerprints are made",
+          "zh": "为了解释指纹是怎么形成的"
         },
         {
           "en": "To teach a made-up language",
           "zh": "为了教一种自创语言"
         },
         {
-          "en": "To explain how fingerprints are made",
-          "zh": "为了解释指纹是怎么形成的"
+          "en": "To describe the biggest yearly gathering of twins in the world",
+          "zh": "为了介绍世界上最大的年度双胞胎聚会"
+        },
+        {
+          "en": "To show where fraternal twins are born using a special map in the book",
+          "zh": "为了说明异卵双胞胎在哪里出生，书里有一张专门的地图"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explains that each summer many twins travel to Twinsburg, Ohio, for Twins Day, 'the biggest yearly gathering of twins in the world.'",
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "About 90 percent",
-          "zh": "大约90%"
-        },
-        {
           "en": "About 10 percent",
           "zh": "大约10%"
+        },
+        {
+          "en": "About 100 percent",
+          "zh": "大约100%"
         },
         {
           "en": "About 40 percent",
           "zh": "大约40%"
         },
         {
-          "en": "About 100 percent",
-          "zh": "大约100%"
+          "en": "About 90 percent",
+          "zh": "大约90%"
         }
       ],
       "answer": 2,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "Twins should never be separated",
+          "zh": "双胞胎永远不应该分开"
+        },
+        {
           "en": "Each twin is an individual person, truly one of a kind",
           "zh": "每个双胞胎都是独立的个体， truly one of a kind（独一无二）"
         },
         {
-          "en": "Twins are simply copies of each other according to some versions of the story",
-          "zh": "双胞胎只是彼此的复制品（按书中另一种说法）"
-        },
-        {
-          "en": "Twins should never be separated",
-          "zh": "双胞胎永远不应该分开"
+          "en": "Twins are simply copies of each other with no thoughts of their own at all",
+          "zh": "双胞胎只是彼此的复制品，根本没有任何自己的想法"
         },
         {
           "en": "All twins must look exactly alike",
           "zh": "所有双胞胎都必须长得完全一样"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book ends by saying 'Twins are not simply copies of each other... every twin is truly one of a kind,' reminding readers that each twin is an individual.",

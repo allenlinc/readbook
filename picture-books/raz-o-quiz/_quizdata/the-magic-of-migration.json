@@ -21,8 +21,8 @@
           "zh": "描述动物为生存而从一个地方移动到另一个地方的术语。"
         },
         {
-          "en": "A place where animals nest. according to some versions of the story in an early draft of the book",
-          "zh": "动物筑巢的地方。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "A place where animals nest and return there every winter to lay their eggs and raise their young",
+          "zh": "动物筑巢的地方，它们每年冬天都回到那里产卵并养育幼崽"
         },
         {
           "en": "A kind of weather.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "To find food and water.",
-          "zh": "寻找食物和水。"
+          "en": "To build museums.",
+          "zh": "建造博物馆。"
         },
         {
-          "en": "To escape other animals' noise.",
-          "zh": "躲避其他动物的噪音。"
+          "en": "To find food and water.",
+          "zh": "寻找食物和水。"
         },
         {
           "en": "To learn how to fly.",
           "zh": "学习飞翔。"
         },
         {
-          "en": "To build museums.",
-          "zh": "建造博物馆。"
+          "en": "To escape other animals' noise.",
+          "zh": "躲避其他动物的噪音。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'The most common reason why animals migrate is to find food and water.'",
@@ -107,8 +107,8 @@
           "zh": "因为干旱使它们所在之处的草和水干涸。"
         },
         {
-          "en": "To escape cold winters. according to some versions of the story",
-          "zh": "为了躲避寒冷的冬天。（按书中另一种说法）"
+          "en": "To escape cold winters, since the book says wildebeests hate the snow",
+          "zh": "为了躲避寒冷的冬天，因为书中说角马讨厌下雪"
         },
         {
           "en": "To find the ocean.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "describe the sound of a storm according to some versions of the story",
-          "zh": "描写暴风雨的声音（按书中另一种说法）"
-        },
-        {
-          "en": "explain why animals migrate",
-          "zh": "解释动物为何迁徙"
+          "en": "name a kind of animal",
+          "zh": "命名一种动物"
         },
         {
           "en": "show how loudly and powerfully the herds move",
           "zh": "表现兽群移动时多么喧闹而有力"
         },
         {
-          "en": "name a kind of animal",
-          "zh": "命名一种动物"
+          "en": "explain why animals migrate",
+          "zh": "解释动物为何迁徙"
+        },
+        {
+          "en": "describe the sound of a storm that the animals hear before they start to move",
+          "zh": "描写暴风雨的声音，动物出发前会听到的声音"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Figure of speech: 'thunder' is a verb that makes the reader feel the noise and power of huge moving herds like wildebeests.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "As a story with made-up characters. according to some versions of the story",
-          "zh": "以一个虚构人物的故事形式。（按书中另一种说法）"
-        },
-        {
           "en": "With section headings like 'What Is Migration?' and 'How Do They Do It?'",
           "zh": "用‘什么是迁徙？’‘它们如何做到？’这样的小标题。"
         },
         {
-          "en": "As a poem.",
-          "zh": "以诗歌形式。"
+          "en": "As a story with made-up characters that follows a talking salmon named Sam on his journey",
+          "zh": "以一个虚构人物的故事形式，讲述一条叫萨姆、会说话的鲑鱼的旅程"
         },
         {
           "en": "As a single long letter.",
           "zh": "以一封很长的信。"
+        },
+        {
+          "en": "As a poem.",
+          "zh": "以诗歌形式。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The table of contents and chapters ('What Is Migration?', 'The Search for Food and Water', 'How Do They Do It?') show a nonfiction heading structure.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "Magnetite.",
-          "zh": "磁铁矿。"
+          "en": "Ocean currents that carry the salmon back to the exact river where they were born",
+          "zh": "洋流，把鲑鱼带回它们出生的那条确切的河流"
         },
         {
           "en": "Their sense of smell.",
           "zh": "它们的嗅觉。"
         },
         {
-          "en": "Ocean currents. according to some versions of the story",
-          "zh": "洋流。（按书中另一种说法）"
-        },
-        {
           "en": "The sun.",
           "zh": "太阳。"
+        },
+        {
+          "en": "Magnetite.",
+          "zh": "磁铁矿。"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Tiny magnetite particles in their brains.",
-          "zh": "它们脑中的微小磁铁矿颗粒。"
-        },
-        {
           "en": "The stars only.",
           "zh": "只有星星。"
         },
         {
-          "en": "Their brightly colored wings. according to some versions of the story",
-          "zh": "它们色彩鲜艳的翅膀。（按书中另一种说法）"
+          "en": "Their brightly colored wings that flash in the dark to guide them north",
+          "zh": "它们色彩鲜艳的翅膀，在黑暗中闪烁，为它们指引北方的方向"
+        },
+        {
+          "en": "Tiny magnetite particles in their brains.",
+          "zh": "它们脑中的微小磁铁矿颗粒。"
         },
         {
           "en": "Their sense of taste.",
           "zh": "它们的味觉。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book explains scientists found 'tiny particles of a magnetic substance, magnetite, in some birds' brains' that are pulled by Earth's poles to guide them.",
@@ -253,16 +253,16 @@
       },
       "options": [
         {
-          "en": "They travel only in Africa. according to some versions of the story in an early draft of the book",
-          "zh": "它们只在非洲迁徙。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "They fly only at night.",
+          "zh": "它们只在夜间飞行。"
+        },
+        {
+          "en": "They travel only in Africa because the book says no monarch ever leaves that continent",
+          "zh": "它们只在非洲迁徙，因为书中说没有哪只帝王蝶离开过那个大陆"
         },
         {
           "en": "They never return north.",
           "zh": "它们从不返回北方。"
-        },
-        {
-          "en": "They fly only at night.",
-          "zh": "它们只在夜间飞行。"
         },
         {
           "en": "The adults die after laying eggs, and their young complete the journey.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To tell a made-up story about talking animals. according to some versions of the story",
-          "zh": "讲述一个关于会说话的动物的虚构故事。（按书中另一种说法）"
-        },
-        {
-          "en": "To teach how to catch fish.",
-          "zh": "教人如何捕鱼。"
-        },
-        {
           "en": "To describe one city park.",
           "zh": "描述一座城市公园。"
         },
         {
           "en": "To inform readers about why and how animals migrate.",
           "zh": "向读者介绍动物为何及如何迁徙。"
+        },
+        {
+          "en": "To tell a made-up story about talking animals that plan a secret trip to the moon",
+          "zh": "讲述一个关于会说话的动物的虚构故事，里面的动物策划了一次去月球的秘密旅行"
+        },
+        {
+          "en": "To teach how to catch fish.",
+          "zh": "教人如何捕鱼。"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "As an informational book, it explains the reasons, dangers, and navigation methods of migration using real animal examples.",
