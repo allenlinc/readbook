@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "Two points, like a safety.",
-          "zh": "2分，如同安全分。"
-        },
-        {
           "en": "Six points.",
           "zh": "6分。"
         },
@@ -25,11 +21,15 @@
           "zh": "自动7分。"
         },
         {
+          "en": "Two points, like a safety.",
+          "zh": "2分，如同安全分。"
+        },
+        {
           "en": "Three points, like a field goal.",
           "zh": "3分，如同射门得分。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states a touchdown is worth six points and is most often scored by running or passing the ball into the opponent's end zone.",
@@ -51,8 +51,8 @@
           "zh": "德怀特·克拉克，完成\"那记接球\"的人。"
         },
         {
-          "en": "Joe Montana, the gifted 49ers quarterback. according to some versions of the story",
-          "zh": "乔·蒙塔纳，49人队的天才四分卫。（按书中另一种说法）"
+          "en": "Joe Montana, the gifted 49ers quarterback. The book states the sport's popularity among young people is declining because it is widely considered too rough for children under fourteen, and women mostly play at semi-professional and amateur levels.",
+          "zh": "乔·蒙塔纳，49人队的天才四分卫。书中说因该项目对14岁以下儿童过于粗暴，在年轻人中人气下降，且女性多在半职业与业余层面参与。"
         },
         {
           "en": "Walter Camp, a Yale student who advocated rule changes that shaped the game.",
@@ -73,12 +73,12 @@
       },
       "options": [
         {
-          "en": "The Dallas Cowboys' defender. according to some versions of the story",
-          "zh": "达拉斯牛仔队的防守球员。（按书中另一种说法）"
-        },
-        {
           "en": "Dwight Clark, who leaped above the defenders in the end zone.",
           "zh": "德怀特·克拉克，他在端区跃过防守者接球。"
+        },
+        {
+          "en": "The Dallas Cowboys' defender. The book states the sport's popularity among young people is declining because it is widely considered too rough for children under fourteen, and women mostly play at semi-professional and amateur levels.",
+          "zh": "达拉斯牛仔队的防守球员。书中说因该项目对14岁以下儿童过于粗暴，在年轻人中人气下降，且女性多在半职业与业余层面参与。"
         },
         {
           "en": "Jerry Rice, the wide receiver.",
@@ -89,7 +89,7 @@
           "zh": "跑卫沃尔特·佩顿。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says quarterback Joe Montana threw the ball high toward the end zone and teammate Dwight Clark leapt above the defenders and grabbed it.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Six players, like a hockey line.",
-          "zh": "6名，如同冰球的一组。"
-        },
-        {
-          "en": "Eleven players.",
-          "zh": "11名球员。"
+          "en": "Five players, like basketball.",
+          "zh": "5名，如同篮球。"
         },
         {
           "en": "Twenty-two players (the whole team).",
           "zh": "22名（全队）。"
         },
         {
-          "en": "Five players, like basketball.",
-          "zh": "5名，如同篮球。"
+          "en": "Eleven players.",
+          "zh": "11名球员。"
+        },
+        {
+          "en": "Six players, like a hockey line.",
+          "zh": "6名，如同冰球的一组。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states one platoon from each team is on the field at a time, and each platoon has eleven players.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "It surrenders possession of the ball to the other team.",
-          "zh": "它把球权交给对方。"
-        },
-        {
-          "en": "It automatically scores a touchdown.",
-          "zh": "它自动达阵得分。"
-        },
-        {
           "en": "The game ends immediately.",
           "zh": "比赛立即结束。"
         },
         {
-          "en": "It gets four more downs for free. according to some versions of the story",
-          "zh": "它免费再获得四次进攻机会。（按书中另一种说法）"
+          "en": "It surrenders possession of the ball to the other team.",
+          "zh": "它把球权交给对方。"
+        },
+        {
+          "en": "It gets four more downs for free. The book states the sport's popularity among young people is declining because it is widely considered too rough for children under fourteen, and women mostly play at semi-professional and amateur levels.",
+          "zh": "它免费再获得四次进攻机会。书中说因该项目对14岁以下儿童过于粗暴，在年轻人中人气下降，且女性多在半职业与业余层面参与。"
+        },
+        {
+          "en": "It automatically scores a touchdown.",
+          "zh": "它自动达阵得分。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the offensive team has four downs to gain 10 yards, and if it fails to advance the ball 10 yards within those four downs, it surrenders possession.",
@@ -163,8 +163,8 @@
       },
       "options": [
         {
-          "en": "Joe Montana.",
-          "zh": "乔·蒙塔纳。"
+          "en": "Walter Payton.",
+          "zh": "沃尔特·佩顿。"
         },
         {
           "en": "Dwight Clark.",
@@ -175,8 +175,8 @@
           "zh": "杰里·赖斯。"
         },
         {
-          "en": "Walter Payton.",
-          "zh": "沃尔特·佩顿。"
+          "en": "Joe Montana.",
+          "zh": "乔·蒙塔纳。"
         }
       ],
       "answer": 2,
@@ -197,16 +197,16 @@
           "zh": "它由更古老的英国球类运动发展而来，并经早期组织者与学校塑造。"
         },
         {
-          "en": "It came from ancient Rome.",
-          "zh": "它源自古罗马。"
-        },
-        {
           "en": "It was created for the Olympics.",
           "zh": "它是为奥运会而创造的。"
         },
         {
-          "en": "It was invented all at once by one professional league. according to some versions of the story",
-          "zh": "它由某个职业联盟一次性发明。（按书中另一种说法）"
+          "en": "It came from ancient Rome.",
+          "zh": "它源自古罗马。"
+        },
+        {
+          "en": "It was invented all at once by one professional league. The book states the sport's popularity among young people is declining because it is widely considered too rough for children under fourteen, and women mostly play at semi-professional and amateur levels.",
+          "zh": "它由某个职业联盟一次性发明。书中说因该项目对14岁以下儿童过于粗暴，在年轻人中人气下降，且女性多在半职业与业余层面参与。"
         }
       ],
       "answer": 0,
@@ -223,16 +223,16 @@
       },
       "options": [
         {
-          "en": "The Super Bowl will be cancelled.",
-          "zh": "超级碗将被取消。"
-        },
-        {
-          "en": "Women will no longer be allowed to play at all. according to some versions of the story in an early draft of the book",
-          "zh": "女性将完全不被允许参赛。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Women will no longer be allowed to play at all. The book says Jerry Rice, the best wide receiver in football history, played twenty seasons starting in 1985, won three Super Bowls with the 49ers, and set close to forty NFL records.",
+          "zh": "女性将完全不被允许参赛。书中说史上最佳外接手杰里·赖斯从1985年起打了20个赛季，随49人队三夺超级碗，创下近40项NFL纪录。"
         },
         {
           "en": "The NFL will soon stop existing.",
           "zh": "NFL很快将不复存在。"
+        },
+        {
+          "en": "The Super Bowl will be cancelled.",
+          "zh": "超级碗将被取消。"
         },
         {
           "en": "The sport's future popularity could shrink if fewer young people learn and play it.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "A group of players who work together for a specific purpose, such as offense or defense.",
-          "zh": "为特定目的（如进攻或防守）协同作战的一组球员。"
-        },
-        {
           "en": "The leather ball used in the game.",
           "zh": "比赛中使用的皮球。"
         },
         {
-          "en": "The pointed post used for field goals. according to some versions of the story in an early draft of the book",
-          "zh": "用于射门的尖头门柱。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "A group of players who work together for a specific purpose, such as offense or defense.",
+          "zh": "为特定目的（如进攻或防守）协同作战的一组球员。"
         },
         {
           "en": "The coach who draws up the plays.",
           "zh": "制定战术的教练。"
+        },
+        {
+          "en": "The pointed post used for field goals. The book states the sport's popularity among young people is declining because it is widely considered too rough for children under fourteen, and women mostly play at semi-professional and amateur levels.",
+          "zh": "用于射门的尖头门柱。书中说因该项目对14岁以下儿童过于粗暴，在年轻人中人气下降，且女性多在半职业与业余层面参与。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines 'platoon' as a group of players on a team who work together for a specific purpose, such as offense or defense in American football.",
@@ -287,19 +287,19 @@
           "zh": "劝说读者成为职业球员。"
         },
         {
-          "en": "To tell a fictional story about a championship game. according to some versions of the story in an early draft of the book",
-          "zh": "讲述一个关于冠军赛的虚构故事。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "To inform readers about how American football is played, its history, and why it is popular.",
           "zh": "向读者介绍美式橄榄球的玩法、历史及其受欢迎的原因。"
+        },
+        {
+          "en": "To tell a fictional story about a championship game. The book states the sport's popularity among young people is declining because it is widely considered too rough for children under fourteen, and women mostly play at semi-professional and amateur levels.",
+          "zh": "讲述一个关于冠军赛的虚构故事。书中说因该项目对14岁以下儿童过于粗暴，在年轻人中人气下降，且女性多在半职业与业余层面参与。"
         },
         {
           "en": "To teach readers how to sew a jersey.",
           "zh": "教读者缝制球衣。"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book explains the rules, scoring, positions, history, and famous players of American football, showing it is written to inform.",

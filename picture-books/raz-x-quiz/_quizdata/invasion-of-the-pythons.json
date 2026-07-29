@@ -13,20 +13,20 @@
       },
       "options": [
         {
-          "en": "Australia.",
-          "zh": "澳大利亚。"
-        },
-        {
           "en": "The Galápagos Islands.",
           "zh": "加拉帕戈斯群岛。"
+        },
+        {
+          "en": "The Florida Everglades. The book says: 'In 2012, the U.S. Fish and Wildlife Service banned bringing new Burmese pythons into the United States. Owners must also insert a microchip into pet pythons.'",
+          "zh": "佛罗里达大沼泽地。书中说：'2012年，美国鱼类及野生动物管理局禁止把新的缅甸蟒带入美国。主人还必须在宠物蟒体内植入芯片。'"
         },
         {
           "en": "The jungles and marshy grasslands of India and other parts of South Asia.",
           "zh": "印度及南亚其他地区的丛林和沼泽草原。"
         },
         {
-          "en": "The Florida Everglades. according to some versions of the story in an early draft of the book",
-          "zh": "佛罗里达大沼泽地。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Australia.",
+          "zh": "澳大利亚。"
         }
       ],
       "answer": 2,
@@ -47,8 +47,8 @@
           "zh": "1979年。"
         },
         {
-          "en": "In 2000. according to some versions of the story",
-          "zh": "2000年。（按书中另一种说法）"
+          "en": "In 2000. The book says: 'In 2012, the U.S. Fish and Wildlife Service banned bringing new Burmese pythons into the United States. Owners must also insert a microchip into pet pythons.'",
+          "zh": "2000年。书中说：'2012年，美国鱼类及野生动物管理局禁止把新的缅甸蟒带入美国。主人还必须在宠物蟒体内植入芯片。'"
         },
         {
           "en": "In 2012.",
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "They poison their prey with a single bite. according to some versions of the story in an early draft of the book",
-          "zh": "它们用一口咬下毒死猎物。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "They inject venom through their fangs.",
           "zh": "它们用毒牙注射毒液。"
         },
@@ -85,11 +81,15 @@
           "zh": "它们是绞杀者，缠住猎物并挤压至其窒息，然后整只吞下。"
         },
         {
+          "en": "They poison their prey with a single bite. The book says: 'In 2012, the U.S. Fish and Wildlife Service banned bringing new Burmese pythons into the United States. Owners must also insert a microchip into pet pythons.'",
+          "zh": "它们用一口咬下毒死猎物。书中说：'2012年，美国鱼类及野生动物管理局禁止把新的缅甸蟒带入美国。主人还必须在宠物蟒体内植入芯片。'"
+        },
+        {
           "en": "They drown their prey in water.",
           "zh": "它们把猎物淹死在水里。"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book explains pythons are constrictors: they 'coils its muscular body around it and squeezes until its victim suffocates,' then swallow it whole.",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "Paid owners to release them into the wild.",
+          "zh": "付钱让主人把它们放归野外。"
+        },
+        {
           "en": "Made the python the state animal of Florida.",
           "zh": "将蟒定为佛罗里达的州动物。"
         },
@@ -111,15 +115,11 @@
           "zh": "禁止把新的缅甸蟒带入美国，并要求主人为宠物蟒植入芯片。"
         },
         {
-          "en": "Made them the official pet of the United States. according to some versions of the story in an early draft of the book",
-          "zh": "将它们定为美国的官方宠物。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "Paid owners to release them into the wild.",
-          "zh": "付钱让主人把它们放归野外。"
+          "en": "Made them the official pet of the United States. The book states: 'In 2012, researchers captured the biggest Burmese python found so far... She was 17 feet 7 inches (5.4 m) long, and inside her were 87 eggs.'",
+          "zh": "将它们定为美国的官方宠物。书中写道：'2012年，研究人员捕获了迄今发现的最大缅甸蟒……她长17英尺7英寸（5.4米），体内有87枚卵。'"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says: 'In 2012, the U.S. Fish and Wildlife Service banned bringing new Burmese pythons into the United States. Owners must also insert a microchip into pet pythons.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "They are non-native and, lacking natural predators and competition, multiplied and took over the ecosystem.",
-          "zh": "它们非本土物种，且因缺乏天敌和竞争而大量繁殖、占领了生态系统。"
-        },
-        {
-          "en": "They are native to Florida but are now endangered. according to some versions of the story in an early draft of the book",
-          "zh": "它们是佛罗里达原生物种，但现在濒危了。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "They help the Everglades ecosystem stay healthy.",
           "zh": "它们让大沼泽地生态系统保持健康。"
         },
         {
+          "en": "They are non-native and, lacking natural predators and competition, multiplied and took over the ecosystem.",
+          "zh": "它们非本土物种，且因缺乏天敌和竞争而大量繁殖、占领了生态系统。"
+        },
+        {
           "en": "They are small and harmless snakes.",
           "zh": "它们是小巧无害的蛇。"
+        },
+        {
+          "en": "They are native to Florida but are now endangered. The book says: 'In 2012, the U.S. Fish and Wildlife Service banned bringing new Burmese pythons into the United States. Owners must also insert a microchip into pet pythons.'",
+          "zh": "它们是佛罗里达原生物种，但现在濒危了。书中说：'2012年，美国鱼类及野生动物管理局禁止把新的缅甸蟒带入美国。主人还必须在宠物蟒体内植入芯片。'"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book defines an invasive species as one that, in a new home lacking competition and predators, 'may multiply and take over.'",
@@ -163,20 +163,20 @@
       },
       "options": [
         {
-          "en": "They all moved to the ocean.",
-          "zh": "它们都搬到了海里。"
+          "en": "They stayed exactly the same.",
+          "zh": "它们完全没变。"
         },
         {
           "en": "They crashed—for example, raccoons declined 99.3% and marsh rabbits 100%.",
           "zh": "它们骤降——例如浣熊减少99.3%，沼泽兔减少100%。"
         },
         {
-          "en": "They stayed exactly the same.",
-          "zh": "它们完全没变。"
+          "en": "They all moved to the ocean.",
+          "zh": "它们都搬到了海里。"
         },
         {
-          "en": "They grew larger and healthier. according to some versions of the story in an early draft of the book",
-          "zh": "它们变得更大更健康。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "They grew larger and healthier. The book says: 'In 2012, the U.S. Fish and Wildlife Service banned bringing new Burmese pythons into the United States. Owners must also insert a microchip into pet pythons.'",
+          "zh": "它们变得更大更健康。书中说：'2012年，美国鱼类及野生动物管理局禁止把新的缅甸蟒带入美国。主人还必须在宠物蟒体内植入芯片。'"
         }
       ],
       "answer": 1,
@@ -197,16 +197,16 @@
           "zh": "被引入生态系统、并对当地其他物种造成危害的非本土物种。"
         },
         {
-          "en": "A predator that sits at the very top of the food chain. according to some versions of the story",
-          "zh": "处于食物链顶端的捕食者。（按书中另一种说法）"
+          "en": "A native animal that belongs in the area.",
+          "zh": "属于该地区的本土动物。"
         },
         {
           "en": "A type of plant found only in gardens.",
           "zh": "只生长在花园里的植物。"
         },
         {
-          "en": "A native animal that belongs in the area.",
-          "zh": "属于该地区的本土动物。"
+          "en": "A predator that sits at the very top of the food chain. The book says: 'In 2012, the U.S. Fish and Wildlife Service banned bringing new Burmese pythons into the United States. Owners must also insert a microchip into pet pythons.'",
+          "zh": "处于食物链顶端的捕食者。书中说：'2012年，美国鱼类及野生动物管理局禁止把新的缅甸蟒带入美国。主人还必须在宠物蟒体内植入芯片。'"
         }
       ],
       "answer": 0,
@@ -227,19 +227,19 @@
           "zh": "劝说读者把蟒当宠物养。"
         },
         {
-          "en": "To describe only the pythons of South Asia.",
-          "zh": "只描写南亚的蟒。"
-        },
-        {
-          "en": "To tell a made-up adventure story about a pet snake. according to some versions of the story in an early draft of the book",
-          "zh": "讲一个关于宠物蛇的虚构冒险故事。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "To inform readers about how Burmese pythons became an invasive threat in the Everglades and the efforts to control them.",
           "zh": "向读者说明缅甸蟒如何成为大沼泽地的入侵威胁，以及控制它们的努力。"
+        },
+        {
+          "en": "To tell a made-up adventure story about a pet snake. The book says: 'In 2012, the U.S. Fish and Wildlife Service banned bringing new Burmese pythons into the United States. Owners must also insert a microchip into pet pythons.'",
+          "zh": "讲一个关于宠物蛇的虚构冒险故事。书中说：'2012年，美国鱼类及野生动物管理局禁止把新的缅甸蟒带入美国。主人还必须在宠物蟒体内植入芯片。'"
+        },
+        {
+          "en": "To describe only the pythons of South Asia.",
+          "zh": "只描写南亚的蟒。"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is an informational text covering the pythons' arrival, impact on native mammals, and control efforts like capture programs and radio tracking.",
@@ -257,19 +257,19 @@
           "zh": "只靠追踪脚印。"
         },
         {
-          "en": "By using satellites to watch from space. according to some versions of the story in an early draft of the book",
-          "zh": "用卫星从太空监控。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "By asking pet owners to report them.",
           "zh": "让宠物主人报告。"
         },
         {
           "en": "By inserting radio transmitters into a live snake that may lead them to other pythons.",
           "zh": "把无线电发射器植入活蟒体内，它可能会把人引向其他蟒。"
+        },
+        {
+          "en": "By using satellites to watch from space. The book says: 'In 2012, the U.S. Fish and Wildlife Service banned bringing new Burmese pythons into the United States. Owners must also insert a microchip into pet pythons.'",
+          "zh": "用卫星从太空监控。书中说：'2012年，美国鱼类及野生动物管理局禁止把新的缅甸蟒带入美国。主人还必须在宠物蟒体内植入芯片。'"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says researchers 'use radio transmitters. They insert the device into a live snake and release it, and that snake might lead them to other pythons.'",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "5 feet (1.5 m) long. according to some versions of the story",
-          "zh": "5英尺（1.5米）长。（按书中另一种说法）"
-        },
-        {
-          "en": "17 feet 7 inches (5.4 m) long, with 87 eggs inside her.",
-          "zh": "17英尺7英寸（5.4米）长，体内还有87枚卵。"
-        },
-        {
           "en": "30 feet (9 m) long.",
           "zh": "30英尺（9米）长。"
         },
         {
           "en": "10 feet (3 m) long.",
           "zh": "10英尺（3米）长。"
+        },
+        {
+          "en": "17 feet 7 inches (5.4 m) long, with 87 eggs inside her.",
+          "zh": "17英尺7英寸（5.4米）长，体内还有87枚卵。"
+        },
+        {
+          "en": "5 feet (1.5 m) long. The book says: 'In 2012, the U.S. Fish and Wildlife Service banned bringing new Burmese pythons into the United States. Owners must also insert a microchip into pet pythons.'",
+          "zh": "5英尺（1.5米）长。书中说：'2012年，美国鱼类及野生动物管理局禁止把新的缅甸蟒带入美国。主人还必须在宠物蟒体内植入芯片。'"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states: 'In 2012, researchers captured the biggest Burmese python found so far... She was 17 feet 7 inches (5.4 m) long, and inside her were 87 eggs.'",
