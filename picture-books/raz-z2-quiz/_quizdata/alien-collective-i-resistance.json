@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "Share your food with all aliens.",
-          "zh": "把你们的食物分给所有外星人。"
-        },
-        {
           "en": "Submit and change—or die.",
           "zh": "屈服并改变——否则就死。"
         },
@@ -25,11 +21,15 @@
           "zh": "放下武器，遵守我们的新法律。"
         },
         {
+          "en": "Share your food with all aliens.",
+          "zh": "把你们的食物分给所有外星人。"
+        },
+        {
           "en": "Leave the planet and travel to the stars.",
           "zh": "离开地球，前往星空。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The aliens' message to humanity was to submit and change or die, as Charlotte feels when their warning reaches her mind.",
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "The Collectives. The aliens' message to humanity was to submit and change or die, as Charlotte feels when their warning reaches her mind.",
+          "zh": "共同体。外星人传给人类的信息是屈服并改变，否则就死，这正是夏洛特在脑中感受到的警告。"
+        },
+        {
           "en": "The Sterilization and Re-education Centers, or the Streeds",
           "zh": "消毒与再教育中心，也叫 Streeds"
         },
@@ -51,15 +55,11 @@
           "zh": "避难所"
         },
         {
-          "en": "The Collectives according to some versions of the story in an early draft of the book",
-          "zh": "共同体（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "The Compounds",
           "zh": "据点"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Resistance attacked the Streeds, which is short for Sterilization and Re-education Centers.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "They flooded the cities with the rising oceans.",
-          "zh": "他们用上涨的海洋淹没城市。"
-        },
-        {
-          "en": "They used blue beams to disable weapons and power.",
-          "zh": "他们用蓝色光束使武器和电力失效。"
-        },
-        {
           "en": "They sent a deadly disease across every city.",
           "zh": "他们让致命疾病传遍每座城市。"
         },
         {
           "en": "They landed huge armies of soldiers on every beach at once.",
           "zh": "他们同时派大军在每一处海滩登陆。"
+        },
+        {
+          "en": "They flooded the cities with the rising oceans.",
+          "zh": "他们用上涨的海洋淹没城市。"
+        },
+        {
+          "en": "They used blue beams to disable weapons and power.",
+          "zh": "他们用蓝色光束使武器和电力失效。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The first attack used blue beams to disable nuclear weapons and power, plunging many areas into darkness.",
@@ -103,8 +103,8 @@
       },
       "options": [
         {
-          "en": "The fierce leader of the human Resistance army who gives orders.",
-          "zh": "下达命令的人类抵抗组织军队首领。"
+          "en": "A name Charlotte gave to her pet dog.",
+          "zh": "夏洛特给她宠物狗取的名字。"
         },
         {
           "en": "Charlotte's best human friend at school.",
@@ -115,8 +115,8 @@
           "zh": "通过'连接'和夏洛特对话的蜥蜴外星人。"
         },
         {
-          "en": "A name Charlotte gave to her pet dog.",
-          "zh": "夏洛特给她宠物狗取的名字。"
+          "en": "The fierce leader of the human Resistance army who gives orders.",
+          "zh": "下达命令的人类抵抗组织军队首领。"
         }
       ],
       "answer": 2,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Fast spaceships to travel. according to some versions of the story in an early draft of the book",
-          "zh": "用于旅行的快速飞船。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Free, abundant energy from egg-shaped generators that needed no fuel.",
+          "zh": "来自蛋形发电机、无需燃料的免费充足能源。"
+        },
+        {
+          "en": "Fast spaceships to travel. The aliens' message to humanity was to submit and change or die, as Charlotte feels when their warning reaches her mind.",
+          "zh": "用于旅行的快速飞船。外星人传给人类的信息是屈服并改变，否则就死，这正是夏洛特在脑中感受到的警告。"
         },
         {
           "en": "Gold and silver treasures.",
           "zh": "黄金和白银财宝。"
         },
         {
-          "en": "Free, abundant energy from egg-shaped generators that needed no fuel.",
-          "zh": "来自蛋形发电机、无需燃料的免费充足能源。"
-        },
-        {
           "en": "New weapons for the army.",
           "zh": "给军队的新武器。"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In exchange for the Centers, the aliens gave governments free energy from egg-shaped, fuel-free generators.",
@@ -171,12 +171,12 @@
           "zh": "因为外星人拒绝分享食物。"
         },
         {
-          "en": "Because the aliens were teaching strange new school subjects to everyone.",
-          "zh": "因为外星人给所有人教奇怪的新课程。"
-        },
-        {
           "en": "Because the aliens wanted to make friends with humans.",
           "zh": "因为外星人想和人类做朋友。"
+        },
+        {
+          "en": "Because the aliens were teaching strange new school subjects to everyone.",
+          "zh": "因为外星人给所有人教奇怪的新课程。"
         }
       ],
       "answer": 0,
@@ -193,16 +193,16 @@
       },
       "options": [
         {
-          "en": "As a diary written by Charlotte's father.",
-          "zh": "作为夏洛特父亲写的日记。"
-        },
-        {
           "en": "As a list of facts about space travel.",
           "zh": "作为一份关于太空旅行的事实清单。"
         },
         {
           "en": "By explaining the science of alien biology in clear steps for the reader.",
           "zh": "通过一步步向读者解释外星生物的科学原理。"
+        },
+        {
+          "en": "As a diary written by Charlotte's father.",
+          "zh": "作为夏洛特父亲写的日记。"
         },
         {
           "en": "By moving between Charlotte's capture and the night of the raid.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Fly their ships faster than light. according to some versions of the story in an early draft of the book",
-          "zh": "让飞船比光速更快。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "Grow food inside their own bodies.",
           "zh": "在自己体内种食物。"
         },
         {
-          "en": "Breathe underwater without help.",
-          "zh": "在水下无需帮助地呼吸。"
+          "en": "Fly their ships faster than light. The aliens' message to humanity was to submit and change or die, as Charlotte feels when their warning reaches her mind.",
+          "zh": "让飞船比光速更快。外星人传给人类的信息是屈服并改变，否则就死，这正是夏洛特在脑中感受到的警告。"
         },
         {
           "en": "Share meaning and translate thoughts across species that cannot speak alike.",
           "zh": "在不同无法用相同方式说话的物种之间共享含义、翻译思想。"
+        },
+        {
+          "en": "Breathe underwater without help.",
+          "zh": "在水下无需帮助地呼吸。"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Link was built by early races to translate meaning so many species could communicate without shared speech.",
@@ -257,19 +257,19 @@
           "zh": "为了讲解如何在家养宠物蜥蜴。"
         },
         {
-          "en": "To show a young hero facing a tough choice about trust.",
-          "zh": "为了展现一个年轻英雄面对关于信任的艰难抉择。"
-        },
-        {
-          "en": "To give a full history of every country on planet Earth. according to some versions of the story",
-          "zh": "为了完整讲述地球上每个国家的历史。（按书中另一种说法）"
+          "en": "To give a full history of every country on planet Earth. The aliens' message to humanity was to submit and change or die, as Charlotte feels when their warning reaches her mind.",
+          "zh": "为了完整讲述地球上每个国家的历史。外星人传给人类的信息是屈服并改变，否则就死，这正是夏洛特在脑中感受到的警告。"
         },
         {
           "en": "To teach the steps of how to build a real spaceship.",
           "zh": "为了教读者如何建造真正的飞船。"
+        },
+        {
+          "en": "To show a young hero facing a tough choice about trust.",
+          "zh": "为了展现一个年轻英雄面对关于信任的艰难抉择。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author uses a teen hero and a mystery about the aliens' true aim to explore trust and propaganda.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "The text says she was fifteen and had just sneaked out when the aliens arrived on her birthday.",
-          "zh": "文中说她十五岁，且在外星人于她生日那天抵达时刚溜出家门。"
-        },
-        {
-          "en": "She was the oldest soldier in the army. according to some versions of the story in an early draft of the book",
-          "zh": "她是军队里最年长的士兵。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "She was the oldest soldier in the army. The aliens' message to humanity was to submit and change or die, as Charlotte feels when their warning reaches her mind.",
+          "zh": "她是军队里最年长的士兵。外星人传给人类的信息是屈服并改变，否则就死，这正是夏洛特在脑中感受到的警告。"
         },
         {
           "en": "She lived in a very large castle.",
           "zh": "她住在一座很大的城堡里。"
         },
         {
+          "en": "The text says she was fifteen and had just sneaked out when the aliens arrived on her birthday.",
+          "zh": "文中说她十五岁，且在外星人于她生日那天抵达时刚溜出家门。"
+        },
+        {
           "en": "She drove a fast red car to school.",
           "zh": "她开一辆红色快车上学。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book states Charlotte was fifteen and that alien ships appeared in the sky on her fifteenth birthday.",

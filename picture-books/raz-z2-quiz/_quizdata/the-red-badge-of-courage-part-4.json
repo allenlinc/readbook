@@ -17,19 +17,19 @@
           "zh": "在最近的村子里列队游行。 这个小细节有助于表现士兵们当天的经历。"
         },
         {
+          "en": "Crouching among trees in a grove, aiming their guns out at the fields.",
+          "zh": "蹲在林中的树丛里，把枪口对准外面的田野。"
+        },
+        {
           "en": "Cooking a large breakfast over open fires.",
           "zh": "在明火上煮一顿丰盛的早餐。"
         },
         {
           "en": "Sleeping peacefully in their tents by the river.",
           "zh": "在河边的帐篷里安睡。"
-        },
-        {
-          "en": "Crouching among trees in a grove, aiming their guns out at the fields.",
-          "zh": "蹲在林中的树丛里，把枪口对准外面的田野。"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The brigade is halted in the fringe of a grove, crouching among trees and pointing their guns out at the fields.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "The singing of insects on a calm night.",
-          "zh": "平静夜晚里昆虫的鸣唱。"
-        },
-        {
-          "en": "The loud, shrieking sound of a shell passing overhead.",
-          "zh": "炮弹从头顶掠过时那响亮而尖厉的声音。"
+          "en": "The laughter of the veterans at the rear. This small detail helps show what the soldiers experienced on that day.",
+          "zh": "后方老兵的笑声。 这个小细节有助于表现士兵们当天的经历。"
         },
         {
           "en": "The quiet trickle of a small forest stream.",
           "zh": "林间小溪静静的流淌声。"
         },
         {
-          "en": "The laughter of the veterans at the rear. This small detail helps show what the soldiers experienced on that day.",
-          "zh": "后方老兵的笑声。 这个小细节有助于表现士兵们当天的经历。"
+          "en": "The loud, shrieking sound of a shell passing overhead.",
+          "zh": "炮弹从头顶掠过时那响亮而尖厉的声音。"
+        },
+        {
+          "en": "The singing of insects on a calm night.",
+          "zh": "平静夜晚里昆虫的鸣唱。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The shell screams like a banshee as it passes over the reserves and explodes redly in the grove.",
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "They jeer and call out facetious advice to the retreating men.",
-          "zh": "他们起哄嘲笑，还对撤退的人说出一堆挖苦的“忠告”。"
-        },
-        {
           "en": "They quietly salute the fleeing soldiers.",
           "zh": "他们默默地向逃跑的士兵敬礼。"
         },
@@ -87,9 +83,13 @@
         {
           "en": "They fire their own guns at the runaways in anger.",
           "zh": "他们愤怒地朝逃跑者开枪。"
+        },
+        {
+          "en": "They jeer and call out facetious advice to the retreating men.",
+          "zh": "他们起哄嘲笑，还对撤退的人说出一堆挖苦的“忠告”。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The veterans on the right and left immediately jeer, mingling catcalls and facetious advice with the bullets.",
@@ -103,12 +103,12 @@
       },
       "options": [
         {
-          "en": "The men ready their cartridges and brace themselves for the enemy charge.",
-          "zh": "士兵们把子弹准备好，绷紧神经迎接敌人的冲锋。"
-        },
-        {
           "en": "The men start to pack up and leave the battle.",
           "zh": "士兵们开始收拾东西撤离战场。"
+        },
+        {
+          "en": "The men ready their cartridges and brace themselves for the enemy charge.",
+          "zh": "士兵们把子弹准备好，绷紧神经迎接敌人的冲锋。"
         },
         {
           "en": "The men lie down and try to sleep through the noise.",
@@ -119,7 +119,7 @@
           "zh": "士兵们转身朝河的方向跑去。 这个小细节有助于表现士兵们当天的经历。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "At ‘Here they come!’ the men show a feverish desire to have every cartridge ready and brace for the charge.",
@@ -137,19 +137,19 @@
           "zh": "他被硝烟熏得又困又迷糊。"
         },
         {
-          "en": "He feels angry at his mother for sending him.",
-          "zh": "他对送他参军母亲感到生气。"
-        },
-        {
-          "en": "He feels more afraid than ever and wants to flee. according to some versions of the story in an early draft of the book",
-          "zh": "他比以往更害怕，想要逃跑。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "He feels like part of a group, not a separate person, united by a battle brotherhood.",
           "zh": "他觉得自己成了群体的一部分，而不再是孤立的个人，被战场的兄弟情谊联结在一起。"
+        },
+        {
+          "en": "He feels more afraid than ever and wants to flee. Hearing din from the hillside and afar, he realizes they are fighting over there, and over there, and over there too.",
+          "zh": "他比以往更害怕，想要逃跑。听着山坡上和远处的喧闹，他意识到那边、那边、还有那边也都在作战。"
+        },
+        {
+          "en": "He feels angry at his mother for sending him.",
+          "zh": "他对送他参军母亲感到生气。"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "He becomes not a man but a member, welded into a common personality by a shared brotherhood of the smoke and danger.",
@@ -167,12 +167,12 @@
           "zh": "由共同的危险和战斗经历孕育出的兄弟情谊。"
         },
         {
-          "en": "A peaceful farm community far from war. This small detail helps show what the soldiers experienced on that day.",
-          "zh": "远离战争的宁静农耕社区。 这个小细节有助于表现士兵们当天的经历。"
-        },
-        {
           "en": "A type of large cannon used by the battery.",
           "zh": "炮兵使用的一种大炮。"
+        },
+        {
+          "en": "A peaceful farm community far from war. This small detail helps show what the soldiers experienced on that day.",
+          "zh": "远离战争的宁静农耕社区。 这个小细节有助于表现士兵们当天的经历。"
         },
         {
           "en": "A formal army school for new officers.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "They decide to march home without orders.",
-          "zh": "他们决定不待命令就列队回家。"
+          "en": "They complain that the generals tricked them.",
+          "zh": "他们抱怨将军们骗了他们。"
         },
         {
-          "en": "They say the enemy has won and they must surrender. according to some versions of the story",
-          "zh": "他们说敌人赢了，自己必须投降。（按书中另一种说法）"
+          "en": "They decide to march home without orders.",
+          "zh": "他们决定不待命令就列队回家。"
         },
         {
           "en": "They say ‘We’ve helt ’em back,’ feeling pride in holding the enemy.",
           "zh": "他们说‘咱们把他们挡住了’，为自己守住了敌人而感到自豪。"
         },
         {
-          "en": "They complain that the generals tricked them.",
-          "zh": "他们抱怨将军们骗了他们。"
+          "en": "They say the enemy has won and they must surrender. He becomes not a man but a member, welded into a common personality by a shared brotherhood of the smoke and danger.",
+          "zh": "他们说敌人赢了，自己必须投降。他不再是孤立的个人，而是成了集体的一员，被硝烟与危险中的兄弟情谊熔铸成共同的意志。"
         }
       ],
       "answer": 2,
@@ -257,19 +257,19 @@
           "zh": "他得知敌人已经全部回家了。"
         },
         {
-          "en": "He realizes the war is already completely over.",
-          "zh": "他意识到战争已经完全结束。"
-        },
-        {
           "en": "He learns fighting is happening in many places, not just in front of him.",
           "zh": "他认识到战斗在许多地方同时发生，并不只是在他眼前。"
+        },
+        {
+          "en": "He realizes the war is already completely over.",
+          "zh": "他意识到战争已经完全结束。"
         },
         {
           "en": "He discovers that his regiment is the only one fighting. This small detail helps show what the soldiers experienced on that day.",
           "zh": "他发现自己的团队是唯一在作战的。 这个小细节有助于表现士兵们当天的经历。"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Hearing din from the hillside and afar, he realizes they are fighting over there, and over there, and over there too.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "To argue that soldiers should never trust one another. This small detail helps show what the soldiers experienced on that day.",
-          "zh": "为了论证士兵之间永远不该互相信任。 这个小细节有助于表现士兵们当天的经历。"
-        },
-        {
           "en": "To show how Henry moves from fearing battle to feeling part of a shared brotherhood.",
           "zh": "为了表现亨利怎样从惧怕战斗，转变为感受到自己属于一份共同的兄弟情谊。"
+        },
+        {
+          "en": "To show that Henry was always a fearless natural leader.",
+          "zh": "为了表现亨利始终是无畏的天生领袖。"
         },
         {
           "en": "To prove that war is a fun and easy adventure.",
           "zh": "为了证明战争是一场有趣又轻松的冒险。"
         },
         {
-          "en": "To show that Henry was always a fearless natural leader.",
-          "zh": "为了表现亨利始终是无畏的天生领袖。"
+          "en": "To argue that soldiers should never trust one another. This small detail helps show what the soldiers experienced on that day.",
+          "zh": "为了论证士兵之间永远不该互相信任。 这个小细节有助于表现士兵们当天的经历。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The part traces Henry from private dread to a sense of unity with his comrades in the heat of battle.",

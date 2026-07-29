@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "A railroad worker according to some versions of the story",
-          "zh": "一名铁路工人（按书中另一种说法）"
+          "en": "A railroad worker. The ending shows that the whole escape was a final daydream, and the story's opening scene was his last moment.",
+          "zh": "一名铁路工人。结尾表明整场逃跑是临终前的一场白日梦，而故事开头的情景正是他最后时刻的写照。"
         },
         {
           "en": "Peyton Farquhar, a wealthy planter from Alabama",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "In a busy seaport city",
-          "zh": "在一座繁忙的海港城市里"
-        },
-        {
           "en": "On a railroad bridge in northern Alabama",
           "zh": "在阿拉巴马北部的一座铁路桥上"
         },
         {
-          "en": "In a quiet forest far away according to some versions of the story",
-          "zh": "在远处安静的森林里（按书中另一种说法）"
-        },
-        {
           "en": "At Farquhar's family home",
           "zh": "在法夸尔的家中"
+        },
+        {
+          "en": "In a quiet forest far away. The ending shows that the whole escape was a final daydream, and the story's opening scene was his last moment.",
+          "zh": "在远处安静的森林里。结尾表明整场逃跑是临终前的一场白日梦，而故事开头的情景正是他最后时刻的写照。"
+        },
+        {
+          "en": "In a busy seaport city",
+          "zh": "在一座繁忙的海港城市里"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The story opens with a man standing on a railroad bridge in northern Alabama, looking down at the water below.",
@@ -73,10 +73,6 @@
       },
       "options": [
         {
-          "en": "The deep, steady rumble of a faraway train engine",
-          "zh": "远处火车引擎低沉而平稳的轰鸣声"
-        },
-        {
           "en": "The howling of a lonely wind",
           "zh": "孤独的风的呼啸声"
         },
@@ -87,9 +83,13 @@
         {
           "en": "The singing of birds in the trees",
           "zh": "树林里鸟儿的歌声"
+        },
+        {
+          "en": "The deep, steady rumble of a faraway train engine",
+          "zh": "远处火车引擎低沉而平稳的轰鸣声"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Farquhar hears a sharp, regular ticking that turns out to be the sound of his own watch.",
@@ -103,20 +103,20 @@
       },
       "options": [
         {
-          "en": "A neighbor farmer",
-          "zh": "一位农场的邻居"
+          "en": "A gray-clad soldier who brought news from a distant country",
+          "zh": "一名穿灰色军装的士兵，带来了远方国家的新闻"
         },
         {
           "en": "A soldier in a gray uniform",
           "zh": "一名身穿灰色军装的士兵"
         },
         {
-          "en": "A traveling merchant",
-          "zh": "一位旅行的商人"
+          "en": "A neighbor farmer",
+          "zh": "一位农场的邻居"
         },
         {
-          "en": "A gray-clad soldier who brought news from a distant country",
-          "zh": "一名穿灰色军装的士兵，带来了远方国家的新闻"
+          "en": "A traveling merchant",
+          "zh": "一位旅行的商人"
         }
       ],
       "answer": 1,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Planting a large field of corn",
-          "zh": "种植一大片玉米地"
-        },
-        {
-          "en": "Selling supplies at a market",
-          "zh": "在市场上卖补给品"
+          "en": "Repairing the railroads and building a stockade",
+          "zh": "修复铁路并修建一座栅栏据点"
         },
         {
           "en": "Building a tall stone wall around the entire town to keep people out",
           "zh": "在整座城镇周围筑起高高的石墙来阻挡人们"
         },
         {
-          "en": "Repairing the railroads and building a stockade",
-          "zh": "修复铁路并修建一座栅栏据点"
+          "en": "Selling supplies at a market",
+          "zh": "在市场上卖补给品"
+        },
+        {
+          "en": "Planting a large field of corn",
+          "zh": "种植一大片玉米地"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The visitor says the Yankees are repairing the railroads and have built a stockade on the north bank of the bridge.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "By revealing that the escape was only imagined in Farquhar's mind",
-          "zh": "通过揭示那次逃跑只是法夸尔脑海中的想象"
+          "en": "By describing a long journey home. The ending shows that the whole escape was a final daydream, and the story's opening scene was his last moment.",
+          "zh": "通过描述一段漫长的回家旅程。结尾表明整场逃跑是临终前的一场白日梦，而故事开头的情景正是他最后时刻的写照。"
+        },
+        {
+          "en": "By introducing a new character",
+          "zh": "通过引入一个新角色"
         },
         {
           "en": "By revealing a hidden map",
           "zh": "通过揭示一张隐藏的地图"
         },
         {
-          "en": "By describing a long journey home according to some versions of the story",
-          "zh": "通过描述一段漫长的回家旅程（按书中另一种说法）"
-        },
-        {
-          "en": "By introducing a new character",
-          "zh": "通过引入一个新角色"
+          "en": "By revealing that the escape was only imagined in Farquhar's mind",
+          "zh": "通过揭示那次逃跑只是法夸尔脑海中的想象"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The story reveals that Farquhar's daring escape happened only in his imagination during his final moments.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "The American Civil War",
-          "zh": "美国内战"
+          "en": "The American Civil War, a war between the northern and southern states",
+          "zh": "美国内战，即北方与南方各州之间的一场战争"
         },
         {
-          "en": "The Mexican Revolutionary War",
-          "zh": "墨西哥革命战争"
+          "en": "The American Civil War",
+          "zh": "美国内战"
         },
         {
           "en": "A war between two faraway kingdoms",
           "zh": "两个遥远王国之间的一场战争"
         },
         {
-          "en": "The American Civil War, a war between the northern and southern states",
-          "zh": "美国内战，即北方与南方各州之间的一场战争"
+          "en": "The Mexican Revolutionary War",
+          "zh": "墨西哥革命战争"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The story is set during the American Civil War, when the Federal (Union) Army advanced into northern Alabama.",
@@ -227,19 +227,19 @@
           "zh": "为了让想象中的逃跑显得真实，并把读者带入法夸尔的体验"
         },
         {
-          "en": "To teach the reader about different kinds of plants",
-          "zh": "为了向读者介绍不同种类的植物"
+          "en": "To help the reader picture what Farquhar notices",
+          "zh": "为了帮助读者想象法夸尔所注意到的景象"
         },
         {
           "en": "To show that Farquhar loved nature",
           "zh": "为了表现法夸尔热爱自然"
         },
         {
-          "en": "To help the reader picture what Farquhar notices",
-          "zh": "为了帮助读者想象法夸尔所注意到的景象"
+          "en": "To teach the reader about different kinds of plants",
+          "zh": "为了向读者介绍不同种类的植物"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The detailed descriptions help readers picture the small things Farquhar notices during his experience.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "He imagines sailing a boat",
-          "zh": "他想象自己乘船航行"
+          "en": "He imagines swimming to the bank, reaching the woods, and getting home to his family",
+          "zh": "他想象自己游到岸边、进入树林并回到家人身边"
         },
         {
           "en": "He imagines riding a horse",
           "zh": "他想象自己骑马"
         },
         {
-          "en": "He imagines swimming to the bank, reaching the woods, and getting home to his family",
-          "zh": "他想象自己游到岸边、进入树林并回到家人身边"
+          "en": "He imagines building a fire. The ending shows that the whole escape was a final daydream, and the story's opening scene was his last moment.",
+          "zh": "他想象自己生起一堆火。结尾表明整场逃跑是临终前的一场白日梦，而故事开头的情景正是他最后时刻的写照。"
         },
         {
-          "en": "He imagines building a fire according to some versions of the story in an early draft of the book",
-          "zh": "他想象自己生起一堆火（按书中另一种说法）（在书的早期草稿中）"
+          "en": "He imagines sailing a boat",
+          "zh": "他想象自己乘船航行"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In his mind, Farquhar imagines swimming free, reaching the woods, and returning home to his wife and children.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "That the escape happened only in his imagination",
-          "zh": "那次逃跑只发生在他的想象中"
-        },
-        {
-          "en": "That he safely reached his home",
-          "zh": "他安全回到了家中"
-        },
-        {
           "en": "That he joined the army",
           "zh": "他参了军"
         },
         {
+          "en": "That the escape happened only in his imagination",
+          "zh": "那次逃跑只发生在他的想象中"
+        },
+        {
           "en": "That he woke up the next morning in a faraway forest after a long and dangerous trip",
           "zh": "他在一次漫长而危险的旅行后，于次日清晨在远处的森林中醒来"
+        },
+        {
+          "en": "That he safely reached his home",
+          "zh": "他安全回到了家中"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The ending shows that the whole escape was a final daydream, and the story's opening scene was his last moment.",

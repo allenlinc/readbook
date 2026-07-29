@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "They cheer loudly and wave a happy hello",
-          "zh": "他们大声欢呼、快乐地挥手致意"
+          "en": "They mock them with rude questions",
+          "zh": "他们用粗鲁的问题嘲弄他们"
         },
         {
           "en": "They give them hot food",
           "zh": "他们给热的饭食"
         },
         {
-          "en": "They mock them with rude questions",
-          "zh": "他们用粗鲁的问题嘲弄他们"
-        },
-        {
           "en": "They fall fast asleep",
           "zh": "他们倒头就睡"
+        },
+        {
+          "en": "They cheer loudly and wave a happy hello",
+          "zh": "他们大声欢呼、快乐地挥手致意"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A gaunt regiment asks taunts like 'Where th' hell yeh been?' and 'Goin' home now?'",
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "That they slept through the noise. The colonel says Fleming 'kep' th' flag 'way t' th' front' and is 'a very good man t' have.'",
+          "zh": "说他们吵闹中都睡过去了。团长说弗莱明“一路把旗扛在最前头”，是“一个很值得留在身边的好汉”。"
+        },
+        {
           "en": "That they lost the regimental flag",
           "zh": "说他们把团旗弄丢了"
         },
@@ -53,13 +57,9 @@
         {
           "en": "That they ate too much bread",
           "zh": "说他们吃了太多面包"
-        },
-        {
-          "en": "That they slept through the noise according to some versions of the story",
-          "zh": "说他们吵闹中都睡过去了（按书中另一种说法）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "He cries 'what an awful bull you made'—the charge stopped short of success.",
@@ -77,16 +77,16 @@
           "zh": "极度消瘦、疲惫不堪"
         },
         {
-          "en": "Sweet like a summer breeze according to some versions of the story",
-          "zh": "像夏日微风般甜美（按书中另一种说法）"
-        },
-        {
-          "en": "Soft and rather sleepy",
-          "zh": "柔和、有些困"
+          "en": "Sweet like a summer breeze. The colonel says Fleming 'kep' th' flag 'way t' th' front' and is 'a very good man t' have.'",
+          "zh": "像夏日微风般甜美。团长说弗莱明“一路把旗扛在最前头”，是“一个很值得留在身边的好汉”。"
         },
         {
           "en": "Bright and full of laughter",
           "zh": "明亮、充满欢笑"
+        },
+        {
+          "en": "Soft and rather sleepy",
+          "zh": "柔和、有些困"
         }
       ],
       "answer": 0,
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A lost little boy",
-          "zh": "一个走失的小男孩"
-        },
-        {
-          "en": "A brave and fine hero",
-          "zh": "一位勇敢出色的英雄"
+          "en": "A kind village preacher",
+          "zh": "一位和善的乡村传教士"
         },
         {
           "en": "A 'damned fool'",
           "zh": "一个“该死的蠢货”"
         },
         {
-          "en": "A kind village preacher",
-          "zh": "一位和善的乡村传教士"
+          "en": "A brave and fine hero",
+          "zh": "一位勇敢出色的英雄"
+        },
+        {
+          "en": "A lost little boy",
+          "zh": "一个走失的小男孩"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The lieutenant says any man who says the boys didn't fight well 'is a damned fool.'",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "He is far too young to fight",
-          "zh": "他实在太年轻，不该打仗"
+          "en": "He is 'a very good man t' have'",
+          "zh": "他是“一个很值得留在身边的好汉”"
         },
         {
           "en": "He is a lazy good-for-nothing",
           "zh": "他是个懒散的废物"
         },
         {
-          "en": "He should be sent straight home according to some versions of the story",
-          "zh": "他该被直接遣送回家（按书中另一种说法）"
+          "en": "He should be sent straight home. The gap shows how men talk about war differs from how they act in the midst of it.",
+          "zh": "他该被直接遣送回家。这种落差表明：人们“谈论战争”的方式，和“身在其中”的表现未必一致。"
         },
         {
-          "en": "He is 'a very good man t' have'",
-          "zh": "他是“一个很值得留在身边的好汉”"
+          "en": "He is far too young to fight",
+          "zh": "他实在太年轻，不该打仗"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The colonel says Fleming 'kep' th' flag 'way t' th' front' and is 'a very good man t' have.'",
@@ -163,6 +163,10 @@
       },
       "options": [
         {
+          "en": "They beam with quiet pride",
+          "zh": "他们悄悄泛起、藏着骄傲的笑"
+        },
+        {
           "en": "They fall fast asleep",
           "zh": "他们倒头睡过去了"
         },
@@ -173,13 +177,9 @@
         {
           "en": "They quickly run off toward the rear",
           "zh": "他们立刻朝后方跑掉了"
-        },
-        {
-          "en": "They beam with quiet pride",
-          "zh": "他们悄悄泛起、藏着骄傲的笑"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "They knew their faces were flushing from thrills of pleasure at the praise.",
@@ -197,19 +197,19 @@
           "zh": "一种喝专用的小茶杯"
         },
         {
-          "en": "An excellent person",
-          "zh": "一个出色的人"
+          "en": "A tool for fixing rifles",
+          "zh": "修步枪用的工具"
         },
         {
           "en": "A kind of fast horse",
           "zh": "一种跑得快的马"
         },
         {
-          "en": "A tool for fixing rifles",
-          "zh": "修步枪用的工具"
+          "en": "An excellent person",
+          "zh": "一个出色的人"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Jimhickey is slang for a person who is excellent.",
@@ -223,27 +223,27 @@
       },
       "options": [
         {
-          "en": "Sleepy and ready to yawn",
-          "zh": "困倦、直想打哈欠"
-        },
-        {
-          "en": "Calm and confident inside",
-          "zh": "内心平静且充满自信"
+          "en": "Terribly scared and wanting to hide",
+          "zh": "怕得要命、想躲起来"
         },
         {
           "en": "Hungry for some food",
           "zh": "饿着想吃东西"
         },
         {
-          "en": "Terribly scared and wanting to hide",
-          "zh": "怕得要命、想躲起来"
+          "en": "Calm and confident inside",
+          "zh": "内心平静且充满自信"
+        },
+        {
+          "en": "Sleepy and ready to yawn",
+          "zh": "困倦、直想打哈欠"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says he felt serene self-confidence and smiled at the shells.",
-        "zh": "书里说，他感到宁静的自信，对着炮弹甚至还微微一笑。"
+        "zh": "，他感到宁静的自信，对着炮弹甚至还微微一笑。"
       }
     },
     {
@@ -253,8 +253,8 @@
       },
       "options": [
         {
-          "en": "To show words and bravery don't always match",
-          "zh": "为了表现“言语”和“真正的勇敢”未必一致"
+          "en": "To teach about riding horses",
+          "zh": "为了教人骑马"
         },
         {
           "en": "To give a step-by-step lesson in how to cook a simple camp meal",
@@ -265,11 +265,11 @@
           "zh": "为了列出所有军官的名字"
         },
         {
-          "en": "To teach about riding horses",
-          "zh": "为了教人骑马"
+          "en": "To show words and bravery don't always match",
+          "zh": "为了表现“言语”和“真正的勇敢”未必一致"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The gap shows how men talk about war differs from how they act in the midst of it.",
@@ -283,10 +283,6 @@
       },
       "options": [
         {
-          "en": "He resolves not to budge",
-          "zh": "他决心一步也不退"
-        },
-        {
           "en": "He will quickly run away to the rear",
           "zh": "他要赶快朝后方逃跑"
         },
@@ -295,11 +291,15 @@
           "zh": "他要做顿饭"
         },
         {
+          "en": "He resolves not to budge",
+          "zh": "他决心一步也不退"
+        },
+        {
           "en": "He will go to sleep",
           "zh": "他要睡过去"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The youth 'had resolved not to budge whatever should happen' at his post.",

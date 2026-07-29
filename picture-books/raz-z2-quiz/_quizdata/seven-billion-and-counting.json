@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "The largest number of people that can live in a place without using up the resources they need to survive",
-          "zh": "一个地方在不耗尽生存所需资源的前提下能够供养的最大人口数量"
-        },
-        {
           "en": "A measure of how much open parkland and forest a country has preserved",
           "zh": "衡量一个国家保留了多少开阔的公园和森林"
         },
@@ -25,11 +21,15 @@
           "zh": "养活一个地区所有人所需农田的总面积"
         },
         {
-          "en": "The number of houses, schools, and roads that can be built before land runs out according to some versions of the story",
-          "zh": "在土地用尽之前可以建造的住宅、学校和道路的数量（按书中另一种说法）"
+          "en": "The largest number of people that can live in a place without using up the resources they need to survive",
+          "zh": "一个地方在不耗尽生存所需资源的前提下能够供养的最大人口数量"
+        },
+        {
+          "en": "The number of houses, schools, and roads that can be built before land runs out. Malthus argued population grows geometrically (by multiplying) while food grows arithmetically (by adding), so food would eventually fall short.",
+          "zh": "在土地用尽之前可以建造的住宅、学校和道路的数量。马尔萨斯认为人口按几何级数（成倍）增长，而粮食按算术级数（递增）增长，因此粮食终将不足。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Carrying capacity is defined in the book as the largest population an environment can support without using up the resources needed to survive.",
@@ -43,12 +43,12 @@
       },
       "options": [
         {
-          "en": "A series of violent volcanic eruptions destroyed their villages and forced them to flee the island",
-          "zh": "一连串剧烈的火山喷发摧毁了他们的村庄，迫使他们逃离小岛"
-        },
-        {
           "en": "European explorers kidnapped most of the islanders and took them away by ship",
           "zh": "欧洲探险家绑架了大部分岛民并用船将他们带走"
+        },
+        {
+          "en": "A series of violent volcanic eruptions destroyed their villages and forced them to flee the island",
+          "zh": "一连串剧烈的火山喷发摧毁了他们的村庄，迫使他们逃离小岛"
         },
         {
           "en": "They used up many of their resources, such as trees, as the population grew too large",
@@ -77,19 +77,19 @@
           "zh": "新技术与机器很快会让世界各地的传统农业彻底变得不必要"
         },
         {
-          "en": "Families should have as many children as possible to help work on farms",
-          "zh": "家庭应尽可能多生孩子，以便在农场帮忙干活"
-        },
-        {
           "en": "Human population would grow geometrically while food production grew only arithmetically",
           "zh": "人口会按几何级数增长，而粮食产量只会按算术级数增长"
         },
         {
           "en": "Countries should build more ships so they could explore new continents",
           "zh": "各国应建造更多船只，以便探索新的大陆"
+        },
+        {
+          "en": "Families should have as many children as possible to help work on farms",
+          "zh": "家庭应尽可能多生孩子，以便在农场帮忙干活"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Malthus argued population grows geometrically (by multiplying) while food grows arithmetically (by adding), so food would eventually fall short.",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "It proved that world population growth could never be slowed down",
+          "zh": "它证明世界人口增长永远无法放缓"
+        },
+        {
           "en": "It ended the use of all chemical fertilizers on farms everywhere",
           "zh": "它结束了各地农场对所有化学肥料的使用"
         },
@@ -111,15 +115,11 @@
           "zh": "它通过新种子、杀虫剂和灌溉技术使粮食产量增至三倍"
         },
         {
-          "en": "It proved that world population growth could never be slowed down",
-          "zh": "它证明世界人口增长永远无法放缓"
-        },
-        {
-          "en": "It convinced every country in the world to stop importing food and live only on local crops according to some versions of the story",
-          "zh": "它说服世界上每个国家停止进口粮食，只依靠本地作物生活（按书中另一种说法）"
+          "en": "It convinced every country in the world to stop importing food and live only on local crops. Malthus argued population grows geometrically (by multiplying) while food grows arithmetically (by adding), so food would eventually fall short.",
+          "zh": "它说服世界上每个国家停止进口粮食，只依靠本地作物生活。马尔萨斯认为人口按几何级数（成倍）增长，而粮食按算术级数（递增）增长，因此粮食终将不足。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Green Revolution introduced high-yield seeds, pesticides, and irrigation, tripling food production in places like Mexico and India.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "The rate at which fresh water is renewed by the hydrologic cycle",
-          "zh": "淡水通过水文循环得到补充的速率"
-        },
-        {
-          "en": "The speed at which a country's industries must grow each year",
-          "zh": "一个国家工业每年必须增长的速度"
-        },
-        {
           "en": "The number of new trees that must be planted each year to replace the forests that have been cut down",
           "zh": "每年必须种植多少新树来替代已被砍伐的森林"
         },
         {
+          "en": "The rate at which fresh water is renewed by the hydrologic cycle",
+          "zh": "淡水通过水文循环得到补充的速率"
+        },
+        {
           "en": "The average of 2.1 children per woman needed over time to keep a population stable",
           "zh": "每位女性平均生育2.1个孩子，长期可维持人口稳定"
+        },
+        {
+          "en": "The speed at which a country's industries must grow each year",
+          "zh": "一个国家工业每年必须增长的速度"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The replacement rate of 2.1 children per woman is the average needed over time to keep a population stable.",
@@ -167,16 +167,16 @@
           "zh": "供养一个人或一个国家所需资源所需要的土地面积"
         },
         {
+          "en": "The area of a country that is covered by forests and wetlands",
+          "zh": "一个国家被森林和湿地覆盖的区域面积"
+        },
+        {
           "en": "The size of the shoes a person wears when walking outdoors in nature",
           "zh": "一个人在户外自然环境中行走时所穿鞋子的大小"
         },
         {
           "en": "The tracks and marks that wild animals leave behind in the mud near a river or lake",
           "zh": "野生动物在河流或湖泊附近的泥地里留下的脚印与痕迹"
-        },
-        {
-          "en": "The area of a country that is covered by forests and wetlands",
-          "zh": "一个国家被森林和湿地覆盖的区域面积"
         }
       ],
       "answer": 0,
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "No extra planets at all, since technology would solve the problem",
-          "zh": "完全不需要额外的星球，因为技术会解决这个问题"
-        },
-        {
           "en": "Three or four more planets in addition to Earth",
           "zh": "除了地球之外还需要三到四个星球"
         },
@@ -207,9 +203,13 @@
         {
           "en": "Exactly one planet, which is all that humans have ever needed",
           "zh": "恰好一个星球，这是人类一直所需的全部"
+        },
+        {
+          "en": "No extra planets at all, since technology would solve the problem",
+          "zh": "完全不需要额外的星球，因为技术会解决这个问题"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The book estimates we would need three or four more Earth-like planets if everyone consumed resources like the average American.",
@@ -223,16 +223,16 @@
       },
       "options": [
         {
-          "en": "Fresh water, which is renewed by the hydrologic cycle of evaporation and rain",
-          "zh": "淡水，由蒸发和降雨组成的水文循环不断更新"
+          "en": "Sunlight and wind, which the book says could supply Earth's energy needs if we learn to harness them",
+          "zh": "阳光与风，书中说如果我们学会利用它们，就能满足地球的能源需求"
         },
         {
           "en": "Trees, which can be replanted and regrown over time",
           "zh": "树木，可以重新种植并随时间再生"
         },
         {
-          "en": "Sunlight and wind, which the book says could supply Earth's energy needs if we learn to harness them",
-          "zh": "阳光与风，书中说如果我们学会利用它们，就能满足地球的能源需求"
+          "en": "Fresh water, which is renewed by the hydrologic cycle of evaporation and rain",
+          "zh": "淡水，由蒸发和降雨组成的水文循环不断更新"
         },
         {
           "en": "Coal, copper, and oil, which take millions of years to form",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To explain how the Dutch first discovered the Pacific Ocean",
-          "zh": "为了解释荷兰人是如何首次发现太平洋的"
-        },
-        {
           "en": "To use it as a warning that overusing resources can destroy a society",
           "zh": "把它作为一种警示：过度消耗资源会摧毁一个社会"
         },
         {
-          "en": "To show that the Rapanui were the first people to invent written language",
-          "zh": "为了表明拉帕努伊人是最早发明文字的民族"
-        },
-        {
           "en": "To prove that ancient peoples could build giant stone statues without any modern machines or tools",
           "zh": "为了证明古人可以在没有任何现代机器或工具的情况下建造巨大的石像"
+        },
+        {
+          "en": "To explain how the Dutch first discovered the Pacific Ocean",
+          "zh": "为了解释荷兰人是如何首次发现太平洋的"
+        },
+        {
+          "en": "To show that the Rapanui were the first people to invent written language",
+          "zh": "为了表明拉帕努伊人是最早发明文字的民族"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author uses Easter Island as a cautionary example showing that overuse of resources can collapse a society.",
@@ -283,6 +283,10 @@
       },
       "options": [
         {
+          "en": "Increasing the number of children who work on farms each season",
+          "zh": "增加每个季节在农场劳动的孩子的数量"
+        },
+        {
           "en": "Educating women and giving them equal opportunities and family choices",
           "zh": "教育女性，并给予她们平等的机会与决定家庭规模的选择权"
         },
@@ -291,15 +295,11 @@
           "zh": "鼓励家庭吃更多肉，让孩子长得更强壮"
         },
         {
-          "en": "Increasing the number of children who work on farms each season",
-          "zh": "增加每个季节在农场劳动的孩子的数量"
-        },
-        {
           "en": "Building more large factories so that parents have industrial jobs and less time at home",
           "zh": "建造更多大型工厂，让父母从事工业工作，在家时间更少"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book calls educating women and giving them equal opportunities the single most effective way to lower birthrates.",

@@ -43,23 +43,23 @@
       },
       "options": [
         {
+          "en": "Good afternoon.",
+          "zh": "下午好。"
+        },
+        {
           "en": "God bless you!",
           "zh": "愿上帝保佑你！"
         },
         {
+          "en": "A Merry Christmas!. The book says Scrooge and Marley were partners, and the firm was known as Scrooge and Marley.",
+          "zh": "圣诞快乐！。书中说 Scrooge 和 Marley 是合伙人，商号名为 Scrooge and Marley。"
+        },
+        {
           "en": "'Bah! Humbug!'",
           "zh": "“呸！骗人的玩意儿！”"
-        },
-        {
-          "en": "A Merry Christmas! according to some versions of the story",
-          "zh": "圣诞快乐！（按书中另一种说法）"
-        },
-        {
-          "en": "Good afternoon.",
-          "zh": "下午好。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Scrooge replies 'Bah! Humbug!' because he does not believe in celebrating Christmas.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A time for paying bills without money",
-          "zh": "一段没钱付账单的时光"
-        },
-        {
           "en": "A kind, forgiving time",
           "zh": "一段善良、宽容的时光"
         },
         {
-          "en": "A chance to become much richer",
-          "zh": "变得更有钱的机会"
+          "en": "A time for paying bills without money",
+          "zh": "一段没钱付账单的时光"
         },
         {
           "en": "A time spent completely alone",
           "zh": "完全独处的时光"
+        },
+        {
+          "en": "A chance to become much richer",
+          "zh": "变得更有钱的机会"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The nephew calls Christmas a kind, forgiving, charitable, and pleasant time when people open their hearts.",
@@ -107,16 +107,16 @@
           "zh": "为帮助穷人而募款"
         },
         {
-          "en": "To pay Scrooge's hardworking clerk his wages",
-          "zh": "支付 Scrooge 勤劳职员的工资"
-        },
-        {
           "en": "To decorate the city streets for the holiday",
           "zh": "为节日装饰城市街道"
         },
         {
           "en": "To build a grand new church for the town",
           "zh": "为小镇建一座宏伟的新教堂"
+        },
+        {
+          "en": "To pay Scrooge's hardworking clerk his wages",
+          "zh": "支付 Scrooge 勤劳职员的工资"
         }
       ],
       "answer": 0,
@@ -137,12 +137,12 @@
           "zh": "职员粗心忘了生火"
         },
         {
-          "en": "The office is already very warm inside according to some versions of the story",
-          "zh": "办公室里已经很暖和了（按书中另一种说法）"
-        },
-        {
           "en": "It is warm summer and no fire is needed",
           "zh": "正值暖夏，不需要火"
+        },
+        {
+          "en": "The office is already very warm inside. The book says Scrooge and Marley were partners, and the firm was known as Scrooge and Marley.",
+          "zh": "办公室里已经很暖和了。书中说 Scrooge 和 Marley 是合伙人，商号名为 Scrooge and Marley。"
         },
         {
           "en": "Scrooge keeps the coal box himself",
@@ -167,19 +167,19 @@
           "zh": "门上的冬青花环"
         },
         {
-          "en": "A note from his nephew about dinner according to some versions of the story",
-          "zh": "侄子留的晚餐便条（按书中另一种说法）"
+          "en": "The face of Marley, his old partner",
+          "zh": "他旧合伙人马莱的脸"
         },
         {
           "en": "His own reflection in the metal",
           "zh": "金属上他自己的倒影"
         },
         {
-          "en": "The face of Marley, his old partner",
-          "zh": "他旧合伙人马莱的脸"
+          "en": "A note from his nephew about dinner. The book says Scrooge and Marley were partners, and the firm was known as Scrooge and Marley.",
+          "zh": "侄子留的晚餐便条。书中说 Scrooge 和 Marley 是合伙人，商号名为 Scrooge and Marley。"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After thinking of Marley, Scrooge sees the knocker change into Marley's face, a ghostly phenomenon.",
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "That Scrooge loved the ocean and the sea",
-          "zh": "Scrooge 热爱海洋"
-        },
-        {
           "en": "That he kept to himself, alone",
           "zh": "他独来独往、与人隔绝"
         },
@@ -207,9 +203,13 @@
         {
           "en": "That he was loud, friendly, and open",
           "zh": "他吵闹、友善、开朗"
+        },
+        {
+          "en": "That Scrooge loved the ocean and the sea",
+          "zh": "Scrooge 热爱海洋"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The simile shows Scrooge is secretive and isolated, keeping apart from other people.",
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "He is happy and full of good cheer",
-          "zh": "他心情愉快、满怀欢喜"
+          "en": "He wants to invite his nephew to dinner. The book says Scrooge and Marley were partners, and the firm was known as Scrooge and Marley.",
+          "zh": "他想邀请侄子共进晚餐。书中说 Scrooge 和 Marley 是合伙人，商号名为 Scrooge and Marley。"
         },
         {
-          "en": "He enjoys a long friendly chat",
-          "zh": "他享受漫长的友好交谈"
+          "en": "He is happy and full of good cheer",
+          "zh": "他心情愉快、满怀欢喜"
         },
         {
           "en": "He wants to end the talk and dismiss him",
           "zh": "他想结束谈话并打发他走"
         },
         {
-          "en": "He wants to invite his nephew to dinner according to some versions of the story",
-          "zh": "他想邀请侄子共进晚餐（按书中另一种说法）"
+          "en": "He enjoys a long friendly chat",
+          "zh": "他享受漫长的友好交谈"
         }
       ],
       "answer": 2,
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "He wants to put out the only spark",
+          "zh": "他想熄灭唯一的一点火星"
+        },
+        {
           "en": "He agrees but fears Scrooge will be angry",
           "zh": "他赞同，但怕 Scrooge 生气"
         },
@@ -261,15 +265,11 @@
           "zh": "他冷，想要更多热量"
         },
         {
-          "en": "He disagrees with the nephew completely according to some versions of the story",
-          "zh": "他完全不赞同侄子（按书中另一种说法）"
-        },
-        {
-          "en": "He wants to put out the only spark",
-          "zh": "他想熄灭唯一的一点火星"
+          "en": "He disagrees with the nephew completely. The book says Scrooge and Marley were partners, and the firm was known as Scrooge and Marley.",
+          "zh": "他完全不赞同侄子。书中说 Scrooge 和 Marley 是合伙人，商号名为 Scrooge and Marley。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The clerk secretly agrees with the kind words but is afraid Scrooge will fire him for showing it.",
@@ -283,8 +283,8 @@
       },
       "options": [
         {
-          "en": "To show that the story happens at night according to some versions of the story",
-          "zh": "为了说明故事发生在夜晚（按书中另一种说法）"
+          "en": "To show that the story happens at night. The book says Scrooge and Marley were partners, and the firm was known as Scrooge and Marley.",
+          "zh": "为了说明故事发生在夜晚。书中说 Scrooge 和 Marley 是合伙人，商号名为 Scrooge and Marley。"
         },
         {
           "en": "To explain the science of winter storms",

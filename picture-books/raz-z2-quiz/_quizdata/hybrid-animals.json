@@ -17,16 +17,16 @@
           "zh": "父母来自两个不同物种的动物"
         },
         {
-          "en": "A wild animal that lives alone",
-          "zh": "独自生活的野生动物"
-        },
-        {
           "en": "A type of plant",
           "zh": "一种植物"
         },
         {
-          "en": "A machine that builds robots for farms according to some versions of the story",
-          "zh": "为农场制造机器人的机器（按书中另一种说法）"
+          "en": "A wild animal that lives alone",
+          "zh": "独自生活的野生动物"
+        },
+        {
+          "en": "A machine that builds robots for farms. Spider goats have spider DNA inserted in a lab so they make spider-silk protein in their milk; that makes them transgenic, not a hybrid.",
+          "zh": "为农场制造机器人的机器。蜘蛛山羊的DNA在实验室里被加入了蜘蛛基因，使其乳汁中产生蛛丝蛋白；这使它们成为转基因动物，而非杂交动物。"
         }
       ],
       "answer": 0,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "A fish that lives deep in the dark ocean and glows with a light of its own made by its body",
-          "zh": "生活在黑暗深海、自身会发出光芒的鱼"
-        },
-        {
-          "en": "A young horse",
-          "zh": "小马"
-        },
-        {
           "en": "The offspring of a horse and a donkey, usually with a horse mother",
           "zh": "马和驴的后代，通常母亲是马"
         },
         {
           "en": "A type of big cat",
           "zh": "一种大型猫科动物"
+        },
+        {
+          "en": "A young horse",
+          "zh": "小马"
+        },
+        {
+          "en": "A fish that lives deep in the dark ocean and glows with a light of its own made by its body",
+          "zh": "生活在黑暗深海、自身会发出光芒的鱼"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A mule is the offspring of a horse and a donkey; if the mother is a donkey, the offspring is called a hinny.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Able to live both on land and in water",
-          "zh": "既能在陆地也能在水中生活"
+          "en": "Very strong",
+          "zh": "非常强壮"
         },
         {
-          "en": "Not able to produce offspring",
-          "zh": "不能繁殖后代"
+          "en": "Able to live both on land and in water",
+          "zh": "既能在陆地也能在水中生活"
         },
         {
           "en": "Able to fly",
           "zh": "能够飞翔"
         },
         {
-          "en": "Very strong",
-          "zh": "非常强壮"
+          "en": "Not able to produce offspring",
+          "zh": "不能繁殖后代"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Sterile means unable to produce offspring; mules are sterile because their chromosomes do not match.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Their parents have different numbers of chromosomes",
-          "zh": "它们父母的染色体数目不同"
+          "en": "They live in the wrong climate",
+          "zh": "它们生活在错误的气候中"
         },
         {
           "en": "They eat the wrong food",
           "zh": "它们吃错了食物"
         },
         {
-          "en": "They are too old to have babies by the time they grow up",
-          "zh": "它们长大时已经太老，无法生育"
+          "en": "Their parents have different numbers of chromosomes",
+          "zh": "它们父母的染色体数目不同"
         },
         {
-          "en": "They live in the wrong climate",
-          "zh": "它们生活在错误的气候中"
+          "en": "They are too old to have babies by the time they grow up",
+          "zh": "它们长大时已经太老，无法生育"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Horses have 64 chromosomes and donkeys 62, so a mule has 63 unmatched chromosomes, and meiosis fails.",
@@ -137,8 +137,8 @@
           "zh": "一种鸟"
         },
         {
-          "en": "A small insect that lives in gardens according to some versions of the story",
-          "zh": "生活在花园里的小昆虫（按书中另一种说法）"
+          "en": "A small insect that lives in gardens. Spider goats have spider DNA inserted in a lab so they make spider-silk protein in their milk; that makes them transgenic, not a hybrid.",
+          "zh": "生活在花园里的小昆虫。蜘蛛山羊的DNA在实验室里被加入了蜘蛛基因，使其乳汁中产生蛛丝蛋白；这使它们成为转基因动物，而非杂交动物。"
         },
         {
           "en": "A kind of lizard",
@@ -163,16 +163,16 @@
       },
       "options": [
         {
-          "en": "A horse and a zebra that live together on a farm in the countryside",
-          "zh": "在乡村农场里生活在一起的马和斑马"
-        },
-        {
           "en": "A lion and a tiger",
           "zh": "狮子和老虎"
         },
         {
           "en": "A panda and a koala",
           "zh": "熊猫和考拉"
+        },
+        {
+          "en": "A horse and a zebra that live together on a farm in the countryside",
+          "zh": "在乡村农场里生活在一起的马和斑马"
         },
         {
           "en": "A grizzly bear and a polar bear",
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "They are a mix of two kinds of goats",
-          "zh": "它们是两种山羊的混种"
-        },
-        {
           "en": "Their DNA has spider genes added in a lab",
           "zh": "它们的DNA在实验室里被加入了蜘蛛基因"
         },
@@ -205,11 +201,15 @@
           "zh": "它们像在花园里抓苍蝇的昆虫一样结大网"
         },
         {
+          "en": "They are a mix of two kinds of goats",
+          "zh": "它们是两种山羊的混种"
+        },
+        {
           "en": "They were born in the wild",
           "zh": "它们出生在野外"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Spider goats have spider DNA inserted in a lab so they make spider-silk protein in their milk; that makes them transgenic, not a hybrid.",
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "To list every single animal that can be found in a very large city zoo",
+          "zh": "列出在很大的城市动物园里能找到的每一种动物"
+        },
+        {
           "en": "To teach how to ride a horse",
           "zh": "教人如何骑马"
         },
@@ -233,13 +237,9 @@
         {
           "en": "To show both the good and the problems of mixing species",
           "zh": "展示混合物种的好的一面和存在的问题"
-        },
-        {
-          "en": "To list every single animal that can be found in a very large city zoo",
-          "zh": "列出在很大的城市动物园里能找到的每一种动物"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author presents hybrids as both a possible help with adaptation and a possible threat to biodiversity.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "They can breathe underwater according to some versions of the story in an early draft of the book",
-          "zh": "它们能在水下呼吸（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "They can reproduce if the bison part stays at or below three-eighths",
-          "zh": "只要野牛成分保持在八分之三或以下，它们就能繁殖"
+          "en": "They live only in deserts",
+          "zh": "它们只生活在沙漠"
         },
         {
           "en": "They are a type of bird",
           "zh": "它们是一种鸟"
         },
         {
-          "en": "They live only in deserts",
-          "zh": "它们只生活在沙漠"
+          "en": "They can reproduce if the bison part stays at or below three-eighths",
+          "zh": "只要野牛成分保持在八分之三或以下，它们就能繁殖"
+        },
+        {
+          "en": "They can breathe underwater. Spider goats have spider DNA inserted in a lab so they make spider-silk protein in their milk; that makes them transgenic, not a hybrid.",
+          "zh": "它们能在水下呼吸。蜘蛛山羊的DNA在实验室里被加入了蜘蛛基因，使其乳汁中产生蛛丝蛋白；这使它们成为转基因动物，而非杂交动物。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Beefalo are bison-cattle hybrids that can reproduce as long as the bison share stays at or below three-eighths.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Ensatina salamanders around the San Joaquin Valley",
-          "zh": "圣华金河谷周围的网纹蝾螈"
-        },
-        {
-          "en": "Whales that swim in the deep ocean and sing long songs to each other every night",
-          "zh": "在深海游动、每夜互相唱着悠长歌曲的鲸鱼"
-        },
-        {
           "en": "Penguins in Antarctica",
           "zh": "南极的企鹅"
         },
         {
           "en": "Tigers in India",
           "zh": "印度的老虎"
+        },
+        {
+          "en": "Ensatina salamanders around the San Joaquin Valley",
+          "zh": "圣华金河谷周围的网纹蝾螈"
+        },
+        {
+          "en": "Whales that swim in the deep ocean and sing long songs to each other every night",
+          "zh": "在深海游动、每夜互相唱着悠长歌曲的鲸鱼"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Ensatina salamanders form a ring around the San Joaquin Valley, with neighbors able to interbreed.",

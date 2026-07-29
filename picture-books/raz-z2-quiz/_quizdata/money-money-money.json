@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "A way to travel around the world without leaving your home",
-          "zh": "一种不用离开家就能环游世界的方式"
+          "en": "Saving coins in a bank",
+          "zh": "在银行存硬币"
         },
         {
           "en": "Trading goods or services without using money",
@@ -25,8 +25,8 @@
           "zh": "在铸币厂印刷纸币"
         },
         {
-          "en": "Saving coins in a bank",
-          "zh": "在银行存硬币"
+          "en": "A way to travel around the world without leaving your home",
+          "zh": "一种不用离开家就能环游世界的方式"
         }
       ],
       "answer": 1,
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Bags of salt",
-          "zh": "一袋袋的盐"
+          "en": "Gold coins",
+          "zh": "金币"
         },
         {
           "en": "Feathers",
           "zh": "羽毛"
         },
         {
-          "en": "Gold coins",
-          "zh": "金币"
-        },
-        {
           "en": "A special kind of paper printed only by the king",
           "zh": "一种只由国王印刷的特殊纸张"
+        },
+        {
+          "en": "Bags of salt",
+          "zh": "一袋袋的盐"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Roman soldiers were sometimes paid in salt, which is where the word 'salary' comes from.",
@@ -77,19 +77,19 @@
           "zh": "由固定数量白银支撑的货币"
         },
         {
-          "en": "Coins made of pure gold",
-          "zh": "纯金制成的硬币"
-        },
-        {
           "en": "Paper money with no value except what the government says it has",
           "zh": "除了政府规定的价值外别无价值的纸币"
         },
         {
-          "en": "A heavy stone coin as big as a grown elephant used on Yap Island according to some versions of the story",
-          "zh": "雅浦岛上像成年大象一样大的巨型石币（按书中另一种说法）"
+          "en": "A heavy stone coin as big as a grown elephant used on Yap Island. Chinese coins called cash had square holes so thousands could be strung on a ribbon or stick for easy carrying.",
+          "zh": "雅浦岛上像成年大象一样大的巨型石币。中国 called cash 的硬币有方孔，这样成千上万枚可以串在带子或棍子上方便携带。"
+        },
+        {
+          "en": "Coins made of pure gold",
+          "zh": "纯金制成的硬币"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Fiat money has value only because the government says it does; it is not made of something valuable.",
@@ -107,12 +107,12 @@
           "zh": "吕底亚的萨迪斯，约2600年前"
         },
         {
-          "en": "A large city in ancient Greece where many famous thinkers once lived and taught",
-          "zh": "古希腊一座曾有许多著名思想家生活和教学的大城市"
-        },
-        {
           "en": "Rome, about 1,000 years ago",
           "zh": "罗马，约1000年前"
+        },
+        {
+          "en": "A large city in ancient Greece where many famous thinkers once lived and taught",
+          "zh": "古希腊一座曾有许多著名思想家生活和教学的大城市"
         },
         {
           "en": "Beijing, China, about 200 years ago",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "Johannes Gutenberg",
-          "zh": "约翰内斯·古腾堡"
-        },
-        {
           "en": "A king of Lydia",
           "zh": "吕底亚的一位国王"
         },
         {
-          "en": "A group of Roman soldiers paid in salt for their work",
-          "zh": "一群以盐作为报酬的罗马士兵"
+          "en": "Johannes Gutenberg",
+          "zh": "约翰内斯·古腾堡"
         },
         {
           "en": "Ts'ai Lun, about 1,900 years ago",
           "zh": "蔡伦，约1900年前"
+        },
+        {
+          "en": "A group of Roman soldiers paid in salt for their work",
+          "zh": "一群以盐作为报酬的罗马士兵"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Ts'ai Lun invented paper about 1,900 years ago; centuries later the Chinese government began printing paper money.",
@@ -167,16 +167,16 @@
           "zh": "1971年"
         },
         {
-          "en": "In 1900",
-          "zh": "1900年"
+          "en": "In 2000",
+          "zh": "2000年"
         },
         {
           "en": "It never used the gold standard at all",
           "zh": "它从未使用过金本位制"
         },
         {
-          "en": "In 2000",
-          "zh": "2000年"
+          "en": "In 1900",
+          "zh": "1900年"
         }
       ],
       "answer": 0,
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "Coca-Cola",
-          "zh": "可口可乐"
+          "en": "The Bureau of Engraving and Printing",
+          "zh": "雕刻与印刷局"
         },
         {
           "en": "Crane and Co. of Dalton, Massachusetts",
           "zh": "马萨诸塞州道尔顿的克兰公司"
         },
         {
-          "en": "A secret factory run by the president inside the White House",
-          "zh": "由总统在白宫里经营的一家秘密工厂"
+          "en": "Coca-Cola",
+          "zh": "可口可乐"
         },
         {
-          "en": "The Bureau of Engraving and Printing",
-          "zh": "雕刻与印刷局"
+          "en": "A secret factory run by the president inside the White House",
+          "zh": "由总统在白宫里经营的一家秘密工厂"
         }
       ],
       "answer": 1,
@@ -223,10 +223,6 @@
       },
       "options": [
         {
-          "en": "To explain how to get rich quickly",
-          "zh": "讲解如何快速致富"
-        },
-        {
           "en": "To teach how to open a bank account",
           "zh": "教人如何开银行账户"
         },
@@ -235,11 +231,15 @@
           "zh": "解释货币如何随时间演变，以及人们为何信任它的价值"
         },
         {
-          "en": "To list every single coin and bill that has ever been made in all of Europe according to some versions of the story",
-          "zh": "列出全欧洲曾经铸造过的每一种硬币和纸币（按书中另一种说法）"
+          "en": "To explain how to get rich quickly",
+          "zh": "讲解如何快速致富"
+        },
+        {
+          "en": "To list every single coin and bill that has ever been made in all of Europe. Chinese coins called cash had square holes so thousands could be strung on a ribbon or stick for easy carrying.",
+          "zh": "列出全欧洲曾经铸造过的每一种硬币和纸币。中国 called cash 的硬币有方孔，这样成千上万枚可以串在带子或棍子上方便携带。"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author wants readers to understand the history of money and why we agree that it has value.",
@@ -257,19 +257,19 @@
           "zh": "信用卡是用容易撕破的薄纸做的，每次使用时都要由国王签名"
         },
         {
-          "en": "A credit card lets you borrow money that you must pay back with interest",
-          "zh": "信用卡让你借一笔必须连利息一起偿还的钱"
-        },
-        {
           "en": "A credit card can only be used in one store",
           "zh": "信用卡只能在一家商店使用"
         },
         {
           "en": "A credit card was invented by the ancient Romans",
           "zh": "信用卡是古罗马人发明的"
+        },
+        {
+          "en": "A credit card lets you borrow money that you must pay back with interest",
+          "zh": "信用卡让你借一笔必须连利息一起偿还的钱"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "A debit card spends your own money; a credit card borrows money you must repay, often with interest.",
@@ -283,16 +283,16 @@
       },
       "options": [
         {
+          "en": "To make them look like the moon",
+          "zh": "为了让它们看起来像月亮"
+        },
+        {
           "en": "To hold a tiny painted picture of the emperor that could be seen only with a magnifying glass",
           "zh": "用来放一张只有用放大镜才能看到的小小的皇帝画像"
         },
         {
           "en": "To let water drain out",
           "zh": "为了让水流出去"
-        },
-        {
-          "en": "To make them look like the moon",
-          "zh": "为了让它们看起来像月亮"
         },
         {
           "en": "So many could be carried together on a ribbon or stick",
