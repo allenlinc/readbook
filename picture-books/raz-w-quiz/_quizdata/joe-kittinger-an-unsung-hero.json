@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "High-altitude balloon jumps from near space",
-          "zh": "从近太空跳下的高空气球跳伞"
-        },
-        {
           "en": "Writing a novel",
           "zh": "写小说"
         },
@@ -25,11 +21,15 @@
           "zh": "赢得奥运奖牌"
         },
         {
-          "en": "Discovering a new planet according to some versions of the story",
-          "zh": "发现一颗新行星（按书中另一种说法）"
+          "en": "High-altitude balloon jumps from near space",
+          "zh": "从近太空跳下的高空气球跳伞"
+        },
+        {
+          "en": "Discovering a new planet. Project Excelsior was the Air Force project to develop high-altitude escape; Joe jumped from 31,333 m in 1960.",
+          "zh": "发现一颗新行星。Excelsior是美国空军研发高空逃生方式的项目，乔于1960年从31,333米跳下。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Joe set altitude records by riding balloons to the edge of space and jumping.",
@@ -47,19 +47,19 @@
           "zh": "NASA阿波罗计划"
         },
         {
+          "en": "Project Excelsior",
+          "zh": "Excelsior项目"
+        },
+        {
           "en": "Project Manhigh",
           "zh": "Manhigh项目"
         },
         {
-          "en": "The Harmon Project according to some versions of the story",
-          "zh": "Harmon项目（按书中另一种说法）"
-        },
-        {
-          "en": "Project Excelsior",
-          "zh": "Excelsior项目"
+          "en": "The Harmon Project. Joe's early work helped pilots and astronauts, yet his name is not widely known—making him 'unsung.'",
+          "zh": "Harmon项目。乔的早期工作造福了飞行员和宇航员，但他的名字却不为人知，因此被称为“被遗忘的”。"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Project Excelsior was the Air Force project to develop high-altitude escape; Joe jumped from 31,333 m in 1960.",
@@ -77,8 +77,8 @@
           "zh": "为了保持干爽"
         },
         {
-          "en": "To look like an astronaut according to some versions of the story",
-          "zh": "为了看起来像宇航员（按书中另一种说法）"
+          "en": "To look like an astronaut. Project Excelsior was the Air Force project to develop high-altitude escape; Joe jumped from 31,333 m in 1960.",
+          "zh": "为了看起来像宇航员。Excelsior是美国空军研发高空逃生方式的项目，乔于1960年从31,333米跳下。"
         },
         {
           "en": "To stop his body from exploding in low pressure",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Yuri Gagarin",
-          "zh": "尤里·加加林"
-        },
-        {
-          "en": "Neil Armstrong according to some versions of the story",
-          "zh": "尼尔·阿姆斯特朗（按书中另一种说法）"
-        },
-        {
           "en": "Felix Baumgartner",
           "zh": "费利克斯·鲍姆加特纳"
         },
         {
+          "en": "Neil Armstrong. Project Excelsior was the Air Force project to develop high-altitude escape; Joe jumped from 31,333 m in 1960.",
+          "zh": "尼尔·阿姆斯特朗。Excelsior是美国空军研发高空逃生方式的项目，乔于1960年从31,333米跳下。"
+        },
+        {
           "en": "Barack Obama",
           "zh": "巴拉克·奥巴马"
+        },
+        {
+          "en": "Yuri Gagarin",
+          "zh": "尤里·加加林"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Austrian skydiver Felix Baumgartner jumped from 39,045 m in 2012 and broke Joe's record.",
@@ -133,16 +133,16 @@
       },
       "options": [
         {
-          "en": "Orlando, France according to some versions of the story",
-          "zh": "法国奥兰多（按书中另一种说法）"
+          "en": "Hanoi, Vietnam",
+          "zh": "越南河内"
+        },
+        {
+          "en": "Orlando, France. Project Excelsior was the Air Force project to develop high-altitude escape; Joe jumped from 31,333 m in 1960.",
+          "zh": "法国奥兰多。Excelsior是美国空军研发高空逃生方式的项目，乔于1960年从31,333米跳下。"
         },
         {
           "en": "New York City",
           "zh": "纽约市"
-        },
-        {
-          "en": "Hanoi, Vietnam",
-          "zh": "越南河内"
         },
         {
           "en": "Tampa, Florida, in 1928",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "He retired from flying according to some versions of the story",
-          "zh": "他退役不再飞行（按书中另一种说法）"
-        },
-        {
           "en": "He was shot down and became a prisoner of war",
           "zh": "他被击落并成为战俘"
+        },
+        {
+          "en": "He won a gold medal",
+          "zh": "他赢得金牌"
         },
         {
           "en": "He became president",
           "zh": "他当了总统"
         },
         {
-          "en": "He won a gold medal",
-          "zh": "他赢得金牌"
+          "en": "He retired from flying. Project Excelsior was the Air Force project to develop high-altitude escape; Joe jumped from 31,333 m in 1960.",
+          "zh": "他退役不再飞行。Excelsior是美国空军研发高空逃生方式的项目，乔于1960年从31,333米跳下。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "On his 483rd flight Joe was shot down, captured, and held in the 'Hanoi Hilton' for 11 months.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "Fastest marathon",
-          "zh": "最快马拉松"
+          "en": "Deepest ocean dive",
+          "zh": "最深海洋潜水"
         },
         {
           "en": "First solo balloon crossing of the Atlantic",
           "zh": "首次单人乘气球飞越大西洋"
         },
         {
-          "en": "Tallest building built according to some versions of the story",
-          "zh": "建造最高建筑（按书中另一种说法）"
+          "en": "Fastest marathon",
+          "zh": "最快马拉松"
         },
         {
-          "en": "Deepest ocean dive",
-          "zh": "最深海洋潜水"
+          "en": "Tallest building built. Project Excelsior was the Air Force project to develop high-altitude escape; Joe jumped from 31,333 m in 1960.",
+          "zh": "建造最高建筑。Excelsior是美国空军研发高空逃生方式的项目，乔于1960年从31,333米跳下。"
         }
       ],
       "answer": 1,
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "The Harmon Trophy",
-          "zh": "哈蒙奖杯"
-        },
-        {
-          "en": "The Pulitzer Prize",
-          "zh": "普利策奖"
+          "en": "The Nobel Prize",
+          "zh": "诺贝尔奖"
         },
         {
           "en": "The Oscar",
           "zh": "奥斯卡奖"
         },
         {
-          "en": "The Nobel Prize",
-          "zh": "诺贝尔奖"
+          "en": "The Pulitzer Prize",
+          "zh": "普利策奖"
+        },
+        {
+          "en": "The Harmon Trophy",
+          "zh": "哈蒙奖杯"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "After Joe's high-altitude jump record, President Eisenhower awarded him the Harmon Trophy.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "The defined border of space at 100 km above Earth",
-          "zh": "距地面100公里、被定义的太空边界"
-        },
-        {
-          "en": "A river in Florida according to some versions of the story",
-          "zh": "佛罗里达的一条河（按书中另一种说法）"
-        },
-        {
           "en": "A type of balloon",
           "zh": "一种气球"
         },
         {
+          "en": "A river in Florida. Project Excelsior was the Air Force project to develop high-altitude escape; Joe jumped from 31,333 m in 1960.",
+          "zh": "佛罗里达的一条河。Excelsior是美国空军研发高空逃生方式的项目，乔于1960年从31,333米跳下。"
+        },
+        {
           "en": "A line on a map",
           "zh": "地图上的线"
+        },
+        {
+          "en": "The defined border of space at 100 km above Earth",
+          "zh": "距地面100公里、被定义的太空边界"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Many scientists define the edge of space, the Kármán Line, as 100 km above Earth.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "He was a famous movie star",
-          "zh": "他是个著名影星"
-        },
-        {
-          "en": "Few people know his name despite his space exploration contributions",
-          "zh": "尽管对太空探索贡献巨大，却鲜有人知道他的名字"
+          "en": "He never did anything brave. Project Excelsior was the Air Force project to develop high-altitude escape; Joe jumped from 31,333 m in 1960.",
+          "zh": "他从未做过勇敢的事。Excelsior是美国空军研发高空逃生方式的项目，乔于1960年从31,333米跳下。"
         },
         {
           "en": "He disliked flying",
           "zh": "他讨厌飞行"
         },
         {
-          "en": "He never did anything brave according to some versions of the story in an early draft of the book",
-          "zh": "他从未做过勇敢的事（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Few people know his name despite his space exploration contributions",
+          "zh": "尽管对太空探索贡献巨大，却鲜有人知道他的名字"
+        },
+        {
+          "en": "He was a famous movie star",
+          "zh": "他是个著名影星"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Joe's early work helped pilots and astronauts, yet his name is not widely known—making him 'unsung.'",

@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "The funnel",
-          "zh": "漏斗"
-        },
-        {
           "en": "The wall",
           "zh": "墙壁"
         },
@@ -25,11 +21,15 @@
           "zh": "风眼"
         },
         {
+          "en": "The funnel",
+          "zh": "漏斗"
+        },
+        {
           "en": "The tail",
           "zh": "尾部"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The center of a hurricane is called the eye, where it is often calm and sunny.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "Tornadoes",
-          "zh": "龙卷风"
-        },
-        {
-          "en": "Typhoons",
-          "zh": "台风"
-        },
-        {
           "en": "Cyclones only in India",
           "zh": "仅在印度的气旋"
         },
         {
           "en": "Blizzards",
           "zh": "暴风雪"
+        },
+        {
+          "en": "Tornadoes",
+          "zh": "龙卷风"
+        },
+        {
+          "en": "Typhoons",
+          "zh": "台风"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In the Pacific they are called typhoons; in the Indian Ocean, severe tropical cyclones.",
@@ -77,19 +77,19 @@
           "zh": "恰好62公里/小时"
         },
         {
-          "en": "Less than 50 km/h",
-          "zh": "小于50公里/小时"
-        },
-        {
-          "en": "Greater than 200 km/h according to some versions of the story",
-          "zh": "大于200公里/小时（按书中另一种说法）"
+          "en": "Greater than 200 km/h. Doppler radar sends bursts of energy; rain and clouds reflect them back to show a storm's speed and direction.",
+          "zh": "大于200公里/小时。多普勒雷达发射能量波，雨云将其反射回来，从而显示风暴的速度和方向。"
         },
         {
           "en": "Greater than 119 km/h (74 mph)",
           "zh": "大于119公里/小时（74英里/小时）"
+        },
+        {
+          "en": "Less than 50 km/h",
+          "zh": "小于50公里/小时"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "When sustained winds exceed 119 km/h (74 mph), a tropical storm becomes a hurricane.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
+          "en": "A rescue boat",
+          "zh": "救生艇"
+        },
+        {
+          "en": "A kind of lightning. Doppler radar sends bursts of energy; rain and clouds reflect them back to show a storm's speed and direction.",
+          "zh": "一种闪电。多普勒雷达发射能量波，雨云将其反射回来，从而显示风暴的速度和方向。"
+        },
+        {
           "en": "A rise in sea level caused by winds and low pressure",
           "zh": "由强风和低气压引起的海平面上升"
         },
         {
           "en": "A type of cloud",
           "zh": "一种云"
-        },
-        {
-          "en": "A rescue boat",
-          "zh": "救生艇"
-        },
-        {
-          "en": "A kind of lightning according to some versions of the story",
-          "zh": "一种闪电（按书中另一种说法）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Storm surge is the sea level rising higher than normal near a hurricane, causing flooding.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
+          "en": "The Fahrenheit Scale. Doppler radar sends bursts of energy; rain and clouds reflect them back to show a storm's speed and direction.",
+          "zh": "华氏温标。多普勒雷达发射能量波，雨云将其反射回来，从而显示风暴的速度和方向。"
+        },
+        {
           "en": "The Saffir-Simpson Hurricane Scale",
           "zh": "萨菲尔-辛普森飓风等级"
         },
         {
-          "en": "The Fahrenheit Scale according to some versions of the story",
-          "zh": "华氏温标（按书中另一种说法）"
+          "en": "The Richter Scale",
+          "zh": "里氏震级"
         },
         {
           "en": "The Metric Scale",
           "zh": "公制"
-        },
-        {
-          "en": "The Richter Scale",
-          "zh": "里氏震级"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Meteorologists use the Saffir-Simpson Hurricane Scale (Category 1–5) to describe damage potential.",
@@ -171,8 +171,8 @@
           "zh": "北半球"
         },
         {
-          "en": "The Southern Hemisphere according to some versions of the story",
-          "zh": "南半球（按书中另一种说法）"
+          "en": "The Southern Hemisphere. Doppler radar sends bursts of energy; rain and clouds reflect them back to show a storm's speed and direction.",
+          "zh": "南半球。多普勒雷达发射能量波，雨云将其反射回来，从而显示风暴的速度和方向。"
         },
         {
           "en": "Both hemispheres",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
+          "en": "A helicopter taxi. Doppler radar sends bursts of energy; rain and clouds reflect them back to show a storm's speed and direction.",
+          "zh": "出租直升机。多普勒雷达发射能量波，雨云将其反射回来，从而显示风暴的速度和方向。"
+        },
+        {
+          "en": "The Hurricane Hunter",
+          "zh": "“飓风猎手”"
+        },
+        {
           "en": "A hot-air balloon",
           "zh": "热气球"
         },
         {
           "en": "A submarine",
           "zh": "潜艇"
-        },
-        {
-          "en": "A helicopter taxi according to some versions of the story",
-          "zh": "出租直升机（按书中另一种说法）"
-        },
-        {
-          "en": "The Hurricane Hunter",
-          "zh": "“飓风猎手”"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The 'Hurricane Hunter' is a specially designed aircraft that flies into the eye to take measurements.",
@@ -231,8 +231,8 @@
           "zh": "气压计"
         },
         {
-          "en": "A microscope according to some versions of the story",
-          "zh": "显微镜（按书中另一种说法）"
+          "en": "A microscope. The 'Hurricane Hunter' is a specially designed aircraft that flies into the eye to take measurements.",
+          "zh": "显微镜。“飓风猎手”是专门设计的飞机，飞进风眼测量温度、湿度和风速。"
         },
         {
           "en": "A telescope",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "The Greek word for wind",
-          "zh": "希腊语中的“风”"
-        },
-        {
-          "en": "A Spanish explorer's name according to some versions of the story",
-          "zh": "一位西班牙探险家的名字（按书中另一种说法）"
-        },
-        {
           "en": "Hurican, the Caribbean god of evil",
           "zh": "加勒比恶神“胡里干”（Hurican）"
         },
         {
+          "en": "A Spanish explorer's name. Doppler radar sends bursts of energy; rain and clouds reflect them back to show a storm's speed and direction.",
+          "zh": "一位西班牙探险家的名字。多普勒雷达发射能量波，雨云将其反射回来，从而显示风暴的速度和方向。"
+        },
+        {
           "en": "A type of bird",
           "zh": "一种鸟"
+        },
+        {
+          "en": "The Greek word for wind",
+          "zh": "希腊语中的“风”"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The National Hurricane Center says 'hurricane' comes from Hurican, the Caribbean god of evil.",
@@ -283,8 +283,8 @@
       },
       "options": [
         {
-          "en": "The forecast office according to some versions of the story in an early draft of the book",
-          "zh": "预报办公室（按书中另一种说法）（在书的早期草稿中）"
+          "en": "The forecast office. Doppler radar sends bursts of energy; rain and clouds reflect them back to show a storm's speed and direction.",
+          "zh": "预报办公室。多普勒雷达发射能量波，雨云将其反射回来，从而显示风暴的速度和方向。"
         },
         {
           "en": "The wall of clouds and rain around the eye with the strongest winds",

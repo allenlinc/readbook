@@ -55,8 +55,8 @@
           "zh": "玻璃"
         },
         {
-          "en": "Bone only according to some versions of the story",
-          "zh": "纯骨头（按书中另一种说法）"
+          "en": "Bone only. The book emphasizes that most hoofed animals are herbivores, which shapes their body design for grazing and fleeing.",
+          "zh": "纯骨头。本书强调大多数有蹄动物是草食动物，这也决定了它们为吃草和逃跑而演化的身体结构。"
         }
       ],
       "answer": 0,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "A type of tooth",
+          "zh": "一种牙齿"
+        },
+        {
+          "en": "A horn on the head. The book emphasizes that most hoofed animals are herbivores, which shapes their body design for grazing and fleeing.",
+          "zh": "头上的角。本书强调大多数有蹄动物是草食动物，这也决定了它们为吃草和逃跑而演化的身体结构。"
+        },
+        {
           "en": "One long, solid foot bone connecting the hoof to the ankle",
           "zh": "连接蹄与踝部的一根长而坚实的骨头"
         },
         {
           "en": "A kind of tail",
           "zh": "一种尾巴"
-        },
-        {
-          "en": "A type of tooth",
-          "zh": "一种牙齿"
-        },
-        {
-          "en": "A horn on the head according to some versions of the story in an early draft of the book",
-          "zh": "头上的角（按书中另一种说法）（在书的早期草稿中）"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The cannon bone is a single long, solid bone that makes legs longer and stronger for running.",
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "Marsupials",
-          "zh": "有袋动物"
-        },
-        {
           "en": "Odd-toed ungulates",
           "zh": "奇蹄目有蹄动物"
         },
@@ -115,11 +111,15 @@
           "zh": "偶蹄目有蹄动物"
         },
         {
+          "en": "Marsupials",
+          "zh": "有袋动物"
+        },
+        {
           "en": "Primates",
           "zh": "灵长类"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Horses/zebras (one toe) and rhinos (three toes) are odd-toed ungulates.",
@@ -133,8 +133,12 @@
       },
       "options": [
         {
-          "en": "Europe and North America according to some versions of the story",
-          "zh": "欧洲和北美（按书中另一种说法）"
+          "en": "Europe and North America. The book emphasizes that most hoofed animals are herbivores, which shapes their body design for grazing and fleeing.",
+          "zh": "欧洲和北美。本书强调大多数有蹄动物是草食动物，这也决定了它们为吃草和逃跑而演化的身体结构。"
+        },
+        {
+          "en": "South America",
+          "zh": "南美洲"
         },
         {
           "en": "Africa and Asia",
@@ -143,13 +147,9 @@
         {
           "en": "Australia and Antarctica",
           "zh": "澳大利亚和南极洲"
-        },
-        {
-          "en": "South America",
-          "zh": "南美洲"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Even-toed ungulates are native to every continent except Australia and Antarctica.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "To show they are poisonous according to some versions of the story",
-          "zh": "表示它们有毒（按书中另一种说法）"
-        },
-        {
-          "en": "For camouflage by blending with the herd",
-          "zh": "通过融入群体起到伪装作用"
+          "en": "To attract mates only",
+          "zh": "只是为了吸引配偶"
         },
         {
           "en": "Because they are cold",
           "zh": "因为它们冷"
         },
         {
-          "en": "To attract mates only",
-          "zh": "只是为了吸引配偶"
+          "en": "For camouflage by blending with the herd",
+          "zh": "通过融入群体起到伪装作用"
+        },
+        {
+          "en": "To show they are poisonous. The book emphasizes that most hoofed animals are herbivores, which shapes their body design for grazing and fleeing.",
+          "zh": "表示它们有毒。本书强调大多数有蹄动物是草食动物，这也决定了它们为吃草和逃跑而演化的身体结构。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A zebra's stripes help it blend in with other zebras, making it harder for predators to single it out.",
@@ -197,19 +197,19 @@
           "zh": "木头"
         },
         {
-          "en": "Metal",
-          "zh": "金属"
-        },
-        {
           "en": "Bone only",
           "zh": "纯骨头"
         },
         {
           "en": "Keratin",
           "zh": "角蛋白"
+        },
+        {
+          "en": "Metal",
+          "zh": "金属"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Rhino horns are made of keratin, the same material as hooves.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "Moose",
-          "zh": "驼鹿"
-        },
-        {
-          "en": "Caribou",
-          "zh": "驯鹿"
+          "en": "Elk",
+          "zh": "麋鹿"
         },
         {
           "en": "White-tailed deer",
           "zh": "白尾鹿"
         },
         {
-          "en": "Elk",
-          "zh": "麋鹿"
+          "en": "Caribou",
+          "zh": "驯鹿"
+        },
+        {
+          "en": "Moose",
+          "zh": "驼鹿"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Caribou are the only deer in which the females also grow antlers.",
@@ -253,20 +253,20 @@
       },
       "options": [
         {
-          "en": "500 kg",
-          "zh": "500公斤"
-        },
-        {
           "en": "About 1 kg",
           "zh": "约1公斤"
+        },
+        {
+          "en": "None; they eat meat. The book emphasizes that most hoofed animals are herbivores, which shapes their body design for grazing and fleeing.",
+          "zh": "不吃；它们吃肉。本书强调大多数有蹄动物是草食动物，这也决定了它们为吃草和逃跑而演化的身体结构。"
         },
         {
           "en": "Up to 136 kg (300 lb)",
           "zh": "多达136公斤（300磅）"
         },
         {
-          "en": "None; they eat meat according to some versions of the story",
-          "zh": "不吃；它们吃肉（按书中另一种说法）"
+          "en": "500 kg",
+          "zh": "500公斤"
         }
       ],
       "answer": 2,
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "Plants",
-          "zh": "植物"
-        },
-        {
-          "en": "Only meat",
-          "zh": "只吃肉"
+          "en": "Rocks",
+          "zh": "石头"
         },
         {
           "en": "Plastic",
           "zh": "塑料"
         },
         {
-          "en": "Rocks",
-          "zh": "石头"
+          "en": "Only meat",
+          "zh": "只吃肉"
+        },
+        {
+          "en": "Plants",
+          "zh": "植物"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book emphasizes that most hoofed animals are herbivores, which shapes their body design for grazing and fleeing.",
