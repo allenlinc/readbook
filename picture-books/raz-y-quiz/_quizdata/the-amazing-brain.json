@@ -13,8 +13,12 @@
       },
       "options": [
         {
-          "en": "About half of body weight and half of energy according to some versions of the story",
-          "zh": "约一半体重和一半能量（按书中另一种说法）"
+          "en": "About 20% of body weight and 2% of energy",
+          "zh": "约20%的体重和2%的能量"
+        },
+        {
+          "en": "About half of body weight and half of energy. An fMRI identifies active regions by measuring blood flow; active neurons need more oxygen, and this method detects deep brain activity better than EEG.",
+          "zh": "约一半体重和一半能量。fMRI 通过测量血流来识别活跃区域；活跃的神经元需要更多氧气，这种方法比脑电图更能探测大脑深层活动。"
         },
         {
           "en": "Almost no weight but all the energy",
@@ -23,13 +27,9 @@
         {
           "en": "About 2% of body weight but more than 20% of energy",
           "zh": "约2%的体重，却消耗逾20%的能量"
-        },
-        {
-          "en": "About 20% of body weight and 2% of energy",
-          "zh": "约20%的体重和2%的能量"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states the brain weighs only 2% of total body weight but uses more than 20% of your energy.",
@@ -43,6 +43,10 @@
       },
       "options": [
         {
+          "en": "Connecting the two brain hemispheres. An fMRI identifies active regions by measuring blood flow; active neurons need more oxygen, and this method detects deep brain activity better than EEG.",
+          "zh": "连接大脑的两个半球。fMRI 通过测量血流来识别活跃区域；活跃的神经元需要更多氧气，这种方法比脑电图更能探测大脑深层活动。"
+        },
+        {
           "en": "Controlling breathing and heartbeat",
           "zh": "控制呼吸和心跳"
         },
@@ -51,15 +55,11 @@
           "zh": "协调肌肉运动并储存肌肉记忆"
         },
         {
-          "en": "Connecting the two brain hemispheres according to some versions of the story",
-          "zh": "连接大脑的两个半球（按书中另一种说法）"
-        },
-        {
           "en": "Interpreting speech and emotions",
           "zh": "解读语言与情绪"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the cerebellum coordinates muscle movements and stores muscle memories, which is why practice makes movements automatic.",
@@ -73,16 +73,16 @@
       },
       "options": [
         {
+          "en": "He discovered the two brain hemispheres",
+          "zh": "他发现了大脑的两个半球"
+        },
+        {
           "en": "He invented the EEG machine",
           "zh": "他发明了脑电图机"
         },
         {
-          "en": "He fell off a horse and lost his memory completely according to some versions of the story in an early draft of the book",
-          "zh": "他从马上摔下，完全失去了记忆（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "He discovered the two brain hemispheres",
-          "zh": "他发现了大脑的两个半球"
+          "en": "He fell off a horse and lost his memory completely. An fMRI identifies active regions by measuring blood flow; active neurons need more oxygen, and this method detects deep brain activity better than EEG.",
+          "zh": "他从马上摔下，完全失去了记忆。fMRI 通过测量血流来识别活跃区域；活跃的神经元需要更多氧气，这种方法比脑电图更能探测大脑深层活动。"
         },
         {
           "en": "An iron rod shot through his head; he survived but his personality changed after losing part of his frontal lobe",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "The right hemisphere",
-          "zh": "右半球"
-        },
-        {
-          "en": "The brain stem",
-          "zh": "脑干"
+          "en": "The cerebellum",
+          "zh": "小脑"
         },
         {
           "en": "The left hemisphere",
           "zh": "左半球"
         },
         {
-          "en": "The cerebellum",
-          "zh": "小脑"
+          "en": "The right hemisphere",
+          "zh": "右半球"
+        },
+        {
+          "en": "The brain stem",
+          "zh": "脑干"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says the left brain generally controls speech, writing, and math skills, while the right brain handles creativity and visual interpretation.",
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "The fluid that protects the brain according to some versions of the story in an early draft of the book",
-          "zh": "保护大脑的液体（按书中另一种说法）（在书的早期草稿中）"
+          "en": "A type of brain injury",
+          "zh": "一种脑损伤"
         },
         {
           "en": "Nerve cells that carry information within the brain and between the brain and the body",
           "zh": "在脑内以及脑与身体之间传递信息的神经细胞"
         },
         {
-          "en": "A type of brain injury",
-          "zh": "一种脑损伤"
-        },
-        {
           "en": "The four sections of the cerebrum",
           "zh": "大脑的四个分区"
+        },
+        {
+          "en": "The fluid that protects the brain. An fMRI identifies active regions by measuring blood flow; active neurons need more oxygen, and this method detects deep brain activity better than EEG.",
+          "zh": "保护大脑的液体。fMRI 通过测量血流来识别活跃区域；活跃的神经元需要更多氧气，这种方法比脑电图更能探测大脑深层活动。"
         }
       ],
       "answer": 1,
@@ -167,19 +167,19 @@
           "zh": "测量大脑活动的机器"
         },
         {
+          "en": "A bundle of nerves that connects the two hemispheres and carries messages between them",
+          "zh": "连接左右两个半球、在它们之间传递信息的一束神经"
+        },
+        {
           "en": "The part of the brain that controls balance",
           "zh": "控制平衡的大脑部位"
         },
         {
-          "en": "The section of the brain that governs emotions according to some versions of the story in an early draft of the book",
-          "zh": "掌管情绪的大脑分区（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "A bundle of nerves that connects the two hemispheres and carries messages between them",
-          "zh": "连接左右两个半球、在它们之间传递信息的一束神经"
+          "en": "The section of the brain that governs emotions. An fMRI identifies active regions by measuring blood flow; active neurons need more oxygen, and this method detects deep brain activity better than EEG.",
+          "zh": "掌管情绪的大脑分区。fMRI 通过测量血流来识别活跃区域；活跃的神经元需要更多氧气，这种方法比脑电图更能探测大脑深层活动。"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The book describes the corpus callosum as a bundle of nerves connecting the hemispheres and carrying messages between them.",
@@ -205,8 +205,8 @@
           "zh": "通过直接聆听人的思想"
         },
         {
-          "en": "By measuring electrical signals only on the brain's surface according to some versions of the story in an early draft of the book",
-          "zh": "只测量大脑表面的电信号（按书中另一种说法）（在书的早期草稿中）"
+          "en": "By measuring electrical signals only on the brain's surface. The author uses striking facts—2% of weight yet 20% of energy, and more connections than stars in 1,500 Milky Way galaxies—to show the brain's wonder.",
+          "zh": "只测量大脑表面的电信号。作者用惊人事实——2%体重却耗20%能量、连接数比1500个银河系恒星还多——来展现大脑的奇妙。"
         }
       ],
       "answer": 0,
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "Avoiding all reading and sleeping as little as possible according to some versions of the story in an early draft of the book",
-          "zh": "避免一切阅读并尽量少睡（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Only eating sugar and never exercising",
+          "zh": "只吃糖且从不锻炼"
         },
         {
           "en": "Using the brain (mental exercise), getting physical exercise, enough sleep, and wearing a helmet for protection",
           "zh": "动脑（脑力锻炼）、进行体育锻炼、保证充足睡眠，以及戴头盔进行保护"
         },
         {
-          "en": "Only eating sugar and never exercising",
-          "zh": "只吃糖且从不锻炼"
-        },
-        {
           "en": "Watching TV all day instead of sleeping",
           "zh": "整天看电视而不睡觉"
+        },
+        {
+          "en": "Avoiding all reading and sleeping as little as possible. An fMRI identifies active regions by measuring blood flow; active neurons need more oxygen, and this method detects deep brain activity better than EEG.",
+          "zh": "避免一切阅读并尽量少睡。fMRI 通过测量血流来识别活跃区域；活跃的神经元需要更多氧气，这种方法比脑电图更能探测大脑深层活动。"
         }
       ],
       "answer": 1,
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "To tell a fictional story about a talking brain. An fMRI identifies active regions by measuring blood flow; active neurons need more oxygen, and this method detects deep brain activity better than EEG.",
+          "zh": "讲一个会说话的大脑的虚构故事。fMRI 通过测量血流来识别活跃区域；活跃的神经元需要更多氧气，这种方法比脑电图更能探测大脑深层活动。"
+        },
+        {
           "en": "To inform readers about how the brain works, how it is studied, and how to keep it healthy",
           "zh": "向读者介绍大脑如何运作、如何被研究，以及如何保持它的健康"
         },
@@ -261,15 +265,11 @@
           "zh": "主张大脑并不重要"
         },
         {
-          "en": "To tell a fictional story about a talking brain according to some versions of the story in an early draft of the book",
-          "zh": "讲一个会说话的大脑的虚构故事（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "To persuade readers to become brain surgeons",
           "zh": "劝说读者成为脑外科医生"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book is an informational science text explaining brain structure, research methods like EEG and fMRI, and brain health.",
@@ -287,16 +287,16 @@
           "zh": "用对比说明：2%的体重消耗20%的能量，神经元连接比1500个星系的恒星还多"
         },
         {
-          "en": "By saying it is the smallest organ in the body according to some versions of the story in an early draft of the book as mentioned in a later chapter",
-          "zh": "说它是体内最小的器官（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
-        },
-        {
-          "en": "By claiming it does nothing useful",
-          "zh": "声称它毫无用处"
+          "en": "By saying it is the smallest organ in the body. An fMRI identifies active regions by measuring blood flow; active neurons need more oxygen, and this method detects deep brain activity better than EEG.",
+          "zh": "说它是体内最小的器官。fMRI 通过测量血流来识别活跃区域；活跃的神经元需要更多氧气，这种方法比脑电图更能探测大脑深层活动。"
         },
         {
           "en": "By comparing it only to a rock",
           "zh": "只把它和石头作比较"
+        },
+        {
+          "en": "By claiming it does nothing useful",
+          "zh": "声称它毫无用处"
         }
       ],
       "answer": 0,

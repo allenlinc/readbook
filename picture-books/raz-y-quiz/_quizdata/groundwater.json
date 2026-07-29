@@ -13,23 +13,23 @@
       },
       "options": [
         {
+          "en": "About 10 percent",
+          "zh": "约10%"
+        },
+        {
+          "en": "About 50 percent. Water levels are falling fast because people pump groundwater faster than nature replaces it, leaving aquifers depleted.",
+          "zh": "约50%。由于抽取速度快于自然补给，水位迅速下降，含水层被耗尽。"
+        },
+        {
           "en": "About 3 percent",
           "zh": "约3%"
         },
         {
           "en": "About 99 percent",
           "zh": "约99%"
-        },
-        {
-          "en": "About 50 percent according to some versions of the story",
-          "zh": "约50%（按书中另一种说法）"
-        },
-        {
-          "en": "About 10 percent",
-          "zh": "约10%"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Scientists estimate that a whopping 99 percent of Earth's usable water is groundwater.",
@@ -43,10 +43,6 @@
       },
       "options": [
         {
-          "en": "Rivers on the surface according to some versions of the story in an early draft of the book",
-          "zh": "地表的河流（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "Clouds in the sky",
           "zh": "天空中的云"
         },
@@ -55,11 +51,15 @@
           "zh": "储存地下水的岩石、砾石和沙的地下层"
         },
         {
+          "en": "Rivers on the surface. Water levels are falling fast because people pump groundwater faster than nature replaces it, leaving aquifers depleted.",
+          "zh": "地表的河流。由于抽取速度快于自然补给，水位迅速下降，含水层被耗尽。"
+        },
+        {
           "en": "Ocean waves",
           "zh": "海浪"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Aquifers are underground layers of rock, gravel, and sand that retain groundwater like colossal sponges.",
@@ -77,16 +77,16 @@
           "zh": "2060年"
         },
         {
-          "en": "2020 according to some versions of the story",
-          "zh": "2020年（按书中另一种说法）"
+          "en": "2100",
+          "zh": "2100年"
+        },
+        {
+          "en": "2020. Water levels are falling fast because people pump groundwater faster than nature replaces it, leaving aquifers depleted.",
+          "zh": "2020年。由于抽取速度快于自然补给，水位迅速下降，含水层被耗尽。"
         },
         {
           "en": "2030",
           "zh": "2030年"
-        },
-        {
-          "en": "2100",
-          "zh": "2100年"
         }
       ],
       "answer": 0,
@@ -111,15 +111,15 @@
           "zh": "5%"
         },
         {
-          "en": "90 percent according to some versions of the story",
-          "zh": "90%（按书中另一种说法）"
-        },
-        {
           "en": "40 percent",
           "zh": "40%"
+        },
+        {
+          "en": "90 percent. Water levels are falling fast because people pump groundwater faster than nature replaces it, leaving aquifers depleted.",
+          "zh": "90%。由于抽取速度快于自然补给，水位迅速下降，含水层被耗尽。"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The UN estimates that if nothing changes, the world will fall 40 percent short of its water needs by 2030.",
@@ -141,12 +141,12 @@
           "zh": "沸腾"
         },
         {
-          "en": "To freeze",
-          "zh": "冻结"
+          "en": "To evaporate. Water levels are falling fast because people pump groundwater faster than nature replaces it, leaving aquifers depleted.",
+          "zh": "蒸发。由于抽取速度快于自然补给，水位迅速下降，含水层被耗尽。"
         },
         {
-          "en": "To evaporate according to some versions of the story in an early draft of the book",
-          "zh": "蒸发（按书中另一种说法）（在书的早期草稿中）"
+          "en": "To freeze",
+          "zh": "冻结"
         }
       ],
       "answer": 0,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Frozen",
-          "zh": "被冻结"
+          "en": "Cleaned",
+          "zh": "被清理"
+        },
+        {
+          "en": "Filled up. Since 2002, NASA's GRACE satellites have measured shifts in water volume on and under Earth's surface.",
+          "zh": "被填满。自2002年起，美国宇航局的GRACE卫星测量地球表面及地下水分量的变化。"
         },
         {
           "en": "Emptied or mostly used up",
           "zh": "被抽空或基本用尽"
         },
         {
-          "en": "Cleaned",
-          "zh": "被清理"
-        },
-        {
-          "en": "Filled up according to some versions of the story",
-          "zh": "被填满（按书中另一种说法）"
+          "en": "Frozen",
+          "zh": "被冻结"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Water levels are falling fast because people pump groundwater faster than nature replaces it, leaving aquifers depleted.",
@@ -193,20 +193,20 @@
       },
       "options": [
         {
-          "en": "World War II",
-          "zh": "第二次世界大战"
+          "en": "The French Revolution",
+          "zh": "法国大革命"
         },
         {
           "en": "The civil war in Syria that began in 2011",
           "zh": "2011年爆发的叙利亚内战"
         },
         {
-          "en": "The Apollo missions according to some versions of the story",
-          "zh": "阿波罗登月计划（按书中另一种说法）"
+          "en": "The Apollo missions. Water levels are falling fast because people pump groundwater faster than nature replaces it, leaving aquifers depleted.",
+          "zh": "阿波罗登月计划。由于抽取速度快于自然补给，水位迅速下降，含水层被耗尽。"
         },
         {
-          "en": "The French Revolution",
-          "zh": "法国大革命"
+          "en": "World War II",
+          "zh": "第二次世界大战"
         }
       ],
       "answer": 1,
@@ -227,16 +227,16 @@
           "zh": "气象气球"
         },
         {
-          "en": "Submarines",
-          "zh": "潜艇"
+          "en": "A telescope on the Moon",
+          "zh": "月球上的望远镜"
         },
         {
           "en": "The GRACE satellites",
           "zh": "GRACE卫星"
         },
         {
-          "en": "A telescope on the Moon",
-          "zh": "月球上的望远镜"
+          "en": "Submarines",
+          "zh": "潜艇"
         }
       ],
       "answer": 2,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "To show the real human impact of groundwater shortage",
+          "zh": "为了展现地下水短缺对真实人类的影响"
+        },
+        {
+          "en": "To explain how to fish. Water levels are falling fast because people pump groundwater faster than nature replaces it, leaving aquifers depleted.",
+          "zh": "为了解释如何钓鱼。由于抽取速度快于自然补给，水位迅速下降，含水层被耗尽。"
+        },
+        {
           "en": "To describe a vacation",
           "zh": "为了描写度假"
         },
         {
-          "en": "To explain how to fish according to some versions of the story",
-          "zh": "为了解释如何钓鱼（按书中另一种说法）"
-        },
-        {
           "en": "To sell bottled water",
           "zh": "为了卖瓶装水"
-        },
-        {
-          "en": "To show the real human impact of groundwater shortage",
-          "zh": "为了展现地下水短缺对真实人类的影响"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The opening example makes the groundwater crisis personal and urgent for readers.",
@@ -287,16 +287,16 @@
           "zh": "解释地下水为何重要，并呼吁保护"
         },
         {
-          "en": "To tell a fairy tale",
-          "zh": "为了讲童话"
-        },
-        {
-          "en": "To promote a new sport according to some versions of the story",
-          "zh": "为了推广一项新运动（按书中另一种说法）"
-        },
-        {
           "en": "To describe outer space",
           "zh": "为了描写外太空"
+        },
+        {
+          "en": "To promote a new sport. Water levels are falling fast because people pump groundwater faster than nature replaces it, leaving aquifers depleted.",
+          "zh": "为了推广一项新运动。由于抽取速度快于自然补给，水位迅速下降，含水层被耗尽。"
+        },
+        {
+          "en": "To tell a fairy tale",
+          "zh": "为了讲童话"
         }
       ],
       "answer": 0,

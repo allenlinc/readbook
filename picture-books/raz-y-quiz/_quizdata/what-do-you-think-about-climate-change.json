@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "About 10°F according to some versions of the story",
-          "zh": "约10华氏度（按书中另一种说法）"
-        },
-        {
           "en": "4 inches",
           "zh": "4英寸"
         },
@@ -27,9 +23,13 @@
         {
           "en": "Roughly 1.0°F to 1.8°F (0.6–1.0°C)",
           "zh": "约1.0至1.8华氏度（0.6–1.0摄氏度）"
+        },
+        {
+          "en": "About 10°F. The book warns that many global-warming websites contain incorrect information; government, university, or scientific sites are best.",
+          "zh": "约10华氏度。书中警告许多全球变暖网站含有错误信息，最好使用政府、大学或科学机构的网站。"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Meteorologists' records since the mid-1800s show an average rise of roughly 1.0–1.8°F (0.6–1.0°C).",
@@ -47,12 +47,12 @@
           "zh": "植树"
         },
         {
-          "en": "The melting of polar ice according to some versions of the story in an early draft of the book",
-          "zh": "极地冰川融化（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "A type of fossil fuel",
           "zh": "一种化石燃料"
+        },
+        {
+          "en": "The melting of polar ice. The book warns that many global-warming websites contain incorrect information; government, university, or scientific sites are best.",
+          "zh": "极地冰川融化。书中警告许多全球变暖网站含有错误信息，最好使用政府、大学或科学机构的网站。"
         },
         {
           "en": "A natural process in which gases trap heat near Earth's surface",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "Recycling",
+          "zh": "回收利用"
+        },
+        {
+          "en": "Building wind farms. The book warns that many global-warming websites contain incorrect information; government, university, or scientific sites are best.",
+          "zh": "建造风电场。书中警告许多全球变暖网站含有错误信息，最好使用政府、大学或科学机构的网站。"
+        },
+        {
           "en": "Planting trees",
           "zh": "植树"
         },
         {
-          "en": "Building wind farms according to some versions of the story",
-          "zh": "建造风电场（按书中另一种说法）"
-        },
-        {
           "en": "Burning fossil fuels (coal, oil, natural gas)",
           "zh": "燃烧化石燃料（煤、石油、天然气）"
-        },
-        {
-          "en": "Recycling",
-          "zh": "回收利用"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The main human cause is burning fossil fuels in cars, factories, and power plants, releasing greenhouse gases.",
@@ -103,6 +103,10 @@
       },
       "options": [
         {
+          "en": "An Academy Award",
+          "zh": "奥斯卡奖"
+        },
+        {
           "en": "The Presidential Medal of Freedom",
           "zh": "总统自由勋章"
         },
@@ -111,15 +115,11 @@
           "zh": "诺贝尔和平奖"
         },
         {
-          "en": "An Academy Award",
-          "zh": "奥斯卡奖"
-        },
-        {
           "en": "The Aztec Eagle",
           "zh": "阿兹特克雄鹰奖"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In 2007 Gore won the Nobel Peace Prize for warning the public about the dangers of global warming.",
@@ -133,20 +133,20 @@
       },
       "options": [
         {
-          "en": "Moving water used to produce energy according to some versions of the story in an early draft of the book",
-          "zh": "用于产生能量的流动水体（按书中另一种说法）（在书的早期草稿中）"
+          "en": "A layer of gases around a planet",
+          "zh": "环绕行星的气体层"
         },
         {
-          "en": "Hot water from inside Earth",
-          "zh": "来自地球内部的热水"
+          "en": "Moving water used to produce energy. The book warns that many global-warming websites contain incorrect information; government, university, or scientific sites are best.",
+          "zh": "用于产生能量的流动水体。书中警告许多全球变暖网站含有错误信息，最好使用政府、大学或科学机构的网站。"
         },
         {
           "en": "Large bodies of accumulated ice and compacted snow found year-round that slowly move downhill",
           "zh": "常年存在的、由积冰和压实雪组成并缓慢下移的巨大冰体"
         },
         {
-          "en": "A layer of gases around a planet",
-          "zh": "环绕行星的气体层"
+          "en": "Hot water from inside Earth",
+          "zh": "来自地球内部的热水"
         }
       ],
       "answer": 2,
@@ -163,23 +163,23 @@
       },
       "options": [
         {
+          "en": "Filters that trap carbon dioxide. The book warns that many global-warming websites contain incorrect information; government, university, or scientific sites are best.",
+          "zh": "困住二氧化碳的过滤器。书中警告许多全球变暖网站含有错误信息，最好使用政府、大学或科学机构的网站。"
+        },
+        {
           "en": "Computer programs using math equations to predict future climate",
           "zh": "用数理方程预测未来气候的计算机程序"
         },
         {
-          "en": "Satellites that photograph ice",
-          "zh": "拍摄冰川的卫星"
-        },
-        {
-          "en": "Filters that trap carbon dioxide according to some versions of the story",
-          "zh": "困住二氧化碳的过滤器（按书中另一种说法）"
-        },
-        {
           "en": "Machines that plant trees",
           "zh": "种树的机器"
+        },
+        {
+          "en": "Satellites that photograph ice",
+          "zh": "拍摄冰川的卫星"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Computer models are programs based on equations about sunlight, heat, rainfall, and other factors used to predict climate change.",
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "Only coral reefs",
-          "zh": "仅珊瑚礁"
-        },
-        {
           "en": "Coastal cities such as New York and Boston",
           "zh": "纽约、波士顿等沿海城市"
         },
@@ -205,11 +201,15 @@
           "zh": "太阳的能量"
         },
         {
-          "en": "Mountain glaciers only according to some versions of the story",
-          "zh": "仅山岳冰川（按书中另一种说法）"
+          "en": "Only coral reefs",
+          "zh": "仅珊瑚礁"
+        },
+        {
+          "en": "Mountain glaciers only. The book warns that many global-warming websites contain incorrect information; government, university, or scientific sites are best.",
+          "zh": "仅山岳冰川。书中警告许多全球变暖网站含有错误信息，最好使用政府、大学或科学机构的网站。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "If seas rose high and fast enough, coastal cities and small islands could be flooded and destroyed.",
@@ -223,10 +223,6 @@
       },
       "options": [
         {
-          "en": "Wind, solar, hydropower, and geothermal power",
-          "zh": "风能、太阳能、水能和地热能"
-        },
-        {
           "en": "Nuclear power only",
           "zh": "仅核能"
         },
@@ -235,11 +231,15 @@
           "zh": "煤和石油"
         },
         {
-          "en": "Aerosol particles according to some versions of the story",
-          "zh": "气溶胶颗粒（按书中另一种说法）"
+          "en": "Aerosol particles. The book warns that many global-warming websites contain incorrect information; government, university, or scientific sites are best.",
+          "zh": "气溶胶颗粒。书中警告许多全球变暖网站含有错误信息，最好使用政府、大学或科学机构的网站。"
+        },
+        {
+          "en": "Wind, solar, hydropower, and geothermal power",
+          "zh": "风能、太阳能、水能和地热能"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Renewable sources named include hydropower, geothermal, wind, and solar power—unlike fossil fuels they don't run out.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
+          "en": "Stop using all electricity",
+          "zh": "停止用电"
+        },
+        {
           "en": "Think for themselves and form their own opinion about climate change",
           "zh": "独立思考，形成自己对气候变化的看法"
         },
         {
+          "en": "Memorize all temperature statistics. The book warns that many global-warming websites contain incorrect information; government, university, or scientific sites are best.",
+          "zh": "记住所有温度数据。书中警告许多全球变暖网站含有错误信息，最好使用政府、大学或科学机构的网站。"
+        },
+        {
           "en": "Agree that global warming is fake",
           "zh": "认同全球变暖是假的"
-        },
-        {
-          "en": "Memorize all temperature statistics according to some versions of the story",
-          "zh": "记住所有温度数据（按书中另一种说法）"
-        },
-        {
-          "en": "Stop using all electricity",
-          "zh": "停止用电"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The Conclusion invites readers to answer 'What do you think about climate change?' using evidence.",
@@ -287,19 +287,19 @@
           "zh": "它们太简单"
         },
         {
+          "en": "Books are always better",
+          "zh": "书籍总是更好"
+        },
+        {
           "en": "Many websites contain incorrect information",
           "zh": "许多网站含有错误信息"
         },
         {
-          "en": "Government sites are banned according to some versions of the story",
-          "zh": "政府网站被禁（按书中另一种说法）"
-        },
-        {
-          "en": "Books are always better",
-          "zh": "书籍总是更好"
+          "en": "Government sites are banned. Computer models are programs based on equations about sunlight, heat, rainfall, and other factors used to predict climate change.",
+          "zh": "政府网站被禁。计算机模型是基于阳光、热量、降雨等因子的方程构建的程序，用来预测气候变化。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book warns that many global-warming websites contain incorrect information; government, university, or scientific sites are best.",

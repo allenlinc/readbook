@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "That everything is a waste of time according to some versions of the story",
-          "zh": "每件事都是浪费时间（按书中另一种说法）"
+          "en": "That everything has a moral, if only you can find it",
+          "zh": "只要你能找到，每件事都有寓意"
         },
         {
           "en": "That nothing matters",
@@ -25,11 +25,11 @@
           "zh": "只有王后是对的"
         },
         {
-          "en": "That everything has a moral, if only you can find it",
-          "zh": "只要你能找到，每件事都有寓意"
+          "en": "That everything is a waste of time. Subjects like 'Reeling and Writhing' (for Reading and Writing) are puns that mock schooling.",
+          "zh": "每件事都是浪费时间。像'摇摆与扭动'(对应阅读与写作)这样的科目，是用双关语嘲弄学校教育。"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Duchess says, 'Everything's got a moral, if only you can find it.'",
@@ -47,16 +47,16 @@
           "zh": "不——'他们谁也不会被处决'，那只是她的幻想"
         },
         {
-          "en": "Yes, every one is carried out according to some versions of the story",
-          "zh": "是的，每一次都执行了（按书中另一种说法）"
-        },
-        {
-          "en": "Only Alice is executed",
-          "zh": "只有爱丽丝被处决"
+          "en": "Yes, every one is carried out. Subjects like 'Reeling and Writhing' (for Reading and Writing) are puns that mock schooling.",
+          "zh": "是的，每一次都执行了。像'摇摆与扭动'(对应阅读与写作)这样的科目，是用双关语嘲弄学校教育。"
         },
         {
           "en": "Only the King is executed",
           "zh": "只有国王被处决"
+        },
+        {
+          "en": "Only Alice is executed",
+          "zh": "只有爱丽丝被处决"
         }
       ],
       "answer": 0,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "A real Turtle",
-          "zh": "一只真正的海龟"
-        },
-        {
-          "en": "A playing card according to some versions of the story",
-          "zh": "一张纸牌（按书中另一种说法）"
-        },
-        {
           "en": "A flamingo",
           "zh": "一只火烈鸟"
         },
         {
           "en": "A Gryphon",
           "zh": "一只鹰头狮"
+        },
+        {
+          "en": "A real Turtle",
+          "zh": "一只真正的海龟"
+        },
+        {
+          "en": "A playing card. Subjects like 'Reeling and Writhing' (for Reading and Writing) are puns that mock schooling.",
+          "zh": "一张纸牌。像'摇摆与扭动'(对应阅读与写作)这样的科目，是用双关语嘲弄学校教育。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The Mock Turtle begins: 'Once... I was a real Turtle.'",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Because he lived on land",
-          "zh": "因为他住在陆地上"
-        },
-        {
-          "en": "Because the Queen named him according to some versions of the story",
-          "zh": "因为王后给他起的名（按书中另一种说法）"
+          "en": "Because he was slow",
+          "zh": "因为他动作慢"
         },
         {
           "en": "Because he taught them—a play on 'taught us'",
           "zh": "因为他'教'(taught)他们，是 taught us 的文字游戏"
         },
         {
-          "en": "Because he was slow",
-          "zh": "因为他动作慢"
+          "en": "Because the Queen named him. Subjects like 'Reeling and Writhing' (for Reading and Writing) are puns that mock schooling.",
+          "zh": "因为王后给他起的名。像'摇摆与扭动'(对应阅读与写作)这样的科目，是用双关语嘲弄学校教育。"
+        },
+        {
+          "en": "Because he lived on land",
+          "zh": "因为他住在陆地上"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'We called him Tortoise because he taught us,' the Mock Turtle says angrily.",
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "fancy",
-          "zh": "幻想"
-        },
-        {
-          "en": "derision",
-          "zh": "嘲弄"
-        },
-        {
           "en": "moral",
           "zh": "寓意"
         },
         {
           "en": "classics",
           "zh": "经典"
+        },
+        {
+          "en": "fancy",
+          "zh": "幻想"
+        },
+        {
+          "en": "derision",
+          "zh": "嘲弄"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines moral as 'a lesson to be learned from a story or experience.'",
@@ -167,19 +167,19 @@
           "zh": "一道数学题"
         },
         {
-          "en": "A scientific explanation according to some versions of the story",
-          "zh": "科学解释（按书中另一种说法）"
-        },
-        {
-          "en": "A history lesson",
-          "zh": "一堂历史课"
+          "en": "A scientific explanation. Since nobody is actually executed, the fear is mostly pretend—Wonderland's menace is theatrical.",
+          "zh": "科学解释。既然没有人真的被处决，恐惧多半是假装的——仙境的威胁只是做戏。"
         },
         {
           "en": "Pun-filled wordplay that parodies school subjects",
           "zh": "充满双关的文字游戏，戏仿学校科目"
+        },
+        {
+          "en": "A history lesson",
+          "zh": "一堂历史课"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Subjects like 'Reeling and Writhing' (for Reading and Writing) are puns that mock schooling.",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "Alice is in great physical danger. Subjects like 'Reeling and Writhing' (for Reading and Writing) are puns that mock schooling.",
+          "zh": "爱丽丝面临极大的生命危险。像'摇摆与扭动'(对应阅读与写作)这样的科目，是用双关语嘲弄学校教育。"
+        },
+        {
           "en": "The King is the cruel one",
           "zh": "国王才是残忍的那个"
         },
@@ -201,15 +205,11 @@
           "zh": "恐惧大多是幻象，威胁并不会真正执行"
         },
         {
-          "en": "Alice is in great physical danger according to some versions of the story",
-          "zh": "爱丽丝面临极大的生命危险（按书中另一种说法）"
-        },
-        {
           "en": "The dangers are real and fatal",
           "zh": "危险是真实而致命的"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Since nobody is actually executed, the fear is mostly pretend—Wonderland's menace is theatrical.",
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "It helps her win the game",
-          "zh": "这帮她赢了比赛"
+          "en": "It teaches her to cook",
+          "zh": "这教会她做饭"
         },
         {
           "en": "It annoys and puzzles her, showing adults' silly habit of moralizing",
           "zh": "这让她又恼又惑，展现出大人说教的可笑习惯"
         },
         {
-          "en": "It teaches her to cook",
-          "zh": "这教会她做饭"
+          "en": "It helps her win the game",
+          "zh": "这帮她赢了比赛"
         },
         {
-          "en": "It makes Alice feel wise according to some versions of the story in an early draft of the book",
-          "zh": "这让爱丽丝觉得自己很有智慧（按书中另一种说法）（在书的早期草稿中）"
+          "en": "It makes Alice feel wise. Subjects like 'Reeling and Writhing' (for Reading and Writing) are puns that mock schooling.",
+          "zh": "这让爱丽丝觉得自己很有智慧。像'摇摆与扭动'(对应阅读与写作)这样的科目，是用双关语嘲弄学校教育。"
         }
       ],
       "answer": 1,
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To parody school and education with nonsense humor",
-          "zh": "用无厘头的幽默戏仿学校与教育"
+          "en": "To teach real science. Subjects like 'Reeling and Writhing' (for Reading and Writing) are puns that mock schooling.",
+          "zh": "为了传授真正的科学。像'摇摆与扭动'(对应阅读与写作)这样的科目，是用双关语嘲弄学校教育。"
+        },
+        {
+          "en": "To write a biography",
+          "zh": "为了写传记"
         },
         {
           "en": "To describe the ocean",
           "zh": "为了描写海洋"
         },
         {
-          "en": "To teach real science according to some versions of the story",
-          "zh": "为了传授真正的科学（按书中另一种说法）"
-        },
-        {
-          "en": "To write a biography",
-          "zh": "为了写传记"
+          "en": "To parody school and education with nonsense humor",
+          "zh": "用无厘头的幽默戏仿学校与教育"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The silly curriculum mocks strict Victorian schooling through Carroll's nonsense.",
@@ -283,20 +283,20 @@
       },
       "options": [
         {
-          "en": "To write a history of the sea",
-          "zh": "写一部海洋史"
+          "en": "To teach children to swim",
+          "zh": "教孩子们游泳"
         },
         {
           "en": "To entertain through absurd wordplay, mock morals, and a parody of school",
           "zh": "用荒唐的文字游戏、虚假的寓意说教以及对学校的戏仿来娱乐读者"
         },
         {
-          "en": "To explain how to play croquet according to some versions of the story in an early draft of the book",
-          "zh": "解释如何打槌球（按书中另一种说法）（在书的早期草稿中）"
+          "en": "To write a history of the sea",
+          "zh": "写一部海洋史"
         },
         {
-          "en": "To teach children to swim",
-          "zh": "教孩子们游泳"
+          "en": "To explain how to play croquet. Subjects like 'Reeling and Writhing' (for Reading and Writing) are puns that mock schooling.",
+          "zh": "解释如何打槌球。像'摇摆与扭动'(对应阅读与写作)这样的科目，是用双关语嘲弄学校教育。"
         }
       ],
       "answer": 1,
