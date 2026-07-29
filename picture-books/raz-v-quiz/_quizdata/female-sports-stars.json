@@ -13,8 +13,8 @@
       },
       "options": [
         {
-          "en": "Bethany Hamilton.",
-          "zh": "贝瑟尼·汉密尔顿。"
+          "en": "Serena Williams.",
+          "zh": "塞雷娜·威廉姆斯。"
         },
         {
           "en": "Mia Hamm.",
@@ -25,15 +25,15 @@
           "zh": "维纳斯·威廉姆斯。"
         },
         {
-          "en": "Serena Williams.",
-          "zh": "塞雷娜·威廉姆斯。"
+          "en": "Bethany Hamilton.",
+          "zh": "贝瑟尼·汉密尔顿。"
         }
       ],
       "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "The book calls Mia Hamm the world's best all-around women's soccer player.",
-        "zh": "书中称米娅·哈姆为世界上最全能的女子足球运动员。"
+        "en": "Mia Hamm the world's best all-around women's soccer player.",
+        "zh": "米娅·哈姆被公认为世界上最全能的女子足球运动员。"
       }
     },
     {
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "2 goals.",
-          "zh": "2个球。"
-        },
-        {
           "en": "158 goals.",
           "zh": "158个球。"
         },
         {
-          "en": "500 goals. according to some versions of the story",
-          "zh": "500个球。（按书中另一种说法）"
+          "en": "500 goals. Garrett developed aplastic anemia; Mia learned courage from his struggle and later founded a charity.",
+          "zh": "500个球。加勒特患上再生障碍性贫血，米娅从他的抗争中学会勇气，后来还创立了相关慈善机构。"
         },
         {
           "en": "10 goals.",
           "zh": "10个球。"
+        },
+        {
+          "en": "2 goals.",
+          "zh": "2个球。"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mia set the record as all-time leading scorer with 158 international goals.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "Seeing Virginia Ruzici win $22,000 at the French Open on TV in 1978.",
-          "zh": "1978年在电视上看到弗吉尼亚·鲁齐奇在法网赢得22,000美元。"
-        },
-        {
-          "en": "Reading a book about golf.",
-          "zh": "读一本关于高尔夫的书。"
+          "en": "Meeting a famous coach at school who offered to train them for free every weekend.",
+          "zh": "在学校遇到一位著名教练，他提出每个周末免费训练她们。"
         },
         {
           "en": "Watching a basketball game.",
           "zh": "观看一场篮球比赛。"
         },
         {
-          "en": "Meeting a famous coach at school. according to some versions of the story in an early draft of the book",
-          "zh": "在学校遇到一位著名教练。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Seeing Virginia Ruzici win $22,000 at the French Open on TV in 1978.",
+          "zh": "1978年在电视上看到弗吉尼亚·鲁齐奇在法网赢得22,000美元。"
+        },
+        {
+          "en": "Reading a book about golf.",
+          "zh": "读一本关于高尔夫的书。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Richard saw a tennis winner's prize on TV and believed his future daughters could be champions.",
@@ -103,10 +103,6 @@
       },
       "options": [
         {
-          "en": "A city in California. according to some versions of the story in an early draft of the book",
-          "zh": "加利福尼亚的一座城市。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "A type of tennis racket.",
           "zh": "一种网球拍。"
         },
@@ -117,13 +113,17 @@
         {
           "en": "A surfing move.",
           "zh": "一种冲浪动作。"
+        },
+        {
+          "en": "A city in California where Serena practiced tennis every day as a young girl.",
+          "zh": "加利福尼亚的一座城市，塞雷娜小时候每天都在那里练网球。"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
-        "en": "The book notes Serena named her clothing line Aneres, which is Serena spelled backward.",
-        "zh": "书中提到，塞雷娜把自创服装品牌命名为 Aneres，即 Serena 的倒写。"
+        "en": "Serena named her clothing line Aneres, which is Serena spelled backward.",
+        "zh": "塞雷娜把自创服装品牌命名为 Aneres，即 Serena 的倒写。"
       }
     },
     {
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "A tiger shark attacked her and tore off her left arm.",
-          "zh": "一只虎鲨袭击了她，咬掉了她的左臂。"
-        },
-        {
-          "en": "She met the president.",
-          "zh": "她见到了总统。"
-        },
-        {
           "en": "She broke her leg skiing.",
           "zh": "她滑雪时摔断了腿。"
         },
         {
-          "en": "She won a surfing championship. according to some versions of the story",
-          "zh": "她赢得了冲浪冠军。（按书中另一种说法）"
+          "en": "A tiger shark attacked her and tore off her left arm.",
+          "zh": "一只虎鲨袭击了她，咬掉了她的左臂。"
+        },
+        {
+          "en": "She won a surfing championship the very next month, just after leaving the hospital.",
+          "zh": "她在出院后第二个月就赢得了冲浪冠军。"
+        },
+        {
+          "en": "She met the president.",
+          "zh": "她见到了总统。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A 14-foot tiger shark attacked Bethany at Tunnels Beach and tore off her left arm.",
@@ -171,15 +171,15 @@
           "zh": "她自己游到了医院。"
         },
         {
-          "en": "A helicopter lifted her immediately. according to some versions of the story",
-          "zh": "一架直升机立刻把她吊起。（按书中另一种说法）"
-        },
-        {
           "en": "A surfer made a tourniquet from a surf leash and paddled her to shore.",
           "zh": "一名冲浪者用冲浪脚绳做了止血带，并划水把她送回岸边。"
+        },
+        {
+          "en": "A helicopter lifted her immediately and flew her straight to the hospital within minutes.",
+          "zh": "一架直升机立刻把她吊起，几分钟内就直接送到了医院。"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "A nearby surfer made a tourniquet from a rubber surf leash to control the bleeding.",
@@ -193,6 +193,10 @@
       },
       "options": [
         {
+          "en": "The Mia Hamm Foundation, which helps girls and women play soccer around the world.",
+          "zh": "米娅·哈姆基金会，它在全世界帮助女孩和妇女踢足球。"
+        },
+        {
           "en": "World Vision, for 'Surfing for Children in Crisis.'",
           "zh": "世界宣明会，发起'为困境儿童冲浪'活动。"
         },
@@ -201,15 +205,11 @@
           "zh": "美国宇航局。"
         },
         {
-          "en": "The Mia Hamm Foundation. according to some versions of the story",
-          "zh": "米娅·哈姆基金会。（按书中另一种说法）"
-        },
-        {
           "en": "The Red Cross.",
           "zh": "红十字会。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Bethany partnered with World Vision to create 'Surfing for Children in Crisis.'",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
-          "en": "He won an Olympic medal. according to some versions of the story in an early draft of the book",
-          "zh": "他赢得了奥运奖牌。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "His brave struggle with a blood disease taught her about courage.",
-          "zh": "他与血液病的勇敢抗争让她懂得了勇气。"
+          "en": "He won an Olympic medal and became famous as one of the best soccer stars.",
+          "zh": "他赢得了奥运奖牌，并作为最出色的足球明星之一而闻名。"
         },
         {
           "en": "He wrote her books.",
           "zh": "他为她写书。"
         },
         {
+          "en": "His brave struggle with a blood disease taught her about courage.",
+          "zh": "他与血液病的勇敢抗争让她懂得了勇气。"
+        },
+        {
           "en": "He was her tennis coach.",
           "zh": "他是她的网球教练。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Garrett developed aplastic anemia; Mia learned courage from his struggle and later founded a charity.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Winning is the only thing that matters. according to some versions of the story",
-          "zh": "赢是唯一重要的事。（按书中另一种说法）"
-        },
-        {
-          "en": "Give up if you fail once.",
-          "zh": "失败一次就放弃。"
-        },
-        {
           "en": "Only boys should play sports.",
           "zh": "只有男孩才应该运动。"
         },
         {
           "en": "Believe in yourself, work hard, and pursue your dreams.",
           "zh": "相信自己，努力拼搏，追求梦想。"
+        },
+        {
+          "en": "Winning is the only thing that matters, even more than your health or your friends.",
+          "zh": "赢是唯一重要的事，比健康和朋友都更重要。"
+        },
+        {
+          "en": "Give up if you fail once.",
+          "zh": "失败一次就放弃。"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The conclusion says their message is to believe in yourself, work hard, and pursue your dreams.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "A single player game.",
-          "zh": "单人对打。"
-        },
-        {
-          "en": "A kind of scholarship. according to some versions of the story",
-          "zh": "一种奖学金。（按书中另一种说法）"
-        },
-        {
           "en": "A game with two players on each side.",
           "zh": "每边各有两名选手的比赛。"
         },
         {
           "en": "A type of surfboard.",
           "zh": "一种冲浪板。"
+        },
+        {
+          "en": "A single player game.",
+          "zh": "单人对打。"
+        },
+        {
+          "en": "A kind of scholarship given to the top tennis players at the end of each year.",
+          "zh": "一种奖学金，每年年底颁发给顶尖网球选手。"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines doubles as a game with two players on each side.",

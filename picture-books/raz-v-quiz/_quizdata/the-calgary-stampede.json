@@ -13,6 +13,10 @@
       },
       "options": [
         {
+          "en": "The end of World War I",
+          "zh": "第一次世界大战的结束"
+        },
+        {
           "en": "The discovery of gold in Alberta",
           "zh": "在阿尔伯塔省发现黄金"
         },
@@ -23,13 +27,9 @@
         {
           "en": "Canada's independence day",
           "zh": "加拿大的独立日"
-        },
-        {
-          "en": "The end of World War I",
-          "zh": "第一次世界大战的结束"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The text says Calgary puts on the Stampede to celebrate its rich Western history.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "One week",
-          "zh": "一个星期"
+          "en": "Ten full days",
+          "zh": "整整十天"
         },
         {
-          "en": "A single weekend",
-          "zh": "一个周末"
+          "en": "One week",
+          "zh": "一个星期"
         },
         {
           "en": "Three days",
           "zh": "三天"
         },
         {
-          "en": "Ten full days",
-          "zh": "整整十天"
+          "en": "A single weekend",
+          "zh": "一个周末"
         }
       ],
-      "answer": 3,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "In the 1960s the event expanded from a week to ten full days.",
@@ -73,6 +73,10 @@
       },
       "options": [
         {
+          "en": "Food",
+          "zh": "食物"
+        },
+        {
           "en": "A fast race",
           "zh": "一场快速比赛"
         },
@@ -81,15 +85,11 @@
           "zh": "一顶牛仔帽"
         },
         {
-          "en": "Food",
-          "zh": "食物"
-        },
-        {
           "en": "A type of horse",
           "zh": "一种马"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The section explains chuck is an old cowboy word for food.",
@@ -107,16 +107,16 @@
           "zh": "盖伊·威迪克"
         },
         {
-          "en": "The Siksika nation",
-          "zh": "西克西卡部落"
-        },
-        {
           "en": "The Young Canadians",
           "zh": "加拿大少年表演团"
         },
         {
           "en": "A group of draft horses",
           "zh": "一群役用马"
+        },
+        {
+          "en": "The Siksika nation",
+          "zh": "西克西卡部落"
         }
       ],
       "answer": 0,
@@ -133,23 +133,23 @@
       },
       "options": [
         {
-          "en": "They sell food to the crowd",
-          "zh": "他们向观众售卖食物"
-        },
-        {
-          "en": "They clean the arena between events according to some versions of the story",
-          "zh": "他们在比赛间隙清理场地（按书中另一种说法）"
-        },
-        {
           "en": "They judge the riders costumes",
           "zh": "他们评判骑手的服装"
         },
         {
           "en": "They distract the bull so the rider can escape safely",
           "zh": "他们分散公牛注意力，让骑手安全脱身"
+        },
+        {
+          "en": "They clean the arena between events and repair the fences after each ride",
+          "zh": "他们在比赛间隙清理场地，并在每场骑乘后修补栅栏"
+        },
+        {
+          "en": "They sell food to the crowd",
+          "zh": "他们向观众售卖食物"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Rodeo clowns rush into the ring and distract the animal so the rider can escape.",
@@ -163,10 +163,6 @@
       },
       "options": [
         {
-          "en": "Proud and celebratory",
-          "zh": "自豪且充满赞美"
-        },
-        {
           "en": "Indifferent and bored",
           "zh": "漠不关心且无聊"
         },
@@ -175,11 +171,15 @@
           "zh": "对危险感到恐惧"
         },
         {
+          "en": "Proud and celebratory",
+          "zh": "自豪且充满赞美"
+        },
+        {
           "en": "Critical and disapproving",
           "zh": "批评且不赞成"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The author calls it the pride of Calgary and a unique and memorable celebration.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "The cost of each ticket",
-          "zh": "每张票的价格"
+          "en": "The days of the week",
+          "zh": "一周中的不同日子"
         },
         {
           "en": "The size of the animals",
           "zh": "动物的大小"
         },
         {
-          "en": "The days of the week",
-          "zh": "一周中的不同日子"
-        },
-        {
           "en": "The age of the performers",
           "zh": "表演者的年龄"
+        },
+        {
+          "en": "The cost of each ticket",
+          "zh": "每张票的价格"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Chapters are titled by day: Friday, Saturday, Sunday, Monday, Second Saturday, Second Sunday.",
@@ -227,19 +227,19 @@
           "zh": "超过1000磅"
         },
         {
-          "en": "Over 10,000 pounds",
-          "zh": "超过10000磅"
-        },
-        {
           "en": "Exactly 2,000 pounds",
           "zh": "正好2000磅"
+        },
+        {
+          "en": "Over 10,000 pounds",
+          "zh": "超过10000磅"
         },
         {
           "en": "About 500 pounds",
           "zh": "约500磅"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The text states champion teams may pull over 10,000 pounds.",
@@ -253,6 +253,10 @@
       },
       "options": [
         {
+          "en": "Watch the Grandstand Show and meet the champion bull riders backstage",
+          "zh": "观看大看台表演，并到后台面见骑牛冠军"
+        },
+        {
           "en": "Visit tipi homes and experience First Nation culture",
           "zh": "参观帐篷并体验第一民族的文化"
         },
@@ -261,15 +265,11 @@
           "zh": "观看大看台表演"
         },
         {
-          "en": "Ride the Sling Shot ride according to some versions of the story",
-          "zh": "乘坐“弹弓”游乐设施（按书中另一种说法）"
-        },
-        {
           "en": "Compete in bull riding",
           "zh": "参加骑牛比赛"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Visitors are welcome in the tipi homes to experience traditions, foods, and culture.",
@@ -283,8 +283,12 @@
       },
       "options": [
         {
-          "en": "They are required by law to volunteer according to some versions of the story",
-          "zh": "法律规定他们必须做志愿者（按书中另一种说法）"
+          "en": "They are paid a $100,000 prize",
+          "zh": "他们会获得10万美元奖金"
+        },
+        {
+          "en": "They are required by law to volunteer for at least two weeks each summer",
+          "zh": "法律规定他们每年夏天必须做至少两周的志愿者"
         },
         {
           "en": "The Stampede is the pride of Calgary and brings people together",
@@ -293,13 +297,9 @@
         {
           "en": "The food is free for workers",
           "zh": "工作人员的食物免费"
-        },
-        {
-          "en": "They are paid a $100,000 prize",
-          "zh": "他们会获得10万美元奖金"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The text says the Stampede is the pride of Calgary and brings its people together.",

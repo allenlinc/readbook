@@ -13,12 +13,12 @@
       },
       "options": [
         {
-          "en": "The stars block the Sun.",
-          "zh": "星星挡住了太阳。"
-        },
-        {
           "en": "The Earth blocks the Moon.",
           "zh": "地球挡住了月球。"
+        },
+        {
+          "en": "The stars block the Sun.",
+          "zh": "星星挡住了太阳。"
         },
         {
           "en": "The Sun blocks the Moon.",
@@ -32,8 +32,8 @@
       "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "The book says that during a solar eclipse, the Moon blocks out the Sun.",
-        "zh": "书中说，日食发生时月球把太阳遮挡住了。"
+        "en": "that during a solar eclipse, the Moon blocks out the Sun.",
+        "zh": "日食发生时月球把太阳遮挡住了。"
       }
     },
     {
@@ -47,19 +47,19 @@
           "zh": "月球上的火山喷发了。"
         },
         {
-          "en": "Red light from the Sun bends through Earth's atmosphere and reaches the Moon.",
-          "zh": "太阳的红光穿过地球大气层发生偏折，照到月球上。"
-        },
-        {
-          "en": "The Moon is painted red by dust storms. according to some versions of the story",
-          "zh": "月亮被沙尘暴染成了红色。（按书中另一种说法）"
-        },
-        {
           "en": "The Sun turns the Moon red directly.",
           "zh": "太阳直接把月亮染红。"
+        },
+        {
+          "en": "The Moon is painted red by dust storms that blow across its surface whenever an eclipse happens.",
+          "zh": "是沙尘暴把月亮染红的，每次发生月食时沙尘都会吹过月面。"
+        },
+        {
+          "en": "Red light from the Sun bends through Earth's atmosphere and reaches the Moon.",
+          "zh": "太阳的红光穿过地球大气层发生偏折，照到月球上。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Earth's atmosphere scatters red light, which then falls on the Moon during a lunar eclipse.",
@@ -77,12 +77,12 @@
           "zh": "一条龙正在吞食太阳。"
         },
         {
-          "en": "The Moon exploded.",
-          "zh": "月亮爆炸了。"
+          "en": "A comet hit the Earth and knocked the Sun out of the sky for a short time.",
+          "zh": "一颗彗星撞上地球，把太阳撞出了天空好一阵子。"
         },
         {
-          "en": "A comet hit Earth. according to some versions of the story",
-          "zh": "一颗彗星撞上了地球。（按书中另一种说法）"
+          "en": "The Moon exploded.",
+          "zh": "月亮爆炸了。"
         },
         {
           "en": "The stars moved.",
@@ -92,8 +92,8 @@
       "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "The book says ancient Chinese thought a dragon was eating the Sun and banged drums to scare it away.",
-        "zh": "书中说，古代中国人认为龙在吞食太阳，于是敲鼓把它吓走。"
+        "en": "ancient Chinese thought a dragon was eating the Sun and banged drums to scare it away.",
+        "zh": "古代中国人认为龙在吞食太阳，于是敲鼓把它吓走。"
       }
     },
     {
@@ -103,20 +103,20 @@
       },
       "options": [
         {
-          "en": "A war in China.",
-          "zh": "中国的一场战争。"
+          "en": "The Battle of Gettysburg, a famous fight from the American Civil War.",
+          "zh": "葛底斯堡战役，美国内战中一场著名的战斗。"
         },
         {
-          "en": "The Battle of Gettysburg. according to some versions of the story",
-          "zh": "葛底斯堡战役。（按书中另一种说法）"
+          "en": "The Trojan War.",
+          "zh": "特洛伊战争。"
         },
         {
           "en": "The battle between the Lydians and the Medes.",
           "zh": "吕底亚人与米底人之间的战斗。"
         },
         {
-          "en": "The Trojan War.",
-          "zh": "特洛伊战争。"
+          "en": "A war in China.",
+          "zh": "中国的一场战争。"
         }
       ],
       "answer": 2,
@@ -137,19 +137,19 @@
           "zh": "地球挡住了月球。"
         },
         {
-          "en": "The Moon is farther away, leaving a bright ring of Sun around it.",
-          "zh": "月球距离较远，在它周围留下一圈明亮的太阳光环。"
-        },
-        {
-          "en": "The Sun disappears completely for an hour. according to some versions of the story",
-          "zh": "太阳完全消失长达一小时。（按书中另一种说法）"
+          "en": "The Sun disappears completely for an hour while the Moon passes directly in front of it.",
+          "zh": "太阳会彻底消失整整一小时，因为月球正好从它前面经过。"
         },
         {
           "en": "The Moon turns blue.",
           "zh": "月亮变成了蓝色。"
+        },
+        {
+          "en": "The Moon is farther away, leaving a bright ring of Sun around it.",
+          "zh": "月球距离较远，在它周围留下一圈明亮的太阳光环。"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "When the Moon is farther away it looks smaller, leaving a ring of Sun—an annular eclipse.",
@@ -163,27 +163,27 @@
       },
       "options": [
         {
-          "en": "Edmond Halley.",
-          "zh": "埃德蒙·哈雷。"
-        },
-        {
-          "en": "Albert Einstein.",
-          "zh": "阿尔伯特·爱因斯坦。"
+          "en": "Ptolemy.",
+          "zh": "托勒密。"
         },
         {
           "en": "Isaac Newton.",
           "zh": "艾萨克·牛顿。"
         },
         {
-          "en": "Ptolemy.",
-          "zh": "托勒密。"
+          "en": "Edmond Halley.",
+          "zh": "埃德蒙·哈雷。"
+        },
+        {
+          "en": "Albert Einstein.",
+          "zh": "阿尔伯特·爱因斯坦。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "The book says Edmond Halley was the first scientist to accurately predict solar eclipses.",
-        "zh": "书中说埃德蒙·哈雷是首位能准确预测日食的科学家。"
+        "en": "Edmond Halley was the first scientist to accurately predict solar eclipses.",
+        "zh": "埃德蒙·哈雷是首位能准确预测日食的科学家。"
       }
     },
     {
@@ -193,8 +193,8 @@
       },
       "options": [
         {
-          "en": "The stars are too bright.",
-          "zh": "星星太亮了。"
+          "en": "It makes you fall asleep, because the darkened sky tricks your brain into resting.",
+          "zh": "它会让人犯困睡着，因为变暗的天空让大脑误以为该休息了。"
         },
         {
           "en": "The Moon is too close.",
@@ -205,8 +205,8 @@
           "zh": "即使没有痛感，也会损伤眼睛。"
         },
         {
-          "en": "It makes you fall asleep. according to some versions of the story",
-          "zh": "它会让人睡着。（按书中另一种说法）"
+          "en": "The stars are too bright.",
+          "zh": "星星太亮了。"
         }
       ],
       "answer": 2,
@@ -223,27 +223,27 @@
       },
       "options": [
         {
-          "en": "Indirectly, using a pinhole projector.",
-          "zh": "用针孔投影仪间接观看。"
-        },
-        {
-          "en": "With regular sunglasses. according to some versions of the story",
-          "zh": "戴普通太阳镜。（按书中另一种说法）"
-        },
-        {
           "en": "Through a telescope.",
           "zh": "通过望远镜。"
         },
         {
+          "en": "With regular sunglasses, which block enough sunlight to keep your eyes safe.",
+          "zh": "戴普通太阳镜，它能挡住足够多的阳光，保护眼睛。"
+        },
+        {
           "en": "By staring at the Sun.",
           "zh": "直接盯着太阳看。"
+        },
+        {
+          "en": "Indirectly, using a pinhole projector.",
+          "zh": "用针孔投影仪间接观看。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
-        "en": "The book recommends a pinhole projector that focuses sunlight onto a flat surface safely.",
-        "zh": "书中推荐使用针孔投影仪，把阳光安全地投射到平面上观看。"
+        "en": "A pinhole projector that focuses sunlight onto a flat surface safely.",
+        "zh": "针孔投影仪，把阳光安全地投射到平面上观看。"
       }
     },
     {
@@ -253,8 +253,8 @@
       },
       "options": [
         {
-          "en": "The Moon's shadow.",
-          "zh": "月球的影子。"
+          "en": "A kind of telescope that astronomers use to study distant stars at night.",
+          "zh": "一种望远镜，天文学家在夜晚用它观测遥远的星星。"
         },
         {
           "en": "The Sun's outer hot gases seen when the Moon blocks the Sun.",
@@ -265,8 +265,8 @@
           "zh": "一种食的类型。"
         },
         {
-          "en": "A kind of telescope. according to some versions of the story in an early draft of the book",
-          "zh": "一种望远镜。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "The Moon's shadow.",
+          "zh": "月球的影子。"
         }
       ],
       "answer": 1,
@@ -283,26 +283,26 @@
       },
       "options": [
         {
-          "en": "To describe the planets.",
-          "zh": "描述各个行星。"
-        },
-        {
-          "en": "To teach how to build telescopes. according to some versions of the story in an early draft of the book",
-          "zh": "教人如何制造望远镜。（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "To tell a myth about dragons.",
           "zh": "讲述关于龙的神话。"
         },
         {
+          "en": "To describe the planets.",
+          "zh": "描述各个行星。"
+        },
+        {
           "en": "To explain what causes eclipses and how to view and predict them safely.",
           "zh": "解释日食与月食的成因，以及如何安全观看和预测。"
+        },
+        {
+          "en": "To teach readers how to build their own telescopes at home and then sell them for profit.",
+          "zh": "教读者如何自己制造望远镜，再拿去卖钱赚钱。"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
-        "en": "The book informs readers about eclipse causes, history, prediction, and safe viewing.",
+        "en": "Readers learn about eclipse causes, history, how to predict them, and how to view them safely., history, prediction, and safe viewing.",
         "zh": "本书向读者介绍食的成因、历史、预测方法以及安全观看方式。"
       }
     }

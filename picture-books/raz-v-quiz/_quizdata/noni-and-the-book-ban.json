@@ -13,10 +13,6 @@
       },
       "options": [
         {
-          "en": "The school librarian.",
-          "zh": "学校图书管理员。"
-        },
-        {
           "en": "A dentist.",
           "zh": "一名牙医。"
         },
@@ -25,11 +21,15 @@
           "zh": "校报《惠特莫尔周报》的记者。"
         },
         {
-          "en": "The author of the banned books. according to some versions of the story",
-          "zh": "被禁书籍的作者。（按书中另一种说法）"
+          "en": "The author of the banned books that turns out to be only a guess",
+          "zh": "被禁书籍的作者，结果只是个猜测"
+        },
+        {
+          "en": "The school librarian.",
+          "zh": "学校图书管理员。"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Noni is a staff reporter with the Whitmore Weekly who covers the book ban story.",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "A parent complained about them.",
-          "zh": "一位家长投诉了这些书。"
-        },
-        {
           "en": "They were lost.",
           "zh": "书弄丢了。"
         },
         {
-          "en": "They were too old.",
-          "zh": "书太旧了。"
+          "en": "A parent complained about them.",
+          "zh": "一位家长投诉了这些书。"
         },
         {
-          "en": "The library closed. according to some versions of the story",
-          "zh": "图书馆关门了。（按书中另一种说法）"
+          "en": "The library closed that sounds right but is not",
+          "zh": "图书馆关门了，听起来对其实不然"
+        },
+        {
+          "en": "They were too old.",
+          "zh": "书太旧了。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mrs. McGuinness pulled the books after a parent complained and until they could be reviewed.",
@@ -73,16 +73,16 @@
       },
       "options": [
         {
-          "en": "She is a librarian.",
-          "zh": "她是一名图书管理员。"
+          "en": "She is a reporter.",
+          "zh": "她是一名记者。"
         },
         {
           "en": "She is a dentist.",
           "zh": "她是一名牙医。"
         },
         {
-          "en": "She is a reporter.",
-          "zh": "她是一名记者。"
+          "en": "She is a librarian.",
+          "zh": "她是一名图书管理员。"
         },
         {
           "en": "She is a pilot.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "Eating more candy. according to some versions of the story",
-          "zh": "多吃糖果。（按书中另一种说法）"
-        },
-        {
-          "en": "Dental hygiene in a fun way.",
-          "zh": "以有趣的方式提倡牙齿健康。"
+          "en": "Climbing mountains.",
+          "zh": "爬山。"
         },
         {
           "en": "Skipping school.",
           "zh": "逃学。"
         },
         {
-          "en": "Climbing mountains.",
-          "zh": "爬山。"
+          "en": "Dental hygiene in a fun way.",
+          "zh": "以有趣的方式提倡牙齿健康。"
+        },
+        {
+          "en": "Eating more candy that looks true in a picture",
+          "zh": "多吃糖果，在图里看起来像真的"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Dan Eaton wrote that he wanted to promote dental hygiene in a fun way, using reverse psychology.",
@@ -137,16 +137,16 @@
           "zh": "第二修正案。"
         },
         {
-          "en": "The Nineteenth Amendment. according to some versions of the story",
-          "zh": "第十九修正案。（按书中另一种说法）"
+          "en": "The Tenth Amendment.",
+          "zh": "第十修正案。"
         },
         {
           "en": "The First Amendment (freedom of speech).",
           "zh": "第一修正案（言论自由）。"
         },
         {
-          "en": "The Tenth Amendment.",
-          "zh": "第十修正案。"
+          "en": "The Nineteenth Amendment explained with a simple drawing",
+          "zh": "第十九修正案，用一幅简图来解释"
         }
       ],
       "answer": 2,
@@ -163,12 +163,8 @@
       },
       "options": [
         {
-          "en": "Through the librarian's secret diary. according to some versions of the story",
-          "zh": "通过图书管理员的秘密日记。（按书中另一种说法）"
-        },
-        {
-          "en": "Through a science textbook lesson.",
-          "zh": "通过一本科普教科书的讲解。"
+          "en": "Through the librarian's secret diary mentioned only in passing",
+          "zh": "通过图书管理员的秘密日记，只是一笔带过"
         },
         {
           "en": "Through a police crime report.",
@@ -177,9 +173,13 @@
         {
           "en": "Through Noni's reports as a school newspaper journalist.",
           "zh": "通过诺妮作为校报记者的报道。"
+        },
+        {
+          "en": "Through a science textbook lesson.",
+          "zh": "通过一本科普教科书的讲解。"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The story is told through Noni Lopez, a student reporter for the Whitmore Weekly, who covers the events as they happen.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "They are books that students choose for themselves.",
-          "zh": "是学生自己挑选来看的书。"
-        },
-        {
-          "en": "They are required for every class. according to some versions of the story",
-          "zh": "每门课都必须读。（按书中另一种说法）"
-        },
-        {
-          "en": "They are chosen only by parents.",
-          "zh": "只由家长挑选。"
+          "en": "They are required for every class that surprises many readers",
+          "zh": "每门课都必须读，让许多读者感到意外"
         },
         {
           "en": "They are all banned.",
           "zh": "全部都被禁了。"
+        },
+        {
+          "en": "They are books that students choose for themselves.",
+          "zh": "是学生自己挑选来看的书。"
+        },
+        {
+          "en": "They are chosen only by parents.",
+          "zh": "只由家长挑选。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "She explained that library books are ones students choose for themselves, so free-speech rights are strongest there.",
@@ -227,19 +227,19 @@
           "zh": "5比0禁书。"
         },
         {
-          "en": "Tie, so they stayed banned. according to some versions of the story",
-          "zh": "平票，因此维持禁书。（按书中另一种说法）"
+          "en": "3 to 2 to restore the books to the shelf.",
+          "zh": "3比2，决定将书放回书架。"
         },
         {
           "en": "Unanimous to ban them.",
           "zh": "一致决定禁书。"
         },
         {
-          "en": "3 to 2 to restore the books to the shelf.",
-          "zh": "3比2，决定将书放回书架。"
+          "en": "Tie, so they stayed banned described at the very end",
+          "zh": "平票，因此维持禁书，在末尾才提到"
         }
       ],
-      "answer": 3,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "On a 3-2 vote, the committee decided to restore the Sergeant Rotten Teeth series.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "Dan Eaton.",
-          "zh": "丹·伊顿。"
-        },
-        {
           "en": "Noni Lopez, the student committee member.",
           "zh": "学生委员诺妮·洛佩兹。"
         },
         {
-          "en": "Ashley's mother. according to some versions of the story",
-          "zh": "阿什利的母亲。（按书中另一种说法）"
-        },
-        {
           "en": "The principal.",
           "zh": "校长。"
+        },
+        {
+          "en": "Dan Eaton.",
+          "zh": "丹·伊顿。"
+        },
+        {
+          "en": "Ashley's mother that turns out to be only a guess",
+          "zh": "阿什利的母亲，结果只是个猜测"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Student committee member Noni Lopez cast the decisive vote to bring the books back.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "LBJ: 'Books and ideas are the most effective weapon against intolerance and ignorance.'",
-          "zh": "林登·约翰逊：'书籍与思想是对抗偏狭与无知最有力的武器。'"
-        },
-        {
           "en": "A local dentist's slogan.",
           "zh": "当地牙医的口号。"
         },
         {
-          "en": "Einstein: 'Imagination is more important than knowledge.' according to some versions of the story",
-          "zh": "爱因斯坦：'想象力比知识更重要。'（按书中另一种说法）"
-        },
-        {
           "en": "Shakespeare: 'To be or not to be.'",
           "zh": "莎士比亚：'生存还是毁灭。'"
+        },
+        {
+          "en": "Einstein: 'Imagination is more important than knowledge.' that sounds right but is not. This is a common mistake to watch for",
+          "zh": "爱因斯坦：'想象力比知识更重要。'，听起来对其实不然。这是一个常见的易错点"
+        },
+        {
+          "en": "LBJ: 'Books and ideas are the most effective weapon against intolerance and ignorance.'",
+          "zh": "林登·约翰逊：'书籍与思想是对抗偏狭与无知最有力的武器。'"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Noni opened her package with LBJ's quote about books and ideas fighting intolerance and ignorance.",

@@ -13,20 +13,20 @@
       },
       "options": [
         {
-          "en": "Climbing a mountain.",
-          "zh": "爬山。"
+          "en": "Growing your own food instead of using the long trade routes across North America.",
+          "zh": "自己种粮食，而不是借助横跨北美的漫长贸易路线。"
         },
         {
           "en": "An exchange of one thing for another.",
           "zh": "用一件东西交换另一件东西。"
         },
         {
-          "en": "Writing a book.",
-          "zh": "写一本书。"
+          "en": "Climbing a mountain.",
+          "zh": "爬山。"
         },
         {
-          "en": "Growing your own food. according to some versions of the story",
-          "zh": "自己种粮食。（按书中另一种说法）"
+          "en": "Writing a book.",
+          "zh": "写一本书。"
         }
       ],
       "answer": 1,
@@ -43,8 +43,8 @@
       },
       "options": [
         {
-          "en": "By reading yesterday's newspaper. according to some versions of the story",
-          "zh": "读昨天的报纸。（按书中另一种说法）"
+          "en": "By watching TV commercials.",
+          "zh": "看电视广告。"
         },
         {
           "en": "By flying in a plane.",
@@ -55,8 +55,8 @@
           "zh": "通过口头传统和考古学。"
         },
         {
-          "en": "By watching TV commercials.",
-          "zh": "看电视广告。"
+          "en": "By reading yesterday's newspaper instead of studying archaeology and oral tradition.",
+          "zh": "读昨天的报纸，而不是研究考古学和口头传统。"
         }
       ],
       "answer": 2,
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "The study of people through the things they leave behind.",
-          "zh": "通过人们留下的物品来研究人类。"
-        },
-        {
           "en": "A type of volcano.",
           "zh": "一种火山。"
+        },
+        {
+          "en": "The art of trading cards, which archaeologists find buried with ancient tools and graves.",
+          "zh": "交易卡牌的艺术，考古学家会在古代工具和坟墓旁发现它。"
         },
         {
           "en": "The study of stars.",
           "zh": "研究星星的学问。"
         },
         {
-          "en": "The art of trading cards. according to some versions of the story",
-          "zh": "交易卡牌的艺术。（按书中另一种说法）"
+          "en": "The study of people through the things they leave behind.",
+          "zh": "通过人们留下的物品来研究人类。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Archaeology is the study of people through the things they leave behind, such as trash, buildings, and graves.",
@@ -103,12 +103,12 @@
       },
       "options": [
         {
-          "en": "A type of rock.",
-          "zh": "一种岩石。"
+          "en": "A kind of animal that traders carried along the long routes as a common commodity.",
+          "zh": "一种动物，商人们把它当作普通商品，沿着漫长路线运送。"
         },
         {
-          "en": "A kind of animal. according to some versions of the story",
-          "zh": "一种动物。（按书中另一种说法）"
+          "en": "A type of rock.",
+          "zh": "一种岩石。"
         },
         {
           "en": "Something that is traded, such as gold or seashells.",
@@ -133,12 +133,12 @@
       },
       "options": [
         {
-          "en": "They were easy to eat.",
-          "zh": "因为它们好吃。"
+          "en": "They were heavy on purpose so traders could build stronger boats from them.",
+          "zh": "它们故意做得沉重，好让商人用它们造出更结实的船。"
         },
         {
-          "en": "They were heavy on purpose. according to some versions of the story",
-          "zh": "它们故意做得很重。（按书中另一种说法）"
+          "en": "They were easy to eat.",
+          "zh": "因为它们好吃。"
         },
         {
           "en": "They were used as pillows.",
@@ -163,8 +163,12 @@
       },
       "options": [
         {
-          "en": "It is found only in Mexico. according to some versions of the story",
-          "zh": "它只产于墨西哥。（按书中另一种说法）"
+          "en": "It is found only in Mexico, far from the Colorado trade routes with shells.",
+          "zh": "它只产于墨西哥，远离那些用贝壳交易的科罗拉多路线。"
+        },
+        {
+          "en": "It is a kind of shell.",
+          "zh": "它是一种贝壳。"
         },
         {
           "en": "It is pure and does not need smelting.",
@@ -173,13 +177,9 @@
         {
           "en": "It melts in water.",
           "zh": "它在水中会融化。"
-        },
-        {
-          "en": "It is a kind of shell.",
-          "zh": "它是一种贝壳。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Native copper is very pure and can be used without smelting, unlike copper ore which must be heated.",
@@ -193,23 +193,23 @@
       },
       "options": [
         {
-          "en": "By examining its tiny trace chemicals.",
-          "zh": "通过检测其中微量的化学成分。"
-        },
-        {
           "en": "By listening to it.",
           "zh": "听它的声音。"
         },
         {
-          "en": "By counting its colors. according to some versions of the story",
-          "zh": "数它的颜色。（按书中另一种说法）"
-        },
-        {
           "en": "By measuring its smell.",
           "zh": "闻它的气味。"
+        },
+        {
+          "en": "By examining its tiny trace chemicals.",
+          "zh": "通过检测其中微量的化学成分。"
+        },
+        {
+          "en": "By counting its colors, the way traders once sorted shells and copper.",
+          "zh": "数它的颜色，就像商人当年分拣贝壳和铜那样。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Obsidian from different areas has different trace chemicals, so scientists can match it to its source.",
@@ -223,20 +223,20 @@
       },
       "options": [
         {
-          "en": "The shell was a fish.",
-          "zh": "那贝壳其实是一条鱼。"
+          "en": "Colorado was once underwater, which is why no shells from the Gulf were ever found there.",
+          "zh": "科罗拉多曾在水下，所以那里从未发现过来自墨西哥湾的贝壳。"
         },
         {
           "en": "Colorado traded with people near the Gulf of Mexico.",
           "zh": "科罗拉多人与墨西哥湾附近的人有过贸易。"
         },
         {
-          "en": "Colorado was once underwater. according to some versions of the story",
-          "zh": "科罗拉多曾在水下。（按书中另一种说法）"
-        },
-        {
           "en": "The shell came from a bird.",
           "zh": "那贝壳来自一只鸟。"
+        },
+        {
+          "en": "The shell was a fish.",
+          "zh": "那贝壳其实是一条鱼。"
         }
       ],
       "answer": 1,
@@ -253,16 +253,16 @@
       },
       "options": [
         {
-          "en": "Parrots are a type of fish.",
-          "zh": "鹦鹉是一种鱼。"
-        },
-        {
           "en": "Parrots were common local pets.",
           "zh": "鹦鹉是当地常见的宠物。"
         },
         {
-          "en": "Parrots can fly very far north naturally. according to some versions of the story",
-          "zh": "鹦鹉天生能飞到很北的地方。（按书中另一种说法）"
+          "en": "Parrots are a type of fish.",
+          "zh": "鹦鹉是一种鱼。"
+        },
+        {
+          "en": "Parrots can fly very far north naturally, reaching the Colorado camps where bones were found.",
+          "zh": "鹦鹉天生能飞到很北的地方，一直飞到发现骨头的科罗拉多营地。"
         },
         {
           "en": "Parrots normally live only in Central or South America.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
-          "en": "The Mississippi River.",
-          "zh": "密西西比河。"
-        },
-        {
           "en": "The Nile River.",
           "zh": "尼罗河。"
         },
         {
-          "en": "The Amazon River. according to some versions of the story",
-          "zh": "亚马逊河。（按书中另一种说法）"
+          "en": "The Amazon River, a route used by traders in South America.",
+          "zh": "亚马逊河，南美洲商人使用的一条路线。"
+        },
+        {
+          "en": "The Mississippi River.",
+          "zh": "密西西比河。"
         },
         {
           "en": "The Yangtze River.",
           "zh": "长江。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The conclusion notes the Mississippi River was an important trade route connecting much of North America.",

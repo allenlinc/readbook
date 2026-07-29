@@ -13,27 +13,27 @@
       },
       "options": [
         {
-          "en": "One hundred years.",
-          "zh": "100年。"
-        },
-        {
           "en": "Ten years.",
           "zh": "10年。"
         },
         {
-          "en": "Two years.",
-          "zh": "2年。"
+          "en": "One hundred years.",
+          "zh": "100年。"
         },
         {
           "en": "Forty-one years.",
           "zh": "41年。"
+        },
+        {
+          "en": "Two years.",
+          "zh": "2年。"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
-        "en": "The book says it was the tallest building in the world for forty-one years.",
-        "zh": "书中说它是世界最高建筑，保持了41年。"
+        "en": "it was the tallest building in the world for forty-one years.",
+        "zh": "它是世界最高建筑，保持了41年。"
       }
     },
     {
@@ -47,12 +47,12 @@
           "zh": "英国国王。"
         },
         {
-          "en": "A group of movie stars. according to some versions of the story",
-          "zh": "一群电影明星。（按书中另一种说法）"
-        },
-        {
           "en": "The Waldorf family.",
           "zh": "华尔道夫家族。"
+        },
+        {
+          "en": "A group of famous movie stars who wanted a tall tower to use in their films.",
+          "zh": "一群著名电影明星，他们想要一座高塔来拍电影。"
         },
         {
           "en": "Alfred E. Smith and John J. Raskob.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "The Waldorf-Astoria Hotel.",
-          "zh": "华尔道夫-阿斯托里亚酒店。"
-        },
-        {
           "en": "A farm.",
           "zh": "一个农场。"
         },
         {
-          "en": "A sports stadium. according to some versions of the story",
-          "zh": "一座体育场。（按书中另一种说法）"
+          "en": "The Waldorf-Astoria Hotel.",
+          "zh": "华尔道夫-阿斯托里亚酒店。"
+        },
+        {
+          "en": "A sports stadium where the city's baseball team used to play its home games.",
+          "zh": "一座体育场，城里棒球队曾在这里打主场比赛。"
         },
         {
           "en": "A small school.",
           "zh": "一所小学校。"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The team bought and demolished the famous Waldorf-Astoria Hotel to make room for the tower.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "The weather was always stormy. according to some versions of the story in an early draft of the book",
-          "zh": "天气总是狂风暴雨。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Its art deco design used ready-made parts, rising 4.5 floors a week.",
+          "zh": "它的装饰艺术风格采用现成构件，每周能盖4.5层。"
+        },
+        {
+          "en": "The weather was always stormy, so the crews could only work during short, rare breaks in the clouds.",
+          "zh": "天气总是狂风暴雨，工人们只能趁云层罕见的短暂间隙施工。"
         },
         {
           "en": "It was built by robots.",
           "zh": "它由机器人建造。"
         },
         {
-          "en": "Its art deco design used ready-made parts, rising 4.5 floors a week.",
-          "zh": "它的装饰艺术风格采用现成构件，每周能盖4.5层。"
-        },
-        {
           "en": "Workers never slept or ate.",
           "zh": "工人从不睡觉也不吃饭。"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Pre-drilled steel and ready-to-use supplies let the building rise at a remarkable rate.",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "'Sand bags.'",
+          "zh": "'沙袋'。"
+        },
+        {
           "en": "'Moon men.'",
           "zh": "'月球人'。"
         },
@@ -141,15 +145,11 @@
           "zh": "'天空男孩'（sky boys）。"
         },
         {
-          "en": "'Sand bags.'",
-          "zh": "'沙袋'。"
-        },
-        {
-          "en": "'River rats.' according to some versions of the story",
-          "zh": "'河鼠'。（按书中另一种说法）"
+          "en": "'River rats,' because they lived near the water and went fishing after every shift.",
+          "zh": "'河鼠'，因为他们住在水边，每班结束后都去钓鱼。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Craft and Structure",
       "explain": {
         "en": "Reporters called the daring steelworkers 'sky boys' as they balanced on narrow beams.",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "A stopping spot for airships (dirigibles).",
-          "zh": "作为飞艇（飞船）的停靠点。"
-        },
-        {
-          "en": "A radio tower for music. according to some versions of the story",
-          "zh": "播放音乐的电台塔。（按书中另一种说法）"
-        },
-        {
           "en": "A water tank.",
           "zh": "一个水塔。"
         },
         {
+          "en": "A radio tower for playing music that everyone in the city could hear for free.",
+          "zh": "一座播放音乐的电台塔，全城的人都能免费收听。"
+        },
+        {
           "en": "A bird cage.",
           "zh": "一个鸟笼。"
+        },
+        {
+          "en": "A stopping spot for airships (dirigibles).",
+          "zh": "作为飞艇（飞船）的停靠点。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Al Smith wanted the spire to be a dock where airship passengers could step off.",
@@ -197,19 +197,19 @@
           "zh": "五十个州。"
         },
         {
-          "en": "Five states.",
-          "zh": "五个州。"
-        },
-        {
           "en": "One state.",
           "zh": "一个州。"
+        },
+        {
+          "en": "Five states.",
+          "zh": "五个州。"
         },
         {
           "en": "Ten states.",
           "zh": "十个州。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "From the top you can see New York, New Jersey, Connecticut, Massachusetts, and Pennsylvania.",
@@ -223,6 +223,10 @@
       },
       "options": [
         {
+          "en": "Local children.",
+          "zh": "当地儿童。"
+        },
+        {
           "en": "The U.S. Navy.",
           "zh": "美国海军。"
         },
@@ -231,15 +235,11 @@
           "zh": "莫霍克族。"
         },
         {
-          "en": "College students. according to some versions of the story",
-          "zh": "大学生。（按书中另一种说法）"
-        },
-        {
-          "en": "Local children.",
-          "zh": "当地儿童。"
+          "en": "College students on summer break who needed money to pay for school.",
+          "zh": "放暑假的大学生，他们需要挣钱交学费。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The best crews came from the Mohawk Nation and could set a rivet every minute.",
@@ -253,26 +253,26 @@
       },
       "options": [
         {
-          "en": "To inform readers how and why the Empire State Building was built and why it matters.",
-          "zh": "向读者介绍帝国大厦的建造过程、原因及其重要性。"
+          "en": "To teach cooking recipes.",
+          "zh": "教烹饪食谱。"
         },
         {
           "en": "To tell a fairy tale.",
           "zh": "讲述一个童话故事。"
         },
         {
-          "en": "To sell airplane tickets. according to some versions of the story in an early draft of the book",
-          "zh": "推销飞机票。（按书中另一种说法）（在书的早期草稿中）"
+          "en": "To sell airplane tickets, hotel rooms, and travel packages from the building's famous top observation deck.",
+          "zh": "为了从大楼著名的顶层观景台出售机票、酒店房间和旅行套餐。"
         },
         {
-          "en": "To teach cooking recipes.",
-          "zh": "教烹饪食谱。"
+          "en": "To inform readers how and why the Empire State Building was built and why it matters.",
+          "zh": "向读者介绍帝国大厦的建造过程、原因及其重要性。"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
-        "en": "The book is an informational text about the landmark's history, construction, and importance.",
+        "en": "Empire State Building is an informational text about the landmark's history, construction, and importance.",
         "zh": "本书是介绍这一地标的历史、建造过程和重要性的知识性读物。"
       }
     },
@@ -287,19 +287,19 @@
           "zh": "一种电梯。"
         },
         {
-          "en": "The top of a building. according to some versions of the story",
-          "zh": "建筑物的顶部。（按书中另一种说法）"
+          "en": "A type of window.",
+          "zh": "一种窗户。"
+        },
+        {
+          "en": "The top of a building, where the spire, the antenna, and the lights are all placed.",
+          "zh": "建筑物的顶部，尖塔、天线和灯具都安置在那里。"
         },
         {
           "en": "A layer of solid rock underneath the ground's surface.",
           "zh": "地表下方的一层坚硬岩石。"
-        },
-        {
-          "en": "A type of window.",
-          "zh": "一种窗户。"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Craft and Structure",
       "explain": {
         "en": "The glossary defines bedrock as a layer of solid rock beneath the ground's surface.",
