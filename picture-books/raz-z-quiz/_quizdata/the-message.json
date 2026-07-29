@@ -13,23 +13,23 @@
       },
       "options": [
         {
-          "en": "On a cliff above the English Channel, where Germans built bunkers with four huge guns",
-          "zh": "在英吉利海峡上方的悬崖上，德国人在那里修建了带四门巨炮的碉堡"
-        },
-        {
-          "en": "In Paris, with a radio station according to some versions of the story in an early draft of the book",
-          "zh": "在巴黎，带一个广播电台（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "Near the barn, with a school",
           "zh": "在谷仓附近，带一所学校"
         },
         {
           "en": "In the mountains, with a factory",
           "zh": "在山里，带一座工厂"
+        },
+        {
+          "en": "On a cliff above the English Channel, where Germans built bunkers with four huge guns",
+          "zh": "在英吉利海峡上方的悬崖上，德国人在那里修建了带四门巨炮的碉堡"
+        },
+        {
+          "en": "In Paris, with a radio station. 'I count steps every day—how many steps across a room, or to the barn—I can remember any number of steps.' Pierre notes, 'The Germans don't suspect a blind kid of doing anything important.'",
+          "zh": "在巴黎，带一个广播电台。'我每天都数步数——穿过房间多少步，走到谷仓多少步——我能记住任意步数。'皮埃尔说：'德国人不会怀疑一个瞎眼孩子能做什么要紧事。'"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'my family's farm is high on a cliff above the English Channel... the Germans built bunkers on our land... hiding four huge guns.'",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "He wrote them in a notebook according to some versions of the story",
-          "zh": "他记在笔记本里（按书中另一种说法）"
-        },
-        {
-          "en": "He is blind and memorizes by counting steps everywhere",
-          "zh": "他双目失明，靠数步数来记忆一切位置"
-        },
-        {
           "en": "Pierre told him",
           "zh": "皮埃尔告诉他的"
         },
         {
+          "en": "He wrote them in a notebook. Jacques remembers the pole 'is 2.7 kilometers west of the fishing boat harbor' just in time; Pierre says the info should help 'knock out the Germans' guns' before troops storm the beaches.",
+          "zh": "他记在笔记本里。雅克在最后一刻想起观察杆'位于渔港以西2.7公里'；皮埃尔说这些情报应能帮盟军在部队抢滩前'摧毁德国人的火炮'。"
+        },
+        {
           "en": "He drew a map",
           "zh": "他画了一张地图"
+        },
+        {
+          "en": "He is blind and memorizes by counting steps everywhere",
+          "zh": "他双目失明，靠数步数来记忆一切位置"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "'I count steps every day—how many steps across a room, or to the barn—I can remember any number of steps.' Pierre notes, 'The Germans don't suspect a blind kid of doing anything important.'",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
+          "en": "Because the BBC only allows short calls",
+          "zh": "因为BBC只允许简短呼叫"
+        },
+        {
           "en": "Because the Germans need ten minutes to pinpoint a transmission, so under nine keeps the broadcasters safe",
           "zh": "因为德军需要十分钟才能定位一处发报，所以九分钟内发送能保证发报者安全"
         },
         {
+          "en": "Because the radio battery dies at nine minutes. 'I count steps every day—how many steps across a room, or to the barn—I can remember any number of steps.' Pierre notes, 'The Germans don't suspect a blind kid of doing anything important.'",
+          "zh": "因为电台电池到九分钟就没电了。'我每天都数步数——穿过房间多少步，走到谷仓多少步——我能记住任意步数。'皮埃尔说：'德国人不会怀疑一个瞎眼孩子能做什么要紧事。'"
+        },
+        {
           "en": "Because Jacques gets tired",
           "zh": "因为雅克累了"
-        },
-        {
-          "en": "Because the radio battery dies at nine minutes according to some versions of the story in an early draft of the book",
-          "zh": "因为电台电池到九分钟就没电了（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "Because the BBC only allows short calls",
-          "zh": "因为BBC只允许简短呼叫"
         }
       ],
-      "answer": 0,
+      "answer": 1,
       "skill": "Craft and Structure",
       "explain": {
         "en": "'The Germans constantly listen for radio broadcasts, and when they detect one, they need just ten minutes to pinpoint its origin... our broadcast to the Allies must be under nine minutes.'",
@@ -103,16 +103,16 @@
       },
       "options": [
         {
-          "en": "It makes him useless",
-          "zh": "这让他毫无用处"
-        },
-        {
           "en": "It is never mentioned",
           "zh": "从未被提及"
         },
         {
-          "en": "It lets him see the future according to some versions of the story in an early draft of the book as mentioned in a later chapter",
-          "zh": "这让他能预见未来（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
+          "en": "It lets him see the future. 'I count steps every day—how many steps across a room, or to the barn—I can remember any number of steps.' Pierre notes, 'The Germans don't suspect a blind kid of doing anything important.'",
+          "zh": "这让他能预见未来。'我每天都数步数——穿过房间多少步，走到谷仓多少步——我能记住任意步数。'皮埃尔说：'德国人不会怀疑一个瞎眼孩子能做什么要紧事。'"
+        },
+        {
+          "en": "It makes him useless",
+          "zh": "这让他毫无用处"
         },
         {
           "en": "It both endangers and protects him—soldiers dismiss 'the blind kid'—and lets him gather secret info unnoticed",
@@ -133,6 +133,10 @@
       },
       "options": [
         {
+          "en": "The story is entirely invented with no basis. 'I count steps every day—how many steps across a room, or to the barn—I can remember any number of steps.' Pierre notes, 'The Germans don't suspect a blind kid of doing anything important.'",
+          "zh": "故事纯属虚构，毫无根据。'我每天都数步数——穿过房间多少步，走到谷仓多少步——我能记住任意步数。'皮埃尔说：'德国人不会怀疑一个瞎眼孩子能做什么要紧事。'"
+        },
+        {
           "en": "The characters were all famous generals",
           "zh": "角色全都是著名将领"
         },
@@ -143,13 +147,9 @@
         {
           "en": "D-Day never happened",
           "zh": "D日从未发生"
-        },
-        {
-          "en": "The story is entirely invented with no basis according to some versions of the story in an early draft of the book as mentioned in a later chapter",
-          "zh": "故事纯属虚构，毫无根据（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "The Author's Note: 'an eight- or nine-year-old blind boy made his way to Caen... to tell Andre Heintz... about the bunkers... on D-Day... the guns were targeted and eliminated.'",
@@ -163,23 +163,23 @@
       },
       "options": [
         {
-          "en": "Even young people (a 15-year-old and a blind boy) can bravely aid the fight for freedom",
-          "zh": "即便是年轻人（一名15岁少女和一名失明男孩）也能勇敢地为自由之战出力"
-        },
-        {
-          "en": "Children cannot help",
-          "zh": "儿童帮不上忙"
+          "en": "Civilians should ignore the war. 'I count steps every day—how many steps across a room, or to the barn—I can remember any number of steps.' Pierre notes, 'The Germans don't suspect a blind kid of doing anything important.'",
+          "zh": "平民应当无视战争。'我每天都数步数——穿过房间多少步，走到谷仓多少步——我能记住任意步数。'皮埃尔说：'德国人不会怀疑一个瞎眼孩子能做什么要紧事。'"
         },
         {
           "en": "Only soldiers matter",
           "zh": "只有士兵才重要"
         },
         {
-          "en": "Civilians should ignore the war according to some versions of the story in an early draft of the book",
-          "zh": "平民应当无视战争（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Children cannot help",
+          "zh": "儿童帮不上忙"
+        },
+        {
+          "en": "Even young people (a 15-year-old and a blind boy) can bravely aid the fight for freedom",
+          "zh": "即便是年轻人（一名15岁少女和一名失明男孩）也能勇敢地为自由之战出力"
         }
       ],
-      "answer": 0,
+      "answer": 3,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Fifteen-year-old Aimee and blind Jacques risk everything to pass vital information; Pierre calls it 'You may have saved many lives tonight.'",
@@ -197,19 +197,19 @@
           "zh": "“天塌下来了”"
         },
         {
-          "en": "'Long live the Republic' according to some versions of the story in an early draft of the book",
-          "zh": "“共和国万岁”（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "'Open sesame'",
-          "zh": "“芝麻开门”"
+          "en": "'Long live the Republic'. 'I count steps every day—how many steps across a room, or to the barn—I can remember any number of steps.' Pierre notes, 'The Germans don't suspect a blind kid of doing anything important.'",
+          "zh": "“共和国万岁”。'我每天都数步数——穿过房间多少步，走到谷仓多少步——我能记住任意步数。'皮埃尔说：'德国人不会怀疑一个瞎眼孩子能做什么要紧事。'"
         },
         {
           "en": "'Red lanterns burn brightly in Suez' / 'Mostly when it rains'",
           "zh": "“红灯笼在苏伊士明亮燃烧” / “多半在下雨时”"
+        },
+        {
+          "en": "'Open sesame'",
+          "zh": "“芝麻开门”"
         }
       ],
-      "answer": 3,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Aimee whispers 'Red lanterns burn brightly in Suez.' The stranger replies his portion: 'Mostly when it rains.'",
@@ -223,8 +223,8 @@
       },
       "options": [
         {
-          "en": "They surrender",
-          "zh": "他们投降了"
+          "en": "They fight the soldiers. 'I count steps every day—how many steps across a room, or to the barn—I can remember any number of steps.' Pierre notes, 'The Germans don't suspect a blind kid of doing anything important.'",
+          "zh": "他们与士兵搏斗。'我每天都数步数——穿过房间多少步，走到谷仓多少步——我能记住任意步数。'皮埃尔说：'德国人不会怀疑一个瞎眼孩子能做什么要紧事。'"
         },
         {
           "en": "They hide silently inside a hay cave made of stacked bales",
@@ -235,8 +235,8 @@
           "zh": "他们冲出门外"
         },
         {
-          "en": "They fight the soldiers according to some versions of the story",
-          "zh": "他们与士兵搏斗（按书中另一种说法）"
+          "en": "They surrender",
+          "zh": "他们投降了"
         }
       ],
       "answer": 1,
@@ -253,12 +253,8 @@
       },
       "options": [
         {
-          "en": "It is where Jacques lives according to some versions of the story in an early draft of the book",
-          "zh": "那是雅克住的地方（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "It is the barn's address",
-          "zh": "那是谷仓的地址"
+          "en": "It is where Jacques lives. 'I count steps every day—how many steps across a room, or to the barn—I can remember any number of steps.' Pierre notes, 'The Germans don't suspect a blind kid of doing anything important.'",
+          "zh": "那是雅克住的地方。'我每天都数步数——穿过房间多少步，走到谷仓多少步——我能记住任意步数。'皮埃尔说：'德国人不会怀疑一个瞎眼孩子能做什么要紧事。'"
         },
         {
           "en": "It helps the Allies know where to target the German guns before troops land on the beaches",
@@ -267,9 +263,13 @@
         {
           "en": "It marks a picnic spot",
           "zh": "它标出一个野餐地点"
+        },
+        {
+          "en": "It is the barn's address",
+          "zh": "那是谷仓的地址"
         }
       ],
-      "answer": 2,
+      "answer": 1,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Jacques remembers the pole 'is 2.7 kilometers west of the fishing boat harbor' just in time; Pierre says the info should help 'knock out the Germans' guns' before troops storm the beaches.",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "Tense suspense, showing the constant danger faced by young Resistance workers",
+          "zh": "紧张的悬念，展现年轻的抵抗组织成员所面临的持续危险"
+        },
+        {
           "en": "Comedy",
           "zh": "喜剧"
         },
         {
-          "en": "Boredom according to some versions of the story in an early draft of the book as mentioned in a later chapter",
-          "zh": "乏味（按书中另一种说法）（在书的早期草稿中）（正如后文某一章提到的）"
-        },
-        {
-          "en": "Tense suspense, showing the constant danger faced by young Resistance workers",
-          "zh": "紧张的悬念，展现年轻的抵抗组织成员所面临的持续危险"
+          "en": "Boredom. 'I count steps every day—how many steps across a room, or to the barn—I can remember any number of steps.' Pierre notes, 'The Germans don't suspect a blind kid of doing anything important.'",
+          "zh": "乏味。'我每天都数步数——穿过房间多少步，走到谷仓多少步——我能记住任意步数。'皮埃尔说：'德国人不会怀疑一个瞎眼孩子能做什么要紧事。'"
         },
         {
           "en": "Romance",
           "zh": "爱情"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "Aimee tracks minutes on her fingers under nine; 'Forty seconds... Thirty...' — the ticking clock and fear of detection create mounting suspense.",
