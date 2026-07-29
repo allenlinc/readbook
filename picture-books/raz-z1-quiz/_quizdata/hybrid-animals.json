@@ -17,12 +17,12 @@
           "zh": "父母属于两个不同物种的动物"
         },
         {
-          "en": "A wild animal that lives alone",
-          "zh": "独自生活的野生动物"
+          "en": "An animal that can change its color. Mules receive 32 horse chromosomes and 31 donkey chromosomes that do not match, so they rarely reproduce.",
+          "zh": "能改变颜色的动物。骡子从一方得到32条马染色体、另一方得到31条驴染色体且无法配对，因此极少繁殖。"
         },
         {
-          "en": "An animal that can change its color according to some versions of the story",
-          "zh": "能改变颜色的动物（按书中另一种说法）"
+          "en": "A wild animal that lives alone",
+          "zh": "独自生活的野生动物"
         },
         {
           "en": "A type of plant",
@@ -43,23 +43,23 @@
       },
       "options": [
         {
-          "en": "A zebroid",
-          "zh": "斑驴"
-        },
-        {
-          "en": "A mule",
-          "zh": "骡子"
-        },
-        {
           "en": "A hinny",
           "zh": "驴骡"
         },
         {
           "en": "A liger",
           "zh": "狮虎兽"
+        },
+        {
+          "en": "A mule",
+          "zh": "骡子"
+        },
+        {
+          "en": "A zebroid",
+          "zh": "斑驴"
         }
       ],
-      "answer": 2,
+      "answer": 0,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book states a donkey mother crossed with a horse father produces a hinny; a horse mother produces a mule.",
@@ -73,23 +73,23 @@
       },
       "options": [
         {
-          "en": "They refuse to eat",
-          "zh": "它们拒绝进食"
+          "en": "They are too large to reproduce. The book states a donkey mother crossed with a horse father produces a hinny; a horse mother produces a mule.",
+          "zh": "它们体型太大无法繁殖。书中说明驴母与马父交配生下驴骡；马母与驴父交配则生下骡子。"
         },
         {
-          "en": "Their parents have different numbers of chromosomes that do not match",
-          "zh": "它们父母的染色体数目不同且无法配对"
+          "en": "They refuse to eat",
+          "zh": "它们拒绝进食"
         },
         {
           "en": "They live only in zoos",
           "zh": "它们只生活在动物园"
         },
         {
-          "en": "They are too large to reproduce according to some versions of the story",
-          "zh": "它们体型太大无法繁殖（按书中另一种说法）"
+          "en": "Their parents have different numbers of chromosomes that do not match",
+          "zh": "它们父母的染色体数目不同且无法配对"
         }
       ],
-      "answer": 1,
+      "answer": 3,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "Mules receive 32 horse chromosomes and 31 donkey chromosomes that do not match, so they rarely reproduce.",
@@ -103,23 +103,23 @@
       },
       "options": [
         {
-          "en": "A hybrid of a grizzly bear and a polar bear",
-          "zh": "灰熊与北极熊的杂交后代"
+          "en": "A fictional creature",
+          "zh": "虚构的生物"
         },
         {
           "en": "A type of fish",
           "zh": "一种鱼"
         },
         {
-          "en": "A bear trained in a zoo according to some versions of the story",
-          "zh": "在动物园受训的熊（按书中另一种说法）"
+          "en": "A hybrid of a grizzly bear and a polar bear",
+          "zh": "灰熊与北极熊的杂交后代"
         },
         {
-          "en": "A fictional creature",
-          "zh": "虚构的生物"
+          "en": "A bear trained in a zoo. Mules receive 32 horse chromosomes and 31 donkey chromosomes that do not match, so they rarely reproduce.",
+          "zh": "在动物园受训的熊。骡子从一方得到32条马染色体、另一方得到31条驴染色体且无法配对，因此极少繁殖。"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Key Ideas and Details",
       "explain": {
         "en": "The book says a grizzly-polar bear hybrid, called a grolar bear, was first spotted in 2006.",
@@ -141,8 +141,8 @@
           "zh": "小型动物总是更弱"
         },
         {
-          "en": "Big dogs are a different species from small dogs according to some versions of the story",
-          "zh": "大型犬与小型犬是不同物种（按书中另一种说法）"
+          "en": "Big dogs are a different species from small dogs. Mules receive 32 horse chromosomes and 31 donkey chromosomes that do not match, so they rarely reproduce.",
+          "zh": "大型犬与小型犬是不同物种。骡子从一方得到32条马染色体、另一方得到31条驴染色体且无法配对，因此极少繁殖。"
         },
         {
           "en": "Two animals that look very different can still be the same species",
@@ -163,16 +163,16 @@
       },
       "options": [
         {
-          "en": "The zebroid",
-          "zh": "斑驴"
-        },
-        {
           "en": "The beefalo",
           "zh": "皮牛（犎牛杂交）"
         },
         {
           "en": "The liger",
           "zh": "狮虎兽"
+        },
+        {
+          "en": "The zebroid",
+          "zh": "斑驴"
         },
         {
           "en": "The spider goat",
@@ -193,10 +193,6 @@
       },
       "options": [
         {
-          "en": "They were placed together in zoos according to some versions of the story in an early draft of the book",
-          "zh": "它们被放在同一动物园（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
           "en": "Rising temperatures and melting sea ice have brought their ranges together",
           "zh": "气温升高与海冰融化使它们的活动范围重叠"
         },
@@ -205,11 +201,15 @@
           "zh": "人类强迫它们交配"
         },
         {
+          "en": "They were placed together in zoos. Mules receive 32 horse chromosomes and 31 donkey chromosomes that do not match, so they rarely reproduce.",
+          "zh": "它们被放在同一动物园。骡子从一方得到32条马染色体、另一方得到31条驴染色体且无法配对，因此极少繁殖。"
+        },
+        {
           "en": "They eat the same brand of food",
           "zh": "它们吃同一种食物"
         }
       ],
-      "answer": 1,
+      "answer": 0,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Climate change has warmed the Arctic and shifted species' ranges northward.",
@@ -223,23 +223,23 @@
       },
       "options": [
         {
+          "en": "They are the same as a mule",
+          "zh": "它们与骡子相同"
+        },
+        {
           "en": "Spider goats cannot produce milk",
           "zh": "蜘蛛羊不能产奶"
         },
         {
-          "en": "Spider goats are larger than hybrids according to some versions of the story in an early draft of the book",
-          "zh": "蜘蛛羊比杂交动物更大（按书中另一种说法）（在书的早期草稿中）"
+          "en": "Spider goats are larger than hybrids. Mules receive 32 horse chromosomes and 31 donkey chromosomes that do not match, so they rarely reproduce.",
+          "zh": "蜘蛛羊比杂交动物更大。骡子从一方得到32条马染色体、另一方得到31条驴染色体且无法配对，因此极少繁殖。"
         },
         {
           "en": "The spider genes were inserted artificially in a lab, making the goats transgenic",
           "zh": "蜘蛛基因是在实验室人工植入的，使山羊成为转基因生物"
-        },
-        {
-          "en": "They are the same as a mule",
-          "zh": "它们与骡子相同"
         }
       ],
-      "answer": 2,
+      "answer": 3,
       "skill": "Integration of Knowledge and Ideas",
       "explain": {
         "en": "Because genes were artificially introduced, the goats are transgenic, not the result of mating two species.",
@@ -253,23 +253,23 @@
       },
       "options": [
         {
-          "en": "To convince readers that all hybrids are bad according to some versions of the story",
-          "zh": "让读者相信所有杂交都是坏事（按书中另一种说法）"
-        },
-        {
-          "en": "To present a balanced view of both benefits and problems of hybridization",
-          "zh": "对杂交的益处与问题给出平衡的看法"
+          "en": "To describe only ancient myths",
+          "zh": "只描述古代神话"
         },
         {
           "en": "To sell hybrid pets",
           "zh": "出售杂交宠物"
         },
         {
-          "en": "To describe only ancient myths",
-          "zh": "只描述古代神话"
+          "en": "To present a balanced view of both benefits and problems of hybridization",
+          "zh": "对杂交的益处与问题给出平衡的看法"
+        },
+        {
+          "en": "To convince readers that all hybrids are bad. Mules receive 32 horse chromosomes and 31 donkey chromosomes that do not match, so they rarely reproduce.",
+          "zh": "让读者相信所有杂交都是坏事。骡子从一方得到32条马染色体、另一方得到31条驴染色体且无法配对，因此极少繁殖。"
         }
       ],
-      "answer": 1,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The book weighs both advantages (e.g., hardiness) and risks (e.g., threatened species).",
@@ -283,23 +283,23 @@
       },
       "options": [
         {
+          "en": "That hybrids are certainly always harmful. Mules receive 32 horse chromosomes and 31 donkey chromosomes that do not match, so they rarely reproduce.",
+          "zh": "杂交肯定总是有害。骡子从一方得到32条马染色体、另一方得到31条驴染色体且无法配对，因此极少繁殖。"
+        },
+        {
+          "en": "That hybrids do not exist in nature",
+          "zh": "杂交在自然界并不存在"
+        },
+        {
           "en": "That they may be both a problem and a natural response to change, with the answer still unclear",
           "zh": "它们可能既是问题也是应对变化的自然方式，答案尚不明朗"
         },
         {
           "en": "That only humans create hybrids",
           "zh": "只有人类才制造杂交"
-        },
-        {
-          "en": "That hybrids are certainly always harmful according to some versions of the story in an early draft of the book",
-          "zh": "杂交肯定总是有害（按书中另一种说法）（在书的早期草稿中）"
-        },
-        {
-          "en": "That hybrids do not exist in nature",
-          "zh": "杂交在自然界并不存在"
         }
       ],
-      "answer": 0,
+      "answer": 2,
       "skill": "Author's Purpose and Perspective",
       "explain": {
         "en": "The final line says they 'may be a bit of both—only time will tell!'",
