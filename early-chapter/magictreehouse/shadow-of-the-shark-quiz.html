@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shadow of the Shark — Quiz</title>
+<style>
+  :root{
+    --forest:#15803d;
+    --forest-dark:#14532d;
+    --red:#c0392b;
+    --cream:#f7fbf6;
+    --ink:#222;
+    --gold:#d97706;
+    --oak:#92400e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--forest);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6df;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#eef9f0;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--gold);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f0;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2ede7;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7f2;
+    border-left:4px solid var(--forest);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--forest-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(21,128,61,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(21,128,61,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#53 · Shadow of the Shark</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Mary Pope Osborne</p>
+    <div class="logo">🌳</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Magic Tree House #53: Shadow of the Shark</em> (Random House, 2015) — by Mary Pope Osborne</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Mary Pope Osborne",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Magic Tree House adventure.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Mary Pope Osborne",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这次神奇树屋冒险。",
+    great: "很棒——你已经读懂了这个故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who is Heart-of-the-Wind, the Mayan girl who helps Jack and Annie escape?", "zh": "帮助杰克和安妮逃走的玛雅女孩“风中之心”是谁？"}, "options": [{"en": "The daughter of the Great Sun of Palenque", "zh": "帕伦克“太阳大帝”的女儿"}, {"en": "The captain of a fishing boat from Cozumel", "zh": "科苏梅尔一艘渔船上船长"}, {"en": "A tourist staying at the luxury spa hotel", "zh": "住在豪华温泉酒店里的游客"}, {"en": "A Mayan warrior who captures Jack and Annie", "zh": "抓走杰克和安妮的玛雅武士"}], "answer": 0, "explain": {"en": "Heart-of-the-Wind is the only child of the Great Sun, ruler of the kingdom of Palenque. She helps Jack and Annie slip out of the City of Dawn and leads them through the forest and the Underworld to the sea.", "zh": "“风中之心”是帕伦克王国统治者“太阳大帝”的独生女儿。她帮杰克和安妮溜出“黎明之城”，带着他们穿过森林和地下世界来到海边。"}}, {"q": {"en": "What kind of shark ends up carrying Jack and Annie's raft all the way back to Cozumel?", "zh": "最后把杰克和安妮的木筏一路驮回科苏梅尔的是哪种鲨鱼？"}, "options": [{"en": "A great white shark", "zh": "大白鲨"}, {"en": "A hammerhead shark", "zh": "双髻鲨"}, {"en": "A whale shark", "zh": "鲸鲨"}, {"en": "A tiger shark", "zh": "虎鲨"}], "answer": 2, "explain": {"en": "The travel guide says the whale shark is the biggest fish in the world, eats only plants and small fish, never harms people, and sometimes lets divers hitch a ride. The gentle giant balances their raft on its back to Cozumel.", "zh": "旅游指南说鲸鲨是世界上最大的鱼，只吃水草和小鱼，从不伤害人，有时还会让潜水员搭便车。这只温柔的巨鲨把他们的木筏稳稳驮在背上送回科苏梅尔。"}}, {"q": {"en": "What does Teddy give Jack and Annie to help them have fun on their vacation?", "zh": "泰迪给了杰克和安妮什么，让他们在度假时玩得开心？"}, "options": [{"en": "A heavy leather backpack filled with silver and gold coins", "zh": "一个沉甸甸的皮背包，装满了银币和金币"}, {"en": "A long letter signed by Merlin and Morgan le Fay", "zh": "一封梅林和摩根·勒·菲共同署名的长信"}, {"en": "A green velvet purse with three magic gold coins", "zh": "一个绿色天鹅绒钱袋，里面有三枚魔法金币"}, {"en": "A worn-out map and a brass compass from Camelot", "zh": "一张破旧的地图和一只来自卡米洛特的黄铜指南针"}], "answer": 2, "explain": {"en": "Teddy hands Jack a green velvet coin purse holding three golden coins. Each coin holds a bit of magic: tossed into the air with a wish to have fun, the wish comes true.", "zh": "泰迪递给杰克一个绿色天鹅绒钱袋，里面装着三枚金币。每枚金币都带一点魔法：抛向空中并许下“玩得开心”的愿望，愿望就会实现。"}}, {"q": {"en": "When a shark attacks their raft, what does Annie wish for with the FIRST gold coin?", "zh": "当鲨鱼袭击他们的木筏时，安妮用第一枚金币许了什么愿？"}, "options": [{"en": "To have fun escaping the shark", "zh": "开心地摆脱那条鲨鱼"}, {"en": "To turn themselves into expert swimmers", "zh": "让自己变成游泳高手"}, {"en": "To fly all the way back to Frog Creek", "zh": "一路飞回青蛙溪"}, {"en": "To find their lost travel guide on the beach", "zh": "在沙滩上找到他们丢失的旅游指南"}], "answer": 0, "explain": {"en": "Annie grabs the purse, holds up a coin, and shouts, 'We wish to have fun escaping that shark!' The coin bursts into red and blue sparks and the raft spins away like a water-park ride toward the Yucatán shore.", "zh": "安妮抓起钱袋，举着一枚金币大喊：“我们祝愿开开心心地摆脱那条鲨鱼！”金币迸出红蓝火花，木筏像水上乐园的游乐设施一样旋转着冲向尤卡坦海岸。"}}, {"q": {"en": "Because Annie pointed at the old pyramid painting on the book's cover, where do Jack and Annie actually arrive?", "zh": "因为安妮指着书封面上那幅古老的金字塔画，杰克和安妮实际上来到了哪里？"}, "options": [{"en": "A large science museum in the middle of the city", "zh": "城市中心一座大型科学博物馆"}, {"en": "A crowded Caribbean cruise ship at the dock", "zh": "码头上一艘拥挤的加勒比海游轮"}, {"en": "Ancient Mayan times, more than a thousand years ago", "zh": "一千多年前的古代玛雅时代"}, {"en": "A modern luxury spa hotel on the beach in Cozumel, from long, long ago", "zh": "科苏梅尔海滩上一家现代化的豪华温泉酒店"}], "answer": 2, "explain": {"en": "Jack realizes the pyramid painting showed Cozumel as it looked long ago, so Teddy's magic sent them to the real time of the ancient Mayans — over a thousand years in the past — not the modern theme park.", "zh": "杰克意识到，那幅金字塔画里是很久以前的科苏梅尔，所以泰迪的魔法把他们送到了真正的古代玛雅时代——一千多年以前，而不是现代的主题公园。"}}, {"q": {"en": "How do Jack and Annie travel through the Mayan Underworld to reach the sea?", "zh": "杰克和安妮是怎样穿过玛雅人的“地下世界”到达海边的？"}, "options": [{"en": "In a dugout canoe on the Sacred Well", "zh": "坐着挖空原木的小船，沿着“圣井”走"}, {"en": "By walking through a hot desert", "zh": "步行穿过炎热的沙漠"}, {"en": "By flying with the help of magic mist", "zh": "借助魔法薄雾飞过去，在很远很远的地方"}, {"en": "On the back of a whale shark", "zh": "骑在鲸鲨的背上"}], "answer": 0, "explain": {"en": "Heart-of-the-Wind paddles a hollowed-out log canoe through the Sacred Well, a water-filled sinkhole, into caves lit by moonlight, then out to a pool by the sea.", "zh": "“风中之心”划着一只挖空原木的小船，沿着注满水的“圣井”（即落水洞）进入被月光映亮的洞穴，最终来到海边的一个水潭。"}}, {"q": {"en": "In the swampy forest, what name does Heart-of-the-Wind give to the jaguar?", "zh": "在沼泽森林里，“风中之心”把美洲豹叫做什么？"}, "options": [{"en": "The Rain God's servant", "zh": "“雨神的仆人”"}, {"en": "Earth-Monster-of-the-Underworld", "zh": "“地下世界的地怪”（那是鳄鱼）"}, {"en": "The Ones-Who-Tell-the-History-of-the-Forest", "zh": "“讲述森林历史者”（那是吼猴）"}, {"en": "He-Who-Kills-with-One-Leap", "zh": "“一跃就能捕杀者”"}], "answer": 3, "explain": {"en": "When a spotted cat with yellow eyes watches them, Heart-of-the-Wind calls it He-Who-Kills-with-One-Leap and sends it peaceful thoughts so they may pass. (The crocodile is Earth-Monster-of-the-Underworld, and the howler monkeys are the Ones-Who-Tell-the-History-of-the-Forest.)", "zh": "当一只黄眼睛、带斑点的猫科动物盯着他们时，“风中之心”叫它“一跃就能捕杀者”，并向它送去平和的念头好让他们通过。（鳄鱼叫“地下世界的地怪”，吼猴叫“讲述森林历史者”。）"}}, {"q": {"en": "Annie leaves the cell phone with Heart-of-the-Wind as a message for her father. What important rule does she give?", "zh": "安妮把手机留给“风中之心”，作为给她父亲的一段留言。她交代了什么重要规则？"}, "options": [{"en": "It must be mailed to Morgan back in Camelot", "zh": "必须寄回卡米洛特给摩根"}, {"en": "It must be deleted before the sun rises", "zh": "必须在太阳升起前删掉"}, {"en": "It can only be played after the sun goes down", "zh": "只能等太阳下山后播放，那是别人讲的版本"}, {"en": "Show it before sundown or it vanishes forever", "zh": "必须在日落前播放，否则就永远看不到了"}], "answer": 3, "explain": {"en": "Annie tells Heart-of-the-Wind to show the video to her father today: 'Once the sun goes down, the message can never be seen again.' The phone's battery also only lasts the day.", "zh": "安妮让“风中之心”当天就把视频放给父亲看：“一旦太阳落山，这段留言就永远看不到了。”而且手机的电量也只够当天用。"}}, {"q": {"en": "After returning home, what do Jack and Annie learn when they search online for 'Mayan ruler, Heart-of-the-Wind'?", "zh": "回到家后，杰克和安妮在网上搜索“玛雅统治者，风中之心”时，发现了什么？"}, "options": [{"en": "She was the inventor of both the Mayan calendar and writing", "zh": "她是玛雅历法和文字的发明者，发生在很久很久以前"}, {"en": "She was a powerful queen who ruled all of ancient Egypt", "zh": "她是一位统治整个古埃及的强权女王"}, {"en": "She was a famous Olympic gold-medal soccer player", "zh": "她是一位著名的奥运金牌足球运动员"}, {"en": "She became the first female ruler in recorded Mayan history", "zh": "她成了有记载的玛雅历史上第一位女性统治者"}], "answer": 3, "explain": {"en": "The search result says Yohl Ik'nal ruled Palenque from 583 to 604; her name means 'Heart of the Wind,' and she was the first female ruler in recorded Mayan history — thanks to the unusual circumstance of Jack's message.", "zh": "搜索结果显示，约尔·伊克纳尔（Yohl Ik'nal）在公元583至604年统治帕伦克；她的名字意思是“风之心”，而且她是有记载的玛雅历史上第一位女性统治者——这多亏了杰克那段留言带来的“特殊情况”。"}}, {"q": {"en": "With the LAST gold coin, what does Heart-of-the-Wind wish for before they leave?", "zh": "用最后一枚金币，“风中之心”在他们离开前许下了什么愿？"}, "options": [{"en": "To magically turn the shark into a friendly dolphin", "zh": "用魔法把鲨鱼变成一只友好的海豚"}, {"en": "For a safe and fun trip back to Cozumel", "zh": "祝他们平安又开心地回到科苏梅尔"}, {"en": "To make Jack into a true Mayan king forever", "zh": "让杰克永远成为真正的玛雅国王"}, {"en": "To make herself the next Great Sun of Palenque", "zh": "让自己成为帕伦克下一任“太阳大帝”"}], "answer": 1, "explain": {"en": "Annie hands her the coin and says to wish for 'a safe, fun trip to Cozumel.' Heart-of-the-Wind whispers a wish and tosses it; the coin bursts into purple, green, blue, and yellow sparks, and the raft speeds into the sunrise — where a whale shark carries them home.", "zh": "安妮把金币递给她，让她许愿“平安又开心地回到科苏梅尔”。“风中之心”轻声许愿后抛出金币，金币迸出紫、绿、蓝、黄四色火花，木筏冲进朝阳——随后一只鲸鲨把他们送回了家。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

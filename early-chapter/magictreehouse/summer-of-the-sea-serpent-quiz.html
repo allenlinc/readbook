@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Summer of the Sea Serpent — Quiz</title>
+<style>
+  :root{
+    --forest:#15803d;
+    --forest-dark:#14532d;
+    --red:#c0392b;
+    --cream:#f7fbf6;
+    --ink:#222;
+    --gold:#d97706;
+    --oak:#92400e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--forest);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6df;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#eef9f0;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--gold);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f0;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2ede7;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7f2;
+    border-left:4px solid var(--forest);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--forest-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(21,128,61,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(21,128,61,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#31 · Summer of the Sea Serpent</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Mary Pope Osborne</p>
+    <div class="logo">🌳</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Magic Tree House #31: Summer of the Sea Serpent</em> (Random House, 2004) — by Mary Pope Osborne</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Mary Pope Osborne",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Magic Tree House adventure.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Mary Pope Osborne",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这次神奇树屋冒险。",
+    great: "很棒——你已经读懂了这个故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "On what day does Merlin send Jack and Annie on this mission?", "zh": "梅林在这一天派杰克和安妮去执行任务？"}, "options": [{"en": "The summer solstice, the first day of summer", "zh": "夏至，夏天的第一天"}, {"en": "The winter solstice, the coldest and shortest day", "zh": "冬至，最冷也最短的一天"}, {"en": "Christmas Eve", "zh": "圣诞夜"}, {"en": "Halloween night", "zh": "万圣节之夜"}], "answer": 0, "explain": {"en": "The mission begins on the summer solstice, the first day of summer and the day with the most daylight. Merlin chose this day because the Ice Wizard of Winter's powers are weakest then.", "zh": "任务从夏至开始——那是夏天的第一天，也是白昼最长的一天。梅林选这一天，是因为冬之冰巫师的力量在此时最弱。"}}, {"q": {"en": "What is the 'Sword of Light' really called?", "zh": "“光之剑”真正的名字是什么？"}, "options": [{"en": "The Wand of Winter", "zh": "冬日魔杖"}, {"en": "The Diamond of Destiny", "zh": "命运之钻，在很远很远的地方，不过那是另一个故事了"}, {"en": "Excalibur", "zh": "王者之剑（Excalibur）"}, {"en": "The sword in the stone", "zh": "石中剑"}], "answer": 2, "explain": {"en": "Merlin tells Jack and Annie that this sword is even more powerful than the sword in the stone, and that it has a name—Excalibur. He will return it to the Lady of the Lake on the Isle of Avalon.", "zh": "梅林告诉杰克和安妮，这把剑比石中剑还要强大，它有一个名字——Excalibur（王者之剑）。他要把它送回阿瓦隆岛的湖中仙女那里。"}}, {"q": {"en": "Who is the mysterious Water Knight who carries them across the cove?", "zh": "那位驮着他们穿过小海湾的神秘“水骑士”是谁？"}, "options": [{"en": "King Arthur", "zh": "亚瑟王"}, {"en": "Merlin the magician", "zh": "魔法师梅林"}, {"en": "The Raven King", "zh": "渡鸦王"}, {"en": "A talking seagull, though that is another story", "zh": "一只会说话的海鸥"}], "answer": 1, "explain": {"en": "At the end, Jack notices that Merlin's farewell wave—spreading his fingers—is the same gesture the Water Knight gave them. The Water Knight was Merlin in disguise, helping them get started.", "zh": "故事结尾，杰克发现梅林道别时张开手指挥手的姿势，和水骑士告别时一模一样。那位水骑士正是梅林假扮的，是为了帮他们开启任务。"}}, {"q": {"en": "How does the giant Spider Queen (Morag) help Jack and Annie?", "zh": "巨大的蜘蛛女王（莫拉格）是怎样帮助杰克和安妮的？"}, "options": [{"en": "She hisses and scares them out of the cave", "zh": "她嘶嘶叫着把他们吓出山洞"}, {"en": "She carries them off on her hairy back", "zh": "她把他们驮在毛茸茸的背上带走"}, {"en": "She wraps them tightly in a big sticky web forever", "zh": "她把他们紧紧裹在一张大黏网里再也不放"}, {"en": "She spins a web ladder so they can climb to safety", "zh": "她织出一张网梯，让他们爬到安全处"}], "answer": 3, "explain": {"en": "As the tide floods the cave, the Spider Queen spins a sticky web ladder between two strands and whispers 'Climb! Climb! Climb!' She wanted to help them escape, not trap them.", "zh": "海水涨潮灌进山洞时，蜘蛛女王在两根蛛丝之间织出一张黏糊糊的网梯，轻声催促“爬！爬！爬！”她想帮他们逃脱，而不是困住他们。"}}, {"q": {"en": "What are selkies, like their friend Kathleen?", "zh": "像他们的朋友凯瑟琳那样的“海豹人（selkie）”是什么？"}, "options": [{"en": "Birds that guard castles", "zh": "守卫城堡的鸟"}, {"en": "Seal people: human on land, seal in the sea", "zh": "海豹人：在陆地上是人，在海里是海豹"}, {"en": "Strange pale water horses with long fish tails and manes", "zh": "长着长长鱼尾和鬃毛的奇怪苍白水马，发生在很久很久以前"}, {"en": "Giant talking spiders", "zh": "巨大的会说话的蜘蛛"}], "answer": 1, "explain": {"en": "Teddy explains that selkies are people on land and seals in the sea. When Kathleen dries off in the sun, her seal skin falls away and she becomes human; she lends Jack and Annie seal skins so they can swim as seals.", "zh": "泰迪解释说，海豹人在陆地上是人，在海里是海豹。凯瑟琳在太阳下晒干身体时，海豹皮就会脱落，变回人形；她借给杰克和安妮海豹皮，让他们也能变成海豹游泳。"}}, {"q": {"en": "What is the 'Cloak of the Old Gray Ghost' in the story?", "zh": "故事里的“老灰鬼的斗篷”其实是什么？"}, "options": [{"en": "A gray seal's skin", "zh": "一张灰色海豹的皮"}, {"en": "A real ghost's magic cape", "zh": "一个真鬼的魔法斗篷"}, {"en": "A very thick fog", "zh": "一场很浓的雾"}, {"en": "A storm cloud", "zh": "一朵暴风云"}], "answer": 2, "explain": {"en": "Kathleen says the 'Cloak of the Old Gray Ghost' is just what selkies call a very thick fog. Merlin later reveals that the Ice Wizard sent this fog to cover them.", "zh": "凯瑟琳说，“老灰鬼的斗篷”不过是海豹人对一场浓雾的称呼。梅林后来揭开，这团雾正是冬之冰巫师放出来笼罩他们的。"}}, {"q": {"en": "What is the 'Ancient Question' the sea serpent asks them?", "zh": "海蛇问他们的那个“古老问题”是什么？"}, "options": [{"en": "What is your name?", "zh": "你叫什么名字？"}, {"en": "What is the purpose of the sword?", "zh": "这把剑的用途是什么？"}, {"en": "Where in the world did the sword come from?", "zh": "这把剑究竟是从哪里来的？"}, {"en": "How old are you?", "zh": "你多大了？"}], "answer": 1, "explain": {"en": "The sea serpent coils around their rock and booms the Ancient Question: 'WHAT IS THE PURPOSE OF THE SWORD?' Only by answering wisely can they prove themselves worthy.", "zh": "海蛇盘绕在礁石周围，大声提出那个古老问题：“这把剑的用途是什么？”只有明智地回答，才能证明他们配得上这把剑。"}}, {"q": {"en": "What answer proves Jack and Annie worthy of the sword?", "zh": "杰克和安妮给出了什么答案，证明他们配得上这把剑？"}, "options": [{"en": "To make it always cold winter", "zh": "让寒冷的冬天永驻，那是别人讲的版本"}, {"en": "To rule the ocean", "zh": "统治海洋"}, {"en": "To bring peace, not to harm", "zh": "带来和平，而不是伤害"}, {"en": "To slay their enemies", "zh": "去杀死敌人"}], "answer": 2, "explain": {"en": "Remembering Merlin's line 'Answer a question with love, not fear,' Jack declares the sword's purpose is peace—it should not harm anyone, and it should help take away fear so people stop fighting. The serpent accepts this answer.", "zh": "杰克想起梅林那句“用爱而非恐惧来回答问题”，于是说出剑的用途是和平——它不应伤害任何人，而应消除恐惧、让人们停止争斗。海蛇认可了这个答案。"}}, {"q": {"en": "How do Jack and Annie get back to the sea cliff with the sword?", "zh": "杰克和安妮是怎样带着剑回到海崖上的？"}, "options": [{"en": "Teddy's rhyme makes a glowing bridge of light", "zh": "泰迪的咒语造出一座发光的光之桥"}, {"en": "They pull on their seal skins and swim back to shore", "zh": "他们套上海豹皮，游回岸边"}, {"en": "The giant sea serpent offers to carry them on its back", "zh": "巨大的海蛇主动把他们驮在背上，发生在很久很久以前"}, {"en": "Merlin appears and magically flies them home", "zh": "梅林出现，用魔法载他们飞回家"}], "answer": 0, "explain": {"en": "Teddy shouts 'O Sword of Light, now light the night!' and Kathleen finishes the selkie rhyme, making the sword's beams form a glittering bridge of light from the island to the cliff. Jack and Annie walk across it.", "zh": "泰迪高喊“哦，光之剑，照亮今夜吧！”，凯瑟琳用海豹人的语言补全咒语，剑光交织成一座闪闪发光的光之桥，从礁岛一直延伸到海崖。杰克和安妮从桥上走了回去。"}}, {"q": {"en": "Who truly owns the Sword of Light that they recover?", "zh": "他们找到的“光之剑”真正的主人到底是谁？"}, "options": [{"en": "The Raven King", "zh": "渡鸦王"}, {"en": "The Ice Wizard of Winter, who buried it deep underground", "zh": "把它深深埋在地下的冬之冰巫师，在很远很远的地方"}, {"en": "King Arthur's mother", "zh": "亚瑟王的母亲"}, {"en": "The Lady of the Lake, whom the serpent serves", "zh": "湖中仙女，海蛇正是为她守护宝剑"}], "answer": 3, "explain": {"en": "The Ice Wizard stole the sword from the Lady of the Lake and buried it, but it was useless to him because of her spell. The sea serpent serves the Lady of the Lake and guarded the sword. Merlin returns Excalibur to her on the Isle of Avalon.", "zh": "冬之冰巫师从湖中仙女那里偷走宝剑并把它埋下，但因仙女的咒语，剑对他毫无用处。海蛇效忠湖中仙女，一直守护着这把剑。梅林要把 Excalibur 送回阿瓦隆岛的湖中仙女手中。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

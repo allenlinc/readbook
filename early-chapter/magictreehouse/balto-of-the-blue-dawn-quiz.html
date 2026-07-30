@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balto of the Blue Dawn — Quiz</title>
+<style>
+  :root{
+    --forest:#15803d;
+    --forest-dark:#14532d;
+    --red:#c0392b;
+    --cream:#f7fbf6;
+    --ink:#222;
+    --gold:#d97706;
+    --oak:#92400e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--forest);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6df;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#eef9f0;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--gold);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f0;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2ede7;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7f2;
+    border-left:4px solid var(--forest);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--forest-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(21,128,61,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(21,128,61,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#54 · Balto of the Blue Dawn</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Mary Pope Osborne</p>
+    <div class="logo">🌳</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Magic Tree House #54: Balto of the Blue Dawn</em> (Random House, 2016) — by Mary Pope Osborne</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Mary Pope Osborne",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Magic Tree House adventure.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Mary Pope Osborne",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这次神奇树屋冒险。",
+    great: "很棒——你已经读懂了这个故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who is Oki, the boy Jack and Annie meet at the hospital in Nome?", "zh": "杰克和安妮在诺姆医院遇到的男孩奥基是谁？"}, "options": [{"en": "The mayor of the town of Nome, Alaska", "zh": "阿拉斯加诺姆镇的镇长"}, {"en": "The lead dog of Gunnar Kaasen's team", "zh": "贡纳·卡森队伍里的领头狗"}, {"en": "The doctor who treats the sick at the hospital", "zh": "医院里为病人看病的医生，不过那是另一个故事了"}, {"en": "A boy whose mother and sister have diphtheria", "zh": "一个妈妈和妹妹都得了白喉的男孩"}], "answer": 3, "explain": {"en": "Oki is a teenager in Nome whose mother and sister are gravely ill with diphtheria upstairs in the hospital. He waits for the medicine and begs the mushers not to delay, because his family needs it to live.", "zh": "奥基是诺姆镇的一个少年，他的妈妈和妹妹在医院楼上得了严重的白喉。他焦急地等待药品，并恳求雪橇手不要拖延，因为家人要靠药才能活下来。"}}, {"q": {"en": "What does Balto, Gunnar Kaasen's lead dog, do that helps save the mission?", "zh": "贡纳·卡森的领头狗巴尔托做了什么，帮助拯救了这次任务？"}, "options": [{"en": "He carries Jack across the broken ice to safety", "zh": "他把杰克从破裂的冰面上驮到安全的地方"}, {"en": "He howls loudly to warn everyone of the blizzard", "zh": "他大声嚎叫，提醒大家暴风雪来了"}, {"en": "He pulls the medicine sled all the way to Nome by himself", "zh": "他独自把装着药的雪橇一路拉到诺姆"}, {"en": "He finds the lost package of medicine in the snow", "zh": "他在雪地里找到了掉落的药品包裹"}], "answer": 3, "explain": {"en": "When Kaasen's sled crashes and the medicine package falls off, Annie unhooks Balto and tells him to 'Find the medicine!' Balto trots back down the trail, sniffs it out in the snow, and Jack pulls the fur-wrapped package free.", "zh": "卡森的雪橇翻倒、药品包裹掉落时，安妮解开巴尔托，让它“去找药！”巴尔托沿着原路小跑，用鼻子在雪里嗅出了包裹，杰克把那个毛皮包裹拽了出来。"}}, {"q": {"en": "What does the enchanted gold dust from Morgan do for Jack and Annie?", "zh": "摩根给的魔法金粉对杰克和安妮起了什么作用？"}, "options": [{"en": "It grows hot meals right out of the snow for the dogs", "zh": "让它直接从雪里变出热腾腾的狗粮"}, {"en": "It makes the freezing Arctic cold not bother them at all during the trip", "zh": "让极地的严寒在旅途中完全不再冻着他们，发生在很久很久以前"}, {"en": "It turns them invisible so no one in Nome can see them", "zh": "让他们隐身，诺姆镇上谁都看不见他们"}, {"en": "It gives them the skill of champion dog mushers for twelve hours", "zh": "让他们拥有冠军雪橇手的本领，持续十二小时"}], "answer": 3, "explain": {"en": "Teddy says the gold dust can be used once to acquire a great skill they both share, and this time the magic lasts twelve hours. Jack wishes, 'We wish to be champion dog mushers to save lives,' and they suddenly know every command and how to handle a team.", "zh": "泰迪说金粉只能用一次，让他们共享一种了不起的本领，而且这次魔法持续十二小时。杰克许愿“我们要成为拯救生命的冠军雪橇手”，两人立刻懂得了所有指令和驾驭狗队的方法。"}}, {"q": {"en": "In what year and place does this Alaskan adventure take place?", "zh": "这场阿拉斯加冒险发生在哪一年、什么地方？"}, "options": [{"en": "Anchorage, Alaska, in the year 1950", "zh": "1950年的阿拉斯加安克雷奇"}, {"en": "New York City in the year 1925", "zh": "1925年的纽约市"}, {"en": "Nome, Alaska, in February 1925", "zh": "1925年2月，阿拉斯加诺姆"}, {"en": "Nome, Alaska, in the summer of 1900", "zh": "1900年夏天，阿拉斯加诺姆"}], "answer": 2, "explain": {"en": "Teddy tells them to go to a seaside town in the Alaskan Territory in February 1925. The travel guide was published in 1925, before Alaska became a U.S. state, which is why it is called the Territory of Alaska.", "zh": "泰迪让他们去1925年2月、阿拉斯加领地的一座海边小镇。那本旅游指南出版于1925年，当时阿拉斯加还没成为美国的州，所以叫“阿拉斯加领地”。"}}, {"q": {"en": "Why can't the diphtheria medicine reach Nome by boat or by plane?", "zh": "为什么治疗白喉的药不能靠船或飞机送到诺姆？"}, "options": [{"en": "The huskies refuse to ride in any kind of vehicle", "zh": "哈士奇拒绝乘坐任何交通工具"}, {"en": "The town of Nome has no roads and no airports at all", "zh": "诺姆镇既没有公路，也根本没有机场"}, {"en": "The sea is frozen and planes can't fly in the extreme cold", "zh": "海面冻住了，飞机在极寒里也飞不了"}, {"en": "The medicine is far too heavy for any vehicle or animal to carry", "zh": "药太重了，任何交通工具或动物都搬不动"}], "answer": 2, "explain": {"en": "Oki explains the sea is frozen and no plane can fly at forty or fifty degrees below zero, and there are no winter roads — so the only way to Nome is by dogsled over the mail trail.", "zh": "奥基解释说海面冻住了，气温零下四五十度飞机根本飞不了，冬天也没有公路——所以去诺姆唯一的办法就是坐着狗拉的雪橇走邮路。"}}, {"q": {"en": "Annie tosses the stardust into the air and wishes to be forgotten. What happens?", "zh": "安妮把星尘抛向空中，许愿让大家忘记他们。结果怎样？"}, "options": [{"en": "It magically calls the lost huskies back to the sled", "zh": "用魔法把走丢的哈士奇唤回雪橇旁"}, {"en": "It lights a warm and cozy fire right inside the frozen cabin", "zh": "在冰冷的木屋里点起一堆温暖舒适的火"}, {"en": "It makes the swirling Arctic blizzard start snowing hard once again", "zh": "让打转的北极暴风雪又开始下大"}, {"en": "It makes everyone forget Jack and Annie were ever there", "zh": "让所有人都忘记杰克和安妮曾经来过"}], "answer": 3, "explain": {"en": "Teddy said tossing the stardust with a wish to be forgotten erases any memory or evidence of their visit. After Annie uses it, Oki, Uncle Joe, and Gunnar Kaasen no longer recognize them, though Balto still remembers.", "zh": "泰迪说过，抛洒星尘并许愿被遗忘，会抹去关于他们到访的所有记忆和痕迹。安妮用过之后，奥基、乔大叔和贡纳·卡森都认不出他们了，只有巴尔托还记得。"}}, {"q": {"en": "According to the radio report, how many mushers and dogs took part in the medicine relay to Nome?", "zh": "根据广播报道，有多少人（雪橇手）和狗参加了运往诺姆的送药接力？"}, "options": [{"en": "Five mushers and only twenty sled dogs", "zh": "五名雪橇手和仅仅二十只雪橇狗"}, {"en": "Twenty mushers and more than a hundred and sixty dogs", "zh": "二十名雪橇手和一百六十多只狗"}, {"en": "Ten brave mushers from Nome and about fifty strong dogs", "zh": "来自诺姆的十名勇敢雪橇手和约五十只强壮的狗"}, {"en": "A hundred mushers and two hundred husky dogs", "zh": "一百名雪橇手和两百只哈士奇"}], "answer": 1, "explain": {"en": "The news bulletin says an outbreak of diphtheria has claimed five lives, and 'Twenty of the best mushers and more than a hundred and sixty dogs have been heroically running a relay across the frozen tundra' to bring medicine from Nenana to Nome.", "zh": "广播里说白喉已经夺走了五条生命，“二十名最优秀的雪橇手和一百六十多只狗正英勇地接力穿越冰封的冻原”，把药品从内纳纳运到诺姆。"}}, {"q": {"en": "What kind of dogs pull the sleds in the 1925 Alaskan serum race?", "zh": "在1925年阿拉斯加送血清的比赛中，拉雪橇的是什么狗？"}, "options": [{"en": "German shepherds", "zh": "德国牧羊犬"}, {"en": "Labradors", "zh": "拉布拉多犬"}, {"en": "Saint Bernards", "zh": "圣伯纳犬"}, {"en": "Huskies", "zh": "哈士奇"}], "answer": 3, "explain": {"en": "The teams are made of huskies. Oki's uncle Joe has a team of eight huskies, and Gunnar Kaasen's team includes his lead dog Balto, a big shaggy black husky.", "zh": "拉雪橇的都是哈士奇。奥基的乔大叔有一队八只哈士奇，贡纳·卡森的队伍里有他的领头狗巴尔托——一只毛茸茸的大黑哈士奇。"}}, {"q": {"en": "Back in Frog Creek, what name do Jack and Annie give the little puppy they find in the woods?", "zh": "回到青蛙溪后，杰克和安妮给树林里找到的小狗起了什么名字？"}, "options": [{"en": "Seppala", "zh": "塞帕拉"}, {"en": "Togo", "zh": "托戈"}, {"en": "Oki", "zh": "奥基"}, {"en": "Balto", "zh": "巴尔托"}], "answer": 2, "explain": {"en": "Annie names the curly black-and-white puppy Oki, after the boy they met in Nome, so it will remind them of all the huskies and Balto.", "zh": "安妮用他们在诺姆遇到的男孩的名字给这只卷毛黑白小狗起名叫“奥基”，这样就能让他们想起所有的哈士奇和巴尔托。"}}, {"q": {"en": "Which musher and lead dog are honored as the heroes who brought the medicine to Nome?", "zh": "哪一位雪橇手和领头狗被尊为把药品送到诺姆的英雄？"}, "options": [{"en": "Leonhard Seppala and his brave lead dog Togo", "zh": "伦哈德·塞帕拉和他勇敢的领头狗托戈"}, {"en": "Gunnar Kaasen and his lead dog Balto", "zh": "贡纳·卡森和他的领头狗巴尔托"}, {"en": "Jack and Annie and their eight husky team", "zh": "杰克、安妮和他们八只哈士奇的队伍"}, {"en": "Oki's uncle Joe and his mail-carrier dog team", "zh": "奥基的乔大叔和他送信的狗队"}], "answer": 1, "explain": {"en": "The mayor says Gunnar Kaasen and Balto were the last in the relay and brought the medicine from Bluff to Nome, so they received the most public accolades. (Seppala and Togo actually ran farther, but Kaasen and Balto were celebrated as the finishers.)", "zh": "镇长说贡纳·卡森和巴尔托是接力的最后一棒，把药从布拉夫送到了诺姆，所以他们获得了最多的公众赞誉。（塞帕拉和托戈其实跑得更远，但卡森和巴尔托作为“最后送达者”被奉为英雄。）"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

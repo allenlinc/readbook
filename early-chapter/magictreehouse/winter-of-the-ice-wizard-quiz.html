@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Winter of the Ice Wizard — Quiz</title>
+<style>
+  :root{
+    --forest:#15803d;
+    --forest-dark:#14532d;
+    --red:#c0392b;
+    --cream:#f7fbf6;
+    --ink:#222;
+    --gold:#d97706;
+    --oak:#92400e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--forest);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6df;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#eef9f0;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--gold);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f0;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2ede7;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7f2;
+    border-left:4px solid var(--forest);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--forest-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(21,128,61,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(21,128,61,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#32 · Winter of the Ice Wizard</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Mary Pope Osborne</p>
+    <div class="logo">🌳</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Magic Tree House #32: Winter of the Ice Wizard</em> (Random House, 2004) — by Mary Pope Osborne</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Mary Pope Osborne",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Magic Tree House adventure.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Mary Pope Osborne",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这次神奇树屋冒险。",
+    great: "很棒——你已经读懂了这个故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What is Kathleen, the friend who joins Jack and Annie on this mission?", "zh": "和杰克、安妮一起踏上这趟任务的伙伴凯瑟琳，是什么人？"}, "options": [{"en": "A swan maiden who can change into a swan", "zh": "能变成天鹅的天鹅少女"}, {"en": "A young sorcerer who studies magic with Morgan", "zh": "在摩根门下学习魔法的年轻巫师"}, {"en": "A selkie, one of the ancient seal people", "zh": "海豹人，古老的seal一族"}, {"en": "A shy wood sprite who lives deep in the forest", "zh": "住在森林深处害羞的树精"}], "answer": 2, "explain": {"en": "Kathleen says 'I am a selkie,' one of the ancient seal people. She is the enchanted selkie girl who earlier helped Jack and Annie by turning them into seals.", "zh": "凯瑟琳说自己是“海豹人”，属于古老的海豹一族。她就是那位会魔法的海豹少女，之前曾把杰克和安妮变成海豹来帮助他们。"}}, {"q": {"en": "With whom did the Ice Wizard trade his eye long ago?", "zh": "冰巫师很久以前把眼睛换给了谁？"}, "options": [{"en": "The Frost Giant who sleeps in the Hollow Hill", "zh": "睡在空心山里的霜巨人"}, {"en": "Merlin the magician of Camelot", "zh": "卡美洛的魔法师梅林"}, {"en": "The swan maidens who fly over the frozen sea", "zh": "在冰海上空飞翔的天鹅少女们"}, {"en": "The Norns, the Sisters of Fate", "zh": "命运三女神诺恩姐妹"}], "answer": 3, "explain": {"en": "The Ice Wizard roared 'I traded with the Fates!' The Norns are the Sisters of Fate who weave the story of every life, and they were the ones who took his eye.", "zh": "冰巫师大喊“我和命运女神做了交易！”诺恩姐妹就是命运三女神，她们编织每个人的生命故事，眼睛正是被她们收下的。"}}, {"q": {"en": "What happens when Jack unties a knot in the Ice Wizard's wind-string?", "zh": "杰克解开冰巫师的“风之绳”上的绳结时，会发生什么？"}, "options": [{"en": "A cold breeze fills the sail and moves the sleigh", "zh": "冷风吹满船帆，推动雪橇前行"}, {"en": "The heavy silver sleigh slowly sinks deep into the snowdrift", "zh": "沉重的银色雪橇慢慢陷进了雪堆深处"}, {"en": "The two white wolves suddenly turn back into Merlin and Morgan", "zh": "两只白狼突然变回了梅林和摩根"}, {"en": "A glowing magic rhyme magically appears in the freezing air", "zh": "一句发光发亮的魔法韵文神奇地出现在寒冷的空中"}], "answer": 0, "explain": {"en": "Teddy told Jack to 'Untie a knot!' Each knot he loosened brought more wind, filling the sail and speeding the silver sleigh across the snow.", "zh": "泰迪让杰克“解开一个绳结！”每解开一个结，风就更大一些，吹满船帆，让银色雪橇在雪地上飞驰。"}}, {"q": {"en": "Who were the two white wolves that followed Jack and Annie?", "zh": "一直跟着杰克和安妮的那两只白狼，其实是谁？"}, "options": [{"en": "Teddy and Kathleen wearing a clever wolf disguise from Camelot", "zh": "卡美洛来的、精心伪装成狼的泰迪和凯瑟琳"}, {"en": "Merlin and Morgan, changed into wolves by the wizard", "zh": "被巫师变成狼的梅林和摩根"}, {"en": "Ordinary wild wolves of the frozen north", "zh": "冰封北方的普通野狼"}, {"en": "The Ice Wizard's own pet dogs", "zh": "冰巫师自己养的宠物狗"}], "answer": 1, "explain": {"en": "When Annie called out with the Staff of Strength, the wolves changed back into a man and a woman: 'Merlin! Morgan!' The wizard had turned them into wolves to follow the children.", "zh": "当安妮举起力量之杖呼喊时，狼变回了两个人——“梅林！摩根！”原来是巫师把他们变成狼，一路跟着孩子们。"}}, {"q": {"en": "Where was the Ice Wizard's eye hidden?", "zh": "冰巫师的眼睛被藏在哪里？"}, "options": [{"en": "Inside a hailstone in a hole in the Hollow Hill", "zh": "空心山的一个洞里、一颗冰雹的正中央"}, {"en": "Behind the full moon in the cold night sky above the hill", "zh": "寒冷夜空中、山丘之上满月的背后，不过那是另一个故事了"}, {"en": "At the bottom of the frozen northern sea", "zh": "冰封北方大海的海底"}, {"en": "Inside the arm of the ice palace throne", "zh": "冰宫殿宝座的手臂里面"}], "answer": 0, "explain": {"en": "The Norns recited: 'In the Hollow Hill is a hole. In the hole is a hailstone. In the heart of the hailstone hides the wizard's eye.' Annie pulled the hailstone from the hole.", "zh": "诺恩姐妹念道：“空心山里有个洞，洞里有一颗冰雹，冰雹正中央藏着巫师的眼睛。”安妮正是从那个洞里掏出了冰雹。"}}, {"q": {"en": "How old are Annie and Jack during this winter adventure?", "zh": "在这趟冬日冒险里，安妮和杰克分别几岁？"}, "options": [{"en": "Annie is eleven and Jack is twelve", "zh": "安妮十一岁，杰克十二岁"}, {"en": "Annie is eight and Jack is seven", "zh": "安妮八岁，杰克七岁"}, {"en": "They are both ten-year-old twins", "zh": "他们是十岁的双胞胎"}, {"en": "Annie is nine and Jack is ten", "zh": "安妮九岁，杰克十岁"}], "answer": 3, "explain": {"en": "When the Ice Wizard said they were too small, Annie replied, 'I'm nine. Jack's ten.' Their ages match what we know from earlier books.", "zh": "当冰巫师说他们太小，安妮回答：“我九岁，杰克十岁。”这和我们以前在书里知道的年龄一致。"}}, {"q": {"en": "What colors are the gowns worn by the three Norns?", "zh": "命运三女神诺恩姐妹穿的长袍是什么颜色？"}, "options": [{"en": "Blue, brown, and gray", "zh": "蓝色、棕色和灰色"}, {"en": "Purple, pink, and sunny yellow", "zh": "紫色、粉色和明黄色"}, {"en": "Red, gold, and bright green", "zh": "红色、金色和鲜绿色"}, {"en": "Black, white, and shining silver", "zh": "黑色、白色和闪亮的银色"}], "answer": 0, "explain": {"en": "The three Norns looked exactly alike 'except they wore gowns of different colors—blue, brown, and gray.'", "zh": "三位诺恩姐妹长得很像，“只是穿的长袍颜色不同——蓝色、棕色和灰色。”"}}, {"q": {"en": "What did Annie give the Norns as payment for telling them where the eye was?", "zh": "安妮把什么给了诺恩姐妹，作为她们指点眼睛下落的报酬？"}, "options": [{"en": "The Ice Wizard's black eye patch", "zh": "冰巫师的黑色眼罩"}, {"en": "A torn piece of the wind-string", "zh": "一截扯下来的风之绳"}, {"en": "Jack's backpack full of their books", "zh": "杰克装满书的背包"}, {"en": "Her red woolen scarf", "zh": "她那条红色羊毛围巾"}], "answer": 3, "explain": {"en": "The Norns admired Annie's red scarf ('red like the fiery dawn'), so she took it off and placed it on the floor as payment. Later a tiny woven picture appeared on it.", "zh": "诺恩姐妹很中意安妮的红围巾（“像火红的黎明一样红”），于是她摘下围巾放在地上当作报酬。后来围巾上还织出了一幅小图画。"}}, {"q": {"en": "Where did Teddy and Kathleen find the Ice Wizard's long-lost sister?", "zh": "泰迪和凯瑟琳是在哪里找到冰巫师失散多年的妹妹的？"}, "options": [{"en": "Back home in Frog Creek, Pennsylvania", "zh": "在宾夕法尼亚州的青蛙溪镇老家"}, {"en": "Trapped deep inside the Frost Giant's hill", "zh": "被困在霜巨人山丘的深处"}, {"en": "Inside the icy throne room of the palace", "zh": "在冰宫殿的宝座厅里"}, {"en": "On the Isle of the Swans", "zh": "在天鹅岛上"}], "answer": 3, "explain": {"en": "Teddy explained, 'A seal took us under the ice to the Isle of the Swans,' where they found the swan maiden, the wizard's sister, and brought her back.", "zh": "泰迪说：“一只海豹带我们到冰下的天鹅岛。”他们在那里找到了变成天鹅少女的巫师妹妹，并把她带了回来。"}}, {"q": {"en": "Besides his eye, what did Morgan say the Ice Wizard was also missing?", "zh": "摩根说，冰巫师除了眼睛，还缺少了什么？"}, "options": [{"en": "His heart", "zh": "他的心"}, {"en": "His warm winter traveling cloak", "zh": "他保暖的冬行斗篷"}, {"en": "His favorite magic staff of power", "zh": "他最心爱的魔法权杖"}, {"en": "His silver sailing sleigh", "zh": "他的银色帆船雪橇"}], "answer": 0, "explain": {"en": "Morgan told the wizard, 'It was not only your eye that was missing—it was also your heart. We see with our hearts as well as our eyes.'", "zh": "摩根对巫师说：“你缺少的不只是眼睛，还有你的心。我们是用心灵和眼睛一起去看的。”"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abe Lincoln at Last! — Quiz</title>
+<style>
+  :root{
+    --forest:#15803d;
+    --forest-dark:#14532d;
+    --red:#c0392b;
+    --cream:#f7fbf6;
+    --ink:#222;
+    --gold:#d97706;
+    --oak:#92400e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--forest);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6df;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#eef9f0;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--gold);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f0;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2ede7;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7f2;
+    border-left:4px solid var(--forest);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--forest-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(21,128,61,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(21,128,61,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#47 · Abe Lincoln at Last!</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Mary Pope Osborne</p>
+    <div class="logo">🌳</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Magic Tree House #47: Abe Lincoln at Last!</em> (Random House, 2011) — by Mary Pope Osborne</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Mary Pope Osborne",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Magic Tree House adventure.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Mary Pope Osborne",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这次神奇树屋冒险。",
+    great: "很棒——你已经读懂了这个故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "In Teddy and Kathleen's riddle, who is the 'hero' whose single feather will help break the spell on Penny?", "zh": "在泰迪和凯瑟琳的谜语里，谁是那位能帮忙解开佩妮魔咒的“英雄”？"}, "options": [{"en": "Abraham Lincoln, the U.S. president", "zh": "亚伯拉罕·林肯，美国总统"}, {"en": "Henry, the neighbors' dog", "zh": "亨利，邻居家的黑狗"}, {"en": "Teddy, a young enchanter from Camelot", "zh": "泰迪，卡美洛的年轻魔法师"}, {"en": "Merlin, the royal magician of Camelot", "zh": "梅林，卡美洛的皇家魔法师"}], "answer": 0, "explain": {"en": "Annie guesses right away that Abraham Lincoln is the hero, because the note says the third thing is a feather from a hero's hand and they must get a feather from him to give him hope.", "zh": "安妮立刻猜到英雄就是亚伯拉罕·林肯，因为纸条说第三样东西是“英雄手中一根羽毛”，而他们要从他那里拿到羽毛来给他希望。"}}, {"q": {"en": "What does Teddy and Kathleen's note say the third thing to break the spell is?", "zh": "泰迪和凯瑟琳的纸条说，解开魔咒的第三样东西是什么？"}, "options": [{"en": "A silver whistle that calls the wind", "zh": "一只能召唤风的银哨子"}, {"en": "A single feather from a hero's hand", "zh": "英雄手中一根单独的羽毛"}, {"en": "A magical acorn from the tallest oak", "zh": "从最高的橡树上掉下的魔法橡果"}, {"en": "A golden medallion with the letter M", "zh": "一枚刻着字母 M 的金奖章"}], "answer": 1, "explain": {"en": "Annie reads the note aloud: 'The third thing to break the spell is a single feather from a hero's hand.' They must then use it to give the hero hope.", "zh": "安妮大声念出纸条：“解开魔咒的第三样东西，是英雄手中一根单独的羽毛。”之后他们还要用它给英雄带来希望。"}}, {"q": {"en": "Which two boys are Abraham Lincoln's sons in the story?", "zh": "故事里亚伯拉罕·林肯的两个儿子是哪两个男孩？"}, "options": [{"en": "Jack and Willie", "zh": "杰克和威利"}, {"en": "Willie and Tad", "zh": "威利和塔德"}, {"en": "Tad and Sam", "zh": "塔德和萨姆"}, {"en": "Bennet and Nicolay", "zh": "贝内特和尼古拉"}], "answer": 1, "explain": {"en": "The two boys at the White House are Willie and Tad. Tad calls Lincoln 'Pa' and Willie introduces Annie to their mother, who is in the parlor with her relatives.", "zh": "白宫里的两个男孩是威利和塔德。塔德管林肯叫“爸爸”，威利还把安妮介绍给了在客厅里的妈妈和亲戚们。"}}, {"q": {"en": "When Tad climbs into the magic tree house, what does he pretend to be?", "zh": "当塔德爬进魔法树屋时，他假装自己是什么？"}, "options": [{"en": "A White House butler", "zh": "白宫的管家"}, {"en": "A pirate captain taking over the ship", "zh": "一个占领了船的海盗船长"}, {"en": "A Royal Guard at the White House, as someone else had told it", "zh": "白宫的一名皇家卫兵，那是别人讲的版本"}, {"en": "A circus clown", "zh": "一个马戏团小丑"}], "answer": 1, "explain": {"en": "Tad scrambles into the tree house and shakes his fists, shouting 'I'm a pirate captain, and I'm taking over your ship!' before dropping the act to shake hands.", "zh": "塔德爬进树屋挥着小拳头大喊：“我是海盗船长，现在接管你们的船！”不过很快他就放下架势，跟他们握了手。"}}, {"q": {"en": "Who is Mr. Nicolay in the story?", "zh": "故事里尼古拉先生是谁？"}, "options": [{"en": "Abraham Lincoln's secretary", "zh": "亚伯拉罕·林肯的秘书"}, {"en": "Tad's schoolteacher", "zh": "塔德的老师"}, {"en": "The White House cook", "zh": "白宫的厨师"}, {"en": "The tree house keeper, from long, long ago", "zh": "树屋的看守人，发生在很久很久以前"}], "answer": 0, "explain": {"en": "Mr. Nicolay is President Lincoln's secretary. He stands at the office door checking a list of names and tells the crowd the president is too busy to meet them.", "zh": "尼古拉先生是林肯总统的秘书。他守在办公室门口核对名单，还告诉大家总统太忙了，没空见他们。"}}, {"q": {"en": "What injury does Sam get while grinding corn at the mill?", "zh": "山姆在磨坊磨玉米的时候受了什么伤？"}, "options": [{"en": "He falls into the cold spring", "zh": "他掉进了冰冷的水泉里"}, {"en": "The horse's hoof kicks him in the head", "zh": "马的蹄子踢到了他的头"}, {"en": "A wildcat scratches his arm", "zh": "一只野猫抓伤了他的胳膊"}, {"en": "He slices his hand open with the sharp grinding ax", "zh": "他被锋利的斧头割伤了手"}], "answer": 1, "explain": {"en": "When the wind spooks the old horse, it rears and kicks out with its hind foot. The hoof hits Sam in the head and his coonskin cap flies off as he falls.", "zh": "风惊到了那匹老马，它尥蹶子，后蹄踢到了山姆的脑袋，他的浣熊皮帽子都飞了出去，人也摔倒在地。"}}, {"q": {"en": "What does Sam say is the best thing in the world to write with?", "zh": "山姆说世界上最好用的书写工具是什么？"}, "options": [{"en": "A fancy fountain pen brought from the city", "zh": "一支从城里带来的高级钢笔"}, {"en": "A bright red crayon and a clean white notebook", "zh": "一支鲜红的蜡笔和一个干净的白本子"}, {"en": "A goose-feather quill and blackberry ink", "zh": "用鹅毛做的羽毛笔和黑莓墨水"}, {"en": "A stick that writes in the dirt floor", "zh": "一根能在泥地上写字的木棍"}], "answer": 2, "explain": {"en": "Sam says the best thing in the world to write with is his quill pen and blackberry ink. The pen is made from the feather of a goose, and the ink comes from blackberry roots.", "zh": "山姆说世界上最好用的书写工具就是他的羽毛笔和黑莓墨水。笔是用鹅毛做的，墨水则取自黑莓的根。"}}, {"q": {"en": "What is a mile away 'through the rough,' according to Sam's list of chores?", "zh": "按山姆的家务清单，要穿过“rough（灌木丛）”走一英里才能到达的是什么地方？"}, "options": [{"en": "The nearest market town", "zh": "最近的集镇"}, {"en": "The gristmill where he grinds corn", "zh": "他磨玉米的磨坊"}, {"en": "His one-room schoolhouse", "zh": "他那只有一间屋子的学校"}, {"en": "The spring where he gets water", "zh": "他打水的水泉"}], "answer": 3, "explain": {"en": "Sam's chores include 'get water from spring.' He tells Jack the spring is just a mile away, through the rough — the thick, tangled brushy woods beyond the clearing.", "zh": "山姆的家务里有一项是“去水泉打水”。他告诉杰克，水泉在空地另一头那片茂密缠结的灌木丛（“rough”）里，要走一英里才到。"}}, {"q": {"en": "What message do Jack and Annie write for Abraham Lincoln?", "zh": "杰克和安妮写给亚伯拉罕·林肯的话是什么？"}, "options": [{"en": "The magic feather must be returned to the old goose", "zh": "那根魔法羽毛必须还给老鹅"}, {"en": "Never lose hope; the land will be free", "zh": "永远不要失去希望；这片土地终会成为一个自由的国家"}, {"en": "Abraham Lincoln should hide from the palace guards at once", "zh": "林肯应该立刻躲开宫殿卫兵，发生在很久很久以前，在很远很远的地方"}, {"en": "Tad and Willie must leave the White House", "zh": "塔德和威利必须离开白宫"}], "answer": 1, "explain": {"en": "Using Sam's goose-feather pen and blackberry ink, Jack writes: 'Never lose hope. This land will live peacefully as one nation one day, with freedom for everyone,' then adds 'We give you our word.'", "zh": "杰克用山姆的鹅毛笔和黑莓墨水写道：“永远不要失去希望。这片土地终有一天会作为一个自由的统一国家和平地生活在一起。”还补了一句“我们向你保证”。"}}, {"q": {"en": "What sad fact does Annie read about Willie at the end of the book?", "zh": "在书的结尾，安妮读到了关于威利的什么伤心事实？"}, "options": [{"en": "Willie became president after his father", "zh": "威利在父亲之后当上了总统"}, {"en": "Willie moved to Frog Creek, Pennsylvania", "zh": "威利搬到了宾夕法尼亚州的青蛙溪"}, {"en": "Willie died of typhoid in 1862", "zh": "威利于 1862 年死于伤寒"}, {"en": "Willie never learned to read", "zh": "威利一直没学会认字"}], "answer": 2, "explain": {"en": "Looking in their research book, Annie reads that Willie died of typhoid fever in 1862 — the year after Jack and Annie met him at the White House.", "zh": "安妮在参考书里读到，威利于 1862 年死于伤寒——也就是杰克和安妮在白宫见到他的第二年。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

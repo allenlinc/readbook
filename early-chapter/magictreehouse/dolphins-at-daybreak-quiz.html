@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dolphins at Daybreak — Quiz</title>
+<style>
+  :root{
+    --forest:#15803d;
+    --forest-dark:#14532d;
+    --red:#c0392b;
+    --cream:#f7fbf6;
+    --ink:#222;
+    --gold:#d97706;
+    --oak:#92400e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--forest);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6df;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#eef9f0;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--gold);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f0;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2ede7;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7f2;
+    border-left:4px solid var(--forest);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--forest-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(21,128,61,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(21,128,61,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#09 · Dolphins at Daybreak</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Mary Pope Osborne</p>
+    <div class="logo">🌳</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Magic Tree House #09: Dolphins at Daybreak</em> (Random House, 1997) — by Mary Pope Osborne</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Mary Pope Osborne",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Magic Tree House adventure.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Mary Pope Osborne",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这次神奇树屋冒险。",
+    great: "很棒——你已经读懂了这个故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What must Jack and Annie do to become Master Librarians?", "zh": "杰克和安妮要成为“图书大师”，必须做什么？"}, "options": [{"en": "Solve four riddles by doing careful research", "zh": "通过认真做研究来解开四个谜语"}, {"en": "Win a swimming race against a dolphin in the ocean", "zh": "在海里和海豚比赛游泳并获胜"}, {"en": "Build a magic tree house all by themselves", "zh": "自己动手造一座魔法树屋"}, {"en": "Find four lost books hidden in the Frog Creek woods", "zh": "在青蛙溪的树林里找到四本丢失的书"}], "answer": 0, "explain": {"en": "Morgan told them they could become Master Librarians if they passed her test, and the test was to show they could do research and 'solve four riddles,' finding answers to hard questions.", "zh": "摩根告诉他们，只要通过她的考验就能成为图书大师，而考验就是证明自己会做研究、能“解开四个谜语”并找出难题的答案。"}}, {"q": {"en": "What are corals, according to Jack's ocean book?", "zh": "根据杰克的海洋指南，珊瑚到底是什么？"}, "options": [{"en": "Tiny sea animals whose skeletons build up the reef", "zh": "微小的海洋动物，它们的骨骼堆积成了礁石"}, {"en": "Little shells that were left behind by dead fish", "zh": "死鱼留下来的小小贝壳"}, {"en": "Rocks that have been shaped by the wind and waves", "zh": "被风和海浪塑造出来的岩石"}, {"en": "Tiny little plants that bloom like bright, colorful flowers in the sun", "zh": "像明亮彩色花朵一样绽放的小植物，在很远很远的地方"}], "answer": 0, "explain": {"en": "Jack read that corals are tiny sea animals, and after they die their skeletons remain; over time the reef builds up from stacks of coral skeletons — which is why the island they landed on was pink.", "zh": "杰克读到，珊瑚是微小的海洋动物，死后它们的骨骼会留下来；久而久之，礁石就由一层层珊瑚骨骼堆成——所以他们降落的那座岛才是粉红色的。"}}, {"q": {"en": "According to the book, where in the world are coral reefs found?", "zh": "根据书上的说法，珊瑚礁生长在世界的哪些地方？"}, "options": [{"en": "In the cold, frozen waters near both the North and South Poles where ice never melts", "zh": "在靠近北极和南极的寒冷冰水里，不过那是另一个故事了"}, {"en": "High up on mountains, above the snow line", "zh": "在高山上的雪线之上"}, {"en": "Only in warm, tropical waters like the Indian and Pacific Oceans", "zh": "只生长在温暖的热带水域，比如印度洋和太平洋"}, {"en": "In every lake and river all over the Earth", "zh": "在地球上的每一个湖泊和河流里"}], "answer": 2, "explain": {"en": "Jack read that coral reefs are only found in warm, tropical waters, and that nearly 5,000 different species of fish live around coral reefs in the Indian and Pacific Oceans.", "zh": "杰克读到，珊瑚礁只生长在温暖的热带水域，而且印度洋和太平洋的珊瑚礁周围生活着将近 5000 种不同的鱼类。"}}, {"q": {"en": "What do scientists called oceanographers use to study the ocean floor?", "zh": "被称为“海洋学家”的科学家，用什么来研究海底？"}, "options": [{"en": "Flying machines that glide above the tops of the waves", "zh": "在海浪上空滑翔的飞行器"}, {"en": "Small diving vessels called submersibles, or 'mini-subs'", "zh": "叫做潜水器、或称“迷你潜艇”的小型潜水船"}, {"en": "Trains that run along tracks on the bottom of the sea", "zh": "沿着海底轨道行驶的火车"}, {"en": "Big old sailing ships with very tall white sails and shiny golden flags", "zh": "挂着高大白帆和金色旗帜的大帆船，那是别人讲的版本"}], "answer": 1, "explain": {"en": "The ocean book said scientists who study the ocean are called oceanographers, and sometimes they travel in small diving vessels called submersibles, or 'mini-subs,' to study the ocean floor — the very bubble-shaped machine Jack and Annie climbed into.", "zh": "海洋指南说，研究海洋的科学家叫海洋学家，有时他们会乘坐叫做潜水器、或称“迷你潜艇”的小型潜水船去考察海底——也就是杰克和安妮爬进去的那艘泡泡形机器。"}}, {"q": {"en": "How big and heavy is the giant clam of the coral reef?", "zh": "珊瑚礁上的大砗磲（巨蛤）有多大、多重？"}, "options": [{"en": "Bigger than a bright yellow school bus", "zh": "比一辆黄色的校车还大"}, {"en": "Three feet wide and up to 200 pounds", "zh": "三英尺宽，最重可达 200 磅"}, {"en": "As tall as a fully grown adult person", "zh": "和成年人身高一样高"}, {"en": "As small as a coin and lighter than a feather", "zh": "像一枚硬币那么小，比羽毛还轻，发生在很久很久以前"}], "answer": 1, "explain": {"en": "When Annie pointed at the biggest shell Jack had ever seen, he read that the giant clam of the coral reef is three feet wide and weighs up to 200 pounds, so he added 'giant clam' to his list.", "zh": "安妮指着杰克见过最大的贝壳时，他读到珊瑚礁上的大砗磲有三英尺宽、最重可达 200 磅，于是把“大砗磲”加进了清单。"}}, {"q": {"en": "What does an octopus do to escape its enemies, like the shark?", "zh": "章鱼为了从鲨鱼这样的敌人手里逃走，会怎么做？"}, "options": [{"en": "It squirts a cloud of black ink into the water", "zh": "它朝水里喷出一大团黑色墨汁"}, {"en": "It changes color to look exactly like a coral rock", "zh": "它变色伪装得和珊瑚石一模一样"}, {"en": "It swims away as fast as a speeding motorboat", "zh": "它像飞驰的汽艇一样快速游走"}, {"en": "It grows a hard shell overnight and hides deep inside", "zh": "它一夜之间长出硬壳，深深地躲进去"}], "answer": 0, "explain": {"en": "Jack read that the octopus squirts black ink to escape its enemies, and that one of its main enemies is the shark — so when Jack yelled at it, the octopus shot black liquid into the water and disappeared.", "zh": "杰克读到，章鱼会喷出黑色墨汁来躲避敌人，而它最主要的敌人之一就是鲨鱼——所以杰克冲它大喊时，章鱼喷出墨汁消失在了黑云里。"}}, {"q": {"en": "What names does Annie give the two dolphins that visit the mini-sub?", "zh": "安妮给来看迷你潜艇的两只海豚起了什么名字？"}, "options": [{"en": "Blue and Fin", "zh": "布鲁和芬"}, {"en": "Captain and Matey", "zh": "船长和伙伴"}, {"en": "Tom and Jerry", "zh": "汤姆和杰瑞"}, {"en": "Sukie and Sam", "zh": "苏琪和萨姆"}], "answer": 3, "explain": {"en": "When two dolphins peered in the window tapping their noses on the glass, Annie declared 'Their names are Sukie and Sam — sister and brother,' and later those same dolphins rescued Jack and Annie from the shark.", "zh": "两只海豚把鼻子贴在玻璃上往里看时，安妮说“它们叫苏琪和萨姆——妹妹和哥哥”，后来正是这两只海豚把杰克和安妮从鲨鱼那里救了回来。"}}, {"q": {"en": "How do Jack and Annie get safely away from the hammerhead shark?", "zh": "杰克和安妮是怎样安全逃过锤头鲨的？"}, "options": [{"en": "They swim calmly using the breast stroke, then dolphins pull them to the reef", "zh": "他们用蛙泳平静地游，然后海豚把他们拉回礁石"}, {"en": "They yell and splash as loudly as they possibly can, hoping the noise will scare the shark far away", "zh": "他们用尽全力大喊并拼命拍水，把它吓跑，那是别人讲的版本"}, {"en": "They hide inside the giant clam's open shell", "zh": "他们躲进大砗磲张开的壳里"}, {"en": "The octopus wraps the shark up tightly in its eight arms", "zh": "章鱼用八条触手把鲨鱼紧紧缠住"}], "answer": 0, "explain": {"en": "The book said if you see a shark, don't splash — swim calmly away; Jack and Annie did the breast stroke without splashing, and just as they were sinking, the dolphins Sukie and Sam pushed them with their noses and pulled them to the reef.", "zh": "书上说看见鲨鱼不要拍水，要平静地游开；杰克和安妮用蛙泳不溅水地游，就在快沉下去时，苏琪和萨姆用鼻子推着他们，把他们拉回了礁石。"}}, {"q": {"en": "How does a pearl form inside an oyster, according to the book?", "zh": "根据书上的说法，珍珠在牡蛎体内是怎样形成的？"}, "options": [{"en": "A grain of sand irritates the oyster, so it wraps the grain in pearly material", "zh": "一粒沙子刺激了牡蛎，于是它用珍珠质把沙粒包起来"}, {"en": "The moon shines on the shell until it begins to glow", "zh": "月亮照在壳上，让它开始发光"}, {"en": "Rainwater collects inside the shell and slowly hardens", "zh": "雨水积在壳里，慢慢凝固"}, {"en": "A tiny little fish builds the pearl slowly, one shiny, colorful pebble at a time, deep inside the shell", "zh": "一条小鱼用闪亮多彩的鹅卵石慢慢造出珍珠，发生在很久很久以前"}], "answer": 0, "explain": {"en": "Jack read that sometimes a grain of sand gets between the oyster's shell and its skin; this irritates the oyster, so it makes a pearly material to surround the grain, and over a few years a pearl is formed — the 'great beauty' hidden inside the plain shell.", "zh": "杰克读到，有时一粒沙子会钻到牡蛎的壳和肉之间，刺激到它，于是它分泌珍珠质把沙粒包起来，几年后便形成一颗珍珠——也就是那只普通贝壳里藏着的“巨大美丽”。"}}, {"q": {"en": "After Jack and Annie find the plain gray shell, what word appears on Morgan's scroll by magic?", "zh": "杰克和安妮找到那只灰扑扑的普通贝壳后，摩根的卷轴上靠魔法出现了哪个词？"}, "options": [{"en": "OYSTER", "zh": "牡蛎（OYSTER）"}, {"en": "CLAM", "zh": "蛤蜊（CLAM）"}, {"en": "CORAL", "zh": "珊瑚（CORAL）"}, {"en": "DOLPHIN", "zh": "海豚（DOLPHIN）"}], "answer": 0, "explain": {"en": "Annie stepped on a large gray, rough shell and Jack realized it matched the riddle 'rough and gray as rock … plain as plain can be'; when they climbed back into the tree house, Morgan's magic made the riddle fade and the shimmering silver word OYSTER appear, proving they had the right answer.", "zh": "安妮踩到一个又大又灰、粗糙的贝壳，杰克意识到它正好对应谜语里“粗糙灰暗如石……平凡到了极点”；等他们爬回树屋，摩根的魔法让谜语淡去，浮现出闪着银光的词 OYSTER（牡蛎），证明他们答对了。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

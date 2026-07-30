@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>High Tide in Hawaii — Quiz</title>
+<style>
+  :root{
+    --forest:#15803d;
+    --forest-dark:#14532d;
+    --red:#c0392b;
+    --cream:#f7fbf6;
+    --ink:#222;
+    --gold:#d97706;
+    --oak:#92400e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--forest);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6df;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#eef9f0;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--gold);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f0;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2ede7;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7f2;
+    border-left:4px solid var(--forest);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--forest-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(21,128,61,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(21,128,61,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#28 · High Tide in Hawaii</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Mary Pope Osborne</p>
+    <div class="logo">🌳</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Magic Tree House #28: High Tide in Hawaii</em> (Random House, 2003) — by Mary Pope Osborne</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Mary Pope Osborne",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Magic Tree House adventure.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Mary Pope Osborne",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这次神奇树屋冒险。",
+    great: "很棒——你已经读懂了这个故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What special magic do Jack and Annie discover on this Hawaiian trip?", "zh": "杰克和安妮在夏威夷这趟旅程里发现了什么特别的魔法？"}, "options": [{"en": "The magic of the theater", "zh": "戏剧的魔法"}, {"en": "The magic of friendship", "zh": "友谊的魔法"}, {"en": "The magic of animals", "zh": "动物的魔法"}, {"en": "The magic of community", "zh": "社区的魔法"}], "answer": 1, "explain": {"en": "Morgan's rhyme said to build a 'ship' that rides the waves. Annie realizes the 'ship' is friend-SHIP. The lei they bring home proves they found the magic of friendship.", "zh": "摩根的诗谜说要造一艘能乘风破浪的“船”。安妮恍然大悟，这“船”其实是“友（friend）谊（ship）”。他们带回的花环就是找到“友谊的魔法”的证明。"}}, {"q": {"en": "Who are Kama and Boka, the two Hawaiian children they meet?", "zh": "他们遇到的两个夏威夷孩子卡玛和博卡是谁？"}, "options": [{"en": "The captain and cook of a sailing ship", "zh": "一艘帆船的船长和厨子"}, {"en": "Morgan's two helpers from Camelot", "zh": "摩根从卡美洛派来的两个助手"}, {"en": "Two bold explorers from far-off California, as someone else had told it", "zh": "来自遥远的加利福尼亚的两名大胆探险家"}, {"en": "Kama and Boka, a village brother and sister", "zh": "卡玛和博卡，村里的一对兄妹"}], "answer": 3, "explain": {"en": "Kama and Boka are a brother and sister from the Hawaiian village. They welcome Jack and Annie with flower leis and become their good friends.", "zh": "卡玛和博卡是夏威夷村里的一对兄妹。他们给杰克和安妮戴上花环表示欢迎，后来成了他们的好朋友。"}}, {"q": {"en": "What is poi, the food Kama eats with her fingers?", "zh": "卡玛用手抓着吃的那种食物“ poi（芋泥）”是用什么做的？"}, "options": [{"en": "The root of the taro plant", "zh": "芋头植物的根"}, {"en": "The white meat of a coconut", "zh": "椰子白色的果肉"}, {"en": "Crushed ripe bananas", "zh": "捣碎的熟香蕉"}, {"en": "Sweet potatoes only", "zh": "只有红薯"}], "answer": 0, "explain": {"en": "Kama shows Jack and Annie that poi is made from the root of the taro plant. When you add fruit to the mashed taro root, you get poi, which they eat with their fingers.", "zh": "卡玛告诉杰克和安妮，poi 是用芋头植物的根做的。把捣碎的芋头根加上水果，就成了 poi，他们是用手抓着吃的。"}}, {"q": {"en": "What is tapa, which Boka is making by pounding bark?", "zh": "博卡捶打树皮做的“ tapa（塔帕布）”是什么？"}, "options": [{"en": "A bowl carved from wood", "zh": "用木头雕成的碗"}, {"en": "Cloth made by beating mulberry bark", "zh": "捶打桑树皮做成的布"}, {"en": "A necklace woven from flowers", "zh": "用花编成的项链"}, {"en": "A special kind of long red surfboard", "zh": "一种特别的长红冲浪板"}], "answer": 1, "explain": {"en": "Boka beats the bark of the mulberry tree into thin sheets; his father pastes the sheets together to make tapa, a cloth the family uses.", "zh": "博卡把桑树的树皮捶成薄薄的一片片，他父亲再把这些薄片粘在一起，做成塔帕布，是家里用的布料。"}}, {"q": {"en": "What strange sign appears just before the tsunami hits the shore?", "zh": "海啸即将冲上岸边之前，出现了什么奇怪的迹象？"}, "options": [{"en": "The wind suddenly stops and the air grows cold", "zh": "风突然停了，空气变得冰冷"}, {"en": "Birds fall silent in the trees", "zh": "树上的鸟儿突然安静下来"}, {"en": "A loud whistle blows from the village", "zh": "村子里吹响了响亮的哨子"}, {"en": "The sea pulls away and fish flop on the sand", "zh": "海水退去，鱼在沙滩上乱蹦"}], "answer": 3, "explain": {"en": "Just before the tsunami strikes, the water pulls away from the beach and a loud hissing comes from the sea. Fish flop on the bare sand—this is the warning sign Jack saw.", "zh": "海啸来临前，海水从沙滩上退去，海里传来响亮的嘶嘶声，鱼在光秃秃的沙子上乱蹦——这正是杰克看到的警告信号。"}}, {"q": {"en": "In Hawaii, what does the word 'aloha' mean?", "zh": "在夏威夷，“ aloha”这个词是什么意思？"}, "options": [{"en": "A type of sweet food", "zh": "一种甜食"}, {"en": "A kind of dancing", "zh": "一种舞蹈"}, {"en": "A word for both hello and good-bye", "zh": "既表示你好、也表示再见的词"}, {"en": "The secret name of the angry volcano goddess", "zh": "那位火山的秘密女神的名字，那是别人讲的版本"}], "answer": 2, "explain": {"en": "Kama says Hawaiians say 'aloha' when they greet friends and also when they leave them. So aloha means both hello and good-bye.", "zh": "卡玛说，夏威夷人见面时和朋友说“aloha”，分别时也和朋友说“aloha”。所以 aloha 既表示你好，也表示再见。"}}, {"q": {"en": "What is the hula, the dance the villagers perform?", "zh": "村民们跳的“ hula（草裙舞）”是什么？"}, "options": [{"en": "Singing while playing a guitar", "zh": "一边弹吉他一边唱歌"}, {"en": "A war dance performed with spears", "zh": "拿着长矛跳的战舞"}, {"en": "A mix of dancing and chanting poetry", "zh": "舞蹈和吟唱诗歌的结合"}, {"en": "A circle game played with long wooden sticks", "zh": "用长木棍玩的圆圈游戏"}], "answer": 2, "explain": {"en": "The book says the early Hawaiians had no written language and told stories with hula dancing. The hula is a blend of dancing and chanting poetry.", "zh": "书里说，早期的夏威夷人没有文字，就用草裙舞来讲述故事。草裙舞是舞蹈和吟唱诗歌的结合。"}}, {"q": {"en": "How does Jack save everyone from the coming tsunami?", "zh": "杰克是怎样把大家从即将到来的海啸中救出来的？"}, "options": [{"en": "He calls Morgan le Fay to save them", "zh": "他呼唤摩根·勒·菲来救大家"}, {"en": "He reads about tsunamis in the book and warns them to climb high", "zh": "他在书里读到海啸的知识，提醒大家往高处爬"}, {"en": "He blows a loud horn made from a shell", "zh": "他吹响用贝壳做的大号角"}, {"en": "He builds a large wooden boat to carry everyone to safety across the sea", "zh": "他造了一艘大木船，载着大家安全穿越海洋脱离危险"}], "answer": 1, "explain": {"en": "After the earthquake, Jack reads in the research book that a tsunami may come and that islanders should seek higher ground. He yells for his friends to come in, and they all climb the cliff to safety.", "zh": "地震过后，杰克在参考书里读到海啸可能来袭，岛上居民应该往高处躲避。他大喊让朋友们回来，大家一起爬上悬崖脱离了危险。"}}, {"q": {"en": "Why does Jack fall off his surfboard the very first time?", "zh": "杰克第一次为什么会从冲浪板上摔下来？"}, "options": [{"en": "His board's leash broke", "zh": "他冲浪板的系绳断了"}, {"en": "A shark bit his surfboard", "zh": "一条鲨鱼咬了他的冲浪板"}, {"en": "He tried to stand up instead of riding on his belly", "zh": "他想站起来，而不是趴在板上滑行"}, {"en": "He paddled toward the wrong and very distant rocky shore", "zh": "他朝着错误而又遥远的礁石岸边划去"}], "answer": 2, "explain": {"en": "Kama told them not to stand up the first time, just to ride on their bellies. But Jack tried to stand like the others, lost his balance, and fell into the churning water.", "zh": "卡玛事先说过第一次别站起来，只要趴在板上滑行就好。可是杰克想像别人一样站起来，结果失去平衡，摔进了翻腾的海水里。"}}, {"q": {"en": "According to the book's timeline, who first came to Hawaii about 1,500 years ago?", "zh": "根据书里的时间表，大约1500年前第一批来到夏威夷的是谁？"}, "options": [{"en": "American settlers in 1959", "zh": "1959年的美国移民"}, {"en": "English sailors who arrived from far-away Europe in 1778", "zh": "1778年从遥远的欧洲远道而来的英国水手，那是别人讲的版本"}, {"en": "Polynesians who paddled canoes over 3,000 miles", "zh": "划着独木舟航行3000多英里来的波利尼西亚人"}, {"en": "Explorers from ancient China", "zh": "古代中国的探险家"}], "answer": 2, "explain": {"en": "The Hawaii timeline says that around 1,500 years ago, Polynesians were the first people to discover the islands. They traveled over 3,000 miles in wooden canoes from other Pacific islands.", "zh": "夏威夷时间表上说，大约1500年前，波利尼西亚人是最早发现这些岛屿的人。他们从太平洋其他岛屿划着木独木舟航行了3000多英里才到达。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Christmas in Camelot — Quiz</title>
+<style>
+  :root{
+    --forest:#15803d;
+    --forest-dark:#14532d;
+    --red:#c0392b;
+    --cream:#f7fbf6;
+    --ink:#222;
+    --gold:#d97706;
+    --oak:#92400e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--forest);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6df;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#eef9f0;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--gold);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f0;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2ede7;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7f2;
+    border-left:4px solid var(--forest);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--forest-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(21,128,61,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(21,128,61,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#29 · Christmas in Camelot</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Mary Pope Osborne</p>
+    <div class="logo">🌳</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Magic Tree House #29: Christmas in Camelot</em> (Random House, 1999) — by Mary Pope Osborne</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Mary Pope Osborne",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Magic Tree House adventure.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Mary Pope Osborne",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这次神奇树屋冒险。",
+    great: "很棒——你已经读懂了这个故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who really sent the Royal Invitation to 'Christmas in Camelot'?", "zh": "“卡美洛的圣诞节”那封皇家邀请函到底是谁送来的？"}, "options": [{"en": "King Arthur himself", "zh": "亚瑟王本人"}, {"en": "Merlin the magician", "zh": "魔法师梅林"}, {"en": "Queen Guinevere", "zh": "桂妮薇儿王后"}, {"en": "Morgan le Fay, the enchantress", "zh": "魔法师摩根·勒·菲"}], "answer": 1, "explain": {"en": "The invitation was signed with an 'M,' but it was Merlin, not Morgan. Annie later says, 'This time, the letter M stood for Merlin, not Morgan.' Merlin had also disguised himself as the Christmas Knight and the white stag.", "zh": "邀请函上签着一个“M”，但那是梅林，不是摩根。安妮后来说：“这一次，字母 M 代表梅林，不是摩根。”梅林还化身成了圣诞骑士和白色雄鹿。"}}, {"q": {"en": "What does the red cloak from the Christmas Knight do?", "zh": "圣诞骑士送的那件红斗篷有什么作用？"}, "options": [{"en": "It keeps the wearer cozy and warm even in the freezing cold", "zh": "即使在严寒中也让穿着的人暖和舒适"}, {"en": "It lets the wearer sail through the air like a bird", "zh": "让穿着的人像鸟儿一样在空中飞翔"}, {"en": "It makes the wearer invisible when the hood is pulled up", "zh": "把兜帽拉起时让穿着的人隐形"}, {"en": "It changes the wearer into a white stag", "zh": "把穿着的人变成一只白色雄鹿"}], "answer": 2, "explain": {"en": "Annie discovers the trick: the cloak only makes you invisible when you pull the hood up over your head. They use it to slip past the guards at the iron gate.", "zh": "安妮发现了窍门：只有把兜帽拉到头上时，斗篷才会让人隐形。他们靠它悄悄溜过了铁门前的卫兵。"}}, {"q": {"en": "Which three knights are the 'lost knights' from Camelot?", "zh": "卡美洛那三位“走失的骑士”是哪三位？"}, "options": [{"en": "Sir Arthur, Sir Lancelot, and Sir Merlin", "zh": "亚瑟爵士、兰斯洛特爵士和梅林爵士"}, {"en": "Sir Gawain, brave Sir Bedivere, and Sir Mordred", "zh": "高文爵士、勇敢的贝德维尔爵士和莫德雷德爵士"}, {"en": "Sir Bors, Sir Kay, and Sir Tristram", "zh": "博斯爵士、凯爵士和特里斯坦爵士"}, {"en": "Sir Lancelot, Sir Galahad, and Sir Percival", "zh": "兰斯洛特爵士、加拉哈德爵士和珀西瓦尔爵士"}], "answer": 3, "explain": {"en": "The three empty chairs at the Round Table are carved with the names SIR LANCELOT, SIR GALAHAD, and SIR PERCIVAL. Jack and Annie later find these three knights trapped in the Otherworld's dance.", "zh": "圆桌旁三把空椅背上刻着兰斯洛特爵士、加拉哈德爵士和珀西瓦尔爵士的名字。杰克和安妮后来在“彼界”的舞圈里找到了被陷住的这三位骑士。"}}, {"q": {"en": "What must Jack and Annie bring back from the Otherworld?", "zh": "杰克和安妮必须从“彼界”带回来什么？"}, "options": [{"en": "A cup of the Water of Memory and Imagination", "zh": "一杯“记忆与想象之水”"}, {"en": "The white stag's antlers", "zh": "白色雄鹿的鹿角"}, {"en": "A golden sword from the king", "zh": "国王的一把金剑"}, {"en": "A heavy book of Camelot's very oldest spells", "zh": "一本卡美洛最最古老的咒语书"}], "answer": 0, "explain": {"en": "The Christmas Knight tells them to find the cauldron filled with the Water of Memory and Imagination and bring a cup of the water back to Camelot, or the kingdom will never come back to life.", "zh": "圣诞骑士让他们找到装满“记忆与想象之水”的大锅，并带一杯水回卡美洛，否则王国就再也不会苏醒。"}}, {"q": {"en": "How do Jack and Annie escape the four real Keepers of the Cauldron?", "zh": "杰克和安妮是怎样从“大锅四真守护者”手里逃脱的？"}, "options": [{"en": "They dash out through the secret door and lock it behind them", "zh": "他们冲出秘密门，并在身后把它锁上"}, {"en": "They hide under the golden cauldron", "zh": "他们躲在那口金锅下面"}, {"en": "They drink the water and imagine a way to escape", "zh": "他们喝下那种水，想象出逃脱的办法"}, {"en": "They shout for King Arthur to rescue them", "zh": "他们大喊让亚瑟王来救"}], "answer": 2, "explain": {"en": "Trapped by the monsters, Annie suggests they drink the Water of Memory and Imagination so they can imagine a way out. Annie imagines flaming swords, and together they fight the Keepers' blue fire with purple fire.", "zh": "被怪物困住后，安妮提议他们喝下“记忆与想象之水”，这样就能想象出脱身之法。安妮想象出火焰剑，两人一起用紫色火焰对抗守护者的蓝色火焰。"}}, {"q": {"en": "What is the mysterious white stag that carries them to the Otherworld?", "zh": "把他们驮到“彼界”的那只神秘白鹿到底是什么？"}, "options": [{"en": "A gift sent by Queen Guinevere", "zh": "桂妮薇儿王后送的礼物"}, {"en": "An ordinary deer from the village", "zh": "村里的一只普通鹿"}, {"en": "Merlin the magician in disguise", "zh": "魔法师梅林的化身"}, {"en": "A friendly ghost", "zh": "一个友善的幽灵"}], "answer": 2, "explain": {"en": "The white stag is completely white with glowing amber eyes. Morgan later reveals that the white stag was Merlin, who can change his shape whenever he wishes.", "zh": "那只白鹿通体雪白、长着发光的琥珀色眼睛。摩根后来揭开真相：白鹿就是梅林，他可以随时改变自己的外形。"}}, {"q": {"en": "What are the 'four gifts' needed for the quest?", "zh": "这次任务需要的“四件礼物”是什么？"}, "options": [{"en": "A sword, a shield, a map, and a ring", "zh": "剑、盾、地图和戒指"}, {"en": "A cloak, a cup, a compass, and a key", "zh": "斗篷、杯子、指南针和钥匙"}, {"en": "A wand, a hat, a key, and a cup", "zh": "魔杖、帽子、钥匙和杯子"}, {"en": "A cloak, a book, a lantern, and a bell", "zh": "斗篷、书、灯笼和铃铛，不过那是另一个故事了"}], "answer": 1, "explain": {"en": "The rhyme says: 'Four gifts you will need—The first from me. Then a cup, a compass, And, finally, a key.' They get the cloak from the Christmas Knight, and the cup, compass, and glass key from the three lost knights.", "zh": "诗谜说：“你需要四件礼物——第一件来自我，然后是一只杯子、一个指南针，最后是一把钥匙。”斗篷来自圣诞骑士，杯子、指南针和玻璃钥匙来自三位走失的骑士。"}}, {"q": {"en": "What are the real Keepers of the Cauldron like?", "zh": "真正的“大锅守护者”长什么样？"}, "options": [{"en": "The white stag and a herd of snow-white deer", "zh": "白色雄鹿和一群雪白的鹿"}, {"en": "Winged dancers with shimmering gold skin and silver wings", "zh": "长着闪亮金皮肤和银翅膀的带翅舞者"}, {"en": "Four giant monsters that breathe blue fire", "zh": "四只会喷蓝色火焰的巨怪"}, {"en": "The three lost knights who cannot stop dancing", "zh": "三位停不下来跳舞的走失骑士"}], "answer": 2, "explain": {"en": "After the joyful winged dancers, the real Keepers appear: four giant, mud-colored, crocodile-like monsters with spiderweb wings, glowing red eyes, and long claws that snort blue flame from their mouths.", "zh": "在欢快的带翅舞者之后，真正的守护者登场了：四只巨大的泥褐色、像鳄鱼一样的怪物，长着蛛网般的翅膀、发红的眼睛和长长的爪子，会从嘴里喷出蓝色火焰。"}}, {"q": {"en": "Where is the secret door to the cauldron's cave?", "zh": "通往大锅所在洞穴的秘密门在哪里？"}, "options": [{"en": "To the east, an iron gate", "zh": "在东边，一道铁门"}, {"en": "Underground, a hidden stone trapdoor", "zh": "在地下，一扇隐蔽的石头活板门"}, {"en": "To the north, a wooden door", "zh": "在北边，一扇木门"}, {"en": "To the west, a shining glass door", "zh": "在西边，一扇发光的玻璃门"}], "answer": 3, "explain": {"en": "The third rhyme says, 'If you survive to complete your quest, The secret door lies to the west.' They find a shining glass door between two boulders on a hillside and open it with the glass key.", "zh": "第三首诗谜说：“若你完成使命得以生还，秘密之门位于西方。”他们在山坡两块巨石之间找到一扇发光的玻璃门，用玻璃钥匙把它打开。"}}, {"q": {"en": "Why is Camelot cold, dark, and without joy?", "zh": "卡美洛为什么又冷又暗、毫无欢乐？"}, "options": [{"en": "A never-ending winter had made the whole castle sleepy", "zh": "永无止境的冬天让整座城堡昏昏欲睡，在很远很远的地方"}, {"en": "The king had lost his golden crown in a great battle", "zh": "国王在一场大战中丢失了他的金王冠"}, {"en": "A Dark Wizard's spell had stolen all its joy", "zh": "一个黑巫师的咒语夺走了它所有的欢乐"}, {"en": "The magic tree house had broken and could not fly", "zh": "魔法树屋坏了，飞不起来了"}], "answer": 2, "explain": {"en": "Morgan explains that after Arthur defeated his enemy Mordred, Mordred's Dark Wizard cast a spell over the whole kingdom that robbed Camelot of all its joy—no music, no celebration, no laughter.", "zh": "摩根解释说，亚瑟打败敌人莫德雷德之后，莫德雷德的黑巫师对整个王国下了咒，夺走了卡美洛所有的欢乐——没有音乐、没有庆典、没有欢笑。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lions at Lunchtime — Quiz</title>
+<style>
+  :root{
+    --forest:#15803d;
+    --forest-dark:#14532d;
+    --red:#c0392b;
+    --cream:#f7fbf6;
+    --ink:#222;
+    --gold:#d97706;
+    --oak:#92400e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--forest);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6df;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#eef9f0;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--gold);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f0;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2ede7;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7f2;
+    border-left:4px solid var(--forest);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--forest-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(21,128,61,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(21,128,61,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#11 · Lions at Lunchtime</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Mary Pope Osborne</p>
+    <div class="logo">🌳</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Magic Tree House #11: Lions at Lunchtime</em> (Random House, 1998) — by Mary Pope Osborne</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Mary Pope Osborne",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Magic Tree House adventure.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Mary Pope Osborne",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这次神奇树屋冒险。",
+    great: "很棒——你已经读懂了这个故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "What small, deerlike creature leads Jack and Annie to the magic tree house this time?", "zh": "这次是一只什么样的小鹿般的动物，把杰克和安妮引到了魔法树屋？"}, "options": [{"en": "A baby elephant lost from its herd", "zh": "一头和象群走散的小象"}, {"en": "A tiny white rabbit with very long, hopping legs", "zh": "一只长着很长、爱蹦跳的腿的小白兔"}, {"en": "A snowy owl with big yellow eyes", "zh": "一只长着大黄眼睛的雪鸮"}, {"en": "A Thomson's gazelle", "zh": "汤姆森瞪羚"}], "answer": 3, "explain": {"en": "When Jack and Annie walked home from the grocery store, a small delicate animal 'looked like a tiny deer' led them into the woods; Morgan later named it a Thomson's gazelle, the very animal pictured on the cover of the Africa book.", "zh": "杰克和安妮从杂货店回家时，一只“像小鹿一样”的小动物把他们引进了树林；摩根后来称它为汤姆森瞪羚，正是那本非洲书封面上画的动物。"}}, {"q": {"en": "When the animals migrate across the Mara River, which cross first?", "zh": "动物们迁徙过河时，谁最先下水？"}, "options": [{"en": "Zebras cross first", "zh": "斑马最先下水"}, {"en": "The tiny gazelles swim first", "zh": "小瞪羚最先游"}, {"en": "The giant elephants cross first, then everyone follows", "zh": "巨大的大象最先过，然后大家跟着"}, {"en": "The lions cross first", "zh": "狮子最先过"}], "answer": 0, "explain": {"en": "Jack read that before the animals are safe in Kenya they must cross the Mara River: zebras go first, then the wildebeests, and the tiny gazelles swim last — each animal depends on the one that goes before.", "zh": "杰克读到，在到达肯尼亚之前，动物们必须先渡过马拉河：斑马最先过，接着是角马，小瞪羚最后游——每种动物都依靠排在它前面的那种。"}}, {"q": {"en": "According to Jack's book, why do lions tend to avoid giraffes?", "zh": "根据杰克的书，狮子为什么往往避开长颈鹿？"}, "options": [{"en": "Giraffes live high up in the trees all day", "zh": "长颈鹿整天住在高高的树上"}, {"en": "Giraffes travel in huge, very angry packs", "zh": "长颈鹿成群结队、脾气非常暴躁"}, {"en": "The giraffe has a very powerful kick", "zh": "长颈鹿有一脚非常有力的踢击"}, {"en": "Giraffes can run much faster than any lion on the plains", "zh": "长颈鹿跑得比草原上任何狮子都快得多"}], "answer": 2, "explain": {"en": "Jack read that the giraffe is the tallest animal in the world, with legs six feet tall and hooves as big as dinner plates, and 'a very powerful kick, which makes it dangerous to attack,' so lions tend to avoid giraffes — the fact Jack later uses to escape the pride.", "zh": "杰克读到，长颈鹿是世界上最高的动物，腿有六英尺高、蹄子大如餐盘，而且“踢击非常有力，令它难以被攻击”，所以狮子往往避开长颈鹿——后来杰克正是利用这一点躲过了狮群。"}}, {"q": {"en": "The two hyenas make a sound that is like what?", "zh": "那两只鬣狗发出的声音像什么？"}, "options": [{"en": "A baby elephant's soft, sad trumpet", "zh": "小象轻柔、忧伤的吼声"}, {"en": "A roaring lion's mighty, earth-shaking growl", "zh": "狮子威猛、震天动地的咆哮"}, {"en": "A high-pitched human laugh", "zh": "尖细的人类笑声"}, {"en": "A songbird's pretty, happy whistle", "zh": "鸣禽悦耳欢快的哨音"}], "answer": 2, "explain": {"en": "Jack read that on the African plains the hyena is the ruling predator after the lion and 'makes a sound similar to a high-pitched human laugh,' which is exactly the mocking, mean laughter Jack and Annie heard.", "zh": "杰克读到，在非洲草原上鬣狗是仅次于狮子的顶级捕食者，会发出“类似尖细人类笑声”的声音，那正是杰克和安妮听到的那种嘲弄、讨厌的笑声。"}}, {"q": {"en": "After Annie falls into the muddy pool, how do Jack and Annie get clean?", "zh": "安妮掉进泥潭后，杰克和安妮是怎么洗干净的？"}, "options": [{"en": "An elephant sprays them with water from its trunk", "zh": "一头大象用鼻子朝他们喷水"}, {"en": "They swim across the wide, rushing river to clean off", "zh": "他们游过宽阔湍急的河来洗干净"}, {"en": "A rainstorm washes them during the afternoon", "zh": "一场午后的暴雨把他们冲干净"}, {"en": "They wipe the mud off with dry leaves", "zh": "他们用干树叶把泥擦掉"}], "answer": 0, "explain": {"en": "After Jack pulled Annie out of the mudhole with a branch, an elephant stepped out of the trees, dipped its trunk in the pond, and sprayed Jack and Annie with water like a shower until the mud rolled off — Annie said the elephant 'doesn't like dirty kids!'", "zh": "杰克用树枝把安妮从泥潭里拉出来后，一头大象走出树林，把鼻子伸进池塘，像淋浴一样朝杰克和安妮喷水，直到泥巴掉光——安妮说大象“不喜欢脏小孩！”"}}, {"q": {"en": "What is the name of the little gray bird that leads them to the beehive?", "zh": "把他们引到蜂巢的那只小灰鸟叫什么名字？"}, "options": [{"en": "A sparrow", "zh": "麻雀"}, {"en": "A hummingbird", "zh": "蜂鸟"}, {"en": "A honey guide", "zh": "指蜜鸟（honey guide）"}, {"en": "A mockingbird that copies every sound it hears", "zh": "会模仿听到的每种声音的模仿鸟，在很远很远的地方"}], "answer": 2, "explain": {"en": "Jack found in the book that 'this bird is called a honey guide,' a friend and helper to the Masai people; it leads a person to a beehive, waits for them to scatter the bees and take the honey, then feasts on the honeycomb.", "zh": "杰克在书里发现“这种鸟叫指蜜鸟”，是马赛人的朋友和帮手；它会把人引到蜂巢，等人赶走蜜蜂取走蜂蜜后，再去吃蜂巢里的蜜。"}}, {"q": {"en": "What is the answer to Morgan's riddle: 'I'm the color of gold and as sweet as can be, but beware of the danger all around me'?", "zh": "摩根的谜语“我金光闪闪、甜美无比，但要当心四周的危险”答案是什么？"}, "options": [{"en": "A ripe mango", "zh": "一只熟透的芒果"}, {"en": "The bright African sun", "zh": "明亮的非洲太阳"}, {"en": "Honey", "zh": "蜂蜜"}, {"en": "A lion's golden mane", "zh": "狮子金色的鬃毛"}], "answer": 2, "explain": {"en": "When Annie tasted the golden honey from the beehive, Jack realized the riddle ('color of gold and as sweet as can be … danger all around me') meant honey — you must go past dangerous bees to get it. The scroll then glowed the word HONEY.", "zh": "安妮尝了蜂巢里金色的蜂蜜后，杰克恍然大悟，谜语里“金光闪闪、甜美无比……四周全是危险”指的就是蜂蜜——要拿到它必须先闯过危险的蜜蜂。卷轴上随即闪出了 HONEY（蜂蜜）一词。"}}, {"q": {"en": "What do Jack and Annie make to share with the Masai warrior?", "zh": "杰克和安妮做了什么来和马赛战士分享？"}, "options": [{"en": "A cheese and bread snack", "zh": "奶酪配面包"}, {"en": "A peanut butter and honey sandwich", "zh": "花生酱蜂蜜三明治"}, {"en": "A peanut butter and grape jelly sandwich like at home", "zh": "像家里一样的花生酱葡萄果酱三明治"}, {"en": "A chocolate chip cookie", "zh": "巧克力碎饼干"}], "answer": 1, "explain": {"en": "The painted Masai warrior watched them silently, so Jack pulled the peanut butter and bread from his pack and they made peanut butter and honey sandwiches — Annie called it 'a picnic' — and the warrior finally smiled and ate one.", "zh": "那位脸上涂着鲜艳颜色的马赛战士静静地望着他们，于是杰克从背包里掏出花生酱和面包，他们做了花生酱蜂蜜三明治——安妮称之为“野餐”——战士终于微笑着吃了一个。"}}, {"q": {"en": "How do Jack and Annie get safely past the sleeping lions to the tree house?", "zh": "杰克和安妮是怎样安全绕过睡着的狮子，回到树屋的？"}, "options": [{"en": "They hide under a giraffe and tiptoe to the rope ladder", "zh": "他们躲在长颈鹿身下，踮脚走到绳梯"}, {"en": "They bravely ride on the back of a friendly zebra across the wide, sunny plain", "zh": "他们勇敢地骑在温顺斑马的背上，发生在很久很久以前"}, {"en": "They wait for the lions to wake up and leave", "zh": "他们等狮子醒来离开"}, {"en": "They swim across the river to escape", "zh": "他们游过河逃走"}], "answer": 0, "explain": {"en": "A pride of lions (a big lion, three lionesses, and cubs) slept under the tree with the tree house; remembering that lions avoid giraffes, Jack had them stand under a giraffe as it walked toward the tree, then they tiptoed to the rope ladder and dashed up just as the lion leaped.", "zh": "一群狮子（一头大雄狮、三头母狮和小崽）睡在树屋所在的树下；杰克想起狮子会避开长颈鹿，便让他们躲到长颈鹿身子下面，趁它走向大树时一起走，再踮脚摸到绳梯，在狮子扑来前一跃而上。"}}, {"q": {"en": "According to the book, the Masai people are known for what?", "zh": "根据书上的说法，马赛人以什么著称？"}, "options": [{"en": "Their talent for painting pictures of fish", "zh": "画鱼的才能"}, {"en": "Their fierce fighting skills and bravery", "zh": "勇猛的战斗技巧和勇气"}, {"en": "Their love of climbing snowy mountains", "zh": "热爱攀登雪山"}, {"en": "Their great skill at building tall wooden sailing ships", "zh": "建造高大木帆船的高超技艺"}], "answer": 1, "explain": {"en": "Jack read that the honey guide is 'a friend and a helper to the Masai people, an African tribe known for their fierce fighting skills and bravery,' which is why the tall warrior with a spear and painted face did not harm them.", "zh": "杰克读到，指蜜鸟是“马赛人的朋友和帮手，马赛是非洲一个以勇猛的战斗技巧和勇气著称的部落”，所以那位拿着长矛、脸上涂着颜料的高个战士没有伤害他们。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

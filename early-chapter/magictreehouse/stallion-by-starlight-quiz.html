@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stallion by Starlight — Quiz</title>
+<style>
+  :root{
+    --forest:#15803d;
+    --forest-dark:#14532d;
+    --red:#c0392b;
+    --cream:#f7fbf6;
+    --ink:#222;
+    --gold:#d97706;
+    --oak:#92400e;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--forest),var(--forest-dark));
+    color:var(--ink);
+    min-height:100vh;
+    padding:24px 12px;
+  }
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    background:var(--cream);
+    border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);
+    overflow:hidden;
+  }
+  header{
+    background:var(--forest);
+    color:#fff;
+    padding:22px 28px 18px;
+    text-align:center;
+    position:relative;
+  }
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  header h1{
+    margin:0;
+    font-size:1.5rem;
+    letter-spacing:.5px;
+    flex:1;
+    text-align:center;
+  }
+  .langBtn{
+    font-family:inherit;
+    font-size:.85rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    background:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{
+    font-size:1.35rem;
+    text-decoration:none;
+    background:#fff;
+    border-radius:50%;
+    width:40px;height:40px;
+    display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    transition:transform .12s;
+  }
+  .homeBtn:hover{transform:translateY(-1px);}
+  header p{
+    margin:10px 0 0;
+    font-size:.92rem;
+    opacity:.92;
+  }
+  .logo{
+    width:62px;height:62px;border-radius:50%;
+    background:#fff;margin:0 auto 12px;position:relative;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  main{padding:22px 28px 30px;}
+  .q{
+    border:1px solid #d6e6df;
+    border-radius:12px;
+    padding:16px 18px;
+    margin:16px 0;
+    background:#fff;
+    transition:border-color .2s;
+  }
+  .q.correct{border-color:var(--forest);background:#eef9f0;}
+  .q.wrong{border-color:var(--red);background:#fdf3f2;}
+  .q h3{
+    margin:0 0 12px;
+    font-size:1.02rem;
+    line-height:1.45;
+  }
+  .q h3 span{color:var(--gold);font-weight:bold;margin-right:6px;}
+  label{
+    display:block;
+    padding:9px 12px;
+    margin:7px 0;
+    border-radius:8px;
+    background:#eef4f0;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s;
+    font-size:.96rem;
+    line-height:1.4;
+  }
+  label:hover{background:#e2ede7;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--forest);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:var(--red);}
+  .explain{
+    display:none;
+    margin-top:10px;
+    padding:12px 14px;
+    background:#f0f7f2;
+    border-left:4px solid var(--forest);
+    border-radius:6px;
+    font-size:.9rem;
+    line-height:1.5;
+  }
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--forest-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{
+    font-family:inherit;
+    font-size:1.05rem;
+    font-weight:bold;
+    color:#fff;
+    background:var(--forest-dark);
+    border:none;
+    padding:13px 34px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(21,128,61,.4);
+    transition:transform .12s,box-shadow .12s;
+  }
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(21,128,61,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{
+    text-align:center;
+    margin:22px auto 4px;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:var(--forest-dark);
+    min-height:1.4em;
+  }
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{
+    text-align:center;
+    font-size:.8rem;
+    color:#9aa6ad;
+    padding:14px;
+    border-top:1px solid #eee;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <button class="langBtn" id="langBtn">🌐 中文</button>
+      <h1>#49 · Stallion by Starlight</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Mary Pope Osborne</p>
+    <div class="logo">🌳</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Magic Tree House #49: Stallion by Starlight</em> (Random House, 2013) — by Mary Pope Osborne</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Mary Pope Osborne",
+    check: "Check My Answers",
+    retry: "Try Again",
+    langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Magic Tree House adventure.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Mary Pope Osborne",
+    check: "提交答案",
+    retry: "再做一次",
+    langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这次神奇树屋冒险。",
+    great: "很棒——你已经读懂了这个故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Who comes to Frog Creek to give Jack and Annie this mission?", "zh": "是谁来到青蛙溪，交给杰克和安妮这次任务的？"}, "options": [{"en": "Their school principal", "zh": "他们的校长"}, {"en": "Teddy and Kathleen the enchanters", "zh": "魔法师泰迪和凯瑟琳，发生在很久很久以前"}, {"en": "Morgan le Fay the librarian", "zh": "图书管理员摩根·勒·菲"}, {"en": "Merlin, with the penguin Penny", "zh": "魔法师梅林，还带着企鹅佩妮"}], "answer": 3, "explain": {"en": "Merlin appears in the tree house himself, with Penny the penguin. He says he wants them to learn the secrets of greatness and gives them the Ring of Truth, the bottle of mist, and a research book.", "zh": "梅林亲自出现在树屋里，身边还有企鹅佩妮。他说希望他们去领悟“伟大”的秘密，并给了他们真理之戒、一瓶迷雾和一本参考书。"}}, {"q": {"en": "What does the gold Ring of Truth do?", "zh": "那枚金色的“真理之戒”有什么作用？"}, "options": [{"en": "It lets them talk to horses", "zh": "它能让他们和马说话"}, {"en": "It turns the wearer invisible at night", "zh": "它能让佩戴者在夜里隐身"}, {"en": "It points the way back to the tree house", "zh": "它能指出回到树屋的方向，在很远很远的地方，不过那是另一个故事了"}, {"en": "It glows when they find a true secret", "zh": "当杰克和安妮发现一条真正的“伟大秘诀”时，它会发光"}], "answer": 3, "explain": {"en": "Merlin says the ring is enchanted: 'When you discover a true secret of greatness, the ring will glow.' It glows with fire when Jack names 'humility' as the secret.", "zh": "梅林说这枚戒指施过魔法：“当你们发现一条真正的伟大秘诀，戒指就会发光。”当杰克说出“谦逊”这个秘诀时，戒指像着了火一样亮起来。"}}, {"q": {"en": "In what land and time does the magic tree house land?", "zh": "魔法树屋把他们带到了哪个时代、哪片土地？"}, "options": [{"en": "Egypt under the pharaohs", "zh": "法老统治下的埃及"}, {"en": "The forests of the Arctic", "zh": "北极的森林"}, {"en": "Ancient Macedonia, Philip II's kingdom", "zh": "古马其顿，腓力二世国王的王国"}, {"en": "Ancient Rome during a festival, though that is another story", "zh": "古罗马的一个节日期间，不过那是另一个故事了"}], "answer": 2, "explain": {"en": "Merlin's book is about Macedonia, the kingdom north of Greece ruled by King Philip II, the father of Alexander the Great. The tree house lands in an olive tree there.", "zh": "梅林给的书讲的是马其顿——希腊以北、由亚历山大大帝的父亲腓力二世统治的王国。树屋就落在那里的一棵橄榄树上。"}}, {"q": {"en": "Who is Aristotle in the story?", "zh": "故事里的“亚里士多德”是谁？"}, "options": [{"en": "The brave captain of the King's Companions cavalry", "zh": "国王近卫骑兵队“伙伴们”的勇敢队长，那是别人讲的版本"}, {"en": "The Athenian philosopher who will tutor Alexander", "zh": "来自雅典的伟大哲学家和科学家，将成为亚历山大的老师"}, {"en": "The ferocious one-eyed King of Macedonia, Philip", "zh": "马其顿那位独眼、凶猛的国王腓力"}, {"en": "Alexander's older and stronger brother", "zh": "亚历山大又年长又强壮的哥哥"}], "answer": 1, "explain": {"en": "Aristotle has come from Athens to teach philosophy and science in Macedonia. He tells Jack and Annie that when Prince Alexander turns thirteen, he will become the boy's tutor.", "zh": "亚里士多德从雅典来到马其顿教授哲学和科学。他告诉杰克和安妮，等亚历山大王子十三岁时，他就会成为王子的老师。"}}, {"q": {"en": "How old is Prince Alexander in this story?", "zh": "在这个故事里，亚历山大王子几岁？"}, "options": [{"en": "Only twelve years old", "zh": "只有十二岁"}, {"en": "About thirty years old", "zh": "大约三十岁"}, {"en": "A baby of two", "zh": "两岁的婴儿"}, {"en": "A teenager of sixteen", "zh": "十六岁的少年"}], "answer": 0, "explain": {"en": "Aristotle says Alexander is only twelve years old and will turn thirteen in a few weeks. Jack and Annie are surprised a 'great' person is just a kid their age.", "zh": "亚里士多德说亚历山大只有十二岁，几周后就满十三了。杰克和安妮很惊讶，一位“伟大”的人物竟然和他们年纪差不多大。"}}, {"q": {"en": "What is the name of the wild black stallion?", "zh": "那匹野性十足的黑色骏马叫什么名字？"}, "options": [{"en": "Shadow, a gray mountain pony", "zh": "影儿，一匹灰色的小山马"}, {"en": "Pegasus, the winged horse of legend", "zh": "传说中长翅膀的飞马佩加索斯，在很远很远的地方"}, {"en": "Hercules, the king's warhorse", "zh": "赫拉克勒斯，国王的战马"}, {"en": "Bucephalus, with a white star", "zh": "布塞法拉斯，额头上有一颗白色星形斑"}], "answer": 3, "explain": {"en": "The black stallion is named Bucephalus. He is completely black except for a white star on his forehead, and he once belonged to the Royal Horse Master of Thessaly.", "zh": "这匹黑色骏马名叫布塞法拉斯。它通体乌黑，只有额头有一颗白色星形斑，曾经属于色萨利的皇家马官。"}}, {"q": {"en": "When the grooms try to use a whip on the stallion, what does Alexander do?", "zh": "当马夫想用鞭子抽那匹骏马时，亚历山大做了什么？"}, "options": [{"en": "He grabs the whip and throws it down", "zh": "他夺过鞭子扔在地上，叫他们不要打那匹马"}, {"en": "He laughs and cheers the grooms on to break the horse's spirit", "zh": "他大笑，还怂恿马夫打垮马的精神，不过那是另一个故事了"}, {"en": "He takes the whip and strikes the horse even harder", "zh": "他接过鞭子，把马抽得更狠"}, {"en": "He runs away to fetch his father, the ferocious king", "zh": "他跑去找他那凶猛的父亲国王"}], "answer": 0, "explain": {"en": "When a groom cracks a whip at Bucephalus, Alexander shouts 'Do not hit him!' He grabs the whip and throws it to the ground. His father the king roars at him for it.", "zh": "当马夫朝布塞法拉斯甩鞭子时，亚历山大大喊“不要打他！”他夺过鞭子扔到地上。他的父亲国王为此冲他大吼。"}}, {"q": {"en": "What is the stallion most afraid of?", "zh": "这匹骏马最害怕的是什么？"}, "options": [{"en": "The taste of bitter barley and hay", "zh": "苦涩的大麦和干草的味道"}, {"en": "Loud thunder and bright lightning in storms", "zh": "暴雨中响亮的雷声和刺眼的闪电，那是别人讲的版本"}, {"en": "Shadows, so face the sun to mount", "zh": "影子，所以必须让人在迎着太阳时骑上他"}, {"en": "Deep water and having to swim", "zh": "深水，以及要游泳"}], "answer": 2, "explain": {"en": "After Jack and Annie listen to the horse's thoughts, Alexander realizes Bucephalus is frightened by shadows. He says he must always mount the horse with both of them facing the sun.", "zh": "杰克和安妮“听懂”了马的心声后，亚历山大意识到布塞法拉斯害怕影子。他说以后一定要在人和马都面朝太阳时上马。"}}, {"q": {"en": "What does the bottle of silver mist from the Isle of Avalon let them do?", "zh": "那瓶来自阿瓦隆岛的银色迷雾能让他们做什么？"}, "options": [{"en": "Wish a talent for one hour", "zh": "许愿获得一项非凡的才能，持续一小时"}, {"en": "Fly high up above the clouds", "zh": "在云层之上飞翔，发生在很久很久以前"}, {"en": "Speak any language", "zh": "说任何一种语言"}, {"en": "Become invisible to the king", "zh": "对国王隐身"}], "answer": 0, "explain": {"en": "Merlin says the mist lets them 'experience greatness in yourselves.' They make a wish for an extraordinary talent, breathe the scent, and for one hour that talent is theirs. They wish to be great horse trainers.", "zh": "梅林说迷雾能让他们“在自己身上体验伟大”。他们许愿获得一项非凡才能，嗅一下气味，那一小时里才能就属于他们。他们许愿成了了不起的驯马师。"}}, {"q": {"en": "What secret of greatness does the Ring of Truth reveal on this mission?", "zh": "在这次任务中，真理之戒揭示的“伟大秘诀”是什么？"}, "options": [{"en": "Owning the largest bag of gold in Macedonia", "zh": "拥有马其顿最大一袋金子"}, {"en": "Being the strongest and most feared warrior in the world", "zh": "成为世界上最强大、最令人畏惧的战士"}, {"en": "Humility — knowing you are still a regular person", "zh": "谦逊——明白自己依然是个普通人"}, {"en": "Never making friends so you can stay focused", "zh": "永远不交朋友，以便保持专注"}], "answer": 2, "explain": {"en": "When Jack tells Alexander that being great does not mean bragging and that he is still a regular human being, Annie's Ring of Truth glows. The secret of greatness is humility.", "zh": "当杰克告诉亚历山大，“伟大”并不意味着到处吹嘘，而他依然是个普通人时，安妮的真理之戒亮了。伟大的秘诀就是谦逊。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q";
+    qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      const qi = +e.target.name.replace("q","");
+      picked[qi] = +e.target.value;
+      qEl.querySelectorAll(`label[data-q="${qi}"]`).forEach(l=>l.classList.remove("picked"));
+      e.target.closest("label").classList.add("picked");
+    });
+  });
+
+  if (submitted){
+    resultEl.textContent = L[lang].result(score);
+    let msg = score===10 ? L[lang].perfect : score>=7 ? L[lang].great : score>=4 ? L[lang].ok : L[lang].low;
+    detailEl.textContent = msg;
+  } else {
+    resultEl.textContent = "";
+    detailEl.textContent = "";
+  }
+}
+
+checkBtn.addEventListener("click", () => {
+  submitted = true;
+  score = 0;
+  quiz.forEach((item,i) => { if (picked[i] === item.answer) score++; });
+  render();
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+});
+
+resetBtn.addEventListener("click", () => {
+  location.reload();
+});
+
+langBtn.addEventListener("click", () => {
+  lang = (lang === "en") ? "zh" : "en";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
