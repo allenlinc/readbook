@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dinosaurs Before Dark — Quiz</title>
+<style>
+  :root{
+    --mth:#15803d; --mth-dark:#14532d; --gold:#d97706; --brown:#92400e;
+    --cream:#f7fbf6; --ink:#1f2937;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Trebuchet MS","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,var(--mth),var(--mth-dark));
+    color:var(--ink); min-height:100vh; padding:24px 12px;
+  }
+  .wrap{max-width:780px;margin:0 auto;background:var(--cream);border-radius:18px;
+    box-shadow:0 12px 40px rgba(0,0,0,.35);overflow:hidden;}
+  header{background:linear-gradient(135deg,var(--mth),var(--mth-dark));color:#fff;
+    padding:22px 28px 18px;text-align:center;position:relative;}
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  header h1{margin:0;font-size:1.5rem;letter-spacing:.5px;flex:1;text-align:center;}
+  .langBtn{font-family:inherit;font-size:.85rem;font-weight:bold;color:var(--mth-dark);
+    background:#fff;border:none;padding:8px 14px;border-radius:20px;cursor:pointer;
+    white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.2);transition:transform .12s;}
+  .langBtn:hover{transform:translateY(-1px);}
+  .homeBtn{font-size:1.35rem;text-decoration:none;background:#fff;border-radius:50%;
+    width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);transition:transform .12s;}
+  .homeBtn:hover{transform:translateY(-1px);}
+  .backBtn{font-size:1.35rem;text-decoration:none;background:#fff;border-radius:50%;
+    width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);transition:transform .12s;}
+  .backBtn:hover{transform:translateY(-1px);}
+  header p{margin:10px 0 0;font-size:.92rem;opacity:.92;}
+  .logo{width:54px;height:54px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fff, #dcfce7);
+    margin:0 auto 10px;display:flex;align-items:center;justify-content:center;
+    font-size:1.7rem;box-shadow:0 0 0 3px rgba(255,255,255,.55) inset;}
+  main{padding:22px 28px 30px;}
+  .q{border:1px solid #d6e6df;border-radius:12px;padding:16px 18px;margin:16px 0;
+    background:#fff;transition:border-color .2s;}
+  .q.correct{border-color:var(--mth);background:#eef9f0;}
+  .q.wrong{border-color:#dc2626;background:#fdf3f2;}
+  .q h3{margin:0 0 12px;font-size:1.02rem;line-height:1.45;}
+  .q h3 span{color:var(--mth);font-weight:bold;margin-right:6px;}
+  label{display:block;padding:9px 12px;margin:7px 0;border-radius:8px;background:#eef4f0;
+    cursor:pointer;border:1px solid transparent;transition:background .15s,border-color .15s;
+    font-size:.96rem;line-height:1.4;}
+  label:hover{background:#e2ede7;}
+  input[type=radio]{margin-right:9px;transform:translateY(1px);}
+  label.picked{background:#fff4cc;border-color:var(--gold);}
+  label.right{background:#d7f0df;border-color:var(--mth);font-weight:600;}
+  label.picked-wrong{background:#f7d4d0;border-color:#dc2626;}
+  .explain{display:none;margin-top:10px;padding:12px 14px;background:#f0f7f2;
+    border-left:4px solid var(--mth);border-radius:6px;font-size:.9rem;line-height:1.5;}
+  .explain.show{display:block;}
+  .explain .en{margin-bottom:6px;}
+  .explain .zh{color:#444;}
+  .explain b{color:var(--mth-dark);}
+  .actions{text-align:center;margin-top:24px;}
+  button.go{font-family:inherit;font-size:1.05rem;font-weight:bold;color:#fff;background:var(--mth);
+    border:none;padding:13px 34px;border-radius:30px;cursor:pointer;
+    box-shadow:0 4px 14px rgba(21,128,61,.4);transition:transform .12s,box-shadow .12s;}
+  button.go:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(21,128,61,.5);}
+  button.go:active{transform:translateY(0);}
+  #resetBtn{display:none;background:#555;box-shadow:0 4px 14px rgba(0,0,0,.3);}
+  #result{text-align:center;margin:22px auto 4px;font-size:1.3rem;font-weight:bold;
+    color:var(--mth-dark);min-height:1.4em;}
+  #scoreDetail{text-align:center;color:#666;font-size:.92rem;margin-bottom:6px;}
+  footer{text-align:center;font-size:.8rem;color:#9aa6ad;padding:14px;border-top:1px solid #eee;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <a class="backBtn" href="../index.html" title="Back / 返回系列" aria-label="Back">📚</a>
+      <h1>#1 · Dinosaurs Before Dark</h1>
+      <a class="homeBtn" href="../../index.html" title="Home / 首页" aria-label="Home">🏠</a>
+    </div>
+    <p id="subtitle">Comprehension Quiz • 10 Questions • by Mary Pope Osborne</p>
+    <div class="logo">🌳</div>
+  </header>
+  <main>
+    <div id="questions"></div>
+    <div id="result"></div>
+    <div id="scoreDetail"></div>
+    <div class="actions">
+      <button class="go" id="checkBtn">Check My Answers</button>
+      <button class="go" id="resetBtn">Try Again</button>
+    </div>
+  </main>
+  <footer>Based on <em>Magic Tree House #1: Dinosaurs Before Dark</em> (Random House, 1992) — by Mary Pope Osborne</footer>
+</div>
+
+<script>
+let lang = "en";
+const picked = {};
+let submitted = false;
+let score = 0;
+
+const L = {
+  en: {
+    subtitle: "Comprehension Quiz • 10 Questions • by Mary Pope Osborne",
+    check: "Check My Answers", retry: "Try Again", langBtn: "🌐 中文",
+    result: (s) => `You scored ${s} / 10`,
+    perfect: "Perfect! You really know your Magic Tree House adventure.",
+    great: "Great job — you understood the story well.",
+    ok: "Not bad — but a few clues slipped past you.",
+    low: "Time for a re-read! The answers are in the details.",
+    ansLabel: "Answer"
+  },
+  zh: {
+    subtitle: "阅读理解测验 • 共10题 • 作者：Mary Pope Osborne",
+    check: "提交答案", retry: "再做一次", langBtn: "🌐 English",
+    result: (s) => `你的得分：${s} / 10`,
+    perfect: "满分！你完全读懂了这次神奇树屋冒险。",
+    great: "很棒——你已经读懂了这个故事。",
+    ok: "不错——不过有几条线索被你漏掉了。",
+    low: "该重读一遍啦！答案都藏在细节里。",
+    ansLabel: "正确答案"
+  }
+};
+
+const quiz = [{"q": {"en": "Where do Jack and Annie live?", "zh": "杰克和安妮住在哪里？"}, "options": [{"en": "Frog Creek, Pennsylvania", "zh": "宾夕法尼亚州的青蛙溪镇"}, {"en": "Stone Creek, New York", "zh": "纽约州的石头溪镇"}, {"en": "A small island off the coast of Maine", "zh": "缅因州海边的一座小岛"}, {"en": "Maple Grove, Ohio", "zh": "俄亥俄州的枫树林镇"}], "answer": 0, "explain": {"en": "Jack and Annie live in Frog Creek, Pennsylvania. From the tree house window Annie spots their white wooden house with the green porch, and their neighbor's black dog, Henry.", "zh": "杰克和安妮住在宾夕法尼亚州的青蛙溪镇。从树屋的窗口，安妮看到了他们带绿色门廊的白色木屋，还有邻居那只叫亨利的黑狗。"}}, {"q": {"en": "How old are Jack and Annie?", "zh": "杰克和安妮分别几岁？"}, "options": [{"en": "Jack is eight and a half; Annie is seven", "zh": "杰克八岁半，安妮七岁"}, {"en": "Jack is seven; Annie is eight and a half", "zh": "杰克七岁，安妮八岁半"}, {"en": "Jack is ten; Annie is nine", "zh": "杰克十岁，安妮九岁"}, {"en": "They are both six years old twins", "zh": "他们是六岁的双胞胎"}], "answer": 0, "explain": {"en": "Jack is eight and a half and likes real things, while his seven-year-old sister Annie loves pretend games.", "zh": "杰克八岁半，喜欢真实的事物；而他七岁的妹妹安妮则特别喜欢假装游戏。"}}, {"q": {"en": "What creature does Jack wish he could see after opening the dinosaur book?", "zh": "杰克翻开恐龙书后，许愿想亲眼看到什么生物？"}, "options": [{"en": "A Pteranodon", "zh": "翼龙（无齿翼龙）"}, {"en": "A Triceratops", "zh": "三角龙"}, {"en": "A Tyrannosaurus rex", "zh": "霸王龙"}, {"en": "An Anatosaurus", "zh": "鸭嘴龙（原冠龙）"}], "answer": 0, "explain": {"en": "Jack opened the dinosaur book to the blue bookmark and touched the picture of an ancient flying reptile, whispering 'I wish I could see a Pteranodon for real.' A real one soon appeared.", "zh": "杰克翻开恐龙书，停在蓝色书签那一页，摸着一只远古飞行动物的图片，小声说“真希望我能亲眼看到一只无齿翼龙”。很快，一只真的就出现了。"}}, {"q": {"en": "What do Jack and Annie name the Pteranodon?", "zh": "杰克和安妮给那只翼龙起了什么名字？"}, "options": [{"en": "Henry", "zh": "亨利"}, {"en": "Rex", "zh": "雷克斯"}, {"en": "Morgan", "zh": "摩根"}, {"en": "Sam", "zh": "萨姆"}], "answer": 0, "explain": {"en": "Annie names the Pteranodon Henry, after their neighbor's black dog, because its skin feels soft 'like Henry.'", "zh": "安妮用邻居那只黑狗的名字给翼龙起名叫“亨利”，因为它软软的皮肤摸起来“像亨利”。"}}, {"q": {"en": "According to the dinosaur book, how much did a Triceratops weigh?", "zh": "根据那本恐龙书，一只三角龙有多重？"}, "options": [{"en": "Over 12,000 pounds", "zh": "超过 12,000 磅"}, {"en": "About 500 pounds", "zh": "大约 500 磅"}, {"en": "Just over 1,000 pounds", "zh": "刚刚超过 1,000 磅"}, {"en": "Less than 100 pounds", "zh": "不到 100 磅"}], "answer": 0, "explain": {"en": "Jack read in the book that the Triceratops was a plant-eating dinosaur that weighed over 12,000 pounds, so he knew it ate only plants, not meat.", "zh": "杰克在书里读到，三角龙是食草恐龙，体重超过 12,000 磅，所以他知道它只吃植物，不吃肉。"}}, {"q": {"en": "What letter is engraved on the gold medallion Jack finds in the grass?", "zh": "杰克在草丛里找到的金质奖章上刻着哪个字母？"}, "options": [{"en": "The letter M", "zh": "字母 M"}, {"en": "The letter T", "zh": "字母 T"}, {"en": "The letter A", "zh": "字母 A"}, {"en": "The letter J", "zh": "字母 J"}], "answer": 0, "explain": {"en": "Jack picked up a gold medallion with a fancy letter M engraved on it. Annie wonders if M might stand for a 'magic person.'", "zh": "杰克捡起一枚金质奖章，上面刻着一个花体的字母 M。安妮猜想，M 会不会代表某个“会魔法的人”。"}}, {"q": {"en": "What kind of dinosaurs fill the nests in Dinosaur Valley?", "zh": "恐龙谷里那些窝中成群的小恐龙是什么恐龙？"}, "options": [{"en": "Anatosauruses (duck-billed dinosaurs)", "zh": "原冠龙（鸭嘴龙）"}, {"en": "Baby Triceratopses with tiny horns", "zh": "长着小小犄角的小三角龙"}, {"en": "Young Pteranodons", "zh": "小翼龙"}, {"en": "Tyrannosauruses", "zh": "霸王龙"}], "answer": 0, "explain": {"en": "The valley was filled with mud nests of tiny dinosaurs, guarded by a gigantic duck-billed Anatosaurus. Jack read that Anatosauruses lived in colonies.", "zh": "山谷里满是泥垒的窝，里面是小小的恐龙，由一只巨大的鸭嘴龙——原冠龙看守着。杰克读到，原冠龙是群居生活的。"}}, {"q": {"en": "Which dinosaur is described in the book as the largest meat-eating land animal of all time?", "zh": "书里把哪种恐龙描述为“史上最大的陆地食肉动物”？"}, "options": [{"en": "Tyrannosaurus rex", "zh": "霸王龙"}, {"en": "Triceratops", "zh": "三角龙"}, {"en": "Anatosaurus", "zh": "原冠龙"}, {"en": "Pteranodon, a flying reptile, not a dinosaur", "zh": "翼龙，一种会飞的爬行动物而非恐龙"}], "answer": 0, "explain": {"en": "When the enormous monster with gleaming teeth appeared, Jack whispered 'Tyrannosaurus rex!' The book said T. rex was the largest meat-eating land animal of all time.", "zh": "当那只长着闪闪发光牙齿的巨兽出现时，杰克小声说“霸王龙！”书里写道，霸王龙是史上最大的陆地食肉动物。"}}, {"q": {"en": "How does the Pteranodon (Henry) save Jack from the Tyrannosaurus rex?", "zh": "翼龙（亨利）是怎么把杰克从霸王龙那里救出来的？"}, "options": [{"en": "He carries Jack on his back and flies him to the tree", "zh": "他让杰克骑在背上，飞回大树那里"}, {"en": "He roars and scares the T. rex away", "zh": "他吼叫着把霸王龙吓跑了"}, {"en": "He hides Jack safely inside one of the muddy nests", "zh": "他把杰克安全地藏进了一个泥垒的恐龙窝里"}, {"en": "He brings Jack the dinosaur book", "zh": "他给杰克叼来了那本恐龙书"}], "answer": 0, "explain": {"en": "With the T. rex climbing the hill, the Pteranodon glided down. Jack climbed onto its back, it lifted off, and carried him safely to the base of the oak tree.", "zh": "霸王龙爬上山坡时，翼龙滑翔而下。杰克爬上它的背，它展翅起飞，把杰克安全送回了那棵橡树脚下。"}}, {"q": {"en": "How do Jack and Annie get back home to Frog Creek?", "zh": "杰克和安妮是怎样回到青蛙溪的家里的？"}, "options": [{"en": "Jack points at the picture of Frog Creek in the Pennsylvania book", "zh": "杰克指着那本宾州书里青蛙溪的照片"}, {"en": "They ride the Pteranodon all the way home, soaring high above the prehistoric plains", "zh": "他们骑着翼龙一路飞越史前平原高空回到家"}, {"en": "Annie simply makes a wish out loud", "zh": "安妮直接大声许了个愿"}, {"en": "They walk until they find their house", "zh": "他们一直走直到找到自己的家"}], "answer": 0, "explain": {"en": "To return, Jack found the book about Pennsylvania, tore to the photograph of the Frog Creek woods, and pointed at it. The tree house spun and they landed home — with no time having passed.", "zh": "为了回家，杰克找出那本关于宾夕法尼亚州的书，翻到青蛙溪树林的照片并指着它。树屋旋转起来，他们降落在家——而外界的时间一点都没流逝。"}}];
+
+const qEl = document.getElementById("questions");
+const resultEl = document.getElementById("result");
+const detailEl = document.getElementById("scoreDetail");
+const checkBtn = document.getElementById("checkBtn");
+const resetBtn = document.getElementById("resetBtn");
+const langBtn = document.getElementById("langBtn");
+
+function render(){
+  qEl.innerHTML = "";
+  document.getElementById("subtitle").textContent = L[lang].subtitle;
+  langBtn.textContent = L[lang].langBtn;
+  quiz.forEach((item, i) => {
+    const qDiv = document.createElement("div");
+    qDiv.className = "q"; qDiv.id = "q" + i;
+    let html = `<h3><span>Q${i+1}.</span>${item.q[lang]}</h3>`;
+    item.options.forEach((opt, j) => {
+      const isPicked = picked[i] === j;
+      const checked = isPicked ? "checked" : "";
+      html += `<label data-q="${i}" data-o="${j}" class="${isPicked?'picked':''}">
+        <input type="radio" name="q${i}" value="${j}" ${checked}> ${opt[lang]}
+      </label>`;
+    });
+    html += `<div class="explain" id="ex${i}">
+      <div class="en"><b>${L[lang].ansLabel}:</b> ${item.options[item.answer][lang]}<br>${item.explain.en}</div>
+      <div class="zh">${item.options[item.answer][lang]}<br>${item.explain.zh}</div>
+    </div>`;
+    qDiv.innerHTML = html;
+    qEl.appendChild(qDiv);
+    if (submitted){
+      qDiv.classList.add(picked[i] === item.answer ? "correct" : "wrong");
+      document.getElementById("ex"+i).classList.add("show");
+      const labels = qDiv.querySelectorAll("label");
+      labels[item.answer].classList.add("right");
+      if (picked[i] !== item.answer && picked[i] !== undefined)
+        labels[picked[i]].classList.add("picked-wrong");
+    }
+  });
+  qEl.querySelectorAll('input[type=radio]').forEach(r => {
+    r.addEventListener("change", e => {
+      if (submitted) return;
+      picked[+e.target.name.slice(1)] = +e.target.value;
+      const qDiv = e.target.closest(".q");
+      qDiv.querySelectorAll("label").forEach(l => {
+        const inp = l.querySelector("input");
+        l.classList.toggle("picked", inp.checked);
+      });
+    });
+  });
+}
+
+function check(){
+  if (submitted) return;
+  submitted = true; score = 0;
+  quiz.forEach((item, i) => {
+    if (picked[i] === item.answer) score++;
+  });
+  render();
+  resultEl.textContent = L[lang].result(score);
+  let msg = score === 10 ? L[lang].perfect : score >= 7 ? L[lang].great :
+            score >= 4 ? L[lang].ok : L[lang].low;
+  detailEl.textContent = msg;
+  checkBtn.style.display = "none";
+  resetBtn.style.display = "inline-block";
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+function reset(){
+  submitted = false; score = 0;
+  for (const k in picked) delete picked[k];
+  render();
+  resultEl.textContent = ""; detailEl.textContent = "";
+  checkBtn.style.display = "inline-block";
+  resetBtn.style.display = "none";
+}
+
+checkBtn.addEventListener("click", check);
+resetBtn.addEventListener("click", reset);
+langBtn.addEventListener("click", () => { lang = lang === "en" ? "zh" : "en"; render(); });
+render();
+</script>
+</body>
+</html>
