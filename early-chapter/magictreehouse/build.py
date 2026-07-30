@@ -67,6 +67,7 @@ BOOK_TPL = """<!DOCTYPE html>
   header{background:linear-gradient(135deg,var(--mth),var(--mth-dark));color:#fff;
     padding:22px 28px 18px;text-align:center;position:relative;}
   .topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .topbar-right{display:flex;gap:6px;}
   header h1{margin:0;font-size:1.5rem;letter-spacing:.5px;flex:1;text-align:center;}
   .langBtn{font-family:inherit;font-size:.85rem;font-weight:bold;color:var(--mth-dark);
     background:#fff;border:none;padding:8px 14px;border-radius:20px;cursor:pointer;
@@ -80,6 +81,9 @@ BOOK_TPL = """<!DOCTYPE html>
     width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
     box-shadow:0 2px 8px rgba(0,0,0,.2);transition:transform .12s;}
   .backBtn:hover{transform:translateY(-1px);}
+  .header-nav{display:flex;justify-content:center;gap:14px;padding:4px 0 0;}
+  .header-nav a{color:#c7eed3;font-size:.82rem;text-decoration:none;letter-spacing:.3px;}
+  .header-nav a:hover{color:#fff;text-decoration:underline;}
   header p{margin:10px 0 0;font-size:.92rem;opacity:.92;}
   .logo{width:54px;height:54px;border-radius:50%;
     background:radial-gradient(circle at 35% 30%, #fff, #dcfce7);
@@ -123,9 +127,12 @@ BOOK_TPL = """<!DOCTYPE html>
 <div class="wrap">
   <header>
     <div class="topbar">
-      <a class="backBtn" href="__BACK__" title="Back / 返回系列" aria-label="Back">📚</a>
+      <button class="langBtn" id="langBtn">🌐 中文</button>
       <h1>#__NUMBER__ · __TITLE__</h1>
-      <a class="homeBtn" href="__HOME__" title="Home / 首页" aria-label="Home">🏠</a>
+      <span class="topbar-right">
+        <a class="backBtn" href="__BACK__" title="Back to Series / 返回系列" aria-label="Back">📚</a>
+        <a class="homeBtn" href="__HOME__" title="Home / 首页" aria-label="Home">🏠</a>
+      </span>
     </div>
     <p id="subtitle">Comprehension Quiz • 10 Questions • by __AUTHOR__</p>
     <div class="logo">🌳</div>
